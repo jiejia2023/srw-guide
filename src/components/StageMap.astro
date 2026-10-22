@@ -12,7 +12,15 @@
 // tile sheet (map.tileSheet/tileCells, sliced from the GX map renders) or the
 // per-terrain canonical tile (map.tileImgs) - and every unit shows its NAME on
 // the map (label strip under its sprite, or a name chip where no sprite exists).
-// Larger tiles + a 标准/放大 zoom toggle. Legacy mode (SRW 4 etc.) is glyph-based.
+// Larger tiles + a 标准/放大 zoom toggle. Legacy mode is glyph-based.
+//
+// CHIPS MODE (opt-in via the `nameChips` prop, no sprites — e.g. SRW 4, whose
+// GX images are minimaps that cannot yield sprites): same fixed-tile layout
+// and zoom as rich mode, but every unit entry on a tile renders as a NAME
+// CHIP in the rich mode's chip colours, stacked vertically when several
+// units share a tile (sequential reinforcement waves reusing an entry
+// tile). Non-unit points (buried items etc.) stay glyph badges. Default
+// rendering for pages that pass neither prop is unchanged (legacy glyphs).
 //
 // AXES (both modes, all pages): numeric coordinate rulers on all four sides —
 // X numbers along the top AND bottom edges, Y numbers along the left AND right
@@ -23,6 +31,8 @@
 const m = Astro.props.mission as any;
 const unitSprites = (Astro.props as any).unitSprites as Record<string, string> | undefined;
 const rich = !!unitSprites;
+const nameChips = !rich && !!(Astro.props as any).nameChips;
+const layoutRich = rich || nameChips;
 const BASE = import.meta.env.BASE_URL;
 const asset = (p?: string | null) => (p ? `${BASE}${p}` : null);
 
@@ -141,8 +151,13 @@ const cells = Array.from({ length: W * H }, (_, i) => {
   const showSprite = rich && topIsUnit && !!top.sprite && (top.cat === 'reinf' || top.triggered || !hasSheet);
   const showChip = rich && topIsUnit && !showSprite && !hasSheet;
   const showTag = rich && topIsUnit && !showChip;
+  // Chips mode: ALL unit entries on the tile get name chips (stacked).
+  const unitEntries = entries.filter(e => isUnitCat(e.cat));
+  const showStack = nameChips && unitEntries.length > 0;
+  const renderedCount = showStack ? unitEntries.length : (top ? 1 : 0);
   return {
-    x, y, top, multi: entries.length > 1,
+    x, y, top, multi: entries.length > 1, plus: entries.length > renderedCount,
+    units: unitEntries, showStack,
     bg: terr ? terr.color : top ? top.bg : '#e8ebef',
     badge: terr && top ? top : null,
     info: `坐标 (${x},${y}) · ${infoParts.join('；')}`,
@@ -162,8 +177,8 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
 ---
 {/* Frame with four-sided numeric axes (shared by both modes). The rulers use
     the same column/row sizing as the grid itself, so numbers align exactly. */}
-{rich ? (
-<div class="map-wrap map-rich">
+{layoutRich ? (
+<div class={nameChips ? 'map-wrap map-rich map-chips' : 'map-wrap map-rich'}>
   {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
   <div class="map-controls" role="group" aria-label="地图缩放">
     <span class="text-sm text-base-content/60">显示大小：</span>
@@ -179,15 +194,16 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
       </div>
       <div class="ax-mid">
         <div class="ax-y ax-yl" aria-hidden="true">{ys.map(n => <span>{n}</span>)}</div>
-        <div class="map-grid" role="grid" aria-label="坐标地图（游戏原图地形与单位标注）">
+        <div class="map-grid" role="grid" aria-label={rich ? '坐标地图（游戏原图地形与单位标注）' : '坐标地图（单位名称与点位标注）'}>
           {cells.map(c => (
             <button type="button" class:list={['map-cell', { 'cell-unknown': c.unknown }]} style={`background-color:${c.bg};${c.bgStyle}`} data-info={c.info} title={c.info}
               aria-label={c.info}>
-              {c.top && !c.topIsUnit && <span class="p-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>}
+              {c.top && !c.topIsUnit && !c.showStack && <span class="p-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>}
               {c.topIsUnit && c.showSprite && <img class="u-sprite" src={c.top.sprite} alt={c.top.name} loading="lazy" />}
               {c.topIsUnit && c.showChip && <span class={`u-chip chip-${c.top.cat}`}>{c.top.name}</span>}
               {c.topIsUnit && c.showTag && <span class={`u-tag tag-${c.top.cat}`}>{c.top.name}</span>}
-              {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
+              {c.showStack && <span class="u-stack" data-n={c.units.length}>{c.units.map(u => <span class={`u-chip chip-${u.cat}`}>{u.name}</span>)}</span>}
+              {c.plus && <span class="map-multi" aria-hidden="true">+</span>}
             </button>
           ))}
         </div>
@@ -208,6 +224,7 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
         : <i class="sw" style={`background:${t.color}`}></i>}{t.name}</span>
     ))}
     {hasUnknownTiles && <span><i class="sw sw-unknown"></i>未确认（地形待核实）</span>}
+    {nameChips && !terrainGrid && <span><i class="sw" style="background:#e8ebef"></i>未标注（地形待核实）</span>}
   </div>
   <div class="map-info stagemap-info">点击任意格子查看坐标信息。</div>
 </div>
@@ -364,6 +381,18 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
   .chip-enemy { background: rgba(196, 32, 32, .94); }
   .chip-reinf { background: rgba(112, 62, 184, .95); }
   .chip-boss  { background: rgba(128, 6, 6, .97); font-weight: 700; }
+  /* ---- chips mode (opt-in): stacked name chips for every unit on a tile ---- */
+  .u-stack {
+    position: absolute; inset: 2px; z-index: 2;
+    display: flex; flex-direction: column; gap: 1px; pointer-events: none;
+  }
+  .u-stack .u-chip {
+    position: static; inset: auto; flex: 1 1 0; min-height: 0;
+    font-size: 9px; line-height: 1.15; padding: 0 1px;
+  }
+  .u-stack[data-n="1"] .u-chip { font-size: 10px; }
+  .map-big .u-stack .u-chip { font-size: 11px; }
+  .map-big .u-stack[data-n="1"] .u-chip { font-size: 12px; }
   .legend .sw-img {
     display: inline-block; width: 18px; height: 18px; border-radius: 3px;
     vertical-align: -4px; margin-right: 5px; image-rendering: pixelated;
