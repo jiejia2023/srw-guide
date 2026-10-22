@@ -1,0 +1,4241 @@
+{
+ "comment": "SFC original (1993), 62 distinct scenarios incl. all route variants and the hidden final scenario; codes follow Akurasu play-order numbering (1-58 with 3A/3B, 7A/7B, 47A/47B, 48A/48B variants). Flow/conditions/secrets: Akurasu Flow Chart + Secrets List, cross-checked with the ROM internal scenario table (wikiwiki snes007) and Namu. Enemy placement has NO published source for the SFC original (GX does not cover SRW3) and is marked 待核实 on every page.",
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "暗云",
+   "ja": "暗雲",
+   "en": "The Omen",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "游戏开始即进入本话，为全游戏第一话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局参战：白色基地（布莱特）、高达（阿姆罗）、钢加农（凯）、吉姆（塞拉）、吉姆（哈亚托）、吉姆（龙）、魔神Z（甲儿）、阿芙罗狄A（沙也加）、原型盖塔1（龙马/隼人/武藏）。"
+   ],
+   "events": [
+    "本话是全游戏第一个抉择点的前置：本话可用阿姆罗说得夏亚（第4话还有一次机会），是否说得成功将决定第18话的加入阵容与塞拉的去留，详见本页隐藏要素。"
+   ],
+   "secrets": [
+    "说得夏亚（长线二选一的第 1 步）：本话用阿姆罗说得夏亚——成功则走「柯特罗路线」：第18话柯特罗、罗伯特、阿波利加入，并多得一台利克·迪亚斯；本话与第4话都不说得则走「凯拉路线」：第18话凯拉乘 Re-GZ 加入，且塞拉不离队。两条路线互斥（Akurasu Secrets List）。",
+    "卡兹与 G 防御者（全 4 步之第 1 步）：要求开局「不说得夏亚」，后续步骤见第3话、第5/6话与第19话。"
+   ],
+   "unlocks": [
+    "通关后二选一：A 路线（短）→ 第3A话 G-3（跳过第2话）；B 路线（长）→ 第2话 蔷薇骑士。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "蔷薇骑士",
+   "ja": "バラの騎士",
+   "en": "Knight of the Rose",
+   "route": "B路线（长）",
+   "area": "",
+   "type": "路线限定",
+   "prerequisite": "第1话通关后选择 B 路线（长）进入本话；选 A 路线则跳过本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "通关后：原型盖塔1 换装为盖塔1；梅塔斯（花·由里）加入；尼莫（蕾柯亚）加入；另得一台无驾驶员的尼莫。"
+   ],
+   "events": [
+    "本话是说得艾玛的机会话之一（见隐藏要素）。"
+   ],
+   "secrets": [
+    "说得艾玛（第 1 步）：本话可用阿姆罗说得艾玛（第3话亦可完成这一步）。这是「艾玛与高达 Mk-II」及「卡兹与 G 防御者」两条流程的共同前置；艾玛的正式加入在第4话（说得当场加入）或第5话（自动加入）。"
+   ],
+   "unlocks": [
+    "第3B话 G-3。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第3A话",
+   "slug": "stage-3a",
+   "zh": "G-3",
+   "ja": "Ｇ-３",
+   "en": "G3",
+   "route": "A路线（短）",
+   "area": "",
+   "type": "路线限定",
+   "prerequisite": "第1话通关后选择 A 路线（短）直达本话（跳过第2话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "通关后的选择决定接下来的三话走向：与谜之敌交战是一话直达突入大气层；与 DC 交战则先进入暗礁空域。"
+   ],
+   "secrets": [
+    "说得艾玛（第 1 步）：本话可用阿姆罗说得艾玛（与第2话同为第一步的完成点）。"
+   ],
+   "unlocks": [
+    "通关后二选一：与谜之敌交战 → 第6话 突入大气层；与 DC 交战 → 第4话 暗礁空域。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第3B话",
+   "slug": "stage-3b",
+   "zh": "G-3",
+   "ja": "Ｇ-３",
+   "en": "G3",
+   "route": "B路线（长）",
+   "area": "",
+   "type": "路线限定",
+   "prerequisite": "经第2话（B 路线）通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增；B 路线在第2话通关后已获得盖塔1、梅塔斯（花）、尼莫（蕾柯亚）与一台无驾驶员尼莫（Akurasu 在本话格重复列出同一批话后入手）。"
+   ],
+   "events": [
+    "通关后的选择与第3A话相同（见下）。"
+   ],
+   "secrets": [
+    "说得艾玛（第 1 步）：本话可用阿姆罗说得艾玛（与第2话同为第一步的完成点）。"
+   ],
+   "unlocks": [
+    "通关后二选一：与谜之敌交战 → 第6话 突入大气层；与 DC 交战 → 第4话 暗礁空域。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "暗礁空域",
+   "ja": "暗礁空域",
+   "en": "Deadlock in the Sky",
+   "route": "DC路线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "G-3（第3A/3B话）通关后选择「与 DC 交战」进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "白色基地被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "Z高达（卡缪）加入。",
+    "高达 Mk-II（艾玛）：按隐藏要素的说得流程，用阿姆罗或卡缪说得后当场加入。"
+   ],
+   "events": [
+    "标题定版：本话日文标题为「暗礁空域」（ROM 内部剧本表、Akurasu Secrets 页的英称 Reef Airspace、Namu 一致）；Akurasu Flow Chart 写作「暗黒空域」，为其异写。",
+    "本话是说得夏亚的第二次、也是最后的机会（第1话未说得时）。"
+   ],
+   "secrets": [
+    "说得艾玛（第 2 步）：此前已在第2/3话完成说得艾玛第一步时，本话用阿姆罗或卡缪说得艾玛，艾玛当场加入（并完成卡兹流程的对应步骤）。",
+    "说得夏亚（第 2 机会）：第1话未用阿姆罗说得夏亚时，本话仍可完成——结果同样决定第18话阵容（柯特罗一行 vs 凯拉＋塞拉留队）。",
+    "注意（Akurasu Secrets）：在 DC 路线中若在本话后选择返回地球（第7B话），艾玛将不会加入——想收艾玛请走冯·布朗方向或在谜之敌路线处理。"
+   ],
+   "unlocks": [
+    "通关后二选一：A 路线（前往冯·布朗）→ 第5话 冯·布朗；B 路线（返回地球）→ 第7B话 突入大气层。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "冯·布朗",
+   "ja": "フォンブラウン",
+   "en": "Von Braun",
+   "route": "DC路线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第4话通关后选择 A 路线（前往冯·布朗）进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "通关后：Z高达（卡缪）加入；高达 Mk-II（艾玛）自动加入（前提：此前完成说得艾玛流程）。"
+   ],
+   "events": [],
+   "secrets": [
+    "艾玛自动加入（卡兹流程第 3 步）：在第5话（本话）或第6话让艾玛正式加入，是卡兹与 G 防御者四步流程的第 3 步。"
+   ],
+   "unlocks": [
+    "第7A话 突入大气层。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "突入大气层",
+   "ja": "大気圏突入",
+   "en": "Into the Atmosphere",
+   "route": "谜之敌路线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "G-3（第3A/3B话）通关后选择「与谜之敌交战」直达本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "Z高达（卡缪）加入。"
+   ],
+   "events": [
+    "本话是三个「突入大气层」剧本之一（经谜之敌路线到达）。通关后进入强夺/所罗门/热砂的回合数分支节点（见通关后开放）。"
+   ],
+   "secrets": [
+    "说得艾玛（谜之敌路线）：本话可用阿姆罗或卡缪说得艾玛，艾玛当场加入；这也是卡兹流程第 3 步的完成点之一（与第5话二选其一）。",
+    "回合数参考（单一来源，未核实）：韩语流程图来源称本话 9 回合以内过关将进入第8话高达强夺，10 回合起则不经强夺话——精确对应关系待实机核实。"
+   ],
+   "unlocks": [
+    "按本话过关回合数进入第8话 高达强夺 / 第9话 所罗门近海海战 / 直达第10话 热砂大地（精确对应未完全核实，见本站关卡总表说明）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第7A话",
+   "slug": "stage-7a",
+   "zh": "突入大气层",
+   "ja": "大気圏突入",
+   "en": "Into the Atmosphere",
+   "route": "DC路线（经冯·布朗）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第5话（冯·布朗）通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话是三个「突入大气层」剧本之一（经冯·布朗到达）。"
+   ],
+   "secrets": [
+    "回合数参考（单一来源，未核实）：韩语流程图来源称本话 10 回合以上过关将进入第9话所罗门近海海战，9 回合以内过关则直达第10话热砂大地——精确对应关系待实机核实。"
+   ],
+   "unlocks": [
+    "按本话过关回合数进入第9话 所罗门近海海战 / 直达第10话 热砂大地（见本站关卡总表说明）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第7B话",
+   "slug": "stage-7b",
+   "zh": "突入大气层",
+   "ja": "大気圏突入",
+   "en": "Into the Atmosphere",
+   "route": "DC路线（返回地球）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第4话通关后选择 B 路线（返回地球）直达本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全单位被击坠。",
+    "白色基地被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话是三个「突入大气层」剧本之一（经暗礁空域返回地球到达，败北条件也与另两个版本不同）。Akurasu 在本话格下并列「9 回合以内 / 10 回合起」两组标签，确认回合数门槛位于此节点；各变体与门槛的精确对应未能完全核实。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "按本话过关回合数进入第8话 高达强夺 / 第9话 所罗门近海海战 / 直达第10话 热砂大地（精确对应未完全核实，见本站关卡总表说明）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "高达强夺",
+   "ja": "ガンダム強奪",
+   "en": "Gundamjack",
+   "route": "条件分岐",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "由突入大气层节点的回合数分支进入本话（与第9话互斥；精确进入条件未完全核实，见本站关卡总表说明）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "GP-01（泓）加入；钢加农（基斯）加入；尼莫（蒙夏）加入。"
+   ],
+   "events": [
+    "本话标题即剧情：高达试作1号机在本话被强夺的展开——GP-01 在本话自动取得（与第10话的保护米迪亚取得方式互斥）。"
+   ],
+   "secrets": [
+    "GP-01 与基斯在本话自动取得并正式加入（Akurasu Secrets）；未走本话时，基斯在第10话只能客串使用、不正式加入。"
+   ],
+   "unlocks": [
+    "第10话 热砂大地。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "所罗门近海海战",
+   "ja": "ソロモン沖海戦",
+   "en": "Solomon Sea Battle",
+   "route": "条件分岐",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "由突入大气层节点的回合数分支进入本话（与第8话互斥；精确进入条件未完全核实，见本站关卡总表说明）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu 本话格为空）。"
+   ],
+   "events": [
+    "本话是 DC 路线侧的替代话：没有专属入手物，作用是承接突入大气层较慢的过关节奏。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第10话 热砂大地。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "热砂大地",
+   "ja": "熱砂の大地",
+   "en": "Land of Hot Sands",
+   "route": "主线流程（汇合）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "经第8话通关，或由突入大气层节点直达本话（跳过第8/9话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼莫（泓）参战；钢加农（基斯）参战（未在第8话正式加入时为客串，不正式入队）；米迪亚（士兵，NPC）。",
+    "通关后：兹寇克E 入手；GP-01 入手（见隐藏要素的条件）。"
+   ],
+   "events": [
+    "各路线在本话汇合，之后进入单线主线（第11话起）。"
+   ],
+   "secrets": [
+    "GP-01（未走第8话时）：须等米迪亚登场后再过关，并保护米迪亚直至本话结束，通关后取得 GP-01（Akurasu）。",
+    "尼莫与兹寇克E 在完成本话后自动入手。"
+   ],
+   "unlocks": [
+    "第11话 卡多袭击。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "卡多袭击",
+   "ja": "ガトー襲撃",
+   "en": "Gato's Attack",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第10话通关后进入（单线主线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "通关后：白色基地换装为阿伽马（布莱特）；高达 NT-1 艾雷克斯（克里斯）加入；尼莫（斯雷卡）加入；另得一台无驾驶员的尼莫。"
+   ],
+   "events": [
+    "本话标题源于 GP 系列剧情：卡多一方的袭击。斯雷卡在本话加入——他与第32话的自爆事件有关，先记住这个人。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第12话 海滨恐慌。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "海滨恐慌",
+   "ja": "シーサイドパニック",
+   "en": "Seaside Panic",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第11话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪杰 SE-R（弗）以 NPC 身份出场；通关后迪杰 SE-R 入手。",
+    "（隼人）（龙）：Akurasu 在本话格以括注人名标记，含义未核实。"
+   ],
+   "events": [
+    "弗在本话首次登场（第6回合以增援出现，据 Namu）；她是后续第32话 / 第47B话说得加入的关键人物。"
+   ],
+   "secrets": [
+    "迪杰 SE-R：不要在弗登场前过关——等弗出现后再通关，通关后入手迪杰 SE-R（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第13话 超电磁机器人孔巴特拉V。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "超电磁机器人孔巴特拉V",
+   "ja": "超電磁ロボコンバトラーＶ",
+   "en": "Combattler V",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第12话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "战斗喷射机（豹马）、战斗破碎机（十三）、战斗坦克（大作）、战斗海军机（千鹤）、战斗工艺机（小介）加入；五机可合体为孔巴特拉V。"
+   ],
+   "events": [
+    "通关后出现「早乙女研究所 / 光子力研究所」的二选一标记（Akurasu），其后为第14、15 两话的顺序推进；该选择具体影响什么，未能从公开来源核实。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第14话 早乙女研究所危机一发！（通关后有研究所二选一，影响未核实）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "早乙女研究所危机一发！",
+   "ja": "早乙女研究所危機一髪！",
+   "en": "Saotome Institute in Danger",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第13话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "盖塔Q被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "得克萨斯马克（杰克、玛丽）加入；盖塔Q（美智留）加入。"
+   ],
+   "events": [
+    "本话败北条件含「盖塔Q 被击坠」——保护盖塔Q 是本话的核心。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第15话 红之翼。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "红之翼",
+   "ja": "紅の翼",
+   "en": "Crimson Wings",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第14话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "波斯机器人（波斯）加入；魔神Z 换装为魔神Z喷射飞翼型（甲儿）；阿芙罗狄A 换装为黛安娜A（沙也加）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第16话 勇者莱汀。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "勇者莱汀",
+   "ja": "勇者ライディーン",
+   "en": "Brave Raideen",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第15话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "莱汀被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱汀（洸）加入；布鲁加（玲二）、布鲁加（神宫寺）参战；（麻理）。"
+   ],
+   "events": [
+    "本话败北条件含「莱汀被击坠」——莱汀是本话的保护对象。莱汀后续在第33话追加武器、第37话可获得神之声。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第17话 传闻中的破岚万丈。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "传闻中的破岚万丈",
+   "ja": "うわさの破嵐万丈",
+   "en": "Banjou Haran",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第16话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴坦3（万丈）加入。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第18话 向宇宙。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "向宇宙",
+   "ja": "宇宙へ",
+   "en": "Into Space",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第17话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "依第1/4话是否说得夏亚，二选一结算：",
+    "柯特罗路线：百式（柯特罗）、利克·迪亚斯（罗伯特）、利克·迪亚斯（阿波利）加入（并多得一台利克·迪亚斯）；塞拉于本话离队。",
+    "凯拉路线：Re-GZ（凯拉）加入；塞拉留队。",
+    "波斯机器人（波斯）列于本话参战。"
+   ],
+   "events": [
+    "本话是开局说得夏亚抉择的结算点，两条阵容路线在此分晓。"
+   ],
+   "secrets": [
+    "巴尼与扎古II（第 1 步）：本话让克里斯攻击巴尼——这是第19话用克里斯说得巴尼的前置（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第19话 于寂静之中。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "于寂静之中",
+   "ja": "静寂の中で",
+   "en": "Into Tranquility",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第18话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "GP-01 换装为 GP-01Fb（泓）。",
+    "蕾柯亚离队，并带走她当时所乘的机体（第23话归队时取回）。",
+    "条件加入：扎古II（巴尼）；G 防御者（卡兹，第3回合加入）——条件见隐藏要素。"
+   ],
+   "events": [
+    "通关后进入第20/21话的条件分支：SFC 版的判定只有一项——是否已说得夏亚（Akurasu 标注的「早期路线」附加条件仅适用于 PS/CB 版，SFC 不适用）。"
+   ],
+   "secrets": [
+    "卡兹与 G 防御者（第 4 步，结算）：完成前三步（①第1/4话不说得夏亚 → ②第2/3话说得艾玛 → ③第5话或第6话让艾玛加入）后，本话第 3 回合卡兹乘 G 防御者加入（Akurasu Secrets；第 3 步的话号口径各源略有出入，以流程原文为准）。",
+    "巴尼与扎古II（第 2 步）：不要在巴尼以敌方增援登场前过关；巴尼出现后用克里斯说得他，即加入（Akurasu）。"
+   ],
+   "unlocks": [
+    "第20话 疑惑（已说得夏亚时）或第21话 月神二号攻防战（未说得夏亚时）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "疑惑",
+   "ja": "疑惑",
+   "en": "Suspicion",
+   "route": "条件分岐（已说得夏亚）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第19话通关时已完成说得夏亚（柯特罗路线）则进入本话，与第21话互斥。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "入手无驾驶员机体：肯普法、杰刚、加甘图亚（Akurasu 未注驾驶员）。"
+   ],
+   "events": [
+    "本话与第21话内容并行对应：两话的入手物相同，差别在剧情与后续选项的语境。通关后的选择决定蕾柯亚能否全程留队（走第23话）与能否拯救卡多（走第22话→第24话），请先想好取舍。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。但通关后的路线选择影响两项长线要素：蕾柯亚留队（需走第23话）与拯救卡多（需走第22话→第24话），两者不可兼得。"
+   ],
+   "unlocks": [
+    "通关后二选一：追击 DC → 第22话 追击战；前往月神二号 → 第23话 来自星辰之物。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "月神二号攻防战",
+   "ja": "ルナツー攻防戦",
+   "en": "The Battle of Luna Two",
+   "route": "条件分岐（未说得夏亚）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第19话通关时未说得夏亚（凯拉路线）则进入本话，与第20话互斥。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "入手无驾驶员机体：肯普法、杰刚、加甘图亚（与第20话相同）。"
+   ],
+   "events": [
+    "选择与取舍同第20话（见其说明）。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。路线取舍同第20话：蕾柯亚留队（第23话）与拯救卡多（第22话→第24话）不可兼得。"
+   ],
+   "unlocks": [
+    "通关后二选一：追击 DC → 第22话 追击战；前往月神二号 → 第23话 来自星辰之物。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "追击战",
+   "ja": "追撃戦",
+   "en": "Pursuit Battle",
+   "route": "玩家选择（追击DC）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第20/21话通关后选择「追击 DC」进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "Re-GZ（露）加入；ZZ 高达（裘多）加入。"
+   ],
+   "events": [
+    "走本话是「拯救卡多」线的前置：后续第24话可保护卡多，并通向第29话与条件话第32话。代价是蕾柯亚无法全程留队（她会在未通过第23话的情况下于第40话离队）。"
+   ],
+   "secrets": [
+    "Re-GZ 在本话自动入手（露驾驶，Akurasu）。"
+   ],
+   "unlocks": [
+    "第24话 Side 1激战；且「通过本话」决定之后进入第29话（而非第30话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "来自星辰之物",
+   "ja": "星から来るもの",
+   "en": "People from the Stars",
+   "route": "玩家选择（前往月神二号）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第20/21话通关后选择「前往月神二号」进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "蕾柯亚归队，并取回她第19话离队时所乘的机体。"
+   ],
+   "events": [
+    "本话宇宙/空中专用机体不可出击（Akurasu）。",
+    "走本话路线是让蕾柯亚全程留队的唯一方式（否则她在第40话离队）；代价是无法进入第24话拯救卡多，进而与第29/32话无缘。"
+   ],
+   "secrets": [
+    "蕾柯亚留队（长线）：通过本话即可全程保留蕾柯亚（Akurasu Secrets 亦载：20话后须走月神二号方向，否则第40话叛变离队）。"
+   ],
+   "unlocks": [
+    "第25话 Side 1激战。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "Side 1激战",
+   "ja": "サイド１の激闘",
+   "en": "Fierce Battle at Side 1",
+   "route": "分岐（经第22话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第22话通关后进入本话（与第25话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖鲁古古M 自动入手（蕾柯亚驾驶）。"
+   ],
+   "events": [
+    "本话的卡多保护战是全游戏最重要的长线抉择之一：成功与否同时影响第29话的协助事件与第32话是否出现。"
+   ],
+   "secrets": [
+    "拯救卡多：保护卡多免受 DC 攻击，直至他撤离战场。成功 → 第29话卡多将以核弹攻击 DC 部队协助；且第31话后出现第32话。卡多本人不会因此加入（加入在第48B话，见其页）。"
+   ],
+   "unlocks": [
+    "第26话 香格里拉。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "Side 1激战",
+   "ja": "サイド１の激闘",
+   "en": "Fierce Battle at Side 1",
+   "route": "分岐（经第23话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第23话通关后进入本话（与第24话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达 F91（西布克）加入；ZZ 高达（裘多）加入；杰刚（露）加入。"
+   ],
+   "events": [
+    "本话一侧没有拯救卡多事件，但有 F91 与杰刚的入手，且通向可招募奎丝的第27话。"
+   ],
+   "secrets": [
+    "杰刚在本话自动入手（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第27话 香格里拉。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "香格里拉",
+   "ja": "シャングリラ",
+   "en": "Shangri-La",
+   "route": "分岐（经第22话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第24话通关后进入本话（与第27话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达 F91（西布克）加入；（比查）（艾尔）（蒙多）（伊诺）等驾驶员加入（Akurasu 以括注人名标记）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）；本侧没有奎丝的招募机会（在第27话）。"
+   ],
+   "unlocks": [
+    "第28话 孔斯孔强袭（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "香格里拉",
+   "ja": "シャングリラ",
+   "en": "Shangri-La",
+   "route": "分岐（经第23话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第25话通关后进入本话（与第26话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（比查）（艾尔）（蒙多）（伊诺）等驾驶员加入；条件加入：（奎丝）——见隐藏要素。"
+   ],
+   "events": [],
+   "secrets": [
+    "奎丝：让阿姆罗移动到坐标 (41,8)——最右侧桥前方偏左的建筑处，幕间后奎丝加入（Akurasu Flow Chart）。坐标口径提示：该坐标为来源原文记载，Namu 另记为 X40、Y8，两说相差 1 格，确切格待核实；Namu 另载前置条件（未招募柯特罗等情形），未完全核实，操作时请留意。"
+   ],
+   "unlocks": [
+    "第28话 孔斯孔强袭（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": [
+     "奎丝加入事件的目标坐标：Akurasu 记载为 (41,8)，Namu 另记 X40、Y8——两说相差 1 格且原点口径不明，确切格待核实，故未在图中标点（详见本页隐藏要素）。"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "孔斯孔强袭",
+   "ja": "コンスコン強襲",
+   "en": "Conscon's Assault",
+   "route": "主线流程（汇合）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第26/27话通关后汇合进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ν高达（阿姆罗）加入；Re-GZ 入手（Akurasu 在本话格再次列出 Re-GZ，是第二台还是重复登记，未核实）。"
+   ],
+   "events": [
+    "通关后按「是否通过第22话」进入第29话或第30话，两话都让塞巴斯塔加入，内容与入手物不同。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第29话 所罗门的恶梦（通过第22话时）或第30话 魔装机神（未通过第22话时）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "所罗门的恶梦",
+   "ja": "ソロモンの悪夢",
+   "en": "The Nightmare of Solomon",
+   "route": "分岐（通过第22话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通过第22话时，经第28话进入本话（与第30话互斥）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "塞巴斯塔（正树）加入。"
+   ],
+   "events": [
+    "若第24话成功拯救卡多，本话卡多将回来以核弹攻击 DC 部队（Akurasu）——拯救卡多的回报话。"
+   ],
+   "secrets": [
+    "本关无新增专属隐藏要素；卡多的核弹协助是第24话拯救成功的结算（见第24话）。"
+   ],
+   "unlocks": [
+    "第31话 激战前奏曲。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "魔装机神",
+   "ja": "魔装機神",
+   "en": "Masoukishin",
+   "route": "分岐（未通过第22话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "未通过第22话时，经第28话进入本话（与第29话互斥）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "塞巴斯塔（正树）加入；阿伽马换装为尼尔·阿伽马。",
+    "NPC 友军：吉翁克（夏亚）、艾尔美斯（拉拉）、加普兰（基内）、姆赛（娜娜伊）、GP-02（卡多）、卡贝拉·迪特拉（卡利乌斯）——已招募柯特罗一行时，这些 NPC 不会出现。"
+   ],
+   "events": [
+    "本话是「魔装机神」标题话：正树与塞巴斯塔在此正式成为主线同伴（走第29话时亦同）。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第31话 激战前奏曲。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "激战前奏曲",
+   "ja": "激戦のプレリュード",
+   "en": "Prelude to Battle",
+   "route": "主线流程（汇合）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第29/30话通关后汇合进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话宇宙/空中专用机体不可出击（Akurasu）。",
+    "通关后按第24话是否拯救卡多判定：成功 → 出现第32话；未成功 → 跳过第32话直达第33话。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素；但本话是第32话出现与否的判定点（前置在第24话）。"
+   ],
+   "unlocks": [
+    "第32话 恐怖！机动大扎姆（拯救卡多成功时）或直接第33话 琉妮，与瓦尔西奥妮。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "恐怖！机动大扎姆",
+   "ja": "恐怖！機動ビグザム",
+   "en": "Terror! Mobile Big Zam",
+   "route": "条件话（拯救卡多）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第24话拯救卡多成功时，于第31话通关后进入本话（条件话；未成功则本话不出现）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "条件加入：（弗）——仅驾驶员，见隐藏要素。"
+   ],
+   "events": [
+    "大扎姆以敌方增援登场是本话的高潮，也是斯雷卡事件的触发点（见隐藏要素）。「通过本话」是终盘进入第47A话（而非47B话）的条件。"
+   ],
+   "secrets": [
+    "弗（驾驶员，第 1 次机会）：用卡缪说得弗，再击坠精神感应高达，通关后弗加入（Akurasu Secrets）。错过本话时，第47B话还有第二次机会（附总回合限制）。",
+    "斯雷卡的英勇自爆：出击斯雷卡并让他存活到大扎姆以敌方增援登场，他将冲向大扎姆自爆、一击击坠大扎姆，但斯雷卡本人死亡（Akurasu）。警告：让斯雷卡乘 Re-GZ 出击会引发游戏死机（freeze），切勿尝试。"
+   ],
+   "unlocks": [
+    "第33话 琉妮，与瓦尔西奥妮。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "琉妮，与瓦尔西奥妮",
+   "ja": "リューネ、そしてヴァルシオーネ",
+   "en": "Lune, and Valsione",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第31话（或第32话）通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "尼尔·阿伽马被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱汀新增武器「戈尔贡之剑」「能量切割」。",
+    "条件加入：瓦尔西奥妮（琉妮）——见隐藏要素。"
+   ],
+   "events": [
+    "本话败北条件含「尼尔·阿伽马被击坠」。"
+   ],
+   "secrets": [
+    "琉妮与瓦尔西奥妮：先保护琉妮，直至 DC 部队被全灭；其后事件触发，琉妮开始攻击我方——击坠她，通关后她加入（Akurasu Secrets）。顺序不能错：先清完 DC，再对琉妮出手。"
+   ],
+   "unlocks": [
+    "第34话 贾布罗之岚。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "贾布罗之岚",
+   "ja": "ジャブローの嵐",
+   "en": "Storm of Jaburo",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第33话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大魔神（铁也）加入；维纳斯A（纯）加入；孔巴特拉V 新增武器「V激光」「双长矛」「战斗电锯」。",
+    "条件加入：机械胡蝶鬼（胡蝶鬼）——见隐藏要素。"
+   ],
+   "events": [
+    "通关后二选一决定地球后半的路线顺序：北美线（35→37）与非洲线（36→38），两线在第39话汇合；杜克的加入话随路线不同（第35或第38话）。"
+   ],
+   "secrets": [
+    "胡蝶鬼与机械胡蝶鬼：用任一盖塔驾驶员说得胡蝶鬼两次，即可使其加入（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "通关后二选一：前往北美 → 第35话 佯动作战；前往非洲 → 第36话 赤道直下。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "佯动作战",
+   "ja": "陽動作戦",
+   "en": "A Feint",
+   "route": "北美线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第34话通关后选择「前往北美」进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "古兰戴萨（杜克）加入——须等杜克在本话登场后再过关（Akurasu 注记）；（光）加入。"
+   ],
+   "events": [
+    "本话是北美线的杜克加入话；过早过关会错过杜克，注意通关节奏。"
+   ],
+   "secrets": [
+    "本关的要点即杜克的登场时机：不要在杜克出现前结束本话。"
+   ],
+   "unlocks": [
+    "第37话 百慕大三角。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "赤道直下",
+   "ja": "赤道直下",
+   "en": "By the Equator",
+   "route": "非洲线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第34话通关后选择「前往非洲」进入本话（非洲线先行话，其后为第38话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "孔巴特拉队五机（战斗喷射机/破碎机/坦克/海军机/工艺机）在 Akurasu 本话格再次列出。"
+   ],
+   "events": [
+    "非洲线的顺序是第36话 → 第38话（中间不经过第37话；第37话只属于北美线）。杜克的加入在本线后行的第38话。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第38话 沙漠风暴。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "百慕大三角",
+   "ja": "バミューダ・トライアングル",
+   "en": "Bermuda Triangle",
+   "route": "北美线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第35话（北美线）通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "通关后：莱汀获得武器「神之声」。"
+   ],
+   "events": [
+    "本话自第 2 回合起，回合计数按双倍计算（Akurasu）——这意味着本话消耗的回合会以双倍计入全程总回合数，冲击隐藏最终话（420 回合门槛）时务必计入。"
+   ],
+   "secrets": [
+    "神之声（God Voice）：完成本话后莱汀获得该武器（Akurasu Secrets）；这是北美线独有的奖励，走非洲线则无法获得。"
+   ],
+   "unlocks": [
+    "第39话 女间谍潜入（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "沙漠风暴",
+   "ja": "デザートストーム",
+   "en": "Desert Storm",
+   "route": "非洲线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第36话（非洲线）通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "古兰戴萨（杜克）加入——须等杜克在本话登场后再过关（Akurasu 注记）；（光）加入。"
+   ],
+   "events": [
+    "本话是非洲线的杜克加入话，节奏注意同第35话。"
+   ],
+   "secrets": [
+    "本关的要点即杜克的登场时机：不要在杜克出现前结束本话。"
+   ],
+   "unlocks": [
+    "第39话 女间谍潜入（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "女间谍潜入",
+   "ja": "女スパイ潜入",
+   "en": "Female Spy Infiltration",
+   "route": "主线流程（汇合）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第37/38话通关后汇合进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "尼尔·阿伽马被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话败北条件含「尼尔·阿伽马被击坠」。"
+   ],
+   "secrets": [
+    "参考（未核实）：Namu 载有「本话恰好以 5 回合过关可跳过第40话的蕾柯亚叛变事件」的技巧，但未标明适用版本，是否适用于 SFC 版未核实，仅作参考。"
+   ],
+   "unlocks": [
+    "第40话 布洛肯之影。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "布洛肯之影",
+   "ja": "ブロッケンの影",
+   "en": "The Shadow of Brocken",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第39话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（条件事件）若未通过第23话，蕾柯亚于本话离队。"
+   ],
+   "events": [
+    "本话是蕾柯亚去留的结算点：走第23话路线的玩家可在此保留她；另一条线的玩家将在本话失去她（除第39话的未核实技巧外无挽回方式）。"
+   ],
+   "secrets": [
+    "本关无新增专属隐藏要素；蕾柯亚的离队条件见第23话与本页事件。"
+   ],
+   "unlocks": [
+    "第41话 敖德萨之日。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "敖德萨之日",
+   "ja": "オデッサ・デイ",
+   "en": "Odessa Day",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第40话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第42话 玛蒂尔达救援作战。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "玛蒂尔达救援作战",
+   "ja": "マチルダ救出作戦",
+   "en": "Matilda's Rescue",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第41话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "米迪亚被击毁。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "双重宇宙飞翼入手。",
+    "条件加入：比基纳·基那（塞西莉）——见隐藏要素。"
+   ],
+   "events": [
+    "本话败北条件含「米迪亚被击毁」——救援对象米迪亚是本话的保护核心。"
+   ],
+   "secrets": [
+    "塞西莉与比基纳·基那：用西布克说得塞西莉，她将乘比基纳·基那加入（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第43话 妹妹啊！"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第43话",
+   "slug": "stage-43",
+   "zh": "妹妹啊！",
+   "ja": "妹よ！",
+   "en": "Sister!",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第42话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钻头飞翼（玛丽亚）加入；海军飞翼（光）加入。",
+    "条件加入：丘贝雷 Mk-II（普露）——见隐藏要素。"
+   ],
+   "events": [
+    "本话同时是古兰戴萨系飞翼的集结话与普露线的开端：普露是否加入决定第46话能否招募普露兹。"
+   ],
+   "secrets": [
+    "玛丽亚：用杜克说得玛丽亚，即当场加入（Akurasu / Namu）。",
+    "普露与丘贝雷 Mk-II：不要在普露登场前过关；用裘多说得普露（或与普露发生战斗交锋），她加入并带来丘贝雷 Mk-II（Akurasu）。这是第46话招募普露兹的必要前置。"
+   ],
+   "unlocks": [
+    "第44话 于悲伤尽头。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第44话",
+   "slug": "stage-44",
+   "zh": "于悲伤尽头",
+   "ja": "悲しみの果てに",
+   "en": "At The End of Sadness",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第43话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "得克萨斯马克（杰克）、盖塔Q（美智留）、盖塔机器人（龙马/隼人/武藏）在本话参战（Akurasu）。",
+    "条件入手：沙扎比——见隐藏要素。"
+   ],
+   "events": [
+    "本话的沙扎比入手流程有严格顺序（见隐藏要素），先读再打。"
+   ],
+   "secrets": [
+    "沙扎比：先让杜克与娜达发生战斗交锋，再在击坠阿修罗之前用杜克说得娜达；娜达将成为 NPC 友军，保护她直至本话结束，通关后入手沙扎比（Akurasu）。顺序关键：在击坠阿修罗之后就无法完成说得。"
+   ],
+   "unlocks": [
+    "第45话 倒计时。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "倒计时",
+   "ja": "カウント・ダウン",
+   "en": "Countdown",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第44话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "尼尔·阿伽马被击毁。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔机器人G（龙马/隼人/弁庆）加入。"
+   ],
+   "events": [
+    "本话败北条件含「尼尔·阿伽马被击毁」。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第46话 普露与普露兹。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "普露与普露兹",
+   "ja": "プルとプルツーと",
+   "en": "Ple and Ple Two",
+   "route": "主线流程",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第45话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼尔·阿伽马（布莱特）、拉·凯拉姆（布莱特）在 Akurasu 本话格列出。",
+    "条件加入：亚克特·多加（普露兹）——见隐藏要素。"
+   ],
+   "events": [
+    "通关后按「是否通过第32话」进入终盘分支：第47A话（通过）或第47B话（未通过）。"
+   ],
+   "secrets": [
+    "普露兹与亚克特·多加（第 2 步，结算）：先在第43话招募普露；本话依次执行：普露与普露兹战斗交锋 → 裘多说得普露兹 → 普露说得普露兹 → 裘多再次说得普露兹，普露兹当场加入（Akurasu）。注：说得时普露兹所乘的精神感应高达 Mk-II 将在通关后失去（Akurasu Secrets 注记）。"
+   ],
+   "unlocks": [
+    "第47A话 拉比安玫瑰（通过第32话时）或第47B话 拉比安玫瑰（未通过第32话时）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第47A话",
+   "slug": "stage-47a",
+   "zh": "拉比安玫瑰",
+   "ja": "ラビアンローズ",
+   "en": "La Vie en Rose",
+   "route": "分岐（通过第32话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第46话通关时已通过第32话，则进入本话（与第47B话互斥）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰索恩（修）出场——注意：若在第 5 回合前过关，将错过他的登场（Akurasu）；GP-03 奥奇斯入手；庞塔格鲁埃尔入手。"
+   ],
+   "events": [
+    "修在本话的登场与终盘的隐藏最终话条件直接相关：最终之战需要他出击并存活（见第58话）。"
+   ],
+   "secrets": [
+    "本关要点：不要抢在第 5 回合前过关，以免错过修/格兰索恩的登场。"
+   ],
+   "unlocks": [
+    "通关后二选一：前往月球 → 第48A话 月光；前往阿·巴瓦·空 → 第49话 宇宙漩涡。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第47B话",
+   "slug": "stage-47b",
+   "zh": "拉比安玫瑰",
+   "ja": "ラビアンローズ",
+   "en": "La Vie en Rose",
+   "route": "分岐（未通过第32话）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第46话通关时未通过第32话，则进入本话（与第47A话互斥）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰索恩（修）出场；GP-03 奥奇斯入手；庞塔格鲁埃尔入手。",
+    "条件加入：（弗）——仅驾驶员，见隐藏要素。"
+   ],
+   "events": [
+    "本话是弗的第二次（也是最后一次）加入机会；本线之后是全游戏最短的终盘链（48B→52→最终之战）。"
+   ],
+   "secrets": [
+    "弗（第 2 次机会）：用卡缪说得弗，再击坠精神感应高达，弗加入（Akurasu Secrets）。另有总回合数上限：SFC 版的门槛数值各源记载不一（350 与 300 两种口径并存），确切数值待核实——请勿与隐藏最终话的 420 回合门槛混淆。"
+   ],
+   "unlocks": [
+    "第48B话 月光。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第48A话",
+   "slug": "stage-48a",
+   "zh": "月光",
+   "ja": "ムーンライト",
+   "en": "Moonlight",
+   "route": "终盘·月线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第47A话通关后选择「前往月球」进入本话（月线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu 本话格为空）。"
+   ],
+   "events": [
+    "终盘月线的第一话，其后为第50话与第53话。梅基博斯（格雷塔金）以 NPC 出场的确切话位在 Akurasu 文本版中位于本话与第49话之间，未能定版（见第49话）。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第50话 疯狂之梦。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第48B话",
+   "slug": "stage-48b",
+   "zh": "月光",
+   "ja": "ムーンライト",
+   "en": "Moonlight",
+   "route": "终盘·短线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第47B话通关后进入本话（短线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "诺耶·吉尔（卡多）在本话开始时自动加入。"
+   ],
+   "events": [
+    "卡多以秘密机体诺耶·吉尔在此加入——这是与「第24话拯救卡多」不同的、独立的加入方式（拯救与否不影响此处加入，但拯救线另有第29/32话的回报）。"
+   ],
+   "secrets": [
+    "卡多与诺耶·吉尔：本话开始时自动加入（Akurasu Secrets），无额外条件。"
+   ],
+   "unlocks": [
+    "第52话 疯狂之梦。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第49话",
+   "slug": "stage-49",
+   "zh": "宇宙漩涡",
+   "ja": "宇宙の渦",
+   "en": "Space Swirl",
+   "route": "终盘·阿·巴瓦·空线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第47A话通关后选择「前往阿·巴瓦·空」进入本话（阿·巴瓦·空线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格雷塔金（梅基博斯）以 NPC 身份出场（Akurasu 栏位归属在本话与第48A话之间，未完全定版）。",
+    "条件加入：盖马克（卡拉）——见隐藏要素。"
+   ],
+   "events": [
+    "终盘阿·巴瓦·空线的第一话，其后为第51话与第54话。梅基博斯在本线是与最终展开相关的 NPC（与他和解的展开与卡多加入互斥、不能并存，但续作均作正史处理——日文 Fandom 设定注记）。"
+   ],
+   "secrets": [
+    "卡拉与盖马克：在击坠伊利亚之前，用裘多说得卡拉·苏恩，她将乘盖马克加入（Akurasu）。顺序关键：先说得，后击坠伊利亚。"
+   ],
+   "unlocks": [
+    "第51话 泽丹之门。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第50话",
+   "slug": "stage-50",
+   "zh": "疯狂之梦",
+   "ja": "ルナティック・ドリーム",
+   "en": "Lunatic Dream",
+   "route": "终盘·月线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第48A话（月线）通关后进入本话（与第52话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第53话 阿克西斯燃烧。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第51话",
+   "slug": "stage-51",
+   "zh": "泽丹之门",
+   "ja": "ゼダンの門",
+   "en": "Gate of Zedan",
+   "route": "终盘·阿·巴瓦·空线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第49话（阿·巴瓦·空线）通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "第54话 阿克西斯燃烧。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第52话",
+   "slug": "stage-52",
+   "zh": "疯狂之梦",
+   "ja": "ルナティック・ドリーム",
+   "en": "Lunatic Dream",
+   "route": "终盘·短线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第48B话（短线）通关后进入本话（与第50话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本线是三条终盘链中最短的一条：本话之后直接进入本线的最终之战（第55/56/57话之一，与具体编号的对应未核实）。"
+   ],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "本线终点的最终之战（第55/56/57话之一）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第53话",
+   "slug": "stage-53",
+   "zh": "阿克西斯燃烧",
+   "ja": "アクシズは燃えて",
+   "en": "Axis Burning",
+   "route": "终盘·月线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第50话（月线）通关后进入本话（与第54话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "本线终点的最终之战（第55/56/57话之一）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第54话",
+   "slug": "stage-54",
+   "zh": "阿克西斯燃烧",
+   "ja": "アクシズは燃えて",
+   "en": "Axis Burning",
+   "route": "终盘·阿·巴瓦·空线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "经第51话（阿·巴瓦·空线）通关后进入本话（与第53话是同名不同内容的两个剧本）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无专属隐藏要素（Akurasu 未列出）。"
+   ],
+   "unlocks": [
+    "本线终点的最终之战（第55/56/57话之一）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第55话",
+   "slug": "stage-55",
+   "zh": "最终之战",
+   "ja": "ラストバトル",
+   "en": "Last Battle",
+   "route": "终盘链终点",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "三条终盘链之一的终点（本话与具体终盘链的对应关系未核实）。",
+   "victory": [
+    "击坠迪卡斯忒斯（温多罗）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话是三个同名「最终之战」中唯一以击坠特定 Boss 为胜利条件的一话（Akurasu）——目标为温多罗的迪卡斯忒斯。",
+    "过关时点将判定隐藏最终话条件：总回合数与修的出击/存活（见通关后开放与第58话）。"
+   ],
+   "secrets": [
+    "冲击隐藏最终话的玩家请在本话出击修，并保证他在过关时存活于地图上（乘在战舰内不算）。"
+   ],
+   "unlocks": [
+    "通关后判定：总回合数在 419 以下（SFC）且修出击并存活 → 第58话 诸神黄昏；不满足 → 直接进入结局。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第56话",
+   "slug": "stage-56",
+   "zh": "最终之战",
+   "ja": "ラストバトル",
+   "en": "Last Battle",
+   "route": "终盘链终点",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "三条终盘链之一的终点（本话与具体终盘链的对应关系未核实）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰索恩（修）在 Akurasu 本话格列出。"
+   ],
+   "events": [
+    "本话的最终 Boss 与具体终盘链的对应关系未能从公开来源定版（仅第55话可由胜利条件确定为温多罗）。",
+    "过关时点将判定隐藏最终话条件（同第55话）。"
+   ],
+   "secrets": [
+    "冲击隐藏最终话的玩家请在本话出击修，并保证他在过关时存活于地图上（乘在战舰内不算）。"
+   ],
+   "unlocks": [
+    "通关后判定：总回合数在 419 以下（SFC）且修出击并存活 → 第58话 诸神黄昏；不满足 → 直接进入结局。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第57话",
+   "slug": "stage-57",
+   "zh": "最终之战",
+   "ja": "ラストバトル",
+   "en": "Last Battle",
+   "route": "终盘链终点",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "三条终盘链之一的终点（本话与具体终盘链的对应关系未核实）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话的最终 Boss 与具体终盘链的对应关系未能从公开来源定版（仅第55话可由胜利条件确定为温多罗）。",
+    "过关时点将判定隐藏最终话条件（同第55话）。"
+   ],
+   "secrets": [
+    "冲击隐藏最终话的玩家请在本话出击修，并保证他在过关时存活于地图上（乘在战舰内不算）。"
+   ],
+   "unlocks": [
+    "通关后判定：总回合数在 419 以下（SFC）且修出击并存活 → 第58话 诸神黄昏；不满足 → 直接进入结局。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  },
+  {
+   "code": "第58话",
+   "slug": "stage-58",
+   "zh": "诸神黄昏",
+   "ja": "ラグナロク",
+   "en": "Ragnarok",
+   "route": "隐藏最终话",
+   "area": "",
+   "type": "隐藏",
+   "prerequisite": "隐藏最终话：在最终之战（第55/56/57话任一）过关时满足——全程总回合数在 419 以下（<420），且修已出击并存活于地图上（乘在战舰内不算）——本话才会出现（Akurasu Flow Chart 与 Namu 一致；Akurasu Difference 页另作『420 以内』，本站从严采用 419 以下；PS/CB 版门槛为总回合 350 以下）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间（休息期）的机体改造；本作没有固定通关奖励。本关逐机资金待核实。本作支持「全灭后续关」：游戏结束后续关重打本关时，本关已获得的资金与经验保留，但已消耗的回合会一并计入总回合数——冲击隐藏最终话（总回合 419 以下）时切勿刷过头。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话无新增单位（Akurasu）。"
+   ],
+   "events": [
+    "本话通关后进入最佳结局侧；三个结局与各过关路径的精确对应关系未能从公开来源定版。",
+    "设定注记：续作（EX、第4次、F）以「打通隐藏 MAP 之后」为正史（日文 Fandom）。冲击本话的要点：全程控制总回合（注意第37话的回合双倍计算、以及全灭续关也会累计已用回合）、终盘让修出击并存活。"
+   ],
+   "secrets": [
+    "本话本身就是全游戏最大的隐藏要素，出现条件见出击条件。"
+   ],
+   "unlocks": [
+    "通关后：进入结局（最佳结局侧）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Flow Chart（流程与胜败条件）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：3rd Super Robot Wars Secrets List（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List"
+    },
+    {
+     "name": "スーファミチート Wiki：第3次スーパーロボット大戦 ROM 内部剧本表（分支对照）",
+     "url": "https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6"
+    }
+   ]
+  }
+ ]
+}

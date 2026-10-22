@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Srw3MissionList from '../../../components/Srw3MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第3次超级机器人大战', path: 'srw-3/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第3次超级机器人大战（SFC）关卡攻略 · 全62个剧本列表" description="第3次超级机器人大战（1993年 SFC）含分岐共 62 个剧本全部建有独立攻略页：开局 A/B 路线、谜之敌/DC 分岐、Side 1 双线、终盘三条链与隐藏最终话诸神黄昏，逐话给出胜利/败北条件、加入与隐藏要素。本页为链接索引。" path="srw-3/missions/" breadcrumbs={crumbs}>
+  <h1>第3次超级机器人大战 · 关卡攻略</h1>
+  <p>1993 年 SFC《第3次超级机器人大战》含分岐共 <strong>62 个剧本</strong>（按 Akurasu 流程编号为第1话–第58话，其中第3、7、47、48 话各有 A/B 两个不同剧本，另有隐藏最终话）。本作是系列的转折点：<strong>多线分岐（マルチシナリオ）</strong>、<strong>驾驶员与机体分离＋换乘</strong>、<strong>机体改造</strong>、<strong>气力</strong>、<strong>二回行动</strong>都自本作开始。一周目实际游玩约 34–39 话（据 GameFAQs 评测口径），其余剧本分布在各条分支线上。本页只是链接索引——每一话的完整攻略（条件、加入、增援说明、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-3/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第三部<strong>全关卡补完</strong>的作品——62 个剧本全部建有详情页（按发售顺序逐作补完，初代、第2次已完成）。流程与隐藏要素来自 Akurasu 流程图与隐藏要素表，并以 ROM 内部剧本表与 Namu 攻略页交叉核对。<strong>如实说明</strong>：本作（SFC 原版）没有公开的逐关敌方配置（等级／坐标）来源——GameCenter GX 未收录本作，现存唯一的构成级逐关资料是 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充——各话的「敌方出场与增援」一节因此标为<strong>待核实</strong>，待实机核实后补入；地图亦为坐标参照框架。</span>
+  </div>
+
+  <Srw3MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/3/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — 3rd Super Robot Wars Flow Chart</a>（流程、胜败条件、加入）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/3/Secrets_List" rel="noopener" target="_blank">Akurasu Wiki — 3rd Super Robot Wars Secrets List</a>（隐藏要素条件）</li>
+    <li><a href="https://wikiwiki.jp/snes007/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6" rel="noopener" target="_blank">スーファミチート Wiki — 第3次スーパーロボット大戦</a>（ROM 内部剧本表，分支拓扑对照）</li>
+    <li><a href="https://en.namu.wiki/w/%EC%A0%9C3%EC%B0%A8%20%EC%8A%88%ED%8D%BC%EB%A1%9C%EB%B4%87%EB%8C%80%EC%A0%84/%EA%B3%B5%EB%9E%B5" rel="noopener" target="_blank">Namu Wiki — The 3rd Super Robot Wars / Strategy</a>（剧本表与隐藏要素交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-3/')}>← 返回第3次超级机器人大战</a></p>
+</Base>

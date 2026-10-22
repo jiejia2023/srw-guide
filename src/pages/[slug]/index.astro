@@ -4,6 +4,7 @@ import games from '../../data/games.json';
 import Srw30MissionList from '../../components/Srw30MissionList.astro';
 import Srw1MissionList from '../../components/Srw1MissionList.astro';
 import Srw2MissionList from '../../components/Srw2MissionList.astro';
+import Srw3MissionList from '../../components/Srw3MissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -14,6 +15,7 @@ const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
 const isSrw30 = g.slug === 'srw-30';
 const isSrw1 = g.slug === 'srw-1';
 const isSrw2 = g.slug === 'srw-2';
+const isSrw3 = g.slug === 'srw-3';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -165,6 +167,91 @@ const isSrw2 = g.slug === 'srw-2';
     </div>
   )}
 
+  {isSrw3 && (
+    <div>
+      <h2>剧情概要：检查者来袭与 DC 再兴</h2>
+      <p>第2次的 DC 战争结束半年后，联合国改组为地球联邦，白色要塞的成员编入隆德·贝尔负责维持治安。此时联邦军部队接连失踪，调查指向比安·佐尔达克生前警告过的异星人——自称「检查者」的来访者；与此同时，扎比家再兴 DC，企图借乱局建立独裁。隆德·贝尔要在 DC 与异星人的两面夹击中作战。本作终盘分为三条路线，并有以全程总回合数为条件的隐藏最终话——续作（EX、第4次、F）以打通隐藏话之后为正史。</p>
+
+      <h2>本作的系统（多项系列首创）</h2>
+      <ul>
+        <li><strong>驾驶员与机体分离。</strong>本作起驾驶员与机体各自有独立的能力与等级，并可<strong>换乘</strong>（限同一原作作品内的机体）。</li>
+        <li><strong>机体改造（系列首创）。</strong>幕间（休息期）用资金改造机体的 HP、EN、装甲、限界反应四项；<strong>武器不可改造</strong>（SFC 版）。重要坑点：机体换代（如魔神Z加装飞翼、白色基地→阿伽马）时<strong>改造等级清零、已投入资金不返还</strong>。「限界反应」是驾驶员命中/反应数值的有效上限，机体限界不够会卡住驾驶员成长。</li>
+        <li><strong>气力（系列首创）。</strong>基准 100，范围 50–200，随攻击、受击、接受补给等增减；气力每 +1，攻击力与防御力各 ×1.01。部分武器有「必要气力」门槛，分身类能力在气力 130 发动。</li>
+        <li><strong>二回行动（系列首创）。</strong>每位驾驶员有固有的「二回行动等级」，达到后每回合可行动两次。例如阿姆罗、卡缪为 36 级（最早一档），甲儿为 59 级，盖塔队则在 55–64 级之间。</li>
+        <li><strong>武器开始消耗 EN / 弹药</strong>，飞行与宇宙移动同样耗 EN；远程武器多为非 P 属性（移动后不可用）。地图兵器（如 ZZ 高达的高能米加炮，范围 3×6）是中后期主力与资金来源。</li>
+        <li><strong>全灭续关（系列首创）。</strong>游戏结束后续关重打本关时，本关已获得的资金与经验<strong>保留</strong>——「全灭刷钱」自本作起可行；但已消耗的回合会一并计入总回合数，与下面的隐藏条件冲突，刷钱须适度。</li>
+        <li><strong>总回合数。</strong>全程累计回合数影响结局：在最终之战过关时总回合数在 419 以下（SFC）、且修已出击并存活于地图上，则进入隐藏最终话第58话「诸神黄昏」（详见第58话攻略页）。注意第37话的回合数按双倍计算。</li>
+        <li><strong>出击数逐关设定</strong>，没有全作统一上限（SFC 版逐关数值待核实）。</li>
+      </ul>
+
+      <h2>机体改造表（4 项 × 7 段，SFC 版）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>项目</th><th>每段增量</th><th>各段费用</th><th>满改总费用</th></tr></thead>
+          <tbody>
+            <tr><td>限界反应</td><td>+10</td><td>1000 / 2000 / 3000 / 4000 / 5000 / 5000 / 5000</td><td>25,000</td></tr>
+            <tr><td>装甲</td><td>+50</td><td>3000 / 8000 / 15,000 / 15,000 / 30,000 / 30,000 / 50,000</td><td>151,000</td></tr>
+            <tr><td>EN</td><td>+10</td><td>每段一律 2000</td><td>14,000</td></tr>
+            <tr><td>HP</td><td>+300</td><td>5000 / 10,000 / 10,000 / 10,000 / 20,000 / 20,000 / 20,000</td><td>95,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">EN 与限界反应的数值上限为 255。盖塔三形态的 HP、EN 改造共享，装甲与限界反应须逐形态分别改造。本作没有「满改造奖励」（所查来源均未记载）。数据来源：Akurasu Unit Upgrades 页。</p>
+
+      <h2>精神指令（全 13 种，SFC 版）</h2>
+      <p>本作精神指令只有 13 种，按等级习得（每位驾驶员最多 6 个）。效果多与后作不同：<strong>幸運同时管经验与资金</strong>、友情是全体回复、加速 +5、气合 +15，都请注意。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>指令</th><th>SP</th><th>效果（本作）</th></tr></thead>
+          <tbody>
+            <tr><td>加速</td><td>10</td><td>1 回合移动力 +5</td></tr>
+            <tr><td>幸運</td><td>20</td><td>下一次战斗获得的经验值与资金 ×2</td></tr>
+            <tr><td>闪避（ひらめき）</td><td>30</td><td>必定回避下一次攻击</td></tr>
+            <tr><td>根性</td><td>30</td><td>回复最大 HP 的 1/3</td></tr>
+            <tr><td>必中</td><td>40</td><td>1 回合命中率 100%</td></tr>
+            <tr><td>熱血</td><td>50</td><td>下一次攻击伤害 ×2</td></tr>
+            <tr><td>集中</td><td>50</td><td>1 回合直感 +50</td></tr>
+            <tr><td>大根性（ド根性）</td><td>70</td><td>HP 全回复</td></tr>
+            <tr><td>気合</td><td>80</td><td>气力 +15</td></tr>
+            <tr><td>補給</td><td>80</td><td>指定一台友军 EN 与弹药全回复</td></tr>
+            <tr><td>友情</td><td>90</td><td>全体友军回复最大 HP 的 50%</td></tr>
+            <tr><td>愛</td><td>140</td><td>全体友军 HP 全回复</td></tr>
+            <tr><td>激怒</td><td>200</td><td>全体敌人受 10–1000 随机伤害（被其击坠的敌人不给经验与资金）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">精神表以 Akurasu Seishin 页为准，Namu 攻略页交叉核对（其中「集中」采用 srw.wiki 的「直感 +50」口径）。努力、信頼、覚醒、鉄壁等后作常见精神在本作不存在（为 PS 版新增）。</p>
+
+      <h2>长线隐藏要素总览</h2>
+      <p>本作的隐藏要素多为<strong>跨多话的连锁条件</strong>，且彼此互斥，动手前先规划路线。各步的具体做法写在对应话数的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>柯特罗一行 ／ 凯拉＋Re-GZ（二选一）</td><td>第1/4话 → 第18话</td><td>阿姆罗说得夏亚与否决定阵容；后者另附带塞拉留队</td></tr>
+            <tr><td>卡兹与 G 防御者</td><td>第1–19话（四步）</td><td>不说得夏亚 → 说得艾玛 → 艾玛加入 → 第19话第3回合</td></tr>
+            <tr><td>艾玛与高达 Mk-II</td><td>第2/3话 → 第4/5/6话</td><td>说得后按所走路线加入；走「返回地球」线则不加入</td></tr>
+            <tr><td>巴尼与扎古II</td><td>第18话 → 第19话</td><td>克里斯先攻击巴尼，次话再由克里斯说得</td></tr>
+            <tr><td>蕾柯亚全程留队</td><td>第20话后选第23话</td><td>走月神二号方向；否则第40话离队。与拯救卡多不可兼得</td></tr>
+            <tr><td>拯救卡多</td><td>第24话 → 第29/32话</td><td>保护卡多撤离；回报为第29话核弹协助与第32话出现</td></tr>
+            <tr><td>弗（驾驶员）</td><td>第32话 或 第47B话</td><td>卡缪说得后击坠精神感应高达；47B 另有总回合限制（数值各源不一，未核实）</td></tr>
+            <tr><td>普露兹与亚克特·多加</td><td>第43话 → 第46话</td><td>先招募普露，本话再按顺序四步交锋/说得</td></tr>
+            <tr><td>沙扎比</td><td>第44话</td><td>杜克与娜达交锋 → 击坠阿修罗前说得娜达 → 保护至话末</td></tr>
+            <tr><td>卡多与诺耶·吉尔</td><td>第48B话</td><td>本话开始时自动加入</td></tr>
+            <tr><td>隐藏最终话「诸神黄昏」</td><td>最终之战 → 第58话</td><td>总回合 419 以下（SFC）且修出击并存活</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>参战作品（SFC 版）</h2>
+      <p>机动战士高达、高达0080 口袋中的战争 ★、高达0083 星尘的回忆 ★、Z高达、高达ZZ、逆袭的夏亚、高达F91、无敌钢人泰坦3 ★、魔神Z、大魔神、UFO机器人 古兰戴萨、盖塔机器人、盖塔机器人G、超电磁机器人 孔巴特拉V ★、勇者莱汀 ★、魔装机神 塞巴斯塔（原创）。★ 为系列初参战。</p>
+
+      <h2>其他版本差异（概要）</h2>
+      <p>本站逐话攻略以 <strong>1993 年 SFC 原版</strong>为准。<strong>PS 版（1999 年，《Complete Box》合集 6 月 10 日发售、单品版 12 月 22 日发售）</strong>是系统级重制，只作概要：整体改用《F》的系统——机体与<strong>武器都可改造（10 段）</strong>、新增强化部件、伤害公式变更、精神指令按 F 系扩容（新增努力、信頼、覚醒等）、新增新人类技能限制精神感应武器、盾防御与切払い、I 力场抵消上限改为 1500、机体换代可继承改造（如盖塔→盖塔G），隐藏话的总回合门槛收紧为 350 以下，ZZ 高达的高能米加炮攻击力下调 500 等。两版的逐话构成也有个别差异，PS 版玩家请勿直接套用本页的 SFC 条件。</p>
+      <p class="text-sm text-base-content/60">版本差异据 Akurasu Difference 页与日文 Fandom；PS 单品版发售日采用 1999 年 12 月 22 日（Akurasu、日文维基、Fandom 一致；英文维基正文的 6 月 22 日应为笔误）。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -175,6 +262,11 @@ const isSrw2 = g.slug === 'srw-2';
     <div>
       <p>本作 26 话<strong>全部建有独立攻略页</strong>（每一话一个详情页），下表为链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、敌方配置（含驾驶员、等级与坐标）、增援、说得与隐藏商店、坐标地图。本作同时保留一份<a class="link" href={href('srw-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <Srw2MissionList />
+    </div>
+  ) : isSrw3 ? (
+    <div>
+      <p>本作 62 个剧本<strong>全部建有独立攻略页</strong>（每一话一个详情页，含各分支变体与隐藏最终话），下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、加入与换装、本关隐藏要素与坐标地图。本作同时保留一份<a class="link" href={href('srw-3/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <Srw3MissionList />
     </div>
   ) : isSrw30 ? (
     <div>
