@@ -1,0 +1,1140 @@
+[
+  {
+    "slug": "srw-1",
+    "zh": "超级机器人大战",
+    "en": "Super Robot Wars",
+    "ja": "スーパーロボット大戦",
+    "year": 1991,
+    "release": "1991-04-20",
+    "platform": "GB",
+    "platformSlug": "gb",
+    "platformLabel": "GB",
+    "platforms": [
+      "GB",
+      "PS3",
+      "PS Vita"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRW1",
+      "机战1",
+      "初代机战",
+      "スパロボ",
+      "超级机器人大战初代"
+    ]
+  },
+  {
+    "slug": "srw-2",
+    "zh": "第2次超级机器人大战",
+    "en": "2nd Super Robot Wars",
+    "ja": "第2次スーパーロボット大戦",
+    "year": 1991,
+    "release": "1991-12-12",
+    "platform": "FC",
+    "platformSlug": "fc",
+    "platformLabel": "FC",
+    "platforms": [
+      "FC",
+      "GB",
+      "PS",
+      "GBA",
+      "3DS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRW2",
+      "第2次机战",
+      "スパロボ2"
+    ]
+  },
+  {
+    "slug": "srw-3",
+    "zh": "第3次超级机器人大战",
+    "en": "3rd Super Robot Wars",
+    "ja": "第3次スーパーロボット大戦",
+    "year": 1993,
+    "release": "1993-07-23",
+    "platform": "SFC",
+    "platformSlug": "sfc",
+    "platformLabel": "SFC",
+    "platforms": [
+      "SFC",
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRW3",
+      "第3次机战",
+      "スパロボ3"
+    ]
+  },
+  {
+    "slug": "srw-ex",
+    "zh": "超级机器人大战EX",
+    "en": "Super Robot Wars EX",
+    "ja": "スーパーロボット大戦EX",
+    "year": 1994,
+    "release": "1994-03-25",
+    "platform": "SFC",
+    "platformSlug": "sfc",
+    "platformLabel": "SFC",
+    "platforms": [
+      "SFC",
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRWEX",
+      "机战EX",
+      "スパロボEX"
+    ]
+  },
+  {
+    "slug": "srw-4",
+    "zh": "第4次超级机器人大战",
+    "en": "4th Super Robot Wars",
+    "ja": "第4次スーパーロボット大戦",
+    "year": 1995,
+    "release": "1995-03-17",
+    "platform": "SFC",
+    "platformSlug": "sfc",
+    "platformLabel": "SFC",
+    "platforms": [
+      "SFC",
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRW4",
+      "第4次机战",
+      "スパロボ4"
+    ]
+  },
+  {
+    "slug": "srw-masoukishin",
+    "zh": "超级机器人大战外传 魔装机神",
+    "en": "Super Robot Wars Gaiden: Masou Kishin - The Lord of Elemental",
+    "ja": "スーパーロボット大戦外伝 魔装機神 THE LORD OF ELEMENTAL",
+    "year": 1996,
+    "release": "1996-03-22",
+    "platform": "SFC",
+    "platformSlug": "sfc",
+    "platformLabel": "SFC",
+    "platforms": [
+      "SFC",
+      "DS",
+      "PSP"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "魔装机神",
+      "LOE",
+      "スパロボ外伝",
+      "Masou Kishin"
+    ]
+  },
+  {
+    "slug": "srw-shin",
+    "zh": "新超级机器人大战",
+    "en": "Neo Super Robot Wars",
+    "ja": "新スーパーロボット大戦",
+    "year": 1996,
+    "release": "1996-12-27",
+    "platform": "PS",
+    "platformSlug": "ps",
+    "platformLabel": "PS",
+    "platforms": [
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "新机战",
+      "Shin SRW",
+      "新スパロボ"
+    ]
+  },
+  {
+    "slug": "srw-f",
+    "zh": "超级机器人大战F",
+    "en": "Super Robot Wars F",
+    "ja": "スーパーロボット大戦F",
+    "year": 1997,
+    "release": "1997-09-25",
+    "platform": "SS",
+    "platformSlug": "ss",
+    "platformLabel": "SS",
+    "platforms": [
+      "SS",
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRWF",
+      "机战F",
+      "スパロボF"
+    ]
+  },
+  {
+    "slug": "srw-f-final",
+    "zh": "超级机器人大战F完结篇",
+    "en": "Super Robot Wars F Final",
+    "ja": "スーパーロボット大戦F完結編",
+    "year": 1998,
+    "release": "1998-04-23",
+    "platform": "SS",
+    "platformSlug": "ss",
+    "platformLabel": "SS",
+    "platforms": [
+      "SS",
+      "PS"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRWFF",
+      "机战F完结篇",
+      "F完結編"
+    ]
+  },
+  {
+    "slug": "srw-compact",
+    "zh": "超级机器人大战Compact",
+    "en": "Super Robot Wars Compact",
+    "ja": "スーパーロボット大戦COMPACT",
+    "year": 1999,
+    "release": "1999-04-28",
+    "platform": "WS",
+    "platformSlug": "ws",
+    "platformLabel": "WS / WSC",
+    "platforms": [
+      "WS",
+      "WSC"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWCompact",
+      "机战Compact",
+      "スパロボコンパクト"
+    ]
+  },
+  {
+    "slug": "srw-64",
+    "zh": "超级机器人大战64",
+    "en": "Super Robot Wars 64",
+    "ja": "スーパーロボット大戦64",
+    "year": 1999,
+    "release": "1999-10-29",
+    "platform": "N64",
+    "platformSlug": "n64",
+    "platformLabel": "N64",
+    "platforms": [
+      "N64"
+    ],
+    "series": "旧系列",
+    "aliases": [
+      "SRW64",
+      "机战64",
+      "スパロボ64"
+    ]
+  },
+  {
+    "slug": "srw-compact-2",
+    "zh": "超级机器人大战Compact2",
+    "en": "Super Robot Wars Compact 2",
+    "ja": "スーパーロボット大戦COMPACT2",
+    "year": 2000,
+    "release": "2000-03-30",
+    "platform": "WS",
+    "platformSlug": "ws",
+    "platformLabel": "WS / WSC",
+    "platforms": [
+      "WS",
+      "PS2"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWCompact2",
+      "机战Compact2",
+      "コンパクト2"
+    ]
+  },
+  {
+    "slug": "srw-alpha",
+    "zh": "超级机器人大战α",
+    "en": "Super Robot Wars Alpha",
+    "ja": "スーパーロボット大戦α",
+    "year": 2000,
+    "release": "2000-05-25",
+    "platform": "PS",
+    "platformSlug": "ps",
+    "platformLabel": "PS",
+    "platforms": [
+      "PS",
+      "DC"
+    ],
+    "series": "α系列",
+    "aliases": [
+      "SRWAlpha",
+      "机战α",
+      "机战阿尔法",
+      "スパロボα"
+    ]
+  },
+  {
+    "slug": "srw-alpha-gaiden",
+    "zh": "超级机器人大战α外传",
+    "en": "Super Robot Wars Alpha Gaiden",
+    "ja": "スーパーロボット大戦α外伝",
+    "year": 2001,
+    "release": "2001-03-29",
+    "platform": "PS",
+    "platformSlug": "ps",
+    "platformLabel": "PS",
+    "platforms": [
+      "PS"
+    ],
+    "series": "α系列",
+    "aliases": [
+      "SRWAlphaGaiden",
+      "α外传",
+      "阿尔法外传",
+      "スパロボα外伝"
+    ]
+  },
+  {
+    "slug": "srw-a",
+    "zh": "超级机器人大战A",
+    "en": "Super Robot Wars A",
+    "ja": "スーパーロボット大戦A",
+    "year": 2001,
+    "release": "2001-09-21",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA",
+      "PSP"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWA",
+      "机战A",
+      "スパロボA"
+    ]
+  },
+  {
+    "slug": "srw-impact",
+    "zh": "超级机器人大战Impact",
+    "en": "Super Robot Wars Impact",
+    "ja": "スーパーロボット大戦IMPACT",
+    "year": 2002,
+    "release": "2002-03-28",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWImpact",
+      "机战Impact",
+      "インパクト"
+    ]
+  },
+  {
+    "slug": "srw-r",
+    "zh": "超级机器人大战R",
+    "en": "Super Robot Wars R",
+    "ja": "スーパーロボット大戦R",
+    "year": 2002,
+    "release": "2002-08-02",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWR",
+      "机战R",
+      "スパロボR"
+    ]
+  },
+  {
+    "slug": "srw-og",
+    "zh": "超级机器人大战OG",
+    "en": "Super Robot Taisen: Original Generation",
+    "ja": "スーパーロボット大戦ORIGINAL GENERATION",
+    "year": 2002,
+    "release": "2002-11-22",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA",
+      "PS2"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOG",
+      "机战OG",
+      "OG1",
+      "スパロボOG"
+    ]
+  },
+  {
+    "slug": "srw-alpha-2",
+    "zh": "第2次超级机器人大战α",
+    "en": "2nd Super Robot Wars Alpha",
+    "ja": "第2次スーパーロボット大戦α",
+    "year": 2003,
+    "release": "2003-03-27",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "α系列",
+    "aliases": [
+      "SRWAlpha2",
+      "第2次α",
+      "第2次阿尔法",
+      "第2次スパロボα"
+    ]
+  },
+  {
+    "slug": "srw-compact-3",
+    "zh": "超级机器人大战Compact3",
+    "en": "Super Robot Wars Compact 3",
+    "ja": "スーパーロボット大戦COMPACT3",
+    "year": 2003,
+    "release": "2003-07-17",
+    "platform": "WSC",
+    "platformSlug": "ws",
+    "platformLabel": "WS / WSC",
+    "platforms": [
+      "WSC"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWCompact3",
+      "机战Compact3",
+      "コンパクト3"
+    ]
+  },
+  {
+    "slug": "srw-d",
+    "zh": "超级机器人大战D",
+    "en": "Super Robot Wars D",
+    "ja": "スーパーロボット大戦D",
+    "year": 2003,
+    "release": "2003-08-08",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWD",
+      "机战D",
+      "スパロボD"
+    ]
+  },
+  {
+    "slug": "srw-mx",
+    "zh": "超级机器人大战MX",
+    "en": "Super Robot Wars MX",
+    "ja": "スーパーロボット大戦MX",
+    "year": 2004,
+    "release": "2004-05-27",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2",
+      "PSP"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWMX",
+      "机战MX",
+      "スパロボMX"
+    ]
+  },
+  {
+    "slug": "srw-gc",
+    "zh": "超级机器人大战GC",
+    "en": "Super Robot Wars GC",
+    "ja": "スーパーロボット大戦GC",
+    "year": 2004,
+    "release": "2004-12-16",
+    "platform": "GC",
+    "platformSlug": "gc",
+    "platformLabel": "GC",
+    "platforms": [
+      "GC",
+      "Xbox 360"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWGC",
+      "机战GC",
+      "スパロボGC",
+      "SRWXO"
+    ]
+  },
+  {
+    "slug": "srw-og-2",
+    "zh": "超级机器人大战OG2",
+    "en": "Super Robot Taisen: Original Generation 2",
+    "ja": "スーパーロボット大戦ORIGINAL GENERATION2",
+    "year": 2005,
+    "release": "2005-02-03",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA",
+      "PS2"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOG2",
+      "机战OG2",
+      "OG2"
+    ]
+  },
+  {
+    "slug": "srw-alpha-3",
+    "zh": "第3次超级机器人大战α",
+    "en": "3rd Super Robot Wars Alpha: To the End of the Galaxy",
+    "ja": "第3次スーパーロボット大戦α 終焉の銀河へ",
+    "year": 2005,
+    "release": "2005-07-28",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "α系列",
+    "aliases": [
+      "SRWAlpha3",
+      "第3次α",
+      "第3次阿尔法",
+      "终焉之银河"
+    ]
+  },
+  {
+    "slug": "srw-j",
+    "zh": "超级机器人大战J",
+    "en": "Super Robot Wars J",
+    "ja": "スーパーロボット大戦J",
+    "year": 2005,
+    "release": "2005-09-15",
+    "platform": "GBA",
+    "platformSlug": "gba",
+    "platformLabel": "GBA",
+    "platforms": [
+      "GBA"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWJ",
+      "机战J",
+      "スパロボJ"
+    ]
+  },
+  {
+    "slug": "srw-w",
+    "zh": "超级机器人大战W",
+    "en": "Super Robot Wars W",
+    "ja": "スーパーロボット大戦W",
+    "year": 2007,
+    "release": "2007-03-01",
+    "platform": "DS",
+    "platformSlug": "ds",
+    "platformLabel": "DS",
+    "platforms": [
+      "DS"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWW",
+      "机战W",
+      "スパロボW"
+    ]
+  },
+  {
+    "slug": "srw-ogs",
+    "zh": "超级机器人大战OGS",
+    "en": "Super Robot Wars: Original Generations",
+    "ja": "スーパーロボット大戦OG ORIGINAL GENERATIONS",
+    "year": 2007,
+    "release": "2007-06-28",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOGS",
+      "机战OGS",
+      "OGS",
+      "オリジェネ"
+    ]
+  },
+  {
+    "slug": "srw-og-gaiden",
+    "zh": "超级机器人大战OG外传",
+    "en": "Super Robot Wars Original Generation Gaiden",
+    "ja": "スーパーロボット大戦OG外伝",
+    "year": 2007,
+    "release": "2007-12-27",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOGGaiden",
+      "OG外传",
+      "机战OG外传"
+    ]
+  },
+  {
+    "slug": "srw-z",
+    "zh": "超级机器人大战Z",
+    "en": "Super Robot Wars Z",
+    "ja": "スーパーロボット大戦Z",
+    "year": 2008,
+    "release": "2008-09-25",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZ",
+      "机战Z",
+      "スパロボZ"
+    ]
+  },
+  {
+    "slug": "srw-z-special",
+    "zh": "超级机器人大战Z特别盘",
+    "en": "Super Robot Wars Z: Special Disk",
+    "ja": "スーパーロボット大戦Z スペシャルディスク",
+    "year": 2009,
+    "release": "2009-03-05",
+    "platform": "PS2",
+    "platformSlug": "ps2",
+    "platformLabel": "PS2",
+    "platforms": [
+      "PS2"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZSpecial",
+      "Z特别盘",
+      "机战Z特别盘"
+    ]
+  },
+  {
+    "slug": "srw-k",
+    "zh": "超级机器人大战K",
+    "en": "Super Robot Wars K",
+    "ja": "スーパーロボット大戦K",
+    "year": 2009,
+    "release": "2009-03-20",
+    "platform": "DS",
+    "platformSlug": "ds",
+    "platformLabel": "DS",
+    "platforms": [
+      "DS"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWK",
+      "机战K",
+      "スパロボK"
+    ]
+  },
+  {
+    "slug": "srw-neo",
+    "zh": "超级机器人大战NEO",
+    "en": "Super Robot Wars NEO",
+    "ja": "スーパーロボット大戦NEO",
+    "year": 2009,
+    "release": "2009-10-29",
+    "platform": "Wii",
+    "platformSlug": "wii",
+    "platformLabel": "Wii",
+    "platforms": [
+      "Wii"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWNEO",
+      "机战NEO",
+      "スパロボNEO"
+    ]
+  },
+  {
+    "slug": "srw-l",
+    "zh": "超级机器人大战L",
+    "en": "Super Robot Wars L",
+    "ja": "スーパーロボット大戦L",
+    "year": 2010,
+    "release": "2010-11-25",
+    "platform": "DS",
+    "platformSlug": "ds",
+    "platformLabel": "DS",
+    "platforms": [
+      "DS"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWL",
+      "机战L",
+      "スパロボL"
+    ]
+  },
+  {
+    "slug": "srw-z-2-hakai",
+    "zh": "第2次超级机器人大战Z破界篇",
+    "en": "2nd Super Robot Wars Z: Hakai-hen",
+    "ja": "第2次スーパーロボット大戦Z 破界篇",
+    "year": 2011,
+    "release": "2011-04-14",
+    "platform": "PSP",
+    "platformSlug": "psp",
+    "platformLabel": "PSP",
+    "platforms": [
+      "PSP"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZ2",
+      "第2次Z",
+      "破界篇",
+      "第2次スパロボZ"
+    ]
+  },
+  {
+    "slug": "srw-masoukishin-2",
+    "zh": "超级机器人大战OGSAGA魔装机神II",
+    "en": "Super Robot Wars OG Saga: Masou Kishin II - Revelation of Evil God",
+    "ja": "スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD",
+    "year": 2012,
+    "release": "2012-01-12",
+    "platform": "PSP",
+    "platformSlug": "psp",
+    "platformLabel": "PSP",
+    "platforms": [
+      "PSP"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "魔装机神II",
+      "魔装机神2",
+      "ROE"
+    ]
+  },
+  {
+    "slug": "srw-z-2-saisei",
+    "zh": "第2次超级机器人大战Z再世篇",
+    "en": "2nd Super Robot Wars Z: Saisei-hen",
+    "ja": "第2次スーパーロボット大戦Z 再世篇",
+    "year": 2012,
+    "release": "2012-04-05",
+    "platform": "PSP",
+    "platformSlug": "psp",
+    "platformLabel": "PSP",
+    "platforms": [
+      "PSP"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZ2-2",
+      "再世篇",
+      "第2次Z再世篇"
+    ]
+  },
+  {
+    "slug": "srw-card-chronicle",
+    "zh": "超级机器人大战CardChronicle",
+    "en": "Super Robot Wars Card Chronicle",
+    "ja": "スーパーロボット大戦Card Chronicle",
+    "year": 2012,
+    "release": "2012-09-13",
+    "platform": "手机",
+    "platformSlug": "mobile",
+    "platformLabel": "手机",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWCC",
+      "Card Chronicle",
+      "卡片编年史",
+      "カードクロニクル"
+    ]
+  },
+  {
+    "slug": "srw-og-2nd",
+    "zh": "第2次超级机器人大战OG",
+    "en": "2nd Super Robot Wars Original Generation",
+    "ja": "第2次スーパーロボット大戦OG",
+    "year": 2012,
+    "release": "2012-11-29",
+    "platform": "PS3",
+    "platformSlug": "ps3",
+    "platformLabel": "PS3",
+    "platforms": [
+      "PS3"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOG2nd",
+      "第2次OG",
+      "机战第2次OG"
+    ]
+  },
+  {
+    "slug": "srw-ux",
+    "zh": "超级机器人大战UX",
+    "en": "Super Robot Wars UX",
+    "ja": "スーパーロボット大戦UX",
+    "year": 2013,
+    "release": "2013-03-14",
+    "platform": "3DS",
+    "platformSlug": "3ds",
+    "platformLabel": "3DS",
+    "platforms": [
+      "3DS"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWUX",
+      "机战UX",
+      "スパロボUX"
+    ]
+  },
+  {
+    "slug": "srw-operation-extend",
+    "zh": "超级机器人大战OperationExtend",
+    "en": "Super Robot Wars Operation Extend",
+    "ja": "スーパーロボット大戦Operation Extend",
+    "year": 2013,
+    "release": "2013-07-18",
+    "platform": "PSP",
+    "platformSlug": "psp",
+    "platformLabel": "PSP",
+    "platforms": [
+      "PSP"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWOE",
+      "Operation Extend",
+      "机战OE",
+      "オペレーションエクステンド"
+    ]
+  },
+  {
+    "slug": "srw-masoukishin-3",
+    "zh": "超级机器人大战OGSAGA魔装机神III",
+    "en": "Super Robot Wars OG Saga: Masou Kishin III - Pride of Justice",
+    "ja": "スーパーロボット大戦OGサーガ 魔装機神III PRIDE OF JUSTICE",
+    "year": 2013,
+    "release": "2013-08-22",
+    "platform": "PS3",
+    "platformSlug": "ps3",
+    "platformLabel": "PS3",
+    "platforms": [
+      "PS3",
+      "PS Vita"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "魔装机神III",
+      "魔装机神3",
+      "POJ"
+    ]
+  },
+  {
+    "slug": "srw-z-3-jigoku",
+    "zh": "第3次超级机器人大战Z时狱篇",
+    "en": "3rd Super Robot Wars Z: Jigoku-hen",
+    "ja": "第3次スーパーロボット大戦Z 時獄篇",
+    "year": 2014,
+    "release": "2014-04-10",
+    "platform": "PS3",
+    "platformSlug": "ps3",
+    "platformLabel": "PS3",
+    "platforms": [
+      "PS3",
+      "PS Vita"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZ3",
+      "第3次Z",
+      "时狱篇",
+      "時獄篇"
+    ]
+  },
+  {
+    "slug": "srw-masoukishin-f",
+    "zh": "超级机器人大战OGSAGA魔装机神F",
+    "en": "Super Robot Wars OG Saga: Masou Kishin F - Coffin of the End",
+    "ja": "スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END",
+    "year": 2014,
+    "release": "2014-08-28",
+    "platform": "PS3",
+    "platformSlug": "ps3",
+    "platformLabel": "PS3",
+    "platforms": [
+      "PS3"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "魔装机神F",
+      "魔装机神终章",
+      "COE"
+    ]
+  },
+  {
+    "slug": "srw-z-3-tengoku",
+    "zh": "第3次超级机器人大战Z天狱篇",
+    "en": "3rd Super Robot Wars Z: Tengoku-hen",
+    "ja": "第3次スーパーロボット大戦Z 天獄篇",
+    "year": 2015,
+    "release": "2015-04-02",
+    "platform": "PS3",
+    "platformSlug": "ps3",
+    "platformLabel": "PS3",
+    "platforms": [
+      "PS3",
+      "PS Vita"
+    ],
+    "series": "Z系列",
+    "aliases": [
+      "SRWZ3-2",
+      "天狱篇",
+      "第3次Z天狱篇",
+      "天獄篇"
+    ]
+  },
+  {
+    "slug": "srw-bx",
+    "zh": "超级机器人大战BX",
+    "en": "Super Robot Wars BX",
+    "ja": "スーパーロボット大戦BX",
+    "year": 2015,
+    "release": "2015-08-20",
+    "platform": "3DS",
+    "platformSlug": "3ds",
+    "platformLabel": "3DS",
+    "platforms": [
+      "3DS"
+    ],
+    "series": "掌机系列",
+    "aliases": [
+      "SRWBX",
+      "机战BX",
+      "スパロボBX"
+    ]
+  },
+  {
+    "slug": "srw-x-omega",
+    "zh": "超级机器人大战X-Ω",
+    "en": "Super Robot Wars X-Omega",
+    "ja": "スーパーロボット大戦X-Ω",
+    "year": 2015,
+    "release": "2015-10-04",
+    "platform": "手机",
+    "platformSlug": "mobile",
+    "platformLabel": "手机",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "series": "其他单作",
+    "aliases": [
+      "SRWXOmega",
+      "机战XΩ",
+      "机战X欧米伽",
+      "スパクロ",
+      "X-Ω"
+    ]
+  },
+  {
+    "slug": "srw-og-moon-dwellers",
+    "zh": "超级机器人大战OG月球居民",
+    "en": "Super Robot Wars OG: The Moon Dwellers",
+    "ja": "スーパーロボット大戦OG ムーン・デュエラーズ",
+    "year": 2016,
+    "release": "2016-06-30",
+    "platform": "PS4",
+    "platformSlug": "ps4",
+    "platformLabel": "PS4",
+    "platforms": [
+      "PS4",
+      "PS3"
+    ],
+    "series": "OG系列",
+    "aliases": [
+      "SRWOGMD",
+      "月球居民",
+      "Moon Dwellers",
+      "ムーンデュエラーズ",
+      "机战OG月球居民"
+    ]
+  },
+  {
+    "slug": "srw-v",
+    "zh": "超级机器人大战V",
+    "en": "Super Robot Wars V",
+    "ja": "スーパーロボット大戦V",
+    "year": 2017,
+    "release": "2017-02-23",
+    "platform": "PS4",
+    "platformSlug": "ps4",
+    "platformLabel": "PS4",
+    "platforms": [
+      "PS4",
+      "PS Vita",
+      "Switch",
+      "Steam"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRWV",
+      "机战V",
+      "スパロボV"
+    ]
+  },
+  {
+    "slug": "srw-x",
+    "zh": "超级机器人大战X",
+    "en": "Super Robot Wars X",
+    "ja": "スーパーロボット大戦X",
+    "year": 2018,
+    "release": "2018-03-29",
+    "platform": "PS4",
+    "platformSlug": "ps4",
+    "platformLabel": "PS4",
+    "platforms": [
+      "PS4",
+      "PS Vita",
+      "Switch",
+      "Steam"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRWX",
+      "机战X",
+      "スパロボX"
+    ]
+  },
+  {
+    "slug": "srw-t",
+    "zh": "超级机器人大战T",
+    "en": "Super Robot Wars T",
+    "ja": "スーパーロボット大戦T",
+    "year": 2019,
+    "release": "2019-03-20",
+    "platform": "PS4",
+    "platformSlug": "ps4",
+    "platformLabel": "PS4",
+    "platforms": [
+      "PS4",
+      "Switch"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRWT",
+      "机战T",
+      "スパロボT"
+    ]
+  },
+  {
+    "slug": "srw-dd",
+    "zh": "超级机器人大战DD",
+    "en": "Super Robot Wars DD",
+    "ja": "スーパーロボット大戦DD",
+    "year": 2019,
+    "release": "2019-08-21",
+    "platform": "手机",
+    "platformSlug": "mobile",
+    "platformLabel": "手机",
+    "platforms": [
+      "iOS",
+      "Android"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRWDD",
+      "机战DD",
+      "スパロボDD"
+    ]
+  },
+  {
+    "slug": "srw-30",
+    "zh": "超级机器人大战30",
+    "en": "Super Robot Wars 30",
+    "ja": "スーパーロボット大戦30",
+    "year": 2021,
+    "release": "2021-10-28",
+    "platform": "PS4",
+    "platformSlug": "ps4",
+    "platformLabel": "PS4",
+    "platforms": [
+      "PS4",
+      "Switch",
+      "Steam"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRW30",
+      "机战30",
+      "スパロボ30"
+    ]
+  },
+  {
+    "slug": "srw-y",
+    "zh": "超级机器人大战Y",
+    "en": "Super Robot Wars Y",
+    "ja": "スーパーロボット大戦Y",
+    "year": 2025,
+    "release": "2025-08-28",
+    "platform": "PS5",
+    "platformSlug": "ps5",
+    "platformLabel": "PS5",
+    "platforms": [
+      "PS5",
+      "Switch",
+      "Steam"
+    ],
+    "series": "现代系列",
+    "aliases": [
+      "SRWY",
+      "机战Y",
+      "スパロボY"
+    ]
+  }
+]
