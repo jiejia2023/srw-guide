@@ -1220,60 +1220,6 @@
    "badge": "badge-warning",
    "type": "隐藏",
    "note": "米海尔与法萨莉娜在此加入"
-  },
-  {
-   "code": "EC-1",
-   "zh": "黑发怨夜",
-   "ja": "黒髪怨夜",
-   "en": "The Black-Haired Woman's Retribution",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "贝塔曼卡塔弗拉克托/拉米亚的保底加入点"
-  },
-  {
-   "code": "EC-2",
-   "zh": "复活之时",
-   "ja": "復活の時",
-   "en": "Revival at Hand",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "—"
-  },
-  {
-   "code": "EC-3",
-   "zh": "泥沼死斗",
-   "ja": "泥沼の死闘",
-   "en": "In Over Our Heads",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "—"
-  },
-  {
-   "code": "EC-4",
-   "zh": "编织憎恨者",
-   "ja": "憎しみを紡ぐもの",
-   "en": "Weavers of Hate",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "—"
-  },
-  {
-   "code": "EC-5",
-   "zh": "在凋零之花中",
-   "ja": "散りゆく花の中で",
-   "en": "Among The Fallen Flowers",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "—"
-  },
-  {
-   "code": "EC-6",
-   "zh": "从这里走向明天",
-   "ja": "ここから明日へ",
-   "en": "Where Tomorrow Starts",
-   "badge": "badge-accent",
-   "type": "追加",
-   "note": "—"
   }
  ],
  "ecTitle": "通关后追加章节（免费更新）",
