@@ -3,10 +3,10 @@ import games from '../../../data/games.json';
 import { href, canonical } from '../../../lib/site';
 
 // 结构改版：关卡列表已直接并入各作主页（主页即链接索引），本页仅作重定向。
-// srw-30、srw-1、srw-2、srw-3 与 srw-ex 另有各自的关卡总表静态页，不在此列。
+// srw-30、srw-1、srw-2、srw-3、srw-ex 与 srw-4 另有各自的关卡总表静态页，不在此列。
 export function getStaticPaths() {
   return games
-    .filter(g => g.slug !== 'srw-30' && g.slug !== 'srw-1' && g.slug !== 'srw-2' && g.slug !== 'srw-3' && g.slug !== 'srw-ex')
+    .filter(g => g.slug !== 'srw-30' && g.slug !== 'srw-1' && g.slug !== 'srw-2' && g.slug !== 'srw-3' && g.slug !== 'srw-ex' && g.slug !== 'srw-4')
     .map(g => ({ params: { slug: g.slug }, props: { game: g } }));
 }
 const { game: g } = Astro.props;
