@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Srw64MissionList from '../../../components/Srw64MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战64', path: 'srw-64/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战64（N64）关卡攻略 · 全124个剧本页面列表" description="超级机器人大战64（1999年 N64）全部 124 个不同剧本的页面列表：四位主人公开局、真实系/超级系分线、第20话 OZ线/独立军线大分歧、完全和平线与罗姆菲拉/特列斯子路线、终盘 A/B 双线与第51话穆格宇宙/地球分歧。每关独立攻略页含胜利/败北条件、我方加入、部件获得、本关隐藏要素（四条宿敌链与全部说得链）与坐标地图。本页为链接索引。" path="srw-64/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战64 · 关卡攻略</h1>
+  <p>1999 年 N64《超级机器人大战64》是系列唯一一款任天堂64正传作品，也是 Winkysoft 退出后、由招布（Manegi）与 A.I 担当开发的第一批机战之一（与《COMPACT》《α》并行推进）。本作的结构是全系列最庞杂的一档：<strong>四位主人公</strong>（真实系男女＋超级系男女，各有专属机体与宿敌）开局分线、第 20 话后 <strong>OZ 线/独立军线</strong>大分歧，独立军再分出<strong>完全和平主义线</strong>，OZ 侧有<strong>罗姆菲拉子路线</strong>、完全和平侧有<strong>特列斯子路线</strong>，终盘收束为 <strong>A/B 双线</strong>，第 50 话再分穆格宇宙/地球。本站共建有 <strong>124 个不同剧本</strong>的独立详情页（Akurasu 流程图共 126 格，其中《从此同行》《决战之时》两关在 OZ 与独立军两栏重复出现、实为同一剧本，各合并为一页——与 Akurasu 时间线的 124 计数一致）。每一关的完整攻略（条件、加入、部件获得、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-64/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十一部<strong>全关卡补完</strong>的作品——124 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新超级机器人大战、F、F完结编、COMPACT 已完成）。流程、胜败条件、加入与部件获得以 Akurasu 的 64 流程图为主源，隐藏要素逐条对照 Akurasu 的 Secrets 与 Timeline，系统与联动以日文维基、atwiki 交叉核对。<strong>如实说明</strong>：本作没有可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作，Akurasu 流程图不刊敌方配置表与坐标——故各页的敌方配置、地图尺寸与地形标为待核实，坐标图为参照框架。关卡编号本站从流程图（最终话为第 55 话）；Akurasu 自家的时间线对后半段用了另一套编号（最终话作第 56 话、总数同为 124），两套编号的对应关系在相关页面中注明。GameFAQs 的英文攻略（High_SRW，v0.7）作者自述未完、计数 123，本站只用它作英文标题的交叉核对。</span>
+  </div>
+
+  <Srw64MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/64/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 64 Flow Chart</a>（全流程结构、胜败条件、部件获得与机体加入；本站关卡编号从此页）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/64/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 64 Secrets</a>（39 项隐藏要素的分步条件）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/64/Timeline" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 64 Timeline</a>（第二套关卡编号与加入编成对照、计数互证）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦64" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦64</a>（系统、Link Battler 联动、参战作品与开发经纬）</li>
+    <li><a href="https://w.atwiki.jp/srw64/" rel="noopener" target="_blank">atwiki — スーパーロボット大戦64 攻略Wiki</a>（系统细节核对）</li>
+  </ul>
+  <p><a href={href('srw-64/')}>← 返回超级机器人大战64</a></p>
+</Base>

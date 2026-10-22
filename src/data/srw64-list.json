@@ -1,0 +1,1192 @@
+{
+ "groups": [
+  {
+   "title": "开局：四位主人公的第1话",
+   "intro": "新游戏先选主人公：真实系男阿克莱特、真实系女塞莱因、超级系男布拉德、超级系女玛娜米——四人各有独立的第1话、专属机体与宿敌。选定的主人公决定全篇的宿敌组合与多条隐藏。",
+   "rows": [
+    {
+     "code": "第1话·真实系男（阿克）",
+     "zh": "流转",
+     "ja": "流転",
+     "en": "Scenario 1: Vicissitudes",
+     "type": "开局",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第1话·真实系女（塞莱因）",
+     "zh": "硝烟之中",
+     "ja": "硝煙の中で",
+     "en": "Scenario 1: Within the Gun Smoke",
+     "type": "开局",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第1话·超级系男（布拉德）",
+     "zh": "战斗吧！热血的男儿们",
+     "ja": "戦え！熱き男のファイターたち",
+     "en": "Scenario 1: Fight! Fighters are Hot Blooded Men",
+     "type": "开局",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第1话·超级系女（玛娜米）",
+     "zh": "出击！斯姆鲁格",
+     "ja": "出撃！スイームルグ",
+     "en": "Scenario 1: Sortie! Simurgh",
+     "type": "开局",
+     "area": "地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "序盘分线：第2–6话（真实系/超级系）",
+   "intro": "第2–6话两系各走各的关卡。第4话超级系只有玛娜米有（布拉德跳过），第5话共通关后布拉德再补一关专属关——两位超级系主角的出击次数因此错开。Link Battler 联动自第2话起可用。",
+   "rows": [
+    {
+     "code": "第2话·真实系",
+     "zh": "群聚的杀人机器",
+     "ja": "群がる殺人機",
+     "en": "Scenario 2: Gathering of Killing Machines",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第2话·超级系",
+     "zh": "愤怒的甲儿 魔神屹立！",
+     "ja": "怒りの甲児 魔神立つ！",
+     "en": "Scenario 2: The Anger of Kōji! The Demon-God Stands!",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第3话·真实系",
+     "zh": "时光流逝",
+     "ja": "時は流れた",
+     "en": "Scenario 3: Time Flows",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第3话·超级系",
+     "zh": "米凯涅与百鬼",
+     "ja": "ミケーネと百鬼",
+     "en": "Scenario 3: Mikene and Hyakki",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第4话·真实系",
+     "zh": "少女所见的流星",
+     "ja": "少女が見た流星",
+     "en": "Scenario 4: The Meteor The Girl Saw",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第4话·超级系女（玛娜米）",
+     "zh": "苛烈！埃尔布鲁斯的猛攻",
+     "ja": "苛烈！猛攻のエルブルス",
+     "en": "Scenario 4: Harsh! Elbrus' Assault",
+     "type": "专属关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第5话·真实系",
+     "zh": "黑色高达",
+     "ja": "黒いガンダム",
+     "en": "Scenario 5: The Black Gundam",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第5话·超级系（共通）",
+     "zh": "流星坠落之日",
+     "ja": "流星が落ちた日",
+     "en": "Scenario 5: The Day The Meteors Fell",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第5话·超级系男（布拉德）",
+     "zh": "男儿的骨气！？诀别之时",
+     "ja": "漢の意地！？訣別の時",
+     "en": "Scenario 5: A Man's Pride!? The time of parting",
+     "type": "专属关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第6话·真实系",
+     "zh": "华丽的卢·卡因",
+     "ja": "華麗なるル・カイン",
+     "en": "Scenario 6: The Splendid Le Cain",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第6话·超级系",
+     "zh": "大胆无畏 卢·卡因的挑战",
+     "ja": "大胆不敵ル・カインの挑戦",
+     "en": "Scenario 6: The Challenge of The Daring Le Cain",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与再分线：第7–13话",
+   "intro": "第7话起两系合流；第10、12话再短暂分真实/超级两个版本，第13话只有超级系有。艾娜、阿莲比、凤、加拉利亚、艾玛、艾丽卡等隐藏链大多在本段埋点。",
+   "rows": [
+    {
+     "code": "第7话（合流）",
+     "zh": "苦难之刃",
+     "ja": "苦しみの刃",
+     "en": "Scenario 7: The Blade of Suffering",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第8话（合流）",
+     "zh": "引向破灭的高达",
+     "ja": "破滅を導くガンダム",
+     "en": "Scenario 8: The Gundam That Leads to Ruin",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第9话（合流）",
+     "zh": "哀·战士们",
+     "ja": "哀・戦士たち",
+     "en": "Scenario 9: Soldiers of Sorrow",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第10话·真实系",
+     "zh": "悲伤的香港市",
+     "ja": "悲しみのホンコンシティ",
+     "en": "Scenario 10: Sorrow in Hong Kong City",
+     "type": "通常关",
+     "area": "香港市",
+     "note": ""
+    },
+    {
+     "code": "第10话·超级系",
+     "zh": "粉碎卑劣的陷阱！",
+     "ja": "卑劣な罠を破れ！",
+     "en": "Scenario 10: Tearful Vile Trap!",
+     "type": "通常关",
+     "area": "香港市",
+     "note": ""
+    },
+    {
+     "code": "第11话（合流）",
+     "zh": "自大海与大地的夹缝",
+     "ja": "海と大地の狭間より",
+     "en": "Scenario 11: In the Space Between Sea and Land",
+     "type": "通常关",
+     "area": "海域",
+     "note": ""
+    },
+    {
+     "code": "第12话·真实系",
+     "zh": "迷走的命运",
+     "ja": "迷走する運命",
+     "en": "Scenario 12: Doomed to Stray",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第12话·超级系",
+     "zh": "其名为草间大作",
+     "ja": "その名は草間大作",
+     "en": "Scenario 12: His Name Is Daisaku Kusama",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第13话·超级系",
+     "zh": "背叛之街",
+     "ja": "裏切りの街",
+     "en": "Scenario 13: Town of Betrayal",
+     "type": "专属关",
+     "area": "地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流篇：第14–20话",
+   "intro": "合流后的主干道：第16话决定第二艘战舰（二选一），第17话的选择支关系到埃尔利希链与第35话的版本，第20话结尾做出全作最大的抉择——加入 OZ 还是成立独立军。",
+   "rows": [
+    {
+     "code": "第14话（合流）",
+     "zh": "冲击的维多利亚",
+     "ja": "衝撃のビクトリア",
+     "en": "Scenario 14: Shock at Victoria",
+     "type": "通常关",
+     "area": "维多利亚",
+     "note": ""
+    },
+    {
+     "code": "第15话（合流）",
+     "zh": "夏皮罗，转生！",
+     "ja": "シャピロ、転生！",
+     "en": "Scenario 15: Shapiro's Transformation!",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第16话（合流）",
+     "zh": "血染之路",
+     "ja": "血塗られた道",
+     "en": "Scenario 16: Bloodstained Road",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第17话（合流）",
+     "zh": "理想破灭",
+     "ja": "理想潰えて",
+     "en": "Scenario 17: Shattered Ideals",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第18话（合流）",
+     "zh": "再会！吾师",
+     "ja": "再会！我が師よ",
+     "en": "Scenario 18: We Meet Again, Master!",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第19话（合流）",
+     "zh": "以洗牌同盟之名",
+     "ja": "シャッフルの名のもとに",
+     "en": "Scenario 19: In the Name of the Shuffle",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第20话（合流）",
+     "zh": "拂晓行动",
+     "ja": "オペレーション・デイブレイク",
+     "en": "Scenario 20: Operation Daybreak",
+     "type": "路线分歧关",
+     "area": "地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "路线分歧：第21–22话",
+   "intro": "OZ 线与独立军线的开局两话。独立军线的第22话《梁山泊之战》还有第二层分歧：特定的选项组合可以转入完全和平主义线。",
+   "rows": [
+    {
+     "code": "第21话·OZ",
+     "zh": "新的道路",
+     "ja": "新しき道",
+     "en": "Scenario 21: A New Road",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第21话·独立军",
+     "zh": "别了，战士",
+     "ja": "さらば戦士よ",
+     "en": "Scenario 21: Farewell, Soldiers",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第22话·OZ",
+     "zh": "为了地球圈的统一",
+     "ja": "地球圏統一のために",
+     "en": "Scenario 22: For the Unification of the Earth Sphere",
+     "type": "限时关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第22话·独立军",
+     "zh": "梁山泊之战",
+     "ja": "梁山泊の戦い",
+     "en": "Scenario 22: The Fight at Mount Liang",
+     "type": "通常关",
+     "area": "梁山泊",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "三路线篇：第23–31话",
+   "intro": "三条路线（OZ/完全和平/独立军）并行展开。第25话·OZ后可进入罗姆菲拉子路线（第26–28话），第26话的基地防卫结果决定卡多与路线的归属；四位宿敌的隐藏链在本段全面埋点。",
+   "rows": [
+    {
+     "code": "第23话·OZ",
+     "zh": "人类的胜利，然后…（前）",
+     "ja": "人類の勝利、そして・・前編",
+     "en": "Scenario 23: Victory for the Human Race, and then... Part 1",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第23话·完全和平",
+     "zh": "蔓延的恶意",
+     "ja": "広がって行く悪意",
+     "en": "Scenario 23: The Malice that Keeps Spreading",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第23话·独立军",
+     "zh": "宇宙的呼唤",
+     "ja": "宇宙の呼ぶ声",
+     "en": "Scenario 23: The Voice Called Up By The Universe",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第24话·OZ",
+     "zh": "人类的胜利，然后…（后）",
+     "ja": "人類の勝利、そして・・後編",
+     "en": "Scenario 24: Victory for the Human Race, and then... Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第24话·完全和平",
+     "zh": "净化",
+     "ja": "浄化",
+     "en": "Scenario 24: Purification",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第24话·独立军",
+     "zh": "虚假的和平",
+     "ja": "偽りの平和",
+     "en": "Scenario 24: False Peace",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第25话·OZ",
+     "zh": "破坏托鲁基斯",
+     "ja": "トールギス破壊",
+     "en": "Scenario 25: Tallgeese's Destruction",
+     "type": "路线分歧关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第25话·完全和平",
+     "zh": "遥远的和平",
+     "ja": "遠き平和",
+     "en": "Scenario 25: Distant Peace",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第25话·独立军",
+     "zh": "激战！拉比安罗斯",
+     "ja": "激闘！ラビアンローズ",
+     "en": "Scenario 25: Fierce Battle! La Vie En Rose",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第26话·罗姆菲拉",
+     "zh": "月球是地狱！",
+     "ja": "月は地獄だ！",
+     "en": "Scenario 26: The Moon is Hell!",
+     "type": "基地防卫关",
+     "area": "月球",
+     "note": ""
+    },
+    {
+     "code": "第26话·OZ",
+     "zh": "月球攻击",
+     "ja": "ムーンアタック",
+     "en": "Scenario 26: Moon Attack",
+     "type": "通常关",
+     "area": "月球",
+     "note": ""
+    },
+    {
+     "code": "第26话·完全和平",
+     "zh": "不熄的流星",
+     "ja": "燃え尽きない流星",
+     "en": "Scenario 26: The Meteor that doesn't Burn Out",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第26话·独立军",
+     "zh": "野心的终焉",
+     "ja": "野望の終焉",
+     "en": "Scenario 26: The End of the Ambition",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第27话·罗姆菲拉",
+     "zh": "野心所向的尽头",
+     "ja": "野望の行き着く果て",
+     "en": "Scenario 27: The End of the Ambition Arrives",
+     "type": "通常关",
+     "area": "月球",
+     "note": ""
+    },
+    {
+     "code": "第27话·OZ",
+     "zh": "未能成神的男人",
+     "ja": "神になれなかった男",
+     "en": "Scenario 27: The Man Who Couldn't Be God",
+     "type": "通常关",
+     "area": "月球",
+     "note": ""
+    },
+    {
+     "code": "第27话·完全和平",
+     "zh": "战斗的意义",
+     "ja": "戦いの意味は",
+     "en": "Scenario 27: The Meaning of Fighting",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第27话·独立军",
+     "zh": "斯威特沃塔攻防战",
+     "ja": "スウィートウォータ攻防戦",
+     "en": "Scenario 27: The Battle of Sweet Water",
+     "type": "通常关",
+     "area": "殖民卫星",
+     "note": ""
+    },
+    {
+     "code": "第28话·罗姆菲拉",
+     "zh": "再次来临的噩梦",
+     "ja": "再び訪れた悪夢",
+     "en": "Scenario 28: The Nightmare That Came Again",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第28话·OZ",
+     "zh": "混沌不会终结",
+     "ja": "混沌は終わらない",
+     "en": "Scenario 28: The Chaos Doesn't End",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第28话·完全和平",
+     "zh": "桑克王国崩溃",
+     "ja": "サンクキングダム崩壊",
+     "en": "Scenario 28: Sanc Kingdom's Collapse",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第28话·独立军",
+     "zh": "OZ分裂（前）",
+     "ja": "OZ分裂 前編",
+     "en": "Scenario 28: OZ's Separation Part 1",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第29话·OZ",
+     "zh": "只因纯粹",
+     "ja": "純粋であるがゆえに",
+     "en": "Scenario 29: It is Pure, Therefore it Is",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第29话·完全和平",
+     "zh": "突入！破坏移动要塞（前）",
+     "ja": "突入！移動要塞を破壊せよ 前編",
+     "en": "Scenario 29: Rush! Destroy the Moving Fortress Part 1",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第29话·独立军",
+     "zh": "OZ分裂（后）",
+     "ja": "OZ分裂 後編",
+     "en": "Scenario 29: OZ's Separation Part 2",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第30话·OZ",
+     "zh": "心寄于拳",
+     "ja": "その拳に心宿して",
+     "en": "Scenario 30: Having Heart in that Fist",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第30话·完全和平",
+     "zh": "突入！破坏移动要塞（后）",
+     "ja": "突入！移動要塞を破壊せよ 後編",
+     "en": "Scenario 30: Rush! Destroy the Moving Fortress Part 2",
+     "type": "限时关",
+     "area": "移动要塞",
+     "note": ""
+    },
+    {
+     "code": "第30话·独立军",
+     "zh": "明镜止水",
+     "ja": "明鏡止水",
+     "en": "Scenario 30: Clear Mirror, Still Water",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第31话·OZ",
+     "zh": "抹杀特列斯指令",
+     "ja": "トレーズ抹殺指令",
+     "en": "Scenario 31: Treize's Obliteration Directive",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第31话·完全和平",
+     "zh": "笼罩地球圈的暗云",
+     "ja": "地球圏を覆う暗雲",
+     "en": "Scenario 31: Dark Clouds Covering the Earth Sphere",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第31话·独立军",
+     "zh": "其名为艾比安",
+     "ja": "その名はエピオン",
+     "en": "Scenario 31: Its Name Is Epyon",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "宿敌结算与终盘分流：第32–36话",
+   "intro": "埃尔利希（阿克）与卡兹（布拉德）的追加关在 OZ 线算第32话、在独立军线算第33话——同一个剧本、两种编号（本站各合并为一页）。完全和平线在此段可转入特列斯子路线；第36话起各线收束为 A/B 两线。",
+   "rows": [
+    {
+     "code": "第32话·阿克专属追加关",
+     "zh": "从此同行",
+     "ja": "ここより共に",
+     "en": "Scenario 32/33: Both From Here",
+     "type": "专属追加关",
+     "area": "地球",
+     "note": "埃尔利希加入结算关；独立军线进入时编号为第33话"
+    },
+    {
+     "code": "第32话·布拉德专属追加关",
+     "zh": "决战之时",
+     "ja": "決着の時",
+     "en": "Scenario 32/33: In the Moment of Truth",
+     "type": "专属追加关",
+     "area": "地球",
+     "note": "卡兹加入结算关；独立军线进入时编号为第33话"
+    },
+    {
+     "code": "第32话·完全和平",
+     "zh": "重返战场",
+     "ja": "戦場へ帰る",
+     "en": "Scenario 32: The Return to the Battlefield",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第32话·独立军",
+     "zh": "混沌的地球圈",
+     "ja": "混沌の地球圏",
+     "en": "Scenario 32: Global Chaos",
+     "type": "限时关",
+     "area": "地球圈",
+     "note": ""
+    },
+    {
+     "code": "第33话·阿克专属追加关",
+     "zh": "从此同行",
+     "ja": "ここより共に",
+     "en": "Scenario 32/33: Both From Here",
+     "type": "专属追加关",
+     "area": "地球",
+     "note": "与第32话·OZ侧同一页"
+    },
+    {
+     "code": "第33话·布拉德专属追加关",
+     "zh": "决战之时",
+     "ja": "決着の時",
+     "en": "Scenario 32/33: In the Moment of Truth",
+     "type": "专属追加关",
+     "area": "地球",
+     "note": "与第32话·OZ侧同一页"
+    },
+    {
+     "code": "第33话·OZ",
+     "zh": "乞力马扎罗的风暴",
+     "ja": "キリマンジャロの嵐",
+     "en": "Scenario 33: Kilimanjaro's Storm",
+     "type": "通常关",
+     "area": "乞力马扎罗",
+     "note": ""
+    },
+    {
+     "code": "第33话·特列斯",
+     "zh": "激战的宇宙",
+     "ja": "激戦の宇宙",
+     "en": "Scenario 33: Outer Space of Fierce Battles",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第33话·完全和平",
+     "zh": "银河帝国的威胁",
+     "ja": "銀河帝国の脅威",
+     "en": "Scenario 33: Threat of the Galactic Empire",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第34话·OZ",
+     "zh": "来自阿克西斯的使者",
+     "ja": "アクシズからの使者",
+     "en": "Scenario 34: Messenger From Axis",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第34话·特列斯",
+     "zh": "自木星归来的男人",
+     "ja": "木星帰りの男",
+     "en": "Scenario 34: The Man From Jupiter Returns",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第34话·完全和平",
+     "zh": "白色獠牙",
+     "ja": "ホワイト ファング",
+     "en": "Scenario 34: White Fang",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第34话·独立军",
+     "zh": "火星与马尔古",
+     "ja": "マーズとマーグ",
+     "en": "Scenario 34: Mars and Marg",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第35话·OZ",
+     "zh": "西罗克崛起",
+     "ja": "シロッコ立つ",
+     "en": "Scenario 35: The Stand of Scirocco",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第35话·特列斯",
+     "zh": "兄与弟",
+     "ja": "兄と弟と",
+     "en": "Scenario 35: Older Brother and Younger Brother",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第35话·完全和平",
+     "zh": "在争斗不止的世界（前）",
+     "ja": "争いの絶えない世界で 前編",
+     "en": "Scenario 35: In a World of Unceasing Conflict Part 1",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第35话·独立军·真实系版",
+     "zh": "那双眼眸映不出未来",
+     "ja": "その瞳に未来は映ることなく",
+     "en": "Scenario 35: Without any future reflected in their eyes",
+     "type": "版本分歧关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第35话·独立军·超级系版",
+     "zh": "登场！超电磁机器人",
+     "ja": "登場！超電磁ロボ",
+     "en": "Scenario 35: Appear, Super Electromagnetic Robot!",
+     "type": "版本分歧关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第36话·OZ",
+     "zh": "共同战线",
+     "ja": "共同戦線",
+     "en": "Scenario 36: Unified Front",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第36话·特列斯/完全和平共通",
+     "zh": "在争斗不止的世界（后）",
+     "ja": "争いの絶えない世界で 後編",
+     "en": "Scenario 36: In a World of Unceasing Conflict Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第36话·独立军",
+     "zh": "向着混迷出击",
+     "ja": "混迷への出撃",
+     "en": "Scenario 36: Sortie into Confusion",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘双线：第37–51话",
+   "intro": "A 线（原 OZ/特列斯/完全和平侧）与 B 线（原独立军侧）平行推进。第38话后有与多蒙同行（蓝岛篇）/与豹马同行（贾涅拉篇）的插入关；第41话·B线按完成回合数分速攻/慢速两种走向；第50话结尾决定第51话去穆格宇宙还是留在地球。",
+   "rows": [
+    {
+     "code": "第37话·A线",
+     "zh": "通向破灭的序曲",
+     "ja": "破滅への序曲",
+     "en": "Scenario 37: Prelude to Destruction",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第37话·B线",
+     "zh": "银河帝国先遣舰队",
+     "ja": "銀河帝国先遣艦隊",
+     "en": "Scenario 37: The Galactic Empire's Advance Fleet",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第38话·A线",
+     "zh": "看不见的明天",
+     "ja": "見えない明日",
+     "en": "Scenario 38: The Invisible Tomorrow",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第38话·B线",
+     "zh": "兽战机基地总攻击",
+     "ja": "獣戦機基地 総攻撃",
+     "en": "Scenario 38: All-Out Attack on the Beast Force Base",
+     "type": "防卫关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第38A话·多蒙同行",
+     "zh": "死斗！蓝岛大决战（前）",
+     "ja": "死闘！ランタオ島 大決戦 前編",
+     "en": "Scenario 38: Fight to the Death! Decisive Battle on Lantau Island Part 1",
+     "type": "同行关",
+     "area": "蓝岛",
+     "note": ""
+    },
+    {
+     "code": "第38C话·豹马同行",
+     "zh": "女帝贾涅拉的猎人游戏",
+     "ja": "女帝ジャネラの 人間狩り",
+     "en": "Scenario 38: Empress Janera's Manhunt",
+     "type": "同行关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第38B话·多蒙同行",
+     "zh": "死斗！蓝岛大决战（后）",
+     "ja": "死闘！ランタオ島 大決戦 後編",
+     "en": "Scenario 38: Fight to the Death! Decisive Battle on Lantau Island Part 2",
+     "type": "同行关",
+     "area": "蓝岛",
+     "note": ""
+    },
+    {
+     "code": "第39话·A线",
+     "zh": "库斯科绝对防卫线（前）",
+     "ja": "クスコ絶対防衛戦 前編",
+     "en": "Scenario 39: Cuzco´s Absolute Defense line Part 1",
+     "type": "限时防卫关",
+     "area": "库斯科",
+     "note": ""
+    },
+    {
+     "code": "第39话·B线",
+     "zh": "决死突破作战（前）",
+     "ja": "決死の突破作戦 前編",
+     "en": "Scenario 39: Desperate Breakthrough Part 1",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第40话·A线",
+     "zh": "库斯科绝对防卫线（后）",
+     "ja": "クスコ絶対防衛戦 後編",
+     "en": "Scenario 40: Cuzco´s Absolute Defense line Part 2",
+     "type": "防卫关",
+     "area": "库斯科",
+     "note": ""
+    },
+    {
+     "code": "第40话·B线",
+     "zh": "决死突破作战（后）",
+     "ja": "決死の突破作戦 後編",
+     "en": "Scenario 40: Desperate Breakthrough Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第41话·A线",
+     "zh": "绝望与悲伤之拳（前）",
+     "ja": "絶望と悲しみの拳 前編",
+     "en": "Scenario 41: Fist of Sorrow and Despair Part 1",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第41话·B线（速攻）",
+     "zh": "扭曲的宇宙",
+     "ja": "ゆがむ宇宙",
+     "en": "Scenario 41: Distorted Universe",
+     "type": "防卫关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第41A话·B线",
+     "zh": "即便如此也不放弃（前）",
+     "ja": "それでもあきらめきれずに 前編",
+     "en": "Scenario 41: Don't Give Up Just Yet Part 1",
+     "type": "限时关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第41B话·B线",
+     "zh": "即便如此也不放弃（后）",
+     "ja": "それでもあきらめきれずに 後編",
+     "en": "Scenario 41: Don't Give Up Just Yet Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第42话·A线",
+     "zh": "绝望与悲伤之拳（后）",
+     "ja": "絶望と悲しみの拳 後編",
+     "en": "Scenario 42: Fist of Sorrow and Despair Part 2",
+     "type": "通常关",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第42话·B线",
+     "zh": "没有胜者的战斗",
+     "ja": "勝利者のいない戦い",
+     "en": "Scenario 42: Battle With No Winners",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第43话·A线",
+     "zh": "决战！与祖鲁皇帝的对决（前）",
+     "ja": "決戦！皇帝ズールとの対決！ 前編",
+     "en": "Scenario 43: Decisive Battle! Confrontation With Emperor Zuul Part 1",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第43话·B线",
+     "zh": "制压地球圈",
+     "ja": "地球圏制圧",
+     "en": "Scenario 43: Global Domination",
+     "type": "通常关",
+     "area": "地球圈",
+     "note": ""
+    },
+    {
+     "code": "第44话·A线",
+     "zh": "决战！与祖鲁皇帝的对决（后）",
+     "ja": "決戦！皇帝ズールとの対決！ 後編",
+     "en": "Scenario 44: Decisive Battle! Confrontation With Emperor Zuul Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第44话·B线",
+     "zh": "决战宙域（前）",
+     "ja": "決戦宙域 前編",
+     "en": "Scenario 44: Decisive Space Battle Part 1",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第45话·A线",
+     "zh": "生与死的未来",
+     "ja": "生と死の未来",
+     "en": "Scenario 45: Future of Life and Death",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第45话·B线",
+     "zh": "决战宙域（后）",
+     "ja": "決戦宙域 後編",
+     "en": "Scenario 45: Decisive Space Battle Part 2",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第46话·A线",
+     "zh": "宇宙的漩涡",
+     "ja": "宇宙の渦",
+     "en": "Scenario 46: Vortex of the Universe",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第46话·B线",
+     "zh": "野心",
+     "ja": "野心",
+     "en": "Scenario 46: Ambition",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第47话·A线",
+     "zh": "哈曼的影子",
+     "ja": "ハマーンの影",
+     "en": "Scenario 47: Haman's Shadow",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第47话·B线",
+     "zh": "阿克西斯攻防（前）",
+     "ja": "アクシズの攻防 前編",
+     "en": "Scenario 47: Offense and Defense of Axis Part 1",
+     "type": "通常关",
+     "area": "阿克西斯",
+     "note": ""
+    },
+    {
+     "code": "第48话·A线",
+     "zh": "被驱使的野心",
+     "ja": "駆り立てる野心",
+     "en": "Scenario 48: Inciting Ambition",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第48话·B线",
+     "zh": "阿克西斯攻防（中）",
+     "ja": "アクシズの攻防 中編",
+     "en": "Scenario 48: Offense and Defense of Axis Part 2",
+     "type": "通常关",
+     "area": "阿克西斯",
+     "note": ""
+    },
+    {
+     "code": "第49话·A线",
+     "zh": "生命，凋零",
+     "ja": "命、散って",
+     "en": "Scenario 49: Life, Scattered",
+     "type": "通常关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第49话·B线",
+     "zh": "阿克西斯攻防（后）",
+     "ja": "アクシズの攻防 後編",
+     "en": "Scenario 49: Offense and Defense of Axis Part 3",
+     "type": "通常关",
+     "area": "阿克西斯",
+     "note": ""
+    },
+    {
+     "code": "第50话·A线",
+     "zh": "无法醒来的噩梦",
+     "ja": "醒めない悪夢",
+     "en": "Scenario 50: The Nightmare You Can't Wake Up From",
+     "type": "路线分歧关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第50话·B线",
+     "zh": "噩梦再临",
+     "ja": "悪夢再来",
+     "en": "Scenario 50: The Nightmare Returns",
+     "type": "路线分歧关",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第51话·A线穆格宇宙",
+     "zh": "遥远的赌注",
+     "ja": "遥かなる賭け",
+     "en": "Scenario 51: A Far Away Bet",
+     "type": "通常关",
+     "area": "穆格宇宙",
+     "note": ""
+    },
+    {
+     "code": "第51话·地球",
+     "zh": "夏亚的叛乱",
+     "ja": "シャアの反乱",
+     "en": "Scenario 51: Char's Uprising",
+     "type": "通常关",
+     "area": "第五月神号",
+     "note": ""
+    },
+    {
+     "code": "第51话·B线穆格宇宙",
+     "zh": "最后的咆哮",
+     "ja": "最後の咆哮",
+     "en": "Scenario 51: The Last Roar",
+     "type": "通常关",
+     "area": "穆格宇宙",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终篇：第52–55话",
+   "intro": "全线汇合的收官四话：恶魔阿克西斯启动、阿克西斯坠落作战，以及与异界存在阿尔＝伊＝奎斯的最终决战。最终话编号从 Akurasu 流程图作第55话（时间线作第56话，见最终话页的说明）。",
+   "rows": [
+    {
+     "code": "第52话（最终篇）",
+     "zh": "恐怖！恶魔阿克西斯启动（前）",
+     "ja": "恐怖！デビルアクシズ始動！前編",
+     "en": "Scenario 52: Fear! Devil Axis Starts Up Part 1",
+     "type": "通常关",
+     "area": "阿克西斯",
+     "note": ""
+    },
+    {
+     "code": "第53话（最终篇）",
+     "zh": "恐怖！恶魔阿克西斯启动（后）",
+     "ja": "恐怖！デビルアクシズ始動！後編",
+     "en": "Scenario 53: Fear! Devil Axis Starts Up Part 2",
+     "type": "通常关",
+     "area": "阿克西斯",
+     "note": ""
+    },
+    {
+     "code": "第54话（最终篇）",
+     "zh": "绝叫的宇宙",
+     "ja": "絶叫の宇宙",
+     "en": "Scenario 54: Screaming Universe",
+     "type": "通常关",
+     "area": "阿克西斯周边",
+     "note": ""
+    },
+    {
+     "code": "第55话（最终话）",
+     "zh": "把未来握在手中",
+     "ja": "未来をこの手に",
+     "en": "Scenario 55: The Future in Their Hands",
+     "type": "最终关",
+     "area": "阿克西斯",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
