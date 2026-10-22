@@ -5,6 +5,7 @@ import Srw30MissionList from '../../components/Srw30MissionList.astro';
 import Srw1MissionList from '../../components/Srw1MissionList.astro';
 import Srw2MissionList from '../../components/Srw2MissionList.astro';
 import Srw3MissionList from '../../components/Srw3MissionList.astro';
+import SrwExMissionList from '../../components/SrwExMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -16,6 +17,7 @@ const isSrw30 = g.slug === 'srw-30';
 const isSrw1 = g.slug === 'srw-1';
 const isSrw2 = g.slug === 'srw-2';
 const isSrw3 = g.slug === 'srw-3';
+const isSrwEx = g.slug === 'srw-ex';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -252,6 +254,107 @@ const isSrw3 = g.slug === 'srw-3';
     </div>
   )}
 
+  {isSrwEx && (
+    <div>
+      <h2>剧情概要：拉·基亚斯事件</h2>
+      <p>《第3次》的检查者事件终结后，地球各地接连发生机器人与驾驶员失踪事件——原因是地底世界<strong>拉·基亚斯</strong>的神圣朗格朗王国与修特多尼亚斯联盟为扩充战力，无差别地把地上人召唤到异世界。被卷入的驾驶员们各怀心思地投身于这场战争，后来此事被地上人称为「<strong>拉·基亚斯事件</strong>」。本作是《第3次》的续编、在 DC 战争系列中属于外传位置，舞台<strong>只有地底世界</strong>——没有地上与宇宙地图；剧情时点位于《魔装机神》第 1 部与第 2 部之间。本作也是系列首次由原创作品《魔装机神塞巴斯塔》担任主角、版权作品转为客串的作品。</p>
+
+      <h2>三章结构（合计 67 话）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>章节</th><th>主人公</th><th>难度</th><th>话数</th><th>概要</th></tr></thead>
+          <tbody>
+            <tr><td>正树之章</td><td>正树·安藤（塞巴斯塔）</td><td>易</td><td>27 话</td><td>《第3次》后返回拉·基亚斯，加入朗格朗的费尔军对抗修特多尼亚斯；登场人物最多、剧本最长</td></tr>
+            <tr><td>琉妮之章</td><td>琉妮·佐尔达克（瓦尔西奥内）</td><td>普通</td><td>24 话</td><td>被召唤后受黄炎龙保护，加入卡克斯军；三章中受 ISS 影响最强，后半分为通常路线与统合路线两套剧本</td></tr>
+            <tr><td>修之章（隐藏章）</td><td>修·希拉卡瓦（格兰佐）</td><td>难</td><td>16 话</td><td>在《第3次》隐藏剧本中死亡后于拉·基亚斯复活，在另两章的背后为复活邪神沃尔克鲁斯暗中活动；以说得敌方名角为特色</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">话数以日文维基百科、日文 Fandom 与中文维基一致的口径为准（27+24+16=67，含无战斗的事件话与分支变体分别计数；本站的话数编号沿用 Akurasu 流程图的通算序号）。英文 Fandom 所记的 27/27/24 与日文来源不符，本站不采用。</p>
+
+      <h2>ISS：互动剧本系统（本作核心）</h2>
+      <p><strong>ISS 是 Interactive Scenario System（インタラクティブ・シナリオ・システム）的缩写，不是幕间存档。</strong>三章的故事在同一时间轴上并行推进；开始新的一章时可以读取（参照）已通关章节的存档，<strong>那一章里做出的选择会被带入这一章</strong>，影响剧情分岐与加入的机体。要注意 ISS 传递的是「选择与事件旗标」，各章的资金、等级与改造进度并不继承——每一章都是独立的一周目。具体例子：</p>
+      <ul>
+        <li><strong>战舰二选一互斥：</strong>正树之章在「灵光船／圣少女」取得戈拉昂或格兰·加兰其中一艘，琉妮之章第5话若使用正树之章的 ISS，就会自动取得正树没拿的那一艘（反之琉妮先选也会决定正树侧的剩余选择）。</li>
+        <li><strong>修第5话旗标：</strong>琉妮之章第11话「修·希拉卡瓦」只在使用已通关修第5话「琉妮·佐尔达克」的修之章 ISS 时才会出现。</li>
+        <li><strong>统合路线：</strong>在第11话与修交战并选择追查、再在第12话让黑色三连星加入，琉妮之章后半会进入统合路线（第19–24话），第21话「相遇」中正树队与琉妮队汇合、四台魔装机神同场。剧本负责人阪田雅彦称，使用 ISS 的琉妮路线才是正史路线。</li>
+        <li><strong>新格兰佐对决：</strong>用隐藏指令以新格兰佐通关修之章后，其 ISS 数据会让琉妮之章第11话的敌方机体变为新格兰佐（只有琉妮之章能与之交战）。</li>
+      </ul>
+      <p class="text-sm text-base-content/60">小注：游戏内对 ISS 的说明举例称「正树之章选择与琉妮相遇的路线后，琉妮之章会自动走相遇路线」，但日文维基指出正树之章实际上没有与琉妮相遇的路线——该例只是说明用的假想例。</p>
+
+      <h2>修之章的解锁</h2>
+      <p><strong>SFC 版：通关正树之章或琉妮之章任一章</strong>，修之章即出现（同时会顶替掉训练模式的位置；训练模式是正树教美绪战斗基础的教程）。<strong>PS 版不同：须正树、琉妮两章都通关</strong>才能选修之章（Akurasu 的 PS 版差异页）。另有以新格兰佐开始修之章的隐藏指令，前置条件与输入方法见修第1话页面。</p>
+
+      <h2>本作的系统（在第3次的基础上变化）</h2>
+      <ul>
+        <li><strong>引擎承袭第3次。</strong>Akurasu 称本作使用与《第3次》相同的引擎，主要新增就是多章剧本与 ISS；气力等基础规则承袭第3次。机体改造仍在幕间进行，但其项目与段数的数值表本站尚未从公开来源核实到可引用的版本，此处不照搬第3次的「4 项 7 段」表（待核实）。</li>
+        <li><strong>武器改造（系列首创）。</strong>本作首次可以改造武器，此后成为系列基本系统；当时的形式是<strong>逐件武器个别改造</strong>。与之配套的是：本作驾驶员没有攻击力参数，升级不会提高攻击力——火力成长主要靠武器改造。</li>
+        <li><strong>多驾驶员全员可用精神。</strong>第3次中副驾驶员不能用精神指令；本作起，一台多驾驶员机体的所有驾驶员都能使用各自的精神（英文实况研究 Kurisu's Chronogaming 的系统对照）。</li>
+        <li><strong>反击方针可逐台设定。</strong>敌方回合的应对（反击／回避／防御）不再全军统一，可按每台单位分别设定（同上）。</li>
+        <li><strong>P 属性登场。</strong>第3次只有射程 1 的武器能移动后使用；本作起以「P」标记表示可移动后使用的武器（同上）。</li>
+        <li><strong>章节彼此独立开局。</strong>正树、琉妮两章开局任选其一先玩；每章的初始阵容、资金与难度都不同，顺序只影响 ISS 旗标的传递方向。</li>
+      </ul>
+
+      <h2>精神指令（全 16 种，SFC 版）</h2>
+      <p>比第3次多了手加减、信赖、觉醒、威压四种，集中则不在本作名单内（Akurasu 精神表）；多数指令的 SP 消耗比第3次更低。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>指令</th><th>SP</th><th>效果（本作）</th></tr></thead>
+          <tbody>
+            <tr><td>加速</td><td>5</td><td>1 回合移动力 +5</td></tr>
+            <tr><td>闪烁（ひらめき）</td><td>10</td><td>必定回避下一次攻击</td></tr>
+            <tr><td>手加减</td><td>20</td><td>下一次攻击若会击坠技量低于自己的敌人，则只将其打到 HP 10</td></tr>
+            <tr><td>根性</td><td>20</td><td>回复最大 HP 的 1/3</td></tr>
+            <tr><td>幸运</td><td>20</td><td>下一次战斗获得的经验值与资金 ×2</td></tr>
+            <tr><td>必中</td><td>20</td><td>1 回合命中率 100%</td></tr>
+            <tr><td>信赖</td><td>30</td><td>指定一台友军回复最大 HP 的 1/3</td></tr>
+            <tr><td>热血</td><td>30</td><td>下一次攻击伤害 ×2</td></tr>
+            <tr><td>大根性</td><td>40</td><td>HP 全回复</td></tr>
+            <tr><td>气合</td><td>40</td><td>气力 +15</td></tr>
+            <tr><td>觉醒</td><td>50</td><td>指定单位本回合追加一次行动</td></tr>
+            <tr><td>威压</td><td>50</td><td>使一名等级低于自己的敌人 1 回合无法移动</td></tr>
+            <tr><td>补给</td><td>50</td><td>指定一台友军 EN 与弹药全回复</td></tr>
+            <tr><td>友情</td><td>60</td><td>全体友军回复最大 HP 的 50%</td></tr>
+            <tr><td>激怒</td><td>70</td><td>全体敌人受 10–1000 随机伤害</td></tr>
+            <tr><td>爱</td><td>80</td><td>全体友军 HP 全回复</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">精神表以 Akurasu 的 EX Spirit Commands 页为准。</p>
+
+      <h2>长线隐藏要素总览</h2>
+      <p>本作的隐藏要素多与<strong>话末选择</strong>和 <strong>ISS 旗标</strong>绑定，各步的具体做法写在对应话数的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>鲁贾诺尔改（戈尔德）／10000 资金</td><td>正树第1话</td><td>开局与话末两次选择决定拿人还是拿钱</td></tr>
+            <tr><td>萨雷斯留队／30000 资金</td><td>正树第4话</td><td>话末选择让其同行或放行</td></tr>
+            <tr><td>战舰二选一（戈拉昂／格兰·加兰）</td><td>正树第5/6话、琉妮第5话</td><td>一章的选择经 ISS 决定另一章取得剩余的一艘</td></tr>
+            <tr><td>莱尼克（利姆尔）</td><td>正树第24话 → 第26话</td><td>第24话选「先观望」进入野心漩涡路线</td></tr>
+            <tr><td>嘉拉莉亚（巴斯托尔）</td><td>琉妮第6话</td><td>西拉或艾尔说得</td></tr>
+            <tr><td>凯拉／哈萨维（二选一说得）与多文狼</td><td>琉妮第7话 → 第8话</td><td>阿姆罗或卡缪说得其一；说得凯拉后第8话可得多文狼</td></tr>
+            <tr><td>统合路线（正史路线）</td><td>琉妮第11话 → 第12话</td><td>ISS（修第5话）→ 与修交战并追查 → 黑色三连星加入</td></tr>
+            <tr><td>新格兰佐（隐藏指令）</td><td>修第1话起</td><td>通关两章后在万普标志处输入指令，不用 ISS 开始修之章</td></tr>
+            <tr><td>杰里德、莱拉、卡克里孔</td><td>修第2话 → 第3话</td><td>第2话末选绕道，第3话由修逐一说得</td></tr>
+            <tr><td>卡托尔（百式）与沙扎比</td><td>修第4话 → 第10话</td><td>修说得卡托尔；第10话另有回合条件</td></tr>
+            <tr><td>巴恩·巴宁斯（兹沃斯强化）</td><td>修第4话 → 第6话</td><td>第4话末选向西，第6话由修说得；兹沃斯获灵光炮等强化</td></tr>
+            <tr><td>诺尔斯／吉尔多拉</td><td>修第9话 → 第10话</td><td>击毁机动要塞得诺尔斯，否则第10话得吉尔多拉</td></tr>
+            <tr><td>阿哈马德（索尔加迪）</td><td>修第13话</td><td>先选第二个选项，再由修说得</td></tr>
+            <tr><td>萨菲妮留队</td><td>修第16话</td><td>最终话开始时萨菲妮等级须在 31 以上，否则成为敌方</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>参战作品（SFC 版）</h2>
+      <p>机动战士高达、高达0080 口袋中的战争 ★、高达0083 星尘的回忆、Z高达、高达ZZ、逆袭的夏亚、高达F91、圣战士丹拜因 ★、战国魔神豪将军 ★、魔神Z、大魔神、UFO机器人 古兰戴萨、盖塔机器人、盖塔机器人G、魔装机神 塞巴斯塔（原创）。★ 中丹拜因与豪将军为系列初参战；0080 在 SFC 版只有角色登场、机体不登场。相比第3次，无敌钢人泰坦3、孔巴特拉V、勇者莱汀三作退出；布莱特·诺亚因剧情原因不登场。</p>
+
+      <h2>其他版本差异（概要）</h2>
+      <p>本站逐话攻略以 <strong>1994 年 SFC 原版</strong>为准。<strong>PS 版（1999 年 6 月 10 日《Complete Box》合集发售、单品版 2000 年 1 月 6 日发售）</strong>是系统级重制，只作概要：整体改用《F》的系统——机体与武器都可改造（10 段）、新增强化部件；<strong>修之章须正树、琉妮两章都通关才能选</strong>（SFC 版只需任一章）；训练模式不再被修之章顶替、随时可看；高达0080 的扎古改在 PS 版登场；数值与平衡按 F 系大幅调整。两版的逐话构成大体相同，但细部条件有别，PS 版玩家请勿直接套用本页的 SFC 条件。</p>
+      <p class="text-sm text-base-content/60">版本差异据日文维基、Akurasu 的 PS 版差异页与 Namu 的 Complete Box 页。发售日说明：Akurasu 的 EX 主页把 PS 版记为 1999 年 1 月 6 日，与日文维基（合集 1999 年 6 月 10 日、单品 2000 年 1 月 6 日）不符，本站采用日文维基口径。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -267,6 +370,11 @@ const isSrw3 = g.slug === 'srw-3';
     <div>
       <p>本作 62 个剧本<strong>全部建有独立攻略页</strong>（每一话一个详情页，含各分支变体与隐藏最终话），下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、加入与换装、本关隐藏要素与坐标地图。本作同时保留一份<a class="link" href={href('srw-3/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <Srw3MissionList />
+    </div>
+  ) : isSrwEx ? (
+    <div>
+      <p>本作 67 个剧本<strong>全部建有独立攻略页</strong>（每一话一个详情页，含各分支变体、事件话与隐藏的修之章），下表为按章节分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、加入与说得、本关隐藏要素与坐标地图。本作同时保留一份<a class="link" href={href('srw-ex/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwExMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

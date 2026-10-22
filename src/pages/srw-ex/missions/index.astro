@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwExMissionList from '../../../components/SrwExMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战EX', path: 'srw-ex/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战EX（SFC）关卡攻略 · 全67个剧本列表" description="超级机器人大战EX（1994年 SFC）三章合计 67 个剧本全部建有独立攻略页：正树之章 27 话、琉妮之章 24 话（含 ISS 限定的统合路线）、隐藏的修之章 16 话，逐话给出胜利/败北条件、加入与隐藏要素。本页为链接索引。" path="srw-ex/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战EX · 关卡攻略</h1>
+  <p>1994 年 SFC《超级机器人大战EX》由三位主人公的章节构成，合计 <strong>67 个剧本</strong>：正树之章 27 话、琉妮之章 24 话、修之章 16 话（日文维基、日文 Fandom 与中文维基一致；英文 Fandom 所记的 27/27/24 有误，本站不采用）。本作是系列首次出现「主人公」的作品，三章在同一时间轴上并行推进，并以 <strong>ISS（互动剧本系统）</strong>互相影响：战舰的二选一、是否与修交战、修第5话的通关旗标，都会改变另一章的剧本与加入阵容。琉妮之章后半更分为通常路线（第13–18话）与统合路线（第19–24话）两套完全不同的剧本。本页只是链接索引——每一话的完整攻略（条件、加入、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-ex/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第四部<strong>全关卡补完</strong>的作品——67 个剧本全部建有详情页（按发售顺序逐作补完，初代、第2次、第3次已完成）。流程与隐藏要素来自 Akurasu 的 EX 流程图与隐藏要素表，并以日文维基、日文 Fandom 交叉核对三章话数与 ISS 结构。<strong>如实说明</strong>：本作（SFC 原版）没有公开的逐关敌方配置（等级／坐标）来源——GameCenter GX 未收录本作，现存的构成级逐关资料（Namu、GameFAQs 等）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充——各话的「敌方出场与增援」一节因此标为<strong>待核实</strong>，待实机核实后补入；地图亦为坐标参照框架。</span>
+  </div>
+
+  <SrwExMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars EX Flow Chart</a>（三章流程、胜败条件、加入）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars EX Secrets</a>（隐藏要素条件、新格兰佐指令）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦EX</a>（三章话数 27/24/16 合计 67、ISS、修之章解锁、武器改造）</li>
+    <li><a href="https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX" rel="noopener" target="_blank">日文 Fandom — スーパーロボット大戦EX</a>（话数与系统交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-ex/')}>← 返回超级机器人大战EX</a></p>
+</Base>

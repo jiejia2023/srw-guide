@@ -1,0 +1,643 @@
+{
+ "groups": [
+  {
+   "title": "正树之章（难度：易）第1话 – 第12话",
+   "intro": "正树在《第3次》之后返回拉·基亚斯，加入神圣朗格朗王国的费尔军，对抗修特多尼亚斯的侵攻（日文维基）。本章登场人物最多、剧本最长。第4话后二选一（灵光船 / 圣少女）决定取得的战舰；索拉提斯神殿按总回合数（50 为界）进入不同变体；第10、17话为无战斗的事件话。本站话数沿用 Akurasu 流程图的通算序号（分支变体分别计数）。",
+   "rows": [
+    {
+     "code": "正树第1话",
+     "zh": "朗格朗动乱",
+     "ja": "ラングラン動乱",
+     "en": "The Langran Riots",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第2话",
+     "zh": "召唤",
+     "ja": "召喚",
+     "en": "The Summoning",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第3话",
+     "zh": "伊莫塔尔迎击战",
+     "ja": "イモータルの迎撃",
+     "en": "Interception at Immortal",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第4话",
+     "zh": "灵光战士",
+     "ja": "オーラバトラー",
+     "en": "Aura Battlers",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第5话",
+     "zh": "灵光船",
+     "ja": "オーラシップ",
+     "en": "Aura Ship",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第6话",
+     "zh": "圣少女",
+     "ja": "聖少女",
+     "en": "Holy Maiden",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第7话",
+     "zh": "索拉提斯神殿",
+     "ja": "ソラティス神殿",
+     "en": "Solatis Shrine",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第8话",
+     "zh": "索拉提斯神殿",
+     "ja": "ソラティス神殿",
+     "en": "Solatis Shrine",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第9话",
+     "zh": "恶魔骇客",
+     "ja": "デモン・ハック",
+     "en": "Demon Hack",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第10话",
+     "zh": "珊瑚峡谷",
+     "ja": "コーラルキャニオン",
+     "en": "Coral Canyon (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第11话",
+     "zh": "珊瑚峡谷再临",
+     "ja": "コーラルキャニオン再び",
+     "en": "Coral Canyon Again",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第12话",
+     "zh": "王都潜入",
+     "ja": "王都潜入",
+     "en": "Royal Capital Infiltration",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "正树之章 第13话 – 第27话（含结局分岐）",
+   "intro": "第24话「诀别」通关后的选择决定结局：选「无所谓」直接进入第25话决战；选「先观望」经第26话「野心漩涡」（可取得莱尼克与利姆尔）进入第27话最终决战。",
+   "rows": [
+    {
+     "code": "正树第13话",
+     "zh": "为了大义",
+     "ja": "大義のもとに",
+     "en": "All for the Cause",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第14话",
+     "zh": "被囚的王女",
+     "ja": "囚われの王女",
+     "en": "Captive Princess",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第15话",
+     "zh": "返回王都",
+     "ja": "王都への帰還",
+     "en": "Return of the King to the Capital",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第16话",
+     "zh": "卡克斯的野心",
+     "ja": "カークスの野望",
+     "en": "Kirkus' Ambition",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第17话",
+     "zh": "虚假的加冕式",
+     "ja": "偽りの戴冠式",
+     "en": "False Coronation (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第18话",
+     "zh": "特里乌斯出奔",
+     "ja": "テリウス出奔",
+     "en": "Tellius' Kidnapping",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第19话",
+     "zh": "王都决战",
+     "ja": "王都の決戦",
+     "en": "Battle at the Imperial City",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第20话",
+     "zh": "阴谋之影",
+     "ja": "陰謀の影",
+     "en": "Shadow of the Conspiracy",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第21话",
+     "zh": "地底死斗",
+     "ja": "地底の死闘",
+     "en": "Underground Battle",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第22话",
+     "zh": "邪神复活",
+     "ja": "邪神復活",
+     "en": "Resurrection of the False God",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第23话",
+     "zh": "费尔的黑暗",
+     "ja": "フェイルの闇",
+     "en": "Feil of Darkness",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第24话",
+     "zh": "诀别",
+     "ja": "訣別",
+     "en": "Partings",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第25话",
+     "zh": "决战",
+     "ja": "決戦",
+     "en": "Decisive Battle",
+     "type": "分岐结局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第26话",
+     "zh": "野心漩涡",
+     "ja": "野望、渦巻く",
+     "en": "Swirling Ambition",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "正树第27话",
+     "zh": "决战，杜拉克希尔",
+     "ja": "決戦、デュラクシール",
+     "en": "Decisive Battle, Duraxyll",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "琉妮之章（难度：普通）第1话 – 第12话",
+   "intro": "琉妮被召唤至拉·基亚斯，受黄炎龙保护，加入卡克斯军（日文维基）。第5话的战舰二选一与正树之章通过 ISS 互相决定；第11话「修·希拉卡瓦」是 ISS 限定剧本（须使用已通关修第5话的修之章存档）；第12话是否让黑色三连星加入，决定后半走通常路线还是统合路线——本章是三章中受 ISS 影响最强的一章。",
+   "rows": [
+    {
+     "code": "琉妮第1话",
+     "zh": "地底世界",
+     "ja": "地底世界",
+     "en": "Underground World",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第2话",
+     "zh": "再会",
+     "ja": "再会",
+     "en": "Reunion",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第3话",
+     "zh": "邓克市攻防战",
+     "ja": "ダンク市の攻防",
+     "en": "Battle at Dunks City",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第4话",
+     "zh": "各自的正义",
+     "ja": "それぞれの正義",
+     "en": "Individual Justice",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第5话",
+     "zh": "孢子之谷",
+     "ja": "胞子の谷",
+     "en": "Valley of Spores",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第6话",
+     "zh": "突袭",
+     "ja": "サプライズド・アタック",
+     "en": "Surprised Attack",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第7话",
+     "zh": "反击",
+     "ja": "反撃",
+     "en": "Counterattack",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第8话",
+     "zh": "沃尔克鲁斯之影",
+     "ja": "ヴォルクルスの影",
+     "en": "Shadow of Volkruss",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第9话",
+     "zh": "特里乌斯王子",
+     "ja": "テリウス王子",
+     "en": "Prince Terius",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第10话",
+     "zh": "俘虏救出",
+     "ja": "捕虜救出",
+     "en": "POW Rescue",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第11话",
+     "zh": "修·希拉卡瓦",
+     "ja": "シュウ＝シラカワ",
+     "en": "Shu Shirakawa",
+     "type": "ISS限定",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第12话",
+     "zh": "黑色三连星",
+     "ja": "黒い三連星",
+     "en": "The Black Tri Stars",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "琉妮之章 通常路线（第13话 – 第18话）",
+   "intro": "第12话不让黑色三连星加入时进入的后半路线，以第18话「超魔装机尤里德」为最终话。第14话为无战斗的事件话。",
+   "rows": [
+    {
+     "code": "琉妮第13话",
+     "zh": "卢奥佐尔的暗跃",
+     "ja": "ルオゾール、暗躍",
+     "en": "Luozorl's Plot",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第14话",
+     "zh": "卡克斯之眼",
+     "ja": "カークスの目",
+     "en": "Kirkus' Sight (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第15话",
+     "zh": "守护泽布神殿！",
+     "ja": "ゼブ神殿を守れ！",
+     "en": "Zeb, Defend the Temple!",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第16话",
+     "zh": "追击修特多尼亚斯",
+     "ja": "シュテドニアス追撃",
+     "en": "Pursue Shutedonias",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第17话",
+     "zh": "败军之将",
+     "ja": "敗軍の将",
+     "en": "Defeated General",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第18话",
+     "zh": "超魔装机尤里德",
+     "ja": "超魔装機エウリード",
+     "en": "Super Masouki Euclid",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "琉妮之章 统合路线（第19话 – 第24话，ISS）",
+   "intro": "须先在第11话满足 ISS 条件（使用已通关修第5话的修之章存档、与修交战并选择追查），再在第12话让黑色三连星加入，才能进入的后半路线。第21话「相遇」中正树队与琉妮队汇合、四台魔装机神同场。剧本负责人阪田雅彦称，使用 ISS 的琉妮路线才是正史路线（日文维基引攻略本）。本站编号沿用 Akurasu 通算序号，故本路线编为第19–24话。",
+   "rows": [
+    {
+     "code": "琉妮第19话",
+     "zh": "父与子",
+     "ja": "父と子",
+     "en": "Father and Son",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第20话",
+     "zh": "追击扎什福德",
+     "ja": "迫撃のザシュフォード",
+     "en": "Pursuit of Zashford",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第21话",
+     "zh": "相遇",
+     "ja": "めぐりあい",
+     "en": "Chance Meeting",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第22话",
+     "zh": "超魔装机尤里德",
+     "ja": "超魔装機エウリード",
+     "en": "Super Masouki Euclid",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第23话",
+     "zh": "被诅咒者",
+     "ja": "呪われし者",
+     "en": "Cursed Person",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "琉妮第24话",
+     "zh": "决战",
+     "ja": "決戦",
+     "en": "Decisive Battle",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "修之章（隐藏章，难度：难）第1话 – 第16话",
+   "intro": "隐藏章：SFC 版通关正树或琉妮任一章后出现（并取代训练模式）；PS 版须两章都通关。修在《第3次》隐藏剧本中死亡后于拉·基亚斯复活，在另外两章的背后为复活邪神沃尔克鲁斯而暗中活动。本章以说得敌方名角（杰里德、莱拉、卡克里孔、卡托尔、巴恩·巴宁斯等）为特色；第5、8、11话为无战斗的事件话，第12话「特训」会重复出现直到特里乌斯达到 25 级。用隐藏指令开始本章时，修的座机为新格兰佐（见修第1话页面）。",
+   "rows": [
+    {
+     "code": "修第1话",
+     "zh": "修，觉醒",
+     "ja": "シュウ、目覚める",
+     "en": "Shu's Awakening",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第2话",
+     "zh": "战国魔神豪将军",
+     "ja": "戦国魔神ゴーショーグン",
+     "en": "Warring Demon GoShogun",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第3话",
+     "zh": "巴戈尼亚的佣兵",
+     "ja": "バゴニアの傭兵",
+     "en": "Mercenary of Bagonia",
+     "type": "说得",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第4话",
+     "zh": "努埃特海",
+     "ja": "ヌエット海",
+     "en": "Nouet Sea",
+     "type": "说得",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第5话",
+     "zh": "琉妮·佐尔达克",
+     "ja": "リューネ＝ゾルダーク",
+     "en": "Lune Zoldark (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第6话",
+     "zh": "复仇骑士",
+     "ja": "復讐の騎士",
+     "en": "Knight of Vengeance",
+     "type": "说得",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第7话",
+     "zh": "莫妮卡与爱",
+     "ja": "モニカ、その愛",
+     "en": "Monica's Love",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第8话",
+     "zh": "遭遇，塞巴斯塔",
+     "ja": "遭遇、サイバスター",
+     "en": "Encounter, Cybuster (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第9话",
+     "zh": "夺取诺尔斯",
+     "ja": "ノルス奪取",
+     "en": "Nors Conquers",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第10话",
+     "zh": "黑暗的低语",
+     "ja": "闇のささやき",
+     "en": "Dark Whispers",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第11话",
+     "zh": "特里乌斯的决意",
+     "ja": "テリウスの決意",
+     "en": "Terius' Determination (Event)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第12话",
+     "zh": "特训",
+     "ja": "特訓",
+     "en": "Special Training",
+     "type": "重复剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第13话",
+     "zh": "圣战",
+     "ja": "ジハード",
+     "en": "Jihad",
+     "type": "说得",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第14话",
+     "zh": "封印",
+     "ja": "封印",
+     "en": "Sealed",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第15话",
+     "zh": "邪神解放",
+     "ja": "邪神解放",
+     "en": "Release of the False God",
+     "type": "隐藏章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "修第16话",
+     "zh": "反叛",
+     "ja": "反逆",
+     "en": "Treason",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
