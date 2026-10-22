@@ -13,46 +13,50 @@ const crumbs = [{ label: '首页', path: '' }, { label: '搜索游戏' }];
 <Base title="搜索游戏" description="按中文名、英文名、日文名、简称搜索超级机器人大战系列游戏，并可按平台、年份、系列组合筛选。" path="search/" breadcrumbs={crumbs}>
   <h1>搜索游戏</h1>
   <p>支持中文名、英文名、日文名和常见简称（如 SRW30、机战30、スパロボ30、α、破界篇），也可叠加平台、年份、系列筛选。</p>
-  <div class="search-box" style="max-width:720px">
-    <input id="q" type="search" placeholder="输入游戏名或简称…" aria-label="搜索关键词" />
+  <div class="w-full max-w-2xl my-4">
+    <input id="q" class="input input-bordered w-full" type="search" placeholder="输入游戏名或简称…" aria-label="搜索关键词" />
   </div>
-  <div class="filter-row">
-    <label>平台
-      <select id="f-platform">
+  <div class="flex flex-wrap items-center gap-3 my-4">
+    <label class="flex items-center gap-2 text-sm">平台
+      <select id="f-platform" class="select select-bordered select-sm">
         <option value="">全部</option>
         {platforms.map(p => <option value={p.slug}>{p.label}</option>)}
       </select>
     </label>
-    <label>年份
-      <select id="f-year">
+    <label class="flex items-center gap-2 text-sm">年份
+      <select id="f-year" class="select select-bordered select-sm">
         <option value="">全部</option>
         {years.map(y => <option value={String(y)}>{y}</option>)}
       </select>
     </label>
-    <label>系列
-      <select id="f-series">
+    <label class="flex items-center gap-2 text-sm">系列
+      <select id="f-series" class="select select-bordered select-sm">
         <option value="">全部</option>
         {seriesList.map(s => <option value={s}>{s}</option>)}
       </select>
     </label>
-    <span id="count"></span>
+    <span id="count" class="badge badge-ghost"></span>
   </div>
-  <div class="grid" id="results">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4" id="results">
     {sorted.map(g => (
-      <a class="card" href={href(`${g.slug}/`)}
+      <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/`)}
          data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')}`.toLowerCase()}
          data-platform={g.platformSlug} data-year={String(g.year)} data-series={g.series}>
-        {g.cover
-          ? <img class="card-cover" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
-          : <span class="card-cover card-cover--empty" aria-hidden="true">封面图（待补真实封面）</span>}
-        <span class="card-title">{g.zh}</span>
-        <span class="meta">{g.en} / {g.ja}</span>
-        <span class="meta">{g.year} 年 · {g.platforms.join(' / ')}</span>
-        <span><span class="tag">{g.platformLabel}</span><span class="tag">{g.series}</span></span>
+        <figure class="bg-base-200">
+          {g.cover
+            ? <img class="h-48 w-full object-contain" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
+            : <span class="flex h-48 w-full items-center justify-center border-2 border-dashed border-secondary/60 text-secondary text-sm px-3 text-center" aria-hidden="true">封面图（待补真实封面）</span>}
+        </figure>
+        <div class="card-body p-4 gap-1.5">
+          <span class="card-title text-base leading-snug">{g.zh}</span>
+          <span class="text-sm text-base-content/60">{g.en} / {g.ja}</span>
+          <span class="text-sm text-base-content/60">{g.year} 年 · {g.platforms.join(' / ')}</span>
+          <span class="flex flex-wrap gap-1.5 mt-1"><span class="badge badge-primary badge-sm">{g.platformLabel}</span><span class="badge badge-outline badge-sm">{g.series}</span></span>
+        </div>
       </a>
     ))}
   </div>
-  <p id="empty" class="empty-state" hidden>没有符合条件的游戏。</p>
+  <div id="empty" class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-center text-base-content/60 mt-4" hidden>没有符合条件的游戏。</div>
   <script is:inline>
     const q = document.getElementById('q');
     const fp = document.getElementById('f-platform');

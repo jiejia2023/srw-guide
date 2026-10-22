@@ -11,47 +11,63 @@ const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。包含关卡攻略、隐藏要素与机体/驾驶员图鉴，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
-  <p class="meta" style="color:var(--muted)">{g.en} · {g.ja}</p>
+  <p class="text-base-content/60 -mt-1">{g.en} · {g.ja}</p>
 
-  {g.cover ? (
-    <img class="cover-img" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} />
-  ) : (
-    <div class="cover-placeholder" role="img" aria-label={`${g.zh} 封面图待补`}>
-      <span class="cover-name">{g.zh}</span>
-      <span>封面图（待补真实封面）</span>
+  <div class="flex flex-col md:flex-row gap-6 items-start my-5">
+    <div class="card bg-base-100 border border-base-300 shadow-sm w-full md:w-80 shrink-0">
+      <figure class="p-4">
+        {g.cover ? (
+          <img class="w-full h-auto rounded-lg" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} />
+        ) : (
+          <div class="flex min-h-60 flex-col items-center justify-center text-center rounded-lg border-2 border-dashed border-secondary/60 text-secondary p-5" role="img" aria-label={`${g.zh} 封面图待补`}>
+            <span class="text-lg font-bold mb-1.5">{g.zh}</span>
+            <span class="text-sm">封面图（待补真实封面）</span>
+          </div>
+        )}
+      </figure>
     </div>
-  )}
 
-  <table class="info">
-    <tr><th>发售年份</th><td>{g.year} 年（首发 {g.release}）</td></tr>
-    <tr><th>首发平台</th><td><a href={href(`platform/${g.platformSlug}/`)}>{g.platformLabel}</a></td></tr>
-    <tr><th>全部平台</th><td>{g.platforms.join(' / ')}</td></tr>
-    <tr><th>所属系列</th><td>{g.series}</td></tr>
-    <tr><th>英文名</th><td>{g.en}</td></tr>
-    <tr><th>日文名</th><td>{g.ja}</td></tr>
-    <tr><th>常见简称</th><td>{g.aliases.join('、')}</td></tr>
-  </table>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 flex-1 w-full">
+      <table class="table">
+        <tbody>
+          <tr><th class="w-28 bg-base-200">发售年份</th><td>{g.year} 年（首发 {g.release}）</td></tr>
+          <tr><th class="bg-base-200">首发平台</th><td><a href={href(`platform/${g.platformSlug}/`)}>{g.platformLabel}</a></td></tr>
+          <tr><th class="bg-base-200">全部平台</th><td>{g.platforms.join(' / ')}</td></tr>
+          <tr><th class="bg-base-200">所属系列</th><td>{g.series}</td></tr>
+          <tr><th class="bg-base-200">英文名</th><td>{g.en}</td></tr>
+          <tr><th class="bg-base-200">日文名</th><td>{g.ja}</td></tr>
+          <tr><th class="bg-base-200">常见简称</th><td>{g.aliases.join('、')}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 
   <p>《{g.zh}》是超级机器人大战系列于 {g.year} 年推出的作品，首发于 {g.platform} 平台，归入本系列的{g.series}。本站为这一作设有独立的攻略分区：关卡攻略会逐关给出带坐标与地形的地图、胜利与败北条件、出场与增援以及隐藏要素的触发方法；隐藏要素页汇总隐藏机体、隐藏关卡等收集内容；图鉴页整理机体与驾驶员的加入条件。相关内容正在逐项核对整理，完成后会在此页更新进度。</p>
 
-  <div class="nav-cards">
-    <a class="nav-card" href={href(`${g.slug}/missions/`)}>
-      <span class="nav-card-title">关卡攻略</span>
-      <p>逐关攻略：坐标地图、条件、出场增援与分步打法。</p>
+  <div class="grid sm:grid-cols-3 gap-4 my-5">
+    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/missions/`)}>
+      <div class="card-body p-5">
+        <span class="card-title text-primary text-lg">关卡攻略</span>
+        <p class="text-sm text-base-content/60 m-0">逐关攻略：坐标地图、条件、出场增援与分步打法。</p>
+      </div>
     </a>
-    <a class="nav-card" href={href(`${g.slug}/secrets/`)}>
-      <span class="nav-card-title">隐藏要素</span>
-      <p>隐藏机体、隐藏驾驶员、隐藏关卡与特殊结局的触发条件。</p>
+    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/secrets/`)}>
+      <div class="card-body p-5">
+        <span class="card-title text-primary text-lg">隐藏要素</span>
+        <p class="text-sm text-base-content/60 m-0">隐藏机体、隐藏驾驶员、隐藏关卡与特殊结局的触发条件。</p>
+      </div>
     </a>
-    <a class="nav-card" href={href(`${g.slug}/units/`)}>
-      <span class="nav-card-title">机体图鉴</span>
-      <p>机体与驾驶员的加入条件和加入时机一览。</p>
+    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/units/`)}>
+      <div class="card-body p-5">
+        <span class="card-title text-primary text-lg">机体图鉴</span>
+        <p class="text-sm text-base-content/60 m-0">机体与驾驶员的加入条件和加入时机一览。</p>
+      </div>
     </a>
   </div>
 
   {g.slug === 'srw-30' && (
-    <div class="notice">
-      本作已有一页演示模板结构的<a href={href('srw-30/missions/sample-01/')}>样板关卡</a>，展示坐标地图、地形图例与攻略的写法（样板数据，非真实关卡）。
+    <div class="alert alert-info alert-soft my-4">
+      <span>本作已有一页演示模板结构的<a class="link font-semibold" href={href('srw-30/missions/sample-01/')}>样板关卡</a>，展示坐标地图、地形图例与攻略的写法（样板数据，非真实关卡）。</span>
     </div>
   )}
 </Base>

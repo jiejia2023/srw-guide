@@ -154,130 +154,144 @@ const groups: any[] = [
 <Base title="超级机器人大战30 关卡攻略 · 全部主线任务列表" description="超级机器人大战30 完整主线任务列表：按区域选择（TAS）结构整理地上/宇宙开局路线与第4至第9章、结局章，含中文名、日文原名、英文名与区域，4 关附详细攻略页。" path="srw-30/missions/" breadcrumbs={crumbs}>
   <h1>超级机器人大战30 · 关卡攻略</h1>
   <p>本作采用「区域选择（Tactical Area Select）」结构：开局在地上与宇宙两条路线中二选一，第 3 章后合流，此后以关键任务（主线）推进剧情，区域内还分布着大量支线、前线、遗物与舰上任务。本页按 Akurasu Wiki 的完整流程表（Complete Chart）整理<strong>全部主线关键任务</strong>，并附主要支线/隐藏任务精选与 DLC/追加任务概要。</p>
-  <div class="notice">
-    <strong>译名说明：</strong>本作官方中文版的逐关名称本次未能取得可核对的完整原文，下表中文名以日文原名的本站翻译为主（个别采用玩家间通行译名），并同时给出日文原名与 Akurasu 英文名便于对照。「详情」列有链接的 4 关已建详细攻略页，其余为列表条目，后续逐关补完。编号规则：KE/KS = 地上/宇宙路线关键任务，K = 共通关键任务，OE/OS/O = 支线，EC = 追加章节，KN/KT = 通常/真结局路线。
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>译名说明：</strong>本作官方中文版的逐关名称本次未能取得可核对的完整原文，下表中文名以日文原名的本站翻译为主（个别采用玩家间通行译名），并同时给出日文原名与 Akurasu 英文名便于对照。「详情」列有链接的 4 关已建详细攻略页，其余为列表条目，后续逐关补完。编号规则：KE/KS = 地上/宇宙路线关键任务，K = 共通关键任务，OE/OS/O = 支线，EC = 追加章节，KN/KT = 通常/真结局路线。</span>
   </div>
-  <p class="muted">计数口径：Akurasu 将本作主线计为 62 个关键任务、支线 166 个、DLC 任务 87 个；日文《机战Wiki》将 A/B 变体合并计为 43 话。下表将不同路线与 A/B 版本分别列条，故条目数多于上述口径。</p>
+  <p class="text-sm text-base-content/60">计数口径：Akurasu 将本作主线计为 62 个关键任务、支线 166 个、DLC 任务 87 个；日文《机战Wiki》将 A/B 变体合并计为 43 话。下表将不同路线与 A/B 版本分别列条，故条目数多于上述口径。</p>
 
   {groups.map(g => (
     <section>
       <h2>{g.title}</h2>
       {g.intro && <p>{g.intro}</p>}
-      <table class="data">
-        <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>区域</th><th>备注</th><th>详情</th></tr>
-        {g.rows.map((r: any[]) => (
-          <tr>
-            <td>{r[0]}</td>
-            <td>{r[6] ? <a href={href(`srw-30/missions/${r[6]}/`)}>{r[1]}</a> : r[1]}</td>
-            <td>{r[2]}</td>
-            <td>{r[3]}</td>
-            <td>{r[4]}</td>
-            <td>{r[5]}</td>
-            <td>{r[7] || '—'}</td>
-            <td>{r[6] ? <a href={href(`srw-30/missions/${r[6]}/`)}>详细攻略</a> : '列表'}</td>
-          </tr>
-        ))}
-      </table>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>区域</th><th>备注</th><th>详情</th></tr></thead>
+          <tbody>
+            {g.rows.map((r: any[]) => (
+              <tr>
+                <td class="whitespace-nowrap">{r[0]}</td>
+                <td>{r[6] ? <a href={href(`srw-30/missions/${r[6]}/`)}>{r[1]}</a> : r[1]}</td>
+                <td>{r[2]}</td>
+                <td>{r[3]}</td>
+                <td><span class={`badge badge-sm whitespace-nowrap ${r[4].includes('主线') ? 'badge-primary' : 'badge-outline'}`}>{r[4]}</span></td>
+                <td>{r[5]}</td>
+                <td>{r[7] || '—'}</td>
+                <td>{r[6] ? <a class="btn btn-xs btn-outline btn-primary whitespace-nowrap" href={href(`srw-30/missions/${r[6]}/`)}>详细攻略</a> : '列表'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </section>
   ))}
 
   <h2>主要支线与隐藏任务（精选）</h2>
   <p>本作支线任务共 166 个（Akurasu 口径，含前线、遗物、舰上等任务类型），此处精选与机体/角色加入、隐藏要素直接相关的剧情支线与全部隐藏任务。编号 OE/OS 为地上/宇宙路线版本，同一任务在两条路线的编号与标题常有对应关系；标「（未记）」者为 Akurasu 未记录其日文标题。</p>
-  <table class="data">
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
     <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>备注</th></tr>
-    <tr><td>OE2-1</td><td>相互信任的伙伴</td><td>信じ合う仲間</td><td>Mutual Trust</td><td>支线</td><td>隐藏「阳炎」前置（宇宙版 OS2-14）</td></tr>
-    <tr><td>OE2-2</td><td>七名刑警</td><td>7人の刑事</td><td>Seven Officers</td><td>支线</td><td>隐藏「阳炎」前置；茜点数机会（击坠安提）（宇宙版 OS2-15）</td></tr>
-    <tr><td>OE2-3A</td><td>盖塔射线的挑战</td><td>ゲッター線の挑戦</td><td>The Getter Rays' Challenge</td><td>支线</td><td>与 3B 顺序可交换（宇宙版 OS2-7A/B）</td></tr>
-    <tr><td>OE2-3B</td><td>燃烧的血潮</td><td>血潮燃やして</td><td>Stoked, Burning Blood</td><td>支线</td><td>同上</td></tr>
-    <tr><td>OE2-4</td><td>伟大的勇者</td><td>偉大な勇者</td><td>The Great Heroes</td><td>支线</td><td>（宇宙版 OS2-8B）</td></tr>
-    <tr><td>OE2-5</td><td>复活的铁之城</td><td>復活の鉄の城</td><td>The Castle of Iron Returns</td><td>支线</td><td>（宇宙版为 OS3-1）</td></tr>
-    <tr><td>OE2-6</td><td>始 -相逢-</td><td>始 -DEAI-</td><td>Inherited Bravery -MEETING-</td><td>支线</td><td>（宇宙版 OS2-9B）</td></tr>
-    <tr><td>OE2-7A</td><td>来自外界者</td><td>外から来る者</td><td>Otherworldly Savior</td><td>支线</td><td>与 7B 构成一组（宇宙版 OS2-11A/B，标题对应关系相反）</td></tr>
-    <tr><td>OE2-7B</td><td>异界的救世主</td><td>異界の救世主</td><td>From Beyond</td><td>支线</td><td>同上</td></tr>
-    <tr><td>OE2-8A</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td>支线</td><td>（宇宙版 OS2-12A）</td></tr>
-    <tr><td>OE2-8B</td><td>英雄与敌人</td><td>（未记）</td><td>Hero &amp; Enemy</td><td>支线</td><td>（宇宙版 OS2-12B）</td></tr>
-    <tr><td>OE2-9</td><td>友 -伙伴-</td><td>友 -NAKAMA-</td><td>A Brave's Allies -COMRADES-</td><td>支线</td><td>（宇宙版 OS2-10）</td></tr>
-    <tr><td>OE2-10</td><td>新的故事</td><td>新たな物語</td><td>A New Story</td><td>支线</td><td>（宇宙版 OS2-1）</td></tr>
-    <tr><td>OE2-11</td><td>归还</td><td>帰還</td><td>A Return</td><td>支线</td><td>（宇宙版 OS2-3）</td></tr>
-    <tr><td>OE2-12A</td><td>白色流星的轨迹</td><td>白き流星の軌跡</td><td>White Comet's Course</td><td>支线</td><td>量产型 ν 高达条件关联（宇宙版 OS2-4A）</td></tr>
-    <tr><td>OE2-12B</td><td>被称为新人类的人</td><td>ニュータイプと呼ばれた男</td><td>The Man Called a Newtype</td><td>支线</td><td>同上（宇宙版 OS2-4B）</td></tr>
-    <tr><td>OE2-13A</td><td>奥古斯塔的追想</td><td>オーガスタ追想</td><td>Echoes of Augusta</td><td>支线</td><td>全装甲高达Mk-II 条件（宇宙版 OS2-5A）</td></tr>
-    <tr><td>OE2-13B</td><td>鼓动</td><td>鼓動</td><td>Heartbeat</td><td>支线</td><td>同上（宇宙版 OS2-5B）</td></tr>
-    <tr><td>OE2-14</td><td>独行荒野</td><td>荒野を一人往く</td><td>Alone in the Wild</td><td>支线</td><td>量产型 ν 高达 / 全装甲部件的取得关（宇宙版 OS2-6）</td></tr>
-    <tr><td>OE2-15A</td><td>里加·米利塔里亚的战士们</td><td>リガ・ミリティアの戦士たち</td><td>Warriors of the League Militaire</td><td>支线</td><td>卡特加娜点数机会（+2 分）</td></tr>
-    <tr><td>OE2-15B</td><td>宇宙的邂逅</td><td>宇宙の出会い</td><td>Meeting in Space</td><td>支线</td><td>卡特加娜点数机会（+2 分）</td></tr>
-    <tr><td>OS2-2A</td><td>遗憾与失望</td><td>ザンネンとガッカリ</td><td>Fail and Bummer</td><td>支线</td><td>（地上版为 OE3-1A）</td></tr>
-    <tr><td>OS2-2B</td><td>英雄的工作</td><td>ヒーローの仕事</td><td>A Hero's Job</td><td>支线</td><td>（地上版为 OE3-1B）</td></tr>
-    <tr><td>OS2-8A</td><td>溢出的恶</td><td>あふれ出る悪</td><td>Overflowing Evil</td><td>支线</td><td>—</td></tr>
-    <tr><td>OS2-9A</td><td>始 -登场-</td><td>始 -TOUJOU-</td><td>Newfound Bravery -ARRIVAL-</td><td>支线</td><td>—</td></tr>
-    <tr><td>OS2-13A</td><td>勇者警察</td><td>（未记）</td><td>The Brave Police</td><td>支线</td><td>—</td></tr>
-    <tr><td>OS2-13B</td><td>杰德卡</td><td>ジェイデッカー</td><td>A Brave Lineage</td><td>支线</td><td>—</td></tr>
-    <tr><td>O4-1A</td><td>那天他看到的鸟</td><td>（未记）</td><td>The Bird He Saw That Day</td><td>支线</td><td>与 O4-1B 构成一组</td></tr>
-    <tr><td>O4-1B</td><td>凤凰降临</td><td>（未记）</td><td>The Phoenix Alights</td><td>支线</td><td>同上</td></tr>
-    <tr><td>O4-2</td><td>红色彗星的再来</td><td>赤い彗星の再来</td><td>Return of the Red Comet</td><td>支线</td><td>—</td></tr>
-    <tr><td>O4-3</td><td>达喀尔的落日</td><td>ダカールの落日</td><td>The Fall of Dakar</td><td>支线</td><td>—</td></tr>
-    <tr><td>O4-4</td><td>孤高的王牌</td><td>（未记）</td><td>Solitary Ace</td><td>支线</td><td>—</td></tr>
-    <tr><td>O4-5</td><td>蕾蒂·蕾蒂</td><td>レディ・レディ</td><td>Lady Lady</td><td>支线</td><td>内伊点数机会</td></tr>
-    <tr><td>O4-6</td><td>邂逅</td><td>（未记）</td><td>Encounter</td><td>支线</td><td>—</td></tr>
-    <tr><td>O4-7</td><td>交叉点</td><td>クロス・ポイント</td><td>Cross Point</td><td>支线</td><td>内伊点数机会；蕾切的外观选择</td></tr>
-    <tr><td>O4-8</td><td>阳炎，再临</td><td>陽炎、再び</td><td>Return of the Mirage</td><td>隐藏</td><td>阳炎在此正式加入</td></tr>
-    <tr><td>O5-1</td><td>甜蜜的家</td><td>（未记）</td><td>Home Sweet Home</td><td>支线</td><td>—</td></tr>
-    <tr><td>O5-2</td><td>勇者的归来 -ADVENT-</td><td>（未记）</td><td>A Brave's Return -ADVENT-</td><td>支线</td><td>—</td></tr>
-    <tr><td>O5-3</td><td>警告</td><td>（未记）</td><td>A Warning</td><td>支线</td><td>—</td></tr>
-    <tr><td>O6-1</td><td>法莲的皇女</td><td>ファーレンの皇女</td><td>Imperial Princess</td><td>支线</td><td>塔特拉&塔尔塔、巨型桑永前置（须在 K6-5 前完成）</td></tr>
-    <tr><td>O6-2</td><td>威胁的羽音</td><td>脅威の羽音</td><td>Menacing Wings</td><td>支线</td><td>—</td></tr>
-    <tr><td>O6-3</td><td>奇泽塔的风暴</td><td>チゼータの嵐</td><td>Chizetan Storm</td><td>支线</td><td>同 O6-1 前置</td></tr>
-    <tr><td>O6-4</td><td>逃离基瓦扎</td><td>エスケープ・ギワザ</td><td>Escape Giwaza</td><td>支线</td><td>内伊点数机会；奥莉比说得事件</td></tr>
-    <tr><td>O6-5</td><td>红色彗星的使命</td><td>赤い彗星の使命</td><td>The Red Comet's Duty</td><td>支线</td><td>卡特加娜点数机会（德莱斯特雷伽抵达前击坠克罗诺克尔 +2）</td></tr>
-    <tr><td>O6-6</td><td>忧·郁</td><td>憂・鬱</td><td>Melancholy</td><td>支线</td><td>阿诺西拉斯支援者；茜点数机会</td></tr>
-    <tr><td>O7-1</td><td>向心而令</td><td>心に命じるもの</td><td>What the Heart Dictates</td><td>支线</td><td>茜点数机会</td></tr>
-    <tr><td>O7-2</td><td>深入侦察</td><td>（未记）</td><td>Deep Recon</td><td>支线</td><td>—</td></tr>
-    <tr><td>O7-3</td><td>可怕的陷阱</td><td>（未记）</td><td>A Fearsome Trap</td><td>支线</td><td>—</td></tr>
-    <tr><td>O7-4</td><td>最后的记忆</td><td>（未记）</td><td>Last Memory</td><td>支线</td><td>—</td></tr>
-    <tr><td>O7-5</td><td>黑翼</td><td>（未记）</td><td>Blackwing</td><td>支线</td><td>—</td></tr>
-    <tr><td>O7-6</td><td>愤怒的魔神</td><td>怒りの魔神</td><td>A Mazin Enraged</td><td>支线</td><td>魔神凯撒取得关（条件见隐藏要素页）</td></tr>
-    <tr><td>O8-1</td><td>幸福的意义</td><td>しあわせの意味</td><td>The Meaning of Happiness</td><td>支线</td><td>米海尔点数机会</td></tr>
-    <tr><td>O8-2</td><td>黑暗的邀请</td><td>（未记）</td><td>Dark Invitation</td><td>支线</td><td>克雷夫与塞菲罗众人提前加入</td></tr>
-    <tr><td>O8-3</td><td>母亲的觉醒</td><td>母の目覚め</td><td>A Mother's Awakening</td><td>支线</td><td>—</td></tr>
-    <tr><td>O8-4</td><td>滑稽剧</td><td>ピカレスク</td><td>Picaresque</td><td>支线</td><td>内伊点数最终判定关</td></tr>
-    <tr><td>O8-5</td><td>我的爱</td><td>マイ・ラブ</td><td>My Love</td><td>隐藏</td><td>内伊与奥格在此加入</td></tr>
-    <tr><td>O9-1</td><td>倒计时</td><td>カウントダウン</td><td>Countdown</td><td>支线</td><td>是否完成决定 K9-2A / K9-2B 分支</td></tr>
-    <tr><td>O9-2</td><td>与未知的战线</td><td>未知との戦線</td><td>Showdown With the Unknown</td><td>支线</td><td>—</td></tr>
-    <tr><td>O9-3</td><td>无尽之梦</td><td>果てしなき夢</td><td>Endless Dream</td><td>支线</td><td>米海尔点数结算关</td></tr>
-    <tr><td>O9-4</td><td>轮回的复仇</td><td>復讐は巡る</td><td>A Dish Best Served Cold</td><td>隐藏</td><td>米海尔与法萨莉娜在此加入</td></tr>
-  </table>
+    <tr><td>OE2-1</td><td>相互信任的伙伴</td><td>信じ合う仲間</td><td>Mutual Trust</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>隐藏「阳炎」前置（宇宙版 OS2-14）</td></tr>
+    <tr><td>OE2-2</td><td>七名刑警</td><td>7人の刑事</td><td>Seven Officers</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>隐藏「阳炎」前置；茜点数机会（击坠安提）（宇宙版 OS2-15）</td></tr>
+    <tr><td>OE2-3A</td><td>盖塔射线的挑战</td><td>ゲッター線の挑戦</td><td>The Getter Rays' Challenge</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>与 3B 顺序可交换（宇宙版 OS2-7A/B）</td></tr>
+    <tr><td>OE2-3B</td><td>燃烧的血潮</td><td>血潮燃やして</td><td>Stoked, Burning Blood</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同上</td></tr>
+    <tr><td>OE2-4</td><td>伟大的勇者</td><td>偉大な勇者</td><td>The Great Heroes</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-8B）</td></tr>
+    <tr><td>OE2-5</td><td>复活的铁之城</td><td>復活の鉄の城</td><td>The Castle of Iron Returns</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版为 OS3-1）</td></tr>
+    <tr><td>OE2-6</td><td>始 -相逢-</td><td>始 -DEAI-</td><td>Inherited Bravery -MEETING-</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-9B）</td></tr>
+    <tr><td>OE2-7A</td><td>来自外界者</td><td>外から来る者</td><td>Otherworldly Savior</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>与 7B 构成一组（宇宙版 OS2-11A/B，标题对应关系相反）</td></tr>
+    <tr><td>OE2-7B</td><td>异界的救世主</td><td>異界の救世主</td><td>From Beyond</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同上</td></tr>
+    <tr><td>OE2-8A</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-12A）</td></tr>
+    <tr><td>OE2-8B</td><td>英雄与敌人</td><td>（未记）</td><td>Hero &amp; Enemy</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-12B）</td></tr>
+    <tr><td>OE2-9</td><td>友 -伙伴-</td><td>友 -NAKAMA-</td><td>A Brave's Allies -COMRADES-</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-10）</td></tr>
+    <tr><td>OE2-10</td><td>新的故事</td><td>新たな物語</td><td>A New Story</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-1）</td></tr>
+    <tr><td>OE2-11</td><td>归还</td><td>帰還</td><td>A Return</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（宇宙版 OS2-3）</td></tr>
+    <tr><td>OE2-12A</td><td>白色流星的轨迹</td><td>白き流星の軌跡</td><td>White Comet's Course</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>量产型 ν 高达条件关联（宇宙版 OS2-4A）</td></tr>
+    <tr><td>OE2-12B</td><td>被称为新人类的人</td><td>ニュータイプと呼ばれた男</td><td>The Man Called a Newtype</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同上（宇宙版 OS2-4B）</td></tr>
+    <tr><td>OE2-13A</td><td>奥古斯塔的追想</td><td>オーガスタ追想</td><td>Echoes of Augusta</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>全装甲高达Mk-II 条件（宇宙版 OS2-5A）</td></tr>
+    <tr><td>OE2-13B</td><td>鼓动</td><td>鼓動</td><td>Heartbeat</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同上（宇宙版 OS2-5B）</td></tr>
+    <tr><td>OE2-14</td><td>独行荒野</td><td>荒野を一人往く</td><td>Alone in the Wild</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>量产型 ν 高达 / 全装甲部件的取得关（宇宙版 OS2-6）</td></tr>
+    <tr><td>OE2-15A</td><td>里加·米利塔里亚的战士们</td><td>リガ・ミリティアの戦士たち</td><td>Warriors of the League Militaire</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>卡特加娜点数机会（+2 分）</td></tr>
+    <tr><td>OE2-15B</td><td>宇宙的邂逅</td><td>宇宙の出会い</td><td>Meeting in Space</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>卡特加娜点数机会（+2 分）</td></tr>
+    <tr><td>OS2-2A</td><td>遗憾与失望</td><td>ザンネンとガッカリ</td><td>Fail and Bummer</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（地上版为 OE3-1A）</td></tr>
+    <tr><td>OS2-2B</td><td>英雄的工作</td><td>ヒーローの仕事</td><td>A Hero's Job</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>（地上版为 OE3-1B）</td></tr>
+    <tr><td>OS2-8A</td><td>溢出的恶</td><td>あふれ出る悪</td><td>Overflowing Evil</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>OS2-9A</td><td>始 -登场-</td><td>始 -TOUJOU-</td><td>Newfound Bravery -ARRIVAL-</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>OS2-13A</td><td>勇者警察</td><td>（未记）</td><td>The Brave Police</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>OS2-13B</td><td>杰德卡</td><td>ジェイデッカー</td><td>A Brave Lineage</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O4-1A</td><td>那天他看到的鸟</td><td>（未记）</td><td>The Bird He Saw That Day</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>与 O4-1B 构成一组</td></tr>
+    <tr><td>O4-1B</td><td>凤凰降临</td><td>（未记）</td><td>The Phoenix Alights</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同上</td></tr>
+    <tr><td>O4-2</td><td>红色彗星的再来</td><td>赤い彗星の再来</td><td>Return of the Red Comet</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O4-3</td><td>达喀尔的落日</td><td>ダカールの落日</td><td>The Fall of Dakar</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O4-4</td><td>孤高的王牌</td><td>（未记）</td><td>Solitary Ace</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O4-5</td><td>蕾蒂·蕾蒂</td><td>レディ・レディ</td><td>Lady Lady</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>内伊点数机会</td></tr>
+    <tr><td>O4-6</td><td>邂逅</td><td>（未记）</td><td>Encounter</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O4-7</td><td>交叉点</td><td>クロス・ポイント</td><td>Cross Point</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>内伊点数机会；蕾切的外观选择</td></tr>
+    <tr><td>O4-8</td><td>阳炎，再临</td><td>陽炎、再び</td><td>Return of the Mirage</td><td><span class="badge badge-warning badge-sm">隐藏</span></td><td>阳炎在此正式加入</td></tr>
+    <tr><td>O5-1</td><td>甜蜜的家</td><td>（未记）</td><td>Home Sweet Home</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O5-2</td><td>勇者的归来 -ADVENT-</td><td>（未记）</td><td>A Brave's Return -ADVENT-</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O5-3</td><td>警告</td><td>（未记）</td><td>A Warning</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O6-1</td><td>法莲的皇女</td><td>ファーレンの皇女</td><td>Imperial Princess</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>塔特拉&塔尔塔、巨型桑永前置（须在 K6-5 前完成）</td></tr>
+    <tr><td>O6-2</td><td>威胁的羽音</td><td>脅威の羽音</td><td>Menacing Wings</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O6-3</td><td>奇泽塔的风暴</td><td>チゼータの嵐</td><td>Chizetan Storm</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>同 O6-1 前置</td></tr>
+    <tr><td>O6-4</td><td>逃离基瓦扎</td><td>エスケープ・ギワザ</td><td>Escape Giwaza</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>内伊点数机会；奥莉比说得事件</td></tr>
+    <tr><td>O6-5</td><td>红色彗星的使命</td><td>赤い彗星の使命</td><td>The Red Comet's Duty</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>卡特加娜点数机会（德莱斯特雷伽抵达前击坠克罗诺克尔 +2）</td></tr>
+    <tr><td>O6-6</td><td>忧·郁</td><td>憂・鬱</td><td>Melancholy</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>阿诺西拉斯支援者；茜点数机会</td></tr>
+    <tr><td>O7-1</td><td>向心而令</td><td>心に命じるもの</td><td>What the Heart Dictates</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>茜点数机会</td></tr>
+    <tr><td>O7-2</td><td>深入侦察</td><td>（未记）</td><td>Deep Recon</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O7-3</td><td>可怕的陷阱</td><td>（未记）</td><td>A Fearsome Trap</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O7-4</td><td>最后的记忆</td><td>（未记）</td><td>Last Memory</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O7-5</td><td>黑翼</td><td>（未记）</td><td>Blackwing</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O7-6</td><td>愤怒的魔神</td><td>怒りの魔神</td><td>A Mazin Enraged</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>魔神凯撒取得关（条件见隐藏要素页）</td></tr>
+    <tr><td>O8-1</td><td>幸福的意义</td><td>しあわせの意味</td><td>The Meaning of Happiness</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>米海尔点数机会</td></tr>
+    <tr><td>O8-2</td><td>黑暗的邀请</td><td>（未记）</td><td>Dark Invitation</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>克雷夫与塞菲罗众人提前加入</td></tr>
+    <tr><td>O8-3</td><td>母亲的觉醒</td><td>母の目覚め</td><td>A Mother's Awakening</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O8-4</td><td>滑稽剧</td><td>ピカレスク</td><td>Picaresque</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>内伊点数最终判定关</td></tr>
+    <tr><td>O8-5</td><td>我的爱</td><td>マイ・ラブ</td><td>My Love</td><td><span class="badge badge-warning badge-sm">隐藏</span></td><td>内伊与奥格在此加入</td></tr>
+    <tr><td>O9-1</td><td>倒计时</td><td>カウントダウン</td><td>Countdown</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>是否完成决定 K9-2A / K9-2B 分支</td></tr>
+    <tr><td>O9-2</td><td>与未知的战线</td><td>未知との戦線</td><td>Showdown With the Unknown</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>—</td></tr>
+    <tr><td>O9-3</td><td>无尽之梦</td><td>果てしなき夢</td><td>Endless Dream</td><td><span class="badge badge-secondary badge-sm">支线</span></td><td>米海尔点数结算关</td></tr>
+    <tr><td>O9-4</td><td>轮回的复仇</td><td>復讐は巡る</td><td>A Dish Best Served Cold</td><td><span class="badge badge-warning badge-sm">隐藏</span></td><td>米海尔与法萨莉娜在此加入</td></tr>
+    </table>
+  </div>
 
   <h2>通关后追加章节（免费更新）</h2>
   <p>通关并完成免费追加任务「打开的门（Extra 3-1）」等条件后开放的 Extra Chapter，共 6 关。注意：一旦开始 EC-1，尚未完成的非舰上区域任务将全部消失。</p>
-  <table class="data">
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
     <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>备注</th></tr>
-    <tr><td>EC-1</td><td>黑发怨夜</td><td>黒髪怨夜</td><td>The Black-Haired Woman's Retribution</td><td>追加</td><td>贝塔曼卡塔弗拉克托/拉米亚的保底加入点</td></tr>
-    <tr><td>EC-2</td><td>复活之时</td><td>復活の時</td><td>Revival at Hand</td><td>追加</td><td>—</td></tr>
-    <tr><td>EC-3</td><td>泥沼死斗</td><td>泥沼の死闘</td><td>In Over Our Heads</td><td>追加</td><td>—</td></tr>
-    <tr><td>EC-4</td><td>编织憎恨者</td><td>憎しみを紡ぐもの</td><td>Weavers of Hate</td><td>追加</td><td>—</td></tr>
-    <tr><td>EC-5</td><td>在凋零之花中</td><td>散りゆく花の中で</td><td>Among The Fallen Flowers</td><td>追加</td><td>—</td></tr>
-    <tr><td>EC-6</td><td>从这里走向明天</td><td>ここから明日へ</td><td>Where Tomorrow Starts</td><td>追加</td><td>—</td></tr>
-  </table>
+    <tr><td>EC-1</td><td>黑发怨夜</td><td>黒髪怨夜</td><td>The Black-Haired Woman's Retribution</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>贝塔曼卡塔弗拉克托/拉米亚的保底加入点</td></tr>
+    <tr><td>EC-2</td><td>复活之时</td><td>復活の時</td><td>Revival at Hand</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>—</td></tr>
+    <tr><td>EC-3</td><td>泥沼死斗</td><td>泥沼の死闘</td><td>In Over Our Heads</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>—</td></tr>
+    <tr><td>EC-4</td><td>编织憎恨者</td><td>憎しみを紡ぐもの</td><td>Weavers of Hate</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>—</td></tr>
+    <tr><td>EC-5</td><td>在凋零之花中</td><td>散りゆく花の中で</td><td>Among The Fallen Flowers</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>—</td></tr>
+    <tr><td>EC-6</td><td>从这里走向明天</td><td>ここから明日へ</td><td>Where Tomorrow Starts</td><td><span class="badge badge-accent badge-sm">追加</span></td><td>—</td></tr>
+    </table>
+  </div>
 
   <h2>DLC 与追加任务（概要）</h2>
   <p>以下为另行发售的付费 DLC 与免费追加任务的清单概要（详细攻略不在本页范围）。免费追加的 Extra 任务共 11 个：魔装机神（魔装機神 / The Elemental Lord，赛巴斯塔）、钢之魂（鋼の魂 / Spirit of Steel，SRX 小队）、Happy 30th Anniversary!、Visitors、黑暗幽灵（黒い幽霊 / Black Specter，亡灵）、Unknown Battlefield、Congratulations on 19 Million!、Dimension Diver（迪达利昂）、打开的门（開かれた扉 / The Door Opens）、超斗士（超闘士 / The Hyper Fighter，古伦加斯特）、解锁的是交错之门（解錠されるのは交錯の扉 / The Crossover Door Opens，梵格雷·艾因）。「打开的门」是开放通关后追加章节的前提之一。</p>
-  <table class="data">
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
     <tr><th>包</th><th>关数</th><th>主要内容（Akurasu 英文名）</th></tr>
     <tr><td>奖励任务包（Bonus Mission Pack）</td><td>15</td><td>勇者的推荐（勇者のススメ）、骑士与骑士的相遇（騎士と騎士の出会い）、Endless Summer Heroes、The Secret Ingredient Is...、Operation: Federation Idol、Heroic Awakening、Respect Your Elders、A Return to Jaburo、Michele the Fortuneteller、Unknown Horizons、A Brave Lineage (Alt. Route)、Stupendous Robot Symposium、Brave vs. Brave、Super Deformed Danger、Beautiful, Righteous, and Strong。多为 PP / 部件奖励关。</td></tr>
     <tr><td>DLC 第 1 弹</td><td>13</td><td>樱花大战、龙虎王传记等参战：远离帝都（帝都は遠く）、进入战斗的漩涡（戦いの渦へ）、龙虎见参（龍虎見参）、The Lights in Amuro's Life、巴黎盛开的樱花（巴里に咲くサクラ）、摩天楼的武士（摩天楼のサムライ）、超电磁之绊（超電磁の絆）、Danger in the Demon City、心意诞生的力量（想いが生む力，Hi-ν高达）、天下无双（我等ニ敵ナシ）；通关后追加 Encroaching Threat、Ignoble Inclinations、So Long as There's Love。</td></tr>
     <tr><td>DLC 第 2 弹</td><td>13</td><td>ULTRAMAN、铁血的奥尔芬斯等参战：奥特曼，未知的世界（ウルトラマン、未知の世界へ）、荒野绽放的铁之花（荒野に咲く鉄の華）、钢铁孤狼（鋼鉄の孤狼）、被称为 SEVEN 的男人（SEVENと呼ばれる男）、铁之绊（鉄の絆）、白银的堕天使（白銀の堕天使）、王牌的证明（エースの証）、光之巨人的使命（光の巨人の使命）、巴耶力的继承者（バエルを継ぐ者）、天使，再临（天使、再臨）；通关后追加 Those Who Pierce Through、Jet Black Menace、Indomitable Bravery。</td></tr>
     <tr><td>扩展包（Expansion Pack）</td><td>24</td><td>独立后续剧情：On Track for Adventure、Face the War God's Regalia、Super Beast Machine God、Contact、Light and Darkness Reunited、World Astray、Firestarters、The Two Getters、Powers Combined、The Tornado of War、Awakening Instincts、我们的战斗（我等の戦い / Our Fight）、For Shinkalion's Future、Challenging the Future、Indeliable Scars（Akurasu 原文拼写）、A Surging Scourge（Akurasu 原文拼写）、Genes of Awakening；通关后追加 They Are The OG Team、Their Bygone Days (Part 1 / Part 2)、Their Days to Come（奖励 500 万资金）、解放的力量（解放される力 / Power Unleashed）、Hidden Factors、With A Hopeful Heart。多数任务的日文标题 Akurasu 未记录。</td></tr>
-  </table>
+    </table>
+  </div>
 
   <h2>页面样板（演示）</h2>
-  <div class="nav-cards">
-    <a class="nav-card" href={href('srw-30/missions/sample-01/')}>
-      <strong>样板演示 · 示例关卡 01</strong>
-      <span>本站关卡页的版式与坐标地图样板，使用虚构演示数据，不是真实关卡攻略。</span>
+  <div class="grid sm:grid-cols-2 gap-4 my-4">
+    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href('srw-30/missions/sample-01/')}>
+      <div class="card-body p-5">
+        <span class="card-title text-primary text-base">样板演示 · 示例关卡 01</span>
+        <p class="text-sm text-base-content/60 m-0">本站关卡页的版式与坐标地图样板，使用虚构演示数据，不是真实关卡攻略。</p>
+      </div>
     </a>
-    <a class="nav-card" href={href('srw-30/secrets/')}>
-      <strong>隐藏要素总览</strong>
-      <span>隐藏机体、说得角色、点数系统、支援者与真结局条件汇总。</span>
+    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href('srw-30/secrets/')}>
+      <div class="card-body p-5">
+        <span class="card-title text-primary text-base">隐藏要素总览</span>
+        <p class="text-sm text-base-content/60 m-0">隐藏机体、说得角色、点数系统、支援者与真结局条件汇总。</p>
+      </div>
     </a>
   </div>
 

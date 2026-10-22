@@ -49,13 +49,15 @@ const W = 16, H = 12;
 ---
 <Base title="样板关卡（演示模板）" description="超级机器人大战30关卡页样板：演示带坐标与地形的地图、条件表、出场增援表与分步攻略的模板结构。样板关卡，非真实关卡数据。" path="srw-30/missions/sample-01/" breadcrumbs={crumbs}>
   <h1>样板关卡（演示模板结构，非真实关卡数据）</h1>
-  <div class="notice">
-    本页是<strong>样板关卡</strong>，地图、单位与数值均为演示模板结构而设的示例，不对应《超级机器人大战30》的任何真实关卡。正式关卡页将按同一结构填入逐项核对过的真实数据。
+  <div class="alert alert-warning alert-soft my-4">
+    <span>本页是<strong>样板关卡</strong>，地图、单位与数值均为演示模板结构而设的示例，不对应《超级机器人大战30》的任何真实关卡。正式关卡页将按同一结构填入逐项核对过的真实数据。</span>
   </div>
 
   <h2>地图（带坐标与地形）</h2>
   <p>坐标规则：左上角为 (1,1)，X 向右递增，Y 向下递增。正文所有位置均写作 (X,Y)。点击任意格子可查看该格的坐标、地形与效果。</p>
-  <div class="map-wrap">
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <div class="map-wrap">
     <div class="map-grid" style={`grid-template-columns: 24px repeat(${W}, 1fr);`}>
       <span class="map-axis"></span>
       {Array.from({ length: W }, (_, i) => <span class="map-axis">{i + 1}</span>)}
@@ -79,6 +81,8 @@ const W = 16, H = 12;
       ))}
     </div>
     <div class="map-info" id="map-info">点击地图上的格子，这里会显示坐标、地形与效果。</div>
+    </div>
+    </div>
   </div>
 
   <div class="legend">
@@ -96,28 +100,40 @@ const W = 16, H = 12;
   </div>
 
   <h3>地形效果表</h3>
-  <table class="data">
-    <tr><th>地形</th><th>效果（样板说明）</th></tr>
-    {Object.values(TERRAIN).map(t => <tr><td>{t.name}</td><td>{t.effect}</td></tr>)}
-  </table>
-  <p style="color:var(--muted);font-size:.9rem">注：各作的地形修正数值并不相同，正式关卡页会按对应作品的实际数值填写，本表仅示意写法。</p>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra">
+      <thead><tr><th>地形</th><th>效果（样板说明）</th></tr></thead>
+      <tbody>
+        {Object.values(TERRAIN).map(t => <tr><td>{t.name}</td><td>{t.effect}</td></tr>)}
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm text-base-content/60">注：各作的地形修正数值并不相同，正式关卡页会按对应作品的实际数值填写，本表仅示意写法。</p>
 
   <h2>条件</h2>
-  <table class="info">
-    <tr><th>胜利条件</th><td>击坠位于 (15,2) 的 Boss（样板条件）</td></tr>
-    <tr><th>败北条件</th><td>我方任意一机被击坠（样板条件）</td></tr>
-    <tr><th>SR 点条件</th><td>4 回合内达成胜利条件（样板条件）</td></tr>
-  </table>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table [&_th]:bg-base-200 [&_th]:w-32">
+      <tbody>
+        <tr><th>胜利条件</th><td>击坠位于 (15,2) 的 Boss（样板条件）</td></tr>
+        <tr><th>败北条件</th><td>我方任意一机被击坠（样板条件）</td></tr>
+        <tr><th>SR 点条件</th><td>4 回合内达成胜利条件（样板条件）</td></tr>
+      </tbody>
+    </table>
+  </div>
 
   <h2>出场与增援</h2>
-  <table class="data">
-    <tr><th>类型</th><th>位置（坐标）</th><th>说明</th></tr>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra">
+    <thead><tr><th>类型</th><th>位置（坐标）</th><th>说明</th></tr></thead>
+    <tbody>
     <tr><td>我方出击</td><td>(2,10)、(3,10)、(2,11)</td><td>开局出击位置，靠近道路一侧。</td></tr>
     <tr><td>敌方初始</td><td>(13,3)、(14,4)、(12,5)</td><td>分布在地图右上区域。</td></tr>
     <tr><td>Boss</td><td>(15,2)</td><td>位于水域左上方的高价值目标（样板）。</td></tr>
     <tr><td>敌方增援</td><td>(16,7)</td><td>样板设定：第 3 回合敌方阶段在地图右缘出现。</td></tr>
     <tr><td>隐藏道具</td><td>(7,9)</td><td>样板设定：任意我方单位停在该格结束回合即可取得。</td></tr>
+    </tbody>
   </table>
+  </div>
 
   <h2>分步攻略（样板写法）</h2>
   <ol>
@@ -128,7 +144,7 @@ const W = 16, H = 12;
   </ol>
 
   <h2>隐藏要素（样板）</h2>
-  <div class="empty-state">
+  <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
     样板条目：隐藏道具埋设于 (7,9)，取得方式见上方出场表。正式页面会在此列出本关的隐藏机体、说得事件与特殊道具及其完整触发步骤。
   </div>
 

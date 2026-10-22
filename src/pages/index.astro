@@ -10,53 +10,59 @@ const platforms = [...new Map(games.map(g => [g.platformSlug, g.platformLabel]))
 const seriesList = [...new Set(games.map(g => g.series))];
 ---
 <Base title={SITE_NAME} description="超级机器人大战系列全作品攻略站：54款作品索引，按年代、平台、系列查找游戏，含关卡攻略、隐藏要素与机体图鉴（持续整理中）。" path="">
-  <section class="hero">
-    <h1>{SITE_NAME}</h1>
-    <p>收录超级机器人大战系列 54 款正传与单作（不含衍生作），按年代从 1991 年的初代到 2025 年的最新作排列。每款游戏都有独立页面，包含关卡攻略、隐藏要素和机体图鉴，攻略持续整理中。</p>
-    <div class="search-box">
-      <input id="home-search" type="search" placeholder="搜索游戏：中文名 / 英文名 / 日文名 / 简称，如 机战30、SRW30、α" aria-label="搜索游戏" />
-      <a class="btn" href={href('search/')}>高级搜索</a>
+  <section class="hero bg-primary text-primary-content rounded-box mt-6 shadow-lg">
+    <div class="hero-content w-full flex-col items-start text-left py-10 px-6 lg:px-10">
+      <h1 class="text-4xl font-bold m-0 text-primary-content">{SITE_NAME}</h1>
+      <p class="max-w-2xl text-primary-content/80">收录超级机器人大战系列 54 款正传与单作（不含衍生作），按年代从 1991 年的初代到 2025 年的最新作排列。每款游戏都有独立页面，包含关卡攻略、隐藏要素和机体图鉴，攻略持续整理中。</p>
+      <div class="join w-full max-w-xl mt-2">
+        <input id="home-search" class="input join-item flex-1 text-base-content" type="search" placeholder="搜索游戏：中文名 / 英文名 / 日文名 / 简称，如 机战30、SRW30、α" aria-label="搜索游戏" />
+        <a class="btn btn-secondary join-item" href={href('search/')}>高级搜索</a>
+      </div>
     </div>
   </section>
 
-  <h2>按平台找游戏</h2>
-  <div class="chips">
-    {platforms.map(p => <a class="chip" href={href(`platform/${p.slug}/`)}>{p.label}（{p.count}）</a>)}
+  <h2 id="platforms">按平台找游戏</h2>
+  <div class="flex flex-wrap gap-2 my-3">
+    {platforms.map(p => <a class="btn btn-outline btn-sm rounded-full" href={href(`platform/${p.slug}/`)}>{p.label}<span class="badge badge-primary badge-sm">{p.count}</span></a>)}
   </div>
 
   <h2>全部游戏（{games.length} 款，按年代排序）</h2>
-  <div class="filter-row">
-    <label>平台筛选
-      <select id="filter-platform">
+  <div class="flex flex-wrap items-center gap-3 my-4">
+    <label class="flex items-center gap-2 text-sm">平台筛选
+      <select id="filter-platform" class="select select-bordered select-sm">
         <option value="">全部平台</option>
         {platforms.map(p => <option value={p.slug}>{p.label}</option>)}
       </select>
     </label>
-    <label>系列筛选
-      <select id="filter-series">
+    <label class="flex items-center gap-2 text-sm">系列筛选
+      <select id="filter-series" class="select select-bordered select-sm">
         <option value="">全部系列</option>
         {seriesList.map(s => <option value={s}>{s}</option>)}
       </select>
     </label>
-    <span id="result-count" class="meta"></span>
+    <span id="result-count" class="badge badge-ghost"></span>
   </div>
 
-  <div class="grid" id="game-grid">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4" id="game-grid">
     {sorted.map(g => (
-      <a class="card" href={href(`${g.slug}/`)}
+      <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/`)}
          data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')} ${g.year}`.toLowerCase()}
          data-platform={g.platformSlug} data-series={g.series}>
-        {g.cover
-          ? <img class="card-cover" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
-          : <span class="card-cover card-cover--empty" aria-hidden="true">封面图（待补真实封面）</span>}
-        <span class="card-title">{g.zh}</span>
-        <span class="meta">{g.en}</span>
-        <span class="meta">{g.year} 年 · 首发 {g.release}</span>
-        <span><span class="tag">{g.platformLabel}</span><span class="tag">{g.series}</span></span>
+        <figure class="bg-base-200">
+          {g.cover
+            ? <img class="h-48 w-full object-contain" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
+            : <span class="flex h-48 w-full items-center justify-center border-2 border-dashed border-secondary/60 text-secondary text-sm px-3 text-center" aria-hidden="true">封面图（待补真实封面）</span>}
+        </figure>
+        <div class="card-body p-4 gap-1.5">
+          <span class="card-title text-base leading-snug">{g.zh}</span>
+          <span class="text-sm text-base-content/60">{g.en}</span>
+          <span class="text-sm text-base-content/60">{g.year} 年 · 首发 {g.release}</span>
+          <span class="flex flex-wrap gap-1.5 mt-1"><span class="badge badge-primary badge-sm">{g.platformLabel}</span><span class="badge badge-outline badge-sm">{g.series}</span></span>
+        </div>
       </a>
     ))}
   </div>
-  <p id="no-result" class="empty-state" hidden>没有符合条件的游戏，换个关键词或清除筛选试试。你也可以去<a href={href('search/')}>搜索页</a>按年份、平台、系列组合查找。</p>
+  <div id="no-result" class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-center text-base-content/60 mt-4" hidden>没有符合条件的游戏，换个关键词或清除筛选试试。你也可以去<a href={href('search/')}>搜索页</a>按年份、平台、系列组合查找。</div>
 
   <script is:inline>
     const input = document.getElementById('home-search');

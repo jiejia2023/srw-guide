@@ -24,15 +24,16 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文（Akurasu）：{m.en} · {m.route} · 区域：{m.area} · 类型：{m.type}</p>
 
-  <div class="notice">
-    <strong>数据状态：</strong>本页的胜负条件、奖励与加入单位均来自公开攻略来源（见页末）。敌方逐机配置与地图地形本次未能核实到原文，已明确标为<strong>待核实</strong>，本站不会用推测数据填充。
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜负条件、奖励与加入单位均来自公开攻略来源（见页末）。敌方逐机配置与地图地形本次未能核实到原文，已明确标为<strong>待核实</strong>，本站不会用推测数据填充。</span>
   </div>
 
   <h2>出击条件</h2>
   <p>{m.prerequisite}</p>
 
   <h2>关卡概要</h2>
-  <table class="info">
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
     <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
     <tr><th>败北条件</th><td>
       {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
@@ -45,19 +46,24 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
     {m.rewards.note && <tr><th>奖励说明</th><td class="muted">{m.rewards.note}</td></tr>}
     <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
   </table>
+  </div>
 
   <h2>我方参战 / 加入单位</h2>
-  <table class="data">
-    <tr><th>单位 / 角色</th><th>备注</th></tr>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra">
+    <thead><tr><th>单位 / 角色</th><th>备注</th></tr></thead>
+    <tbody>
     {m.allies.map((a: string) => {
       const parts = a.split('—');
       return <tr><td>{parts[0].trim()}</td><td>{parts.length > 1 ? parts.slice(1).join('—').trim() : '剧情编成参战'}</td></tr>;
     })}
+    </tbody>
   </table>
+  </div>
 
   <h2>敌方出场与增援</h2>
-  <div class="empty-state">
-    <strong>敌方逐机配置：待核实。</strong>
+  <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
+    <strong class="text-base-content">敌方逐机配置：待核实。</strong>
     {m.enemies.notes.map((n: string) => <p>{n}</p>)}
   </div>
 
@@ -73,10 +79,12 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
 
   <h2>坐标地图</h2>
   <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
-  <div class="notice">
-    <strong>地形待核实：</strong>{m.map.note}
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>地形待核实：</strong>{m.map.note}</span>
   </div>
-  <div class="map-wrap">
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <div class="map-wrap">
     <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label={`${m.zh} 坐标参照框架（地形待核实）`}>
       {cells.map(c => (
         <button type="button" class="map-cell" style="background:#e8ebef" data-x={c.x} data-y={c.y} data-terrain="待核实" data-unit="" aria-label={`坐标 ${c.x},${c.y}，地形待核实`}>{c.x === 1 && <span class="map-axis">{c.y}</span>}{c.y === 1 && <span class="map-axis">{c.x}</span>}</button>
@@ -86,6 +94,8 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
       <span><i style="background:#e8ebef"></i>地形待核实（全部格子）</span>
     </div>
     <div class="map-info" id="mapInfo">点击任意格子查看坐标信息。</div>
+    </div>
+    </div>
   </div>
 
   <h2>数据来源</h2>

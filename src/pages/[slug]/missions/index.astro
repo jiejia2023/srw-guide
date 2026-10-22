@@ -19,30 +19,36 @@ const crumbs = [
   {g.slug === 'srw-30' ? (
     <div>
       <p>本作的关卡页正在逐关整理。先提供一页演示模板结构的样板关卡，展示本站关卡页的完整写法：</p>
-      <div class="nav-cards">
-        <a class="nav-card" href={href('srw-30/missions/sample-01/')}>
-          <span class="nav-card-title">样板关卡（演示模板结构，非真实关卡数据）</span>
-          <p>含坐标地图、地形图例与效果表、出场增援表、分步攻略与隐藏要素示例。</p>
+      <div class="grid sm:grid-cols-2 gap-4 my-4">
+        <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href('srw-30/missions/sample-01/')}>
+          <div class="card-body p-5">
+            <span class="card-title text-primary text-base">样板关卡（演示模板结构，非真实关卡数据）</span>
+            <p class="text-sm text-base-content/60 m-0">含坐标地图、地形图例与效果表、出场增援表、分步攻略与隐藏要素示例。</p>
+          </div>
         </a>
       </div>
     </div>
   ) : (
-    <div class="empty-state">
-      <strong>关卡攻略正在整理中。</strong>
+    <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
+      <strong class="text-base-content">关卡攻略正在整理中。</strong>
       <p>本站不会把未核对的数据先放上来充数。{g.zh} 的逐关攻略完成后会按话数顺序在此列出，敬请期待。</p>
     </div>
   )}
 
   <h2>本站关卡页的模板</h2>
   <p>每一关的攻略页都会按同一套结构编写，方便对照游玩：</p>
-  <table class="data">
-    <tr><th>板块</th><th>内容</th></tr>
-    <tr><td>坐标地图</td><td>带 X/Y 坐标的地图，逐格标地形，正文用坐标引用位置，如 (12,7)。</td></tr>
-    <tr><td>地形图例与效果</td><td>平原、森林、山地、道路、建筑、水域等本作地形的效果说明。</td></tr>
-    <tr><td>条件表</td><td>胜利条件、败北条件，以及 SR 点 / 熟练度等额外条件。</td></tr>
-    <tr><td>出场与增援</td><td>我方出击、敌方配置与增援出现的位置（坐标）和触发条件。</td></tr>
-    <tr><td>分步攻略</td><td>按回合推进的打法说明，关键位置全部用坐标标注。</td></tr>
-    <tr><td>隐藏要素</td><td>本关可触发的隐藏机体、说得、道具等及其条件。</td></tr>
-  </table>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra">
+      <thead><tr><th>板块</th><th>内容</th></tr></thead>
+      <tbody>
+        <tr><td>坐标地图</td><td>带 X/Y 坐标的地图，逐格标地形，正文用坐标引用位置，如 (12,7)。</td></tr>
+        <tr><td>地形图例与效果</td><td>平原、森林、山地、道路、建筑、水域等本作地形的效果说明。</td></tr>
+        <tr><td>条件表</td><td>胜利条件、败北条件，以及 SR 点 / 熟练度等额外条件。</td></tr>
+        <tr><td>出场与增援</td><td>我方出击、敌方配置与增援出现的位置（坐标）和触发条件。</td></tr>
+        <tr><td>分步攻略</td><td>按回合推进的打法说明，关键位置全部用坐标标注。</td></tr>
+        <tr><td>隐藏要素</td><td>本关可触发的隐藏机体、说得、道具等及其条件。</td></tr>
+      </tbody>
+    </table>
+  </div>
   <p><a href={href(`${g.slug}/`)}>← 返回 {g.zh}</a></p>
 </Base>

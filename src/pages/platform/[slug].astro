@@ -24,16 +24,20 @@ const crumbs = [
 <Base title={`${label} 平台的超级机器人大战`} description={`首发于 ${label} 平台的超级机器人大战系列游戏共 ${list.length} 款，按年代排列，点进任意一款查看关卡攻略、隐藏要素与机体图鉴。`} path={`platform/${Astro.params.slug}/`} breadcrumbs={crumbs}>
   <h1>{label} 平台的超级机器人大战</h1>
   <p>以下为首发平台为 {label} 的作品，共 {list.length} 款，按年代从小到大排列。移植到其他平台的版本会在各游戏页面的“全部平台”里列出。</p>
-  <div class="grid">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
     {list.map(g => (
-      <a class="card" href={href(`${g.slug}/`)}>
-        {g.cover
-          ? <img class="card-cover" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
-          : <span class="card-cover card-cover--empty" aria-hidden="true">封面图（待补真实封面）</span>}
-        <span class="card-title">{g.zh}</span>
-        <span class="meta">{g.en}</span>
-        <span class="meta">{g.year} 年 · 首发 {g.release}</span>
-        <span><span class="tag">{g.series}</span><span class="tag">{g.platforms.join(' / ')}</span></span>
+      <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/`)}>
+        <figure class="bg-base-200">
+          {g.cover
+            ? <img class="h-48 w-full object-contain" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
+            : <span class="flex h-48 w-full items-center justify-center border-2 border-dashed border-secondary/60 text-secondary text-sm px-3 text-center" aria-hidden="true">封面图（待补真实封面）</span>}
+        </figure>
+        <div class="card-body p-4 gap-1.5">
+          <span class="card-title text-base leading-snug">{g.zh}</span>
+          <span class="text-sm text-base-content/60">{g.en}</span>
+          <span class="text-sm text-base-content/60">{g.year} 年 · 首发 {g.release}</span>
+          <span class="flex flex-wrap gap-1.5 mt-1"><span class="badge badge-primary badge-sm">{g.series}</span><span class="badge badge-outline badge-sm">{g.platforms.join(' / ')}</span></span>
+        </div>
       </a>
     ))}
   </div>
