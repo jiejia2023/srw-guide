@@ -7,6 +7,7 @@ import Srw2MissionList from '../../components/Srw2MissionList.astro';
 import Srw3MissionList from '../../components/Srw3MissionList.astro';
 import SrwExMissionList from '../../components/SrwExMissionList.astro';
 import Srw4MissionList from '../../components/Srw4MissionList.astro';
+import SrwMasoukishinMissionList from '../../components/SrwMasoukishinMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -20,6 +21,7 @@ const isSrw2 = g.slug === 'srw-2';
 const isSrw3 = g.slug === 'srw-3';
 const isSrwEx = g.slug === 'srw-ex';
 const isSrw4 = g.slug === 'srw-4';
+const isMasoukishin = g.slug === 'srw-masoukishin';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -345,6 +347,82 @@ const isSrw4 = g.slug === 'srw-4';
     </div>
   )}
 
+  {isMasoukishin && (
+    <div>
+      <h2>剧情概要：前日谈与后日谈（两章构成）</h2>
+      <p>本作是原创作品《魔装机神塞巴斯塔》的单独游戏化，也是系列<strong>第一部没有任何版权动画作品参战、全原创</strong>的作品（Akurasu 作品表注记）。剧情分两章：<strong>第1章</strong>是 DC 战争的<strong>前日谈</strong>——正树被召唤到地底世界拉·基亚斯成为魔装机操者，被风之魔装机神塞巴斯塔选中，历经泽奥罗特之死与王都崩坏，最终追击白河愁前往地上，时点在《第2次》之前；其后《第2次》—《第3次》—《EX》（拉·基亚斯事件）—《第4次》的地上剧情在本作中只以回想形式提及。<strong>第2章</strong>是《第4次》（或《F》）之后的<strong>后日谈</strong>：正树回到拉·基亚斯，与琉妮一行卷入修特多尼亚斯与巴格尼亚的新一轮争乱，并直面拉塞茨、泽特与寄宿于温蒂体内的图蒂的野望。第2章须通关第1章后才能游玩。全作 103 个剧本、4 个最终关与结局。</p>
+
+      <h2>本作的系统（与主线机战差别极大）</h2>
+      <ul>
+        <li><strong>等角投影的立体地图。</strong>战斗地图采用斜视角（クォータービュー）立体表现，机体以真实比例绘制（非 SD）。由此引入三个主线机战没有的概念：<strong>朝向</strong>（从侧面攻击命中/伤害各 +20%，从背后各 +50%；被侧/背反击时命中 −20%/−50%）、<strong>高低差</strong>（高度差每差 1 级命中约 ±10%，据 pistol 攻略的 JL 对照表整理）与 <strong>ZOC</strong>（敌方单位的相邻格不可通过）。</li>
+        <li><strong>出击上限 8 台。</strong>每关最多出击 8 台，战斗规模比主线作小，但对走位与朝向的要求高得多。</li>
+        <li><strong>守护精灵：属性与位阶。</strong>每台魔装机都设定有守护精灵（部分机体无）：属性分风、水、地、火四种，循环相克（风克地、地克水、水克火、火克风，克制方伤害 120%、被克 80%）；位阶分低位、高位、圣位三级，高位阶攻击低位阶另有攻防补正。格兰森、瓦尔西奥妮R 等无精灵机体不参与此补正。</li>
+        <li><strong>普拉纳（プラーナ，PP）。</strong>驾驶员的灵力参数，直接给机体性能加成：最大 HP +PP×10、最大 MG +PP×0.5、装甲 +PP×5、移动力 +PP/32。强力必杀技与地图兵器要消耗普拉纳——火力与机体性能是此消彼长的关系；普拉纳每回合回复上限的 1/16，此外只能靠精神「P回复」补满。</li>
+        <li><strong>改造与武器升格。</strong>资金用于幕间改造：机体改满后获得固定的<strong>全改造奖励</strong>（含守护精灵位阶 +1 与 HP 回复能力，不可自选）；武器逐件改造（7 格），部分武器改满后<strong>升格（ランクアップ）</strong>为上级武器（如戴斯卡塔→梵蒂莱帕、使魔→高阶使魔），改造值重置后可继续再改，地图兵器升格后还可获得敌我识别等性能。</li>
+        <li><strong>没有地形适应。</strong>本作的战斗地图上不存在空中/水中/宇宙等地形适应的概念——塞巴德（塞巴斯塔的飞行形态）只在战斗动画中出现，四台魔装机神在地图上也不能飞行（日文维基）。</li>
+        <li><strong>技能的随机习得。</strong>二回行动、气配察知、再攻击、切返し、分身、底力等特殊技能按等级习得，但习得等级带有一定的<strong>随机幅度</strong>（自最早可习得等级起数级之内随机学会），与主线作「到级即学」不同；部分技能有等级，等级越高发动率越高。</li>
+        <li><strong>剩余 SP 转经验。</strong>战斗关卡结束时，未用完的 SP 按 2 倍折算为经验值（日文维基、pistol 攻略）。</li>
+        <li><strong>使魔（ファミリア）。</strong>操者与精神相连的搭档生物（如正树的黑猫西罗、白猫库洛），既是剧情搭档，也是魔装机「使魔」系武器的实体。</li>
+      </ul>
+
+      <h2>精神指令（全 19 种，SFC 版）</h2>
+      <p>名称的日语表记按罗马字还原，SP 与效果以 pistol 攻略的系统解说为准。注意本作规格：<strong>激励/气合都是气力 +10</strong>，补给会使目标气力 −10，报复是把下一次所受伤害反射给全图敌人。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>指令</th><th>SP</th><th>效果（本作）</th></tr></thead>
+          <tbody>
+            <tr><td>加速</td><td>6</td><td>移动力 +3（1 次行动）</td></tr>
+            <tr><td>根性</td><td>10</td><td>回复自身最大 HP 的 30%</td></tr>
+            <tr><td>必中</td><td>12</td><td>1 回合（我方+敌方阶段）命中率 100%（闪烁优先）</td></tr>
+            <tr><td>闪烁（ひらめき）</td><td>14</td><td>必定回避下一次攻击（仅 1 击）</td></tr>
+            <tr><td>信赖</td><td>17</td><td>指定一台角色回复最大 HP 的 30%</td></tr>
+            <tr><td>大根性（ド根性）</td><td>18</td><td>自身 HP 全回复</td></tr>
+            <tr><td>气合</td><td>20</td><td>自身气力 +10</td></tr>
+            <tr><td>M吸収</td><td>20</td><td>从一名敌人处吸收 50 MG 给自己</td></tr>
+            <tr><td>友情</td><td>23</td><td>全体我方回复最大 HP 的 50%</td></tr>
+            <tr><td>幸运</td><td>28</td><td>一次完整攻击获得的经验与资金 ×2</td></tr>
+            <tr><td>再生</td><td>32</td><td>被击破时以半血自动复活（SP 不回复）</td></tr>
+            <tr><td>爱</td><td>34</td><td>全体我方 HP 全回复</td></tr>
+            <tr><td>P回复</td><td>34</td><td>指定一台角色的普拉纳回复至全满</td></tr>
+            <tr><td>补给</td><td>36</td><td>指定一台角色 MG 与弹药全回复（其气力 −10）</td></tr>
+            <tr><td>铁壁</td><td>40</td><td>1 回合自身装甲 ×2</td></tr>
+            <tr><td>觉醒</td><td>40</td><td>自身在本回合追加一次行动（行动结束前使用）</td></tr>
+            <tr><td>激励</td><td>45</td><td>指定一台角色气力 +10</td></tr>
+            <tr><td>报复</td><td>50</td><td>下一次所受伤害反射给地图上全部敌人</td></tr>
+            <tr><td>再动</td><td>54</td><td>使一台已行动完毕的角色再行动一次</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">精神表据 pistol 攻略的 GameFAQs 指南（系统篇第 6 节）整理；该攻略只有罗马字名与英文解说，日文表记按罗马字还原，如有出入以游戏内为准。</p>
+
+      <h2>长线分岐与隐藏要素总览</h2>
+      <p>本作的分岐密度是全系列之最，且<strong>第1章的选择会决定第2章的路线、阵容与结局</strong>。各步的具体做法写在对应剧本的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>方格加入（第2章）</td><td>S20 → S64 / S96–S97</td><td>S20 竞赛中战胜方格，第2章再以正树说得（或 S96 交战后使其撤退、S97 存活）</td></tr>
+            <tr><td>拯救温蒂（全作最长链条）</td><td>S21/S24 → S27 → S31 → S91/S100</td><td>接受费尔的委托并通过邪神神殿，在 S31 把吊坠交给温蒂，最终关再依次用正树、琉妮说得图蒂/温蒂</td></tr>
+            <tr><td>白河愁路线／新格兰森</td><td>S40 → S41 → S42</td><td>S40 让普蕾西亚出走，S41 退避（且通过 S20）或以地图兵器复数同时击破收尾，进入 S42 后固定</td></tr>
+            <tr><td>金色恶魔魔像刷钱</td><td>S21、S29、S52、S60、S65、S71 等</td><td>特定关卡第 5/7/8 回合后随机或定点出现，每台 10000 资金（S29 的那只还关系温蒂链）</td></tr>
+            <tr><td>最终招式习得</td><td>S58–S60、S93 等</td><td>杨龙在 S58 击破 2 台以上魔像习得花风青云剑；S59/S73 修行关存活习得四台主力机的最终招式等</td></tr>
+            <tr><td>罗莎莉加入</td><td>S42 → S63 / S96</td><td>S42 保护其存活，S63 先击败泽特再把她打到 HP 50% 以下救出</td></tr>
+            <tr><td>罗德尼与艾莉斯加入</td><td>S55 → S81 → S82</td><td>S55 救下艾莉斯，S81 不伤罗德尼歼灭余敌，S82 用罗德尼对话 2 次救下艾莉斯——决定温蒂/巴伊拉瓦路线</td></tr>
+            <tr><td>西莫妮加入</td><td>S82 / S84 → S86</td><td>S82 选择信任她而加入；或 S84 全程不攻击她、S86 用正树说得</td></tr>
+            <tr><td>阿哈马德加入（传闻）</td><td>S87</td><td>传闻全程总回合 &lt;250 时加入——pistol 攻略作者自承未证实，本站标为待核实</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>登场作品</h2>
+      <p>本作<strong>没有版权作品参战</strong>：登场的只有原创作品《魔装机神》（塞巴斯塔、格兰威尔、卡迪斯、扎姆吉德四台魔装机神与朗格朗的魔装机群、超魔装机与沃尔克鲁斯教团）——这是超级机器人大战系列第一部全原创作品，其人物与机体后来成为 OG 系列的核心班底。</p>
+
+      <h2>其他版本（概要）：DS 重制版与 PSP 版</h2>
+      <p>本站逐话攻略以 <strong>1996 年 SFC 原版</strong>为准。<strong>DS 重制版《超级机器人大战OGサーガ 魔装机神 THE LORD OF ELEMENTAL》（2010 年 5 月 27 日）</strong>把本作纳入 OG 系列时间线重制（剧情与 DC 战争的关联相应调整），其后 <strong>PSP《魔装机神 I&amp;II》（2012 年）</strong>收录了该重制版与续作《魔装机神II》。重制版的系统、数值与个别剧情处理与 SFC 原版有别，本站各关数据只对应 SFC 原版，不要混用；本站条目中的 DS/PSP 平台标签即指这些重制版。</p>
+      <p class="text-sm text-base-content/60">版本信息据日文维基百科（SFC 原版页与 OGサーガ版页）。</p>
+    </div>
+  )}
+
   {isSrwEx && (
     <div>
       <h2>剧情概要：拉·基亚斯事件</h2>
@@ -471,6 +549,11 @@ const isSrw4 = g.slug === 'srw-4';
     <div>
       <p>本作 69 个不同剧本<strong>全部建有独立攻略页</strong>，并为最终话的隐藏变体「火星的决战（白河愁战）」另建一页，合计 <strong>70 个详情页</strong>（每一话一个详情页，含真实系/超级系路线专属话与全部分支变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、完整敌方配置与增援表（含驾驶员、等级与坐标）、埋藏部件点位、隐藏要素与坐标地图。本作同时保留一份<a class="link" href={href('srw-4/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <Srw4MissionList />
+    </div>
+  ) : isMasoukishin ? (
+    <div>
+      <p>本作 103 个剧本<strong>全部建有独立攻略页</strong>（每一个剧本一个详情页，含第1章全部早期分岐、第2章三条终盘路线与 4 个最终关）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜利条件、出击条件、分支条件、参战与加入、隐藏要点与坐标地图（敌方逐关配置与败北条件待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-masoukishin/missions/')}>关卡总表页</a>，内容与下表相同。注：下表「日文名」为来源所载的日文标题罗马字转写，日文原文标题未在公开来源中逐话收录。</p>
+      <SrwMasoukishinMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

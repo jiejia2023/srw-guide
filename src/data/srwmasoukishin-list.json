@@ -1,0 +1,973 @@
+{
+ "groups": [
+  {
+   "title": "第1章·序盘：召唤与塞巴斯塔入手（S1–S12）",
+   "intro": "第1章是 DC 战争的前日谈（时点在《第2次》之前）：正树被召唤到拉·基亚斯，成为魔装机操者，并在塞巴斯塔强夺事件中被风之魔装机神选中。开局即按正树等级与选择分岔（S2/S3/S4），在 S6 汇合；S7–S12 又经缇缇路线与泽奥罗特单挑两条支线交错。本站编号 S1–S103 沿用 pistol 攻略的剧本通算序号（分支剧本分别计数）。",
+   "rows": [
+    {
+     "code": "S1",
+     "zh": "拉·基亚斯",
+     "ja": "La Giars",
+     "en": "La Giars",
+     "type": "主线",
+     "area": "拉·基亚斯（朗格朗）",
+     "note": ""
+    },
+    {
+     "code": "S2",
+     "zh": "训练",
+     "ja": "Kunren",
+     "en": "Training",
+     "type": "主线",
+     "area": "拉·基亚斯（朗格朗）",
+     "note": ""
+    },
+    {
+     "code": "S3",
+     "zh": "恐怖的敌人",
+     "ja": "Osorubeki Teki",
+     "en": "Frightful Enemy",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S4",
+     "zh": "赤色恶魔",
+     "ja": "Akai Akuma",
+     "en": "Red Demon",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S5",
+     "zh": "诅咒灵机纳格扎特",
+     "ja": "Jureiki Nagazadd",
+     "en": "Cursed Spirit Machine Nagazadd",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S6",
+     "zh": "魔装机神",
+     "ja": "Masou-Kishin",
+     "en": "Lord of Elemental",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S7",
+     "zh": "死亡的恐怖",
+     "ja": "Shi no Kyoufu",
+     "en": "The Fear of Death",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S8",
+     "zh": "骄傲与敌意",
+     "ja": "Hokori to Tekii",
+     "en": "Pride and Hostility",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S9",
+     "zh": "使魔",
+     "ja": "Familiar",
+     "en": "Familiar",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S10",
+     "zh": "被夺走的魔装机神",
+     "ja": "Ubawareta Masou-Kishin",
+     "en": "The Taken Lord of Elemental",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S11",
+     "zh": "莫妮卡诱拐",
+     "ja": "Monica Yuukai",
+     "en": "Kidnapping of Monica",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S12",
+     "zh": "塞巴斯塔",
+     "ja": "Cybaster",
+     "en": "Cybaster",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第1章·中盘：国境、使魔与地上之行（S13–S23）",
+   "intro": "取得塞巴斯塔后，正树在国境线事件中处理与巴格尼亚的摩擦（是否越境决定 S14 的有无），获得使魔黑白双猫，并首次前往地上与白河愁相遇。S18 之后向东（S20「对手」）是全作最重要的早期分岐：关系到方格在第 2 章的加入与多位角色的最终招式。",
+   "rows": [
+    {
+     "code": "S13",
+     "zh": "国境线",
+     "ja": "Border Line",
+     "en": "Border Line",
+     "type": "分岐",
+     "area": "拉·基亚斯（国境）",
+     "note": ""
+    },
+    {
+     "code": "S14",
+     "zh": "共同战线",
+     "ja": "Kyoudou Sensen",
+     "en": "Battle Alliance",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S15",
+     "zh": "兰多尔之名",
+     "ja": "Randoll no Na",
+     "en": "The Name of Randoll",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S16",
+     "zh": "正树的使魔",
+     "ja": "Masaki no Familiar",
+     "en": "Masaki's Familiar",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S17",
+     "zh": "正树与使魔们",
+     "ja": "Masaki to Tsukaima to",
+     "en": "Masaki and His Magic Pets",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S18",
+     "zh": "地上",
+     "ja": "Chijou de",
+     "en": "Overground",
+     "type": "事件话",
+     "area": "地上",
+     "note": ""
+    },
+    {
+     "code": "S19",
+     "zh": "侵犯领空",
+     "ja": "Ryoukuu Shinnyuu",
+     "en": "Trespassing Air Territory",
+     "type": "分岐",
+     "area": "地上",
+     "note": ""
+    },
+    {
+     "code": "S20",
+     "zh": "对手",
+     "ja": "Rival",
+     "en": "Rival",
+     "type": "分岐",
+     "area": "地上",
+     "note": ""
+    },
+    {
+     "code": "S21",
+     "zh": "正树与里卡多",
+     "ja": "Masaki to Ricardo",
+     "en": "Masaki and Ricardo",
+     "type": "分岐",
+     "area": "地上",
+     "note": ""
+    },
+    {
+     "code": "S22",
+     "zh": "破戒僧天",
+     "ja": "Hakai Sou Tian",
+     "en": "Renegade Monk Tian",
+     "type": "分岐",
+     "area": "地上",
+     "note": ""
+    },
+    {
+     "code": "S23",
+     "zh": "沉默的达梅克斯",
+     "ja": "Shizuka naru Damecus",
+     "en": "Quiet Guy Damecus",
+     "type": "分岐",
+     "area": "地上",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第1章·终盘：费尔的委托与王都崩坏（S24–S39）",
+   "intro": "接受费尔的委托（S24）是第 2 章拯救温蒂的整条链条的起点（S24→S27→S31 交吊坠）；拒绝则走 S25/S26 的短线。终盘泽奥罗特战死、塞巴斯塔凭依（融合）事件、里卡多之死与王都崩坏连环发生，第1章以正树追击白河愁前往地上作结——接续《第2次》的剧情。",
+   "rows": [
+    {
+     "code": "S24",
+     "zh": "地底的相遇",
+     "ja": "Chitei de no Souguu",
+     "en": "The Meeting in the Underground",
+     "type": "分岐",
+     "area": "拉·基亚斯（地底洞窟）",
+     "note": ""
+    },
+    {
+     "code": "S25",
+     "zh": "杨龙的誓言",
+     "ja": "Yan-Long no Chikai",
+     "en": "Yan-Long's Pledge",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S26",
+     "zh": "塞弗拉什",
+     "ja": "Cyflash",
+     "en": "Cyflash",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S27",
+     "zh": "邪神的神殿",
+     "ja": "Jashin no Shinden",
+     "en": "Temple of the Devil God",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S28",
+     "zh": "战斗的理由",
+     "ja": "Tatakai no Igi",
+     "en": "A Reason for Fighting",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S29",
+     "zh": "扫荡恶魔魔像",
+     "ja": "Demon Golem Soutou",
+     "en": "Clearing the Demon Golems",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S30",
+     "zh": "动摇的心",
+     "ja": "Yureru Kokoro",
+     "en": "Swaying Heart",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S31",
+     "zh": "温蒂的秘密",
+     "ja": "Wendy no Himitsu",
+     "en": "Wendy's Secret",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S32",
+     "zh": "以魔装机神之名",
+     "ja": "Masou-Kishin no Na ni Kakete",
+     "en": "In the Name of the Masou-Kishin",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S33",
+     "zh": "御前决斗",
+     "ja": "Gozen Jiai",
+     "en": "Duel Before the Throne",
+     "type": "主线",
+     "area": "拉·基亚斯（王宫）",
+     "note": ""
+    },
+    {
+     "code": "S34",
+     "zh": "背教者",
+     "ja": "Haikyouja",
+     "en": "Heathen",
+     "type": "事件性",
+     "area": "拉·基亚斯（王都）",
+     "note": ""
+    },
+    {
+     "code": "S35",
+     "zh": "绝望的悬崖边",
+     "ja": "Zetsubou no Fuchi de",
+     "en": "At the Cliff of Despair",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S36",
+     "zh": "创伤的记忆",
+     "ja": "Sangeki no Kioku",
+     "en": "Memories of Trauma",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S37",
+     "zh": "调和的结界",
+     "ja": "Chouwa no Kekkai",
+     "en": "Seal of Balance",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S38",
+     "zh": "崩坏的序曲",
+     "ja": "Houkai no Jokyoku",
+     "en": "Prelude to Collapse",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S39",
+     "zh": "大灾变",
+     "ja": "Catastrophe",
+     "en": "Catastrophe",
+     "type": "主线",
+     "area": "拉·基亚斯（王都）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第2章·开幕：纪念日与两大分岐（S40–S58）",
+   "intro": "第2章是《第4次》（或 F）之后的后日谈，须通关第1章才能游玩。S40 的选择（普蕾西亚出走/入队）先把流程劈成两半，中途又在 S55「逃兵」（艾莉斯的生死）处汇合并再次分岔。S41 的结束方式决定能否进入白河愁路线（S42 起）。",
+   "rows": [
+    {
+     "code": "S40",
+     "zh": "纪念日",
+     "ja": "Memorial Day",
+     "en": "Memorial Day",
+     "type": "事件话",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S41",
+     "zh": "流浪的普蕾西亚",
+     "ja": "Sasurai no Presia",
+     "en": "The Wandering Presia",
+     "type": "分岐",
+     "area": "巴格尼亚边境",
+     "note": ""
+    },
+    {
+     "code": "S42",
+     "zh": "传说中的剑圣",
+     "ja": "Densetsu no Kensei",
+     "en": "The Legendary Sword Saint",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S43",
+     "zh": "巴格尼亚的黑暗",
+     "ja": "Bagonia no Yami",
+     "en": "Darkness of Bagonia",
+     "type": "分岐",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S44",
+     "zh": "背叛的代价",
+     "ja": "Uragiri no Daishou",
+     "en": "Price of Betrayal",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S45",
+     "zh": "调和的境界",
+     "ja": "Satori no Kyouchi",
+     "en": "The State of Harmony",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S46",
+     "zh": "英雄达梅克斯",
+     "ja": "Yuusha Damecus",
+     "en": "Hero Damecus",
+     "type": "分岐",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S47",
+     "zh": "巴格尼亚境内",
+     "ja": "Bagonia Ryounai",
+     "en": "Inside Bagonia",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S48",
+     "zh": "邪神的气息",
+     "ja": "Jashin no Kehai",
+     "en": "Presence of the Devil God",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S49",
+     "zh": "琉妮的心情",
+     "ja": "Ryune no Kimochi",
+     "en": "Ryune's Feeling",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S50",
+     "zh": "蠢动的阴谋",
+     "ja": "Ugomeku Inbou",
+     "en": "Hidden Plans",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S51",
+     "zh": "与贝琪重逢",
+     "ja": "Becky to no Saikai",
+     "en": "Reunion with Becky",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S52",
+     "zh": "吊坠",
+     "ja": "Pendant",
+     "en": "Pendant",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S53",
+     "zh": "琉妮的心思",
+     "ja": "Ryune no Omoi",
+     "en": "Ryune's Thoughts",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S54",
+     "zh": "不安的气氛",
+     "ja": "Fuon na Kuuki",
+     "en": "Unstable Atmosphere",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S55",
+     "zh": "逃兵",
+     "ja": "Dassouhei",
+     "en": "Runaway Soldier",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S56",
+     "zh": "三角恋",
+     "ja": "Triangle Love",
+     "en": "Triangle Love",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S57",
+     "zh": "营救罗德尼",
+     "ja": "Rodney Kyuujutsu",
+     "en": "Rescuing Rodney",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S58",
+     "zh": "杨龙的修行",
+     "ja": "Yan-Long no Shugyou",
+     "en": "Yan-Long's Training",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第2章·白河愁路线（S59–S72）",
+   "intro": "第2章的三条终盘路线之一：经 S56→S58 进入修行关组，在精灵界习得最终招式，收编杰诺、罗莎莉与方格，夺回伊斯迈尔、击败加兹沃，最终与驾驶新格兰森的白河愁会合，在 S72「邪神降临」迎战全作最强的真纳格扎特（结局 1）。本路线上温蒂会自动获救。",
+   "rows": [
+    {
+     "code": "S59",
+     "zh": "精灵界的修行",
+     "ja": "Seireikai no Shugyou",
+     "en": "Training in the Dimension of Elementals",
+     "type": "主线",
+     "area": "精灵界",
+     "note": ""
+    },
+    {
+     "code": "S60",
+     "zh": "普蕾西亚特训",
+     "ja": "Presia Tokkun",
+     "en": "Presia's Special Training",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S61",
+     "zh": "杰诺与普蕾西亚",
+     "ja": "Jino to Presia",
+     "en": "Jino and Presia",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S62",
+     "zh": "贵族的骄傲",
+     "ja": "Shishi, Ikinitsuuzu",
+     "en": "Pride of a Noble",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S63",
+     "zh": "修梅尔与罗莎莉",
+     "ja": "Shumel to Rosary",
+     "en": "Shumel and Rosary",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S64",
+     "zh": "方格的真意",
+     "ja": "Fang no Shini",
+     "en": "Fang's Real Intention",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S65",
+     "zh": "温蒂的苦恼",
+     "ja": "Wendy no Kunou",
+     "en": "Wendy's Problem",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S66",
+     "zh": "第17号魔装机",
+     "ja": "17-banme no Masouki",
+     "en": "The 17th Masouki",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S67",
+     "zh": "强夺伊斯迈尔",
+     "ja": "Ismile Goudatsu",
+     "en": "Taking Ismile by Force",
+     "type": "主线",
+     "area": "拉·基亚斯（王都）",
+     "note": ""
+    },
+    {
+     "code": "S68",
+     "zh": "起死回生",
+     "ja": "Kishikaisei",
+     "en": "Back from the Dead",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S69",
+     "zh": "野心的终结",
+     "ja": "Yabou no Owari",
+     "en": "The End of the Ambition",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S70",
+     "zh": "加兹沃的威胁",
+     "ja": "Gatswo no Kyoui",
+     "en": "The Threat of Gatswo",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S71",
+     "zh": "再会，白河愁",
+     "ja": "Saikai, Shuu",
+     "en": "Meeting Shuu Again",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S72",
+     "zh": "邪神降临",
+     "ja": "Jashin Kourin",
+     "en": "Coming of the Devil God",
+     "type": "最终话",
+     "area": "拉·基亚斯",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第2章·共通后段与巴伊拉瓦路线（S73–S91）",
+   "intro": "未走白河愁路线时经 S73「试炼的神殿」进入后段：S79 之后按艾莉斯生死、S81/S82 罗德尼与艾莉斯的救援结果分成多条支线。S86 起固定在巴伊拉瓦路线上，经温蒂的悲剧、巴格尼亚内乱与修特多尼亚斯决战，在 S91「拉塞茨的末路」与全作唯一的巴伊拉瓦决战（结局 2）。",
+   "rows": [
+    {
+     "code": "S73",
+     "zh": "试炼的神殿",
+     "ja": "Shiren no Shinden",
+     "en": "The Temple of Trials",
+     "type": "分岐",
+     "area": "精灵界",
+     "note": ""
+    },
+    {
+     "code": "S74",
+     "zh": "与普蕾西亚会合",
+     "ja": "Presia Gouryuu",
+     "en": "Joining Up with Presia",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S75",
+     "zh": "政变",
+     "ja": "Coup d'Etat",
+     "en": "Coup d'État",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S76",
+     "zh": "不仅是为了国家",
+     "ja": "Tada Ikkoku no Tame de Naku",
+     "en": "Weeping Only for the Sake of a Kingdom",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S77",
+     "zh": "叛乱",
+     "ja": "Zouhan",
+     "en": "Rebel",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S78",
+     "zh": "奇袭",
+     "ja": "Kijuu-Kougeki",
+     "en": "Surprise Attack",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S79",
+     "zh": "巴格尼亚的盘算",
+     "ja": "Bagonia no Omowaku",
+     "en": "Thoughts of Bagonia",
+     "type": "分岐",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S80",
+     "zh": "拉塞茨的野心",
+     "ja": "Laset no Yabou",
+     "en": "Laset's Ambition",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S81",
+     "zh": "恶鬼拉塞茨",
+     "ja": "Akki Laset",
+     "en": "Laset the Devil",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S82",
+     "zh": "悲伤的艾莉斯",
+     "ja": "Kanashimi no Elis",
+     "en": "The Tragedy of Elis",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S83",
+     "zh": "复仇者艾莉斯",
+     "ja": "Fukujuu no Elis",
+     "en": "Avenger Elis",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S84",
+     "zh": "悲伤的西莫妮",
+     "ja": "Kanashiki Simeone",
+     "en": "Torn-with-Sadness Simeone",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S85",
+     "zh": "卡克斯的遗产",
+     "ja": "Karx no Isan",
+     "en": "The Legacy of Karx",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S86",
+     "zh": "无尽的野心",
+     "ja": "Yashin, Hatenaku",
+     "en": "Infinite Ambitions",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S87",
+     "zh": "温蒂的悲剧",
+     "ja": "Wendy no Higeki",
+     "en": "Wendy's Tragedy",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S88",
+     "zh": "巴格尼亚内乱",
+     "ja": "Bagonia Nairan",
+     "en": "Internal Conflict in Bagonia",
+     "type": "主线",
+     "area": "巴格尼亚",
+     "note": ""
+    },
+    {
+     "code": "S89",
+     "zh": "图蒂的怨念",
+     "ja": "Tudy no Onnen",
+     "en": "Tudy's Hatred",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S90",
+     "zh": "修特多尼亚斯激荡",
+     "ja": "Shutendonias Gekidou",
+     "en": "Violent Drama in Shutedonias",
+     "type": "主线",
+     "area": "修特多尼亚斯",
+     "note": ""
+    },
+    {
+     "code": "S91",
+     "zh": "拉塞茨的末路",
+     "ja": "Laset no Saigo",
+     "en": "The End of Laset",
+     "type": "最终话",
+     "area": "修特多尼亚斯",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第2章·温蒂路线（S92–S103）",
+   "intro": "在 S82 救下艾莉斯（并让西莫妮加入）后固定进入温蒂路线：清算泽特的复仇线（S93/S94）或经被囚的剑圣、罗莎莉的眼泪（S95–S97）收编方格，击破暴走的伊斯迈尔后在 S100 进行拯救温蒂的最终判定——获救进入 S102（好结局，结局 3），未救进入 S103（悲伤结局，结局 4）。",
+   "rows": [
+    {
+     "code": "S92",
+     "zh": "野心的清算",
+     "ja": "Yabou no Seisan",
+     "en": "Producing Ambitions",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S93",
+     "zh": "复仇者泽特",
+     "ja": "Fukushuuki Zet",
+     "en": "Vengeful Zet",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S94",
+     "zh": "复仇是为了谁",
+     "ja": "Fukushuu wa Dare no Tame ni",
+     "en": "Revenge for Whom",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S95",
+     "zh": "被囚的剑圣",
+     "ja": "Toraware no Kensei",
+     "en": "The Trapped Sword Saint",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S96",
+     "zh": "罗莎莉的眼泪",
+     "ja": "Rosary no Namida",
+     "en": "Rosary's Tears",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S97",
+     "zh": "方格的绝叫",
+     "ja": "Fang Zekkyou",
+     "en": "Fang's Scream",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S98",
+     "zh": "伊斯迈尔暴走",
+     "ja": "Ismile Bousou",
+     "en": "Out-of-Control Ismile",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S99",
+     "zh": "无情的天使",
+     "ja": "Hijou no Tenshi",
+     "en": "Heartless Angel",
+     "type": "主线",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S100",
+     "zh": "图蒂觉醒",
+     "ja": "Tudy Kakusei",
+     "en": "Tudy's Awakening",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S101",
+     "zh": "加兹沃再现",
+     "ja": "Gatswo Futatabi",
+     "en": "Gatswo Again",
+     "type": "分岐",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S102",
+     "zh": "拉塞茨的反击",
+     "ja": "Gyakushuu no Laset",
+     "en": "Laset's Counterattack",
+     "type": "最终话",
+     "area": "拉·基亚斯",
+     "note": ""
+    },
+    {
+     "code": "S103",
+     "zh": "跨越悲伤",
+     "ja": "Kanashimi o Koete",
+     "en": "Beyond Grief and Sadness",
+     "type": "最终话",
+     "area": "拉·基亚斯",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

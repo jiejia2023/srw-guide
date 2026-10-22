@@ -1,0 +1,146 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwmasoukishin-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战外传 魔装机神', path: 'srw-masoukishin/' },
+  { label: '关卡攻略', path: 'srw-masoukishin/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || e.y === undefined)
+  ? `(${e.x ?? '—'},${e.y ?? '—'})` : `(${e.x},${e.y})`;
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战外传 魔装机神（1996 SFC）${m.code} ${m.zh} 攻略：胜利条件、出击条件、我方参战、分支条件与本关隐藏要点、剧情事件与坐标地图（敌方逐关配置待核实）。`} path={`srw-masoukishin/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文（罗马字转写）：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的流程走向、分支条件、我方参战与隐藏要点来自 pistol 的 GameFAQs 攻略（含 JL 绘制的全流程图与逐关指南；Akurasu 的 Masoukishin 剧情页亦注明流程应参照该攻略），并以日文维基百科交叉核对全作 103 个剧本、两章结构与 4 个最终关（见页末来源）。本作（SFC 原版）没有公开的逐关敌方配置来源——GameCenter GX 未收录本作，pistol 攻略只记流程要点而无逐关敌表，本站不以 DS/PSP 重制版数据填充——故「敌方出场与增援」一节标为待核实。本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表，坐标图为参照框架。日文标题一栏为 pistol 攻略所载的日文罗马字转写（日文原文标题未在公开来源中逐话收录）。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  {m.allyUnits && m.allyUnits.length > 0 && (
+    <div>
+      <h3>出击位置（来源配置表）</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>备注</th></tr></thead>
+        <tbody>
+        {m.allyUnits.map((a: any) => (
+          <tr><td>{a.name}</td><td>{a.pilot}</td><td>{a.lv ?? '—'}</td><td>({a.x},{a.y})</td><td>{a.trigger ?? '初期配置'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {m.enemies.rows.length > 0 ? (
+  <div>
+  <p class="text-sm text-base-content/60">坐标原点为地图左上 (1,1)，与本站地图一致。</p>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+    <tbody>
+    {m.enemies.rows.map((e: any) => (
+      <tr><td>{e.name}</td><td>{e.pilot}</td><td>{e.lv}</td><td>{coord(e)}</td><td>{e.behavior || '—'}</td><td>{e.note || ''}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+  {m.enemies.reinforcements && m.enemies.reinforcements.length > 0 && (
+    <div>
+      <h3>增援</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>出现时机</th><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+        <tbody>
+        {m.enemies.reinforcements.map((r: any) => (
+          <tr><td>{r.trigger}</td><td>{r.name}</td><td>{r.pilot}</td><td>{r.lv}</td><td>{coord(r)}</td><td>{r.behavior || '—'}</td><td>{r.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  )}
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级）暂无可引用的公开来源，核实后补入。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-masoukishin/missions/')}>← 返回关卡列表</a> · <a href={href('srw-masoukishin/')}>返回超级机器人大战外传 魔装机神</a></p>
+</Base>

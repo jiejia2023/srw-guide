@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwMasoukishinMissionList from '../../../components/SrwMasoukishinMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战外传 魔装机神', path: 'srw-masoukishin/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战外传 魔装机神（SFC）关卡攻略 · 全103个剧本列表" description="超级机器人大战外传 魔装机神 THE LORD OF ELEMENTAL（1996年 SFC）全部 103 个剧本的链接索引：第1章 39 个（DC 战争前日谈）、第2章 64 个（后日谈），含三条终盘路线与 4 个最终关/结局。每一话有独立攻略页：胜利条件、分支条件、参战与加入、隐藏要点与坐标地图。本页为链接索引。" path="srw-masoukishin/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战外传 魔装机神 · 关卡攻略</h1>
+  <p>1996 年 SFC《超级机器人大战外传 魔装机神 THE LORD OF ELEMENTAL》是系列第一部<strong>全原创作品</strong>（没有任何版权动画作品参战），由两章构成、合计 <strong>103 个剧本</strong>：第 1 章 39 个（S1–S39，DC 战争的前日谈，时点在《第2次》之前），第 2 章 64 个（S40–S103，《第4次》之后的后日谈，须通关第 1 章后才能游玩）。本作的分岐是全系列最复杂的之一：第 1 章早期的选择（是否通过「对手」、是否接受费尔的委托并把吊坠交给温蒂）会一路影响第 2 章的路线、加入阵容与结局；第 2 章终盘分为白河愁路线、巴伊拉瓦路线、温蒂路线三条路线，共有 <strong>4 个最终关与结局</strong>（S72 邪神降临、S91 拉塞茨的末路、S102 拉塞茨的反击、S103 跨越悲伤）。本站编号 S1–S103 沿用 pistol 的 GameFAQs 攻略（含 JL 绘制的全流程图）的剧本通算序号，分支剧本分别计数。本页只是链接索引——每一话的完整攻略（条件、分支、加入、隐藏要点、坐标地图）都在各自的详情页里。本页与<a href={href('srw-masoukishin/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第六部<strong>全关卡补完</strong>的作品——103 个剧本全部建有详情页（按发售顺序逐作补完，初代、第2次、第3次、EX、第4次已完成）。流程、分支条件与隐藏要点来自 pistol 的 GameFAQs 攻略（Akurasu 的 Masoukishin 剧情页亦注明流程应参照该攻略），全作话数与两章/四结局结构以日文维基百科交叉核对。<strong>如实说明</strong>：本作（SFC 原版）没有公开的逐关敌方配置（等级／坐标）来源——GameCenter GX 未收录本作，pistol 攻略只有流程要点而无逐关敌表，本站不以 DS/PSP 重制版数据填充——各话的「敌方出场与增援」一节因此标为<strong>待核实</strong>；败北条件来源亦未逐关记载，同标待核实；地图为等角投影立体地图、无平面坐标表，坐标图为参照框架。另：日文标题一栏为 pistol 攻略所载的日文<strong>罗马字转写</strong>（该攻略作者自承未收录日文原文标题，日文原文标题未在公开来源中逐话收录）。</span>
+  </div>
+
+  <SrwMasoukishinMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://gamefaqs.gamespot.com/snes/575822-super-robot-taisen-gaiden-masou-kishin-the-lord-of/faqs/5042" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen Gaiden: Masou Kishin 攻略（pistol 著）</a>（全 103 个剧本的逐关指南、JL 的全流程图、系统解说与精神表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masoukishin/Story" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars/Masoukishin/Story</a>（剧情流程；该页注明剧本流程图应参照 pistol 的 GameFAQs 攻略）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6%E5%A4%96%E4%BC%9D_%E9%AD%94%E8%A3%85%E6%A9%9F%E7%A5%9E_THE_LORD_OF_ELEMENTAL" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦外伝 魔装機神 THE LORD OF ELEMENTAL</a>（两章构成、第2章解锁、多种最终关、系统、重制版）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/%E9%AD%94%E8%A3%85%E6%A9%9F%E7%A5%9E%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA" rel="noopener" target="_blank">日文维基百科 — 魔装機神シリーズ</a>（两章与 DC 战争系列、EX 的时序关系）</li>
+  </ul>
+  <p><a href={href('srw-masoukishin/')}>← 返回超级机器人大战外传 魔装机神</a></p>
+</Base>

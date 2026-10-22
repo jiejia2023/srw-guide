@@ -5,6 +5,7 @@ import srw2 from '../data/srw2-missions.json';
 import srw3 from '../data/srw3-missions.json';
 import srwex from '../data/srwex-missions.json';
 import srw4 from '../data/srw4-missions.json';
+import srwmk from '../data/srwmasoukishin-missions.json';
 import { canonical } from '../lib/site';
 
 export function GET() {
@@ -44,6 +45,10 @@ export function GET() {
   paths.add('srw-4/missions/');
   for (const m of (srw4 as any).missions ?? []) {
     if (m.slug) paths.add(`srw-4/missions/${m.slug}/`);
+  }
+  paths.add('srw-masoukishin/missions/');
+  for (const m of (srwmk as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-masoukishin/missions/${m.slug}/`);
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...paths]
