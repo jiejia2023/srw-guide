@@ -85,7 +85,7 @@ const cells = Array.from({ length: W * H }, (_, i) => {
   const terr = terrainAt(x, y);
   const infoParts: string[] = [];
   if (terr) infoParts.push(`地形：${terr.name}${terr.effect ? `（${terr.effect}）` : ''}`);
-  else if (!top) infoParts.push('地形待核实');
+  else infoParts.push('地形待核实');
   for (const e of entries) infoParts.push(e.label);
   return {
     x, y, top, multi: entries.length > 1,
@@ -121,7 +121,7 @@ const summary = [
   <div class="legend">
     {legendCats.map(c => <span><i class="sw" style={`background:${CAT[c].bg}`}></i>{CAT[c].legend}</span>)}
     {terrainGrid && Object.values(terrainLegend).map((t: any) => <span><i class="sw" style={`background:${t.color}`}></i>{t.name}</span>)}
-    {!terrainGrid && <span><i class="sw" style="background:#e8ebef"></i>未标注（地形待核实）</span>}
+    {(!terrainGrid || terrainGrid.some(r => r.includes('?'))) && <span><i class="sw" style="background:#e8ebef"></i>未标注（地形待核实）</span>}
   </div>
   <div class="map-info stagemap-info">点击任意格子查看坐标信息。</div>
 </div>

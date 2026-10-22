@@ -194,12 +194,86 @@
     ]
    },
    "map": {
-    "frameW": 14,
-    "frameH": 12,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 16,
+    "frameH": 20,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "daaddfffbddddddd",
+     "dabadffaaaaj?ddd",
+     "dbbfbbaaa?bjjddd",
+     "ddbaaaaa?a??cddd",
+     "dfbaaaaaa?a?ccdd",
+     "gffbaaaaaa?abcdd",
+     "gfgbaaf?aaaccccc",
+     "gggbbdda?aaacchh",
+     "gfffafdddddaaddh",
+     "fffbbaadddddaadh",
+     "dfb???abdddddddd",
+     "ddbaaiaaabbddddd",
+     "ddddabddaajbdddd",
+     "eddddddddaaabddb",
+     "eeddddaaaaabbdbb",
+     "eeehaaaaaaaagbba",
+     "eeehhaaaaaaa?a?a",
+     "eeeehaaafaaaa?aa",
+     "eeeehhhaaaag?b?a",
+     "eeeeeehaaaaaaag?"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "c": {
+      "name": "荒地",
+      "color": "#c9a86a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -455,10 +529,10 @@
     ]
    },
    "map": {
-    "frameW": 33,
-    "frameH": 9,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 15,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 7,
@@ -473,7 +547,71 @@
       "label": "杰利德撤退点（HP<199 后到达即撤退）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "ddddj?jjjdddddddjjaaaaaaaadddddd",
+     "ddddd???ffdddddffffaaaffabbiiddd",
+     "dddddbiffffdddddfjfaaffaaabjiddd",
+     "aaddbaaabfaadddffaaaaaa?fa?ffddd",
+     "aaaaabbaaadddddaaaaa?aa?aafbffdd",
+     "aa?aaaabbddddddd?aaa?aa?fa?fffdd",
+     "a?gaaafaaaadddda?a?a?afaafffffff",
+     "aa?baabaa?aaddaa?aaaaaaaaaaaffdd",
+     "a?aaaaaabaaaaafaaahhhaaaaadddddd",
+     "fa?baaaaaaaaaaaaahhehhhdddddeeee",
+     "a?aabbfaaaadddahhheeeehhdheeeddd",
+     "aaaaaaaaaddddddheeeeeeehhhehdffd",
+     "fffaabadddddddddeeeeeeeeeeehhhif",
+     "ffffddddddddddeeeeeeeeeeeeeeehhh",
+     "ffdddddddddddddeeeeeeeeeeeeeeeeh"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -754,12 +892,85 @@
     ]
    },
    "map": {
-    "frameW": 17,
+    "frameW": 16,
     "frameH": 24,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "ddddbaaaiiaaaaaa",
+     "dddbbiaaia??aiia",
+     "ddddbbaaibaaaiia",
+     "dddddcaaiaaa????",
+     "dddhccaaiahbaaaa",
+     "ddhhhcaaibbahhha",
+     "?e?hhccaiaaiiiii",
+     "?ee?hhcaaahhhhba",
+     "?eee?hahaaabhhhb",
+     "?ee?ehhaaabhhhbb",
+     "ef?f?fhaaaac?f?c",
+     "efffffhaaacaa?fa",
+     "efffffffaaaaaacc",
+     "efffhhafffaacaaa",
+     "effhhaafafffaacd",
+     "effha?ffaacfffff",
+     "effhaacf?aaaaaad",
+     "efhhaaf?a?afaadd",
+     "efhaca?aaa?aaddd",
+     "ehhafaaaaaa?addd",
+     "hhcaaaaafaaadddd",
+     "ja???faacaccdddd",
+     "jcaaacaaaccddddd",
+     "?aaaaacaacdddddd"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "c": {
+      "name": "荒地",
+      "color": "#c9a86a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -1079,12 +1290,79 @@
     ]
    },
    "map": {
-    "frameW": 27,
-    "frameH": 22,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 26,
+    "frameH": 23,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "aaaaaffefffffaffffaaaaabbb",
+     "aaaaaaaefffffaaffffaaa?aba",
+     "aab?aaaeefffaaaaaffafa??aa",
+     "aa?ag?aaeaaaaaaaffaaafaa?b",
+     "aaaa?abaeaaaaafabafaaaaaa?",
+     "aaa?aaaaeeaaaabbaaaaaaaaaa",
+     "aaaaagaaaeaaaaaaaaaaddfaaa",
+     "aaaaaaaaaeafaa??aaaddddfaa",
+     "adddaaaaaeaaa?aa?ddddfffaa",
+     "dddddaaaaeeaaj??jdddddffaa",
+     "ddddddddaaeah?jj?hddddddaa",
+     "dddddddddaeeheeeehhdddfffa",
+     "dddfddfffaheeeeeeeedddddda",
+     "ddfffffahhheeeeeeeehhhdddd",
+     "fffaaagaheeeeeeeeeeehhadd?",
+     "faaaaaaahheeeeeeeeeeehha?a",
+     "ahhaaaffaheeeeeeeeeeeehaaa",
+     "hhhhhaaffhheeeeeeeeeeehaaa",
+     "heeehaaafahheeeeeeeeeehhaa",
+     "eeeehhhaaahheeee?eeeeehhha",
+     "eeeeeehafaheeee?e?eeeeehhh",
+     "eeeeeehhhhheeeeeeeeeeeehhh",
+     "eeeeeeeeeeeeeeeeeeeeeehhhh"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -1342,10 +1620,10 @@
     "reinforcements": []
    },
    "map": {
-    "frameW": 29,
-    "frameH": 16,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 15,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 10,
@@ -1360,7 +1638,71 @@
       "label": "NPC：精神感应高达（凤 Lv26，非敌人，第3回合与多兹鲁一同离场）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "hhhhhdddccccc?cccccaahhhhhaaaffa",
+     "hhhhdddddccccc?cccaahhhhhhhaaifa",
+     "hhhhhddddhhhchh?hhaaaahhhhhaaaaa",
+     "hh?hhhddhhhhhaaaaaadddhhhh?hhaaa",
+     "hhh?haaddddaaaaaaaagdddddah?hhhh",
+     "h??h?haaadddaaaaaggggdddda?ahhhh",
+     "h?h?aaaa???daaaaggaaaaddfff?ahhh",
+     "hh?hhaaa???ddhhaaaa?hhdddf?aahhh",
+     "haahhhaaaifddchhhh?hhhddddddbahh",
+     "aa?dhhhaafaddcchh?h?hhhddddddahh",
+     "aaaddhhhaaddcccchhhhhhhhaaddddhh",
+     "aaadddhhaddddcchhhhhhaaaaaaddaah",
+     "aaaaddhhhaadddchh?hhaaaaaadddddh",
+     "aaaaddhhhhjaccch?agaaddaaddddddd",
+     "aaaaadddhhaaacc?gaaafdddaadddddh"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "c": {
+      "name": "荒地",
+      "color": "#c9a86a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -1678,10 +2020,10 @@
     ]
    },
    "map": {
-    "frameW": 25,
-    "frameH": 22,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 24,
+    "frameH": 24,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 2,
@@ -1708,7 +2050,80 @@
       "label": "敌要塞本拠地（进入即胜利，共4格）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "dddafaaddddaaheeeeeeehha",
+     "dddddaafddddahheeeeehhaa",
+     "dkkdafaafdddaahfiffhhbba",
+     "dkkaaaaffaddaaaaffaaaaaa",
+     "dddaaaaaafaddaaaaaaaaaab",
+     "fddkaaaaabbddaaaaaabbaaa",
+     "akdaakafaaagdaaafbaaaaba",
+     "afdkfaaaaaggaaaaaaafaaaa",
+     "akafakaaaaaaaaaaaaabaaaa",
+     "eeeeaafaaaaaaaaaaaaaaaag",
+     "eeeeeeeeeeafaafbaaaaaagg",
+     "dddeeeeeeeeeeeeeaaaaaggg",
+     "dddddddddeeeeeeeeafaaagg",
+     "dddddddddddddddeeeaaaagg",
+     "ddddddddddddddddeeeeeaaa",
+     "addddddddddddddddeeeeeaa",
+     "aaaaafffaaadddddddaaeeee",
+     "abaaaaaaaaaaaaaddakaaeee",
+     "aaab?aaaaaaaaaaakaa?aaaa",
+     "aaf?a?aaddddddfkaakaaaaa",
+     "aa?a?afdddddaaaakaaaaaag",
+     "aaa?a?aaadddddbbaafaaagg",
+     "aaaa?aafadddddbbbaaaaafg",
+     "aaaaaaaaaaaaddddbbaagggg"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "k": {
+      "name": "本拠地",
+      "color": "#c1666b",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -2059,8 +2474,8 @@
    "map": {
     "frameW": 20,
     "frameH": 20,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 14,
@@ -2069,7 +2484,56 @@
       "label": "胜利条件目标：莱茵X1"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "wwwyyyywxxxxyyyyyyyw",
+     "wwyxxxxwv?v?xxxxxxxw",
+     "wyxvvzvw?z?v?vvvvvvw",
+     "wxvvwvvwv?v?z?vvvvvw",
+     "wvvvwvvyyyyyyyyyvvvw",
+     "wvv?wvzxxxxxx?xx?zvw",
+     "wz?vw?vvvvvvvv?zv?vw",
+     "wzv?w?vvvvvvvvvvvvww",
+     "wzzvwwwwwwwwwwwwwwww",
+     "wzzvwwyyyyyyyyyyyyyw",
+     "wzz?wyxxxxxxx?xxxxxw",
+     "wz?vwxvvvvwwwwwwvvvw",
+     "y?vvwvvvvvwwyyyyvzvw",
+     "xvvvwwvvvwwwxxxxzzzw",
+     "vvvvwwwwwwwwvvvvvzzw",
+     "vvvvyyyyyyyyvvwwwvzw",
+     "wvvvxxxxxxxxvvyyyvvw",
+     "wvvzzzvvvvvvzvxxxzvw",
+     "wzvvzvvvvvzvvvvvvvvw",
+     "wwwwwwwwwwwwwwwwwwww"
+    ],
+    "terrainLegend": {
+     "v": {
+      "name": "通路",
+      "color": "#9a7bc8",
+      "effect": "移动成本 1"
+     },
+     "w": {
+      "name": "地板",
+      "color": "#b6bcc4",
+      "effect": "移动成本 1"
+     },
+     "x": {
+      "name": "通路（阴影）",
+      "color": "#7a5da8",
+      "effect": "移动成本 1"
+     },
+     "y": {
+      "name": "墙壁",
+      "color": "#666c76",
+      "effect": "不可进入"
+     },
+     "z": {
+      "name": "破损通路",
+      "color": "#8668b0",
+      "effect": "移动成本 空1 陆2 海2"
+     }
+    }
    },
    "sources": [
     {
@@ -2350,10 +2814,10 @@
     ]
    },
    "map": {
-    "frameW": 29,
-    "frameH": 21,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 28,
+    "frameH": 20,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 25,
@@ -2368,7 +2832,76 @@
       "label": "隐藏商店（城镇地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "aaaaaaaaeaaadddddggggggabaaa",
+     "afaaaaaaeea?adddddggb?ga?afa",
+     "aaaafaaaaea?baadddaaif?aaaba",
+     "aaafffaaaea?afabaaaaaaa?hhaa",
+     "aaaafffaaeeaaaaab?aahhhahhhh",
+     "afaaaafaaheeh???aaahheeaheeh",
+     "aaaaaaaaaheeehafaahheeehhhee",
+     "ahaaaaaahheeaaaaahheeeeaeeee",
+     "hhaaahhhheeeahhhheeeeehheeee",
+     "hhaaaheeeeeeaeeeeeeeehaaeeee",
+     "hhaaaaeeeeeaaeeeeeeeeeeaeeee",
+     "eeaaaaaaaaafaaaaeeeeeeaaaeee",
+     "eeaaaaaaaaaaaaaaa?aaaaddaaee",
+     "eeeaaaaaaaaaaaafaaaaaaadddae",
+     "eeeeeaaadddaaaaaaafaaaaaddda",
+     "eeeaaadddaaaaaaaa?aaaaaaadda",
+     "eeaaaaaddaaaaaaaaaaaaaaaaddd",
+     "eeeaaaadddaaaaaaaaaaaaaa?add",
+     "eaaaaddddaaaaaajaaaaaaa?faad",
+     "aaaadddaaaaaaaaaaaaaaa?aaffa"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -2661,10 +3194,10 @@
     ]
    },
    "map": {
-    "frameW": 13,
-    "frameH": 28,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 22,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 7,
@@ -2673,7 +3206,88 @@
       "label": "胜利条件目标：强人"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "dddaaaeeeeeaaaaaaadddd",
+     "ddddaaggaaeeeaaaaaaddd",
+     "ddddaaaaggeeeeaaaaaaad",
+     "addddaaaeeeeeeaaaeeaaa",
+     "aaaddaaeeeeeeeeafaeeea",
+     "hhhhadaaaeeeeeeeaeeeaa",
+     "eehhaaaafaeeeeeeeeeeaa",
+     "eeehhhaaaaaaeeeeeeeaaa",
+     "eeeeehhhaffaaeeeeeaaaa",
+     "eeeeeaaaaaaaaheeeeaaaf",
+     "eeeeaaaaaaaa?aaaaaaaff",
+     "eeaaaaeehhg?a?aaaaaaff",
+     "aaaeeeeeehag?a?heeeeaa",
+     "eaaaaeeeeha???ahheeeee",
+     "eeaaaaeeeeea?b?aheeeee",
+     "eeehhaaeeeeeeafhheeeee",
+     "eehhddbeeeeeaaaahheeee",
+     "eehadddaeeeeeeeaaaeeee",
+     "eeeaaaeeeeeeeeejaeeeee",
+     "eeeeeeeeeeeeeeeaaaaeee",
+     "eeeeeebaaeeeeeaaiaeeee",
+     "eeeeeeafabeeeeeabaaaee",
+     "eeeeeaddaeeeeeaaaaaeee",
+     "eeeaaddabaaaeeafbaeeee",
+     "eeeeeaaaaaaaaaaaaaaeee",
+     "eeeeee?aaaaaabbaaaeeee",
+     "eeeeeeeeaaabaaaaaaaaaa",
+     "eeeeaaaaaeaaaaggaaaaaa",
+     "eeeeeeeeeeeaaagaaaaaaa",
+     "eeeeeeeedaaaaaagaaaaad",
+     "eeeaaaaaaaaaagaaaaaadd",
+     "eeeeeaaaadddaggaaadddd"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -3023,10 +3637,10 @@
     ]
    },
    "map": {
-    "frameW": 23,
-    "frameH": 23,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 28,
+    "frameH": 30,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 16,
@@ -3035,7 +3649,91 @@
       "label": "隐藏商店（城镇地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "dddddaaagaaaagaaadddaddddddd",
+     "dddaaaaaa?iaabaabaddddaddddd",
+     "daaaaaaaaj?aaaaaaaafffaadddd",
+     "aaaaaaaaa??afffaadaadadddddd",
+     "hhhhhaa?aaaf?affaaabfddddddd",
+     "eeeehhaa?aa?aaaaaaaaafddd?dd",
+     "aaaeehaaa??aaaaafaaaaidd??dd",
+     "eeeeehhhccaafaaaaaaabbfddddd",
+     "eeeeeehhccaaaabaaaagaagddddd",
+     "eeeeeeehhcgaaa??aagggaagdddd",
+     "ffeeeeeehhaaaabaaeeegabbgggg",
+     "efffeeeeehabaaaeaeeeeaabbagg",
+     "eeeeeeeeeeaafaaeaaaaeeebbaab",
+     "ffeeeeee?eeeeeeeeeeaeeeeeeee",
+     "affffeeeeeeeeeeeeeeaeeeadddd",
+     "aaffaaeeeeeeeeeeeehhaaagaddd",
+     "faaagaeeeeeeeeeehhhaaaaaaddd",
+     "aabaafaaeeeeeeaiaaa?aaaafadd",
+     "aaafaaaaaeeeeeeaafaa?aaaaadd",
+     "bb?aafaaaeeeeeeeaaaaa?aaaaad",
+     "a?b?aafaaaeeeeeeaafagafaaaad",
+     "aa?a?aaaa?a?a?aaaaaaaffffaag",
+     "aaa?baaaaaeeeeeeaabaffffaffg",
+     "fa?abaaaaaeeeeeegaaffffaaffg",
+     "ffagaaaaaeeeeeeeeaggffeaaaag",
+     "ffaaaffaaeeeeeeeeaaaaaeeaaaa",
+     "faeaffaaeeeeeeeeeaaaaeeeaaaf",
+     "aeeaaffaaeeeeeeeeeeaeeeeeffe",
+     "eeeeaaaaeeeeeeeeeeeeaeeeeeee",
+     "eeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "c": {
+      "name": "荒地",
+      "color": "#c9a86a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -3350,12 +4048,83 @@
     ]
    },
    "map": {
-    "frameW": 23,
-    "frameH": 29,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 26,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "hhhhhaaaaaaggggggggggddddd",
+     "hhhdaaaaaaafffffffffffdddd",
+     "hhhaaaaaaaaaafffffffffffdd",
+     "hhhaaaaaaabaaafffffffffffd",
+     "hhhhaaaaaa?aaaaffffffffffd",
+     "hhhhaaaaa?a?aabff?fffffffd",
+     "eehhaaab?a?aaaaa?gafffffdd",
+     "eeehhaaaa?a?aaaaa?ffffffdd",
+     "eeeehaaa?aaaaaabaaagfffffd",
+     "eeeehbaaa?aaaggaaaffffffff",
+     "eeeeeaaaaagffffffffffffgga",
+     "eeeeeaaaaaagffffgaafffffaa",
+     "eeeeeaafffffffffaabafffgaa",
+     "eeeeefffaaaafffaaaaaaffaaa",
+     "eeeeaaaaafffagaaaaaaaaaafa",
+     "eeeaafffaaaaaaaaaaaaaaaffa",
+     "eeeaaaaa?ffaaaaaaaaabffffg",
+     "eeaafff?a?aaaaaaaddaaaffff",
+     "eeaaaafffaaaaaaadddda?bfff",
+     "eaaaaaaaaaaaaaddddga?aaffa",
+     "eaaaaaaaaddddgddddddaaaaaa",
+     "aabaaaaaaddaddddddaaaabaaa",
+     "addaaaaaaaaddddddaaaaaaaaa",
+     "aadbaaaaadddd???aaaaaaaaaa",
+     "adddaafaaaddaaaaaaaabaaaaa",
+     "dddddaaadddaddaaaaa?aaaaaa",
+     "dddddaadddddaddaaa?aaaaaaa",
+     "ddddddddddaaddaaa?aaaaaaaa",
+     "dddddddddaaaaaaaafaaaaaaaa",
+     "dddddddddddddbaaaaaaaaaaaa",
+     "ddddddddddddddaaaaaaaaaaaa",
+     "dddddddddddddddaaaafaaaaaa"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     }
+    }
    },
    "sources": [
     {
@@ -3625,10 +4394,10 @@
     ]
    },
    "map": {
-    "frameW": 18,
+    "frameW": 20,
     "frameH": 30,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 10,
@@ -3637,7 +4406,81 @@
       "label": "胜利条件目标：毕格扎姆"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "ddddgggggggggggggggg",
+     "dddddccaaaaaaaaf?a?a",
+     "dddddaa?aaaaaaa?a?aa",
+     "dddddaaaaaaaaaaaaa?a",
+     "dddddaaccaaaaa??a?ac",
+     "dddddacaaaaaaaa?aaaa",
+     "ddddaaaaccaaaaaafaca",
+     "ddddddaa?aaaaaaffacc",
+     "jdddddda?caaacaaffcc",
+     "?adddddaaaddaaaaafcc",
+     "jafddddffffddd?aaccc",
+     "jffddddddfdddaaaaccc",
+     "jfaadddffffddd???ccc",
+     "jaaddddddfdddaaacccc",
+     "jadddddadddaddd?aadd",
+     "effdddafaa?dddaaaddd",
+     "efffdaaa???adddaaddd",
+     "efffddaa??afaadaaddd",
+     "effffddfaaaadddaaddf",
+     "efffhddddddddddaafff",
+     "effhhhhddddddaa?afff",
+     "efffhhaaffffaa?a?aff",
+     "effhhhafafffaaaafacc",
+     "effhhhaaaaaafaaaaacc",
+     "efffhhhaafaaaaaaaccc",
+     "effffhhaaaaaaaacccca",
+     "efffffhhaaaaaafcccca",
+     "efffffffffaaaaaaccca",
+     "effffffffffaaaaaccca",
+     "effffffffffaaaacccaa"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "c": {
+      "name": "荒地",
+      "color": "#c9a86a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -3971,12 +4814,75 @@
     ]
    },
    "map": {
-    "frameW": 23,
-    "frameH": 22,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 24,
+    "frameH": 24,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "ddddddddddddgggggaaggggg",
+     "gdddddddddfffffaabaaffff",
+     "ggdddddddddfffaaa??aafff",
+     "fggbaddddddffgaaba?aafff",
+     "f?aabgadddddfaaaaaaaaaff",
+     "?ffaaaaddddddfaaaaaaaaff",
+     "a?faaddddddddfaaaaaaaaaf",
+     "aafaaaddddddddffaaafabaf",
+     "aaaaaaaaddddddddfaaaffee",
+     "aaafaaaaaaadddddddaaafee",
+     "eaaaaaada?a?addddfaaaaee",
+     "eeaaaaddaa?a?adddddaaaae",
+     "eeaaabddb?a?a?bddddaaaab",
+     "eeaaadddda?a?aaddaaaaaaa",
+     "efaaaaddddb?ajadaaaaaaba",
+     "eaabaaaddddbbdaaaa?aaaaa",
+     "aaaaaaadddddddaaa?a?faaa",
+     "aabaaaffffdddddaaa?aaaaa",
+     "?a?affffddddddddddaaaaaa",
+     "f?aaaaffffddddddddddbaaa",
+     "ff?aaaaaggfddddddddbbaaa",
+     "fffffaaagfffdddddddddbgg",
+     "ffffffffffffdddddddddddd",
+     "ffffffffffdddddddddddddd"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -4341,10 +5247,10 @@
     ]
    },
    "map": {
-    "frameW": 23,
-    "frameH": 29,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 22,
+    "frameH": 30,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 15,
@@ -4359,7 +5265,91 @@
       "label": "蜘蛛网陷阱范围中心（罗莎米娅位置；陷阱格的准确范围来源未逐格列举）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "?qpqDDDDDDDDDDDDDDDDlD",
+     "pollllllllllllllllllll",
+     "llllmltllllll?llmlllll",
+     "Dpllltqtlmll?lllllllll",
+     "Dllttt?tttlll?llllllll",
+     "Dlllltttlllllllpllllll",
+     "Dslllltlllnnnnllllllll",
+     "Dllollopllllnnnnnlllll",
+     "Dlllllllll?loolnnnnnll",
+     "D?l?lllll??oplllpnnnnn",
+     "Dl?lloll?looolllllnnnn",
+     "Dllllllllpoooollllllnn",
+     "nnnnlllooo?olllmllllll",
+     "nnnnnnlmpooollllllllll",
+     "nnnnnnnnnpoll?llll?l?l",
+     "nnnnnnnnnnnnlllol?l?ll",
+     "Dlllnnnnnnnnnnllllmlll",
+     "Dllllllllnnnnnnnllllll",
+     "Dplllllllllllnnnnnllll",
+     "Dlllllllllllllllllllll",
+     "Dlllllllploolllllllpll",
+     "Dlllllllllllloolllllll",
+     "Dlmllllllljl?pllllllll",
+     "Dllllllllll?llllllllsl",
+     "Dlllllpl??mll??lllllll",
+     "Dllllloooll?olllllllll",
+     "Dllllllloo?l?lllllllll",
+     "Dlllllllplllllslllllml",
+     "Dlllmlllllllllllllllll",
+     "Dllllllllllpllllllllll"
+    ],
+    "terrainLegend": {
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "n": {
+      "name": "宇宙风暴",
+      "color": "#6d4fa1",
+      "effect": "不可进入"
+     },
+     "o": {
+      "name": "小行星",
+      "color": "#8a7f5c",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "p": {
+      "name": "大型小行星",
+      "color": "#77694a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "s": {
+      "name": "殖民卫星",
+      "color": "#9fb4c7",
+      "effect": "移动成本 1"
+     },
+     "t": {
+      "name": "月面",
+      "color": "#d3cc96",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -4664,12 +5654,78 @@
     ]
    },
    "map": {
-    "frameW": 23,
-    "frameH": 22,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 25,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "wyyyyyyyyyyEEEyyyyyyyyyyy",
+     "ywwwwwwwwwyxxxywwwwwwwwww",
+     "ywwwwwwwwyxv?vxywwwwwwwww",
+     "ywwwwwwwyxv?v?vxywwwwwwww",
+     "ywyyyyywxvvvvvvvxwyyyyyww",
+     "ywxxxxxyvvvvvvvvvyxxxxxww",
+     "ywvvvvvxvvvvvvvvvxvvvvvww",
+     "ywvvvvvvvvvvvvvvvvvvvvvww",
+     "ywvvvwwwyywyyywyywwwv?vww",
+     "ywvvvwwyxxyxxxy?xyww?vvww",
+     "ywvvvwyxvvxvvvxvvxywvvvww",
+     "ywvvvwxvvvvv?vvvvvxwvvvww",
+     "ywvvvyvvvvvvvvvvvvvyvvvww",
+     "yyvvv?vwvvvvvvvvvwv?vvvyw",
+     "yxvvv?vyvvvv?vvvvyv?vvvxw",
+     "yvvvvvvxvvvvvvvvvxvvvvvvw",
+     "yvvvvwvvvvv?vjvvvvvwvvvvw",
+     "yvvvvwwvvv?v?v?vvvwwvvvvw",
+     "ywvvvyyyywv?v?vwyyyyvvvww",
+     "ywwvvxxx?ywvvvwy?xxxvvwww",
+     "ywwwvvvvv?wv?vw?vvvvvwwww",
+     "ywwwwvvvvvwvvvwvvvvvwwwww",
+     "yyyyyyywvvwvvvwvvwyyyyyyw",
+     "yxxxxxxwvvwvvvwvvwxxxxxxw",
+     "yvvvvvvwvvwvvvwvvwvvvvvvw",
+     "yvvyyyyyvvyvvvyyyyvvvvvww",
+     "yvvxxxxxvvxvvvxxxxvvvvwww",
+     "yvvvvvvvvvvvvvvvvvvvvwwww",
+     "yvvyyyywvvwvvvwvvvvvwwwww",
+     "yvvxxxxwvvwvvvwvvvvwwwwww",
+     "yvvvvvvwvvwvvvwvvvwwwwwww",
+     "ywwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+    "terrainLegend": {
+     "E": {
+      "name": "入口",
+      "color": "#cbb8e0",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "v": {
+      "name": "通路",
+      "color": "#9a7bc8",
+      "effect": "移动成本 1"
+     },
+     "w": {
+      "name": "地板",
+      "color": "#b6bcc4",
+      "effect": "移动成本 1"
+     },
+     "x": {
+      "name": "通路（阴影）",
+      "color": "#7a5da8",
+      "effect": "移动成本 1"
+     },
+     "y": {
+      "name": "墙壁",
+      "color": "#666c76",
+      "effect": "不可进入"
+     }
+    }
    },
    "sources": [
     {
@@ -4946,10 +6002,10 @@
     "reinforcements": []
    },
    "map": {
-    "frameW": 29,
-    "frameH": 15,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 16,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 8,
@@ -4958,7 +6014,77 @@
       "label": "隐藏商店（殖民卫星地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "lDDDDDpDpqqqDpnDDDDDDDDDqqpppppp",
+     "Dmlllllploplpnnllmllllllllllppmp",
+     "Dlllllmppoooolnllllllllllloplooo",
+     "Dlllllllopoppllndddmllsllldllloo",
+     "Dllllllsloopollnlllllllllddlonnn",
+     "Dlllllllplooolllnlllllllpdlnnnnn",
+     "Ddllllllolppllllnlllllllnlllnnnn",
+     "Dllldlllllooollllnlllllllnlllnnn",
+     "Dldmldlllooplll?lnllllllldnnllll",
+     "Dllldllllopoolll?lnllllllllnnnnn",
+     "Ddlllllllpllmoo?l?nllllllollllnn",
+     "Dllllllllllpoo?l?llnmlllllllppln",
+     "Dllllllllloopll?l?lllllpllldooll",
+     "Dlllllllmopplplljlllllllll?llppo",
+     "Dllllllll?oppollmlllllllllppoopp",
+     "Dllllllolppppllpllllllllpplmpppp"
+    ],
+    "terrainLegend": {
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "n": {
+      "name": "宇宙风暴",
+      "color": "#6d4fa1",
+      "effect": "不可进入"
+     },
+     "o": {
+      "name": "小行星",
+      "color": "#8a7f5c",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "p": {
+      "name": "大型小行星",
+      "color": "#77694a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "s": {
+      "name": "殖民卫星",
+      "color": "#9fb4c7",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -5341,10 +6467,10 @@
     ]
    },
    "map": {
-    "frameW": 27,
-    "frameH": 33,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 26,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 8,
@@ -5377,7 +6503,98 @@
       "label": "隐藏商店（殖民卫星地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "lDDDqqpqqppqDDqDDDDDDDDDDD",
+     "Dllooooppooopolollllllllll",
+     "Dllmlooooppoolllllllllllll",
+     "DlCClllloooollolllmlllllll",
+     "Dlllllmlllllllllllllllllll",
+     "DlllCCllllllllllllllllll?l",
+     "DllllllBlllllllllllllmllll",
+     "Dlplllllllolllllllllllllll",
+     "DollpBloplpBllllllllllllll",
+     "DlpllllBpollBlllllllllllll",
+     "DlpolllmlBlBllllllllllmlll",
+     "DllllBllopBlllllllllllllll",
+     "DllllplolBlllllllllllnllll",
+     "nnnlllllllBllllllllllnllll",
+     "DnnnllpllBllolllolllnnllll",
+     "Dlnnnllllllllllslllmnlllll",
+     "Dllnnnnllllllollllnnnlllll",
+     "Dslllnnnnllllllnnnnlllllll",
+     "Dllllllnnnnnnnnnppllllllll",
+     "Dllpllllllllllllopololllll",
+     "lllBlllllllllloloopoolllll",
+     "DllllBlllnnllllooolpnnnnnn",
+     "Dlo?llllllllllllnnnnnnnlll",
+     "DmlllBllllllnnnnnlllllllll",
+     "lolBpolllllnnllllllll??lll",
+     "Dlloolollnnnllllllll?lllll",
+     "Doollllnnnllllllllljl???ll",
+     "lpoooonnlllollllllll?lllll",
+     "looopoollolllllllllll?llll",
+     "Dopooopollolllmlllllllllll",
+     "Dlooopoolollllllllllllmlll",
+     "Dooooollloolllllllllllllll"
+    ],
+    "terrainLegend": {
+     "B": {
+      "name": "发电镜",
+      "color": "#d77a61",
+      "effect": "设施（胜利条件目标）"
+     },
+     "C": {
+      "name": "殖民地激光",
+      "color": "#c1666b",
+      "effect": "设施"
+     },
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "n": {
+      "name": "宇宙风暴",
+      "color": "#6d4fa1",
+      "effect": "不可进入"
+     },
+     "o": {
+      "name": "小行星",
+      "color": "#8a7f5c",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "p": {
+      "name": "大型小行星",
+      "color": "#77694a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "s": {
+      "name": "殖民卫星",
+      "color": "#9fb4c7",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -5725,14 +6942,78 @@
     ]
    },
    "map": {
-    "frameW": 33,
-    "frameH": 18,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 20,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
     "missing": [
      "增援中的一台巴乌（Lv30）GX 原表缺 Y 坐标，表中以「—」标注，该点未画入坐标图。"
-    ]
+    ],
+    "terrainGrid": [
+     "wyyyyEEEEEEEEEEyyEEEEEEEEEEEEyyy",
+     "ywwwyxxxxxxxxxxwwxxxxxxxxxxxxyww",
+     "ywwyxvvvvvvvvvvwwvvvvvvvvvvvvxyw",
+     "ywyxvvvwyyyyyyyyyyyyyyywvvvvzvxy",
+     "yyxvvvwyxxxxxxxxxxxxxxxywvvv?zvx",
+     "yxvvvwyxvvvvvvv??vvvvvvxwwvvv?zv",
+     "y?zv?wxvvvvvv?vwwvvvvvwyyyv?zvvz",
+     "Evv?vwvvvvvvjv?ww?v?wwyxxxvv?vzw",
+     "xz?zvwvvvvvvvdvwwvvvwyxvvvvvvzvw",
+     "v?zvvywvvvvvvvvwwvvvwxvvwwvvvvzw",
+     "yzz?vxywvvvvvvvwwvvvwvvvwwv?zvvw",
+     "yvzzvvxywvvvvvvwwvvvwvvvwwvv?vvw",
+     "ywvzvvvxyywwwvvwwvvvyvvvwwwvvvvw",
+     "ywwvvvvvxxywwvvwwvvvxvvvyywwvvvw",
+     "ywwwvvvvvvxwwvvyyvvvvvvvxxwwvvvw",
+     "ywwwwvvvvvvyyvvxxvvvvvvvvvwwvvvw",
+     "Eyyyyyvv?vvxxvvvvvvvwwwv?vyyvvvw",
+     "xxxxxxvvvvvvvvvvvvvwwwwwvvxxvvww",
+     "vvvvvvvvvvvvvvvvvvwwwwwwwvvvvwww",
+     "ywwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
+    ],
+    "terrainLegend": {
+     "E": {
+      "name": "入口",
+      "color": "#cbb8e0",
+      "effect": "移动成本 1"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "v": {
+      "name": "通路",
+      "color": "#9a7bc8",
+      "effect": "移动成本 1"
+     },
+     "w": {
+      "name": "地板",
+      "color": "#b6bcc4",
+      "effect": "移动成本 1"
+     },
+     "x": {
+      "name": "通路（阴影）",
+      "color": "#7a5da8",
+      "effect": "移动成本 1"
+     },
+     "y": {
+      "name": "墙壁",
+      "color": "#666c76",
+      "effect": "不可进入"
+     },
+     "z": {
+      "name": "破损通路",
+      "color": "#8668b0",
+      "effect": "移动成本 空1 陆2 海2"
+     }
+    }
    },
    "sources": [
     {
@@ -5965,9 +7246,9 @@
    },
    "map": {
     "frameW": 26,
-    "frameH": 23,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameH": 26,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 23,
@@ -5976,7 +7257,97 @@
       "label": "隐藏商店（殖民卫星地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "llqpDDDlDDDlDDDllnDDDllDDD",
+     "mlmmmllmllllmmllnnmmllsmll",
+     "Dllllmmlllmlllo?mnnmolmlnn",
+     "Dpmollllmllllplmllnlllnnnl",
+     "mllmllllmlllll?lllmlllmlpl",
+     "Dmllmllmlttttttttlllllllml",
+     "mmllltttttttttt?tttttlllll",
+     "Dlttttttttttttttttttttttll",
+     "uttttttttttttttttttttttttt",
+     "utttt?tqtttttttttttttttttt",
+     "uttqttdtqttttttttttttttttt",
+     "utttt?tjttttttttqttttttttt",
+     "uttttt??ttttttttttttttqttt",
+     "utttt?t?ttttttttttqttttqtt",
+     "uttttt??tttttttttttt?ttttt",
+     "utttt?ttttttttttttt?tttttt",
+     "uttttttttttttttttt??ttttqt",
+     "utttt?ttttqqtttttttttqt?t?",
+     "uttttttttttttttttttttttttt",
+     "uttttt?ttqttttttt?tttttttt",
+     "u??tttttttttqttt?ttttttt?t",
+     "utttttttttttqtttt?qtttt?qt",
+     "uttttttt??tttttttttttttttt",
+     "ut?tttttttttttttqttqttq?tq",
+     "u???ttt?tttttttttttttttttt",
+     "????tttttttt??tttqttqqqtqt"
+    ],
+    "terrainLegend": {
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "n": {
+      "name": "宇宙风暴",
+      "color": "#6d4fa1",
+      "effect": "不可进入"
+     },
+     "o": {
+      "name": "小行星",
+      "color": "#8a7f5c",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "p": {
+      "name": "大型小行星",
+      "color": "#77694a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "s": {
+      "name": "殖民卫星",
+      "color": "#9fb4c7",
+      "effect": "移动成本 1"
+     },
+     "t": {
+      "name": "月面",
+      "color": "#d3cc96",
+      "effect": "移动成本 1"
+     },
+     "u": {
+      "name": "月面（岩石）",
+      "color": "#bcb384",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -6319,12 +7690,81 @@
     ]
    },
    "map": {
-    "frameW": 33,
+    "frameW": 32,
     "frameH": 20,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "lDDDlDDDDDDDnnDDDDDDD?DDDDDDDDDD",
+     "Dllllllllllllnnll?llllllllllmlll",
+     "Dlmlllllllllllnnnl?nnlllllllllll",
+     "Dllllmllllnnllllnnlmnnlllmllllmm",
+     "mmlllllllllnnllllllllnnlllllllll",
+     "Dlllllllllllnnlllllllnnnllllllll",
+     "utqqq?ttttttttttttt?tttttttttttt",
+     "qqqq?t?tttttttttttttttttttqqtttt",
+     "qqdtt?tttttttttttttttttttttqqttt",
+     "uttq?t?t?ttttttttttttt?tttttqqtt",
+     "?tttt?ttt?ttttttttttttttttttqqtt",
+     "utqttttttttttqttttttttttttt?tqtt",
+     "uttttttt?tttttttttttttttt??ttttt",
+     "uttttttttjtttttt?tttttttttt?tttt",
+     "ut?ttttt?tttttt?tttttqtttttttttt",
+     "utt?tttttttttt?tttttttqttttqtttt",
+     "utttttttqtttttttttt?ttqttttttttt",
+     "uttttttttttttttttt?ttqtttttttttt",
+     "uttttttttttqqtttt?ttqttttttttttt",
+     "utttttttttttttttttttqttttttttttt"
+    ],
+    "terrainLegend": {
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "n": {
+      "name": "宇宙风暴",
+      "color": "#6d4fa1",
+      "effect": "不可进入"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "t": {
+      "name": "月面",
+      "color": "#d3cc96",
+      "effect": "移动成本 1"
+     },
+     "u": {
+      "name": "月面（岩石）",
+      "color": "#bcb384",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -6512,12 +7952,93 @@
     ]
    },
    "map": {
-    "frameW": 26,
-    "frameH": 15,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "wyyyyEEEEEEEEyyyyyyyyEEEEEEEyyyy",
+     "ywwwyxxxxxxxxywwwwwwyxxxxxxxywww",
+     "ywwyxvvvvvvvvxywwwwyxvvvvvvvxyww",
+     "ywyxvvvvvvvvvvxywwyxvvvvvvvvvxyw",
+     "yyxvvvvvvvvvvvvxywxvvvvvvvvvvvxw",
+     "yxvvvvvvvvvvvvvvxwvvvvvvjvvvvvvw",
+     "yvvvvvwwwwvvvvvvvwvvvvv?v?vvvvvw",
+     "yvvvvwwwwwwvvvvvvwvvvvvv?vvvvvvw",
+     "yvvvvywwwwwwvvvvvwvvvvv?v?vvvvvw",
+     "yvvvvxywwwwwwvvvvyvvvv?v?v?vvvww",
+     "ywvvvvxywwwwwwvvvxvvvvvvvvvvvwww",
+     "ywwvvvvxwwwwwwwvvvvvvvvvdvvvwwww",
+     "ywwwvvvvyyyyyyyyyyyyyyyyyyywwwww",
+     "yyyyvvvvxxxxxxxxxxxxxxxxxxxwwwww",
+     "yxxxvvvvvvvvvvvvvvvvvvvvvvvwwwww",
+     "yvvvvvvvvvvvvvvvvvvvvvvvvvvwyyyw",
+     "yvvwwvvvvvvvwwwwwwwwwwwwwvvwxxxw",
+     "yvvwwvvvwvvvwyyjjjyyyyywwvvwvvvw",
+     "yvvwwvvvwvvvwxxxxxxxxxxwwvvwvvvw",
+     "yvvwwvvvyvvvwvvvvvvvvvvwwvvwvvvw",
+     "yvvwwvvvxvvvwvvvvwvvvvvwwvvwvvvw",
+     "yzvwwvvvvvvvwvvvvwvvvvvwwvvwvvvw",
+     "yvvwwwwwwvvvwvvvvwvvwwvwwvvwvvvw",
+     "yvvwyyyyyvvvwvvvvwvvjjvwwvvwvvvw",
+     "yvvwxxxxxvvvwvvvvwvvxxvwwvvwvvvw",
+     "yvvwwwwwwvvvwvvvvwvvvvvwwvvwvvvw",
+     "yvzyywwwwvvvwvvvzwwvvvvwwvvwvvvw",
+     "yvvxxyywyvvvwvvvvwwwvvvyyvzwvvvw",
+     "yvvvvxxyxvvwwvvvvwwwwvvxxvvyvvvw",
+     "ywvvvvvxvvwwwvvvvwwwwwvvvvvxvvvw",
+     "ywwvvvvvvwwwwvvvvwwwwwwvvvvzvvvw",
+     "ywwwwwwwwwwwwAAAAwwwwwwwwwwwwwww"
+    ],
+    "terrainLegend": {
+     "A": {
+      "name": "特殊地面",
+      "color": "#e8a33d",
+      "effect": "最终决战大厅的地面"
+     },
+     "E": {
+      "name": "入口",
+      "color": "#cbb8e0",
+      "effect": "移动成本 1"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "v": {
+      "name": "通路",
+      "color": "#9a7bc8",
+      "effect": "移动成本 1"
+     },
+     "w": {
+      "name": "地板",
+      "color": "#b6bcc4",
+      "effect": "移动成本 1"
+     },
+     "x": {
+      "name": "通路（阴影）",
+      "color": "#7a5da8",
+      "effect": "移动成本 1"
+     },
+     "y": {
+      "name": "墙壁",
+      "color": "#666c76",
+      "effect": "不可进入"
+     },
+     "z": {
+      "name": "破损通路",
+      "color": "#8668b0",
+      "effect": "移动成本 空1 陆2 海2"
+     }
+    }
    },
    "sources": [
     {
@@ -6823,8 +8344,8 @@
    "map": {
     "frameW": 32,
     "frameH": 18,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 2,
@@ -6833,7 +8354,74 @@
       "label": "隐藏商店（殖民卫星地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "lDDDDDDDDDDDDoDDDDDDDDDDDDDqDDDD",
+     "Dlllmlllolllllllllllllllllllllll",
+     "Dlolllmllllllllllllllllmllllllll",
+     "Dlllllllllllllmlllllllllllllllll",
+     "Dlllllllmllllllllllmllolllllllll",
+     "Dlmllllllllllllllpllllllllllmlll",
+     "Dlllllllllllllllldllllllllllllll",
+     "Dlllllllllllllll?ldlllll?ldl?lll",
+     "Dllollllllllljm?l?l?ldllllllllll",
+     "Dlllllllllllllll?l?lllllllllllll",
+     "Dllllllllmlllllll?llllllldmlllll",
+     "Dlll?l?l?lllllllllmllllldlllllll",
+     "Dlllllllllllllllllllllldllllllll",
+     "Dllllllllllllllllllllldlllllllll",
+     "Dllllllllllllllllllllllmlllll?dl",
+     "Dlllllmlllllllllllllllllllllld?l",
+     "Dslllllllllllllllmllllllllllllll",
+     "Dlllllllllllllllllllllllllllllll"
+    ],
+    "terrainLegend": {
+     "D": {
+      "name": "地图外",
+      "color": "#262b31",
+      "effect": "不可进入"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "l": {
+      "name": "宇宙",
+      "color": "#33366e",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "m": {
+      "name": "宇宙（星）",
+      "color": "#454a8a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "o": {
+      "name": "小行星",
+      "color": "#8a7f5c",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "p": {
+      "name": "大型小行星",
+      "color": "#77694a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "q": {
+      "name": "环形山",
+      "color": "#b3a26e",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "s": {
+      "name": "殖民卫星",
+      "color": "#9fb4c7",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -7145,10 +8733,10 @@
     ]
    },
    "map": {
-    "frameW": 26,
+    "frameW": 28,
     "frameH": 16,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 25,
@@ -7163,7 +8751,72 @@
       "label": "隐藏商店（城镇地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "eeeeeeeeeeeeeeeeaaaggggggggg",
+     "eeeeeeeaaaaakkkaaaaaafffffff",
+     "ffffeeeaeeeeeeeeeeeaaaagffff",
+     "fffffaaaeeeeeeeeeeeeeaaaagff",
+     "ffaiaffaaaeeeeeeeeaaaaaaaagf",
+     "aaaabaaaaaaaaeeeeeeabaakaaaf",
+     "aaaafaaaaaa?jaeeeeaakaaadiaf",
+     "faaaaaaada?a?aeeeedkaff?aaaa",
+     "aafaaaaaa?a??aeeedafkfaaaadd",
+     "akaaaagfa??aaeeeeadafaddadda",
+     "aakffffajaa?aeeaaaaaddddddaa",
+     "afffgaafffaaeeaaaaaddddaafff",
+     "ffffeeeeeffeeaaaaaaaddddaffa",
+     "fffffeeeffaeaaaaaaadddddaagf",
+     "ffffeeeffaaeakkkaddddddafaaa",
+     "ffffffgafaaeaaadddddddaaaaag"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "k": {
+      "name": "本拠地",
+      "color": "#c1666b",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -7478,10 +9131,10 @@
     ]
    },
    "map": {
-    "frameW": 25,
-    "frameH": 28,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 26,
+    "frameH": 32,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 9,
@@ -7498,7 +9151,88 @@
     ],
     "missing": [
      "机械吉尔吉尔甘的登场坐标 GX 未记载，坐标图中未画该点。"
-    ]
+    ],
+    "terrainGrid": [
+     "eeeeeeeeeeeeeeeeeabbbbaaaa",
+     "eeeeeeeeeeeafaeeeafgaabaaa",
+     "aaebbbaeeeeeeeeeaffaeeaaaa",
+     "aaeeaabbeeeeeeeeeaaeeaabaa",
+     "aaaeaifaeeeeeeeeeeeeaffaga",
+     "aaaeeaaaaeeeeeeeeeeeeaaffa",
+     "aaaaeeeeeeeeeeeeeeeeafffga",
+     "gaaaeeeaaahhheeeeeeaaaaeaf",
+     "fgaaaeaabbaheeeeeeeeeaaeaa",
+     "gffaaea?aaahhhhheeeeeeeeea",
+     "fffgaaaaf?bbaaahheeeeeeeee",
+     "affgaaaa?aagbdaahheeeeeeee",
+     "aaffaaa?aa?aaaahhheeeeeeee",
+     "afffaaffaaaabahheeeeeeeeea",
+     "affgafffgaaa??heeaaaeeeeee",
+     "abaaaagaaaa?a?eeaaaa?eeeaa",
+     "aaaaaaaabaa??de?aaaaaaaeaa",
+     "aeeeaaaaaaaaaeeaadddaaaeea",
+     "aeeabbaaaaaaeea?a?ddddaaaa",
+     "aeaabbbbdaae?a?jaaaddaaaad",
+     "eeeaabbbaaaeeaaaaaa?aaaddd",
+     "eeeeeeeeeaeeaaaa?dddaaaadd",
+     "eeeeeeeeeeeeaaaddddddaaddd",
+     "eeeeeeeeeeeeeabaddaaaabadd",
+     "eeeeeeeeeeeeaaaabbaaaaaggd",
+     "eeeeeeeeeeeeeeeaaaaaeea?gd",
+     "eeeeeeeeeeeeeeea?aeeeaaaag",
+     "eeeeeeeeeeeeaaeeeeaaaaabba",
+     "eeeeeeeeeeeeeeeeeeeeeaaabb",
+     "eeeeeeeeeeeeeeeeeeeeeeeeaa",
+     "eeeeeeeeeeeeeeeeeeeeeaaaag",
+     "eeeeeeeeeeeeeeeeeeeeeaabbb"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "b": {
+      "name": "灌木丛",
+      "color": "#7cab5a",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -7824,10 +9558,10 @@
     ]
    },
    "map": {
-    "frameW": 33,
-    "frameH": 23,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "frameW": 32,
+    "frameH": 22,
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 4,
@@ -7842,7 +9576,73 @@
       "label": "隐藏商店（城镇地形）"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "?gggaaaaaaagggggddddddddddddgaaa",
+     "faaaaaaaaaaaafffaaddddddddaaggaa",
+     "ffaaafaafaaffffafd?dddddddffafgf",
+     "fffffafffggaafffffaaadddffffffaf",
+     "afafaffaaffgggffffffffafffgggfgf",
+     "faf?ffaffffaffffaafffffffgaaggff",
+     "aa???ffffggfafaffaaaaffagggaafff",
+     "aaa?aaaaaaaagaffaafaaffffffaaiaa",
+     "aaaaaaaffaaaaaaffaafffffaffffaaa",
+     "aaaaaaaaaafaaafffffffffffffaaaee",
+     "aaaaaaeaaaafggfaaffafffffaaaeeee",
+     "aaaaaaeeeeaaafgffjffffffaaeeeeee",
+     "faaaaaaeeeeeahhh?a?affaffeeeeeee",
+     "fffaaaaaeeeehhh?????eeeeeeeeeeaa",
+     "ffffffaaaaeeehhh?h?heeeeeeeeaaaa",
+     "fafafffaaaaaaahhh?hhheeeeea?aggf",
+     "afggaaaaaaaaaaaaaahhhhhhaaaggfff",
+     "dfaaaaaaffa?aaaffaaaaaa?gggfffff",
+     "dddaaagffffa?ffffffffffggfffffdd",
+     "dddddfgfaaffa?ffffffffaffffffddd",
+     "dddddffgffffffaafffffffffffddddd",
+     "dddddddddffddfffa??ffaffffdddddd"
+    ],
+    "terrainLegend": {
+     "a": {
+      "name": "平原",
+      "color": "#a9c47f",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "d": {
+      "name": "山地",
+      "color": "#cf8438",
+      "effect": "移动成本 空1 陆3 海4"
+     },
+     "e": {
+      "name": "海洋",
+      "color": "#5b8dd9",
+      "effect": "移动成本 空1 陆3 海1"
+     },
+     "f": {
+      "name": "岩地",
+      "color": "#9c8f78",
+      "effect": "移动成本 空1 陆1 海2"
+     },
+     "g": {
+      "name": "森林",
+      "color": "#4d7c43",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "h": {
+      "name": "沙漠",
+      "color": "#ecd28a",
+      "effect": "移动成本 空1 陆2 海3"
+     },
+     "i": {
+      "name": "城镇",
+      "color": "#c0b8a8",
+      "effect": "移动成本 1"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     }
+    }
    },
    "sources": [
     {
@@ -8029,8 +9829,8 @@
    "map": {
     "frameW": 20,
     "frameH": 23,
-    "status": "verified-points",
-    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "status": "地形已数字化（GX 地图图像，坐标校准验证）",
+    "note": "下图为本关真实地图全图（尺寸与地形来自 GameCenter GX 公布的 FC 原版关卡地图图像）：地形由该图像逐格数字化，网格对齐以 GX 的敌我配置坐标校准——全部初始单位的精灵图与配置坐标逐格吻合，隐藏商店、本拠地等地标亦吻合；地形类别与移动成本依据 GX《地形・移動力》的地形 ID 表。被单位占用的格子，其地形按图块边缘图形推定（实测精度约 96%），极少数无法判定的格子标为未确认。GX 原图坐标以左上 (0,0) 为原点，本站已统一换算为左上 (1,1)。",
     "verifiedPoints": [
      {
       "x": 10,
@@ -8039,7 +9839,64 @@
       "label": "胜利条件目标：巴尔西昂"
      }
     ],
-    "missing": []
+    "missing": [],
+    "terrainGrid": [
+     "wyyyyyyyyyyyyyyyyyyy",
+     "yyyyyywwwwwwwwyyyyyw",
+     "yxxxxwyyyyyyyywxxxxw",
+     "yvvvwyAAA??AAAywvvvw",
+     "yvvwyAAAAAAAAAAywvvw",
+     "yvvwAAAAAAAAAAAAwvvw",
+     "yvvwAAAAAAAAAAAAwvvw",
+     "yvvwAAAAAAAAAAAAwvvw",
+     "yvvwAAAAAAAAAAAAwvvw",
+     "yvvywAAAAAAAAAAwyvvw",
+     "yvvxywAAAAAAAAwyxvvw",
+     "yvvvxyywAAAAwyyxvvvw",
+     "yvwvvxxwvAAvwxxvvwvw",
+     "ywwwvvvwvAAvwvvvwwww",
+     "ywwwvvvwvAAvwvvvwwww",
+     "ywwwvvvwvAAvwvvvwwww",
+     "ywwwvvvwvj?vwvvvwwww",
+     "yywyvvvw????wvvvywyw",
+     "yxyxvvww????wwvvxyxw",
+     "yvxvvwwwvAAvwwwvvxvw",
+     "yvvvvyyyyAAyyyyvvvvw",
+     "y?vvvxxxxAAxxxxvvv?w",
+     "ywwwwwwwwwwwwwwwwwww"
+    ],
+    "terrainLegend": {
+     "A": {
+      "name": "特殊地面",
+      "color": "#e8a33d",
+      "effect": "最终决战大厅的地面"
+     },
+     "j": {
+      "name": "基地",
+      "color": "#93a1b5",
+      "effect": "移动成本 1"
+     },
+     "v": {
+      "name": "通路",
+      "color": "#9a7bc8",
+      "effect": "移动成本 1"
+     },
+     "w": {
+      "name": "地板",
+      "color": "#b6bcc4",
+      "effect": "移动成本 1"
+     },
+     "x": {
+      "name": "通路（阴影）",
+      "color": "#7a5da8",
+      "effect": "移动成本 1"
+     },
+     "y": {
+      "name": "墙壁",
+      "color": "#666c76",
+      "effect": "不可进入"
+     }
+    }
    },
    "sources": [
     {
