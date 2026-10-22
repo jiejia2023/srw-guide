@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import games from '../../data/games.json';
+import { href } from '../../lib/site';
+
+export function getStaticPaths() {
+  const map = new Map();
+  for (const g of games) {
+    if (!map.has(g.platformSlug)) map.set(g.platformSlug, { label: g.platformLabel, list: [] });
+    map.get(g.platformSlug).list.push(g);
+  }
+  return [...map.entries()].map(([slug, v]) => ({
+    params: { slug },
+    props: { label: v.label, list: v.list.sort((a, b) => a.year - b.year) },
+  }));
+}
+const { label, list } = Astro.props;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '平台' },
+  { label },
+];
+---
+<Base title={`${label} 平台的超级机器人大战`} description={`首发于 ${label} 平台的超级机器人大战系列游戏共 ${list.length} 款，按年代排列，点进任意一款查看关卡攻略、隐藏要素与机体图鉴。`} path={`platform/${Astro.params.slug}/`} breadcrumbs={crumbs}>
+  <h1>{label} 平台的超级机器人大战</h1>
+  <p>以下为首发平台为 {label} 的作品，共 {list.length} 款，按年代从小到大排列。移植到其他平台的版本会在各游戏页面的“全部平台”里列出。</p>
+  <div class="grid">
+    {list.map(g => (
+      <a class="card" href={href(`${g.slug}/`)}>
+        <span class="card-title">{g.zh}</span>
+        <span class="meta">{g.en}</span>
+        <span class="meta">{g.year} 年 · 首发 {g.release}</span>
+        <span><span class="tag">{g.series}</span><span class="tag">{g.platforms.join(' / ')}</span></span>
+      </a>
+    ))}
+  </div>
+</Base>
