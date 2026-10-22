@@ -1,0 +1,622 @@
+{
+ "groups": [
+  {
+   "title": "共通编（第1–7话）",
+   "intro": "两条路线共通的开局 7 话：巴尔玛来袭、超级机器人与里格·米利提亚相继集结。第 7 话结束时做出全作唯一的大分岐选择——随大空魔龙返回日本走地球编，留在欧洲走宇宙编；两线在最终话前不再汇合。",
+   "rows": [
+    {
+     "code": "1",
+     "zh": "谜之侵略者",
+     "ja": "Nazo no Shinryakusha",
+     "en": "Mysterious Invaders",
+     "type": "主线",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "2",
+     "zh": "特莱达G7登场",
+     "ja": "Trider G-7 Toujou",
+     "en": "The Trider G-7 Appears",
+     "type": "主线",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "3",
+     "zh": "光子力研究所",
+     "ja": "Koushiryoku Kenkyuujo",
+     "en": "Photon Power Laboratory",
+     "type": "主线",
+     "area": "地球（光子力研究所）",
+     "note": ""
+    },
+    {
+     "code": "4",
+     "zh": "里格·米利提亚",
+     "ja": "Riga Militia",
+     "en": "League Militaire",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "5",
+     "zh": "伊达隆盛",
+     "ja": "Ryuusei Date",
+     "en": "Ryuusei Date",
+     "type": "主线",
+     "area": "地球（光子力研究所）",
+     "note": ""
+    },
+    {
+     "code": "6",
+     "zh": "卡萨雷利亚据点",
+     "ja": "Point Kasaleria",
+     "en": "Point Kasaleria",
+     "type": "主线",
+     "area": "阿尔卑斯（卡萨雷利亚）",
+     "note": ""
+    },
+    {
+     "code": "7",
+     "zh": "克罗尼克的反击",
+     "ja": "Chronicle Gyakushuu",
+     "en": "Chronicle Strikes Back",
+     "type": "分岐",
+     "area": "欧洲",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "宇宙编（第8–35话·宇宙线）",
+   "intro": "留在欧洲、进而升上宇宙的真实系路线：以里格·米利提亚与隆德·贝尔为中心，战术性更高（护卫关多、室内图多）。第 21 话的护卫表现决定 V2 的部件，第 28/32/34 话藏着希罗与飞翼高达的完整取得链。",
+   "rows": [
+    {
+     "code": "8S",
+     "zh": "维斯帕与外星人",
+     "ja": "Vespa to Iseijin",
+     "en": "Vespa and the Aliens",
+     "type": "主线",
+     "area": "欧洲（基地）",
+     "note": ""
+    },
+    {
+     "code": "9S",
+     "zh": "战士的光辉",
+     "ja": "Senshi no Kagayaki",
+     "en": "A Warrior's Brilliance",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "10S",
+     "zh": "心",
+     "ja": "Kokoro",
+     "en": "Heart",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "11S",
+     "zh": "加达尔队",
+     "ja": "GADDARU-Tai",
+     "en": "The Gaddarl Squadron",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "12S",
+     "zh": "闪耀的修拉克队",
+     "ja": "Senretsu SHURAKKU-Tai",
+     "en": "The Dazzling Shrack Squadron",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "13S",
+     "zh": "启程",
+     "ja": "Tabidachi",
+     "en": "Departure",
+     "type": "主线",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "14S",
+     "zh": "波鲁特斯无法合体",
+     "ja": "Voltes Gattai Fukanou",
+     "en": "Voltes, Unable to Combine",
+     "type": "事件话",
+     "area": "欧洲",
+     "note": ""
+    },
+    {
+     "code": "15S",
+     "zh": "直布罗陀空域",
+     "ja": "Gibraltar Kuuiki",
+     "en": "Gibraltar Airspace",
+     "type": "主线",
+     "area": "直布罗陀空域",
+     "note": ""
+    },
+    {
+     "code": "16S",
+     "zh": "里恩霍斯起飞",
+     "ja": "RIINHOOSU Ujou",
+     "en": "The Lean Horse Takes Off",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "17S",
+     "zh": "谜之敌战舰",
+     "ja": "Nazo no Teki Senkan",
+     "en": "Mysterious Enemy Battleship",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "18S",
+     "zh": "化作蓝色流星",
+     "ja": "Aoki Ryuusei to Natte",
+     "en": "Becoming the Blue Comet",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "19S",
+     "zh": "巨炮",
+     "ja": "Big Cannon",
+     "en": "Big Cannon",
+     "type": "主线",
+     "area": "宇宙（凯拉斯·吉利）",
+     "note": ""
+    },
+    {
+     "code": "20S",
+     "zh": "月面坠落作战",
+     "ja": "Tsukimen Rakka Sakusen",
+     "en": "Operation to Crash on the Moon",
+     "type": "主线",
+     "area": "月面（圣约瑟夫市）",
+     "note": ""
+    },
+    {
+     "code": "21S",
+     "zh": "月之守护者",
+     "ja": "Moon Guardian",
+     "en": "Moon Guardian",
+     "type": "主线",
+     "area": "月面",
+     "note": ""
+    },
+    {
+     "code": "22S",
+     "zh": "赞斯卡尔的阴谋",
+     "ja": "ZANSUKAARU no Giwaku",
+     "en": "Schemes of the Zanscare",
+     "type": "主线",
+     "area": "宇宙（白方舟）",
+     "note": ""
+    },
+    {
+     "code": "23S",
+     "zh": "阿姆罗与夏亚",
+     "ja": "Amuro and Char",
+     "en": "Amuro and Char",
+     "type": "主线",
+     "area": "Side 6",
+     "note": ""
+    },
+    {
+     "code": "24S",
+     "zh": "真意",
+     "ja": "Shin'i",
+     "en": "True Intentions",
+     "type": "主线",
+     "area": "月面",
+     "note": ""
+    },
+    {
+     "code": "25S",
+     "zh": "摩托拉德舰队",
+     "ja": "MOTORADDO Kantai",
+     "en": "The Motolard Fleet",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "26S",
+     "zh": "新的力量",
+     "ja": "Arata Naru Chikara",
+     "en": "A New Power",
+     "type": "主线",
+     "area": "Side 2",
+     "note": ""
+    },
+    {
+     "code": "27S",
+     "zh": "Side5之谜",
+     "ja": "SAIDO 5 no Nazo",
+     "en": "The Mystery of Side 5",
+     "type": "主线",
+     "area": "Side 5",
+     "note": ""
+    },
+    {
+     "code": "28S",
+     "zh": "宇宙的墓场",
+     "ja": "Uchuu no Hakaba",
+     "en": "The Graveyard of Space",
+     "type": "事件话",
+     "area": "Side 5",
+     "note": ""
+    },
+    {
+     "code": "29S",
+     "zh": "佯动作战",
+     "ja": "Indou Sakusen",
+     "en": "Diversion",
+     "type": "主线",
+     "area": "宇宙（敌基地）",
+     "note": ""
+    },
+    {
+     "code": "30S",
+     "zh": "SRX启动",
+     "ja": "SRX Hatsudou",
+     "en": "SRX, Engage",
+     "type": "主线",
+     "area": "宇宙（敌基地内部）",
+     "note": ""
+    },
+    {
+     "code": "31S",
+     "zh": "天使光环",
+     "ja": "Angel Heiro",
+     "en": "Angel Halo",
+     "type": "主线",
+     "area": "天使光环",
+     "note": ""
+    },
+    {
+     "code": "32S",
+     "zh": "天使们的升天",
+     "ja": "Tenshi-tachi no Jouten",
+     "en": "Angels' Ascent",
+     "type": "主线",
+     "area": "天使光环内部",
+     "note": ""
+    },
+    {
+     "code": "33S",
+     "zh": "战场回响的铃音",
+     "ja": "Senba ni Hibiku Suzu no Oto",
+     "en": "A Bell Resounding Across the Battlefield",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "34S",
+     "zh": "逆袭的夏亚",
+     "ja": "Gyakushuu no SHAA",
+     "en": "Char's Counterattack",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "35S",
+     "zh": "决战！赫尔摩兹",
+     "ja": "Kessen! HERUMOOZU",
+     "en": "Final Battle of the Helmoze",
+     "type": "路线最终话",
+     "area": "宇宙（赫尔摩兹）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "地球编（第8–35话·地上线）",
+   "intro": "随大空魔龙返回日本的超级机器人路线：围绕特洛尼姆与姆大陆展开。第 19–20 话是全作最重要的分岐与说得链（海涅尔），第 28 话的选择（阿伦比／玲）互斥，第 29 话由地表与洞窟两张地图构成、分设两页。",
+   "rows": [
+    {
+     "code": "8E",
+     "zh": "高达格斗",
+     "ja": "Gundam Fight",
+     "en": "Gundam Fight",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "9E",
+     "zh": "SRX计划",
+     "ja": "SRX Keikaku",
+     "en": "The SRX Project",
+     "type": "主线",
+     "area": "大阪",
+     "note": ""
+    },
+    {
+     "code": "10E",
+     "zh": "天才驾驶员莱",
+     "ja": "Tensai PAIROTTO Rai",
+     "en": "Rai, the Genius Pilot",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "11E",
+     "zh": "大空魔龙防卫命令",
+     "ja": "Taikuu Maryuu Bougyou Meirei",
+     "en": "The Order to Defend the Daikuu Maryuu",
+     "type": "主线",
+     "area": "日本（大空魔龙）",
+     "note": ""
+    },
+    {
+     "code": "12E",
+     "zh": "第一次调查",
+     "ja": "Hajimete no Chousa",
+     "en": "First Investigation",
+     "type": "主线",
+     "area": "海底（敌基地）",
+     "note": ""
+    },
+    {
+     "code": "13E",
+     "zh": "希罗与莉莉娜",
+     "ja": "Hiiro and Rilina",
+     "en": "Heero and Rilina",
+     "type": "主线",
+     "area": "日本（光子力研究所）",
+     "note": ""
+    },
+    {
+     "code": "14E",
+     "zh": "其名为东方不败",
+     "ja": "Sono Na wa Touhou Fuhai",
+     "en": "His Name is Touhou Fuhai",
+     "type": "主线",
+     "area": "新宿",
+     "note": ""
+    },
+    {
+     "code": "15E",
+     "zh": "抢夺",
+     "ja": "Goudatsu",
+     "en": "Theft",
+     "type": "主线",
+     "area": "日本（大学）",
+     "note": ""
+    },
+    {
+     "code": "16E",
+     "zh": "先制攻击",
+     "ja": "Sensei Kougeki",
+     "en": "Preemptive Strike",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "17E",
+     "zh": "特训！波鲁特斯队",
+     "ja": "Tokkun! VORUCHESU CHIIMU",
+     "en": "Special Training for the Voltes Team",
+     "type": "主线",
+     "area": "日本（基地）",
+     "note": ""
+    },
+    {
+     "code": "18E",
+     "zh": "其名为英治",
+     "ja": "Kare no Na wa EIJI",
+     "en": "His Name Is Age",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "19E",
+     "zh": "波亚桑的骄傲",
+     "ja": "BOAZAN no Hokori",
+     "en": "Boazan's Pride",
+     "type": "分岐",
+     "area": "波亚桑基地",
+     "note": ""
+    },
+    {
+     "code": "20EA",
+     "zh": "背叛（反击线）",
+     "ja": "Uragiri",
+     "en": "Betrayal (20EA)",
+     "type": "分岐",
+     "area": "波亚桑基地",
+     "note": "第19话反击了江加尔的自杀攻击时进入"
+    },
+    {
+     "code": "20EB",
+     "zh": "背叛（未反击线）",
+     "ja": "Uragiri",
+     "en": "Betrayal (20EB)",
+     "type": "分岐",
+     "area": "波亚桑基地",
+     "note": "第19话没有反击时进入"
+    },
+    {
+     "code": "21E",
+     "zh": "内萨出击",
+     "ja": "NESSAA Hasshin",
+     "en": "Launch the Nessar",
+     "type": "主线",
+     "area": "马里亚纳海沟",
+     "note": ""
+    },
+    {
+     "code": "22E",
+     "zh": "黑色科学",
+     "ja": "Kuroi Kagaku",
+     "en": "Black Science",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "23E",
+     "zh": "式队戈斯特洛",
+     "ja": "Shikitai GOSUTERO",
+     "en": "The Shiki Squad Ghostelo",
+     "type": "主线",
+     "area": "海底洞窟（敌基地）",
+     "note": ""
+    },
+    {
+     "code": "24E",
+     "zh": "因缘的再会",
+     "ja": "In'en no Saikai",
+     "en": "Fated Reunion",
+     "type": "主线",
+     "area": "姆大陆遗迹",
+     "note": ""
+    },
+    {
+     "code": "25E",
+     "zh": "式队的复仇",
+     "ja": "Shikitai no Fukushuu",
+     "en": "Revenge of the Shiki Squad",
+     "type": "主线",
+     "area": "姆大陆神殿",
+     "note": ""
+    },
+    {
+     "code": "26E",
+     "zh": "黑暗的高达",
+     "ja": "Ankoku no Gundam",
+     "en": "The Gundam of Darkness",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "27E",
+     "zh": "最强最恶 恶魔高达",
+     "ja": "Saikyou Saiaku DEBIRU GANDAMU",
+     "en": "The Strongest, Evilest Devil Gundam",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "28E",
+     "zh": "危险的阿伦比",
+     "ja": "Dangerous Allenbie",
+     "en": "Dangerous Allenby",
+     "type": "分岐",
+     "area": "加德满都",
+     "note": ""
+    },
+    {
+     "code": "29E-1",
+     "zh": "探查（地表）",
+     "ja": "Tansa",
+     "en": "Surveillance (Surface)",
+     "type": "主线",
+     "area": "日本（敌基地·地表）",
+     "note": "第29话前半：地表地图"
+    },
+    {
+     "code": "29E-2",
+     "zh": "探查（洞窟）",
+     "ja": "Tansa",
+     "en": "Surveillance (Cave)",
+     "type": "主线",
+     "area": "日本（敌基地·洞窟）",
+     "note": "第29话后半：洞窟地图"
+    },
+    {
+     "code": "30E",
+     "zh": "绯红的V-MAX",
+     "ja": "Kurenai no V-Max",
+     "en": "Scarlet V-Max",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "31E",
+     "zh": "明镜止水",
+     "ja": "Meikyou Shisui",
+     "en": "Clear Mirror of Still Water",
+     "type": "主线",
+     "area": "日本",
+     "note": ""
+    },
+    {
+     "code": "32E",
+     "zh": "香港死斗",
+     "ja": "Honkon no Shitou",
+     "en": "Hong Kong Deathmatch",
+     "type": "主线",
+     "area": "香港",
+     "note": ""
+    },
+    {
+     "code": "33E",
+     "zh": "烂头岛的秘密",
+     "ja": "Rantao-jima no Himitsu",
+     "en": "The Secret of Lantao Island",
+     "type": "主线",
+     "area": "烂头岛",
+     "note": ""
+    },
+    {
+     "code": "34E",
+     "zh": "石破天惊拳",
+     "ja": "Sekiha Ten-Kyou-Ken",
+     "en": "Sekiha Tenkyouken",
+     "type": "主线",
+     "area": "烂头岛",
+     "note": ""
+    },
+    {
+     "code": "35E",
+     "zh": "地球篇最终决战",
+     "ja": "Final Battle",
+     "en": "Final Battle (Earth Route)",
+     "type": "路线最终话",
+     "area": "烂头岛（恶魔高达）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终话（双线通关后解锁）",
+   "intro": "地球编、宇宙编都通关并互相读取通关存档后开放的真正最终话：由 3 段地图构成，两队合并迎战以戈斯特洛为核心的恶魔高达；全部强化部件在本关不可使用。",
+   "rows": [
+    {
+     "code": "36",
+     "zh": "疯狂的力量",
+     "ja": "Kyouki no Chikara",
+     "en": "The Power of Madness",
+     "type": "最终话",
+     "area": "拉·维·恩·玫瑰",
+     "note": "须先通关两条路线"
+    }
+   ]
+  }
+ ]
+}

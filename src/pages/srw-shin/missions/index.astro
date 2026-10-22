@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwShinMissionList from '../../../components/SrwShinMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '新超级机器人大战', path: 'srw-shin/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="新超级机器人大战（PS）关卡攻略 · 全66个剧本详情页列表" description="新超级机器人大战（1996年 PS）全部剧本的链接索引：共通编 7 话、宇宙编 28 话、地球编 30 页（含第20话双版本与第29话双地图）、最终话 1 话，合计 66 个详情页（官方计数全 67 话）。每一话有独立攻略页：出击条件、我方参战、剧情事件、隐藏要点与埋藏道具坐标地图。本页为链接索引。" path="srw-shin/missions/" breadcrumbs={crumbs}>
+  <h1>新超级机器人大战 · 关卡攻略</h1>
+  <p>1996 年 PS《新超级机器人大战》是系列在 PlayStation 上的第一部原创作品：机体以<strong>真实比例</strong>（非 SD）绘制、全员语音战斗动画，故事为<strong>独立作品</strong>（原定作为与 DC 战争并行的新系列开篇，续作取消后其谱系由《α》继承）。全作由<strong>共通编 7 话</strong>开局，第 7 话末二选一分岐为<strong>地球编</strong>（超级机器人中心）与<strong>宇宙编</strong>（真实系机器人中心），两线各 28 话；两条路线都通关并互相读取通关存档后，解锁由 3 段地图构成的<strong>最终话</strong>。官方计数为<strong>全 67 话</strong>（日文维基：地上编+宇宙编合计 66 话、双线通关后 +1 话；Namu Wiki 同记 67 话）。本站枚举并建立 <strong>66 个详情页</strong>：共通 7 + 宇宙 28 + 地球 30（第 20 话按第 19 话的反击与否分为 20EA/20EB 两页、第 29 话按地表/洞窟两张地图分设两页）+ 最终话 1。本页只是链接索引——每一话的完整攻略（条件、参战、事件、隐藏要点、埋藏道具坐标地图）都在各自的详情页里。本页与<a href={href('srw-shin/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第七部<strong>全关卡补完</strong>的作品（按发售顺序逐作补完，初代、第2次、第3次、EX、第4次、魔装机神已完成）。流程与参战来自 Neidengard 的 GameFAQs 攻略，隐藏要素以 Akurasu 的本作 Secrets 页为准，宇宙编胜负条件另以 Kurisu 实况日志交叉核对，埋藏道具坐标来自 J_Ong 的 FAQ，全话数以日文维基与 Namu Wiki 交叉核对。<strong>如实说明</strong>：(1) 官方 67 话与本站 66 页相差 1 话——Kurisu 实况称本作「有一处可按情况进入三个剧本之一」，Neidengard 攻略只记载了第 20 话的两种版本（反击/未反击），第三种版本（第 19 话击坠江加尔时）的独立剧本内容在公开来源中无记载，本站将其作为待核实注记写在 20EA/20EB 页内，不虚构页面。(2) 本作没有公开的逐关敌方配置（等级／坐标）来源——GameCenter GX 未收录本作、Akurasu 本作只有隐藏要素页——各话的「敌方出场与增援」一节标为<strong>待核实</strong>；胜利/败北条件只在来源明确记载时刊出，未记载的同标待核实。(3) 日文标题一栏为 Neidengard 攻略所载的日文<strong>罗马字转写</strong>（日文原文标题未在公开来源中逐话收录）。</span>
+  </div>
+
+  <SrwShinMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://www.neoseeker.com/shin-super-robot-taisen/faqs/101657-b.html" rel="noopener" target="_blank">GameFAQs 攻略（M. Neidengard 著，Neoseeker 镜像）</a>（逐关剧情与流程要点、全剧本罗马字标题与英译）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Shin/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars/Shin/Secrets</a>（最终话解锁条件、隐藏机体与部件的取得条件与坐标范围）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps/573506-shin-super-robot-taisen/faqs/4592" rel="noopener" target="_blank">GameFAQs FAQ（J_Ong 著）</a>（全关埋藏道具坐标，含作者的 ±1 坐标注记）</li>
+    <li><a href="https://www.rpgblog.net/srpg-game-68-shin-super-robot-taisen-playstation/" rel="noopener" target="_blank">Kurisu's Chronogaming — SRPG Game 68: Shin Super Robot Taisen</a>（宇宙编逐关实况、胜负条件、剧本数与系统对照）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E6%96%B0%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6" rel="noopener" target="_blank">日文维基百科 — 新スーパーロボット大戦</a>（全话数构成、两编结构、系统、参战作品、发售信息）</li>
+  </ul>
+  <p><a href={href('srw-shin/')}>← 返回新超级机器人大战</a></p>
+</Base>

@@ -8,6 +8,7 @@ import Srw3MissionList from '../../components/Srw3MissionList.astro';
 import SrwExMissionList from '../../components/SrwExMissionList.astro';
 import Srw4MissionList from '../../components/Srw4MissionList.astro';
 import SrwMasoukishinMissionList from '../../components/SrwMasoukishinMissionList.astro';
+import SrwShinMissionList from '../../components/SrwShinMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -22,6 +23,7 @@ const isSrw3 = g.slug === 'srw-3';
 const isSrwEx = g.slug === 'srw-ex';
 const isSrw4 = g.slug === 'srw-4';
 const isMasoukishin = g.slug === 'srw-masoukishin';
+const isShin = g.slug === 'srw-shin';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -423,6 +425,53 @@ const isMasoukishin = g.slug === 'srw-masoukishin';
     </div>
   )}
 
+  {isShin && (
+    <div>
+      <h2>剧情概要：独立世界观的两编物语</h2>
+      <p>本作是<strong>独立作品</strong>，不属于 DC 战争系列：它原定作为与 DC 战争并行的<strong>新系列</strong>的开篇，但续作被取消（开发资源转向《F》），其剧本谱系后来由《α》继承——原创的 SRX 小队（伊达隆盛、莱迪斯·F·布兰斯坦、小林彩）与巴尔玛帝国都源自本作（日文维基）。舞台是人类进入宇宙一个世纪后的世界：地球、月球与 7 大殖民地群各自独立，外星帝国<strong>巴尔玛</strong>趁乱侵略；<strong>赞斯卡尔帝国</strong>利用混乱征服欧洲，里格·米利提亚奋起抵抗。<strong>地球编</strong>围绕全新能量源「特洛尼姆」展开：东方不败盗走大部分特洛尼姆，决战之地是大屿山——他实为与巴尔玛敌对的杜格联邦外星人，最终战是失控的恶魔高达。<strong>宇宙编</strong>是里格·米利提亚与隆德·贝尔夺取凯拉斯·吉利的战线：田代提督政变使赞斯卡尔投向侵略者，夏亚的新吉翁成为侵略者的先锋，最终战是戈特佐的兹菲尔德。</p>
+
+      <h2>两编结构（共通 7 话 + 双线各 28 话 + 最终话）</h2>
+      <p>全作官方计数<strong>全 67 话</strong>（日文维基：地上编+宇宙编合计 66 话、双线通关后 +1 话；Namu Wiki 同记 67 话）。共通编 7 话之后，在第 7 话末二选一：随大空魔龙返回日本进入<strong>地球编</strong>（超级机器人中心、战术性较低），留在欧洲进入<strong>宇宙编</strong>（真实系机器人中心、战术性较高，护卫关与室内图多）。两条路线在最终话前不再汇合，且<strong>两条路线都必须通关</strong>（各做一份通关存档、互相读取）才能解锁最终话——最终话由 3 段地图构成，两队合并出击。本站枚举的剧本为共通 7 + 宇宙 28 + 地球 28（第 20 话含 EA/EB 双版本、第 29 话含地表/洞窟双地图）+ 最终话 1，合计 <strong>66 个详情页</strong>；与官方计数相差的 1 话是第 20 话的第三种版本（详见 20EA/20EB 页的注记），其独立内容无公开记载，标为待核实。</p>
+
+      <h2>本作的系统（系列的转折点）</h2>
+      <ul>
+        <li><strong>真实比例 + 全员语音。</strong>本作是系列首次把机体按<strong>真实比例</strong>（非 SD）绘制的作品（其后只有《魔装机神》系列沿用）；全部驾驶员（敌我双方）的战斗动画都有<strong>全语音</strong>演绎，亦为系列首次；驾驶员切入图（カットイン）也在本作登场。相应的代价是战斗动画读盘很慢（约 20 秒）且不可跳过——当年的攻略与实况都对这一点多有抱怨。</li>
+        <li><strong>改造：机体 7 段、武器 15 段。</strong>机体改造上限 7 段（如《第4次》）；武器改为<strong>逐件个别改造、上限 15 段</strong>，部分武器改造到 8 段会变为地图兵器；武器有 5 种不同的成长率表。EN 与极限（Limit）上限 255，移动力上限 15。<strong>强化部件每台 2 格</strong>；但全部已取得部件在最终话会被移除、不可使用。</li>
+        <li><strong>SRX 本体不可改造。</strong>SRX 的机体与武器都不能改造；其合体形态在每场战斗中<strong>只能维持 3 回合</strong>（对应设定中的「3 分钟」），之后强制分离，当场战斗内不能再合体（任意分离后也一样）。最终话的特例：若在第 1 段保持合体进入最终段，开局仍是合体状态。</li>
+        <li><strong>气力改称「战意」。</strong>本作把系列惯例的「气力」改名为「戦意」，规则本身沿旧制——这是全系列仅此一作的改名。</li>
+        <li><strong>技能的细化。</strong>二回行动按角色个别等级习得（盖塔队三人各不相同：龙马 37、隼人 35、弁庆 41；变形后行动可能丢失）；盾防御与切払为等级制，发动率 = 等级/16，最高 6 级；漏斗在本作算<strong>实弹</strong>，可以被切落；底力只提升暴击率（如《第4次》）；<strong>新人类技能在系列中首次带有能力补正</strong>，但本作不是等级制、补正值也小。说明书中记载的 Counter 与 Continuous Attack 两个技能实际并未在游戏中登场。</li>
+        <li><strong>精神指令的要点。</strong>全作的精神名单与 SP 本站尚未核实到可逐条引用的公开表，此处只记有来源注记的几条：<strong>「探索」</strong>是探查埋藏道具的必备精神——本作资金紧缺、每关都有埋藏资金与部件，找道具近乎必修课（Namu 亦强调）；「幸运」同时使资金与经验值翻倍（Neidengard 攻略）；部分精神（如「激励」类）只能对相邻单位使用（同上）。</li>
+        <li><strong>幕间的形态管理。</strong>变形与合体在幕间就要先设定好：若把单位留在飞行形态，在不能飞行的地图上它将无法出击；合体机与分机各有独立的装备栏（Neidengard 攻略）。</li>
+      </ul>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素密度高且多为<strong>长线链条</strong>（一步错过、全程失效），各步的具体做法写在对应剧本的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>海涅尔与戈多尔（说得）</td><td>地球编 19E → 20EA/20EB → 22E → 最终话</td><td>19E 把江加尔分两次打到 45%/20% 以下且不反击骷髅鲁克；20 话用波鲁特斯V 说得 3 次；22E 后离队，最终话在左上区域迎回</td></tr>
+            <tr><td>希罗与飞翼高达</td><td>宇宙编 28S/32S → 34S</td><td>先用希罗击破杰克斯（28S 或 32S），34S 再让杰克斯击破我方一台，希罗即出现并加入</td></tr>
+            <tr><td>V2 高达部件（Buster/Assault）</td><td>宇宙编 21S → 26S → 33S</td><td>21S 用拉·凯拉姆地图攻击击坠一艘撤离梭得 Buster、不击坠得 Assault；26S 取得，33S 强制合成为 Assault Buster</td></tr>
+            <tr><td>凯特·布什的生死</td><td>宇宙编 15S</td><td>敌人到达质量投射器旁的空格，凯特将永久死亡——必须封锁</td></tr>
+            <tr><td>莱汀隐藏武器（God Voice／真戈尔贡之剑）</td><td>地球编 25E</td><td>把莱汀移动到神殿内两处特定坐标（见该页地图；Akurasu 与 Neidengard 的坐标轴读法有分歧，已在该页注明）</td></tr>
+            <tr><td>强化雷兹纳／雷兹纳 Mk II</td><td>地球编 25E → 33E</td><td>25E 让大空魔龙被式队攻击（触发 V-MAX 事件），33E 英治驾驶强化雷兹纳归队；否则为 Mk II</td></tr>
+            <tr><td>阿伦比说得／玲的旭日高达（互斥）</td><td>地球编 28E → 32E</td><td>28E 选「与阿伦比决着」→ 32E 用多蒙说得 2 次得诺贝尔高达；选「追玲」→ 32E 玲得旭日高达，只能取其一</td></tr>
+            <tr><td>最终话的 4 处迎回</td><td>最终话第 2 段</td><td>多蒙/英治/希罗/波鲁特斯V 分别进入 4 处坐标区域，迎回修瓦尔兹、茱莉亚、杰克斯、海涅尔（坐标范围见最终话页）</td></tr>
+            <tr><td>埋藏道具（全关）</td><td>全部剧本</td><td>每关都有埋藏资金与强化部件（两条路线最终话无），移动到所在格用精神「探索」探查；坐标全表见各话页（J_Ong FAQ）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>参战作品（13 作）</h2>
+      <p>超兽机神断空我、★苍蓝流星 SPT 雷兹纳、机动战士高达 逆袭的夏亚（其剧情在系列中首次被再现）、☆机动战士V高达、☆机动武斗传G高达、★新机动战记高达W（放送中参战，故只有少量角色登场、无飞翼高达零式）、★无敌机器人 特莱达G7、魔神Z（魔神系列只有本作参战）、真盖塔机器人（漫画版——实质取材自《盖塔机器人号》，弁庆由石川贤为本作新绘）、★超电磁机器人 波鲁特斯V、★大空魔龙 盖因格、勇者莱汀、超机大战SRX（原创）。★ 为系列初参战、☆ 为家用机初登场（日文维基）。除原创外全部是 Sunrise 作品；本作没有 Z 高达与 ZZ 高达。</p>
+
+      <h2>其他版本（概要）</h2>
+      <p>本站逐话攻略以 <strong>1996 年 PS 原版</strong>为准。其他版本只作概要：<strong>The Best 版</strong>（1998 年 8 月 6 日）、<strong>Game Archives 版</strong>（2011 年 7 月 6 日配信）。另有粉丝向碟片<strong>《新超级机器人大战 Special Disc》</strong>（1997 年 3 月 28 日），收录自由战斗模式、奖励地图与画集/设定集，不属于本篇攻略范围。</p>
+      <p class="text-sm text-base-content/60">版本信息据日文维基百科本作条目。</p>
+    </div>
+  )}
+
   {isSrwEx && (
     <div>
       <h2>剧情概要：拉·基亚斯事件</h2>
@@ -554,6 +603,11 @@ const isMasoukishin = g.slug === 'srw-masoukishin';
     <div>
       <p>本作 103 个剧本<strong>全部建有独立攻略页</strong>（每一个剧本一个详情页，含第1章全部早期分岐、第2章三条终盘路线与 4 个最终关）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜利条件、出击条件、分支条件、参战与加入、隐藏要点与坐标地图（敌方逐关配置与败北条件待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-masoukishin/missions/')}>关卡总表页</a>，内容与下表相同。注：下表「日文名」为来源所载的日文标题罗马字转写，日文原文标题未在公开来源中逐话收录。</p>
       <SrwMasoukishinMissionList />
+    </div>
+  ) : isShin ? (
+    <div>
+      <p>本作官方计数 67 话，本站建有 <strong>66 个独立攻略页</strong>（共通编 7、宇宙编 28、地球编 30——含第 20 话 EA/EB 双版本与第 29 话双地图、最终话 1；与官方相差的第 20 话第三版本无公开内容记载，注记在 20EA/20EB 页内）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的出击条件、参战与加入、剧情事件、隐藏要点与埋藏道具坐标地图（敌方逐关配置待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-shin/missions/')}>关卡总表页</a>，内容与下表相同。注：下表「日文名」为来源所载的日文标题罗马字转写，日文原文标题未在公开来源中逐话收录。</p>
+      <SrwShinMissionList />
     </div>
   ) : isSrw30 ? (
     <div>
