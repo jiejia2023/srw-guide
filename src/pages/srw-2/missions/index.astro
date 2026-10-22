@@ -1,0 +1,27 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Srw2MissionList from '../../../components/Srw2MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战', path: 'srw-2/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第2次超级机器人大战（FC）关卡攻略 · 全26话列表" description="第2次超级机器人大战（1991年 FC）全 26 话关卡列表：单线流程、无分岐无隐藏关卡，每一话都有独立攻略页，含胜利/败北条件、敌方配置与坐标、说得对象、隐藏商店位置与坐标地图。本页为链接索引。" path="srw-2/missions/" breadcrumbs={crumbs}>
+  <h1>第2次超级机器人大战 · 关卡攻略</h1>
+  <p>1991 年 FC（红白机）《第2次超级机器人大战》全 26 话。本作是系列的转折点：<strong>驾驶员</strong>与<strong>精神指令</strong>在本作首次登场，还引入了<strong>资金</strong>与隐藏商店；但 FC 原版<strong>没有机体改造系统</strong>，流程也是完全单线的——<strong>没有路线分岐、没有隐藏关卡</strong>（分岐与 V/G 高达参战是 GB 版《第2次G》的内容，不要混淆）。本作的隐藏要素在系统层：7 组<strong>说得</strong>对象与 12 处<strong>隐藏商店</strong>，全部写在各话详情页内。本页只是链接索引——每一话的完整攻略（条件、敌方配置与坐标、增援、说得与商店、坐标地图）都在各自的详情页里。本页与<a href={href('srw-2/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第二部<strong>全关卡补完</strong>的作品——26 话全部建有详情页（按发售顺序逐作补完，初代已完成）。敌方配置（含等级、坐标）来自 GameCenter GX 的 FC 原版逐关解析表，并与 Akurasu 流程图交叉核对；GX 原表坐标为左上 (0,0)，本站已统一换算为 (1,1)。地图边界与逐格地形未逐格核实，在各关地图一节中如实标注。</span>
+  </div>
+
+  <Srw2MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://gcgx.games/srw2/" rel="noopener" target="_blank">GameCenter GX — 第2次スーパーロボット大戦 攻略・解析</a>（敌配置坐标、说得条件、隐藏商店、精神指令与系统解析）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — 2nd Super Robot Wars Flow Chart</a>（流程与胜败条件交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-2/')}>← 返回第2次超级机器人大战</a></p>
+</Base>

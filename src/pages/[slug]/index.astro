@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import games from '../../data/games.json';
 import Srw30MissionList from '../../components/Srw30MissionList.astro';
 import Srw1MissionList from '../../components/Srw1MissionList.astro';
+import Srw2MissionList from '../../components/Srw2MissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -12,6 +13,7 @@ const { game: g } = Astro.props;
 const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
 const isSrw30 = g.slug === 'srw-30';
 const isSrw1 = g.slug === 'srw-1';
+const isSrw2 = g.slug === 'srw-2';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -75,11 +77,104 @@ const isSrw1 = g.slug === 'srw-1';
     </div>
   )}
 
+  {isSrw2 && (
+    <div>
+      <h2>剧情概要：DC 战争</h2>
+      <p>比安·佐尔达克预见到外星人的侵攻，为团结世界、备战外星人而创立军事组织 DC（Divine Crusaders），并凭借压倒性的战力支配了世界八成。逃出的反抗者以白色要塞的成员为中心，开始了夺回世界的战斗——本作全 26 话即这场「DC 战争」：从地球打到宇宙、再返回地球，最终在黎明决战中直面比安驾驶的巴尔西昂。本作也是系列原创角色<strong>正树安藤与塞巴斯塔的初登场</strong>（第 6 话客串、第 7 话开场登场、第 11 话正式加入，详见各话攻略）。</p>
+
+      <h2>本作的系统（与初代、与后世都不同）</h2>
+      <ul>
+        <li><strong>驾驶员登场。</strong>本作起机体有了专属驾驶员（人机固定、不能换乘），并开始再现原作剧情。盖塔系是一机三人：龙马、隼人、武藏各有自己的一套精神指令，战斗中可分别使用。</li>
+        <li><strong>有资金，但没有改造。</strong>资金靠击破敌机逐台获得（本作没有「全灭重试保留资金」的刷法，游戏结束直接回标题，也没有增加资金的精神指令，须每关尽量全歼含增援的敌军攒钱）；用途是修理与隐藏商店购物。<strong>FC 原版没有机体改造（改造）系统</strong>——变强靠升级、商店道具与剧情换装（武器替换/新机体）；10 段改造是 PS 版才加入的。</li>
+        <li><strong>经验只在击破时获得。</strong>只打伤没有经验，补刀留给低等级单位；等级上限 50。双方速度（素早さ）差 50 以上时触发「再攻击」（连续攻击两次）。</li>
+        <li><strong>每台机体只有 2 种武器</strong>，没有弹药与 EN 概念；分直接攻击与间接攻击两类，部分敌机免疫间接攻击（如莱茵X1、古兰森）。</li>
+      </ul>
+
+      <h2>精神指令（系列首作）</h2>
+      <p>精神指令在本作首次登场。规则与后世不同：每位驾驶员的指令组合<strong>从一开始就全部已习得</strong>，但 SP 上限不足的指令不显示，随升级 SP 上限提高后才逐个可用（「根性」「底力」只在 HP 减少时显示）。效果也与后世不同，特别注意：<strong>气合 = 下次攻击伤害 2 倍、热血 = 下次攻击伤害 3 倍</strong>；直感仅命中 +10%。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>指令</th><th>SP</th><th>对象</th><th>效果</th></tr></thead>
+          <tbody>
+            <tr><td>根性</td><td>10</td><td>本人</td><td>回复 HP 50</td></tr>
+            <tr><td>直感</td><td>10</td><td>本人</td><td>下次攻击命中 +10%</td></tr>
+            <tr><td>加速</td><td>10</td><td>本人</td><td>移动力 +3（1 次）</td></tr>
+            <tr><td>忍耐</td><td>20</td><td>本人</td><td>下次所受伤害减半</td></tr>
+            <tr><td>信赖</td><td>30</td><td>友军 1 体</td><td>回复 HP 50</td></tr>
+            <tr><td>必杀</td><td>40</td><td>本人</td><td>下次攻击命中 100%</td></tr>
+            <tr><td>气合</td><td>40</td><td>本人</td><td>下次攻击伤害 2 倍</td></tr>
+            <tr><td>闪烁</td><td>50</td><td>本人</td><td>必定回避下次攻击</td></tr>
+            <tr><td>疾风</td><td>50</td><td>本人</td><td>移动力 +5（1 次）</td></tr>
+            <tr><td>底力</td><td>60</td><td>本人</td><td>HP 全回复</td></tr>
+            <tr><td>牵绊</td><td>70</td><td>友军 1 体</td><td>HP 全回复</td></tr>
+            <tr><td>热血</td><td>80</td><td>本人</td><td>下次攻击伤害 3 倍</td></tr>
+            <tr><td>友情</td><td>80</td><td>友军全体</td><td>回复 HP 50</td></tr>
+            <tr><td>目眩</td><td>100</td><td>敌全体</td><td>命中率减半（1 回合）</td></tr>
+            <tr><td>祈祷</td><td>100</td><td>友军全体</td><td>回复 HP 100</td></tr>
+            <tr><td>愤怒</td><td>100</td><td>敌全体</td><td>随机伤害（数值两源有分歧；击破不给经验）</td></tr>
+            <tr><td>爱</td><td>150</td><td>友军全体</td><td>HP 全回复</td></tr>
+            <tr><td>激怒</td><td>150</td><td>敌全体</td><td>随机 10–255 伤害（击破不给经验）</td></tr>
+            <tr><td>瞬间移动</td><td>150</td><td>友军 1 体</td><td>传送到指定位置</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">精神指令表以 GameCenter GX 精神页为准，与 Akurasu 的 Spirit Commands 表交叉核对（SP 一致）。</p>
+
+      <h2>说得总览（7 组）</h2>
+      <p>本作的说得是<strong>条件式触发</strong>：由特定驾驶员与目标相邻并选择「说得」，满足条件即成功——没有任何来源给出成功率，不要按概率理解。各组的具体做法写在对应话数的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>话数</th><th>对象</th><th>说得者</th><th>条件概要</th><th>在队期间</th></tr></thead>
+          <tbody>
+            <tr><td>第3话</td><td>拉拉（艾尔美斯）</td><td>阿姆罗</td><td>相邻说得</td><td>临时：第7话通关后离队</td></tr>
+            <tr><td>第6话</td><td>机械胡蝶鬼</td><td>流龙马（盖塔）</td><td>先把 HP 打到 199 以下再说得</td><td>临时：第8话通关后离队</td></tr>
+            <tr><td>第8话</td><td>密涅瓦X</td><td>兜甲儿（魔神Z）</td><td>相邻说得</td><td>临时：第9话通关后离队</td></tr>
+            <tr><td>第10话</td><td>凤（精神感应高达）</td><td>卡缪</td><td>第4回合头痛事件后说得</td><td>至第13话</td></tr>
+            <tr><td>第13话→第17话</td><td>普露（卡碧尼Mk-II）</td><td>捷多</td><td>第13话说得 1 次（撤离）→ 第17话说得 2 次正式入队</td><td>正式（第19话与普露2 二选一）</td></tr>
+            <tr><td>第19话→第22话</td><td>普露2（精神感应高达Mk-II）</td><td>捷多</td><td>第19话须让普露被普露2 击破（普露死亡），第22话说得入队</td><td>正式（与普露 二选一）</td></tr>
+            <tr><td>第16话→第25话</td><td>塞西莉（比基纳·基纳）</td><td>西布克</td><td>第16话说得（停战）→ 第25话再说得变为 NPC 友军</td><td>FC 原版不可操控，第25话后离队</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>隐藏商店总览（12 处）</h2>
+      <p>在指定地形格上<strong>待机</strong>即可进入隐藏商店（坐标为本站 (1,1) 制，与各话攻略页一致）。第 2、5 话货单各异；第 8 话起统一货单：磁力涂层 4000、乔巴姆装甲 2000、勇气之证 4000、特训之源 5000。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>话数</th><th>坐标</th><th>地形</th><th>备注</th></tr></thead>
+          <tbody>
+            <tr><td>第2话</td><td>(7,3)</td><td>城镇</td><td>生物传感器 2000（全游戏仅此有售）、米诺夫斯基粒子 18000 等</td></tr>
+            <tr><td>第5话</td><td>(10,9)</td><td>城镇</td><td>超合金Z 3000、必中之狙 1000 等</td></tr>
+            <tr><td>第8话</td><td>(21,3)</td><td>城镇</td><td>统一货单自本话起</td></tr>
+            <tr><td>第10话</td><td>(16,18)</td><td>城镇</td><td>统一货单</td></tr>
+            <tr><td>第14话</td><td>(15,28)</td><td>殖民卫星</td><td>统一货单</td></tr>
+            <tr><td>第16话</td><td>(8,5)</td><td>殖民卫星</td><td>统一货单</td></tr>
+            <tr><td>第17话</td><td>(16,16)</td><td>殖民卫星</td><td>统一货单</td></tr>
+            <tr><td>第19话</td><td>(23,2)</td><td>殖民卫星</td><td>统一货单</td></tr>
+            <tr><td>第22话</td><td>(2,17)</td><td>殖民卫星</td><td>统一货单</td></tr>
+            <tr><td>第23话</td><td>(4,5)</td><td>城镇</td><td>统一货单</td></tr>
+            <tr><td>第24话</td><td>(6,5)</td><td>城镇</td><td>统一货单</td></tr>
+            <tr><td>第25话</td><td>(30,8)</td><td>城镇</td><td>全游戏最后一个商店</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>其他版本差异（概要）</h2>
+      <p>本站逐话攻略以 <strong>1991 年 FC 原版</strong>为准。后来的版本差异很大，只作概要：<strong>GB《第2次G》（1995）</strong>是准重制：新增 V 高达、G 高达参战与 A/B 路线分岐关卡（分岐与隐藏要素都出自这一版，不是 FC 原版），并改用第 4 次的系统（可改造、可换乘），最终 Boss 等级也不同。<strong>PS《Complete Box》收录版（1999）</strong>改用 F 的系统：加入 10 段改造、机体全改造奖励，新增盖塔Q 正式入队与 G 装甲等要素，三大主力升级提前到第 11 话，女王曼莎改为须普露到达指定坐标，最终 Boss 等级降至 32。GBA 版与 3DS VC 版是 FC 原版的移植/配信，内容同 FC 原版。</p>
+      <p class="text-sm text-base-content/60">发售日说明：本站采用 1991 年 12 月 29 日（GameCenter GX 与日文维基百科一致）；Akurasu 记为 12 月 19 日，在此附注。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
       <p>本作 13 话<strong>全部建有独立攻略页</strong>（每一话一个详情页），下表为链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、敌方配置（含坐标）、塔与隐藏道具、说得要点与坐标地图。本作同时保留一份<a class="link" href={href('srw-1/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <Srw1MissionList />
+    </div>
+  ) : isSrw2 ? (
+    <div>
+      <p>本作 26 话<strong>全部建有独立攻略页</strong>（每一话一个详情页），下表为链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、敌方配置（含驾驶员、等级与坐标）、增援、说得与隐藏商店、坐标地图。本作同时保留一份<a class="link" href={href('srw-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <Srw2MissionList />
     </div>
   ) : isSrw30 ? (
     <div>

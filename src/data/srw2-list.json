@@ -1,0 +1,244 @@
+{
+ "groups": [
+  {
+   "title": "主线 26 话（单线流程，无分歧、无隐藏关卡）",
+   "intro": "FC 原版（1991）共 26 话，完全单线：没有路线分岐，也没有隐藏关卡（分岐与 V/G 高达参战是 GB 版《第2次G》的内容）。本作的「隐藏要素」在系统层：7 组说得对象与 12 处隐藏商店，全部收录在各话详情页内。敌方配置（含等级、坐标）来自 GameCenter GX 逐关解析表，并与 Akurasu 流程图交叉核对。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "救出！！Z高达",
+     "ja": "救出!!Ｚガンダム",
+     "en": "Rescue!! Z Gundam",
+     "type": "主线",
+     "area": "地球",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "谋略之城",
+     "ja": "謀略の町",
+     "en": "Trick City",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "压制达喀尔",
+     "ja": "ダカールの制圧",
+     "en": "Supremacy Over Dakar",
+     "type": "主线",
+     "area": "达喀尔",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "反击",
+     "ja": "ストライク・バック",
+     "en": "Strike Back",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "背叛的荒野",
+     "ja": "裏切りの荒野",
+     "en": "Desert of Treachery",
+     "type": "主线",
+     "area": "荒野",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "破坏敌方要塞",
+     "ja": "敵要塞を破壊せよ",
+     "en": "Destroy the Enemy Fortress",
+     "type": "主线",
+     "area": "敌方要塞",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "决斗！！莱茵X1",
+     "ja": "決闘!!ラインX1",
+     "en": "Duel!! Rhine X1",
+     "type": "主线",
+     "area": "室内",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "马·克贝的陷阱",
+     "ja": "マクベの罠",
+     "en": "M'Quve's Trap",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "复仇之风",
+     "ja": "復讐の風",
+     "en": "Winds of Revenge",
+     "type": "主线",
+     "area": "海域",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "傀儡凤",
+     "ja": "マリオネット・フォウ",
+     "en": "Marionette Four",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "惊异！！究极机器人巴尔西昂",
+     "ja": "驚異!!究極ロボ ヴァルシオン",
+     "en": "Wonderful!! The Ultimate Robot Valsion",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "拉萨攻防战",
+     "ja": "ラサの攻防",
+     "en": "Fighting at Llasa",
+     "type": "主线",
+     "area": "拉萨",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "西罗克之影",
+     "ja": "シロッコの影",
+     "en": "Scirocco's Shadow",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "向着宇宙…",
+     "ja": "宇宙へ…",
+     "en": "Into Space...",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "激战！朱庇特里斯",
+     "ja": "激闘！ジュピトリス",
+     "en": "Fierce Battle! Jupitris",
+     "type": "主线",
+     "area": "朱庇特里斯·室内",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "逃脱",
+     "ja": "脱出",
+     "en": "Escape",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "太阳光线发动",
+     "ja": "ソーラレイ発動",
+     "en": "Solar Ray in Operation",
+     "type": "主线",
+     "area": "宇宙",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "潜入！康佩托岛",
+     "ja": "潜入！コンペトー",
+     "en": "Infiltration! Konpei Island",
+     "type": "主线",
+     "area": "康佩托岛",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "月面死斗",
+     "ja": "月面の死闘",
+     "en": "Deathmatch on the Surface of the Moon",
+     "type": "主线",
+     "area": "月面",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "决战！！格拉纳达要塞",
+     "ja": "決戦!!グラナダ要塞",
+     "en": "Final Battle! Granada Fortress",
+     "type": "主线",
+     "area": "格拉纳达",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "时间啊，停下吧",
+     "ja": "時間よ 止まれ",
+     "en": "Stop the Time",
+     "type": "主线",
+     "area": "室内",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "突入大气层",
+     "ja": "大気圏突入",
+     "en": "Atmospheric Entry",
+     "type": "主线",
+     "area": "大气层",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "西罗克的反击",
+     "ja": "逆襲のシロッコ",
+     "en": "Scirocco's Counterattack",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "吉尔吉尔甘的亡灵",
+     "ja": "ギルギルガンの亡霊",
+     "en": "Gilgilgan's Apparition",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "最终部队再临",
+     "ja": "ラストバタリオン再び",
+     "en": "Last Batallion, Again",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "黎明决战",
+     "ja": "暁の決戦",
+     "en": "Final Battle at Dawn",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

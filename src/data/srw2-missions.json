@@ -1,0 +1,6126 @@
+{
+ "comment": "FC original (1991), 26 stages, linear, no route splits, no hidden stages (confirmed GX + ja Wikipedia). Enemy data from GameCenter GX map pages, cross-checked with Akurasu Flow Chart. GX coords are (0,0) origin; converted +1/+1 to the site (1,1) convention.",
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "救出！！Z高达",
+   "ja": "救出!!Ｚガンダム",
+   "en": "Rescue!! Z Gundam",
+   "route": "主线流程",
+   "area": "地球",
+   "type": "歼灭/目标关",
+   "prerequisite": "游戏开始即进入本话。初始队伍：高达（阿姆罗）、魔神Z（甲儿）、盖塔（龙马/隼人/武藏）、阿芙萝黛A（沙也加）、得克萨斯马克（杰克）、白色要塞（布莱德）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关敌机资金：扎古 80、机械兽类 100、兹II 150（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "初始队伍：高达（阿姆罗）、魔神Z（兜甲儿）、盖塔（流龙马/神隼人/巴武藏）、阿芙萝黛A（弓沙也加）、得克萨斯马克（杰克）、白色要塞（布莱德）。"
+   ],
+   "events": [
+    "第 11 回合敌方阶段，夏亚（扎古 Lv13）率增援从地图左上方出现。若在此之前歼灭其他全部敌人，夏亚会退回地图边缘并于下一回合撤退——想击破他，须先留 1 台敌机、先打夏亚，或堵住他的出现位置（GX）。",
+    "这是 DC 战争的开幕战：比安·佐尔达克创立的 DC 已支配世界八成，逃出的三机以白色要塞为中心开始抵抗（剧情梗概见本作主页）。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。",
+    "本作通则：经验只在「击破」敌机时获得（只打伤没有经验），补刀尽量留给低等级单位。"
+   ],
+   "unlocks": [
+    "通关后：Z高达（卡缪）加入，Lv3。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "2",
+      "x": 9,
+      "y": 4,
+      "behavior": "第8回合起移动",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "2",
+      "x": 10,
+      "y": 5,
+      "behavior": "第8回合起移动",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "2",
+      "x": 11,
+      "y": 6,
+      "behavior": "第12回合起移动",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "1",
+      "x": 4,
+      "y": 11,
+      "behavior": "开局即移动（模式1）",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "1",
+      "x": 5,
+      "y": 11,
+      "behavior": "开局即移动（模式2）",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "1",
+      "x": 6,
+      "y": 11,
+      "behavior": "开局即移动（模式1）",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 10,
+      "y": 3,
+      "behavior": "第8回合起移动",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 11,
+      "y": 4,
+      "behavior": "第12回合起移动",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 12,
+      "y": 5,
+      "behavior": "第12回合起移动",
+      "note": ""
+     },
+     {
+      "name": "达布拉斯M2",
+      "pilot": "—",
+      "lv": "1",
+      "x": 8,
+      "y": 7,
+      "behavior": "开局即移动（模式2）",
+      "note": ""
+     },
+     {
+      "name": "加拉达K7",
+      "pilot": "—",
+      "lv": "1",
+      "x": 9,
+      "y": 8,
+      "behavior": "开局即移动（模式2）",
+      "note": ""
+     },
+     {
+      "name": "兹II",
+      "pilot": "—",
+      "lv": "4",
+      "x": 13,
+      "y": 2,
+      "behavior": "第12回合起移动",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 12,
+      "y": 4,
+      "behavior": "第12回合起移动",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "11回合敌方阶段",
+      "name": "扎古",
+      "pilot": "夏亚",
+      "lv": "13",
+      "x": 2,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "11回合敌方阶段",
+      "name": "扎古",
+      "pilot": "丹尼姆",
+      "lv": "5",
+      "x": 3,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "11回合敌方阶段",
+      "name": "扎古",
+      "pilot": "吉恩",
+      "lv": "2",
+      "x": 3,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 14,
+    "frameH": 12,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第1话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/01.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "谋略之城",
+   "ja": "謀略の町",
+   "en": "Trick City",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 1 话后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。GX 本关与第 3 话的敌表没有资金列，逐台资金未核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "得克萨斯马克（杰克）第 3 回合敌方阶段以友军增援再登场，通关后离队（留在当地）。"
+   ],
+   "events": [
+    "杰利德的机体 HP 被打到 199 以下后会向东逃，到达撤退点 (32,7) 即撤退（本站换算坐标），追击时注意。",
+    "第 6 回合敌方阶段，兰巴·拉尔（古夫 Lv10）增援。"
+   ],
+   "secrets": [
+    "隐藏商店：在 (7,3) 的「町」地形上待机进入（店员是米拉·八洲）。货单：生物传感器 2000（全游戏仅此有售）、乔巴姆装甲 2000、米诺夫斯基粒子 18000（以本关资金根本买不起）、勇气之证 4000。",
+    "盖塔Q（早乙女满）：她以敌方单位登场，第 3 回合后变为 NPC 友军；即使存活到通关也会随即离队——FC 原版中她不能正式入队（PS 版才可正式入队，见本作主页版本差异）。"
+   ],
+   "unlocks": [
+    "通关后：得克萨斯马克离队。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 17,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 17,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "3",
+      "x": 17,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "4",
+      "x": 21,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "4",
+      "x": 21,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "4",
+      "x": 21,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "古夫",
+      "pilot": "士兵",
+      "lv": "4",
+      "x": 24,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "4",
+      "x": 24,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "古夫",
+      "pilot": "士兵",
+      "lv": "4",
+      "x": 24,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖塔Q",
+      "pilot": "早乙女满",
+      "lv": "5",
+      "x": 10,
+      "y": 8,
+      "behavior": "第3回合敌方阶段得克萨斯马克登场后变为 NPC 友军（GX）",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "杰利德·梅萨",
+      "lv": "7",
+      "x": 27,
+      "y": 4,
+      "behavior": "HP 低于 199 后向东移动，到达 (32,7)（本站换算）即撤退",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "卡克里孔·卡库勒",
+      "lv": "6",
+      "x": 27,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "5",
+      "x": 19,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "扎古",
+      "pilot": "阿科斯",
+      "lv": "4",
+      "x": 20,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "古夫",
+      "pilot": "兰巴·拉尔",
+      "lv": "10",
+      "x": 21,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "扎古",
+      "pilot": "科兹恩",
+      "lv": "3",
+      "x": 22,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 33,
+    "frameH": 9,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 7,
+      "y": 3,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     },
+     {
+      "x": 32,
+      "y": 7,
+      "kind": "特殊",
+      "label": "杰利德撤退点（HP<199 后到达即撤退）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第2话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/02.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "压制达喀尔",
+   "ja": "ダカールの制圧",
+   "en": "Supremacy Over Dakar",
+   "route": "主线流程",
+   "area": "达喀尔",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 2 话后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。GX 本关敌表没有资金列，逐台资金未核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达F91（西布克）本话中盘以增援登场，正式加入（GX 第 3 话页记为第 3 回合敌方阶段、GX 加入页记为第 4 回合，站内说法不一致，回合数待核实）。"
+   ],
+   "events": [
+    "第 4 回合敌方阶段，黑色三连星（盖亚/奥尔特加/马修，大魔）以高等级增援登场。",
+    "夏亚（红色扎古 Lv13）位于地图北侧。"
+   ],
+   "secrets": [
+    "说得拉拉：让阿姆罗与艾尔美斯（拉拉）相邻并使用「说得」，拉拉即加入我方（临时成员，第 7 话通关后离队）。她的浮游炮射程 6，是前期强力单位。"
+   ],
+   "unlocks": [
+    "通关后：进入第 4 话（母舰换乘、梅塔斯加入，见第 4 话）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 3,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 4,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 5,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "6",
+      "x": 13,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "特罗斯D7",
+      "pilot": "—",
+      "lv": "4",
+      "x": 14,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "6",
+      "x": 15,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 13,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 14,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 15,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "5",
+      "x": 16,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "红色扎古",
+      "pilot": "夏亚·阿兹纳布尔",
+      "lv": "13",
+      "x": 11,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "艾尔美斯",
+      "pilot": "拉拉·辛",
+      "lv": "10",
+      "x": 12,
+      "y": 2,
+      "behavior": "可由阿姆罗说得入队",
+      "note": ""
+     },
+     {
+      "name": "高战蟹",
+      "pilot": "士兵",
+      "lv": "6",
+      "x": 4,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "高战蟹",
+      "pilot": "士兵",
+      "lv": "6",
+      "x": 3,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "高战蟹",
+      "pilot": "士兵",
+      "lv": "6",
+      "x": 5,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "大魔",
+      "pilot": "盖亚",
+      "lv": "14",
+      "x": 4,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "大魔",
+      "pilot": "马修",
+      "lv": "13",
+      "x": 3,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "大魔",
+      "pilot": "奥尔特加",
+      "lv": "13",
+      "x": 4,
+      "y": 23,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 17,
+    "frameH": 24,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第3话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/03.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "反击",
+   "ja": "ストライク・バック",
+   "en": "Strike Back",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 3 话后进入本话。拉拉仅在第 3 话已说得成功时参战。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。敌方扎克雷罗资金 250（初始 1 台 + 第 4 回合增援 1 台，均带修理装置），优先击破。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（拉拉仅限已说得时）。"
+   ],
+   "events": [
+    "第 8 回合敌方阶段有敌方增援（见增援表）。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "通关后：母舰由白色要塞换乘为阿尔加马（等级继承）；阿芙萝黛A（沙也加）离队（FC 原版为永久离队）；梅塔斯（花）加入，Lv10。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "马拉赛",
+      "pilot": "杰利德·梅萨",
+      "lv": "8",
+      "x": 3,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "卡克里孔·卡库勒",
+      "lv": "8",
+      "x": 4,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "马修",
+      "lv": "13",
+      "x": 4,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "盖亚",
+      "lv": "13",
+      "x": 5,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "奥尔特加",
+      "lv": "13",
+      "x": 6,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "魔蟹E",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 17,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "魔蟹E",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 16,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "魔蟹E",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 18,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 23,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "8",
+      "x": 23,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "8",
+      "x": 24,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "8",
+      "x": 25,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "8",
+      "x": 26,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "9",
+      "x": 26,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "9",
+      "x": 25,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "10",
+      "x": 1,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "马修马·塞罗",
+      "lv": "16",
+      "x": 5,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 4,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 6,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 6,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 7,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "9",
+      "x": 8,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 27,
+    "frameH": 22,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第4话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/04.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "背叛的荒野",
+   "ja": "裏切りの荒野",
+   "en": "Desert of Treachery",
+   "route": "主线流程",
+   "area": "荒野",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 4 话后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。毕格扎姆（多兹鲁）资金 500、经验 840（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "精神感应高达（凤 Lv26）与毕格扎姆（多兹鲁）都是 NPC、不会移动；第 3 回合我方阶段发生事件，两者一同离场。"
+   ],
+   "secrets": [
+    "隐藏商店：在 (10,9) 的「町」待机进入。货单：超合金Z 3000、磁力涂层 4000、必中之狙 1000、正义之心 5000。",
+    "注意：本关不能说得凤——她要到第 10 话才可说得加入；本关强攻毕格扎姆也不会让她入队。"
+   ],
+   "unlocks": [
+    "通关后：进入第 6 话。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "毕格扎姆",
+      "pilot": "多兹鲁·扎比",
+      "lv": "21",
+      "x": 18,
+      "y": 10,
+      "behavior": "不动；第3回合我方阶段的事件中与凤一同离场",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 16,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 17,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 18,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "特罗斯D7",
+      "pilot": "—",
+      "lv": "12",
+      "x": 20,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "特罗斯D7",
+      "pilot": "—",
+      "lv": "12",
+      "x": 19,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "特罗斯D7",
+      "pilot": "—",
+      "lv": "12",
+      "x": 20,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 14,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 15,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 16,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "10",
+      "x": 27,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "10",
+      "x": 27,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "10",
+      "x": 27,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "10",
+      "x": 28,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "10",
+      "x": 28,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
+   },
+   "map": {
+    "frameW": 29,
+    "frameH": 16,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 10,
+      "y": 9,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     },
+     {
+      "x": 3,
+      "y": 10,
+      "kind": "特殊",
+      "label": "NPC：精神感应高达（凤 Lv26，非敌人，第3回合与多兹鲁一同离场）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第5话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/05.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "破坏敌方要塞",
+   "ja": "敵要塞を破壊せよ",
+   "en": "Destroy the Enemy Fortress",
+   "route": "主线流程",
+   "area": "敌方要塞",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 5 话后进入本话。",
+   "victory": [
+    "任一我方单位进入敌要塞内部（西北固定炮台群所在的 4 格本拠地）即过关；或歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。机械胡蝶鬼资金 500、固定炮台 50/台（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "第 7 回合敌方阶段，塞巴斯塔（正树 Lv16）客串登场：他会自行击破固定炮台并进入要塞（等同替玩家完成胜利条件），但这不是正式加入，也不会与玩家并肩作战。",
+    "第 2 回合敌方阶段，布兰（阿席玛）增援；其 HP 降到 199 以下时会变形为 MA 形态撤退。"
+   ],
+   "secrets": [
+    "说得机械胡蝶鬼：先把它的 HP 打到 199 以下（Akurasu 记为 30% 以下，两说法的等价性未核实），再让流龙马相邻使用「说得」，胡蝶鬼加入（临时成员，第 8 话通关后离队）。HP 高于阈值时说得会被拒绝并可能失去机会，务必先削血再说得。"
+   ],
+   "unlocks": [
+    "通关后：进入第 7 话（拉拉、胡蝶鬼仅在已入队时参战）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "机械胡蝶鬼",
+      "pilot": "胡蝶",
+      "lv": "16",
+      "x": 20,
+      "y": 19,
+      "behavior": "HP 打到 199 以下后可被盖塔（龙马）说得入队",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "13",
+      "x": 2,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "13",
+      "x": 2,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "13",
+      "x": 3,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "13",
+      "x": 3,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "13",
+      "x": 2,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "12",
+      "x": 2,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "12",
+      "x": 4,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "12",
+      "x": 4,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "12",
+      "x": 6,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "12",
+      "x": 6,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "12",
+      "x": 17,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "12",
+      "x": 16,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "12",
+      "x": 17,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 19,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "11",
+      "x": 19,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "阿席玛",
+      "pilot": "布兰·布尔塔克",
+      "lv": "16",
+      "x": 24,
+      "y": 21,
+      "behavior": "以 MA 形态登场；HP 低于 199 后变形并试图撤退",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "大魔",
+      "pilot": "盖亚",
+      "lv": "16",
+      "x": 24,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 22,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 23,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "大魔",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 24,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 25,
+    "frameH": 22,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 2,
+      "y": 3,
+      "kind": "特殊",
+      "label": "敌要塞本拠地（进入即胜利，共4格）"
+     },
+     {
+      "x": 3,
+      "y": 3,
+      "kind": "特殊",
+      "label": "敌要塞本拠地（进入即胜利，共4格）"
+     },
+     {
+      "x": 2,
+      "y": 4,
+      "kind": "特殊",
+      "label": "敌要塞本拠地（进入即胜利，共4格）"
+     },
+     {
+      "x": 3,
+      "y": 4,
+      "kind": "特殊",
+      "label": "敌要塞本拠地（进入即胜利，共4格）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第6话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/06.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "决斗！！莱茵X1",
+   "ja": "決闘!!ラインX1",
+   "en": "Duel!! Rhine X1",
+   "route": "主线流程",
+   "area": "室内",
+   "type": "歼灭/目标关",
+   "prerequisite": "室内关：战舰不能出击；飞行与飞行变形不可用。",
+   "victory": [
+    "击破莱茵X1。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。莱茵X1 资金 200（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "拉拉、胡蝶鬼仅在已入队时参战（胡蝶鬼至本话仍在队时）。"
+   ],
+   "events": [
+    "塞巴斯塔（正树）在开场以 NPC 出现后立即离开。",
+    "莱茵X1 免疫间接攻击，必须用射程 1 的近身武器攻击。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "通关后：拉拉离队；多台机体武器获得剧情强化（如阿尔加马/波浪骑手的超级粒子炮射程 4→5、盖塔3 导弹射程 3→4，GX 列举）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "莱茵X1",
+      "pilot": "罗蕾莱",
+      "lv": "21",
+      "x": 14,
+      "y": 11,
+      "behavior": "免疫间接攻击；靠近后开始移动",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "15",
+      "x": 4,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "15",
+      "x": 3,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "15",
+      "x": 4,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 4,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 3,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 2,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 17,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 18,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 14,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 15,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "14",
+      "x": 6,
+      "y": 7,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "14",
+      "x": 6,
+      "y": 8,
+      "behavior": "防御态势",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "16",
+      "x": 2,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "16",
+      "x": 2,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "16",
+      "x": 2,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "16",
+      "x": 3,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "16",
+      "x": 4,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹II",
+      "pilot": "—",
+      "lv": "18",
+      "x": 18,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "16",
+      "x": 19,
+      "y": 17,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "16",
+      "x": 17,
+      "y": 19,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "16",
+      "x": 18,
+      "y": 16,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "16",
+      "x": 16,
+      "y": 18,
+      "behavior": "防御态势",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 20,
+    "frameH": 20,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 14,
+      "y": 11,
+      "kind": "Boss",
+      "label": "胜利条件目标：莱茵X1"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第7话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/07.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "马·克贝的陷阱",
+   "ja": "マクベの罠",
+   "en": "M'Quve's Trap",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "开局我方只有魔神Z 一机出击，古连泰沙为 NPC，主力在第 3 回合敌方阶段增援到达。",
+   "victory": [
+    "击破强人（马·克贝）。"
+   ],
+   "defeat": [
+    "古连泰沙被击破（GX）。"
+   ],
+   "defeatNote": "败北条件两源不一致：GX 作「古连泰沙被击破」，Akurasu 流程图作「我方全灭」。本站按 GX 记载刊出，实际游玩时两种说法都注意（开局场上只有魔神Z 与 NPC 古连泰沙）。",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。密涅瓦X 资金 300（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局：魔神Z（甲儿）单机 + NPC 古连泰沙。",
+    "攻击马·克贝后，古连泰沙与波士波罗特会登场并攻击马·克贝（须能相邻才会攻击）。"
+   ],
+   "events": [
+    "第 2 回合我方阶段发生「假古连泰沙」事件（甲儿是否与古连泰沙相邻只改变台词）。"
+   ],
+   "secrets": [
+    "说得密涅瓦X：让甲儿（魔神Z）相邻使用「说得」，密涅瓦X 加入（临时成员，第 9 话通关后离队）。密涅瓦X 不会攻击魔神Z。",
+    "隐藏商店：在 (21,3) 的「町」待机进入。第 8 话起各商店货单统一：磁力涂层 4000、乔巴姆装甲 2000、勇气之证 4000、特训之源 5000。"
+   ],
+   "unlocks": [
+    "通关后：古连泰沙（迪克，Lv21）、波士波罗特（波士，Lv20）加入；胡蝶鬼离队。（FC 原版限定）魔神Z 武器换装为铁切割者/胸部火焰。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "强人",
+      "pilot": "马·克贝",
+      "lv": "29",
+      "x": 25,
+      "y": 2,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 14,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 15,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 16,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 23,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 24,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 25,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 22,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 23,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "16",
+      "x": 24,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 12,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 12,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "14",
+      "x": 12,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "密涅瓦X",
+      "pilot": "—",
+      "lv": "18",
+      "x": 18,
+      "y": 5,
+      "behavior": "不攻击魔神Z；可由魔神Z（甲儿）说得入队",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "10回合敌方阶段",
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "16",
+      "x": 28,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "10回合敌方阶段",
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "16",
+      "x": 27,
+      "y": 1,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "10回合敌方阶段",
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "16",
+      "x": 28,
+      "y": 2,
+      "behavior": "防御态势",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 29,
+    "frameH": 21,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 25,
+      "y": 2,
+      "kind": "Boss",
+      "label": "胜利条件目标：强人"
+     },
+     {
+      "x": 21,
+      "y": 3,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第8话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/08.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "复仇之风",
+   "ja": "復讐の風",
+   "en": "Winds of Revenge",
+   "route": "主线流程",
+   "area": "海域",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 8 话后进入本话。密涅瓦X 在队时参战。",
+   "victory": [
+    "击破强人（马·克贝）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。增援中的诱导导弹资金仅 10/台（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "密涅瓦X 在队时参战，通关后离队。"
+   ],
+   "events": [
+    "本关初始敌方只有强人（马·克贝 Lv26）一台，其余 16 台全是第 1、2 回合的敌方增援（见增援表）——这是 GX 原表的实际结构。",
+    "马·克贝位于海中：光束类武器不可用，须用热血+军刀类武器攻击。其等级（26）反而比第 8 话（29）低，GX 亦有此注。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "ZZ高达（捷多）第 3 回合敌方阶段以增援登场，正式加入。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "强人",
+      "pilot": "马·克贝",
+      "lv": "26",
+      "x": 7,
+      "y": 26,
+      "behavior": "",
+      "note": "胜利条件目标"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 8,
+      "y": 23,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 8,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 8,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "18",
+      "x": 10,
+      "y": 25,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "18",
+      "x": 9,
+      "y": 25,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "18",
+      "x": 11,
+      "y": 25,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "18",
+      "x": 11,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "18",
+      "x": 10,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "18",
+      "x": 12,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 8,
+      "y": 26,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 7,
+      "y": 25,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 9,
+      "y": 27,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "19",
+      "x": 9,
+      "y": 25,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "19",
+      "x": 8,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "19",
+      "x": 7,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "19",
+      "x": 9,
+      "y": 26,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 13,
+    "frameH": 28,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 7,
+      "y": 26,
+      "kind": "Boss",
+      "label": "胜利条件目标：强人"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第9话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/09.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "傀儡凤",
+   "ja": "マリオネット・フォウ",
+   "en": "Marionette Four",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 9 话后进入本话。我方在本地拠附近分作佯动队分开部署（迪克、捷多、卡缪一组）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。精神感应高达资金 500；第 10 回合增援的扎克雷罗资金 250（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（分开部署）。"
+   ],
+   "events": [
+    "凤在第 4 回合敌方阶段发生头痛事件（见隐藏要素的说得时机）。"
+   ],
+   "secrets": [
+    "说得凤：第 4 回合敌方阶段发生凤头痛的事件台词后，由卡缪相邻使用「说得」，凤加入（GX 加入页另记条件：当时阿姆罗与卡缪都在地图上）。凤通关后留队，至第 13 话。",
+    "隐藏商店：在 (16,18) 的「町」待机进入（货单同第 8 话起的统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：西布克、捷多暂时离队（第 12 话以增援回归）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "精神感应高达",
+      "pilot": "凤·村雨",
+      "lv": "24",
+      "x": 11,
+      "y": 3,
+      "behavior": "靠近也不动；受伤害后开始移动；第4回合敌方阶段后可由卡缪说得入队",
+      "note": ""
+     },
+     {
+      "name": "拜亚兰",
+      "pilot": "杰利德·梅萨",
+      "lv": "31",
+      "x": 10,
+      "y": 4,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "拜亚兰",
+      "pilot": "莱拉·米拉·莱拉",
+      "lv": "31",
+      "x": 11,
+      "y": 4,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 8,
+      "y": 5,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 9,
+      "y": 6,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 10,
+      "y": 7,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 11,
+      "y": 7,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 12,
+      "y": 6,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "18",
+      "x": 13,
+      "y": 5,
+      "behavior": "靠近也不动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "达伊",
+      "pilot": "—",
+      "lv": "23",
+      "x": 9,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "15",
+      "x": 20,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "15",
+      "x": 21,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "15",
+      "x": 22,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "19",
+      "x": 15,
+      "y": 10,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "19",
+      "x": 16,
+      "y": 10,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 10,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 12,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "马拉赛",
+      "pilot": "士兵",
+      "lv": "13",
+      "x": 14,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "达伊",
+      "pilot": "—",
+      "lv": "21",
+      "x": 2,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "格西奥斯βIII",
+      "pilot": "—",
+      "lv": "20",
+      "x": 3,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "格西奥斯βIII",
+      "pilot": "—",
+      "lv": "20",
+      "x": 3,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "10回合敌方阶段",
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 13,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 23,
+    "frameH": 23,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 16,
+      "y": 18,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第10话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/10.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "惊异！！究极机器人巴尔西昂",
+   "ja": "驚異!!究極ロボ ヴァルシオン",
+   "en": "Wonderful!! The Ultimate Robot Valsion",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "阿尔加马不能出击。须保护 NPC 运输机米迪亚。",
+   "victory": [
+    "保护米迪亚，并歼灭全部敌人。"
+   ],
+   "defeat": [
+    "米迪亚被击破。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关敌机无特别高额的资金目标被来源标注。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC 米迪亚（玛蒂尔达）：不会移动，会对相邻的自身/受伤友军使用修理装置。"
+   ],
+   "events": [
+    "第 5 回合敌方阶段，巴尔西昂（比安 Lv31）登场：性能压倒性、本阶段基本打不动；它不会主动攻击——玩家不攻击它，它就不会攻击玩家。",
+    "第 7 回合敌方阶段正树登场后，比安撤退。别恋战，撑到第 7 回合即可。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "塞巴斯塔（正树）第 7 回合敌方阶段以增援正式加入（Lv24），与玩家并肩作战。其武器塞弗拉什是全作唯一的地图兵器。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "格西奥斯βIII",
+      "pilot": "—",
+      "lv": "19",
+      "x": 17,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "格西奥斯βIII",
+      "pilot": "—",
+      "lv": "20",
+      "x": 18,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "格西奥斯βIII",
+      "pilot": "—",
+      "lv": "19",
+      "x": 18,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿席玛（MS）",
+      "pilot": "士兵",
+      "lv": "20",
+      "x": 9,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿席玛（MS）",
+      "pilot": "士兵",
+      "lv": "20",
+      "x": 8,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿席玛（MS）",
+      "pilot": "士兵",
+      "lv": "20",
+      "x": 10,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "21",
+      "x": 22,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "21",
+      "x": 21,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "21",
+      "x": 14,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "21",
+      "x": 15,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "21",
+      "x": 16,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "机械雷兽鬼",
+      "pilot": "—",
+      "lv": "22",
+      "x": 4,
+      "y": 2,
+      "behavior": "怪电波（干扰）",
+      "note": ""
+     },
+     {
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "23",
+      "x": 18,
+      "y": 28,
+      "behavior": "防御态势；第5回合敌方阶段起开始移动",
+      "note": ""
+     },
+     {
+      "name": "达伊",
+      "pilot": "—",
+      "lv": "24",
+      "x": 19,
+      "y": 27,
+      "behavior": "第5回合敌方阶段起开始移动（GX）",
+      "note": ""
+     },
+     {
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "23",
+      "x": 20,
+      "y": 26,
+      "behavior": "防御态势；第5回合敌方阶段起开始移动",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "巴尔西昂",
+      "pilot": "比安·佐尔达克",
+      "lv": "31",
+      "x": 3,
+      "y": 20,
+      "behavior": "我方不攻击它，它就不会攻击；第7回合敌方阶段正树登场后撤退",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "拜亚兰",
+      "pilot": "士兵",
+      "lv": "22",
+      "x": 5,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "22",
+      "x": 5,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "22",
+      "x": 5,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 23,
+    "frameH": 29,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第11话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/11.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "拉萨攻防战",
+   "ja": "ラサの攻防",
+   "en": "Fighting at Llasa",
+   "route": "主线流程",
+   "area": "拉萨",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 11 话后进入本话。",
+   "victory": [
+    "击破毕格扎姆。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。毕格扎姆（多兹鲁 Lv27）资金 500、经验 1080（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "第 5 回合敌方阶段，内尔·阿尔加马与 F91 从南侧增援（捷多亦随本话归队，见通关后）。"
+   ],
+   "events": [
+    "GX 记本关目标还包括「入手穿梭机推进器」（随剧情入手）；Akurasu 只记击破毕格扎姆，两者非实质冲突。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "三大主力升级（FC 原版在此话）：登乘内尔·阿尔加马即换乘——高达→ν高达、盖塔→盖塔G、魔神Z→伟大魔神（不登乘也会在通关后升级）。",
+    "通关后：ZZ（捷多）归队；多台机体武器剧情强化（古连泰沙换装反重力风暴/肩部回旋镖、斯佩扎→双斯佩扎等）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "22",
+      "x": 11,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "毕格扎姆",
+      "pilot": "多兹鲁·扎比",
+      "lv": "27",
+      "x": 10,
+      "y": 17,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "兹萨",
+      "pilot": "士兵",
+      "lv": "22",
+      "x": 11,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿席玛（MS）",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 16,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "21",
+      "x": 17,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "21",
+      "x": 15,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "机械雷兽鬼",
+      "pilot": "—",
+      "lv": "22",
+      "x": 9,
+      "y": 8,
+      "behavior": "怪电波（干扰）",
+      "note": ""
+     },
+     {
+      "name": "机械雷兽鬼",
+      "pilot": "—",
+      "lv": "22",
+      "x": 9,
+      "y": 9,
+      "behavior": "怪电波（干扰）",
+      "note": ""
+     },
+     {
+      "name": "达伊",
+      "pilot": "—",
+      "lv": "23",
+      "x": 16,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "23",
+      "x": 15,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "23",
+      "x": 17,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦格",
+      "pilot": "—",
+      "lv": "23",
+      "x": 16,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "23",
+      "x": 15,
+      "y": 28,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "23",
+      "x": 14,
+      "y": 29,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "6回合敌方阶段",
+      "name": "巴德",
+      "pilot": "—",
+      "lv": "23",
+      "x": 16,
+      "y": 29,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 18,
+    "frameH": 30,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 10,
+      "y": 17,
+      "kind": "Boss",
+      "label": "胜利条件目标：毕格扎姆"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第12话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/12.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "西罗克之影",
+   "ja": "シロッコの影",
+   "en": "Scirocco's Shadow",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "内尔·阿尔加马不能移动；梅塔斯缺席，本关没有回复手段。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "内尔·阿尔加马被击破。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关敌机无特别高额的资金目标被来源标注。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（凤在队时于本话后离队）。"
+   ],
+   "events": [
+    "第 2 回合敌方阶段，西罗克、蕾柯亚、莎拉会撤退。",
+    "敌方有多名高等级有名驾驶员（哈曼 Lv38 等，见敌方表）。"
+   ],
+   "secrets": [
+    "普露说得第 1 步：让捷多与卡碧尼Mk-II（普露）相邻使用「说得」1 次——普露会撤离战场（此时并不入队），这是第 17 话她正式入队的前置。千万不要在本关击破她。"
+   ],
+   "unlocks": [
+    "通关后：进入宇宙篇；凤离队；波士波罗特在宇宙不能出击。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "扎古III改",
+      "pilot": "马修马·塞罗",
+      "lv": "29",
+      "x": 18,
+      "y": 3,
+      "behavior": "一段时间内不动",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "38",
+      "x": 19,
+      "y": 3,
+      "behavior": "一段时间内不动",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼Mk-II",
+      "pilot": "普露",
+      "lv": "26",
+      "x": 19,
+      "y": 4,
+      "behavior": "捷多相邻可说得，说得后普露撤离战场",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "蕾柯亚·朗德",
+      "lv": "23",
+      "x": 1,
+      "y": 19,
+      "behavior": "一段时间内不动；第2回合敌方阶段撤退",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "帕普迪马斯·西罗克",
+      "lv": "36",
+      "x": 2,
+      "y": 20,
+      "behavior": "一段时间内不动；第2回合敌方阶段撤退",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "莎拉·萨比亚罗夫",
+      "lv": "21",
+      "x": 3,
+      "y": 21,
+      "behavior": "一段时间内不动；第2回合敌方阶段撤退",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "杰利德·梅萨",
+      "lv": "29",
+      "x": 3,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "23",
+      "x": 19,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "23",
+      "x": 18,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "23",
+      "x": 20,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "23",
+      "x": 19,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 2,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加拉加",
+      "pilot": "—",
+      "lv": "24",
+      "x": 1,
+      "y": 6,
+      "behavior": "怪电波（干扰）",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "19",
+      "x": 2,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "金刚戈里",
+      "pilot": "—",
+      "lv": "24",
+      "x": 21,
+      "y": 7,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "金刚戈里",
+      "pilot": "—",
+      "lv": "24",
+      "x": 21,
+      "y": 6,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "金刚戈里",
+      "pilot": "—",
+      "lv": "24",
+      "x": 22,
+      "y": 7,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "24",
+      "x": 6,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "24",
+      "x": 5,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "24",
+      "x": 7,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 23,
+    "frameH": 22,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第13话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/13.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "向着宇宙…",
+   "ja": "宇宙へ…",
+   "en": "Into Space...",
+   "route": "主线流程",
+   "area": "宇宙",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 13 话后进入宇宙篇。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。精神感应高达Mk-II（罗莎米娅）资金 1000（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "罗莎米娅事件：她行动时若卡缪处在相邻距离内会触发事件，她变为追随卡缪的 NPC；卡缪被击破后她转而攻击敌军。但她最终仍须被击破，本关击破她没有惩罚（GX）。",
+    "「蜘蛛网」陷阱：罗莎米娅周边的黄色地形格，待机会被困住、本关内不能移动。亚赞会专挑不能动的机体攻击——困住的机体要重点保护。"
+   ],
+   "secrets": [
+    "隐藏商店：在 (15,28) 的殖民卫星待机进入（货单同第 8 话起的统一货单）。",
+    "罗莎米娅不是说得入队对象，不要与第 10 话的凤混淆。"
+   ],
+   "unlocks": [
+    "通关后：进入第 15 话（室内战，朱庇特里斯）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 14,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "精神感应高达Mk-II",
+      "pilot": "罗莎米娅·巴达姆",
+      "lv": "36",
+      "x": 11,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "亚赞·盖布尔",
+      "lv": "36",
+      "x": 7,
+      "y": 5,
+      "behavior": "一段时间内不动",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 18,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 19,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 20,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 21,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 14,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 13,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 14,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 2,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 3,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 4,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "拉坎·达卡兰",
+      "lv": "36",
+      "x": 11,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 2,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 1,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 1,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 22,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 22,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "8回合敌方阶段",
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 22,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 5,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 6,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "25",
+      "x": 7,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 23,
+    "frameH": 29,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 15,
+      "y": 28,
+      "kind": "商店",
+      "label": "隐藏商店（殖民卫星地形）"
+     },
+     {
+      "x": 11,
+      "y": 10,
+      "kind": "特殊",
+      "label": "蜘蛛网陷阱范围中心（罗莎米娅位置；陷阱格的准确范围来源未逐格列举）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第14话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/14.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "激战！朱庇特里斯",
+   "ja": "激闘！ジュピトリス",
+   "en": "Fierce Battle! Jupitris",
+   "route": "主线流程",
+   "area": "朱庇特里斯·室内",
+   "type": "歼灭/目标关",
+   "prerequisite": "室内关：战舰不能出击；飞行与飞行变形不可用。开局即被敌军包围。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。精神感应高达Mk-II（罗莎米娅 Lv31）资金 1000（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（无战舰）。"
+   ],
+   "events": [
+    "西罗克、莎拉、蕾柯亚在受伤前不会行动——可以先清理杂兵再逐个击破（GX / Akurasu 一致）。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。",
+    "罗莎米娅在本作只能击破，无法说得入队。"
+   ],
+   "unlocks": [
+    "通关后：进入第 16 话（逃脱战）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "帕普迪马斯·西罗克",
+      "lv": "41",
+      "x": 13,
+      "y": 3,
+      "behavior": "受伤害前不动",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "莎拉·萨比亚罗夫",
+      "lv": "37",
+      "x": 12,
+      "y": 4,
+      "behavior": "受伤害前不动",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "蕾柯亚·朗德",
+      "lv": "37",
+      "x": 14,
+      "y": 4,
+      "behavior": "受伤害前不动",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 9,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 10,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 16,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "24",
+      "x": 17,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "杰利德·梅萨",
+      "lv": "33",
+      "x": 21,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "玛瓦·法老",
+      "lv": "33",
+      "x": 22,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 6,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 6,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 20,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加萨C",
+      "pilot": "士兵",
+      "lv": "21",
+      "x": 20,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 16,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "精神感应高达Mk-II",
+      "pilot": "罗莎米娅·巴达姆",
+      "lv": "31",
+      "x": 13,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 13,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 12,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 14,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 23,
+    "frameH": 22,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第15话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/15.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "逃脱",
+   "ja": "脱出",
+   "en": "Escape",
+   "route": "主线流程",
+   "area": "宇宙",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 15 话后进入本话。敌方是最强部队「Last Battalion」，为著名的高经验练级关。",
+   "victory": [
+    "全部我方单位自右端脱出点脱出；或歼灭全部敌人（GX 的双条件记载）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "Akurasu 流程图只记载「到达目的地」一个胜利条件；GX 明确记为「全员脱出或歼敌」双条件，本站按 GX 刊出。",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。拉弗雷西亚（卡罗佐 Lv46）资金 1100、塞西莉机体（比基纳·基纳）资金 1000（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "脱出点在地图右端的「宇宙气流」地形。",
+    "卡罗佐一伙位于地图左侧，不会动、受伤才动，可以绕开先行脱出。",
+    "练级要点：GX 以本关为例解说经验分配——塞弗拉什等大范围攻击一发击破多台高等级敌机可一次获得大量经验（本作经验只在击破时结算）。"
+   ],
+   "secrets": [
+    "说得塞西莉（两步中的第 1 步）：让西布克与比基纳·基纳（塞西莉）相邻使用「说得」，她会停止行动——这是第 25 话事件的前置。直接击破她也可以通关，但会失去第 25 话的事件。",
+    "隐藏商店：在 (8,5) 的殖民卫星待机进入（统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：正树（塞巴斯塔）在第 17、18 话缺席（第 19 话回到出击表，见第 19 话说明）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "拉弗雷西亚",
+      "pilot": "卡罗佐·罗纳",
+      "lv": "46",
+      "x": 3,
+      "y": 9,
+      "behavior": "周边的敌机靠近也不会移动；受伤害后开始移动",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "基尼·加斯",
+      "lv": "45",
+      "x": 2,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "葵丝·帕拉雅",
+      "lv": "45",
+      "x": 2,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "蕾森·施奈德",
+      "lv": "45",
+      "x": 6,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "40",
+      "x": 5,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "40",
+      "x": 5,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "西格",
+      "pilot": "拉德拉队长",
+      "lv": "42",
+      "x": 28,
+      "y": 13,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "机械雷兽鬼",
+      "pilot": "—",
+      "lv": "40",
+      "x": 27,
+      "y": 14,
+      "behavior": "怪电波（干扰）",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 17,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "39",
+      "x": 18,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "德莱森",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 19,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 26,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 26,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 27,
+      "y": 4,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 27,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "比基纳·基纳",
+      "pilot": "塞西莉·费尔柴尔德",
+      "lv": "43",
+      "x": 26,
+      "y": 9,
+      "behavior": "盾防御；被西布克说得后停止行动",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
+   },
+   "map": {
+    "frameW": 29,
+    "frameH": 15,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 8,
+      "y": 5,
+      "kind": "商店",
+      "label": "隐藏商店（殖民卫星地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第16话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/16.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "太阳光线发动",
+   "ja": "ソーラレイ発動",
+   "en": "Solar Ray in Operation",
+   "route": "主线流程",
+   "area": "宇宙",
+   "type": "歼灭/目标关",
+   "prerequisite": "本关塞巴斯塔（正树）缺席。11 回合时限。",
+   "victory": [
+    "在时限内击破太阳光线：即击破 4 台发电镜。"
+   ],
+   "defeat": [
+    "11 回合经过（时限耗尽）。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。发电镜资金 50/台（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（塞巴斯塔缺席）。"
+   ],
+   "events": [
+    "时限是本关真正的敌人：优先向发电镜推进，不要被杂兵拖住。"
+   ],
+   "secrets": [
+    "普露说得第 2 步：捷多在本关说得普露 2 次（GX 记 1 回合内可说得 2 次），说得后卡碧尼Mk-II（普露）正式加入。前置：第 13 话已按第 13 话页说明说得过 1 次。",
+    "隐藏商店：在 (16,16) 的殖民卫星待机进入（统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：换乘女王曼莎的前置在本话结束后走完一半（普露在队且驾卡碧尼Mk-II，见第 24 话）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "发电镜",
+      "pilot": "—",
+      "lv": "30",
+      "x": 8,
+      "y": 7,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "发电镜",
+      "pilot": "—",
+      "lv": "30",
+      "x": 6,
+      "y": 9,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "发电镜",
+      "pilot": "—",
+      "lv": "30",
+      "x": 8,
+      "y": 10,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "发电镜",
+      "pilot": "—",
+      "lv": "30",
+      "x": 6,
+      "y": 12,
+      "behavior": "",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "巴乌",
+      "pilot": "格雷米·托托",
+      "lv": "35",
+      "x": 10,
+      "y": 11,
+      "behavior": "未受伤害且未被相邻时不动",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "29",
+      "x": 10,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "29",
+      "x": 11,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "29",
+      "x": 10,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 12,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 12,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 13,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "29",
+      "x": 4,
+      "y": 21,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "29",
+      "x": 4,
+      "y": 23,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "29",
+      "x": 4,
+      "y": 25,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 6,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 6,
+      "y": 24,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼Mk-II（普露）",
+      "pilot": "普露",
+      "lv": "30",
+      "x": 11,
+      "y": 12,
+      "behavior": "由捷多说得 2 次后入队",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 25,
+      "y": 31,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 26,
+      "y": 30,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 24,
+      "y": 32,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "邦格",
+      "pilot": "—",
+      "lv": "30",
+      "x": 19,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "29",
+      "x": 18,
+      "y": 2,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "29",
+      "x": 20,
+      "y": 2,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 1,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 1,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "9回合敌方阶段",
+      "name": "扎克雷罗",
+      "pilot": "士兵",
+      "lv": "28",
+      "x": 1,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 27,
+    "frameH": 33,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 8,
+      "y": 7,
+      "kind": "Boss",
+      "label": "胜利条件目标：发电镜"
+     },
+     {
+      "x": 6,
+      "y": 9,
+      "kind": "Boss",
+      "label": "胜利条件目标：发电镜"
+     },
+     {
+      "x": 8,
+      "y": 10,
+      "kind": "Boss",
+      "label": "胜利条件目标：发电镜"
+     },
+     {
+      "x": 6,
+      "y": 12,
+      "kind": "Boss",
+      "label": "胜利条件目标：发电镜"
+     },
+     {
+      "x": 16,
+      "y": 16,
+      "kind": "商店",
+      "label": "隐藏商店（殖民卫星地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第17话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/17.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "潜入！康佩托岛",
+   "ja": "潜入！コンペトー",
+   "en": "Infiltration! Konpei Island",
+   "route": "主线流程",
+   "area": "康佩托岛",
+   "type": "歼灭/目标关",
+   "prerequisite": "ZZ高达、古连泰沙不能出击。塞巴斯塔仍缺席。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关敌机无特别高额的资金目标被来源标注。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "波士波罗特本关可以久违地出击——据 GX 加入页，这也是 FC 原版中波士波罗特的最后一次出场（宇宙地图不能出击）。"
+   ],
+   "events": [
+    "敌方增援中有一台巴乌（Lv30，第 7 回合敌方阶段），GX 原表未记载其 Y 坐标——敌方表中如实标注，未虚构补全。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "通关后：大批武器剧情强化（Z高达 光束步枪→超级巨型发射器、F91→VSBR、盖塔龙 盖塔光线→闪光火花、伟大魔神→雷霆破碎/伟大回旋镖、古连泰沙→宇宙雷霆/双钩镰并新增钻头、海洋斯佩扎可变形等，GX 列举）。",
+    "正树在剧情上于本话通关后归队，但实际可出击要到第 19 话（见第 19 话）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "巴乌",
+      "pilot": "格雷米·托托",
+      "lv": "37",
+      "x": 2,
+      "y": 7,
+      "behavior": "开局不动",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "36",
+      "x": 4,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 2,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 3,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 4,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 5,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 9,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "29",
+      "x": 28,
+      "y": 11,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "29",
+      "x": 29,
+      "y": 12,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "29",
+      "x": 29,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 30,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 28,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 29,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 25,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 1,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 1,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "多本·乌尔夫",
+      "pilot": "拉坎·达卡兰",
+      "lv": "39",
+      "x": 32,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "30",
+      "x": 32,
+      "y": 7,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "30",
+      "x": 32,
+      "y": 5,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "梅萨拉",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 31,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 31,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 30,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "7回合敌方阶段",
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 30,
+      "y": null,
+      "behavior": "GX 原表 Y 坐标空白（仅知 X 坐标）",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 33,
+    "frameH": 18,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "增援中的一台巴乌（Lv30）GX 原表缺 Y 坐标，表中以「—」标注，该点未画入坐标图。"
+    ]
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第18话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/18.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "月面死斗",
+   "ja": "月面の死闘",
+   "en": "Deathmatch on the Surface of the Moon",
+   "route": "主线流程",
+   "area": "月面",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 18 话后进入本话。本关无敌方增援。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。精神感应高达Mk-II（普露2 Lv39）资金 1000（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "正树（塞巴斯塔）自本话起回到出击表并留至终局（GX 逐话出击表；Akurasu 的归队话数标注与此不同，本站按 GX 的逐话出击表刊出）。"
+   ],
+   "events": [
+    "哈曼（卡碧尼 Lv46）与普露2（精神感应高达Mk-II Lv39）都在场。"
+   ],
+   "secrets": [
+    "普露2 前置事件：普露2 只攻击普露。若普露在本关被普露2 击破，普露将死亡（永久不可用）——这是第 22 话收普露2 入队的必要条件。",
+    "普露与普露2 只能二选一：想要女王曼莎就保住普露；想要普露2，就在本关放任其击破普露。",
+    "隐藏商店：在 (23,2) 的殖民卫星待机进入（统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：进入第 20 话（格拉纳达决战）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "30",
+      "x": 17,
+      "y": 21,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "30",
+      "x": 18,
+      "y": 20,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "30",
+      "x": 18,
+      "y": 22,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 15,
+      "y": 5,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 16,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "30",
+      "x": 19,
+      "y": 17,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "30",
+      "x": 20,
+      "y": 16,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "扎伊",
+      "pilot": "—",
+      "lv": "30",
+      "x": 21,
+      "y": 15,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "30",
+      "x": 24,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "31",
+      "x": 16,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "精神感应高达Mk-II",
+      "pilot": "普露2",
+      "lv": "39",
+      "x": 24,
+      "y": 22,
+      "behavior": "只攻击普露",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "46",
+      "x": 25,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
+   },
+   "map": {
+    "frameW": 26,
+    "frameH": 23,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 23,
+      "y": 2,
+      "kind": "商店",
+      "label": "隐藏商店（殖民卫星地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第19话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/19.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "决战！！格拉纳达要塞",
+   "ja": "決戦!!グラナダ要塞",
+   "en": "Final Battle! Granada Fortress",
+   "route": "主线流程",
+   "area": "格拉纳达",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 19 话后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。古兰森（修 Lv41）资金 800（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "第 1 回合敌方阶段，古兰森（修 Lv41）登场：实力极强且免疫间接攻击；它会在第 7 回合敌方阶段撤退——击破不是通关必需，打不过可以完全不攻击它、专注回复熬到它撤退。",
+    "想击破古兰森，GX 的建议是在第 16 话把盖塔练到 Lv45 左右。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "通关后：进入第 21 话（室内脱出战）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 9,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "26",
+      "x": 10,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "29",
+      "x": 3,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "阿尔索斯",
+      "pilot": "—",
+      "lv": "29",
+      "x": 4,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "32",
+      "x": 15,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "33",
+      "x": 16,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "32",
+      "x": 17,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "32",
+      "x": 18,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "杰诺巴M9",
+      "pilot": "—",
+      "lv": "32",
+      "x": 19,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦格",
+      "pilot": "—",
+      "lv": "32",
+      "x": 18,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "32",
+      "x": 19,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦格",
+      "pilot": "—",
+      "lv": "32",
+      "x": 20,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "37",
+      "x": 27,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "马修马·塞罗",
+      "lv": "36",
+      "x": 28,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "卡拉·苏恩",
+      "lv": "34",
+      "x": 28,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "古兰森",
+      "pilot": "修·白川",
+      "lv": "41",
+      "x": 20,
+      "y": 5,
+      "behavior": "免疫间接攻击；第7回合敌方阶段撤退",
+      "note": "第7回合敌方阶段撤退，击破非必需"
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "30",
+      "x": 1,
+      "y": 9,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "30",
+      "x": 1,
+      "y": 10,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "39",
+      "x": 32,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "30",
+      "x": 32,
+      "y": 7,
+      "behavior": "防御态势",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "吉尔吉尔",
+      "pilot": "—",
+      "lv": "30",
+      "x": 32,
+      "y": 5,
+      "behavior": "防御态势",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 33,
+    "frameH": 20,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第20话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/20.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "时间啊，停下吧",
+   "ja": "時間よ 止まれ",
+   "en": "Stop the Time",
+   "route": "主线流程",
+   "area": "室内",
+   "type": "歼灭/目标关",
+   "prerequisite": "室内关：拉·凯拉姆（战舰）不能出击；飞行变形不可用。15 回合时限，全员须自画面下方出口脱出。",
+   "victory": [
+    "15 回合内全部我方单位自画面下方出口脱出。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关以脱出为目标，资金收益很少。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（无战舰）。"
+   ],
+   "events": [
+    "开场事件中巴尔西昂（比安 Lv50）随即撤退，开局场上没有敌人。",
+    "第 4 回合敌方阶段，凤（精神感应高达 Lv41）以 NPC 登场，指引出口方向。",
+    "移动力低的机体（ν高达、伟大魔神移动 7）不要浪费任何回合。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。"
+   ],
+   "unlocks": [
+    "通关后：内尔·阿尔加马换乘为拉·凯拉姆；宇宙篇结束，返回地球。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "巴尔西昂",
+      "pilot": "比安·佐尔达克",
+      "lv": "50",
+      "x": 25,
+      "y": 4,
+      "behavior": "开场事件中撤退（开局实质上没有敌人）",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "金刚戈里",
+      "pilot": "—",
+      "lv": "33",
+      "x": 14,
+      "y": 6,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "3回合敌方阶段",
+      "name": "邦格",
+      "pilot": "—",
+      "lv": "33",
+      "x": 6,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "3回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "33",
+      "x": 7,
+      "y": 14,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 26,
+    "frameH": 15,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第21话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/21.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "突入大气层",
+   "ja": "大気圏突入",
+   "en": "Atmospheric Entry",
+   "route": "主线流程",
+   "area": "大气层",
+   "type": "歼灭/目标关",
+   "prerequisite": "拉·凯拉姆不能移动，须守住它 20 回合（或歼敌）。",
+   "victory": [
+    "20 回合内守住拉·凯拉姆；或歼灭全部敌人。"
+   ],
+   "defeat": [
+    "拉·凯拉姆被击破。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。本关敌机无特别高额的资金目标被来源标注。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（拉·凯拉姆固定不动）。"
+   ],
+   "events": [
+    "敌军大半以拉·凯拉姆为目标，围绕它布防即可。"
+   ],
+   "secrets": [
+    "说得普露2：由捷多说得普露2（Akurasu 记为 2 次；GX 未记次数）。关键：第 19 话普露已死亡时，说得后普露2 才真正入队（机体为精神感应高达Mk-II）；普露存活时也可以说得，但她不会入队（GX）。",
+    "隐藏商店：在 (2,17) 的殖民卫星待机进入（统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：多台机体武器剧情强化（ZZ 换装超级光束军刀/高能米加炮、塞巴斯塔 迪斯卡塔→梵尼提利刃、ν高达 鳍式浮游炮射程 6→7 等，GX 列举）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "38",
+      "x": 30,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "卡拉·苏恩",
+      "lv": "36",
+      "x": 31,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III改",
+      "pilot": "马修马·塞罗",
+      "lv": "37",
+      "x": 30,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 23,
+      "y": 14,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "精神感应高达Mk-II",
+      "pilot": "普露2",
+      "lv": "37",
+      "x": 31,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "蕾森·施奈德",
+      "lv": "36",
+      "x": 24,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 25,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 26,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "汉布拉比",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 25,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 27,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "34",
+      "x": 29,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 5,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "杰利德·梅萨",
+      "lv": "37",
+      "x": 7,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "邦德·多克",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 9,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "3回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "33",
+      "x": 18,
+      "y": 2,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "3回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "33",
+      "x": 7,
+      "y": 14,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "trigger": "3回合敌方阶段",
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "33",
+      "x": 7,
+      "y": 13,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 32,
+    "frameH": 18,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 2,
+      "y": 17,
+      "kind": "商店",
+      "label": "隐藏商店（殖民卫星地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第22话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/22.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "西罗克的反击",
+   "ja": "逆襲のシロッコ",
+   "en": "Scirocco's Counterattack",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 22 话后进入本话。",
+   "victory": [
+    "击破迪奥（西罗克）。"
+   ],
+   "defeat": [
+    "我方全灭（GX）。"
+   ],
+   "defeatNote": "败北条件两源不一致：GX 作「我方全灭」，Akurasu 作「母舰被击破」。本站按 GX 刊出。",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。迪奥资金 400（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "第 5 回合敌方阶段，古兰森（修 Lv49）以增援登场，但只对话后离去、无需战斗。",
+    "迪奥攻击与速度都高，弱机不要靠近（容易被「再攻击」连击）。"
+   ],
+   "secrets": [
+    "隐藏商店：在 (4,5) 的「町」待机进入（统一货单）。",
+    "通关后武器剧情强化：伟大魔神换装胸部燃烧/钻头重压拳、塞巴斯塔换装梵尼提利刃、ZZ 换装超级光束军刀/高能米加炮（Akurasu 列为 FC 原版限定；与第 22 话 GX 记载为同一批换装，话数标注有别）。"
+   ],
+   "unlocks": [
+    "通关后：进入第 24 话（拉·凯拉姆不能出击）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "迪奥",
+      "pilot": "帕普迪马斯·西罗克",
+      "lv": "41",
+      "x": 25,
+      "y": 7,
+      "behavior": "免疫间接攻击",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "梅萨拉（MS）",
+      "pilot": "莎拉·萨比亚罗夫",
+      "lv": "38",
+      "x": 24,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "帕拉斯·雅典娜",
+      "pilot": "蕾柯亚·朗德",
+      "lv": "39",
+      "x": 24,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 18,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 19,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 19,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 20,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 21,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "士兵",
+      "lv": "35",
+      "x": 21,
+      "y": 9,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "35",
+      "x": 14,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "35",
+      "x": 15,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "固定炮台",
+      "pilot": "—",
+      "lv": "35",
+      "x": 16,
+      "y": 15,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "35",
+      "x": 13,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "35",
+      "x": 14,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "35",
+      "x": 15,
+      "y": 2,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "36",
+      "x": 2,
+      "y": 10,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "36",
+      "x": 3,
+      "y": 11,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "古兰森",
+      "pilot": "修·白川",
+      "lv": "49",
+      "x": 24,
+      "y": 1,
+      "behavior": "免疫间接攻击；仅对话后离去",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 26,
+    "frameH": 16,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 25,
+      "y": 7,
+      "kind": "Boss",
+      "label": "胜利条件目标：迪奥"
+     },
+     {
+      "x": 4,
+      "y": 5,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第23话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/23.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "吉尔吉尔甘的亡灵",
+   "ja": "ギルギルガンの亡霊",
+   "en": "Gilgilgan's Apparition",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "拉·凯拉姆不能出击。",
+   "victory": [
+    "击破吉尔吉尔甘（及其复活形态机械吉尔吉尔甘）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "GX 本关表格的胜利条件栏误写为「击破迪奥」，系其编辑误记；GX 正文与 Akurasu 均一致为击破吉尔吉尔甘，本站按后者刊出。",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。吉尔吉尔甘资金 600、机械吉尔吉尔甘资金 1000（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战（无母舰）。"
+   ],
+   "events": [
+    "吉尔吉尔甘被击破后会以机械吉尔吉尔甘复活——务必在我方回合击破第一形态，否则复活后的它会在敌方回合行动。",
+    "机械吉尔吉尔甘的登场坐标 GX 未记载，敌方表与坐标图中如实标注缺失，未虚构补全。"
+   ],
+   "secrets": [
+    "通关后入手女王曼莎（FC 原版规则）：只要普露在队，通关后她的卡碧尼Mk-II 会被废弃、直接换乘女王曼莎。若在队的是普露2，则仍为精神感应高达Mk-II，不会换乘。",
+    "（PS 版规则不同，参考：须普露到达指定坐标 (37,17)（本站换算）后入手，FC 原版无此要求。）",
+    "隐藏商店：在 (6,5) 的「町」待机进入（统一货单）。"
+   ],
+   "unlocks": [
+    "通关后：进入第 25 话（最终部队再临）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "吉尔吉尔甘",
+      "pilot": "吉尔吉尔甘",
+      "lv": "44",
+      "x": 9,
+      "y": 12,
+      "behavior": "被击破后以机械吉尔吉尔甘复活",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 14,
+      "y": 12,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 9,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "布拉格S1",
+      "pilot": "—",
+      "lv": "37",
+      "x": 11,
+      "y": 13,
+      "behavior": "免疫间接攻击",
+      "note": ""
+     },
+     {
+      "name": "高战蟹",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 16,
+      "y": 17,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "高战蟹",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 13,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 18,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "多本·乌尔夫",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 17,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "48",
+      "x": 24,
+      "y": 26,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 20,
+      "y": 21,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 21,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "37",
+      "x": 17,
+      "y": 27,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "巴乌",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 8,
+      "y": 13,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 8,
+      "y": 10,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 10,
+      "y": 11,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击破吉尔吉尔甘后复活（事件）",
+      "name": "机械吉尔吉尔甘",
+      "pilot": "吉尔吉尔甘",
+      "lv": "46",
+      "x": null,
+      "y": null,
+      "behavior": "GX 未刊登坐标（在吉尔吉尔甘被击破处复活，见正文）",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "36",
+      "x": 19,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "5回合敌方阶段",
+      "name": "诱导导弹",
+      "pilot": "—",
+      "lv": "36",
+      "x": 2,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 25,
+    "frameH": 28,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 9,
+      "y": 12,
+      "kind": "Boss",
+      "label": "胜利条件目标：吉尔吉尔甘"
+     },
+     {
+      "x": 6,
+      "y": 5,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     }
+    ],
+    "missing": [
+     "机械吉尔吉尔甘的登场坐标 GX 未记载，坐标图中未画该点。"
+    ]
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第24话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/24.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "最终部队再临",
+   "ja": "ラストバタリオン再び",
+   "en": "Last Batallion, Again",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "通关第 24 话后进入本话。",
+   "victory": [
+    "击破拉弗雷西亚。"
+   ],
+   "defeat": [
+    "我方全灭（GX）。"
+   ],
+   "defeatNote": "败北条件两源不一致：GX 作「我方全灭」，Akurasu 作「母舰被击破」。本站按 GX 刊出。",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。拉弗雷西亚（卡罗佐 Lv46）资金 1100、塞西莉 1000、毕格扎姆 500/台（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "第 2、4 回合敌方阶段有敌方增援（哈曼、兰巴·拉尔等，见增援表）。"
+   ],
+   "secrets": [
+    "说得塞西莉（两步中的第 2 步）：前置为第 16 话已说得过她（且未在第 16 话击破她，否则她不登场）。她在第 1 回合敌方阶段登场后，再由西布克说得 1 次，她变为 NPC 友军。",
+    "FC 原版中塞西莉不可操控：她会自行冲向拉弗雷西亚、我方不能为她回复，通关后离队；本关直接击破她也可以通关（GX）。",
+    "隐藏商店：在 (30,8) 的「町」待机进入——这是全游戏最后一个商店，GX 建议尽量在此完成采购。"
+   ],
+   "unlocks": [
+    "通关后：进入最终话（第 26 话）。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "39",
+      "x": 18,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "蕾森·施奈德",
+      "lv": "45",
+      "x": 19,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "基拉·多加",
+      "pilot": "士兵",
+      "lv": "39",
+      "x": 20,
+      "y": 3,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 12,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 13,
+      "y": 19,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "扎古III",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 14,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "卡碧尼",
+      "pilot": "士兵",
+      "lv": "39",
+      "x": 24,
+      "y": 18,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "加姆鲁芬",
+      "pilot": "士兵",
+      "lv": "38",
+      "x": 3,
+      "y": 7,
+      "behavior": "拉弗雷西亚周边的敌机不动",
+      "note": ""
+     },
+     {
+      "name": "拉弗雷西亚",
+      "pilot": "卡罗佐·罗纳",
+      "lv": "46",
+      "x": 4,
+      "y": 7,
+      "behavior": "不动",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "α·阿兹尔",
+      "pilot": "葵丝·帕拉雅",
+      "lv": "43",
+      "x": 4,
+      "y": 6,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "拉坎·达卡兰",
+      "lv": "43",
+      "x": 5,
+      "y": 7,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "雅克特·多加",
+      "pilot": "基尼·加斯",
+      "lv": "42",
+      "x": 4,
+      "y": 8,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "古尔",
+      "pilot": "阿修罗男爵",
+      "lv": "42",
+      "x": 28,
+      "y": 16,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "毕格扎姆",
+      "pilot": "士兵",
+      "lv": "40",
+      "x": 18,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "毕格扎姆",
+      "pilot": "士兵",
+      "lv": "40",
+      "x": 19,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "1回合敌方阶段",
+      "name": "比基纳·基纳",
+      "pilot": "塞西莉·费尔柴尔德",
+      "lv": "46",
+      "x": 32,
+      "y": 9,
+      "behavior": "盾防御；仅在第16话已说得时登场，被西布克再次说得后变为 NPC 友军；第16话被击破则不登场",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "卡碧尼",
+      "pilot": "哈曼·卡恩",
+      "lv": "48",
+      "x": 10,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "2回合敌方阶段",
+      "name": "盖马克",
+      "pilot": "卡拉·苏恩",
+      "lv": "48",
+      "x": 11,
+      "y": 1,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "雅克特·多加",
+      "pilot": "兰巴·拉尔",
+      "lv": "48",
+      "x": 9,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "trigger": "4回合敌方阶段",
+      "name": "雅克特·多加",
+      "pilot": "盖亚",
+      "lv": "48",
+      "x": 10,
+      "y": 20,
+      "behavior": "",
+      "note": ""
+     }
+    ]
+   },
+   "map": {
+    "frameW": 33,
+    "frameH": 23,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 4,
+      "y": 7,
+      "kind": "Boss",
+      "label": "胜利条件目标：拉弗雷西亚"
+     },
+     {
+      "x": 30,
+      "y": 8,
+      "kind": "商店",
+      "label": "隐藏商店（城镇地形）"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第25话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/25.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "黎明决战",
+   "ja": "暁の決戦",
+   "en": "Final Battle at Dawn",
+   "route": "主线流程",
+   "area": "",
+   "type": "歼灭/目标关",
+   "prerequisite": "飞行变形不可用（Akurasu）。",
+   "victory": [
+    "击破巴尔西昂。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得（本作没有「全灭后重试保留资金」的刷法，游戏结束直接回标题）。单关资金总计没有来源记载（未核实）。巴尔西昂的经验与资金均为 0；古兰森资金 800（GX）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "在队成员参战。"
+   ],
+   "events": [
+    "最终 Boss：比安·佐尔达克驾驶巴尔西昂（Lv50）。旁边的修/古兰森（Lv49）无需击破——集中火力打巴尔西昂即可通关并进入结局。",
+    "巴尔西昂与古兰森开局不会动，第 5 回合敌方阶段起开始移动。",
+    "拉·凯拉姆能否出击：GX 站内两处说法矛盾（第 25 话页称不能出击、第 26 话出击表却列有），未核实，制定计划时不要依赖这一点。"
+   ],
+   "secrets": [
+    "本关无说得对象、无隐藏商店。",
+    "这是 DC 战争的终局：击破比安后迎来结局——比安的遗言预言了「另一场同样的战争」。"
+   ],
+   "unlocks": [
+    "通关后：进入结局（ED）——FC 原版全 26 话结束。"
+   ],
+   "enemies": {
+    "status": "verified",
+    "rows": [
+     {
+      "name": "巴尔西昂",
+      "pilot": "比安·佐尔达克",
+      "lv": "50",
+      "x": 10,
+      "y": 4,
+      "behavior": "开局不动，第5回合敌方阶段起开始移动",
+      "note": "胜利条件目标"
+     },
+     {
+      "name": "古兰森",
+      "pilot": "修·白川",
+      "lv": "49",
+      "x": 11,
+      "y": 4,
+      "behavior": "免疫间接攻击；开局不动，第5回合敌方阶段起移动；无需击破",
+      "note": "无需击破（胜利条件只有巴尔西昂）"
+     },
+     {
+      "name": "盖马克",
+      "pilot": "拉坎·达卡兰",
+      "lv": "46",
+      "x": 2,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     },
+     {
+      "name": "盖马克",
+      "pilot": "卡拉·苏恩",
+      "lv": "46",
+      "x": 19,
+      "y": 22,
+      "behavior": "",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
+   },
+   "map": {
+    "frameW": 20,
+    "frameH": 23,
+    "status": "verified-points",
+    "note": "下图框架按本关已核实坐标（敌配置、增援、隐藏商店等点位）的最大分布设定；敌方与增援坐标来自 GameCenter GX 的 FC 原版逐关解析表，GX 原表以左上 (0,0) 为原点，本站统一换算为左上 (1,1)（X、Y 各 +1）。地图实际边界与逐格地形未从公开来源逐格核实，未标注格的地形待核实。",
+    "verifiedPoints": [
+     {
+      "x": 10,
+      "y": 4,
+      "kind": "Boss",
+      "label": "胜利条件目标：巴尔西昂"
+     }
+    ],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "GameCenter GX：第2次超级机器人大战 第26话解析（敌配置/说得/商店/事件）",
+     "url": "https://gcgx.games/srw2/map/26.html"
+    },
+    {
+     "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ]
+  }
+ ]
+}
