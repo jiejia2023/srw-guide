@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import games from '../../../data/games.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return games.map(g => ({ params: { slug: g.slug }, props: { game: g } }));
+}
+const { game: g } = Astro.props;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: g.zh, path: `${g.slug}/` },
+  { label: '机体图鉴' },
+];
+---
+<Base title={`${g.zh} 机体图鉴`} description={`${g.zh}机体与驾驶员图鉴：加入条件与加入时机一览，正在整理中。`} path={`${g.slug}/units/`} breadcrumbs={crumbs}>
+  <h1>{g.zh} · 机体图鉴</h1>
+  <div class="empty-state">
+    <strong>机体图鉴正在整理中。</strong>
+    <p>本页将整理 {g.zh} 全部可加入机体与驾驶员的加入条件，未核对的数据不会先行刊出。</p>
+  </div>
+  <h2>将收录的内容</h2>
+  <table class="data">
+    <tr><th>分类</th><th>说明</th></tr>
+    <tr><td>机体</td><td>机体名称、加入关卡与加入条件，条件加入的机体单独标注。</td></tr>
+    <tr><td>驾驶员</td><td>驾驶员与默认机体、加入关卡与加入条件。</td></tr>
+    <tr><td>加入条件</td><td>剧情自动加入 / 条件加入 / 隐藏加入三种类型分开标注，并链接到对应关卡页。</td></tr>
+  </table>
+  <p><a href={href(`${g.slug}/`)}>← 返回 {g.zh}</a> · <a href={href(`${g.slug}/secrets/`)}>隐藏要素</a></p>
+</Base>
