@@ -210,6 +210,56 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 13,
+     "y": 17,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": "1",
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 17,
+     "name": "阿芙萝黛A",
+     "pilot": "弓沙耶加",
+     "lv": "1",
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 18,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": "1",
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 19,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": "1",
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 19,
+     "name": "德克萨斯麦克",
+     "pilot": "杰克",
+     "lv": "1",
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 20,
+     "name": "白色要塞",
+     "pilot": "布莱德",
+     "lv": "1",
+     "trigger": null
+    }
    ]
   },
   {
@@ -433,6 +483,64 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 2,
+     "y": 7,
+     "name": "白色要塞",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 9,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 11,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 6,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 8,
+     "name": "阿芙萝黛A",
+     "pilot": "弓沙耶加",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 10,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 1,
+     "name": "德克萨斯麦克",
+     "pilot": "杰克",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -661,6 +769,64 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 7,
+     "y": 19,
+     "name": "白色要塞",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 8,
+     "y": 18,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 17,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 18,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 19,
+     "name": "阿芙萝黛A",
+     "pilot": "弓沙耶加",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 20,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 24,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": "8",
+     "trigger": "第3回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -929,6 +1095,72 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 16,
+     "y": 10,
+     "name": "白色要塞",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 8,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 8,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 9,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 9,
+     "name": "阿芙萝黛A",
+     "pilot": "弓沙耶加",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 11,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 11,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 10,
+     "name": "エルメス",
+     "pilot": "ララァ＝スン",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -1138,6 +1370,72 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 3,
+     "y": 4,
+     "name": "阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 4,
+     "y": 5,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 6,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 6,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 4,
+     "y": 7,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 8,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 7,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 6,
+     "name": "エルメス",
+     "pilot": "ララァ＝スン",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -1420,6 +1718,80 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 4,
+     "y": 20,
+     "name": "阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 4,
+     "y": 22,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 19,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 21,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 23,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 20,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 22,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 21,
+     "name": "エルメス",
+     "pilot": "ララァ＝スン",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 1,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": "16",
+     "trigger": "第7回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -1708,6 +2080,72 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 12,
+     "y": 2,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 4,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 4,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 3,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 3,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 2,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 3,
+     "name": "エルメス",
+     "pilot": "ララァ＝スン",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 4,
+     "name": "メカ胡蝶鬼",
+     "pilot": "胡蝶",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -1940,6 +2378,72 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 18,
+     "y": 16,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 2,
+     "name": "阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 4,
+     "y": 4,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 3,
+     "y": 5,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 5,
+     "y": 3,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 4,
+     "y": 2,
+     "name": "メカ胡蝶鬼",
+     "pilot": "胡蝶",
+     "lv": null,
+     "trigger": "第3回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -2179,6 +2683,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 14,
+     "y": 14,
+     "name": "阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 15,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 13,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 15,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 13,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 12,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 14,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 14,
+     "name": "ミネルバＸ",
+     "pilot": "密涅瓦X",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 12,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 11,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 1,
+     "y": 13,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": "21",
+     "trigger": "第3回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -2452,6 +3046,88 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 4,
+     "y": 23,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 2,
+     "y": 21,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 4,
+     "y": 21,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 22,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 22,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 20,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 25,
+     "y": 7,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 26,
+     "y": 7,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 26,
+     "y": 6,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 24,
+     "name": "阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -2690,6 +3366,80 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 9,
+     "y": 7,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 6,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 5,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 9,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 7,
+     "name": "精神感应高达",
+     "pilot": "フォウ＝ムラサメ",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 6,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 8,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 10,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 25,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": "24",
+     "trigger": "第7回合敌方阶段（我方增援）"
+    }
    ]
   },
   {
@@ -2897,6 +3647,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 15,
+     "y": 5,
+     "name": "盖塔1",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 5,
+     "name": "高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 6,
+     "name": "魔神Z",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 2,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 3,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 5,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 2,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 3,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 4,
+     "name": "精神感应高达",
+     "pilot": "フォウ＝ムラサメ",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 28,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": "第5回合敌方阶段（我方增援）"
+    },
+    {
+     "x": 13,
+     "y": 27,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": "第5回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -3146,6 +3986,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 12,
+     "y": 13,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 15,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 11,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 13,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 12,
+     "name": "精神感应高达",
+     "pilot": "フォウ＝ムラサメ",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 11,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 15,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 14,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 13,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 14,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 12,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -3440,6 +4370,88 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 11,
+     "y": 23,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 24,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 23,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 26,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 27,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 27,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 25,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 25,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 25,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 25,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -3668,6 +4680,80 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 13,
+     "y": 15,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 17,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 18,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 18,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 18,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 17,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 19,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 19,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 21,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -3882,6 +4968,88 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 16,
+     "y": 9,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 15,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 10,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 11,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 12,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 14,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 13,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 13,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 12,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 11,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -4220,6 +5388,80 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 20,
+     "y": 27,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 21,
+     "y": 26,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 21,
+     "y": 28,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 22,
+     "y": 25,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 22,
+     "y": 29,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 22,
+     "y": 27,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 23,
+     "y": 27,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 23,
+     "y": 25,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 24,
+     "y": 27,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -4501,6 +5743,72 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 16,
+     "y": 6,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 8,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 20,
+     "y": 8,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 9,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 7,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 8,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 8,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 6,
+     "name": "波士波罗特",
+     "pilot": "波士",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -4678,6 +5986,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 8,
+     "y": 12,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 8,
+     "y": 13,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 8,
+     "y": 14,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 8,
+     "y": 15,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 7,
+     "y": 13,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 12,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 14,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 10,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 16,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 7,
+     "y": 11,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 7,
+     "y": 15,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -4937,6 +6335,96 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 10,
+     "y": 14,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 13,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 15,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 9,
+     "name": "拟·阿伽玛",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 7,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 6,
+     "y": 11,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 8,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 5,
+     "y": 10,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 7,
+     "y": 8,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 7,
+     "y": 10,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 3,
+     "y": 9,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -5039,6 +6527,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 25,
+     "y": 6,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 24,
+     "y": 7,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 26,
+     "y": 7,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 25,
+     "y": 8,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 24,
+     "y": 9,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 26,
+     "y": 9,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 23,
+     "y": 10,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 25,
+     "y": 10,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 27,
+     "y": 10,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 25,
+     "y": 12,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 32,
+     "name": "精神感应高达",
+     "pilot": "フォウ＝ムラサメ",
+     "lv": "41",
+     "trigger": "第4回合敌方阶段（我方增援）"
     }
    ]
   },
@@ -5265,6 +6843,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 18,
+     "y": 9,
+     "name": "拉·凯拉姆",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 9,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 22,
+     "y": 9,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 7,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 11,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 9,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 20,
+     "y": 9,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 8,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 8,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 10,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 10,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -5505,6 +7173,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 13,
+     "y": 9,
+     "name": "拉·凯拉姆",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 7,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 7,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 8,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 10,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 11,
+     "y": 8,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 9,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 9,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 9,
+     "y": 8,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露 / 普露2",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 11,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 10,
+     "y": 10,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -5750,6 +7508,88 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 16,
+     "y": 20,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 19,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 15,
+     "y": 20,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 17,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 16,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 17,
+     "name": "卡碧尼Mk-II",
+     "pilot": "普露 / 普露2",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 17,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 14,
+     "y": 15,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 13,
+     "y": 15,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 12,
+     "y": 16,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
     }
    ]
   },
@@ -6013,6 +7853,96 @@
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
     }
+   ],
+   "allyUnits": [
+    {
+     "x": 18,
+     "y": 14,
+     "name": "拉·凯拉姆",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 12,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 16,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 14,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 14,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 13,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 15,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 14,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 13,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 15,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 20,
+     "y": 14,
+     "name": "昆·曼萨",
+     "pilot": "普露 / 普露2",
+     "lv": null,
+     "trigger": null
+    }
    ]
   },
   {
@@ -6119,6 +8049,96 @@
     {
      "name": "Akurasu Wiki：2nd Super Robot Wars Flow Chart（流程与胜败条件校对）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/2nd_Super_Robot_Wars/Flow_Chart"
+    }
+   ],
+   "allyUnits": [
+    {
+     "x": 18,
+     "y": 14,
+     "name": "拉·凯拉姆",
+     "pilot": "布莱德",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 12,
+     "name": "ν高达",
+     "pilot": "阿姆罗",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 18,
+     "y": 16,
+     "name": "盖塔G",
+     "pilot": "流龙马",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 16,
+     "y": 14,
+     "name": "伟大魔神",
+     "pilot": "兜甲儿",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 14,
+     "name": "塞巴斯塔",
+     "pilot": "正树",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 13,
+     "name": "高达F91",
+     "pilot": "西布克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 15,
+     "name": "ZZ高达",
+     "pilot": "捷多",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 17,
+     "y": 14,
+     "name": "Z高达",
+     "pilot": "卡缪",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 13,
+     "name": "古连泰沙",
+     "pilot": "迪克",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 19,
+     "y": 15,
+     "name": "梅塔斯",
+     "pilot": "花",
+     "lv": null,
+     "trigger": null
+    },
+    {
+     "x": 20,
+     "y": 14,
+     "name": "昆·曼萨",
+     "pilot": "普露 / 普露2",
+     "lv": null,
+     "trigger": null
     }
    ]
   }
