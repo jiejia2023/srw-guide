@@ -6,7 +6,7 @@ import { href, canonical } from '../../../lib/site';
 // srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin 与 srw-shin 另有各自的关卡总表静态页，不在此列。
 export function getStaticPaths() {
   return games
-    .filter(g => g.slug !== 'srw-30' && g.slug !== 'srw-1' && g.slug !== 'srw-2' && g.slug !== 'srw-3' && g.slug !== 'srw-ex' && g.slug !== 'srw-4' && g.slug !== 'srw-masoukishin' && g.slug !== 'srw-shin')
+    .filter(g => g.slug !== 'srw-30' && g.slug !== 'srw-1' && g.slug !== 'srw-2' && g.slug !== 'srw-3' && g.slug !== 'srw-ex' && g.slug !== 'srw-4' && g.slug !== 'srw-masoukishin' && g.slug !== 'srw-shin' && g.slug !== 'srw-f')
     .map(g => ({ params: { slug: g.slug }, props: { game: g } }));
 }
 const { game: g } = Astro.props;
