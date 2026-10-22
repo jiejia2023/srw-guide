@@ -1,0 +1,4817 @@
+{
+ "missions": [
+  {
+   "code": "第1话·真实系",
+   "slug": "stage-1r",
+   "zh": "漩涡般的恶意（前）",
+   "ja": "うずまく悪意（前）",
+   "en": "Swirling Malice (Before)",
+   "route": "开局路线分歧·真实系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "读入《F》的通关存档（或从本作全新开始、使用样本数据），并选择真实系主人公后进入本话。开局前主人公自动换乘亡灵 Mk-II、恋人换乘亡灵（见隐藏要素）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "F 的全部机体继承至本作（读入存档时）参战；主人公换乘亡灵 Mk-II、恋人换乘亡灵。",
+    "高达F91（西布克）、比纳·吉纳（塞西莉）本话加入——F91 系机体在完结编正式登场。"
+   ],
+   "events": [
+    "《F》的战事告一段落后，隆德·贝尔迎来完结编的开幕战。主人公在开战前换乘亡灵 Mk-II（恋人改乘亡灵）；高达F91 与比纳·吉纳在本话登场。",
+    "Akurasu 流程图的加入栏在换乘记载之后另附有「(Gilliam)」字样，文本抓取下其语境（指人还是指机）不明，本站照录存疑、不作展开。"
+   ],
+   "secrets": [
+    "存档继承（本作的起点）：读入《F》全 33 话通关存档时，角色数据与已改造的机体数据继承至本作（日文维基）；アニヲタWiki(仮) 另明列资金、驾驶员等级、强化零件、改造四项均继承。F 中立下的旗标（托德说得、哈曼说得、恋人有无、主人公新必杀技）与总回合数也一并带入（见本作主页的继承说明）。",
+    "直接从本作开始（样本数据）时：总回合数从 350 起算（影响第 16 话塞拉的条件）、托德与哈曼的说得旗标均为未成立、恋人可在开始时选「有」、利·格兹已持有 2 机、卡尔巴里神殿为无改造状态（SRW Wiki 的样本数据记述）。",
+    "恋人只能驾驶亡灵系机体，不能驾驶第 22 话取得的凶鸟／古伦加斯特（Akurasu 的 F Secrets 页）。"
+   ],
+   "unlocks": [
+    "通关后进入真实系第 2 话「漩涡般的恶意（后）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "真实系开局：F 全机体继承，主人公换乘亡灵 Mk-II；F91 登场。"
+  },
+  {
+   "code": "第1话·超级系",
+   "slug": "stage-1s",
+   "zh": "边境4的危机（前）",
+   "ja": "フロンティア4の危機（前）",
+   "en": "Crisis on Frontier 4 (Before)",
+   "route": "开局路线分歧·超级系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "读入《F》的通关存档（或从本作全新开始、使用样本数据），并选择超级系主人公后进入本话。开局前主人公自动换乘亡灵 Mk-II、恋人换乘亡灵（见隐藏要素）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "F 的全部机体继承至本作（读入存档时）参战；主人公换乘亡灵 Mk-II、恋人换乘亡灵。",
+    "高达F91（西布克）、比纳·吉纳（塞西莉）本话加入。"
+   ],
+   "events": [
+    "舞台为殖民卫星群边境4（Frontier 4）：超级系主人公一侧的开幕战。继承与换乘规则与真实系第 1 话相同，高达F91 与比纳·吉纳在本话登场。"
+   ],
+   "secrets": [
+    "存档继承规则与真实系第 1 话相同（角色数据、已改造机体数据、资金／等级／零件、F 的旗标与总回合数）；样本数据开始时的状态（总回合 350 起算等）见本作主页与真实系第 1 话的记载。",
+    "恋人只能驾驶亡灵系机体，不能驾驶第 22 话取得的凶鸟／古伦加斯特（Akurasu 的 F Secrets 页）。"
+   ],
+   "unlocks": [
+    "通关后进入超级系第 2 话「边境4的危机（后）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "超级系开局：继承与换乘同真实系；F91 登场。"
+  },
+  {
+   "code": "第2话·真实系",
+   "slug": "stage-2r",
+   "zh": "漩涡般的恶意（后）",
+   "ja": "うずまく悪意（後）",
+   "en": "Swirling Malice (After)",
+   "route": "开局路线分歧·真实系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "真实系第 1 话「漩涡般的恶意（前）」通关后进入，为其后编。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（沿用第 1 话阵容）。"
+   ],
+   "events": [
+    "第 1 话战事的后编，与来袭之敌继续交战。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入共通第 3 话「玫瑰人生」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "真实系开局的后编，无新增加入。"
+  },
+  {
+   "code": "第2话·超级系",
+   "slug": "stage-2s",
+   "zh": "边境4的危机（后）",
+   "ja": "フロンティア4の危機（後）",
+   "en": "Crisis on Frontier 4 (After)",
+   "route": "开局路线分歧·超级系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "超级系第 1 话「边境4的危机（前）」通关后进入，为其后编。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（沿用第 1 话阵容）。"
+   ],
+   "events": [
+    "边境4战事的后编，与来袭之敌继续交战。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入共通第 3 话「玫瑰人生」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "超级系开局的后编，无新增加入。"
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "玫瑰人生",
+   "ja": "ラビアンローズ",
+   "en": "La Vie en Rose",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 2 话（两系共通）通关后进入。自本话起两系路线合流。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZZ高达（捷多）、GP-03石斛兰（浦木宏）本话加入。",
+    "过关后加入：瓦尔西奥妮R（琉妮）、核心推进器（斯雷卡）、G加农。"
+   ],
+   "events": [
+    "舞台为补给基地拉维恩玫瑰（La Vie en Rose）。ZZ高达与 GP-03 在本话并入；过关后琉妮的瓦尔西奥妮R 等加入——《魔装机神》系人马与主力 MS 在此集结。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 4 话「阿克西斯攻防战」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "ZZ、GP-03 加入；琉妮过关后加入。"
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "阿克西斯攻防战",
+   "ja": "アクシズの攻防",
+   "en": "Battle of Axis",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 3 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿伽马（布莱特）升级为尼尔·阿伽马（布莱特）。",
+    "塞巴斯塔在本话取得地图兵器「塞弗拉什」。",
+    "沙漠高达（卡托尔）：按隐藏要素说得后加入（见下）。"
+   ],
+   "events": [
+    "围绕小行星基地阿克西斯的攻防战。卡托尔驾驶沙漠高达在关内登场，哈曼的丘贝雷亦出现——两人的说得都在本话结算，是全作最长的说得链的起点。"
+   ],
+   "secrets": [
+    "说得卡托尔：等卡托尔在关内出现后，用阿姆罗或卡缪说得沙漠高达（卡托尔），卡托尔加入。注意：本话不说得卡托尔是通向地上编 EVA BAD END 的条件之一（见第 29 话地上页），且 W 队说得链（第 8、11/13、14 话）以此为起点——通常应说得。",
+    "说得哈曼（第 2 次）：用克瓦特罗说得丘贝雷（哈曼）。若《F》最终话已说得过哈曼，本话说得 1 次即可；若 F 未立旗标，本话须说得 2 次。这是哈曼加入链（第 39 话 DC 线结算）的前置，漏掉会使第 39 话克瓦特罗连机体永久离队（SRW Wiki）。"
+   ],
+   "unlocks": [
+    "通关后进入第 5 话「扎比家的亡灵」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "说得卡托尔与哈曼（哈曼链起点）；战舰升级尼尔·阿伽马。"
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "扎比家的亡灵",
+   "ja": "ザビ家の亡霊",
+   "en": "Ghosts of the Zabi Family",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 4 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入。"
+   ],
+   "events": [
+    "以扎比家残党为对手的一话，标题直指吉翁残党势力的阴影。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 6 话「玻璃王国」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "无新增加入。"
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "玻璃王国",
+   "ja": "ガラスの王国",
+   "en": "Kingdom of Glass",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 5 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "托鲁基斯（杰克斯）、艾亚里斯（诺茵）本话加入。",
+    "过关后：铁球 1 机（按隐藏要素，NPC 铁球存活时取得）。"
+   ],
+   "events": [
+    "杰克斯的托鲁基斯与诺茵在本话并入；战场上有友军 NPC 的铁球部队。"
+   ],
+   "secrets": [
+    "铁球：让友军 NPC（联邦兵）的铁球至少 1 机存活到过关，即可取得铁球 1 机（与存活数无关，SRW Wiki）；Akurasu 的说法同为「至少一台铁球存活」。"
+   ],
+   "unlocks": [
+    "通关后进入第 7 话「阿曼达拉·卡曼达拉」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "托鲁基斯加入；NPC 铁球存活得铁球。"
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "阿曼达拉·卡曼达拉",
+   "ja": "アマンダラ・カマンダラ",
+   "en": "Amandara Kamandara",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 6 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后加入：艾尔盖姆MkII（达巴、莉莉丝）、新迪扎德。",
+    "过关后二选一：艾尔盖姆或新迪扎德之一获得地图兵器「爆裂发射器」并额外得 30,000 资金（条件见隐藏要素）。"
+   ],
+   "events": [
+    "与阿曼达拉（波塞达尔亲卫队「鲸」级战舰的舰长，实为波塞达尔的影武者）交战的一话。过关后艾尔盖姆MkII 与新迪扎德并入。"
+   ],
+   "secrets": [
+    "爆裂发射器：让第三势力阿曼达拉的座舰（The Whale）在本关存活到过关，过关后可二选一给艾尔盖姆或新迪扎德追加地图兵器「爆裂发射器」，并额外获得 30,000 资金（Akurasu）。注意：装到新迪扎德时，敌方的同型机也会同步获得该武装，自担风险。"
+   ],
+   "unlocks": [
+    "通关后进入第 8 话「提坦斯的恶意」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "过关后 MkII 加入；座舰存活得爆裂发射器二选一。"
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "提坦斯的恶意",
+   "ja": "ティターンズの悪意",
+   "en": "Malicious Titans",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 7 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "普露、普露兹在本关登场（丘贝雷Mk-II 两机）。",
+    "丘贝雷Mk-II（红或紫）：按过关时的存活状态取得其一（见隐藏要素）。",
+    "死神高达（迪奥）：全灭敌军后说得加入（见隐藏要素）。"
+   ],
+   "events": [
+    "提坦斯的普露姐妹驾驶丘贝雷Mk-II 出现，迪奥的死神高达也在本关登场——两组人马的去留都在过关前后结算。"
+   ],
+   "secrets": [
+    "说得迪奥：击破全部敌人（或两台丘贝雷Mk-II 都被击坠）后，死神高达（迪奥）变为中立，用卡托尔说得他即加入（Akurasu）。这是 W 队说得链的第二环（卡托尔须已在第 4 话说得）。",
+    "丘贝雷Mk-II 二选一：让普露或普露兹至少一人存活到关末（Akurasu）。SRW Wiki 的细则：两人存活或两人都被击坠时，二选一废弃一机、取得另一机；仅一人存活时取得存活者；两机都被击坠时会产生 2 机份的修理费。红、紫两机性能相同。"
+   ],
+   "unlocks": [
+    "通关后进入第 9 话「诀别（前）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "说得迪奥；丘贝雷Mk-II 按存活状态二选一。"
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "诀别（前）",
+   "ja": "訣別（前）",
+   "en": "Parting (Before)",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 8 话通关后进入。本关为限时调查关，胜利条件特殊（见关卡概要）。",
+   "victory": [
+    "10 回合内调查全部七个基地（让任意单位进入每个基地格内）即胜利。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "10 回合经过。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入。"
+   ],
+   "events": [
+    "限时调查关：在 10 回合内逐一进入七个基地。西斯勒·布拉克的最难隐藏链在本关埋下第一环（见隐藏要素）——调查顺序会影响该事件能否触发，需先处理地图下方的基地。"
+   ],
+   "secrets": [
+    "西斯勒·布拉克（荣格）第 1 环：出击魔神Z（甲儿），把他放到地图下方中央基地周围 2 格半径内（基地格本身不算；Akurasu 举例坐标 (35,52) 有效），且必须在任何机体进入右上基地之前完成，否则事件不发生（Akurasu 流程图，附有示意图片链接）。此后还需第 27 话选宇宙编、第 32 话宇宙编的第 3 环，结算在第 41 话 DC 线或第 42 话 GP 线。"
+   ],
+   "unlocks": [
+    "通关后进入第 10 话「诀别（后）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "限时调查七基地；西斯勒·布拉克链第 1 环在此。"
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "诀别（后）",
+   "ja": "訣別（後）",
+   "en": "Parting (After)",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 9 话通关后进入。本关胜利条件特殊：护送战舰抵达地图底部。",
+   "victory": [
+    "我方战舰到达地图底部。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "我方全灭。",
+    "击破全部敌人（全灭敌军同样判败）。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入。"
+   ],
+   "events": [
+    "护送关：目标是让战舰抵达地图底部——注意本关把敌军全灭反而判败，必须留敌牵制、护送优先。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 11 话（真实系「追击提坦斯」／超级系「羁绊」）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "护送战舰关：全灭敌军反而判败。"
+  },
+  {
+   "code": "第11话·真实系",
+   "slug": "stage-11r",
+   "zh": "追击提坦斯",
+   "ja": "ティターンズの追撃",
+   "en": "Pursuing the Titans",
+   "route": "系别分歧·真实系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "第 10 话通关后、真实系路线进入本话。奥津拉（运输舰）被击坠即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "奥津拉被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本关不可出击：魔神Z（甲儿）、戴安娜A（沙耶加）、波士博罗特（波士）。",
+    "过关后加入：大魔神（剑铁也）、维纳斯A（炎纯）、ν高达（阿姆罗）。"
+   ],
+   "events": [
+    "追击提坦斯的一话，须保护运输舰奥津拉。魔神系三机本关缺席；过关后大魔神、维纳斯A 与阿姆罗的 ν高达并入——逆袭的夏亚组主力在此集结。"
+   ],
+   "secrets": [
+    "说得特洛瓦（真实系第 1 环）：等特洛瓦在关内出现后，用卡托尔说得重炮手高达（特洛瓦）。还须在第 13 话完成第 2 环（见第 13 话页），特洛瓦才正式加入。"
+   ],
+   "unlocks": [
+    "通关后进入第 12 话「传闻中的破岚万丈」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "保护奥津拉；过关后大魔神与 ν高达加入；说得特洛瓦第 1 环。"
+  },
+  {
+   "code": "第11话·超级系",
+   "slug": "stage-11s",
+   "zh": "羁绊",
+   "ja": "絆",
+   "en": "Bonds",
+   "route": "系别分歧·超级系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "第 10 话通关后、超级系路线进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大魔神（剑铁也）、维纳斯A（炎纯）本话加入。",
+    "过关后加入：ν高达（阿姆罗）。"
+   ],
+   "events": [
+    "超级系一侧的第 11 话：大魔神与维纳斯A 在关内并入，过关后 ν高达加入。"
+   ],
+   "secrets": [
+    "特洛瓦的说得链在超级系路线不在本话：第 13 话用卡托尔说得重炮手高达（特洛瓦，且不得与他交战过）即可完成（见第 13 话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 12 话「传闻中的破岚万丈」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "大魔神关内加入；ν高达过关后加入。"
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "传闻中的破岚万丈",
+   "ja": "ウワサの破嵐万丈",
+   "en": "Secret of Haran Banjo",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 11 话（两系共通）通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴坦3（破岚万丈）：与德库加舰队战斗持续 4 回合以上时才会出击（见下）；过关后正式在队。"
+   ],
+   "events": [
+    "破岚万丈与戴坦3 的登场话。注意登场有回合条件：开局不要过快解决德库加的舰队。"
+   ],
+   "secrets": [
+    "戴坦3 的出击条件：与德库加（ドクーガ）舰队的战斗持续 4 回合以上，破岚万丈才会驾驶戴坦3 出击（Akurasu）；速通会错过他的出击演出（过关后仍在队）。"
+   ],
+   "unlocks": [
+    "通关后进入第 13 话「日轮在我」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "戴坦3 登场需战斗 4 回合以上。"
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "日轮在我",
+   "ja": "日輪は我にあり",
+   "en": "The Sun Appears",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 12 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "黑翼（亚朗）、重炮手高达（特洛瓦，按隐藏要素说得后）本话加入。",
+    "战前戴坦3 的驾驶员由万丈换为驻屯状态（原文作 Daitarn 3 (Banjou) → (Garrison)，第 14 话过关后恢复为万丈）。"
+   ],
+   "events": [
+    "亚朗的黑翼并入；特洛瓦的说得在本话完成第二环。"
+   ],
+   "secrets": [
+    "说得特洛瓦（第 2 环）：用卡托尔说得重炮手高达（特洛瓦），且此前不能与特洛瓦交战过（Akurasu）。真实系路线须先完成第 11 话的第 1 环；超级系路线在本话一次完成。完成后特洛瓦正式加入。"
+   ],
+   "unlocks": [
+    "通关后进入第 14 话「恶意的灵光」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "黑翼加入；说得特洛瓦第 2 环在此完成。"
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "恶意的灵光",
+   "ja": "悪意のオーラ",
+   "en": "Aura of Malice",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 13 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "飞翼高达（希罗）：按隐藏要素说得后加入。",
+    "过关后：戴坦3 的驾驶员恢复为破岚万丈。"
+   ],
+   "events": [
+    "托德驾驶莱内克在本关出现，希罗的飞翼高达亦登场——两人的说得同关结算。"
+   ],
+   "secrets": [
+    "说得希罗：先用迪奥、再用特洛瓦，依次说得飞翼高达（希罗），希罗加入（Akurasu）。这是 W 队说得链的最后一环（卡托尔→迪奥→特洛瓦→希罗）。",
+    "说得托德（完结编第 2 环）：先用玛贝尔（マーベル）、再用翔，依次说得莱内克（托德）。前提是《F》第 13 话已用翔说得过托德（第 1 环）；直接从完结编开始则托德不可得。后续：第 18 话第 3 环、第 21 话结算（见各话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 15 话「动乱·约翰内斯堡」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "说得希罗（W 链完成）与托德第 2 环同关。"
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "动乱·约翰内斯堡",
+   "ja": "動乱、ヨハネスバーグ",
+   "en": "Upheaval in Johannesburg",
+   "route": "共通",
+   "area": "约翰内斯堡",
+   "type": "共通",
+   "prerequisite": "第 14 话通关后进入。本关须防卫议会大楼。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "任一敌人进入议会大楼。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "赞姆吉德（米奥）本话加入（《魔装机神》系机体）。"
+   ],
+   "events": [
+    "舞台为约翰内斯堡：敌人逼近议会大楼，任一敌人踏入即败北，须在楼前布防拦截。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 16 话「超级杰利尔」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "防卫议会大楼；赞姆吉德加入。"
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "超级杰利尔",
+   "ja": "ハイパージェリル",
+   "en": "Hyper Jeryll",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 15 话通关后进入。本话按通算编号为第 49/50 话——全作最著名的回合数条件（塞拉）在此结算。",
+   "victory": [
+    "击破杰利尔，或击破全部红色单位。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "攻击了任何中立／黄色单位。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后：塞拉·玛斯（按隐藏要素条件，见下）。"
+   ],
+   "events": [
+    "与杰利尔交战的一话：胜利条件是击破杰利尔本人或全灭红色单位；攻击中立／黄色的单位会直接败北，交战时务必看清敌我标识。"
+   ],
+   "secrets": [
+    "塞拉·玛斯（全作最难的条件之一）：出击阿姆罗，让他移动到指定坐标待机——Akurasu 的 FF 流程图与 FF Secrets 页作 (15,31)；SRW Wiki 与 Akurasu 的 F Secrets 页作「横14：纵30」。两说恰差 (1,1)，疑为坐标原点口径不同（SRW Wiki 的日文攻略注记本站 (1,1) 原点时应取 (15,31)），确切格子待实机复核，本站并记两说。另一条件是含《F》在内的总回合数在 435 以内（FF 两页作「达到 435 之前／435 或以下」，F Secrets 页作「少于 435」，表述略有出入）；直接从完结编开始时总回合从 350 起算，只剩 85 回合余量，SRW Wiki 称「并非不可能，但相当困难」。该格是绿色平地、为敌机比亚雷斯的初期配置位置（Akurasu FF 流程图）。",
+    "アニヲタWiki(仮) 的塞拉条目另有「不读入 F 存档则不登场」的异说，与 SRW Wiki 给出样本数据下达成可能的记述冲突，本站以 SRW Wiki 为准并存记异说。"
+   ],
+   "unlocks": [
+    "通关后进入第 17 话「营救特列斯」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Secrets（跨作旗标：托德、哈曼、塞拉、恋人）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/F/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "塞拉条件关：坐标两说并记，总回合 435 以内。"
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "营救特列斯",
+   "ja": "トレーズの救出",
+   "en": "Rescue Treize",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 16 话通关后进入。本关须防卫特列斯宅邸；已说得的 W 系驾驶员会强制出击。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "任一敌人进入特列斯的宅邸。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "陶拉斯（蕾蒂·安）以 NPC 身份参战。",
+    "注：已招募的高达 W 系驾驶员在本关强制出击（Akurasu）。"
+   ],
+   "events": [
+    "营救被软禁的特列斯：敌人逼近宅邸，踏入即败北。本关的过关速度决定凤（フォウ）能否得救（见隐藏要素）。"
+   ],
+   "secrets": [
+    "凤（フォウ）的前置（两源不一致，并记）：Akurasu 流程图作「7 回合内通关本关」；Akurasu Secrets 页的加布斯雷条目作「8 回合内击破巴斯克」；SRW Wiki 现行版作「第 7 回合为止击破巴斯克」、旧版作「8PP 结束为止击破巴斯克」。满足时凤不被掳走，后续在第 30 话宇宙编可正式招募（地上编则于第 32 话地上过关后加入）；失败则凤被掳，走向第 25 话与第 30 话的另一组事件（见各话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 18 话「特列斯站起」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "防卫宅邸；过关速度决定凤的命运（条件两源并记）。"
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "特列斯站起",
+   "ja": "トレーズ、立つ",
+   "en": "Treize Stands",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 17 话通关后进入。本关须防卫电视台。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "任一敌人进入电视台。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "旧扎古（捷多驾驶）本关登场。",
+    "雷娜（レイナ）事件：她驾驶一台空置的、HP 最高的 MS（不限宇宙专用机，如 GP-03 或铁球，多半是 ZZ 高达）出场，与捷多相邻后与捷多交换机体，随后离场（Akurasu）。"
+   ],
+   "events": [
+    "特列斯公开站出的一话：防卫电视台是胜利的关键。托德在本关完成说得链的第 3 环。"
+   ],
+   "secrets": [
+    "说得托德（完结编第 3 环）：用翔说得莱内克（托德）。完成 F 第 13 话、完结编第 14 话与本话共四步后，托德将在第 21 话以 NPC 身份出现，存活即正式加入（见第 21 话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 19 话「多蒙的危机！！超级模式发动！？」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "防卫电视台；说得托德第 3 环；雷娜换机事件。"
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "多蒙的危机！！超级模式发动！？",
+   "ja": "ドモンの危機！！スーパーモード発動！？",
+   "en": "Domon's Crisis!! Super Mode Activates!?",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 18 话通关后进入。本关多蒙被击坠即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "多蒙被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "闪光高达升级为闪光高达S（原文作 Shining Gundam S）。",
+    "旭日高达（玲）、诺贝尔高达（阿莲比）、明镜高达（修瓦尔兹）本话加入。"
+   ],
+   "events": [
+    "多蒙陷入危机、超级模式发动的 G 高达组集结话：玲、阿莲比、修瓦尔兹在本话并入，多蒙的闪光高达强化为 S 型。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 20 话「圭亚那高地的修行」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "多蒙被击坠即败北；闪光高达S 与 G 组三人加入。"
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "圭亚那高地的修行",
+   "ja": "ギアナ高地の修行",
+   "en": "Training at Guyana Highlands",
+   "route": "共通",
+   "area": "圭亚那高地",
+   "type": "共通",
+   "prerequisite": "第 19 话通关后进入。本关多蒙被击坠即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "多蒙被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "闪光高达（多蒙）换装为神高达（多蒙）。",
+    "多蒙习得技能「明镜止水」。"
+   ],
+   "events": [
+    "多蒙在圭亚那高地修行的一话：换装神高达并习得明镜止水，G 高达线在此成型。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 21 话（托德旗标成立为「日落波士顿」／不成立为「超越托德」）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "神高达换装；多蒙习得明镜止水。"
+  },
+  {
+   "code": "第21话·托德旗标成立",
+   "slug": "stage-21a",
+   "zh": "日落波士顿",
+   "ja": "ボストンに陽は暮れて",
+   "en": "Sunset in Boston",
+   "route": "托德旗标分歧",
+   "area": "波士顿",
+   "type": "旗标版本",
+   "prerequisite": "《F》第 13 话、完结编第 14 话与第 18 话的托德说得链全部完成（旗标成立）后进入本版本。旗标不成立时为「超越托德」。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱内克（托德）以 NPC 身份出场，存活到关末即正式加入（见隐藏要素）。"
+   ],
+   "events": [
+    "托德说得链的结算关：托德以 NPC 身份参战，护住他到过关即可收归队中。"
+   ],
+   "secrets": [
+    "托德正式加入（第 4 环）：让以 NPC 出场的莱内克（托德）存活到本关结束，即正式加入（Akurasu）。整条链为：F 第 13 话翔说得 → 完结编第 14 话玛贝尔、翔依次说得 → 第 18 话翔说得 → 本关存活。缺任何一环都会进入「超越托德」版本且托德不可得。加入后第 26 话出击并存活可换乘托德专用色的丹拜因（见第 26 话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 22 话（真实系「新的力量」／超级系「完成！超斗士」）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "托德结算关：NPC 存活即正式加入。"
+  },
+  {
+   "code": "第21话·托德旗标不成立",
+   "slug": "stage-21b",
+   "zh": "超越托德",
+   "ja": "ビヨン・ザ・トッド",
+   "en": "Beyond the Tod",
+   "route": "托德旗标分歧",
+   "area": "",
+   "type": "旗标版本",
+   "prerequisite": "托德说得链（F 第 13 话起）未全部完成（旗标不成立）时进入本版本。旗标成立时为「日落波士顿」。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（本版本托德不可得）。"
+   ],
+   "events": [
+    "与托德对决的版本。SRW Wiki 记述：本版本中击坠莱内克可触发「超级莱内克」事件。"
+   ],
+   "secrets": [
+    "本版本意味着托德的招募已失败：他只能在 F 第 13 话起的四步说得链全部成立时加入（见「日落波士顿」页）。直接从完结编开始（样本数据）必然进入本版本。"
+   ],
+   "unlocks": [
+    "通关后进入第 22 话（真实系「新的力量」／超级系「完成！超斗士」）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "旗标不成立版本：托德不可得。"
+  },
+  {
+   "code": "第22话·真实系",
+   "slug": "stage-22r",
+   "zh": "新的力量",
+   "ja": "新しい力",
+   "en": "New Power",
+   "route": "系别分歧·真实系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "第 21 话通关后、真实系路线进入本话。主人公最终机在本话入手。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "凶鸟（主人公）本话加入——真实系主人公的最终机。"
+   ],
+   "events": [
+    "真实系主人公取得最终机凶鸟（ヒュッケバイン）：由特斯拉·莱希研究所开发、破岚财阀出资完成，作为生日礼物赠予主人公，操纵系统与主人公脑波同调、他人无法驾驶（日文维基「凶鸟」条目）。"
+   ],
+   "secrets": [
+    "凶鸟只能由主人公驾驶：恋人可驾驶全部亡灵系机体，但不能驾驶凶鸟／古伦加斯特（Akurasu 的 F Secrets 页）。F 中取得的主人公新必杀技（亡灵踢／亡灵拳）在完结编的亡灵 Mk-II 上同样可用（SRW Wiki）。"
+   ],
+   "unlocks": [
+    "通关后进入第 23 话「时限（前）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦F（F完结编的系统变更与版本差异）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6F"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "真实系主人公最终机凶鸟入手。"
+  },
+  {
+   "code": "第22话·超级系",
+   "slug": "stage-22s",
+   "zh": "完成！超斗士",
+   "ja": "完成！超闘士",
+   "en": "Complete! Super Warrior",
+   "route": "系别分歧·超级系",
+   "area": "",
+   "type": "路线专属",
+   "prerequisite": "第 21 话通关后、超级系路线进入本话。主人公最终机在本话入手。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "古伦加斯特（主人公）本话加入——超级系主人公的最终机。"
+   ],
+   "events": [
+    "超级系主人公取得最终机古伦加斯特（グルンガスト），「超斗士」在此完成。"
+   ],
+   "secrets": [
+    "古伦加斯特只能由主人公驾驶：恋人可驾驶全部亡灵系机体，但不能驾驶凶鸟／古伦加斯特（Akurasu 的 F Secrets 页）。F 中取得的主人公新必杀技在完结编的亡灵 Mk-II 上同样可用（SRW Wiki）。"
+   ],
+   "unlocks": [
+    "通关后进入第 23 话「时限（前）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "超级系主人公最终机古伦加斯特入手。"
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "时限（前）",
+   "ja": "タイムリミット（前）",
+   "en": "Time Limit (Before)",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 22 话通关后进入。本话与第 24 话合计限时 25 回合（见败北条件）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "本话与第 24 话合计经过 25 回合。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入。"
+   ],
+   "events": [
+    "前后编限时战的前编：本话与下话的回合数合并计算（合计 25 回合上限），行动须有效率。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 24 话「时限（后）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 全話一覧/F完結編（关卡表交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "与后编合计 25 回合限时（前编）。"
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "时限（后）",
+   "ja": "タイムリミット（後）",
+   "en": "Time Limit (After)",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 23 话通关后进入。两话合计 25 回合内须把一台我方机送到指定格。",
+   "victory": [
+    "在时限内把任意一台我方单位移动到指定格。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "与第 23 话合计经过 25 回合。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "黑翼（亚朗）本话（再次）加入在队。",
+    "比尔拜因换装夜间迷彩涂装（按隐藏要素条件，见下）。"
+   ],
+   "events": [
+    "限时战的后编：在合计时限内把一台机体送至指定格即胜利。过关时翔的等级决定比尔拜因的涂装（见隐藏要素）。"
+   ],
+   "secrets": [
+    "比尔拜因（夜间迷彩）：过关时翔的等级在 48 以上，过关后的选择中对涂装表示满意（选「気に入った」）即可换夜间迷彩涂装（SRW Wiki）。翔与恰姆都没有经验加倍的精神，须提前规划练级（让他击坠 Boss 并用不耗 SP 的奖励经验升到 48，Akurasu Secrets 页注记）。性能差异两源不一致：Akurasu 称多为外观变化、但比尔拜因的翼筒形态水地形适应变为 B；SRW Wiki 现行版称性能全无变化（旧版有水适应 B 之说）——本站并记两说。"
+   ],
+   "unlocks": [
+    "通关后进入第 25 话「野心的尽头」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "限时送达指定格；翔 Lv48+ 得夜间迷彩比尔拜因。"
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "野心的尽头",
+   "ja": "野望の果てに",
+   "en": "The Ends of Ambition",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 24 话通关后进入。本关战舰被击坠即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（本关的凤相关事件见隐藏要素）。"
+   ],
+   "events": [
+    "标题「野心的尽头」的一话，战舰防卫是底线。本关发生的事件关系到卡缪与凤的后续（见隐藏要素）。"
+   ],
+   "secrets": [
+    "凤之死与卡缪的后续（Akurasu 流程图）：若招募凤的前置（第 17 话）未达成，本关会出现「由卡缪击坠精神力高达（凤）」的事件——这是日后「卡缪击坠西罗克后存活」路线的前置之一；招募凤成功时不发生。凤若在本关死亡，第 30 话宇宙编的罗萨米亚将改为过关后自动加入（见第 30 话宇宙编页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 26 话「献给异质者的挽歌」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "战舰被击坠即败北；凤相关事件在此分岔。"
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "献给异质者的挽歌",
+   "ja": "異質なるモノへの挽歌",
+   "en": "Elegy for the Strange Beings",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 25 话通关后进入。本关是第 27 话路线分歧前的最后准备关，含托德换机与 EVA 的 BAD END 相关事件。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "丹拜因（托德专用色）：出击托德并存活过关时取得（见隐藏要素）。"
+   ],
+   "events": [
+    "托德在本关换乘专用色的丹拜因（条件达成时）；真嗣在本关的自主出击事件与 EVA BAD END 的条件有关（见隐藏要素与第 29 话地上页）。"
+   ],
+   "secrets": [
+    "托德专用色丹拜因：让托德出击本关并存活到过关，他换乘丹拜因（托德配色）（Akurasu）。前提是托德已在第 21 话正式加入。",
+    "与 BAD END 相关：若卡托尔未说得、凤已死且玩家未出击真嗣，真嗣会在本关自主出击——这是 EVA BAD END 的条件环节之一（Akurasu 流程图第 29 话地上注记、SRW Wiki 的 BAD END 条件表）。想回避 BAD END 的玩家，本关可主动出击真嗣。"
+   ],
+   "unlocks": [
+    "通关后进入第 27 话「天空与大地的野兽」，关末选择宇宙编／地上编。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "托德换乘专用色丹拜因；真嗣自主出击关乎 BAD END。"
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "天空与大地的野兽",
+   "ja": "ソラと大地のケモノ",
+   "en": "Beasts of the Land and Skies",
+   "route": "共通（关末分歧）",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 26 话通关后进入。本关的胜利条件是守住发射设施区域；关末选择宇宙编或地上编（第 28–32 话分线）。",
+   "victory": [
+    "阻止敌人进入发射设施区域，并击破全部敌人（选宇宙编时本关于第 6 回合结束）。"
+   ],
+   "defeat": [
+    "敌人进入发射设施区域。",
+    "尼尔·阿伽马被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "联邦兵 NPC：GM III、尼莫、杰刚各以 NPC 身份参战。",
+    "本关开始时发生大规模强制换乘：开局时所有无驾驶员的圣战士机、重战机与无驾驶员的 UC 机（3 台扎古除外）的驾驶员被强制改派（阿姆罗→ν高达、卡缪→Z高达、捷多→ZZ高达、西布克→F91、浦木→GP-03、克瓦特罗→百式、艾玛→高达Mk-II、卡兹→G防御者、法→梅塔斯、露→利·格兹 BWS、艾尔→利·格兹 BWS、翔与恰姆→比尔拜因、达巴与莉莉丝→艾尔盖姆MkII、阿姆→艾尔盖姆、主人公→凶鸟／古伦加斯特、恋人→亡灵 Mk-II），他们原来的机体被清空并废弃（Akurasu）。"
+   ],
+   "events": [
+    "防卫发射设施的一话，敌军踏入设施区域即败北。关末二选一：宇宙编（作品群：UC 高达、高达 W、魔装机神、孔巴特拉V、重战机、钢巴斯塔、伊迪安）还是地上编（作品群：G 高达、超兽机神、戴坦3、圣战士、豪将军、盖塔、魔神系、EVA）——第 28–32 话的内容、乃至多条隐藏要素的归属都由此决定。"
+   ],
+   "secrets": [
+    "路线选择与隐藏要素的归属（Akurasu 流程图本关秘密栏）：选地上编 → 诺贝尔高达（阿莲比）与尊者高达（东方不败）的前置在本关（阿莲比可先由玲、再由多蒙说得，可选）；选宇宙编 → 罗萨米亚、法子（纪子）的「根性」技能、西斯勒·布拉克的前置在本关结算。规划隐藏要素时务必先定路线。",
+    "本关开始时的强制换乘会废弃一批旧机体（见「我方参战 / 加入」）：出击名单在开局即被重组，进本关前先确认改造投资的去向。"
+   ],
+   "unlocks": [
+    "关末选择后进入宇宙编第 28 话「逃亡的索罗船」或地上编第 28 话「解开的封印」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "守发射设施；关末宇宙／地上分线，多条隐藏要素按路线归属。"
+  },
+  {
+   "code": "第28话·宇宙编",
+   "slug": "stage-28a",
+   "zh": "逃亡的索罗船",
+   "ja": "逃亡のソロシップ",
+   "en": "Fugitive Solo Ship",
+   "route": "宇宙编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第 27 话关末选择「宇宙编」后进入本话。伊迪安与索罗船的存亡是本关核心。",
+   "victory": [
+    "击破全部敌人，且让伊迪安与索罗船对接。"
+   ],
+   "defeat": [
+    "伊迪安被击坠。",
+    "索罗船被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索罗船（贝斯）、伊迪安（科斯莫、卡莎）本话加入——《传说巨神伊迪安》在本话正式参战。",
+    "飞翼高达（希罗）、死神高达（迪奥）、沙漠高达（卡托尔）、重炮手高达（特洛瓦）在本关（再次）出场加入。"
+   ],
+   "events": [
+    "伊迪安与索罗船的初登场关：胜利条件除全灭敌军外，还须让伊迪安与索罗船对接；两机任一被击坠即败北。伊迪安此后由「伊德量表」驱动（见本作主页的系统说明），使用时须留意暴走风险。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入宇宙编第 29 话「背叛的月面都市」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "伊迪安与索罗船登场；胜利须对接，两机坠毁即败北。"
+  },
+  {
+   "code": "第28话·地上编",
+   "slug": "stage-28b",
+   "zh": "解开的封印",
+   "ja": "解かれた封印",
+   "en": "The Opened Seal",
+   "route": "地上编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第 27 话关末选择「地上编」后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔机器人G 换装为真盖塔机器人（本关中真盖塔-1 不能变形，也不能自由使用其大招，见隐藏要素）。",
+    "神高达在本关取得「石破天惊拳」。"
+   ],
+   "events": [
+    "地上编开幕：盖塔G 解开封印换装真盖塔机器人，神高达取得石破天惊拳。"
+   ],
+   "secrets": [
+    "本关限制（Akurasu）：真盖塔-1 在本关不能变形，也不能自由使用其大招（原文作 Stoner Sunshine，照录为真盖塔的招式限制）——布阵时按地面战主力一只来用。",
+    "本关也是 EVA 暴走次数累计的节点之一：BAD END 条件要求到本关为止初号机暴走累计 5 次以上（通算 F，见第 29 话地上页）。"
+   ],
+   "unlocks": [
+    "通关后进入地上编第 29 话「决战·第2新东京市」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "真盖塔换装（本关有限制）；神高达得石破天惊拳。"
+  },
+  {
+   "code": "第29话·宇宙编",
+   "slug": "stage-29a",
+   "zh": "背叛的月面都市",
+   "ja": "裏切りの月面都市",
+   "en": "Lunar City of Betrayal",
+   "route": "宇宙编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "宇宙编第 28 话通关后进入。须阻止敌人到达冯·布劳恩市，并保护索罗船。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "敌人到达冯·布劳恩（月面都市）。",
+    "索罗船被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索罗船（贝斯）、伊迪安（科斯莫、卡莎）在本关出场。",
+    "全装甲百式改（克瓦特罗）本话加入——仅宇宙编可得。",
+    "注：本关过后，伊迪安与索罗船不会出现在幕间菜单中（Akurasu）。"
+   ],
+   "events": [
+    "月面都市冯·布劳恩的防卫战：敌人抵达都市即败北。全装甲百式改是宇宙编限定的入手项。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入宇宙编第 30 话「无限力伊德传说」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "防卫冯·布劳恩；全装甲百式改仅本线可得。"
+  },
+  {
+   "code": "第29话·地上编",
+   "slug": "stage-29b",
+   "zh": "决战·第2新东京市",
+   "ja": "決戦、第2新東京市",
+   "en": "Battle at Tokyo-2",
+   "route": "地上编",
+   "area": "第2新东京市",
+   "type": "路线分歧",
+   "prerequisite": "地上编第 28 话通关后进入。本关分两段，魔神Z 的强化选择与 EVA 的 BAD END 分歧都在本关前后结算。",
+   "victory": [
+    "第一段：击破全部敌人。第二段：击坠使徒拉米尔（Ramiel）。"
+   ],
+   "defeat": [
+    "第一段：我方全灭。第二段：处于炮击位置的 EVA 被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "EVA零号机与 EVA2号机在本关取得「阳电子步枪」。",
+    "本关后按选择：魔神Z 强化版，或魔神凯撒（甲儿）——二选一（见隐藏要素）。"
+   ],
+   "events": [
+    "对使徒拉米尔的阳电子炮狙击战（原作再现）：两段构成，第二段须保护担任炮手的 EVA。本关是地上编的分水岭——魔神Z 的去向在本关选择，EVA 的悲剧结局（BAD END）也在本关后按条件分歧。"
+   ],
+   "secrets": [
+    "魔神Z 强化 or 魔神凯撒（系列初登场的魔神凯撒在此）：本关开始前（Akurasu 流程图记于本关；Akurasu Secrets 页则把取得关写作三个第 30 话版本 30a/30b/30c，两处时点表述不完全一致，本站以流程图为准、并记此差异）出现二选一：选「マジンガーZのパワーアップ」得强化版魔神Z；选「マジンカイザーにする」得魔神凯撒，但魔神Z 永久失去。魔神凯撒是《机战》原创机体、在本作系列初登场。",
+    "EVA BAD END 的分歧条件（SRW Wiki 现行版四条件，通算 F）：①第 4 话没有说得卡托尔；②第 26 话让真嗣最初就出击、回避其自主出击事件（若第 17 话已达成击破巴斯克的条件、凤被掳事件不发生，则该自主出击事件本身不发生，此项可免）；③到第 28 话为止初号机暴走累计 5 次以上（F 与完结编通算，《F》「EVA、始动」的事件暴走不计）；④本关中真嗣的同步率高于玲（真嗣担任炮手）。四项全满足时，第 30 话改走「我之所以诞生的理由」，并通向 BAD END 最终话「未完的使者」（见各页）。"
+   ],
+   "unlocks": [
+    "通常：进入地上编第 30 话「编织命运的人们」；BAD END 条件成立时：进入第 30 话「我之所以诞生的理由」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "拉米尔狙击战；魔神凯撒二选一与 BAD END 分歧在此。"
+  },
+  {
+   "code": "第30话·宇宙编",
+   "slug": "stage-30a",
+   "zh": "无限力伊德传说",
+   "ja": "無限力イデ伝説",
+   "en": "Legend of the Infinite Power of Ide",
+   "route": "宇宙编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "宇宙编第 29 话通关后进入。本关尼尔·阿伽马被击坠即追加败北；凤与罗萨米亚的招募在此结算。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "尼尔·阿伽马被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加布斯雷（凤）：出击卡缪且凤存活到关末时加入（见隐藏要素）。",
+    "罗萨米亚：按隐藏要素的顺序说得后撤退、过关后加入（或凤已死时自动加入）。",
+    "夏亚专用扎古II：伯尼按指定坐标待机到关末时取得（见隐藏要素）。",
+    "魔神凯撒（甲儿）：按第 29 话／本关的选择取得，代价是魔神Z 永久失去（见第 29 话地上页与下条）。"
+   ],
+   "events": [
+    "伊迪安传说的核心一话：凤驾驶加布斯雷出现，罗萨米亚也登场——两人的招募顺序苛刻；卡缪的去留也可能在本关被改写（见隐藏要素）。"
+   ],
+   "secrets": [
+    "凤正式加入（第 2 环）：出击卡缪，让加布斯雷（凤）存活到本关结束（Akurasu）。前提是第 17 话的前置达成（见第 17 话页；两源对回合表述不一致）。",
+    "罗萨米亚：凤已被救时——先击坠巴乌德·多克（盖兹），再用卡缪攻击罗萨米亚、然后用卡缪说得她（盖兹被击坠前卡缪不得与罗萨米亚交战），她撤退并于过关后加入；凤若在第 25 话已死，则罗萨米亚过关后自动加入（Akurasu 与 SRW Wiki）。",
+    "卡缪离队警告：若凤在本关被击坠且罗萨米亚未招募，卡缪会质疑战斗的意义，与其出击机体一同离队，直到第 34 话才归队（Akurasu）。",
+    "夏亚专用扎古II：出击伯尼，让他移动到坐标 (10,47)（无标记的暗礁空域，SRW Wiki）并保持在该格直到过关，过关后取得。性能为扎古改的约 3 倍机动（移动力・运动性），武装与扎古改相同（SRW Wiki）。此坐标 Akurasu 与 SRW Wiki 一致。",
+    "魔神凯撒的选择在宇宙编于本关前后同样出现（见第 29 话地上页的时点说明）。"
+   ],
+   "unlocks": [
+    "通关后进入宇宙编第 31 话「灯火化作火焰」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "凤、罗萨米亚、夏亚专用扎古同关结算；卡缪离队风险。"
+  },
+  {
+   "code": "第30话·地上编",
+   "slug": "stage-30b",
+   "zh": "编织命运的人们",
+   "ja": "運命を紡ぐ者たち",
+   "en": "Those Who Spin Fate",
+   "route": "地上编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "地上编第 29 话通关后、且 EVA BAD END 条件不成立时进入本话（条件成立时改走「我之所以诞生的理由」）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神凯撒（甲儿）：按选择取得，代价是魔神Z 永久失去（见下）。",
+    "EVA初号机取得特殊能力「S2 机关」（条件见隐藏要素）。"
+   ],
+   "events": [
+    "地上编通常路线的第 30 话：与第 14 使徒的战斗中，初号机有机会取得 S2 机关；魔神Z 的强化选择也在本关结算。"
+   ],
+   "secrets": [
+    "魔神凯撒 or 魔神Z 强化：二选一在本关前后出现（时点表述的两源差异见第 29 话地上页）：选「マジンカイザーにする」得魔神凯撒、魔神Z 永久失去；选「マジンガーZのパワーアップ」得强化版魔神Z。",
+    "S2 机关：让 EVA 初号机对第 14 使徒暴走（被其击破触发暴走），初号机追加特殊能力「S2 机关」——不再需要脐带电缆（每回合 EN 全回复）；被击破的修理费仍照常支付（Akurasu、SRW Wiki）。"
+   ],
+   "unlocks": [
+    "通关后进入地上编第 31 话「被称为恶魔的高达」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "魔神凯撒选择结算；初号机可取得 S2 机关。"
+  },
+  {
+   "code": "第30话·地上编（EVA路线）",
+   "slug": "stage-30c",
+   "zh": "我之所以诞生的理由",
+   "ja": "僕がボクとして生まれた理由",
+   "en": "The Reason I Was Born",
+   "route": "地上编·EVA路线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "地上编第 29 话通关后、且 EVA BAD END 四条件全部成立时，代替「编织命运的人们」进入本话（条件见第 29 话地上页）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神凯撒（甲儿）：按选择取得，代价是魔神Z 永久失去（与通常路线相同）。",
+    "EVA初号机取得特殊能力「S2 机关」（条件同通常路线，见隐藏要素）。"
+   ],
+   "events": [
+    "EVA 路线的第 30 话：剧情走向原作式的悲剧分歧。本关之后即 BAD END 最终话，游戏在此提前终结并强制从头重开——想看完 DC 战争结局的玩家应在此前回避 BAD END 条件。"
+   ],
+   "secrets": [
+    "本关的魔神凯撒选择与 S2 机关取得条件与通常路线的第 30 话相同（见「编织命运的人们」页）。",
+    "回避 BAD END 的要点回顾（详见第 29 话地上页）：第 4 话说得卡托尔、第 26 话处理真嗣的自主出击、控制初号机暴走次数（通算 5 次未满）、第 29 话让玲的同步率不低于真嗣，任一不满足即回到通常路线。"
+   ],
+   "unlocks": [
+    "通关后进入最终话（BAD END）「未完的使者」，游戏在此终结。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "BAD END 路线的第 30 话，通向坏结局最终话。"
+  },
+  {
+   "code": "最终话（BAD END）",
+   "slug": "stage-final-badend",
+   "zh": "未完的使者",
+   "ja": "未完のシ者",
+   "en": "Unfinished City (BAD END)",
+   "route": "地上编·EVA路线",
+   "area": "",
+   "type": "BAD END",
+   "prerequisite": "第 30 话「我之所以诞生的理由」通关后进入。本话为 BAD END 专用最终话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入。"
+   ],
+   "events": [
+    "EVA 路线的终点——坏结局：本话结束后游戏强制从头重开（Akurasu 明文）。这不是 DC 战争的正规结局；正规结局在 DC 线／Guest·波塞达尔线的最终话（见各页）。"
+   ],
+   "secrets": [
+    "本站把本关单列一页是为了完整记录路线结构：若你正在冲正规结局，请回到第 29 话地上页核对四项 BAD END 条件的回避方法。"
+   ],
+   "unlocks": [
+    "BAD END：游戏在此终结并强制从头开始。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "坏结局最终话：结束后强制从头重开。"
+  },
+  {
+   "code": "第31话·宇宙编",
+   "slug": "stage-31a",
+   "zh": "灯火化作火焰",
+   "ja": "灯火は炎となりて",
+   "en": "The Light that Became a Flame",
+   "route": "宇宙编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "宇宙编第 30 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "伊迪安增加副驾驶员基杰（Akurasu）。"
+   ],
+   "events": [
+    "基杰成为伊迪安的副驾驶员，伊迪安的运用在本关后更完整。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入宇宙编第 32 话「出击·钢巴斯塔」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "基杰成为伊迪安副驾驶员。"
+  },
+  {
+   "code": "第31话·地上编",
+   "slug": "stage-31b",
+   "zh": "被称为恶魔的高达",
+   "ja": "悪魔と呼ばれたガンダム",
+   "en": "It Was Called the Devil Gundam",
+   "route": "地上编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "地上编第 30 话（通常路线）通关后进入。本关战舰被击坠即追加败北；东方不败与阿莲比的招募都在本关结算。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "明镜高达（修瓦尔兹）在本关永久失去（Akurasu）。",
+    "尊者高达（东方不败）：按隐藏要素的步骤成为不可控的我方单位（结算在第 42 话 DC 线／第 43 话 GP 线）。",
+    "诺贝尔高达（阿莲比）：按隐藏要素的步骤，第 32 话地上过关后加入。"
+   ],
+   "events": [
+    "与恶魔高达的决战：修瓦尔兹在本关战死离队。东方不败的招募是全作最苛刻的条件链之一（多蒙须达 Lv49），在本关一次结算。"
+   ],
+   "secrets": [
+    "东方不败（尊者高达）：①先用多蒙攻击恶魔高达；②再用多蒙攻击东方不败两次；③第二次交战时多蒙的等级须在 49 以上。正确完成会出现对话框，东方不败成为不可控的我方单位，正式加入在第 42 话 DC 线或第 43 话 GP 线（Akurasu、SRW Wiki）。多蒙没有经验加倍精神，须提前规划：让他击坠 Boss 并靠不耗 SP 的奖励经验练到 49（Akurasu Secrets 页注记）；等级 ≤48 时不可招募。",
+    "彩蛋「破晓之死」演示：不让多蒙攻击恶魔高达，改为多蒙攻击东方不败两次、最后由多蒙亲手击坠东方不败，可观看另一段演示剧情（Akurasu）——与招募路线互斥。",
+    "诺贝尔高达（阿莲比）：先用玲说得诺贝尔高达B（阿莲比），再由玲将其击坠；然后用玲攻击沃尔特高达，再由玲将其击坠。满足时阿莲比在第 32 话地上过关后加入（Akurasu；前置的第 27 话说得见第 27 话页）。"
+   ],
+   "unlocks": [
+    "通关后进入地上编第 32 话「向着光辉闪耀的宇宙」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "恶魔高达决战；东方不败（多蒙 Lv49）与阿莲比在此结算。"
+  },
+  {
+   "code": "第32话·宇宙编",
+   "slug": "stage-32a",
+   "zh": "出击·钢巴斯塔",
+   "ja": "出撃、ガンバスター",
+   "en": "Launch, Gunbuster",
+   "route": "宇宙编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "宇宙编第 31 话通关后进入。钢巴斯塔或伊迪安被击坠即追加败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "钢巴斯塔被击坠。",
+    "伊迪安被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢巴斯塔（法子、和美）本话加入——《飞越巅峰》在本话正式参战。",
+    "艾克塞利昂（田代）本话加入。"
+   ],
+   "events": [
+    "钢巴斯塔的初登场关：与伊迪安同为护卫对象，任一被击坠即败北。西斯勒·布拉克的招募链在本关完成最后一环。"
+   ],
+   "secrets": [
+    "西斯勒·布拉克（荣格）第 3 环：在 10 回合内击坠加多莫亚·赞（其 HP 降至 30% 时会撤退，须在此之前击坠；Akurasu）。前置为第 9 话的坐标事件与第 27 话选宇宙编（SRW Wiki 另记第 30 话前休整期会自动发生卡缪与荣格的相遇事件）。完成时荣格在第 41 话 DC 线或第 42 话 GP 线开始前加入；荣格是全角色中唯一持有特殊技能「天才」的驾驶员（SRW Wiki）。",
+    "法子（纪子）的技能「根性」：只有走宇宙编时她开局自带；地上编出身的玩家须等第 42 话的「超级根性」事件（见各线第 42 话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 33 话「清算过去，然后……」（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "钢巴斯塔登场；西斯勒·布拉克链第 3 环（10 回合内击坠）。"
+  },
+  {
+   "code": "第32话·地上编",
+   "slug": "stage-32b",
+   "zh": "向着光辉闪耀的宇宙",
+   "ja": "光瞬く宇宙へ",
+   "en": "Twinkle of Light in the Universe",
+   "route": "地上编",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "地上编第 31 话通关后进入。敌人到达基地即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "敌人到达基地。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后：诺贝尔高达（阿莲比）（第 31 话条件达成时）。",
+    "凤：地上编时凤于本话过关后加入（SRW Wiki；Akurasu 加入栏仅以括注「(Four)」记之）——前提是第 17 话的前置达成。"
+   ],
+   "events": [
+    "地上编的收尾话：防卫基地，敌人抵达即败北。过关后两线在第 33 话汇合。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入第 33 话「清算过去，然后……」（两线汇合）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "防卫基地；阿莲比与凤（地上编口径）过关后加入。"
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "清算过去，然后……",
+   "ja": "精算されし過去、そして･･･",
+   "en": "Settling of the Past...",
+   "route": "共通（汇合）",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "宇宙编／地上编第 32 话通关后汇合进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "旭日高达（玲）在本关永久失去（Akurasu）。",
+    "卡缪归队：若他在第 30 话宇宙编后离队，本关完成后归队（Akurasu）。"
+   ],
+   "events": [
+    "两线汇合后的清算之战：玲的旭日高达在本关离队；盖拉姆（弗拉特）的临时 NPC 事件链在本关开启。"
+   ],
+   "secrets": [
+    "盖拉姆（弗拉特）临时 NPC 链第 1 步：出击阿姆（アム），让她攻击盖拉姆（弗拉特）一次（Akurasu）。此后在第 37 话 GP 线或第 41 话 DC 线可说得她成为临时我方 NPC，最终在终盘决战图转为第三势力助战（见各话页）。"
+   ],
+   "unlocks": [
+    "通关后进入第 34 话「卡托尔的悲伤」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "两线汇合；旭日高达离队；弗拉特事件链开启。"
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "卡托尔的悲伤",
+   "ja": "悲しみのカトル",
+   "en": "Quatre's Sorrow",
+   "route": "共通（关末分歧）",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "第 33 话通关后进入。本关战舰被击坠即追加败北；关末选择先攻 DC 还是先攻 Guest·波塞达尔联盟（第 35 话起整段分线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "全部机体的改造上限开放到 10 段（本关起，见隐藏要素与本作主页）。",
+    "过关后：量产型ν高达（可选择装备浮游炮或 INCOM，见隐藏要素）、拉·凯拉姆（布莱特）。",
+    "真实系路线另有：孔巴特拉V 在过关后取得「双刃矛」「战斗电锯」「V 激光」「大爆炸分隔器」「格兰达沙」等追加武装；（卡伊拉）过关后在队（Akurasu）。"
+   ],
+   "events": [
+    "终盘的枢纽关：阿斯托纳吉随拉·凯拉姆到来，改造上限在此开放到 10 段；关末的选择决定第 35 话起的整段路线与多条隐藏要素的归属。"
+   ],
+   "secrets": [
+    "改造 10 段开放：本关起全部机体可改造到 10 段（Akurasu 流程图；日文维基称由阿斯托纳吉·梅德索加入解锁）。全项目改满 10 段后还可再投入资金取得全改造奖励，特定武器改到 10 段会追加新武器（如 ν高达的浮游炮追加地图兵器版，SRW Wiki）。在 F 中只能改到 5 段的机体，自此可以补满。",
+    "量产型ν高达的装备选择：过关后取得时二选一——装备浮游炮（Funnels）或 INCOM（Akurasu、SRW Wiki），选后不可更改，规划时留意。",
+    "关末路线选择与隐藏要素归属（Akurasu）：选「先打 DC」→ 卡多、GP-02A／诺耶·吉尔、哈曼在 DC 线结算；选「先打 Guest·波塞达尔」→ 高达 W 系机体在该线结算。两条线的第 35–45 话标题完全不同，本站各建一页。"
+   ],
+   "unlocks": [
+    "按选择进入 DC 线第 35 话「错综的思绪」或 Guest·波塞达尔线第 35 话「徘徊的命运之光」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦F（F完结编的系统变更与版本差异）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6F"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "改造开放 10 段；量产型ν二选一；关末 DC／客军分线。"
+  },
+  {
+   "code": "第35话·DC线",
+   "slug": "stage-35a",
+   "zh": "错综的思绪",
+   "ja": "錯綜する想い",
+   "en": "Complicated Emotions",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第 34 话关末选择「先打 DC」后进入本话。本关为 6 回合限时歼灭关。",
+   "victory": [
+    "6 回合内击破殖民地上的全部敌人。"
+   ],
+   "defeat": [
+    "6 回合经过。",
+    "战舰被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "伊迪安在本关取得地图兵器「伊迪安枪」（Akurasu）。"
+   ],
+   "events": [
+    "DC 线开幕：限时 6 回合歼灭殖民地上的敌军，超时或战舰被击坠即败北。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 36 话「理想与现实」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "DC 线开幕：6 回合限时歼灭；伊迪安得伊迪安枪。"
+  },
+  {
+   "code": "第36话·DC线",
+   "slug": "stage-36a",
+   "zh": "理想与现实",
+   "ja": "理想と現実",
+   "en": "Ideals and Reality",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 35 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：陶拉斯（联邦兵）×2、陶拉斯（诺茵）以 NPC 身份参战（Akurasu）。"
+   ],
+   "events": [
+    "DC 线的理想与现实之战：联邦兵与诺茵的陶拉斯以 NPC 身份助战。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 37 话「斩光之剑」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "陶拉斯 NPC 助战。"
+  },
+  {
+   "code": "第37话·DC线",
+   "slug": "stage-37a",
+   "zh": "斩光之剑",
+   "ja": "光、断つ剣",
+   "en": "The Great Sword of Light",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 36 话通关后进入。本关的胜利条件是合计 15 回合内抵达太阳光线系统，且有两种打法（见关卡概要与剧情事件）。",
+   "victory": [
+    "合计 15 回合内抵达太阳光线系统（Solar Ray System）。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "合计 15 回合经过。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（本关为三图限时作战，见下）。"
+   ],
+   "events": [
+    "本关有两种打法（Akurasu）：①「分散战力」——三张地图各有 15 回合时限、每图有强制出击的带队单位、不能跨图重新部署；②「集中行动」——自选打图顺序（首图选对时可能只打一张）、自由选机，但三图总回合数须在 15 以内。规划时按自己的战力选择。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 38 话「血涂之手」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "三图合计 15 回合抵达太阳光线系统，两种打法。"
+  },
+  {
+   "code": "第38话·DC线",
+   "slug": "stage-38a",
+   "zh": "血涂之手",
+   "ja": "血塗られし御手",
+   "en": "Bloodstained Hands",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 37 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰拜尔（杨龙）、加迪斯（缇蒂）本话加入（《魔装機神》系）。"
+   ],
+   "events": [
+    "杨龙与缇蒂并入的一话；斯雷卡的特攻事件在本关（见隐藏要素）——出击名单里带上斯雷卡与否会影响剧情。"
+   ],
+   "secrets": [
+    "斯雷卡的特攻（剧情牺牲事件）：出击斯雷卡并让他存活到大扎姆（多茲鲁）作为敌增援出现，且大扎姆周围四格中有一格为空时，斯雷卡会冲向大扎姆自爆，使其 HP 减半，但斯雷卡在此过程中死亡（Akurasu）。SRW Wiki 另记条件涉及多茲鲁与斯雷卡同场、自军出击数 8 机未满等，且斯雷卡连机体永久离队（HP 低于 2000 时直接击坠大扎姆）——两源细节略有出入，本站并记。是否触发由玩家决定，触发即永久失去斯雷卡。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 39 话「虚构的偶像」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "格兰拜尔、加迪斯加入；斯雷卡特攻事件（永久离队）。"
+  },
+  {
+   "code": "第39话·DC线",
+   "slug": "stage-39a",
+   "zh": "虚构的偶像",
+   "ja": "虚構の偶像",
+   "en": "False Idol",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 38 话通关后进入。本关战舰被击坠即追加败北；卡多、GP-02A／诺耶·吉尔与哈曼三条线都在本关操作、下一关结算。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢巴斯塔（法子、和美）、艾克塞利昂（田代）在本线本话（再次）加入在队。",
+    "卡多、哈曼的去留按隐藏要素在本关决定（结算在第 40、42 话）。"
+   ],
+   "events": [
+    "阿·巴瓦·库攻防的核心一话：基连的多洛斯、卡多与哈曼同场——先说得哈曼、再处理基连与基西莉亚、并把多洛斯的 HP 压到一成以下，是三条隐藏线同关操作的难点。"
+   ],
+   "secrets": [
+    "卡多（第 1 步）：把基连座舰多洛斯的 HP 降到 10% 以下（SRW Wiki 作 11% 未满），之后在卡多变为中立（Neutral）后将其击坠。完成时卡多在第 40 话过关后加入（机体见下条）。",
+    "GP-02A 或诺耶·吉尔（二选一）：允许捷多前往阿·巴瓦·库搜索（选「許可をする」）→ 得 GP-02A 试作2号机；不允许（选「許可しない」）→ 得诺耶·吉尔。第 40 话尚有一次补救机会（见第 40 话 DC 线页）。注意：第 40 话取得任一时，都要失去扎古改 ×2 与旧扎古作为代价（Akurasu 第 40 话加入栏）。",
+    "哈曼（第 3 步·DC 线结算链）：务必出击克瓦特罗——先用克瓦特罗说得哈曼，之后（自己动手或借卡多事件）击破基连与基西莉亚，克瓦特罗会与哈曼一同离场本关余下时间；满足时哈曼在第 42 话过关后加入。警告（SRW Wiki）：若第 4 话的说得未完成、只满足本关步骤，克瓦特罗会追哈曼突入阿·巴瓦·库而连机体永久离队。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 40 话「复仇之刃」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "卡多、GP-02A／诺耶·吉尔、哈曼三线同关操作。"
+  },
+  {
+   "code": "第40话·DC线",
+   "slug": "stage-40a",
+   "zh": "复仇之刃",
+   "ja": "復讐の刃",
+   "en": "Sword of Vengeance",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 39 话通关后进入。敌人到达月球即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "敌人到达月球。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "双子高达（伍飞）以 NPC 身份参战。",
+    "卡多：按第 39 话的步骤完成时，过关后加入；其机体按选择为诺耶·吉尔或 GP-02A，代价是失去扎古改 ×2 与旧扎古（Akurasu）。",
+    "阿托尔（阿斯菲）：Akurasu Secrets 页另载本关（DC 线）亦可取得——以达巴说得（不得攻击过她），代价为卡奥（见隐藏要素）。"
+   ],
+   "events": [
+    "月球防卫战：敌人抵达月球即败北。卡多在本关过关后正式入队（条件达成时）。"
+   ],
+   "secrets": [
+    "诺耶·吉尔的补救：第 39 话没让捷多去阿·巴瓦·库搜索时，本关让捷多前往（选「行く」）仍可取得诺耶·吉尔（Akurasu）；与 GP-02A 的二选一关系见第 39 话页。",
+    "阿托尔（阿斯菲）的 DC 线取得口径（Akurasu Secrets 页作第 40 话 DC 线）：用达巴说得阿托尔（不得攻击过她），过关后整备员选择中选卡奥当整备员，阿斯菲连阿托尔正式加入、卡奥永久离队。此机体主要在 GP 线第 38 话取得（见该页），本站按 Akurasu Secrets 页的记载在本页并记 DC 线口径。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 41 话「飘扬的叛旗」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "防卫月球；卡多过关后加入（机体二选一）。"
+  },
+  {
+   "code": "第41话·DC线",
+   "slug": "stage-41a",
+   "zh": "飘扬的叛旗",
+   "ja": "翻る反旗",
+   "en": "The Flag of Rebellion",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 40 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：陶拉斯（蕾蒂·安）、墨丘利高达（希罗）、金星高达（特洛瓦）、比尔哥（联邦兵）×4 以 NPC 身份参战。",
+    "西斯勒·布拉克（荣格）：第 9、27、32 话的条件全部达成时，在本关结算加入（见第 32 话宇宙编页）。"
+   ],
+   "events": [
+    "多方 NPC 参战的一话；弗拉特的说得在本关完成（见隐藏要素），为下一关她的助战铺垫。"
+   ],
+   "secrets": [
+    "盖拉姆（弗拉特）临时 NPC 链第 2 步（DC 线）：用阿姆或达巴说得弗拉特（用达巴说得时，须先让阿姆与她交战一次），她将在下一关成为临时我方 NPC，并在第 42 话第二段转为第三势力助战（Akurasu）。链的第 1 步在第 33 话。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 42 话「双重伪装」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "西斯勒·布拉克在此线结算；弗拉特说得第 2 步。"
+  },
+  {
+   "code": "第42话·DC线",
+   "slug": "stage-42a",
+   "zh": "双重伪装",
+   "ja": "ダブル・フェイク",
+   "en": "Double Fake",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 41 话通关后进入。本关分三段，胜败条件逐段不同（见关卡概要）。",
+   "victory": [
+    "第一段：拉·凯拉姆到达敌基地。第二段：击破全部敌人。第三段：击破全部敌人。"
+   ],
+   "defeat": [
+    "第一段：拉·凯拉姆被毁，或我方全灭。第二段：我方全灭。第三段：战舰被击坠，或我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "第一段 NPC：尼尔·阿伽马（联邦兵）×2、陶拉斯（蕾蒂·安）、陶拉斯（联邦兵）×2、比尔哥（联邦兵）；第三段 NPC：陶拉斯（蕾蒂·安）、陶拉斯（联邦兵）、比尔哥（联邦兵）。",
+    "第三段：古兰森（修）、威佐尔改（萨菲妮）在本关加入／登场。",
+    "尊者高达（东方不败）：第 31 话地上条件达成时在本关正式在队；哈曼：条件达成时在过关后加入（见下）。",
+    "索罗船（贝斯）、伊迪安（科斯莫、卡莎、基杰）：关末选择让他们留在地球时（见隐藏要素），伊迪安可在第 45 话开局出击。"
+   ],
+   "events": [
+    "三段构成的大型战役：拉·凯拉姆突入敌基地后转入两段歼灭战。修的古兰森在此现身；多条长线隐藏要素（哈曼、东方不败、弗拉特、伊迪安的去留）在本关一并结算。"
+   ],
+   "secrets": [
+    "哈曼正式加入：第 4 话与第 39 话的说得链全部完成时，哈曼在过关后加入（Akurasu）。注意她不带丘贝雷（アニヲタWiki 的路线比较记述）。",
+    "弗拉特助战：前置（第 33 话攻击、第 41 话说得）全满足时，本关第二段弗拉特转为黄色（第三势力）攻击其他敌人，直到原奥吉（波塞达尔）被击破或她被击毁（Akurasu）。",
+    "法子的「超级根性」：第三段中，让钢巴斯塔的 HP 在 3 回合内降到 20% 以下，法子习得「超级根性」（Akurasu；SRW Wiki 作 HP 降至 21% 未满，数值表述略有出入，并记）。",
+    "伊迪安的去留选择：关末选第二项「让索罗船他们留在地球」，伊迪安才能在第 45 话开始时出击（Akurasu）——第 45 话的强制出击名单与此相关。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 43 话「恐怖与恐慌之间」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "三段战役；哈曼、东方不败、伊迪安去留在此结算。"
+  },
+  {
+   "code": "第43话·DC线",
+   "slug": "stage-43a",
+   "zh": "恐怖与恐慌之间",
+   "ja": "恐怖と恐慌の狭間で",
+   "en": "Between Fear and Panic",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 42 话通关后进入。艾克塞利昂被击坠即追加败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "艾克塞利昂被击坠。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（梅基博斯一行的 NPC 助战事件见隐藏要素）。"
+   ],
+   "events": [
+    "客军（Guest）势力逼近的一话：梅基博斯一行在本关后段出现——与他们的接触方式决定下一关他们是敌是友。"
+   ],
+   "secrets": [
+    "梅基博斯与客军 NPC 链第 1 步：等待 7 回合，梅基博斯出现并对话后会请你等待，选择「しばらく待つ」（等待）。注意：若泽布、塞蒂、罗夫在梅基博斯出现前被击坠，他们下一关将作为敌人出现（Akurasu）。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 44 话「激震的红色大地」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "保护艾克塞利昂；梅基博斯链第 1 步（等待 7 回合）。"
+  },
+  {
+   "code": "第44话·DC线",
+   "slug": "stage-44a",
+   "zh": "激震的红色大地",
+   "ja": "激震の赤い大地",
+   "en": "Tremors on the Red Earth",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 43 话通关后进入。艾克塞利昂被击坠即追加败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "艾克塞利昂被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC（条件达成时）：格雷塔金II（梅基博斯）、奥格巴留（泽布）、博德利法（塞蒂）、泽多拉姆（罗夫）成为我方 NPC（见隐藏要素）。"
+   ],
+   "events": [
+    "红色大地的决战：梅基博斯一行在本关正式转为我方 NPC 助战（条件达成时）。"
+   ],
+   "secrets": [
+    "梅基博斯与客军 NPC 链第 2 步：等待 7 回合（或在第 3 回合时我方出击数少于一半），泽布、塞蒂、罗夫增援并对话后询问能否参战，选择「協力してもらう」（请他们协助）；格雷塔金II（梅基博斯）开始攻击射程内的敌人，三人的机体成为我方 NPC（Akurasu）。前提是第 43 话已选择等待。"
+   ],
+   "unlocks": [
+    "通关后进入 DC 线第 45 话「最终作战」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "梅基博斯一行转我方 NPC（链第 2 步）。"
+  },
+  {
+   "code": "第45话·DC线",
+   "slug": "stage-45",
+   "zh": "最终作战",
+   "ja": "ファイナル・オペレーション",
+   "en": "Final Operation",
+   "route": "DC线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "DC 线第 44 话通关后进入。DC 线的编号最终话——其后还有无编号的最终话「最终作战（完结）」。",
+   "victory": [
+    "阻止阿克西斯落向地球，并击破全部敌人。"
+   ],
+   "defeat": [
+    "阿克西斯到达不可逆转点。",
+    "我方全灭。",
+    "艾克塞利昂被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：陶拉斯（蕾蒂·安）、托鲁基斯II（特列斯）、比尔哥（联邦兵）×3 参战。",
+    "伊迪安（科斯莫、卡莎、基杰）：此前离队者在本关开始时强制出击；索罗船（贝斯）在队。",
+    "死神高达改（迪奥）、双子高达（伍飞）在本关换乘后继机登场（SRW Wiki 的 DC 线记述：与前半说得链无关）。",
+    "注：配置在阿克西斯上的单位，在阿克西斯完全停止前下一回合无法行动（Akurasu）。"
+   ],
+   "events": [
+    "阻止阿克西斯坠落的「最终作战」（Final Operation）：推离／固定阿克西斯的同时歼灭敌军。DC 线在此之后迎来与恶魔高达的最终决战（最终话）。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入最终话（DC 线）「最终作战（完结）」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "阻止阿克西斯坠落；DC 线编号最终话。"
+  },
+  {
+   "code": "最终话·DC线",
+   "slug": "stage-final-dc",
+   "zh": "最终作战（完结）",
+   "ja": "ファイナル・オペレーション（完結）",
+   "en": "Final Operation (Completion)",
+   "route": "DC线",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "DC 线第 45 话「最终作战」通关后进入，为 DC 线的最终话（无编号）。",
+   "victory": [
+    "阻止阿克西斯残骸坠落，并击破全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "多罗瓦·赞被击坠。",
+    "恶魔高达到达地球。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：多罗瓦·赞（哈鲁鲁）、托鲁基斯II（特列斯）、陶拉斯（蕾蒂·安）参战。注：本话出击的单位不承受上一话（前图）的气力惩罚（Akurasu）。"
+   ],
+   "events": [
+    "DC 线的终局：阿克西斯残骸坠落与恶魔高达的双重威胁下完成最后一战，DC 战争在此落幕。战后进入各角色去向的结局。"
+   ],
+   "secrets": [
+    "石破爱情天惊拳的演示条件：把恶魔高达（MS 形态）的 HP 降到 51% 以下且多蒙未被击坠，可观看「石破天惊·爱情拳」演示；若东方不败是我方单位，则改为「究极石破天惊拳」演示；多蒙若被击坠过，关末对话中他会哭（Akurasu）。",
+    "归属说明：Akurasu 流程图的版式把本话排在 Guest·波塞达尔线最终话之后，其路线归属在文本抓取下不完全明确；本站按 SRW Wiki 的结局结构记述（DC 线：第 45 话→最终话「最终作战（完结）」；Guest 线：最终话「开始与终结交汇之地」）归入 DC 线，并在此注明。"
+   ],
+   "unlocks": [
+    "DC 线通关：进入结局（DC 战争完结）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "DC 线最终话：阿克西斯残骸与恶魔高达的终局。"
+  },
+  {
+   "code": "第35话·GP线",
+   "slug": "stage-35b",
+   "zh": "徘徊的命运之光",
+   "ja": "さまよえる運命の光",
+   "en": "Light of the Fate of the Wanderers",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第 34 话关末选择「先打 Guest·波塞达尔联盟」后进入本话。本关伊迪安不可出击。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "伊迪安在本关取得地图兵器「伊迪安枪」（但本关伊迪安不可出击，Akurasu）。",
+    "死神高达改（迪奥）：此前已招募时在本线登场。"
+   ],
+   "events": [
+    "Guest·波塞达尔线开幕：迪奥换乘死神高达改登场（已招募时）；伊迪安本关被封印出击。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 36 话「沙上楼阁」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "GP 线开幕：伊迪安不可出击；死神高达改登场。"
+  },
+  {
+   "code": "第36话·GP线",
+   "slug": "stage-36b",
+   "zh": "沙上楼阁",
+   "ja": "砂上の楼閣",
+   "en": "House of Cards",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 35 话通关后进入。本关是 W 队后继机链的关键关（见隐藏要素）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：墨丘利高达（希罗）、金星高达（特洛瓦）、陶拉斯 FM（蕾蒂·安）以 NPC 身份参战。"
+   ],
+   "events": [
+    "W 系三机以 NPC 身份参战的一话：让他们活到第 8 回合是后继机入手的前置（见隐藏要素）。"
+   ],
+   "secrets": [
+    "W 队后继机链（本线关键）：让墨丘利高达（希罗）与金星高达（特洛瓦）存活到第 8 回合，且飞翼高达零式（卡托尔）在本关不得被击坠；正确完成时三人会在第 8 回合前离场——这是第 39 话他们换乘后继机正式加入、第 40 话特洛瓦换乘、第 42 话飞翼高达零式改入手的共同前置（Akurasu）。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 37 话「以爱为名的自我」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "W 队存活到第 8 回合是后继机链的前置。"
+  },
+  {
+   "code": "第37话·GP线",
+   "slug": "stage-37b",
+   "zh": "以爱为名的自我",
+   "ja": "愛という名のエゴ",
+   "en": "Ego in the Name of Love",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 36 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新增加入（弗拉特的临时 NPC 事件见隐藏要素）。"
+   ],
+   "events": [
+    "弗拉特在本线本关完成说得链的第 2 步（与 DC 线第 41 话对应）。"
+   ],
+   "secrets": [
+    "盖拉姆（弗拉特）临时 NPC 链第 2 步（GP 线）：用阿姆或达巴说得她（用达巴说得时，须先让阿姆与她交战一次）。满足时她在终盘决战图（第 39 话第一段）转为第三势力助战（Akurasu）。链的第 1 步在第 33 话。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 38 话「崩坏的序曲」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "弗拉特说得第 2 步（GP 线口径）。"
+  },
+  {
+   "code": "第38话·GP线",
+   "slug": "stage-38b",
+   "zh": "崩坏的序曲",
+   "ja": "崩壊の序曲",
+   "en": "Overture of the End",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 37 话通关后进入。阿托尔与巴修两条取得线都在本关操作。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿托尔（阿斯菲）：说得成功时当场加入，代价为卡奥（见隐藏要素）。",
+    "巴修（加布雷）：前置事件在本关（结算在第 39 话，见隐藏要素）。"
+   ],
+   "events": [
+    "阿斯菲与加布雷的取得关：阿托尔的说得须全程不攻击她；巴修的前置是达巴与吉瓦扎座机的交战事件链。"
+   ],
+   "secrets": [
+    "阿托尔（阿斯菲）：用达巴说得阿托尔，且不得攻击过她；成功时当场加入。过关后选择整备员时选卡奥（キャオ），阿斯菲连阿托尔正式留队、卡奥永久离队（Akurasu）。",
+    "巴修（加布雷）前置：让达巴攻击萨吉·奥普斯（吉瓦扎），且双方都不得被击坠；正确时会出现小段剧情、达巴进入萨吉·奥普斯——此后不要在下一回合前击坠它，也不要在下一回合前触发其变黄（叛乱）事件（Akurasu）。结算在第 39 话第二段。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 39 话「被改绘的地图」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    }
+   ],
+   "note": "阿托尔说得与巴修前置同关操作。"
+  },
+  {
+   "code": "第39话·GP线",
+   "slug": "stage-39b",
+   "zh": "被改绘的地图",
+   "ja": "塗り替えられた地図",
+   "en": "Repainted Map",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 38 话通关后进入。本关分段进行；巴修、弗拉特与 W 队后继机都在本关结算，卡缪有一条永久离队的风险线（见隐藏要素）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢巴斯塔（法子、和美）、艾克塞利昂（田代）在本线本话（再次）加入在队。",
+    "飞翼高达零式（希罗）、沙漠高达改（卡托尔）本话加入（W 队后继机，第 36 话链的结算）。",
+    "巴修（加布雷）：第二段中作为友军 NPC 登场，过关后加入（条件见隐藏要素）。"
+   ],
+   "events": [
+    "GP 线的枢纽关：巴修转为友军、W 队换乘后继机正式加入；同时卡缪与西罗克的对决牵动一条永久离队的风险线。"
+   ],
+   "secrets": [
+    "巴修正式加入：第二段中，回合经过 5 回合且原奥吉（阿曼达拉）的 HP 降到 20% 以下时，加布雷以友军 NPC 身份登场，过关后加入（Akurasu；前置在第 38 话）。",
+    "弗拉特助战：前置全满足时，本关第一段弗拉特转为黄色（第三势力）攻击其他敌人，直到原奥吉（波塞达尔）被击破或她被击毁（Akurasu）。",
+    "卡缪永久离队警告：若凤在队且从未被击坠，而由卡缪亲手击坠西罗克，卡缪将永久离队（除非满足挽救条件——Akurasu 原文作「Unless the requirements are met」，指第 25、30 话的凤相关事件链：凤已被救且经历指定事件时可回避，见 SRW Wiki 的「卡缪在击坠西罗克后存活」条目）。安排击坠西罗克的人选时务必先确认凤的状态。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 40 话「时间开始转动之时」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "巴修与 W 后继机结算；卡缪永久离队风险在此。"
+  },
+  {
+   "code": "第40话·GP线",
+   "slug": "stage-40b",
+   "zh": "时间开始转动之时",
+   "ja": "刻が動き出す時",
+   "en": "When Time Starts to Move",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 39 话通关后进入。敌人到达隆德尼安即败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "敌人到达隆德尼安。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "雅克特·多加（奎丝）本话加入；过关后沙扎比入手（奎丝带来，SRW Wiki）。",
+    "重炮手高达改（特洛瓦）本话加入（W 队后继机链）。"
+   ],
+   "events": [
+    "防卫隆德尼安的一话：奎丝带着沙扎比与雅克特·多加参入——这是选 GP 线的直接回报之一。过关后的「改造化」选择决定飞翼高达零式改的入手（见隐藏要素）。"
+   ],
+   "secrets": [
+    "飞翼高达零式改：过关后选择「カスタム化」（改造化），飞翼高达零式将到第 42 话过后才能再次使用，换取第 42 话过关后取得飞翼高达零式改（Akurasu）。定制期间零式不可出击，排兵时先确认。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 41 话「虚假的协定」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "沙扎比随奎丝入手；过关后零式改造化选择。"
+  },
+  {
+   "code": "第41话·GP线",
+   "slug": "stage-41b",
+   "zh": "虚假的协定",
+   "ja": "偽りの協定",
+   "en": "False Accord",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 40 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰拜尔（杨龙）、加迪斯（缇蒂）本话加入（本线口径）。",
+    "NPC：托鲁基斯II（特列斯）、陶拉斯（蕾蒂·安）、墨丘利高达（联邦兵）、金星高达（联邦兵）、比尔哥（联邦兵）×4 参战。"
+   ],
+   "events": [
+    "杨龙与缇蒂在本线本话并入（DC 线为第 38 话）；多方 NPC 同场的一话。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 42 话「不速之客」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "格兰拜尔、加迪斯在本线加入。"
+  },
+  {
+   "code": "第42话·GP线",
+   "slug": "stage-42b",
+   "zh": "不速之客",
+   "ja": "招かれざる訪問者",
+   "en": "Uninvited Visitors",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 41 话通关后进入。敌人到达月面都市即追加败北。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "敌人到达月面都市。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：格雷塔金II（梅基博斯）、古兰森（修）（关内 NPC）、威佐尔改（萨菲妮）（关内 NPC）参战。",
+    "过关后：飞翼高达零式改（希罗）（第 40 话选择改造化时）。",
+    "西斯勒·布拉克（荣格）：条件全部达成时在本关结算加入（见第 32 话宇宙编页）。",
+    "法子在本关习得「超级根性」（条件见隐藏要素）。"
+   ],
+   "events": [
+    "客军与修的古兰森现身的一话：飞翼高达零式改与西斯勒·布拉克都在本关结算。"
+   ],
+   "secrets": [
+    "法子的「超级根性」：让钢巴斯塔的 HP 降到 20% 以下（Akurasu；SRW Wiki 的口径为我方机数少于敌方时降至 21% 未满，并记）。宇宙编出身的法子自带「根性」，本事件将其升级为「超级根性」；地上编出身则靠本事件（或 DC 线第 42 话的对应事件）取得。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 43 话「在命运的火焰中」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "零式改与西斯勒·布拉克在此线结算；超级根性事件。"
+  },
+  {
+   "code": "第43话·GP线",
+   "slug": "stage-43b",
+   "zh": "在命运的火焰中",
+   "ja": "運命の炎の中で",
+   "en": "Destiny in Flames",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 42 话通关后进入。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：格雷塔金II（梅基博斯）、双子高达（伍飞）（关内黄色 NPC）、尊者高达（东方不败）（关内蓝色 NPC）参战。",
+    "尊者高达（东方不败）：第 31 话地上条件达成时，在本线本话前后正式在队（Akurasu Secrets 页的结算口径之一）。",
+    "过关后：伍飞换乘双子高达正式参入（SRW Wiki 的 W 队链记述：本话过关后无条件换乘后继机）。"
+   ],
+   "events": [
+    "梅基博斯、伍飞与东方不败以 NPC 身份交错登场的一话；东方不败的正式加入在本线于此结算。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入 GP 线第 44 话「献给败者的凯歌」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "东方不败在本线结算；伍飞过关后换乘参入。"
+  },
+  {
+   "code": "第44话·GP线",
+   "slug": "stage-44b",
+   "zh": "献给败者的凯歌",
+   "ja": "敗者への凱歌",
+   "en": "Victory Song for the Loser",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "GP 线第 43 话通关后进入。本关须阻止殖民卫星落入地球。",
+   "victory": [
+    "阻止殖民卫星落入地球。"
+   ],
+   "defeat": [
+    "战舰被击坠。",
+    "殖民卫星到达地球。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：托鲁基斯II（特列斯）、陶拉斯（蕾蒂·安）参战。"
+   ],
+   "events": [
+    "殖民卫星坠落阻止战：卫星抵达地球或战舰被击坠即败北，是通往最终话的最后防线。"
+   ],
+   "secrets": [
+    "本关没有来源记载的隐藏要素（说得、隐藏机体、点数条件等）；要点见「剧情事件」与「我方参战 / 加入」。"
+   ],
+   "unlocks": [
+    "通关后进入最终话（GP 线）「开始与终结交汇之地」。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    }
+   ],
+   "note": "阻止殖民卫星坠落；GP 线最后一道防线。"
+  },
+  {
+   "code": "最终话·GP线",
+   "slug": "stage-final-gp",
+   "zh": "开始与终结交汇之地",
+   "ja": "始まりと終わりが集う場所",
+   "en": "Where the Beginning and End Meet",
+   "route": "Guest·波塞达尔线",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "GP 线第 44 话通关后进入，为 GP 线的最终话（无编号，分两段）。",
+   "victory": [
+    "击破全部敌人（两段共通）。"
+   ],
+   "defeat": [
+    "第一段：我方全灭，或恶魔高达到达地球。第二段：战舰被击坠，或多罗瓦·赞被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定通关奖励。逐关的敌机资金与掉落零件待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "NPC：托鲁基斯II（特列斯）、陶拉斯（蕾蒂·安）（特列斯若上一话未被击坠，两人都会出击）、多罗瓦·赞（哈鲁鲁）；铁奥（捷利德）仅在特列斯上一话存活时出现（Akurasu）。"
+   ],
+   "events": [
+    "GP 线的终局：与恶魔高达的最终决战分两段进行，多罗瓦·赞是第二段的护卫对象。战后进入各角色去向的结局，DC 战争在此落幕。"
+   ],
+   "secrets": [
+    "石破爱情天惊拳的演示条件：第二段把恶魔高达（MS 形态）的 HP 降到 51% 以下且多蒙未被击坠，可观看「石破天惊·爱情拳」演示；若东方不败是我方单位，则改为「究极石破天惊拳」演示；多蒙若被击坠过，关末对话中他会哭（Akurasu）。"
+   ],
+   "unlocks": [
+    "GP 线通关：进入结局（DC 战争完结）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作；Akurasu 只有流程图（胜负条件与我方加入）与隐藏要素页，没有逐关敌方表；SRW Wiki 与日文维基亦不公布逐关敌表。",
+     "日文个人攻略站 s-rpg-navi 公开有逐关的敌方编成表（机体／驾驶员／等级／数量／HP／资金与按回合的增援），但没有坐标，且为单一来源、未经第二来源交叉核对，本站暂不据此刊出编成，标为待核实；逐格坐标与地形则未查到任何公开来源（纸质攻略本未在线公开）。",
+     "本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素页，SRW Wiki 交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart"
+    },
+    {
+     "name": "スーパーロボット大戦Wiki — 隠し要素/F・F完結編（继承、样本数据与隐藏条件）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8"
+    }
+   ],
+   "note": "GP 线最终话：两段构成的恶魔高达决战。"
+  }
+ ]
+}

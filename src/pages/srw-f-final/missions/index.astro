@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwFFinalMissionList from '../../../components/SrwFFinalMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战F完结篇', path: 'srw-f-final/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战F完结篇（SS）关卡攻略 · 全69个剧本页面列表" description="超级机器人大战F完结篇（1998年 SS）全部 69 个不同标题的剧本页面：承 F 的真实系/超级系分歧、托德旗标两版、宇宙编/地上编分线（含 EVA BAD END）、DC线/Guest·波塞达尔线终盘分线与三种最终话。完结编自身编号 1–45 话，单周目约 45 话。每话独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（说得链、魔神凯撒、塞拉、主人公最终机）与坐标地图。本页为链接索引。" path="srw-f-final/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战F完结篇 · 关卡攻略</h1>
+  <p>1998 年 SS《超级机器人大战F完结篇》是 DC 战争系列巨作的后编：读入《F》的通关存档可继承角色数据与已改造机体数据（也可从本作全新开始、使用样本数据）。本作自身从第 1 话重新编号（通算 F 为第 34/35 话起），结构有<strong>四层分歧</strong>：承 F 的真实系/超级系主人公分歧（第 1、2、11、22 话异题）、第 21 话的托德旗标两版、第 27 话后的宇宙编/地上编分线（第 28–32 话，地上编另有 EVA BAD END 支线），以及第 34 话后的 DC线/GP线终盘分线（第 35–45 话整段异题）。按 Akurasu 流程图的标题逐一清点、路线与旗标变体分开计，本作共有 <strong>69 个不同标题的剧本</strong>（其中第 30 话地上编的 EVA 路线版「我之所以诞生的理由」在部分清点中易被漏计，本站按流程图三版并列刊出），本站为每一个都建有独立详情页。本页只是链接索引——每一话的完整攻略（条件、加入、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-f-final/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第九部<strong>全关卡补完</strong>的作品——69 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新超级机器人大战、F 已完成）。流程、胜败条件与加入以 Akurasu 的 F完结编（FF）流程图为主源，SRW Wiki 的全话一览与隠し要素页交叉核对；隐藏要素全部拆入各话详情页——本作的隐藏要素以跨作旗标（托德、哈曼、塞拉）和超长说得链著称，难度为系列之最。<strong>如实说明</strong>：本作（SS 原版）没有可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作；日文个人站 s-rpg-navi 虽公开有逐关敌方编成表（无坐标），但为单一来源、未经第二来源核对，本站暂不据此刊出编成；逐格坐标与地形则未查到任何公开来源——故各页的敌方配置与地图地形标为待核实，坐标图为参照框架。PS 版（1999 年移植）的数据未被用于填充本页任何一关。</span>
+  </div>
+
+  <SrwFFinalMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/FF/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars F Final (FF) Flow Chart</a>（全流程分歧、胜败条件、加入与通关后变化；各详情页页末附本作来源链接）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/FF/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars F Final (FF) Secrets</a>（隐藏机体、隐藏武装与结算关）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/F/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars F Secrets</a>（托德、哈曼、塞拉、恋人四条跨作旗标的原文出处）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/F%E5%AE%8C%E7%B5%90%E7%B7%A8" rel="noopener" target="_blank">スーパーロボット大戦Wiki — 全話一覧/F完結編</a>（关卡表与路线结构交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/%E9%9A%B1%E3%81%97%E8%A6%81%E7%B4%A0/F%E3%83%BBF%E5%AE%8C%E7%B5%90%E7%B7%A8" rel="noopener" target="_blank">スーパーロボット大戦Wiki — 隠し要素/F・F完結編</a>（继承与样本数据、BAD END 条件、路线限定隐藏要素）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6F" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦F</a>（作品定位、10 段改造解锁与 PS 版差异）</li>
+  </ul>
+  <p><a href={href('srw-f-final/')}>← 返回超级机器人大战F完结篇</a></p>
+</Base>
