@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import games from '../data/games.json';
+import { href } from '../lib/site';
+
+const sorted = [...games].sort((a, b) => a.year - b.year);
+const platforms = [...new Map(games.map(g => [g.platformSlug, g.platformLabel])).entries()]
+  .map(([slug, label]) => ({ slug, label }));
+const seriesList = [...new Set(games.map(g => g.series))];
+const years = [...new Set(games.map(g => g.year))].sort((a, b) => a - b);
+const crumbs = [{ label: '首页', path: '' }, { label: '搜索游戏' }];
+---
+<Base title="搜索游戏" description="按中文名、英文名、日文名、简称搜索超级机器人大战系列游戏，并可按平台、年份、系列组合筛选。" path="search/" breadcrumbs={crumbs}>
+  <h1>搜索游戏</h1>
+  <p>支持中文名、英文名、日文名和常见简称（如 SRW30、机战30、スパロボ30、α、破界篇），也可叠加平台、年份、系列筛选。</p>
+  <div class="search-box" style="max-width:720px">
+    <input id="q" type="search" placeholder="输入游戏名或简称…" aria-label="搜索关键词" />
+  </div>
+  <div class="filter-row">
+    <label>平台
+      <select id="f-platform">
+        <option value="">全部</option>
+        {platforms.map(p => <option value={p.slug}>{p.label}</option>)}
+      </select>
+    </label>
+    <label>年份
+      <select id="f-year">
+        <option value="">全部</option>
+        {years.map(y => <option value={String(y)}>{y}</option>)}
+      </select>
+    </label>
+    <label>系列
+      <select id="f-series">
+        <option value="">全部</option>
+        {seriesList.map(s => <option value={s}>{s}</option>)}
+      </select>
+    </label>
+    <span id="count"></span>
+  </div>
+  <div class="grid" id="results">
+    {sorted.map(g => (
+      <a class="card" href={href(`${g.slug}/`)}
+         data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')}`.toLowerCase()}
+         data-platform={g.platformSlug} data-year={String(g.year)} data-series={g.series}>
+        <span class="card-title">{g.zh}</span>
+        <span class="meta">{g.en} / {g.ja}</span>
+        <span class="meta">{g.year} 年 · {g.platforms.join(' / ')}</span>
+        <span><span class="tag">{g.platformLabel}</span><span class="tag">{g.series}</span></span>
+      </a>
+    ))}
+  </div>
+  <p id="empty" class="empty-state" hidden>没有符合条件的游戏。</p>
+  <script is:inline>
+    const q = document.getElementById('q');
+    const fp = document.getElementById('f-platform');
+    const fy = document.getElementById('f-year');
+    const fs = document.getElementById('f-series');
+    const cards = [...document.querySelectorAll('#results .card')];
+    const count = document.getElementById('count');
+    const empty = document.getElementById('empty');
+    // support ?q= from other pages
+    const init = new URLSearchParams(location.search).get('q');
+    if (init) q.value = init;
+    function apply() {
+      const kw = (q.value || '').trim().toLowerCase();
+      let n = 0;
+      for (const c of cards) {
+        const ok = (!kw || c.dataset.search.includes(kw)) &&
+          (!fp.value || c.dataset.platform === fp.value) &&
+          (!fy.value || c.dataset.year === fy.value) &&
+          (!fs.value || c.dataset.series === fs.value);
+        c.style.display = ok ? '' : 'none';
+        if (ok) n++;
+      }
+      count.textContent = '共 ' + n + ' 款';
+      empty.hidden = n !== 0;
+    }
+    [q].forEach(el => el.addEventListener('input', apply));
+    [fp, fy, fs].forEach(el => el.addEventListener('change', apply));
+    apply();
+  </script>
+</Base>

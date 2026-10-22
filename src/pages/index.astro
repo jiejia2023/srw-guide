@@ -1,0 +1,83 @@
+---
+import Base from '../layouts/Base.astro';
+import games from '../data/games.json';
+import { href, SITE_NAME } from '../lib/site';
+
+const sorted = [...games].sort((a, b) => a.year - b.year);
+const platforms = [...new Map(games.map(g => [g.platformSlug, g.platformLabel])).entries()]
+  .map(([slug, label]) => ({ slug, label, count: games.filter(g => g.platformSlug === slug).length }))
+  .sort((a, b) => b.count - a.count);
+const seriesList = [...new Set(games.map(g => g.series))];
+---
+<Base title={SITE_NAME} description="超级机器人大战系列全作品攻略站：54款作品索引，按年代、平台、系列查找游戏，含关卡攻略、隐藏要素与机体图鉴（持续整理中）。" path="">
+  <section class="hero">
+    <h1>{SITE_NAME}</h1>
+    <p>收录超级机器人大战系列 54 款正传与单作（不含衍生作），按年代从 1991 年的初代到 2025 年的最新作排列。每款游戏都有独立页面，包含关卡攻略、隐藏要素和机体图鉴，攻略持续整理中。</p>
+    <div class="search-box">
+      <input id="home-search" type="search" placeholder="搜索游戏：中文名 / 英文名 / 日文名 / 简称，如 机战30、SRW30、α" aria-label="搜索游戏" />
+      <a class="btn" href={href('search/')}>高级搜索</a>
+    </div>
+  </section>
+
+  <h2>按平台找游戏</h2>
+  <div class="chips">
+    {platforms.map(p => <a class="chip" href={href(`platform/${p.slug}/`)}>{p.label}（{p.count}）</a>)}
+  </div>
+
+  <h2>全部游戏（{games.length} 款，按年代排序）</h2>
+  <div class="filter-row">
+    <label>平台筛选
+      <select id="filter-platform">
+        <option value="">全部平台</option>
+        {platforms.map(p => <option value={p.slug}>{p.label}</option>)}
+      </select>
+    </label>
+    <label>系列筛选
+      <select id="filter-series">
+        <option value="">全部系列</option>
+        {seriesList.map(s => <option value={s}>{s}</option>)}
+      </select>
+    </label>
+    <span id="result-count" class="meta"></span>
+  </div>
+
+  <div class="grid" id="game-grid">
+    {sorted.map(g => (
+      <a class="card" href={href(`${g.slug}/`)}
+         data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')} ${g.year}`.toLowerCase()}
+         data-platform={g.platformSlug} data-series={g.series}>
+        <span class="card-title">{g.zh}</span>
+        <span class="meta">{g.en}</span>
+        <span class="meta">{g.year} 年 · 首发 {g.release}</span>
+        <span><span class="tag">{g.platformLabel}</span><span class="tag">{g.series}</span></span>
+      </a>
+    ))}
+  </div>
+  <p id="no-result" class="empty-state" hidden>没有符合条件的游戏，换个关键词或清除筛选试试。你也可以去<a href={href('search/')}>搜索页</a>按年份、平台、系列组合查找。</p>
+
+  <script is:inline>
+    const input = document.getElementById('home-search');
+    const fp = document.getElementById('filter-platform');
+    const fs = document.getElementById('filter-series');
+    const cards = [...document.querySelectorAll('#game-grid .card')];
+    const count = document.getElementById('result-count');
+    const empty = document.getElementById('no-result');
+    function apply() {
+      const q = (input.value || '').trim().toLowerCase();
+      let n = 0;
+      for (const c of cards) {
+        const ok = (!q || c.dataset.search.includes(q)) &&
+          (!fp.value || c.dataset.platform === fp.value) &&
+          (!fs.value || c.dataset.series === fs.value);
+        c.style.display = ok ? '' : 'none';
+        if (ok) n++;
+      }
+      count.textContent = '共 ' + n + ' 款';
+      empty.hidden = n !== 0;
+    }
+    input.addEventListener('input', apply);
+    fp.addEventListener('change', apply);
+    fs.addEventListener('change', apply);
+    apply();
+  </script>
+</Base>
