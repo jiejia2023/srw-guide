@@ -1,0 +1,1297 @@
+{
+ "groups": [
+  {
+   "title": "序章与开局（第0–6话）",
+   "intro": "第0话为全线共通序章；第1话起按主人公系别分真实系/超级系两版（主人公为男女×4 性格组共 8 种默认形象）。",
+   "rows": [
+    {
+     "code": "第0话",
+     "zh": "序章",
+     "ja": "プロローグ",
+     "en": "Scenario 0: Prologue",
+     "type": "序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·真实系",
+     "zh": "消失的凶鸟",
+     "ja": "バニシング・トルーパー",
+     "en": "Scenario 1: Vanishing Trooper",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·超级系",
+     "zh": "钢铁的驾驶舱",
+     "ja": "鋼鉄のコクピット",
+     "en": "Scenario 1: Cockpit of Steel",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·真实系",
+     "zh": "黑色高达",
+     "ja": "黒いガンダム",
+     "en": "Scenario 2: Black Gundam",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·超级系",
+     "zh": "魔神Z绝体绝命",
+     "ja": "マジンガーZ絶体絶命",
+     "en": "Scenario 2: Desperate Situation For Mazinger Z",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·真实系",
+     "zh": "救出白色要塞",
+     "ja": "ホワイトベース救出",
+     "en": "Scenario 3: Rescue The White Base",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·超级系",
+     "zh": "盖塔小队，出击！",
+     "ja": "ゲッターチーム出撃せよ",
+     "en": "Scenario 3: Getter Team, Launch!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·真实系",
+     "zh": "被称为死神的G",
+     "ja": "死神と呼ばれたG",
+     "en": "Scenario 4: The Gundam Called the God of Death",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·超级系",
+     "zh": "吉翁再临",
+     "ja": "ジオン再臨",
+     "en": "Scenario 4: Zeon's Second Coming",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·真实系",
+     "zh": "吉翁的亡灵",
+     "ja": "ジオンの亡霊",
+     "en": "Scenario 5: The Ghosts Of Zeon",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·超级系",
+     "zh": "秘密编号",
+     "ja": "シークレット・ナンバーズ",
+     "en": "Scenario 5: Secret Numbers",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·真实系",
+     "zh": "对决，极东基地",
+     "ja": "対決、極東基地",
+     "en": "Scenario 6: Showdown At The Far East Base",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·超级系",
+     "zh": "击坠阿伽马的命令",
+     "ja": "アーガマ撃墜命令",
+     "en": "Scenario 6: The Order To Shoot Down The Argama",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流（第7–9话）",
+   "intro": "第7–8话共通；第9话再按系别分线，话末二选一进入贾布罗或南亚塔利亚。",
+   "rows": [
+    {
+     "code": "第7话",
+     "zh": "一起合体！",
+     "ja": "レッツ! コンバイン",
+     "en": "Scenario 7: Let's Combine!",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "出击！其名是巨大机器人",
+     "ja": "出撃！その名はジャイアント・ロボ",
+     "en": "Scenario 8: Launch! Its Name Is Giant Robo",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·真实系",
+     "zh": "未知的灾祸",
+     "ja": "未知なる災い",
+     "en": "Scenario 9: The Unknown Calamity",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·超级系",
+     "zh": "唤风者",
+     "ja": "風を呼ぶ者",
+     "en": "Scenario 9: He Who Summons The Winds",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "贾布罗线（第10–13话）",
+   "intro": "第9话后选择进军贾布罗。G-3 高达在此线第10话结算。",
+   "rows": [
+    {
+     "code": "第10话·贾布罗线",
+     "zh": "阿姆罗再现",
+     "ja": "アムロ再び",
+     "en": "Scenario 10: Amuro Again",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·贾布罗线",
+     "zh": "白色机动战士",
+     "ja": "白いモビルスーツ",
+     "en": "Scenario 11: The White Mobile Suit",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·贾布罗线",
+     "zh": "战斗是为了谁",
+     "ja": "戦いは誰のために",
+     "en": "Scenario 12: For Whom We Fight",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·贾布罗线",
+     "zh": "拥有翅膀的高达",
+     "ja": "翼を持ったガンダム",
+     "en": "Scenario 13: The Gundam That Had Wings",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "南亚塔利亚线（第10–13话）",
+   "intro": "第9话后选择前往南亚塔利亚岛。试作2号机长线连锁在此线起步。",
+   "rows": [
+    {
+     "code": "第10话·南亚塔利亚线",
+     "zh": "觉醒吧，勇者",
+     "ja": "目覚めよ、勇者",
+     "en": "Scenario 10: Awaken, Brave One",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·南亚塔利亚线",
+     "zh": "强夺高达",
+     "ja": "ガンダム強奪",
+     "en": "Scenario 11: Gundamjack",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·南亚塔利亚线",
+     "zh": "野心之男",
+     "ja": "野望の男",
+     "en": "Scenario 12: A Man Of Ambitions",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·南亚塔利亚线",
+     "zh": "少女看见的流星",
+     "ja": "少女が見た流星",
+     "en": "Scenario 13: The Shooting Star She Saw",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与再分线（第14–20话）",
+   "intro": "第14话合流；第18–19话再按系别分线；第20话末进入三线分歧。",
+   "rows": [
+    {
+     "code": "第14话",
+     "zh": "与父亲的约定",
+     "ja": "父との約束",
+     "en": "Scenario 14: A Promise With Father",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "使徒，袭来",
+     "ja": "使徒、襲来",
+     "en": "Scenario 15: Angel Attack",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "咆哮，EVA初号机",
+     "ja": "咆哮、EVA初号機",
+     "en": "Scenario 16: Roar, EVA Unit-01",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "GR对GR2",
+     "ja": "GR対GR2",
+     "en": "Scenario 17: GR vs. GR2",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·真实系",
+     "zh": "Zeta的脉动",
+     "ja": "ゼータの鼓動",
+     "en": "Scenario 18: The Sign Of Zeta",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·超级系",
+     "zh": "红色闪电，翱翔天空的魔神",
+     "ja": "紅の稲妻 空飛ぶマジンガー",
+     "en": "Scenario 18: With A Red Flash, Fly To The Sky, Mazinger",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·真实系",
+     "zh": "第二次直上会战",
+     "ja": "第二次直上会戦",
+     "en": "Scenario 19: His Second Engagement",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·超级系",
+     "zh": "激突！盖塔机器人VS盖塔机器人G",
+     "ja": "激突!ゲッターロボVSゲッターロボG",
+     "en": "Scenario 19: Clash! Getter Robo vs. Getter Robo G",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "决战，第2新东京市",
+     "ja": "決戦、第2新東京市",
+     "en": "Scenario 20: A Decisive Battle In New Tokyo 2",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "EVA贰号机线（第21–26话）",
+   "intro": "第20话后三线之一。托德连锁在此线起步。",
+   "rows": [
+    {
+     "code": "第21话·EVA贰号机线",
+     "zh": "圣战士们",
+     "ja": "聖戦士たち",
+     "en": "Scenario 21: Aura Battlers",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·EVA贰号机线",
+     "zh": "艾尔的灵力",
+     "ja": "エレの霊力",
+     "en": "Scenario 22: Elle's Aura",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·EVA贰号机线",
+     "zh": "纳之国的女王",
+     "ja": "ナの国の女王",
+     "en": "Scenario 23: The Land Of Na's Queen",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·EVA贰号机线",
+     "zh": "灵光之路",
+     "ja": "オーラロード",
+     "en": "Scenario 24: The Aura Road",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·EVA贰号机线",
+     "zh": "东京上空",
+     "ja": "東京上空",
+     "en": "Scenario 25: The Skies Of Tokyo",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·EVA贰号机线",
+     "zh": "红色的EVA",
+     "ja": "紅いエヴァンゲリオン",
+     "en": "Scenario 26: The Red Evangelion",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "极东线（第21–25话）",
+   "intro": "第20话后三线之一。本线没有第26话，第25话后直接合流第27话。",
+   "rows": [
+    {
+     "code": "第21话·极东线",
+     "zh": "超越野兽，超越人类，现身吧神的战士",
+     "ja": "獣を超え、人を超え、いでよ神の戦士",
+     "en": "Scenario 21: Beyond Beast, Beyond Man, Become God's Warrior",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·极东线",
+     "zh": "向着战斗之海",
+     "ja": "戦いの海へ",
+     "en": "Scenario 22: Into The Sea Of Battle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·极东线",
+     "zh": "魔神Z对暗黑大将军",
+     "ja": "マジンガーZ対暗黒大将軍",
+     "en": "Scenario 23: Mazinger Z vs. The Great General of Darkness",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·极东线",
+     "zh": "波尔特斯起死回生",
+     "ja": "ボルテス起死回生",
+     "en": "Scenario 24: Voltes, Back From The Ashes",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·极东线",
+     "zh": "夏金恶魔之战",
+     "ja": "シャーキン悪魔の戦い",
+     "en": "Scenario 25: The Devil Sharkin's Battle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "里加·米利塔里亚线（第21–26话）",
+   "intro": "第20话后三线之一。量产型泰坦组与扎古改连锁在此线。",
+   "rows": [
+    {
+     "code": "第21话·里加·米利塔里亚线",
+     "zh": "香港都市",
+     "ja": "ホンコン・シティ",
+     "en": "Scenario 21: Hong Kong City",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·里加·米利塔里亚线",
+     "zh": "高达，前往星之海",
+     "ja": "ガンダム、星の海へ",
+     "en": "Scenario 22: Gundam, Go To The Sea Of Stars",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·里加·米利塔里亚线",
+     "zh": "启动，ZZ高达",
+     "ja": "始動ダブルゼータ",
+     "en": "Scenario 23: Startup, Double Zeta",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·里加·米利塔里亚线",
+     "zh": "所罗门的噩梦",
+     "ja": "ソロモンの悪夢",
+     "en": "Scenario 24: The Nightmare Of Solomon",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·里加·米利塔里亚线",
+     "zh": "骷髅先锋军团",
+     "ja": "クロスボーン・バンガード",
+     "en": "Scenario 25: Crossbone Vanguard",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·里加·米利塔里亚线",
+     "zh": "来自大海的异客",
+     "ja": "海からのマレビト",
+     "en": "Scenario 26: Terror From The Sea",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与系别分歧（第27–30话）",
+   "intro": "第27话合流；第29话按系别分线并迎来与恋人/伊尔姆的关键话；第30话承接系别分双EVA/强攻两版。",
+   "rows": [
+    {
+     "code": "第27话",
+     "zh": "机械展开",
+     "ja": "マシン展開",
+     "en": "Scenario 27: Machine Development",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "EOT之岛",
+     "ja": "EOTの島",
+     "en": "Scenario 28: The Island Of EOT",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·真实系",
+     "zh": "黑色超斗士",
+     "ja": "黒い超闘士",
+     "en": "Scenario 29: The Black Super Warrior",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·超级系",
+     "zh": "心中的无形之刃",
+     "ja": "心に念じる、見えない刃",
+     "en": "Scenario 29: Within The Soul Lies An Unseen Blade",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·双EVA线",
+     "zh": "瞬间，心灵重叠",
+     "ja": "瞬間、心かさねて",
+     "en": "Scenario 30: Moment And Heart Together",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·强攻线",
+     "zh": "精灵凭依",
+     "ja": "精霊憑依",
+     "en": "Scenario 30: Spirit Possession",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "击坠线（第31–39话）",
+   "intro": "第30话后二选一之一，以《超时空要塞》系剧情为中心（明美/未沙点数多发）。",
+   "rows": [
+    {
+     "code": "第31话·击坠线",
+     "zh": "诡雷陷阱",
+     "ja": "ブービー・トラップ",
+     "en": "Scenario 31: Booby Trap",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·击坠线",
+     "zh": "倒计时",
+     "ja": "カウント・ダウン",
+     "en": "Scenario 32: Count Down",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·击坠线",
+     "zh": "变形",
+     "ja": "トランス・フォーメーション",
+     "en": "Scenario 33: Trans-Formation",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·击坠线",
+     "zh": "隐藏的杀意",
+     "ja": "隠された殺意",
+     "en": "Scenario 34: Hidden Bloodlust",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·击坠线",
+     "zh": "撒旦之战",
+     "ja": "サタン・ファイト",
+     "en": "Scenario 35: Saturn Fight",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·击坠线",
+     "zh": "林明美",
+     "ja": "リン・ミンメイ",
+     "en": "Scenario 36: Lynn Minmay",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·击坠线",
+     "zh": "木星人",
+     "ja": "ジュピトリアン",
+     "en": "Scenario 37: The Jupitorians",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·击坠线",
+     "zh": "帝国的女王",
+     "ja": "帝国の女王",
+     "en": "Scenario 38: The Queen Of The Empire",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·击坠线",
+     "zh": "终末的前奏曲",
+     "ja": "終末への前奏曲",
+     "en": "Scenario 39: Prelude To The End",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "EVA迎接线（第31–39话）",
+   "intro": "第30话后二选一之一，以迎接 EVA 一行的剧情为中心；R-GUN 连锁的起点段与击坠线相同。",
+   "rows": [
+    {
+     "code": "第31话·EVA迎接线",
+     "zh": "奇迹的价值",
+     "ja": "奇跡の価値は",
+     "en": "Scenario 31: The Value Of A Miracle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·EVA迎接线",
+     "zh": "空间折跃",
+     "ja": "スペース・フォールド",
+     "en": "Scenario 32: Space Fold",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·EVA迎接线",
+     "zh": "ARMD攻击",
+     "ja": "アームド・アタック",
+     "en": "Scenario 33: ARMD Attack",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·EVA迎接线",
+     "zh": "与天敌的遭遇",
+     "ja": "天敵との遭遇",
+     "en": "Scenario 34: An Encounter With Our Natural Enemies",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·EVA迎接线",
+     "zh": "英格拉姆的杀意",
+     "ja": "イングラムの殺意",
+     "en": "Scenario 35: Ingram's True Intentions",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·EVA迎接线",
+     "zh": "马克罗斯小姐",
+     "ja": "ミス・マクロス",
+     "en": "Scenario 36: Miss Macross",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·EVA迎接线",
+     "zh": "来自木星的逃亡者",
+     "ja": "木星からの逃亡者",
+     "en": "Scenario 37: Fugitive From Jupiter",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·EVA迎接线",
+     "zh": "引导人类之人",
+     "ja": "人類を導く者",
+     "en": "Scenario 38: The One Who Will Guide Humanity",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·EVA迎接线",
+     "zh": "第一次接触",
+     "ja": "ファースト・コンタクト",
+     "en": "Scenario 39: First Contact",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流（第40–41话）",
+   "intro": "第40话合流；马克斯与米莉亚的冲突影响终盘隐藏。第41话末三线分歧。",
+   "rows": [
+    {
+     "code": "第40话",
+     "zh": "大逃亡",
+     "ja": "ビッグ・エスケープ",
+     "en": "Scenario 40: The Big Escape",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "再见，火星",
+     "ja": "バイバイ・マルス",
+     "en": "Scenario 41: Bye Bye Mars",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "利恩霍斯Jr.线（第42–45话）",
+   "intro": "第41话后三线之一。ZII、多本乌尔夫/夏亚专用扎古、沙扎比、ν高达HWS 连锁集中在此线。",
+   "rows": [
+    {
+     "code": "第42话·利恩霍斯Jr.线",
+     "zh": "来自阿克西斯的使者",
+     "ja": "アクシズからの使者",
+     "en": "Scenario 42: A Messenger From Axis",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·利恩霍斯Jr.线",
+     "zh": "普露与阿克西斯",
+     "ja": "プルとアクシズと",
+     "en": "Scenario 43: Ple, Axis and...",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·利恩霍斯Jr.线",
+     "zh": "莉娜之血",
+     "ja": "リィナの血",
+     "en": "Scenario 44: Leina's Blood",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·利恩霍斯Jr.线",
+     "zh": "漆黑天使降临",
+     "ja": "漆黒の天使来たりて",
+     "en": "Scenario 45: The Coming Of The Black Angel",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "格兰·加兰线（第42–45话）",
+   "intro": "第41话后三线之一。比基那·基那与高达F90V 在此线分歧。",
+   "rows": [
+    {
+     "code": "第42话·格兰·加兰线",
+     "zh": "木星幽灵",
+     "ja": "ジュピター・ゴースト",
+     "en": "Scenario 42: The Jupiter Ghost",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·格兰·加兰线",
+     "zh": "宇宙中绽放的妖花",
+     "ja": "宇宙に咲く妖花",
+     "en": "Scenario 43: The Terrible Flower Blooming In Space",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·格兰·加兰线",
+     "zh": "被称为零式的高达",
+     "ja": "ゼロと呼ばれたガンダム",
+     "en": "Scenario 44: The Gundam Called Zero",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·格兰·加兰线",
+     "zh": "强袭，阻止临界点",
+     "ja": "強襲、阻止限界点",
+     "en": "Scenario 45: Assault On The Point Of No Return",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "戈拉昂线（第42–45话）",
+   "intro": "第41话后三线之一。巴斯托尔、EVA参号机连锁在此线。",
+   "rows": [
+    {
+     "code": "第42话·戈拉昂线",
+     "zh": "父亲啊，地球已近",
+     "ja": "父よ地球は近い",
+     "en": "Scenario 42: Father, The Earth Is Near",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·戈拉昂线",
+     "zh": "在静止的黑暗中",
+     "ja": "静止した闇の中で",
+     "en": "Scenario 43: Within The Paralyzing Darkness",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·戈拉昂线",
+     "zh": "红发女子",
+     "ja": "赤い髪の女",
+     "en": "Scenario 44: The Red Haired Woman",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·戈拉昂线",
+     "zh": "是神，还是恶魔…",
+     "ja": "神か、悪魔か…",
+     "en": "Scenario 45: A God, Or A Devil",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "系别分歧与合流（第46–50话）",
+   "intro": "第46话按系别分线（恋人/对手点数的关键话）；第47话合流；第50话末再入三线分歧。",
+   "rows": [
+    {
+     "code": "第46话·真实系",
+     "zh": "第三之力",
+     "ja": "第三の力",
+     "en": "Scenario 46: The Third's Power",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·超级系",
+     "zh": "龙与虎",
+     "ja": "龍と虎",
+     "en": "Scenario 46: The Dragon And The Tiger",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "男人的战斗",
+     "ja": "男の戰い",
+     "en": "Scenario 47: A Man's Fight",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "钟为谁而舞",
+     "ja": "誰がために鐘は踊る",
+     "en": "Scenario 48: For Whom The Bell Tolls",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "进路光明，退路绝望",
+     "ja": "進路に光明、退路に絶望",
+     "en": "Scenario 49: The Path Of Hope, The Path Of Despair",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "可变编队",
+     "ja": "ヴァリアブル・フォーメーション",
+     "en": "Scenario 50: Variable Formation",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "格兰·加兰线（第51–55话）",
+   "intro": "第50话后三线之一。托德、玛丽、断空剑等在此线结算。",
+   "rows": [
+    {
+     "code": "第51话·格兰·加兰线",
+     "zh": "玻璃王国",
+     "ja": "ガラスの王国",
+     "en": "Scenario 51: The Glass Kingdom",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·格兰·加兰线",
+     "zh": "王国崩坏",
+     "ja": "王国崩壊",
+     "en": "Scenario 52: Kingdom's Fall",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·格兰·加兰线",
+     "zh": "交叉之战",
+     "ja": "クロス・ファイト",
+     "en": "Scenario 53: Cross Fight",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话·格兰·加兰线",
+     "zh": "异邦人的归来",
+     "ja": "異邦人達の帰還",
+     "en": "Scenario 54: Foreigners' Return",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·格兰·加兰线",
+     "zh": "女王莉莉娜",
+     "ja": "女王リリーナ",
+     "en": "Scenario 55: Queen Relena",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "拉·凯拉姆线（第51–55话）",
+   "intro": "第50话后三线之一。凤、亚克特·多加、ν高达HWS、试作2号机在此线结算。",
+   "rows": [
+    {
+     "code": "第51话·拉·凯拉姆线",
+     "zh": "达喀尔之日",
+     "ja": "ダカールの日",
+     "en": "Scenario 51: Day Of Dakar",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·拉·凯拉姆线",
+     "zh": "振动",
+     "ja": "バイブレーション",
+     "en": "Scenario 52: Vibration",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·拉·凯拉姆线",
+     "zh": "所罗门攻略战",
+     "ja": "ソロモン攻略戦",
+     "en": "Scenario 53: The Capture Of Solomon",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话·拉·凯拉姆线",
+     "zh": "女人们的战场",
+     "ja": "女たちの戦場",
+     "en": "Scenario 54: The Womens' Battlefield",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·拉·凯拉姆线",
+     "zh": "疾驰的风暴",
+     "ja": "駆け抜ける嵐",
+     "en": "Scenario 55: A Storm Raging Through",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "戈拉昂线（第51–55话）",
+   "intro": "第50话后三线之一。魔神凯撒（早期）、EVA参号机、玛丽、巴斯特武装在此线。",
+   "rows": [
+    {
+     "code": "第51话·戈拉昂线",
+     "zh": "阿修罗男爵，凋零",
+     "ja": "あしゅら男爵、散る",
+     "en": "Scenario 51: The Fall Of Baron Ashura",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·戈拉昂线",
+     "zh": "魔神皇帝",
+     "ja": "魔神皇帝",
+     "en": "Scenario 52: The Demon Emperor",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·戈拉昂线",
+     "zh": "赌上地球的单挑",
+     "ja": "地球を賭けた一騎打ち",
+     "en": "Scenario 53: Duel For The Earth",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话·戈拉昂线",
+     "zh": "将回忆带向未来",
+     "ja": "思い出を未来へ",
+     "en": "Scenario 54: Memories Taken To The Future",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·戈拉昂线",
+     "zh": "在父亲怀中哭泣吧！",
+     "ja": "父の胸の中で泣け!",
+     "en": "Scenario 55: The Cry Within Father's Breast!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与二线分歧（第56–57话）",
+   "intro": "第56话合流（卡碧尼Mk-II 结算）；第57话末二线分歧为自由选择，与熟练度无关。",
+   "rows": [
+    {
+     "code": "第56话",
+     "zh": "吉翁的幻影",
+     "ja": "ジオンの幻像",
+     "en": "Scenario 56: The Ghost Of Zeon",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话",
+     "zh": "在天使之环上",
+     "ja": "天使の輪の上で",
+     "en": "Scenario 57: Above The Angel's Halo",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "阿克西斯线（第58–60话）",
+   "intro": "第57话后二线之一。全装甲ZZ高达与扎古改在此线结算。",
+   "rows": [
+    {
+     "code": "第58话·阿克西斯线",
+     "zh": "前往神之国的诱惑",
+     "ja": "神の国への誘惑",
+     "en": "Scenario 58: The Temptation Of The Land Of God",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第59话·阿克西斯线",
+     "zh": "交叉目标",
+     "ja": "クロス・ターゲット",
+     "en": "Scenario 59: Cross Target",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第60话·阿克西斯线",
+     "zh": "战士，再度…",
+     "ja": "戦士、再び…",
+     "en": "Scenario 60: Warrior, Once More...",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "天使之环线（第58–60话）",
+   "intro": "第57话后二线之一。托鲁基斯III 的路线在此线。",
+   "rows": [
+    {
+     "code": "第58话·天使之环线",
+     "zh": "为胜者与败者献上祝福",
+     "ja": "勝者と敗者に祝福を",
+     "en": "Scenario 58: Blessings Upon The Winner And Loser",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第59话·天使之环线",
+     "zh": "至少，要像个人类",
+     "ja": "せめて、人間らしく",
+     "en": "Scenario 59: At Least, To Be Human",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第60话·天使之环线",
+     "zh": "最后的使者",
+     "ja": "最後のシ者",
+     "en": "Scenario 60: The Final Messenger",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘共通（第61–65话）",
+   "intro": "第61话起合流。第63话为纯事件话；第65话为伊尔姆加入与客串增援的判定话，话末按累计熟练度分歧。",
+   "rows": [
+    {
+     "code": "第61话",
+     "zh": "命运之箭",
+     "ja": "運命の矢",
+     "en": "Scenario 61: The Arrow Of Destiny",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第62话",
+     "zh": "爱，还记得吗？",
+     "ja": "愛・おぼえていますか",
+     "en": "Scenario 62: Do You Remember Love?",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第63话",
+     "zh": "终结的开始（纯事件）",
+     "ja": "終わりの始まり（イベントのみ）",
+     "en": "Scenario 63: The Beginning Of The End (Event Only)",
+     "type": "事件话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第64话",
+     "zh": "Air",
+     "ja": "Air",
+     "en": "Scenario 64: Air",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第65话",
+     "zh": "命运齿轮",
+     "ja": "ギア・オブ・デスティニー",
+     "en": "Scenario 65: The Gear Of Destiny",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终话·熟练度45以上（真结局线）",
+   "intro": "第65话结束时累计熟练度≥45 时进入。第66话有四组客串增援参战。",
+   "rows": [
+    {
+     "code": "第66话·熟练度45以上",
+     "zh": "绝望的盛宴现在开始",
+     "ja": "絶望の宴は今から始まる",
+     "en": "Scenario 66: The Banquet Of Despair Begins Now",
+     "type": "最终话",
+     "area": "",
+     "note": "真结局线"
+    },
+    {
+     "code": "第67话·熟练度45以上",
+     "zh": "为了这颗星球的明天",
+     "ja": "この星の明日のために",
+     "en": "Scenario 67: For This Planet's Tomorrow",
+     "type": "最终话",
+     "area": "",
+     "note": "真结局线·最终话"
+    }
+   ]
+  },
+  {
+   "title": "最终话·熟练度44以下（普通结局线）",
+   "intro": "第65话结束时累计熟练度≤44 时进入。",
+   "rows": [
+    {
+     "code": "第66话·熟练度44以下",
+     "zh": "人类无处可逃",
+     "ja": "人類に逃げ場なし",
+     "en": "Scenario 66: No Escape For Humanity",
+     "type": "最终话",
+     "area": "",
+     "note": "普通结局线"
+    },
+    {
+     "code": "第67话·熟练度44以下",
+     "zh": "钢铁之魂",
+     "ja": "鋼の魂",
+     "en": "Scenario 67: Spirits Of Steel",
+     "type": "最终话",
+     "area": "",
+     "note": "普通结局线·最终话"
+    }
+   ]
+  }
+ ]
+}

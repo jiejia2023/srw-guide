@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwAlphaMissionList from '../../../components/SrwAlphaMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战α', path: 'srw-alpha/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战α（PS）关卡攻略 · 全127个剧本页面列表" description="超级机器人大战α（2000年 PS）全部 127 个不同剧本的页面列表：真实系/超级系主人公开局、贾布罗/南亚塔利亚分线、三条中盘路线、击坠线/EVA迎接线、终盘三线与按累计熟练度（45 点）分歧的两种最终话。每关独立攻略页含胜利/败北条件、熟练度（SR点）增减条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-alpha/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战α · 关卡攻略</h1>
+  <p>2000 年 PS《超级机器人大战α》是 Banpresoft 接手开发的第一款正传，也是 <strong>α 系列</strong>的起点与「<strong>熟练度</strong>」（SR 点）系统的正式登场作。结构上：<strong>主人公先分真实系/超级系</strong>（男女×4 种性格组、共 8 名默认主人公），第 9 话后分<strong>贾布罗/南亚塔利亚</strong>，第 20 话后分 <strong>EVA 贰号机/极东/里加·米利塔里亚</strong>三线，第 30 话后二选一进<strong>击坠线/Eva迎接线</strong>，第 41、50 话后两次三线分歧，第 57 话后自由二选<strong>阿克西斯/天使之环</strong>，最终第 66–67 话按<strong>第 65 话结束时的累计熟练度（≥45／≤44）</strong>分出真/普通两种结局线。单周目实际游玩 68 话（序章＋第 1–67 话）；本站按 Akurasu 完整流程图清点共 <strong>127 个不同剧本</strong>，全部建有独立详情页。每一关的完整攻略（胜败条件、熟练度增减条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-alpha/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十三部<strong>全关卡补完</strong>的作品——127 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新、F、F完结编、COMPACT、64、COMPACT2 已完成）。流程、胜败条件、<strong>熟练度增减条件</strong>、加入与隐藏要素以 Akurasu 的 α 完整流程图为主源，逐条与同站 Expert Point（熟练度专页）及 Secrets 交叉核对；两源有出入处（第 22/24/44/45 话的熟练度、第 32 话的混乱原文等）已在相关页面备注中如实标明出处与取舍。<strong>如实说明</strong>：本作没有任何公开来源刊载逐关敌方配置/坐标/地形（GX 不收录本作、s-rpg-navi 无 α 敌表、日文 Wiki 亦无逐关配置表，仅纸质攻略本有载），故各页敌方配置与地形标为待核实、坐标图为参照框架。本页只做 PS 原版（2000 年）；DC 移植版（2001 年）的差异只在本作主页注记。</span>
+  </div>
+
+  <SrwAlphaMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Complete Chart</a>（全关卡流程、胜败条件、机体加入与隐藏要素总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha/Expert_Point" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Expert Point</a>（逐话熟练度增减与累计上限、最优路线）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Secrets</a>（隐藏要素分项、恋人/对手点数条件）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha/Birthdays" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Birthdays</a>（生日+血型与精神/特殊技能对应，本作主页系统栏）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦α" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦α</a>（开发经纬、参战作品、DC 版差异的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-alpha/')}>← 返回超级机器人大战α</a></p>
+</Base>
