@@ -37,8 +37,8 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
       {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
     </td></tr>
     <tr><th>熟练度（SR点）</th><td>
-      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>本话无熟练度增减</div>}
-      {m.srNote && <div class="muted">{m.srNote}</div>}
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度增减'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
     </td></tr>
     <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
     {m.rewards.parts && m.rewards.parts.length > 0 && (
