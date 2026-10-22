@@ -1,0 +1,74 @@
+---
+import '../styles/global.css';
+import { SITE_NAME, href, canonical } from '../lib/site';
+
+interface Crumb { label: string; path?: string; }
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+  breadcrumbs?: Crumb[];
+}
+const { title, description, path = '', breadcrumbs } = Astro.props;
+const canon = canonical(path);
+const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+const ld = breadcrumbs ? {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: breadcrumbs.map((c, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: c.label,
+    ...(c.path !== undefined ? { item: canonical(c.path) } : {}),
+  })),
+} : null;
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canon} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content={SITE_NAME} />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canon} />
+  <meta name="twitter:card" content="summary" />
+  {ld && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href={href('')}>{SITE_NAME}</a>
+      <nav class="site-nav">
+        <a href={href('')}>首页</a>
+        <a href={href('search/')}>搜索游戏</a>
+        <a href={href('about/')}>关于</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    {breadcrumbs && (
+      <nav class="breadcrumbs" aria-label="面包屑导航">
+        {breadcrumbs.map((c, i) => (
+          <span>
+            {i > 0 && <span class="sep">&gt;</span>}
+            {c.path !== undefined ? <a href={href(c.path)}>{c.label}</a> : <span>{c.label}</span>}
+          </span>
+        ))}
+      </nav>
+    )}
+  </div>
+  <main class="container">
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>{SITE_NAME} · 粉丝非商业攻略站。游戏名称、封面等版权归 Bandai Namco / Banpresto 等权利方所有，详见<a href={href('about/')}>关于页面</a>。</p>
+    </div>
+  </footer>
+</body>
+</html>
