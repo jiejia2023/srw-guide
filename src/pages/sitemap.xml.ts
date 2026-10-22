@@ -1,4 +1,5 @@
 import games from '../data/games.json';
+import srw30 from '../data/srw30-missions.json';
 import { canonical } from '../lib/site';
 
 export function GET() {
@@ -16,6 +17,9 @@ export function GET() {
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/sample-01/');
+  for (const m of (srw30 as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-30/missions/${m.slug}/`);
+  }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...paths]
     .map(p => `  <url><loc>${canonical(p)}</loc></url>`)

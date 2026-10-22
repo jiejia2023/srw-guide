@@ -1,0 +1,107 @@
+---
+import Base from '../../../layouts/Base.astro';
+import data from '../../../data/srw30-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战30', path: 'srw-30/' },
+  { label: '关卡攻略', path: 'srw-30/missions/' },
+  { label: m.zh },
+];
+const W = m.map.frameW;
+const H = m.map.frameH;
+const cells = Array.from({ length: W * H }, (_, i) => ({ x: (i % W) + 1, y: Math.floor(i / W) + 1 }));
+const rewardParts = m.rewards.parts && m.rewards.parts.length ? m.rewards.parts.join('；') : '无（来源未列出）';
+const rewardMxp = m.rewards.mxp != null ? m.rewards.mxp : '待核实';
+const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战30 ${m.zh}（日文：${m.ja}）攻略：胜利/败北条件、完成奖励、参战与加入单位、隐藏要素与坐标地图。敌方逐机配置与地图地形为待核实状态，不以推测填充。`} path={`srw-30/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文（Akurasu）：{m.en} · {m.route} · 区域：{m.area} · 类型：{m.type}</p>
+
+  <div class="notice">
+    <strong>数据状态：</strong>本页的胜负条件、奖励与加入单位均来自公开攻略来源（见页末）。敌方逐机配置与地图地形本次未能核实到原文，已明确标为<strong>待核实</strong>，本站不会用推测数据填充。
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <table class="info">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>完成奖励 · MxP</th><td>{rewardMxp}</td></tr>
+    <tr><th>完成奖励 · PP</th><td>{rewardPp}</td></tr>
+    <tr><th>完成奖励 · 强化部件</th><td>{rewardParts}</td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.note && <tr><th>奖励说明</th><td class="muted">{m.rewards.note}</td></tr>}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+
+  <h2>我方参战 / 加入单位</h2>
+  <table class="data">
+    <tr><th>单位 / 角色</th><th>备注</th></tr>
+    {m.allies.map((a: string) => {
+      const parts = a.split('—');
+      return <tr><td>{parts[0].trim()}</td><td>{parts.length > 1 ? parts.slice(1).join('—').trim() : '剧情编成参战'}</td></tr>;
+    })}
+  </table>
+
+  <h2>敌方出场与增援</h2>
+  <div class="empty-state">
+    <strong>敌方逐机配置：待核实。</strong>
+    {m.enemies.notes.map((n: string) => <p>{n}</p>)}
+  </div>
+
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="notice">
+    <strong>地形待核实：</strong>{m.map.note}
+  </div>
+  <div class="map-wrap">
+    <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label={`${m.zh} 坐标参照框架（地形待核实）`}>
+      {cells.map(c => (
+        <button type="button" class="map-cell" style="background:#e8ebef" data-x={c.x} data-y={c.y} data-terrain="待核实" data-unit="" aria-label={`坐标 ${c.x},${c.y}，地形待核实`}>{c.x === 1 && <span class="map-axis">{c.y}</span>}{c.y === 1 && <span class="map-axis">{c.x}</span>}</button>
+      ))}
+    </div>
+    <div class="legend">
+      <span><i style="background:#e8ebef"></i>地形待核实（全部格子）</span>
+    </div>
+    <div class="map-info" id="mapInfo">点击任意格子查看坐标信息。</div>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: string) => <li><a href={s} rel="noopener" target="_blank">{s}</a></li>)}
+    <li>敌方配置与地图数据：本次未核实到原文，按本站规则标为待核实。</li>
+  </ul>
+
+  <p><a href={href('srw-30/missions/')}>← 返回关卡列表</a> · <a href={href('srw-30/secrets/')}>隐藏要素</a> · <a href={href('srw-30/')}>返回超级机器人大战30</a></p>
+
+  <script is:inline>
+    document.querySelectorAll('.map-cell').forEach(function (cell) {
+      cell.addEventListener('click', function () {
+        var info = document.getElementById('mapInfo');
+        if (info) info.textContent = '坐标 (' + cell.dataset.x + ',' + cell.dataset.y + ') · 地形：' + (cell.dataset.terrain || '待核实');
+      });
+    });
+  </script>
+</Base>

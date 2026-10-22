@@ -42,6 +42,9 @@ const crumbs = [{ label: '首页', path: '' }, { label: '搜索游戏' }];
       <a class="card" href={href(`${g.slug}/`)}
          data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')}`.toLowerCase()}
          data-platform={g.platformSlug} data-year={String(g.year)} data-series={g.series}>
+        {g.cover
+          ? <img class="card-cover" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />
+          : <span class="card-cover card-cover--empty" aria-hidden="true">封面图（待补真实封面）</span>}
         <span class="card-title">{g.zh}</span>
         <span class="meta">{g.en} / {g.ja}</span>
         <span class="meta">{g.year} 年 · {g.platforms.join(' / ')}</span>

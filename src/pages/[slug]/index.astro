@@ -13,10 +13,14 @@ const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
   <h1>{g.zh}</h1>
   <p class="meta" style="color:var(--muted)">{g.en} · {g.ja}</p>
 
-  <div class="cover-placeholder" role="img" aria-label={`${g.zh} 封面图待补`}>
-    <span class="cover-name">{g.zh}</span>
-    <span>封面图（待补真实封面）</span>
-  </div>
+  {g.cover ? (
+    <img class="cover-img" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} />
+  ) : (
+    <div class="cover-placeholder" role="img" aria-label={`${g.zh} 封面图待补`}>
+      <span class="cover-name">{g.zh}</span>
+      <span>封面图（待补真实封面）</span>
+    </div>
+  )}
 
   <table class="info">
     <tr><th>发售年份</th><td>{g.year} 年（首发 {g.release}）</td></tr>

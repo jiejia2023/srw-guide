@@ -1,0 +1,291 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战30', path: 'srw-30/' },
+  { label: '关卡攻略' },
+];
+
+// 行: [编号, 中文名, 日文名, 英文名(Akurasu), 类型, 区域, 详情页slug(可空), 备注(可空)]
+const groups: any[] = [
+  {
+    title: '开局与地上路线 · 第 1 章',
+    intro: '开局在起始区域中选择「极东 大凑」进入地上路线。伊豆（孔巴特拉V）与东京（勇者警察）两组任务先后可交换：先完成的一组用「序章」标题，后完成的一组在同区域改用后续标题与展开。',
+    rows: [
+      ['KE1-1', '出发之日（地上）', '旅立ちの日', "A Journey's Beginning", '主线', '极东 - 大凑', 'journey-beginning-earth', ''],
+      ['KE1-2A', '来合体吧', 'レッツ・コンバイン', "Let's Combine", '主线', '极东 - 伊豆', 'lets-combine', '孔巴特拉V、支援者罗佩特加入'],
+      ['KE1-2B', '勇者集结', 'ブレイブアップ', 'Brave Up', '主线', '极东 - 东京', '', '杰德卡、勇太加入'],
+      ['KE1-3A', '勇者警察出动', '勇者警察始動', 'The Brave Police Mobilize', '主线', '极东 - 东京', '', '东京线后打时出现'],
+      ['KE1-3B', '肆虐的战斗之风', '吹き荒れる戦いの風', 'Raging Winds of Battle', '主线', '极东 - 伊豆', '', '伊豆线后打时出现'],
+      ['KE1-4', '觉·醒', '覚・醒', 'Awakening', '主线', '极东 - 太平洋沿岸', '', '古利特骑士同盟/古利特登场；茜点数起点'],
+    ],
+  },
+  {
+    title: '地上路线 · 第 2 章（关键任务）',
+    intro: '第 2 章起区域任务大幅增加，下表只列关键（主线）任务；同章支线见下方「主要支线与隐藏任务」表。',
+    rows: [
+      ['KE2-1A', '吉尔克斯坦的黑暗', 'ジルクスタンの闇', "Zilkhstan's Darkness", '主线', '亚洲 - 印度洋', '', '隐藏：兰斯洛特·阿尔比昂零式 / 枢木朱雀提前加入'],
+      ['KE2-1B', '前往战斗的宇宙', '戦いの宇宙へ', 'Battle Among the Stars', '主线', '欧洲 - 直布罗陀', '', '凶鸟30、德莱斯特雷伽强化'],
+      ['KE2-2', 'MJP的孩子们', 'MJPの子供たち', 'The Children of MJP', '主线', '地球圈外围 - 哥伦布区域', '', 'MJP 拉比茨小队加入'],
+    ],
+  },
+  {
+    title: '地上路线 · 第 3 章',
+    rows: [
+      ['KE3-1', '接触·彭塔戈纳', 'コンタクト・ペンタゴナ', 'Contact Pentagona', '主线', '火星圈 - 多伊特罗尼库斯海', '', '出现后完成 5 个区域任务将强制进入；艾尔盖姆、达巴加入；内伊点数'],
+      ['KE3-2', '谷神星大战', 'ケレス大戦', 'The Battle of Ceres', '主线', '小行星带 - 谷神星区域', '', '完成 3 个区域任务后强制进入；戈迪尼翁加入'],
+    ],
+  },
+  {
+    title: '开局与宇宙路线 · 第 1 章',
+    intro: '开局选择「L3 殖民地艾利昂」进入宇宙路线，整体偏真实系作品。艾利亚（里加·米利塔里亚）与亚拉拉特（MJP）两组任务同样可交换顺序，标题随之变化。',
+    rows: [
+      ['KS1-1', '出发之日（宇宙）', '旅立ちの日', "A Journey's Beginning", '主线', 'L3 - 殖民地艾利昂', 'journey-beginning-space', ''],
+      ['KS1-2A', '里加·米利塔里亚', 'リガ・ミリティア', 'League Militaire', '主线', 'L3 - 艾利亚区域', 'league-militaire', '海克萨型、刚布拉斯特加入；卡特加娜点数机会'],
+      ['KS1-2B', '目标是英雄', '目指せ、ヒーロー', 'Awaken, Hero', '主线', 'L3 - 亚拉拉特区域', '', 'MJP 拉比茨小队加入'],
+      ['KS1-3A', '拉比茨小队出击', 'チームラビッツ出撃', 'Team Rabbits, Scramble', '主线', 'L3 - 亚拉拉特区域', '', '亚拉拉特线后打时出现'],
+      ['KS1-3B', '宇宙的呼唤声', '宇宙の呼ぶ声', 'A Voice Calling in Space', '主线', 'L3 - 艾利亚区域', '', '艾利亚线后打时出现；卡特加娜点数机会'],
+      ['KS1-4', '混战', '混戦', 'Free-For-All', '主线', 'L3 - 戈弗区域', '', '银弹·镇压者加入；卡特加娜点数机会'],
+    ],
+  },
+  {
+    title: '宇宙路线 · 第 2 章',
+    rows: [
+      ['KS2-1', '前往战斗的大地', '戦いの大地へ', 'Planet of Conflict', '主线', '地球轨道 - 轨道基地', '', '凶鸟30、德莱斯特雷伽强化'],
+      ['KS2-2A', '吉尔克斯坦的黑暗', 'ジルクスタンの闇', "Zilkhstan's Darkness", '主线', '亚洲 - 印度洋', '', '隐藏：兰斯洛特·阿尔比昂零式 / 枢木朱雀提前加入'],
+      ['KS2-2B', '破·坏', '破・壊', 'Destruction', '主线', '北美 - 太平洋沿岸', '', '古利特登场；茜点数起点'],
+      ['KS2-3', '站起来的战士们', '立ち上がる戦士達', 'Soldiers Rising', '主线', '极东 - 伊豆', '', '孔巴特拉V、一七式、甲儿加入'],
+    ],
+  },
+  {
+    title: '宇宙路线 · 第 3 章',
+    rows: [
+      ['KS3-1', '接触·彭塔戈纳', 'コンタクト・ペンタゴナ', 'Contact Pentagona', '主线', '火星圈 - 多伊特罗尼库斯海', '', '与地上路线 KE3-1 为同一任务；强制进入条件相同'],
+      ['KS3-2', '谷神星大战', 'ケレス大戦', 'The Battle of Ceres', '主线', '小行星带 - 谷神星区域', '', '与地上路线 KE3-2 为同一任务'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 4 章',
+    rows: [
+      ['K4-1A', '新的翅膀', '新しい翼', 'New Wings', '主线', '月球 - 奥米克戎区域', '', 'V2高达加入；卡特加娜点数机会'],
+      ['K4-1B', 'ZERO再临', 'ゼロ再臨', 'The Second Coming of Zero', '主线', '亚洲 - 印度洋', '', '兰斯洛特·siN、月虹影·帅、鲁路修加入'],
+      ['K4-2', '门 -JUPITER-', '門-JUPITER-', 'Gateway of Demise -JUPITER-', '主线', '木星圈 - 阿尔马格斯特基地', '', '完成 5 个区域任务后强制进入；勇者王合体攻击解禁'],
+      ['K4-3', '耸立的光', 'そびえたつ光', 'A Towering Light', '主线', '亚洲 - 金边', '', '紧急任务；真结局天秤判定点之一'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 5 章',
+    rows: [
+      ['K5-1A', '觉 -MEZAME-', '覚-MEZAME-', 'Conquest in Waiting -AWAKEN-', '主线', '极东 - 东京', '', '觉醒人V2、萤汰加入'],
+      ['K5-1B', '阿什之影', 'アッシュの影', 'Shadow of the AHSMB', '主线', '小行星带 - 博德区域', '', 'Red 5 全爆发模式、拉比茨阵型解禁'],
+      ['K5-1C', '决战塞菲罗', '決戦のセフィーロ', 'Showdown in Cephiro', '主线', '大洋洲 - 蓝洞', '', '戈尔德里欧加入；螺旋闪光解禁'],
+      ['K5-2', '划破宇宙的闪光', '宇宙を走る閃光', 'A Flash Through Space', '主线', '地球轨道 - 开拉什·吉里区域', '', '胜利条件为 6 回合内全灭（审判者不必击坠）；第二台 V2 高达隐藏条件在此结算'],
+      ['K5-3A', '潜入赞斯卡尔', 'ザンスカール潜入', 'Infiltrating Zanscare', '主线', 'L4 - 殖民地阿梅利亚', '', 'ν高达、Z高达加入；卡特加娜点数机会'],
+      ['K5-3B', '勇者之魂', '勇者の魂', 'Brave Spirits', '主线', '欧洲 - 慕尼黑', '', '火焰迪卡（杜克）加入'],
+      ['K5-4A', '回响在战场上的铃声', '戦場に響く鈴の音', 'Bells on the Battlefield', '主线', '月球 - LCROSS 区域', '', 'V2 强攻突击装备部件；需乌索击坠数达标'],
+      ['K5-4B', '被净化的大地', '浄化される大地', 'A Purified Land', '主线', '欧洲 - 雅典', '', '完成 3 个区域任务后强制进入；真结局天秤判定点之一；通关进入第 6 章'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 6 章',
+    rows: [
+      ['K6-1A', '禽 -PHOENIX-', '禽-PHOENIX-', 'The Lion Revived -PHOENIX-', '主线', '地球轨道 - 轨道基地', '', '我王凯牙、王杰德加入（日文原题即为「禽-PHOENIX-」，多家日文来源一致）'],
+      ['KE6-1B', '注定的命运', '定められた運命', 'Preordained Destiny', '主线（地上路线）', '极东 - 大凑', '', '需主角与三叶合计击坠数达标；凶鸟30th 加入；真结局天秤判定点'],
+      ['KS6-1B', '在应走之路的前方', '進むべき道の先に', 'Where It All Leads', '主线（宇宙路线）', 'L3 - 殖民地艾利昂', '', '与 KE6-1B 为路线对应任务；凶鸟30th 加入'],
+      ['K6-1C', '伸出的心意', '差し伸べられる想い', 'Feelings Offered', '主线', 'L5 - 殖民地阿瓦隆', '', '菲尼克斯以 NPC 登场；可掉落奖励部件'],
+      ['K6-2', '被盯上的都市学园', 'ねらわれた都市学園', 'Academy in the Crosshairs', '主线', '极东 - 富良野', '', '紧急任务'],
+      ['K6-3', '火焰合体', '炎の合体', 'Blazing Combination', '主线', '欧洲 - 伦敦', '', '火焰杰德卡合体；勇太支援提前强化条件'],
+      ['K6-4', '魔神之命', '魔神の命', 'Life of a Mazin', '主线', '极东 - 新富士研究所市', '', '紧急任务；隐藏：伯斯/纽克/姆恰支援者'],
+      ['K6-5', '动摇的世界', '揺らぐ世界', 'A World in Turmoil', '主线', '非洲 - 乞力马扎罗', '', '完成 5 个区域任务后强制进入；隐藏前置：巨型桑永、塔特拉&塔尔塔'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 7 章',
+    rows: [
+      ['K7-1', '光与暗的尽头', '光と闇の果て', 'Beyond Light and Darkness', '主线', '极东 - 新富士研究所市', '', '真龙（真形态）加入'],
+      ['K7-2', '调停者', '調停者', 'Arbitrator', '主线', '拉丁美洲 - 安第斯山脉', '', 'FTO、NSX、火焰神利安提斯加入；真结局天秤判定点'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 8 章',
+    rows: [
+      ['K8-1', '神话的彼方', '神話のその先へ', 'What Follows Myth', '主线', 'L5 - 格拉斯顿区域', '', '叙事高达C装备、菲尼克斯/约拿、银弹·镇压者/巴纳吉加入；卡特加娜点数结算机会'],
+      ['K8-2', '审判', '審判', 'Judgment', '主线', '南极 - 南极点', '', '完成 5 个区域任务后强制进入；本关进行结局路线判定；隐藏：樱支援者'],
+      ['K8-3', '对决 -VERSUS-', '対 -VERSUS-', 'Future at Stake -VERSUS-', '主线', '大洋洲 - 所罗门群岛', '', '紧急任务；最终我王凯牙加入；隐藏：贝塔曼卡塔弗拉克托提前加入'],
+    ],
+  },
+  {
+    title: '共通路线 · 第 9 章',
+    rows: [
+      ['K9-1A', '天堂之门行动', 'オペレーション・ヘヴンズゲート', "Operation Heaven's Gate", '主线', '木星圈 - 木星之门', '', 'Red 5 超全爆发模式；本关完成后多数区域任务冻结至 K9-3B/3C 完成'],
+      ['K9-1B', '天与世界', 'Heaven & World', 'Heaven & World', '主线', '北美 - 底特律', '', '隐藏：诺拉支援者'],
+      ['K9-2A', '独裁者', 'ザ・ディクテイター', 'The Dictator', '主线', '火星圈 - 多伊特罗尼库斯海', '', '前提：未完成支线「倒计时」时出现'],
+      ['K9-2B', '梦想家永恒', 'ドリーマーズフォーエバー', 'Dreamers Forever', '主线', '火星圈 - 多伊特罗尼库斯海', '', '前提：完成支线「倒计时」时出现'],
+      ['K9-2C', '心连心', 'ハートtoハート', 'Heart to Heart', '主线', '欧洲 - 布拉格', '', '隐藏：维克提姆加入条件；强化莫可拿条件'],
+      ['K9-2D', '在天使之环上', '天使の輪の上で', "Above the Angel's Halo", '主线', '地球轨道 - 天使之环', '', '隐藏：卡特加娜 & 克罗诺克尔说得前置（击坠顺序）'],
+      ['K9-3B', '天使们的升天', '天使たちの昇天', 'The Angels Ascend', '主线', '地球轨道 - 天使之环', '', '与 K9-2D 的先后影响隐藏说得流程'],
+      ['K9-3C', '光辉洋溢的未来', '光あふれる未来', 'To a Future Filled With Light', '主线', '欧洲 - 布拉格', '', ''],
+    ],
+  },
+  {
+    title: '结局章 · 通常结局路线（天秤偏右）',
+    rows: [
+      ['KN-1', '创造', '創造', 'Creation', '主线', '极东 - 太平洋沿岸', '', '隐藏：茜支援者最终判定'],
+      ['KN-2', '通往深渊之门', '深淵への扉', 'Doorway to the Abyss', '主线', '南极 - 南极点', '', '隐藏：卡特加娜 & 克罗诺克尔在此加入'],
+      ['KN-3', '决战的序曲', '決戦の序曲', 'Prelude to the Final Battle', '主线', '南极 - 南极半岛', '', ''],
+      ['KN-4', '无尽探究的终点', '終わりなき探究の果てに', 'End to the Never-Ending', '主线', '亚空间 - 最终决战区域', '', '紧急任务；最终 Boss：究极菲尼'],
+    ],
+  },
+  {
+    title: '结局章 · 真结局路线（天秤偏左）',
+    rows: [
+      ['KT-1', '觉醒', '覚醒', 'awakening', '主线', '极东 - 太平洋沿岸', '', '隐藏：茜支援者最终判定'],
+      ['KT-2', '通往深渊之门', '深淵への扉', 'Doorway to the Abyss', '主线', '南极 - 南极点', '', '隐藏：卡特加娜 & 克罗诺克尔；卡尔雷乌姆说得机会'],
+      ['KT-3A', '跨越死线', '死線を越えて', 'Facing Death', '主线', '南极 - 南极半岛', '', '卡尔雷乌姆加入时的分支'],
+      ['KT-3B', '寻求真理', '真理を求めて', 'In Search of Truth', '主线', '南极 - 南极半岛', '', '卡尔雷乌姆未加入时的分支'],
+      ['KT-4A', '真理', '真理', 'Truth', '主线', '亚空间 - 最终决战区域', '', ''],
+      ['KT-4B', '在抵达的答案彼方', 'たどりついた答えの向こうに', 'An Answer Found', '主线', '亚空间 - 最终决战区域', '', ''],
+    ],
+  },
+];
+---
+<Base title="超级机器人大战30 关卡攻略 · 全部主线任务列表" description="超级机器人大战30 完整主线任务列表：按区域选择（TAS）结构整理地上/宇宙开局路线与第4至第9章、结局章，含中文名、日文原名、英文名与区域，4 关附详细攻略页。" path="srw-30/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战30 · 关卡攻略</h1>
+  <p>本作采用「区域选择（Tactical Area Select）」结构：开局在地上与宇宙两条路线中二选一，第 3 章后合流，此后以关键任务（主线）推进剧情，区域内还分布着大量支线、前线、遗物与舰上任务。本页按 Akurasu Wiki 的完整流程表（Complete Chart）整理<strong>全部主线关键任务</strong>，并附主要支线/隐藏任务精选与 DLC/追加任务概要。</p>
+  <div class="notice">
+    <strong>译名说明：</strong>本作官方中文版的逐关名称本次未能取得可核对的完整原文，下表中文名以日文原名的本站翻译为主（个别采用玩家间通行译名），并同时给出日文原名与 Akurasu 英文名便于对照。「详情」列有链接的 4 关已建详细攻略页，其余为列表条目，后续逐关补完。编号规则：KE/KS = 地上/宇宙路线关键任务，K = 共通关键任务，OE/OS/O = 支线，EC = 追加章节，KN/KT = 通常/真结局路线。
+  </div>
+  <p class="muted">计数口径：Akurasu 将本作主线计为 62 个关键任务、支线 166 个、DLC 任务 87 个；日文《机战Wiki》将 A/B 变体合并计为 43 话。下表将不同路线与 A/B 版本分别列条，故条目数多于上述口径。</p>
+
+  {groups.map(g => (
+    <section>
+      <h2>{g.title}</h2>
+      {g.intro && <p>{g.intro}</p>}
+      <table class="data">
+        <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>区域</th><th>备注</th><th>详情</th></tr>
+        {g.rows.map((r: any[]) => (
+          <tr>
+            <td>{r[0]}</td>
+            <td>{r[6] ? <a href={href(`srw-30/missions/${r[6]}/`)}>{r[1]}</a> : r[1]}</td>
+            <td>{r[2]}</td>
+            <td>{r[3]}</td>
+            <td>{r[4]}</td>
+            <td>{r[5]}</td>
+            <td>{r[7] || '—'}</td>
+            <td>{r[6] ? <a href={href(`srw-30/missions/${r[6]}/`)}>详细攻略</a> : '列表'}</td>
+          </tr>
+        ))}
+      </table>
+    </section>
+  ))}
+
+  <h2>主要支线与隐藏任务（精选）</h2>
+  <p>本作支线任务共 166 个（Akurasu 口径，含前线、遗物、舰上等任务类型），此处精选与机体/角色加入、隐藏要素直接相关的剧情支线与全部隐藏任务。编号 OE/OS 为地上/宇宙路线版本，同一任务在两条路线的编号与标题常有对应关系；标「（未记）」者为 Akurasu 未记录其日文标题。</p>
+  <table class="data">
+    <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>备注</th></tr>
+    <tr><td>OE2-1</td><td>相互信任的伙伴</td><td>信じ合う仲間</td><td>Mutual Trust</td><td>支线</td><td>隐藏「阳炎」前置（宇宙版 OS2-14）</td></tr>
+    <tr><td>OE2-2</td><td>七名刑警</td><td>7人の刑事</td><td>Seven Officers</td><td>支线</td><td>隐藏「阳炎」前置；茜点数机会（击坠安提）（宇宙版 OS2-15）</td></tr>
+    <tr><td>OE2-3A</td><td>盖塔射线的挑战</td><td>ゲッター線の挑戦</td><td>The Getter Rays' Challenge</td><td>支线</td><td>与 3B 顺序可交换（宇宙版 OS2-7A/B）</td></tr>
+    <tr><td>OE2-3B</td><td>燃烧的血潮</td><td>血潮燃やして</td><td>Stoked, Burning Blood</td><td>支线</td><td>同上</td></tr>
+    <tr><td>OE2-4</td><td>伟大的勇者</td><td>偉大な勇者</td><td>The Great Heroes</td><td>支线</td><td>（宇宙版 OS2-8B）</td></tr>
+    <tr><td>OE2-5</td><td>复活的铁之城</td><td>復活の鉄の城</td><td>The Castle of Iron Returns</td><td>支线</td><td>（宇宙版为 OS3-1）</td></tr>
+    <tr><td>OE2-6</td><td>始 -相逢-</td><td>始 -DEAI-</td><td>Inherited Bravery -MEETING-</td><td>支线</td><td>（宇宙版 OS2-9B）</td></tr>
+    <tr><td>OE2-7A</td><td>来自外界者</td><td>外から来る者</td><td>Otherworldly Savior</td><td>支线</td><td>与 7B 构成一组（宇宙版 OS2-11A/B，标题对应关系相反）</td></tr>
+    <tr><td>OE2-7B</td><td>异界的救世主</td><td>異界の救世主</td><td>From Beyond</td><td>支线</td><td>同上</td></tr>
+    <tr><td>OE2-8A</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td>Hello! New World!!</td><td>支线</td><td>（宇宙版 OS2-12A）</td></tr>
+    <tr><td>OE2-8B</td><td>英雄与敌人</td><td>（未记）</td><td>Hero &amp; Enemy</td><td>支线</td><td>（宇宙版 OS2-12B）</td></tr>
+    <tr><td>OE2-9</td><td>友 -伙伴-</td><td>友 -NAKAMA-</td><td>A Brave's Allies -COMRADES-</td><td>支线</td><td>（宇宙版 OS2-10）</td></tr>
+    <tr><td>OE2-10</td><td>新的故事</td><td>新たな物語</td><td>A New Story</td><td>支线</td><td>（宇宙版 OS2-1）</td></tr>
+    <tr><td>OE2-11</td><td>归还</td><td>帰還</td><td>A Return</td><td>支线</td><td>（宇宙版 OS2-3）</td></tr>
+    <tr><td>OE2-12A</td><td>白色流星的轨迹</td><td>白き流星の軌跡</td><td>White Comet's Course</td><td>支线</td><td>量产型 ν 高达条件关联（宇宙版 OS2-4A）</td></tr>
+    <tr><td>OE2-12B</td><td>被称为新人类的人</td><td>ニュータイプと呼ばれた男</td><td>The Man Called a Newtype</td><td>支线</td><td>同上（宇宙版 OS2-4B）</td></tr>
+    <tr><td>OE2-13A</td><td>奥古斯塔的追想</td><td>オーガスタ追想</td><td>Echoes of Augusta</td><td>支线</td><td>全装甲高达Mk-II 条件（宇宙版 OS2-5A）</td></tr>
+    <tr><td>OE2-13B</td><td>鼓动</td><td>鼓動</td><td>Heartbeat</td><td>支线</td><td>同上（宇宙版 OS2-5B）</td></tr>
+    <tr><td>OE2-14</td><td>独行荒野</td><td>荒野を一人往く</td><td>Alone in the Wild</td><td>支线</td><td>量产型 ν 高达 / 全装甲部件的取得关（宇宙版 OS2-6）</td></tr>
+    <tr><td>OE2-15A</td><td>里加·米利塔里亚的战士们</td><td>リガ・ミリティアの戦士たち</td><td>Warriors of the League Militaire</td><td>支线</td><td>卡特加娜点数机会（+2 分）</td></tr>
+    <tr><td>OE2-15B</td><td>宇宙的邂逅</td><td>宇宙の出会い</td><td>Meeting in Space</td><td>支线</td><td>卡特加娜点数机会（+2 分）</td></tr>
+    <tr><td>OS2-2A</td><td>遗憾与失望</td><td>ザンネンとガッカリ</td><td>Fail and Bummer</td><td>支线</td><td>（地上版为 OE3-1A）</td></tr>
+    <tr><td>OS2-2B</td><td>英雄的工作</td><td>ヒーローの仕事</td><td>A Hero's Job</td><td>支线</td><td>（地上版为 OE3-1B）</td></tr>
+    <tr><td>OS2-8A</td><td>溢出的恶</td><td>あふれ出る悪</td><td>Overflowing Evil</td><td>支线</td><td>—</td></tr>
+    <tr><td>OS2-9A</td><td>始 -登场-</td><td>始 -TOUJOU-</td><td>Newfound Bravery -ARRIVAL-</td><td>支线</td><td>—</td></tr>
+    <tr><td>OS2-13A</td><td>勇者警察</td><td>（未记）</td><td>The Brave Police</td><td>支线</td><td>—</td></tr>
+    <tr><td>OS2-13B</td><td>杰德卡</td><td>ジェイデッカー</td><td>A Brave Lineage</td><td>支线</td><td>—</td></tr>
+    <tr><td>O4-1A</td><td>那天他看到的鸟</td><td>（未记）</td><td>The Bird He Saw That Day</td><td>支线</td><td>与 O4-1B 构成一组</td></tr>
+    <tr><td>O4-1B</td><td>凤凰降临</td><td>（未记）</td><td>The Phoenix Alights</td><td>支线</td><td>同上</td></tr>
+    <tr><td>O4-2</td><td>红色彗星的再来</td><td>赤い彗星の再来</td><td>Return of the Red Comet</td><td>支线</td><td>—</td></tr>
+    <tr><td>O4-3</td><td>达喀尔的落日</td><td>ダカールの落日</td><td>The Fall of Dakar</td><td>支线</td><td>—</td></tr>
+    <tr><td>O4-4</td><td>孤高的王牌</td><td>（未记）</td><td>Solitary Ace</td><td>支线</td><td>—</td></tr>
+    <tr><td>O4-5</td><td>蕾蒂·蕾蒂</td><td>レディ・レディ</td><td>Lady Lady</td><td>支线</td><td>内伊点数机会</td></tr>
+    <tr><td>O4-6</td><td>邂逅</td><td>（未记）</td><td>Encounter</td><td>支线</td><td>—</td></tr>
+    <tr><td>O4-7</td><td>交叉点</td><td>クロス・ポイント</td><td>Cross Point</td><td>支线</td><td>内伊点数机会；蕾切的外观选择</td></tr>
+    <tr><td>O4-8</td><td>阳炎，再临</td><td>陽炎、再び</td><td>Return of the Mirage</td><td>隐藏</td><td>阳炎在此正式加入</td></tr>
+    <tr><td>O5-1</td><td>甜蜜的家</td><td>（未记）</td><td>Home Sweet Home</td><td>支线</td><td>—</td></tr>
+    <tr><td>O5-2</td><td>勇者的归来 -ADVENT-</td><td>（未记）</td><td>A Brave's Return -ADVENT-</td><td>支线</td><td>—</td></tr>
+    <tr><td>O5-3</td><td>警告</td><td>（未记）</td><td>A Warning</td><td>支线</td><td>—</td></tr>
+    <tr><td>O6-1</td><td>法莲的皇女</td><td>ファーレンの皇女</td><td>Imperial Princess</td><td>支线</td><td>塔特拉&塔尔塔、巨型桑永前置（须在 K6-5 前完成）</td></tr>
+    <tr><td>O6-2</td><td>威胁的羽音</td><td>脅威の羽音</td><td>Menacing Wings</td><td>支线</td><td>—</td></tr>
+    <tr><td>O6-3</td><td>奇泽塔的风暴</td><td>チゼータの嵐</td><td>Chizetan Storm</td><td>支线</td><td>同 O6-1 前置</td></tr>
+    <tr><td>O6-4</td><td>逃离基瓦扎</td><td>エスケープ・ギワザ</td><td>Escape Giwaza</td><td>支线</td><td>内伊点数机会；奥莉比说得事件</td></tr>
+    <tr><td>O6-5</td><td>红色彗星的使命</td><td>赤い彗星の使命</td><td>The Red Comet's Duty</td><td>支线</td><td>卡特加娜点数机会（德莱斯特雷伽抵达前击坠克罗诺克尔 +2）</td></tr>
+    <tr><td>O6-6</td><td>忧·郁</td><td>憂・鬱</td><td>Melancholy</td><td>支线</td><td>阿诺西拉斯支援者；茜点数机会</td></tr>
+    <tr><td>O7-1</td><td>向心而令</td><td>心に命じるもの</td><td>What the Heart Dictates</td><td>支线</td><td>茜点数机会</td></tr>
+    <tr><td>O7-2</td><td>深入侦察</td><td>（未记）</td><td>Deep Recon</td><td>支线</td><td>—</td></tr>
+    <tr><td>O7-3</td><td>可怕的陷阱</td><td>（未记）</td><td>A Fearsome Trap</td><td>支线</td><td>—</td></tr>
+    <tr><td>O7-4</td><td>最后的记忆</td><td>（未记）</td><td>Last Memory</td><td>支线</td><td>—</td></tr>
+    <tr><td>O7-5</td><td>黑翼</td><td>（未记）</td><td>Blackwing</td><td>支线</td><td>—</td></tr>
+    <tr><td>O7-6</td><td>愤怒的魔神</td><td>怒りの魔神</td><td>A Mazin Enraged</td><td>支线</td><td>魔神凯撒取得关（条件见隐藏要素页）</td></tr>
+    <tr><td>O8-1</td><td>幸福的意义</td><td>しあわせの意味</td><td>The Meaning of Happiness</td><td>支线</td><td>米海尔点数机会</td></tr>
+    <tr><td>O8-2</td><td>黑暗的邀请</td><td>（未记）</td><td>Dark Invitation</td><td>支线</td><td>克雷夫与塞菲罗众人提前加入</td></tr>
+    <tr><td>O8-3</td><td>母亲的觉醒</td><td>母の目覚め</td><td>A Mother's Awakening</td><td>支线</td><td>—</td></tr>
+    <tr><td>O8-4</td><td>滑稽剧</td><td>ピカレスク</td><td>Picaresque</td><td>支线</td><td>内伊点数最终判定关</td></tr>
+    <tr><td>O8-5</td><td>我的爱</td><td>マイ・ラブ</td><td>My Love</td><td>隐藏</td><td>内伊与奥格在此加入</td></tr>
+    <tr><td>O9-1</td><td>倒计时</td><td>カウントダウン</td><td>Countdown</td><td>支线</td><td>是否完成决定 K9-2A / K9-2B 分支</td></tr>
+    <tr><td>O9-2</td><td>与未知的战线</td><td>未知との戦線</td><td>Showdown With the Unknown</td><td>支线</td><td>—</td></tr>
+    <tr><td>O9-3</td><td>无尽之梦</td><td>果てしなき夢</td><td>Endless Dream</td><td>支线</td><td>米海尔点数结算关</td></tr>
+    <tr><td>O9-4</td><td>轮回的复仇</td><td>復讐は巡る</td><td>A Dish Best Served Cold</td><td>隐藏</td><td>米海尔与法萨莉娜在此加入</td></tr>
+  </table>
+
+  <h2>通关后追加章节（免费更新）</h2>
+  <p>通关并完成免费追加任务「打开的门（Extra 3-1）」等条件后开放的 Extra Chapter，共 6 关。注意：一旦开始 EC-1，尚未完成的非舰上区域任务将全部消失。</p>
+  <table class="data">
+    <tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>备注</th></tr>
+    <tr><td>EC-1</td><td>黑发怨夜</td><td>黒髪怨夜</td><td>The Black-Haired Woman's Retribution</td><td>追加</td><td>贝塔曼卡塔弗拉克托/拉米亚的保底加入点</td></tr>
+    <tr><td>EC-2</td><td>复活之时</td><td>復活の時</td><td>Revival at Hand</td><td>追加</td><td>—</td></tr>
+    <tr><td>EC-3</td><td>泥沼死斗</td><td>泥沼の死闘</td><td>In Over Our Heads</td><td>追加</td><td>—</td></tr>
+    <tr><td>EC-4</td><td>编织憎恨者</td><td>憎しみを紡ぐもの</td><td>Weavers of Hate</td><td>追加</td><td>—</td></tr>
+    <tr><td>EC-5</td><td>在凋零之花中</td><td>散りゆく花の中で</td><td>Among The Fallen Flowers</td><td>追加</td><td>—</td></tr>
+    <tr><td>EC-6</td><td>从这里走向明天</td><td>ここから明日へ</td><td>Where Tomorrow Starts</td><td>追加</td><td>—</td></tr>
+  </table>
+
+  <h2>DLC 与追加任务（概要）</h2>
+  <p>以下为另行发售的付费 DLC 与免费追加任务的清单概要（详细攻略不在本页范围）。免费追加的 Extra 任务共 11 个：魔装机神（魔装機神 / The Elemental Lord，赛巴斯塔）、钢之魂（鋼の魂 / Spirit of Steel，SRX 小队）、Happy 30th Anniversary!、Visitors、黑暗幽灵（黒い幽霊 / Black Specter，亡灵）、Unknown Battlefield、Congratulations on 19 Million!、Dimension Diver（迪达利昂）、打开的门（開かれた扉 / The Door Opens）、超斗士（超闘士 / The Hyper Fighter，古伦加斯特）、解锁的是交错之门（解錠されるのは交錯の扉 / The Crossover Door Opens，梵格雷·艾因）。「打开的门」是开放通关后追加章节的前提之一。</p>
+  <table class="data">
+    <tr><th>包</th><th>关数</th><th>主要内容（Akurasu 英文名）</th></tr>
+    <tr><td>奖励任务包（Bonus Mission Pack）</td><td>15</td><td>勇者的推荐（勇者のススメ）、骑士与骑士的相遇（騎士と騎士の出会い）、Endless Summer Heroes、The Secret Ingredient Is...、Operation: Federation Idol、Heroic Awakening、Respect Your Elders、A Return to Jaburo、Michele the Fortuneteller、Unknown Horizons、A Brave Lineage (Alt. Route)、Stupendous Robot Symposium、Brave vs. Brave、Super Deformed Danger、Beautiful, Righteous, and Strong。多为 PP / 部件奖励关。</td></tr>
+    <tr><td>DLC 第 1 弹</td><td>13</td><td>樱花大战、龙虎王传记等参战：远离帝都（帝都は遠く）、进入战斗的漩涡（戦いの渦へ）、龙虎见参（龍虎見参）、The Lights in Amuro's Life、巴黎盛开的樱花（巴里に咲くサクラ）、摩天楼的武士（摩天楼のサムライ）、超电磁之绊（超電磁の絆）、Danger in the Demon City、心意诞生的力量（想いが生む力，Hi-ν高达）、天下无双（我等ニ敵ナシ）；通关后追加 Encroaching Threat、Ignoble Inclinations、So Long as There's Love。</td></tr>
+    <tr><td>DLC 第 2 弹</td><td>13</td><td>ULTRAMAN、铁血的奥尔芬斯等参战：奥特曼，未知的世界（ウルトラマン、未知の世界へ）、荒野绽放的铁之花（荒野に咲く鉄の華）、钢铁孤狼（鋼鉄の孤狼）、被称为 SEVEN 的男人（SEVENと呼ばれる男）、铁之绊（鉄の絆）、白银的堕天使（白銀の堕天使）、王牌的证明（エースの証）、光之巨人的使命（光の巨人の使命）、巴耶力的继承者（バエルを継ぐ者）、天使，再临（天使、再臨）；通关后追加 Those Who Pierce Through、Jet Black Menace、Indomitable Bravery。</td></tr>
+    <tr><td>扩展包（Expansion Pack）</td><td>24</td><td>独立后续剧情：On Track for Adventure、Face the War God's Regalia、Super Beast Machine God、Contact、Light and Darkness Reunited、World Astray、Firestarters、The Two Getters、Powers Combined、The Tornado of War、Awakening Instincts、我们的战斗（我等の戦い / Our Fight）、For Shinkalion's Future、Challenging the Future、Indeliable Scars（Akurasu 原文拼写）、A Surging Scourge（Akurasu 原文拼写）、Genes of Awakening；通关后追加 They Are The OG Team、Their Bygone Days (Part 1 / Part 2)、Their Days to Come（奖励 500 万资金）、解放的力量（解放される力 / Power Unleashed）、Hidden Factors、With A Hopeful Heart。多数任务的日文标题 Akurasu 未记录。</td></tr>
+  </table>
+
+  <h2>页面样板（演示）</h2>
+  <div class="nav-cards">
+    <a class="nav-card" href={href('srw-30/missions/sample-01/')}>
+      <strong>样板演示 · 示例关卡 01</strong>
+      <span>本站关卡页的版式与坐标地图样板，使用虚构演示数据，不是真实关卡攻略。</span>
+    </a>
+    <a class="nav-card" href={href('srw-30/secrets/')}>
+      <strong>隐藏要素总览</strong>
+      <span>隐藏机体、说得角色、点数系统、支援者与真结局条件汇总。</span>
+    </a>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/30/Complete" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 30 Complete Chart</a>（主线/支线/DLC 清单与编号、区域、胜负条件）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/30" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 30</a>（任务总数口径）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/特別:携帯機器差分/459767" rel="noopener" target="_blank">スーパーロボット大戦Wiki — 全話一覧/30</a>（日文标题与 A/B 变体规则核对）</li>
+  </ul>
+  <p><a href={href('srw-30/')}>← 返回超级机器人大战30</a> · <a href={href('srw-30/secrets/')}>隐藏要素</a></p>
+</Base>

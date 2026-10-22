@@ -21,7 +21,8 @@
       "初代机战",
       "スパロボ",
       "超级机器人大战初代"
-    ]
+    ],
+    "cover": "/covers/srw-1.jpg"
   },
   {
     "slug": "srw-2",
@@ -45,7 +46,8 @@
       "SRW2",
       "第2次机战",
       "スパロボ2"
-    ]
+    ],
+    "cover": "/covers/srw-2.jpg"
   },
   {
     "slug": "srw-3",
@@ -66,7 +68,8 @@
       "SRW3",
       "第3次机战",
       "スパロボ3"
-    ]
+    ],
+    "cover": "/covers/srw-3.jpg"
   },
   {
     "slug": "srw-ex",
@@ -87,7 +90,8 @@
       "SRWEX",
       "机战EX",
       "スパロボEX"
-    ]
+    ],
+    "cover": "/covers/srw-ex.jpg"
   },
   {
     "slug": "srw-4",
@@ -108,7 +112,8 @@
       "SRW4",
       "第4次机战",
       "スパロボ4"
-    ]
+    ],
+    "cover": "/covers/srw-4.jpg"
   },
   {
     "slug": "srw-masoukishin",
@@ -131,7 +136,8 @@
       "LOE",
       "スパロボ外伝",
       "Masou Kishin"
-    ]
+    ],
+    "cover": "/covers/srw-masoukishin.jpg"
   },
   {
     "slug": "srw-shin",
@@ -151,7 +157,8 @@
       "新机战",
       "Shin SRW",
       "新スパロボ"
-    ]
+    ],
+    "cover": "/covers/srw-shin.jpg"
   },
   {
     "slug": "srw-f",
@@ -172,7 +179,8 @@
       "SRWF",
       "机战F",
       "スパロボF"
-    ]
+    ],
+    "cover": "/covers/srw-f.jpg"
   },
   {
     "slug": "srw-f-final",
@@ -193,7 +201,8 @@
       "SRWFF",
       "机战F完结篇",
       "F完結編"
-    ]
+    ],
+    "cover": "/covers/srw-f-final.jpg"
   },
   {
     "slug": "srw-compact",
@@ -214,7 +223,8 @@
       "SRWCompact",
       "机战Compact",
       "スパロボコンパクト"
-    ]
+    ],
+    "cover": "/covers/srw-compact.jpg"
   },
   {
     "slug": "srw-64",
@@ -234,7 +244,8 @@
       "SRW64",
       "机战64",
       "スパロボ64"
-    ]
+    ],
+    "cover": "/covers/srw-64.jpg"
   },
   {
     "slug": "srw-compact-2",
@@ -255,7 +266,8 @@
       "SRWCompact2",
       "机战Compact2",
       "コンパクト2"
-    ]
+    ],
+    "cover": "/covers/srw-compact-2.jpg"
   },
   {
     "slug": "srw-alpha",
@@ -277,7 +289,8 @@
       "机战α",
       "机战阿尔法",
       "スパロボα"
-    ]
+    ],
+    "cover": "/covers/srw-alpha.jpg"
   },
   {
     "slug": "srw-alpha-gaiden",
@@ -298,7 +311,8 @@
       "α外传",
       "阿尔法外传",
       "スパロボα外伝"
-    ]
+    ],
+    "cover": "/covers/srw-alpha-gaiden.jpg"
   },
   {
     "slug": "srw-a",
@@ -319,7 +333,8 @@
       "SRWA",
       "机战A",
       "スパロボA"
-    ]
+    ],
+    "cover": "/covers/srw-a.jpg"
   },
   {
     "slug": "srw-impact",
@@ -339,7 +354,8 @@
       "SRWImpact",
       "机战Impact",
       "インパクト"
-    ]
+    ],
+    "cover": "/covers/srw-impact.jpg"
   },
   {
     "slug": "srw-r",
@@ -359,7 +375,8 @@
       "SRWR",
       "机战R",
       "スパロボR"
-    ]
+    ],
+    "cover": "/covers/srw-r.jpg"
   },
   {
     "slug": "srw-og",
@@ -381,7 +398,8 @@
       "机战OG",
       "OG1",
       "スパロボOG"
-    ]
+    ],
+    "cover": "/covers/srw-og.jpg"
   },
   {
     "slug": "srw-alpha-2",
@@ -402,7 +420,8 @@
       "第2次α",
       "第2次阿尔法",
       "第2次スパロボα"
-    ]
+    ],
+    "cover": "/covers/srw-alpha-2.jpg"
   },
   {
     "slug": "srw-compact-3",
@@ -422,7 +441,8 @@
       "SRWCompact3",
       "机战Compact3",
       "コンパクト3"
-    ]
+    ],
+    "cover": "/covers/srw-compact-3.jpg"
   },
   {
     "slug": "srw-d",
@@ -442,7 +462,8 @@
       "SRWD",
       "机战D",
       "スパロボD"
-    ]
+    ],
+    "cover": "/covers/srw-d.jpg"
   },
   {
     "slug": "srw-mx",
@@ -463,7 +484,8 @@
       "SRWMX",
       "机战MX",
       "スパロボMX"
-    ]
+    ],
+    "cover": "/covers/srw-mx.jpg"
   },
   {
     "slug": "srw-gc",
@@ -485,7 +507,8 @@
       "机战GC",
       "スパロボGC",
       "SRWXO"
-    ]
+    ],
+    "cover": "/covers/srw-gc.jpg"
   },
   {
     "slug": "srw-og-2",
@@ -506,7 +529,8 @@
       "SRWOG2",
       "机战OG2",
       "OG2"
-    ]
+    ],
+    "cover": "/covers/srw-og-2.jpg"
   },
   {
     "slug": "srw-alpha-3",
@@ -527,7 +551,8 @@
       "第3次α",
       "第3次阿尔法",
       "终焉之银河"
-    ]
+    ],
+    "cover": "/covers/srw-alpha-3.jpg"
   },
   {
     "slug": "srw-j",
@@ -547,7 +572,8 @@
       "SRWJ",
       "机战J",
       "スパロボJ"
-    ]
+    ],
+    "cover": "/covers/srw-j.jpg"
   },
   {
     "slug": "srw-w",
@@ -567,7 +593,8 @@
       "SRWW",
       "机战W",
       "スパロボW"
-    ]
+    ],
+    "cover": "/covers/srw-w.jpg"
   },
   {
     "slug": "srw-ogs",
@@ -588,7 +615,8 @@
       "机战OGS",
       "OGS",
       "オリジェネ"
-    ]
+    ],
+    "cover": "/covers/srw-ogs.jpg"
   },
   {
     "slug": "srw-og-gaiden",
@@ -608,7 +636,8 @@
       "SRWOGGaiden",
       "OG外传",
       "机战OG外传"
-    ]
+    ],
+    "cover": "/covers/srw-og-gaiden.jpg"
   },
   {
     "slug": "srw-z",
@@ -628,7 +657,8 @@
       "SRWZ",
       "机战Z",
       "スパロボZ"
-    ]
+    ],
+    "cover": "/covers/srw-z.jpg"
   },
   {
     "slug": "srw-z-special",
@@ -648,7 +678,8 @@
       "SRWZSpecial",
       "Z特别盘",
       "机战Z特别盘"
-    ]
+    ],
+    "cover": "/covers/srw-z-special.jpg"
   },
   {
     "slug": "srw-k",
@@ -668,7 +699,8 @@
       "SRWK",
       "机战K",
       "スパロボK"
-    ]
+    ],
+    "cover": "/covers/srw-k.jpg"
   },
   {
     "slug": "srw-neo",
@@ -688,7 +720,8 @@
       "SRWNEO",
       "机战NEO",
       "スパロボNEO"
-    ]
+    ],
+    "cover": "/covers/srw-neo.jpg"
   },
   {
     "slug": "srw-l",
@@ -708,7 +741,8 @@
       "SRWL",
       "机战L",
       "スパロボL"
-    ]
+    ],
+    "cover": "/covers/srw-l.jpg"
   },
   {
     "slug": "srw-z-2-hakai",
@@ -729,7 +763,8 @@
       "第2次Z",
       "破界篇",
       "第2次スパロボZ"
-    ]
+    ],
+    "cover": "/covers/srw-z-2-hakai.jpg"
   },
   {
     "slug": "srw-masoukishin-2",
@@ -749,7 +784,8 @@
       "魔装机神II",
       "魔装机神2",
       "ROE"
-    ]
+    ],
+    "cover": "/covers/srw-masoukishin-2.jpg"
   },
   {
     "slug": "srw-z-2-saisei",
@@ -769,7 +805,8 @@
       "SRWZ2-2",
       "再世篇",
       "第2次Z再世篇"
-    ]
+    ],
+    "cover": "/covers/srw-z-2-saisei.jpg"
   },
   {
     "slug": "srw-card-chronicle",
@@ -791,7 +828,8 @@
       "Card Chronicle",
       "卡片编年史",
       "カードクロニクル"
-    ]
+    ],
+    "cover": "/covers/srw-card-chronicle.jpg"
   },
   {
     "slug": "srw-og-2nd",
@@ -811,7 +849,8 @@
       "SRWOG2nd",
       "第2次OG",
       "机战第2次OG"
-    ]
+    ],
+    "cover": "/covers/srw-og-2nd.jpg"
   },
   {
     "slug": "srw-ux",
@@ -831,7 +870,8 @@
       "SRWUX",
       "机战UX",
       "スパロボUX"
-    ]
+    ],
+    "cover": "/covers/srw-ux.jpg"
   },
   {
     "slug": "srw-operation-extend",
@@ -852,7 +892,8 @@
       "Operation Extend",
       "机战OE",
       "オペレーションエクステンド"
-    ]
+    ],
+    "cover": "/covers/srw-operation-extend.jpg"
   },
   {
     "slug": "srw-masoukishin-3",
@@ -873,7 +914,8 @@
       "魔装机神III",
       "魔装机神3",
       "POJ"
-    ]
+    ],
+    "cover": "/covers/srw-masoukishin-3.jpg"
   },
   {
     "slug": "srw-z-3-jigoku",
@@ -895,7 +937,8 @@
       "第3次Z",
       "时狱篇",
       "時獄篇"
-    ]
+    ],
+    "cover": "/covers/srw-z-3-jigoku.jpg"
   },
   {
     "slug": "srw-masoukishin-f",
@@ -915,7 +958,8 @@
       "魔装机神F",
       "魔装机神终章",
       "COE"
-    ]
+    ],
+    "cover": "/covers/srw-masoukishin-f.jpg"
   },
   {
     "slug": "srw-z-3-tengoku",
@@ -937,7 +981,8 @@
       "天狱篇",
       "第3次Z天狱篇",
       "天獄篇"
-    ]
+    ],
+    "cover": "/covers/srw-z-3-tengoku.jpg"
   },
   {
     "slug": "srw-bx",
@@ -957,7 +1002,8 @@
       "SRWBX",
       "机战BX",
       "スパロボBX"
-    ]
+    ],
+    "cover": "/covers/srw-bx.jpg"
   },
   {
     "slug": "srw-x-omega",
@@ -980,7 +1026,8 @@
       "机战X欧米伽",
       "スパクロ",
       "X-Ω"
-    ]
+    ],
+    "cover": null
   },
   {
     "slug": "srw-og-moon-dwellers",
@@ -1003,7 +1050,8 @@
       "Moon Dwellers",
       "ムーンデュエラーズ",
       "机战OG月球居民"
-    ]
+    ],
+    "cover": "/covers/srw-og-moon-dwellers.jpg"
   },
   {
     "slug": "srw-v",
@@ -1026,7 +1074,8 @@
       "SRWV",
       "机战V",
       "スパロボV"
-    ]
+    ],
+    "cover": "/covers/srw-v.jpg"
   },
   {
     "slug": "srw-x",
@@ -1049,7 +1098,8 @@
       "SRWX",
       "机战X",
       "スパロボX"
-    ]
+    ],
+    "cover": "/covers/srw-x.jpg"
   },
   {
     "slug": "srw-t",
@@ -1070,7 +1120,8 @@
       "SRWT",
       "机战T",
       "スパロボT"
-    ]
+    ],
+    "cover": "/covers/srw-t.jpg"
   },
   {
     "slug": "srw-dd",
@@ -1091,7 +1142,8 @@
       "SRWDD",
       "机战DD",
       "スパロボDD"
-    ]
+    ],
+    "cover": "/covers/srw-dd.jpg"
   },
   {
     "slug": "srw-30",
@@ -1113,7 +1165,8 @@
       "SRW30",
       "机战30",
       "スパロボ30"
-    ]
+    ],
+    "cover": "/covers/srw-30.jpg"
   },
   {
     "slug": "srw-y",
@@ -1135,6 +1188,7 @@
       "SRWY",
       "机战Y",
       "スパロボY"
-    ]
+    ],
+    "cover": "/covers/srw-y.jpg"
   }
 ]
