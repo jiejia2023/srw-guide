@@ -12,7 +12,14 @@
 // tile sheet (map.tileSheet/tileCells, sliced from the GX map renders) or the
 // per-terrain canonical tile (map.tileImgs) - and every unit shows its NAME on
 // the map (label strip under its sprite, or a name chip where no sprite exists).
-// Larger tiles + a 标准/放大 zoom toggle. Legacy mode (SRW 4) is unchanged.
+// Larger tiles + a 标准/放大 zoom toggle. Legacy mode (SRW 4 etc.) is glyph-based.
+//
+// AXES (both modes, all pages): numeric coordinate rulers on all four sides —
+// X numbers along the top AND bottom edges, Y numbers along the left AND right
+// edges — aligned cell-for-cell with the grid (origin top-left (1,1), X right,
+// Y down). The top/bottom X rulers stick while scrolling vertically and the
+// left/right Y rulers stick while scrolling horizontally (corners stick both
+// ways), so coordinates stay readable on wide/tall maps at both zoom levels.
 const m = Astro.props.mission as any;
 const unitSprites = (Astro.props as any).unitSprites as Record<string, string> | undefined;
 const rich = !!unitSprites;
@@ -80,6 +87,9 @@ for (const k of byTile.keys()) {
   if (x > W) W = x;
   if (y > H) H = y;
 }
+// Four-sided axis rulers: X = 1..W (top & bottom), Y = 1..H (left & right).
+const xs = Array.from({ length: W }, (_, i) => i + 1);
+const ys = Array.from({ length: H }, (_, i) => i + 1);
 
 // Optional verified terrain grid (terrainLegend: code -> {name,color,effect})
 const terrainGrid: string[] | null = m.map.terrainGrid ?? null;
@@ -150,6 +160,8 @@ const summary = [
 const legendTerrain = Object.entries(terrainLegend);
 const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
 ---
+{/* Frame with four-sided numeric axes (shared by both modes). The rulers use
+    the same column/row sizing as the grid itself, so numbers align exactly. */}
 {rich ? (
 <div class="map-wrap map-rich">
   {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
@@ -159,19 +171,33 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
     <button type="button" class="zoom-btn" data-zoom="big">放大</button>
   </div>
   <div class="map-scroll">
-    <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label="坐标地图（游戏原图地形与单位标注）">
-      {cells.map(c => (
-        <button type="button" class:list={['map-cell', { 'cell-unknown': c.unknown }]} style={`background-color:${c.bg};${c.bgStyle}`} data-info={c.info} title={c.info}
-          aria-label={c.info}>
-          {c.top && !c.topIsUnit && <span class="p-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>}
-          {c.topIsUnit && c.showSprite && <img class="u-sprite" src={c.top.sprite} alt={c.top.name} loading="lazy" />}
-          {c.topIsUnit && c.showChip && <span class={`u-chip chip-${c.top.cat}`}>{c.top.name}</span>}
-          {c.topIsUnit && c.showTag && <span class={`u-tag tag-${c.top.cat}`}>{c.top.name}</span>}
-          {!c.top && c.x === 1 && <span class="map-axis">{c.y}</span>}
-          {!c.top && c.y === 1 && <span class="map-axis">{c.x}</span>}
-          {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
-        </button>
-      ))}
+    <div class="map-frame" style={`--cols:${W};--rows:${H}`}>
+      <div class="ax-row ax-top" aria-hidden="true">
+        <span class="ax-corner ax-cl"></span>
+        <div class="ax-x">{xs.map(n => <span>{n}</span>)}</div>
+        <span class="ax-corner ax-cr"></span>
+      </div>
+      <div class="ax-mid">
+        <div class="ax-y ax-yl" aria-hidden="true">{ys.map(n => <span>{n}</span>)}</div>
+        <div class="map-grid" role="grid" aria-label="坐标地图（游戏原图地形与单位标注）">
+          {cells.map(c => (
+            <button type="button" class:list={['map-cell', { 'cell-unknown': c.unknown }]} style={`background-color:${c.bg};${c.bgStyle}`} data-info={c.info} title={c.info}
+              aria-label={c.info}>
+              {c.top && !c.topIsUnit && <span class="p-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>}
+              {c.topIsUnit && c.showSprite && <img class="u-sprite" src={c.top.sprite} alt={c.top.name} loading="lazy" />}
+              {c.topIsUnit && c.showChip && <span class={`u-chip chip-${c.top.cat}`}>{c.top.name}</span>}
+              {c.topIsUnit && c.showTag && <span class={`u-tag tag-${c.top.cat}`}>{c.top.name}</span>}
+              {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
+            </button>
+          ))}
+        </div>
+        <div class="ax-y ax-yr" aria-hidden="true">{ys.map(n => <span>{n}</span>)}</div>
+      </div>
+      <div class="ax-row ax-bottom" aria-hidden="true">
+        <span class="ax-corner ax-cl"></span>
+        <div class="ax-x">{xs.map(n => <span>{n}</span>)}</div>
+        <span class="ax-corner ax-cr"></span>
+      </div>
     </div>
   </div>
   <div class="legend">
@@ -188,18 +214,34 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
 ) : (
 <div class="map-wrap">
   {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
-  <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label="坐标地图（单位与点位标注）">
-    {cells.map(c => (
-      <button type="button" class="map-cell" style={`background:${c.bg}`} data-info={c.info} title={c.info}
-        aria-label={c.info}>
-        {c.top && (c.badge
-          ? <span class="map-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>
-          : <span class="marker" style={`color:${c.top.fg}`}>{c.top.glyph}</span>)}
-        {!c.top && c.x === 1 && <span class="map-axis">{c.y}</span>}
-        {!c.top && c.y === 1 && <span class="map-axis">{c.x}</span>}
-        {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
-      </button>
-    ))}
+  <div class="map-scroll">
+    <div class="map-frame" style={`--cols:${W};--rows:${H}`}>
+      <div class="ax-row ax-top" aria-hidden="true">
+        <span class="ax-corner ax-cl"></span>
+        <div class="ax-x">{xs.map(n => <span>{n}</span>)}</div>
+        <span class="ax-corner ax-cr"></span>
+      </div>
+      <div class="ax-mid">
+        <div class="ax-y ax-yl" aria-hidden="true">{ys.map(n => <span>{n}</span>)}</div>
+        <div class="map-grid" role="grid" aria-label="坐标地图（单位与点位标注）">
+          {cells.map(c => (
+            <button type="button" class="map-cell" style={`background:${c.bg}`} data-info={c.info} title={c.info}
+              aria-label={c.info}>
+              {c.top && (c.badge
+                ? <span class="map-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>
+                : <span class="marker" style={`color:${c.top.fg}`}>{c.top.glyph}</span>)}
+              {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
+            </button>
+          ))}
+        </div>
+        <div class="ax-y ax-yr" aria-hidden="true">{ys.map(n => <span>{n}</span>)}</div>
+      </div>
+      <div class="ax-row ax-bottom" aria-hidden="true">
+        <span class="ax-corner ax-cl"></span>
+        <div class="ax-x">{xs.map(n => <span>{n}</span>)}</div>
+        <span class="ax-corner ax-cr"></span>
+      </div>
+    </div>
   </div>
   <div class="legend">
     {legendCats.map(c => <span><i class="sw" style={`background:${CAT[c].bg}`}></i>{CAT[c].legend}</span>)}
@@ -224,10 +266,49 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
     color: #1b2a3c; text-shadow: 0 0 2px #fff, 0 0 2px #fff;
   }
 
+  /* ---- four-sided numeric coordinate axes (both modes) ---- */
+  .map-wrap { --axis: 22px; }
+  .map-scroll { overflow: auto; max-height: 86vh; }
+  .map-frame { display: flex; flex-direction: column; gap: 2px; }
+  .ax-row { display: flex; gap: 2px; background: var(--color-base-100); }
+  .ax-top { position: sticky; top: 0; z-index: 8; }
+  .ax-bottom { position: sticky; bottom: 0; z-index: 8; }
+  .ax-corner { flex: 0 0 var(--axis); width: var(--axis); background: var(--color-base-100); }
+  .ax-cl { position: sticky; left: 0; z-index: 9; }
+  .ax-cr { position: sticky; right: 0; z-index: 9; }
+  .ax-x {
+    flex: 1 1 auto; display: grid; gap: 2px;
+    grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+  }
+  .ax-x span {
+    height: var(--axis); display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums;
+    color: color-mix(in oklab, var(--color-base-content) 62%, transparent);
+  }
+  .ax-mid { display: flex; gap: 2px; align-items: stretch; }
+  .ax-y {
+    flex: 0 0 var(--axis); width: var(--axis); display: grid; gap: 2px;
+    grid-template-rows: repeat(var(--rows), minmax(0, 1fr));
+    background: var(--color-base-100);
+  }
+  .ax-yl { position: sticky; left: 0; z-index: 7; }
+  .ax-yr { position: sticky; right: 0; z-index: 7; }
+  .ax-y span {
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums;
+    color: color-mix(in oklab, var(--color-base-content) 62%, transparent);
+  }
+
+  /* ---- legacy mode: fluid grid sized by the card ---- */
+  .map-wrap:not(.map-rich) .map-frame { width: 100%; min-width: calc(640px + 2 * var(--axis) + 4px); }
+  .map-wrap:not(.map-rich) .map-grid { flex: 1 1 auto; min-width: 640px; }
+
   /* ---- rich mode: real game graphics + named units ---- */
   .map-rich { --tile: 48px; }
   .map-rich.map-big { --tile: 76px; }
-  .map-rich .map-scroll { overflow-x: auto; }
+  .map-rich .map-frame { width: max-content; }
+  .map-rich .ax-x { flex: 0 0 auto; grid-template-columns: repeat(var(--cols), var(--tile)); }
+  .map-rich .ax-y { grid-template-rows: repeat(var(--rows), var(--tile)); }
   .map-rich .map-grid {
     grid-template-columns: repeat(var(--cols, 16), var(--tile));
     width: max-content; min-width: 0; gap: 2px;

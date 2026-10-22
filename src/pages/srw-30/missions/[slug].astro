@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
 import data from '../../../data/srw30-missions.json';
 import { href } from '../../../lib/site';
 
@@ -13,9 +14,6 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-30/missions/' },
   { label: m.zh },
 ];
-const W = m.map.frameW;
-const H = m.map.frameH;
-const cells = Array.from({ length: W * H }, (_, i) => ({ x: (i % W) + 1, y: Math.floor(i / W) + 1 }));
 const rewardParts = m.rewards.parts && m.rewards.parts.length ? m.rewards.parts.join('；') : '无（来源未列出）';
 const rewardMxp = m.rewards.mxp != null ? m.rewards.mxp : '待核实';
 const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
@@ -84,17 +82,7 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
   </div>
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <div class="map-wrap">
-    <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label={`${m.zh} 坐标参照框架（地形待核实）`}>
-      {cells.map(c => (
-        <button type="button" class="map-cell" style="background:#e8ebef" data-x={c.x} data-y={c.y} data-terrain="待核实" data-unit="" aria-label={`坐标 ${c.x},${c.y}，地形待核实`}>{c.x === 1 && <span class="map-axis">{c.y}</span>}{c.y === 1 && <span class="map-axis">{c.x}</span>}</button>
-      ))}
-    </div>
-    <div class="legend">
-      <span><i style="background:#e8ebef"></i>地形待核实（全部格子）</span>
-    </div>
-    <div class="map-info" id="mapInfo">点击任意格子查看坐标信息。</div>
-    </div>
+    <StageMap mission={m} />
     </div>
   </div>
 
@@ -106,12 +94,4 @@ const rewardPp = m.rewards.pp != null ? m.rewards.pp : '待核实';
 
   <p><a href={href('srw-30/missions/')}>← 返回关卡列表</a> · <a href={href('srw-30/')}>返回超级机器人大战30</a></p>
 
-  <script is:inline>
-    document.querySelectorAll('.map-cell').forEach(function (cell) {
-      cell.addEventListener('click', function () {
-        var info = document.getElementById('mapInfo');
-        if (info) info.textContent = '坐标 (' + cell.dataset.x + ',' + cell.dataset.y + ') · 地形：' + (cell.dataset.terrain || '待核实');
-      });
-    });
-  </script>
 </Base>
