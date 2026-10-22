@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwAlphaGaidenMissionList from '../../../components/SrwAlphaGaidenMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战α外传', path: 'srw-alpha-gaiden/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战α外传（PS）关卡攻略 · 全72个剧本页面列表" description="超级机器人大战α外传（2001年 PS）全部剧本的页面列表：现代编（新西历187年）与被送往荒废未来的未来编（行星佐拉），月线/极东线、塞文堡分歧、熟练度决定的第26–29话版本与终盘 Easy/Normal/Hard 三线。每关独立攻略页含胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-alpha-gaiden/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战α外传 · 关卡攻略</h1>
+  <p>2001 年 PS《超级机器人大战α外传》是 α 系列的第二作，也是系列销量王《α》大热后急立项的「外传」——因而不是「第2次α」。结构上：<strong>现代编</strong>（第 1–9 话，新西历 187 年的伊吉斯计划防卫战）在第 9 话打倒新古兰森后发生时空转移，全队被送往荒废的未来地球——<strong>未来编</strong>（第 10 话起，舞台「行星佐拉」）；中盘有月线/极东线、第 13 话后的塞文堡分歧、第 17 话后的再分歧、第 31 话后的月/X 点分歧，<strong>第 25 话结束时熟练度（≥15／≤14）决定第 26–29 话的版本</strong>，终盘则由<strong>第 40、41 话结束时的累计熟练度</strong>分出 Easy（≤11）/Normal（12–32）/Hard（≥33）三线——只有 Hard 线能回到现代与白河愁决战。本作的熟练度是外传起的新规则：<strong>每话至多 +1、只增不减</strong>。一周目实际游玩话数随路线为 43 话（Easy/Normal）或 45 话（Hard）；Akurasu 主页标注本作有 <strong>69 个可玩剧本（按标题清点）</strong>，其中第 7、12、30 话各有两个同名而条件不同的选择版本，本站按版本各建一页，<strong>详情页共 72 个</strong>。每一关的完整攻略（胜败条件、熟练度取得条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-alpha-gaiden/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十四部<strong>全关卡补完</strong>的作品——72 个详情页全部建成（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新、F、F完结编、COMPACT、64、COMPACT2、α 已完成）。流程、胜败条件、<strong>熟练度取得条件</strong>、加入与隐藏要素以 Akurasu 的 α外传流程图为主源，逐条与同站 Secrets 页交叉核对；两源有出入处（第 17 话科林的说得者、第 36 话强化魔神Z/真盖塔的取得措辞、第 42 话三线的标法等）已在相关页面备注中如实并记两说。<strong>如实说明</strong>：本作没有任何公开来源刊载逐关敌方配置/坐标/地形——GX 不收录本作、s-rpg-navi 无本作分区（不存在可导入的单一来源敌表）、GameFAQs 与日文攻略 Wiki 亦无逐关配置表（仅纸质攻略本有载），故各页敌方配置与地形标为待核实、坐标图为参照框架（唯一的例外：第 42 话·Hard 的秘密部件坐标是 Akurasu 明载的，已换算标注）。本页只做 PS 原版（2001 年）；唯一的后续版本是 2011 年的 Game Archives 配信版（原版模拟，无内容差异的来源记载），只在本作主页注记。</span>
+  </div>
+
+  <SrwAlphaGaidenMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Gaiden Flow Chart</a>（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Gaiden Secrets</a>（隐藏要素分项条件、熟练度分档奖励与终盘三线阈值）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha Gaiden 主条目</a>（发售信息、可玩剧本数 69）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦α外伝" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦α外伝</a>（作品构成、参战作品、系统变更与无前作继承的交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/" rel="noopener" target="_blank">SRW Wiki（日文玩家 Wiki）</a>（援护技能形态、精神调整、武器一括改造、周回资金特典的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-alpha-gaiden/')}>← 返回超级机器人大战α外传</a></p>
+</Base>

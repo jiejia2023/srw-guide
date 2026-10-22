@@ -15,6 +15,7 @@ import SrwCompactMissionList from '../../components/SrwCompactMissionList.astro'
 import Srw64MissionList from '../../components/Srw64MissionList.astro';
 import SrwCompact2MissionList from '../../components/SrwCompact2MissionList.astro';
 import SrwAlphaMissionList from '../../components/SrwAlphaMissionList.astro';
+import SrwAlphaGaidenMissionList from '../../components/SrwAlphaGaidenMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -36,6 +37,7 @@ const isSrwCompact = g.slug === 'srw-compact';
 const isSrw64 = g.slug === 'srw-64';
 const isSrwCompact2 = g.slug === 'srw-compact-2';
 const isSrwAlpha = g.slug === 'srw-alpha';
+const isSrwAlphaGaiden = g.slug === 'srw-alpha-gaiden';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -914,6 +916,77 @@ const isSrwAlpha = g.slug === 'srw-alpha';
     </div>
   )}
 
+  {isSrwAlphaGaiden && (
+    <div>
+      <h2>剧情概要：伊吉斯计划与被送往未来的队伍</h2>
+      <p>本作是 α 系列第二作，因《α》创下系列最高销量而紧急立项，故称「外传」而非「第2次α」（开发：Banpresoft）。舞台起于<strong>新西历 187 年</strong>：为抵御《α》最终决战引发的超重力崩坏冲击，地球圈推进以屏障覆盖全地球的<strong>伊吉斯计划</strong>；由旧隆德·贝尔成员组成的新组织<strong>防卫者（Preventer）</strong>在防卫战中打倒新古兰森后，时空之门开启——全队被送往荒废的<strong>未来地球（行星佐拉）</strong>。未来世界的势力有月之民、支配阶级「伊诺森特」、本应早已退场的恐龙帝国，以及自称地球后继者的<strong>祖先（Ancestor）</strong>。游戏的大半篇幅在未来展开（宇宙关卡很少）；返回现代与白河愁的最终决战<strong>只有 Hard 线可玩</strong>（见下文终盘分歧），而第 3 次α的官方故事说明以 Hard 结局为正史。本站只收录 PS 原版（2001 年）。</p>
+
+      <h2>没有主人公选择，也没有前作存档继承</h2>
+      <ul>
+        <li><strong>无主人公选择</strong>：本作是 α 系列中唯一没有原创主人公选择的作品——《α》的 8 名主人公在本作不登场（剧情上行方不明），实际的主角定位是破岚万丈（据日文维基）。生日/血型决定精神的设定也随之取消（系统篇脚注特意注明 α 系列中「α外传除外」）。</li>
+        <li><strong>无《α》存档继承</strong>：遍查日文来源，没有任何「读取《α》存档给外传特典」的记载，不要按 F→F完结编的模式理解本作。没有前作存档就是普通新游戏，无惩罚。</li>
+        <li><strong>有的是本作自身的周回特典</strong>：读取本作通关存档开新周目时，按通关难度给起始资金——Easy 通关 +1,000,000、Normal +1,500,000、Hard +2,000,000（SRW Wiki「资金」页与 Akurasu Secrets 互证；这是「周回资金特典」在系列中的初登场，且不继承上一周的所持金）。</li>
+      </ul>
+
+      <h2>熟练度：外传起改为只增不减</h2>
+      <ul>
+        <li><strong>每话至多 +1、只增不减、不可为负</strong>——与《α》可大幅增减（可为负数）的规则正相反（日文维基系统篇）。每话只有一个取得条件，<strong>条件不在游戏内显示</strong>，只在取得时弹出消息——本站逐话列在各关攻略页的「熟练度」栏（来源：Akurasu 流程图）。失败重打该话时仍可取得该话的熟练度。</li>
+        <li><strong>累计值决定难度档</strong>：Easy / Normal / Hard 三档随累计熟练度切换；难度影响敌方强度与多名 Boss 的撤退 HP（各话页面按 Easy/Normal/Hard 分列阈值）。按流程图清点，一周目可取得的熟练度以第 41 话结束时判定所用的 33 点为最高门槛参照（官方没有给出「上限」数字，本站不杜撰）。</li>
+        <li><strong>中盘分歧</strong>：第 25 话结束时累计 <strong>≥15</strong> 与 <strong>≤14</strong> 使第 26–29 话成为完全不同的四话（第 30 话合流）。</li>
+        <li><strong>终盘三线</strong>：第 40 话结束时 <strong>≤11 → Easy 线</strong>（第 41 话恐龙帝国→第 42 话扭曲的未来→最终话对马格斯）；<strong>≥12</strong> 进入第 41 话《黑历史的终焉》，其结束时 <strong>≥33 → Hard 线</strong>（第 42 话巨龙→第 43 话→第 44 话回现代→最终话对白河愁），<strong>12–32 → Normal 线</strong>（第 42 话地球的后继者→最终话对马格斯）。桑格只在 Hard 线加入。</li>
+        <li><strong>低熟练度也有专属收益</strong>：第 7 话隆圣的机体、第 20/22/36 话三次「山岳周期」的掘出物、各话通关奖励（Clear Bonus）多按熟练度分档，且不少档位是「≤X 才给」——想集齐内容不能无脑冲高熟练度，分档细则都写在各关页面。</li>
+      </ul>
+
+      <h2>援护系统：α 系列初登场（本作的新规则）</h2>
+      <ul>
+        <li><strong>统一技能「援护」</strong>：援护在《COMPACT2》获好评后自本作进入 α 系列，本作也是光盘作品中的首次采用。技能不分「援护攻击/援护防御」（那是其后《IMPACT》才做的分离）——<strong>攻击与防御共用一个次数池，1 回合可用次数＝技能等级</strong>（部分角色只能援护攻击）。</li>
+        <li><strong>发动条件</strong>：援护方与被援护方<strong>相邻</strong>、援护方能进入被援护方所在格的地形、援护攻击时还须持有能打到目标的武器；<strong>敌方也会使用援护</strong>。</li>
+        <li><strong>本作的操作规格</strong>：自本作起可以<strong>选择是否发动</strong>援护（COMPACT2 时是能援护必援护），但还<strong>不能选择由谁援护、用哪件武器</strong>——这些细化是后作才有的，布阵时按「相邻即可能触发」来规划。与援护配套的范围技能<strong>「指挥官」也在本作初登场</strong>。</li>
+        <li><strong>同时废止的旧规则</strong>：《α》的「反应」参数与二回行动在本作废止；新增影响受伤量的「防御」参数；机体「运动性」改为只加算回避、不再加算命中。</li>
+      </ul>
+
+      <h2>系统：本作的其他新规则与「没有的东西」</h2>
+      <ul>
+        <li><strong>武器改造改为一括改造</strong>：不再像《α》那样逐武器单独改造，全武器一起强化——此方式自本作起成为（除 OG 系列外）的标准规格（日文维基/SRW Wiki）。机体改造的确切段数在本次所查日文来源中未明记，本站不套用他作数字、留待核实。</li>
+        <li><strong>精神 30 种、全员共通 SP 制</strong>；与《α》相比的效果调整：「魂」由增伤改为 <strong>2.5 倍</strong>、「铁壁」改为受伤 <strong>1/4</strong>、「信赖」改为固定量回复；本作<strong>没有「探索」精神</strong>（这也是山岳周期难找的原因）。</li>
+        <li><strong>本作特有系统</strong>：<strong>集装箱</strong>（地图上先到先得的部件/资金/机体，敌人先到会被抢走）、<strong>山岳周期</strong>（∀ 系：到特定地点掘出机体与部件，内容随熟练度分档）、<strong>巴扎</strong>（未来编幕间用布鲁斯通 BS 买卖部件与机体，自 FC《第2次》的商店以来复活的买卖系统）、<strong>月</strong>（高达 X/DX 的卫星加农炮只在能看见月亮的地图可用，Akurasu 逐话以 Moon 栏标注，各关页面已注明）。</li>
+        <li><strong>没有合体攻击</strong>：PS 原版无此系统（α 系列里只有 DC 版《α》、第 2 次α、第 3 次α有）——不要把机体的合体/分离（盖塔龙、孔巴特拉V、G 隼合体等）与合体攻击混淆。另外本作的 <strong>SRX 不能合体</strong>（R 系列被封印，隆圣改乘量产机与后期掘出的 R-1改）。</li>
+        <li><strong>换装系统</strong>存在：萨布格尔/步行机甲的全装甲模块、高达 X 的分离器模块、V2 的突击/破坏者模块、ν 的 HWS 模块等，取得都写在各关页面。</li>
+      </ul>
+
+      <h2>参战作品（概要）</h2>
+      <p>日文维基的一览共 <strong>27 条</strong>（含班普雷斯特原创、超机大战 SRX、魔装机神三个原创类目；纯动画作品为 24 部——计数口径不同是他站数字有出入的原因）。<strong>系列初参战 4 部</strong>：《银河旋风布莱加》《机动新世纪高达X》《∀高达》《战斗机甲萨布格尔》；其中高达 X、∀、萨布格尔三作的舞台本就是「遥远未来的荒废地球」，因此都在队伍被送往未来之后才登场，布莱加则在去未来之前登场。本作的新原创角色/机体有：仅 Hard 线加入的<strong>桑格·佐博尔特与史雷德盖尔米尔</strong>（古伦加斯特参式被机械细胞变貌的机体，斩舰刀自此始）、未来敌势力「祖先」与其首领马格斯（Easy/Normal 线最终 Boss）、以及隆圣的 <strong>R-1改</strong>。</p>
+
+      <h2>其他版本（仅注记，本站不收录）</h2>
+      <p>本作唯一的后续版本是 <strong>2011 年 12 月 21 日开始配信的 Game Archives 版</strong>（PS3/PSP/PS Vita，原版模拟配信，未见内容差异的来源记载）；另有 2002 年的 PS one Books 再版与 2005 年与《第3次α》同捆的 PREMIUM EDITION（日文维基信息框与正文对同捆版日期的记载不一致，本站不取确切日）。本站逐关数据全部以 2001 年 PS 原版为准。</p>
+
+      <h2>长线隐藏要素总览（细则在各关页面）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>结算话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>隆圣的机体（量产型亡灵Mk-II／凶鸟Mk-II／古伦加斯特2式）</td><td>第7话后</td><td>按当时熟练度：≥6 亡灵 / 2–5 凶鸟 / ≤1 古伦加斯特2式</td></tr>
+            <tr><td>张五飞提前加入</td><td>第7话</td><td>仅月线：第4话交战 ≥2 次 → 第5话交战 ≥1 次 → 第7话交战 ≥1 次后希罗说得 2 次</td></tr>
+            <tr><td>卡碧尼／卡碧尼Mk-II（普露2）</td><td>第30话</td><td>第9话捷多+普露双说得（或故意不达成）→ 第30话前半再说得普露2，两条链互斥</td></tr>
+            <tr><td>ν高达 HWS 部件／Hi-ν高达</td><td>第30话后</td><td>按熟练度：≤24 得 HWS 部件 / ≥25 得 Hi-ν高达整机</td></tr>
+            <tr><td>蒂法副驾驶与 G 比特（高达X/DX）</td><td>第36话后</td><td>全程走塞文堡线：第13/17话两次选塞文堡 → 第15/19/23话节点 → 第31话走月线 → 第32话加罗德说得恩尼尔</td></tr>
+            <tr><td>杰尼斯改（恩尼尔）</td><td>第32话·月线</td><td>第16话交战后加罗德击破其机 → 第22话交战 → 第32话加罗德说得（恩尼尔本人无论如何都加入，无此链则无机体）</td></tr>
+            <tr><td>特隆与卡普里科</td><td>第28话·熟练度15以上</td><td>须第25话结束时熟练度 ≥15 进高版；Normal/Hard 下 2 回合内只用「拳」击破特隆，或让她以 NPC 存活到底</td></tr>
+            <tr><td>黑巷与艾尔琪（驾驶员）</td><td>第39话后</td><td>第29话吉隆说得 2 次 → 第30话再说得 → 第31话走 X 点线 → 第33话再说得；未完成则只作钢铁齿轮副驾驶</td></tr>
+            <tr><td>红卡布尔与科林</td><td>第37话</td><td>第13话不去塞文堡 → 第17话罗兰与科林交战后说得 → 第31话走月线 → 第32话两人交战后双双存活</td></tr>
+            <tr><td>博尔贾农改（加班）</td><td>第17话·不去塞文堡</td><td>把加班 HP 打到 20% 以下但不击破</td></tr>
+            <tr><td>强化型魔神Z／真盖塔 或 强化型盖塔（二选一）</td><td>第36话（两版）</td><td>魔神Z：铁也（月线）或甲儿（X点线）按条件靠近结算；盖塔：击破真盖塔得强化型、不击破得真盖塔</td></tr>
+            <tr><td>强化型Z高达</td><td>第39话</td><td>卡缪乘 Z高达把精神感应高达Mk-II 的 HP 打到 50% 以下而不击破（Z 不得为冲浪者形态）</td></tr>
+            <tr><td>戴坦3 额外驾驶员</td><td>第40话</td><td>以熟练度 &lt;23 出击戴坦3（仅本话）</td></tr>
+            <tr><td>桑格与史雷德盖尔米尔</td><td>第43话·Hard</td><td>第40话击坠史雷德盖尔米尔且熟练度 ≥12 → 第41话结束时 ≥33 → 第43话前半再击坠，桑格后半加入（仅 Hard 线）</td></tr>
+            <tr><td>三次山岳周期掘出物</td><td>第20/22/36话</td><td>全部按熟练度三档：如第36话 ≤10 GP02+哈罗 / 11–27 诺耶·吉尔 / ≥28 吉翁号+毁灭高达</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与话数从 Akurasu 流程图，逐话条件与同站 Secrets 页交叉核对。已知分歧（均在各话页面备注并记两说）：第 17 话科林的说得者（流程图「钢铁齿轮」对 Secrets「科塞特」）、第 36 话强化魔神Z 的时机（「被击破前」对「HP 低于 10% 前」）与真盖塔的取得措辞（三处表述互异）、第 42 话三线的标法（流程图只标两档，Secrets 标全三档——本站从 Secrets）、第 7 话五飞说得的交战前置（流程图略、Secrets 明记）、Akurasu 自身的拼写差异（Enil/Ennil、Horla/Hola 等）。第 42 话·Normal 的胜利条件在 Akurasu 原文即为「???」，本站如实标待核实。</p>
+    </div>
+  )}
+
   {isSrw64 && (
     <div>
       <h2>剧情概要：四位主人公与被占领的地球</h2>
@@ -1131,6 +1204,11 @@ const isSrwAlpha = g.slug === 'srw-alpha';
     <div>
       <p>本作 33 个剧本<strong>全部建有独立攻略页</strong>（每一关一个详情页：7 个场景，每章首尾固定、中间为可任意顺序攻略的自由选择关——本表按下表分组的编号顺序排列，实际攻略顺序由你决定，奖励随顺序变化）。下表为按场景分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方加入、通关奖励部件（固定／随机／顺序全表）、本关隐藏要素（说得链、顺序限定机体、莱汀强化与真盖塔条件）与坐标地图。本作同时保留一份<a class="link" href={href('srw-compact/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwCompactMissionList />
+    </div>
+  ) : isSrwAlphaGaiden ? (
+    <div>
+      <p>本作 <strong>72 个详情页全部建成</strong>（Akurasu 主页标注 69 个可玩剧本——按标题清点；其中第 7、12、30 话各有两个同名而条件不同的选择版本，本站按版本各建一页：每一话一个详情页，含现代编开局、月线/极东线、塞文堡两次分歧、第 26–29 话的熟练度双版本、月/X 点双线、终盘 Easy/Normal/Hard 三线与三种最终话；单周目实际游玩 43 话（Easy/Normal）或 45 话（Hard））。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（说得链、山岳周期分档与熟练度判定都写在触发/结算的那一话里）与坐标地图（敌方配置与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-alpha-gaiden/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwAlphaGaidenMissionList />
     </div>
   ) : isSrwAlpha ? (
     <div>

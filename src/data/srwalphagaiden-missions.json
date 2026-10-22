@@ -1,0 +1,5831 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "战火再起",
+   "ja": "戦火、再び",
+   "en": "Scenario 1: War, Again",
+   "route": "现代编（新西历187年·共通）",
+   "area": "",
+   "type": "开局",
+   "prerequisite": "新游戏开局的第一话（现代编）。本作没有《α》那样的主人公选择，也没有前作存档继承——《α》的 8 名主人公在本作不登场。",
+   "victory": [
+    "（选择「坚守研究所」时）歼灭全部敌人",
+    "或（选择「前往 DC 日本支部」时）让龙马与弁庆抵达地图南端"
+   ],
+   "defeat": [
+    "任一敌人侵入研究所",
+    "或我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭全部敌人（只有选择「坚守研究所」时才可能取得）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度为 0 → 20,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔龙（龙马）",
+    "波塞冬（弁庆）",
+    "盖塔1（武藏）",
+    "全歼敌人时追加：Z高达（卡缪）、V冲锋高达（乌索）、白色方舟（玛贝特）"
+   ],
+   "events": [
+    "开局二选一决定本话的胜败条件与熟练度能否取得：坚守研究所（全歼路线）或前往 DC 日本支部（抵达路线）。",
+    "盖塔龙、波塞冬、盖塔1 是盖塔机器人的三种形态（尚未能合体运用自如，见第2话）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本话是全作唯一「我方任一单位被击破即败北」的开局关，想拿熟练度必须走全歼路线并注意保护每一台机体。"
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "甘受污名",
+   "ja": "あえて汚名を",
+   "en": "Scenario 2: Bearing Disgrace",
+   "route": "现代编（新西历187年·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第1话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "泰坦斯增援到达后，在 3 回合内歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴坦3（破岚万丈）",
+    "ZZ高达（捷多）",
+    "卡碧尼Mk-II（普露）",
+    "沙漠高达改（卡特尔）",
+    "利加（隼人）",
+    "龙＋利加＋波塞冬自本话起可合体为盖塔龙（龙马、隼人、弁庆）",
+    "若第1话选择了撤退路线：Z高达（卡缪）、V冲锋高达（乌索）、白色方舟（玛贝特）在本话参战"
+   ],
+   "events": [
+    "破岚万丈在本话登场（现代编）——日文来源指出本作实际的主角定位是万丈（SRW Wiki）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "胜利的V手势",
+   "ja": "勝利へのVサイン",
+   "en": "Scenario 3: V-Sign to Victory",
+   "route": "现代编（新西历187年·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第2话后进入。本话结束后发生全作第一次路线分歧。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破精神感应高达（罗莎米亚）。其 HP 低于 5,000 时会撤退，须在此之前击破"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度为 0 → 40,000 资金、增压器（ブースター）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "增压器（熟练度为 0 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "孔巴特拉V（豹马、十三、大作、千鹤、小介；开局以各分体机出击）",
+    "莱汀（洸）"
+   ],
+   "events": [
+    "本话结束后分歧：选择乘强化Jr.号前往月面（月线：第4–6话为高达系中心）或随阿伽马前往极东基地（极东线：第4–6话为超级系中心），第7话合流。",
+    "想让张五飞提前加入，必须走月线（前置链见第4话·月线、第5话·月线、第7话）。"
+   ],
+   "secrets": [
+    "五飞提前加入的前置：本话后必须选择月线（强化Jr.号路线）。"
+   ],
+   "unlocks": [
+    "第4话·月线《第13个星座》或第4话·极东线《正义与我同在》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·月线",
+   "slug": "stage-4m",
+   "zh": "第13个星座",
+   "ja": "１３番目の星座",
+   "en": "Scenario 4: The 13th Constellation",
+   "route": "现代编·月线（强化Jr.号）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第3话后选择「乘强化Jr.号前往月面」。",
+   "victory": [
+    "让希罗与迪奥抵达露娜2（即使 5 回合内未达成，条件也会变更）",
+    "其后歼灭全部敌人（戴肯到达地图边缘时敌军会全体撤退）"
+   ],
+   "defeat": [
+    "我方任一单位被击破",
+    "或强化Jr.号被击破、我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "迫使阿德拉斯提亚（戴肯）撤退——即不让它抵达地图边缘（是否将其击破不限）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "强化Jr.号（哥梅斯）",
+    "超级高达（露、芙尔；可分离为高达Mk-II（露）＋G防卫者（芙尔））",
+    "托鲁基斯（诺茵）",
+    "关卡中：利奥（希罗）、利奥（迪奥）、托鲁基斯III（杰克斯）"
+   ],
+   "events": [],
+   "secrets": [
+    "五飞提前加入·其一：让希罗与五飞交战至少 2 次。"
+   ],
+   "unlocks": [
+    "进入第5话·月线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·极东线",
+   "slug": "stage-4a",
+   "zh": "正义与我同在",
+   "ja": "正義は我にあり",
+   "en": "Scenario 4: Justice is With Us",
+   "route": "现代编·极东线（阿伽马）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第3话后选择「随阿伽马前往极东基地」。",
+   "victory": [
+    "让铁也与大魔神对接",
+    "其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在苏德里（贾迈坎）出现后、在其抵达地图边缘前将其击破"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度为 0 → 30,000 资金、推进剂燃料箱。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "推进剂燃料箱（熟练度为 0 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "阿伽马（汉肯）",
+    "关卡中：布雷恩·康多尔（铁也）→与大魔神对接、大魔神（铁也）、金星A（纯）、老板机器人（老板）、捷奥（正树）、超兽机神断空我（忍、莎拉、雅人、亮；开局以各分体出击）、波尔特斯V（健一、一平、大次郎、日吉、惠；开局以各分体出击）",
+    "过关后：布鲁加（真理）、布鲁加（神宫寺）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第5话·极东线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·月线",
+   "slug": "stage-5m",
+   "zh": "月之摇篮",
+   "ja": "月のゆりかご",
+   "en": "Scenario 5: The Moon Cradle",
+   "route": "现代编·月线（强化Jr.号）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第4话·月线后进入。",
+   "victory": [
+    "守住微波发射站并歼灭全部敌人"
+   ],
+   "defeat": [
+    "敌人抵达微波发射站、我方全灭",
+    "或敌人抵达微波发射站、强化Jr.号被击破、我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破阿德拉斯提亚（戴肯）。其撤退 HP 阈值：Easy 低于 2,000 / Normal 低于 3,000 / Hard 低于 4,000"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。本作多名 Boss 的撤退 HP 按当前难度档（Easy/Normal/Hard，随累计熟练度变化）分列，本页照 Akurasu 原表列出。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度 ≤1 → 30,000 资金、推进剂燃料箱。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "推进剂燃料箱（熟练度 ≤1 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "飞翼高达零式改（希罗）",
+    "死神高达地狱改（迪奥）",
+    "重炮高达改（特洛瓦）",
+    "R-GUN强化型（比蕾塔）",
+    "梅塔斯（花）"
+   ],
+   "events": [],
+   "secrets": [
+    "五飞提前加入·其二：让希罗与五飞交战至少 1 次。"
+   ],
+   "unlocks": [
+    "进入第6话·月线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·极东线",
+   "slug": "stage-5a",
+   "zh": "解开锁链",
+   "ja": "鎖を解き放て",
+   "en": "Scenario 5: Break the Chains",
+   "route": "现代编·极东线（阿伽马）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第4话·极东线后进入。",
+   "victory": [
+    "歼灭全部敌人（巴斯克被击破或撤退时，敌军全体撤退）"
+   ],
+   "defeat": [
+    "我方任一单位被击破",
+    "或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破苏德里（巴斯克）。其撤退 HP 阈值：Easy 低于 3,500 / Normal 低于 4,200 / Hard 低于 4,900"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话捷奥（正树）以外的既有单位不可出击",
+    "VF-1S（福卡）、VF-1S（辉）、VF-1J 女武神（米莉亚）、VF-1A（柿崎）、VF-1J 女武神（麦克斯）",
+    "瓦尔西翁R（琳）、古兰威尔（杨龙）",
+    "开局为敌方：吉姆奎尔（蒙夏）、吉姆奎尔（浦木）、吉姆奎尔（基斯）、量产型亡灵Mk-II（隆圣）、量产型亡灵Mk-II（莱）",
+    "量产型盖塔Mk-II（伊尔姆）、魔神Z（甲儿）、黛安娜A（沙也加）",
+    "过关后：吉姆改（蒙夏）、吉姆改（浦木）、吉姆加农（基斯）"
+   ],
+   "events": [
+    "本话为超时空要塞队与 SRX 相关成员的合流关：多名开局标为敌方的单位是剧情演出（被夺/敌对状态），按流程图推进即会归队（据 Akurasu 流程图的加入表）。"
+   ],
+   "secrets": [
+    "早期入手「抗光束涂层」：选择「不让萨菲妮逃走」，击破威索尔改（萨菲妮）。其 HP 低于 3,500 时会撤退（仅极东线有此项；Akurasu 的 Secrets 专节未重列此项，以流程图为准）。"
+   ],
+   "unlocks": [
+    "进入第6话·极东线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "Akurasu 流程图把本话多台开局敌对的单位列入加入表（剧情性敌对）；本站按流程图原样转录，未据此断定其为可击破的敌方配置（敌方配置本身仍待核实）。"
+  },
+  {
+   "code": "第6话·月线",
+   "slug": "stage-6m",
+   "zh": "无情的J9",
+   "ja": "情け無用のJ９",
+   "en": "Scenario 6: The Merciless J9",
+   "route": "现代编·月线（强化Jr.号）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第5话·月线后进入。",
+   "victory": [
+    "4 回合内让任一我方单位抵达敌基地指定点",
+    "（被发现后）让单位抵达敌基地指定点",
+    "保护布莱德的奥德穆拉直至其脱离",
+    "歼灭全部敌人（条件随剧情阶段切换）"
+   ],
+   "defeat": [
+    "4 回合内无人抵达指定点、或强化Jr.号被击破",
+    "（被发现后）强化Jr.号被击破或我方全灭",
+    "布莱德被击破、强化Jr.号被击破或我方全灭",
+    "强化Jr.号被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不被发现地抵达敌基地（潜行成功）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度 ≤1 → 50,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局为敌方：百式（柯瓦特罗）、高达Mk-II（爱玛）",
+    "布莱加（基德、鲍伊、勇、於町）",
+    "ν高达（阿姆罗）〔低难度时于关卡中〕、Re-GZ BWS（巴宁）〔低难度时〕",
+    "NPC：奥德穆拉（布莱德）",
+    "过关后：强化Jr.号（布莱德接任舰长——原文列为哥梅斯/布莱德交接）、阿伽马（布莱德）、ν高达（阿姆罗）〔高难度时〕、Re-GZ BWS（巴宁）〔高难度时〕、杰刚（卡兹）、GP03 石斛兰、GP01 高达Fb"
+   ],
+   "events": [
+    "出击枠：布莱加事件前 4 台＋事件后 9 台（据 Akurasu 流程图）。",
+    "月线与极东线在本话后于第7话合流。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·极东线",
+   "slug": "stage-6a",
+   "zh": "有召即至",
+   "ja": "お呼びとあらば即参上",
+   "en": "Scenario 6: They Appear When Called",
+   "route": "现代编·极东线（阿伽马）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第5话·极东线后进入。",
+   "victory": [
+    "把全部敌方单位诱导到指定线以远",
+    "其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一敌方单位或阿伽马被击破（第一阶段）",
+    "白色方舟或阿伽马被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内达成第一胜利条件（诱导全敌越线）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：本话结束时熟练度 ≤1 → 50,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局为敌方：百式（柯瓦特罗）、高达Mk-II（爱玛）",
+    "ν高达（阿姆罗）〔低难度〕/杰刚（阿姆罗）〔高难度〕",
+    "白色方舟（布莱德）",
+    "Re-GZ BWS（巴宁）〔低难度〕",
+    "布莱加（基德一行）",
+    "过关后：（卡兹）、Re-GZ BWS（巴宁）〔高难度〕、杰刚〔低难度〕/ν高达〔高难度〕、布莱德接任阿伽马舰长、GP03 石斛兰、GP01 高达Fb"
+   ],
+   "events": [
+    "出击枠 10 台（据 Akurasu 流程图）。",
+    "极东线与月线在本话后于第7话合流。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·雇佣J9",
+   "slug": "stage-7h",
+   "zh": "无尽的圆舞曲",
+   "ja": "終わらない円舞曲",
+   "en": "Scenario 7: Endless Waltz",
+   "route": "现代编·共通（雇佣J9版本）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第6话后合流进入第7话，关卡中选择「雇佣 J9」。",
+   "victory": [
+    "5 回合内歼灭全部敌人",
+    "或让鲍伊或万丈进入敌基地（全歼敌人时自动达成）"
+   ],
+   "defeat": [
+    "阿伽马被击破或经过 5 回合（第一阶段）",
+    "阿伽马、万丈或鲍伊被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部初期敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤2 → 修理包、推进剂燃料箱；≤1 → 弹药筒、40,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "修理包、推进剂燃料箱（熟练度 ≤2）；弹药筒（熟练度 ≤1）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "双子星高达改（五飞）——按五飞提前加入链的完成情况于关卡中或过关后加入"
+   ],
+   "events": [
+    "出击枠 13 台（据 Akurasu 流程图）。",
+    "本话过后按熟练度决定隆圣的机体（见隐藏要素），是全作第一个熟练度分档结算点。"
+   ],
+   "secrets": [
+    "隆圣的机体（本话过关后结算）：熟练度 ≥6 → 量产型盖塔Mk-II；2–5 → 量产型凶鸟Mk-II；≤1 → 量产型古伦加斯特2式。",
+    "五飞提前加入·其三（仅月线有前置）：让希罗与五飞交战至少 1 次，其后由希罗对五飞使用「说得」2 次，五飞当场加入。（Akurasu 流程图在第7话栏只写「说得 2 次」，交战 1 次的前置见 Secrets 页——本站以 Secrets 为准并注记。）"
+   ],
+   "unlocks": [
+    "进入第8话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·不雇佣J9",
+   "slug": "stage-7n",
+   "zh": "无尽的圆舞曲",
+   "ja": "終わらない円舞曲",
+   "en": "Scenario 7: Endless Waltz",
+   "route": "现代编·共通（不雇佣J9版本）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第6话后合流进入第7话，关卡中选择「不雇佣 J9」。",
+   "victory": [
+    "歼灭全部敌人或进入敌基地（第 4 回合后条件变更）",
+    "把核导弹的 HP 打到 10% 以下"
+   ],
+   "defeat": [
+    "阿伽马被击破或我方全灭（第一阶段）",
+    "核导弹离开地图、核导弹被击破或阿伽马被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人（且不得进入敌基地）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤2 → 修理包、推进剂燃料箱；≤1 → 弹药筒、40,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "修理包、推进剂燃料箱（熟练度 ≤2）；弹药筒（熟练度 ≤1）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "双子星高达改（五飞）——按五飞提前加入链的完成情况于关卡中或过关后加入"
+   ],
+   "events": [
+    "出击枠 15 台（据 Akurasu 流程图）。",
+    "注意：本版本第二阶段是把核导弹 HP 打到 10% 以下而非击破——把导弹打爆反而败北。"
+   ],
+   "secrets": [
+    "隆圣的机体（本话过关后结算）：熟练度 ≥6 → 量产型盖塔Mk-II；2–5 → 量产型凶鸟Mk-II；≤1 → 量产型古伦加斯特2式。",
+    "五飞提前加入·其三（仅月线有前置）：让希罗与五飞交战至少 1 次，其后由希罗对五飞使用「说得」2 次，五飞当场加入。（流程图与 Secrets 的前置表述差异见第7话·雇佣J9页注记，两版本共通。）"
+   ],
+   "unlocks": [
+    "进入第8话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "努比亚的微笑",
+   "ja": "ヌビアは笑う",
+   "en": "Scenario 8: Nubia Laughs",
+   "route": "现代编（新西历187年·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第7话（任一版本）后进入。",
+   "victory": [
+    "守住塞巴斯塔并歼灭全部敌人（戈尔贡大公被击破或撤退时敌军全体撤退）"
+   ],
+   "defeat": [
+    "塞巴斯塔被击破、我方全灭",
+    "或塞巴斯塔被击破、阿伽马被击破、我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破米凯洛斯（戈尔贡大公）。其撤退 HP 阈值：Easy 低于 2,000 / Normal 低于 4,600 / Hard 低于 7,500"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤2 → 30,000 资金、双重感应器、乔巴姆装甲。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "双重感应器、乔巴姆装甲（熟练度 ≤2 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "黑翼N（阿兰）、R-GUN强化型（比蕾塔）、盖塔1（武藏）、隆圣的量产型机体（第7话结算）",
+    "关卡中：塞巴斯塔（赛妮娅）〔不能移动与攻击〕、加迪斯（缇蒂）、赞泽德（美绪）、迪亚布罗（普蕾希娅）",
+    "过关后：捷奥换装为塞巴斯塔（正树）、诺尔斯·雷（赛妮娅）"
+   ],
+   "events": [
+    "出击枠 10 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第9话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "愚者祭典",
+   "ja": "愚者の祭典",
+   "en": "Scenario 9: Festival of Fools",
+   "route": "现代编（新西历187年·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第8话后进入。本话后半打倒新古兰森即触发前往未来的转折，现代编到此结束。",
+   "victory": [
+    "前半：歼灭全部敌人，或让勇抵达目的地",
+    "后半：击破新古兰森（愁）"
+   ],
+   "defeat": [
+    "前半：我方任一单位被击破",
+    "后半：阿伽马被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤2 → 50,000 资金、生物感应器、抗光束涂层。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "生物感应器、抗光束涂层（熟练度 ≤2 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "前半既有单位全部不可出击，仅 YF-19（勇）、YF-21（加尔德）可用"
+   ],
+   "events": [
+    "出击枠 15 台（据 Akurasu 流程图）。",
+    "重要：本话结束后的幕间离队时，全部可玩单位暂时失去——队伍在未来（行星佐拉）重新集结，这是全作的时代转折点（据 Akurasu 流程图注记与日文维基梗概）。"
+   ],
+   "secrets": [
+    "卡碧尼（其一）：前半出击捷多与普露，由捷多、普露两人分别对普露2 使用「说得」（顺序不限）。（Akurasu 流程图原文把说得者之一写作「Ple」，Secrets 页作「Puru」，指同一人。）",
+    "卡碧尼Mk-II（其一）：不达成上面卡碧尼的条件（两条链互斥，结算在第30话）。",
+    "加尔德提前加入：让勇与加尔德交战至少 2 次且不将其击坠，或在第 4 回合之前不击坠加尔德——加尔德当场加入（其后也会正式加入，此处为提前）。"
+   ],
+   "unlocks": [
+    "进入第10话（未来编·行星佐拉）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "遥远的时光彼方",
+   "ja": "遥かなる時の彼方",
+   "en": "Scenario 10: Off in a Distant Time",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "第9话后被送往未来（行星佐拉），未来编自本话开始；现代编的单位已全部失去，从未来侧的成员重新组队。",
+   "victory": [
+    "争取时间让吉隆与琪尔抵达机体、并歼灭全部敌人",
+    "歼灭全部敌人",
+    "守住钢铁齿轮并歼灭全部敌人（条件随阶段切换）"
+   ],
+   "defeat": [
+    "我方任一单位被击破（第一阶段）",
+    "吉隆被击破（第二阶段）",
+    "钢铁齿轮被击破、或吉隆/艾尔琪被击破（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破普罗梅斯（霍拉）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤2 → 300 BS（布鲁斯通）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加洛普（拉格）、加洛普（戴克）、加洛普（布鲁姆）",
+    "萨布格尔2号机（吉隆、琪尔）、萨布格尔（艾尔琪、法特曼）",
+    "钢铁齿轮（科塞特）",
+    "大魔神（铁也）、金星A（纯）——留在未来的成员",
+    "过关后：老板机器人（老板）加入；吉隆与琪尔改乘萨布格尔、拉格改乘萨布格尔2号机、法特曼改乘加洛普"
+   ],
+   "events": [
+    "本话起出现的 BS（布鲁斯通）是未来编「巴扎」系统的交易货币：可在幕间用 BS 买卖强化部件与机体（自 FC《第2次》商店以来复活的买卖系统，据日文维基/SRW Wiki）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第11话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本作标题在中文社区常把行星名写作「佐拉」（惑星ゾラ）。"
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "为何破坏规矩",
+   "ja": "なんで掟を破るのさ",
+   "en": "Scenario 11: Why'd Ya Break the Law?",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第10话后进入。本话中段的选择决定第12话的版本。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "吉隆被击破、钢铁齿轮被击破或我方全灭",
+    "或钢铁齿轮被击破、我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭第一批敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "钢铁齿轮自本话起可在陆上舰（LS）与步行机械（WM）之间变形。",
+    "中段事件二选一：「阻止吉隆」或「不阻止吉隆」——影响汀普的撤退时机（不阻止：事件后立即撤退；阻止：事件后 3 回合才撤退，只有后者有机会击破汀普的加巴曼特），并决定第12话的版本。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第12话·阻止吉隆版本或第12话·不阻止吉隆版本"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·阻止吉隆",
+   "slug": "stage-12s",
+   "zh": "谜之伊诺森特",
+   "ja": "謎また謎のイノセント",
+   "en": "Scenario 12: The Mysterious, Unknown Innocent",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第11话中选择「阻止吉隆」。",
+   "victory": [
+    "让任一我方单位移动到德巴拉斯加兰旁边",
+    "其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一步行机械被击破、我方任一单位被击破或德巴拉斯加兰被击破（第一阶段）",
+    "钢铁齿轮被击破或我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破德巴拉斯加兰（维克曼）。其撤退 HP 阈值：Easy 低于 3,750 / Normal 低于 6,250 / Hard 低于 8,750"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "波尔特斯V（健一、一平、大次郎、日吉、惠）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·不阻止吉隆",
+   "slug": "stage-12n",
+   "zh": "谜之伊诺森特",
+   "ja": "謎また謎のイノセント",
+   "en": "Scenario 12: The Mysterious, Unknown Innocent",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第11话中选择「不阻止吉隆」。",
+   "victory": [
+    "歼灭全部敌人",
+    "其后坚持 4 回合让健一救出惠",
+    "再歼灭全部敌人"
+   ],
+   "defeat": [
+    "吉隆被击破、钢铁齿轮被击破或我方全灭（第一阶段）",
+    "任一步行机械被击破、德巴拉斯加兰被击破、钢铁齿轮或吉隆被击破（第二阶段）",
+    "钢铁齿轮被击破或我方全灭（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破德巴拉斯加兰（维克曼）。其撤退 HP 阈值：Easy 低于 3,750 / Normal 低于 6,250 / Hard 低于 8,750"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "波尔特斯V（健一、一平、大次郎、日吉、惠）"
+   ],
+   "events": [],
+   "secrets": [
+    "混合装甲：击破加巴曼特（汀普）。其 HP 低于 3,600 时会撤退——此机会只在第11话选择「阻止吉隆」……（更正：流程图注记为仅在本版本线可击破其机体；见备注）"
+   ],
+   "unlocks": [
+    "进入第13话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "Akurasu 流程图在第11话注记：选择「阻止吉隆」时汀普在事件后 3 回合才撤退、才有机会击破其加巴曼特；「不阻止」时立即撤退。本页（不阻止版本）的混合装甲一项按流程图第12话栏原文转录（该栏把击破加巴曼特列为本版本的隐藏条目），两处表述的衔接以流程图为准，实机以事件推进为准、本站不另断言。"
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "无罪者圣域",
+   "ja": "罪なき者の聖域",
+   "en": "Scenario 13: Sanctum of the Innocent",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第12话（任一版本）后进入。本话结束后发生未来编的第一次大分歧。",
+   "victory": [
+    "歼灭全部敌人（维克曼被击破或撤退时敌军全体撤退）"
+   ],
+   "defeat": [
+    "吉隆被击破、钢铁齿轮被击破或我方全灭",
+    "或钢铁齿轮被击破、我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破加巴曼特（汀普）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤4 → 40,000 资金、300 BS、气垫船、生物感应器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "气垫船、生物感应器（熟练度 ≤4 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "钢铁齿轮追加武装「波坦加农炮」"
+   ],
+   "events": [
+    "过关后的幕间：当前单位暂时全部不可用（队伍按路线重新编成）。",
+    "本话后分歧：直接前往塞文堡（高达X、Z、ZZ、V、W、孔巴特拉V 线）或不直接前往（∀、0083、莱汀线），第14–17话各有两版，第18话后再次分歧、第21话合流。",
+    "本话的选择同时决定多条隐藏链的走向（蒂法与G比特、杰尼斯改 vs 科林与红卡布尔/博尔贾农改），在作决定前请先看本页隐藏要素。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特／杰尼斯改：须选「前往塞文堡」路线（链条全程见第32话·月线）。",
+    "科林与红卡布尔／博尔贾农改：须选「不前往塞文堡」路线（链条全程见第32话·月线）。两组互斥。"
+   ],
+   "unlocks": [
+    "第14话·塞文堡线《月亮出来了吗》或第14话·不去塞文堡《不速之客》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·塞文堡线",
+   "slug": "stage-14s",
+   "zh": "月亮出来了吗",
+   "ja": "月は出ているか",
+   "en": "Scenario 14: Is the Moon Out?",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第13话后选择「直接前往塞文堡」。",
+   "victory": [
+    "让加罗德抵达指定点（第 5 回合时即使未达成条件也会变更）",
+    "其后击坠巴萨克高达（夏基亚被击破或撤退时敌军全体撤退）"
+   ],
+   "defeat": [
+    "加罗德被击破",
+    "或弗里登被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内抵达目标点"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "杰尼斯（加罗德、蒂法）→本话换乘高达X（加罗德、蒂法）",
+    "弗里登（贾米尔、莎拉、新吾、彤娅）",
+    "Z高达（卡缪）",
+    "超级高达（芙尔、露）",
+    "沙漠高达改（卡特尔）",
+    "孔巴特拉V（豹马一行）",
+    "过关后：高达空中霸王（威兹）、高达豹式（罗亚比）"
+   ],
+   "events": [
+    "月相：本话有月亮（卫星加农炮类武装可用，下同——Akurasu 流程图以「Moon」栏逐话标注）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第15话·塞文堡线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·不去塞文堡",
+   "slug": "stage-14t",
+   "zh": "不速之客",
+   "ja": "招かれざる客",
+   "en": "Scenario 14: Uninvited Guests",
+   "route": "未来编·不去塞文堡（∀高达线）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第13话后选择「不直接前往塞文堡」。",
+   "victory": [
+    "歼灭全部敌人（敌军在第 5 回合全体撤退）"
+   ],
+   "defeat": [
+    "罗兰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破瓦多姆（波）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "∀高达（罗兰）",
+    "GP01 高达Fb（浦木）",
+    "吉姆加农（基斯）",
+    "吉姆改（蒙夏）",
+    "莱汀（洸）",
+    "布鲁加（真理）"
+   ],
+   "events": [
+    "过关后：∀高达失去光束步枪武装（剧情事件，据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第15话·不去塞文堡"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话·塞文堡线",
+   "slug": "stage-15s",
+   "zh": "赐予你力量",
+   "ja": "あなたに、力を・・・",
+   "en": "Scenario 15: I'll Give You Power...",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第14话·塞文堡线后进入。",
+   "victory": [
+    "前半：歼灭全部敌人",
+    "后半：歼灭全部敌人（卫星加农炮事件后敌军全体撤退）"
+   ],
+   "defeat": [
+    "前半、后半均为：加罗德被击破或弗里登被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半在 3 回合内歼灭第一批敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "前半：高达X（加罗德、蒂法）",
+    "后半：高达X 追加武装「卫星加农炮」与「卫星加农炮（MAP）」"
+   ],
+   "events": [
+    "月相：前半无月亮、后半有月亮。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特·其二：前半在 3 回合内由加罗德击破至少 6 台敌人（Secrets 图表作「前半 3 回合内用加罗德击破 6 台以上」，与流程图一致）。"
+   ],
+   "unlocks": [
+    "进入第16话·塞文堡线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话·不去塞文堡",
+   "slug": "stage-15t",
+   "zh": "戴安娜降临",
+   "ja": "ディアナ降臨",
+   "en": "Scenario 15: Diana's Advent",
+   "route": "未来编·不去塞文堡（∀高达线）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第14话·不去塞文堡后进入。",
+   "victory": [
+    "歼灭全部敌人（敌军在第 6 回合全体撤退）"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤4 → 30,000 资金、生物感应器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "生物感应器（熟练度 ≤4 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "卡布尔（索希艾）、卡布尔（美亚谢）",
+    "∀高达（罗兰）追加武装「高达铁锤」"
+   ],
+   "events": [
+    "地图上的山岳周期（Mountain Cycle）：右侧抗光束涂层、左侧太阳能电池板——让单位移动到特定地点（洞口等）即可掘出（据 Akurasu 流程图；本作无「探索」精神，位置须靠试探）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第16话·不去塞文堡"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话·塞文堡线",
+   "slug": "stage-16s",
+   "zh": "我要卖高达",
+   "ja": "ガンダム、売るよ",
+   "en": "Scenario 16: I'll Sell the Gundam!",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第15话·塞文堡线后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破加巴利尔（霍拉）。其撤退 HP 阈值：Easy 低于 2,700 / Normal 低于 5,400 / Hard 低于 8,100"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤5 → 400 BS、VR头盔。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "VR头盔（熟练度 ≤5 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "ZZ高达（捷多）、V冲锋高达（乌索）、卡碧尼Mk-II（普露）、白色方舟（玛贝特），及分歧前的全部单位（据 Akurasu 流程图加入表）"
+   ],
+   "events": [],
+   "secrets": [
+    "杰尼斯改·其一：让加罗德与恩尼尔交战后，由加罗德击破恩尼尔的机体。"
+   ],
+   "unlocks": [
+    "进入第17话·塞文堡线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "Akurasu 流程图本话「不可用单位」原文为 “All except Gundam X (Garrod), Gundam Airmaster (Witz), Gundam Leopard (Roybea) unavailable”，本站照录；其中 Leopard 的驾驶员为罗亚比（Roybea）。"
+  },
+  {
+   "code": "第16话·不去塞文堡",
+   "slug": "stage-16t",
+   "zh": "罗拉·罗拉",
+   "ja": "ローラ＝ローラ",
+   "en": "Scenario 16: Laura Rolla",
+   "route": "未来编·不去塞文堡（∀高达线）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第15话·不去塞文堡后进入。",
+   "victory": [
+    "歼灭全部敌人，并守住索莱尤"
+   ],
+   "defeat": [
+    "罗拉被击破",
+    "或索莱尤被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话罗兰以「罗拉」身份出击（精神、能力、击坠数不受影响，据 Akurasu 流程图）",
+    "苏摩（哈利）",
+    "索莱尤（戴安娜）〔不可移动〕"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第17话·不去塞文堡"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "胜利/败北条件中的舰名原文为「Soleil」（戴安娜的座舰），本站在中文正文中写作「索莱尤」。下文同名处同此处理。"
+  },
+  {
+   "code": "第17话·塞文堡线",
+   "slug": "stage-17s",
+   "zh": "月之民",
+   "ja": "月の民",
+   "en": "Scenario 17: The Moonrace",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第16话·塞文堡线后进入（本话是第13话分歧的延续线）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "罗拉被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭第一批敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 电脑核心、双重感应器；≤5 → 50,000 资金。（Akurasu 在第17话两版的栏内都印有这两档，见备注）",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "电脑核心、双重感应器（熟练度 ≤12 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "上一话除高达X（加罗德）以外的单位不可出击",
+    "∀高达（罗兰；本话以罗拉身份）、卡布尔（索希艾）、卡布尔（美亚谢）、博尔贾农（加班）、博尔贾农（约瑟夫）、GP01 Fb（浦木）、吉姆加农（基斯）、吉姆改（蒙夏）、莱汀（洸）、布鲁加（真理）"
+   ],
+   "events": [
+    "月相：本话有月亮。",
+    "本话结束后再次分歧：前往塞文堡（Z、ZZ、V、W、高达X、孔巴特拉V、莱汀）或留在周边（0083、∀、萨布格尔、大魔神、波尔特斯V），第18–20话各有两版，第21话合流。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特（链条节点）：本话后须选择「前往塞文堡」（第13话起的全程见第32话·月线）。"
+   ],
+   "unlocks": [
+    "第18话·塞文堡线《我是新人类》或第18话·周边线《机械之兽》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "Akurasu 流程图把第17话两版（塞文堡线/不去线）的通关奖励都印作「≤12 → 电脑核心、双重感应器；≤5 → 50,000 资金」——本站两页照录并在此注记，未擅自改动。"
+  },
+  {
+   "code": "第17话·不去塞文堡",
+   "slug": "stage-17t",
+   "zh": "白色恶魔",
+   "ja": "白い悪魔",
+   "en": "Scenario 17: The White Devil",
+   "route": "未来编·不去塞文堡（∀高达线）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第16话·不去塞文堡后进入（本话是第13话分歧的延续线）。",
+   "victory": [
+    "前半：(1) 让索希艾先于罗兰抵达集装箱（未达成时条件也会变更）；(2) 击坠加班",
+    "后半：歼灭全部敌人"
+   ],
+   "defeat": [
+    "前半：(1) 无；(2) 罗兰被击破",
+    "后半：钢铁齿轮被击破或我方全灭；钢铁齿轮或弗里登被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半让索希艾先于罗兰抵达集装箱"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 电脑核心、双重感应器；≤5 → 50,000 资金。（与第17话·塞文堡线同，见该页备注）",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "电脑核心、双重感应器（熟练度 ≤12 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "前半仅 ∀高达（罗兰）与卡布尔（索希艾）可出击",
+    "后半：分歧前的全部单位归队；博尔贾农（加班）或博尔贾农改（加班）、博尔贾农（约瑟夫）、Z高达（卡缪）、超级高达（芙尔、露）、ZZ高达（捷多）、V冲锋高达（乌索）、沙漠高达改（卡特尔）、高达X（加罗德）、空中霸王（威兹）、豹式（罗亚比）、弗里登（贾米尔一行）、孔巴特拉V"
+   ],
+   "events": [
+    "月相：前半无月亮、后半有月亮。",
+    "山岳周期：右侧弹药筒、左侧 VR头盔。",
+    "后半出击枠 6 台（据 Akurasu 流程图）。",
+    "本话结束后再次分歧（前往塞文堡/留在周边，第18–20话两版），见第17话·塞文堡线页。"
+   ],
+   "secrets": [
+    "博尔贾农改：把加班的 HP 打到 20% 以下但不要击破他（加班本人无论如何都会加入，此为其专用机的唯一取得法）。",
+    "科林与红卡布尔·其一：让驾驶 ∀高达的罗兰（Hard 难度时可用索希艾）与科林交战，其后说得科林——说得者流程图作「钢铁齿轮」、Secrets 页作「科塞特」，两说并记（见备注）。"
+   ],
+   "unlocks": [
+    "第18话·塞文堡线《我是新人类》或第18话·周边线《机械之兽》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "科林的说得者，Akurasu 流程图原文为 “have the Iron Gear convince Corin”，Secrets 图表与详解均作 “have Cotset convince Corin”（科塞特是钢铁齿轮的舰长）——本站两说并记，不擅自裁定。"
+  },
+  {
+   "code": "第18话·塞文堡线",
+   "slug": "stage-18s",
+   "zh": "我是新人类",
+   "ja": "僕がニュータイプだ",
+   "en": "Scenario 18: I'm a Newtype!",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第17话后选择「前往塞文堡」。",
+   "victory": [
+    "歼灭全部敌人（即使未达成，第 7 回合时本话也会结束）"
+   ],
+   "defeat": [
+    "加罗德被击破、弗里登被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤5 → 30,000 资金、增压器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "增压器（熟练度 ≤5 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "出击前：卡碧尼Mk-II（普露）〔仅限此前选择过「不直接前往塞文堡」时〕、白色方舟（玛贝特）〔同条件〕",
+    "过关后：高达X（加罗德）相关结算（据流程图）"
+   ],
+   "events": [
+    "月相：本话无月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第19话·塞文堡线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话·周边线",
+   "slug": "stage-18t",
+   "zh": "机械之兽",
+   "ja": "機械の獣たち",
+   "en": "Scenario 18: Mechanical Beasts",
+   "route": "未来编·周边线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第17话后选择「留在周边」。",
+   "victory": [
+    "歼灭全部敌人",
+    "其后歼灭全部敌人，或让任一我方单位移动到山岳周期的洞口"
+   ],
+   "defeat": [
+    "阿伽马被击破或我方全灭（第一阶段）",
+    "阿伽马或钢铁齿轮被击破或我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内通关本话"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤5 → 30,000 资金、增压器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "增压器（熟练度 ≤5 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "阿伽马（布莱德）、GP03 石斛兰（巴宁）、百式改（柯瓦特罗）、梅塔斯（花）、ν高达（阿姆罗）、Re-GZ BWS（爱玛）、杰刚（卡兹）、托鲁基斯III（杰克斯）、托鲁基斯（诺茵）、魔神Z（甲儿）、盖塔龙（龙马、隼人、弁庆）、布鲁加（神宫寺）",
+    "过关后：吉姆改"
+   ],
+   "events": [
+    "出击枠 5 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第19话·周边线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·塞文堡线",
+   "slug": "stage-19s",
+   "zh": "共鸣之力",
+   "ja": "共鳴する力",
+   "en": "Scenario 19: Resonating Powers",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第18话·塞文堡线后进入。",
+   "victory": [
+    "前半：让加罗德进入基地",
+    "后半：(1) 5 回合内让希罗与迪奥双双抵达目的地；(2) 歼灭全部敌人或击坠贝鲁迪戈（卡里斯）；(3) 5 回合内把帕图莉亚（卡里斯）的 HP 打到 30% 以下，再让加罗德移动到其旁边"
+   ],
+   "defeat": [
+    "前半：加罗德或卡特尔被击破",
+    "后半：(1) 5 回合内未抵达目的地、或希罗/迪奥被击破；(2) 加罗德被击破、弗里登被击破或我方全灭；(3) 5 回合内未把帕图莉亚 HP 打到 30% 以下、或加罗德/弗里登被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "后半击破帕图莉亚（卡里斯）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "前半：杰尼斯（加罗德）；高达X分离器（贾米尔）；弗里登舰长由贾米尔改由莎拉担任（剧情）",
+    "后半：飞翼高达零式改（希罗）、死神高达地狱改（迪奥）、高达X分离器（加罗德、蒂法）；弗里登舰长恢复为贾米尔"
+   ],
+   "events": [],
+   "secrets": [
+    "蒂法与 G 比特·其三：后半（话标题显示后）由加罗德击破贝鲁迪戈；其后让加罗德移动到帕图莉亚旁边并在同一次行动中将其击破（可使用援护攻击）。"
+   ],
+   "unlocks": [
+    "进入第20话·塞文堡线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·周边线",
+   "slug": "stage-19t",
+   "zh": "百年之恋",
+   "ja": "百年の恋",
+   "en": "Scenario 19: A Century's Love",
+   "route": "未来编·周边线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第18话·周边线后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "阿伽马或钢铁齿轮被击破，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破阿尔梅亚（波）。其在 HP 降至 9,200 时撤退，或成为场上唯一敌人时撤退"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "∀高达强化：移动力 +1、速度 +5，追加导弹与光束步枪武装，取得盾防御技能，可飞行且机体与全部武装的空适应变为 A（据 Akurasu 流程图）"
+   ],
+   "events": [
+    "出击枠 10 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第20话·周边线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话·塞文堡线",
+   "slug": "stage-20s",
+   "zh": "来自过去的侵略",
+   "ja": "過去からの侵略",
+   "en": "Scenario 20: Invasion from the Past",
+   "route": "未来编·塞文堡线（高达X系）",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第19话·塞文堡线后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "让 GP02（米德加尔）撤退（3 回合后抵达地图边缘，或 HP 降至指定量以下）"
+   ],
+   "defeat": [
+    "我方任一单位被击破（第一阶段）",
+    "我方全灭、弗里登被击破或 GP02 被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 GP02 抵达地图边缘前，把其 HP 打到 Easy 50% / Normal 30% / Hard 10% 以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤5 → 50,000 资金、驴面包、混合装甲。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "驴面包、混合装甲（熟练度 ≤5 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "重炮高达改（特洛瓦）、双子星高达改（五飞）、赞泽德（美绪）、迪亚布罗（普蕾希娅）、诺尔斯·雷（赛妮娅）、塞巴斯塔（正树）",
+    "过关后（第 1 次山岳周期，按本话结束时熟练度）：Easy ≤5 → 沙扎比、ΖII；Normal 6–14 → V高达海克萨、钢布拉斯塔（原文 Gunblaster）；Hard ≥15 → 吉姆奎尔、钢EZ"
+   ],
+   "events": [
+    "出击枠 8 台（据 Akurasu 流程图）。",
+    "本话的山岳周期奖励按难度（即累计熟练度档）三选一，是「熟练度低也有专属收益」的典型例子：想要沙扎比/ΖII 反而要控制熟练度。"
+   ],
+   "secrets": [
+    "山岳周期：让单位移动到地图上的两个山岳周期地点，可掘出的单位因难度而异（内容见我方加入的过关后结算）。"
+   ],
+   "unlocks": [
+    "进入第21话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "Akurasu 流程图把 Normal 档的第二台写作 “Gunblastor”，Secrets 图表作 “Gunblaster”——本站作「钢布拉斯塔（Gunblaster）」并在此注记原文拼写差异。"
+  },
+  {
+   "code": "第20话·周边线",
+   "slug": "stage-20t",
+   "zh": "黑历史的遗产",
+   "ja": "黒歴史の遺産",
+   "en": "Scenario 20: Relic from the Black History",
+   "route": "未来编·周边线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第19话·周边线后进入。",
+   "victory": [
+    "守住山岳周期并歼灭全部敌人（第 5 回合时即使未达成条件也会变更）",
+    "让 GP02（米德加尔）撤退（3 回合后抵达地图边缘，或 HP 降至指定量以下），并守住山岳周期"
+   ],
+   "defeat": [
+    "敌人进入山岳周期、战舰被击破或我方全灭",
+    "GP02 被击破、敌人进入山岳周期、战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 GP02 抵达地图边缘前，把其 HP 打到 Easy 50% / Normal 30% / Hard 10% 以下（与塞文堡线同）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤15 → 驴面包；≤6 → 50,000 资金、混合装甲、哈利的眼镜。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "驴面包（熟练度 ≤15）；混合装甲、哈利的眼镜（熟练度 ≤6 时追加——按流程图两档并记）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "苏摩（哈利）",
+    "过关后（第 1 次山岳周期，按熟练度）：Easy ≤5 → 沙扎比、ΖII；Normal 6–14 → V高达海克萨、钢布拉斯塔；Hard ≥15 → 吉姆奎尔、钢EZ"
+   ],
+   "events": [
+    "出击枠：战舰 1＋12 台（据 Akurasu 流程图）。",
+    "本话与塞文堡线的第20话共享同一套山岳周期结算。"
+   ],
+   "secrets": [
+    "山岳周期：与塞文堡线同（按难度三档，内容见过关后结算）。"
+   ],
+   "unlocks": [
+    "进入第21话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "大地在我手",
+   "ja": "地上をこの手に",
+   "en": "Scenario 21: The Surface, in My Hands",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "第20话两线在本话合流。",
+   "victory": [
+    "歼灭全部敌人，并守住龙马"
+   ],
+   "defeat": [
+    "龙马被击破、战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破佐利（巴特）。其在 HP 降至 Easy 20% / Normal 30% / Hard 40% 时撤退，或其他敌人全灭后撤退"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话盖塔龙不能移动，失去盖塔光束与闪光火花，HP 一半、EN 0、气力 50 出击（剧情状态，据 Akurasu 流程图）"
+   ],
+   "events": [
+    "出击枠：战舰 1＋12 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第22话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "神秘的陆上舰",
+   "ja": "謎のランドシップ",
+   "en": "Scenario 22: The Mysterious Landship",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第21话后进入。",
+   "victory": [
+    "让钢铁齿轮生存到第 3 回合",
+    "其后歼灭全部敌人（汀普被击破或撤退时敌军全体撤退）"
+   ],
+   "defeat": [
+    "钢铁齿轮被击破（第一阶段）",
+    "钢铁齿轮或阿伽马被击破、我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在吉布罗斯（汀普）开始离开地图后的 3 回合内将其击破（其在 HP 70% 时、或击破过多敌人后开始移动）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≥8 且 ≤17 → 100,000 资金；≤7 → 70,000 资金、300 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴坦3（万丈、加里森、丽华、拓波）、超兽机神断空我（忍一行；开局以各分体出击）、黑翼（阿兰）、布莱加（基德一行）",
+    "过关后（第 2 次山岳周期，按熟练度）：Easy ≤5 → 全装甲ZZ高达部件；Normal 6–16 → VF-1J 装甲女武神；Hard ≥17 → VF-11B 战斗机"
+   ],
+   "events": [
+    "出击枠 6 台（据 Akurasu 流程图）。",
+    "警告（Akurasu 流程图注记）：Normal 档取得的装甲女武神在超时空要塞系角色自动出击时可能引发游戏崩溃，分配驾驶员时请注意。"
+   ],
+   "secrets": [
+    "杰尼斯改·其二：让加罗德与恩尼尔交战至少 1 次（流程图原文把恩尼尔写作 “Ennil”）。",
+    "山岳周期：按难度三档（内容见过关后结算）。"
+   ],
+   "unlocks": [
+    "进入第23话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "罗蕾莱之海",
+   "ja": "Loreleiの海",
+   "en": "Scenario 23: The Sea of Lorelei",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第22话后进入。",
+   "victory": [
+    "5 回合内让高达X（贾米尔）移动到高达双X旁边",
+    "其后守护加罗德 3 回合并歼灭全部敌人"
+   ],
+   "defeat": [
+    "5 回合内未抵达双X旁、或贾米尔/弗里登被击破（第一阶段）",
+    "加罗德被击破、弗里登被击破或我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "取得高达双X后的 3 回合内歼灭全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤8 → 50,000 资金、300 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "弗里登舰长永久由贾米尔改为莎拉；贾米尔成为高达X 的默认驾驶员；高达X 取得「G比特（FX-9800）」（此处为机体武装，与蒂法链的 G 比特不同，见备注）",
+    "高达双X（加罗德、蒂法）〔不可移动〕、G隼（帕拉）",
+    "VF-1S（福卡）、VF-1S（辉）、VF-1J（米莉亚）、VF-1A（柿崎）、VF-1J（麦克斯）、YF-19（勇）、YF-21（加尔德）",
+    "过关后：V2高达；高达X分离器成为高达X 的模块；空中霸王→空中霸王爆裂（威兹）；豹式→豹式破坏者（罗亚比）；G隼可与双X/爆裂/破坏者合体"
+   ],
+   "events": [
+    "月相：本话有月亮。",
+    "出击枠 7 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特·其四：第 4 回合结束之前不要让贾米尔移动到高达双X旁边（故意拖延）。"
+   ],
+   "unlocks": [
+    "进入第24话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本话高达X 取得的「G-Bits (FX-9800)」是机体自带武装的解锁，与隐藏链「蒂法与 G 比特」（蒂法成为副驾驶＋双X 的 G 比特武装，结算于第36话后）是两回事，勿混淆——区分依据见 Akurasu 流程图本话栏与 Secrets 的蒂法链条目。"
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "大地守护神",
+   "ja": "大地の守護神",
+   "en": "Scenario 24: Guardian God of the Land",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第23话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "歼灭全部敌人（第 6 回合或但丁被击破后条件变更）",
+    "把史雷德盖尔米尔（桑格）的 HP 打到 50% 以下"
+   ],
+   "defeat": [
+    "铁也或纯被击破（第一阶段）",
+    "战舰被击破或我方全灭（第二、三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内击破但丁"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话结束时熟练度 ≤12 时有月亮。",
+    "出击枠：战舰 1＋10 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第25话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "预感永别",
+   "ja": "もう逢えない気がして",
+   "en": "Scenario 25: I Feel Like We Won't Meet Again",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第24话后进入。本话结束时的累计熟练度决定第26–29话的版本，是全作中盘的熟练度分歧点。",
+   "victory": [
+    "歼灭全部敌人（初期敌人歼灭 6 回合后，敌增援会撤退）"
+   ],
+   "defeat": [
+    "弗里登或钢铁齿轮被击破，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭初期敌人后，在 6 个我方回合内再歼灭两波敌方增援"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤8 → 50,000 资金、500 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "古兰威尔（杨龙）、加迪斯（缇蒂）"
+   ],
+   "events": [
+    "月相：本话结束时熟练度 ≤13 时有月亮。",
+    "出击枠 8 台（据 Akurasu 流程图）。",
+    "注意（Akurasu 流程图警告）：花、普露、加班、索希艾、美亚谢在任何 UC/CC 系机体上会被强制出击，编成时先确认。",
+    "本话结束分歧：累计熟练度 ≥15 → 第26–29话「高熟练度版」；≤14 → 「低熟练度版」，第30话合流。"
+   ],
+   "secrets": [
+    "特隆与卡普里科的前置门槛：本话结束时熟练度必须 ≥15（才能进入第28话的高熟练度版完成说得链）。"
+   ],
+   "unlocks": [
+    "第26话·熟练度15以上《向无尽的天空起誓》或第26话·熟练度14以下《自暴自弃的拉格》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话·熟练度15以上",
+   "slug": "stage-26h",
+   "zh": "向无尽的天空起誓",
+   "ja": "果てしなき大空に誓う",
+   "en": "Scenario 26: Vow to the Endless Skies",
+   "route": "未来编·熟练度15以上线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第25话结束时累计熟练度 ≥15。",
+   "victory": [
+    "前半：歼灭全部敌人",
+    "后半：(1)(2) 歼灭全部敌人；(3) 击破但丁；(4)(5) 歼灭全部敌人"
+   ],
+   "defeat": [
+    "前半：我方任一单位被击破",
+    "后半：(1) 龙马或隼人被击破；(2) 我方任一单位被击破；(3) 我方任一单位被击破、铁也被击破；(4) 我方任一单位被击破；(5) 战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "后半击破但丁，且不让甲儿的 HP 进入红色（危险）状态"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话加罗德不可出击",
+    "前半：盖塔龙以龙/利加/波塞冬分体出击、失去合体能力；仅魔神Z（甲儿）、大魔神（铁也）、断空我、龙、利加、波塞冬可用",
+    "后半：龙/利加/波塞冬恢复合体为盖塔龙",
+    "过关后：苏摩（哈利）"
+   ],
+   "events": [
+    "月相：前半无月亮、后半有月亮。",
+    "出击枠 12 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "太阳能电池板：位于地图北部的山岳周期地点（据 Akurasu 流程图）。"
+   ],
+   "unlocks": [
+    "进入第27话·熟练度15以上"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话·熟练度14以下",
+   "slug": "stage-26l",
+   "zh": "自暴自弃的拉格",
+   "ja": "破れかぶれのラグ",
+   "en": "Scenario 26: Wear-and-Tear Rag",
+   "route": "未来编·熟练度14以下线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第25话结束时累计熟练度 ≤14。",
+   "victory": [
+    "夺取全部集装箱（任一方夺完所有集装箱时条件变更）",
+    "由吉隆说得拉格",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方任一单位被击破、或敌方任一单位被击破（第一阶段）",
+    "我方任一单位被击破、或萨布格尔（拉格）被击破（第二阶段）",
+    "钢铁齿轮被击破或我方全灭（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "取得全部集装箱"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话加罗德不可出击；萨布格尔（拉格）暂时为敌方（剧情）",
+    "过关后：萨布格尔取得全装甲模块；达加（比林、玛利亚）；瓦尔西翁R（琳）"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠 12 台（据 Akurasu 流程图）。",
+    "本话是「集装箱」系统的典型关：单位移动到集装箱上取得部件/资金，敌人先到会被抢走，且第一阶段击破任何敌方单位都会败北。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第27话·熟练度14以下"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话·熟练度15以上",
+   "slug": "stage-27h",
+   "zh": "霍拉的骨气",
+   "ja": "ホーラの意地",
+   "en": "Scenario 27: Horla's Will",
+   "route": "未来编·熟练度15以上线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第26话·熟练度15以上后进入。",
+   "victory": [
+    "用我方单位（含戴坦3）把钢铁齿轮四面包围",
+    "其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢铁齿轮抵达圆顶（Dome）、钢铁齿轮被击破、万丈或战舰被击破（第一阶段）",
+    "战舰被击破或我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内完成对钢铁齿轮的四面包围"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "步行机甲（吉隆、琪尔、拉格）",
+    "过关后：V2高达取得突击模块；萨布格尔取得全装甲模块；步行机甲取得全装甲模块"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠：战舰 1＋12 台（据 Akurasu 流程图）。",
+    "标题拼写：Akurasu 流程图作 “Horla's Will”，Secrets 图表作 “Hola's Will”——本站以流程图为准。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话·熟练度15以上"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话·熟练度14以下",
+   "slug": "stage-27l",
+   "zh": "舍身大激战",
+   "ja": "捨て身と捨て身の大戦闘",
+   "en": "Scenario 27: Dire, Perilous Battle",
+   "route": "未来编·熟练度14以下线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第26话·熟练度14以下后进入。",
+   "victory": [
+    "歼灭全部敌人（第 2 回合时即使未达成条件也会变更）",
+    "击破格雷塔·加里（卡拉斯被击破时敌军全体撤退）"
+   ],
+   "defeat": [
+    "钢铁齿轮被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内歼灭格雷塔·加里（卡拉斯）以外的全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤9 → 50,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢铁齿轮（LS）不能变形为 WM",
+    "步行机甲（吉隆、拉格）",
+    "过关后：V2高达取得突击模块；步行机甲取得全装甲模块；钢铁齿轮追加武装「突击」"
+   ],
+   "events": [
+    "月相：本话结束时熟练度 ≤14 时有月亮。",
+    "出击枠 10 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话·熟练度14以下"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话·熟练度15以上",
+   "slug": "stage-28h",
+   "zh": "伊诺森特的黑历史",
+   "ja": "イノセントの黒歴史",
+   "en": "Scenario 28: The Black History of the Innocent",
+   "route": "未来编·熟练度15以上线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第27话·熟练度15以上后进入。",
+   "victory": [
+    "击坠特隆（第 2 回合时即使未达成条件也会变更）",
+    "歼灭全部敌人",
+    "击破格雷塔·加里（卡拉斯）"
+   ],
+   "defeat": [
+    "吉隆被击破（第一阶段）",
+    "钢铁齿轮被击破或我方全灭（第二、三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在格雷塔·加里变形后、7 回合内将其击破"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢铁齿轮（LS）不能变形",
+    "卡普里科（特隆）〔我方 NPC〕、瓦尔西翁R（琳）、达加（比林、玛利亚）",
+    "过关后：卡普里科（特隆）正式加入（条件达成时）；钢铁齿轮追加武装「突击」；比林与玛利亚成为萨布格尔的默认驾驶员"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠 12 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "特隆与卡普里科：仅 Normal 或 Hard 难度可达成——2 回合内只用「拳」击破特隆；若失败，则在增援出现后让她以 NPC 身份存活到战斗结束。达成后特隆加入。（前置：第25话结束时熟练度 ≥15 才能进入本版本，见第25话。）"
+   ],
+   "unlocks": [
+    "进入第29话·熟练度15以上"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话·熟练度14以下",
+   "slug": "stage-28l",
+   "zh": "暗黑大将军的挑战",
+   "ja": "暗黒大将軍の挑戦",
+   "en": "Scenario 28: Ankoku Daishogun's Challenge",
+   "route": "未来编·熟练度14以下线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第27话·熟练度14以下后进入。",
+   "victory": [
+    "前半：(1) 由甲儿说得铁也；(2) 歼灭铁也以外的全部敌人（但丁被击破时敌军全体撤退）",
+    "后半：(1) 歼灭全部敌人；(2) 击破暗黑大将军（其 HP 降至 25% 以下撤退时本话结束）"
+   ],
+   "defeat": [
+    "前半：铁也被击破或我方任一单位被击破",
+    "后半：(1) 铁也被击破；(2) 铁也或甲儿被击破、战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭前半全部敌人（但丁留到最后），或歼灭后半全部敌人（暗黑大将军留到最后）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "前半：大魔神（铁也）为敌方（剧情）；仅魔神Z（甲儿）、莱汀、盖塔龙、波尔特斯V、孔巴特拉V、断空我、戴坦3 可出击"
+   ],
+   "events": [
+    "月相：前半无月亮、后半有月亮。",
+    "出击枠：前半无（固定成员）、后半战舰 1＋12 台（据 Akurasu 流程图）。",
+    "英标题：Akurasu 流程图作 “The Great General of Darkness's Challenge”，Secrets 图表作 “Ankoku Daishogun's Challenge”——本站英标题从 Secrets 图表，并在此注记。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第29话·熟练度14以下"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第29话·熟练度15以上",
+   "slug": "stage-29h",
+   "zh": "女人万华镜",
+   "ja": "女いろいろ万華鏡",
+   "en": "Scenario 29: Women, a Shifting Kaleidoscope",
+   "route": "未来编·熟练度15以上线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第28话·熟练度15以上后进入。",
+   "victory": [
+    "4 回合内让勇、加尔德或米莉亚任一人抵达目的地",
+    "歼灭全部敌人",
+    "歼灭盖亚盖亚（原文 Gear Gear）以外的全部敌人（艾尔琪 HP 降至 50% 以下、或被吉隆说得 2 次后撤退）"
+   ],
+   "defeat": [
+    "我方任一单位被击破（第一阶段）",
+    "钢铁齿轮被击破或我方全灭（第二阶段）",
+    "盖亚盖亚被击破、钢铁齿轮被击破或我方全灭（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭盖亚盖亚（艾尔琪）以外的全部敌人后，由吉隆对艾尔琪说得 2 次，或把其 HP 打到 50% 以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "钢铁齿轮（科塞特）成为不可操作的 NPC；全体单位因「鼠疫热」（原文 Rat Fever）以气力 80 出击（据 Akurasu 流程图）"
+   ],
+   "events": [
+    "月相：本话有月亮。",
+    "出击枠 10 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "黑巷（布拉卡利）与艾尔琪（链条·其一）：由吉隆对艾尔琪说得 2 次（全程见第33话·X点线）。"
+   ],
+   "unlocks": [
+    "进入第30话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第29话·熟练度14以下",
+   "slug": "stage-29l",
+   "zh": "操纵女人心",
+   "ja": "女の心をあやつれば",
+   "en": "Scenario 29: When You Play with a Woman's Heart",
+   "route": "未来编·熟练度14以下线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "通关第28话·熟练度14以下后进入。",
+   "victory": [
+    "(1)(2) 歼灭全部敌人",
+    "(3) 歼灭盖亚盖亚以外的全部敌人（汀普被击破或撤退时盖亚盖亚撤退）"
+   ],
+   "defeat": [
+    "钢铁齿轮被击破或我方任一单位被击破（第一阶段）",
+    "吉隆被击破、钢铁齿轮被击破或我方全灭（第二阶段）",
+    "盖亚盖亚（艾尔琪）被击破、钢铁齿轮被击破或我方全灭（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在吉布罗斯（汀普）撤退前、6 回合内将其击破"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤9 → 50,000 资金、600 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "苏摩（哈利）"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠 10 台（据 Akurasu 流程图）。",
+    "警告（Akurasu 流程图注记）：米莉亚会自动出击；若把她换乘到装甲女武神，变形事件可能引发游戏崩溃。"
+   ],
+   "secrets": [
+    "黑巷（布拉卡利）与艾尔琪（链条·其一）：由吉隆对艾尔琪说得 2 次（全程见第33话·X点线）。",
+    "本段（第26–29话低熟练度版）与高熟练度版在第30话合流；两线的隐藏结算互不继承对方版本的专属项（如特隆只存在于高熟练度版）。"
+   ],
+   "unlocks": [
+    "进入第30话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·正面攻击",
+   "slug": "stage-30f",
+   "zh": "统治伊诺森特者",
+   "ja": "イノセントを統べる者",
+   "en": "Scenario 30: The Ruler of the Innocent",
+   "route": "未来编（行星佐拉·共通·正面攻击版本）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第29话两线在本话合流；本话选择「正面攻击」。",
+   "victory": [
+    "前半：让钢铁齿轮抵达目的地圆顶",
+    "后半：抵达目标点，或歼灭全部敌人"
+   ],
+   "defeat": [
+    "前半：钢铁齿轮被击破、吉隆被击破或我方全灭",
+    "后半：我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭前半全部敌人（吉布罗斯可不理会），或歼灭后半全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后：卡碧尼或卡碧尼Mk-II（普露2）——按前置链结算（未达成时普露2仍加入、但没有机体）",
+    "过关后（按本话结束时熟练度）：Easy/Normal ≤24 → ν高达 HWS 部件；Hard ≥25 → Hi-ν高达"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠：前半 14 台、后半 5 台（据 Akurasu 流程图）。",
+    "后半的败北条件是「我方任一单位被击破」，是全作最苛刻的过关条件之一。"
+   ],
+   "secrets": [
+    "黑巷与艾尔琪·其二：前半由吉隆说得艾尔琪。",
+    "卡碧尼·其二：前半出击捷多，由捷多说得普露2（须先完成第9话的卡碧尼·其一）。",
+    "卡碧尼Mk-II·其二：前半出击捷多或普露，由捷多或普露说得普露2（须先在第9话「不达成」卡碧尼条件）。",
+    "地板砖（后半）：站上条纹/发光的地板砖，按难度取得不同单位（据 Akurasu 流程图注记，未列具体名单）。",
+    "ν高达分档：过关后按熟练度 ≤24 得 ν高达HWS部件、≥25 得 Hi-ν高达（熟练度高反而拿整机，是本作的著名分档）。"
+   ],
+   "unlocks": [
+    "进入第31话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·奇袭",
+   "slug": "stage-30s",
+   "zh": "统治伊诺森特者",
+   "ja": "イノセントを統べる者",
+   "en": "Scenario 30: The Ruler of the Innocent",
+   "route": "未来编（行星佐拉·共通·奇袭版本）",
+   "area": "",
+   "type": "选择版本",
+   "prerequisite": "第29话两线在本话合流；本话选择「奇袭」。",
+   "victory": [
+    "前半：(1) 歼灭全部敌人；(2) 让弗里登抵达目的地圆顶（未达成第二项时即使全歼敌人本阶段也不结束）",
+    "后半：抵达目标点，或歼灭全部敌人"
+   ],
+   "defeat": [
+    "前半：(1) 所选战舰被击破、吉隆被击破或我方全灭；(2) 弗里登被击破、所选战舰被击破、吉隆被击破或我方全灭",
+    "后半：我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半 6 回合内让弗里登抵达目标区域，或歼灭后半全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并可通过集装箱、巴扎等取得；Akurasu 流程图未给本话列出通关奖励（Clear Bonus）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后：卡碧尼或卡碧尼Mk-II（普露2）——按前置链结算（未达成时普露2仍加入、但没有机体）",
+    "过关后（按熟练度）：Easy/Normal ≤24 → ν高达 HWS 部件；Hard ≥25 → Hi-ν高达"
+   ],
+   "events": [
+    "月相：前半有月亮、后半无月亮。",
+    "出击枠：前半战舰 1＋12 台、后半 5 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "黑巷与艾尔琪·其二：前半由吉隆说得艾尔琪。",
+    "卡碧尼·其二 / 卡碧尼Mk-II·其二：与正面攻击版本相同（见第30话·正面攻击页）。",
+    "地板砖（后半）：按难度取得不同单位（据 Akurasu 流程图注记）。",
+    "ν高达分档：过关后 ≤24 得 HWS 部件、≥25 得 Hi-ν高达。"
+   ],
+   "unlocks": [
+    "进入第31话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "灼烧天地的剑",
+   "ja": "天地を灼く剣",
+   "en": "Scenario 31: The Weapon That Scorches the Earth",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第30话（任一版本）后进入。本话结束后按选择分月线/X点线。",
+   "victory": [
+    "把高达阿什塔隆（奥尔巴）的 HP 打到 10% 以下并歼灭全部敌人（其他敌人全灭时奥尔巴撤退）",
+    "其后 5 回合内让全体单位抵达地图任意边缘"
+   ],
+   "defeat": [
+    "高达阿什塔隆（奥尔巴）被击破、阿伽马被击破或我方全灭（第一阶段）",
+    "5 回合内未全体抵达边缘、或阿伽马被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在场上留有其他敌人时，把高达阿什塔隆（奥尔巴）的 HP 打到规定量以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤31 → 100,000 资金；≤11 → 100,000 资金、1000 BS。（Akurasu 在本话栏内并印两档，本站照录。）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话有月亮。",
+    "出击枠 15 台（据 Akurasu 流程图）。",
+    "本话后分歧：前往月球（高达0083、Z、ZZ、逆袭的夏亚、V、W、高达X、∀、超时空要塞、超时空要塞Plus、布莱加）或前往 X 点（萨布格尔、戴坦3、魔神Z、大魔神、盖塔G、孔巴特拉V、波尔特斯V、莱汀、断空我、魔装机神），第32–36话各有两版，第37话合流。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特／杰尼斯改／科林与红卡布尔：链条须走「前往月球」路线。",
+    "黑巷与艾尔琪：链条须走「前往 X 点」路线（与上一组互斥）。"
+   ],
+   "unlocks": [
+    "第32话·月线《飞吧，向着宇宙》或第32话·X点线《隐形恐龙轰炸队》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·月线",
+   "slug": "stage-32m",
+   "zh": "飞吧，向着宇宙",
+   "ja": "飛べ、宇宙へ",
+   "en": "Scenario 32: Fly, to Space",
+   "route": "未来编·月线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第31话后选择「前往月球」。",
+   "victory": [
+    "7 回合内歼灭索莱尤与拉·凯拉姆以外的全部敌方单位"
+   ],
+   "defeat": [
+    "经过 8 回合、拉·凯拉姆或索莱尤被击破、或战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内通关本话"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤11 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后：杰尼斯改（恩尼尔加入；未达成隐藏条件时恩尼尔仍加入、但没有机体——见隐藏要素）",
+    "阿伽马→拉·凯拉姆（布莱德）、百式改→全装甲百式改、V2高达取得破坏者模块、两台 VF-1S→VF-1S(S)、两台 VF-1J→VF-1J(S)、VF-1A→VF-1A(S)、弗里登（莎拉、新吾、彤娅）"
+   ],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠：战舰 1＋8 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "蒂法与 G 比特·其五／杰尼斯改·其四：由加罗德说得恩尼尔（恩尼尔当场倒戈；杰尼斯改链须先完成第13/16/22话的节点）。",
+    "科林与红卡布尔·其二：让驾驶 ∀高达的罗兰与科林交战、且双方都存活（Secrets 详解作「确保罗兰（乘∀）与科林交战后两人都活着」）。"
+   ],
+   "unlocks": [
+    "进入第33话·月线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·X点线",
+   "slug": "stage-32x",
+   "zh": "隐形恐龙轰炸队",
+   "ja": "姿なき恐竜空爆隊",
+   "en": "Scenario 32: The Shifting Dinosaur Bomber Squad",
+   "route": "未来编·X点线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第31话后选择「前往 X 点」。",
+   "victory": [
+    "歼灭全部敌人",
+    "第 6 我方回合阶段前击破全部 4 台禅II",
+    "再歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢铁齿轮被击破或我方全灭（第一阶段）",
+    "第 6 我方回合阶段前未击破全部 4 台禅II、钢铁齿轮被击破或我方全灭（第二阶段）",
+    "钢铁齿轮被击破或我方全灭（第三阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "先歼灭其他全部敌人，最后再击破 4 台禅II"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤11 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "出击前强化（魔装机神组的新武装，据 Akurasu 流程图）：塞巴斯塔追加「斩舰刀·疾风怒涛」、古兰威尔追加「火焰疾风天空剑」、加迪斯追加「芬里尔碎击」、赞泽德追加「五郎入道正宗」、瓦尔西翁R追加「圆月斩」（神剑破损的攻击力 −200）、迪亚布罗追加「剑舞」与「胡桃夹子」（导弹攻击力 −300）",
+    "R-GUN强化型（比蕾塔）、隆圣的量产型机体",
+    "关卡中：钢铁齿轮（LS）不能移动与变形",
+    "过关后：黛安娜A（沙也加）、盖塔1（武藏）"
+   ],
+   "events": [
+    "出击枠 16 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第33话·X点线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·月线",
+   "slug": "stage-33m",
+   "zh": "Turn X启动",
+   "ja": "ターンX起動",
+   "en": "Scenario 33: Turn X Activation",
+   "route": "未来编·月线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第32话·月线后进入。",
+   "victory": [
+    "在阿尔梅亚（米德加尔）逃走前把其 HP 打到 30% 以下",
+    "歼灭全部敌人（Turn X 的 HP 降至 70% 以下、或经过 7 回合时敌军全体撤退）"
+   ],
+   "defeat": [
+    "阿尔梅亚离开地图、阿尔梅亚被击破或我方任一单位被击破（第一阶段）",
+    "加罗德被击破（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "Turn X（基姆）出现后，把其 HP 打到约 70%"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "本话仅高达双X（加罗德）、G隼（帕拉）、飞翼高达零式改（希罗）、托鲁基斯III（杰克斯）、布莱加、YF-19（勇）、YF-21（加尔德）可用",
+    "贝鲁迪戈（卡里斯）"
+   ],
+   "events": [
+    "月相：本话有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第34话·月线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·X点线",
+   "slug": "stage-33x",
+   "zh": "艾尔琪觉醒",
+   "ja": "エルチ目覚めよ",
+   "en": "Scenario 33: Elche, Wake Up!",
+   "route": "未来编·X点线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第32话·X点线后进入。",
+   "victory": [
+    "由吉隆说得艾尔琪，并歼灭全部敌人",
+    "让吉隆移动到呼唤者（艾尔琪）旁边（被说得后 5 回合艾尔琪会撤退，须在此之前）",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "呼唤者（艾尔琪）被击破、吉隆被击破或钢铁齿轮被击破（第一阶段）",
+    "呼唤者被击破、呼唤者抵达森林尽头、吉隆/钢铁齿轮被击破（第二阶段）",
+    "吉隆被击破、钢铁齿轮被击破或我方全灭（流程图编号为 (4)，原文缺 (3)，见备注）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "用吉隆说得艾尔琪后，先歼灭其他全部敌人，再让吉隆移动到艾尔琪旁边"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "出击枠 12 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "黑巷与艾尔琪·其三：由吉隆说得艾尔琪（链条结算在第39话后：艾尔琪成为黑巷的驾驶员正式加入；未完成链条时她只作钢铁齿轮的副驾驶）。"
+   ],
+   "unlocks": [
+    "进入第34话·X点线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本话败北条件的编号在 Akurasu 流程图原文中为 (1)、(2)、(4)——缺 (3) 是原文如此，本站照录并注记，不擅自补号。"
+  },
+  {
+   "code": "第34话·月线",
+   "slug": "stage-34m",
+   "zh": "跨越时空的对决",
+   "ja": "時を超えた対決",
+   "en": "Scenario 34: Confrontation Across Time",
+   "route": "未来编·月线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第33话·月线后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "罗兰被击破、阿伽马被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "Turn X（基姆）出现后（弗罗斯特兄弟被击破、或击破过多敌人时出现），4 回合内把其 HP 打到 60% 以下；或击破卡门卡门（其撤退阈值：Hard 40%/17,600 HP、Normal 30%/13,200、Easy 20%/8,800）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话有月亮。",
+    "出击枠 15 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话·月线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话·X点线",
+   "slug": "stage-34x",
+   "zh": "这颗星球属于我们",
+   "ja": "この星は僕らのものだ",
+   "en": "Scenario 34: The Earth Belongs to Us",
+   "route": "未来编·X点线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第33话·X点线后进入。",
+   "victory": [
+    "击破吉尔吉刚（第 2 回合时即使未达成条件也会变更）",
+    "3 回合内击破吉尔吉刚",
+    "歼灭全部敌人（加莱利被击坠时敌军全体撤退）",
+    "击破贝尔格尔米尔（埃格雷特·苏利萨兹撤退时本话结束）"
+   ],
+   "defeat": [
+    "我方任一单位被击破（第一阶段）",
+    "3 回合内未击破吉尔吉刚、或我方任一单位被击破（第二阶段）",
+    "钢铁齿轮被击破或我方全灭（第三、四阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破贝尔格尔米尔（埃格雷特·苏利萨兹）。其撤退 HP 阈值：Easy 20% / Normal 25% / Hard 30%"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤12 → 60,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉尔吉刚被击破前，仅孔巴特拉V与波尔特斯V可以行动（据 Akurasu 流程图）"
+   ],
+   "events": [
+    "出击枠 12 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话·X点线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话·月线",
+   "slug": "stage-35m",
+   "zh": "我是D.O.M.E.——封印黑历史者",
+   "ja": "私はD.O.M.E.…黒歴史を封印する者",
+   "en": "Scenario 35: I am D.O.M.E.... Keeper of the Black History",
+   "route": "未来编·月线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第34话·月线后进入。",
+   "victory": [
+    "让拉·凯拉姆抵达目的地"
+   ],
+   "defeat": [
+    "拉·凯拉姆被击破、使用任何 MAP 武器、乌索被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内让拉·凯拉姆抵达目的地"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤28 → 100,000 资金；≤12 → 100,000 资金、米诺夫斯基驱动、超级修理包、HPHGCP。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "米诺夫斯基驱动、超级修理包、HPHGCP（熟练度 ≤12 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话无月亮。",
+    "出击枠 14 台（据 Akurasu 流程图）。",
+    "警告（Akurasu 流程图注记）：摇篮由 G 比特型敌人守卫，击破一台会再增援两台；击破过多会使增援单位数超出游戏处理上限、在本话结束时引发崩溃——切勿贪杀。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话·月线（第37话起与X点线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话·X点线",
+   "slug": "stage-35x",
+   "zh": "战斗神降临",
+   "ja": "戦闘神降臨",
+   "en": "Scenario 35: Advent of the War God",
+   "route": "未来编·X点线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第34话·X点线后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "歼灭全部敌人（卡门卡门撤退时条件变更）",
+    "击破 Turn X（其 HP 降至 50% 以下、或第 9 回合结束时敌军全体撤退）"
+   ],
+   "defeat": [
+    "三个阶段均为：战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破卡门卡门（其在第 6 敌方回合、HP 降至 30% 以下、或成为场上唯一敌人时撤退）；或在第 9 回合结束前把 Turn X 的 HP 打到 50% 以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤28 → 100,000 资金；≤12 → 100,000 资金、米诺夫斯基驱动、超级修理包、HPHGCP。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "米诺夫斯基驱动、超级修理包、HPHGCP（熟练度 ≤12 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "过关后：分歧前的全部单位归队；阿伽马→拉·凯拉姆（布莱德）、百式改→全装甲百式改、V2高达取得破坏者模块、贝鲁迪戈（卡里斯）、（恩尼尔）、VF 各机升级为 (S) 型（与第32话·月线的结算相同）"
+   ],
+   "events": [
+    "出击枠 14 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话·X点线（第37话起与月线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话·月线",
+   "slug": "stage-36m",
+   "zh": "被夺走的真盖塔机器人",
+   "ja": "奪われた真・ゲッターロボ",
+   "en": "Scenario 36: Shin Getter Robo, Stolen",
+   "route": "未来编·月线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第35话·月线后进入。",
+   "victory": [
+    "前半：(1) 让甲儿以外的全体我方单位抵达地图边缘；(2) 歼灭全部敌人（场上剩 8 台敌人、巴特乘真盖塔出现时前半结束）",
+    "后半：把真盖塔机器人（巴特将军）的 HP 打到 Easy 30% / Normal 20% / Hard 10% 以下，并让铁也移动到甲儿旁边"
+   ],
+   "defeat": [
+    "前半：(1) 我方任一单位被击破；(2) 甲儿被击破",
+    "后半：(1) 龙马/隼人/弁庆或铁也被击破；(2) 拉·凯拉姆被击破、龙马/隼人/弁庆或铁也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "先歼灭全部杂兵，再把真盖塔机器人的 HP 打到规定量以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤29 → 50,000 资金、1000 BS；≤13 → 100,000 资金、1000 BS、米诺夫斯基飞行器、高性能瞄准器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "米诺夫斯基飞行器、高性能瞄准器（熟练度 ≤13 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "前半：魔神Z（甲儿）、黛安娜A（沙也加）、盖塔1（武藏）、布鲁加（神宫寺）、战舰水手（千鹤）、战舰飞艇（小介）；分歧前的其他单位不可用",
+    "后半：大魔神（铁也）、盖塔龙（龙马、隼人、弁庆）、莱汀（洸）、金星A（纯）、老板机器人（老板）、魔神Z（甲儿）〔不可动的 NPC〕→换乘魔神凯撒（甲儿）",
+    "过关后：分歧另一侧的全部单位与强化归队；盖塔龙→真盖塔1（龙马、隼人、弁庆）或强化型盖塔龙（二选一，见隐藏要素）；强化型魔神Z（数值见隐藏要素）；高达双X 取得蒂法副驾驶与「G比特（FX-9800）」——蒂法链完成时；高达X 取得「G比特（FX-9800）」；隆圣的量产型机体→R-1改（隆圣）；第 3 次山岳周期（按熟练度）：Easy ≤10 → GP02、哈罗；Normal 11–27 → 诺耶·吉尔、米诺夫斯基飞行器；Hard ≥28 → 吉翁号、毁灭高达（原文 Destroid Monster）"
+   ],
+   "events": [
+    "月相：本话有月亮。",
+    "出击枠：前半无（固定成员）、后半 10 台（据 Akurasu 流程图）。",
+    "警告（Akurasu 流程图注记）：第 3 次山岳周期的 Hard 档奖励在超时空要塞系角色自动出击时有崩溃风险。"
+   ],
+   "secrets": [
+    "强化型魔神Z：后半让铁也移动到魔神Z旁边——流程图作「在魔神Z被击破前」，Secrets 图表/详解作「在甲儿的 HP 降至 10% 以下前」，两说并记（见备注）。强化内容：HP +500、EN +10、速度 +10、上限 +10、基础攻击 +300，追加「卷钢线铁拳」（原文 Windup Rocket Punch）；全改造奖励由 1,200 变为 1,000。",
+    "真盖塔／强化型盖塔（二选一）：后半击破真盖塔机器人 → 得强化型盖塔龙；不击破（压低 HP 留存）→ 得真盖塔。措辞分歧见备注。强化型盖塔龙：HP +500、EN +20、基础攻击 +400；全改造奖励由 1,000 变为 800。",
+    "山岳周期（后半）：按难度三档（内容见过关后结算）。"
+   ],
+   "unlocks": [
+    "进入第37话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本话两处措辞分歧（Akurasu 内部）：(1) 强化魔神Z 的时机——流程图 “Move Tetsuya adjacent to Mazinger Z before it is defeated”，Secrets 作 “before Kouji's HP falls below 10%”，本站并记、实机从严按 10% 执行更稳妥；(2) 真盖塔的取得——流程图作「击破真盖塔1 得强化型盖塔龙；低 HP 留存得真盖塔」，Secrets 图表作「击破得强化型盖塔G；HP 打到 10% 以下得真盖塔」，Secrets 详解作「击破得强化型盖塔G；不击破通关得真盖塔本体」，三种表述并记。另机体名在各页间有 Getter Dragon / Getter Robo G / Getter G 的写法差异，指同一机体谱系。"
+  },
+  {
+   "code": "第36话·X点线",
+   "slug": "stage-36x",
+   "zh": "真盖塔机器人对魔神凯撒",
+   "ja": "真・ゲッターロボ対マジンカイザー",
+   "en": "Scenario 36: Shin Getter Robo Vs. Mazinkaiser",
+   "route": "未来编·X点线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第35话·X点线后进入。",
+   "victory": [
+    "前半：(1) 守住山岳周期并歼灭全部敌人；(2) 把魔神凯撒（戈尔贡大公）的 HP 打到 Easy 30% / Normal 20% / Hard 10% 以下，并让甲儿移动到其旁边",
+    "后半：把真盖塔（巴特将军）的 HP 打到 Easy 30% / Normal 20% / Hard 10% 以下"
+   ],
+   "defeat": [
+    "前半：(1) 敌人抵达山岳周期、甲儿或铁也被击破、战舰被击破或我方全灭；(2) 甲儿或铁也被击破、魔神凯撒被击破、战舰被击破或我方全灭",
+    "后半：甲儿、龙马/隼人/弁庆或罗兰被击破、战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半击破米凯洛斯（流程图原文作 “Mycelos”，指第8话的米凯洛斯同型机）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤29 → 50,000 资金、1000 BS；≤13 → 100,000 资金、1000 BS、米诺夫斯基飞行器、高性能瞄准器。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "米诺夫斯基飞行器、高性能瞄准器（熟练度 ≤13 时的通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "前半：盖塔龙不可用",
+    "后半：魔神凯撒（甲儿）；大魔神不可用",
+    "过关后：强化型魔神Z（数值与月线版同）；盖塔龙→真盖塔1 或强化型盖塔龙（二选一）；隆圣机体→R-1改；第 3 次山岳周期（与月线版同档：≤10 GP02/哈罗；11–27 诺耶·吉尔/米诺夫斯基飞行器；≥28 吉翁号/毁灭高达）"
+   ],
+   "events": [
+    "月相：前半无月亮、后半有月亮。",
+    "出击枠：前半 13 台、后半 13 台（据 Akurasu 流程图）。"
+   ],
+   "secrets": [
+    "强化型魔神Z：前半把魔神凯撒的 HP 打到规定量以下后，让甲儿移动到其旁边（本版本的操作与月线版不同）。",
+    "真盖塔／强化型盖塔（二选一）：后半击破真盖塔 → 强化型盖塔龙；压低 HP 不击破 → 真盖塔（措辞分歧见第36话·月线页备注）。",
+    "山岳周期（后半）：按难度三档（内容见过关后结算）。"
+   ],
+   "unlocks": [
+    "进入第37话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "这正是我们渴求的战争",
+   "ja": "僕らが求めた戦争だ",
+   "en": "Scenario 37: This Is the War We Sought",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "第36话两线在本话合流。",
+   "victory": [
+    "守住拉·凯拉姆并歼灭全部敌人（其他敌人全灭、或夏基亚/奥尔巴 HP 降至 30% 以下时两人撤退）"
+   ],
+   "defeat": [
+    "拉·凯拉姆受到伤害、所选战舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "同时击破巴萨克高达（夏基亚）与阿什塔隆高达（奥尔巴）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。「同时击破」指在同一阶段内相继击破两人——若先击破一人，另一人的撤退条件与其他敌全灭挂钩，须控制击破顺序（据 Akurasu 熟练度条件原文）。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤13 → 80,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "拉·凯拉姆（布莱德）〔不能移动、攻击与使用精神〕、卡布尔（科林）",
+    "出击前：弗里登（莎拉、新吾、彤娅）",
+    "过关后：索莱尤（戴安娜、米兰）、苏摩（波）"
+   ],
+   "events": [
+    "月相：未取得「蒂法与 G 比特」时本话有月亮（据 Akurasu 流程图）。",
+    "出击枠：战舰 1＋12 台（据 Akurasu 流程图）。",
+    "本话败北条件含「拉·凯拉姆受到伤害」——拉·凯拉姆不能行动，务必用机体墙封住敌方射线。"
+   ],
+   "secrets": [
+    "哈罗：在 Easy 与 Hard 难度下，位于出击点附近的山岳周期中（据 Akurasu 流程图）。",
+    "科林与红卡布尔（链条结算）：完成红卡布尔链（第13话不去塞文堡→第17话→第31话走月线→第32话）后，科林在本话乘红卡布尔作为我方登场并加入。"
+   ],
+   "unlocks": [
+    "进入第38话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "月光蝶",
+   "ja": "月光蝶",
+   "en": "Scenario 38: Moonlight Butterfly",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第37话后进入。",
+   "victory": [
+    "前半：歼灭全部敌人",
+    "后半：在 Easy 17 / Normal 13 / Hard 10 回合内击破 Turn X"
+   ],
+   "defeat": [
+    "前半：罗兰被击破、旗舰被击破或我方全灭",
+    "后半：超过回合上限未击破 Turn X、旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "9 回合内歼灭哥特拉坦（卡特吉娜）以外的全部初期敌人；或先把哥特拉坦打至低 HP/击破后，9 回合内歼灭含增援在内的全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤13 → 80,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "∀高达强化：HP +500、EN +30、速度 +5、装甲 +300、上限 +10，取得光束驱动单元，并追加「月光蝶」与「月光蝶（MAP）」武装（据 Akurasu 流程图）"
+   ],
+   "events": [
+    "月相：前半有月亮；后半在本话结束时熟练度 ≤29 时有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第39话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "决战！X据点",
+   "ja": "決戦！Xポイント",
+   "en": "Scenario 39: Showdown at X-Point!",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第38话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "把核导弹的 HP 打到 Easy 30% / Normal 20% / Hard 10% 以下"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭（第一阶段）",
+    "核导弹离开地图、核导弹被击破、旗舰被击破或我方全灭（第二阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "核导弹发射后，在击破卡希姆之前、3 回合内把全部核导弹的 HP 打到规定量以下"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤32 → 150,000 资金、3000 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（艾尔琪在本话后可正式化，见隐藏要素）",
+    "强化型Z高达（结算见隐藏要素）"
+   ],
+   "events": [
+    "月相：由玩家在本话开始前选择白天或夜间作战决定（据 Akurasu 流程图）。",
+    "警告（Akurasu 流程图注记）：强化型Z高达的触发要求 Z高达 不处于冲浪者形态，操作不当时可能引发游戏崩溃。"
+   ],
+   "secrets": [
+    "强化型Z高达：出击乘 Z高达的卡缪，把精神感应高达Mk-II 的 HP 打到 50% 以下但不要击破（Z高达 不能处于冲浪者形态）。强化内容：HP +400、EN +50、速度 +15、装甲 +100、上限 +20，追加「冲浪者突击」；光束剑与光束步枪攻击力 −100。若未达成，罗莎米亚存活并出现在幕间剧情中。",
+    "黑巷与艾尔琪（链条结算）：完成第29→30→31（X点线）→33 的说得链后，本话过后艾尔琪乘黑巷正式加入；未完成时她只作钢铁齿轮的副驾驶（驾驶员版的精神构成不同）。"
+   ],
+   "unlocks": [
+    "进入第40话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "永别了",
+   "ja": "ABAYO",
+   "en": "Scenario 40: ABAYO",
+   "route": "未来编（行星佐拉·共通）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第39话后进入。本话结束时的累计熟练度是终盘三线分歧的第一判定点。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破第一台卡门卡门后，在 Hard 2 / Normal 3 / Easy 4 回合内击破其余全部卡门卡门"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：熟练度 ≤11 → 200,000 资金、2000 BS。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话结束时熟练度 ≤23 时有月亮。",
+    "本话结束判定：累计熟练度 ≤11 → Easy 线（第41话《恐龙帝国灭亡之日》）；≥12 → 第41话《黑历史的终焉》，并在第41话结束时再按 ≥33 / 12–32 分 Hard / Normal 线。"
+   ],
+   "secrets": [
+    "戴坦3 的额外驾驶员：以熟练度低于 23 出击戴坦3——加里森、丽华、拓波在本话内成为万丈的副驾驶（仅本话）。",
+    "桑格与史雷德盖尔米尔·其一：击坠史雷德盖尔米尔，且本话结束时熟练度须 ≥12（后续链见第41话·熟练度12以上、第43话）。"
+   ],
+   "unlocks": [
+    "第41话·熟练度12以上《黑历史的终焉》或第41话·熟练度11以下《恐龙帝国灭亡之日》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话·熟练度12以上",
+   "slug": "stage-41h",
+   "zh": "黑历史的终焉",
+   "ja": "黒歴史の終焉",
+   "en": "Scenario 41: The Black History's Demise",
+   "route": "未来编·终盘（Normal/Hard 共通线）",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第40话结束时累计熟练度 ≥12。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "同时击破巴萨克高达（夏基亚）与阿什塔隆高达（奥尔巴）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：100,000 资金（无熟练度门槛档，据 Akurasu 流程图）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话结束时熟练度 ≤31 时有月亮。",
+    "本话结束判定：累计熟练度 ≥33 → Hard 线（第42话《巨龙灭亡之日》→第43、44话→最终话《诸神黄昏》）；12–32 → Normal 线（第42话《地球的后继者》→最终话《在时光流逝的尽头》）。"
+   ],
+   "secrets": [
+    "桑格与史雷德盖尔米尔（链条节点）：本话结束时熟练度须 ≥33（与第40话击坠史雷德盖尔米尔、第43话前半再击坠三点成链，桑格仅在 Hard 线加入）。"
+   ],
+   "unlocks": [
+    "第42话·Hard《巨龙灭亡之日》或第42话·Normal《地球的后继者》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话·熟练度11以下",
+   "slug": "stage-41e",
+   "zh": "恐龙帝国灭亡之日",
+   "ja": "恐竜帝国の滅びる日",
+   "en": "Scenario 41: Fall of the Dinosaur Empire",
+   "route": "未来编·终盘Easy线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第40话结束时累计熟练度 ≤11（Easy 线）。",
+   "victory": [
+    "前半：让辉、福卡、勇三人存活 3 回合，或歼灭全部敌人",
+    "后半：歼灭全部敌人"
+   ],
+   "defeat": [
+    "前半：我方任一单位被击破",
+    "后半：旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭前半全部敌人"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：200,000 资金（无熟练度门槛档，据 Akurasu 流程图）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第42话·Easy《扭曲的未来》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第42话·Hard",
+   "slug": "stage-42h",
+   "zh": "巨龙灭亡之日",
+   "ja": "竜が滅びる日",
+   "en": "Scenario 42: Fall of the Dragon",
+   "route": "未来编·终盘Hard线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第41话结束时累计熟练度 ≥33（Hard 线）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "先歼灭全部杂兵，最后再击破戴（戈尔）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：50,000 资金（无熟练度门槛档，据 Akurasu 流程图）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话结束时熟练度 ≤38 时有月亮。"
+   ],
+   "secrets": [
+    "秘密部件·哈罗：让单位移动到坐标 (3,4)（Akurasu 原文以左上为 (0,0) 记载并附地图图链；本站换算为 (1,1) 原点的 (4,5)，已标注在下方地图）——该点位于森林/山地区域。"
+   ],
+   "unlocks": [
+    "进入第43话·Hard"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与逐格地形；下方为带四边坐标轴的参照框架（不代表实际地图尺寸）。但本关有一个已刊载坐标的秘密部件点位：Akurasu 流程图记载哈罗位于 (3,4)（其原点为左上 (0,0)），本站已换算为 (1,1) 原点的 (4,5) 并标注在图上；其余单位位置与地形仍待核实。",
+    "verifiedPoints": [
+     {
+      "x": 4,
+      "y": 5,
+      "kind": "隐藏道具",
+      "label": "秘密部件：哈罗（Akurasu 记载 (3,4)@(0,0) 原点，本站换算 (4,5)；位于森林/山地区域）"
+     }
+    ],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第42话·Normal",
+   "slug": "stage-42n",
+   "zh": "地球的后继者",
+   "ja": "地球の後継者",
+   "en": "Scenario 42: Earth's Successors",
+   "route": "未来编·终盘Normal线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第41话结束时累计熟练度为 12–32（Normal 线）。",
+   "victory": [
+    "待核实（见备注）"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭全部贝尔格尔米尔后，再击破史雷德盖尔米尔（桑格）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：100,000 资金；本话结束时熟练度 ≤24 时追加 100,000 资金。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话结束时熟练度 ≤24 时有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入最终话·Normal"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": "本话的胜利条件在 Akurasu 流程图原文中即写作「???」——主源本身未刊载，本站如实标待核实、绝不杜撰（这是全作唯一连主源都没有胜利条件的关卡）。据流程图的熟练度条件与剧情位置推测与击破史雷德盖尔米尔有关，但未经刊载证实，不写入条件栏。"
+  },
+  {
+   "code": "第42话·Easy",
+   "slug": "stage-42e",
+   "zh": "扭曲的未来",
+   "ja": "歪んだ未来",
+   "en": "Scenario 42: Distorted Future",
+   "route": "未来编·终盘Easy线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第41话结束时累计熟练度 ≤11（Easy 线）。",
+   "victory": [
+    "让旗舰抵达目的地"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "9 回合内通关本话"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：200,000 资金、超级修理包。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "超级修理包（通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "月相：本话有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入最终话·Easy"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第43话·Hard",
+   "slug": "stage-43",
+   "zh": "人类必须灭亡",
+   "ja": "人類死すべし",
+   "en": "Scenario 43: Mankind Must Perish",
+   "route": "未来编·终盘Hard线",
+   "area": "",
+   "type": "熟练度分歧",
+   "prerequisite": "第41话结束时累计熟练度 ≥33（Hard 线），通关第42话·Hard 后进入。",
+   "victory": [
+    "前半：8 回合内让旗舰抵达目的地",
+    "后半：(1) 击破安苏兹与苏利萨兹；(2) 击破奥尔格尔米尔"
+   ],
+   "defeat": [
+    "前半：8 回合内未抵达目的地、旗舰被击破或我方全灭",
+    "后半：旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "前半击坠史雷德盖尔米尔，或后半击破奥尔格尔米尔（任一即可）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：100,000 资金（无熟练度门槛档，据 Akurasu 流程图）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "史雷德盖尔米尔（桑格）——按下条隐藏要素在本话后半正式加入"
+   ],
+   "events": [
+    "月相：前半在本话结束时熟练度 ≤39 时有月亮；后半有月亮。"
+   ],
+   "secrets": [
+    "桑格与史雷德盖尔米尔·其二（仅 Hard 线）：前半击坠史雷德盖尔米尔——桑格在后半正式加入。前置：第40话击坠史雷德盖尔米尔且该话结束时熟练度 ≥12、第41话结束时熟练度 ≥33。桑格是 α 系列日后 OG 的重要角色，其斩舰刀与史雷德盖尔米尔（古伦加斯特参式被机械细胞变貌的机体）均首登场于本作本线。"
+   ],
+   "unlocks": [
+    "进入第44话·Hard"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第44话·Hard",
+   "slug": "stage-44",
+   "zh": "未来为了谁",
+   "ja": "未来は誰のために",
+   "en": "Scenario 44: For Whom Does the Future Exist",
+   "route": "现代编·归还后（Hard线）",
+   "area": "",
+   "type": "通常关",
+   "prerequisite": "通关第43话·Hard 后，队伍返回现代（新西历）——可玩的「归还后现代编」只存在于 Hard 线。",
+   "victory": [
+    "击破奥尔格尔米尔，并守住微波中继站"
+   ],
+   "defeat": [
+    "任一敌人抵达微波中继站、旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "9 回合内击破奥尔格尔米尔（马格斯）"
+   ],
+   "srNote": "本作熟练度每话至多 +1、只增不减、不可为负（与《α》可大幅增减的规则不同）；取得条件不在游戏内显示，只在取得时弹出消息。",
+   "rewards": {
+    "funds": "通关奖励（Clear Bonus）：200,000 资金、超级修理包。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "超级修理包（通关奖励）"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "量产型亡灵Mk-II（伊尔姆）、量产型亡灵Mk-II（莱）、量产型凶鸟Mk-II（莱薇）、R-3强化型（彩）、强化Jr.号（哥梅斯）、亚历山大（汉肯）——留在现代的成员在本话归队"
+   ],
+   "events": [
+    "月相：本话有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入最终话·Hard《诸神黄昏》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话·Hard",
+   "slug": "stage-final-h",
+   "zh": "诸神黄昏",
+   "ja": "ラグナロク",
+   "en": "Final Scenario: Ragnarok",
+   "route": "现代编·归还后（Hard线最终话）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第44话·Hard 后进入（Hard 线专属最终话）。",
+   "victory": [
+    "击坠愁（舒），并守住微波中继站"
+   ],
+   "defeat": [
+    "敌人抵达微波中继站、旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话无熟练度取得（Akurasu 流程图未列）。",
+   "rewards": {
+    "funds": "通关奖励：Hard 通关后，以本作通关存档开始新周目时起始资金 +2,000,000（周回特典，见本作主页）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "真盖塔机器人（龙马、隼人、弁庆）——按第36话的取得情况以真盖塔出击（见隐藏要素）"
+   ],
+   "events": [
+    "月相：本话有月亮。",
+    "最终 Boss 为白河愁（新古兰森）——日文维基的原创角色条目明言愁是 Hard 线的最终 Boss；Easy/Normal 线的最终 Boss 为马格斯（奥尔格尔米尔）。第3次α官方故事说明以本线（Hard）的结局为 α 系列正史。"
+   ],
+   "secrets": [
+    "真盖塔机器人：第36话若取得的是「强化型盖塔G」而非真盖塔，本话中强化型盖塔G 会自动变为真盖塔机器人出击（据 Akurasu Secrets）。",
+    "塞巴斯塔完全凭依：让塞巴斯塔与新古兰森交战——事件中正树的气力自动变为最大（据 Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "Hard 结局（α 系列官方正史口径）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话·Normal",
+   "slug": "stage-final-n",
+   "zh": "在时光流逝的尽头",
+   "ja": "時の流れの果てに",
+   "en": "Final Scenario: Beyond the Flow of Time",
+   "route": "未来编·终盘Normal线（最终话）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第42话·Normal 后进入（Normal 线最终话）。",
+   "victory": [
+    "前半：(1) 击破安苏兹与苏利萨兹；(2) 击破奥尔格尔米尔",
+    "后半：击破奥尔格尔米尔"
+   ],
+   "defeat": [
+    "前半、后半均为：旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话无熟练度取得（Akurasu 流程图未列）。",
+   "rewards": {
+    "funds": "通关奖励：Normal 通关后，以本作通关存档开始新周目时起始资金 +1,500,000（周回特典，见本作主页）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "最终 Boss 为祖先（アンセスター）首领马格斯（奥尔格尔米尔）（据日文维基原创角色条目：马格斯是 Easy/Normal 线的最终 Boss）。",
+    "月相：Akurasu 流程图在本话栏记「前半有月亮」，原文在此处截断，后半未明——本站照录。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "Normal 结局"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话·Easy",
+   "slug": "stage-final-e",
+   "zh": "眠于大地深处",
+   "ja": "眠れ、地の底に",
+   "en": "Final Scenario: Sleep, Within the Soil",
+   "route": "未来编·终盘Easy线（最终话）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第42话·Easy 后进入（Easy 线最终话）。",
+   "victory": [
+    "击破安苏兹与苏利萨兹",
+    "击破奥尔格尔米尔"
+   ],
+   "defeat": [
+    "旗舰被击破或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话无熟练度取得（Akurasu 流程图未列）。",
+   "rewards": {
+    "funds": "通关奖励：Easy 通关后，以本作通关存档开始新周目时起始资金 +1,000,000（周回特典，见本作主页）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "最终 Boss 为马格斯（奥尔格尔米尔）（据日文维基原创角色条目）。",
+    "月相：本话有月亮。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "Easy 结局"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）；Akurasu 流程图只列胜败条件、熟练度、隐藏要素、机体加入、通关奖励与出击枠，不公布逐关敌方配置表与坐标；s-rpg-navi 经检索没有本作分区（与《F完结编》不同，无单来源敌编成表可导入）；GameFAQs 的本作指南（翻译指南、机体表、隐藏要素、剧情流程）均无逐关敌配置；日文攻略 Wiki 类站点无本作专页——已查到的公开来源没有任何逐关初期配置/等级/坐标数据（仅纸质攻略本有载）——为免杜撰，敌方配置与增援一律标待核实（若日后找到来源再补录）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关地图尺寸与地形数据；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位位置、逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Flow Chart（全关卡流程、胜败条件、熟练度条件、机体加入与隐藏要素总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》Secrets（隐藏要素分项条件与熟练度分档奖励表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Alpha Gaiden》主条目（发售信息与可玩剧本数 69）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_Gaiden"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

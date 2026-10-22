@@ -1,0 +1,724 @@
+{
+ "groups": [
+  {
+   "title": "现代编·共通（第1–3话）",
+   "intro": "新西历187年，伊基斯计划防卫战。现代编的队伍在第9话后被送往未来。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "战火再起",
+     "ja": "戦火、再び",
+     "en": "Scenario 1: War, Again",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "甘受污名",
+     "ja": "あえて汚名を",
+     "en": "Scenario 2: Bearing Disgrace",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "胜利的V手势",
+     "ja": "勝利へのVサイン",
+     "en": "Scenario 3: V-Sign to Victory",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "现代编·第4–6话（第3话后分歧）",
+   "intro": "乘强化Jr.号的月线（高达系）与随阿伽马的极东线（超级系），第7话合流。",
+   "rows": [
+    {
+     "code": "第4话·月线",
+     "zh": "第13个星座",
+     "ja": "１３番目の星座",
+     "en": "Scenario 4: The 13th Constellation",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·极东线",
+     "zh": "正义与我同在",
+     "ja": "正義は我にあり",
+     "en": "Scenario 4: Justice is With Us",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·月线",
+     "zh": "月之摇篮",
+     "ja": "月のゆりかご",
+     "en": "Scenario 5: The Moon Cradle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·极东线",
+     "zh": "解开锁链",
+     "ja": "鎖を解き放て",
+     "en": "Scenario 5: Break the Chains",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·月线",
+     "zh": "无情的J9",
+     "ja": "情け無用のJ９",
+     "en": "Scenario 6: The Merciless J9",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·极东线",
+     "zh": "有召即至",
+     "ja": "お呼びとあらば即参上",
+     "en": "Scenario 6: They Appear When Called",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "现代编·合流与转折（第7–9话）",
+   "intro": "第7话有雇佣 J9 与否的同名两版本；第9话后半打倒新古兰森后，全队被送往未来，现代编结束。",
+   "rows": [
+    {
+     "code": "第7话·雇佣J9",
+     "zh": "无尽的圆舞曲",
+     "ja": "終わらない円舞曲",
+     "en": "Scenario 7: Endless Waltz",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·不雇佣J9",
+     "zh": "无尽的圆舞曲",
+     "ja": "終わらない円舞曲",
+     "en": "Scenario 7: Endless Waltz",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "努比亚的微笑",
+     "ja": "ヌビアは笑う",
+     "en": "Scenario 8: Nubia Laughs",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "愚者祭典",
+     "ja": "愚者の祭典",
+     "en": "Scenario 9: Festival of Fools",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·共通（第10–13话）",
+   "intro": "舞台转为荒废的未来地球（行星佐拉）。第11话的选择决定第12话版本。",
+   "rows": [
+    {
+     "code": "第10话",
+     "zh": "遥远的时光彼方",
+     "ja": "遥かなる時の彼方",
+     "en": "Scenario 10: Off in a Distant Time",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "为何破坏规矩",
+     "ja": "なんで掟を破るのさ",
+     "en": "Scenario 11: Why'd Ya Break the Law?",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·阻止吉隆",
+     "zh": "谜之伊诺森特",
+     "ja": "謎また謎のイノセント",
+     "en": "Scenario 12: The Mysterious, Unknown Innocent",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·不阻止吉隆",
+     "zh": "谜之伊诺森特",
+     "ja": "謎また謎のイノセント",
+     "en": "Scenario 12: The Mysterious, Unknown Innocent",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "无罪者圣域",
+     "ja": "罪なき者の聖域",
+     "en": "Scenario 13: Sanctum of the Innocent",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·第14–17话（第13话后分歧）",
+   "intro": "前往塞文堡（高达X线）与不去（∀线）两组版本。",
+   "rows": [
+    {
+     "code": "第14话·塞文堡线",
+     "zh": "月亮出来了吗",
+     "ja": "月は出ているか",
+     "en": "Scenario 14: Is the Moon Out?",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·不去塞文堡",
+     "zh": "不速之客",
+     "ja": "招かれざる客",
+     "en": "Scenario 14: Uninvited Guests",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·塞文堡线",
+     "zh": "赐予你力量",
+     "ja": "あなたに、力を・・・",
+     "en": "Scenario 15: I'll Give You Power...",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·不去塞文堡",
+     "zh": "戴安娜降临",
+     "ja": "ディアナ降臨",
+     "en": "Scenario 15: Diana's Advent",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·塞文堡线",
+     "zh": "我要卖高达",
+     "ja": "ガンダム、売るよ",
+     "en": "Scenario 16: I'll Sell the Gundam!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·不去塞文堡",
+     "zh": "罗拉·罗拉",
+     "ja": "ローラ＝ローラ",
+     "en": "Scenario 16: Laura Rolla",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·塞文堡线",
+     "zh": "月之民",
+     "ja": "月の民",
+     "en": "Scenario 17: The Moonrace",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·不去塞文堡",
+     "zh": "白色恶魔",
+     "ja": "白い悪魔",
+     "en": "Scenario 17: The White Devil",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·第18–20话（第17话后分歧）",
+   "intro": "前往塞文堡与留在周边两组版本，第21话合流；第20话结算第一次山岳周期（按熟练度分档）。",
+   "rows": [
+    {
+     "code": "第18话·塞文堡线",
+     "zh": "我是新人类",
+     "ja": "僕がニュータイプだ",
+     "en": "Scenario 18: I'm a Newtype!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·周边线",
+     "zh": "机械之兽",
+     "ja": "機械の獣たち",
+     "en": "Scenario 18: Mechanical Beasts",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·塞文堡线",
+     "zh": "共鸣之力",
+     "ja": "共鳴する力",
+     "en": "Scenario 19: Resonating Powers",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·周边线",
+     "zh": "百年之恋",
+     "ja": "百年の恋",
+     "en": "Scenario 19: A Century's Love",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·塞文堡线",
+     "zh": "来自过去的侵略",
+     "ja": "過去からの侵略",
+     "en": "Scenario 20: Invasion from the Past",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·周边线",
+     "zh": "黑历史的遗产",
+     "ja": "黒歴史の遺産",
+     "en": "Scenario 20: Relic from the Black History",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·共通（第21–25话）",
+   "intro": "第25话结束时的累计熟练度（≥15／≤14）决定下一组四话的版本。",
+   "rows": [
+    {
+     "code": "第21话",
+     "zh": "大地在我手",
+     "ja": "地上をこの手に",
+     "en": "Scenario 21: The Surface, in My Hands",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "神秘的陆上舰",
+     "ja": "謎のランドシップ",
+     "en": "Scenario 22: The Mysterious Landship",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "罗蕾莱之海",
+     "ja": "Loreleiの海",
+     "en": "Scenario 23: The Sea of Lorelei",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "大地守护神",
+     "ja": "大地の守護神",
+     "en": "Scenario 24: Guardian God of the Land",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "预感永别",
+     "ja": "もう逢えない気がして",
+     "en": "Scenario 25: I Feel Like We Won't Meet Again",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·第26–29话（熟练度分歧）",
+   "intro": "按第25话结束时熟练度分高低两组版本，第30话合流。",
+   "rows": [
+    {
+     "code": "第26话·熟练度15以上",
+     "zh": "向无尽的天空起誓",
+     "ja": "果てしなき大空に誓う",
+     "en": "Scenario 26: Vow to the Endless Skies",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·熟练度14以下",
+     "zh": "自暴自弃的拉格",
+     "ja": "破れかぶれのラグ",
+     "en": "Scenario 26: Wear-and-Tear Rag",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·熟练度15以上",
+     "zh": "霍拉的骨气",
+     "ja": "ホーラの意地",
+     "en": "Scenario 27: Horla's Will",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·熟练度14以下",
+     "zh": "舍身大激战",
+     "ja": "捨て身と捨て身の大戦闘",
+     "en": "Scenario 27: Dire, Perilous Battle",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·熟练度15以上",
+     "zh": "伊诺森特的黑历史",
+     "ja": "イノセントの黒歴史",
+     "en": "Scenario 28: The Black History of the Innocent",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·熟练度14以下",
+     "zh": "暗黑大将军的挑战",
+     "ja": "暗黒大将軍の挑戦",
+     "en": "Scenario 28: Ankoku Daishogun's Challenge",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·熟练度15以上",
+     "zh": "女人万华镜",
+     "ja": "女いろいろ万華鏡",
+     "en": "Scenario 29: Women, a Shifting Kaleidoscope",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·熟练度14以下",
+     "zh": "操纵女人心",
+     "ja": "女の心をあやつれば",
+     "en": "Scenario 29: When You Play with a Woman's Heart",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·合流（第30–31话）",
+   "intro": "第30话有正面攻击/奇袭两个同名版本，并结算卡碧尼链与 ν 高达分档；第31话后分月线/X点线。",
+   "rows": [
+    {
+     "code": "第30话·正面攻击",
+     "zh": "统治伊诺森特者",
+     "ja": "イノセントを統べる者",
+     "en": "Scenario 30: The Ruler of the Innocent",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·奇袭",
+     "zh": "统治伊诺森特者",
+     "ja": "イノセントを統べる者",
+     "en": "Scenario 30: The Ruler of the Innocent",
+     "type": "选择版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "灼烧天地的剑",
+     "ja": "天地を灼く剣",
+     "en": "Scenario 31: The Weapon That Scorches the Earth",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·第32–36话（第31话后分歧）",
+   "intro": "前往月球与前往 X 点两组版本，第37话合流；第36话结算真盖塔/魔神凯撒与第三次山岳周期。",
+   "rows": [
+    {
+     "code": "第32话·月线",
+     "zh": "飞吧，向着宇宙",
+     "ja": "飛べ、宇宙へ",
+     "en": "Scenario 32: Fly, to Space",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·X点线",
+     "zh": "隐形恐龙轰炸队",
+     "ja": "姿なき恐竜空爆隊",
+     "en": "Scenario 32: The Shifting Dinosaur Bomber Squad",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·月线",
+     "zh": "Turn X启动",
+     "ja": "ターンX起動",
+     "en": "Scenario 33: Turn X Activation",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·X点线",
+     "zh": "艾尔琪觉醒",
+     "ja": "エルチ目覚めよ",
+     "en": "Scenario 33: Elche, Wake Up!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·月线",
+     "zh": "跨越时空的对决",
+     "ja": "時を超えた対決",
+     "en": "Scenario 34: Confrontation Across Time",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·X点线",
+     "zh": "这颗星球属于我们",
+     "ja": "この星は僕らのものだ",
+     "en": "Scenario 34: The Earth Belongs to Us",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·月线",
+     "zh": "我是D.O.M.E.——封印黑历史者",
+     "ja": "私はD.O.M.E.…黒歴史を封印する者",
+     "en": "Scenario 35: I am D.O.M.E.... Keeper of the Black History",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·X点线",
+     "zh": "战斗神降临",
+     "ja": "戦闘神降臨",
+     "en": "Scenario 35: Advent of the War God",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·月线",
+     "zh": "被夺走的真盖塔机器人",
+     "ja": "奪われた真・ゲッターロボ",
+     "en": "Scenario 36: Shin Getter Robo, Stolen",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·X点线",
+     "zh": "真盖塔机器人对魔神凯撒",
+     "ja": "真・ゲッターロボ対マジンカイザー",
+     "en": "Scenario 36: Shin Getter Robo Vs. Mazinkaiser",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "未来编·终盘共通（第37–40话）",
+   "intro": "第40话结束时的累计熟练度是终盘三线分歧的第一判定点（≤11 Easy／≥12 继续）。",
+   "rows": [
+    {
+     "code": "第37话",
+     "zh": "这正是我们渴求的战争",
+     "ja": "僕らが求めた戦争だ",
+     "en": "Scenario 37: This Is the War We Sought",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "月光蝶",
+     "ja": "月光蝶",
+     "en": "Scenario 38: Moonlight Butterfly",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "决战！X据点",
+     "ja": "決戦！Xポイント",
+     "en": "Scenario 39: Showdown at X-Point!",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "永别了",
+     "ja": "ABAYO",
+     "en": "Scenario 40: ABAYO",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘分歧（第41话–最终话）",
+   "intro": "第41话结束时 ≥33 进 Hard 线（多第43、44话与现代最终战）、12–32 进 Normal 线、≤11 留在 Easy 线；三线各有自己的最终话与最终 Boss。",
+   "rows": [
+    {
+     "code": "第41话·熟练度12以上",
+     "zh": "黑历史的终焉",
+     "ja": "黒歴史の終焉",
+     "en": "Scenario 41: The Black History's Demise",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话·熟练度11以下",
+     "zh": "恐龙帝国灭亡之日",
+     "ja": "恐竜帝国の滅びる日",
+     "en": "Scenario 41: Fall of the Dinosaur Empire",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·Hard",
+     "zh": "巨龙灭亡之日",
+     "ja": "竜が滅びる日",
+     "en": "Scenario 42: Fall of the Dragon",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·Normal",
+     "zh": "地球的后继者",
+     "ja": "地球の後継者",
+     "en": "Scenario 42: Earth's Successors",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·Easy",
+     "zh": "扭曲的未来",
+     "ja": "歪んだ未来",
+     "en": "Scenario 42: Distorted Future",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·Hard",
+     "zh": "人类必须灭亡",
+     "ja": "人類死すべし",
+     "en": "Scenario 43: Mankind Must Perish",
+     "type": "熟练度分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·Hard",
+     "zh": "未来为了谁",
+     "ja": "未来は誰のために",
+     "en": "Scenario 44: For Whom Does the Future Exist",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·Hard",
+     "zh": "诸神黄昏",
+     "ja": "ラグナロク",
+     "en": "Final Scenario: Ragnarok",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·Normal",
+     "zh": "在时光流逝的尽头",
+     "ja": "時の流れの果てに",
+     "en": "Final Scenario: Beyond the Flow of Time",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·Easy",
+     "zh": "眠于大地深处",
+     "ja": "眠れ、地の底に",
+     "en": "Final Scenario: Sleep, Within the Soil",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
