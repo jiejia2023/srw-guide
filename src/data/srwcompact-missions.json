@@ -1,0 +1,2631 @@
+{
+ "missions": [
+  {
+   "code": "1-1",
+   "slug": "stage-1-1",
+   "zh": "奥拉之路",
+   "ja": "オーラロード",
+   "en": "Aura Road",
+   "route": "第1章 心之故乡",
+   "area": "德雷克城",
+   "type": "开场关",
+   "prerequisite": "第 1 章的开场关，固定为全流程第 1 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：推进器、修理装置。",
+     "随机奖励（下列之一，在击破最后一个敌人时决定，可存档重刷）：推进器、超级推进器、阿波吉摩托、磁力涂层、生体感应器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "高达（阿姆罗·雷）、高达NT-1艾利克斯（克莉丝汀娜·麦肯锡）、高达Mk-II（艾玛·辛）、阿芙萝黛A（弓沙也加）随队参战。",
+    "丹拜因（翔·扎马、恰姆·华乌）、博坦（玛贝尔·弗洛赞）参战。",
+    "扎古II改（巴纳德·怀斯曼）——由克莉丝说得后即时加入（见隐藏要素）。"
+   ],
+   "events": [
+    "隆德·贝尔一行在阿加玛上被奥拉之路的光芒吞没，被召唤到异世界比斯顿威尔，落入德雷克·鲁夫特的城下。",
+    "敌方有夏亚的红色扎古与托德的丹拜因等奥拉战机；翔请求地上人协助突围，战斗由此开始。甲儿与浦木宏在本关不在队中（分别在 1-3、1-4 归队）。"
+   ],
+   "secrets": [
+    "巴尼说得：让克莉丝对相邻的巴尼使用「说得」，扎古II改（巴尼）即时加入我方。",
+    "夏亚说得（旗标）：让阿姆罗对夏亚使用「说得」——夏亚本人不会加入，但旗标成立后，在第 5 关（2-1）过关时会得到无驾驶员的夏亚专用扎古II。这是全作最早、也最容易漏掉的旗标。"
+   ],
+   "unlocks": [
+    "通关后第 1 章的自由选择关（1-2、1-3）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "全作开场：被召唤到比斯顿威尔；克莉丝说得巴尼、阿姆罗与夏亚的旗标都在本关。"
+  },
+  {
+   "code": "1-2",
+   "slug": "stage-1-2",
+   "zh": "强袭",
+   "ja": "強襲",
+   "en": "Assault",
+   "route": "第1章 心之故乡",
+   "area": "伦之海",
+   "type": "自由选择",
+   "prerequisite": "第 1 章的自由选择关之一：本章选择关（1-2、1-3）可按任意顺序攻略，分别占据全流程第 2～3 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：磁力涂层、推进剂罐。",
+     "顺序奖励：作为全流程第 2 关通关→资金 10000；作为第 3 关通关→推进剂罐S。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "博坦（尼尔）本关加入。"
+   ],
+   "events": [
+    "翔带众人躲到伦之海一带，德雷克军的巴恩率奥拉战机来袭，夏亚的扎古也在敌阵之中。",
+    "本关的顺序奖励与 1-3 互为镜像：先打本关拿资金，后打本关拿推进剂罐S——先看奖励再定顺序。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。"
+   ],
+   "unlocks": [
+    "若 1-3 尚未通关则继续 1-3；两关都通关后开放 1-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 1 章选择关之一：尼尔的博坦加入；奖励随顺序变化。"
+  },
+  {
+   "code": "1-3",
+   "slug": "stage-1-3",
+   "zh": "风暴之玉",
+   "ja": "嵐の玉",
+   "en": "Storm Sphere",
+   "route": "第1章 心之故乡",
+   "area": "加拉山",
+   "type": "自由选择",
+   "prerequisite": "第 1 章的自由选择关之一：本章选择关（1-2、1-3）可按任意顺序攻略，分别占据全流程第 2～3 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：推进器。",
+     "顺序奖励：作为全流程第 2 关通关→阿波吉摩托；作为第 3 关通关→乔巴姆装甲。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z（兜甲儿）、波士波罗特（波士）在第 3 回合我方阶段赶到并加入。"
+   ],
+   "events": [
+    "众人前往加拉山一带营救被囚的希拉女王；第 3 回合甲儿与波士乘魔神Z、波士波罗特赶到，德雷克军随即放出机械兽增援（加拉达K7 等）。",
+    "被「冻结」封存的魔神Z为何能出现——甲儿说它一直处于可出击状态；这支地上最强的战力就此归队。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）；第 3 回合的机械兽增援与我方增援同时到来，注意留好阵型。"
+   ],
+   "unlocks": [
+    "若 1-2 尚未通关则继续 1-2；两关都通关后开放 1-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 1 章选择关之一：魔神Z 与波士波罗特在第 3 回合归队。"
+  },
+  {
+   "code": "1-4",
+   "slug": "stage-1-4",
+   "zh": "拯救利姆鲁",
+   "ja": "リムル救出",
+   "en": "Rescue Elmelle",
+   "route": "第1章 心之故乡",
+   "area": "德雷克城",
+   "type": "收尾关",
+   "prerequisite": "第 1 章的收尾关，固定为全流程第 4 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置。",
+     "随机奖励（下列组合之一）：超级推进器＋磁力涂层／里普拉卡恩＋修理装置S／资金 20000＋米诺夫斯基飞行器／生体感应器＋推进剂罐／乔巴姆装甲＋阿波吉摩托。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "高达GP-01Fb（浦木宏）本关加入。",
+    "过关后加入：博坦（利姆鲁·鲁夫特）、莱内克（托德·吉尼斯）——需先在本关完成托德的说得（见隐藏要素）。"
+   ],
+   "events": [
+    "众人回到德雷克城救出利姆鲁，并寻找返回地上世界的方法；浦木宏乘 GP-01Fb 赶到汇合。",
+    "过关后众人再次被奥拉之路的光芒吞没，比斯顿威尔篇就此结束，舞台回到地球。"
+   ],
+   "secrets": [
+    "托德说得：让翔对托德使用「说得」——托德不会撤退，战后托德与莱内克正式加入我方。全作的托德线只有这一次机会。",
+    "随机奖励的组合中有「里普拉卡恩（奥拉战机，无驾驶员）＋修理装置S」——里普拉卡恩只能从本关的随机奖励得到，想要的话在本关击破最后一个敌人前存档重刷。"
+   ],
+   "unlocks": [
+    "通关后进入第 2 章（2-1）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 1 章收尾：救出利姆鲁、翔说得托德；过关后返回地球。"
+  },
+  {
+   "code": "2-1",
+   "slug": "stage-2-1",
+   "zh": "Z的征兆",
+   "ja": "サイン・オブ・ゼータ",
+   "en": "Sign of Zeta",
+   "route": "第2章 大地侵攻",
+   "area": "南美·贾布罗",
+   "type": "开场关",
+   "prerequisite": "第 2 章的开场关，固定为全流程第 5 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：乔巴姆装甲、精神感应框架。",
+     "随机奖励（下列之一）：磁力涂层、阿波吉摩托、生体感应器、推进器、超级推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "Z高达（卡缪·比丹）、梅塔斯（花·园丽）、里·格兹（巴宁格）在第 2 回合我方阶段赶到并加入。",
+    "过关后加入：夏亚专用扎古II（无驾驶员）——需在 1-1 成立夏亚说得旗标（见隐藏要素）。"
+   ],
+   "events": [
+    "众人回到地球的贾布罗上空，迎面是机械兽与恐龙帝国的混合部队；夏亚的扎古也出现在战场，但他在第 1 回合即撤退——不必、也无法追击。",
+    "第 2 回合卡缪等新锐高达系战力赶到。第 1 关留下的伏笔在本关结算。"
+   ],
+   "secrets": [
+    "夏亚专用扎古II 在本关结算：1-1 已让阿姆罗说得夏亚的话，过关后无驾驶员的夏亚专用扎古II 入库；没有说得过则永久错过。",
+    "夏亚本人会在本关第 1 回合撤退，这是剧情安排，与扎古II 的入手无关，不要为此读档。"
+   ],
+   "unlocks": [
+    "通关后第 2 章的自由选择关（2-2～2-5）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章开场：Z 高达队赶到；1-1 的夏亚旗标在本关结算。"
+  },
+  {
+   "code": "2-2",
+   "slug": "stage-2-2",
+   "zh": "洋溢的神秘之力",
+   "ja": "溢れる神秘の力",
+   "en": "Overflowing Mysterious Power",
+   "route": "第2章 大地侵攻",
+   "area": "木特隆研究所",
+   "type": "自由选择",
+   "prerequisite": "第 2 章的自由选择关之一：本章选择关（2-2～2-5）可按任意顺序攻略，分别占据全流程第 6～9 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：推进剂罐、推进剂罐S。",
+     "顺序奖励：作为第 6 关通关→资金 20000；第 7 关→资金 10000；第 8 关→米诺夫斯基飞行器；第 9 关→推进剂罐S。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "勇者莱汀（洸）、布鲁加（神宫寺）本关加入。"
+   ],
+   "events": [
+    "木特隆研究所一带出现妖魔帝国的部队，莱汀与布鲁加在此迎击并加入隆德·贝尔。",
+    "本关顺序奖励全是资金或消耗品，是第 2 章里最适合「早打」的选择关之一。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 2-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章选择关之一：莱汀与布鲁加加入。"
+  },
+  {
+   "code": "2-3",
+   "slug": "stage-2-3",
+   "zh": "紧急冲刺",
+   "ja": "スクランブル・ダッシュ",
+   "en": "Scramble Dash",
+   "route": "第2章 大地侵攻",
+   "area": "光子力研究所",
+   "type": "自由选择",
+   "prerequisite": "第 2 章的自由选择关之一：本章选择关（2-2～2-5）可按任意顺序攻略，分别占据全流程第 6～9 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：阿波吉摩托。",
+     "顺序奖励：作为第 6 关通关→推进剂罐S＋修理装置S；第 7 关→混合装甲＋磁力涂层；第 8 关→乔巴姆装甲＋生体感应器；第 9 关→超合金Z＋超级推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "大魔神（剑铁也）、维纳斯A（炎纯）本关加入。",
+    "米涅瓦X——由甲儿说得后即时加入（见隐藏要素）。"
+   ],
+   "events": [
+    "光子力研究所遭袭，大魔神与维纳斯A 出击迎敌并加入；敌阵中的米涅瓦X 是本关的关键。"
+   ],
+   "secrets": [
+    "米涅瓦X 说得：让甲儿（魔神Z 或大魔神均可，Akurasu 记为甲儿）对米涅瓦X 使用「说得」，她会即时加入我方——这是全作唯一入手米涅瓦X 的机会。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 2-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章选择关之一：大魔神加入；甲儿可说得米涅瓦X。"
+  },
+  {
+   "code": "2-4",
+   "slug": "stage-2-4",
+   "zh": "战场之爱",
+   "ja": "戦場の愛",
+   "en": "Love in the Battlefield",
+   "route": "第2章 大地侵攻",
+   "area": "市区",
+   "type": "自由选择",
+   "prerequisite": "第 2 章的自由选择关之一：本章选择关（2-2～2-5）可按任意顺序攻略，分别占据全流程第 6～9 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：超级推进器、修理装置。",
+     "顺序奖励：作为第 6 关通关→高性能雷达；第 7 关→卡碧尼Mk-II（机体，见隐藏要素）；第 8 关→抗光束涂层；第 9 关→生体感应器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "斗将戴莫斯（一矢）、加尔瓦FX-II（京四郎、娜娜）本关加入。",
+    "过关后加入：凤·村雨（驾驶员）——需在本关完成说得（见隐藏要素）；卡碧尼Mk-II（无驾驶员）——顺序奖励，需把本关作为全流程第 7 关通关。"
+   ],
+   "events": [
+    "市区的战斗中，戴莫斯与加尔瓦FX-II 加入；强化人凤·村雨驾驶卡碧尼Mk-II 出现在敌阵——她的命运取决于卡缪的说得与本关的攻略顺序。"
+   ],
+   "secrets": [
+    "凤说得：让卡缪对凤使用「说得」——凤会撤退，过关后作为驾驶员加入我方（她原本的机体不在此时入手）。",
+    "卡碧尼Mk-II（机体）：把本关作为全流程第 7 关（即第 2 章第二个打的选择关）通关时，作为顺序奖励得到无驾驶员的卡碧尼Mk-II。注意：Akurasu 隐藏要素页在此处括注「第三个选择关」，与其流程图的「第 7 关」记法矛盾（第 7 关实为第二个选择关）——本站以流程图的关数记法为准，照此安排顺序即可。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 2-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章选择关之一：戴莫斯加入；卡缪说得凤、顺序奖励的卡碧尼Mk-II 都在本关。"
+  },
+  {
+   "code": "2-5",
+   "slug": "stage-2-5",
+   "zh": "大激突",
+   "ja": "大激突",
+   "en": "Great Clash",
+   "route": "第2章 大地侵攻",
+   "area": "早乙女研究所",
+   "type": "自由选择",
+   "prerequisite": "第 2 章的自由选择关之一：本章选择关（2-2～2-5）可按任意顺序攻略，分别占据全流程第 6～9 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置、推进剂罐。",
+     "顺序奖励：作为第 6 关通关→磁力涂层；第 7 关→阿波吉摩托；第 8 关→资金 25000；第 9 关→V-UP 组件。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "德克萨斯麦克（杰克、玛丽）、盖塔1（流龙马、神隼人、巴武藏）、盖塔Q（早乙女美智流）本关加入。"
+   ],
+   "events": [
+    "早乙女研究所的防卫战：盖塔队与德克萨斯麦克在此正式归队——自开局被「冻结」封存的超级机器人至此基本到齐。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。作为第 9 关（最后打）通关可得 V-UP 组件，是本章顺序奖励里单价最高的部件，建议把顺序奖励的取舍放在 2-3、2-4 两关上规划。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 2-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章选择关之一：盖塔队与德克萨斯麦克归队。"
+  },
+  {
+   "code": "2-6",
+   "slug": "stage-2-6",
+   "zh": "残酷的童话",
+   "ja": "残酷な童話",
+   "en": "Cruel Fairy Tale",
+   "route": "第2章 大地侵攻",
+   "area": "西伊豆市",
+   "type": "收尾关",
+   "prerequisite": "第 2 章的收尾关，固定为全流程第 10 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "随机奖励（下列之一，无固定奖励）：法蒂玛、抗光束涂层、超合金新Z、高性能雷达、米诺夫斯基飞行器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "超兽机神丹戈加（藤原忍、结城沙罗、式部雅人、司马辽）本关加入。",
+    "过关后加入：百式（克瓦特罗·巴吉纳）；拉拉·辛成为副驾驶员。"
+   ],
+   "events": [
+    "西伊豆市的战斗以丹戈加的登场收尾；战后化名克瓦特罗的夏亚正式编入隆德·贝尔，拉拉也随同加入——吉翁已改组为新吉翁，舞台即将转回宇宙。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）；随机奖励池里有法蒂玛（全作顶级部件之一），想要的话在击破最后一个敌人前存档重刷。"
+   ],
+   "unlocks": [
+    "通关后进入第 3 章（3-1）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 2 章收尾：丹戈加加入、克瓦特罗（夏亚）与拉拉入队。"
+  },
+  {
+   "code": "3-1",
+   "slug": "stage-3-1",
+   "zh": "青蓝闪耀之炎",
+   "ja": "着く輝く炎で",
+   "en": "By The Shining Blue Flame",
+   "route": "第3章 殖民地国家",
+   "area": "地球近郊",
+   "type": "开场关",
+   "prerequisite": "第 3 章的开场关，固定为全流程第 11 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：乔巴姆装甲、推进剂罐S。",
+     "随机奖励（下列之一）：卡贝拉·迪特拉（机体）、GP-02A（机体）、资金 10000、生体感应器、乔巴姆装甲。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入；过关后的随机奖励可能得到无驾驶员的卡贝拉·迪特拉或 GP-02A（见奖励与隐藏要素）。"
+   ],
+   "events": [
+    "隆德·贝尔升空迎击新吉翁的先锋：西玛的卡贝拉·迪特拉与卡多的 GP-02A 出现在地球近郊。浦木宏与卡多——这对在上次大战中并肩的对手——在本关有一场关键的对话。",
+    "本关日文标题在 Akurasu 流程图中作「着く輝く炎で」，其英译为 By The Shining Blue Flame，本站中文名按英译取「青蓝闪耀之炎」。"
+   ],
+   "secrets": [
+    "卡多说得（第 1 步）：让浦木宏对卡多使用「说得」——卡多不会在本关加入，但这是 5-1（第 22 关）正式说得卡多的前置：Akurasu 注明此步非强制，但跳过它会让第 22 关的说得变得极难（卡多会在任意一次战斗动画后离场，必须赶在那之前连说两次）。强烈建议本关就做。",
+    "随机机体奖励：过关后的随机奖励池含卡贝拉·迪特拉与 GP-02A（二者只会其一，且与部件、资金同池）——想要机体的话在击破最后一个敌人前存档重刷。入手的机体性能不及本关敌方驾驶的版本。"
+   ],
+   "unlocks": [
+    "通关后第 3 章的自由选择关（3-2、3-3）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 3 章开场：迎击西玛与卡多；浦木宏对卡多的说得是跨章旗标的第 1 步。"
+  },
+  {
+   "code": "3-2",
+   "slug": "stage-3-2",
+   "zh": "普雷温特",
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "route": "第3章 殖民地国家",
+   "area": "殖民卫星L3·X18999",
+   "type": "自由选择",
+   "prerequisite": "第 3 章的自由选择关之一：本章选择关（3-2、3-3）可按任意顺序攻略，分别占据全流程第 12～13 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：超合金Z、阿波吉摩托。",
+     "顺序奖励：作为第 12 关通关→高性能雷达；作为第 13 关通关→生体感应器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "飞翼零式高达改（希罗·尤尔）、死神高达改（迪奥·麦克斯韦）在第 3 回合我方阶段赶到并加入。"
+   ],
+   "events": [
+    "玛莉梅亚·库什莉娜达在 X18999 殖民卫星宣布独立，隆德·贝尔前往镇压；殖民卫星内有特洛瓦与五飞的高达在敌方阵中。",
+    "第 3 回合，隶属治安维持组织「普雷温特」的希罗与迪奥赶到——五飞说得链的第一步在本关。"
+   ],
+   "secrets": [
+    "五飞说得（第 1 步，全三步）：让希罗对五飞使用「说得」。其后还须在 3-4 做第 2 步；两步都完成，五飞才会在 4-1 随增援登场并加入。缺任何一步，五飞与双头龙高达都无法入手。"
+   ],
+   "unlocks": [
+    "若 3-3 尚未通关则继续 3-3；两关都通关后开放 3-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 3 章选择关之一：飞翼零式改、死神高达改加入；希罗对五飞的说得是三步链的第 1 步。"
+  },
+  {
+   "code": "3-3",
+   "slug": "stage-3-3",
+   "zh": "新的力量",
+   "ja": "新たなる力",
+   "en": "A New Strength",
+   "route": "第3章 殖民地国家",
+   "area": "德克萨斯殖民卫星近郊",
+   "type": "自由选择",
+   "prerequisite": "第 3 章的自由选择关之一：本章选择关（3-2、3-3）可按任意顺序攻略，分别占据全流程第 12～13 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：混合装甲、推进剂罐。",
+     "顺序奖励：作为第 12 关通关→精神感应框架；作为第 13 关通关→抗光束涂层。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "ZZ高达（捷多·阿西塔）、超级高达（露·卢卡）本关加入（开场被围，第 3 回合我方主力赶到）。",
+    "过关后加入：莉娜·阿西塔（驾驶员）。"
+   ],
+   "events": [
+    "捷多与露驾驶能源耗尽的 ZZ 高达被新吉翁部队围困，隆德·贝尔在第 3 回合赶到救援——这是捷多与普露的初次交锋，但本关没有两人之间的说得，不要白费回合尝试。",
+    "战后，捷多的妹妹莉娜作为驾驶员加入。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目；普露的说得在 5-3）。"
+   ],
+   "unlocks": [
+    "若 3-2 尚未通关则继续 3-2；两关都通关后开放 3-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 3 章选择关之一：ZZ 高达与超级高达加入，莉娜成为驾驶员。"
+  },
+  {
+   "code": "3-4",
+   "slug": "stage-3-4",
+   "zh": "追梦者",
+   "ja": "ドリーマーズ",
+   "en": "Dreamers",
+   "route": "第3章 殖民地国家",
+   "area": "地球近郊",
+   "type": "收尾关",
+   "prerequisite": "第 3 章的收尾关，固定为全流程第 14 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：V-UP 组件、米诺夫斯基飞行器。",
+     "随机奖励（下列之一）：巴特·修（机体）、磁力涂层、生体感应器、混合装甲、抗光束涂层。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "艾尔盖姆Mk-II（达巴·迈罗德、莉莉丝）、艾尔盖姆（安姆）、迪扎德（卡奥）、诺贝尔·迪扎德（蕾茜）本关加入（第 5 回合登场）。",
+    "过关后的随机奖励可能得到无驾驶员的巴特·修（见隐藏要素）。"
+   ],
+   "events": [
+    "隆德·贝尔准备返回地球时遭五飞拦截；第 5 回合，一群来自异星系「彭塔加那世界」的机体——达巴一行的艾尔盖姆队——穿越虚空漂流到战场，波塞达尔军的增援（内伊、加布雷、哈沙）紧随其后杀到。",
+    "两个世界的战争自此交汇。第 3 章的收尾也是全作中盘的转折点。"
+   ],
+   "secrets": [
+    "五飞说得（第 2 步）：让希罗再次对五飞使用「说得」。完成后，五飞会在 4-1 随增援登场——见 4-1 的隐藏要素。",
+    "随机机体奖励：过关后的随机奖励池含巴特·修（重金属，无驾驶员）——巴特·修另可在 5-6 随哈沙一并入手，不必在本关强刷。"
+   ],
+   "unlocks": [
+    "通关后进入第 4 章（4-1）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 3 章收尾：艾尔盖姆队漂流登场；五飞说得链的第 2 步在本关。"
+  },
+  {
+   "code": "4-1",
+   "slug": "stage-4-1",
+   "zh": "无尽的华尔兹",
+   "ja": "終わらない円舞曲",
+   "en": "Endless Waltz",
+   "route": "第4章 地上决战",
+   "area": "布鲁塞尔",
+   "type": "开场关",
+   "prerequisite": "第 4 章的开场关，固定为全流程第 15 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：生体感应器、推进剂罐。",
+     "随机奖励（下列之一）：资金 10000、资金 20000、高性能雷达、阿波吉摩托、超级推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "托鲁基斯III（杰克斯·马吉斯）、陶拉斯（露克蕾琪亚·诺因）、沙漠高达改（卡托尔·拉巴巴·温纳）、重武装高达改（特洛瓦·巴顿）本关加入。",
+    "双头龙高达（张五飞）——五飞说得链两步都完成时，随增援登场并加入（见隐藏要素）。"
+   ],
+   "events": [
+    "玛莉梅亚军登陆地球，隆德·贝尔在布鲁塞尔迎击；原属敌方的杰克斯、诺因与卡托尔、特洛瓦在本关归队，W 系的战力至此集结。",
+    "本关同时是五飞长线说得的结算点：前面两步的成败，在这里一次见分晓。"
+   ],
+   "secrets": [
+    "五飞说得（第 3 步·结算）：3-2 与 3-4 两次希罗说得都完成的话，五飞会乘双头龙高达随敌增援登场——他已是友军状态，战后正式加入。任一步缺失则五飞不会出现，双头龙高达永久错过（Akurasu 的说法是「与增援一同出现」，本关无需再做说得动作）。"
+   ],
+   "unlocks": [
+    "通关后第 4 章的自由选择关（4-2～4-6）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章开场：W 系战力集结；五飞三步说得链在本关结算。"
+  },
+  {
+   "code": "4-2",
+   "slug": "stage-4-2",
+   "zh": "不灭的机器",
+   "ja": "不滅のマシン",
+   "en": "Indestructible Machine",
+   "route": "第4章 地上决战",
+   "area": "早乙女研究所",
+   "type": "自由选择",
+   "prerequisite": "第 4 章的自由选择关之一：本章选择关（4-2～4-6）可按任意顺序攻略，分别占据全流程第 16～20 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。",
+    "敌人到达早乙女研究所。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置S。",
+     "顺序奖励：作为第 16 关通关→米诺夫斯基飞行器；第 17 关→乔巴姆装甲；第 18 关→混合装甲；第 19 关→超合金Z；第 20 关→超合金新Z。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "盖塔1 在本关进化（换装）为盖塔龙（流龙马、神隼人、巴武藏）。",
+    "机械铁甲鬼（铁甲鬼）——由龙马说得后即时加入（见隐藏要素）。"
+   ],
+   "events": [
+    "百鬼帝国的机械兽大军进攻早乙女研究所；本关败北条件比通常多一条：敌人到达研究所同样判负，必须兼顾歼敌与守点。",
+    "盖塔队在本关换乘盖塔龙；敌阵中的铁甲鬼是可以争取的对象。"
+   ],
+   "secrets": [
+    "铁甲鬼说得：让龙马（盖塔龙）对铁甲鬼使用「说得」，机械铁甲鬼即时加入我方。Akurasu 隐藏要素页注：说得者为盖塔机即可（任意盖塔形态）；本关流程中说得时已是盖塔龙，按龙马执行。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 4-7；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章选择关之一：盖塔龙换装；龙马可说得铁甲鬼；守研究所的双重败北条件。"
+  },
+  {
+   "code": "4-3",
+   "slug": "stage-4-3",
+   "zh": "跨越海洋与大地之时",
+   "ja": "海と大地を貫いたとき",
+   "en": "When Crossing Sea and Land",
+   "route": "第4章 地上决战",
+   "area": "市区",
+   "type": "自由选择",
+   "prerequisite": "第 4 章的自由选择关之一：本章选择关（4-2～4-6）可按任意顺序攻略，分别占据全流程第 16～20 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：精神感应框架、生体感应器。",
+     "顺序奖励：作为第 16 关通关→加拉巴（奥拉舰，见隐藏要素）；第 17 关→抗光束涂层；第 18 关→阿波吉摩托；第 19 关→超级推进器；第 20 关→推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "过关后加入：比尔拜因（无驾驶员）；艾尔、贝尔成为奥拉战机的副驾驶员。",
+    "加拉巴（奥拉舰，无驾驶员）——仅当把本关作为全流程第 16 关通关时，作为顺序奖励入手（见隐藏要素）。"
+   ],
+   "events": [
+    "丹拜因队的战斗在本关收尾：翔一行与德雷克残部的决战，战后比尔拜因入库，两位妖精——艾尔与贝尔——成为奥拉战机的副驾驶员。"
+   ],
+   "secrets": [
+    "加拉巴的唯一拿法：把本关排在第 4 章选择关的第一个打（即全流程第 16 关），过关奖励即奥拉舰加拉巴；排在其后通关则奖励换成别的部件，加拉巴永久错过。规划第 4 章顺序时先定本关。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 4-7；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章选择关之一：比尔拜因入手；顺序奖励的加拉巴只认第一个打。"
+  },
+  {
+   "code": "4-4",
+   "slug": "stage-4-4",
+   "zh": "日轮的光辉",
+   "ja": "日輪の輝きを",
+   "en": "The Shine of the Sun",
+   "route": "第4章 地上决战",
+   "area": "新座市",
+   "type": "自由选择",
+   "prerequisite": "第 4 章的自由选择关之一：本章选择关（4-2～4-6）可按任意顺序攻略，分别占据全流程第 16～20 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置S、推进剂罐S。",
+     "顺序奖励：作为第 16 关通关→资金 5000；第 17 关→资金 10000；第 18 关→资金 20000；第 19 关→超合金新Z；第 20 关→抗光束涂层。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "无敌钢人戴坦3（破岚万丈）本关加入。",
+    "过关后加入：加里森·时贞、蕾香、比优提（戴坦3 的副驾驶员／乘员）。"
+   ],
+   "events": [
+    "新座市上空，戴坦3 与伽利逊（加里森）一行加入隆德·贝尔——破岚财阀的战力补齐了地上决战的最后一块拼图。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 4-7；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章选择关之一：戴坦3 与破岚一家加入。"
+  },
+  {
+   "code": "4-5",
+   "slug": "stage-4-5",
+   "zh": "恶魔之战",
+   "ja": "悪魔の戦い",
+   "en": "Demon's Fight",
+   "route": "第4章 地上决战",
+   "area": "木特隆研究所",
+   "type": "自由选择",
+   "prerequisite": "第 4 章的自由选择关之一：本章选择关（4-2～4-6）可按任意顺序攻略，分别占据全流程第 16～20 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：乔巴姆装甲。",
+     "顺序奖励：作为第 16 关通关→V-UP 组件；第 17 关→精神感应框架；第 18 关→生体感应器；第 19 关→磁力涂层；第 20 关→阿波吉摩托。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入；莱汀可在本关完成一次关键强化（见隐藏要素）。"
+   ],
+   "events": [
+    "木特隆研究所再遭妖魔帝国袭击，莱汀与宿敌的决战在此上演。本关的看点是莱汀的强化事件，务必让莱汀出击。"
+   ],
+   "secrets": [
+    "莱汀强化（本作少有的非说得类隐藏要素）：让莱汀出击并存活到第 10 回合——莱汀习得地图兵器版 God Voice，机动性（运动性）提升 20 点。错过本关无法补做，规划出击名单时先把莱汀算进去。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 4-7；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章选择关之一：莱汀出击存活到第 10 回合可习得 God Voice 并大幅强化。"
+  },
+  {
+   "code": "4-6",
+   "slug": "stage-4-6",
+   "zh": "我的哥哥是地球的敌人",
+   "ja": "私の兄は地球の敵",
+   "en": "My Brother is an Enemy of the Earth",
+   "route": "第4章 地上决战",
+   "area": "东京湾",
+   "type": "自由选择",
+   "prerequisite": "第 4 章的自由选择关之一：本章选择关（4-2～4-6）可按任意顺序攻略，分别占据全流程第 16～20 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：阿波吉摩托、推进器。",
+     "顺序奖励：作为第 16 关通关→高性能雷达；第 17 关→超合金Z；第 18 关→混合装甲；第 19 关→乔巴姆装甲；第 20 关→资金 20000。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入；一矢对李希特的说得是跨章旗标（见隐藏要素）。"
+   ],
+   "events": [
+    "东京湾的巴姆军与戴莫斯之战：艾丽卡的哥哥、小巴姆的李希特率索恩凯撒出现在敌阵——一矢与他的对话，是兄妹与两个星球之间的抉择。"
+   ],
+   "secrets": [
+    "李希特说得（跨章旗标）：让一矢对李希特使用「说得」——李希特与艾扎姆不会在本关加入，但旗标成立后，两人会在第 28 关（6-1）正式加入（李希特乘索恩凯撒、艾扎姆乘奇美拉）。本关是唯一的机会，错过则两人永久不可得。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 4-7；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章选择关之一：一矢说得李希特，决定 6-1 的两位强援。"
+  },
+  {
+   "code": "4-7",
+   "slug": "stage-4-7",
+   "zh": "God Bless 丹戈加",
+   "ja": "ゴッドブレスダンクーガ",
+   "en": "God Bless Dancouga",
+   "route": "第4章 地上决战",
+   "area": "南美·贾布罗",
+   "type": "收尾关",
+   "prerequisite": "第 4 章的收尾关，固定为全流程第 21 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "随机奖励（下列之一，无固定奖励）：法蒂玛、生体感应器、磁力涂层、抗光束涂层。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "机械科奇基鬼——由龙马说得后即时加入（见隐藏要素）。",
+    "过关后加入：拉·凯拉姆（布莱德·诺亚，新旗舰）、GP-03 典多洛比姆（无驾驶员）、ν高达（无驾驶员）、钱·阿基（驾驶员）；阿加玛由拉·凯拉姆接替旗舰位置。"
+   ],
+   "events": [
+    "众人回到南美贾布罗，与姆格帝国的残存势力决战——忍的丹戈加与皇帝姆格·佐尔巴多斯正面交锋。",
+    "战后，为升空决战而准备的新舰拉·凯拉姆与 ν高达、GP-03 一并交付，隆德·贝尔的宇宙决战阵容成型。"
+   ],
+   "secrets": [
+    "科奇基鬼说得：让龙马（盖塔龙）对科奇基鬼使用「说得」，即时加入（与铁甲鬼同一模式：盖塔机说得即可）。",
+    "丹戈加强化（限回合）：让丹戈加在 7 回合以内攻击姆格·佐尔巴多斯——丹戈加习得地图兵器「断空光牙剑」，但装甲下降 200 点。拿不拿这把地图炮，取决于你是否愿意付装甲的代价。"
+   ],
+   "unlocks": [
+    "通关后进入第 5 章（5-1）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 4 章收尾：姆格决战；丹戈加的限回合强化与战后换舰、ν高达入库都在本关。"
+  },
+  {
+   "code": "5-1",
+   "slug": "stage-5-1",
+   "zh": "肆虐的风暴",
+   "ja": "吹き荒れる嵐",
+   "en": "Raging Storm",
+   "route": "第5章 宇宙决战",
+   "area": "地球近郊",
+   "type": "开场关",
+   "prerequisite": "第 5 章的开场关，固定为全流程第 22 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：V-UP 组件。",
+     "随机奖励（下列之一）：吉翁克（机体）、艾尔美斯（机体）、抗光束涂层、生体感应器、混合装甲。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "诺耶·吉尔（阿纳贝尔·卡多）——完成本关的两段说得后即时加入（见隐藏要素）。",
+    "过关后的随机奖励可能得到无驾驶员的艾尔美斯或吉翁克（见隐藏要素）。"
+   ],
+   "events": [
+    "迪拉兹舰队劫持殖民卫星撞向地球，隆德·贝尔升空拦截；敌阵主力是西玛的卡贝拉·迪特拉与卡多的诺耶·吉尔。",
+    "本关是卡多长线说得的决战点：浦木宏与克瓦特罗的两次说得，要赶在卡多离场之前完成。"
+   ],
+   "secrets": [
+    "卡多说得（第 2 步·两段）：先让浦木宏对卡多「说得」，再让克瓦特罗对卡多「说得」，两次成功后卡多乘诺耶·吉尔即时加入。",
+    "若 3-1 没做第 1 步：卡多会在任意一次战斗动画播放后离场消失，两次说得必须抢在任何战斗动画发生之前连续完成（Akurasu 明文警告）——进关前先排好两人的位置与顺序。",
+    "随机机体奖励：过关后的随机奖励池含艾尔美斯与吉翁克（无驾驶员）——想要的话在击破最后一个敌人前存档重刷。"
+   ],
+   "unlocks": [
+    "通关后第 5 章的自由选择关（5-2～5-5）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章开场：阻止殖民卫星坠落；卡多两段说得在本关决胜负。"
+  },
+  {
+   "code": "5-2",
+   "slug": "stage-5-2",
+   "zh": "时光之泪",
+   "ja": "刻の涙",
+   "en": "Tears of Time",
+   "route": "第5章 宇宙决战",
+   "area": "格利普斯II",
+   "type": "自由选择",
+   "prerequisite": "第 5 章的自由选择关之一：本章选择关（5-2～5-5）可按任意顺序攻略，分别占据全流程第 23～26 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置S、推进剂罐。",
+     "顺序奖励：作为第 23 关通关→高性能雷达；第 24 关→混合装甲；第 25 关→精神感应框架；第 26 关→米诺夫斯基飞行器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "过关后加入：巴恩多克（罗萨米亚·巴达姆）——需在本关完成说得（见隐藏要素）。"
+   ],
+   "events": [
+    "提坦斯的西罗克亲自出击，格利普斯II 宙域展开激战；被西罗克洗脑的罗萨米亚驾驶精神感应高达Mk-II 出现在敌阵。",
+    "卡缪与罗萨米亚的对话，是本关的剧情与收集双核心。"
+   ],
+   "secrets": [
+    "罗萨米亚说得：让卡缪对罗萨米亚使用「说得」——她会撤退，过关后乘巴恩多克加入我方（加入后其名字写作「罗萨米」）。这是全作唯一入手巴恩多克的机会。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 5-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章选择关之一：卡缪说得罗萨米亚，过关后乘巴恩多克加入。"
+  },
+  {
+   "code": "5-3",
+   "slug": "stage-5-3",
+   "zh": "沉默之声",
+   "ja": "サイレントヴォイス",
+   "en": "Silent Voice",
+   "route": "第5章 宇宙决战",
+   "area": "阿克西斯",
+   "type": "自由选择",
+   "prerequisite": "第 5 章的自由选择关之一：本章选择关（5-2～5-5）可按任意顺序攻略，分别占据全流程第 23～26 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：混合装甲。",
+     "顺序奖励：作为第 23 关通关→沙扎比（机体）；第 24 关→哈曼哈曼（机体）；第 25 关→抗光束涂层；第 26 关→哈曼哈曼（机体）。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "卡碧尼Mk-II（普露）——由捷多说得后即时加入（见隐藏要素）。",
+    "顺序奖励机体：沙扎比或哈曼哈曼（无驾驶员），随本关所处关数而定（见隐藏要素与奖励）。"
+   ],
+   "events": [
+    "隆德·贝尔进攻新吉翁的据点阿克西斯，哈曼亲自坐镇；敌阵中有两位卡碧尼Mk-II 的驾驶员——普露与普露2，本关能争取的只有普露。",
+    "本关的攻略顺序直接决定战后入库的是沙扎比还是哈曼哈曼，是全作顺序规划里价值最高的一关之一。"
+   ],
+   "secrets": [
+    "普露说得：让捷多对普露使用「说得」，普露乘卡碧尼Mk-II 即时加入。",
+    "顺序奖励机体：把本关作为第 23 关（本章第一个打）通关→沙扎比；第 24 关或第 26 关→哈曼哈曼；第 25 关→抗光束涂层（无机体）。想要沙扎比就把本关排在本章第一位。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 5-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章选择关之一：捷多说得普露；第一个打本关可得沙扎比。"
+  },
+  {
+   "code": "5-4",
+   "slug": "stage-5-4",
+   "zh": "在闪耀的风中",
+   "ja": "光る風の中",
+   "en": "Within the Shining Wind",
+   "route": "第5章 宇宙决战",
+   "area": "弗隆提亚I",
+   "type": "自由选择",
+   "prerequisite": "第 5 章的自由选择关之一：本章选择关（5-2～5-5）可按任意顺序攻略，分别占据全流程第 23～26 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：抗光束涂层。",
+     "顺序奖励：作为第 23 关通关→乔巴姆装甲；第 24 关→磁力涂层；第 25 关→生体感应器；第 26 关→精神感应框架。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "高达F91（西布克·阿诺）、比纳·吉纳（塞西莉·菲亚乔德）本关加入（开场迎敌，第 4 回合我方主力赶到）。"
+   ],
+   "events": [
+    "死亡先锋的据点弗隆提亚I 传来求救信号：西布克与塞西莉驾驶 F91 与比纳·吉纳迎击铁假面卡罗佐的拉夫雷西亚，隆德·贝尔主力在第 4 回合赶到。",
+    "宇宙巴比伦的「贵族主义」清洗计划，是这条线的核心冲突。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 5-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章选择关之一：F91 与比纳·吉纳加入。"
+  },
+  {
+   "code": "5-5",
+   "slug": "stage-5-5",
+   "zh": "幕后黑手之影",
+   "ja": "首謀者の影",
+   "en": "Shadow of the Mastermind",
+   "route": "第5章 宇宙决战",
+   "area": "小行星带",
+   "type": "自由选择",
+   "prerequisite": "第 5 章的自由选择关之一：本章选择关（5-2～5-5）可按任意顺序攻略，分别占据全流程第 23～26 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：生体感应器。",
+     "顺序奖励：作为第 23 关通关→资金 50000；第 24 关→资金 20000；第 25 关→资金 10000；第 26 关→资金 5000。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入。"
+   ],
+   "events": [
+    "小行星带传来不明信号——吉尔吉尔甘的残党背后有人操纵。第 3 回合敌方增援大举出现，唐·佐萨本人也在其中：幕后黑手的影子第一次落到隆德·贝尔面前。",
+    "本关顺序奖励全是资金，且越晚打越少——是第 5 章最适合早打的选择关。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）；唐·佐萨随增援登场是剧情演出，不是可说得对象。"
+   ],
+   "unlocks": [
+    "选择关全部通关后开放 5-6；未打的选择关可继续任意顺序攻略。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章选择关之一：唐·佐萨随第 3 回合增援现身，黑幕初露。"
+  },
+  {
+   "code": "5-6",
+   "slug": "stage-5-6",
+   "zh": "无回应",
+   "ja": "ノー・リプライ",
+   "en": "No Reply",
+   "route": "第5章 宇宙决战",
+   "area": "姆格宇宙近郊",
+   "type": "收尾关",
+   "prerequisite": "第 5 章的收尾关，固定为全流程第 27 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：法蒂玛。",
+     "随机奖励（下列之一）：资金 100000、精神感应框架、超合金Z、高性能雷达、超级推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "卡尔巴里神殿（库瓦桑·奥利比）、阿修罗神殿（加布雷·加布拉）、巴特·修（哈沙·蒙沙）——完成本关的连环说得后加入（见隐藏要素）。",
+    "真盖塔——通关本关时总回合数在 250 以内的话，第 6 章开始时盖塔龙进化为真盖塔（见隐藏要素）。"
+   ],
+   "events": [
+    "隆德·贝尔追击逃向彭塔加那世界的敌人，在姆格宇宙近郊与波塞达尔军交锋；本关汇集了全作最长的一条说得链与真盖塔的总回合条件，是进入终盘前最重要的一关。"
+   ],
+   "secrets": [
+    "连环说得（顺序不可乱）：①让达巴对库瓦桑「说得」——库瓦桑乘卡尔巴里神殿即时加入（她通常不移动，可用精神「挑拨」引她靠近，Akurasu 注）；②让库瓦桑对加布雷「说得」，再让达巴对加布雷「说得」——加布雷乘阿修罗神殿即时加入；③说得加布雷时若哈沙·蒙沙还活着，哈沙乘巴特·修一并加入。三步缺一，链就断。",
+    "真盖塔条件：在通关本关（第 27 关）的时点，全流程总回合数不超过 250——进入第 6 章时会出现盖塔炉心失控的消息，盖塔龙进化为真盖塔。前 27 关的平均回合要压在 9 回合上下，从开局就要有意识地速攻（与「技能协调」的低回合奖励正好同向）。"
+   ],
+   "unlocks": [
+    "通关后进入第 6 章（6-1）；满足总回合条件时真盖塔在第 6 章开始时登场。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 5 章收尾：三连说得链与真盖塔的 250 回合条件都在本关结算。"
+  },
+  {
+   "code": "6-1",
+   "slug": "stage-6-1",
+   "zh": "艾丽卡的叙事歌",
+   "ja": "エリカのバラード",
+   "en": "Erica's Ballad",
+   "route": "第6章 彭塔加那世界",
+   "area": "小巴姆内部",
+   "type": "开场关",
+   "prerequisite": "第 6 章的开场关，固定为全流程第 28 关。通关后本章的自由选择关开放（见下），可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：修理装置S。",
+     "随机奖励（下列之一）：精神感应框架、生体感应器、超合金新Z、超合金Z、超级推进器。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "索恩凯撒（李希特）、奇美拉（艾扎姆）本关加入——需先在 4-6 成立李希特说得旗标（见隐藏要素）。"
+   ],
+   "events": [
+    "隆德·贝尔潜入小巴姆内部，迎击与波塞达尔勾结的奥尔班司令；奥尔班正计划给全体巴姆人洗脑以确保忠诚。",
+    "若此前争取过李希特，他与艾扎姆会在本关现身助阵——兄妹与故乡的抉择在此收束。"
+   ],
+   "secrets": [
+    "李希特与艾扎姆加入的结算关：在 4-6 让一矢说得过李希特的话，两人会在本关登场并正式加入（李希特乘索恩凯撒、艾扎姆乘奇美拉）；4-6 没做说得，则两人不会出现，永久错过。"
+   ],
+   "unlocks": [
+    "通关后第 6 章的自由选择关（6-2、6-3）开放，顺序任意。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 6 章开场：潜入小巴姆；4-6 的李希特旗标在本关结算。"
+  },
+  {
+   "code": "6-2",
+   "slug": "stage-6-2",
+   "zh": "侠盗吉瓦扎",
+   "ja": "ピカレスクギワザ",
+   "en": "Picaresque Giwaza",
+   "route": "第6章 彭塔加那世界",
+   "area": "加斯特加尔上空",
+   "type": "自由选择",
+   "prerequisite": "第 6 章的自由选择关之一：本章选择关（6-2、6-3）可按任意顺序攻略，分别占据全流程第 29～30 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：混合装甲。",
+     "顺序奖励：作为第 29 关通关→抗光束涂层；作为第 30 关通关→精神感应框架。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "阿修罗神殿（芙拉特）——完成本关的两段说得后即时加入（见隐藏要素）。"
+   ],
+   "events": [
+    "为攻入波塞达尔的首都斯维特，隆德·贝尔先在加斯特加尔上空迎击吉瓦扎的防卫线；敌阵中有被吉瓦扎挟持的芙拉特。",
+    "吉瓦扎败亡前的话透露：有人一直在向敌方泄露情报——黑幕的轮廓越来越清晰。"
+   ],
+   "secrets": [
+    "芙拉特两段说得：先让安姆（艾尔盖姆）对芙拉特「说得」，再让达巴对芙拉特「说得」——芙拉特乘阿修罗神殿即时加入。只做第一段不会加入，顺序也不可颠倒。"
+   ],
+   "unlocks": [
+    "若 6-3 尚未通关则继续 6-3；两关都通关后开放 6-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 6 章选择关之一：安姆与达巴两段说得芙拉特。"
+  },
+  {
+   "code": "6-3",
+   "slug": "stage-6-3",
+   "zh": "吉翁之血",
+   "ja": "ジオンの血",
+   "en": "Zeon's Blood",
+   "route": "第6章 彭塔加那世界",
+   "area": "双子太阳桑斯近郊",
+   "type": "自由选择",
+   "prerequisite": "第 6 章的自由选择关之一：本章选择关（6-2、6-3）可按任意顺序攻略，分别占据全流程第 29～30 关的位置。本关的顺序奖励随实际打到的关数变化，务必先看下方奖励再决定顺序。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：精神感应框架。",
+     "顺序奖励：作为第 29 关通关→雅克特·多加（机体）；作为第 30 关通关→奥吉（机体）。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "α·阿索隆（奎丝·帕拉雅）、京曼萨（普露2）——完成本关说得后即时加入（见隐藏要素）。",
+    "顺序奖励机体：雅克特·多加或奥吉（无驾驶员），随本关所处关数而定（见奖励）。"
+   ],
+   "events": [
+    "古雷米·托托率新吉翁残部投靠波塞达尔，在桑斯近郊布阵迎击；敌阵里有奎丝的 α·阿索隆与普露2 的京曼萨——两人都不是非打不可的敌人。",
+    "本关同时是第 6 章顺序规划的决胜点：先打拿雅克特·多加，后打拿奥吉。"
+   ],
+   "secrets": [
+    "奎丝说得：让阿姆罗对奎丝使用「说得」——奎丝乘 α·阿索隆即时加入。",
+    "普露2 两段说得：先让捷多对普露2「说得」，再让普露对普露2「说得」——普露2 乘京曼萨即时加入。只用捷多说一次不会成功，两段的顺序不可换。"
+   ],
+   "unlocks": [
+    "若 6-2 尚未通关则继续 6-2；两关都通关后开放 6-4。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 6 章选择关之一：奎丝与普露2 两组说得；顺序奖励二选一机体。"
+  },
+  {
+   "code": "6-4",
+   "slug": "stage-6-4",
+   "zh": "追梦者再临",
+   "ja": "ドリーマーズ・アゲン",
+   "en": "Dreamers Again",
+   "route": "第6章 彭塔加那世界",
+   "area": "加斯特加尔首都斯维特",
+   "type": "收尾关",
+   "prerequisite": "第 6 章的收尾关，固定为全流程第 31 关，本章的自由选择关全部通关后开放。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：推进剂罐。",
+     "随机奖励（下列之一）：精神感应框架、超合金新Z、高性能雷达、抗光束涂层、V-UP 组件。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入。"
+   ],
+   "events": [
+    "隆德·贝尔攻入首都斯维特，与波塞达尔（奥吉）决战；击破她之后，阿曼达拉·卡曼达拉率增援现身——他才是真正的波塞达尔，「波塞达尔」是以生体连接（Bio-Relation）延续自我的存在。",
+    "达巴的真实身份也在此揭晓：他是被波塞达尔推翻的亚曼王朝末裔，本名卡蒙·迈罗德。彭塔加那世界的战争在本关落幕。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）；击破第一波的波塞达尔后还有第二波增援（真正的波塞达尔），留好续战的资源。"
+   ],
+   "unlocks": [
+    "通关后进入第 7 章（7-1）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 6 章收尾：斯维特决战，波塞达尔真身与达巴的身世同时揭晓。"
+  },
+  {
+   "code": "7-1",
+   "slug": "stage-7-1",
+   "zh": "科洛斯",
+   "ja": "コロス",
+   "en": "Koros",
+   "route": "第7章 阿克西斯……最终决战",
+   "area": "阿克西斯近郊",
+   "type": "开场关",
+   "prerequisite": "第 7 章的开场关，固定为全流程第 32 关。科洛斯把空置的阿克西斯推向地球，隆德·贝尔前往拦截——本关起进入限时决战。",
+   "victory": [
+    "在 15 回合以内击破科洛斯。"
+   ],
+   "defeat": [
+    "未能在 15 回合以内击破科洛斯。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "固定奖励：法蒂玛。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入。"
+   ],
+   "events": [
+    "科洛斯操纵阿克西斯撞向地球，隆德·贝尔在阿克西斯表面迎击驾驶艾艾（AIAI）的科洛斯本人；敌方只有科洛斯与大批艾艾量产机。",
+    "本关是限时关：15 回合内击破科洛斯才算胜利。科洛斯败后并不死，而是逃入阿克西斯内部——最终决战在下一关。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体（Akurasu 隐藏要素页在本关无条目）。唯一的注意点就是时限：不要恋战刷经验，集中火力打科洛斯本体；量产艾艾可以绕开。"
+   ],
+   "unlocks": [
+    "通关后进入最终话（7-2）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "第 7 章开场：限 15 回合击破科洛斯，超时即败北。"
+  },
+  {
+   "code": "7-2",
+   "slug": "stage-7-2",
+   "zh": "超级机器人大战",
+   "ja": "スーパーロボット大戦",
+   "en": "Super Robot Wars",
+   "route": "第7章 阿克西斯……最终决战",
+   "area": "阿克西斯内部",
+   "type": "最终话",
+   "prerequisite": "全作最终话，固定为全流程第 33 关。突入阿克西斯内部与唐·佐萨决战。",
+   "victory": [
+    "在 20 回合以内击破唐·佐萨。"
+   ],
+   "defeat": [
+    "未能在 20 回合以内击破唐·佐萨。",
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体与武器改造；本作没有固定的通关资金奖励（个别关卡的顺序／随机奖励含资金，见下栏）。逐关敌机资金待核实（见「敌方出场与增援」的说明）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [
+     "最终话无通关奖励部件。"
+    ],
+    "note": ""
+   },
+   "allies": [
+    "本关无新机体加入。"
+   ],
+   "events": [
+    "隆德·贝尔突入阿克西斯内部：科洛斯用梅加诺伊德的技术复制出历代敌机（第 3 回合增援）挡在唐·佐萨身前。",
+    "唐·佐萨——原条造作的试作梅加诺伊德 1 号机——的「人类梅加诺伊德化计划」在此迎来终局。击破他之后，阿克西斯偏离撞击轨道；战后隆德·贝尔的记录被删除、部队解散，故事以「第二幕」的预告收尾——那是《COMPACT2》的故事了。"
+   ],
+   "secrets": [
+    "本关没有说得对象与隐藏机体。时限 20 回合：第 3 回合的复制体增援会挡在通往唐·佐萨的路上，规划好突破路线与精神的分配，不要在前两波耗尽资源。"
+   ],
+   "unlocks": [
+    "通关后游戏结束（结局）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（WS 原版）没有可交叉核对的逐关敌方配置来源：GameCenter GX 未收录本作（其机战覆盖只有第 1、2、4 次）；Akurasu 只有流程图（胜负条件、我方加入、部件奖励）与隐藏要素页，没有逐关敌方表。",
+     "CMori 的 GameFAQs 攻略刊有逐关的敌方编成（机体／驾驶员／等级／数量）、增援、我方出击机数与地图尺寸，但属于单一来源、未经第二来源交叉核对——本站按 F／F完结编以来的先例暂不据此刊出编成与尺寸，标为待核实，待用户决定是否放宽双源规则后再议。",
+     "逐格坐标与地形则未查到任何公开来源（当年的纸质攻略本未在线公开）。本页已核实的内容为胜利／败北条件、我方加入、部件奖励与隐藏要素（Akurasu 流程图与隐藏要素页，GameFAQs 攻略与日文维基交叉核对）。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（CMori 攻略刊有各关地图尺寸，但为单一来源，本站框架尺寸不据此设定）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Flow Chart（流程、胜败条件、加入与部件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Compact Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets"
+    },
+    {
+     "name": "GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori（结构、舞台与系统交叉核对）",
+     "url": "https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦COMPACT（作品概要、系统与 WSC 版差异）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT"
+    }
+   ],
+   "note": "最终话：限 20 回合击破唐·佐萨；全 33 关在此收官。"
+  }
+ ]
+}

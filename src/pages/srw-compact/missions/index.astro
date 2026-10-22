@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwCompactMissionList from '../../../components/SrwCompactMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Compact', path: 'srw-compact/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战Compact（WS）关卡攻略 · 全33个剧本页面列表" description="超级机器人大战Compact（1999年 WS）全部 33 个剧本页面：7 个场景（章）的自由顺序结构——每章首尾固定、中间的选择关可任意顺序攻略，顺序决定通关奖励部件与机体。每关独立攻略页含胜利/败北条件、我方加入、部件奖励（固定/随机/顺序）、本关隐藏要素（多步说得链、顺序限定机体、莱汀强化、真盖塔 250 回合条件、限时最终章）与坐标地图。本页为链接索引。" path="srw-compact/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战Compact · 关卡攻略</h1>
+  <p>1999 年 WS《超级机器人大战Compact》是 Compact 系列的第一作，也是万代 WonderSwan 参入的第一款机战。本作<strong>没有路线分岐</strong>：全 33 关分成 7 个「场景」（章），每章的第一关与最后一关固定，中间的关卡可以<strong>任意顺序攻略</strong>（自由顺序剧本系统）——但打关的顺序会改变每关的通关奖励（顺序奖励），部分隐藏机体（卡碧尼Mk-II、加拉巴、沙扎比等）只在特定的顺序位置才能拿到，所以这 33 关的攻略顺序本身就是本作最大的攻略点。本站为每一关都建有独立详情页，部件奖励按「固定／随机／顺序」三栏逐关列明，并把每条说得链、每个顺序限定条件写在它结算的那一关里。本页只是链接索引——每一关的完整攻略（条件、加入、奖励、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-compact/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十部<strong>全关卡补完</strong>的作品——33 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新超级机器人大战、F、F完结编已完成）。流程、胜败条件、加入与部件奖励以 Akurasu 的 Compact 流程图为主源，隐藏要素页逐条核对，CMori 的 GameFAQs 攻略与日文维基交叉核对结构、舞台与系统。<strong>如实说明</strong>：本作（WS 原版）没有可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作；CMori 的 GameFAQs 攻略虽刊有逐关敌方编成（机体／驾驶员／等级／数量）、增援、出击机数与地图尺寸，但为单一来源、未经第二来源核对，本站按 F／F完结编以来的先例暂不据此刊出——故各页的敌方配置与地图尺寸标为待核实，坐标图为参照框架；逐格坐标与地形则未查到任何公开来源。2001 年的 WSC 彩色版系统大改（追加援护、隐藏条件变更等），其数据未被用于填充本页任何一关。</span>
+  </div>
+
+  <SrwCompactMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Compact Flow Chart</a>（全流程结构、胜败条件、加入与部件奖励；各详情页页末附本作来源链接）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Compact Secrets</a>（说得链、随机机体、顺序限定机体与真盖塔条件）</li>
+    <li><a href="https://gamefaqs.gamespot.com/wonderswan/562901-super-robot-taisen-compact/faqs/19038" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen Compact Guide and Walkthrough by CMori</a>（场景结构、舞台、改造与技能协调等系统交叉核对；其逐关敌方编成为单一来源，未刊出，见上方说明）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦COMPACT</a>（全 33 话、自由顺序／技能协调／个人资料表三系统、参战作品与 WSC 版差异）</li>
+  </ul>
+  <p><a href={href('srw-compact/')}>← 返回超级机器人大战Compact</a></p>
+</Base>

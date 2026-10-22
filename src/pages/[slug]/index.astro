@@ -11,6 +11,7 @@ import SrwMasoukishinMissionList from '../../components/SrwMasoukishinMissionLis
 import SrwShinMissionList from '../../components/SrwShinMissionList.astro';
 import SrwFMissionList from '../../components/SrwFMissionList.astro';
 import SrwFFinalMissionList from '../../components/SrwFFinalMissionList.astro';
+import SrwCompactMissionList from '../../components/SrwCompactMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -28,6 +29,7 @@ const isMasoukishin = g.slug === 'srw-masoukishin';
 const isShin = g.slug === 'srw-shin';
 const isSrwF = g.slug === 'srw-f';
 const isSrwFFinal = g.slug === 'srw-f-final';
+const isSrwCompact = g.slug === 'srw-compact';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -746,6 +748,73 @@ const isSrwFFinal = g.slug === 'srw-f-final';
     </div>
   )}
 
+  {isSrwCompact && (
+    <div>
+      <h2>剧情概要：一部没有原创角色的异色作</h2>
+      <p>本作是 Compact 系列的第一作，舞台是与家用机各作<strong>互不关联的独立世界</strong>（Compact 与 Compact2 构成自己的宇宙）：一年前，梅加诺伊德叛乱与姆格帝国的侵攻被超级机器人与白色基地队联手平定；一年后吉翁独立战争（一年战争）爆发，巴姆人、地下帝国、波塞达尔军接连搅局。本作的最终 Boss 唐·佐萨与科洛斯，是科学家原条造作制造的试作梅加诺伊德 1 号与 2 号——都是<strong>版权作品的角色</strong>：本作自初代以来首次<strong>完全没有万普雷斯托原创角色与机体登场</strong>，也是第一部不由 Winkysoft 开发的机战（开发为 TOSE 公司，日文维基）。全作 33 关，单线推进、无路线分岐——它的结构创新不在分岐，而在下面的自由顺序系统。</p>
+
+      <h2>自由顺序剧本（フリーオーダーシナリオ）：本作的标志</h2>
+      <p>全作分为 7 个「场景」（章）。每章的<strong>第一关与最后一关固定</strong>，中间的关卡（2~5 关不等）可以<strong>任意顺序攻略</strong>（日文维基）。顺序不是随便选的：每关的通关奖励分三层——固定奖励之外，选择关有按「实际打到的关数」给的<strong>顺序奖励</strong>，固定关则给<strong>随机奖励</strong>（在击破最后一个敌人时决定，存档重刷可换，Akurasu 注）。数台隐藏机体直接绑在顺序上：卡碧尼Mk-II 只在 2-4 作为全流程第 7 关通关时入手、加拉巴只认 4-3 作为第 16 关、沙扎比只认 5-3 作为第 23 关——本站每一关的详情页都把该关的固定／随机／顺序奖励全表列出，规划顺序先看表。此外，先打完的关卡里被击破的敌方角色不会在后面选的关卡里再次登场，是顺序带来的细微剧情差异。</p>
+
+      <h2>技能协调（スキルコーディネイト）：低回合的报酬</h2>
+      <p>每关在 <strong>11 回合以内</strong>通关，过关时可得到一个「习得技能」，分配给该关参战过的驾驶员、副驾驶员或妖精（每人最多 4 个技能栏，且不能覆盖天生技能）。回合越少技能越强（CMori 的 GameFAQs 攻略系统章）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>通关回合</th><th>习得技能</th><th>效果</th></tr></thead>
+          <tbody>
+            <tr><td>6 回合以内</td><td>集中力</td><td>该驾驶员全部精神指令的 SP 消费 −20%</td></tr>
+            <tr><td>7 回合</td><td>战争心</td><td>开局气力 105（通常 100）</td></tr>
+            <tr><td>8 回合</td><td>SP+10</td><td>最大 SP +10</td></tr>
+            <tr><td>9 回合</td><td>命中率+10</td><td>命中率 +10 个百分点</td></tr>
+            <tr><td>10 回合</td><td>会心率+10</td><td>暴击率 +10 个百分点</td></tr>
+            <tr><td>11 回合</td><td>底力</td><td>HP 低于 1/8 时暴击率翻倍</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>这套系统也是真盖塔条件（通关第 27 关时总回合 ≤250）的同向激励：全程速攻，既拿技能、又拿真盖塔。它后来被《COMPACT2》《IMPACT》继承。</p>
+
+      <h2>个人资料表（パーソナルデータテーブル）：每个人的精神都不一样</h2>
+      <p>本作全员习得的精神指令组合，由 WonderSwan 主机里录入的<strong>个人资料（生日、血型等）</strong>决定：每名角色有 5 种精神类型，每种各含固定精神与可变精神（Namu Wiki 的本作条目）——同一个角色，在不同玩家手里可能有「魂」、也可能连「魂」都没有，游戏平衡随之大变。本作不设原创主人公，据日文维基正是为了避免与这套个人资料系统混淆。这个点子后来在《COMPACT2》也被沿用。</p>
+
+      <h2>改造与部件</h2>
+      <ul>
+        <li><strong>机体改造 5 项各 10 段</strong>：HP、EN、运动性、装甲、限界（反应上限）逐项改造，五项全部改满可再选一项全改造奖励：任一地形适性变 A／移动力 +1／最大 HP +2000／最大 EN +150／运动性 +20／装甲 +500（CMori 攻略）。</li>
+        <li><strong>武器只能改攻击力</strong>，同样 10 段，按武器强弱分三档价格——强武器的后期改造极贵，资金规划要趁早。</li>
+        <li><strong>强化部件靠通关奖励</strong>：固定／随机／顺序三层（见上）；随机池里还混着整台机体（GP-02A、里普拉卡恩、艾尔美斯、吉翁克等），这是 WS 原版独有的「随机产物」式入手，WSC 版已删除该随机层。</li>
+        <li><strong>本作没有的东西</strong>：没有熟练度／SR 点（始于《α》）；没有援护攻击／防御（始于《COMPACT2》；WS 原版的本作也没有，WSC 版才追加）；没有原创主人公与原创机体。</li>
+      </ul>
+
+      <h2>长线隐藏要素总览</h2>
+      <p>本作的隐藏要素以<strong>多步说得链</strong>与<strong>顺序限定机体</strong>为主，各步的具体做法写在对应关卡的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键关卡</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>夏亚专用扎古II</td><td>1-1 → 2-1 结算</td><td>阿姆罗说得夏亚（旗标），第 5 关过关后入库</td></tr>
+            <tr><td>五飞与双头龙高达（三步）</td><td>3-2 → 3-4 → 4-1 结算</td><td>希罗两次说得五飞，4-1 随增援加入</td></tr>
+            <tr><td>卡多与诺耶·吉尔（两步＋决战）</td><td>3-1 → 5-1</td><td>浦木宏先说（前置）；5-1 浦木宏、克瓦特罗连说两次，缺前置须赶在卡多离场前完成</td></tr>
+            <tr><td>李希特与艾扎姆</td><td>4-6 → 6-1 结算</td><td>一矢说得李希特（旗标），6-1 正式加入</td></tr>
+            <tr><td>卡碧尼Mk-II（机体）</td><td>2-4</td><td>把 2-4 作为全流程第 7 关通关（顺序奖励）</td></tr>
+            <tr><td>加拉巴</td><td>4-3</td><td>把 4-3 作为第 16 关（本章第一个选择关）通关</td></tr>
+            <tr><td>沙扎比／哈曼哈曼</td><td>5-3</td><td>第 23 关通关→沙扎比；第 24／26 关→哈曼哈曼</td></tr>
+            <tr><td>雅克特·多加／奥吉</td><td>6-3</td><td>第 29 关通关→雅克特·多加；第 30 关→奥吉</td></tr>
+            <tr><td>莱汀强化</td><td>4-5</td><td>莱汀出击并存活到第 10 回合：习得 God Voice、运动性 +20</td></tr>
+            <tr><td>丹戈加强化</td><td>4-7</td><td>7 回合内攻击姆格·佐尔巴多斯：习得断空光牙剑，装甲 −200</td></tr>
+            <tr><td>真盖塔</td><td>5-6 结算 → 第 6 章开始</td><td>通关第 27 关时总回合数 ≤250</td></tr>
+            <tr><td>随机机体（里普拉卡恩等）</td><td>1-4／3-1／5-1 等</td><td>固定关的随机奖励池，击破最后敌人时决定，可存档重刷</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>参战作品（19 作；☆ 为掌机初参战，共 10 作）</h2>
+      <p>机动战士高达、☆机动战士高达0080 口袋中的战争、☆机动战士高达0083 星尘的回忆、机动战士Z高达、机动战士高达ZZ、机动战士高达 逆袭的夏亚、机动战士高达F91、☆新机动战记高达W 无尽的华尔兹、魔神Z、大魔神、盖塔机器人、盖塔机器人G、☆真盖塔机器人（原作漫画版）、☆无敌钢人戴坦3、☆圣战士丹拜因、☆重战机艾尔盖姆、☆超兽机神丹戈加、☆斗将戴莫斯、☆勇者莱汀。其中《高达W 无尽的华尔兹》此前只以客串单位登场，在本作首次正式列名；丹戈加的剧情以 OVA《失われた者たちへの鎮魂歌》与《GOD BLESS DANCOUGA》为主轴（日文维基）。</p>
+
+      <h2>其他版本差异（概要）：WSC 版</h2>
+      <p>本站逐关攻略以 <strong>1999 年 WS 黑白原版</strong>为准。<strong>《超级机器人大战COMPACT for WonderSwanColor》（2001 年 12 月 13 日）</strong>是彩色化加系统大改的版本，只作概要（据日文维基与 Akurasu 的版本注）：系统向《COMPACT2》靠拢——<strong>追加援护系统</strong>、WS 版的随机奖励层被删除；新增机体、部分机体作画重绘、追加过场插画；<strong>隐藏要素的入手条件有变更</strong>、敌方增援追加、Boss 强化；SD 高达的眼部描绘被取消等。<strong>两版逐关数据并不通用，本站各关内容只对应 WS 原版</strong>；Akurasu 也为 WSC 版单设了分区，本站引用时未混用。</p>
+      <p class="text-sm text-base-content/60">系统与作品记述据日文维基百科、Akurasu 的 Compact 分区（流程图、隐藏要素页）与 CMori 的 GameFAQs 攻略（改造价格表、技能协调表、各场景结构）。来源间的已知分歧：2-4 的卡碧尼Mk-II 条件，Akurasu 隐藏要素页括注「第三个选择关」与其流程图的「第 7 关」记法矛盾，本站以流程图为准并已在 2-4 页注明；CMori 攻略把第 5 章的场景标题误植为「Scene 4」，本站场景编号以 Akurasu 与全 33 关的计数为准。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -791,6 +860,11 @@ const isSrwFFinal = g.slug === 'srw-f-final';
     <div>
       <p>本作 69 个不同标题的剧本<strong>全部建有独立攻略页</strong>（每一话一个详情页：单周目约 45 话，本表按 Akurasu 流程图的全部标题清点，含真实系/超级系路线专属话、托德旗标两版、宇宙编/地上编分线与 EVA BAD END、第 30 话三版本、DC线/GP线双线终盘与三种最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（跨作旗标、说得链、魔神凯撒与塞拉）与坐标地图。本作同时保留一份<a class="link" href={href('srw-f-final/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwFFinalMissionList />
+    </div>
+  ) : isSrwCompact ? (
+    <div>
+      <p>本作 33 个剧本<strong>全部建有独立攻略页</strong>（每一关一个详情页：7 个场景，每章首尾固定、中间为可任意顺序攻略的自由选择关——本表按下表分组的编号顺序排列，实际攻略顺序由你决定，奖励随顺序变化）。下表为按场景分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方加入、通关奖励部件（固定／随机／顺序全表）、本关隐藏要素（说得链、顺序限定机体、莱汀强化与真盖塔条件）与坐标地图。本作同时保留一份<a class="link" href={href('srw-compact/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwCompactMissionList />
     </div>
   ) : isSrw30 ? (
     <div>
