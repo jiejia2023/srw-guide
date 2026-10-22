@@ -6,9 +6,20 @@
 // If mission.map.terrainGrid exists (array of strings, one terrain-code char per
 // tile) the tiles are filled with terrain colours and unit markers become badges;
 // mission.map.terrainLegend maps code -> { name, color, effect }.
+//
+// RICH MODE (used when the page passes `unitSprites`, i.e. SRW 1 / SRW 2):
+// terrain cells render the ACTUAL game tile graphics - per-cell from the stage's
+// tile sheet (map.tileSheet/tileCells, sliced from the GX map renders) or the
+// per-terrain canonical tile (map.tileImgs) - and every unit shows its NAME on
+// the map (label strip under its sprite, or a name chip where no sprite exists).
+// Larger tiles + a 标准/放大 zoom toggle. Legacy mode (SRW 4) is unchanged.
 const m = Astro.props.mission as any;
+const unitSprites = (Astro.props as any).unitSprites as Record<string, string> | undefined;
+const rich = !!unitSprites;
+const BASE = import.meta.env.BASE_URL;
+const asset = (p?: string | null) => (p ? `${BASE}${p}` : null);
 
-type Entry = { cat: string; glyph: string; bg: string; fg: string; prio: number; label: string };
+type Entry = { cat: string; glyph: string; bg: string; fg: string; prio: number; label: string; name: string; sprite: string | null; triggered: boolean };
 const CAT: Record<string, { glyph: string; bg: string; fg: string; prio: number; legend: string }> = {
   boss:  { glyph: 'B',  bg: '#d32f2f', fg: '#ffffff', prio: 60, legend: 'Boss / 胜利条件目标' },
   tower: { glyph: '塔', bg: '#f6c343', fg: '#1b2a3c', prio: 50, legend: '塔' },
@@ -20,6 +31,7 @@ const CAT: Record<string, { glyph: string; bg: string; fg: string; prio: number;
   enemy: { glyph: '敌', bg: '#ef9a9a', fg: '#7f1d1d', prio: 20, legend: '敌方（初期配置）' },
 };
 const pointCat = (kind: string) => kind === 'Boss' ? 'boss' : kind === '塔' ? 'tower' : kind === '隐藏道具' ? 'item' : kind === '商店' ? 'shop' : 'special';
+const isUnitCat = (c: string) => c === 'ally' || c === 'enemy' || c === 'reinf' || c === 'boss';
 
 const byTile = new Map<string, Entry[]>();
 const push = (x: any, y: any, e: Entry) => {
@@ -33,20 +45,20 @@ const bump = (c: string) => { counts[c] = (counts[c] ?? 0) + 1; };
 
 for (const a of m.allyUnits ?? []) {
   const c = CAT.ally;
-  push(a.x, a.y, { cat: 'ally', ...c, label: `我方：${a.name}${a.pilot ? `（${a.pilot}）` : ''}${a.lv ? ` Lv${a.lv}` : ''}${a.trigger ? ` · ${a.trigger}` : ' · 初期配置'}` });
+  push(a.x, a.y, { cat: 'ally', ...c, name: a.name, sprite: asset(unitSprites?.[a.name]), triggered: !!a.trigger, label: `我方：${a.name}${a.pilot ? `（${a.pilot}）` : ''}${a.lv ? ` Lv${a.lv}` : ''}${a.trigger ? ` · ${a.trigger}` : ' · 初期配置'}` });
   bump('ally');
 }
 for (const e of m.enemies?.rows ?? []) {
   const txt = `${e.note ?? ''} ${e.behavior ?? ''}`;
   const isBoss = /Boss|胜利条件目标/.test(txt) && !/无需击破/.test(txt);
   const c = isBoss ? CAT.boss : CAT.enemy;
-  push(e.x, e.y, { cat: isBoss ? 'boss' : 'enemy', ...c, label: `${isBoss ? 'Boss' : '敌方'}：${e.name}${e.pilot && e.pilot !== '—' ? `（${e.pilot}）` : ''} Lv${e.lv}` });
+  push(e.x, e.y, { cat: isBoss ? 'boss' : 'enemy', ...c, name: e.name, sprite: asset(unitSprites?.[e.name]), triggered: false, label: `${isBoss ? 'Boss' : '敌方'}：${e.name}${e.pilot && e.pilot !== '—' ? `（${e.pilot}）` : ''} Lv${e.lv}` });
   if (e.x !== null && e.x !== undefined && e.y !== null && e.y !== undefined) bump(isBoss ? 'boss' : 'enemy');
 }
 for (const r of m.enemies?.reinforcements ?? []) {
   const c = CAT.reinf;
   const trig = r.trigger ?? (r.turn ? `第${r.turn}回合` : '增援');
-  push(r.x, r.y, { cat: 'reinf', ...c, label: `增援（${trig}）：${r.name}${r.pilot && r.pilot !== '—' ? `（${r.pilot}）` : ''} Lv${r.lv}${r.count && r.count > 1 ? ` ×${r.count}` : ''}` });
+  push(r.x, r.y, { cat: 'reinf', ...c, name: r.name, sprite: asset(unitSprites?.[r.name]), triggered: true, label: `增援（${trig}）：${r.name}${r.pilot && r.pilot !== '—' ? `（${r.pilot}）` : ''} Lv${r.lv}${r.count && r.count > 1 ? ` ×${r.count}` : ''}` });
   if (r.x !== null && r.x !== undefined && r.y !== null && r.y !== undefined) bump('reinf');
 }
 for (const p of m.map.verifiedPoints ?? []) {
@@ -55,7 +67,7 @@ for (const p of m.map.verifiedPoints ?? []) {
   // A Boss point that coincides with a boss enemy row describes the same unit;
   // the row entry (with level) wins, so don't double-plot it.
   if (cat === 'boss' && (byTile.get(`${p.x},${p.y}`) ?? []).some(e => e.cat === 'boss')) continue;
-  push(p.x, p.y, { cat, ...c, label: p.label });
+  push(p.x, p.y, { cat, ...c, name: p.kind, sprite: null, triggered: false, label: p.label });
   bump(cat);
 }
 
@@ -72,10 +84,27 @@ for (const k of byTile.keys()) {
 // Optional verified terrain grid (terrainLegend: code -> {name,color,effect})
 const terrainGrid: string[] | null = m.map.terrainGrid ?? null;
 const terrainLegend: Record<string, { name: string; color: string; effect?: string }> = m.map.terrainLegend ?? {};
-const terrainAt = (x: number, y: number) => {
+const terrainCodeAt = (x: number, y: number): string | null => {
   if (!terrainGrid || !terrainGrid[y - 1]) return null;
-  const code = terrainGrid[y - 1][x - 1];
+  return terrainGrid[y - 1][x - 1] ?? null;
+};
+const terrainAt = (x: number, y: number) => {
+  const code = terrainCodeAt(x, y);
   return code ? (terrainLegend[code] ?? null) : null;
+};
+
+// Rich-mode graphics: per-cell tile sheet + per-terrain canonical tiles.
+const tileSheet: string | null = rich ? asset(m.map.tileSheet) : null;
+const tileCols: number = m.map.tileCols ?? 16;
+const tileRows: number = m.map.tileRows ?? 1;
+const tileCells: number[][] | null = rich ? (m.map.tileCells ?? null) : null;
+const tileImgs: Record<string, string> = rich ? (m.map.tileImgs ?? {}) : {};
+const hasSheet = !!(tileSheet && tileCells);
+const sheetPos = (idx: number) => {
+  const c = idx % tileCols, r = Math.floor(idx / tileCols);
+  const px = tileCols > 1 ? (c / (tileCols - 1)) * 100 : 0;
+  const py = tileRows > 1 ? (r / (tileRows - 1)) * 100 : 0;
+  return `background-image:url(${tileSheet});background-size:${tileCols * 100}% ${tileRows * 100}%;background-position:${px}% ${py}%;`;
 };
 
 const cells = Array.from({ length: W * H }, (_, i) => {
@@ -83,15 +112,31 @@ const cells = Array.from({ length: W * H }, (_, i) => {
   const entries = (byTile.get(`${x},${y}`) ?? []).slice().sort((a, b) => b.prio - a.prio);
   const top = entries[0];
   const terr = terrainAt(x, y);
+  const code = terrainCodeAt(x, y);
   const infoParts: string[] = [];
   if (terr) infoParts.push(`地形：${terr.name}${terr.effect ? `（${terr.effect}）` : ''}`);
   else infoParts.push('地形待核实');
   for (const e of entries) infoParts.push(e.label);
+  // Rich-mode background: real game tile graphic when available.
+  let bgStyle = '';
+  let unknown = false;
+  if (rich) {
+    const idx = tileCells?.[y - 1]?.[x - 1];
+    if (hasSheet && typeof idx === 'number') bgStyle = sheetPos(idx);
+    else if (code && tileImgs[code]) bgStyle = `background-image:url(${asset(tileImgs[code])});background-size:cover;`;
+    else if (!terr) unknown = true; // no verified terrain type and no graphic
+  }
+  // Rich-mode marker plan for the top entry.
+  const topIsUnit = !!top && isUnitCat(top.cat) && !(top.cat === 'boss' && !top.sprite && top.name === 'Boss');
+  const showSprite = rich && topIsUnit && !!top.sprite && (top.cat === 'reinf' || top.triggered || !hasSheet);
+  const showChip = rich && topIsUnit && !showSprite && !hasSheet;
+  const showTag = rich && topIsUnit && !showChip;
   return {
     x, y, top, multi: entries.length > 1,
     bg: terr ? terr.color : top ? top.bg : '#e8ebef',
     badge: terr && top ? top : null,
     info: `坐标 (${x},${y}) · ${infoParts.join('；')}`,
+    bgStyle, unknown, showSprite, showChip, showTag, topIsUnit,
   };
 });
 const legendCats = ['ally', 'enemy', 'reinf', 'boss', 'tower', 'item', 'shop', 'special'].filter(c => counts[c]);
@@ -102,7 +147,45 @@ const summary = [
   counts.boss ? `Boss ${counts.boss}` : null,
   (counts.tower || counts.item || counts.shop || counts.special) ? `特殊点位 ${(counts.tower ?? 0) + (counts.item ?? 0) + (counts.shop ?? 0) + (counts.special ?? 0)}` : null,
 ].filter(Boolean).join(' · ');
+const legendTerrain = Object.entries(terrainLegend);
+const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
 ---
+{rich ? (
+<div class="map-wrap map-rich">
+  {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
+  <div class="map-controls" role="group" aria-label="地图缩放">
+    <span class="text-sm text-base-content/60">显示大小：</span>
+    <button type="button" class="zoom-btn is-active" data-zoom="std">标准</button>
+    <button type="button" class="zoom-btn" data-zoom="big">放大</button>
+  </div>
+  <div class="map-scroll">
+    <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label="坐标地图（游戏原图地形与单位标注）">
+      {cells.map(c => (
+        <button type="button" class:list={['map-cell', { 'cell-unknown': c.unknown }]} style={`background-color:${c.bg};${c.bgStyle}`} data-info={c.info} title={c.info}
+          aria-label={c.info}>
+          {c.top && !c.topIsUnit && <span class="p-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>}
+          {c.topIsUnit && c.showSprite && <img class="u-sprite" src={c.top.sprite} alt={c.top.name} loading="lazy" />}
+          {c.topIsUnit && c.showChip && <span class={`u-chip chip-${c.top.cat}`}>{c.top.name}</span>}
+          {c.topIsUnit && c.showTag && <span class={`u-tag tag-${c.top.cat}`}>{c.top.name}</span>}
+          {!c.top && c.x === 1 && <span class="map-axis">{c.y}</span>}
+          {!c.top && c.y === 1 && <span class="map-axis">{c.x}</span>}
+          {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
+        </button>
+      ))}
+    </div>
+  </div>
+  <div class="legend">
+    {legendCats.map(c => <span><i class="sw" style={`background:${CAT[c].bg}`}></i>{CAT[c].legend}</span>)}
+    {legendTerrain.map(([code, t]: any) => (
+      <span>{tileImgs[code]
+        ? <img class="sw-img" src={asset(tileImgs[code])} alt={t.name} />
+        : <i class="sw" style={`background:${t.color}`}></i>}{t.name}</span>
+    ))}
+    {hasUnknownTiles && <span><i class="sw sw-unknown"></i>未确认（地形待核实）</span>}
+  </div>
+  <div class="map-info stagemap-info">点击任意格子查看坐标信息。</div>
+</div>
+) : (
 <div class="map-wrap">
   {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
   <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label="坐标地图（单位与点位标注）">
@@ -125,6 +208,7 @@ const summary = [
   </div>
   <div class="map-info stagemap-info">点击任意格子查看坐标信息。</div>
 </div>
+)}
 
 <style>
   .map-cell { position: relative; }
@@ -139,6 +223,75 @@ const summary = [
     font-size: 0.6rem; font-weight: 700; line-height: 1;
     color: #1b2a3c; text-shadow: 0 0 2px #fff, 0 0 2px #fff;
   }
+
+  /* ---- rich mode: real game graphics + named units ---- */
+  .map-rich { --tile: 48px; }
+  .map-rich.map-big { --tile: 76px; }
+  .map-rich .map-scroll { overflow-x: auto; }
+  .map-rich .map-grid {
+    grid-template-columns: repeat(var(--cols, 16), var(--tile));
+    width: max-content; min-width: 0; gap: 2px;
+  }
+  .map-rich .map-cell {
+    width: var(--tile); height: var(--tile); aspect-ratio: auto;
+    overflow: hidden; image-rendering: pixelated; background-repeat: no-repeat;
+  }
+  .map-rich .cell-unknown {
+    background-image: repeating-linear-gradient(45deg, rgba(20,24,30,.28) 0 4px, rgba(255,255,255,.10) 4px 8px) !important;
+  }
+  .map-controls { display: flex; align-items: center; gap: 6px; margin: 4px 0 8px; }
+  .zoom-btn {
+    border: 1px solid rgba(0,0,0,.25); border-radius: 6px; padding: 2px 10px;
+    font-size: 0.82rem; line-height: 1.5; background: transparent; cursor: pointer;
+  }
+  .zoom-btn.is-active { background: #16365c; color: #fff; border-color: #16365c; }
+  .p-badge {
+    position: absolute; top: 2px; left: 2px; z-index: 3;
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 1.05rem; height: 1.05rem; border-radius: 3px;
+    font-size: 0.68rem; font-weight: 700; line-height: 1; padding: 0 1px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.35);
+  }
+  .u-sprite {
+    position: absolute; top: 3%; left: 50%; transform: translateX(-50%);
+    width: 80%; aspect-ratio: 1; object-fit: contain;
+    image-rendering: pixelated; pointer-events: none; z-index: 1;
+    filter: drop-shadow(0 1px 1px rgba(0,0,0,.55));
+  }
+  .u-tag {
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
+    font-size: 10px; line-height: 1.35; padding: 0 1px;
+    color: #fff; text-align: center; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; pointer-events: none;
+  }
+  .map-big .u-tag { font-size: 12px; }
+  .tag-ally  { background: rgba(21, 84, 190, .92); }
+  .tag-enemy { background: rgba(196, 32, 32, .92); }
+  .tag-reinf { background: rgba(112, 62, 184, .94); }
+  .tag-boss  { background: rgba(128, 6, 6, .97); font-weight: 700; }
+  .u-chip {
+    position: absolute; inset: 9% 6%; z-index: 2;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 4px; color: #fff; text-align: center;
+    font-size: 10px; line-height: 1.2; padding: 1px;
+    overflow: hidden; overflow-wrap: anywhere;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.4);
+    pointer-events: none;
+  }
+  .map-big .u-chip { font-size: 12px; }
+  .chip-ally  { background: rgba(21, 84, 190, .94); }
+  .chip-enemy { background: rgba(196, 32, 32, .94); }
+  .chip-reinf { background: rgba(112, 62, 184, .95); }
+  .chip-boss  { background: rgba(128, 6, 6, .97); font-weight: 700; }
+  .legend .sw-img {
+    display: inline-block; width: 18px; height: 18px; border-radius: 3px;
+    vertical-align: -4px; margin-right: 5px; image-rendering: pixelated;
+    border: 1px solid rgba(0,0,0,.25); object-fit: cover;
+  }
+  .legend .sw-unknown {
+    background-color: #cfd4da;
+    background-image: repeating-linear-gradient(45deg, rgba(20,24,30,.28) 0 4px, rgba(255,255,255,.10) 4px 8px);
+  }
 </style>
 
 <script is:inline>
@@ -147,6 +300,14 @@ const summary = [
     wrap.querySelectorAll('.map-cell').forEach(function (cell) {
       cell.addEventListener('click', function () {
         if (info) info.textContent = cell.dataset.info || '';
+      });
+    });
+    wrap.querySelectorAll('.zoom-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        wrap.classList.toggle('map-big', btn.dataset.zoom === 'big');
+        wrap.querySelectorAll('.zoom-btn').forEach(function (b) {
+          b.classList.toggle('is-active', b === btn);
+        });
       });
     });
   });

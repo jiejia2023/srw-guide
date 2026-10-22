@@ -93,7 +93,7 @@ const rewardParts = m.rewards.parts && m.rewards.parts.length ? m.rewards.parts 
   </div>
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} unitSprites={(data as any).sprites ?? {}} />
     </div>
   </div>
   <h3>已核实点位</h3>
