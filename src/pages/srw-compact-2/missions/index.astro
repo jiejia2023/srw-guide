@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwCompact2MissionList from '../../../components/SrwCompact2MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Compact2', path: 'srw-compact-2/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战Compact2（WS 三部曲）关卡攻略 · 全100个剧本页面列表" description="超级机器人大战COMPACT2（WS 三部曲：第1部 地上激動篇 / 第2部 宇宙激震篇 / 第3部 銀河決戦篇）全部 100 个不同标题的剧本页面：三部一轮共 92 关，另计第1部 Scene 4 双路线、第2部 Scene 5 双路线与第3部隐藏 Scene 7。每关独立攻略页含胜利/败北条件、我方加入、部件奖励（顺序奖励）、本关隐藏要素（跨部继承连锁、说得链、777 回合隐藏关）与坐标地图。本页为链接索引。" path="srw-compact-2/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战Compact2 · 关卡攻略</h1>
+  <p>《超级机器人大战COMPACT2》是系列第一个三部曲、也是第一个带副标题的作品：三张 WonderSwan 卡带先后发售——第1部《地上激動篇》（2000 年 3 月 30 日，响介与古铁在地上）、第2部《宇宙激震篇》（2000 年 9 月 14 日，艾克塞琳与白骑士在宇宙，与第1部同时期平行展开）、第3部《銀河決戦篇》（2001 年 1 月 18 日，两部人马合流对阿因斯特决战）。三部一轮合计 92 关；把第1部 Scene 4 的地上／拜斯顿·威尔双路线、第2部 Scene 5 的 A／B 双路线与第3部的隐藏关全部计入，共 <strong>100 个不同标题的剧本</strong>，本站为每一关都建有独立详情页。结构上承袭前作的<strong>自由顺序剧本</strong>：每个 Scene 首尾固定、中间可任意顺序攻略，顺序决定「Last Stage」零件奖励与多条隐藏的成败；三部之间则以<strong>标志继承</strong>相连（送谁上宇宙、哪条路线、隐藏拿没拿，都会在后面的部里结算），最终藏着以总回合 777 为条件的隐藏 Scene 7。本页只是链接索引——每一关的完整攻略（条件、加入、奖励、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-compact-2/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十二部<strong>全关卡补完</strong>的作品——100 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新超级机器人大战、F、F完结编、COMPACT、64 已完成）。流程、胜败条件、加入、部件奖励与隐藏要素以 Akurasu 的 COMPACT2 三部流程图与隐藏要素页为主源，话数与系统以日文维基、SRW Wiki 交叉核对。<strong>如实说明</strong>：本作（WS 原版）没有任何可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作，Akurasu 只有流程图与隐藏要素页；日文 atwiki 的 COMPACT 攻略 wiki 只有零散地图笔记与个别关卡的事件提示，不成数据集（连单一来源的成套敌方编成表都不存在，与 COMPACT 的 CMori 攻略情形不同）——故各页的敌方配置与地图尺寸标为待核实，坐标图为参照框架；逐格坐标与地形则未查到任何公开来源。2002 年 PS2《IMPACT》是本作的实质重制版（新增参战作品、阿尔菲米、熟练度等均为 IMPACT 的内容），其数据未被用于填充本页任何一关。</span>
+  </div>
+
+  <SrwCompact2MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact_2/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Compact 2 Flow Chart（第1部）</a>（流程结构、胜败条件、加入与部件奖励；第2部、第3部流程图位于 Akurasu 的 Compact 2.2 / Compact 2.3 分区，各详情页页末附本关所据链接）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact_2/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Compact 2 Secrets</a>（三部隐藏要素：说得链、顺序锁定机体、跨部继承连锁与隐藏 Scene 7 的条件）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT2" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦COMPACT2</a>（三部发售日与话数（31/35、31/34、30/31）、参战作品与系统概要）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6COMPACT2_%E7%AC%AC3%E9%83%A8%EF%BC%9A%E9%8A%80%E6%B2%B3%E6%B1%BA%E6%88%A6%E7%AF%87" rel="noopener" target="_blank">SRW Wiki — COMPACT2 第3部頁</a>（继承补正、宇宙组免费改造、出击数等系统核对）</li>
+  </ul>
+  <p><a href={href('srw-compact-2/')}>← 返回超级机器人大战Compact2</a></p>
+</Base>
