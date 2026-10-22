@@ -113,6 +113,15 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
     <StageMap mission={m} />
     </div>
   </div>
+  {m.map.overview && (
+    <figure class="my-4">
+      <img src={href(m.map.overview)} alt={`${m.zh} 全图总览（GameCenter GX）`} width="512" height="448" loading="lazy" style="image-rendering:pixelated;width:100%;max-width:512px;height:auto;" />
+      <figcaption class="text-sm text-base-content/60 mt-2">
+        <strong>原图总览（参照）：</strong>上图为 GameCenter GX 发布的本关全图总览图，可参照本关的地形全貌与初期站位——图中的三角图标为初期配置单位（红＝敌方、蓝＝我方、黄＝第三方）。
+        注意：总览图是整幅地图的缩略图，其范围与比例与上方坐标格的框架不完全一致，精确定位请以坐标格与敌方配置表为准。
+      </figcaption>
+    </figure>
+  )}
   <h3>已核实点位</h3>
   <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
   <table class="table table-zebra table-sm">
