@@ -2069,10 +2069,10 @@
      "ddddddddddddddddeeeeeaaa",
      "addddddddddddddddeeeeeaa",
      "aaaaafffaaadddddddaaeeee",
-     "abaaaaaaaaaaaaaddakaaeee",
-     "aaab?aaaaaaaaaaakaa?aaaa",
-     "aaf?a?aaddddddfkaakaaaaa",
-     "aa?a?afdddddaaaakaaaaaag",
+     "abaaaaaaaaaaaaadda?aaeee",
+     "aaab?aaaaaaaaaaa?aa?aaaa",
+     "aaf?a?aaddddddf?aa?aaaaa",
+     "aa?a?afdddddaaaa?aaaaaag",
      "aaa?a?aaadddddbbaafaaagg",
      "aaaa?aafadddddbbbaaaaafg",
      "aaaaaaaaaaaaddddbbaagggg"
@@ -2119,9 +2119,9 @@
       "effect": "移动成本 1"
      },
      "k": {
-      "name": "本拠地",
+      "name": "本拠地（要塞）",
       "color": "#c1666b",
-      "effect": "移动成本 1"
+      "effect": "移动成本 1 · 敌方要塞设施，占领/击破目标所在"
      }
     }
    },
@@ -6513,23 +6513,23 @@
      "DlllCCllllllllllllllllll?l",
      "DllllllBlllllllllllllmllll",
      "Dlplllllllolllllllllllllll",
-     "DollpBloplpBllllllllllllll",
-     "DlpllllBpollBlllllllllllll",
-     "DlpolllmlBlBllllllllllmlll",
-     "DllllBllopBlllllllllllllll",
-     "DllllplolBlllllllllllnllll",
-     "nnnlllllllBllllllllllnllll",
-     "DnnnllpllBllolllolllnnllll",
+     "DollpBloplp?llllllllllllll",
+     "DlpllllBpoll?lllllllllllll",
+     "Dlpolllml?l?llllllllllmlll",
+     "DllllBllop?lllllllllllllll",
+     "Dllllplol?lllllllllllnllll",
+     "nnnlllllll?llllllllllnllll",
+     "Dnnnllpll?llolllolllnnllll",
      "Dlnnnllllllllllslllmnlllll",
      "Dllnnnnllllllollllnnnlllll",
      "Dslllnnnnllllllnnnnlllllll",
      "Dllllllnnnnnnnnnppllllllll",
      "Dllpllllllllllllopololllll",
-     "lllBlllllllllloloopoolllll",
-     "DllllBlllnnllllooolpnnnnnn",
+     "lll?lllllllllloloopoolllll",
+     "Dllll?lllnnllllooolpnnnnnn",
      "Dlo?llllllllllllnnnnnnnlll",
-     "DmlllBllllllnnnnnlllllllll",
-     "lolBpolllllnnllllllll??lll",
+     "Dmlll?llllllnnnnnlllllllll",
+     "lol?polllllnnllllllll??lll",
      "Dlloolollnnnllllllll?lllll",
      "Doollllnnnllllllllljl???ll",
      "lpoooonnlllollllllll?lllll",
@@ -8754,16 +8754,16 @@
     "missing": [],
     "terrainGrid": [
      "eeeeeeeeeeeeeeeeaaaggggggggg",
-     "eeeeeeeaaaaakkkaaaaaafffffff",
+     "eeeeeeeaaaaa???aaaaaafffffff",
      "ffffeeeaeeeeeeeeeeeaaaagffff",
      "fffffaaaeeeeeeeeeeeeeaaaagff",
      "ffaiaffaaaeeeeeeeeaaaaaaaagf",
-     "aaaabaaaaaaaaeeeeeeabaakaaaf",
-     "aaaafaaaaaa?jaeeeeaakaaadiaf",
-     "faaaaaaada?a?aeeeedkaff?aaaa",
-     "aafaaaaaa?a??aeeedafkfaaaadd",
-     "akaaaagfa??aaeeeeadafaddadda",
-     "aakffffajaa?aeeaaaaaddddddaa",
+     "aaaabaaaaaaaaeeeeeeabaa?aaaf",
+     "aaaafaaaaaa?jaeeeeaa?aaadiaf",
+     "faaaaaaada?a?aeeeed?aff?aaaa",
+     "aafaaaaaa?a??aeeedaf?faaaadd",
+     "a?aaaagfa??aaeeeeadafaddadda",
+     "aa?ffffajaa?aeeaaaaaddddddaa",
      "afffgaafffaaeeaaaaaddddaafff",
      "ffffeeeeeffeeaaaaaaaddddaffa",
      "fffffeeeffaeaaaaaaadddddaagf",
@@ -8812,9 +8812,9 @@
       "effect": "移动成本 1"
      },
      "k": {
-      "name": "本拠地",
+      "name": "本拠地（要塞）",
       "color": "#c1666b",
-      "effect": "移动成本 1"
+      "effect": "移动成本 1 · 敌方要塞设施，占领/击破目标所在"
      }
     }
    },

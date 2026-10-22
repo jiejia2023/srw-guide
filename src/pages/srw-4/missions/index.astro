@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Srw4MissionList from '../../../components/Srw4MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第4次超级机器人大战', path: 'srw-4/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第4次超级机器人大战（SFC）关卡攻略 · 全70个剧本页面列表" description="第4次超级机器人大战（1995年 SFC）全部 70 个剧本页面：GX 剧本编号对应的 69 个不同剧本（含真实系/超级系路线专属话、各条件分歧变体与隐藏关），外加最终话的隐藏变体「火星的决战（白河愁战）」。每话独立攻略页含胜利/败北条件、完整敌方配置与增援表（含坐标）、埋藏部件点位与隐藏要素。本页为链接索引。" path="srw-4/missions/" breadcrumbs={crumbs}>
+  <h1>第4次超级机器人大战 · 关卡攻略</h1>
+  <p>1995 年 SFC《第4次超级机器人大战》是 DC 战争系列的完结篇。剧本总数：GameCenter GX 的剧本一览收录 <strong>69 个不同剧本</strong>（与其攻略评测中所述的「69 个剧本」一致，GameFAQs 评测亦作 69）：开局的真实系/超级系主人公路线、「有无恋人」选择、第 1 话通关回合数、第 22 话后的宇宙/地上双线、第 29 话的路线分歧、第 33/34 话的加入与人质分歧、第 35 话后的 A/B 双队分进，以及终盘按加布雷、普尔姐妹、克瓦特罗去留与总回合数层层分歧的多个版本，最终话更有「与白河愁交战」的隐藏变体（GX 为其单列一页）。本站为 GX 编号的 69 个剧本逐一建页，并为白河愁战变体另建一页，合计 <strong>70 个详情页</strong>。本页只是链接索引——每一话的完整攻略（条件、敌表、埋藏点、隐藏要素、坐标地图）都在各自的详情页里。本页与<a href={href('srw-4/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第五部<strong>全关卡补完</strong>的作品——70 个剧本页面全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX 已完成）。与 EX 不同，本作有幸存完整的逐关解析：<strong>全部 70 页的敌方初始配置与增援表（含驾驶员、等级、坐标、行动开始回合与敌改造段数）均来自 GameCenter GX 的 SFC 原版解析表</strong>，合计初始敌 903 条、增援 845 条；地图埋藏部件（强化パーツ/金块）354 个点位同样逐关收录。流程、胜败条件与隐藏要素以 Akurasu 的 SRW4 流程图与隐藏要素表交叉核对。<strong>如实说明</strong>：地图的实际边界与逐格地形未从公开来源逐格核实，坐标图为按已核实点位设定的参照框架；个别关卡来源未单列的败北条件标为待核实。PS 版《第4次S》的数据未被用于填充本页任何一关。</span>
+  </div>
+
+  <Srw4MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://gcgx.games/srw4/scenario/" rel="noopener" target="_blank">GameCenter GX — 第4次スーパーロボット大戦 シナリオ攻略チャート</a>（逐关敌配置、增援、埋藏部件、作战目的；各详情页页末附该关的 GX 页面链接）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/4/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 4 Flow Chart</a>（全流程分歧、胜败条件、加入与通关奖励）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/4/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 4 Secrets</a>（隐藏要素总表与爱情点数表）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC4%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6" rel="noopener" target="_blank">日文维基百科 — 第4次スーパーロボット大戦</a>（系统、参战作品、第4次S 差异）</li>
+  </ul>
+  <p><a href={href('srw-4/')}>← 返回第4次超级机器人大战</a></p>
+</Base>
