@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jiejia2023.github.io/srw-guide/sitemap.xml
