@@ -1,0 +1,127 @@
+{
+ "groups": [
+  {
+   "title": "全 13 话（线性流程 · 开局三队选一）",
+   "intro": "本作没有路线分支：开局从高达队 / 魔神队 / 盖塔队中选一队并指定英雄，之后 13 话顺序推进。每一话都有独立的攻略页（下表「详情」列），内含该话的胜负条件、敌方配置（含坐标）、塔与隐藏道具位置、说得要点与坐标地图。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "出击！超级机器人",
+     "ja": "出撃！スーパーロボット",
+     "en": "Scramble! Super Robots",
+     "type": "主线",
+     "area": "",
+     "note": "Boss：加拉达K7"
+    },
+    {
+     "code": "第2话",
+     "zh": "湖畔之战",
+     "ja": "湖畔の戦い",
+     "en": "Lakeside Battle",
+     "type": "主线",
+     "area": "森林之镇「福雷斯特」",
+     "note": "Boss：艾尔梅斯"
+    },
+    {
+     "code": "第3话",
+     "zh": "暮光之河",
+     "ja": "トワイライト リバー",
+     "en": "Twilight River",
+     "type": "主线",
+     "area": "三条河流交汇的平原",
+     "note": "Boss：梅萨拉"
+    },
+    {
+     "code": "第4话",
+     "zh": "伏魔殿",
+     "ja": "伏魔殿",
+     "en": "Pandemonium",
+     "type": "主线",
+     "area": "",
+     "note": "Boss：多本乌尔夫"
+    },
+    {
+     "code": "第5话",
+     "zh": "幕后陷阱",
+     "ja": "ビハインド トラップ",
+     "en": "Behind Trap",
+     "type": "主线",
+     "area": "包围圈",
+     "note": "Boss：盖马克；增援：第3 回合"
+    },
+    {
+     "code": "第6话",
+     "zh": "水中死斗",
+     "ja": "水中の死闘",
+     "en": "Underwater Struggle",
+     "type": "主线",
+     "area": "水域",
+     "note": "Boss：毕格扎姆；增援：第8 回合"
+    },
+    {
+     "code": "第7话",
+     "zh": "攻击中继基地！",
+     "ja": "中継基地を叩け！",
+     "en": "Relay Base Battle!",
+     "type": "主线",
+     "area": "中继基地「佐安」",
+     "note": "Boss：精神力高达；增援：第12 回合"
+    },
+    {
+     "code": "第8话",
+     "zh": "强袭！山岳地带",
+     "ja": "強襲！山岳地帯",
+     "en": "Assault! Mountainous Area",
+     "type": "主线",
+     "area": "山岳地带",
+     "note": "Boss：昆·曼萨；增援：第4 回合"
+    },
+    {
+     "code": "第9话",
+     "zh": "皮格多隆的死亡迷宫",
+     "ja": "ピグドロン死の迷宮",
+     "en": "Picdoron's Labyrinth of Death",
+     "type": "主线",
+     "area": "基地「死亡迷宫」",
+     "note": "Boss：α·阿兹尔；增援：第5 回合"
+    },
+    {
+     "code": "第10话",
+     "zh": "多岛海决战",
+     "ja": "多島海の決戦",
+     "en": "Decisive Battle in the Archipelago",
+     "type": "主线",
+     "area": "多岛海",
+     "note": "Boss：皮格多隆；增援：第26 回合"
+    },
+    {
+     "code": "第11话",
+     "zh": "吉尔吉尔冈之谜",
+     "ja": "ギルギルガンの謎",
+     "en": "Gilgilgun's Mystery",
+     "type": "主线",
+     "area": "",
+     "note": "Boss：吉尔吉尔冈；增援：第14 回合"
+    },
+    {
+     "code": "第12话",
+     "zh": "复活！吉尔吉尔冈！！",
+     "ja": "復活！ギルギルガン！！",
+     "en": "Revival! Gilgilgun!!",
+     "type": "主线",
+     "area": "",
+     "note": "Boss：吉尔吉尔冈；增援：第2 回合"
+    },
+    {
+     "code": "第13话",
+     "zh": "最终决战",
+     "ja": "最終決戦",
+     "en": "The Final Battle",
+     "type": "主线",
+     "area": "",
+     "note": "Boss：吉尔吉尔冈；增援：第2 回合"
+    }
+   ]
+  }
+ ]
+}

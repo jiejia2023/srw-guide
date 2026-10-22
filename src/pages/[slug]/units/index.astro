@@ -1,34 +1,25 @@
 ---
-import Base from '../../../layouts/Base.astro';
 import games from '../../../data/games.json';
-import { href } from '../../../lib/site';
+import { href, canonical } from '../../../lib/site';
 
+// 结构改版：机体/驾驶员的加入信息已并入各关卡攻略页，本页仅作重定向，避免旧链接失效。
 export function getStaticPaths() {
   return games.map(g => ({ params: { slug: g.slug }, props: { game: g } }));
 }
 const { game: g } = Astro.props;
-const crumbs = [
-  { label: '首页', path: '' },
-  { label: g.zh, path: `${g.slug}/` },
-  { label: '机体图鉴' },
-];
+const target = href(`${g.slug}/`);
+const canon = canonical(`${g.slug}/`);
 ---
-<Base title={`${g.zh} 机体图鉴`} description={`${g.zh}机体与驾驶员图鉴：加入条件与加入时机一览，正在整理中。`} path={`${g.slug}/units/`} breadcrumbs={crumbs}>
-  <h1>{g.zh} · 机体图鉴</h1>
-  <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
-    <strong class="text-base-content">机体图鉴正在整理中。</strong>
-    <p>本页将整理 {g.zh} 全部可加入机体与驾驶员的加入条件，未核对的数据不会先行刊出。</p>
-  </div>
-  <h2>将收录的内容</h2>
-  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
-    <table class="table table-zebra">
-      <thead><tr><th>分类</th><th>说明</th></tr></thead>
-      <tbody>
-        <tr><td>机体</td><td>机体名称、加入关卡与加入条件，条件加入的机体单独标注。</td></tr>
-        <tr><td>驾驶员</td><td>驾驶员与默认机体、加入关卡与加入条件。</td></tr>
-        <tr><td>加入条件</td><td>剧情自动加入 / 条件加入 / 隐藏加入三种类型分开标注，并链接到对应关卡页。</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p><a href={href(`${g.slug}/`)}>← 返回 {g.zh}</a> · <a href={href(`${g.slug}/secrets/`)}>隐藏要素</a></p>
-</Base>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>{g.zh} 机体图鉴已并入关卡攻略页 · 超级机器人大战攻略站</title>
+    <link rel="canonical" href={canon} />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+  </head>
+  <body>
+    <p>本站结构改版：《{g.zh}》的机体与驾驶员加入条件已并入各关卡攻略页（每一关一个详情页，写在加入的那一关内），不再单设图鉴页。正在跳转到《{g.zh}》主页…<a href={target}>若未自动跳转，请点此前往</a>。</p>
+  </body>
+</html>

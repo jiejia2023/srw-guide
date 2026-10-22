@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import games from '../../data/games.json';
+import Srw30MissionList from '../../components/Srw30MissionList.astro';
+import Srw1MissionList from '../../components/Srw1MissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -8,8 +10,10 @@ export function getStaticPaths() {
 }
 const { game: g } = Astro.props;
 const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
+const isSrw30 = g.slug === 'srw-30';
+const isSrw1 = g.slug === 'srw-1';
 ---
-<Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。包含关卡攻略、隐藏要素与机体/驾驶员图鉴，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
+<Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
   <p class="text-base-content/60 -mt-1">{g.en} · {g.ja}</p>
 
@@ -42,32 +46,50 @@ const crumbs = [{ label: '首页', path: '' }, { label: g.zh }];
     </div>
   </div>
 
-  <p>《{g.zh}》是超级机器人大战系列于 {g.year} 年推出的作品，首发于 {g.platform} 平台，归入本系列的{g.series}。本站为这一作设有独立的攻略分区：关卡攻略会逐关给出带坐标与地形的地图、胜利与败北条件、出场与增援以及隐藏要素的触发方法；隐藏要素页汇总隐藏机体、隐藏关卡等收集内容；图鉴页整理机体与驾驶员的加入条件。相关内容正在逐项核对整理，完成后会在此页更新进度。</p>
+  <p>《{g.zh}》是超级机器人大战系列于 {g.year} 年推出的作品，首发于 {g.platform} 平台，归入本系列的{g.series}。本站的攻略直接在本页按关卡列出：每关的详细攻略页给出带坐标的地图、胜利与败北条件、出场与增援，以及该关的隐藏要素（隐藏机体、说得、点数与特殊结局条件都写在触发/结算的那一关里，不再单设汇总页）。本站按<strong>发售顺序</strong>逐作补完（从 1991 年的初代开始），完成后会在此页更新进度。</p>
 
-  <div class="grid sm:grid-cols-3 gap-4 my-5">
-    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/missions/`)}>
-      <div class="card-body p-5">
-        <span class="card-title text-primary text-lg">关卡攻略</span>
-        <p class="text-sm text-base-content/60 m-0">逐关攻略：坐标地图、条件、出场增援与分步打法。</p>
+  {isSrw1 && (
+    <div>
+      <h2>本作的系统（与后来的作品完全不同）</h2>
+      <p>初代的规则是整个系列的原点，也和后来的作品差别最大，玩之前先看这几条：</p>
+      <ul>
+        <li><strong>没有驾驶员、没有资金。</strong>机器人本身就是角色；也没有商店与改造，变强靠升级、说得更多同伴，以及拾取地图上的道具（追加武装 / 能力强化，过关后在「パワーアップ」菜单使用）。</li>
+        <li><strong>开局三队选一 + 指定英雄。</strong>从高达队、魔神队、盖塔队中选一支队伍，再从中指定 1 台为「英雄」（主角）：英雄可自由分配 5 点能力加成、SP+5、并拥有追加精神指令；<strong>英雄被击破即游戏结束</strong>。每关最多出击 8 台。</li>
+        <li><strong>胜利靠占领。</strong>多数关卡的胜利条件是占领敌方本拠地（主塔），沿途的塔里装着道具，占领后站在塔上还能每回合回复 HP。最终话与第 11 话例外，以击破 Boss 为条件。</li>
+        <li><strong>说得是核心系统。</strong>用「特殊→说得」可把相邻敌人变成为我方（敌人也会反过来用）。成功率取决于说得方的魅力与等级、目标的忠义与剩余 HP、双方的系别相性，以及你已占领的塔数；忠义 0 的 Boss 抵抗恒为 256，只有把说得力堆到 257 以上才有可能——各话的可行目标与做法写在各话攻略页的「隐藏要素」里。</li>
+        <li><strong>只有英雄能用精神。</strong>精神指令在选择「せいしん」时随机抽取，出现率因队伍而异（根性、爱、友情、热血、闪き、特训、共鸣、正义八种）。</li>
+      </ul>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra">
+          <thead><tr><th>队伍</th><th>成员（开局全员 Lv1）</th><th>特点</th></tr></thead>
+          <tbody>
+            <tr><td>高达队（7 台）</td><td>高达、钢加农、Z高达、百式、ZZ高达、ν高达、F91</td><td>远程与泛用性最均衡；第 2 话可说得魅力 90 的巴乌，是说得 Boss 路线的起点</td></tr>
+            <tr><td>魔神队（5 台）</td><td>魔神Z、大魔神、阿芙萝黛A、戴安娜A、维纳斯A</td><td>初期火力不足，靠塔内追加武装（光子力导弹、胸部火焰等）成长；第 4 话可说得魅力 99 的迪奥</td></tr>
+            <tr><td>盖塔队（4 台）</td><td>盖塔、盖塔G、盖塔Q、德克萨斯麦克</td><td>人数最少，但盖塔系可变形适应空 / 陆 / 水；成员适合分头拾取道具</td></tr>
+          </tbody>
+        </table>
       </div>
-    </a>
-    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/secrets/`)}>
-      <div class="card-body p-5">
-        <span class="card-title text-primary text-lg">隐藏要素</span>
-        <p class="text-sm text-base-content/60 m-0">隐藏机体、隐藏驾驶员、隐藏关卡与特殊结局的触发条件。</p>
-      </div>
-    </a>
-    <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/units/`)}>
-      <div class="card-body p-5">
-        <span class="card-title text-primary text-lg">机体图鉴</span>
-        <p class="text-sm text-base-content/60 m-0">机体与驾驶员的加入条件和加入时机一览。</p>
-      </div>
-    </a>
-  </div>
+      <p class="text-sm text-base-content/60">队伍成员以 GameCenter GX 的 GB 原版队伍表为准。Fandom 资料把「波士博罗特」也列入魔神队，但 GX 的原版单位与队伍资料中没有它（它在 HD 重制版第 1 话以敌方身份登场），此处按原版处理，该差异待进一步核实。</p>
+      <h2>HD 重制版（2014）差异（概要）</h2>
+      <p>本作于 2014 年 4 月 10 日在 PSN 推出 HD 重制版（数字版，据 Akurasu）。重制版把剧情分为两部分：第 1 部即原版 13 话（敌方配置、行动模式等有调整），其后追加全新的第 2 部 13 话；原版中被误植为「ピグドロン（Pigdron）」的参谋皮格多隆之名也在重制版中修正。本站的逐话攻略以 <strong>1991 年 GB 原版</strong>为准，重制版的逐话差异不在本站当前范围内。</p>
+    </div>
+  )}
 
-  {g.slug === 'srw-30' && (
-    <div class="alert alert-info alert-soft my-4">
-      <span>本作已有一页演示模板结构的<a class="link font-semibold" href={href('srw-30/missions/sample-01/')}>样板关卡</a>，展示坐标地图、地形图例与攻略的写法（样板数据，非真实关卡）。</span>
+  <h2>关卡攻略</h2>
+  {isSrw1 ? (
+    <div>
+      <p>本作 13 话<strong>全部建有独立攻略页</strong>（每一话一个详情页），下表为链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、敌方配置（含坐标）、塔与隐藏道具、说得要点与坐标地图。本作同时保留一份<a class="link" href={href('srw-1/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <Srw1MissionList />
+    </div>
+  ) : isSrw30 ? (
+    <div>
+      <p>下表列出本作全部关键任务（主线）与追加章节；已建详细攻略页的关卡在「详情」列有<strong>攻略</strong>链接，隐藏要素写在各关的攻略页内。本作目前已建 4 关详细攻略页，其余关卡的逐关攻略将在按发售顺序轮到本作时补完（此前已备好的逐关数据与隐藏要素拆分会届时一并刊出）。本作同时保留一份<a class="link" href={href('srw-30/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <Srw30MissionList />
+    </div>
+  ) : (
+    <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
+      <strong class="text-base-content">本作关卡正在整理中。</strong>
+      <p>本站按发售顺序逐作补完攻略，从 1991 年的初代《超级机器人大战》开始逐作完成。本作的关卡列表与逐关攻略（含每关的隐藏要素）将在轮到本作时直接列在本页，未核对的数据不会先行刊出。</p>
     </div>
   )}
 </Base>

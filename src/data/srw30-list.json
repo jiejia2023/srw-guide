@@ -1,0 +1,1355 @@
+{
+ "groups": [
+  {
+   "title": "开局与地上路线 · 第 1 章",
+   "intro": "开局在起始区域中选择「极东 大凑」进入地上路线。伊豆（孔巴特拉V）与东京（勇者警察）两组任务先后可交换：先完成的一组用「序章」标题，后完成的一组在同区域改用后续标题与展开。",
+   "rows": [
+    {
+     "code": "KE1-1",
+     "zh": "出发之日（地上）",
+     "ja": "旅立ちの日",
+     "en": "A Journey's Beginning",
+     "type": "主线",
+     "area": "极东 - 大凑",
+     "note": ""
+    },
+    {
+     "code": "KE1-2A",
+     "zh": "来合体吧",
+     "ja": "レッツ・コンバイン",
+     "en": "Let's Combine",
+     "type": "主线",
+     "area": "极东 - 伊豆",
+     "note": "孔巴特拉V、支援者罗佩特加入"
+    },
+    {
+     "code": "KE1-2B",
+     "zh": "勇者集结",
+     "ja": "ブレイブアップ",
+     "en": "Brave Up",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": "杰德卡、勇太加入"
+    },
+    {
+     "code": "KE1-3A",
+     "zh": "勇者警察出动",
+     "ja": "勇者警察始動",
+     "en": "The Brave Police Mobilize",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": "东京线后打时出现"
+    },
+    {
+     "code": "KE1-3B",
+     "zh": "肆虐的战斗之风",
+     "ja": "吹き荒れる戦いの風",
+     "en": "Raging Winds of Battle",
+     "type": "主线",
+     "area": "极东 - 伊豆",
+     "note": "伊豆线后打时出现"
+    },
+    {
+     "code": "KE1-4",
+     "zh": "觉·醒",
+     "ja": "覚・醒",
+     "en": "Awakening",
+     "type": "主线",
+     "area": "极东 - 太平洋沿岸",
+     "note": "古利特骑士同盟/古利特登场；茜点数起点"
+    }
+   ]
+  },
+  {
+   "title": "地上路线 · 第 2 章（关键任务）",
+   "intro": "第 2 章起区域任务大幅增加，下表只列关键（主线）任务；同章支线见下方「主要支线与隐藏任务」表。",
+   "rows": [
+    {
+     "code": "KE2-1A",
+     "zh": "吉尔克斯坦的黑暗",
+     "ja": "ジルクスタンの闇",
+     "en": "Zilkhstan's Darkness",
+     "type": "主线",
+     "area": "亚洲 - 印度洋",
+     "note": "隐藏：兰斯洛特·阿尔比昂零式 / 枢木朱雀提前加入"
+    },
+    {
+     "code": "KE2-1B",
+     "zh": "前往战斗的宇宙",
+     "ja": "戦いの宇宙へ",
+     "en": "Battle Among the Stars",
+     "type": "主线",
+     "area": "欧洲 - 直布罗陀",
+     "note": "凶鸟30、德莱斯特雷伽强化"
+    },
+    {
+     "code": "KE2-2",
+     "zh": "MJP的孩子们",
+     "ja": "MJPの子供たち",
+     "en": "The Children of MJP",
+     "type": "主线",
+     "area": "地球圈外围 - 哥伦布区域",
+     "note": "MJP 拉比茨小队加入"
+    }
+   ]
+  },
+  {
+   "title": "地上路线 · 第 3 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "KE3-1",
+     "zh": "接触·彭塔戈纳",
+     "ja": "コンタクト・ペンタゴナ",
+     "en": "Contact Pentagona",
+     "type": "主线",
+     "area": "火星圈 - 多伊特罗尼库斯海",
+     "note": "出现后完成 5 个区域任务将强制进入；艾尔盖姆、达巴加入；内伊点数"
+    },
+    {
+     "code": "KE3-2",
+     "zh": "谷神星大战",
+     "ja": "ケレス大戦",
+     "en": "The Battle of Ceres",
+     "type": "主线",
+     "area": "小行星带 - 谷神星区域",
+     "note": "完成 3 个区域任务后强制进入；戈迪尼翁加入"
+    }
+   ]
+  },
+  {
+   "title": "开局与宇宙路线 · 第 1 章",
+   "intro": "开局选择「L3 殖民地艾利昂」进入宇宙路线，整体偏真实系作品。艾利亚（里加·米利塔里亚）与亚拉拉特（MJP）两组任务同样可交换顺序，标题随之变化。",
+   "rows": [
+    {
+     "code": "KS1-1",
+     "zh": "出发之日（宇宙）",
+     "ja": "旅立ちの日",
+     "en": "A Journey's Beginning",
+     "type": "主线",
+     "area": "L3 - 殖民地艾利昂",
+     "note": ""
+    },
+    {
+     "code": "KS1-2A",
+     "zh": "里加·米利塔里亚",
+     "ja": "リガ・ミリティア",
+     "en": "League Militaire",
+     "type": "主线",
+     "area": "L3 - 艾利亚区域",
+     "note": "海克萨型、刚布拉斯特加入；卡特加娜点数机会"
+    },
+    {
+     "code": "KS1-2B",
+     "zh": "目标是英雄",
+     "ja": "目指せ、ヒーロー",
+     "en": "Awaken, Hero",
+     "type": "主线",
+     "area": "L3 - 亚拉拉特区域",
+     "note": "MJP 拉比茨小队加入"
+    },
+    {
+     "code": "KS1-3A",
+     "zh": "拉比茨小队出击",
+     "ja": "チームラビッツ出撃",
+     "en": "Team Rabbits, Scramble",
+     "type": "主线",
+     "area": "L3 - 亚拉拉特区域",
+     "note": "亚拉拉特线后打时出现"
+    },
+    {
+     "code": "KS1-3B",
+     "zh": "宇宙的呼唤声",
+     "ja": "宇宙の呼ぶ声",
+     "en": "A Voice Calling in Space",
+     "type": "主线",
+     "area": "L3 - 艾利亚区域",
+     "note": "艾利亚线后打时出现；卡特加娜点数机会"
+    },
+    {
+     "code": "KS1-4",
+     "zh": "混战",
+     "ja": "混戦",
+     "en": "Free-For-All",
+     "type": "主线",
+     "area": "L3 - 戈弗区域",
+     "note": "银弹·镇压者加入；卡特加娜点数机会"
+    }
+   ]
+  },
+  {
+   "title": "宇宙路线 · 第 2 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "KS2-1",
+     "zh": "前往战斗的大地",
+     "ja": "戦いの大地へ",
+     "en": "Planet of Conflict",
+     "type": "主线",
+     "area": "地球轨道 - 轨道基地",
+     "note": "凶鸟30、德莱斯特雷伽强化"
+    },
+    {
+     "code": "KS2-2A",
+     "zh": "吉尔克斯坦的黑暗",
+     "ja": "ジルクスタンの闇",
+     "en": "Zilkhstan's Darkness",
+     "type": "主线",
+     "area": "亚洲 - 印度洋",
+     "note": "隐藏：兰斯洛特·阿尔比昂零式 / 枢木朱雀提前加入"
+    },
+    {
+     "code": "KS2-2B",
+     "zh": "破·坏",
+     "ja": "破・壊",
+     "en": "Destruction",
+     "type": "主线",
+     "area": "北美 - 太平洋沿岸",
+     "note": "古利特登场；茜点数起点"
+    },
+    {
+     "code": "KS2-3",
+     "zh": "站起来的战士们",
+     "ja": "立ち上がる戦士達",
+     "en": "Soldiers Rising",
+     "type": "主线",
+     "area": "极东 - 伊豆",
+     "note": "孔巴特拉V、一七式、甲儿加入"
+    }
+   ]
+  },
+  {
+   "title": "宇宙路线 · 第 3 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "KS3-1",
+     "zh": "接触·彭塔戈纳",
+     "ja": "コンタクト・ペンタゴナ",
+     "en": "Contact Pentagona",
+     "type": "主线",
+     "area": "火星圈 - 多伊特罗尼库斯海",
+     "note": "与地上路线 KE3-1 为同一任务；强制进入条件相同"
+    },
+    {
+     "code": "KS3-2",
+     "zh": "谷神星大战",
+     "ja": "ケレス大戦",
+     "en": "The Battle of Ceres",
+     "type": "主线",
+     "area": "小行星带 - 谷神星区域",
+     "note": "与地上路线 KE3-2 为同一任务"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 4 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K4-1A",
+     "zh": "新的翅膀",
+     "ja": "新しい翼",
+     "en": "New Wings",
+     "type": "主线",
+     "area": "月球 - 奥米克戎区域",
+     "note": "V2高达加入；卡特加娜点数机会"
+    },
+    {
+     "code": "K4-1B",
+     "zh": "ZERO再临",
+     "ja": "ゼロ再臨",
+     "en": "The Second Coming of Zero",
+     "type": "主线",
+     "area": "亚洲 - 印度洋",
+     "note": "兰斯洛特·siN、月虹影·帅、鲁路修加入"
+    },
+    {
+     "code": "K4-2",
+     "zh": "门 -JUPITER-",
+     "ja": "門-JUPITER-",
+     "en": "Gateway of Demise -JUPITER-",
+     "type": "主线",
+     "area": "木星圈 - 阿尔马格斯特基地",
+     "note": "完成 5 个区域任务后强制进入；勇者王合体攻击解禁"
+    },
+    {
+     "code": "K4-3",
+     "zh": "耸立的光",
+     "ja": "そびえたつ光",
+     "en": "A Towering Light",
+     "type": "主线",
+     "area": "亚洲 - 金边",
+     "note": "紧急任务；真结局天秤判定点之一"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 5 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K5-1A",
+     "zh": "觉 -MEZAME-",
+     "ja": "覚-MEZAME-",
+     "en": "Conquest in Waiting -AWAKEN-",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": "觉醒人V2、萤汰加入"
+    },
+    {
+     "code": "K5-1B",
+     "zh": "阿什之影",
+     "ja": "アッシュの影",
+     "en": "Shadow of the AHSMB",
+     "type": "主线",
+     "area": "小行星带 - 博德区域",
+     "note": "Red 5 全爆发模式、拉比茨阵型解禁"
+    },
+    {
+     "code": "K5-1C",
+     "zh": "决战塞菲罗",
+     "ja": "決戦のセフィーロ",
+     "en": "Showdown in Cephiro",
+     "type": "主线",
+     "area": "大洋洲 - 蓝洞",
+     "note": "戈尔德里欧加入；螺旋闪光解禁"
+    },
+    {
+     "code": "K5-2",
+     "zh": "划破宇宙的闪光",
+     "ja": "宇宙を走る閃光",
+     "en": "A Flash Through Space",
+     "type": "主线",
+     "area": "地球轨道 - 开拉什·吉里区域",
+     "note": "胜利条件为 6 回合内全灭（审判者不必击坠）；第二台 V2 高达隐藏条件在此结算"
+    },
+    {
+     "code": "K5-3A",
+     "zh": "潜入赞斯卡尔",
+     "ja": "ザンスカール潜入",
+     "en": "Infiltrating Zanscare",
+     "type": "主线",
+     "area": "L4 - 殖民地阿梅利亚",
+     "note": "ν高达、Z高达加入；卡特加娜点数机会"
+    },
+    {
+     "code": "K5-3B",
+     "zh": "勇者之魂",
+     "ja": "勇者の魂",
+     "en": "Brave Spirits",
+     "type": "主线",
+     "area": "欧洲 - 慕尼黑",
+     "note": "火焰迪卡（杜克）加入"
+    },
+    {
+     "code": "K5-4A",
+     "zh": "回响在战场上的铃声",
+     "ja": "戦場に響く鈴の音",
+     "en": "Bells on the Battlefield",
+     "type": "主线",
+     "area": "月球 - LCROSS 区域",
+     "note": "V2 强攻突击装备部件；需乌索击坠数达标"
+    },
+    {
+     "code": "K5-4B",
+     "zh": "被净化的大地",
+     "ja": "浄化される大地",
+     "en": "A Purified Land",
+     "type": "主线",
+     "area": "欧洲 - 雅典",
+     "note": "完成 3 个区域任务后强制进入；真结局天秤判定点之一；通关进入第 6 章"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 6 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K6-1A",
+     "zh": "禽 -PHOENIX-",
+     "ja": "禽-PHOENIX-",
+     "en": "The Lion Revived -PHOENIX-",
+     "type": "主线",
+     "area": "地球轨道 - 轨道基地",
+     "note": "我王凯牙、王杰德加入（日文原题即为「禽-PHOENIX-」，多家日文来源一致）"
+    },
+    {
+     "code": "KE6-1B",
+     "zh": "注定的命运",
+     "ja": "定められた運命",
+     "en": "Preordained Destiny",
+     "type": "主线（地上路线）",
+     "area": "极东 - 大凑",
+     "note": "需主角与三叶合计击坠数达标；凶鸟30th 加入；真结局天秤判定点"
+    },
+    {
+     "code": "KS6-1B",
+     "zh": "在应走之路的前方",
+     "ja": "進むべき道の先に",
+     "en": "Where It All Leads",
+     "type": "主线（宇宙路线）",
+     "area": "L3 - 殖民地艾利昂",
+     "note": "与 KE6-1B 为路线对应任务；凶鸟30th 加入"
+    },
+    {
+     "code": "K6-1C",
+     "zh": "伸出的心意",
+     "ja": "差し伸べられる想い",
+     "en": "Feelings Offered",
+     "type": "主线",
+     "area": "L5 - 殖民地阿瓦隆",
+     "note": "菲尼克斯以 NPC 登场；可掉落奖励部件"
+    },
+    {
+     "code": "K6-2",
+     "zh": "被盯上的都市学园",
+     "ja": "ねらわれた都市学園",
+     "en": "Academy in the Crosshairs",
+     "type": "主线",
+     "area": "极东 - 富良野",
+     "note": "紧急任务"
+    },
+    {
+     "code": "K6-3",
+     "zh": "火焰合体",
+     "ja": "炎の合体",
+     "en": "Blazing Combination",
+     "type": "主线",
+     "area": "欧洲 - 伦敦",
+     "note": "火焰杰德卡合体；勇太支援提前强化条件"
+    },
+    {
+     "code": "K6-4",
+     "zh": "魔神之命",
+     "ja": "魔神の命",
+     "en": "Life of a Mazin",
+     "type": "主线",
+     "area": "极东 - 新富士研究所市",
+     "note": "紧急任务；隐藏：伯斯/纽克/姆恰支援者"
+    },
+    {
+     "code": "K6-5",
+     "zh": "动摇的世界",
+     "ja": "揺らぐ世界",
+     "en": "A World in Turmoil",
+     "type": "主线",
+     "area": "非洲 - 乞力马扎罗",
+     "note": "完成 5 个区域任务后强制进入；隐藏前置：巨型桑永、塔特拉&塔尔塔"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 7 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K7-1",
+     "zh": "光与暗的尽头",
+     "ja": "光と闇の果て",
+     "en": "Beyond Light and Darkness",
+     "type": "主线",
+     "area": "极东 - 新富士研究所市",
+     "note": "真龙（真形态）加入"
+    },
+    {
+     "code": "K7-2",
+     "zh": "调停者",
+     "ja": "調停者",
+     "en": "Arbitrator",
+     "type": "主线",
+     "area": "拉丁美洲 - 安第斯山脉",
+     "note": "FTO、NSX、火焰神利安提斯加入；真结局天秤判定点"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 8 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K8-1",
+     "zh": "神话的彼方",
+     "ja": "神話のその先へ",
+     "en": "What Follows Myth",
+     "type": "主线",
+     "area": "L5 - 格拉斯顿区域",
+     "note": "叙事高达C装备、菲尼克斯/约拿、银弹·镇压者/巴纳吉加入；卡特加娜点数结算机会"
+    },
+    {
+     "code": "K8-2",
+     "zh": "审判",
+     "ja": "審判",
+     "en": "Judgment",
+     "type": "主线",
+     "area": "南极 - 南极点",
+     "note": "完成 5 个区域任务后强制进入；本关进行结局路线判定；隐藏：樱支援者"
+    },
+    {
+     "code": "K8-3",
+     "zh": "对决 -VERSUS-",
+     "ja": "対 -VERSUS-",
+     "en": "Future at Stake -VERSUS-",
+     "type": "主线",
+     "area": "大洋洲 - 所罗门群岛",
+     "note": "紧急任务；最终我王凯牙加入；隐藏：贝塔曼卡塔弗拉克托提前加入"
+    }
+   ]
+  },
+  {
+   "title": "共通路线 · 第 9 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "K9-1A",
+     "zh": "天堂之门行动",
+     "ja": "オペレーション・ヘヴンズゲート",
+     "en": "Operation Heaven's Gate",
+     "type": "主线",
+     "area": "木星圈 - 木星之门",
+     "note": "Red 5 超全爆发模式；本关完成后多数区域任务冻结至 K9-3B/3C 完成"
+    },
+    {
+     "code": "K9-1B",
+     "zh": "天与世界",
+     "ja": "Heaven & World",
+     "en": "Heaven & World",
+     "type": "主线",
+     "area": "北美 - 底特律",
+     "note": "隐藏：诺拉支援者"
+    },
+    {
+     "code": "K9-2A",
+     "zh": "独裁者",
+     "ja": "ザ・ディクテイター",
+     "en": "The Dictator",
+     "type": "主线",
+     "area": "火星圈 - 多伊特罗尼库斯海",
+     "note": "前提：未完成支线「倒计时」时出现"
+    },
+    {
+     "code": "K9-2B",
+     "zh": "梦想家永恒",
+     "ja": "ドリーマーズフォーエバー",
+     "en": "Dreamers Forever",
+     "type": "主线",
+     "area": "火星圈 - 多伊特罗尼库斯海",
+     "note": "前提：完成支线「倒计时」时出现"
+    },
+    {
+     "code": "K9-2C",
+     "zh": "心连心",
+     "ja": "ハートtoハート",
+     "en": "Heart to Heart",
+     "type": "主线",
+     "area": "欧洲 - 布拉格",
+     "note": "隐藏：维克提姆加入条件；强化莫可拿条件"
+    },
+    {
+     "code": "K9-2D",
+     "zh": "在天使之环上",
+     "ja": "天使の輪の上で",
+     "en": "Above the Angel's Halo",
+     "type": "主线",
+     "area": "地球轨道 - 天使之环",
+     "note": "隐藏：卡特加娜 & 克罗诺克尔说得前置（击坠顺序）"
+    },
+    {
+     "code": "K9-3B",
+     "zh": "天使们的升天",
+     "ja": "天使たちの昇天",
+     "en": "The Angels Ascend",
+     "type": "主线",
+     "area": "地球轨道 - 天使之环",
+     "note": "与 K9-2D 的先后影响隐藏说得流程"
+    },
+    {
+     "code": "K9-3C",
+     "zh": "光辉洋溢的未来",
+     "ja": "光あふれる未来",
+     "en": "To a Future Filled With Light",
+     "type": "主线",
+     "area": "欧洲 - 布拉格",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "结局章 · 通常结局路线（天秤偏右）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "KN-1",
+     "zh": "创造",
+     "ja": "創造",
+     "en": "Creation",
+     "type": "主线",
+     "area": "极东 - 太平洋沿岸",
+     "note": "隐藏：茜支援者最终判定"
+    },
+    {
+     "code": "KN-2",
+     "zh": "通往深渊之门",
+     "ja": "深淵への扉",
+     "en": "Doorway to the Abyss",
+     "type": "主线",
+     "area": "南极 - 南极点",
+     "note": "隐藏：卡特加娜 & 克罗诺克尔在此加入"
+    },
+    {
+     "code": "KN-3",
+     "zh": "决战的序曲",
+     "ja": "決戦の序曲",
+     "en": "Prelude to the Final Battle",
+     "type": "主线",
+     "area": "南极 - 南极半岛",
+     "note": ""
+    },
+    {
+     "code": "KN-4",
+     "zh": "无尽探究的终点",
+     "ja": "終わりなき探究の果てに",
+     "en": "End to the Never-Ending",
+     "type": "主线",
+     "area": "亚空间 - 最终决战区域",
+     "note": "紧急任务；最终 Boss：究极菲尼"
+    }
+   ]
+  },
+  {
+   "title": "结局章 · 真结局路线（天秤偏左）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "KT-1",
+     "zh": "觉醒",
+     "ja": "覚醒",
+     "en": "awakening",
+     "type": "主线",
+     "area": "极东 - 太平洋沿岸",
+     "note": "隐藏：茜支援者最终判定"
+    },
+    {
+     "code": "KT-2",
+     "zh": "通往深渊之门",
+     "ja": "深淵への扉",
+     "en": "Doorway to the Abyss",
+     "type": "主线",
+     "area": "南极 - 南极点",
+     "note": "隐藏：卡特加娜 & 克罗诺克尔；卡尔雷乌姆说得机会"
+    },
+    {
+     "code": "KT-3A",
+     "zh": "跨越死线",
+     "ja": "死線を越えて",
+     "en": "Facing Death",
+     "type": "主线",
+     "area": "南极 - 南极半岛",
+     "note": "卡尔雷乌姆加入时的分支"
+    },
+    {
+     "code": "KT-3B",
+     "zh": "寻求真理",
+     "ja": "真理を求めて",
+     "en": "In Search of Truth",
+     "type": "主线",
+     "area": "南极 - 南极半岛",
+     "note": "卡尔雷乌姆未加入时的分支"
+    },
+    {
+     "code": "KT-4A",
+     "zh": "真理",
+     "ja": "真理",
+     "en": "Truth",
+     "type": "主线",
+     "area": "亚空间 - 最终决战区域",
+     "note": ""
+    },
+    {
+     "code": "KT-4B",
+     "zh": "在抵达的答案彼方",
+     "ja": "たどりついた答えの向こうに",
+     "en": "An Answer Found",
+     "type": "主线",
+     "area": "亚空间 - 最终决战区域",
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "sideIntro": "本作支线任务共 166 个（Akurasu 口径，含前线、遗物、舰上等任务类型），此处精选与机体/角色加入、隐藏要素直接相关的剧情支线与全部隐藏任务。编号 OE/OS 为地上/宇宙路线版本，同一任务在两条路线的编号与标题常有对应关系；标「（未记）」者为 Akurasu 未记录其日文标题。",
+ "side": [
+  {
+   "code": "OE2-1",
+   "zh": "相互信任的伙伴",
+   "ja": "信じ合う仲間",
+   "en": "Mutual Trust",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "隐藏「阳炎」前置（宇宙版 OS2-14）"
+  },
+  {
+   "code": "OE2-2",
+   "zh": "七名刑警",
+   "ja": "7人の刑事",
+   "en": "Seven Officers",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "隐藏「阳炎」前置；茜点数机会（击坠安提）（宇宙版 OS2-15）"
+  },
+  {
+   "code": "OE2-3A",
+   "zh": "盖塔射线的挑战",
+   "ja": "ゲッター線の挑戦",
+   "en": "The Getter Rays' Challenge",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "与 3B 顺序可交换（宇宙版 OS2-7A/B）"
+  },
+  {
+   "code": "OE2-3B",
+   "zh": "燃烧的血潮",
+   "ja": "血潮燃やして",
+   "en": "Stoked, Burning Blood",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同上"
+  },
+  {
+   "code": "OE2-4",
+   "zh": "伟大的勇者",
+   "ja": "偉大な勇者",
+   "en": "The Great Heroes",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-8B）"
+  },
+  {
+   "code": "OE2-5",
+   "zh": "复活的铁之城",
+   "ja": "復活の鉄の城",
+   "en": "The Castle of Iron Returns",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版为 OS3-1）"
+  },
+  {
+   "code": "OE2-6",
+   "zh": "始 -相逢-",
+   "ja": "始 -DEAI-",
+   "en": "Inherited Bravery -MEETING-",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-9B）"
+  },
+  {
+   "code": "OE2-7A",
+   "zh": "来自外界者",
+   "ja": "外から来る者",
+   "en": "Otherworldly Savior",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "与 7B 构成一组（宇宙版 OS2-11A/B，标题对应关系相反）"
+  },
+  {
+   "code": "OE2-7B",
+   "zh": "异界的救世主",
+   "ja": "異界の救世主",
+   "en": "From Beyond",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同上"
+  },
+  {
+   "code": "OE2-8A",
+   "zh": "Hello! New World!!",
+   "ja": "Hello! New World!!",
+   "en": "Hello! New World!!",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-12A）"
+  },
+  {
+   "code": "OE2-8B",
+   "zh": "英雄与敌人",
+   "ja": "（未记）",
+   "en": "Hero &amp; Enemy",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-12B）"
+  },
+  {
+   "code": "OE2-9",
+   "zh": "友 -伙伴-",
+   "ja": "友 -NAKAMA-",
+   "en": "A Brave's Allies -COMRADES-",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-10）"
+  },
+  {
+   "code": "OE2-10",
+   "zh": "新的故事",
+   "ja": "新たな物語",
+   "en": "A New Story",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-1）"
+  },
+  {
+   "code": "OE2-11",
+   "zh": "归还",
+   "ja": "帰還",
+   "en": "A Return",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（宇宙版 OS2-3）"
+  },
+  {
+   "code": "OE2-12A",
+   "zh": "白色流星的轨迹",
+   "ja": "白き流星の軌跡",
+   "en": "White Comet's Course",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "量产型 ν 高达条件关联（宇宙版 OS2-4A）"
+  },
+  {
+   "code": "OE2-12B",
+   "zh": "被称为新人类的人",
+   "ja": "ニュータイプと呼ばれた男",
+   "en": "The Man Called a Newtype",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同上（宇宙版 OS2-4B）"
+  },
+  {
+   "code": "OE2-13A",
+   "zh": "奥古斯塔的追想",
+   "ja": "オーガスタ追想",
+   "en": "Echoes of Augusta",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "全装甲高达Mk-II 条件（宇宙版 OS2-5A）"
+  },
+  {
+   "code": "OE2-13B",
+   "zh": "鼓动",
+   "ja": "鼓動",
+   "en": "Heartbeat",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同上（宇宙版 OS2-5B）"
+  },
+  {
+   "code": "OE2-14",
+   "zh": "独行荒野",
+   "ja": "荒野を一人往く",
+   "en": "Alone in the Wild",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "量产型 ν 高达 / 全装甲部件的取得关（宇宙版 OS2-6）"
+  },
+  {
+   "code": "OE2-15A",
+   "zh": "里加·米利塔里亚的战士们",
+   "ja": "リガ・ミリティアの戦士たち",
+   "en": "Warriors of the League Militaire",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "卡特加娜点数机会（+2 分）"
+  },
+  {
+   "code": "OE2-15B",
+   "zh": "宇宙的邂逅",
+   "ja": "宇宙の出会い",
+   "en": "Meeting in Space",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "卡特加娜点数机会（+2 分）"
+  },
+  {
+   "code": "OS2-2A",
+   "zh": "遗憾与失望",
+   "ja": "ザンネンとガッカリ",
+   "en": "Fail and Bummer",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（地上版为 OE3-1A）"
+  },
+  {
+   "code": "OS2-2B",
+   "zh": "英雄的工作",
+   "ja": "ヒーローの仕事",
+   "en": "A Hero's Job",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "（地上版为 OE3-1B）"
+  },
+  {
+   "code": "OS2-8A",
+   "zh": "溢出的恶",
+   "ja": "あふれ出る悪",
+   "en": "Overflowing Evil",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "OS2-9A",
+   "zh": "始 -登场-",
+   "ja": "始 -TOUJOU-",
+   "en": "Newfound Bravery -ARRIVAL-",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "OS2-13A",
+   "zh": "勇者警察",
+   "ja": "（未记）",
+   "en": "The Brave Police",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "OS2-13B",
+   "zh": "杰德卡",
+   "ja": "ジェイデッカー",
+   "en": "A Brave Lineage",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O4-1A",
+   "zh": "那天他看到的鸟",
+   "ja": "（未记）",
+   "en": "The Bird He Saw That Day",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "与 O4-1B 构成一组"
+  },
+  {
+   "code": "O4-1B",
+   "zh": "凤凰降临",
+   "ja": "（未记）",
+   "en": "The Phoenix Alights",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同上"
+  },
+  {
+   "code": "O4-2",
+   "zh": "红色彗星的再来",
+   "ja": "赤い彗星の再来",
+   "en": "Return of the Red Comet",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O4-3",
+   "zh": "达喀尔的落日",
+   "ja": "ダカールの落日",
+   "en": "The Fall of Dakar",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O4-4",
+   "zh": "孤高的王牌",
+   "ja": "（未记）",
+   "en": "Solitary Ace",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O4-5",
+   "zh": "蕾蒂·蕾蒂",
+   "ja": "レディ・レディ",
+   "en": "Lady Lady",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "内伊点数机会"
+  },
+  {
+   "code": "O4-6",
+   "zh": "邂逅",
+   "ja": "（未记）",
+   "en": "Encounter",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O4-7",
+   "zh": "交叉点",
+   "ja": "クロス・ポイント",
+   "en": "Cross Point",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "内伊点数机会；蕾切的外观选择"
+  },
+  {
+   "code": "O4-8",
+   "zh": "阳炎，再临",
+   "ja": "陽炎、再び",
+   "en": "Return of the Mirage",
+   "badge": "badge-warning",
+   "type": "隐藏",
+   "note": "阳炎在此正式加入"
+  },
+  {
+   "code": "O5-1",
+   "zh": "甜蜜的家",
+   "ja": "（未记）",
+   "en": "Home Sweet Home",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O5-2",
+   "zh": "勇者的归来 -ADVENT-",
+   "ja": "（未记）",
+   "en": "A Brave's Return -ADVENT-",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O5-3",
+   "zh": "警告",
+   "ja": "（未记）",
+   "en": "A Warning",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O6-1",
+   "zh": "法莲的皇女",
+   "ja": "ファーレンの皇女",
+   "en": "Imperial Princess",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "塔特拉&塔尔塔、巨型桑永前置（须在 K6-5 前完成）"
+  },
+  {
+   "code": "O6-2",
+   "zh": "威胁的羽音",
+   "ja": "脅威の羽音",
+   "en": "Menacing Wings",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O6-3",
+   "zh": "奇泽塔的风暴",
+   "ja": "チゼータの嵐",
+   "en": "Chizetan Storm",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "同 O6-1 前置"
+  },
+  {
+   "code": "O6-4",
+   "zh": "逃离基瓦扎",
+   "ja": "エスケープ・ギワザ",
+   "en": "Escape Giwaza",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "内伊点数机会；奥莉比说得事件"
+  },
+  {
+   "code": "O6-5",
+   "zh": "红色彗星的使命",
+   "ja": "赤い彗星の使命",
+   "en": "The Red Comet's Duty",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "卡特加娜点数机会（德莱斯特雷伽抵达前击坠克罗诺克尔 +2）"
+  },
+  {
+   "code": "O6-6",
+   "zh": "忧·郁",
+   "ja": "憂・鬱",
+   "en": "Melancholy",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "阿诺西拉斯支援者；茜点数机会"
+  },
+  {
+   "code": "O7-1",
+   "zh": "向心而令",
+   "ja": "心に命じるもの",
+   "en": "What the Heart Dictates",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "茜点数机会"
+  },
+  {
+   "code": "O7-2",
+   "zh": "深入侦察",
+   "ja": "（未记）",
+   "en": "Deep Recon",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O7-3",
+   "zh": "可怕的陷阱",
+   "ja": "（未记）",
+   "en": "A Fearsome Trap",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O7-4",
+   "zh": "最后的记忆",
+   "ja": "（未记）",
+   "en": "Last Memory",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O7-5",
+   "zh": "黑翼",
+   "ja": "（未记）",
+   "en": "Blackwing",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O7-6",
+   "zh": "愤怒的魔神",
+   "ja": "怒りの魔神",
+   "en": "A Mazin Enraged",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "魔神凯撒取得关（条件：甲儿+铁也+志郎合计击坠数 180 以上，或先完成 K8-3；详见 K8-3 关卡页「隐藏要素」）"
+  },
+  {
+   "code": "O8-1",
+   "zh": "幸福的意义",
+   "ja": "しあわせの意味",
+   "en": "The Meaning of Happiness",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "米海尔点数机会"
+  },
+  {
+   "code": "O8-2",
+   "zh": "黑暗的邀请",
+   "ja": "（未记）",
+   "en": "Dark Invitation",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "克雷夫与塞菲罗众人提前加入"
+  },
+  {
+   "code": "O8-3",
+   "zh": "母亲的觉醒",
+   "ja": "母の目覚め",
+   "en": "A Mother's Awakening",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O8-4",
+   "zh": "滑稽剧",
+   "ja": "ピカレスク",
+   "en": "Picaresque",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "内伊点数最终判定关"
+  },
+  {
+   "code": "O8-5",
+   "zh": "我的爱",
+   "ja": "マイ・ラブ",
+   "en": "My Love",
+   "badge": "badge-warning",
+   "type": "隐藏",
+   "note": "内伊与奥格在此加入"
+  },
+  {
+   "code": "O9-1",
+   "zh": "倒计时",
+   "ja": "カウントダウン",
+   "en": "Countdown",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "是否完成决定 K9-2A / K9-2B 分支"
+  },
+  {
+   "code": "O9-2",
+   "zh": "与未知的战线",
+   "ja": "未知との戦線",
+   "en": "Showdown With the Unknown",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "—"
+  },
+  {
+   "code": "O9-3",
+   "zh": "无尽之梦",
+   "ja": "果てしなき夢",
+   "en": "Endless Dream",
+   "badge": "badge-secondary",
+   "type": "支线",
+   "note": "米海尔点数结算关"
+  },
+  {
+   "code": "O9-4",
+   "zh": "轮回的复仇",
+   "ja": "復讐は巡る",
+   "en": "A Dish Best Served Cold",
+   "badge": "badge-warning",
+   "type": "隐藏",
+   "note": "米海尔与法萨莉娜在此加入"
+  },
+  {
+   "code": "EC-1",
+   "zh": "黑发怨夜",
+   "ja": "黒髪怨夜",
+   "en": "The Black-Haired Woman's Retribution",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "贝塔曼卡塔弗拉克托/拉米亚的保底加入点"
+  },
+  {
+   "code": "EC-2",
+   "zh": "复活之时",
+   "ja": "復活の時",
+   "en": "Revival at Hand",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-3",
+   "zh": "泥沼死斗",
+   "ja": "泥沼の死闘",
+   "en": "In Over Our Heads",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-4",
+   "zh": "编织憎恨者",
+   "ja": "憎しみを紡ぐもの",
+   "en": "Weavers of Hate",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-5",
+   "zh": "在凋零之花中",
+   "ja": "散りゆく花の中で",
+   "en": "Among The Fallen Flowers",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-6",
+   "zh": "从这里走向明天",
+   "ja": "ここから明日へ",
+   "en": "Where Tomorrow Starts",
+   "badge": "badge-accent",
+   "type": "追加",
+   "note": "—"
+  }
+ ],
+ "ecTitle": "通关后追加章节（免费更新）",
+ "ecIntro": "通关并完成免费追加任务「打开的门（Extra 3-1）」等条件后开放的 Extra Chapter，共 6 关。注意：一旦开始 EC-1，尚未完成的非舰上区域任务将全部消失。",
+ "ec": [
+  {
+   "code": "EC-1",
+   "zh": "黑发怨夜",
+   "ja": "黒髪怨夜",
+   "en": "The Black-Haired Woman's Retribution",
+   "type": "追加",
+   "note": "贝塔曼卡塔弗拉克托/拉米亚的保底加入点"
+  },
+  {
+   "code": "EC-2",
+   "zh": "复活之时",
+   "ja": "復活の時",
+   "en": "Revival at Hand",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-3",
+   "zh": "泥沼死斗",
+   "ja": "泥沼の死闘",
+   "en": "In Over Our Heads",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-4",
+   "zh": "编织憎恨者",
+   "ja": "憎しみを紡ぐもの",
+   "en": "Weavers of Hate",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-5",
+   "zh": "在凋零之花中",
+   "ja": "散りゆく花の中で",
+   "en": "Among The Fallen Flowers",
+   "type": "追加",
+   "note": "—"
+  },
+  {
+   "code": "EC-6",
+   "zh": "从这里走向明天",
+   "ja": "ここから明日へ",
+   "en": "Where Tomorrow Starts",
+   "type": "追加",
+   "note": "—"
+  }
+ ],
+ "dlcTitle": "DLC 与追加任务（概要）",
+ "dlcIntro": "以下为另行发售的付费 DLC 与免费追加任务的清单概要（详细攻略不在本页范围）。免费追加的 Extra 任务共 11 个：魔装机神（魔装機神 / The Elemental Lord，赛巴斯塔）、钢之魂（鋼の魂 / Spirit of Steel，SRX 小队）、Happy 30th Anniversary!、Visitors、黑暗幽灵（黒い幽霊 / Black Specter，亡灵）、Unknown Battlefield、Congratulations on 19 Million!、Dimension Diver（迪达利昂）、打开的门（開かれた扉 / The Door Opens）、超斗士（超闘士 / The Hyper Fighter，古伦加斯特）、解锁的是交错之门（解錠されるのは交錯の扉 / The Crossover Door Opens，梵格雷·艾因）。「打开的门」是开放通关后追加章节的前提之一。",
+ "dlc": [
+  {
+   "pack": "奖励任务包（Bonus Mission Pack）",
+   "count": "15",
+   "content": "勇者的推荐（勇者のススメ）、骑士与骑士的相遇（騎士と騎士の出会い）、Endless Summer Heroes、The Secret Ingredient Is...、Operation: Federation Idol、Heroic Awakening、Respect Your Elders、A Return to Jaburo、Michele the Fortuneteller、Unknown Horizons、A Brave Lineage (Alt. Route)、Stupendous Robot Symposium、Brave vs. Brave、Super Deformed Danger、Beautiful, Righteous, and Strong。多为 PP / 部件奖励关。"
+  },
+  {
+   "pack": "DLC 第 1 弹",
+   "count": "13",
+   "content": "樱花大战、龙虎王传记等参战：远离帝都（帝都は遠く）、进入战斗的漩涡（戦いの渦へ）、龙虎见参（龍虎見参）、The Lights in Amuro's Life、巴黎盛开的樱花（巴里に咲くサクラ）、摩天楼的武士（摩天楼のサムライ）、超电磁之绊（超電磁の絆）、Danger in the Demon City、心意诞生的力量（想いが生む力，Hi-ν高达）、天下无双（我等ニ敵ナシ）；通关后追加 Encroaching Threat、Ignoble Inclinations、So Long as There's Love。"
+  },
+  {
+   "pack": "DLC 第 2 弹",
+   "count": "13",
+   "content": "ULTRAMAN、铁血的奥尔芬斯等参战：奥特曼，未知的世界（ウルトラマン、未知の世界へ）、荒野绽放的铁之花（荒野に咲く鉄の華）、钢铁孤狼（鋼鉄の孤狼）、被称为 SEVEN 的男人（SEVENと呼ばれる男）、铁之绊（鉄の絆）、白银的堕天使（白銀の堕天使）、王牌的证明（エースの証）、光之巨人的使命（光の巨人の使命）、巴耶力的继承者（バエルを継ぐ者）、天使，再临（天使、再臨）；通关后追加 Those Who Pierce Through、Jet Black Menace、Indomitable Bravery。"
+  },
+  {
+   "pack": "扩展包（Expansion Pack）",
+   "count": "24",
+   "content": "独立后续剧情：On Track for Adventure、Face the War God's Regalia、Super Beast Machine God、Contact、Light and Darkness Reunited、World Astray、Firestarters、The Two Getters、Powers Combined、The Tornado of War、Awakening Instincts、我们的战斗（我等の戦い / Our Fight）、For Shinkalion's Future、Challenging the Future、Indeliable Scars（Akurasu 原文拼写）、A Surging Scourge（Akurasu 原文拼写）、Genes of Awakening；通关后追加 They Are The OG Team、Their Bygone Days (Part 1 / Part 2)、Their Days to Come（奖励 500 万资金）、解放的力量（解放される力 / Power Unleashed）、Hidden Factors、With A Hopeful Heart。多数任务的日文标题 Akurasu 未记录。"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Srw1MissionList from '../../../components/Srw1MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战', path: 'srw-1/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战（GB）关卡攻略 · 全13话列表" description="超级机器人大战（1991年 Game Boy 初代）全 13 话关卡列表：每一话都有独立攻略页，含胜利/败北条件、敌方配置与坐标、塔与隐藏道具位置、说得要点与坐标地图。本页为链接索引。" path="srw-1/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战 · 关卡攻略</h1>
+  <p>1991 年 Game Boy 初代《超级机器人大战》全 13 话。本作是系列原点，系统与后来的作品差别很大：没有驾驶员（机器人本身即角色）、没有资金、胜利条件以<strong>占领敌方本拠地（塔）</strong>为核心（第 11 话与最终话为例外），并且可以用<strong>说得</strong>把多数敌人变成我方。本页只是链接索引——每一话的完整攻略（条件、敌方配置与坐标、增援、塔与隐藏道具、说得要点、坐标地图）都在各自的详情页里。本页与<a href={href('srw-1/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第一部<strong>全关卡补完</strong>的作品——13 话全部建有详情页（按用户要求按发售顺序从最早的一作开始逐作补完）。敌方配置与道具坐标经 GameCenter GX 与 Akurasu 两源交叉核对；地图边界与逐格地形未逐格核实，在各关地图一节中如实标注。</span>
+  </div>
+
+  <Srw1MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://gcgx.games/srw1/" rel="noopener" target="_blank">GameCenter GX — 初代スーパーロボット大戦 攻略・解析</a>（敌配置坐标、道具坐标与效果、Boss 说明、说得公式与裏技）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/1/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars 1 Flow Chart</a>（塔内道具与地形隐藏道具的分类）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/1/Capture_Mechanics" rel="noopener" target="_blank">Akurasu Wiki — SRW 1 Capture Mechanics</a>（说得成功率公式与相性表，交叉核对）</li>
+    <li><a href="https://superrobotwars.fandom.com/wiki/Super_Robot_Wars_(GB)/Scenarios" rel="noopener" target="_blank">Super Robot Wars Wiki (Fandom) — Super Robot Wars (GB)/Scenarios</a>（各话剧情梗概与队伍资料）</li>
+  </ul>
+  <p><a href={href('srw-1/')}>← 返回超级机器人大战</a></p>
+</Base>

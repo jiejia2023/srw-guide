@@ -1,54 +1,28 @@
 ---
-import Base from '../../../layouts/Base.astro';
 import games from '../../../data/games.json';
-import { href } from '../../../lib/site';
+import { href, canonical } from '../../../lib/site';
 
+// 结构改版：关卡列表已直接并入各作主页（主页即链接索引），本页仅作重定向。
+// srw-30 与 srw-1 另有各自的关卡总表静态页，不在此列。
 export function getStaticPaths() {
-  return games.map(g => ({ params: { slug: g.slug }, props: { game: g } }));
+  return games
+    .filter(g => g.slug !== 'srw-30' && g.slug !== 'srw-1')
+    .map(g => ({ params: { slug: g.slug }, props: { game: g } }));
 }
 const { game: g } = Astro.props;
-const crumbs = [
-  { label: '首页', path: '' },
-  { label: g.zh, path: `${g.slug}/` },
-  { label: '关卡攻略' },
-];
+const target = href(`${g.slug}/`);
+const canon = canonical(`${g.slug}/`);
 ---
-<Base title={`${g.zh} 关卡攻略`} description={`${g.zh}关卡攻略索引：逐关提供带坐标与地形的地图、胜利/败北条件、出场与增援、隐藏要素触发方法，正在整理中。`} path={`${g.slug}/missions/`} breadcrumbs={crumbs}>
-  <h1>{g.zh} · 关卡攻略</h1>
-
-  {g.slug === 'srw-30' ? (
-    <div>
-      <p>本作的关卡页正在逐关整理。先提供一页演示模板结构的样板关卡，展示本站关卡页的完整写法：</p>
-      <div class="grid sm:grid-cols-2 gap-4 my-4">
-        <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href('srw-30/missions/sample-01/')}>
-          <div class="card-body p-5">
-            <span class="card-title text-primary text-base">样板关卡（演示模板结构，非真实关卡数据）</span>
-            <p class="text-sm text-base-content/60 m-0">含坐标地图、地形图例与效果表、出场增援表、分步攻略与隐藏要素示例。</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  ) : (
-    <div class="rounded-box border-2 border-dashed border-base-300 bg-base-100 p-6 text-base-content/70 my-4">
-      <strong class="text-base-content">关卡攻略正在整理中。</strong>
-      <p>本站不会把未核对的数据先放上来充数。{g.zh} 的逐关攻略完成后会按话数顺序在此列出，敬请期待。</p>
-    </div>
-  )}
-
-  <h2>本站关卡页的模板</h2>
-  <p>每一关的攻略页都会按同一套结构编写，方便对照游玩：</p>
-  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
-    <table class="table table-zebra">
-      <thead><tr><th>板块</th><th>内容</th></tr></thead>
-      <tbody>
-        <tr><td>坐标地图</td><td>带 X/Y 坐标的地图，逐格标地形，正文用坐标引用位置，如 (12,7)。</td></tr>
-        <tr><td>地形图例与效果</td><td>平原、森林、山地、道路、建筑、水域等本作地形的效果说明。</td></tr>
-        <tr><td>条件表</td><td>胜利条件、败北条件，以及 SR 点 / 熟练度等额外条件。</td></tr>
-        <tr><td>出场与增援</td><td>我方出击、敌方配置与增援出现的位置（坐标）和触发条件。</td></tr>
-        <tr><td>分步攻略</td><td>按回合推进的打法说明，关键位置全部用坐标标注。</td></tr>
-        <tr><td>隐藏要素</td><td>本关可触发的隐藏机体、说得、道具等及其条件。</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <p><a href={href(`${g.slug}/`)}>← 返回 {g.zh}</a></p>
-</Base>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>{g.zh} 关卡攻略已并入主页 · 超级机器人大战攻略站</title>
+    <link rel="canonical" href={canon} />
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+  </head>
+  <body>
+    <p>本站结构改版：《{g.zh}》的关卡列表已直接并入本作主页（主页为链接索引，每一关有各自的详情页）。正在跳转到《{g.zh}》主页…<a href={target}>若未自动跳转，请点此前往</a>。</p>
+  </body>
+</html>
