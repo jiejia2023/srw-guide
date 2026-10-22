@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
 import data from '../../../data/srw2-missions.json';
 import { href } from '../../../lib/site';
 
@@ -13,16 +14,6 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-2/missions/' },
   { label: `${m.code} ${m.zh}` },
 ];
-const W = m.map.frameW;
-const H = m.map.frameH;
-const pointAt: Record<string, any> = {};
-for (const p of m.map.verifiedPoints ?? []) pointAt[`${p.x},${p.y}`] = p;
-const kindColor: Record<string, string> = { 'Boss': '#e57373', '商店': '#7bc47f', '特殊': '#f6c343' };
-const cells = Array.from({ length: W * H }, (_, i) => {
-  const x = (i % W) + 1, y = Math.floor(i / W) + 1;
-  const p = pointAt[`${x},${y}`];
-  return { x, y, p, bg: p ? (kindColor[p.kind] ?? '#e8ebef') : '#e8ebef' };
-});
 const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || e.y === undefined)
   ? `(${e.x ?? '—'},${e.y ?? '—'})` : `(${e.x},${e.y})`;
 ---
@@ -54,6 +45,21 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <ul>
     {m.allies.map((a: string) => <li>{a}</li>)}
   </ul>
+  {m.allyUnits && m.allyUnits.length > 0 && (
+    <div>
+      <h3>出击位置（GameCenter GX 味方配置表，坐标已换算为本站 (1,1) 原点）</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>备注</th></tr></thead>
+        <tbody>
+        {m.allyUnits.map((a: any) => (
+          <tr><td>{a.name}</td><td>{a.pilot}</td><td>{a.lv ?? '—'}</td><td>({a.x},{a.y})</td><td>{a.trigger ?? '初期配置'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  )}
 
   <h2>敌方出场与增援</h2>
   <p class="text-sm text-base-content/60">坐标原点为地图左上 (1,1)，与本站地图一致（已由 GX 原表 (0,0) 换算）。「行动」列为 GX 记载的该单位行动模式/特殊行为。</p>
@@ -104,20 +110,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <div class="map-wrap">
-    <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label={`${m.zh} 坐标图（已核实点位标注）`}>
-      {cells.map(c => (
-        <button type="button" class="map-cell" style={`background:${c.bg}`} data-x={c.x} data-y={c.y} data-terrain={c.p ? c.p.label : '待核实'} data-unit="" aria-label={`坐标 ${c.x},${c.y}，${c.p ? c.p.label : '地形待核实'}`}>{c.x === 1 && <span class="map-axis">{c.y}</span>}{c.y === 1 && <span class="map-axis">{c.x}</span>}</button>
-      ))}
-    </div>
-    <div class="legend">
-      <span><i style="background:#e57373"></i>Boss / 胜利条件目标</span>
-      <span><i style="background:#7bc47f"></i>隐藏商店</span>
-      <span><i style="background:#f6c343"></i>特殊点位</span>
-      <span><i style="background:#e8ebef"></i>未标注（地形待核实）</span>
-    </div>
-    <div class="map-info" id="mapInfo">点击任意格子查看坐标信息。</div>
-    </div>
+    <StageMap mission={m} />
     </div>
   </div>
   <h3>已核实点位</h3>
@@ -138,13 +131,4 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   </ul>
 
   <p><a href={href('srw-2/missions/')}>← 返回关卡列表</a> · <a href={href('srw-2/')}>返回第2次超级机器人大战</a></p>
-
-  <script is:inline>
-    document.querySelectorAll('.map-cell').forEach(function (cell) {
-      cell.addEventListener('click', function () {
-        var info = document.getElementById('mapInfo');
-        if (info) info.textContent = '坐标 (' + cell.dataset.x + ',' + cell.dataset.y + ') · ' + (cell.dataset.terrain || '待核实');
-      });
-    });
-  </script>
 </Base>

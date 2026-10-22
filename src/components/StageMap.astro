@@ -1,0 +1,153 @@
+---
+// Shared coordinate map for mission detail pages (SRW 1 / SRW 2 / SRW 3 data shape).
+// Plots, per tile: ally deployment units (mission.allyUnits), initial enemies
+// (enemies.rows), reinforcements (enemies.reinforcements) and special verified
+// points (map.verifiedPoints: 塔 / 隐藏道具 / 商店 / 特殊 / Boss).
+// If mission.map.terrainGrid exists (array of strings, one terrain-code char per
+// tile) the tiles are filled with terrain colours and unit markers become badges;
+// mission.map.terrainLegend maps code -> { name, color, effect }.
+const m = Astro.props.mission as any;
+
+type Entry = { cat: string; glyph: string; bg: string; fg: string; prio: number; label: string };
+const CAT: Record<string, { glyph: string; bg: string; fg: string; prio: number; legend: string }> = {
+  boss:  { glyph: 'B',  bg: '#d32f2f', fg: '#ffffff', prio: 60, legend: 'Boss / 胜利条件目标' },
+  tower: { glyph: '塔', bg: '#f6c343', fg: '#1b2a3c', prio: 50, legend: '塔' },
+  item:  { glyph: '宝', bg: '#7bc47f', fg: '#1b2a3c', prio: 50, legend: '隐藏道具' },
+  shop:  { glyph: '店', bg: '#26a69a', fg: '#ffffff', prio: 50, legend: '隐藏商店' },
+  special: { glyph: '特', bg: '#ffb74d', fg: '#1b2a3c', prio: 50, legend: '特殊点位' },
+  ally:  { glyph: '自', bg: '#42a5f5', fg: '#ffffff', prio: 40, legend: '我方出击位置' },
+  reinf: { glyph: '援', bg: '#9575cd', fg: '#ffffff', prio: 30, legend: '敌方增援' },
+  enemy: { glyph: '敌', bg: '#ef9a9a', fg: '#7f1d1d', prio: 20, legend: '敌方（初期配置）' },
+};
+const pointCat = (kind: string) => kind === 'Boss' ? 'boss' : kind === '塔' ? 'tower' : kind === '隐藏道具' ? 'item' : kind === '商店' ? 'shop' : 'special';
+
+const byTile = new Map<string, Entry[]>();
+const push = (x: any, y: any, e: Entry) => {
+  if (x === null || x === undefined || y === null || y === undefined) return;
+  const k = `${x},${y}`;
+  if (!byTile.has(k)) byTile.set(k, []);
+  byTile.get(k)!.push(e);
+};
+const counts: Record<string, number> = {};
+const bump = (c: string) => { counts[c] = (counts[c] ?? 0) + 1; };
+
+for (const a of m.allyUnits ?? []) {
+  const c = CAT.ally;
+  push(a.x, a.y, { cat: 'ally', ...c, label: `我方：${a.name}${a.pilot ? `（${a.pilot}）` : ''}${a.lv ? ` Lv${a.lv}` : ''}${a.trigger ? ` · ${a.trigger}` : ' · 初期配置'}` });
+  bump('ally');
+}
+for (const e of m.enemies?.rows ?? []) {
+  const txt = `${e.note ?? ''} ${e.behavior ?? ''}`;
+  const isBoss = /Boss|胜利条件目标/.test(txt) && !/无需击破/.test(txt);
+  const c = isBoss ? CAT.boss : CAT.enemy;
+  push(e.x, e.y, { cat: isBoss ? 'boss' : 'enemy', ...c, label: `${isBoss ? 'Boss' : '敌方'}：${e.name}${e.pilot && e.pilot !== '—' ? `（${e.pilot}）` : ''} Lv${e.lv}` });
+  if (e.x !== null && e.x !== undefined && e.y !== null && e.y !== undefined) bump(isBoss ? 'boss' : 'enemy');
+}
+for (const r of m.enemies?.reinforcements ?? []) {
+  const c = CAT.reinf;
+  const trig = r.trigger ?? (r.turn ? `第${r.turn}回合` : '增援');
+  push(r.x, r.y, { cat: 'reinf', ...c, label: `增援（${trig}）：${r.name}${r.pilot && r.pilot !== '—' ? `（${r.pilot}）` : ''} Lv${r.lv}${r.count && r.count > 1 ? ` ×${r.count}` : ''}` });
+  if (r.x !== null && r.x !== undefined && r.y !== null && r.y !== undefined) bump('reinf');
+}
+for (const p of m.map.verifiedPoints ?? []) {
+  const cat = pointCat(p.kind);
+  const c = CAT[cat];
+  // A Boss point that coincides with a boss enemy row describes the same unit;
+  // the row entry (with level) wins, so don't double-plot it.
+  if (cat === 'boss' && (byTile.get(`${p.x},${p.y}`) ?? []).some(e => e.cat === 'boss')) continue;
+  push(p.x, p.y, { cat, ...c, label: p.label });
+  bump(cat);
+}
+
+// The frame must cover every plotted coordinate (ally deployments can sit
+// outside the enemy-derived extent stored in the data).
+let W = m.map.frameW;
+let H = m.map.frameH;
+for (const k of byTile.keys()) {
+  const [x, y] = k.split(',').map(Number);
+  if (x > W) W = x;
+  if (y > H) H = y;
+}
+
+// Optional verified terrain grid (terrainLegend: code -> {name,color,effect})
+const terrainGrid: string[] | null = m.map.terrainGrid ?? null;
+const terrainLegend: Record<string, { name: string; color: string; effect?: string }> = m.map.terrainLegend ?? {};
+const terrainAt = (x: number, y: number) => {
+  if (!terrainGrid || !terrainGrid[y - 1]) return null;
+  const code = terrainGrid[y - 1][x - 1];
+  return code ? (terrainLegend[code] ?? null) : null;
+};
+
+const cells = Array.from({ length: W * H }, (_, i) => {
+  const x = (i % W) + 1, y = Math.floor(i / W) + 1;
+  const entries = (byTile.get(`${x},${y}`) ?? []).slice().sort((a, b) => b.prio - a.prio);
+  const top = entries[0];
+  const terr = terrainAt(x, y);
+  const infoParts: string[] = [];
+  if (terr) infoParts.push(`地形：${terr.name}${terr.effect ? `（${terr.effect}）` : ''}`);
+  else if (!top) infoParts.push('地形待核实');
+  for (const e of entries) infoParts.push(e.label);
+  return {
+    x, y, top, multi: entries.length > 1,
+    bg: terr ? terr.color : top ? top.bg : '#e8ebef',
+    badge: terr && top ? top : null,
+    info: `坐标 (${x},${y}) · ${infoParts.join('；')}`,
+  };
+});
+const legendCats = ['ally', 'enemy', 'reinf', 'boss', 'tower', 'item', 'shop', 'special'].filter(c => counts[c]);
+const summary = [
+  counts.ally ? `我方 ${counts.ally}` : null,
+  counts.enemy ? `敌方 ${counts.enemy}` : null,
+  counts.reinf ? `增援 ${counts.reinf}` : null,
+  counts.boss ? `Boss ${counts.boss}` : null,
+  (counts.tower || counts.item || counts.shop || counts.special) ? `特殊点位 ${(counts.tower ?? 0) + (counts.item ?? 0) + (counts.shop ?? 0) + (counts.special ?? 0)}` : null,
+].filter(Boolean).join(' · ');
+---
+<div class="map-wrap">
+  {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
+  <div class="map-grid" style={`--cols:${W}`} role="grid" aria-label="坐标地图（单位与点位标注）">
+    {cells.map(c => (
+      <button type="button" class="map-cell" style={`background:${c.bg}`} data-info={c.info} title={c.info}
+        aria-label={c.info}>
+        {c.top && (c.badge
+          ? <span class="map-badge" style={`background:${c.top.bg};color:${c.top.fg}`}>{c.top.glyph}</span>
+          : <span class="marker" style={`color:${c.top.fg}`}>{c.top.glyph}</span>)}
+        {!c.top && c.x === 1 && <span class="map-axis">{c.y}</span>}
+        {!c.top && c.y === 1 && <span class="map-axis">{c.x}</span>}
+        {c.multi && <span class="map-multi" aria-hidden="true">+</span>}
+      </button>
+    ))}
+  </div>
+  <div class="legend">
+    {legendCats.map(c => <span><i class="sw" style={`background:${CAT[c].bg}`}></i>{CAT[c].legend}</span>)}
+    {terrainGrid && Object.values(terrainLegend).map((t: any) => <span><i class="sw" style={`background:${t.color}`}></i>{t.name}</span>)}
+    {!terrainGrid && <span><i class="sw" style="background:#e8ebef"></i>未标注（地形待核实）</span>}
+  </div>
+  <div class="map-info stagemap-info">点击任意格子查看坐标信息。</div>
+</div>
+
+<style>
+  .map-cell { position: relative; }
+  .map-badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 1.05rem; height: 1.05rem; border-radius: 3px;
+    font-size: 0.68rem; font-weight: 700; line-height: 1; padding: 0 1px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.35);
+  }
+  .map-multi {
+    position: absolute; top: 0; right: 1px;
+    font-size: 0.6rem; font-weight: 700; line-height: 1;
+    color: #1b2a3c; text-shadow: 0 0 2px #fff, 0 0 2px #fff;
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.map-wrap').forEach(function (wrap) {
+    var info = wrap.querySelector('.stagemap-info');
+    wrap.querySelectorAll('.map-cell').forEach(function (cell) {
+      cell.addEventListener('click', function () {
+        if (info) info.textContent = cell.dataset.info || '';
+      });
+    });
+  });
+</script>

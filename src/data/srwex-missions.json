@@ -1,0 +1,4470 @@
+{
+ "comment": "SFC original (1994). 67 distinct scenarios: Masaki 27, Ryune 24, Shu 16 (ja Wikipedia + ja Fandom + zh Wikipedia agree; English Fandom's 27/27/24 is incorrect). Victory/defeat and unit acquisitions from Akurasu EX Flow Chart; secrets from Akurasu EX Secrets. Numbering follows Akurasu's sequential distinct-scenario numbering (branch variants counted separately). No published per-stage enemy placement/levels/coordinates exist for the SFC original (GameCenter GX does not cover EX; only PS Complete Box guides exist) - enemy sections marked unverified, PS data NOT backfilled.",
+ "missions": [
+  {
+   "code": "正树第1话",
+   "slug": "masaki-01",
+   "zh": "朗格朗动乱",
+   "ja": "ラングラン動乱",
+   "en": "The Langran Riots",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "游戏开始选择「正树之章」（难度：易）即进入本话，为正树之章第一话。本作舞台为地底世界拉·基亚斯，正树在《第3次》之后返回故乡神圣朗格朗王国。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "塞巴斯塔被击破。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局参战：塞巴斯塔（正树·安藤）。"
+   ],
+   "events": [
+    "正树回到朗格朗，却发现王国已遭恐怖袭击、政权崩坏（本章开端剧情，日文 Fandom）。"
+   ],
+   "secrets": [
+    "鲁贾诺尔改与戈尔德（或 10000 资金）：本话开始时选择与盗贼交涉（第二个选项），话末再选择第二个选项（教训戈尔德），戈尔德驾驶鲁贾诺尔改加入；若话末选第一个选项，则改为获得 10000 资金（Akurasu Flow Chart 与 Secrets）。"
+   ],
+   "unlocks": [
+    "第2话 召唤。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第2话",
+   "slug": "masaki-02",
+   "zh": "召唤",
+   "ja": "召喚",
+   "en": "The Summoning",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第1话通关后进入本话。地上人被大规模召唤至拉·基亚斯的事件在本话展开。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战/加入：布罗威尔（萨雷斯）、鲁贾诺尔改（士兵A）、鲁贾诺尔改（士兵B）、豪将军（真吾、基利、蕾米）客串参战。"
+   ],
+   "events": [
+    "豪将军（战国魔神）为系列初参战作品的机体，在本话以客串身份登场；其正式加入在后续章节另有安排（见各章页面）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第3话 伊莫塔尔迎击战。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第3话",
+   "slug": "masaki-03",
+   "zh": "伊莫塔尔迎击战",
+   "ja": "イモータルの迎撃",
+   "en": "Interception at Immortal",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第2话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：迪亚布罗（美绪·佐佐木）、魔神Z（兜甲儿）、戴安娜A（弓沙也加）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第4话 灵光战士。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第4话",
+   "slug": "masaki-04",
+   "zh": "灵光战士",
+   "ja": "オーラバトラー",
+   "en": "Aura Battlers",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第3话通关后进入本话。本话通关后的选择决定第5话走「灵光船」还是「圣少女」。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：比尔拜因（翔·扎马）、丹拜因（玛贝尔·弗洛赞）。萨雷斯的去留由话末选择决定（见隐藏要素）。"
+   ],
+   "events": [
+    "本话末的选择（Akurasu 流程图注记）：「行ってみる（去看看）」→ 灵光船路线；「先を急ぐ（先赶路）」→ 圣少女路线。"
+   ],
+   "secrets": [
+    "保留萨雷斯（或 30000 资金）：话末选择让萨雷斯同行（第一个选项）则其留下；选择放他离开（第二个选项）则获得 30000 资金（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "二选一：第5话 灵光船（选择「去看看」）或第6话序位 圣少女（选择「先赶路」）——两话为互斥的分支剧本，本站分别建页（正树第5话 / 正树第6话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第5话",
+   "slug": "masaki-05",
+   "zh": "灵光船",
+   "ja": "オーラシップ",
+   "en": "Aura Ship",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第4话通关后选择「去看看（行ってみる）」进入本话（与「圣少女」互斥）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：戈拉昂（艾尔·菲诺）、维尔斯（多德·吉尼斯）；豪将军客串参战。"
+   ],
+   "events": [],
+   "secrets": [
+    "本路线取得的是圣战士丹拜因的战舰「戈拉昂」与艾尔、多德一行；另一条「圣少女」路线取得的是「格兰·加兰」与西拉一行。两条路线取得的战舰不同，并会通过 ISS 影响琉妮之章第5话的战舰取得（见本作主页 ISS 说明）。"
+   ],
+   "unlocks": [
+    "索拉提斯神殿（按进入本话时的总回合数进入两个变体之一，见正树第7话 / 正树第8话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第6话",
+   "slug": "masaki-06",
+   "zh": "圣少女",
+   "ja": "聖少女",
+   "en": "Holy Maiden",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第4话通关后选择「先赶路（先を急ぐ）」进入本话（与「灵光船」互斥）。本站编号沿用 Akurasu 流程图的通算序号，故编为正树第6话。",
+   "victory": [
+    "歼灭全部魔像（デモンゴーレム）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：格兰·加兰（西拉·拉帕纳）、波图恩（尼·基文）、波赞（基恩·基斯）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本路线取得战舰「格兰·加兰」与西拉、尼、基恩一行；另一条「灵光船」路线取得「戈拉昂」。两条路线取得的战舰不同，并会通过 ISS 影响琉妮之章第5话的战舰取得（见本作主页 ISS 说明）。"
+   ],
+   "unlocks": [
+    "索拉提斯神殿（按进入本话时的总回合数进入两个变体之一，见正树第7话 / 正树第8话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第7话",
+   "slug": "masaki-07",
+   "zh": "索拉提斯神殿",
+   "ja": "ソラティス神殿",
+   "en": "Solatis Shrine",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第5话（灵光船）或第6话序位（圣少女）后，按当时的总回合数（50 回合为界，Akurasu 流程图注记「总ターン数50以上 / 50未満」）进入本变体。本页为索拉提斯神殿变体甲；两个变体的具体回合对应关系，Akurasu 与日文流程图站（mr-blade）的编号方式不同，本站按 Akurasu 通算序号分别建页，精确对应关系待核实。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：高达Mk-II（克莉丝·麦肯吉，黑色提坦斯涂装）、扎古（巴尼·怀斯曼）。"
+   ],
+   "events": [
+    "克莉丝在本作不驾驶 NT-1 艾历克斯（该机体不登场），而是驾驶黑色的高达Mk-II（日文维基/Fandom）。"
+   ],
+   "secrets": [
+    "本关为总回合数分岐的变体剧本：两个同名剧本内容不同，请勿与另一变体混同。"
+   ],
+   "unlocks": [
+    "第9话 恶魔骇客（仅特定路线/回合条件，见该页）；其后汇合至第10话 珊瑚峡谷（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第8话",
+   "slug": "masaki-08",
+   "zh": "索拉提斯神殿",
+   "ja": "ソラティス神殿",
+   "en": "Solatis Shrine",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第5话（灵光船）或第6话序位（圣少女）后，按当时的总回合数（50 回合为界，Akurasu 流程图注记「总ターン数50以上 / 50未満」）进入本变体。本页为索拉提斯神殿变体乙；两个变体的具体回合对应关系，Akurasu 与日文流程图站（mr-blade）的编号方式不同，本站按 Akurasu 通算序号分别建页，精确对应关系待核实。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：高达Mk-II（克莉丝·麦肯吉，黑色提坦斯涂装）、扎古（巴尼·怀斯曼）。"
+   ],
+   "events": [
+    "克莉丝在本作不驾驶 NT-1 艾历克斯（该机体不登场），而是驾驶黑色的高达Mk-II（日文维基/Fandom）。"
+   ],
+   "secrets": [
+    "本关为总回合数分岐的变体剧本：两个同名剧本内容不同，请勿与另一变体混同。"
+   ],
+   "unlocks": [
+    "第9话 恶魔骇客（仅特定路线/回合条件，见该页）；其后汇合至第10话 珊瑚峡谷（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第9话",
+   "slug": "masaki-09",
+   "zh": "恶魔骇客",
+   "ja": "デモン・ハック",
+   "en": "Demon Hack",
+   "route": "正树之章",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "索拉提斯神殿通关后进入（与总回合数分岐相关的追加剧本；mr-blade 流程图将其编为 6B-2，Akurasu 流程图通算为第9话，本站从 Akurasu）。",
+   "victory": [
+    "在 5 回合以内歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭，或到达第 6 回合。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（以索拉提斯神殿通关时的阵容出击）。"
+   ],
+   "events": [
+    "本话是限时歼灭战：须在 5 回合内全歼敌军，超时即败北（Akurasu Flow Chart）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第10话 珊瑚峡谷（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第10话",
+   "slug": "masaki-10",
+   "zh": "珊瑚峡谷",
+   "ja": "コーラルキャニオン",
+   "en": "Coral Canyon (Event)",
+   "route": "正树之章",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第9话（或索拉提斯神殿）通关后进入本话。本话为无战斗的事件话（日文维关注记：本作含无战斗、只有会话的话数）。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：加德斯（蒂迪·诺尔巴克）——在本话事件中登场/加入。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第11话 珊瑚峡谷再临。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第11话",
+   "slug": "masaki-11",
+   "zh": "珊瑚峡谷再临",
+   "ja": "コーラルキャニオン再び",
+   "en": "Coral Canyon Again",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第10话事件后进入本话。",
+   "victory": [
+    "先救出莉娜（不得击坠 ZZ 高达与高达 F91）；第 3 回合后改为歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭，或在救出莉娜之前击毁机动要塞。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：ZZ 高达（捷多·阿西塔）、高达 F91（西布克·阿诺）；幕间可配置：莱普雷坎、莱尼克、基拉·多加、卡普尔（无驾驶员机体，Akurasu 注记为幕间可得）。"
+   ],
+   "events": [
+    "胜利条件分两段：先保护并救出莉娜（不得击坠前来交战的 ZZ 与 F91），第 3 回合后转为全歼（Akurasu Flow Chart）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第12话 王都潜入。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第12话",
+   "slug": "masaki-12",
+   "zh": "王都潜入",
+   "ja": "王都潜入",
+   "en": "Royal Capital Infiltration",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第11话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：豪将军客串参战。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第13话 为了大义。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第13话",
+   "slug": "masaki-13",
+   "zh": "为了大义",
+   "ja": "大義のもとに",
+   "en": "All for the Cause",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第12话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：高达 GP-01Fb（浦木宏）、高达 GP-02（阿纳贝尔·卡多）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第14话 被囚的王女。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第14话",
+   "slug": "masaki-14",
+   "zh": "被囚的王女",
+   "ja": "囚われの王女",
+   "en": "Captive Princess",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第13话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：诺尔斯（克塞尼亚·格拉尼亚·比尔塞亚）、扎姆吉德（美绪的新机体；Akurasu 在琉妮第21话将扎姆吉德列为美绪驾驶）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第15话 返回王都。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第15话",
+   "slug": "masaki-15",
+   "zh": "返回王都",
+   "ja": "王都への帰還",
+   "en": "Return of the King to the Capital",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第14话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：普蕾西亚·赞·泽诺萨基斯（角色加入）、波士博罗特（波士）、纯（驾驶员）；豪将军客串参战。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第16话 卡克斯的野心。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第16话",
+   "slug": "masaki-16",
+   "zh": "卡克斯的野心",
+   "ja": "カークスの野望",
+   "en": "Kirkus' Ambition",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第15话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入/参战：大魔神（玛丽亚·格雷斯·弗里德驾驶——铁也受伤，由玛丽亚代驾，日文维基/Fandom）；多文狼（亚赞）、多文狼（拉坎）为 NPC 参战；光、铁也（角色）登场。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第17话 虚假的加冕式（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第17话",
+   "slug": "masaki-17",
+   "zh": "虚假的加冕式",
+   "ja": "偽りの戴冠式",
+   "en": "False Coronation (Event)",
+   "route": "正树之章",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第16话通关后进入本话。本话为无战斗的事件话。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第18话 特里乌斯出奔。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第18话",
+   "slug": "masaki-18",
+   "zh": "特里乌斯出奔",
+   "ja": "テリウス出奔",
+   "en": "Tellius' Kidnapping",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第17话事件后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第19话 王都决战。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第19话",
+   "slug": "masaki-19",
+   "zh": "王都决战",
+   "ja": "王都の決戦",
+   "en": "Battle at the Imperial City",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第18话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第20话 阴谋之影。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第20话",
+   "slug": "masaki-20",
+   "zh": "阴谋之影",
+   "ja": "陰謀の影",
+   "en": "Shadow of the Conspiracy",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第19话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第21话 地底死斗。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第21话",
+   "slug": "masaki-21",
+   "zh": "地底死斗",
+   "ja": "地底の死闘",
+   "en": "Underground Battle",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第20话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第22话 邪神复活。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第22话",
+   "slug": "masaki-22",
+   "zh": "邪神复活",
+   "ja": "邪神復活",
+   "en": "Resurrection of the False God",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第21话通关后进入本话。邪神沃尔克鲁斯复活是贯穿三章的暗线（修之章为其正面描写）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第23话 费尔的黑暗。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第23话",
+   "slug": "masaki-23",
+   "zh": "费尔的黑暗",
+   "ja": "フェイルの闇",
+   "en": "Feil of Darkness",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第22话通关后进入本话。本话正树暂时无法出击（Akurasu 注记）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：杜拉克希尔（费尔）——Akurasu 将其列为本话取得；正树本话暂时离队/不可出击。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第24话 诀别。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第24话",
+   "slug": "masaki-24",
+   "zh": "诀别",
+   "ja": "訣別",
+   "en": "Partings",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第23话通关后进入本话。本话通关后的选择决定结局路线：直接决战（第25话）或经「野心漩涡」（第26话）进入最终决战（第27话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [
+    "话末选择（Akurasu 流程图注记）：「構わない（无所谓）」→ 第25话决战路线；「様子を見る（先观望）」→ 第26话野心漩涡路线。"
+   ],
+   "secrets": [
+    "莱尼克与利姆尔：话末选择第二个选项（先观望）进入第26话，可在第26话取得莱尼克（利姆尔）（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "二选一：第25话 决战（选择「无所谓」）或第26话 野心漩涡（选择「先观望」）——见隐藏要素。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第25话",
+   "slug": "masaki-25",
+   "zh": "决战",
+   "ja": "決戦",
+   "en": "Decisive Battle",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第24话通关后选择「无所谓」进入本话，为正树之章的结局路线之一。",
+   "victory": [
+    "击坠杜拉克希尔（费尔）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：豪将军客串参战。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "正树之章通关（本路线结局）。通关任一章（正树或琉妮）后，修之章解锁（SFC 版）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第26话",
+   "slug": "masaki-26",
+   "zh": "野心漩涡",
+   "ja": "野望、渦巻く",
+   "en": "Swirling Ambition",
+   "route": "正树之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第24话通关后选择「先观望」进入本话，为通往最终决战的路线。",
+   "victory": [
+    "击坠威尔·维普斯（德雷克）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "取得：莱尼克（利姆尔）、戈拉昂（艾尔）/格兰·加兰（西拉）（按此前取得的战舰）；本话出击的是除正树、蒂迪、美绪、捷多、卡多、翔、玛贝尔之外的驾驶员及其机体（Akurasu 注记：队伍分队出击）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本话是取得莱尼克（利姆尔）的唯一机会（须在第24话选择第二个选项进入本路线，见第24话隐藏要素）。"
+   ],
+   "unlocks": [
+    "第27话 决战，杜拉克希尔。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "正树第27话",
+   "slug": "masaki-27",
+   "zh": "决战，杜拉克希尔",
+   "ja": "決戦、デュラクシール",
+   "en": "Decisive Battle, Duraxyll",
+   "route": "正树之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第26话通关后进入本话，为正树之章最终话。",
+   "victory": [
+    "先击坠机动要塞，再击坠杜拉克希尔（费尔）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：戈拉昂（艾尔）/格兰·加兰（西拉）；上一话未出击的全部驾驶员及其机体在本话出击（Akurasu 注记）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "正树之章通关。通关任一章（正树或琉妮）后，修之章解锁（SFC 版）；通关数据可经 ISS 影响其他章（见本作主页）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第1话",
+   "slug": "ryune-01",
+   "zh": "地底世界",
+   "ja": "地底世界",
+   "en": "Underground World",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "游戏开始选择「琉妮之章」（难度：普通）即进入本话。琉妮在《第3次》之后被召唤至拉·基亚斯。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局参战：瓦尔西奥内（琉妮·佐尔达克）、格兰威尔（黄炎龙）。"
+   ],
+   "events": [
+    "琉妮被黄炎龙所救，其后加入神圣朗格朗王国的卡克斯军（日文维基/Fandom）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第2话 再会。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第2话",
+   "slug": "ryune-02",
+   "zh": "再会",
+   "ja": "再会",
+   "en": "Reunion",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第1话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：盖塔龙（流龙马、神隼人、巴武藏）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第3话 邓克市攻防战。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第3话",
+   "slug": "ryune-03",
+   "zh": "邓克市攻防战",
+   "ja": "ダンク市の攻防",
+   "en": "Battle at Dunks City",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第2话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：ν高达（阿姆罗·雷）、Z 高达（卡缪·比丹）、梅塔斯（花·由里）、加奥姆（根纳季）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第4话 各自的正义。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第4话",
+   "slug": "ryune-04",
+   "zh": "各自的正义",
+   "ja": "それぞれの正義",
+   "en": "Individual Justice",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第3话通关后进入本话。本话为生存战。",
+   "victory": [
+    "坚持 8 个回合（生存）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [
+    "胜利条件不是歼灭而是生存 8 回合（Akurasu Flow Chart）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第5话 孢子之谷。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第5话",
+   "slug": "ryune-05",
+   "zh": "孢子之谷",
+   "ja": "胞子の谷",
+   "en": "Valley of Spores",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第4话通关后进入本话。本话的战舰二选一是 ISS 的关键旗标之一。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "取得（二选一）：格兰·加兰（西拉）或戈拉昂（艾尔）——见隐藏要素。"
+   ],
+   "events": [],
+   "secrets": [
+    "战舰二选一：选择第一个选项取得「格兰·加兰」，第二个选项取得「戈拉昂」；若使用正树之章的 ISS 数据，则自动取得正树之章未取得的那艘战舰（Akurasu Secrets）。这正是 ISS「一章的选择决定另一章」最典型的例子。"
+   ],
+   "unlocks": [
+    "第6话 突袭。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第6话",
+   "slug": "ryune-06",
+   "zh": "突袭",
+   "ja": "サプライズド・アタック",
+   "en": "Surprised Attack",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第5话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战/加入：加尔加德（卡克斯）、豪将军客串参战；巴斯托尔（嘉拉莉亚）——须说得（见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "说得嘉拉莉亚：用西拉或艾尔说得嘉拉莉亚，其驾驶巴斯托尔加入（Akurasu Flow Chart 与 Secrets）。"
+   ],
+   "unlocks": [
+    "第7话 反击。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第7话",
+   "slug": "ryune-07",
+   "zh": "反击",
+   "ja": "反撃",
+   "en": "Counterattack",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第6话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：加尔加德（卡克斯）、豪将军客串参战；加入（二选一说得）：基拉·多加（凯拉·苏）或扎萨（哈萨维·诺亚）——见隐藏要素。"
+   ],
+   "events": [],
+   "secrets": [
+    "说得凯拉或哈萨维：用阿姆罗或卡缪说得凯拉·苏（基拉·多加）或哈萨维·诺亚（扎萨）其中一人加入（Akurasu Secrets）。说得凯拉与否还影响第8话后多文狼的取得（见第8话）。"
+   ],
+   "unlocks": [
+    "第8话 沃尔克鲁斯之影。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第8话",
+   "slug": "ryune-08",
+   "zh": "沃尔克鲁斯之影",
+   "ja": "ヴォルクルスの影",
+   "en": "Shadow of Volkruss",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第7话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：扎古III改（弗尔·穆拉萨梅）；多文狼（无驾驶员机体，取得条件见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "多文狼：若第7话已说得凯拉加入，则本话通关后可取得多文狼（Akurasu Secrets 注记为第8话后可得；Flow Chart 将其列于本话取得栏并注记「if Kayra joined」）。"
+   ],
+   "unlocks": [
+    "第9话 特里乌斯王子。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第9话",
+   "slug": "ryune-09",
+   "zh": "特里乌斯王子",
+   "ja": "テリウス王子",
+   "en": "Prince Terius",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第8话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入/复归：古兰戴萨（杜克·弗里德）、格兰威尔（黄炎龙）、加奥姆（根纳季）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第10话 俘虏救出。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第10话",
+   "slug": "ryune-10",
+   "zh": "俘虏救出",
+   "ja": "捕虜救出",
+   "en": "POW Rescue",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第9话通关后进入本话。本话通关后是否出现第11话，取决于是否使用修之章的 ISS（见第11话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：高达Mk-II（艾玛·辛）、卡碧尼Mk-II（普露）、普露2（角色）；取得机体：汉布拉比、卡普尔、德莱森（无驾驶员）。"
+   ],
+   "events": [
+    "本话之后的分岐由 ISS 决定（Akurasu 流程图注记）：未使用修之章 ISS、或未通关修第5话「琉妮·佐尔达克」→ 通常路线；使用已通关修第5话的修之章 ISS → 进入第11话。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "通常路线直接进入第12话 黑色三连星；若使用修之章 ISS 且已通关修第5话，则先进入第11话 修·希拉卡瓦（ISS 限定）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第11话",
+   "slug": "ryune-11",
+   "zh": "修·希拉卡瓦",
+   "ja": "シュウ＝シラカワ",
+   "en": "Shu Shirakawa",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "ISS限定",
+   "prerequisite": "ISS 限定剧本：须在本章开始时使用修之章的 ISS 数据，且该数据已通关修第5话「琉妮·佐尔达克」，才会在第10话后进入本话（Akurasu Flow Chart）。未使用 ISS 时本话不出现，直接进入第12话。",
+   "victory": [
+    "击坠格兰佐（修）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入；本话为与修（格兰佐）的交战话。"
+   ],
+   "events": [
+    "本话的两个选择（Akurasu 流程图注记）：是否与修交战；交战后是否选择追查——后者是进入统合路线（第19话起）的条件之一。"
+   ],
+   "secrets": [
+    "与新格兰佐交战：若所用的修之章 ISS 数据是已用隐藏指令（新格兰佐）通关修之章的数据，则本话的敌方机体由格兰佐变为新格兰佐，可与其交战（Akurasu Secrets；仅琉妮之章可交战，日文维基）。",
+    "黑色三连星正式加入的前置（与本话连动）：使用已通关修第5话的修之章 ISS → 本话与修交战并选择追查 → 第12话选择与黑色三连星同行（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第12话 黑色三连星；话中的选择（是否与修交战、是否追查）影响第12话后的路线（见第12话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第12话",
+   "slug": "ryune-12",
+   "zh": "黑色三连星",
+   "ja": "黒い三連星",
+   "en": "The Black Tri Stars",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第11话（ISS 路线）或第10话（通常路线）通关后进入本话。本话的选择决定后半走通常路线（第13–18话）还是统合路线（第19–24话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入（条件）：德莱森（加亚）、德莱森（马修）、德莱森（奥尔特加）——黑色三连星，须选择与他们同行（见下）。"
+   ],
+   "events": [
+    "话中选择（Akurasu 流程图注记）：「黒い三連星を仲間にしない（不让黑色三连星加入）」→ 通常路线；「仲間にした（让其加入）」→ 统合路线。统合路线另须满足第11话的 ISS 条件（见第11话隐藏要素）；剧本负责人阪田雅彦称，使用 ISS 的琉妮路线才是正史路线（日文维基引攻略本）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "二选一：不与黑色三连星同行 → 通常路线第13话 卢奥佐尔的暗跃；与黑色三连星同行 → 统合路线第19话 父与子。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第13话",
+   "slug": "ryune-13",
+   "zh": "卢奥佐尔的暗跃",
+   "ja": "ルオゾール、暗躍",
+   "en": "Luozorl's Plot",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12话选择不与黑色三连星同行，进入通常路线后半（第13–18话）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "复归：格兰威尔（黄炎龙）、加奥姆（根纳季）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第14话 卡克斯之眼（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第14话",
+   "slug": "ryune-14",
+   "zh": "卡克斯之眼",
+   "ja": "カークスの目",
+   "en": "Kirkus' Sight (Event)",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第13话通关后进入本话（通常路线）。本话为无战斗的事件话。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第15话 守护泽布神殿！"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第15话",
+   "slug": "ryune-15",
+   "zh": "守护泽布神殿！",
+   "ja": "ゼブ神殿を守れ！",
+   "en": "Zeb, Defend the Temple!",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第14话事件后进入本话（通常路线）。",
+   "victory": [
+    "在 10 回合以内歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭，或超过 10 回合。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：豪将军客串参战；加入：加迪福尔（扎什福德）。"
+   ],
+   "events": [
+    "本话是限时歼灭战：须在 10 回合内全歼，超时即败北（Akurasu Flow Chart）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第16话 追击修特多尼亚斯。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第16话",
+   "slug": "ryune-16",
+   "zh": "追击修特多尼亚斯",
+   "ja": "シュテドニアス追撃",
+   "en": "Pursue Shutedonias",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第15话通关后进入本话（通常路线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [
+    "Akurasu 流程图在本话附近注记了两个会话选择（「とぼけるつもり！？（装傻）」/「そうだっけ？（是吗）」），具体对应的会话节点待核实。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第17话 败军之将。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第17话",
+   "slug": "ryune-17",
+   "zh": "败军之将",
+   "ja": "敗軍の将",
+   "en": "Defeated General",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第16话通关后进入本话（通常路线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "复归：格兰威尔（黄炎龙）、加迪福尔（扎什福德）、古兰戴萨（杜克）、盖塔龙（龙马一行）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第18话 超魔装机尤里德（通常路线最终话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第18话",
+   "slug": "ryune-18",
+   "zh": "超魔装机尤里德",
+   "ja": "超魔装機エウリード",
+   "en": "Super Masouki Euclid",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第17话通关后进入本话，为通常路线的最终话。",
+   "victory": [
+    "歼灭全部敌人，其后击坠尤里德（卡克斯）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "琉妮之章通关（通常路线结局）。通关任一章（正树或琉妮）后，修之章解锁（SFC 版）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第19话",
+   "slug": "ryune-19",
+   "zh": "父与子",
+   "ja": "父と子",
+   "en": "Father and Son",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12话选择与黑色三连星同行，进入统合路线后半（第19–24话；须先满足第11话的 ISS 条件）。本站编号沿用 Akurasu 流程图的通算序号。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "复归：格兰威尔（黄炎龙）、加奥姆（根纳季）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第20话 追击扎什福德。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第20话",
+   "slug": "ryune-20",
+   "zh": "追击扎什福德",
+   "ja": "迫撃のザシュフォード",
+   "en": "Pursuit of Zashford",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第19话通关后进入本话（统合路线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：加迪福尔（扎什福德）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第21话 相遇。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第21话",
+   "slug": "ryune-21",
+   "zh": "相遇",
+   "ja": "めぐりあい",
+   "en": "Chance Meeting",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第20话通关后进入本话（统合路线）。本话中正树队与琉妮队汇合——这是 ISS 统合路线的核心剧本。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "汇合加入：塞巴斯塔（正树）、加德斯（蒂迪）、扎姆吉德（美绪）、大魔神（兜甲儿）、ZZ 高达（捷多）、高达 F91（西布克）、比尔拜因（翔）；幕间可配置：迪亚布罗（普蕾西亚）、诺尔斯（克塞尼亚）、波士博罗特（波士）、GP-01Fb（浦木宏）、GP-02（卡多）、丹拜因（玛贝尔）。"
+   ],
+   "events": [
+    "正树队与琉妮队在本话汇合，四台魔装机神（塞巴斯塔、加德斯、扎姆吉德、格兰威尔）得以同场——这是使用 ISS 才能达成的展开（日文维基/Fandom）。本话通过与否不反映到正树之章（日文维关注记）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第22话 超魔装机尤里德（统合路线）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第22话",
+   "slug": "ryune-22",
+   "zh": "超魔装机尤里德",
+   "ja": "超魔装機エウリード",
+   "en": "Super Masouki Euclid",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第21话通关后进入本话（统合路线）。与通常路线第18话同名，但为不同剧本。",
+   "victory": [
+    "歼灭全部敌人，其后击坠尤里德（卡克斯）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战阵容（Akurasu 列）：瓦尔西奥内（琉妮）、格兰威尔（黄炎龙）、戈拉昂/格兰·加兰、盖塔龙、古兰戴萨，以及根纳季、扎什福德、阿姆罗、卡缪、西布克、花、弗尔、哈萨维、凯拉、艾玛、黑色三连星、翔、嘉拉莉亚等所驾驶的机体。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第23话 被诅咒者。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第23话",
+   "slug": "ryune-23",
+   "zh": "被诅咒者",
+   "ja": "呪われし者",
+   "en": "Cursed Person",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第22话通关后进入本话（统合路线）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战阵容（Akurasu 列）：正树队一行（正树、蒂迪、美绪、艾尔/西拉、普蕾西亚、克塞尼亚、甲儿、波士、捷多、普露、普露2、西布克、浦木宏、卡多、翔、玛贝尔）及其机体。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第24话 决战（统合路线最终话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "琉妮第24话",
+   "slug": "ryune-24",
+   "zh": "决战",
+   "ja": "決戦",
+   "en": "Decisive Battle",
+   "route": "琉妮之章",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第23话通关后进入本话，为统合路线的最终话。",
+   "victory": [
+    "击坠杜拉克希尔（费尔）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：格兰威尔（黄炎龙）、加迪福尔（扎什福德）、古兰戴萨（杜克）、盖塔龙（龙马一行）（Akurasu 列于第17话/终盘取得栏，本话为汇合决战）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "琉妮之章通关（统合路线结局）。通关任一章（正树或琉妮）后，修之章解锁（SFC 版）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第1话",
+   "slug": "shu-01",
+   "zh": "修，觉醒",
+   "ja": "シュウ、目覚める",
+   "en": "Shu's Awakening",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "隐藏章：SFC 版须先通关正树之章或琉妮之章任一章，修之章才会出现（并取代训练模式的位置）；PS 版则须两章都通关（见本作主页版本差异）。修在《第3次》隐藏剧本中死亡后，于拉·基亚斯复活。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "修被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "开局参战：格兰佐（修·希拉卡瓦）——若使用隐藏指令开始则为新格兰佐（见隐藏要素）；维佐尔改（萨菲妮·格蕾斯）。"
+   ],
+   "events": [],
+   "secrets": [
+    "新格兰佐（隐藏指令）：先通关正树与琉妮两章，再重新开始游戏，在万普标志（Banpresto logo）出现时依次输入「下、上、左、右、L、R」，然后不使用 ISS 开始修之章，修的座机即为新格兰佐（Akurasu Secrets）。PS 版的前置条件更严苛（须含统合路线真结局等），见本作主页版本差异。"
+   ],
+   "unlocks": [
+    "第2话 战国魔神豪将军。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第2话",
+   "slug": "shu-02",
+   "zh": "战国魔神豪将军",
+   "ja": "戦国魔神ゴーショーグン",
+   "en": "Warring Demon GoShogun",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第1话通关后进入本话。本话末的选择决定是否进入第3话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [
+    "话末选择（Akurasu 流程图注记）：「このまま（原地）」与「遠回り（绕道）」——选择绕道才能进入第3话说得杰里德一行。"
+   ],
+   "secrets": [
+    "巴恩·巴宁斯等人的前置在本话：须在本话末选择第二个选项（绕道），第3话才能说得巴恩·巴宁斯（见修第6话）；杰里德一行的说得亦在第3话（Akurasu Secrets 记于第2话后的选择）。"
+   ],
+   "unlocks": [
+    "二选一：原地（このまま）继续主线，或绕道（遠回り）进入第3话 巴戈尼亚的佣兵（见第3话与隐藏要素）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第3话",
+   "slug": "shu-03",
+   "zh": "巴戈尼亚的佣兵",
+   "ja": "バゴニアの傭兵",
+   "en": "Mercenary of Bagonia",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第2话通关后选择「绕道」进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "说得加入：巴恩德·多克（杰里德·梅萨）、巴恩德·多克（莱拉·米拉·莱拉）、巴恩德·多克（卡克里孔·卡克拉）——均须由修说得。"
+   ],
+   "events": [],
+   "secrets": [
+    "说得杰里德、莱拉、卡克里孔：本话用修说得三人，其驾驶巴恩德·多克加入（Akurasu Flow Chart 与 Secrets）。其中说得杰里德与否影响第10话多文狼的取得（见第10话）。"
+   ],
+   "unlocks": [
+    "第4话 努埃特海。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第4话",
+   "slug": "shu-04",
+   "zh": "努埃特海",
+   "ja": "ヌエット海",
+   "en": "Nouet Sea",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第3话通关后进入本话。本话末的选择决定是否进入第6话的说得路线（第5话为事件话，顺序见各页）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "说得加入：百式（卡托尔·巴吉纳/克瓦托罗）——须由修说得。"
+   ],
+   "events": [
+    "话末选择（Akurasu 流程图注记）：「そのまま（原地）」与「西へ（向西）」——选择向西（第二个选项）才能在第6话说得巴恩·巴宁斯（Akurasu Secrets）。"
+   ],
+   "secrets": [
+    "说得卡托尔：本话用修说得卡托尔，其驾驶百式加入（Akurasu Secrets）。说得成功与否影响第10话沙扎比的取得（见第10话）。"
+   ],
+   "unlocks": [
+    "第5话 琉妮·佐尔达克（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第5话",
+   "slug": "shu-05",
+   "zh": "琉妮·佐尔达克",
+   "ja": "リューネ＝ゾルダーク",
+   "en": "Lune Zoldark (Event)",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第4话通关后进入本话。本话为无战斗的事件话，但其通关旗标是琉妮之章 ISS 剧本（琉妮第11话）的开启条件，极其重要。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入。"
+   ],
+   "events": [
+    "ISS 关键旗标：通关本话的修之章存档被用作 ISS 数据时，琉妮之章第10话后才会出现第11话「修·希拉卡瓦」（Akurasu Flow Chart）。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第6话 复仇骑士。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第6话",
+   "slug": "shu-06",
+   "zh": "复仇骑士",
+   "ja": "復讐の騎士",
+   "en": "Knight of Vengeance",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第5话事件后进入本话（须在第4话末选择「向西」）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "说得加入：兹沃斯（巴恩·巴宁斯）——须由修说得；说得后兹沃斯获得强化（见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "说得巴恩·巴宁斯：本话用修说得巴恩，其驾驶兹沃斯加入，且兹沃斯获得「灵光炮」武器、最大 HP +500、装甲 +220、移动力 +1 的强化（Akurasu Flow Chart）。前置：第2话末选绕道、第4话末选向西。"
+   ],
+   "unlocks": [
+    "第7话 莫妮卡与爱。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第7话",
+   "slug": "shu-07",
+   "zh": "莫妮卡与爱",
+   "ja": "モニカ、その愛",
+   "en": "Monica's Love",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第6话通关后进入本话。本话为移动目标型剧本。",
+   "victory": [
+    "让修登上神殿，其后到达地图西端。"
+   ],
+   "defeat": [
+    "修被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "Akurasu 将本话取得栏注记为「除格兰佐/新格兰佐外的全部单位」，其具体所指（离队/不可出击范围）待核实；本话以修的单独行动为核心。"
+   ],
+   "events": [
+    "胜利条件为两段移动目标：先让修到达神殿，再到达地图西端（Akurasu Flow Chart），不是歼灭战。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第8话 遭遇，塞巴斯塔（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第8话",
+   "slug": "shu-08",
+   "zh": "遭遇，塞巴斯塔",
+   "ja": "遭遇、サイバスター",
+   "en": "Encounter, Cybuster (Event)",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第7话通关后进入本话。本话为无战斗的事件话（修与正树/塞巴斯塔遭遇）。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第9话 夺取诺尔斯。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第9话",
+   "slug": "shu-09",
+   "zh": "夺取诺尔斯",
+   "ja": "ノルス奪取",
+   "en": "Nors Conquers",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第8话事件后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "修被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "取得：克塞尼亚（角色）、诺尔斯——须击毁机动要塞（见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "诺尔斯（或吉尔多拉）：本话击毁机动要塞可取得诺尔斯；未取得诺尔斯时，第10话改为取得吉尔多拉（Akurasu Secrets 与 Flow Chart）。"
+   ],
+   "unlocks": [
+    "第10话 黑暗的低语。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第10话",
+   "slug": "shu-10",
+   "zh": "黑暗的低语",
+   "ja": "闇のささやき",
+   "en": "Dark Whispers",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第9话通关后进入本话。本话为生存战。",
+   "victory": [
+    "坚持 7 个回合（生存）。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "取得（条件）：吉尔多拉（未取得诺尔斯时）；多文狼（已说得杰里德时）；沙扎比（已说得卡托尔时）——见隐藏要素。"
+   ],
+   "events": [],
+   "secrets": [
+    "沙扎比与多文狼：在本话 7 回合内击破敌人（Akurasu Secrets 表述为「defeat the enemies within 7 turns」）可取得——沙扎比须已在第4话说得卡托尔，多文狼须已在第3话说得杰里德（Akurasu Secrets）。本话的胜利条件本身为生存 7 回合，取得条件与过关方式的精确关系待核实。"
+   ],
+   "unlocks": [
+    "第11话 特里乌斯的决意（事件话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第11话",
+   "slug": "shu-11",
+   "zh": "特里乌斯的决意",
+   "ja": "テリウスの決意",
+   "en": "Terius' Determination (Event)",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "事件话",
+   "prerequisite": "第10话通关后进入本话。本话为无战斗的事件话。",
+   "victory": [
+    "观看事件（无战斗）。"
+   ],
+   "defeat": [
+    "无败北条件。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：加迪福尔（特里乌斯·赞·格拉尼亚·比尔塞亚）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第12话 特训。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第12话",
+   "slug": "shu-12",
+   "zh": "特训",
+   "ja": "特訓",
+   "en": "Special Training",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第11话事件后进入本话。本话会重复出现，直到特里乌斯达到 25 级（Akurasu 注记）。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "特里乌斯被击坠。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（特训对象为特里乌斯）。"
+   ],
+   "events": [
+    "本话为可重复的特训剧本：通关后会再次出现，直到特里乌斯升至 25 级才继续主线（Akurasu Flow Chart 注记）。这是全作唯一的重复型剧本，本站只建一页。"
+   ],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第13话 圣战（特里乌斯达到 25 级后推进）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第13话",
+   "slug": "shu-13",
+   "zh": "圣战",
+   "ja": "ジハード",
+   "en": "Jihad",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第12话特训完成后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "说得加入：索尔加迪（阿哈马德）——须先选择第二个选项，再由修说得（见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "说得阿哈马德：本话先选择第二个选项，再用修说得阿哈马德，其驾驶索尔加迪加入（Akurasu Secrets）。"
+   ],
+   "unlocks": [
+    "第14话 封印。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第14话",
+   "slug": "shu-14",
+   "zh": "封印",
+   "ja": "封印",
+   "en": "Sealed",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第13话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "无新加入（Akurasu 未列本话取得）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第15话 邪神解放。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第15话",
+   "slug": "shu-15",
+   "zh": "邪神解放",
+   "ja": "邪神解放",
+   "en": "Release of the False God",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第14话通关后进入本话。",
+   "victory": [
+    "歼灭全部敌人。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加入：纳扎德（卢奥佐尔）。"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 Akurasu 隐藏要素表所列的专属隐藏要素；与本章相关的长线条件见本作主页的隐藏要素总览。"
+   ],
+   "unlocks": [
+    "第16话 反叛（最终话）。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  },
+  {
+   "code": "修第16话",
+   "slug": "shu-16",
+   "zh": "反叛",
+   "ja": "反逆",
+   "en": "Treason",
+   "route": "修之章（隐藏章）",
+   "area": "",
+   "type": "隐藏章",
+   "prerequisite": "第15话通关后进入本话，为修之章最终话。",
+   "victory": [
+    "击毁沃尔克鲁斯。"
+   ],
+   "defeat": [
+    "我方全灭。"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击破敌机逐台获得，用于幕间的机体改造与本作新引入的武器改造；本作没有固定通关奖励。本关逐机资金待核实。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "参战：纳扎德（卢奥佐尔）；维佐尔改（萨菲妮）——其去留取决于萨菲妮的等级（见隐藏要素）。"
+   ],
+   "events": [],
+   "secrets": [
+    "保留萨菲妮：本话开始时萨菲妮的等级须高于 30（即 31 级以上），否则她会在最终话成为敌方（Akurasu Secrets；英文实况记录亦称 30 级以下时萨菲妮在最终话为敌方）。"
+   ],
+   "unlocks": [
+    "修之章通关。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本作（SFC 原版）没有公开的逐关敌方配置来源：GameCenter GX 未收录本作；现存的构成级逐关资料（如 Namu 的 Complete Box 攻略、GameFAQs 的 Complete Box 人物指南）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充 SFC 页面。",
+     "本关的敌方初始配置、增援批次与触发条件、敌方等级与坐标均待实机核实后补入。本页已核实的内容为胜利/败北条件、我方加入与隐藏要素（Akurasu 流程图与隐藏要素表，日文维基/Fandom 交叉核对）。"
+    ]
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本关地图的实际尺寸与逐格地形未能从公开来源核实（本作没有公开的逐关地图／坐标数据）。下图仅为与全站一致的坐标参照框架（示意尺寸，不对应真实地图），所有格子地形均标为「地形待核实」，不含任何推测坐标。敌方单位今后按来源坐标补入时，将沿用同一 (1,1) 原点坐标系。",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Flow Chart（流程与胜败条件、加入）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki：Super Robot Wars EX Secrets（隐藏要素）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/EX/Secrets"
+    },
+    {
+     "name": "日文维基百科：スーパーロボット大戦EX（三章话数 27/24/16 合计 67、ISS、修之章解锁）",
+     "url": "http://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6EX"
+    }
+   ]
+  }
+ ]
+}
