@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwLMissionList from '../../../components/SrwLMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战L', path: 'srw-l/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战L（DS）关卡攻略 · 全55个关卡页面列表" description="超级机器人大战L（2010年 DS）全部关卡的页面列表：编号话数41话（序章2话＋第1–40话＋最终话），计入四次路线分歧的全部版本共55个不同剧本，一周目实际游玩43关。每关独立攻略页含胜利/败北条件、我方加入、过关奖励（技能零件＋固定资金）、本关隐藏要素（跨话连锁与路线选择；本作无熟练度系统）与坐标地图。本页为链接索引。" path="srw-l/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战L · 关卡攻略</h1>
+  <p>2010 年 11 月 25 日发售的 DS《超级机器人大战L》是 K 的直系续作：主人公<strong>固定</strong>为 15 岁的<strong>南云一鹰</strong>（乘机<strong>拉修巴德</strong>，副驾驶为安卓 AL-3 阿莉丝），玩家部队是国连直属特殊机动部队「<strong>LOTUS</strong>」。本作在 K 的<strong>搭档单位（PU）系统</strong>上做了大幅改版：新增地图上再编成、单机时也可受相邻机体援护、PU 的「个别攻击」，并废除了 K 的机动力惩罚；同时<strong>强化零件被「机体补正（伙伴补正）」取代</strong>、自 J 以来掌机系列的<strong>中意作品系统在本作废止</strong>。剧本为<strong>序章 2 话＋第 1–40 话＋最终话</strong>（编号共 41 话），途中四次二选一分歧（第 6、14、19、28 话后）使 12 个话各有双版本，全部变体共 <strong>55 个不同剧本</strong>，本站全部建页；一周目实际游玩 <strong>43 关</strong>。本作<strong>没有熟练度系统</strong>，隐藏要素全部由路线选择与跨话连锁（说得、指定驾驶员击坠、击坠数）决定，其中塔利斯曼连锁横跨第 12–37 话、且部分步骤与路线互斥。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-l/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——55 个详情页全部建成（按发售顺序逐作补完；L 在年表上位于 NEO 与第2次Z破界篇之间）。流程、胜败条件、加入、过关奖励以 Akurasu 的 L <strong>Flow Chart 为主源</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，话数口径与系统以日文维基百科与 srw.wiki 互证。<strong>计数说明</strong>：日文维基与日文 Fandom 均作「全 41 话（含序章与分歧共 55 个ステージ）」，Akurasu 主页作「53 playable scenarios + 2 prologue」——两种口径实为同一数字：41 个编号话计入 12 个分歧话的双版本为 53，再加序章 2 话为 55。本站按此口径建页，三方一致、无争议。<strong>敌方数据如实说明</strong>：敌方编成（构成、数量与增援）在全网只有 <strong>A9VG 论坛的一份中文流程帖</strong>（作者 xin2，2010 年）刊载过，覆盖全部 55 个剧本；Akurasu 的流程图不列敌方编成，s-rpg-navi 未收录本作（检索无结果），GameFAQs 亦无可用的编成攻略。按本站「双源交叉才刊载」的惯例，这批编成<strong>暂不刊载、列为待用户裁决事项</strong>。敌方等级与 HP/资金的成表数据不存在于任何来源；敌方坐标、逐关地图尺寸与逐格地形亦无公开来源——各页的坐标图为参照框架，标为待核实（两本官方攻略本列入本站地图补完计划的候选来源）。本页只做 DS 原版（2010 年）。</span>
+  </div>
+
+  <SrwLMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/L/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars L: Flow Chart</a>（主来源：全关卡的胜败条件、加入、过关奖励与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/L/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars L: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/L/Partner_Unit_Compendium" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars L: Partner Unit Compendium</a>（逐机机体补正三级数值）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦L</a>（话数口径、系统、参战作品的交叉核对）</li>
+    <li><a href="https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1" rel="noopener" target="_blank">A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）</a>（作者 xin2；敌方编成的单一来源，覆盖全部 55 个剧本，本站未导入、待裁决）</li>
+  </ul>
+  <p><a href={href('srw-l/')}>← 返回超级机器人大战L</a></p>
+</Base>

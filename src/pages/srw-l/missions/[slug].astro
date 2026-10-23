@@ -1,0 +1,124 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwl-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战L', path: 'srw-l/' },
+  { label: '关卡攻略', path: 'srw-l/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战L（2010 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（路线分歧与跨话连锁；本作无熟练度系统）与敌方编成现状（A9VG 流程帖单一来源暂不刊载）。`} path={`srw-l/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与过关奖励（技能零件＋固定资金）来自 Akurasu Wiki 的 L <strong>Flow Chart</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，话数口径与系统另以日文维基百科与 srw.wiki 互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 流程图没有任何一话列出熟练度条件，日文两侧的系统介绍也只列搭档战斗、攻击连击与机体补正三项——本页出现的时限、到达、削血与保护条件都是<strong>胜败条件本身</strong>，或隐藏要素的达成条件。本作编号为第 1–40 话加最终话（共 41 个编号话），另有 2 话序章与 12 个话的双路线版本，本站共建 55 个剧本页面，一周目实际游玩 43 关。本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载，按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；敌方等级、坐标与逐格地形在任何来源中都不存在，地图为参照框架。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      <div>本作无熟练度系统（分歧与隐藏要素由路线选择与跨话连锁条件决定，见本作主页）</div>
+    </td></tr>
+    <tr><th>资金（过关奖励）</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>技能零件（过关奖励）</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 {m.enemies.singleName} 一家刊载——{m.enemies.singleDesc}按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：K 的 23 个剧本、NEO 的 42 个剧本、第3次α 的 43 个剧本）。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作隐藏要素全是跨话连锁（立旗→指定话操作/击坠/说得→结算话兑现），且与四次路线分歧强绑定：请按各话页面顺序核对——错过前置话或走错路线，本周目无法补救（可在后续周目补做；其中第29话A 的米海尔连锁另有周回击坠数 bug，见该页）。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-l/missions/')}>← 返回关卡列表</a> · <a href={href('srw-l/')}>返回超级机器人大战L</a></p>
+</Base>

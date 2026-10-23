@@ -1,0 +1,559 @@
+{
+ "groups": [
+  {
+   "title": "序章（2 关）",
+   "intro": "Macross F 的开幕段：两话连排，通关后进入正篇并可设定主人公姓名。两话的败北条件都含「任一我方被击坠」。",
+   "rows": [
+    {
+     "code": "序章第1话",
+     "zh": "另一次相遇",
+     "ja": "プロローグ1話：アナザー・エンカウンター",
+     "en": "Prologue 1 - Another Encounter",
+     "type": "序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "序章第2话",
+     "zh": "银河追逐",
+     "ja": "プロローグ2話：ギャラクシー・チェイス",
+     "en": "Prologue 2 - Galaxy Chase",
+     "type": "序章",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通序盘（第1–6话）",
+   "intro": "玩家部队 LOTUS 成立，主人公南云一鹰与各作品主角团依次汇合；莱因巴雷尔两次以 NPC 身份登场，第9话（救出线）才正式加入。第6话是隐藏连锁「决斗高达强袭尸装＆暴风高达」的起点。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "被钢铁引导的少年们",
+     "ja": "第1話：クロガネに導かれし少年達",
+     "en": "Scenario 1: The Children Drawn to Iron",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "特训，马赫钻头！！",
+     "ja": "第2話：特訓、マッハドリル！！",
+     "en": "Scenario 2: Training, Mach Drill!!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "战斗的女人、不想战斗的女人、无法战斗的女人",
+     "ja": "第3話：戦う女、戦いたくない女、戦えない女",
+     "en": "Scenario 3: Fighting Woman, Dangerous Woman, Pacifist Woman",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "现身的火焰巨人",
+     "ja": "第4話：現れた炎の巨人",
+     "en": "Scenario 4: The Giants Arrive in Flames",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "红之冲击 苍之战栗",
+     "ja": "第5話：紅の衝撃 蒼の戦慄",
+     "en": "Scenario 5: Impact of Crimson on Blue Skies",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "天空坠落之日",
+     "ja": "第6話：空が落ちる日",
+     "en": "Scenario 6: The Day the Sky Fell",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧（第7–10话）：救出MS线 / 遵令离脱线",
+   "intro": "第6话后的选择：「尝试救出机动战士」侧重武装机甲/伊克萨/吉克/Godannar；「遵照命令离开此地」侧重魔神凯撒/孔巴特拉V/大空魔龙/Macross F。第11话合流。剑与布雷德盖纳连锁的标准路径走救出线。",
+   "rows": [
+    {
+     "code": "第7话（救出MS线）",
+     "zh": "混迷的世界",
+     "ja": "第7話：混迷する世界",
+     "en": "Scenario 7: World of Confusion",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话（救出MS线）",
+     "zh": "正义的代价",
+     "ja": "第8話：正義の代償",
+     "en": "Scenario 8: Price of Justice",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话（救出MS线）",
+     "zh": "战斗的决心",
+     "ja": "第9話：戦う決意",
+     "en": "Scenario 9: Fighting Determination",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话（救出MS线）",
+     "zh": "契合·高丹纳",
+     "ja": "第10話：エンゲージ・ゴーダンナー",
+     "en": "Scenario 10: Engage Godannar",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话（遵令离脱线）",
+     "zh": "吹向骄傲之牙的风",
+     "ja": "第7話：驕れる牙に吹く風",
+     "en": "Scenario 7: Wind Blowing in the Fang of Long Ago",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话（遵令离脱线）",
+     "zh": "大空魔龙传说",
+     "ja": "第8話：レジェンド・オブ・大空魔竜",
+     "en": "Scenario 8: Legend of Daikyu Maryu",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话（遵令离脱线）",
+     "zh": "嘉年华作战",
+     "ja": "第9話：オペレーション・カーニバル",
+     "en": "Scenario 9: Operation Carnival",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话（遵令离脱线）",
+     "zh": "枪口的前方",
+     "ja": "第10話：銃口の先には",
+     "en": "Scenario 10: The Tip of the Muzzle",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流中盘（第11–14话）",
+   "intro": "EVA 初号机、零号机依次加入；第12话是全作最长隐藏连锁（宗美与塔利斯曼）的前置话；第14话取得宇宙潜行者（第23话才可出击），通关后第二次分歧。",
+   "rows": [
+    {
+     "code": "第11话",
+     "zh": "战斗的「序」",
+     "ja": "第11話：戦いの「序」",
+     "en": "Scenario 11: Introduction of Battle",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "放学后的来访者",
+     "ja": "第12話：放課後の来訪者",
+     "en": "Scenario 12: After School Visitors",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "战斗的理由",
+     "ja": "第13話：戦う理由",
+     "en": "Scenario 13: Reason to Fight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "午夜的死斗",
+     "ja": "第14話：真夜中の死闘",
+     "en": "Scenario 14: Deathmatch at Midnight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧（第15–16话）：阻止联合军线 / 防卫JUDA线",
+   "intro": "第14话后的选择同时决定两条隐藏连锁：联合军线推进斯特拉线（第15话A），JUDA 线进行塔利斯曼连锁的主链步骤 i、ii（第15话B、第16话B）。第17话合流。",
+   "rows": [
+    {
+     "code": "第15话（阻止联合军线）",
+     "zh": "我们的去向",
+     "ja": "第15話：僕たちの行方",
+     "en": "Scenario 15: Our Whereabouts",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话（阻止联合军线）",
+     "zh": "介入",
+     "ja": "第16話：介入",
+     "en": "Scenario 16: Intervention",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话（防卫JUDA线）",
+     "zh": "背叛的苍蓝",
+     "ja": "第15話：裏切りの蒼",
+     "en": "Scenario 15: Betrayal of the Earth",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话（防卫JUDA线）",
+     "zh": "JUDA夺还作战",
+     "ja": "第16話：JUDA奪還作戦",
+     "en": "Scenario 16: Plan to Retake JUDA",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与第三次分歧前段（第17–19话）",
+   "intro": "第17话保护 EVA 初号机（连受到攻击都不允许）；第19话的分歧选择是剑与布雷德盖纳连锁的路线判定点。",
+   "rows": [
+    {
+     "code": "第17话",
+     "zh": "被托付的希望",
+     "ja": "第17話：託された希望",
+     "en": "Scenario 17: Entrusting Hope",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "夺还之情",
+     "ja": "第18話：奪還への想い",
+     "en": "Scenario 18: Recapture Plan",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "强袭，阿苏",
+     "ja": "第19話：強襲、阿蘇",
+     "en": "Scenario 19: Assault on the Earth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧（第20–22话）：支援密涅瓦线 / 追击妃魅祸线",
+   "intro": "密涅瓦线有命运高达换乘与高丹纳削血战（第22话A，布雷德盖纳连锁在此结算）；妃魅祸线有伊克萨3加入与钢铁吉克削血战（第22话B）。第23话合流。",
+   "rows": [
+    {
+     "code": "第20话（支援密涅瓦线）",
+     "zh": "翩然降临的天使们",
+     "ja": "第20話：舞い降りる天使達",
+     "en": "Scenario 20: Angels in Flight",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话（支援密涅瓦线）",
+     "zh": "丹纳基地千钧一发",
+     "ja": "第21話：ダンナーベース危機一髪",
+     "en": "Scenario 21: Close Call at Dannar Base",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话（支援密涅瓦线）",
+     "zh": "心碎",
+     "ja": "第22話：ハート・ブレイク",
+     "en": "Scenario 22: Heartbreak",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话（追击妃魅祸线）",
+     "zh": "与未知的接触",
+     "ja": "第20話：未知との接触",
+     "en": "Scenario 20: Contact with the Unknown",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话（追击妃魅祸线）",
+     "zh": "朗贡复活！夺回铜铎！",
+     "ja": "第21話：ラングーン復活！ 銅鐸を取り戻せ！",
+     "en": "Scenario 21: Rangoon Revival! Reclaim the Bronze Bell!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话（追击妃魅祸线）",
+     "zh": "贯穿怨念的灵魂之刃",
+     "ja": "第22話：怨念を貫く魂の刃",
+     "en": "Scenario 22: Blade of the Soul Cuts the Grudge",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后盘（第23–28话）",
+   "intro": "第23话起改造上限开放到 10 段；第26话是阿托罗斯连锁的起点；第28话通关后第四次分歧——宇宙线（米海尔）与地上线（塔利斯曼步骤 iii）只能选一条推进。",
+   "rows": [
+    {
+     "code": "第23话",
+     "zh": "战士们的邂逅",
+     "ja": "第23話：戦士たちの邂逅",
+     "en": "Scenario 23: Encounter of Warriors",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "伟大的力量，撕裂天空之时…",
+     "ja": "第24話：大いなる力、空を切り裂く時…",
+     "en": "Scenario 24: Great Power, Cutting Through the Skies",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "终结悲剧与叹息的神",
+     "ja": "第25話：悲劇も嘆きも終わらせる神",
+     "en": "Scenario 25: The God that Ends Tragedy and Grief",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "各自的愿望",
+     "ja": "第26話：それぞれの願い",
+     "en": "Scenario 26: Each Wish",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "应当战斗的敌人",
+     "ja": "第27話：戦うべき敵",
+     "en": "Scenario 27: The Enemy We Should Fight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "被打破的约定",
+     "ja": "第28話：破られた約束",
+     "en": "Scenario 28: Broken Promises",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第四次分歧（第29–31话）：宇宙警戒线 / 地上警戒线",
+   "intro": "宇宙线：第29话A 的米海尔 8 击坠是全作最容易错过的隐藏条件（且有周回击坠数 bug）；地上线：第30话B 断空我 MAX GOD 合体、第31话B 塔利斯曼连锁步骤 iii。第32话合流。",
+   "rows": [
+    {
+     "code": "第29话（宇宙警戒线）",
+     "zh": "三角恋",
+     "ja": "第29話：トライアングラー",
+     "en": "Scenario 29: Triangular",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话（宇宙警戒线）",
+     "zh": "小女王·小妹妹",
+     "ja": "第30話：リトルクイーン・リトルシスター",
+     "en": "Scenario 30: Little Queen, Little Sister",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话（宇宙警戒线）",
+     "zh": "迈向星际飞行…",
+     "ja": "第31話：星間飛行へ…",
+     "en": "Scenario 31: Set Out on an Interstellar Flight...",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话（地上警戒线）",
+     "zh": "神兽觉醒",
+     "ja": "第29話：神獣覚醒",
+     "en": "Scenario 29: God Beast Awakens",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话（地上警戒线）",
+     "zh": "向极限的进化",
+     "ja": "第30話：極限への進化",
+     "en": "Scenario 30: Limit of Evolution",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话（地上警戒线）",
+     "zh": "食鬼之物",
+     "ja": "第31話：鬼を喰らうモノ",
+     "en": "Scenario 31: Devouring the Devil",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "结局段（第32话–最终话）",
+   "intro": "斯特雷巴德正式加入（第32话，斯特拉在此结算）；第33话一口气结算三条连锁；第37话塔利斯曼连锁收尾；第40话拉修巴德与斯特雷巴德习得合体攻击「模式·阿奇奥尼斯」后进入最终话。",
+   "rows": [
+    {
+     "code": "第32话",
+     "zh": "被奏响的曲子",
+     "ja": "第32話：奏でられた曲は",
+     "en": "Scenario 32: Play Your Song",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "被选中的未来",
+     "ja": "第33話：選ばれた未来",
+     "en": "Scenario 33: Chosen Future",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "伊克塞利奥的光辉",
+     "ja": "第34話：イクセリオの輝き",
+     "en": "Scenario 34: Iczer's Shine",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "永远的士兵",
+     "ja": "第35話：永遠のソルジャー",
+     "en": "Scenario 35: Eternal Soldier",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "为了正义",
+     "ja": "第36話：正義のために",
+     "en": "Scenario 36: For Justice",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "钢铁之花",
+     "ja": "第37話：鋼鉄の華",
+     "en": "Scenario 37: Flower of Steel",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "真实的开始",
+     "ja": "第38話：トゥルー・ビギン",
+     "en": "Scenario 38: True Begin",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "旅途的终点",
+     "ja": "第39話：ジャーニーズ・エンド",
+     "en": "Scenario 39: Journey's End",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "时间之翼",
+     "ja": "第40話：刻の翼",
+     "en": "Scenario 40: Wings of Time",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "希望之光",
+     "ja": "最終話：希望の光",
+     "en": "Final Scenario: The Light of Hope",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
