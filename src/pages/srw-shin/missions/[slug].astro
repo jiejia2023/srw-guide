@@ -17,12 +17,12 @@ const crumbs = [
 const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || e.y === undefined)
   ? `(${e.x ?? '—'},${e.y ?? '—'})` : `(${e.x},${e.y})`;
 ---
-<Base title={`${m.zh}（${m.code}）攻略`} description={`新超级机器人大战（1996 PS）${m.code} ${m.zh} 攻略：出击条件、我方参战、剧情事件、隐藏要点与埋藏道具坐标地图（敌方逐关配置待核实）。`} path={`srw-shin/missions/${m.slug}/`} breadcrumbs={crumbs}>
+<Base title={`${m.zh}（${m.code}）攻略`} description={`新超级机器人大战（1996 PS）${m.code} ${m.zh} 攻略：出击条件、我方参战、剧情事件、隐藏要点，以及数字化自ケイブンシャ攻略本的逐格地形坐标地图与敌方配置（初期配置坐标+增援出现区域）。`} path={`srw-shin/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文（罗马字转写）：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的流程走向、我方参战与剧情事件来自 Neidengard 的 GameFAQs 攻略（Neoseeker 镜像），隐藏要素以 Akurasu 的本作 Secrets 页为准，宇宙编的胜负条件另以 Kurisu's Chronogaming 实况日志交叉核对，埋藏道具坐标来自 J_Ong 的 GameFAQs FAQ（见页末来源）。本作没有公开的逐关敌方配置来源——GameCenter GX 未收录本作，Akurasu 本作只有隐藏要素页、没有流程图与逐关敌表——故「敌方出场与增援」一节标为待核实；胜利/败北条件只在来源明确记载时刊出，未记载的同样标待核实。日文标题一栏为 Neidengard 攻略所载的日文罗马字转写（日文原文标题未在公开来源中逐话收录）。</span>
+    <span><strong>数据状态：</strong>本页的流程走向、我方参战与剧情事件来自 Neidengard 的 GameFAQs 攻略（Neoseeker 镜像），隐藏要素以 Akurasu 的本作 Secrets 页为准，宇宙编的胜负条件另以 Kurisu's Chronogaming 实况日志交叉核对。本页的<strong>地图地形与敌方配置</strong>已于 2026-10 数字化自ケイブンシャ《新スーパーロボット大戦》攻略本（1997）的逐关地图与配置表：初期配置坐标由图面图标逐个定位，增援按图面出现区域刊出；埋藏道具坐标与攻略本逐点核对（印刷 X 坐标为 0 起算，本站已换算为 (1,1) 原点，不一致处按攻略本订正，见「坐标地图」注记）。胜利/败北条件只在来源明确记载时刊出，未记载的标待核实。日文标题一栏为 Neidengard 攻略所载的日文罗马字转写（日文原文标题未在公开来源中逐话收录）。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -122,9 +122,46 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} nameChips />
     </div>
   </div>
+  {(m.mapSegments ?? []).map((seg: any) => (
+    <div>
+      <h3>{seg.title}</h3>
+      <div class="alert alert-warning alert-soft my-4">
+        <span><strong>核实范围：</strong>{seg.map.note}</span>
+      </div>
+      <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+        <div class="card-body p-4">
+        <StageMap mission={{...m, map: seg.map, enemies: seg.enemies, allyUnits: []}} nameChips />
+        </div>
+      </div>
+      {seg.enemies.rows.length > 0 && (
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+        <tbody>
+        {seg.enemies.rows.map((e: any) => (
+          <tr><td>{e.name}</td><td>{e.pilot}</td><td>{e.lv}</td><td>{coord(e)}</td><td>{e.behavior || '—'}</td><td>{e.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+      )}
+      {seg.enemies.reinforcements && seg.enemies.reinforcements.length > 0 && (
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>出现时机</th><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+        <tbody>
+        {seg.enemies.reinforcements.map((r: any) => (
+          <tr><td>{r.trigger}</td><td>{r.name}</td><td>{r.pilot}</td><td>{r.lv}</td><td>{coord(r)}</td><td>{r.behavior || '—'}</td><td>{r.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+      )}
+    </div>
+  ))}
   <h3>已核实点位</h3>
   <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
   <table class="table table-zebra table-sm">
