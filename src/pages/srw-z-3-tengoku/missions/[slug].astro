@@ -1,0 +1,123 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwz3tengoku-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第3次超级机器人大战Z天狱篇', path: 'srw-z-3-tengoku/' },
+  { label: '关卡攻略', path: 'srw-z-3-tengoku/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`第3次超级机器人大战Z 天狱篇（2015 PS3/PS Vita）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（SR点）取得条件、Z芯片奖励条件、我方加入、本关隐藏要素（丘尼／玛莉妲／兰卡等隐藏点数与连锁条件）。`} path={`srw-z-3-tengoku/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、SR 点取得条件、Z 芯片奖励条件、我方加入与隐藏要素来自 Akurasu Wiki 的《第3次Z 天狱篇》（Z3.2）完整表（Complete Chart）、流程图（Flow Chart）、隐藏要素页（Secrets）与 D-Trader 页。本作第 1–61 话每话各有 <strong>1 个 SR 点条件</strong>（按逐关统计，一周目上限 61 点；序章 2 关与最终话无 SR 点），各路线变体共用其话数的 SR 条件。本作<strong>没有</strong>时狱篇式的 IF 点数／隐藏路线系统：隐藏点数有三套——<strong>丘尼点数</strong>（丘尼加入）、<strong>玛莉妲存活点数</strong>、<strong>兰卡点数</strong>，逐项刊于触发/决算的关卡页；终盘第57话的希望/绝望分歧是第56话后的直接选择，无点数门槛。Z 芯片奖励条件出自 D-Trader 页的逐关奖励表——与完整表记载冲突之处已在相关页并记。敌方逐台编成目前仅有日文 wikiwiki.jp《天狱篇》攻略 WIKI 一家成套刊载（单一来源），按本站规则暂不导入、待用户裁决；逐单位坐标与地形无任何来源，核实范围见下方各节。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度（SR点）</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度点'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    {m.zchip && (
+    <tr><th>Z芯片奖励（D-Trader）</th><td><div>{m.zchip}</div></td></tr>
+    )}
+    <tr><th>资金</th><td>{m.rewards.funds}{m.rewards.note && <div class="muted">{m.rewards.note}</div>}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>{m.enemies.status}</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-z-3-tengoku/missions/')}>← 返回关卡列表</a> · <a href={href('srw-z-3-tengoku/')}>返回第3次超级机器人大战Z天狱篇</a></p>
+</Base>

@@ -40,6 +40,7 @@ import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astr
 import SrwZ2HakaiMissionList from '../../components/SrwZ2HakaiMissionList.astro';
 import SrwZ2SaiseiMissionList from '../../components/SrwZ2SaiseiMissionList.astro';
 import SrwZ3JigokuMissionList from '../../components/SrwZ3JigokuMissionList.astro';
+import SrwZ3TengokuMissionList from '../../components/SrwZ3TengokuMissionList.astro';
 import SrwKMissionList from '../../components/SrwKMissionList.astro';
 import SrwNeoMissionList from '../../components/SrwNeoMissionList.astro';
 import SrwLMissionList from '../../components/SrwLMissionList.astro';
@@ -92,6 +93,7 @@ const isSrwZSpecial = g.slug === 'srw-z-special';
 const isSrwZ2Hakai = g.slug === 'srw-z-2-hakai';
 const isSrwZ2Saisei = g.slug === 'srw-z-2-saisei';
 const isSrwZ3Jigoku = g.slug === 'srw-z-3-jigoku';
+const isSrwZ3Tengoku = g.slug === 'srw-z-3-tengoku';
 const isSrwK = g.slug === 'srw-k';
 const isSrwNeo = g.slug === 'srw-neo';
 const isSrwL = g.slug === 'srw-l';
@@ -3151,6 +3153,116 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
     </div>
   )}
 
+  {isSrwZ3Tengoku && (
+    <div>
+      <h2>剧情概要：天狱篇——Z 系列的完结（后篇）</h2>
+      <p>《第3次超级机器人大战Z 天狱篇》是 Z 系列的完结篇，与前年发售的《时狱篇》合为一个完整故事（本篇直接续接时狱篇结局）。永恒平面（Eternity Flat）被破坏后，第二个地球「<strong>翠之地球</strong>」出现，我方所在的「<strong>苍之地球</strong>」则遭<strong>星间联合萨迪拉尔</strong>入侵，两个月内苍之地球的 75% 被新势力「<strong>新地球皇国</strong>」占据——故事即从这里展开。主人公仍是<strong>神代响</strong>与副驾驶员<strong>西条凉音</strong>，玩家部队名仍为 <strong>Z-BLUE</strong>（全称 "Z busters link universe &amp; earth"，中途可改名）。承接的正史是时狱篇的「抗争命运」路线：谢拉德与金无条件加入，达古扎已死不登场，古拉存活、宙斯无条件加入（srw.wiki 剧透 FAQ）——时狱篇的若干存活类隐藏在本作不存在。本篇的对手是萨迪拉尔与在其背后的存在「天」（至高神 Z 的真相），Z 系列自《Z》以来围绕「命运」与多元世界的全部伏笔在本篇收束。</p>
+
+      <h2>主人公：神代响与杰尼恩的最终形态</h2>
+      <ul>
+        <li><strong>神代响（ヒビキ・カミシロ）</strong>：自时狱篇继续担任主人公，阵代高校学生；可改名，生日/血型可设定（精神组合随之变化）。搭档<strong>西条凉音</strong>（实习教师）任杰尼恩副驾驶员。</li>
+        <li><strong>杰尼恩（ジェニオン）</strong>的进化链在本篇完结：杰尼恩 → 杰尼恩 GAI → <strong>杰米尼恩·雷（ジェミニオン・レイ，Geminion Ray）</strong>。响的 Sphere Act（スフィア発动）于第32话习得（同话 GAI 形态的气力门槛降至 120）；杰米尼恩·雷的追加武器「The Overizer Arc（ジ・オーバーライザー・アーク）」于第46话追加（Akurasu 改造继承页与 wikiwiki 参战时间表）。</li>
+        <li><strong>初回特典《连狱篇》</strong>：初回版附带下载码《第3次Z 连狱篇》——只用 Z 系列原创角色/机体的外传小品，衔接时狱篇与天狱篇，从未单独贩售；其通关数据可与时狱篇一同连动到本篇（见「连动特典」节）。</li>
+      </ul>
+
+      <h2>路线分歧结构（一周目 64 关 / 全 104 可玩剧本＋序章 2 关）</h2>
+      <p>本作由<strong>序章 2 关＋正篇第 1–61 话与最终话（62 个编号位）</strong>构成；34 个编号位为共通，其余出自九处分歧，变体合计 <strong>104 个可玩剧本</strong>；一周目实际游玩 <strong>64 关</strong>（序章 2＋编号位 62）。分歧全部是关后选择（含量表选择），<strong>本作没有点数门槛式的隐藏路线</strong>：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>时点</th><th>选项</th><th>并行区间</th></tr></thead>
+          <tbody>
+            <tr><td>第3话后</td><td>响编入翠之地球部队／编入苍之地球部队</td><td>第4–11话（翠线 8 版；苍线 12 版），第12话合流</td></tr>
+            <tr><td>第4话后（苍线内）</td><td>降下北美／降下日本</td><td>第5–8话各两版，第9话苍线内合流</td></tr>
+            <tr><td>第11话后</td><td>去格纳库听其他部队谈话／不去</td><td>仅对话差异，不分关卡</td></tr>
+            <tr><td>第16话后（三选）</td><td>离脱·Macross Quarter 方向／离脱·Dragon's Hive 方向／救出宗介</td><td>第17–20话各三版；第21–22话离脱两线合流版＋救出线版；第23话全线合流</td></tr>
+            <tr><td>第25话后</td><td>中央大陆／残留之海</td><td>第26–29话各两版，第30话合流</td></tr>
+            <tr><td>第35话后（三选）</td><td>日本防卫队／牵制新吉翁队／追踪 Amalgam 队</td><td>第36–40话各三版，第41话合流</td></tr>
+            <tr><td>第42话后（三选）</td><td>与真嗣同行／与克罗乌同行／与夏亚同行</td><td>仅第43话三版（SR 条件相同），第44话合流</td></tr>
+            <tr><td>第51话后</td><td>救援真盖塔飞龙／救援 Macross Quarter</td><td>第52–54话各两版，第55话合流</td></tr>
+            <tr><td>第56话后（结局分歧）</td><td>「希望尚存」／「唯有绝望」</td><td>第57话两版；第58话起内容一致直至最终话。无点数条件（wikiwiki 时间表将绝望版标注为 (IF)，但两处 Secrets 来源均未载任何门槛）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>熟练度（SR 点）与纹章</h2>
+      <ul>
+        <li><strong>SR 点</strong>：第 1–61 话每话各设 1 个取得条件，序章 2 关与最终话无 SR 点；各路线变体共用其话数的条件（条件全文刊于各关详情页）。按逐关统计，<strong>一周目上限为 61 点</strong>（Akurasu 未刊载总数总述，此为本站逐关统计）。与时狱篇不同：<strong>SR 点的附带资金奖励与按 SR 比率划分的难度带在天狱篇各来源页中均未刊载</strong>，本站不沿用时狱篇的「每点 10,000 资金／HARD 80%」说法。可确认的用途只有纹章解锁（白金纹章，见下）。</li>
+        <li><strong>纹章（エンブレム）</strong>共 5 种（Akurasu Emblem 页，红字为与时狱篇的差异处）：铁纹章（经验 ×2；15 名驾驶员成为王牌）、青铜纹章（主驾驶员每回合回复 15 SP；单人击坠 120）、白银纹章（PP ×2；单人累计 PP 超过 2000）、黄金纹章（资金 ×2；累计资金 1800 万）、<strong>白金纹章</strong>（行动次数 +1；<strong>获得 55 个 SR 点</strong>）。注意与 D-Trader 出售的「破界之纹章／再世之纹章」不是同一类物品。</li>
+        <li><strong>王牌驾驶员</strong>：击坠数达 <strong>80</strong> 成为王牌（Akurasu Secrets 页格拉汉姆条目明文）；小队双主驾驶员均为王牌时，该小队开局小队指令量表 +1。</li>
+        <li><strong>三套隐藏点数</strong>（均非路线门槛，逐项刊于各关详情页）：<strong>丘尼点数</strong>——第6、7、10、24、36话的说得/交战步骤累计，≥2 点则丘尼于第36话·新吉翁线后加入，≥6 点则其余路线第40话后加入（一周目限定锁定，后续周目保持解锁）；<strong>玛莉妲存活点数</strong>——第9、10、37（新吉翁线）、39（新吉翁线）话步骤累计 ≥2 点，且第35话后必须选牵制新吉翁线、第44话由巴纳吉击坠里迪（NT-D 发动后）完成最后一步，玛莉妲存活并带刹帝利改的额外奖励（二周目起只需最后一步）；<strong>兰卡点数</strong>——第16话后选离脱 Macross 线、第18话 Macross 线的选择、第27、28话海线的交战/击坠步骤累计 ≥2 点，第53话·Macross 线出现接受兰卡心意的选项。</li>
+      </ul>
+
+      <h2>小队（Tag）系统：Tag Tension 是本作的新增</h2>
+      <ul>
+        <li><strong>沿袭时狱篇</strong>：两人（机）一组的小队编成、Maximum Break 本身、战术连击与 D-Trader 均自时狱篇延续。</li>
+        <li><strong>小队指令量表（Tag Tension）——本作新引入</strong>（Akurasu Tag Tension 页明言为本作新系统，Maximum Break 被纳入其指令体系）：量表随小队击破敌单位（每 2 台）、队内驾驶员升级而上升；双主驾驶员均为王牌时开局 +1，Z-Crystal Grade 5「军神的鼓舞」使全队开局 +1。量表蓄满后可使用<strong>小队指令</strong>（共 6 种）：多重行动（击破敌队后追加一次移动）、奖励 PP、奖励芯片、SP 充能（主驾驶员回复 25 SP）、<strong>Boost Dash（本作新指令：移动 +5、无视地形与敌单位）</strong>、Maximum Break。</li>
+        <li><strong>Maximum Break</strong>：主、副单位伤害各 ×1.2，无视援护防御与防御系技能/机体能力，副机武器不受射程与攻击类型限制（气力/EN/弹药限制仍适用）。</li>
+        <li><strong>战术连击（Tactical Combo）本作变更</strong>：取消了时狱篇「行动未攻击则量表下降」的惩罚（不攻击结束行动为 +0）；其余增减（击破敌队 +1、Maximum Break 击破 Boss +1、敌队被击破但搭档存活 −2、回合结束重置等）与 1–5 级 ×1.05–×1.25 的伤害/资金/芯片倍率沿袭。</li>
+        <li><strong>BGM 编辑</strong>在本篇细化为可<strong>按武器逐项设定</strong>（时狱篇为按机体；日文维基）。</li>
+      </ul>
+
+      <h2>D-Trader 与 Z-Crystal（本作新系统）</h2>
+      <ul>
+        <li><strong>D-Trader</strong>：框架同时狱篇（Z 芯片交换部件/个别单位；每关轮换 3 件商品＋条件解锁的专属部件），库存为本篇专属：基梅拉队员证（3500，气力上限 +30）、因萨拉姆的秘宝（3500，累计 10000 芯片解锁）、张力提升器（5000）、普拉纳转换器（3500）等。其中玩家俗称的「纹章部件第12话解锁」指<strong>破界之纹章（2500）与再世之纹章（2000）</strong>，解锁条件均为通关第12话，与上节的系统纹章（Emblem）是不同物品。</li>
+        <li><strong>Z-Crystal（本作新增，取代时狱篇的强化系统）</strong>：在 D-Trader 内以 Z 芯片逐级精炼、效果永久生效，共 5 级，价格依次 400／800／1200／1600／2000：Grade 1「博识之魔眼」（全敌自动侦查）、Grade 2「不灭之铁锁」（我方回合开始时战术连击量表 +1）、Grade 3「雌伏之卧龙」（副指令收益 ×1.5：训练 30 PP、巡逻 +3、模拟战 750 EXP、资金调达 等级合计 ×450）、Grade 4（三选一、不可更改：过关按击破数 ×5 得芯片／按总伤害 1/20 得资金／参加驾驶员按击破数 1/4 得 PP）、Grade 5（三选一、不可更改：全队量表 +1 且全员气力 +5／出击全机自动不屈／出击全员 SP +20）。Z-Crystal 等级还决定索拉利安的 D-Command 可用范围。</li>
+        <li><strong>D-Trader 可购单位</strong>：朱阿格（第25话后上架、无条件）；α·阿吉鲁（第33话结束前夏亚与奎斯合计击坠 ≥100，第33话后上架）。波太君不是购买：判定在第51话开始前（条件见第51话页与「来源分歧」），达成后于格纳库获得。</li>
+      </ul>
+
+      <h2>副指令（Sub-Orders）</h2>
+      <p>每类可指派 6 名未出击驾驶员（路线分歧后重新进入整备画面时重置可再指派）：<strong>训练</strong>（PP +20）、<strong>巡逻</strong>（击坠数 +2）、<strong>模拟战</strong>（经验 +500）、<strong>资金调达</strong>（参加者等级合计 ×300）。购入 Z-Crystal Grade 3 后四项收益 ×1.5（30 PP／+3／750 EXP／×450）。副指令的击坠数计入王牌判定。</p>
+
+      <h2>时狱篇／连狱篇连动特典（Akurasu Carryover 页原文核实）</h2>
+      <p>开始新游戏时可读取《时狱篇》与《连狱篇》的通关数据（须在新游戏菜单选第 2 个选项；云端上传数据亦可读）。各项可叠加，「每通关一次」的重复特典最多叠加 5 次；连狱篇反复通关不产生额外特典：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>条件</th><th>PP</th><th>击坠数</th><th>资金</th><th>Z 芯片</th><th>部件</th></tr></thead>
+          <tbody>
+            <tr><td>时狱篇通关</td><td>+150</td><td>+5</td><td>+500,000</td><td>+1000</td><td>时狱之纹章、屏障力场</td></tr>
+            <tr><td>时狱篇每多通关一次（上限 5 次）</td><td>每次 +10</td><td>每次 +1</td><td>每次 +100,000</td><td>每次 +200</td><td>—</td></tr>
+            <tr><td>时狱篇全关卡通关</td><td>+50</td><td>+5</td><td>+500,000</td><td>+1000</td><td>A 适配器、修理包</td></tr>
+            <tr><td>连狱篇通关</td><td>—</td><td>—</td><td>+500,000</td><td>+500</td><td>连狱之纹章、DG 獠牙</td></tr>
+            <tr><td>理论最大值（时狱篇 5 周目＋全关卡）</td><td>250</td><td>15</td><td>2,000,000</td><td>3,500</td><td>上列全部</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li>两件纹章的效果 Akurasu Carryover 页只给名称，以下取自日文 srw.wiki《强化部件》页并标注出处：<strong>时狱之纹章</strong>＝暴击修正 +30、机体与武器的地形适应变为 A；<strong>连狱之纹章</strong>＝气力上限 +10、初期气力 +10。特典数字另有 TGBUS 转载与 Namu 两个日文来源印证一致；PP/击坠的适用对象范围 Akurasu 未逐项说明。</li>
+      </ul>
+
+      <h2>周回要素：已刊载与未刊载</h2>
+      <ul>
+        <li><strong>通关 3 次奖励</strong>（Akurasu Secrets 页）：第 4 周目开始时获得 PCM 瞄准器、PCM 马达、突击加速器、神圣装甲、<strong>天狱之纹章</strong>与连狱之纹章。</li>
+        <li><strong>跨周目保持</strong>：丘尼解锁后后续周目保持（wikiwiki 作二周目起无条件加入）；玛莉妲存活二周目起只需第44话最后一步；格拉汉姆存活 wikiwiki 记二周目起无条件；α·阿吉鲁一周目达成条件后保持可购；兰卡选项二周目起走 Macross 线即无条件出现。DLC 二周目起选择任务即可领奖。</li>
+        <li><strong>未刊载（如实标注）</strong>：Akurasu 本作子页中<strong>没有周回继承比例（资金/PP 百分比）的任何记载</strong>，本站不套用他作数字，此项标待核实。</li>
+      </ul>
+
+      <h2>DLC 追加剧本</h2>
+      <p>付费 DLC 共 <strong>24 关</strong>（100 日元档 15 关：第1话后 4 关、第12话后 1 关、第14话后 3 关、第23话后 1 关、第25话后 3 关、第30话后 2 关、第33话后 1 关；150 日元档 9 关：第34话后起），各有独立页面：通关奖励资金 50,000–100,000、Z 芯片 100–300 与部件 2 件，可用于本篇；部件每周目仅首次通关可得，二周目起选择任务即可领奖；DLC 关内单位不受本篇等级/改造影响；一份购买含 PS3 与 Vita 两版；须在日服 PSN 购买。另有 7 个<strong>赠送类条目</strong>（非剧本，不单列页面）：Happy Present（第1话后，免费，DG 獠牙；其资金/芯片数 Akurasu 原表作 ??）、Lucky Present（第15话后，免费，推进组件）、Pack 1–4 购包赠送（各 700 日元：DEC 充电器／指挥官终端／SOL 装甲／SP 获取器）、Full Pack 购包赠送（2,800 日元：微型区域、增益表）。</p>
+
+      <h2>参战作品（44 作）</h2>
+      <p>参战作品共 <strong>44 作</strong>，其中系列初参战 6 作（★）：装甲骑兵 VOTOMS 幻影篇★、装甲騎兵ボトムズ 孤影再び★、飞越巅峰 2（Diebuster）★、全金属狂潮（原作小说版）★、福音战士新剧场版：Q★、翠星的加尔冈蒂亚★。时狱篇未参战的若干作品在本篇复归：无敌超人赞波3、无敌钢人戴坦3、高达 X、∀ 高达、The Big O second season、创圣大天使。其余为戴坦3、特莱达G7、铁人28号、六神合体、VOTOMS 本篇/Big Battle/赫奕的异端、超时空世纪 Orguss、Z 高达、逆袭的夏亚、W 无尽的华尔兹、SEED DESTINY、剧场版高达 00、UC、飞越巅峰、超时空要塞 7/Dynamite 7、剧场版要塞 F 两作、真盖塔 世界最后之日、真魔神 冲击！Z 篇、地球防卫企业、The Big O、全金属狂潮本篇/Fumoffu/TSR、创圣大天使 EVOL、Dancouga Nova、天元突破红莲螺岩及剧场版螺岩篇、EVA 新剧场版 序·破、Code Geass R2 等（日文维基）。</p>
+
+      <h2>敌方数据现状</h2>
+      <ul>
+        <li>逐关<strong>敌方编成</strong>（小队主/副构成、数量、增援分组与敌方数值：等级/HP/获得资金/Z 芯片/PP）：日文 <strong>wikiwiki.jp《天狱篇》攻略 WIKI</strong> 有逐关页面成套刊载（站点结构覆盖序章至第 62 话位；本次调研实开核实第 1 话全页，其余关的完整度未逐关核实），是目前唯一成套来源——<strong>单一来源，按本站规则暂不导入、待用户裁决</strong>。与时狱篇不同，gameline.jp 与 h1g.jp 均未设天狱篇条目/站点（检索未找到），故本作不存在「前 14 话双源」的格局。</li>
+        <li>逐单位<strong>坐标</strong>与逐格<strong>地形</strong>：所有已查来源均无，各关详情页的地图为带四边坐标轴的参照框架；仅 6 关的隐藏拾取点坐标出自 Akurasu 完整表/Secrets 并完成 (0,0)→(1,1) 换算后刊载：第14话超级修理套件 (19,25) 与卡米那的太阳镜 (9,18)、第25话 (8,22)、第31话 (16,10)、第33话 (24,16)、第52话·盖塔线 (18,23)、第54话·Macross 线 (18,25)。</li>
+      </ul>
+
+      <h2>来源分歧（并记）</h2>
+      <ul>
+        <li><strong>第10话·翠线 Z 芯片奖励</strong>：完整表作 50、D-Trader 总表作 100——本站从完整表，分歧注记于该关页。</li>
+        <li><strong>第14话超级修理套件坐标</strong>：完整表作 (18,24)、Secrets 正文作 (19,25)，两页原点声明均为 (0,0) 制，而 (19,25) 恰为 (18,24) 换算至本站 (1,1) 制之值，可能实为同一格；wikiwiki 亦作 (18,24)。本站从完整表换算刊载 (19,25)，并记于该关页。</li>
+        <li><strong>第50话格拉汉姆存活条件</strong>：Akurasu 作满足任一即可（格拉汉姆与刹那均为王牌，或格拉汉姆本关亲手击坠 8 台以上）；wikiwiki 述为两者皆须；TGBUS 第50话注仅作「格拉汉姆成为王牌则存活」——以 Akurasu 刊载、余说并记，未裁决。</li>
+        <li><strong>丘尼点数的个别步骤</strong>：第36话·新吉翁线的说得者 Akurasu 作卡缪/奎斯、wikiwiki 作夏亚说得＋奎斯交战；第24话步骤两源一致。直接影响点数计算，两说并记于相关关卡页。</li>
+        <li><strong>玛莉妲连锁的 wikiwiki 独有注记</strong>：第10话「巴纳吉击坠玛莉妲」一步与第9话「以黑脸状态击坠可得肾上腺素安瓿但旗标断裂」的细节仅 wikiwiki 有载，Akurasu 无——并记于第9、10话·苍线页。</li>
+        <li><strong>波太君的第二条件与获得时机</strong>：第二条件 Akurasu 作「宗介与泰莎均为王牌」、wikiwiki 作「宗介＋泰莎合计击坠 100 以上」；获得时机 Akurasu 正文作第51话后整备期、其图表与 wikiwiki 作第51话开始时——并记于第51话页。</li>
+        <li><strong>第33话隐藏部件移动者</strong>：Akurasu 作加洛德与罗兰、wikiwiki 作仅罗兰的小队——并记，坐标无冲突。</li>
+        <li><strong>日文标题异说</strong>：cre.jp 全话一览的第37话·宇宙版标题「暗黒のリディ」与两版第38话标题（「沸きあがれ、いのち」「暖かな声」，实为时狱篇第38话标题）系误植，本站从 wikiwiki 时间表与 TGBUS 一致的「暗闇のリディ」「永遠の戦士」「ハマーンのためらい」；第28话·大陆版「闇の兄、光の弟」（Akurasu）／「闇の光、光の弟」（srw.wiki）、第29话·海版「深淵よりの目覚め」／「深遠よりの目覚め」、第24话「一筋の光明」（完整表）／「ー筋の光明」（流程图抓取文本）等异说并记于各关页。第25话标题 wikiwiki 自家隐藏要素页作「特異点の運命」，与其时间表及 cre.jp 的「特異点の使命」不一致，从二源作「使命」。</li>
+        <li><strong>第60话人名表记</strong>：完整表作 Land、D-Trader 表作 Rand——本站从 Rand（兰德），并记于该关页。</li>
+      </ul>
+    </div>
+  )}
+
   {isSrwZ2Saisei && (
     <div>
       <h2>剧情概要：破界之战一年后，圣王国因萨拉姆</h2>
@@ -4394,6 +4506,11 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
     <div>
       <p>本作 <strong>124 个剧本全部建有独立攻略页</strong>（正篇 100 页＋DLC 24 页：正篇为第 1–60 话编号关卡的全部路线变体共 99 个编号剧本加尾声——一周目实际游玩 60 话加尾声；变体包括第5–6话远足双版、第9话双版、第10–13话与第36–40话两次三线分歧、第17话双版、第22–27话双线、第42话双版、第46–48话美利达/日本分歧（日本线再分两条）与第50–54话命运双线；DLC 追加剧本 24 关另行分页）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、<strong>熟练度（SR 点）取得条件</strong>、<strong>Z 芯片奖励条件</strong>、我方加入与本关隐藏要素（IF 点数、奎斯点数与各条隐藏连锁的立旗/决算都写在触发/结算的那一关里），以及坐标地图（敌方编成、坐标与地形暂无可公开核对的成套来源，待核实，原因见各详情页与上文「敌方数据现状」；DLC 各关的逐关胜败条件在 Akurasu DLC 表中未刊载，页内如实标注）。本作同时保留一份<a class="link" href={href('srw-z-3-jigoku/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwZ3JigokuMissionList />
+    </div>
+  ) : isSrwZ3Tengoku ? (
+    <div>
+      <p>本作 <strong>130 个剧本全部建有独立攻略页</strong>（正篇 106 页＋DLC 24 页：正篇为序章 2 关与第 1–61 话加最终话全部路线变体共 104 个可玩剧本——一周目实际游玩 64 关；变体包括第4–11话翠/苍双线（苍线内再分北美/日本）、第17–22话三线、第26–29话双线、第36–40话三线、第43话同行三版、第52–54话救援双线与第57话希望/绝望双版；DLC 追加剧本 24 关另行分页）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、<strong>熟练度（SR 点）取得条件</strong>、<strong>Z 芯片奖励条件</strong>、我方加入与本关隐藏要素（丘尼/玛莉妲/兰卡三套隐藏点数与各条隐藏连锁的立旗/决算都写在触发/结算的那一关里），以及坐标地图（敌方编成为 wikiwiki 单一来源暂不刊载待裁决、坐标与地形无源，原因见各详情页与上文「敌方数据现状」；DLC 各关的逐关胜败条件在 Akurasu DLC 页中未刊载，页内如实标注）。本作同时保留一份<a class="link" href={href('srw-z-3-tengoku/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwZ3TengokuMissionList />
     </div>
   ) : isSrwZ2Saisei ? (
     <div>

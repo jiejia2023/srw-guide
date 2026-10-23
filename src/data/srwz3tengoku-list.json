@@ -1,0 +1,1252 @@
+{
+ "groups": [
+  {
+   "title": "序章",
+   "intro": "时狱篇结局的直接续接：以时狱篇终盘的出击阵容打的两关序章，无 SR 点。",
+   "rows": [
+    {
+     "code": "序章第1话",
+     "zh": "时狱的尽头",
+     "ja": "時獄の果てに",
+     "en": "Prologue Scenario 1: End of the Time Prison",
+     "type": "序章",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "序章第2话",
+     "zh": "地球绝对防卫线",
+     "ja": "地球絶対防衛線",
+     "en": "Prologue Scenario 2: Earth Absolute Defense Line",
+     "type": "序章",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第1–3话（共通）",
+   "intro": "苍之地球篇开局。第3话后响编入的部队二选一：翠之地球／苍之地球，第4话起分线。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "新地球皇国",
+     "ja": "新地球皇国",
+     "en": "Scenario 1: New Earth Empire",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "应守护之物",
+     "ja": "守るべきもの",
+     "en": "Scenario 2: What Must Be Protected",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "通往新世界之门",
+     "ja": "新世界への扉",
+     "en": "Scenario 3: Door to the New World",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第4–11话（翠之地球／苍之地球分歧）",
+   "intro": "第3话后二选一。翠线第4–11话各一版；苍线第4话共通，第5–8话再按第4话后「降下北美／降下日本」分两版，第9–11话苍线共通。第12话合流。",
+   "rows": [
+    {
+     "code": "第4话·翠之地球",
+     "zh": "另一个地球",
+     "ja": "もう一つの地球",
+     "en": "Scenario 4: Another Earth",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第4话·苍之地球",
+     "zh": "宇宙与大地之间",
+     "ja": "宇宙と大地の狭間",
+     "en": "Scenario 4: Halfway Between Earth and Space",
+     "type": "路线分歧",
+     "area": "苍之地球",
+     "note": ""
+    },
+    {
+     "code": "第5话·翠之地球",
+     "zh": "翠色的大海原",
+     "ja": "翠の大海原",
+     "en": "Scenario 5: Ocean of Green",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第5话·苍之地球（北美）",
+     "zh": "北美战线，波涛汹涌",
+     "ja": "北米戦線、波高し",
+     "en": "Scenario 5: Rising Waves on the American Battlefront",
+     "type": "路线分歧",
+     "area": "苍之地球·北美线",
+     "note": ""
+    },
+    {
+     "code": "第5话·苍之地球（日本）",
+     "zh": "新的战场",
+     "ja": "新たなる戦場",
+     "en": "Scenario 5: A New Battlefield",
+     "type": "路线分歧",
+     "area": "苍之地球·日本线",
+     "note": ""
+    },
+    {
+     "code": "第6话·翠之地球",
+     "zh": "漂流者",
+     "ja": "漂流者",
+     "en": "Scenario 6: Castaway",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第6话·苍之地球（北美）",
+     "zh": "吉翁的未来",
+     "ja": "ジオンの未来",
+     "en": "Scenario 6: Zeon's Future",
+     "type": "路线分歧",
+     "area": "苍之地球·北美线",
+     "note": ""
+    },
+    {
+     "code": "第6话·苍之地球（日本）",
+     "zh": "东京攻防战",
+     "ja": "トウキョウ攻防戦",
+     "en": "Scenario 6: Battle of Tokyo",
+     "type": "路线分歧",
+     "area": "苍之地球·日本线",
+     "note": ""
+    },
+    {
+     "code": "第7话·翠之地球",
+     "zh": "无赖的女帝",
+     "ja": "無頼の女帝",
+     "en": "Scenario 7: Empress of Villains",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第7话·苍之地球（北美）",
+     "zh": "奥提斯基地攻略战",
+     "ja": "オーティス基地攻略戦",
+     "en": "Scenario 7: Siege of the Otis Base",
+     "type": "路线分歧",
+     "area": "苍之地球·北美线",
+     "note": ""
+    },
+    {
+     "code": "第7话·苍之地球（日本）",
+     "zh": "严岛的奇迹",
+     "ja": "厳島の奇跡",
+     "en": "Scenario 7: Miracle of Itsukushima",
+     "type": "路线分歧",
+     "area": "苍之地球·日本线",
+     "note": ""
+    },
+    {
+     "code": "第8话·翠之地球",
+     "zh": "启程之日",
+     "ja": "旅立ちの日",
+     "en": "Scenario 8: The Day of Departure",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第8话·苍之地球（北美）",
+     "zh": "毒针",
+     "ja": "毒針",
+     "en": "Scenario 8: Stinger",
+     "type": "路线分歧",
+     "area": "苍之地球·北美线",
+     "note": ""
+    },
+    {
+     "code": "第8话·苍之地球（日本）",
+     "zh": "第2次东京攻防战",
+     "ja": "第2次トウキョウ攻防戦",
+     "en": "Scenario 8: Second Battle of Tokyo",
+     "type": "路线分歧",
+     "area": "苍之地球·日本线",
+     "note": ""
+    },
+    {
+     "code": "第9话·翠之地球",
+     "zh": "战斗的大地",
+     "ja": "戦いの大地",
+     "en": "Scenario 9: World of Battle",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第9话·苍之地球",
+     "zh": "通往和平的黎明",
+     "ja": "平和への暁",
+     "en": "Scenario 9: Dawn of Peace",
+     "type": "路线分歧",
+     "area": "苍之地球",
+     "note": ""
+    },
+    {
+     "code": "第10话·翠之地球",
+     "zh": "蝎之毒，蝶之毒",
+     "ja": "蠍の毒、蝶の毒",
+     "en": "Scenario 10: Poisonous Scorpion, Poisonous Butterfly",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第10话·苍之地球",
+     "zh": "红色彗星的影子",
+     "ja": "赤い彗星の影",
+     "en": "Scenario 10: Shadow of the Red Comet",
+     "type": "路线分歧",
+     "area": "苍之地球",
+     "note": ""
+    },
+    {
+     "code": "第11话·翠之地球",
+     "zh": "出击，托普雷斯！",
+     "ja": "出撃、トップレス！",
+     "en": "Scenario 11: Sortie, Topless!",
+     "type": "路线分歧",
+     "area": "翠之地球",
+     "note": ""
+    },
+    {
+     "code": "第11话·苍之地球",
+     "zh": "PLANT 的动乱",
+     "ja": "プラントの動乱",
+     "en": "Scenario 11: Upheaval of the PLANTs",
+     "type": "路线分歧",
+     "area": "苍之地球",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第12–16话（共通）",
+   "intro": "两线合流后的共通线。第14话有 2 个坐标拾取型隐藏部件；第16话后进入三分歧。",
+   "rows": [
+    {
+     "code": "第12话",
+     "zh": "憎恨之翅，怜爱之翼",
+     "ja": "憎しみの翅、愛しさの翼",
+     "en": "Scenario 12: Wings of Hatred, Wings of Love",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "大气层突入",
+     "ja": "大気圏突入",
+     "en": "Scenario 13: Atmospheric Entry",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "阿尔卡特拉斯大逃脱",
+     "ja": "アルカトラズ大脱走",
+     "en": "Scenario 14: The Great Escape from Alcatraz",
+     "type": "共通",
+     "area": "共通",
+     "note": "隐藏部件超级修理套件（坐标点 (19,25)）、卡米那的太阳镜（坐标点 (9,18)）"
+    },
+    {
+     "code": "第15话",
+     "zh": "决战，拉斯·巴比伦！",
+     "ja": "決戦、ラース・バビロン！",
+     "en": "Scenario 15: The Battle at Wrath Babylon!",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "终结的世界",
+     "ja": "終わる世界",
+     "en": "Scenario 16: Ending of the World",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第17–22话（离脱／救出宗介分歧）",
+   "intro": "第16话后三选：离脱（Macross Quarter 方向）／离脱（Dragon's Hive 方向）／救出宗介。第17–20话各三版；第21–22话离脱两线合流为一版、救出线一版。第23话全线合流。",
+   "rows": [
+    {
+     "code": "第17话·离脱Macross线",
+     "zh": "银河之海",
+     "ja": "銀河の海",
+     "en": "Ocean of the Galaxy",
+     "type": "路线分歧",
+     "area": "离脱Macross线",
+     "note": ""
+    },
+    {
+     "code": "第17话·离脱Dragon's Hive线",
+     "zh": "饥饿的破坏魔",
+     "ja": "飢える破壊魔",
+     "en": "Ravenous Destroyers",
+     "type": "路线分歧",
+     "area": "离脱Dragon's Hive线",
+     "note": ""
+    },
+    {
+     "code": "第17话·救出宗介线",
+     "zh": "败走",
+     "ja": "敗走",
+     "en": "Routed",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    },
+    {
+     "code": "第18话·离脱Macross线",
+     "zh": "禁忌行星",
+     "ja": "禁断の惑星",
+     "en": "Forbidden Planet",
+     "type": "路线分歧",
+     "area": "离脱Macross线",
+     "note": ""
+    },
+    {
+     "code": "第18话·离脱Dragon's Hive线",
+     "zh": "无尽破坏的化身",
+     "ja": "果てなき破壊の化身",
+     "en": "Embodiment of Endless Destruction",
+     "type": "路线分歧",
+     "area": "离脱Dragon's Hive线",
+     "note": ""
+    },
+    {
+     "code": "第18话·救出宗介线",
+     "zh": "孤影",
+     "ja": "孤影",
+     "en": "Lonely Figure",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    },
+    {
+     "code": "第19话·离脱Macross线",
+     "zh": "伟大的意志",
+     "ja": "大いなる意思",
+     "en": "The Great Intention",
+     "type": "路线分歧",
+     "area": "离脱Macross线",
+     "note": ""
+    },
+    {
+     "code": "第19话·离脱Dragon's Hive线",
+     "zh": "裂开的次元",
+     "ja": "裂ける次元",
+     "en": "Splitting Dimensions",
+     "type": "路线分歧",
+     "area": "离脱Dragon's Hive线",
+     "note": ""
+    },
+    {
+     "code": "第19话·救出宗介线",
+     "zh": "愤怒的纳姆萨克",
+     "ja": "怒りのナムサク",
+     "en": "Rage of Nam Sách",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    },
+    {
+     "code": "第20话·离脱Macross线",
+     "zh": "未知的恐怖",
+     "ja": "未知なる恐怖",
+     "en": "Unknown Fear",
+     "type": "路线分歧",
+     "area": "离脱Macross线",
+     "note": ""
+    },
+    {
+     "code": "第20话·离脱Dragon's Hive线",
+     "zh": "引导者",
+     "ja": "導く者",
+     "en": "The Guide",
+     "type": "路线分歧",
+     "area": "离脱Dragon's Hive线",
+     "note": ""
+    },
+    {
+     "code": "第20话·救出宗介线",
+     "zh": "回归者",
+     "ja": "ザ・リターンマン",
+     "en": "The Return Man",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    },
+    {
+     "code": "第21话·离脱合流线",
+     "zh": "木星危机",
+     "ja": "ジュピター・クライシス",
+     "en": "Jupiter Crisis",
+     "type": "路线分歧",
+     "area": "离脱合流线",
+     "note": ""
+    },
+    {
+     "code": "第21话·救出宗介线",
+     "zh": "遭遇",
+     "ja": "遭遇",
+     "en": "Encounter",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    },
+    {
+     "code": "第22话·离脱合流线",
+     "zh": "火星遭遇",
+     "ja": "マーズ・エンカウント",
+     "en": "Mars Encounter",
+     "type": "路线分歧",
+     "area": "离脱合流线",
+     "note": ""
+    },
+    {
+     "code": "第22话·救出宗介线",
+     "zh": "火之星的重逢",
+     "ja": "再会の火の星",
+     "en": "Reunion of the Sun",
+     "type": "路线分歧",
+     "area": "救出宗介线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第23–25话（共通）",
+   "intro": "共通线。第25话有坐标拾取型隐藏部件，且整备期 D-Trader 无条件上架朱阿格。",
+   "rows": [
+    {
+     "code": "第23话",
+     "zh": "最后的来访者",
+     "ja": "最後の来訪者",
+     "en": "The Last Visitor",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "一线光明",
+     "ja": "一筋の光明",
+     "en": "Sources of Light",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "奇点的使命",
+     "ja": "特異点の使命",
+     "en": "The Mission of the Singularity",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第26–29话（中央大陆／残留之海分歧）",
+   "intro": "第25话后二选一：中央大陆／残留之海，第26–29话各两版，第30话合流。兰卡点数的关键得点集中在海线第27–28话。",
+   "rows": [
+    {
+     "code": "第26话·中央大陆线",
+     "zh": "闪耀吧，我们的星球",
+     "ja": "輝け、ぼくらの星",
+     "en": "Shine, Our Star",
+     "type": "路线分歧",
+     "area": "中央大陆线",
+     "note": ""
+    },
+    {
+     "code": "第26话·残留之海线",
+     "zh": "深海的秘密",
+     "ja": "深海の秘密",
+     "en": "Secrets of the Deep Ocean",
+     "type": "路线分歧",
+     "area": "残留之海线",
+     "note": ""
+    },
+    {
+     "code": "第27话·中央大陆线",
+     "zh": "降临大地的太阳",
+     "ja": "地上に降りた太陽",
+     "en": "The Sun Brought Down to Earth",
+     "type": "路线分歧",
+     "area": "中央大陆线",
+     "note": ""
+    },
+    {
+     "code": "第27话·残留之海线",
+     "zh": "野心之岛",
+     "ja": "野望の島",
+     "en": "Island of Ambition",
+     "type": "路线分歧",
+     "area": "残留之海线",
+     "note": ""
+    },
+    {
+     "code": "第28话·中央大陆线",
+     "zh": "黑暗之兄、光明之弟",
+     "ja": "闇の兄、光の弟",
+     "en": "Master of Darkness, Apprentice of Light",
+     "type": "路线分歧",
+     "area": "中央大陆线",
+     "note": ""
+    },
+    {
+     "code": "第28话·残留之海线",
+     "zh": "翠海的明天",
+     "ja": "翠の海の明日",
+     "en": "The Future of the Green Ocean",
+     "type": "路线分歧",
+     "area": "残留之海线",
+     "note": ""
+    },
+    {
+     "code": "第29话·中央大陆线",
+     "zh": "斯特劳斯的猛攻",
+     "ja": "猛攻のストラウス",
+     "en": "Straus's Fierce Attack",
+     "type": "路线分歧",
+     "area": "中央大陆线",
+     "note": ""
+    },
+    {
+     "code": "第29话·残留之海线",
+     "zh": "自深渊的觉醒",
+     "ja": "深淵よりの目覚め",
+     "en": "Awakening from the Abyss",
+     "type": "路线分歧",
+     "area": "残留之海线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第30–35话（共通）",
+   "intro": "共通线。第31、33话各有坐标拾取型隐藏部件；α·阿吉鲁的 D-Trader 上架条件在第33话结束时判定；第35话后的去向决定玛莉妲存活连锁能否成立。",
+   "rows": [
+    {
+     "code": "第30话",
+     "zh": "黑暗中的真相",
+     "ja": "闇の中の真実",
+     "en": "Truth in the Dark",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "憎恨与悲伤",
+     "ja": "憎しみと悲しみと",
+     "en": "With Hatred and Sadness",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "太极",
+     "ja": "太極",
+     "en": "Embodiment of All Things",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "黑历史的黑暗",
+     "ja": "黒歴史の闇",
+     "en": "Darkness of the Black History",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "复活之日",
+     "ja": "復活の日",
+     "en": "Day of Resurrection",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "跨越1万2000年",
+     "ja": "1万2000年を越えて",
+     "en": "Transcending 12,000 Years",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第36–40话（日本防卫／牵制新吉翁／追踪Amalgam三分歧）",
+   "intro": "第35话后三选分队：第36–40话各三版，第41话合流。丘尼点数在新吉翁线第36话决算（≥2 点关后加入），其余路线须累计 ≥6 点于第40话决算。",
+   "rows": [
+    {
+     "code": "第36话·日本防卫线",
+     "zh": "再也回不去的故乡",
+     "ja": "帰ることなき故郷",
+     "en": "Going Home with No Home",
+     "type": "路线分歧",
+     "area": "日本防卫线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第36话·牵制新吉翁线",
+     "zh": "宇宙之神",
+     "ja": "宇宙の神",
+     "en": "God of the Universe",
+     "type": "路线分歧",
+     "area": "牵制新吉翁线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第36话·追踪Amalgam线",
+     "zh": "向世界挑战",
+     "ja": "世界への挑戦",
+     "en": "Challenge to the World",
+     "type": "路线分歧",
+     "area": "追踪Amalgam线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第37话·日本防卫线",
+     "zh": "光之魔神",
+     "ja": "光の魔神",
+     "en": "Devil of Light",
+     "type": "路线分歧",
+     "area": "日本防卫线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第37话·牵制新吉翁线",
+     "zh": "黑暗中的利迪",
+     "ja": "暗闇のリディ",
+     "en": "Riddhe's Darkness",
+     "type": "路线分歧",
+     "area": "牵制新吉翁线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第37话·追踪Amalgam线",
+     "zh": "神的诱惑",
+     "ja": "神への誘い",
+     "en": "Invitation of God",
+     "type": "路线分歧",
+     "area": "追踪Amalgam线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第38话·日本防卫线",
+     "zh": "永远的战士",
+     "ja": "永遠の戦士",
+     "en": "Eternal Warrior",
+     "type": "路线分歧",
+     "area": "日本防卫线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第38话·牵制新吉翁线",
+     "zh": "哈曼的犹豫",
+     "ja": "ハマーンのためらい",
+     "en": "Haman's Hesitation",
+     "type": "路线分歧",
+     "area": "牵制新吉翁线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第38话·追踪Amalgam线",
+     "zh": "幻影",
+     "ja": "幻影",
+     "en": "Phantom",
+     "type": "路线分歧",
+     "area": "追踪Amalgam线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第39话·日本防卫线",
+     "zh": "传承之牙",
+     "ja": "受け継がれる牙",
+     "en": "Inherited Fang",
+     "type": "路线分歧",
+     "area": "日本防卫线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第39话·牵制新吉翁线",
+     "zh": "思念与力量的去向",
+     "ja": "想いと力の向かう先",
+     "en": "Move for Feelings and Power",
+     "type": "路线分歧",
+     "area": "牵制新吉翁线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第39话·追踪Amalgam线",
+     "zh": "扭曲的因果",
+     "ja": "歪む因果",
+     "en": "Inevitable Distortion",
+     "type": "路线分歧",
+     "area": "追踪Amalgam线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第40话·日本防卫线",
+     "zh": "光与暗的彼方",
+     "ja": "光と闇の向こうに",
+     "en": "The Other Side of Light and Dark",
+     "type": "路线分歧",
+     "area": "日本防卫线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第40话·牵制新吉翁线",
+     "zh": "红色彗星的未来",
+     "ja": "赤い彗星の未来",
+     "en": "Future of the Red Comet",
+     "type": "路线分歧",
+     "area": "牵制新吉翁线（第35话后三分歧）",
+     "note": ""
+    },
+    {
+     "code": "第40话·追踪Amalgam线",
+     "zh": "逼近的交叉世界",
+     "ja": "迫るクロス・オブ・ワールド",
+     "en": "Approaching Cross of World",
+     "type": "路线分歧",
+     "area": "追踪Amalgam线（第35话后三分歧）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第41–51话（共通，含第43话同行分歧）",
+   "intro": "共通线。第42话后按同行者（真嗣／克罗乌／夏亚）分三种第43话；第41话说得贝克的连锁在第55话决算；玛莉妲存活的最后一步在第44话；格拉汉姆存活判定在第50话；波太君判定在第51话开始前。",
+   "rows": [
+    {
+     "code": "第41话",
+     "zh": "永远与我同行",
+     "ja": "ずっと、スタンド・バイ・ミー",
+     "en": "Always, Stand By Me",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "烈焰",
+     "ja": "炎",
+     "en": "Burning",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第43话·真嗣同行",
+     "zh": "封闭的世界",
+     "ja": "閉じた世界",
+     "en": "Closed World",
+     "type": "路线分歧",
+     "area": "真嗣同行（前往真嗣处）",
+     "note": ""
+    },
+    {
+     "code": "第43话·克劳同行",
+     "zh": "永远的圣王国",
+     "ja": "永遠の聖王国",
+     "en": "The Eternal Kingdom",
+     "type": "路线分歧",
+     "area": "克劳同行（前往克劳处）",
+     "note": ""
+    },
+    {
+     "code": "第43话·夏亚同行",
+     "zh": "超越次元",
+     "ja": "BEYOND THE DIMENSION",
+     "en": "BEYOND THE DIMENSION",
+     "type": "路线分歧",
+     "area": "夏亚同行（前往夏亚处）",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "超越宿命",
+     "ja": "宿命を越えて",
+     "en": "Beyond Fate",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第45话",
+     "zh": "彩虹的彼方",
+     "ja": "虹の彼方に",
+     "en": "Somewhere, Over the Rainbow",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "应当守护的未来",
+     "ja": "守るべき未来",
+     "en": "The Future to be Protected",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "前往决战之地",
+     "ja": "決戦の地へ",
+     "en": "Into the World of Battle",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "燃烧的地球",
+     "ja": "燃える地球",
+     "en": "Burning Earth",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "响彻宇宙之声",
+     "ja": "宇宙に響く声",
+     "en": "The Voice that Echoed Through the Universe",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "群星的彼方",
+     "ja": "星の向こうに",
+     "en": "Beyond the Stars",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第51话",
+     "zh": "驶向命运",
+     "ja": "運命への出航",
+     "en": "Sailing to Fate",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第52–54话（救援分歧）",
+   "intro": "第51话后二选一：救援真盖塔飞龙／救援 Macross Quarter，第52–54话各两版，第55话合流。两线各有专属的坐标拾取型光盘类部件。",
+   "rows": [
+    {
+     "code": "第52话·救援真盖塔飞龙线",
+     "zh": "受神引导之人",
+     "ja": "神に導かれし者",
+     "en": "Whom is Guided by God",
+     "type": "路线分歧",
+     "area": "救援真盖塔飞龙线",
+     "note": ""
+    },
+    {
+     "code": "第52话·救援Macross Quarter线",
+     "zh": "通往崩坏的狂潮",
+     "ja": "崩壊へのスタンピード",
+     "en": "Stampede to Ruin",
+     "type": "路线分歧",
+     "area": "救援Macross Quarter线",
+     "note": ""
+    },
+    {
+     "code": "第53话·救援真盖塔飞龙线",
+     "zh": "扭曲的进化",
+     "ja": "歪んだ進化",
+     "en": "Distorted Evolution",
+     "type": "路线分歧",
+     "area": "救援真盖塔飞龙线",
+     "note": ""
+    },
+    {
+     "code": "第53话·救援Macross Quarter线",
+     "zh": "爱憎的迷宫",
+     "ja": "愛憎のラビリンス",
+     "en": "Labyrinth of Love and Hate",
+     "type": "路线分歧",
+     "area": "救援Macross Quarter线",
+     "note": ""
+    },
+    {
+     "code": "第54话·救援真盖塔飞龙线",
+     "zh": "闪光！！次元的尽头！",
+     "ja": "閃光！！次元の果て！",
+     "en": "Flash!! The End of Dimensions!",
+     "type": "路线分歧",
+     "area": "救援真盖塔飞龙线",
+     "note": ""
+    },
+    {
+     "code": "第54话·救援Macross Quarter线",
+     "zh": "所爱之翼",
+     "ja": "愛する翼",
+     "en": "Wings of Love",
+     "type": "路线分歧",
+     "area": "救援Macross Quarter线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第55话–最终话（共通，含第57话结局分歧）",
+   "intro": "终盘共通线。第56话后以「希望尚存／唯有绝望」分两种第57话（无点数门槛），第58话起内容一致，直至最终话。最终话无 SR 点。",
+   "rows": [
+    {
+     "code": "第55话",
+     "zh": "死斗的银河",
+     "ja": "死闘の銀河",
+     "en": "Clash of the Galaxy",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第56话",
+     "zh": "觉醒",
+     "ja": "覚醒",
+     "en": "Awakening",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第57话·希望线",
+     "zh": "真化，其意义",
+     "ja": "真化、その意味",
+     "en": "The True Meaning of Shinka",
+     "type": "路线分歧",
+     "area": "希望线（希望尚存）",
+     "note": ""
+    },
+    {
+     "code": "第57话·绝望线",
+     "zh": "终焉的宇宙",
+     "ja": "終焉の宇宙",
+     "en": "The Ultimate Fate of the Universe",
+     "type": "路线分歧",
+     "area": "绝望线（唯有绝望）",
+     "note": ""
+    },
+    {
+     "code": "第58话",
+     "zh": "悲伤的守墓人",
+     "ja": "哀しき墓守",
+     "en": "Gravekeeper of Sorrow",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第59话",
+     "zh": "邪神降临",
+     "ja": "邪神降臨",
+     "en": "Advent of the False God",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第60话",
+     "zh": "迈向永远",
+     "ja": "永遠へ",
+     "en": "To Forever",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第61话",
+     "zh": "黑色的太阳",
+     "ja": "黒い太陽",
+     "en": "Black Sun",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "无尽的世界",
+     "ja": "果てなき世界",
+     "en": "World Without End",
+     "type": "最终话",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "DLC 追加剧本",
+   "intro": "付费 DLC 24 关（100 日元档 15 关、150 日元档 9 关），按开放时机排列。Akurasu DLC 页未刊载逐关胜败／SR 条件，各页以开放时机与通关奖励为主体；另有 7 个赠送类条目（非剧本）见主页 DLC 节。",
+   "rows": [
+    {
+     "code": "DLC：スズネ、ストレス発散",
+     "zh": "凉音，释放压力",
+     "ja": "スズネ、ストレス発散",
+     "en": "Suzune's Stress Relief",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：出動、少年探偵団",
+     "zh": "出动，少年侦探团",
+     "ja": "出動、少年探偵団",
+     "en": "Head Out, Kid Detectives",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：新時代の扉",
+     "zh": "新时代之门",
+     "ja": "新時代の扉",
+     "en": "Door to a New Era",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：目覚めるふもふ",
+     "zh": "觉醒的 Fumofu",
+     "ja": "目覚めるふもふ",
+     "en": "Wake up Fumofu",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：俺の正義",
+     "zh": "我的正义",
+     "ja": "俺の正義",
+     "en": "My Justice",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：愛と勇気と力",
+     "zh": "爱与勇气与力量",
+     "ja": "愛と勇気と力",
+     "en": "Love, Courage and Power",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：炎のトウキョウライブ",
+     "zh": "火焰的东京演唱会",
+     "ja": "炎のトウキョウライブ",
+     "en": "Flame of Tokyo, Live",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：戦わざるもの食うべからず",
+     "zh": "不战斗者不得食",
+     "ja": "戦わざるもの食うべからず",
+     "en": "Keep Fighting to Keep Eating",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：獣と風",
+     "zh": "兽与风",
+     "ja": "獣と風",
+     "en": "Beast and Wind",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：多元戦争追想",
+     "zh": "多元战争追想",
+     "ja": "多元戦争追想",
+     "en": "Reflecting on Many Battles",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：ザ・バトリング",
+     "zh": "决斗",
+     "ja": "ザ・バトリング",
+     "en": "The Battling",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：縁の下のハードワーカー",
+     "zh": "幕后的辛勤工作者",
+     "ja": "縁の下のハードワーカー",
+     "en": "Hard Worker on the Edge",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：愛・気合・出会い",
+     "zh": "爱·气合·相遇",
+     "ja": "愛・気合・出会い",
+     "en": "Love, Cry, Together",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：ガルガンティアの休暇",
+     "zh": "加尔刚蒂亚的假期",
+     "ja": "ガルガンティアの休暇",
+     "en": "Vacation on Gargantia",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：マウンテンサイクルの闇",
+     "zh": "山地摩托的黑暗",
+     "ja": "マウンテンサイクルの闇",
+     "en": "Mountain Cycle of Darkness",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：バスターマシンの心",
+     "zh": "巴斯塔机器之心",
+     "ja": "バスターマシンの心",
+     "en": "Heart of a Buster Machine",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：対決、傭兵団",
+     "zh": "对决，佣兵团",
+     "ja": "対決、傭兵団",
+     "en": "Confrontation, Employee Corps",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：その背に未来を",
+     "zh": "将未来背负于身",
+     "ja": "その背に未来を",
+     "en": "The Future from Behind",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：メトロポリスを追え",
+     "zh": "追踪大都会",
+     "ja": "メトロポリスを追え",
+     "en": "Chase the Metropolis",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：強き事は美しき哉II",
+     "zh": "强大即是美丽 II",
+     "ja": "強き事は美しき哉II",
+     "en": "Beautiful Lady Warriors?? Part 2",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：ボス・オン・ザ・グラウンド",
+     "zh": "地面上的 Boss",
+     "ja": "ボス・オン・ザ・グラウンド",
+     "en": "Bosses on the Ground",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：ボス・イン・ザ・スペース",
+     "zh": "宇宙中的 Boss",
+     "ja": "ボス・イン・ザ・スペース",
+     "en": "Bosses in Space",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：聖王国の明日",
+     "zh": "圣王国的明天",
+     "ja": "聖王国の明日",
+     "en": "Future of the Holy Kingdom",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC：超アルティメット・バトル",
+     "zh": "超究极战斗",
+     "ja": "超アルティメット・バトル",
+     "en": "Ultra Ultimate Battle",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
