@@ -1,0 +1,1312 @@
+{
+ "groups": [
+  {
+   "title": "序盘·第1–2话（四位主人公）",
+   "intro": "开局从四位主人公中选一人：第1、2话四线各不相同。",
+   "rows": [
+    {
+     "code": "第1话·托马线",
+     "zh": "斗志，在火焰中燃烧",
+     "ja": "闘志、炎に燃ゆる",
+     "en": "Within the Flames, Fighting Spirit Rises",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·楠叶线",
+     "zh": "出击！钢之龙虎",
+     "ja": "出撃！鋼の龍虎",
+     "en": "Launch! Dragon and Tiger of Steel",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·柯布雷线",
+     "zh": "自虚空转生",
+     "ja": "虚空からの転生",
+     "en": "Reincarnated from the Void",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·塞蕾娜线",
+     "zh": "秘密任务",
+     "ja": "シークレット・ミッション",
+     "en": "Secret Mission",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·托马线",
+     "zh": "再见GGG，再见勇者",
+     "ja": "さらばGGG、さらば勇者",
+     "en": "Farewell, GGG! Farewell, Braves!",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·楠叶线",
+     "zh": "新的侵略者！站起来，V",
+     "ja": "新たなる侵略者！立ち上がれV",
+     "en": "New Invaders! Rise Up, V!",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·柯布雷线",
+     "zh": "血之狼烟",
+     "ja": "血の狼煙",
+     "en": "Beacon Fire of Blood",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·塞蕾娜线",
+     "zh": "闪光之日",
+     "ja": "フラッシュ・デイ",
+     "en": "Flash Day",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第3–5话",
+   "intro": "四线首次合流的共通话。",
+   "rows": [
+    {
+     "code": "第3话·共通线",
+     "zh": "反击！机界31原种",
+     "ja": "逆襲！機界31原種",
+     "en": "Counterattack! The 31 Machine Primevals!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·共通线",
+     "zh": "地狱之门，开启",
+     "ja": "地獄門、開く",
+     "en": "The Gates of Hell Open",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·共通线",
+     "zh": "地球圈绝对防御线",
+     "ja": "地球圏絶対防御線",
+     "en": "The Earth Sphere's Absolute Defense Line",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "序盘·第6–12话（四位主人公）",
+   "intro": "第6–12话再次按主人公分线，各线参战作品中心不同。",
+   "rows": [
+    {
+     "code": "第6话·托马线",
+     "zh": "和平，遥不可及",
+     "ja": "平和、遥か遠く",
+     "en": "A Faraway Peace",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·楠叶线",
+     "zh": "北美战线，出现异常",
+     "ja": "北米戦線、異常アリ",
+     "en": "Abnormalities on the North American Front",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·柯布雷线",
+     "zh": "高达出击",
+     "ja": "GUNDAM出撃",
+     "en": "Gundam, Sortie",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·塞蕾娜线",
+     "zh": "开端",
+     "ja": "ザ・ビギニング",
+     "en": "The Beginning",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·托马线",
+     "zh": "燃烧吧宇宙！妖花芙罗拉的挑战",
+     "ja": "燃えろ宙！妖花フローラの挑戦",
+     "en": "Space Burns! The Enchanting Flora's Challenge!",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·楠叶线",
+     "zh": "愤怒之兽，野性的咆哮",
+     "ja": "怒りの獣、野生の咆哮",
+     "en": "The Wild Roar of the Raging Beast",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·柯布雷线",
+     "zh": "崩坏的大地",
+     "ja": "崩壊の大地",
+     "en": "Collapsing Land",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·塞蕾娜线",
+     "zh": "各自的正义",
+     "ja": "ワンズ・ジャスティス",
+     "en": "One's Own Justice",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·托马线",
+     "zh": "站起来！勇敢的人们",
+     "ja": "立ち上がれ！勇気ある者達",
+     "en": "Stand Up, People of Courage!",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·楠叶线",
+     "zh": "闪耀吧！不死身的勇者",
+     "ja": "輝け！不死身の勇者",
+     "en": "Shine, Undying Hero!",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·柯布雷线",
+     "zh": "诱惑之声",
+     "ja": "誘う声",
+     "en": "An Inviting Voice",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·塞蕾娜线",
+     "zh": "隐形入侵者",
+     "ja": "インビジブル・イントルーダー",
+     "en": "Invisible Intruder",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·托马线",
+     "zh": "内心的修罗",
+     "ja": "内なる修羅",
+     "en": "Demons of War Within",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·楠叶线",
+     "zh": "重逢！纽约解放战",
+     "ja": "再会！ニューヨーク解放戦",
+     "en": "Reunion! The Battle to Retake New York",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·柯布雷线",
+     "zh": "正义所在之处",
+     "ja": "正義の在処",
+     "en": "Where Justice Can Be Found",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·塞蕾娜线",
+     "zh": "复仇者",
+     "ja": "アベンジャー",
+     "en": "Avenger",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·托马线",
+     "zh": "地底帝国的激震",
+     "ja": "激震の地底帝国",
+     "en": "Tremors in the Underground Empire",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·楠叶线",
+     "zh": "噬龙之物",
+     "ja": "龍を喰らうもの",
+     "en": "That Which Devours the Dragon",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·柯布雷线",
+     "zh": "消逝的光",
+     "ja": "消えていく光",
+     "en": "The Fading Light",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·塞蕾娜线",
+     "zh": "再见，朋友们",
+     "ja": "グッバイ・フレンズ",
+     "en": "Goodbye, Friends",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·托马线",
+     "zh": "战场上的邂逅，然后诀别",
+     "ja": "戦場の邂合、そして決別",
+     "en": "An Battlefield Encounter, and Then a Departure",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·楠叶线",
+     "zh": "新人类",
+     "ja": "新たなる人類",
+     "en": "A New Mankind",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·柯布雷线",
+     "zh": "与你在战场上",
+     "ja": "君と戦場で",
+     "en": "On the Battlefield with You",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·塞蕾娜线",
+     "zh": "力量汇合点",
+     "ja": "パワー・ジャンクション",
+     "en": "Power Junction",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·托马线",
+     "zh": "必须守护之物",
+     "ja": "守るべきモノ",
+     "en": "What You Must Protect",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·楠叶线",
+     "zh": "别离的宇宙",
+     "ja": "別れの宇宙",
+     "en": "Farewells in Space",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·柯布雷线",
+     "zh": "迪恩之火",
+     "ja": "ディーンの火",
+     "en": "The Flames of Deen",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·塞蕾娜线",
+     "zh": "终结",
+     "ja": "コンクルージョン",
+     "en": "Conclusion",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第13–18话",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第13话·共通线",
+     "zh": "再一次，靠自己的双脚站起来",
+     "ja": "もう一度、自らの足で",
+     "en": "Once Again, On Your Feet",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·共通线",
+     "zh": "哈珀行动",
+     "ja": "オペレーション・ハルパー",
+     "en": "Operation Harper",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·共通线",
+     "zh": "遥远的凯歌",
+     "ja": "遥かなる凱歌",
+     "en": "A Faroff Victory Song",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·共通线",
+     "zh": "被引导的灵魂，在银河中",
+     "ja": "導かれる魂、銀河で",
+     "en": "Souls Guided by the Galaxy",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·共通线",
+     "zh": "不协和／和谐",
+     "ja": "ディスコード・ハーモニー",
+     "en": "Discord / Harmony",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·共通线",
+     "zh": "银河流浪",
+     "ja": "銀河流浪",
+     "en": "Galactic Wandering",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次部队分割·第19–23话（地球/宇宙）",
+   "intro": "第18话后把主人公编入地球部队或宇宙部队，两侧话目不同。",
+   "rows": [
+    {
+     "code": "第19话·地球线",
+     "zh": "坠落于宇宙的星辰",
+     "ja": "宇宙に降る星",
+     "en": "Stars Falling in Space",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·宇宙线",
+     "zh": "通往恶梦的邀请函",
+     "ja": "悪夢への招待状",
+     "en": "A Written Invitation to a Nightmare",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·地球线",
+     "zh": "强袭，沙漠之虎",
+     "ja": "強襲、砂漠の虎",
+     "en": "Assault of the Desert Tiger",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·宇宙线",
+     "zh": "异邦人的归来",
+     "ja": "異邦人達の帰還",
+     "en": "The Foreigners Return",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·地球线",
+     "zh": "漂亮的恶魔",
+     "ja": "プリティ・デビル",
+     "en": "Pretty Devil",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·宇宙线",
+     "zh": "背叛的代价",
+     "ja": "裏切りの代償",
+     "en": "The Cost of Betrayal",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·地球线",
+     "zh": "沙尘的尽头",
+     "ja": "砂塵の果て",
+     "en": "Beyond the Clouds of Sand",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·宇宙线",
+     "zh": "发动的力量，无限大",
+     "ja": "発動する力、無限大",
+     "en": "Infinite Activation Power",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·地球线",
+     "zh": "情绪高涨",
+     "ja": "エモーション・ハイ",
+     "en": "Emotion High",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·宇宙线",
+     "zh": "决战！地狱般的月面荒野",
+     "ja": "決戦！地獄の月荒野",
+     "en": "Decisive Battle in the Hellish Lunar Wilderness!",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第24–29话",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第24话·共通线",
+     "zh": "在战神之星上",
+     "ja": "戦神の星で",
+     "en": "On the Planet of the War God",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·共通线",
+     "zh": "被选者与选择者",
+     "ja": "選ばれし者、選びし者",
+     "en": "Those Who Are Chosen, Those Who Choose",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·共通线",
+     "zh": "短暂的旅人",
+     "ja": "かりそめの旅人",
+     "en": "Transitory Traveler",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·共通线",
+     "zh": "勇者们的誓言",
+     "ja": "勇気ある者達の誓い",
+     "en": "The Oath of the Courageous",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·共通线",
+     "zh": "总有一天，去往星之海",
+     "ja": "いつか星の海へ",
+     "en": "Someday, In the Sea of Stars",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·共通线",
+     "zh": "被烙下的印记",
+     "ja": "押された烙印",
+     "en": "Branded with the Mark",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次部队分割·第30–33话（地球/外宇宙）",
+   "intro": "第29话后把主人公与 SRX 团队编入地球部队或外宇宙部队。",
+   "rows": [
+    {
+     "code": "第30话·地球线",
+     "zh": "永不停息的闪光",
+     "ja": "終わらない閃光",
+     "en": "Unending Flashes of Light",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·外宇宙线",
+     "zh": "失落的歌姬",
+     "ja": "ロスト・ディーヴァ",
+     "en": "Lost Diva",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·地球线",
+     "zh": "为了蓝色而清净的世界",
+     "ja": "青き清浄なる世界のために",
+     "en": "For Our Blue & Pure World",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·外宇宙线",
+     "zh": "前往禁断的行星",
+     "ja": "禁断の惑星へ",
+     "en": "To the Forbidden Planet",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·地球线",
+     "zh": "守护神的巫女",
+     "ja": "守護神の巫女",
+     "en": "Priestess of the Guardian God",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·外宇宙线",
+     "zh": "无限之魂",
+     "ja": "インフィニティ・ソウル",
+     "en": "Infinity Soul",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·地球线",
+     "zh": "向着黎明逃脱",
+     "ja": "暁への脱出",
+     "en": "Escape to Daybreak",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·外宇宙线",
+     "zh": "继承的遗产",
+     "ja": "受け継ぎし遺産",
+     "en": "The Successor's Inheritance",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "主人公专属·第34–35话",
+   "intro": "四位主人公各自的剧情收束话，第35话分别换乘最终机。",
+   "rows": [
+    {
+     "code": "第34话·托马线",
+     "zh": "武人之心的意义",
+     "ja": "武人の心、その意味",
+     "en": "Why a Warrior Fights",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·楠叶线",
+     "zh": "强念者的愤怒",
+     "ja": "怒りの強念者",
+     "en": "The Wrath of a Esper",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·柯布雷线",
+     "zh": "空洞灵魂的囚徒",
+     "ja": "虚ろな魂の捕囚",
+     "en": "Captivity of the Hollow Soul",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·塞蕾娜线",
+     "zh": "背叛者",
+     "ja": "ベトレイヤー",
+     "en": "Betrayer",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·托马线",
+     "zh": "斗志，为谁而燃",
+     "ja": "闘志、誰がために",
+     "en": "For Whom the Fighting Spirit Burns",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·楠叶线",
+     "zh": "灵魂，归于久远",
+     "ja": "魂、久遠に",
+     "en": "The Soul, Into Eternity",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·柯布雷线",
+     "zh": "DIS之枪",
+     "ja": "THE GUN OF DIS",
+     "en": "THE GUN OF DIS",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·塞蕾娜线",
+     "zh": "闭合之心",
+     "ja": "クロージング・ハート",
+     "en": "Closing Heart",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第36–37话",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第36话·共通线",
+     "zh": "激突！勇者VS勇者",
+     "ja": "激突！勇者VS勇者！",
+     "en": "Clash! Brave vs. Brave!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·共通线",
+     "zh": "无尽旅途的开始",
+     "ja": "果て無き旅路の始まり",
+     "en": "The Beginning of an Unending Journey",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "部队分割·第38–40话（独行舰侧/Battle 7侧）",
+   "intro": "部队按剧情分为独行舰（Solo Ship）侧与 Battle 7 侧。",
+   "rows": [
+    {
+     "code": "第38话·独行舰侧",
+     "zh": "在命运的火焰中",
+     "ja": "運命の炎の中で",
+     "en": "Within the Fires of Destiny",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·Battle 7侧",
+     "zh": "战火与星辰的闪烁",
+     "ja": "戦火は星の瞬きと",
+     "en": "The Fires of War Among the Twinkling Stars",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·独行舰侧",
+     "zh": "在尽头等待之物",
+     "ja": "果てに待つもの",
+     "en": "What Awaits at the End",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·Battle 7侧",
+     "zh": "只为母星",
+     "ja": "ただ母星のために",
+     "en": "All for the Motherworld",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话·独行舰侧",
+     "zh": "勇者王，最后的时刻",
+     "ja": "勇者王、最後の刻！",
+     "en": "The King of Brave's Final Hour!",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话·Battle 7侧",
+     "zh": "勇气耗尽之时…",
+     "ja": "勇気、果つる時…",
+     "en": "When Courage Fails...",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第41–42话",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第41话",
+     "zh": "银河消灭之日",
+     "ja": "銀河が消滅する日",
+     "en": "The Day the Galaxy is Extinguished",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "超勇者默示录",
+     "ja": "超勇者黙示録",
+     "en": "The Super Brave Apocalypse",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "主人公专属·第43–44话",
+   "intro": "第44话四线均获得班普雷奥斯。",
+   "rows": [
+    {
+     "code": "第43话·托马线",
+     "zh": "在封闭的世界里",
+     "ja": "閉ざされた世界で",
+     "en": "In a Closed-Off World",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·楠叶线",
+     "zh": "真正的龙神",
+     "ja": "真の龍神",
+     "en": "The True Dragon God",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·柯布雷线",
+     "zh": "人偶们的宴会",
+     "ja": "人形たちの宴",
+     "en": "The Doll's Banquet",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·塞蕾娜线",
+     "zh": "无声的哭喊",
+     "ja": "サイレント・クライ",
+     "en": "Silent Cry",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·托马线",
+     "zh": "斗志，为了未来",
+     "ja": "闘志、未来のために",
+     "en": "Fighting Spirit, for the Future",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·楠叶线",
+     "zh": "四神招魂，汇聚于此",
+     "ja": "四神招魂、ここに",
+     "en": "The Four Gods Souls, Gather Here",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·柯布雷线",
+     "zh": "钢之战神",
+     "ja": "鋼の戦神",
+     "en": "The Steel War God",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·塞蕾娜线",
+     "zh": "我的家，我的朋友",
+     "ja": "マイホーム・マイフレンズ",
+     "en": "My Home, My Friends",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "四路分线·第45–48话",
+   "intro": "第44话后两段选择：送回地球（地上保护伊露依／宇宙对ZAFT战）或送往其他星系（巴罗塔／波亚桑）。第48话只存在于地上线与巴罗塔线。",
+   "rows": [
+    {
+     "code": "第45话·地上线",
+     "zh": "被囚之心呐喊之时",
+     "ja": "とらわれの心、叫ぶ時",
+     "en": "When the Captive Heart Cries Out",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·宇宙线",
+     "zh": "悄然逼近的终焉",
+     "ja": "忍び寄る終焉",
+     "en": "Creeping Death",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·巴罗塔线",
+     "zh": "恶梦突入作战",
+     "ja": "悪夢の突入作戦",
+     "en": "Charging into a Nightmare",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·波亚桑线",
+     "zh": "另一个母星波亚桑",
+     "ja": "もう一つの母星ボアザン",
+     "en": "Another Mother Planet - Boazan",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·地上线",
+     "zh": "永别了父亲，战士们的启程",
+     "ja": "さらば父よ、戦士達の旅立ち",
+     "en": "Farewell, Father! The Warriors Depart",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·宇宙线",
+     "zh": "相信永恒",
+     "ja": "永遠を信じて",
+     "en": "Believe in Eternity",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·巴罗塔线",
+     "zh": "野心的第四行星",
+     "ja": "野望の第４惑星",
+     "en": "The Fourth Planet of Ambition",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·波亚桑线",
+     "zh": "崩塌的邪恶之塔",
+     "ja": "崩れゆく邪悪の塔",
+     "en": "The Collapsing Tower of Evil",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·地上线",
+     "zh": "试图成为神的男人",
+     "ja": "神になろうとした男",
+     "en": "The Man Who Tried to Become a God",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·宇宙线",
+     "zh": "人类所见的梦",
+     "ja": "ヒトの見た夢",
+     "en": "The Dream People Saw",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·巴罗塔线",
+     "zh": "大宇宙的意志",
+     "ja": "大宇宙の意志",
+     "en": "The Will of the Universe",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·波亚桑线",
+     "zh": "在因果之海中",
+     "ja": "因果の海で",
+     "en": "In the Sea of Causality",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·地上线",
+     "zh": "献给逝者的镇魂歌",
+     "ja": "失われた者たちへの鎮魂歌",
+     "en": "Requiem for Victims",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·巴罗塔线",
+     "zh": "葬身银河",
+     "ja": "銀河に死す",
+     "en": "To Die in the Galaxy",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通·第49–56话",
+   "intro": "第56话末的选择决定终盘走向（二周目可选「选择战斗」进入伊甸发动路线）。",
+   "rows": [
+    {
+     "code": "第49话",
+     "zh": "响彻银河的歌声",
+     "ja": "銀河に響く歌声",
+     "en": "Songs Resounding Through the Galaxy",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "两扇门与两颗星",
+     "ja": "二つの門と二つの星",
+     "en": "Two Gates, Two Stars",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话",
+     "zh": "向着永不结束的明天",
+     "ja": "終わらない明日へ",
+     "en": "To a Future that Never Ends",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话",
+     "zh": "在世界中心呼喊爱的人",
+     "ja": "世界の中心でアイを叫んだもの",
+     "en": "The One Who Cried \"Love\" at the Heart of the World",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话",
+     "zh": "出航！银河强袭舰队",
+     "ja": "出航！銀河殴り込み艦隊！",
+     "en": "The Galactic Assault Fleet Takes Sail!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话",
+     "zh": "受众神守护的星球",
+     "ja": "神に守られし星",
+     "en": "The Planet Guarded by the Gods",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话",
+     "zh": "不顺从的神",
+     "ja": "まつろわぬ神",
+     "en": "The God Who Resists Order",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话",
+     "zh": "永无止境的总力战",
+     "ja": "終わりなき総力戦",
+     "en": "Unending Total War",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘·第57–58话与伊甸发动路线",
+   "intro": "第57–58话按对巴夫·克兰／对STMC两支部队展开；伊甸发动路线为二周目限定，拥有自己的最终话。第57–58话各版本与部队的对应在流程图上未明示，各页有注记。",
+   "rows": [
+    {
+     "code": "第57话·对巴夫线",
+     "zh": "在憎恨的圆环中",
+     "ja": "憎しみの環の中で",
+     "en": "In the Circle of Hatred",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·对STMC线",
+     "zh": "终结的开始",
+     "ja": "終わりの始まり",
+     "en": "The Beginning of the End",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第58话·共通线（探寻他路）",
+     "zh": "死斗，赌上未来",
+     "ja": "死闘、未来を懸けて",
+     "en": "The Mortal Struggle for the Future",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第58话·伊甸发动线",
+     "zh": "发动",
+     "ja": "発動",
+     "en": "Activation",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "伊甸发动路线·最终话",
+     "zh": "在银河中与你同在",
+     "ja": "銀河に君と",
+     "en": "In The Galaxy With You",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第59话与最终话",
+   "intro": "最终话有两个版本：第59话结束时累计熟练度 ≥57 且总回合 ≤420 进入好结局版，否则通常结局版。",
+   "rows": [
+    {
+     "code": "第59话",
+     "zh": "在无尽洪流的尽头",
+     "ja": "果てしなき流れの果てに",
+     "en": "At the End of the Unending Flow",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·通常结局",
+     "zh": "终焉的银河",
+     "ja": "終焉の銀河",
+     "en": "The End of the Galaxy",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·好结局",
+     "zh": "如今，在遥远的彼方…",
+     "ja": "今遥か遠い彼方…",
+     "en": "Now, The Faraway Yonder",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "Sub 剧本（支线外传）",
+   "intro": "在 Options → Stage Chart 以黄色图标进入的剧情外传：不给熟练度、不影响本篇等级与资金进度，关内机体为临时出场。编号即解锁点的主线话数；特别关须补完全部路线后解锁。",
+   "rows": [
+    {
+     "code": "Sub 13",
+     "zh": "光与暗",
+     "ja": "サブシナリオ13：光と闇",
+     "en": "Light and Darkness",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 18",
+     "zh": "为了向母亲誓言的明天",
+     "ja": "サブシナリオ18：母と誓った明日のために",
+     "en": "For the Tomorrow Sworn to Mother",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 26",
+     "zh": "胜利的誓言",
+     "ja": "サブシナリオ26：勝利への誓い",
+     "en": "Oath to Victory",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 27",
+     "zh": "疾驰的龙卷",
+     "ja": "サブシナリオ27：駆け抜ける竜巻",
+     "en": "Charging Tornado",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 36",
+     "zh": "巴萨拉流浪",
+     "ja": "サブシナリオ36：バサラ放浪",
+     "en": "Basara Wanders",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 42",
+     "zh": "来自过去的愿望",
+     "ja": "サブシナリオ42：過去からの願い",
+     "en": "Wish from the Past",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 44",
+     "zh": "在正义旗帜之下",
+     "ja": "サブシナリオ44：正義の旗の下に",
+     "en": "Under the Banner of Justice",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "Sub 49",
+     "zh": "向着新的海原",
+     "ja": "サブシナリオ49：新たなる海原へ",
+     "en": "To A New Ocean",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "特别关",
+     "zh": "特别关",
+     "ja": "サブシナリオ：スペシャルステージ",
+     "en": "Special Stage",
+     "type": "支线剧本",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

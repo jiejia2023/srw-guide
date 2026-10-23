@@ -21,6 +21,7 @@ import SrwAMissionList from '../../components/SrwAMissionList.astro';
 import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
 import SrwRMissionList from '../../components/SrwRMissionList.astro';
 import SrwAlpha2MissionList from '../../components/SrwAlpha2MissionList.astro';
+import SrwAlpha3MissionList from '../../components/SrwAlpha3MissionList.astro';
 import SrwOgMissionList from '../../components/SrwOgMissionList.astro';
 import SrwOg2MissionList from '../../components/SrwOg2MissionList.astro';
 import SrwDMissionList from '../../components/SrwDMissionList.astro';
@@ -53,6 +54,7 @@ const isSrwA = g.slug === 'srw-a';
 const isSrwImpact = g.slug === 'srw-impact';
 const isSrwR = g.slug === 'srw-r';
 const isSrwAlpha2 = g.slug === 'srw-alpha-2';
+const isSrwAlpha3 = g.slug === 'srw-alpha-3';
 const isSrwOg = g.slug === 'srw-og';
 const isSrwOg2 = g.slug === 'srw-og-2';
 const isSrwD = g.slug === 'srw-d';
@@ -2372,6 +2374,89 @@ const isSrwGc = g.slug === 'srw-gc';
     </div>
   )}
 
+  {isSrwAlpha3 && (
+    <div>
+      <h2>剧情概要：终焉之银河</h2>
+      <p>本作是 α 系列第 4 作、完结篇（《α》→《α外传》→《第2次α》→本作），2005 年 7 月 28 日发售于 PlayStation 2，开发：万普雷斯特软件（Banpresoft）。外宇宙的威胁再度来袭，战场扩展到银河规模：主线敌人仍是<strong>泽·巴尔玛帝国</strong>——名义支配者是少年模样的灵帝鲁阿弗·甘·伊甸，但真正的灵帝、α 系列的最终 Boss 是潜伏其后的<strong>凯萨尔·艾菲斯</strong>；地球侧（α小队）追寻在前作与甘·伊甸融合的少女<strong>伊露依</strong>的下落，各势力围绕她展开争夺。剧情正史承接第2次α的<strong>未与哈曼休战</strong>线（阿克西斯坠落、哈曼以灵体登场、巴武藏在本作设定为已死亡，均据日文维基）。</p>
+
+      <h2>四位主人公与路线结构</h2>
+      <p>开局从四位主人公中选一人。四线在序盘交替合流与分线：第 1–2 话、第 6–12 话为四人各自的专属话（第 3–5、13–18 话共通）；其后是两次<strong>部队分割</strong>（第 19–23 话地球/宇宙、第 30–33 话地球/外宇宙，均由玩家在编成时指定主人公与部队归属）；第 34–35 话为主人公专属话；第 38–40 话按剧情分为独行舰侧/Battle 7 侧；第 43–44 话再有主人公专属话；第 44 话后的两段选择分出<strong>四路分线</strong>（送回地球→地上保护伊露依线、宇宙对 ZAFT 线；送往其他星系→巴罗塔线、波亚桑线，其中第 48 话只有地上线与巴罗塔线存在）；第 49 话起共通，第 56 话后的选择分出终盘双线（对巴夫·克兰/对 STMC），二周目起还可选「选择战斗」进入<strong>伊甸发动路线</strong>（自有最终话）；第 59 话后按熟练度与总回合判定两种最终话。<strong>一周目沿编号主干为第 1–59 话＋最终话共 60 个位置</strong>；全部变体加总，本站按 Akurasu 流程图清点共建 <strong>125 个主线剧本页</strong>，另有 9 个 Sub 剧本页（见下）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>主人公</th><th>声优</th><th>搭档／关键关系</th><th>对手</th><th>初始机 → 最终机</th></tr></thead>
+          <tbody>
+            <tr><td>托马·卡诺</td><td>加濑康之</td><td>美凪·远峰（雷凤开发者，仅托马线登场）</td><td>巴兰·多班（巴尔玛武人）</td><td>雷凤 → 大雷凤（第35话）</td></tr>
+            <tr><td>楠叶·美津波</td><td>高桥美佳子</td><td>布利特（恋人，雷虎改驾驶员；选楠叶即在第1话加入）</td><td>孙光龙</td><td>轰龙改 → 真·龙虎王（第35话）</td></tr>
+            <tr><td>柯布雷·戈登</td><td>泰勇气</td><td>阿拉德·巴兰加、塞奥拉（前作主人公组，仅柯布雷线加入）</td><td>卡利科·麦克雷迪</td><td>贝尔格巴乌 → 迪斯·阿斯特拉纳冈特（第35话）</td></tr>
+            <tr><td>塞蕾娜·雷希塔尔</td><td>佐藤裕子</td><td>艾尔玛（小型机器人，兼机体支援）；伊比斯、斯蕾一组（仅塞蕾娜线加入）</td><td>斯佩克特拉·麦克雷迪</td><td>AS索雷亚雷斯 → AS阿雷格里亚斯（第35话）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>关于系别</strong>：日文维基（引官方《Player's Bible》）明言本作四位主人公<strong>不分超级系/真实系</strong>；两份英文攻略仍按习惯标注 SR/RR，属来源分歧，本站以日文官方口径为准、不给四人标系别。四位主人公在结构上分别承接第2次α四位主人公的「位置」（托马↔曾伽、楠叶本人连任、柯布雷↔阿拉德、塞蕾娜↔伊比斯，含各自的专属入手链）。主人公的生日与血型可在开局设定，决定其精神指令组合（Fencedude 攻略的开局流程实述）；系列通例的 11 月 11 日＋B 型特殊组合在本作的具体精神表，<strong>所查来源均未记载，待核实</strong>，本站不照搬他作表格。注：柯布雷的日文原名为クォヴレー（Akurasu 英文作 Cobray），本站中文从其英文通行写法作「柯布雷」。</p>
+
+      <h2>熟练度系统：决定难度，更决定结局</h2>
+      <p>本作沿用《α外传》起的规则：<strong>每话最多 +1 点、只升不降</strong>；与第2次α最大的不同是<strong>取得条件在游戏内公示</strong>——地图指令菜单的 Objective 画面单列 Skill Point Condition 一栏（Fencedude 攻略的界面实述）。获得时，当时出击且存活的每名驾驶员 <strong>+5 PP</strong>。第 59 话判定点之前一轮最多可积累的点数，CaptainRat 攻略的 PP 上限（295）反推为 <strong>59 点（本站推算）</strong>。</p>
+      <p>熟练度有两项作用。<strong>其一，决定难度</strong>：数据框中点数旁以 E（简单）/N（普通）/H（困难）字母显示当前难度（CaptainRat 与 Fencedude 一致）；难度影响气力上升难易与敌方出击数量等。但 <strong>E/N/H 的精确分界数值（点数或比例）在 Akurasu、日文维基与两份 GameFAQs 攻略中均未公布，待核实</strong>——第2次α与 OGs 的「按比例三档」数值是其他作品的规则，本站不移植到本作。<strong>其二，决定结局（本作独有，第2次α没有熟练度路线门槛）</strong>：第 59 话结束时，<strong>累计熟练度 ≥57 且总回合 ≤420</strong>，进入好结局最终话《如今，在遥远的彼方…》，并有隐藏机体纳西姆·甘·伊甸与伊露依加入；任一条件未达则为通常结局最终话《终焉之银河》（Akurasu Secrets/Timeline 与两份英文攻略四源一致）。另有与熟练度无关的<strong>坏结局</strong>：通关一次后，在二周目第 56 话末选择「选择战斗」进入伊甸发动路线，走向其专属最终话《在银河中与你同在》。</p>
+
+      <h2>小队系统：与第2次α同规</h2>
+      <p>小队（Platoon）系统自第2次α引入，本作规则<strong>未改动</strong>（Akurasu Platoon System 页、日文维基系统页、Fencedude 三源一致）：每队最多 <strong>4 机</strong>，各机「成本」合计不得超过 <strong>5</strong>（单机成本 0.5–5；战舰成本恒为 5、只能单独出击）。降低成本的手段有三：全改造奖励选 COST −0.5、Cost Down 部件 −1、二周目特殊模式全机 −0.5（下限 0.5）；剧情强制编成（EV）不受上限限制。本作新增了自动编成、编成记录/一键复原等便利功能。</p>
+      <ul>
+        <li><strong>小队攻击</strong>：队长攻击敌小队长，队员先以各自的 PLA（小队攻击）武器支援射击——可先剥掉敌方队员的援护防御；此模式只能打敌小队长。</li>
+        <li><strong>单体（集中）攻击</strong>：无队员掩护，但可指定敌小队内任意一机为目标。</li>
+        <li><strong>全体攻击（ALL 武器）</strong>：攻击敌小队全员；另有 MAP 兵器攻击。援护攻击在小队攻击/全体攻击/MAP 攻击时不发生。</li>
+        <li><strong>小队长能力</strong>：每位驾驶员有固有效果，任队长时对全队生效（单机成队也生效）。</li>
+      </ul>
+
+      <h2>援护系统</h2>
+      <p>援护攻击与援护防御仍是两个独立技能（各 Lv1–4，PP 100＋每级 20）。<strong>援护攻击</strong>由相邻小队的队长执行追加攻击（攻击方与被支援方都不得是全体/MAP 攻击）；<strong>援护防御</strong>由同一小队的队员替队长承受攻击，伤害减半。相关可购技能：連携攻撃（200 PP，援护攻击必定暴击）、支援攻撃（150 PP，作为队员时 PLA 伤害 ×1.5）、集束攻撃（200 PP，全体攻击伤害 +10%）、学习（100 PP，非队长时也获得 100% 经验与 PP）。合体攻击约 20 组（含 Macross 7 的歌曲合体攻击），要求参加机体互为相邻且各自为队长、或同属一个小队；代表作：Final Dynamic Special、Twin Bird Strike、Hammer Hell and Heaven / Goldion Crusher、龙卷斩舰刀等，完整参数见 Akurasu Team Attacks 页。</p>
+
+      <h2>改造继承与全改造奖励</h2>
+      <p>本作有 <strong>25 条改造继承关系＋4 组共享改造</strong>（Akurasu Upgrade Carryover 页）：四位主人公的最终机继承（第35话）；高达试作3号机·雄蕊的改造分流诺耶·吉尔/卡贝拉·迪特拉/瓦尔·瓦罗（第45/53话，旧机保留）；强袭→自由/嫣红强袭/暴风（第31话）、自由→正义（第33话）；ν高达→Hi-ν高达（第53话）；勇者王→高战加（第29话）→始源勇者王/J方舟（第42话）；魔神凯撒与魔神Z在序盘（第6话）与第23话两次反向/正向继承等。机体四项（HP/EN/运动性/装甲）全改造后可从 <strong>12 个奖励</strong>中选 1 项（小队 COST −0.5、HP/EN/运动性/装甲 +10%、移动力 +1、四种地形适应全 A、屏障耗 EN 变 0、武器射程 +1 等）。</p>
+
+      <h2>周回继承与存档连动</h2>
+      <p>二周目（New Game+）的新要素已核实的有：坏结局路线（第56话选择，见上）与<strong>特殊模式</strong>（全机小队 COST −0.5，Akurasu Platoon System 页）。但<strong>周回时资金/PP 的继承公式，所查来源（Akurasu 各页、两份 GameFAQs 攻略、日文维基）均未记载，待核实</strong>，本站不套用他作公式。与《第2次α》／《α外传》的跨作存档连动同样<strong>未见任何来源记载</strong>（只有剧情正史层面的承接，见剧情概要）。</p>
+
+      <h2>Sub 剧本（支线外传）</h2>
+      <p>本作新设 Sub 剧本系统：共 <strong>9 关</strong>（Sub 13、18、26、27、36、42、44、49 与特别关），在 Options → Stage Chart 中以黄色图标进入，首次通关同编号主线话后解锁（Sub 44 须在通关第44话并选完后续路线后、第45话开始前解锁；特别关须玩过所有路线的所有关卡后解锁）。据 Akurasu Sub Scenario 页明示：它们<strong>只是剧情外传，不影响本篇的等级与资金进度、不给熟练度、也不解锁任何东西</strong>；各关的「出场机体」是关内临时阵容而非永久加入。本站为 9 关各建一页，列在关卡表末尾的分组中。</p>
+
+      <h2>敌方编成数据现状</h2>
+      <p>本作有三个互相独立的逐关编成来源：日文字站 <strong>s-rpg-navi</strong> 的逐关表（小队式，近全量覆盖四线与全部分歧，字段含机体/驾驶员/等级/HP/资金/PP、增援与掉落）、英文 <strong>Fencedude</strong> 攻略（GameFAQs 51737，塞蕾娜线全程＋托马线序盘＋其所选分歧线）与 <strong>Xenon</strong> 攻略（塞蕾娜线＋合流关＋宇宙线/Battle 7 线/巴罗塔线/伊甸线）——三者音译体系、体例与所走路线互不相同，独立性已经抽验。其中 <strong>91 个剧本（主线 83＋Sub 8）达到本站双源标准</strong>，本站逐页并列刊出 navi 表与对应的英文攻略表；<strong>43 个剧本只有 navi 单一来源</strong>（楠叶/柯布雷两线的专属关、托马线第 34–35/43–44 话、地球线第 30–33 话、对 ZAFT 线与波亚桑线第 45–47 话、通常结局最终话、伊甸发动路线最终话、Sub 特别关），按双源规则<strong>暂不刊出、等待用户裁决</strong>是否按单一来源导入（本站 F 完结编有单源导入先例）；同样，navi 原表的<strong>等级/HP/资金/PP 列属单源字段，未转录，一并待裁决</strong>。敌方<strong>坐标与逐格地形在任何来源中都不存在</strong>，各页地图为带四边坐标轴的参考框。</p>
+
+      <h2>参战作品（全 31 作）</h2>
+      <p>超兽机神断空我、战国魔神豪将军、新世纪福音战士、新世纪福音战士剧场版、传说巨神伊甸王、勇者王、勇者王 FINAL★、电脳战机 Virtual-On 奥拉托里姆·坦格拉姆★、电脳战机 Virtual-On 玛尔兹★、机动战士高达0083、机动战士Z高达、机动战士高达ZZ、机动战士高达 逆袭的夏亚、新机动战记高达W 无尽的华尔兹、机动战士高达 SEED★、无敌钢人泰坦3、魔神Z、大魔神、盖塔机器人、盖塔机器人G、真·盖塔机器人（原作漫画版）、钢铁吉格、超电磁机器人 孔巴特拉V、超电磁侠 波鲁特斯V、斗将戴莫斯、大空魔龙、勇者莱汀、飞跃巅峰、超时空要塞 可曾记得爱、超时空要塞 Plus、超时空要塞 7（家用机初参战、α 系列初编入）与万普雷斯特原创。（★＝系列初参战，共 4 作，与 Akurasu 系列总表的新增标注一致；伊甸王为 α 系列初编入。本作参战作品数为 α 系列最多。）</p>
+
+      <h2>长线隐藏要素总览</h2>
+      <p>下表汇总跨多话的连锁隐藏要素与主要单关要素；每一步的完整条件写在触发／结算的那一话页面内。本作隐藏要素共 33 项（Akurasu Secrets 页），<strong>没有任何一项使用「说得」指令</strong>（均为路线选择、击坠数、特定交战/击坠、地块移动或结局条件；最接近的是伊扎克——靠迪亚卡与之交战且双方存活）。唯一的说得出现在 Sub 13 的胜利条件中。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>布利特（楠叶线搭档）</td><td>第1话（楠叶线）</td><td>选择楠叶为主人公即自动加入（雷虎改）；第35话成为真·龙虎王的副驾驶，第44话后可任主驾驶并在真·龙虎王/真·虎龙王间切换</td></tr>
+            <tr><td>阿拉德与塞奥拉（柯布雷线）</td><td>第2、11话（柯布雷线）</td><td>选择柯布雷为主人公：塞奥拉第2话加入，阿拉德第11话加入（比尔特比尔格/比尔特法尔肯）</td></tr>
+            <tr><td>伊比斯与斯蕾（塞蕾娜线）</td><td>第12、34、44话</td><td>选择塞蕾娜为主人公：斯蕾（织女星机）第12话加入，伊比斯（阿尔特利昂）第34话加入</td></tr>
+            <tr><td>决斗高达与伊扎克</td><td>第18、19（地球）、29、31、50、51话</td><td>连锁：第18话埋点→第19话走地球线→第29话后走留在地球圈路线，第31话伊扎克存活→终盘正式加入（靠与迪亚卡交战、非说得）</td></tr>
+            <tr><td>米莉亚专用 VF-1J</td><td>第21话（地球线）等</td><td>前半由米莉亚取得 10 击坠以上，过关后入手（发生话数在 Secrets 页内有第19/21话两种记载，见分歧说明）</td></tr>
+            <tr><td>拉古（巴尔特菲尔德）</td><td>第18、21、22话（地球线）</td><td>连锁条件达成后入手拉古</td></tr>
+            <tr><td>Destroid 怪兽</td><td>第29、31话（宇宙线）、第52话</td><td>第29话取得本话熟练度为前置（主路线要求），第31话走宇宙线入手</td></tr>
+            <tr><td>FBz-99G 扎乌贝格朗与加维尔</td><td>第29–32话（宇宙线）、第49话</td><td>甘姆林击坠数与击坠加维尔的 GaviGla 等连锁条件（第49话步骤在来源内有两种表述，见分歧说明）</td></tr>
+            <tr><td>嫣红强袭 IWSP 装备</td><td>第29、30话起</td><td>卡嘉莉击坠数达标（第29话结束时 30 以上）等连锁</td></tr>
+            <tr><td>高达试作2号机 / 黑盖塔 / EVA 初号机 F 型装备 / 核子火箭筒 / ν高达 HWS</td><td>第36话判定、第37话领取</td><td>第36话集中判定一批隐藏条件（击坠数、改造段数、熟练度等），第37话结算领取；多项在第52话还有第二领取点</td></tr>
+            <tr><td>蕾娜丝（副驾驶员）与 J-凤凰攻击</td><td>第42话</td><td>第42话内的特定条件</td></tr>
+            <tr><td>VF-19S 与 VF-19F 王者之剑 ×2</td><td>第44话埋点、第46–48话（巴罗塔线）</td><td>走巴罗塔线方向的连锁入手</td></tr>
+            <tr><td>诺耶·吉尔 / 瓦尔·瓦罗 / 卡贝拉·迪特拉（三选一）与昆曼沙 / 哈曼卡碧尼 / 量产型卡碧尼×2 / 多宾狼 / 盖马尔克（第52话组）</td><td>第45话（地上/对ZAFT方向）埋点、第52话结算</td><td>第45话的战场结果决定第52话可入手的机体组</td></tr>
+            <tr><td>Hi-ν高达、沙扎比</td><td>第52话</td><td>第52话内的入手条件</td></tr>
+            <tr><td>甘加·鲁布与吉杰</td><td>第41、44、48、56、57话</td><td>第41话对话选择＋伊甸计量表 5 级→第44话后走波亚桑线方向→第56话选择→第57话以增援登场（登场话数在来源内有 57/58 两种记载，见分歧说明）</td></tr>
+            <tr><td>林明美的唱片（道具）</td><td>第46话（地上·保护伊露依线）</td><td>移动到指定地块取得</td></tr>
+            <tr><td>纳西姆·甘·伊甸与伊露依</td><td>好结局最终话</td><td>达成好结局条件（熟练度 ≥57＋总回合 ≤420）后，在好结局最终话中作为增援加入</td></tr>
+            <tr><td>三种结局</td><td>第56、59话判定</td><td>好结局（熟练度+回合双门槛）／通常结局／坏结局（二周目第56话选「选择战斗」，伊甸发动路线）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets、Timeline、Sub Scenario 页交叉核对；系统以日文维基（作品页与系统总论页）、Akurasu 子页（Platoon System／Pilot Abilities &amp; Skills／Upgrade Carryover／Full Upgrade Bonus／Team Attacks）与 GameFAQs 的 CaptainRat 熟练度 FAQ、Fencedude 攻略互证；敌方编成以 s-rpg-navi 与 Fencedude、Xenon 两份 GameFAQs 攻略交叉刊载。已确认的主要分歧与处理：①剧本计数——Akurasu 主页表头「124 playable scenarios」与流程图逐条清点（125 个主线剧本块）相差 1，且未注明是否含 9 个 Sub 剧本；最合理的读法是两个最终话版本按 1 话计，本站按流程图实数 125 建页并在此注明；②好结局回合上限——Secrets 页一处作「under 420」，其 Older Flow Chart 段与 Timeline、Flow Chart 表头均作「420 or less（且 421 以上为通常结局）」，本站以 ≤420 为准并在最终话页注记；③吉杰登场话数——Secrets 页 Timeline 段作第58话、同页旧图表与详解作第57话，各相关页并记；④米莉亚 VF-1J 的达成关卡——新图表作第19话、Timeline 与旧图表作第21话，本站以流程图所在的第21话页为主并注记；⑤伊扎克连锁第 3 步的路线名——新图表作「Alaska Route」、详解作「Stay On Earth route」，指同一条留在地球圈的路线，各页统一表述并注记；⑥主人公系别——日文维基（官方本）作「本作不分系别」，英文攻略作 SR/RR 标注，本站从日文口径（见主人公一节）；⑦熟练度 PP 措辞——CaptainRat 作「出击且存活的驾驶员 +5」，Fencedude 作「全体出击者 +5」，本站从 CaptainRat；⑧第 57–58 话各版本与两支部队的对应在流程图版式上未明示，本站按关内入手与内容线索归属并在各页注记，不作静默断言；⑨拼写统一——Akurasu 内部 Slay/Sleigh、Serena/Selena、Ratsel/Rastel、Quebeley/Qubeley 等变体，本站统一作斯蕾、塞蕾娜、拉塞尔、卡碧尼。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -2462,6 +2547,11 @@ const isSrwGc = g.slug === 'srw-gc';
     <div>
       <p>本作 <strong>150 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 57 话——四位主人公各自的第1–20话序盘、合流与系别分线、Vital Net/北美新吉翁、月面/阿克西斯、日本/米凯内分线、哈曼休战/拒绝两套终盘与四位主人公的最终话；Akurasu 主页表头作 151，但其流程图逐条清点为 150，多出的 1 个无对应条目，见关卡总表页说明）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（说得链与路线选择都写在触发/结算的那一话里）与坐标地图（敌方坐标与地形待核实，原因见各详情页；敌方编成有两份 GameFAQs 攻略交叉刊载）。本作同时保留一份<a class="link" href={href('srw-alpha-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwAlpha2MissionList />
+    </div>
+  ) : isSrwAlpha3 ? (
+    <div>
+      <p>本作 <strong>125 个主线剧本与 9 个 Sub 剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目沿编号主干第1–59话＋最终话共 60 个位置——四位主人公的序盘与专属话、两次部队分割、独行舰/Battle 7 分割、四路分线、终盘双线与二周目限定的伊甸发动路线、按熟练度与总回合判定的两种最终话；Sub 剧本为剧情外传专页；Akurasu 主页表头作 124 个可玩剧本，与流程图清点相差 1，见上方分歧说明）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（路线选择与击坠数门槛都写在触发/结算的那一话里；本作没有说得类隐藏要素）与坐标地图（敌方编成在 91 个剧本由 s-rpg-navi 与 GameFAQs 攻略双源交叉刊载，43 个剧本为单一来源暂不刊载；敌方坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-alpha-3/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwAlpha3MissionList />
     </div>
   ) : isSrwCompact3 ? (
     <div>

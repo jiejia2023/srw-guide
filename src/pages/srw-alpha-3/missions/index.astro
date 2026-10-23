@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwAlpha3MissionList from '../../../components/SrwAlpha3MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第3次超级机器人大战α', path: 'srw-alpha-3/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第3次超级机器人大战α（PS2）关卡攻略 · 全134个剧本页面列表" description="第3次超级机器人大战α 终焉之银河（2005年 PS2）全部剧本的页面列表：125 个主线剧本（四位主人公序盘与专属话、两次部队分割、独行舰/Battle 7 分割、四路分线、终盘双线与伊甸发动路线、两种最终话）与 9 个 Sub 剧本。每关独立攻略页含胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素、敌方编成（双源交叉）与坐标地图。本页为链接索引。" path="srw-alpha-3/missions/" breadcrumbs={crumbs}>
+  <h1>第3次超级机器人大战α · 关卡攻略</h1>
+  <p>2005 年 PS2《第3次超级机器人大战α 终焉之银河》是 <strong>α 系列的完结作</strong>，也是<strong>小队系统的第二作</strong>（规则与第2次α相同：每队 ≤4 机、总 COST ≤5）。结构：开局从<strong>四位主人公</strong>（托马、楠叶、柯布雷、塞蕾娜）中选一人，第 1–2 话与第 6–12 话为四人各自的专属话，第 34–35、43–44 话再有主人公专属话；中途经两次部队分割（第 19–23 话地球/宇宙、第 30–33 话地球/外宇宙）、第 38–40 话独行舰侧/Battle 7 侧分割、第 45–48 话四路分线；第 56 话后的选择分出终盘双线（二周目可选伊甸发动路线）；<strong>最终话有两个版本，由第 59 话结束时的累计熟练度（≥57）与总回合（≤420）判定</strong>。编号主干一周目为第 1–59 话加最终话共 60 个位置；本站按 Akurasu 流程图逐条清点共 <strong>125 个主线剧本</strong>，另有 <strong>9 个 Sub 剧本</strong>（剧情外传），合计 <strong>134 个详情页</strong>（Akurasu 主页的表头写作 124 个可玩剧本，与流程图清点相差 1 且未注明构成，见本作主页的分歧说明）。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、敌方编成、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-alpha-3/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站又一部<strong>全关卡补完</strong>的作品——134 个剧本页面全部建有详情页。流程、胜败条件、<strong>熟练度取得条件</strong>、加入与隐藏要素以 Akurasu 的第3次α流程图与隐藏要素页为主源，并以日文维基与两份 GameFAQs 攻略（CaptainRat 的熟练度 FAQ、Fencedude 的全程攻略）交叉核对系统规则。敌方<strong>编成</strong>有三个互相独立的来源（日文 s-rpg-navi 逐关表与英文 Fencedude、Xenon 两份攻略）：其中 <strong>91 个剧本</strong>（主线 83 + Sub 8）达到双源标准、已并列刊载；另有 <strong>43 个剧本只有 s-rpg-navi 单一来源</strong>（楠叶/柯布雷两线专属关、地球线第 30–33 话、对 ZAFT 线与波亚桑线第 45–47 话、通常结局最终话、伊甸发动路线最终话、特别关等），按本站双源规则暂不刊出、等待用户裁决，各页已如实标注；navi 原表的等级/HP/资金/PP 列同为单源，未转录。<strong>如实说明</strong>：本作没有任何公开来源刊载逐关敌方坐标与地图地形，故各页地形标为待核实、坐标图为带四边坐标轴的参照框架。本页只做 PS2 原版（2005 年）。</span>
+  </div>
+
+  <SrwAlpha3MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_3/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha 3 Flow Chart</a>（全关卡流程、胜败条件、熟练度、机体加入与隐藏要素总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_3/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha 3 Secrets</a>（隐藏要素分项条件与三种结局）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_3/Sub_Scenario" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha 3 Sub Scenario</a>（9 个 Sub 剧本的解锁方式与胜败条件）</li>
+    <li><a href="https://s-rpg-navi.com/srw3-alpha/" rel="noopener" target="_blank">s-rpg-navi — 第3次スーパーロボット大戦α 攻略图表</a>（逐关敌方编成主表：小队构成、增援、掉落）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/926291-dai-3-ji-super-robot-taisen-alpha-shuuen-no-ginga-e/faqs/51737" rel="noopener" target="_blank">GameFAQs — Guide and Walkthrough by Fencedude (faqs/51737)</a>（敌方小队编成：塞蕾娜线全程等）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/926291-dai-3-ji-super-robot-taisen-alpha-shuuen-no-ginga-e/faqs" rel="noopener" target="_blank">GameFAQs — FAQ/Walkthrough by Xenon</a>（敌方小队编成：宇宙线、Battle 7 线、伊甸线等）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC3%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6%CE%B1" rel="noopener" target="_blank">日本维基百科 — 第3次スーパーロボット大戦α 終焉の銀河へ</a>（参战作品全表、主人公与正史承接的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-alpha-3/')}>← 返回第3次超级机器人大战α</a></p>
+</Base>

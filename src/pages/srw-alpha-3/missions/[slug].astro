@@ -1,0 +1,184 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwalpha3-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const isSub = m.type === '支线剧本';
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第3次超级机器人大战α', path: 'srw-alpha-3/' },
+  { label: '关卡攻略', path: 'srw-alpha-3/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const comp = m.enemies?.composition;
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`第3次超级机器人大战α（2005 PS2）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素与敌方编成。`} path={`srw-alpha-3/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、熟练度条件、我方加入与隐藏要素来自 Akurasu Wiki 的第3次α流程图与隐藏要素页。本作的熟练度规则与前作不同：<strong>每话至多 +1、只升不降，取得条件在游戏内 Objective 画面公示</strong>；且熟练度<strong>直接决定结局</strong>——第 59 话结束时累计熟练度 ≥57 且总回合 ≤420 才进入好结局最终话，未达任一条件为通常结局（第2次α的熟练度只分难度档、无此门槛）。难度 E/N/H 随熟练度变化，但其精确分界数值在所有已查到的本作来源中均未公布，待核实。敌方编成与坐标/地形的核实范围见下方各节。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度点'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>{isSub ? '关内出场机体（临时出场，非永久加入）' : '我方参战 / 加入'}</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {comp ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 s-rpg-navi 的第3次α逐关编成表（小队式，字段最全）与英文 GameFAQs 攻略（Fencedude、Xenon，按各关覆盖范围）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：navi 为日文原名，英文攻略为其罗马字拼写，两源拼写体系不同，如 Ra Cailum / Ra Kalium 为同一战舰）。两源均<strong>不提供单位坐标</strong>，逐格地形亦无任何来源——坐标与地形仍待核实。s-rpg-navi 原表另有<strong>等级 / HP / 资金 / PP 列，仅该站单源刊载</strong>，按本站双源规则未予转录（待裁决）。</span>
+    </div>
+    {(comp.sources ?? []).map((src: any) => (
+    <div>
+      <h3>敌方小队编成（{src.name}）</h3>
+      {(src.groups ?? []).map((g: any) => (
+      <div>
+        {g.part && <h4>{g.part}</h4>}
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>小队长（驾驶员）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+          <tbody>
+          {g.squads.map((sq: any) => (
+            <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+          ))}
+          </tbody>
+        </table>
+        </div>
+        {(g.reinforcements ?? []).map((rg: any) => (
+        <div>
+          <h4>增援：{rg.trigger}</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            <thead><tr><th>小队长（驾驶员）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+            <tbody>
+            {rg.squads.map((sq: any) => (
+              <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+            ))}
+            </tbody>
+          </table>
+          </div>
+        </div>
+        ))}
+        {g.drops && g.drops.length > 0 && (
+        <div>
+          <h4>掉落 / 获得部件（{src.name}）</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            <thead><tr><th>部件 / 物品</th><th>来源</th></tr></thead>
+            <tbody>
+            {g.drops.map((d: any) => (
+              <tr><td>{d.item}</td><td>{d.from || '—'}</td></tr>
+            ))}
+            </tbody>
+          </table>
+          </div>
+        </div>
+        )}
+        {g.notes && <p class="text-sm"><strong>※</strong>{g.notes}</p>}
+      </div>
+      ))}
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>{m.enemies.status === '单一来源' ? '本关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作有近全量逐关编成表，含等级/HP），按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入（本站 F 完结编有单源导入先例）。' : '本关敌方配置（初始配置、增援、等级、坐标）暂无可交叉核对的公开来源，核实后补入。'}</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-alpha-3/missions/')}>← 返回关卡列表</a> · <a href={href('srw-alpha-3/')}>返回第3次超级机器人大战α</a></p>
+</Base>
