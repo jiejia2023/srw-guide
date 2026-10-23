@@ -22,7 +22,11 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 EX 流程图与隐藏要素表，并以日文维基百科与日文 Fandom 交叉核对三章话数（27/24/16，合计 67）与分支结构（见页末来源）。本作（SFC 原版）没有公开的逐关敌方配置来源——GameCenter GX 未收录本作，现存的构成级逐关资料（如 Namu、GameFAQs 的攻略）针对的是 PS 版（Complete Box），与 SFC 版有个别差异，本站不以 PS 版数据填充——故「敌方出场与增援」一节标为待核实。地图实际尺寸与逐格地形同样未核实，坐标图为参照框架。</span>
+    {m.map.terrainGrid ? (
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 EX 流程图与隐藏要素表，并以日文维基百科与日文 Fandom 交叉核对（见页末来源）。<strong>地图与敌方配置已补完</strong>：据ファミ通《スーパーロボット大戦EX 熱血・幸運・必中ガイド》该话攻略页的地图图像与 UNIT DATA 栏逐格数字化（方法与核实范围见下方「坐标地图」一节），图上敌方图标数已与 UNIT DATA 记载数核对。本站不以 PS 版（Complete Box）数据填充 SFC 页面。</span>
+    ) : (
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 EX 流程图与隐藏要素表，并以日文维基百科与日文 Fandom 交叉核对（见页末来源）。本关为无战斗的事件剧本，ファミ通攻略本未收录该话，故无地图与敌方数据可补；本作其余 62 个战斗剧本的地图与敌方配置已据同书补完。</span>
+    )}
   </div>
 
   <h2>出击条件</h2>
@@ -45,6 +49,22 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <ul>
     {m.allies.map((a: string) => <li>{a}</li>)}
   </ul>
+
+  {m.allyUnits && m.allyUnits.length > 0 && (
+    <div>
+      <h3>我方增援登场位置（攻略本 PP 标记）</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>登场时机</th></tr></thead>
+        <tbody>
+        {m.allyUnits.map((a: any) => (
+          <tr><td>{a.name}</td><td>{a.pilot}</td><td>{a.lv ?? '—'}</td><td>({a.x},{a.y})</td><td>{a.trigger ?? ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  )}
 
   <h2>敌方出场与增援</h2>
   {m.enemies.rows.length > 0 ? (
@@ -75,11 +95,16 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
       </div>
     </div>
   )}
+  {(m.enemies.notes ?? []).length > 0 && (
+    <ul class="text-sm">
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  )}
   </div>
   ) : (
   <div>
     <div class="alert alert-warning alert-soft my-4">
-      <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级、坐标）暂无可引用的公开来源，核实后补入。</span>
+      <span><strong>说明：</strong>本关为无战斗的事件剧本，没有敌方配置；ファミ通攻略本亦未收录该话（详见下方注记）。</span>
     </div>
     <ul>
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
@@ -107,7 +132,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} nameChips />
     </div>
   </div>
   <h3>已核实点位</h3>
