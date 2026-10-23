@@ -1,0 +1,4117 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "试验武器",
+   "ja": "トライアル・ウェポン",
+   "en": "Trial Weapon",
+   "route": "全路线共通（开局）",
+   "area": "",
+   "type": "开局关",
+   "prerequisite": "新游戏开局：选择男主角拉乌尔·格雷登或女主角菲奥娜·格雷登后进入的共通第1话（两人的第1话相同）。过关后须在「接受抚子号B的保护」与「接受拉·凯拉姆的保护」之间二选一，第2–6话完全不同。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯（主人公）——开局即装备 Striker（格斗）与 Cosmodriver（宇宙）两种框架"
+   ],
+   "events": [
+    "舞台是月面：艾克赛伦斯进行实战测试时遭神秘存在杜米纳斯袭击，联邦军的拉·凯拉姆与抚子号B赶来救援——这是「坏未来」时间线的开端（剧情梗概据日文维基）。",
+    "本话过关后的选择同时是三条隐藏链的起点（见隐藏要素）。"
+   ],
+   "secrets": [
+    "过关后选「接受抚子号B的保护」→ 立下「高机动型黑百合」链的旗标（结算在第32话，见第32话页）。",
+    "过关后选「接受拉·凯拉姆的保护」→ 立下「量产型ν高达」与「高达Mk-III」两条链的旗标（后续步骤见第2话·拉·凯拉姆线、第4话·拉·凯拉姆线页）。"
+   ],
+   "unlocks": [
+    "第2话（按选择进入抚子号B线或拉·凯拉姆线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·抚子号B线",
+   "slug": "stage-2a-nadesico",
+   "zh": "火星的后继者",
+   "ja": "火星の後継者",
+   "en": "Martian Successors",
+   "route": "第1话后分歧 · 抚子号B线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第1话过关后选择「接受抚子号B的保护」进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "明人被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾斯特巴里斯Custom（凉子）",
+    "高机动型黑百合（明人）——本线明人一开始就驾驶高机动型（与第32话的隐藏结算是不同阶段，见第1话与第32话页）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话·抚子号B线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·拉·凯拉姆线",
+   "slug": "stage-2b-cailum",
+   "zh": "逆袭的夏亚",
+   "ja": "逆襲のシャア",
+   "en": "Char's Counterattack",
+   "route": "第1话后分歧 · 拉·凯拉姆线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第1话过关后选择「接受拉·凯拉姆的保护」进入。本话是第5卢纳（Fifth Luna）坠落事件的再现关。",
+   "victory": [
+    "歼灭全部敌人，或登上第5卢纳，或第8回合开始（满足其一即过关）"
+   ],
+   "defeat": [
+    "拉·凯拉姆被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "Akurasu 的 Complete Chart 本话「机体加入」栏为空白，未列出本关加入单位，本站不补写（加入情况以第3话·拉·凯拉姆线的出击名单为准）。"
+   ],
+   "secrets": [
+    "本话须在 7 回合内过关。细化条件（据 Namu 的第5卢纳条目）：胜利条件中的「到达第5卢纳」要在 7 回合内达成、阻止其坠落，才解锁量产型ν高达的英康姆（Incom）装备型（第3话凯拉可驾驶出击）；仅以全灭敌人方式过关并不给该型——Akurasu 流程图只记「7 回合内过关」，本站以 Namu 的细化版为准并在此并记。"
+   ],
+   "unlocks": [
+    "第3话·拉·凯拉姆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·抚子号B线",
+   "slug": "stage-3a-nadesico",
+   "zh": "重逢的食谱",
+   "ja": "再会のレシピ",
+   "en": "Recipe for a Reunion",
+   "route": "第1话后分歧 · 抚子号B线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第2话·抚子号B线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号B被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "高机动型黑百合（明人）",
+    "艾斯特巴里斯Custom（泉）",
+    "艾斯特巴里斯Custom（光）",
+    "阿尔斯托梅利亚（源一郎）"
+   ],
+   "events": [
+    "过关后：抚子号B强化为抚子号C。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第4话·抚子号B线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·拉·凯拉姆线",
+   "slug": "stage-3b-cailum",
+   "zh": "ν高达",
+   "ja": "νガンダム",
+   "en": "Nu Gundam",
+   "route": "第1话后分歧 · 拉·凯拉姆线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第2话·拉·凯拉姆线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "拉·凯拉姆被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "ν高达（阿姆罗）",
+    "杰刚（哈萨维）",
+    "里·格兹（陈）",
+    "杰刚或量产型ν高达（凯拉）——若已在第2话达成 7 回合条件，凯拉驾驶量产型ν高达出击（见第2话页）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话·拉·凯拉姆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图原文的本话加入栏括号错位（「(Chan) (Defaults to Re-GZ)」），本站按其 Secrets 页与常识对应关系整理为：陈默认驾驶里·格兹、凯拉驾驶杰刚或量产型ν高达；原文错位已在此注明。"
+  },
+  {
+   "code": "第4话·抚子号B线",
+   "slug": "stage-4a-nadesico",
+   "zh": "最糟糕的决战",
+   "ja": "最悪の決戦",
+   "en": "The Worst Battle",
+   "route": "第1话后分歧 · 抚子号B线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第3话·抚子号B线过关后进入。本话是「坏未来」的终点。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号C或艾克赛伦斯被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "杜米纳斯再次袭击并击沉战舰——在这条「坏未来」里，原作中本应存活的角色死去（剧情梗概据日文维基）。",
+    "过关后：时流引擎暴走，主角三人连同艾克赛伦斯被送回 5 年前。第5话起进入过去篇；等级、资金、改造、击坠数全部原样带回（不是重开）。",
+    "过关后：艾克赛伦斯丢失 Cosmodriver（宇宙）框架（时跳的代价），第21话过关后才重新取得——第5–21话主角机没有宇宙框架可用。",
+    "过关后（加入/换装）：抚子号C（琉璃）、高机动型黑百合（明人）、超级艾斯特巴里斯（三郎太）、艾斯特巴里斯Custom（凉子、泉、光）、阿尔斯托梅利亚（源一郎）——未来版机体回到过去后换成其过去形态继续使用，改造继承（据 Akurasu 时间表注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第5话·抚子号B线（过去篇）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·拉·凯拉姆线",
+   "slug": "stage-4b-cailum",
+   "zh": "最糟糕的结局",
+   "ja": "最悪の結末",
+   "en": "The Worst Outcome",
+   "route": "第1话后分歧 · 拉·凯拉姆线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第3话·拉·凯拉姆线过关后进入。本话是「坏未来」的终点（阿克西斯事件）。",
+   "victory": [
+    "歼灭全部敌人；拉·凯拉姆抵达阿克西斯"
+   ],
+   "defeat": [
+    "拉·凯拉姆被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "杜米纳斯再次袭击并击沉战舰——在这条「坏未来」里，原作中本应存活的角色死去（剧情梗概据日文维基）。",
+    "过关后：时流引擎暴走，主角三人连同艾克赛伦斯被送回 5 年前。第5话起进入过去篇；等级、资金、改造、击坠数全部原样带回（不是重开）。",
+    "过关后：艾克赛伦斯丢失 Cosmodriver（宇宙）框架（时跳的代价），第21话过关后才重新取得——第5–21话主角机没有宇宙框架可用。",
+    "过关后（加入/换装）：拉·凯拉姆（布莱特）、ν高达（阿姆罗）、杰刚（哈萨维）、里·格兹（陈）、杰刚或量产型ν高达（凯拉）——未来版机体回到过去后换成其过去形态继续使用，改造继承（据 Akurasu 时间表注记）。"
+   ],
+   "secrets": [
+    "本话中用陈（Chan）击坠奎丝驾驶的 α·阿索隆（α Azieru）。Namu 攻略记作「用陈击坠奎丝」、Akurasu 流程图记作「用陈击坠 α·阿索隆」——α·阿索隆正是奎丝的座机，两说指向同一事件。达成后结算在第20话（芙改乘高达Mk-III，见第20话页）。"
+   ],
+   "unlocks": [
+    "第5话·拉·凯拉姆线（过去篇）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·抚子号B线",
+   "slug": "stage-5a-nadesico",
+   "zh": "像是「命运的选择」",
+   "ja": "「運命の選択」みたいな",
+   "en": "Something Like a 'Fateful Decision'",
+   "route": "第1话后分歧 · 抚子号B线（过去篇）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第4话·抚子号B线过关后、经时跳回到 5 年前后进入。",
+   "victory": [
+    "歼灭全部敌人；抚子号抵达丘利普（Chulip）"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "抚子号（由利加）",
+    "无敌钢人泰坦3（班乔）",
+    "艾斯特巴里斯（明人）",
+    "艾斯特巴里斯（凯）",
+    "艾斯特巴里斯（凉子）",
+    "艾斯特巴里斯（泉）",
+    "艾斯特巴里斯（光）"
+   ],
+   "events": [
+    "本话起是 TV 版《机动战舰抚子号》时代的过去篇：未来版的抚子号C 在过去以初代抚子号的形态参战。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第6话·抚子号B线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·拉·凯拉姆线",
+   "slug": "stage-5b-cailum",
+   "zh": "给你力量…",
+   "ja": "あなたに、力を･･･",
+   "en": "I'll Give You, Power...",
+   "route": "第1话后分歧 · 拉·凯拉姆线（过去篇）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第4话·拉·凯拉姆线过关后、经时跳回到 5 年前后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登或加洛德被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "弗里登（贾米尔）",
+    "高达空中霸王（维兹）",
+    "高达豹式（罗亚贝）",
+    "高达X（加洛德）",
+    "梅塔斯（花）",
+    "陶拉斯（诺因）",
+    "里·格兹（阿姆罗）"
+   ],
+   "events": [
+    "本话起进入《机动新世纪高达X》的过去时代，与弗里登一行共同作战。",
+    "贾米尔的击坠数从本话起就应开始累计——第22话前需 ≥20 架才能取得菲布拉尔（见第21话、第22话·殖民地线页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第6话·拉·凯拉姆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·抚子号B线",
+   "slug": "stage-6a-nadesico",
+   "zh": "GEAR战士电童",
+   "ja": "GEAR戦士電童",
+   "en": "Gear Fighter Dendoh",
+   "route": "第1话后分歧 · 抚子号B线（过去篇）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第5话·抚子号B线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号或电童被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "GEAR战士电童（银河、北斗）",
+    "电童取得「独角兽钻头（Unicorn Drill）」数据武器形态"
+   ],
+   "events": [
+    "过关后：法尔基里（Valkyrie，维加）加入。",
+    "过关后：全部艾斯特巴里斯的空战与零重力框架追加「力场长矛（Field Lancer）」攻击。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第7话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·拉·凯拉姆线",
+   "slug": "stage-6b-cailum",
+   "zh": "出击！！新盖塔机器人！",
+   "ja": "出撃！！ネオゲッターロボ！",
+   "en": "Launch!! Neo Getter Robo!",
+   "route": "第1话后分歧 · 拉·凯拉姆线（过去篇）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第5话·拉·凯拉姆线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登或新盖塔机器人被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "新盖塔机器人（轟、翔子、剴）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "魔神团队危急！！",
+   "ja": "危うしマジンガーチーム！！",
+   "en": "The Mazinger Team is in Danger!!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第6话（任一线）过关后进入，两线在此合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魔神Z（兜甲儿）",
+    "戴安娜A（弓沙耶加）",
+    "波士机器人（波士）",
+    "大魔神（剑铁也）",
+    "维纳斯A（炎隼）"
+   ],
+   "events": [
+    "走拉·凯拉姆线的玩家在本话合流后同样开始累计贾米尔击坠数（菲布拉尔条件，见第22话·殖民地线页）；Akurasu 的 Secrets 页把累计起点记为第5话（拉·凯拉姆线）/第7话。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "班多克现身！",
+   "ja": "バンドック現る！",
+   "en": "Bandok Arrives!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第7话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或赞波特3被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "赞波特3（胜平、宇宙太、惠子）",
+    "闪光高达（多蒙）",
+    "高达麦克斯特（奇波迪）",
+    "玫瑰高达（乔治）",
+    "飞龙高达（蔡赛西）",
+    "螺栓高达（阿尔戈）",
+    "飞翼高达零式改（希罗）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "炸裂！毒蛇鞭",
+   "ja": "炸裂！バイパーウィップ",
+   "en": "Explosion! Viper Whip",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第8话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯取得「Gunner（射击）」框架"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第10话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "登场！！德克萨斯麦克！",
+   "ja": "登場！！テキサスマック！",
+   "en": "Arrival!! Texas Mack!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第9话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或里奥圆环被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "德克萨斯麦克（杰克）",
+    "里奥圆环（Leo Circle，黄色 NPC）"
+   ],
+   "events": [
+    "过关后：电童取得「里奥圆环（Leo Circle）」数据武器形态；细胞战斗机（进）加入。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "我的爱马很凶暴",
+   "ja": "私の愛馬は凶暴です",
+   "en": "My Mount is Fierce",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第10话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯取得「Flyer（飞行）」框架",
+    "诺贝尔高达（阿莲比）",
+    "飞翼高达零式改（希罗）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第12话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "别了青春！成为战斗兽的青年！！",
+   "ja": "さらば青春！戦闘獣になった青年！！",
+   "en": "Farewell Youth! The Young Man Who Became a Combat Beast!!",
+   "route": "两线合流",
+   "area": "",
+   "type": "分歧前共通关",
+   "prerequisite": "第11话过关后进入。本话过关后第二次分歧：选择「与抚子号同行」或「与弗里登同行」，第13–14话不同，第15话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大魔神（剑铁也）",
+    "维纳斯A（炎隼）"
+   ],
+   "events": [],
+   "secrets": [
+    "过关后选择「与弗里登同行」→ 第13话·弗里登线中高达豹式换装 S-1 装备（见第13话·弗里登线页）。"
+   ],
+   "unlocks": [
+    "第13话（按选择进入抚子号线或弗里登线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·抚子号线",
+   "slug": "stage-13a-nadesico",
+   "zh": "破坏孔巴特拉V",
+   "ja": "コン・バトラーVを破壊せよ",
+   "en": "Combattler V Must Be Destroyed",
+   "route": "第12话后分歧 · 抚子号线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第12话过关后选择「与抚子号同行」进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "孔巴特拉V（豹马、十三、大作、千鹤、小介）",
+    "凯罗特（金太、千惠）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第14话·抚子号线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·弗里登线",
+   "slug": "stage-13b-freedan",
+   "zh": "海之战",
+   "ja": "海の戦い",
+   "en": "Ocean Battle",
+   "route": "第12话后分歧 · 弗里登线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第12话过关后选择「与弗里登同行」进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯取得「Diver（潜水）」框架",
+    "高达豹式取得「S-1 装备」形态"
+   ],
+   "events": [],
+   "secrets": [
+    "第12话后选弗里登线的结算：本话起高达豹式可换装 S-1 装备出击（与艾克赛伦斯的 Diver 框架同话取得）。若走抚子号线，Diver 框架改在第15话取得（见第15话页）。"
+   ],
+   "unlocks": [
+    "第14话·弗里登线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·抚子号线",
+   "slug": "stage-14a-nadesico",
+   "zh": "皇帝陛下的礼物",
+   "ja": "皇帝陛下のプレゼント",
+   "en": "The Emperor's Present",
+   "route": "第12话后分歧 · 抚子号线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第13话·抚子号线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号或波尔特斯V被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "波尔特斯V（健一、一平、大次郎、惠、日吉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·弗里登线",
+   "slug": "stage-14b-freedan",
+   "zh": "科罗斯与泽诺亚",
+   "ja": "コロスとゼノイア",
+   "en": "Koros and Zenoia",
+   "route": "第12话后分歧 · 弗里登线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第13话·弗里登线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登或泰坦3被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "Akurasu 的 Complete Chart 本话「机体加入」栏为空白，未列出本关加入单位，本站不补写。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第15话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "必杀！超高速大助推器！！",
+   "ja": "必殺！超高速グレート・ブースター！！",
+   "en": "Sure Kill! The Super Sonic Great Booster!!",
+   "route": "两线合流",
+   "area": "",
+   "type": "分歧前共通关",
+   "prerequisite": "第14话（任一线）过关后进入，两线合流。本话过关后第三次分歧：选择「前往塞文要塞（Fort Severn）」或「留在 GEAR 本部」，第16–17话不同，第18话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或电童被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯取得「Diver（潜水）」框架（仅未在第13话·弗里登线取得时）",
+    "魔神Z追加攻击「强化型火箭飞拳」",
+    "波士机器人追加攻击「波士压力拳」",
+    "大魔神追加攻击「大助推器（Great Booster）」",
+    "独角兽钻头（NPC）",
+    "里奥圆环（NPC）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话（按选择进入塞文要塞线或 GEAR 本部线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话·塞文要塞线",
+   "slug": "stage-16a-severn",
+   "zh": "这是我的最高杰作",
+   "ja": "私の最高傑作です",
+   "en": "This is My Greatest Masterpiece",
+   "route": "第15话后分歧 · 塞文要塞线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第15话过关后选择「前往塞文要塞」进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话·塞文要塞线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图本话加入栏原文为「Gundam X (Garrod) not available this stage (Amuro)」，括号含义不明——疑指高达X本关不可用、阿姆罗改乘其他机体出击。原文如此，本站照录并标注含义待核实，不作解读。"
+  },
+  {
+   "code": "第16话·GEAR本部线",
+   "slug": "stage-16b-gear",
+   "zh": "决战！电童VS凰牙",
+   "ja": "決戦！電童vs凰牙",
+   "en": "Final Battle! Dendoh vs. Ogre",
+   "route": "第15话后分歧 · GEAR 本部线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第15话过关后选择「留在 GEAR 本部」进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "电童取得「龙焰（Dragon Flare）」与「加特林野猪（Gatling Boar）」数据武器形态"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话·GEAR本部线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话·塞文要塞线",
+   "slug": "stage-17a-severn",
+   "zh": "能听见我的声音吗！",
+   "ja": "俺の声が聞こえるか！",
+   "en": "Can You Hear My Voice!",
+   "route": "第15话后分歧 · 塞文要塞线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第16话·塞文要塞线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗里登或加洛德被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "超级高达（卡缪）",
+    "里·格兹（阿姆罗调乘）",
+    "高达X解锁「高达X分裂者（Divider）」形态"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第18话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话·GEAR本部线",
+   "slug": "stage-17b-gear",
+   "zh": "谋略之父瞄准地球",
+   "ja": "謀略の父が地球を狙う",
+   "en": "The Scheming Father Targets Earth",
+   "route": "第15话后分歧 · GEAR 本部线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第16话·GEAR本部线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "Akurasu 的 Complete Chart 本话「机体加入」栏为空白，未列出本关加入单位，本站不补写。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "「真相」不止一个",
+   "ja": "「真実」は一つじゃない",
+   "en": "There Is No One \"Truth\"",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第17话（任一线）过关后进入，两线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "主人公、明人或我方战舰被击破"
+   ],
+   "defeatNote": "Akurasu 流程图原文另有一行追加败北条件「敌人进入亚特摩（Atomo）」——疑为剧情中段追加的条件变更，原文未分行说明，本站照录并标注为条件变更（待核实）。",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "GEAR战士电童取得「独角兽钻头」形态",
+    "GEAR战士电童取得「里奥圆环」形态"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第19话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "复苏的生命",
+   "ja": "よみがえる命",
+   "en": "Revival of Life",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第18话过关后进入。",
+   "victory": [
+    "击破拉戈威（Lagowe），或经过 5 回合；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "百式（克瓦特罗）"
+   ],
+   "events": [
+    "本话抚子号（由利加）不可出击。",
+    "电童在本话取得「独角兽钻头」「里奥圆环」与「超兽王牙（Chojuuoh Kiba）」三种数据武器形态。",
+    "Akurasu 流程图原文的胜败条件为两段并列（先击破拉戈威或熬过 5 回合、再全灭敌人；败北条件亦由「电童或战舰」收窄为仅「战舰」），疑为中途条件变更，本站按两段呈现。",
+    "过关后：高达空中霸王强化为空中霸王Burst；高达豹式强化为豹式Destroy。"
+   ],
+   "secrets": [
+    "（据 Namu 攻略 §2.3，该情报源自纸质攻略本）在第 4 回合敌方阶段开始前击坠拉乌（ラオウ）→ 两侧迦尔法增援中各 1 台骑士杰姆（Knight Gem）携带的部件由「墨盒（Cartridge）×2」变为「超级修理包（Super Repair Kit）×2」。"
+   ],
+   "unlocks": [
+    "第20话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "双X启动！",
+   "ja": "ダブルエックス起動！",
+   "en": "Double X Activates!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第19话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "高达双X（加洛德）",
+    "杰刚或高达Mk-III（芙）——若已达成第4话·拉·凯拉姆线的隐藏条件，芙驾驶高达Mk-III 加入（见下）",
+    "沙漠高达改（卡特尔）",
+    "地狱死神高达改（迪奥）"
+   ],
+   "events": [
+    "本话弗里登（贾米尔）不可出击；阿姆罗、花、卡缪、克瓦特罗、多蒙、奇波迪、乔治、蔡赛西、阿尔戈亦不可出击（Akurasu 流程图明记）。"
+   ],
+   "secrets": [
+    "第1话后选拉·凯拉姆线、且第4话·拉·凯拉姆线中用陈击坠奎丝的 α·阿索隆 → 芙在本话驾驶高达Mk-III 加入；未达成则她驾驶杰刚加入。",
+    "贾米尔的击坠数须在进入第22话（殖民地坠落线）之前累计到 20 架以上——本话贾米尔不可出击，想补击坠数请在第21话完成（见第22话·殖民地线页）。"
+   ],
+   "unlocks": [
+    "第21话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "黑骑士与母亲的秘密！",
+   "ja": "黒騎士と母の秘密！",
+   "en": "The Black Knight and the Mother's Secret!",
+   "route": "两线合流",
+   "area": "",
+   "type": "分歧前共通关",
+   "prerequisite": "第20话过关后进入。本话过关后第四次分歧：选择「去救出维加」或「去阻止殖民地坠落」，第22–23话不同，第24话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、电童或法尔基里被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "维加（剧情单位）"
+   ],
+   "events": [
+    "本话中电童失去全部数据武器形态（剧情事件）。",
+    "过关后：艾克赛伦斯重新取得 Cosmodriver（宇宙）框架——第4话时跳时丢失的框架至此恢复，第5–21话间的无宇宙框架期结束。",
+    "过关后：贾米尔默认驾驶高达X；弗里登归队。"
+   ],
+   "secrets": [
+    "过关后选择「去阻止殖民地坠落」是取得菲布拉尔的必要路线（结算见第22话·殖民地线页）。贾米尔击坠数 ≥20 的累计须在本话结束前完成。"
+   ],
+   "unlocks": [
+    "第22话（按选择进入救出维加线或殖民地坠落线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话·救出维加线",
+   "slug": "stage-22a-vega",
+   "zh": "在火焰之中",
+   "ja": "炎の中で",
+   "en": "In Flames",
+   "route": "第21话后分歧 · 救出维加线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第21话过关后选择「去救出维加」进入。",
+   "victory": [
+    "歼灭全部敌人；或电童抵达迦尔法母舰（其后歼灭全部敌人）"
+   ],
+   "defeat": [
+    "抚子号或电童被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "全装甲电童（银河、北斗）",
+    "细胞助推器（Cell Booster，进）",
+    "电童取得「独角兽钻头」「里奥圆环」「超兽王牙」数据武器形态"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话·救出维加线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图原文的胜利条件为两段并列（抵达母舰或全灭敌人），疑为先后两个阶段的条件，本站按两段呈现，确切切换时点待核实。"
+  },
+  {
+   "code": "第22话·殖民地坠落线",
+   "slug": "stage-22b-colony",
+   "zh": "哈曼的黑影",
+   "ja": "ハマーンの黒い影",
+   "en": "Haman's Black Shadow",
+   "route": "第21话后分歧 · 殖民地坠落线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第21话过关后选择「去阻止殖民地坠落」进入。本话隐藏要素密集（普露、兰斯洛链第一步、菲布拉尔结算），请先看隐藏要素栏再行动。",
+   "victory": [
+    "5 回合内抵达殖民卫星，或歼灭全部敌人；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "拟·阿伽马被击破（前段另有「6 回合经过」即败北）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "拟·阿伽马（布莱特）",
+    "ZZ高达（捷多）",
+    "Z高达（露）",
+    "托鲁基斯III（杰克斯）",
+    "地狱死神高达改（迪奥）",
+    "重武装高达改（特洛瓦）",
+    "沙漠高达改（卡特尔）",
+    "飞翼高达零式改（希罗）",
+    "卡碧尼Mk-II（普露）——经说得加入（见隐藏要素）"
+   ],
+   "events": [
+    "过关后：菲布拉尔（Febral）到手（达成击坠数条件时，见隐藏要素）。"
+   ],
+   "secrets": [
+    "在（A）击坠哈曼或（B）让拟·阿伽马登上殖民卫星之前，用捷多对普露「说得」两次 → 普露立即加入。注意：捷多一旦攻击过普露，本隐藏即作废；Namu 攻略另记说得前须先击坠格雷米令其闭嘴，两说并记。",
+    "用贾米尔攻击兰斯洛（Lancerow）一次（只是交战，不要在此击坠他）。后续步骤在第29话·宇宙线与第30话·宇宙线。",
+    "进入本话之前贾米尔的击坠数 ≥20 → 本话过关后菲布拉尔可用。门槛时点两说并记：Akurasu 的 Secrets 页作「进入第22话之前」，其流程图本话栏作「本话结束前」，本站以 Secrets 页为准规划（在第21话前补满）。"
+   ],
+   "unlocks": [
+    "第23话·殖民地坠落线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 的 Secrets 页把本话称作「Space Route（宇宙路线）」，而其流程图把菲布拉尔结算放在殖民地坠落线——路线称呼在 Akurasu 内部不一致，本站从流程图（殖民地坠落线）并在此注明。"
+  },
+  {
+   "code": "第23话·救出维加线",
+   "slug": "stage-23a-vega",
+   "zh": "螺旋城坠落之日",
+   "ja": "螺旋城の落ちる日",
+   "en": "The Day the Spiral Castle Falls",
+   "route": "第21话后分歧 · 救出维加线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第22话·救出维加线过关后进入。",
+   "victory": [
+    "击破螺旋城（Spiral Castle）"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "骑士GEAR凰牙（北斗）",
+    "瓦尔哈拉（维加）"
+   ],
+   "events": [
+    "本话起北斗离开电童（不再任副驾驶员），改乘骑士GEAR凰牙；电童取得「加特林野猪」与「公牛角（Bull Horn）」形态、失去「独角兽钻头」形态。",
+    "数据武器互斥（原作再现）：此后电童与凰牙都可使用「超兽王牙」形态，但一方使用时，另一方暂时被锁定「超兽王牙／独角兽钻头／里奥圆环」三种形态（Akurasu 流程图注记）。",
+    "骑士GEAR凰牙自带「独角兽钻头」「龙焰」「毒蛇鞭」「超兽王牙」四种形态。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第24话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话·殖民地坠落线",
+   "slug": "stage-23b-colony",
+   "zh": "无尽的华尔兹",
+   "ja": "エンドレスワルツ",
+   "en": "Endless Waltz",
+   "route": "第21话后分歧 · 殖民地坠落线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第22话·殖民地坠落线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "拟·阿伽马、希罗或加洛德被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "贝尔迪哥（卡里斯）",
+    "飞翼高达零式改（希罗）",
+    "双头龙高达（五飞）——经说得可提前即时加入（见隐藏要素）"
+   ],
+   "events": [
+    "过关后：杰尼斯改·艾尼尔专用机（艾尼尔）、双头龙高达（五飞）加入（未在关内说得时）。"
+   ],
+   "secrets": [
+    "先用希罗攻击五飞，再用希罗对五飞「说得」→ 五飞当场加入；不说得则过关后才加入（只是时机差，非永久错过）。",
+    "（据 Namu 攻略 §2.3）若用说得（而非击坠）收伏五飞 → 增援的恶魔高达携带部件变为「超级修理包」与「妈妈的炖菜」。"
+   ],
+   "unlocks": [
+    "第24话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "愤怒的火山岛基地！",
+   "ja": "怒りの火山島基地！",
+   "en": "Rage of the Volcanic Island Base!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第23话（任一线）过关后进入，两线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "孔巴特拉V追加攻击「格兰达沙（Grand Dasher）」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第25话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "东方不败死两次",
+   "ja": "東方不敗は二度死ぬ",
+   "en": "The Undefeated of the East Dies Twice",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第24话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或多蒙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "神高达（多蒙）",
+    "闪光高达（丽）",
+    "风云再起"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "复活！！真盖塔机器人！",
+   "ja": "復活！！真ゲッターロボ！",
+   "en": "Resurrection!! Shin Getter Robo!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第25话过关后进入。本话是东方不败隐藏链的第一步，请先看隐藏要素。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "德克萨斯麦克（杰克）",
+    "新盖塔机器人强化为真盖塔机器人"
+   ],
+   "events": [
+    "过关后：波尔特斯V（健一、一平、大次郎、惠、日吉）归队。"
+   ],
+   "secrets": [
+    "本话击破东方不败驾驶的恶魔高达（Akurasu 流程图简记为「击破东方不败」，其 Secrets 页明确为击破其恶魔高达；Namu 攻略另提醒不要让其逃走）。下一步在第27话（真盖塔追加武装事件），结算可用在第28话之后。"
+   ],
+   "unlocks": [
+    "第27话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "开拓吧！！地球的未来",
+   "ja": "切り拓け！！地球の未来",
+   "en": "Break Through!! The Earth's Future",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第26话过关后进入。本话含真盖塔最终技事件与两条击坠数累计的起点。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或真盖塔被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "德克萨斯麦克PK（杰克）",
+    "波尔特斯V（健一、一平、大次郎、惠、日吉）",
+    "铁人（九十九）",
+    "波尔特斯V追加攻击「超电磁球」",
+    "真盖塔机器人追加攻击「阳光石破（Stoner Sunshine）」与「盖塔最终冲击（Getter Final Crash）」——经下方隐藏事件取得"
+   ],
+   "events": [],
+   "secrets": [
+    "巨大戈尔（戈尔皇帝）登场时或登场之后的任意时刻，让真盖塔的 HP 降到阈值以下 → 永久追加「盖塔最终冲击」与「阳光石破」。⚠️ 阈值两源不一：Akurasu 流程图作「30% 以下」，Namu 攻略作「1/4（25%）以下」——本站并记两说、不写死单一数字，实操时请把 HP 压到 25% 以下以兼顾两说。",
+    "达成上面的真盖塔追加武装事件，即完成东方不败链的第二步；东方不败与尊者高达在第28话过关后正式可用（第28话中他会以剧情单位登场）。",
+    "九十九的击坠数须在第31话结束前累计 ≥10（本话起计）——达标则第32话起他驾驶阿尔斯托梅利亚出击；据 Akurasu 时间表，未达标时九十九会在第32话死亡，务必留意（结算见第31话两线与第32话页）。"
+   ],
+   "unlocks": [
+    "第28话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "明天的「舰长」就是你！",
+   "ja": "明日の「艦長」は君だ！",
+   "en": "Tomorrow's \"Captain\" Is You!",
+   "route": "两线合流（主角性别版本）",
+   "area": "",
+   "type": "分歧前共通关",
+   "prerequisite": "第27话过关后进入。本话过关后第五次（最后一次）分歧：选择「留在 GEAR 本部」或「去宇宙」，第29–31话不同，第32话合流，两条线各有专属隐藏结算。本话本身按所选主角性别有两个版本（男版／女版），关名与条件仅主角名不同，本站合为一页并列两版差异。",
+   "victory": [
+    "（男版）让明人移动到抚子号旁；其后歼灭全部敌人",
+    "（女版）让菲奥娜移动到抚子号旁；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、明人（男版）或菲奥娜（女版）、或抚子号Y单元被击破（前段）；后段仅我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "骑士GEAR凰牙（北斗）",
+    "抚子号强化为抚子号Y单元",
+    "尊者高达（东方不败）——第26–27话隐藏链达成后于本话后正式可用"
+   ],
+   "events": [
+    "本话不可出击人员：男版为凯、凉子、光、泉、九十九；女版为明人、凯、凉子、光、泉、九十九（Akurasu 流程图两版名单不同，照录）。",
+    "Akurasu 的 Story 索引把本话拆成 28A（拉乌尔版）/28B（菲奥娜版）两个链接，Complete Chart 亦分版记载；本站按《A》男女版合并一页的先例合并，差异如上并列。"
+   ],
+   "secrets": [
+    "过关后选「去宇宙」→ 立下「G比特＋蒂法副驾驶」与「普露兹＋卡碧尼Mk-II」两条链（结算在第29–31话·宇宙线）。",
+    "过关后选「留在 GEAR 本部」→ 立下「赞波特3 离子炮」与「凰牙武器改造全满」两条链（结算在第29话·GEAR本部线）。两组互斥，一周目只能取其一。"
+   ],
+   "unlocks": [
+    "第29话（按选择进入 GEAR 本部线或宇宙线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第29话·GEAR本部线",
+   "slug": "stage-29a-gear",
+   "zh": "北斗的呐喊、银河的眼泪",
+   "ja": "北斗の叫び、銀河の涙",
+   "en": "Hokuto's Cries, Ginga's Tears",
+   "route": "第28话后分歧 · GEAR 本部线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第28话过关后选择「留在 GEAR 本部」进入。本话是本线两件隐藏结算的关口（离子炮、凰牙满改造），请先看隐藏要素。",
+   "victory": [
+    "击破凰牙；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号或电童被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "骑士GEAR凰牙（北斗）——经下方事件可提前即时加入",
+    "赞波特3追加攻击「离子炮（Ion Cannon）」——本线专属（见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "第28话后选 GEAR 本部线的结算：本话赞波特3自带「离子炮」攻击出击。",
+    "用电童攻击凰牙 → 凰牙重新归队时武器改造为全满（此前投入在凰牙武器上的改造资金会退还，按 Akurasu 流程图注记结算）。",
+    "让电童与凰牙发生交战 → 凰牙（北斗）立即加入（而非过关后）。"
+   ],
+   "unlocks": [
+    "第30话·GEAR本部线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图原文胜利条件为两段并列（先击破凰牙、再全灭敌人），与隐藏要素的交战事件相呼应，本站按两段呈现。"
+  },
+  {
+   "code": "第29话·宇宙线",
+   "slug": "stage-29b-space",
+   "zh": "看见月亮了！",
+   "ja": "月が見えた！",
+   "en": "I Can See the Moon!",
+   "route": "第28话后分歧 · 宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第28话过关后选择「去宇宙」进入。本话是普露兹说得链与兰斯洛链第二步的关口，顺序错了会永久失败，请先看隐藏要素。",
+   "victory": [
+    "第 5 回合内抵达殖民地激光炮（Colony Laser）；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "拟·阿伽马被击破（前段另有「6 回合经过」即败北）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "G猎鹰（帕娜）——可与高达双X、高达空中霸王Burst、高达豹式Destroy合体"
+   ],
+   "events": [
+    "过关后：普露兹加入（经说得达成时；正式可出击在第30话的出击准备画面起）。"
+   ],
+   "secrets": [
+    "前置：已取得普露。本话内按顺序：①捷多与普露分别各攻击普露兹一次；②击坠格雷米；③用捷多对普露兹「说得」→ 加入。顺序错（先说得后击坠格雷米等）会永久失败（据 Akurasu Secrets 与 Namu 攻略一致）。",
+    "用贾米尔再攻击兰斯洛一次（仍不要击坠）。最后一步在第30话·宇宙线。"
+   ],
+   "unlocks": [
+    "第30话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·GEAR本部线",
+   "slug": "stage-30a-gear",
+   "zh": "GEAR毁灭！",
+   "ja": "GEAR壊滅！",
+   "en": "GEAR Destroyed!",
+   "route": "第28话后分歧 · GEAR 本部线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第29话·GEAR本部线过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号或凰牙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话维加不可出击。"
+   ],
+   "secrets": [
+    "（据 Namu 攻略 §2.3）在北斗与斯巴鲁所乘的骑士雷加西（Knight Legacy）交战后对其说得 → 增援的恶魔高达与大尊者高达（Grand Master Gundam）×2 携带的部件升级（含「妈妈的炖菜」×2）。",
+    "九十九的击坠数须在下一话（第31话）结束前累计 ≥10（本线同样适用，见第31话·GEAR本部线页）。"
+   ],
+   "unlocks": [
+    "第31话·GEAR本部线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·宇宙线",
+   "slug": "stage-30b-space",
+   "zh": "战士，再度…",
+   "ja": "戦士、再び･･･",
+   "en": "Warriors, Again...",
+   "route": "第28话后分歧 · 宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第29话·宇宙线过关后进入。本话是兰斯洛说得链的最后一步。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "拟·阿伽马被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "卡碧尼Mk-II（普露兹未乘机时配给普露兹）",
+    "克劳达（兰斯洛）——经说得加入（见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "先用贾米尔攻击兰斯洛一次，再用贾米尔对兰斯洛「说得」→ 兰斯洛驾驶克劳达立即加入。前两步在第22话·殖民地线与第29话·宇宙线，缺一不可。",
+    "第29话说得成功的普露兹自本话的出击准备画面起可正式出击（Akurasu Secrets 明记）。"
+   ],
+   "unlocks": [
+    "第31话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话·GEAR本部线",
+   "slug": "stage-31a-gear",
+   "zh": "布彻的最后一天",
+   "ja": "ブッチャー最期の日",
+   "en": "Butcher's Last Day",
+   "route": "第28话后分歧 · GEAR 本部线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第30话·GEAR本部线过关后进入。本话是班多克（布彻）决战，也是阿尔斯托梅利亚击坠数的截止关。",
+   "victory": [
+    "击破班多克；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "抚子号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后（大批换装/归队，两线共通结算）：ν高达、沙扎比登场；ZZ高达强化为全装甲ZZ高达；拟·阿伽马强化为拉·凯拉姆；量产型ν高达可编入（达成条件时）；明人的艾斯特巴里斯强化为黑百合／高机动型黑百合；凯的艾斯特巴里斯强化为超级艾斯特巴里斯；凉子、泉、光的机体强化为艾斯特巴里斯Custom；阿尔斯托梅利亚（达成击坠条件时）。"
+   ],
+   "secrets": [
+    "九十九的击坠数在本话结束前累计 ≥10 → 第32话起他驾驶阿尔斯托梅利亚出击（见第32话页）。Akurasu 流程图在本话（GEAR本部线）栏标注此截止，与其 Secrets 页「第31话结束前」的表述一致。"
+   ],
+   "unlocks": [
+    "第32话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图本话过关后名单的原文有字符残缺（「(Subaru)」对应不明、「v Gundam」疑为「ν高达」的字符丢失），本站按可辨认部分整理并在此注明，未辨认部分不臆测。"
+  },
+  {
+   "code": "第31话·宇宙线",
+   "slug": "stage-31b-space",
+   "zh": "我是杜米纳斯…",
+   "ja": "私はデュミナス･･･",
+   "en": "I am Duminas...",
+   "route": "第28话后分歧 · 宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第30话·宇宙线过关后进入。本话是宇宙线的收官战（对恶魔高达），也是 G比特链的结算关。",
+   "victory": [
+    "击破恶魔高达；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "拟·阿伽马或主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后（本线结算）：高达双X与高达X取得「G比特（G-Bit）」攻击；蒂法成为加洛德（高达双X）的副驾驶员。",
+    "过关后（大批换装/归队，两线共通结算）：ν高达、沙扎比登场；ZZ高达强化为全装甲ZZ高达；拟·阿伽马强化为拉·凯拉姆；量产型ν高达自本话（宇宙线）过关后可编入（达成条件时，Akurasu Secrets 记为第31话宇宙线／第32话后）；明人的艾斯特巴里斯强化为黑百合／高机动型黑百合；凯的艾斯特巴里斯强化为超级艾斯特巴里斯；凉子、泉、光的机体强化为艾斯特巴里斯Custom；阿尔斯托梅利亚（达成击坠条件时）。"
+   ],
+   "secrets": [
+    "第28话后选宇宙线的结算：本话过关后 G比特武装正式可用，蒂法成为加洛德的副驾驶员。",
+    "九十九的击坠数在本话结束前累计 ≥10 → 第32话起他驾驶阿尔斯托梅利亚出击。Akurasu 的 Secrets 页以「第31话结束前」为全线共通截止；其流程图只在 GEAR 本部线第31话栏标注了此项，宇宙线以本页并记为准。"
+   ],
+   "unlocks": [
+    "第32话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": "Akurasu 流程图本话过关后名单的原文有字符残缺（「v Gundam」疑为「ν高达」的字符丢失、「(Subaru)」对应不明），本站按可辨认部分整理并在此注明。"
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "这是我们所求的战争",
+   "ja": "僕らが求めた戦争だ",
+   "en": "The War We Asked For",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第31话（任一线）过关后进入，两线合流。本话是艾克赛伦斯最终框架与两件长线隐藏（高机动型黑百合、阿尔斯托梅利亚）的结算关。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "艾克赛伦斯取得最终框架：拉乌尔为「Lightning（闪电）」、菲奥娜为「Eternal（永恒）」"
+   ],
+   "events": [],
+   "secrets": [
+    "第1话后选了抚子号B线 → 本话起明人驾驶高机动型黑百合（而非普通黑百合）出击（Akurasu Secrets 明记；选拉·凯拉姆线则为普通型）。",
+    "九十九在第31话结束前击坠 ≥10 → 本话开始时他驾驶阿尔斯托梅利亚出击。⚠️ 未达标时，据 Akurasu 时间表，九十九会在本话死亡——第27–31话务必给他补足击坠数。",
+    "达成第2话条件者，量产型ν高达自第31话（宇宙线）过关后／本话后可正式编入出击（Akurasu Secrets 的两种表述并记）。"
+   ],
+   "unlocks": [
+    "第33话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "消失在银河中的男人",
+   "ja": "銀河に消えた男",
+   "en": "The Man Who Vanished into the Galaxy",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第32话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "Akurasu 的 Complete Chart 本话「机体加入」栏为空白，未列出本关加入单位，本站不补写。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "超越「激钢牙」吧！",
+   "ja": "「ゲキ・ガンガー」を越えてゆけ！",
+   "en": "Surpassing \"Gekiganger\"!",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第33话过关后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后：抚子号Y单元强化为抚子号C；骑士GEAR凰牙（阿尔泰尔）归队，凰牙失去全部数据武器形态；电童取得「独角兽钻头」「龙焰」「毒蛇鞭」形态，并重新以北斗为副驾驶员。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第35话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "暴风之海",
+   "ja": "嵐の海",
+   "en": "A Stormy Sea",
+   "route": "两线合流",
+   "area": "",
+   "type": "合流关",
+   "prerequisite": "第34话过关后进入。本话可提前取得凤凰装（Phoenix Aile），请先看隐藏要素。",
+   "victory": [
+    "瓦尔哈拉抵达阿尔克托斯（Arctus）；其后歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、电童、凰牙或瓦尔哈拉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "阿尔斯托梅利亚（源一郎）",
+    "电童与骑士GEAR凰牙取得「凤凰装（Phoenix Aile）」形态",
+    "电童追加攻击「黎明长剑（Longsword of Dawn）」"
+   ],
+   "events": [
+    "本话斯巴鲁不可出击。"
+   ],
+   "secrets": [
+    "本话击破零（Zero）3 次 → 电童与凰牙在本话即取得「凤凰装」形态；未达成则改在第36话取得（见第36话页）。"
+   ],
+   "unlocks": [
+    "第36话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "阿尔克托斯的真相",
+   "ja": "アルクトスの真実",
+   "en": "The Truth About Arctus",
+   "route": "两线合流（主角性别版本）",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "第35话过关后进入。Akurasu 的 Story 索引把本话拆成 36A（拉乌尔版）/36B（菲奥娜版）两个链接，但 Complete Chart 只列一栏、无 A/B 区分——两版的具体差异无来源记载，本站合并为一页，不编造差异。",
+   "victory": [
+    "击破蒂斯（Thugater）、德斯皮尼斯（Eleos）与拉利亚（Hypokrisis）；并在同一回合内击破向量零（Vector Zero）与迦尔法皇帝"
+   ],
+   "defeat": [
+    "我方战舰、电童或凰牙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "电童与凰牙取得「凤凰装」形态",
+    "电童追加攻击「黎明长剑」"
+   ],
+   "events": [],
+   "secrets": [
+    "未在第35话达成「击破零 3 次」者，电童与凰牙在本话取得「凤凰装」（Akurasu Secrets 明记）。"
+   ],
+   "unlocks": [
+    "最终话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "杜米纳斯的答案",
+   "ja": "デュミナスの答え",
+   "en": "Duminas' Answer",
+   "route": "全线共通",
+   "area": "",
+   "type": "最终关",
+   "prerequisite": "第36话过关后进入，全路线共通的最终话。出击数 15（主人公＋14 个单位栏位，据 Akurasu 流程图）。",
+   "victory": [
+    "击破杜米纳斯"
+   ],
+   "defeat": [
+    "我方战舰或主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作没有熟练度（SR 点）系统：Akurasu 的 Complete Chart 没有熟练度栏目，日文维基与 Namu 攻略的系统记载中也无此系统（证据见本作主页）；本作的隐藏要素全部由事件条件（说得链、击坠数、路线选择、回合数）触发。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "杜米纳斯的最终形态依次为质子（Proton）→氘核（Deuteron）→氚核（Triton）三形态（据日文 SRW Wiki 的杜米纳斯条目）。",
+    "结局共 4 种：由主人公选择与所走路线造成细微差异，核心差异是艾克赛伦斯在结局后的处置（据日文维基）。在过去击败杜米纳斯后，借其爆炸驱动时流引擎返回原时代；「坏未来」中战舰被击沉、布莱特与琉璃死亡的历史随之被改写抹消。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关（进入结局；读取通关存档可开周回，继承规则见本作主页）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 Complete Chart 只刊载胜利/败北条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次），日文攻略 Wiki 与 Namu 攻略亦无逐关敌方配置表（仅纸质攻略本可能有载）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "敌方等级：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式——《超级机器人大战A》的「我方上位 20 名驾驶员平均等级」公式只属于《A》，切勿套用到本作（见本作主页）。在找到本作专属来源之前，敌方等级一律不臆测。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Complete Chart（全关卡胜败条件、隐藏条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars R》主条目（发售信息、参战作品、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/R"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦R（话数口径、系统、参战作品与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6R"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

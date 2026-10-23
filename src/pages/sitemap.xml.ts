@@ -16,6 +16,7 @@ import srwalpha from '../data/srwalpha-missions.json';
 import srwalphagaiden from '../data/srwalphagaiden-missions.json';
 import srwa from '../data/srwa-missions.json';
 import srwimpact from '../data/srwimpact-missions.json';
+import srwr from '../data/srwr-missions.json';
 import { canonical } from '../lib/site';
 
 export function GET() {
@@ -28,7 +29,7 @@ export function GET() {
     platformSlugs.add(g.platformSlug);
     paths.add(`${g.slug}/`);
     // /secrets/ 与 /units/ 已改为重定向页（noindex），不进 sitemap；
-    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a 与 srw-impact 有真实总表页，其余作的重定向页同样不收录。
+    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact 与 srw-r 有真实总表页，其余作的重定向页同样不收录。
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
@@ -99,6 +100,10 @@ export function GET() {
   paths.add('srw-impact/missions/');
   for (const m of (srwimpact as any).missions ?? []) {
     if (m.slug) paths.add(`srw-impact/missions/${m.slug}/`);
+  }
+  paths.add('srw-r/missions/');
+  for (const m of (srwr as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-r/missions/${m.slug}/`);
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...paths]

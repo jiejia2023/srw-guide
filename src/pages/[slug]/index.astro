@@ -18,6 +18,7 @@ import SrwAlphaMissionList from '../../components/SrwAlphaMissionList.astro';
 import SrwAlphaGaidenMissionList from '../../components/SrwAlphaGaidenMissionList.astro';
 import SrwAMissionList from '../../components/SrwAMissionList.astro';
 import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
+import SrwRMissionList from '../../components/SrwRMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -42,6 +43,7 @@ const isSrwAlpha = g.slug === 'srw-alpha';
 const isSrwAlphaGaiden = g.slug === 'srw-alpha-gaiden';
 const isSrwA = g.slug === 'srw-a';
 const isSrwImpact = g.slug === 'srw-impact';
+const isSrwR = g.slug === 'srw-r';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -1100,6 +1102,142 @@ const isSrwImpact = g.slug === 'srw-impact';
     </div>
   )}
 
+  {isSrwR && (
+    <div>
+      <h2>剧情概要：坏未来与被改写的历史</h2>
+      <p>本作（2002 年 8 月 2 日发售，开发：A.I＋Banpresoft）是 GBA 上的第二作机战正传。搭载<strong>时流引擎</strong>（以存在于时间流中的「时粒子」为动力的永久机关）的主人公机<strong>艾克赛伦斯</strong>在月面实战测试中遭神秘存在<strong>杜米纳斯</strong>袭击：第1–4话的「坏未来」里，杜米纳斯击沉战舰——原作中本应存活的布莱特、琉璃等人在此死去；第4话后时流引擎暴走，主角、拉吉、瑞穗三人连机被送回 <strong>5 年前</strong>。此后在过去与各作品势力共同作战、暗中追查杜米纳斯——它原是被「创造主」造出又被否定的人造生命体，使役自造的人造人<strong>科技·派德斯</strong>三人（蒂斯、拉利亚、德斯皮尼斯）潜入各组织制造「错误」，企图回到自己诞生之时质问创造主。最终在过去将其击败后，一行借其爆炸返回原时代，坏未来的历史被改写抹消。中文维基记载标题「R」取自 <strong>Reversal（逆转）</strong>（日文维基未载此释义，引用时请注意来源差异）。以上梗概据日文维基与日文 SRW Wiki 的杜米纳斯条目。</p>
+
+      <h2>两位主人公与「不存在的另一位」</h2>
+      <p>开局二选一：<strong>拉乌尔·格雷登</strong>（ラウル・グレーデン，Raul Gureden）或<strong>菲奥娜·格雷登</strong>（フィオナ・グレーデン，Fiona Gureden）；固定同行者是时流引擎负责人<strong>拉吉·蒙托亚</strong>与艾克赛伦斯／框架开发者<strong>斋木瑞穗</strong>，两人的剧情地位随主角性别翻转（选拉乌尔时瑞穗是女主角位，选菲奥娜时反之）。<strong>与《A》最大的结构差异：未被选中的主角在本作根本不存在</strong>——不是宿敌、不登场（Namu 的 Excellence Team 条目明言两人「不能共存」；OG 系列才改设为双胞胎兄妹并存，属 OG 的再设定，不要套到本作）。本作的固定反派是杜米纳斯与科技·派德斯。主角差异只落在少数关卡：第28话有男女两版（胜利条件点名的人物不同）、第32话最终框架分化、第36话在索引上分 A/B 版（条件无差异记载），以及 4 种结局的细微差别。</p>
+
+      <h2>艾克赛伦斯：系列首台多框架换装机</h2>
+      <p>艾克赛伦斯的核心是搭载时流引擎的战斗机「阿真特战斗机（Argent Fighter）」，与各<strong>框架</strong>合体作战，出击前选用框架；它本是为救灾开发、因资金不足接受军方援助才改作战斗用（据日文维基的艾克赛伦斯条目）。框架按用途分工，全框架改造共享、自带 EN 回复（小）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>框架</th><th>用途</th><th>取得时点</th></tr></thead>
+          <tbody>
+            <tr><td>Striker（格斗）</td><td>陆战／格斗</td><td>第1话（开局）</td></tr>
+            <tr><td>Cosmodriver（宇宙）</td><td>宇宙</td><td>第1话（开局）；第4话后时跳时<strong>丢失</strong>，第21话过关后取回</td></tr>
+            <tr><td>Gunner（射击）</td><td>炮击／长射程</td><td>第9话</td></tr>
+            <tr><td>Flyer（飞行）</td><td>空中</td><td>第11话</td></tr>
+            <tr><td>Diver（潜水）</td><td>水中</td><td>第13话·弗里登线；走抚子号线则第15话</td></tr>
+            <tr><td>Lightning（闪电）／Eternal（永恒）</td><td>最终框架（拉乌尔／菲奥娜）</td><td>第32话</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>最终框架男女性能与武器性能相同、仅武器名称不同（日文维基）；Namu 攻略另有评价性注记：Eternal 的最强武器是格斗系而菲奥娜射击值较高、且 Eternal 无剑不能「切払い」，实战略逊于 Lightning——属攻略评价，与「数据面相同」不矛盾，并记于此。</p>
+
+      <h2>时间旅行的规则：带回一切，但丢一个框架</h2>
+      <ul>
+        <li><strong>不是重开、不是平行线</strong>：第4话后的时跳在同一周目内连续进行，<strong>等级、资金、改造、击坠数全部原样带回 5 年前</strong>。</li>
+        <li>未来版单位回到过去后<strong>换成其过去形态</strong>继续使用且<strong>改造继承</strong>（如抚子号C→抚子号、高机动型黑百合→艾斯特巴里斯、战舰链 拉·凯拉姆→弗里登→拟·阿伽马→拉·凯拉姆 全程共享改造，详见下节）。</li>
+        <li>代价：艾克赛伦斯在时跳中<strong>丢失 Cosmodriver 框架</strong>，第5–21话主角机没有宇宙框架可用，直到第21话过关后取回——配装时请注意这一段的宇宙关。</li>
+      </ul>
+
+      <h2>关卡结构：一周目 37 话、51 个舞台、4 种结局</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>分歧点</th><th>选择</th><th>不同关卡</th><th>合流</th></tr></thead>
+          <tbody>
+            <tr><td>第1话后</td><td>抚子号B／拉·凯拉姆</td><td>第2–6话（各 5 关）</td><td>第7话</td></tr>
+            <tr><td>第12话后</td><td>抚子号／弗里登</td><td>第13–14话（各 2 关）</td><td>第15话</td></tr>
+            <tr><td>第15话后</td><td>塞文要塞／GEAR 本部</td><td>第16–17话（各 2 关）</td><td>第18话</td></tr>
+            <tr><td>第21话后</td><td>救出维加／阻止殖民地坠落</td><td>第22–23话（各 2 关）</td><td>第24话</td></tr>
+            <tr><td>第28话后</td><td>GEAR 本部／宇宙</td><td>第29–31话（各 3 关）</td><td>第32话</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>话数口径：日文维基作「全 37 话／全 51 舞台」——37 是一周目实际游玩话数，51 是计入全部分歧版本的不同关卡数，本站按 51 建页（第28话、第36话的性别版本各合并一页）。结局共 <strong>4 种</strong>，由主人公选择与路线造成细微差异，核心差异是艾克赛伦斯在结局后的处置（日文维基）。</p>
+
+      <h2>没有熟练度（SR 点）</h2>
+      <ul>
+        <li><strong>本作没有熟练度／SR 点系统。</strong>证据：Akurasu 的 Complete Chart 每话只列胜败条件与隐藏条件、无一话有熟练度栏目；日文维基的系统节与 Namu 攻略同样无此系统；隐藏要素全部是事件型条件。本站各关页面因此不设熟练度取得条件，只在概要表注明此事——请勿套用《α》《IMPACT》的规则。</li>
+        <li><strong>敌方等级</strong>：本次核查的日/韩/英来源均未记载本作存在敌方等级缩放公式。《A》的「第2话起随我方上位 20 名驾驶员平均等级浮动」是《A》专属的记载（Namu 的 A 攻略专节），没有任何来源说 R 沿用——本站不会把 A 的公式写进 R 的页面；逐关敌方配置本身亦无公开来源刊载，各页标为待核实。</li>
+      </ul>
+
+      <h2>援护：统一技能制，可细调</h2>
+      <ul>
+        <li>本作的援护是<strong>统一技能「援护攻击・防御」</strong>（沿 α外传的援护系统扩充）：持有该技能的驾驶员可援护攻击与援护防御，<strong>每回合可用次数由技能等级决定</strong>——不是《A》的信赖度制，也不是《IMPACT》那种拆成两个独立技能。</li>
+        <li>本作起可由玩家<strong>设定援护的优先顺序与使用武器</strong>（据日文维基的本作变更点）。</li>
+        <li><strong>合体攻击可以被援护攻击</strong>，但合体攻击<strong>不能无视敌方的援护防御</strong>（与部分作品不同，引用时请注意）。</li>
+      </ul>
+
+      <h2>合体攻击：共 19 种</h2>
+      <p>本作已有合体攻击，Akurasu 共列 19 种，多数组合技有<strong>驾驶员配对白名单</strong>（不是同机体任意驾驶员都行）。代表例：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>合体攻击</th><th>参与机</th><th>威力</th><th>备注</th></tr></thead>
+          <tbody>
+            <tr><td>双重卫星加农炮</td><td>高达X＋高达双X</td><td>6000</td><td>需 5 回合充能；仅限指定驾驶员配对（加洛德与维兹／罗亚贝／贾米尔等）</td></tr>
+            <tr><td>石破LoveLove天惊拳</td><td>神高达＋闪光高达</td><td>5200</td><td>气力 130</td></tr>
+            <tr><td>究极石破天惊拳</td><td>神高达＋尊者高达</td><td>5000</td><td>气力 140</td></tr>
+            <tr><td>Shuffle 同盟拳</td><td>神＋麦克斯特＋玫瑰＋飞龙＋螺栓 五机</td><td>4800</td><td>—</td></tr>
+            <tr><td>超电磁 Spin V 字斩（合体版）</td><td>孔巴特拉V＋波尔特斯V</td><td>5500</td><td>气力 130</td></tr>
+            <tr><td>双子 G 比特</td><td>高达X 系＋高达双X</td><td>4600</td><td>仅加洛德／贾米尔／卡里斯／兰斯洛的组合；双X 与 G 猎鹰合体时锁定</td></tr>
+            <tr><td>Final Dynamic Special</td><td>魔神Z＋大魔神＋真盖塔1</td><td>4200</td><td>仅限甲儿与铁也在魔神系机体上（互换亦可）</td></tr>
+            <tr><td>编队攻击</td><td>艾斯特巴里斯 凉子／光／泉 三机</td><td>2700（Custom 版 3000）</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>改造：继承链与共享，没有全改造奖励的记载</h2>
+      <ul>
+        <li><strong>后继机改造继承</strong>（Akurasu「Upgrade Carryover」页）：ZZ→全装甲ZZ（旧机保留为装甲形态）、杰刚（凯拉）→高达Mk-III、闪光→神、空中霸王→Burst、豹式→Destroy、黑百合⇔艾斯特巴里斯（明人）、Cell Fighter→Cell Booster、新盖塔⇔真盖塔（来回都带）；战舰链 拉·凯拉姆→弗里登→拟·阿伽马→拉·凯拉姆 全程继承。</li>
+        <li><strong>改造共享</strong>：超级高达＝高达Mk-II＝G 飞行器、高达X＝X 分裂者、豹式＝豹式 S-1、高机动型黑百合＝黑百合＝艾斯特巴里斯Custom（明人）、电童＝全装甲电童、法尔基里＝瓦尔哈拉；<strong>艾克赛伦斯的全部框架共享一份改造</strong>（改任一框架即全框架同步，含最终框架）。</li>
+        <li><strong>段数与全改奖励</strong>：Akurasu 没有本作的改造总览页——仅其 Bugs 页提到凰牙「通常上限 9 段」的表述；全机统一上限<strong>待核实</strong>，本站不套用他作的 10 段。<strong>「全改造奖励（FUB）」系统在本作的资料中无记载</strong>，「武器全满」只作为凰牙隐藏事件的结果出现（第29话·GEAR本部线）。</li>
+      </ul>
+
+      <h2>本作的新设与变更系统</h2>
+      <ul>
+        <li><strong>击落（撃ち落とし）</strong>：在「切払い／盾防御」之外新增的第三种防御技能——持枪械的机体可击落导弹、浮游炮等实弹系攻击使其无伤；本作中<strong>仅限持有新人类系技能的驾驶员</strong>可发动（《D》起才放宽）。</li>
+        <li><strong>敌方零件生效</strong>：本作起敌人持有的强化零件对敌人本体生效（屏障、射程等），击破后可夺得该零件；被敌人用掉的消费型零件则无法入手——第19话、第23话·殖民地线、第30话·GEAR本部线的隐藏掉落变化即源于此。</li>
+        <li><strong>精神指令「爱」</strong>：自本作起由回复系改为强力的攻击指令（据日文维基的本作变更点）。</li>
+        <li><strong>电童的原作再现</strong>：电童／凰牙靠特殊电池驱动、普通补给无效，须由细胞战斗机／助推器／瓦尔哈拉的「Hyper 电池」在射程内回满 EN；必杀技 Final Attack 的威力随剩余 EN 变化、用后 EN 留 10；数据武器形态在电童与凰牙之间互斥占用（见第23话·救出维加线页）。</li>
+        <li>操作面：相对《A》新增战斗／对话演示跳过、敌方回合中存盘（日文维基）。另注：本作难度被指偏低，次作《D》因此有意调高难度（日文维基）。</li>
+      </ul>
+
+      <h2>通关继承（周回）</h2>
+      <ul>
+        <li>读取通关存档开始新游戏时：<strong>未花完的资金、机体与武器改造、击坠数全部保留</strong>（Akurasu Clear 页）。</li>
+        <li>日文维基补充：击坠数<strong>前 10 名</strong>的驾驶员获得能力补正——除 SP 外的能力按击坠数折算加成，上限 +100。</li>
+      </ul>
+
+      <h2>参战作品（18 部，含原创）</h2>
+      <p>GEAR战士电童 <strong>★初参战</strong>／机动战舰抚子号（TV）／剧场版 机动战舰抚子号 -The prince of darkness- <strong>★初参战</strong>／机动战士Z高达／机动战士高达ZZ／机动战士高达 逆袭的夏亚／机动武斗传G高达／新机动战记高达W Endless Waltz／机动新世纪高达X <strong>☆掌机初参战</strong>／无敌钢人泰坦3／无敌超人赞波特3／魔神Z／大魔神／剧场版魔神系列／真盖塔机器人对新盖塔机器人 <strong>★初参战</strong>／超电磁机器人孔巴特拉V／超电磁机器波尔特斯V／Banpresto 原创（据日文维基；★为系列初参战、☆为掌机初参战）。注记：英文 Giant Bomb 条目误列《UFO机器人古连泰沙》，日文维基名单中没有此作，切勿采用。</p>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素以<strong>路线旗标、说得链、击坠数门槛</strong>三类为主；第28话后的两组路线隐藏互斥。各步的具体做法写在触发／结算的那一话页面内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>对象</th><th>结算话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>高机动型黑百合</td><td>第32话</td><td>第1话后选抚子号B线</td></tr>
+            <tr><td>量产型ν高达（英康姆型）</td><td>第3话／第31–32话</td><td>第1话后选拉·凯拉姆线 → 第2话 7 回合内抵达第5卢纳阻止坠落</td></tr>
+            <tr><td>高达Mk-III</td><td>第20话</td><td>第1话后选拉·凯拉姆线 → 第4话用陈击坠奎丝的 α·阿索隆</td></tr>
+            <tr><td>高达豹式 S-1 装备</td><td>第13话·弗里登线</td><td>第12话后选弗里登线</td></tr>
+            <tr><td>菲布拉尔</td><td>第22话·殖民地线后</td><td>进第22话前贾米尔击坠 ≥20（且走殖民地线）</td></tr>
+            <tr><td>普露＋卡碧尼Mk-II</td><td>第22话·殖民地线</td><td>击坠哈曼／登陆前捷多说得普露两次（不可攻击她）</td></tr>
+            <tr><td>兰斯洛＋克劳达</td><td>第30话·宇宙线</td><td>贾米尔在第22/29/30话三步交战＋说得链</td></tr>
+            <tr><td>五飞＋双头龙高达（提前）</td><td>第23话·殖民地线</td><td>希罗先攻击再说得五飞，当场加入</td></tr>
+            <tr><td>东方不败＋尊者高达</td><td>第28话后</td><td>第26话击破恶魔高达 → 第27话真盖塔最终技事件</td></tr>
+            <tr><td>真盖塔追加武装（最终冲击＋阳光石破）</td><td>第27话</td><td>巨大戈尔登场后真盖塔 HP 降至阈值以下（25%／30% 两说）</td></tr>
+            <tr><td>G比特＋蒂法副驾驶</td><td>第31话·宇宙线后</td><td>第28话后选宇宙线</td></tr>
+            <tr><td>普露兹＋卡碧尼Mk-II</td><td>第29话·宇宙线</td><td>须先有普露；捷多＋普露各攻击一次 → 击坠格雷米 → 捷多说得</td></tr>
+            <tr><td>赞波特3 离子炮</td><td>第29话·GEAR本部线</td><td>第28话后选 GEAR 本部线</td></tr>
+            <tr><td>凰牙武器改造全满</td><td>第29话·GEAR本部线</td><td>选 GEAR 本部线 → 电童攻击凰牙（旧改造费退还）</td></tr>
+            <tr><td>阿尔斯托梅利亚</td><td>第32话</td><td>九十九在第31话结束前击坠 ≥10（未达标则他于第32话死亡）</td></tr>
+            <tr><td>凤凰装（提前）</td><td>第35话（否则第36话）</td><td>第35话击破零 3 次</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>移植注记</h2>
+      <p>本作并非 GBA 独占：另有日本功能机 <strong>i-appli 移植</strong>（FOMA 903i 以后机型，发行：Bandai Networks，系统向当时最新作规格看齐；中文维基记移植年份为 2007 年）。除此之外迄今无任何主机／现代平台的重制或复刻，也没有 PS2 版（个别中文攻略站标题误标「[PS2]」，勿信）。本站关卡数据全部以 <strong>GBA 原版（2002 年）</strong>为准。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Complete Chart 为主源，与同站 Secrets 页交叉核对，隐藏要素另以 Namu 攻略为第二来源，话数与系统以日文维基互证。已确认的主要分歧与处理：①真盖塔追加武装事件的 HP 阈值 — Akurasu 作 30% 以下、Namu 作 1/4（25%）以下，两说并记于第27话页，实操请压到 25% 以下；②菲布拉尔的击坠门槛时点 — Secrets 页作「进入第22话之前」、流程图作「本话结束前」，从 Secrets 页并注记于第22话·殖民地线页；③量产型ν高达的达成方式 — 流程图只记「7 回合内过关」，Namu 细化为「7 回合内抵达第5卢纳阻止坠落才解锁英康姆型」，从 Namu 并注记于第2话·拉·凯拉姆线页；④高达Mk-III 的条件表述 —「用陈击坠奎丝」（Namu）与「用陈击坠 α·阿索隆」（Akurasu）指向同一事件（奎丝的座机即 α·阿索隆），已合并；⑤Akurasu 的 Secrets 页把第22话称作「Space Route」，与其流程图的殖民地坠落线归属不一致，从流程图并注记；⑥流程图原文的残缺处（第16话·塞文要塞线的括号、第31话两线过关后名单的字符残缺、第18/19/22话等胜败条件的两段并列）均在对应页面照录存疑、不作臆测解读；⑦Akurasu 的 Bugs 页所载漏洞（如第23话杰尼斯改反复 Game Over 叠加改造）是 BUG 而非隐藏要素，本站未将其写成攻略条件。</p>
+    </div>
+  )}
+
   {isSrwImpact && (
     <div>
       <h2>剧情概要：COMPACT2 三部曲的 PS2 扩充重制</h2>
@@ -1492,6 +1630,11 @@ const isSrwImpact = g.slug === 'srw-impact';
     <div>
       <p>本作 <strong>105 个不同关卡全部建有独立攻略页</strong>（每一关一个详情页：第 1 部 37 个、第 2 部 34 个、第 3 部 34 个，含第 1 部第 4 章的拜斯顿·威尔／地上两路线、第 3 部第 3 章的地球／火星／月球三路线与熟练度 ≥50 的隐藏最终章 2 话；一周目实际游玩 101 话（含隐藏章）或 99 话（不含））。下表为按部与章分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（说得链、隐藏容器与跨部连锁都写在触发/结算的那一关里）与坐标地图（敌方配置与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-impact/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwImpactMissionList />
+    </div>
+  ) : isSrwR ? (
+    <div>
+      <p>本作 <strong>51 个不同关卡全部建有独立攻略页</strong>（每一关一个详情页：一周目实际游玩 37 话；计入五次路线分歧的全部版本——第2–6话、第13–14话、第16–17话、第22–23话、第29–31话各两套——共 51 个；第28话与第36话的主角性别版本条件仅主角名不同，合并为一页并列差异）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（说得链、击坠数门槛与路线旗标都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方配置、坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-r/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwRMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

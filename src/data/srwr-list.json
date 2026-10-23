@@ -1,0 +1,505 @@
+{
+ "groups": [
+  {
+   "title": "开局与未来篇（第1话）＋第1话后分歧（第2–6话）",
+   "intro": "第1–4话是「坏未来」时间线：第4话战舰被击沉后时流引擎暴走，主角三人被送回 5 年前，第5话起进入过去篇。第1话过关后在抚子号B／拉·凯拉姆之间二选一，第2–6话完全不同，第7话合流。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "试验武器",
+     "ja": "トライアル・ウェポン",
+     "en": "Trial Weapon",
+     "type": "开局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·抚子号B线",
+     "zh": "火星的后继者",
+     "ja": "火星の後継者",
+     "en": "Martian Successors",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号B线"
+    },
+    {
+     "code": "第2话·拉·凯拉姆线",
+     "zh": "逆袭的夏亚",
+     "ja": "逆襲のシャア",
+     "en": "Char's Counterattack",
+     "type": "路线关",
+     "area": "",
+     "note": "拉·凯拉姆线"
+    },
+    {
+     "code": "第3话·抚子号B线",
+     "zh": "重逢的食谱",
+     "ja": "再会のレシピ",
+     "en": "Recipe for a Reunion",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号B线"
+    },
+    {
+     "code": "第3话·拉·凯拉姆线",
+     "zh": "ν高达",
+     "ja": "νガンダム",
+     "en": "Nu Gundam",
+     "type": "路线关",
+     "area": "",
+     "note": "拉·凯拉姆线"
+    },
+    {
+     "code": "第4话·抚子号B线",
+     "zh": "最糟糕的决战",
+     "ja": "最悪の決戦",
+     "en": "The Worst Battle",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号B线 · 时跳发生"
+    },
+    {
+     "code": "第4话·拉·凯拉姆线",
+     "zh": "最糟糕的结局",
+     "ja": "最悪の結末",
+     "en": "The Worst Outcome",
+     "type": "路线关",
+     "area": "",
+     "note": "拉·凯拉姆线 · 时跳发生"
+    },
+    {
+     "code": "第5话·抚子号B线",
+     "zh": "像是「命运的选择」",
+     "ja": "「運命の選択」みたいな",
+     "en": "Something Like a 'Fateful Decision'",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号B线 · 过去篇"
+    },
+    {
+     "code": "第5话·拉·凯拉姆线",
+     "zh": "给你力量…",
+     "ja": "あなたに、力を･･･",
+     "en": "I'll Give You, Power...",
+     "type": "路线关",
+     "area": "",
+     "note": "拉·凯拉姆线 · 过去篇"
+    },
+    {
+     "code": "第6话·抚子号B线",
+     "zh": "GEAR战士电童",
+     "ja": "GEAR戦士電童",
+     "en": "Gear Fighter Dendoh",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号B线 · 过去篇"
+    },
+    {
+     "code": "第6话·拉·凯拉姆线",
+     "zh": "出击！！新盖塔机器人！",
+     "ja": "出撃！！ネオゲッターロボ！",
+     "en": "Launch!! Neo Getter Robo!",
+     "type": "路线关",
+     "area": "",
+     "note": "拉·凯拉姆线 · 过去篇"
+    }
+   ]
+  },
+  {
+   "title": "合流（第7–12话）",
+   "intro": "两线合流后的共通段：魔神组、赞波特3、G/W 高达组陆续加入；艾克赛伦斯在此段取得 Gunner（第9话）与 Flyer（第11话）框架。",
+   "rows": [
+    {
+     "code": "第7话",
+     "zh": "魔神团队危急！！",
+     "ja": "危うしマジンガーチーム！！",
+     "en": "The Mazinger Team is in Danger!!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "班多克现身！",
+     "ja": "バンドック現る！",
+     "en": "Bandok Arrives!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "炸裂！毒蛇鞭",
+     "ja": "炸裂！バイパーウィップ",
+     "en": "Explosion! Viper Whip",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "登场！！德克萨斯麦克！",
+     "ja": "登場！！テキサスマック！",
+     "en": "Arrival!! Texas Mack!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "我的爱马很凶暴",
+     "ja": "私の愛馬は凶暴です",
+     "en": "My Mount is Fierce",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "别了青春！成为战斗兽的青年！！",
+     "ja": "さらば青春！戦闘獣になった青年！！",
+     "en": "Farewell Youth! The Young Man Who Became a Combat Beast!!",
+     "type": "分歧前共通关",
+     "area": "",
+     "note": "过关后第二次分歧"
+    }
+   ]
+  },
+  {
+   "title": "第12话后分歧（第13–14话）＋合流（第15话）",
+   "intro": "与抚子号同行（孔巴特拉V、波尔特斯V线）或与弗里登同行（Z/ZZ/逆袭的夏亚/X/电童线）；弗里登线可先得 Diver 框架与豹式 S-1 装备。",
+   "rows": [
+    {
+     "code": "第13话·抚子号线",
+     "zh": "破坏孔巴特拉V",
+     "ja": "コン・バトラーVを破壊せよ",
+     "en": "Combattler V Must Be Destroyed",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号线"
+    },
+    {
+     "code": "第13话·弗里登线",
+     "zh": "海之战",
+     "ja": "海の戦い",
+     "en": "Ocean Battle",
+     "type": "路线关",
+     "area": "",
+     "note": "弗里登线"
+    },
+    {
+     "code": "第14话·抚子号线",
+     "zh": "皇帝陛下的礼物",
+     "ja": "皇帝陛下のプレゼント",
+     "en": "The Emperor's Present",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子号线"
+    },
+    {
+     "code": "第14话·弗里登线",
+     "zh": "科罗斯与泽诺亚",
+     "ja": "コロスとゼノイア",
+     "en": "Koros and Zenoia",
+     "type": "路线关",
+     "area": "",
+     "note": "弗里登线"
+    },
+    {
+     "code": "第15话",
+     "zh": "必杀！超高速大助推器！！",
+     "ja": "必殺！超高速グレート・ブースター！！",
+     "en": "Sure Kill! The Super Sonic Great Booster!!",
+     "type": "分歧前共通关",
+     "area": "",
+     "note": "合流 · 过关后第三次分歧"
+    }
+   ]
+  },
+  {
+   "title": "第15话后分歧（第16–17话）＋合流（第18–21话）",
+   "intro": "去塞文要塞（高达系）或留在 GEAR 本部（抚子号/G 高达/魔神系）；第21话过关后艾克赛伦斯取回 Cosmodriver 框架，并迎来第四次分歧。",
+   "rows": [
+    {
+     "code": "第16话·塞文要塞线",
+     "zh": "这是我的最高杰作",
+     "ja": "私の最高傑作です",
+     "en": "This is My Greatest Masterpiece",
+     "type": "路线关",
+     "area": "",
+     "note": "塞文要塞线"
+    },
+    {
+     "code": "第16话·GEAR本部线",
+     "zh": "决战！电童VS凰牙",
+     "ja": "決戦！電童vs凰牙",
+     "en": "Final Battle! Dendoh vs. Ogre",
+     "type": "路线关",
+     "area": "",
+     "note": "GEAR本部线"
+    },
+    {
+     "code": "第17话·塞文要塞线",
+     "zh": "能听见我的声音吗！",
+     "ja": "俺の声が聞こえるか！",
+     "en": "Can You Hear My Voice!",
+     "type": "路线关",
+     "area": "",
+     "note": "塞文要塞线"
+    },
+    {
+     "code": "第17话·GEAR本部线",
+     "zh": "谋略之父瞄准地球",
+     "ja": "謀略の父が地球を狙う",
+     "en": "The Scheming Father Targets Earth",
+     "type": "路线关",
+     "area": "",
+     "note": "GEAR本部线"
+    },
+    {
+     "code": "第18话",
+     "zh": "「真相」不止一个",
+     "ja": "「真実」は一つじゃない",
+     "en": "There Is No One \"Truth\"",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "复苏的生命",
+     "ja": "よみがえる命",
+     "en": "Revival of Life",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "双X启动！",
+     "ja": "ダブルエックス起動！",
+     "en": "Double X Activates!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "黑骑士与母亲的秘密！",
+     "ja": "黒騎士と母の秘密！",
+     "en": "The Black Knight and the Mother's Secret!",
+     "type": "分歧前共通关",
+     "area": "",
+     "note": "过关后第四次分歧"
+    }
+   ]
+  },
+  {
+   "title": "第21话后分歧（第22–23话）＋合流（第24–28话）",
+   "intro": "救出维加（电童线收官）或阻止殖民地坠落（高达系，隐藏要素最密集：普露、兰斯洛链、菲布拉尔）；第26–27话是东方不败链与真盖塔最终技的关口，第28话按主角性别分版本并通向最后分歧。",
+   "rows": [
+    {
+     "code": "第22话·救出维加线",
+     "zh": "在火焰之中",
+     "ja": "炎の中で",
+     "en": "In Flames",
+     "type": "路线关",
+     "area": "",
+     "note": "救出维加线"
+    },
+    {
+     "code": "第22话·殖民地坠落线",
+     "zh": "哈曼的黑影",
+     "ja": "ハマーンの黒い影",
+     "en": "Haman's Black Shadow",
+     "type": "路线关",
+     "area": "",
+     "note": "殖民地坠落线"
+    },
+    {
+     "code": "第23话·救出维加线",
+     "zh": "螺旋城坠落之日",
+     "ja": "螺旋城の落ちる日",
+     "en": "The Day the Spiral Castle Falls",
+     "type": "路线关",
+     "area": "",
+     "note": "救出维加线"
+    },
+    {
+     "code": "第23话·殖民地坠落线",
+     "zh": "无尽的华尔兹",
+     "ja": "エンドレスワルツ",
+     "en": "Endless Waltz",
+     "type": "路线关",
+     "area": "",
+     "note": "殖民地坠落线"
+    },
+    {
+     "code": "第24话",
+     "zh": "愤怒的火山岛基地！",
+     "ja": "怒りの火山島基地！",
+     "en": "Rage of the Volcanic Island Base!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "东方不败死两次",
+     "ja": "東方不敗は二度死ぬ",
+     "en": "The Undefeated of the East Dies Twice",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "复活！！真盖塔机器人！",
+     "ja": "復活！！真ゲッターロボ！",
+     "en": "Resurrection!! Shin Getter Robo!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "开拓吧！！地球的未来",
+     "ja": "切り拓け！！地球の未来",
+     "en": "Break Through!! The Earth's Future",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "明天的「舰长」就是你！",
+     "ja": "明日の「艦長」は君だ！",
+     "en": "Tomorrow's \"Captain\" Is You!",
+     "type": "分歧前共通关",
+     "area": "",
+     "note": "男女两版 · 过关后最后分歧"
+    }
+   ]
+  },
+  {
+   "title": "第28话后分歧（第29–31话）",
+   "intro": "留在 GEAR 本部（离子炮＋凰牙武器全满）或去宇宙（G比特＋蒂法、普露兹、兰斯洛结算）——两组隐藏互斥，一周目只能取一组。",
+   "rows": [
+    {
+     "code": "第29话·GEAR本部线",
+     "zh": "北斗的呐喊、银河的眼泪",
+     "ja": "北斗の叫び、銀河の涙",
+     "en": "Hokuto's Cries, Ginga's Tears",
+     "type": "路线关",
+     "area": "",
+     "note": "GEAR本部线"
+    },
+    {
+     "code": "第29话·宇宙线",
+     "zh": "看见月亮了！",
+     "ja": "月が見えた！",
+     "en": "I Can See the Moon!",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙线"
+    },
+    {
+     "code": "第30话·GEAR本部线",
+     "zh": "GEAR毁灭！",
+     "ja": "GEAR壊滅！",
+     "en": "GEAR Destroyed!",
+     "type": "路线关",
+     "area": "",
+     "note": "GEAR本部线"
+    },
+    {
+     "code": "第30话·宇宙线",
+     "zh": "战士，再度…",
+     "ja": "戦士、再び･･･",
+     "en": "Warriors, Again...",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙线"
+    },
+    {
+     "code": "第31话·GEAR本部线",
+     "zh": "布彻的最后一天",
+     "ja": "ブッチャー最期の日",
+     "en": "Butcher's Last Day",
+     "type": "路线关",
+     "area": "",
+     "note": "GEAR本部线"
+    },
+    {
+     "code": "第31话·宇宙线",
+     "zh": "我是杜米纳斯…",
+     "ja": "私はデュミナス･･･",
+     "en": "I am Duminas...",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙线"
+    }
+   ]
+  },
+  {
+   "title": "合流 · 终盘（第32话–最终话）",
+   "intro": "最终框架（Lightning／Eternal）取得，长线隐藏在此结算；第36话按主角性别在 Story 索引中分 A/B 两版（条件无差异记载，合并一页）；结局共 4 种。",
+   "rows": [
+    {
+     "code": "第32话",
+     "zh": "这是我们所求的战争",
+     "ja": "僕らが求めた戦争だ",
+     "en": "The War We Asked For",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "消失在银河中的男人",
+     "ja": "銀河に消えた男",
+     "en": "The Man Who Vanished into the Galaxy",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "超越「激钢牙」吧！",
+     "ja": "「ゲキ・ガンガー」を越えてゆけ！",
+     "en": "Surpassing \"Gekiganger\"!",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "暴风之海",
+     "ja": "嵐の海",
+     "en": "A Stormy Sea",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "阿尔克托斯的真相",
+     "ja": "アルクトスの真実",
+     "en": "The Truth About Arctus",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "杜米纳斯的答案",
+     "ja": "デュミナスの答え",
+     "en": "Duminas' Answer",
+     "type": "最终关",
+     "area": "",
+     "note": "全线共通最终话"
+    }
+   ]
+  }
+ ]
+}
