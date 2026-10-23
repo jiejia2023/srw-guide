@@ -1,0 +1,1240 @@
+{
+ "groups": [
+  {
+   "title": "第1–4话（共通）",
+   "intro": "共通线。累计熟练度（SR 点）每话 1 点；第3话休息菜单开放 D-Trader（首访奖励 1000 Z芯片）；第4话后以是否参加「远足（ハイキング）」分歧。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "名为禁忌的希望",
+     "ja": "禁忌という名の希望",
+     "en": "A Taboo Called Hope",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "新的问题少年驾到",
+     "ja": "来たるニュー・プロブレムボーイ",
+     "en": "Here Comes a New Problem Boy",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "被托付的后背",
+     "ja": "預けられた背中",
+     "en": "The Entrusted Back",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "学园都市防卫队",
+     "ja": "学園都市防衛隊",
+     "en": "Science City Defense Force",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第5–6话（远足分歧）",
+   "intro": "第4话后二选一：参加远足 / 不参加远足。两版第5、6话标题与 SR 条件相同、剧情与战场构成不同，第7话合流。",
+   "rows": [
+    {
+     "code": "第5话·远足线",
+     "zh": "未知的威胁",
+     "ja": "未知なる脅威",
+     "en": "Unknown Menace",
+     "type": "路线分歧",
+     "area": "远足线（第4话后选「去远足」）",
+     "note": ""
+    },
+    {
+     "code": "第5话·不远足线",
+     "zh": "悄然逼近的恶意",
+     "ja": "忍び寄る悪意",
+     "en": "Creeping Malice",
+     "type": "路线分歧",
+     "area": "不远足线（第4话后选「不去远足」）",
+     "note": ""
+    },
+    {
+     "code": "第6话·远足线",
+     "zh": "战云之影",
+     "ja": "戦雲の影",
+     "en": "Shadow of War Clouds",
+     "type": "路线分歧",
+     "area": "远足线",
+     "note": ""
+    },
+    {
+     "code": "第6话·不远足线",
+     "zh": "新的暗云",
+     "ja": "新たなる暗雲",
+     "en": "New Dark Clouds",
+     "type": "路线分歧",
+     "area": "不远足线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第7–8话（共通）",
+   "intro": "共通线。第8话后以「追击变质者 / 接受帮手委托」分歧至两种第9话。",
+   "rows": [
+    {
+     "code": "第7话",
+     "zh": "布下的陷阱",
+     "ja": "仕掛かれた罠",
+     "en": "The Trap Was Set",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "战斗少年遇见少女",
+     "ja": "戦うボーイ・ミーツ・ガール",
+     "en": "Fighting Boy Meets Girl",
+     "type": "共通",
+     "area": "共通",
+     "note": "隐藏部件辅助 GN 动力装置（坐标点 (29,25)）"
+    }
+   ]
+  },
+  {
+   "title": "第9话（第8话后选择）",
+   "intro": "两种第9话。波太君连锁的第一步（两版都要波太君击坠任意 3 台）。",
+   "rows": [
+    {
+     "code": "第9话·追赶线",
+     "zh": "悲伤的兽人",
+     "ja": "悲しみのビーストマン",
+     "en": "Mournful Beastman",
+     "type": "路线分歧",
+     "area": "追赶变质者线（第8话后选「追赶变质者」）",
+     "note": ""
+    },
+    {
+     "code": "第9话·帮忙线",
+     "zh": "过火的战吼",
+     "ja": "やりすぎのウォークライ",
+     "en": "Overenthusiastic Warcry",
+     "type": "路线分歧",
+     "area": "接受帮忙线（第8话后选「接受帮忙」）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第10–13话（第一次三线分歧）",
+   "intro": "第9话后三选一出击方面：宇宙 / 日本 / 秘银。每条线 4 话，第14话合流；各线仅部分作品的单位可以出击。",
+   "rows": [
+    {
+     "code": "第10话·宇宙线",
+     "zh": "殖民卫星动乱",
+     "ja": "コロニー動乱",
+     "en": "Disturbance in the Colonies",
+     "type": "路线分歧",
+     "area": "宇宙线（第一次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第10话·日本线",
+     "zh": "魔王的邀请",
+     "ja": "魔王の誘い",
+     "en": "Invitation from the Devil",
+     "type": "路线分歧",
+     "area": "日本线（第一次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第10话·秘银线",
+     "zh": "黑色混战",
+     "ja": "ブラック・バトリング",
+     "en": "Black Battling",
+     "type": "路线分歧",
+     "area": "秘银线（第一次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第11话·宇宙线",
+     "zh": "独角兽之日",
+     "ja": "ユニコーンの日",
+     "en": "Day of the Unicorn",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第11话·日本线",
+     "zh": "新世纪的序章",
+     "ja": "新世紀の序章",
+     "en": "Prologue of New Century",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第11话·秘银线",
+     "zh": "战端",
+     "ja": "戦端",
+     "en": "Charging In",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    },
+    {
+     "code": "第12话·宇宙线",
+     "zh": "红色彗星来袭",
+     "ja": "赤い彗星の襲来",
+     "en": "The Attack of the Red Comet",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第12话·日本线",
+     "zh": "大家都在拼命活着",
+     "ja": "みんな、必死に生きている",
+     "en": "Everyone Is Living Desperately",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第12话·秘银线",
+     "zh": "大决战",
+     "ja": "ビッグバトル",
+     "en": "Big Battle",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    },
+    {
+     "code": "第13话·宇宙线",
+     "zh": "战乱的前奏曲",
+     "ja": "戦乱のプレリュード",
+     "en": "Prelude to War",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第13话·日本线",
+     "zh": "他人与自己",
+     "ja": "他人、そして自分",
+     "en": "Myself, and Others",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第13话·秘银线",
+     "zh": "Martial",
+     "ja": "マーティアル",
+     "en": "Martial",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第14–16话（共通）",
+   "intro": "共通线。第16话后接委托选择（第17话两种）。",
+   "rows": [
+    {
+     "code": "第14话",
+     "zh": "光与暗之间",
+     "ja": "光と闇の狭間",
+     "en": "The Border Between Light and Darkness",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "怀抱终末的神话",
+     "ja": "終末を抱いた神話",
+     "en": "A Myth That Holds an End",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "被开启的新世界",
+     "ja": "開かれる新世界",
+     "en": "A New World Opens",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第17话（委托选择）",
+   "intro": "第16话后二选一：接受委托 / 不接受委托。沙贝特 Serpent 隐藏连锁在本话决算（接受线）；波太君连锁第二步两线共通。",
+   "rows": [
+    {
+     "code": "第17话·接受线",
+     "zh": "善意的侵入",
+     "ja": "善意のトレスパス",
+     "en": "Trespassing with Good Intentions",
+     "type": "路线分歧",
+     "area": "接受委托线（第16话后选「接受委托」）",
+     "note": ""
+    },
+    {
+     "code": "第17话·拒绝线",
+     "zh": "迟来的祭典",
+     "ja": "後の祭のフェスティバル",
+     "en": "Festival After Festival",
+     "type": "路线分歧",
+     "area": "不接受委托线（第16话后选「不接受委托」）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第18–21话（共通）",
+   "intro": "共通线。第19话起出现 IF 点数（抗争命运）的累计机会；第21话合流后以「调查新吉恩 / 静观新吉恩」分歧。",
+   "rows": [
+    {
+     "code": "第18话",
+     "zh": "来自黑洞的使者",
+     "ja": "ブラックホールからの使者",
+     "en": "Messenger from the Black Hole",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "相连的羁绊",
+     "ja": "つながる絆",
+     "en": "The Bonds That Tie",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "疾驰的一夜",
+     "ja": "疾るワン・ナイト・スタンド",
+     "en": "Running One Night Stand",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "永远的圆舞曲",
+     "ja": "永遠の円舞曲",
+     "en": "Endless Waltz",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第22–27话（新吉恩分歧）",
+   "intro": "调查线与静观线各 6 话，标题与内容均不同，第28话合流。IF 点数在本段两线各有 1 次机会（第27话仁攻击卡古拉）。",
+   "rows": [
+    {
+     "code": "第22话·调查线",
+     "zh": "隆德尼翁的邂逅",
+     "ja": "ロンデニオンの邂逅",
+     "en": "Encounter at Londenion",
+     "type": "路线分歧",
+     "area": "调查新吉恩线（第21话后选「调查新吉恩」）",
+     "note": ""
+    },
+    {
+     "code": "第22话·静观线",
+     "zh": "独眼的转学生",
+     "ja": "隻眼の転校生",
+     "en": "One-Eyed Transfer Student",
+     "type": "路线分歧",
+     "area": "静观新吉恩线（第21话后选「静观新吉恩」）",
+     "note": ""
+    },
+    {
+     "code": "第23话·调查线",
+     "zh": "肩负次代之人",
+     "ja": "次代を担う者",
+     "en": "Leader of the Next Generation",
+     "type": "路线分歧",
+     "area": "调查新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第23话·静观线",
+     "zh": "呼唤终末之物",
+     "ja": "終末を呼ぶもの",
+     "en": "The Day of Doom",
+     "type": "路线分歧",
+     "area": "静观新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第24话·调查线",
+     "zh": "急袭帕劳",
+     "ja": "パラオ急襲",
+     "en": "Raid on Palau",
+     "type": "路线分歧",
+     "area": "调查新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第24话·静观线",
+     "zh": "夏亚的影子",
+     "ja": "シャアの影",
+     "en": "Char's Shadow",
+     "type": "路线分歧",
+     "area": "静观新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第25话·调查线",
+     "zh": "NT-D",
+     "ja": "ＮＴ－Ｄ",
+     "en": "NT-D",
+     "type": "路线分歧",
+     "area": "调查新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第25话·静观线",
+     "zh": "咆哮的独角兽",
+     "ja": "猛るユニコーン",
+     "en": "Fierce Unicorn",
+     "type": "路线分歧",
+     "area": "静观新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第26话·调查线",
+     "zh": "魔兽王子觉醒",
+     "ja": "魔獣王子、目覚める",
+     "en": "Demon Beast Prince, Awakens",
+     "type": "路线分歧",
+     "area": "调查新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第26话·静观线",
+     "zh": "暗黑王子",
+     "ja": "暗黒の王子",
+     "en": "Prince of Darkness",
+     "type": "路线分歧",
+     "area": "静观新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第27话·调查线",
+     "zh": "眼泪的去向",
+     "ja": "涙の行方",
+     "en": "Course of Tears",
+     "type": "路线分歧",
+     "area": "调查新吉恩线",
+     "note": ""
+    },
+    {
+     "code": "第27话·静观线",
+     "zh": "坠落的巨人",
+     "ja": "堕ちた巨人",
+     "en": "Fallen Giant",
+     "type": "路线分歧",
+     "area": "静观新吉恩线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第28–35话（共通）",
+   "intro": "共通线。第35话登场钢巴斯塔与杰尼恩的 GAI 模式；话后进入第二次三线分歧。隐藏拾取：第28话超级修理套件（(4,4)）、第32话资金 50,000（(14,5)）。",
+   "rows": [
+    {
+     "code": "第28话",
+     "zh": "暗之诗",
+     "ja": "闇の詩",
+     "en": "Song of Shadow",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "夏天的开始",
+     "ja": "夏の始まり",
+     "en": "Beginning of Summer",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "驶向蔚蓝",
+     "ja": "揺れるイントゥ・ザ・ブルー",
+     "en": "Into the Blue",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "被开拓的命运",
+     "ja": "切り拓かれる運命",
+     "en": "Carving Out a Destiny",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "在忘却之雾中",
+     "ja": "忘却の霧の中",
+     "en": "The Mists of Oblivion",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "罗杰·谈判者",
+     "ja": "Roger The Negotiator",
+     "en": "Roger The Negotiator",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "轮回的宇宙",
+     "ja": "輪廻の宇宙",
+     "en": "Universal Samsara",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "灾厄来袭",
+     "ja": "災厄の襲来",
+     "en": "Calamity Strikes",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第36–40话（第二次三线分歧）",
+   "intro": "宇宙 / 日本 / 秘银三线各 5 话，第41话合流。宇宙线：达古扎存活与奎斯点数连锁；日本线：说得古拉连锁；秘银线：第39话缇塔妮娅的 IF 点数。各线各有 IF 点数机会。",
+   "rows": [
+    {
+     "code": "第36话·宇宙线",
+     "zh": "生命的歌声",
+     "ja": "生命の歌声",
+     "en": "Song of Life",
+     "type": "路线分歧",
+     "area": "宇宙线（第二次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第36话·日本线",
+     "zh": "战场之外的忧郁",
+     "ja": "戦場外の憂鬱",
+     "en": "Melancholy Outside the Battle",
+     "type": "路线分歧",
+     "area": "日本线（第二次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第36话·秘银线",
+     "zh": "在故乡起舞的风",
+     "ja": "故郷に舞う風",
+     "en": "The Wind That Dances to Birthplace",
+     "type": "路线分歧",
+     "area": "秘银线（第二次三线分歧）",
+     "note": ""
+    },
+    {
+     "code": "第37话·宇宙线",
+     "zh": "第五月球攻防战",
+     "ja": "フィフス・ルナ攻防戦",
+     "en": "Battle of Fifth Luna",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第37话·日本线",
+     "zh": "古拉的愿望",
+     "ja": "グーラの願い",
+     "en": "Gura's Wish",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第37话·秘银线",
+     "zh": "战士的素质",
+     "ja": "戦士の素質",
+     "en": "The Nature of a Warrior",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    },
+    {
+     "code": "第38话·宇宙线",
+     "zh": "涌现吧，生命",
+     "ja": "湧きあがれ、いのち",
+     "en": "Overflowing Life",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第38话·日本线",
+     "zh": "温暖的声音",
+     "ja": "温かな声",
+     "en": "Warm Voice",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第38话·秘银线",
+     "zh": "心灵深处",
+     "ja": "心奥",
+     "en": "Depths of the Heart",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    },
+    {
+     "code": "第39话·宇宙线",
+     "zh": "雷亚·伊古拉",
+     "ja": "レア・イグラー",
+     "en": "Rare Igura",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第39话·日本线",
+     "zh": "聚集灯火",
+     "ja": "灯火を集めて",
+     "en": "Gathering of Light",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第39话·秘银线",
+     "zh": "不可触碰者",
+     "ja": "触れ得ざる者",
+     "en": "The Untouchable",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    },
+    {
+     "code": "第40话·宇宙线",
+     "zh": "拉普拉斯的残骸",
+     "ja": "ラプラスの残骸",
+     "en": "Ghost of Laplace",
+     "type": "路线分歧",
+     "area": "宇宙线",
+     "note": ""
+    },
+    {
+     "code": "第40话·日本线",
+     "zh": "被封印的黑暗",
+     "ja": "封印されし闇",
+     "en": "Sealed Darkness",
+     "type": "路线分歧",
+     "area": "日本线",
+     "note": ""
+    },
+    {
+     "code": "第40话·秘银线",
+     "zh": "无尽的日常",
+     "ja": "終わらないデイ・バイ・デイ",
+     "en": "Endless Day by Day",
+     "type": "路线分歧",
+     "area": "秘银线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第41话（共通）",
+   "intro": "夏亚、哈曼、玛莉妲等敌方角色临时参战。关前对话「相信夏亚」计 IF 点数；关后以休假 / 职务分歧至第42话。",
+   "rows": [
+    {
+     "code": "第41话",
+     "zh": "两个红色彗星",
+     "ja": "二つの赤い彗星",
+     "en": "Twin Red Comets",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第42话（休假 / 职务分歧）",
+   "intro": "两种第42话。波太君连锁第三步：休假线以波太君击坠盖茨，职务线以波太君击坠博斯机器人。",
+   "rows": [
+    {
+     "code": "第42话·休假线",
+     "zh": "女神来日",
+     "ja": "女神の来日",
+     "en": "The Goddess Arrives in Japan",
+     "type": "路线分歧",
+     "area": "休假线（第41话后选「休假」）",
+     "note": ""
+    },
+    {
+     "code": "第42话·职务线",
+     "zh": "无仁义的Fancy Z",
+     "ja": "仁義なきファンシーZ",
+     "en": "Fancy Z Without Moral Code",
+     "type": "路线分歧",
+     "area": "专心职务线（第41话后选「专心职务」）",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第43–45话（共通）",
+   "intro": "共通线。第43话说得古拉连锁决算（日本线）；第45话为刹帝利留队（合计击坠 225）与 IF 点数的决算点，隐藏部件超合金Z 在本话；话后以美利达岛 / 日本分歧。",
+   "rows": [
+    {
+     "code": "第43话",
+     "zh": "通往奈落的入口",
+     "ja": "奈落への入口",
+     "en": "The Entrance to Hell",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "神与恶魔与人",
+     "ja": "神と悪魔と人",
+     "en": "God and Devil and Man",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第45话",
+     "zh": "暗黑之神迈凯纳",
+     "ja": "暗黒の神ミケーネ",
+     "en": "Mycenae, God of Darkness",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第46–48话（美利达岛 / 日本分歧）",
+   "intro": "美利达线 3 话共通；日本线在第46话后以「启动实验进行 / 冻结」再分为两条（第47、48话各两种）。隐藏：优阿格、拜亚兰特装型、派屈克（美利达线）、卡米那的太阳镜（日本线）。",
+   "rows": [
+    {
+     "code": "第46话·美利达线",
+     "zh": "被留下的时间",
+     "ja": "残された時間",
+     "en": "Remaining Time",
+     "type": "路线分歧",
+     "area": "美利达岛线（第45话后选「前往美利达岛」）",
+     "note": ""
+    },
+    {
+     "code": "第46话·日本线",
+     "zh": "成功率0.0001%",
+     "ja": "成功率0.0001%",
+     "en": "Chance of Success 0.0001%",
+     "type": "路线分歧",
+     "area": "日本线（第45话后选「留在日本」）",
+     "note": ""
+    },
+    {
+     "code": "第47话·美利达线",
+     "zh": "大西洋的死斗",
+     "ja": "大西洋の死闘",
+     "en": "Duel in the Atlantic",
+     "type": "路线分歧",
+     "area": "美利达岛线",
+     "note": ""
+    },
+    {
+     "code": "第47话·日本线（实验）",
+     "zh": "生命的选择",
+     "ja": "生命の選択",
+     "en": "The Choice of Life",
+     "type": "路线分歧",
+     "area": "日本线·进行启动实验",
+     "note": ""
+    },
+    {
+     "code": "第47话·日本线（冻结）",
+     "zh": "中奖与落空",
+     "ja": "アタリとハズレ",
+     "en": "Hit and Miss",
+     "type": "路线分歧",
+     "area": "日本线·冻结启动实验",
+     "note": ""
+    },
+    {
+     "code": "第48话·美利达线",
+     "zh": "在重力井之底",
+     "ja": "重力の井戸の底で",
+     "en": "At the Bottom of the Gravity Well",
+     "type": "路线分歧",
+     "area": "美利达岛线",
+     "note": ""
+    },
+    {
+     "code": "第48话·日本线（实验）",
+     "zh": "禁断的领域",
+     "ja": "禁断の領域",
+     "en": "Forbidden Area",
+     "type": "路线分歧",
+     "area": "日本线·进行启动实验",
+     "note": ""
+    },
+    {
+     "code": "第48话·日本线（冻结）",
+     "zh": "再次降临的绝望",
+     "ja": "再来する絶望",
+     "en": "Despair Returns",
+     "type": "路线分歧",
+     "area": "日本线·冻结启动实验",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第49话（共通）与命运抉择",
+   "intro": "IF 点数最后累计点（击坠迦德莱特，另附资金 100,000）。关后抉择：接受命运 / 抗争命运——一周目抗争需 IF 点数 5 以上；解锁抗争时奎斯点数 +2。",
+   "rows": [
+    {
+     "code": "第49话",
+     "zh": "被开启的门扉",
+     "ja": "開かれる扉",
+     "en": "The Gate Opens",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第50–54话（接受命运线）",
+   "intro": "接受命运后的 5 话。宙斯作为客串参战；希拉德在本线第50话剧情死亡。",
+   "rows": [
+    {
+     "code": "第50话·接受线",
+     "zh": "弑神的魔神",
+     "ja": "神殺しの魔神",
+     "en": "God-Slaying Devil",
+     "type": "路线分歧",
+     "area": "接受命运线（第49话后选「接受命运」）",
+     "note": ""
+    },
+    {
+     "code": "第51话·接受线",
+     "zh": "神话战栗",
+     "ja": "神話センリツ",
+     "en": "Melody of Legend",
+     "type": "路线分歧",
+     "area": "接受命运线",
+     "note": ""
+    },
+    {
+     "code": "第52话·接受线",
+     "zh": "一万两千年的爱",
+     "ja": "1万2000年の愛",
+     "en": "12000 Years of Love",
+     "type": "路线分歧",
+     "area": "接受命运线",
+     "note": ""
+    },
+    {
+     "code": "第53话·接受线",
+     "zh": "暗黑之理",
+     "ja": "暗黒の理",
+     "en": "Logic of Darkness",
+     "type": "路线分歧",
+     "area": "接受命运线",
+     "note": ""
+    },
+    {
+     "code": "第54话·接受线",
+     "zh": "The Show Must Go On",
+     "ja": "The Show Must Go On",
+     "en": "The Show Must Go On",
+     "type": "路线分歧",
+     "area": "接受命运线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第50–54话（抗争命运线）",
+   "intro": "抗争命运后的 5 话，与接受线同编号、内容完全不同。希拉德存活；第54话后仁与宙斯正式加入。",
+   "rows": [
+    {
+     "code": "第50话·抗争线",
+     "zh": "ephemera",
+     "ja": "ephemera",
+     "en": "ephemera",
+     "type": "路线分歧",
+     "area": "抗争命运线（第49话后选「抗争命运」，需 IF 点数 5+）",
+     "note": ""
+    },
+    {
+     "code": "第51话·抗争线",
+     "zh": "决战！黑洞！",
+     "ja": "決戦！ブラックホール！",
+     "en": "Showdown! Blackhole!",
+     "type": "路线分歧",
+     "area": "抗争命运线",
+     "note": ""
+    },
+    {
+     "code": "第52话·抗争线",
+     "zh": "暗与影与黑暗",
+     "ja": "闇と陰と暗黒と",
+     "en": "Evil and Shadow, and Darkness",
+     "type": "路线分歧",
+     "area": "抗争命运线",
+     "note": ""
+    },
+    {
+     "code": "第53话·抗争线",
+     "zh": "名为永远的幻想",
+     "ja": "永遠という幻想",
+     "en": "Illusion of Eternity",
+     "type": "路线分歧",
+     "area": "抗争命运线",
+     "note": ""
+    },
+    {
+     "code": "第54话·抗争线",
+     "zh": "光之斗神Z",
+     "ja": "光の闘神Z",
+     "en": "Fighting God of Light Z",
+     "type": "路线分歧",
+     "area": "抗争命运线",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第55–60话与尾声（共通）",
+   "intro": "最终段。第56话奎斯参战决算；第60话最终决战后进入尾声（无 SR 点）。一周目可取得 SR 点合计 60 点。",
+   "rows": [
+    {
+     "code": "第55话",
+     "zh": "飞吧，向着宇宙",
+     "ja": "飛べ、宇宙へ",
+     "en": "Fly, Towards Space",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第56话",
+     "zh": "夏亚·阿兹纳布尔的真意",
+     "ja": "シャア・アズナブルの真実",
+     "en": "Char Aznable's Truth",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第57话",
+     "zh": "Beyond the Time",
+     "ja": "Beyond the Time",
+     "en": "Beyond the Time",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第58话",
+     "zh": "争吵的双子",
+     "ja": "いがみ合う双子",
+     "en": "Quarrelling Twins",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第59话",
+     "zh": "决战的银河",
+     "ja": "決戦の銀河",
+     "en": "Galactic Showdown",
+     "type": "共通",
+     "area": "共通",
+     "note": ""
+    },
+    {
+     "code": "第60话",
+     "zh": "天上的光都是星星",
+     "ja": "天の光は全て星",
+     "en": "All the Lights in the Sky are Stars",
+     "type": "共通",
+     "area": "共通·最终话",
+     "note": ""
+    },
+    {
+     "code": "尾声",
+     "zh": "开始转动的时间，然后……",
+     "ja": "動き出す刻、そして……",
+     "en": "Time Starts to Move, And Then...",
+     "type": "最终话",
+     "area": "共通·尾声",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "DLC 追加剧本（24 关）",
+   "intro": "付费/特典 DLC：初回特典 1 关 + 第 1 弹 7 关 + 第 2 弹 9 关 + 第 3 弹 7 关。奖励（资金 / Z 芯片 / 部件）可用于本篇；Akurasu DLC 表未刊载逐关胜败条件，详情页中以待核实标注。另有 5 个「活动礼物」剧本只发放部件、不构成关卡，未单列页面（见游戏主页）。",
+   "rows": [
+    {
+     "code": "DLC·初回特典",
+     "zh": "铃音出击",
+     "ja": "スズネ出撃",
+     "en": "Suzune Sorties",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-1",
+     "zh": "老师与搭档",
+     "ja": "教師とパートナー",
+     "en": "Teacher and Partner",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-2",
+     "zh": "转机",
+     "ja": "転機",
+     "en": "Turning Point",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-3",
+     "zh": "再见了，偶像",
+     "ja": "さよなら、アイドル",
+     "en": "Goodbye, Idol",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-4",
+     "zh": "上班族的辛酸",
+     "ja": "サラリーマンはつらいよ",
+     "en": "Salaryman Blues",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-5",
+     "zh": "诚意的形状",
+     "ja": "誠意のカタチ",
+     "en": "Shape of Sincerity",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-6",
+     "zh": "超能力搜查",
+     "ja": "超能力捜査",
+     "en": "Psychic Investigation",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC1-7",
+     "zh": "士兵与世界与和平",
+     "ja": "兵士と世界と平和と",
+     "en": "Soldier, World and Peace",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-1",
+     "zh": "新世代与新人类",
+     "ja": "新世代とニュータイプ",
+     "en": "The New Generation and the Newtype",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-2",
+     "zh": "Trianglers",
+     "ja": "トライアングラーズ",
+     "en": "Trianglers",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-3",
+     "zh": "我们的去向",
+     "ja": "僕達の行方",
+     "en": "Our Whereabouts",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-4",
+     "zh": "S.W.A.L.K",
+     "ja": "S.W.A.L.K",
+     "en": "S.W.A.L.K",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-5",
+     "zh": "极限战斗",
+     "ja": "エクストリーム・バトル",
+     "en": "Extreme Battle",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-6",
+     "zh": "巨大的X（可能性）",
+     "ja": "巨大なX(可能性)",
+     "en": "Giant X (Possibility)",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-7",
+     "zh": "猫与小猫的 R&R",
+     "ja": "猫と仔猫のR&R",
+     "en": "Cat and Kitten's R&R",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-8",
+     "zh": "强大即是美丽",
+     "ja": "強き事は美しき哉",
+     "en": "Strength is Beauty",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC2-9",
+     "zh": "动态战争",
+     "ja": "ダイナミック・ウォー",
+     "en": "Dynamic War",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-1",
+     "zh": "大力士地下层",
+     "ja": "力持ちアンダーグラウンド",
+     "en": "Strongman Underground",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-2",
+     "zh": "奇迹的代价",
+     "ja": "キセキの代償",
+     "en": "The Price of Miracles",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-3",
+     "zh": "Feeling Couple",
+     "ja": "フィーリング・カップル",
+     "en": "Feeling Couple",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-4",
+     "zh": "艰难任务",
+     "ja": "ハード・ミッション",
+     "en": "Hard Mission",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-5",
+     "zh": "超级战舰大战",
+     "ja": "スーパーバトルシップ大戦",
+     "en": "Super Battleship Wars",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-6",
+     "zh": "最后之日",
+     "ja": "ラスト・デイ",
+     "en": "Last Day",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    },
+    {
+     "code": "DLC3-7",
+     "zh": "究极战斗",
+     "ja": "アルティメット・バトル",
+     "en": "Ultimate Battle",
+     "type": "DLC",
+     "area": "DLC 追加剧本",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
