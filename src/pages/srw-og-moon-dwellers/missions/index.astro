@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwOgMdMissionList from '../../../components/SrwOgMdMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OG月球居民', path: 'srw-og-moon-dwellers/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OG月球居民（PS4/PS3）关卡攻略 · 全64个关卡页面列表" description="超级机器人大战OG月球居民（2016年 PS4/PS3）全部关卡的页面列表：按 Akurasu 完整流程表逐条清点共 64 个不同剧本（含序章与最终话），含三次路线分歧的全部版本；一周目实际游玩 48 话。每关独立攻略页含胜利/败北条件、熟练度（SR Point）取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-og-moon-dwellers/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OG月球居民 · 关卡攻略</h1>
+  <p>2016 年 PS4/PS3《超级机器人大战OG 月之民》（The Moon Dwellers）是 OG 系列的「EPISODE 4」，直接承接《第2次OG》。本作<strong>有三段路线分歧</strong>：序章后先分<strong>地上线（透也线）／宇宙线（卡尔维娜线）</strong>（第1–9话，源自《J》的双主人公在开局即分队、第9话后合流），第22话后分<strong>巴黎线／卡拉奇线</strong>（第23–25话），第29话后分<strong>巴拉尔线／月球线</strong>（第30–33话）。按 Akurasu 的<strong>完整流程表（Complete Chart）</strong>逐条清点，全作共 <strong>64 个不同剧本</strong>（Akurasu 主条目所称「64 playable scenarios」与此一致），一周目实际游玩 <strong>48 话</strong>，本站已按 64 个剧本全部建页。本作的<strong>熟练度称 SR Point</strong>：除第0话序章与最终话外每话各有 1 个条件，一周目最多 <strong>46 点</strong>；与《第2次OG》不同，<strong>本作没有任何以熟练度为门槛的结局或路线分歧</strong>——最终话只有一个版本，熟练度只影响普通模式的难度档位（NORMAL/HARD 两档，随取得状况上升；据 PlayStation.Blog 官方特辑）与取得时的 PP、资金奖励，触发 HARD 的确切比例在所查来源中未刊载。另有开局可选的<strong>新手模式</strong>（Beginner's Mode）：难度固定 NORMAL、资金与部件获得增加、强制走地上线且跳过第1话（话数编号因此前移 1，第18话《骷髅骑士》在该模式下为第17话）。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站全关卡补完计划中的又一部完成作——64 个详情页全部建成。流程、胜败条件、熟练度条件、加入与隐藏要素以 Akurasu 的 OGMD <strong>Complete Chart 为主源</strong>，与同站 Flow Chart、Secrets 页逐条交叉核对；系统（Maximum Break 改制、能力购买、副驾驶、模式与继承）以 Namu 攻略页、ds-can 与 PlayStation.Blog 官方特辑互证。<strong>如实说明</strong>：本作的逐关敌方<strong>编成</strong>未找到可双源交叉核对的成套来源——日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实，且敌情随难度（NORMAL/HARD）变化；Akurasu 的 Clear 页为红链、并不存在。故编成表暂不刊载，列为<strong>待用户裁决</strong>事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）；敌方逐台的<strong>坐标与逐格地形</strong>在任何来源中都不存在，各页地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <SrwOgMdMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: The Moon Dwellers: Complete Chart</a>（主来源：全关卡的胜败条件、熟练度条件、机体加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: The Moon Dwellers: Flow Chart</a>（熟练度条件清单，与完整流程表交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: The Moon Dwellers: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGMD" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: The Moon Dwellers 主条目</a>（发售信息、剧本总数 64、子页索引；其 Clear Bonuses 链接为红链）</li>
+    <li><a href="https://en.namu.wiki/w/%EC%8A%88%ED%8D%BC%EB%A1%9C%EB%B4%87%EB%8C%80%EC%A0%84%20OG%20%EB%AC%B8%20%EB%93%9C%EC%9B%B0%EB%9F%AC%EC%A6%88/%EA%B3%B5%EB%9E%B5" rel="noopener" target="_blank">Namu Wiki — Super Robot Wars OG Moon Dwellers/Strategy</a>（Maximum Break 条件、EX-HARD 规则、周回击坠继承 50%、各分歧部队名单）</li>
+    <li><a href="https://blog.ja.playstation.com/2016/06/10/20160610-srwogmd/" rel="noopener" target="_blank">PlayStation.Blog 日本版《电击PS》特辑（2016-06-10）</a>（新手模式规则、熟练度与难度上升、SR 奖励为 PP 与资金）</li>
+    <li><a href="http://ds-can.com/srwog-moon/other/guide.html" rel="noopener" target="_blank">攻略の缶詰（ds-can）— ムーン・デュエラーズ 攻略ガイド・戦術</a>（战术、站位系统、AP 能力购买与改造继承的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-og-moon-dwellers/')}>← 返回超级机器人大战OG月球居民</a></p>
+</Base>

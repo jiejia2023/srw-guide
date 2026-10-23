@@ -1,0 +1,136 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwogmd-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const md = (s: string) => s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OG月球居民', path: 'srw-og-moon-dwellers/' },
+  { label: '关卡攻略', path: 'srw-og-moon-dwellers/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const SR_COMMON = '本作<strong>有熟练度系统（称 SR Point）</strong>：除第0话序章与最终话外，每话各有 1 个取得条件，一周目最多取得 46 点；本作<strong>没有</strong>以熟练度为门槛的结局或路线分歧（与《第2次OG》的 41 点秘密结局不同），熟练度只影响普通模式的难度档位（NORMAL/HARD 两档，随取得状况上升，触发 HARD 的确切比例未见刊载）与取得时的 PP、资金奖励。';
+const routeAlert: Record<string, string> = {
+  '共通': SR_COMMON,
+  '地上线': '本话是<strong>地上线</strong>版本（第0话后的路线分歧：第1–9话，跟随紫云统夜；新手模式强制走本线且跳过第1话）。透也与卡尔维娜的副驾驶在正式加入前固定（透也＝卡提亚、卡尔维娜＝费斯特尼亚），之后可在三人中自由选择。' + SR_COMMON,
+  '宇宙线': '本话是<strong>宇宙线</strong>版本（第0话后的路线分歧：第1–9话，跟随卡尔维娜·库朗热）。透也与卡尔维娜的副驾驶在正式加入前固定（透也＝卡提亚、卡尔维娜＝费斯特尼亚），之后可在三人中自由选择。' + SR_COMMON,
+  '巴黎线': '本话是<strong>巴黎线</strong>版本（第22话后的路线分歧：第23–25话，以钢号队为中心，与卡拉奇线并行，第26话合流）。' + SR_COMMON,
+  '卡拉奇线': '本话是<strong>卡拉奇线</strong>版本（第22话后的路线分歧：第23–25话，以飞龙改队为中心，与巴黎线并行，第26话合流）。' + SR_COMMON,
+  '巴拉尔线': '本话是<strong>巴拉尔线</strong>版本（第29话后的路线分歧：第30–33话，前往巴拉尔庭园遗迹，与月球线并行，第34话合流）。' + SR_COMMON,
+  '月球线': '本话是<strong>月球线</strong>版本（第29话后的路线分歧：第30–33话，以黑金号队前往月球，与巴拉尔线并行，第34话合流）。' + SR_COMMON,
+};
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战OG月球居民（2016 PS4/PS3）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（SR Point）取得条件、我方加入、本关隐藏要素与坐标地图。`} path={`srw-og-moon-dwellers/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、<strong>熟练度（SR Point）条件</strong>、我方加入与隐藏要素来自 Akurasu Wiki 的 OGMD <strong>Complete Chart</strong>，并与同站 Flow Chart、Secrets 页逐条交叉核对，系统与结构另以 Namu 攻略页、ds-can 与 PlayStation.Blog 官方特辑互证（分歧见本页备注与本作主页）。<span set:html={routeAlert[m.route]}></span>本作的逐关敌方编成未找到可双源交叉核对的成套来源（唯一候选 ds-can 逐话页的字段构成未逐页核实），暂不刊载（待裁决，见本作主页）；敌方逐台坐标与逐格地形则在任何来源中都不存在，故地图为参照框架。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度条件'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 完整流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实/待裁决：</strong>本关敌方编成（构成、数量、增援）本站暂未刊载——来源盘点与理由见下方注记与本作主页「敌方数据现状」一节；敌方逐台的等级、坐标与逐格地形则无任何公开来源。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li set:html={md(e)} />)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 完整流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li set:html={md(s)} />)}
+  </ul>
+  <p class="muted">本作的隐藏要素多为跨话连锁（库斯托威尔·布拉奇姆三步：第29话→第30话·月球线→第35话；杜万·奥格两步：第34话→最终话）与话末结算门槛（第28、29、45话）：结算型条件必须在结算话之前练达标，错过无法补救；三台周回机体的击坠计数在最终话结算、于下一周目第12话交付。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-og-moon-dwellers/missions/')}>← 返回关卡列表</a> · <a href={href('srw-og-moon-dwellers/')}>返回超级机器人大战OG月球居民</a></p>
+</Base>

@@ -1,0 +1,5346 @@
+{
+ "missions": [
+  {
+   "code": "第0话",
+   "slug": "stage-0",
+   "zh": "序章",
+   "ja": "プロローグ",
+   "en": "Prologue",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "序章",
+   "prerequisite": "本作的第一关（序章）：新游戏开始后直接进入。本话没有熟练度。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "E·塞尔达被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本话无熟练度条件（流程图明记「SR Point: None」）。",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "格朗提德（E·塞尔达）"
+   ],
+   "events": [
+    "序章由 E·塞尔达驾驶格朗提德单独出战。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第1话（地上线《魂之剑对康帕奇布尔凯撒》／宇宙线《白色猞猁》，第0话后二选一）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第1话·地上线",
+   "slug": "stage-1-earth",
+   "zh": "魂之剑对康帕奇布尔凯撒",
+   "ja": "ソウルセイバー対コンバチカイサー",
+   "en": "Soul Saber vs Compatible Kaiser",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第0话通关后选择地上线（透也线）。新手模式强制走本线、且跳过本话自第2话开始（见本作主页）。",
+   "victory": [
+    "将康帕奇布尔凯撒的 HP 削减至 3000 以下"
+   ],
+   "defeat": [
+    "魂之剑被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在魂之剑 FF 未受到任何攻击的情况下达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魂之剑 FF（阿基米／阿凯米）",
+    "G·康帕奇布尔凯撒（虎太／翔子）",
+    "康帕奇布尔凯撒（虎太）",
+    "G·雷霆之门（翔子）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第2话·地上线《父与子，以及命运》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·地上线",
+   "slug": "stage-2-earth",
+   "zh": "父与子，以及命运",
+   "ja": "父と子、そして運命",
+   "en": "Father, Son and Fate",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第1话·地上线通关后（新手模式自本话开始）。",
+   "victory": [
+    "击破甘贾尔"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在第 2 回合敌方阶段结束前击破 4 台雷斯特雷尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "格朗提德（E·塞尔达）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话·地上线《泥人偶的陷阱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·地上线",
+   "slug": "stage-3-earth",
+   "zh": "泥人偶的陷阱",
+   "ja": "泥人形の罠",
+   "en": "Puppet Trap",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第2话·地上线通关后。",
+   "victory": [
+    "将全部敌机的 HP 削减至 2000 以下"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一敌机被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "将全部敌人引诱到市区外（指定线外侧），并在不击破任何敌机的情况下将全部敌机 HP 削减至 2000 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话·地上线《各自的理由》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·地上线",
+   "slug": "stage-4-earth",
+   "zh": "各自的理由",
+   "ja": "それぞれの理由",
+   "en": "Everyone's Reasons",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第3话·地上线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "刻耳柏罗斯·点火（雨果／阿克娅）",
+    "狂野绞杀者（阿拉德）",
+    "狂野猎鹰（赛欧拉）",
+    "狂野迅猛龙·施纳贝尔（拉托妮）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第5话·地上线《水晶之龙》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·地上线",
+   "slug": "stage-5-earth",
+   "zh": "水晶之龙",
+   "ja": "水晶の竜",
+   "en": "Crystal Dragoon",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第4话·地上线通关后。",
+   "victory": [
+    "坚持到第 8 回合"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 8 回合经过之前将水晶龙骑的 HP 削减至 40000"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II 改 N 型（凯）",
+    "安杰尔格（拉米娅）",
+    "瓦伊萨加",
+    "伽尔姆雷德·烈焰",
+    "F-32V 施韦尔特改",
+    "格兰提德（透也／卡提亚）"
+   ],
+   "events": [
+    "透也在本话正式驾驶格兰提德出战，副驾驶固定为卡提亚（在透也正式加入之前，副驾驶不可更换，见本作主页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第6话·地上线《枪炮守卫》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·地上线",
+   "slug": "stage-6-earth",
+   "zh": "枪炮守卫",
+   "ja": "ガンナー・ガード",
+   "en": "Gunner Guard",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第5话·地上线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在第 5 回合结束前由阿凯米击破 4 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魂之剑 FF 可变形为魂之剑 GG",
+    "R-刃改",
+    "装甲狮",
+    "量产型凶鸟 Mk-II"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话·地上线《极品猎物》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·地上线",
+   "slug": "stage-7-earth",
+   "zh": "极品猎物",
+   "ja": "極上の獲物",
+   "en": "Greatest of Prey",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第6话·地上线通关后。",
+   "victory": [
+    "将朱亚·姆以外的全部敌人 HP 削减至 1500 以下，或将朱亚·姆的 HP 削减至 2000 以下"
+   ],
+   "defeat": [
+    "钢号被击破",
+    "任一敌机被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内将朱亚·姆的 HP 削减至 2000"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢号（金特／哲也／英太）",
+    "闪烁盖斯特（阿莉艾尔）"
+   ],
+   "events": [
+    "据 Namu 攻略页：宇宙线的卡尔维娜一行在第7话后加入本线队伍（贝尔泽鲁特等在第8话的加入表出现）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话·地上线《闪耀的格兰提德》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话·地上线",
+   "slug": "stage-8-earth",
+   "zh": "闪耀的格兰提德",
+   "ja": "光るグランティード",
+   "en": "Shining Granteed",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第7话·地上线通关后。",
+   "victory": [
+    "击破至少 6 台多纳·里温佩，随后将拉夫特克兰兹·奥伦的 HP 削减至 37000 以下"
+   ],
+   "defeat": [
+    "凶鸟以外的任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让任何一台我方凶鸟被击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 RV 型（基利亚姆）",
+    "格兰提德（透也／卡提亚）",
+    "贝尔泽鲁特（卡尔维娜／费斯特尼亚）",
+    "梅露亚（成为可选副驾驶）"
+   ],
+   "events": [],
+   "secrets": [
+    "**SP 饮料（强化部件）**：本话中击破**全部多纳·里温佩**后取得。"
+   ],
+   "unlocks": [
+    "第9话·地上线《共鸣》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·地上线",
+   "slug": "stage-9-earth",
+   "zh": "共鸣",
+   "ja": "共鳴",
+   "en": "Resonance",
+   "part": "地上线",
+   "partZh": "本编",
+   "route": "地上线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第8话·地上线通关后。",
+   "victory": [
+    "击破全部敌人（泽拉尼奥在 HP 降至 20000 时撤退）"
+   ],
+   "defeat": [
+    "凶鸟以外的任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 6 回合内击破目标战舰以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "格兰提德与贝尔泽鲁特自本话起可更换副驾驶",
+    "杰昂·谢瓦利埃（约书亚）",
+    "另一条路线（宇宙线）的单位在本话后加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第10话《拉赛拉姆》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第1话·宇宙线",
+   "slug": "stage-1-space",
+   "zh": "白色猞猁",
+   "ja": "ホワイト・リンクス",
+   "en": "White Lynx",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第0话通关后选择宇宙线（卡尔维娜线）。",
+   "victory": [
+    "歼灭全部敌人（朱亚·姆的 HP 降至 2000 以下撤退时本话结束）"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在第 4 回合我方阶段结束前由卡尔维娜击破 4 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "贝尔泽鲁特（卡尔维娜／费斯特尼亚）",
+    "古伦加斯特（伊鲁姆）",
+    "EX凶鸟·拳击手 G 型（理绪）",
+    "EX凶鸟·拳击手 L 型（凉斗）",
+    "EXEX凶鸟（英格）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第2话·宇宙线《厌客再临》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": "完整流程表本话胜利条件中的敌方指挥官作「Ja-Mu」，与他话的「Jua-Mu」应为同一人（朱亚·姆），本站统一译名并在此注记。"
+  },
+  {
+   "code": "第2话·宇宙线",
+   "slug": "stage-2-space",
+   "zh": "厌客再临",
+   "ja": "厭客再来",
+   "en": "Unwanted Guests Return",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第1话·宇宙线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢号（金特／哲也／英太）",
+    "R-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（绫）",
+    "R-GUN 强化型（薇蕾塔）",
+    "ART-1（麻衣）",
+    "R-刃改",
+    "装甲狮",
+    "F-32V 施韦尔特改"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话·宇宙线《灾祸，自彼方而来》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·宇宙线",
+   "slug": "stage-3-space",
+   "zh": "灾祸，自彼方而来",
+   "ja": "災い、彼の地より",
+   "en": "Calamity, From His World",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第2话·宇宙线通关后。",
+   "victory": [
+    "歼灭全部敌人；弗·鲁到达后存活 6 回合"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 2 回合内击破 4 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话·宇宙线《复苏的亡灵》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·宇宙线",
+   "slug": "stage-4-space",
+   "zh": "复苏的亡灵",
+   "ja": "甦る亡霊",
+   "en": "Resurrected Ghosts",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第3话·宇宙线通关后。",
+   "victory": [
+    "将恩特利希·盖斯特的 HP 削减至 35000 以下"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第5话·宇宙线《沉睡的敌人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·宇宙线",
+   "slug": "stage-5-space",
+   "zh": "沉睡的敌人",
+   "ja": "眠れる敵",
+   "en": "Sleeping Enemies",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第4话·宇宙线通关后。",
+   "victory": [
+    "将全部敌人的 HP 削减至 2000 以下"
+   ],
+   "defeat": [
+    "钢号被击破",
+    "任一敌人被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话·宇宙线《金特的盘算》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·宇宙线",
+   "slug": "stage-6-space",
+   "zh": "金特的盘算",
+   "ja": "ギントの目算",
+   "en": "Ginto's Hunch",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第5话·宇宙线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在第 2 回合我方阶段结束前击破 3 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话·宇宙线《护剑的碎片》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·宇宙线",
+   "slug": "stage-7-space",
+   "zh": "护剑的碎片",
+   "ja": "護剣の欠片",
+   "en": "Fragments of the Gaia Sabers",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第6话·宇宙线通关后。",
+   "victory": [
+    "5 回合内不让飞龙改受到伤害，且不让敌人进入飞龙改的相邻格"
+   ],
+   "defeat": [
+    "飞龙改受到伤害",
+    "任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破 14 台敌机（敌人在第 5 回合撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢号（金特／哲也／英太）",
+    "贝尔泽鲁特（卡尔维娜／费斯特尼亚）",
+    "飞龙改（蕾菲娜／肖恩／尤恩）",
+    "古铁巨人（响介）",
+    "纯白骑士（艾克塞伦）",
+    "古伦加斯特三式（布利特／楠叶）",
+    "亡灵 Mk-II 改 G 型（卡琪娜）",
+    "亡灵 Mk-II 改 C 型（拉塞尔）",
+    "吉甘斯库多·杜罗（亮）",
+    "西格巴利昂（蕾欧娜）",
+    "海伯利安（伊比斯／嗣美／斯雷）",
+    "普法伊尔 III（约恩）",
+    "量产型凶鸟 Mk-II"
+   ],
+   "events": [
+    "据 Namu 攻略页：蕾菲娜、约恩、响介一行在第7话后加入本线队伍（与完整流程表的本话加入表一致）。"
+   ],
+   "secrets": [
+    "**SP 饮料（强化部件）**：在 **5 回合内击破全部敌机**后取得（与地上线第8话的取得方式二选其一性质相同，各线一份）。"
+   ],
+   "unlocks": [
+    "第8话·宇宙线《转移航路》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话·宇宙线",
+   "slug": "stage-8-space",
+   "zh": "转移航路",
+   "ja": "転移航路",
+   "en": "Transition Route",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第7话·宇宙线通关后。",
+   "victory": [
+    "存活 4 回合"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 3 回合内将泽拉尼奥级战舰的 HP 削减至 14500 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话·宇宙线《加迪之剑》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·宇宙线",
+   "slug": "stage-9-space",
+   "zh": "加迪之剑",
+   "ja": "ガディンード",
+   "en": "Guardisword",
+   "part": "宇宙线",
+   "partZh": "本编",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第8话·宇宙线通关后。",
+   "victory": [
+    "击破利耶朱·盖奥斯以外的全部敌人，或将利耶朱·盖奥斯的 HP 削减至 35000 以下"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在不让雷奥尼西斯·哈尔加（席格）、雷奥尼西斯·巴尔加（萨莉）与丘比特（AI 操纵的 NPC）被击破的情况下过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "普法伊尔 III 与约恩在本话不可出击",
+    "雷奥尼西斯·哈尔加（席格）",
+    "雷奥尼西斯·巴尔加（萨莉）",
+    "另一条路线（地上线）的单位在本话后加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第10话《拉赛拉姆》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "拉赛拉姆",
+   "ja": "ラースエイレム",
+   "en": "Larseilam",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第9话（地上线或宇宙线）通关后，两线合流。",
+   "victory": [
+    "存活 5 回合，或击破拉夫特克兰兹·法乌内亚以外的全部敌人"
+   ],
+   "defeat": [
+    "飞龙改或透也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内击破拉夫特克兰兹·法乌内亚以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "瓦伊萨加",
+    "埃克塞伦斯·雷斯库（拉乌尔／菲奥娜／德斯毗尼斯）",
+    "拉兹安格利夫·雷文（优希）",
+    "兰德格里夫·雷文（卡拉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第11话《惨剧之夜（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "惨剧之夜（前篇）",
+   "ja": "惨劇の夜（前篇）",
+   "en": "Night of Tragedy (Part 1)",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第10话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内击破 13 台敌机"
+   ],
+   "srNote": "简表（Flow Chart）作「在 4 回合内击破 13 台**初期**敌机」，与完整流程表的「13 台敌机」措辞略有出入，本站从完整流程表并在此注记。",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "佩尔逊尼奇卡伊特（阿尔菲米）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第12话《惨剧之夜（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "惨剧之夜（后篇）",
+   "ja": "惨劇の夜（後篇）",
+   "en": "Night of Tragedy (Part 2)",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第11话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在同一回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "阿什塞巴",
+    "福尔特·吉加斯",
+    "亡灵 Mk-II 改 C 型（拉达）",
+    "雷王机（斗马）",
+    "索尔盖因（阿克塞尔）",
+    "拉兹安格利夫·雷文（优希）",
+    "兰德格里夫·雷文（卡拉）",
+    "法布拉里斯（格拉希艾斯）",
+    "迪亚·布朗什·涅日（莉姆）",
+    "利耶朱·盖奥斯（二周目以后，见隐藏要素）",
+    "希利昂（二周目以后，见隐藏要素）",
+    "刻耳柏利昂（二周目以后，见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "**周回机体交付点**：在上一周目最终话结束前达成击坠条件（约恩 ≥70／伊比斯或斯雷 ≥70／阿拉德、赛欧拉或拉托妮 ≥70，见最终话页）的**利耶朱·盖奥斯、希利昂、刻耳柏利昂**，在本话通关后交付；已达成过的条件在后续周目自动解锁（据 Secrets 页）。"
+   ],
+   "unlocks": [
+    "第13话《钢龙战队，向西》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": "完整流程表本话加入表中的利耶朱·盖奥斯、希利昂与「Kerbelion」，本站据 Secrets 页注记为二周目以后的交付机体（首周目不出现）；该机在 Secrets 页作「Cerberlion」，两处拼写并记，本站统一作刻耳柏利昂。"
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "钢龙战队，向西",
+   "ja": "鋼龍戦隊、西へ",
+   "en": "Steel Dragons, To The West",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第12话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "钢号未在 5 回合内到达目的地"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在钢号未受到伤害的情况下让钢号到达目的地，或击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "本话 G·雷霆之门不可出击"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第14话《奸恶的小丑》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "奸恶的小丑",
+   "ja": "奸悪なる道化",
+   "en": "The Wicked Clown",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第13话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在同一回合内击破 3 台合体状态的敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "G·班卡兰（美智留）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话《突入台北》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "突入台北",
+   "ja": "台北突入",
+   "en": "Taipei Rush",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第14话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破",
+    "透也或卡尔维娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内将沃尔伦特的 HP 削减至 21000 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话《本应忘却的名字》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "本应忘却的名字",
+   "ja": "忘れたはずの呼び名",
+   "en": "Name That Should Be Forgotten",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第15话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破",
+    "卡尔维娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内让卡尔维娜移动到阿尔·万的相邻格，或击破 25 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话《钩与剑》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "钩与剑",
+   "ja": "鉤と剣",
+   "en": "Hook and Blade",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第16话通关后。",
+   "victory": [
+    "在 6 回合内让黑金号到达目标地点；之后将德布德达拜德的 HP 削减至 56000 以下，或存活 11 回合"
+   ],
+   "defeat": [
+    "任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "让黑金号在 5 回合内到达目标地点"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大曾伽（曾伽）",
+    "奥森赛塔（拉特塞尔）",
+    "亡灵·哈肯（哈肯）",
+    "黑金号（库尔特）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第18话《骷髅骑士》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "骷髅骑士",
+   "ja": "髑髏の騎士",
+   "en": "Knight of Skulls",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第17话通关后。",
+   "victory": [
+    "击破水晶龙骑以外的全部敌人"
+   ],
+   "defeat": [
+    "飞龙改、虎太或翔子被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在一次战斗中对水晶龙骑造成 19000 点伤害（若先击破水晶龙骑与骷髅骑士以外的全部敌人，水晶龙骑会撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特零式（李修）",
+    "妖精利昂 G 型（夏茵）",
+    "龙虎王／虎龙王",
+    "妖精利昂 S 型",
+    "古伦加斯特二式（蓝）",
+    "古伦加斯特二式（赤）（取得条件见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "**古伦加斯特二式（赤）**：以**新手模式**（Beginner's Mode）通关本话即自动取得；普通模式下则在**二周目以后**的本话自动解锁。Akurasu Secrets 页作「新手模式第17话」——新手模式跳过第1话、话数编号前移 1，本话即其第17话（见本作主页）。"
+   ],
+   "unlocks": [
+    "第19话《落跑幽灵》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": "日文标题：Akurasu 两份流程表均作「髑髏の騎土」，系「騎士」的误植，本站统一作「髑髏の騎士」并在此注记。"
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "落跑幽灵",
+   "ja": "ランナウェイ・ゴースト",
+   "en": "Runaway Ghost",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第18话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号、阿莉艾尔或阿尔菲米被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 2 回合内击破 15 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第20话《意外机缘》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "意外机缘",
+   "ja": "セレンディピティ",
+   "en": "Serendipity",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第19话通关后。",
+   "victory": [
+    "将利耶朱·盖奥斯的 HP 削减至 28000 以下"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破盖奥斯·古尔德（其在 HP 降至 23000 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话《基利亚姆的一手》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "基利亚姆的一手",
+   "ja": "ギリアムの一手",
+   "en": "Gilliam's Ploy",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第20话通关后。",
+   "victory": [
+    "将拉夫特克兰兹·奥伦的 HP 削减至 40000 以下"
+   ],
+   "defeat": [
+    "我方全灭",
+    "透也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破沃尔伦特（朱亚·姆驾驶；其在 HP 降至 18000 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第22话《表演者们》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": "日文标题：Akurasu 两份流程表均作「ギリアムのー手」，本站统一作通行的「ギリアムの一手」并在此注记。"
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "表演者们",
+   "ja": "パフォーマーズ",
+   "en": "Performers",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第21话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改、雷奥尼西斯·哈尔加或雷奥尼西斯·巴尔加被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在席格与萨莉的 HP 均不低于 3500 的情况下达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话（巴黎线《假面的潜伏者》／卡拉奇线《两个诱饵》，第22话后二选一）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话·巴黎线",
+   "slug": "stage-23-paris",
+   "zh": "假面的潜伏者",
+   "ja": "仮面の潜伏者",
+   "en": "Masks of Shadows",
+   "part": "巴黎线",
+   "partZh": "本编",
+   "route": "巴黎线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第22话通关后选择巴黎线。",
+   "victory": [
+    "存活 6 回合，或击破 24 台敌机"
+   ],
+   "defeat": [
+    "钢号、英格或薇蕾塔被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 3 回合内让薇蕾塔与英格分别与瓦鲁赫·本交战"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话起部队分为两队行动：巴黎线以钢号为旗舰（完整出击名单见完整流程表），剧情重心在《GC》与《第3次α》侧（据 Namu 攻略页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第24话·巴黎线《共同战线》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话·巴黎线",
+   "slug": "stage-24-paris",
+   "zh": "共同战线",
+   "ja": "共同戦線",
+   "en": "United Front",
+   "part": "巴黎线",
+   "partZh": "本编",
+   "route": "巴黎线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第23话·巴黎线通关后。",
+   "victory": [
+    "击破全部杂兵，并将水晶龙骑的 HP 削减至 12000 以下"
+   ],
+   "defeat": [
+    "萨莉或席格被击破",
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在友军 NPC 的雷奥尼西斯与巴雷利昂被击毁之前通过本关"
+   ],
+   "srNote": "完整流程表原文为「Clear the map before the ReLions and Barrelions are destroyed or shoot enemies down」，语义含混，本站照译并在此注记，不作推测。",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "雷奥尼西斯·哈尔加（席格）",
+    "雷奥尼西斯·巴尔加（萨莉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第25话·巴黎线《凯旋作战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话·巴黎线",
+   "slug": "stage-25-paris",
+   "zh": "凯旋作战",
+   "ja": "オペレーション・トリオンフ",
+   "en": "Operation Triumph",
+   "part": "巴黎线",
+   "partZh": "本编",
+   "route": "巴黎线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第24话·巴黎线通关后。",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破全部拉玛利斯·卡尔纳"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话《朱亚·姆的猛攻》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话·卡拉奇线",
+   "slug": "stage-23-karachi",
+   "zh": "两个诱饵",
+   "ja": "トゥー・デコイズ",
+   "en": "Two Decoys",
+   "part": "卡拉奇线",
+   "partZh": "本编",
+   "route": "卡拉奇线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第22话通关后选择卡拉奇线。",
+   "victory": [
+    "歼灭全部敌军（骷髅骑士在 HP 降至 42000 以下时撤退）"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 2 回合内击破骷髅骑士以外的全部初期敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话起部队分为两队行动：卡拉奇线以飞龙改为旗舰（完整出击名单见完整流程表），剧情重心在《J》侧（据 Namu 攻略页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第24话·卡拉奇线《解放卡拉奇》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话·卡拉奇线",
+   "slug": "stage-24-karachi",
+   "zh": "解放卡拉奇",
+   "ja": "カラチ解放",
+   "en": "Liberation of Karachi",
+   "part": "卡拉奇线",
+   "partZh": "本编",
+   "route": "卡拉奇线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第23话·卡拉奇线通关后。",
+   "victory": [
+    "击破德布德达拜德以外的全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让任何一台我方量产型凶鸟 Mk-II 被击破"
+   ],
+   "srNote": "简表（Flow Chart）只作「不让任何一台我方凶鸟被击破」、未限定量产型，本站从完整流程表并在此注记。",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第25话·卡拉奇线《阿尔·万的真意》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话·卡拉奇线",
+   "slug": "stage-25-karachi",
+   "zh": "阿尔·万的真意",
+   "ja": "アル＝ヴァンの真意",
+   "en": "Soul of Al-Van",
+   "part": "卡拉奇线",
+   "partZh": "本编",
+   "route": "卡拉奇线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第24话·卡拉奇线通关后。",
+   "victory": [
+    "将拉夫特克兰兹·奥伦的 HP 削减至 39000 以下"
+   ],
+   "defeat": [
+    "飞龙改被击破",
+    "透也或卡尔维娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "由透也在 5 回合内击破 5 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话《朱亚·姆的猛攻》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "朱亚·姆的猛攻",
+   "ja": "ジュア＝ム激進",
+   "en": "Jua-Mu's Fierce Attack",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第25话（巴黎线或卡拉奇线）通关后，两线合流。",
+   "victory": [
+    "将拉夫特克兰兹的 HP 削减至 30000 以下"
+   ],
+   "defeat": [
+    "任一旗舰被击破",
+    "卡尔维娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 2 回合内击破全部「幽灵」"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魂之剑 FF／GG（阿基米／阿凯米）",
+    "贝尔泽鲁特（卡尔维娜／副驾驶）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第27话《咬住陷阱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "咬住陷阱",
+   "ja": "バイト・ザ・トラップ",
+   "en": "Bait The Trap",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第26话通关后。",
+   "victory": [
+    "歼灭全部敌人；或在事件后让钢号到达目的地"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在胜利条件变更后的 4 回合内让钢号到达标记点，或歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第28话《魂之剑，超越者》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "魂之剑，超越者",
+   "ja": "魂の剣、超越せし者",
+   "en": "Soul of the Sword, Transcendent",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第27话通关后。",
+   "victory": [
+    "将贾诺尼亚·奥加的 HP 削减至 36000 以下"
+   ],
+   "defeat": [
+    "钢号被击破",
+    "阿基米被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让任何一名我方 NPC 被击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "超魂之剑 FF／GG（阿基米／阿凯米）"
+   ],
+   "events": [
+    "魂之剑在本话强化为超魂之剑，改造按继承规则转移（据 ds-can 改造页，见本作主页）。"
+   ],
+   "secrets": [
+    "**英雄之印（强化部件）**：在本话**结束前拥有 15 名以上的王牌驾驶员**（Ace，击坠 ≥50）后取得。据 Secrets 页：若在先前周目达成过，后续周目无需再次达成即可取得。"
+   ],
+   "unlocks": [
+    "第29话《希望的去向》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "希望的去向",
+   "ja": "希望の行方",
+   "en": "Place of Hope",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第28话通关后。",
+   "victory": [
+    "将拉夫特克兰兹的 HP 削减至 19000 以下；或击破 20 台弗里（Fury）的单位"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 3 回合内击破全部「幽灵」"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "埃克塞伦斯·雷斯库的主驾驶员由拉乌尔变更为德斯毗尼斯",
+    "格兰提德（透也／副驾驶）",
+    "贝尔泽鲁特·布里甘迪（卡尔维娜）"
+   ],
+   "events": [
+    "贝尔泽鲁特在本话强化为贝尔泽鲁特·布里甘迪，改造按继承规则转移（据 ds-can 改造页，见本作主页）。"
+   ],
+   "secrets": [
+    "**高性能电子头脑（强化部件）**：在本话**结束前拥有至少 1 名等级 35 以上的驾驶员**后取得。据 Secrets 页：先前周目达成过则后续周目自动取得。",
+    "**库斯托威尔·布拉奇姆·第 1 步**：在本话结束时选择**月球线**（二周目以后不需要此步）。后续步骤在第30话·月球线与第35话。"
+   ],
+   "unlocks": [
+    "第30话（巴拉尔线《沙上的结界》／月球线《空间的支配者》，第29话后二选一）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·巴拉尔线",
+   "slug": "stage-30-baral",
+   "zh": "沙上的结界",
+   "ja": "砂上の結界",
+   "en": "Barrier of Sand",
+   "part": "巴拉尔线",
+   "partZh": "本编",
+   "route": "巴拉尔线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第29话通关后选择巴拉尔线。",
+   "victory": [
+    "存活 8 回合，或击破全部敌人"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让钢号受到攻击"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话起部队分为两队行动：巴拉尔线由钢号与飞龙改同行（完整出击名单见完整流程表），前往巴拉尔庭园遗迹。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第31话·巴拉尔线《负念金字塔（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话·巴拉尔线",
+   "slug": "stage-31-baral",
+   "zh": "负念金字塔（前篇）",
+   "ja": "負念の金字塔（前篇）",
+   "en": "Monument to Evil (Part 1)",
+   "part": "巴拉尔线",
+   "partZh": "本编",
+   "route": "巴拉尔线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第30话·巴拉尔线通关后。",
+   "victory": [
+    "击破德布德达拜德"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 6 回合内击破德布德达拜德"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第32话·巴拉尔线《负念金字塔（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·巴拉尔线",
+   "slug": "stage-32-baral",
+   "zh": "负念金字塔（后篇）",
+   "ja": "負念の金字塔（後篇）",
+   "en": "Monument of Evil (Part 2)",
+   "part": "巴拉尔线",
+   "partZh": "本编",
+   "route": "巴拉尔线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话·巴拉尔线通关后。",
+   "victory": [
+    "让虎太到达指定点；之后将拉玛利斯·伊尔达的 HP 削减至 42000 以下，或将水晶龙骑的 HP 削减至 22000 以下"
+   ],
+   "defeat": [
+    "飞龙改或虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "将水晶龙骑的 HP 削减至 88000 以下后，在 2 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第33话·巴拉尔线《草原燃烧》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·巴拉尔线",
+   "slug": "stage-33-baral",
+   "zh": "草原燃烧",
+   "ja": "草燃ゆる",
+   "en": "Burning Grass",
+   "part": "巴拉尔线",
+   "partZh": "本编",
+   "route": "巴拉尔线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第32话·巴拉尔线通关后。",
+   "victory": [
+    "让塞蕾娜到达指定点；之后存活 3 回合；之后歼灭全部敌人"
+   ],
+   "defeat": [
+    "塞蕾娜被击破",
+    "其他单位全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 3 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "盖斯泰尔本·改（塞蕾娜）",
+    "亡灵 Mk-II 改 G 型（阿尔巴达）"
+   ],
+   "events": [
+    "据 Namu 攻略页：巴拉尔线剧情接近《第3次α》塞蕾娜线的预告段，可提前见到塞蕾娜，与本篇主线关系不大。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话《空虚的灵魂》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·月球线",
+   "slug": "stage-30-moon",
+   "zh": "空间的支配者",
+   "ja": "空間の支配者",
+   "en": "Ruler of Space",
+   "part": "月球线",
+   "partZh": "本编",
+   "route": "月球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第29话通关后选择月球线。",
+   "victory": [
+    "将库斯托威尔·布拉奇姆的 HP 削减至 39000 以下；或击破其他全部敌机"
+   ],
+   "defeat": [
+    "黑金号被击破；或拉乌尔与菲奥娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内击破 20 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "菲亚莉成为超魂之剑的追加副驾驶",
+    "超魂之剑 FF 取得追加武装「超爆裂剑」",
+    "黑金号（库尔特）",
+    "埃克塞伦斯·枪袭型（拉乌尔）",
+    "埃克塞伦斯·枪袭型（菲奥娜）",
+    "雷奥尼西斯·哈尔加（席格）",
+    "雷奥尼西斯·巴尔加（萨莉）"
+   ],
+   "events": [
+    "本话起部队分为两队行动：月球线以黑金号为旗舰（完整出击名单见完整流程表）。"
+   ],
+   "secrets": [
+    "**库斯托威尔·布拉奇姆·第 2 步**：本话中让**卡尔维娜与朱亚·姆交战**（二周目以后不需要此步）。第 1 步在第29话（结束时选择月球线），第 3 步在第35话。"
+   ],
+   "unlocks": [
+    "第31话·月球线《沃特与菲亚莉》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话·月球线",
+   "slug": "stage-31-moon",
+   "zh": "沃特与菲亚莉",
+   "ja": "ヴォートとフェアリ",
+   "en": "Vought and Fairey",
+   "part": "月球线",
+   "partZh": "本编",
+   "route": "月球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第30话·月球线通关后。",
+   "victory": [
+    "将贾诺尼亚·奥加的 HP 削减至 36000 以下"
+   ],
+   "defeat": [
+    "黑金号被击破",
+    "敌机移动到黑金号的相邻格",
+    "阿凯米被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在达成胜利条件之前击破雷奥尼西斯（其在 HP 降至 14000 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第32话·月球线《皇家的真剑》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·月球线",
+   "slug": "stage-32-moon",
+   "zh": "皇家的真剑",
+   "ja": "皇家の真剣",
+   "en": "Blade of the Imperial Family",
+   "part": "月球线",
+   "partZh": "本编",
+   "route": "月球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话·月球线通关后。",
+   "victory": [
+    "将拉夫特克兰兹·卡罗库阿拉的 HP 削减至 60000 以下；或击破拉夫特克兰兹·卡罗库阿拉以外的全部敌人"
+   ],
+   "defeat": [
+    "黑金号或透也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内击破 25 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "格兰提德·德拉科迪乌斯（透也）"
+   ],
+   "events": [
+    "格兰提德在本线本话强化为格兰提德·德拉科迪乌斯，改造按继承规则转移（据 ds-can 改造页，见本作主页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话·月球线《迷惑敌人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·月球线",
+   "slug": "stage-33-moon",
+   "zh": "迷惑敌人",
+   "ja": "コンフューズ・ジ・エネミー",
+   "en": "Confuse the Enemy",
+   "part": "月球线",
+   "partZh": "本编",
+   "route": "月球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第32话·月球线通关后。",
+   "victory": [
+    "击破利耶朱·盖奥斯以外的全部单位"
+   ],
+   "defeat": [
+    "黑金号被击破",
+    "敌人到达地图右下的指定线"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内将奥尔格·瓦鲁的 HP 削减至 26000 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑金号（库尔特）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第34话《空虚的灵魂》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "空虚的灵魂",
+   "ja": "虚ろな魂",
+   "en": "Hollow Soul",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第33话（巴拉尔线或月球线）通关后，两线合流。",
+   "victory": [
+    "让阿莉艾尔与恩特利希·盖斯特交战 3 次，或到达第 4 回合；之后歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一旗舰、阿莉艾尔或恩特利希·盖斯特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 3 回合内击破全部「幽灵」"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "**杜万·奥格＆恩特利希·盖斯特·第 1 步**：在第 4 我方阶段开始之前让**阿莉艾尔与恩特利希·盖斯特交战 3 次**（Secrets 页作「3 回合内交战 3 次」，与本话胜利条件的交战次数为同一事件）。第 2 步在最终话。",
+    "**自由电子炮（武器）**：在本话**开始时**我方全体驾驶员的平均等级 **≥25**，过关后取得。"
+   ],
+   "unlocks": [
+    "第35话《夏娜·米娅的话语》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "夏娜·米娅的话语",
+   "ja": "シャナ＝ミアの言葉",
+   "en": "Shana-Mia's Message",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第34话通关后。",
+   "victory": [
+    "击破拉夫特克兰兹·法乌内亚以外的全部敌人；之后将拉夫特克兰兹·法乌内亚的 HP 削减至 36000 以下"
+   ],
+   "defeat": [
+    "任一旗舰、拉乌尔或菲奥娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在将库斯托威尔·布拉奇姆的 HP 削减至 39000 以下的同一回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "库斯托威尔·布拉奇姆（取得条件见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "**库斯托威尔·布拉奇姆·第 3 步（交付）**：在**埃克塞伦斯·雷斯库出击在场**时，由**透也击破**库斯托威尔·布拉奇姆（据 Secrets 页：由透也发起攻击即可），过关后取得。前两步：第29话结束时选择月球线、第30话·月球线让卡尔维娜与朱亚·姆交战（二周目以后前两步均不需要）。"
+   ],
+   "unlocks": [
+    "第36话《彼此吸引的人们》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "彼此吸引的人们",
+   "ja": "引き付け合う者達",
+   "en": "People Drawn Together",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第35话通关后。",
+   "victory": [
+    "到达第 4 回合；之后歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在第 3 回合敌方阶段结束前击破 12 台瓦鲁赫·本"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第37话《自静死归还》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "自静死归还",
+   "ja": "静死からの帰還",
+   "en": "Return from Orbit",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第36话通关后。",
+   "victory": [
+    "歼灭全部敌人；之后将泽德拉姆的 HP 削减至 34000 以下"
+   ],
+   "defeat": [
+    "任一旗舰、英格、薇蕾塔或凉斗被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破泽德拉姆（其在 HP 降至 34000 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "夏娜·米娅成为格兰提德·德拉科迪乌斯的追加副驾驶（透也机变为三人乘）",
+    "塞巴斯塔（正树）",
+    "瓦尔西奥妮 R（琉妮）",
+    "格兰佐恩（修）",
+    "伽利尔纳甘特（阿玛拉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第38话《7分钟的撤退战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "7分钟的撤退战",
+   "ja": "7分間の撤退戦",
+   "en": "7 Minutes to Evacuation",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第37话通关后。",
+   "victory": [
+    "到达第 4 回合；之后在 7 回合经过之前让钢号与飞龙改到达指定点"
+   ],
+   "defeat": [
+    "任一旗舰或阿基米被击破",
+    "旗舰未在 7 回合内到达指定点"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "让贾诺尼亚·奥加与超魂之剑交战且双方均存活（超魂之剑不得作为双机组队的副机）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第39话《被献上的负念体》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "被献上的负念体",
+   "ja": "捧げられた負念体",
+   "en": "Vessel of Evil",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第38话通关后。",
+   "victory": [
+    "将水晶龙骑的 HP 削减至 106000 以下；之后击破全部「幽灵」"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 2 回合内将水晶龙骑的 HP 削减至 106000 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第40话《死线上的钢号》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "死线上的钢号",
+   "ja": "死線上のハガネ",
+   "en": "The Hagane's Deadline",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第39话通关后。",
+   "victory": [
+    "在 6 回合内让钢号到达指定点"
+   ],
+   "defeat": [
+    "钢号被击破",
+    "钢号未在 6 回合内到达指定点"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破贾诺尼亚·奥加以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "超魂之剑 GG 取得追加武装「究极爆裂炮」",
+    "飞龙改归队（仍可继续改造）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第41话《血之旋风》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "血之旋风",
+   "ja": "血の旋風",
+   "en": "Whirlwind of Blood",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第40话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 个我方阶段内击破比尔戈的贾诺尼亚"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第42话《日光的守门人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "日光的守门人",
+   "ja": "日光のゲートキーパー",
+   "en": "Gatekeeper of Sunlight",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第41话通关后。",
+   "victory": [
+    "击破阿拉温泽·弗罗拉加"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 15 回合内击破阿拉温泽·弗罗拉加以外的全部敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第43话《剑刃交锋之时》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第43话",
+   "slug": "stage-43",
+   "zh": "剑刃交锋之时",
+   "ja": "剣、交わる時",
+   "en": "Clashing of Blades",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第42话通关后。",
+   "victory": [
+    "击破拉夫特克兰兹·法乌内亚"
+   ],
+   "defeat": [
+    "钢号或透也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 7 回合内击破拉夫特克兰兹·法乌内亚"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第44话《冰冷的世界（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第44话",
+   "slug": "stage-44",
+   "zh": "冰冷的世界（前篇）",
+   "ja": "冷たい世界（前篇）",
+   "en": "Coldhearted World (Part 1)",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第43话通关后。",
+   "victory": [
+    "击破朱亚·姆的机体"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 4 回合内击破 40 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "拉夫特克兰兹·奥鲁姆（阿尔·万）"
+   ],
+   "events": [
+    "朱亚·姆的机体取决于库斯托威尔·布拉奇姆的取得情况：未取得该隐藏机时为库斯托威尔·布拉奇姆，已取得时为拉夫特克兰兹（完整流程表）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第45话《冰冷的世界（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "冰冷的世界（后篇）",
+   "ja": "冷たい世界（後篇）",
+   "en": "Coldhearted World (Part 2)",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第44话通关后。",
+   "victory": [
+    "击破拉夫特克兰兹·卡罗库阿拉；之后击破祖伊·加丁"
+   ],
+   "defeat": [
+    "钢号或透也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 6 回合内击破拉夫特克兰兹·卡罗库阿拉"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "拉夫特克兰兹·奥鲁姆可使用「拉赛拉姆」",
+    "格兰提德·德拉科迪乌斯取得追加武装「无限口径」"
+   ],
+   "events": [],
+   "secrets": [
+    "**钢之魂（强化部件）**：在本话**结束前拥有 30 名以上的王牌驾驶员**后取得。据 Secrets 页：先前周目达成过则后续周目自动取得。"
+   ],
+   "unlocks": [
+    "第46话《魔城现身》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "魔城现身",
+   "ja": "魔城、現る",
+   "en": "The Demon City Appears",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第45话通关后。",
+   "victory": [
+    "击破水晶龙骑"
+   ],
+   "defeat": [
+    "任一旗舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 5 回合内击破全部「幽灵」"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜／肖恩／尤恩）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "最终话《双柱的斗神》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "双柱的斗神",
+   "ja": "二柱の闘神",
+   "en": "Twin Pillars of God",
+   "part": "共通",
+   "partZh": "本编",
+   "route": "共通",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第46话通关后。本话没有熟练度；本作没有以熟练度为门槛的结局分歧——最终话只有这一个版本。",
+   "victory": [
+    "击破恩特利希·盖斯特、骷髅骑士与德布德达拜德以外的全部敌人；之后击破 XN-L"
+   ],
+   "defeat": [
+    "任一旗舰、透也或虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本话无熟练度条件（流程图明记「SR Point: None」）。",
+   "rewards": {
+    "funds": "Akurasu 的完整流程表与简表均未刊载本话的固定通关资金；本作资金主要靠击破敌机获得，取得熟练度（SR Point）时另给出击驾驶员 PP 与资金奖励（据 PlayStation.Blog 官方特辑）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "骷髅骑士",
+    "恩特利希·盖斯特（杜万·奥格）（取得条件见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "**杜万·奥格＆恩特利希·盖斯特·第 2 步（交付）**：让阿莉艾尔（闪烁盖斯特）与恩特利希·盖斯特**交战一次且双方均存活**；之后在 **XN-L 出现之前再与它交战一次**。达成后 XN-L 出现时恩特利希·盖斯特转为我方、杜万·奥格随之加入。第 1 步在第34话。",
+    "**周回机体击坠计数（在本话结算）**：在本话结束前——约恩击坠 ≥70，下一周目第12话通关后取得**利耶朱·盖奥斯**；伊比斯或斯雷击坠 ≥70，取得**希利昂**；阿拉德、赛欧拉或拉托妮击坠 ≥70，取得**刻耳柏利昂**。已达成过的条件在后续周目自动解锁（三机均据 Secrets 页）。"
+   ],
+   "unlocks": [
+    "通关（解锁 EX-HARD 模式与周回，见本作主页）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的完整流程表只刊载胜利/败北条件、熟练度条件、机体加入与隐藏要素，不刊载逐关敌方配置；GameCenter GX 不收录本作。",
+     "盘点结论：日文个人攻略站「攻略の缶詰」（ds-can）设有本作专站与逐话攻略页，是目前唯一的候选编成来源，但其逐话页的敌方字段构成（构成/等级/HP/数量/增援）本站本轮未能逐页核实；除它之外未找到第二份可交叉核对的成套编成来源（GameFAQs 未查到本作的编成攻略文件；Akurasu 的 Clear 页为红链、并不存在）。单一且未核实来源的编成表本站暂不刊载，列为待裁决事项（范围：全 64 个剧本的敌方构成/数量/增援，字段以 ds-can 实际刊载为准）。",
+     "注记：本作普通模式的难度为 NORMAL/HARD 两档、随熟练度取得状况上升（据 PlayStation.Blog 官方特辑），触发 HARD 的确切比例未见刊载——同一关不存在脱离难度的唯一编成。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，候选编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Complete Chart（全关卡胜败条件、熟练度条件、机体加入与隐藏要素；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Flow Chart（熟练度条件清单，与完整流程表逐条交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG: The Moon Dwellers》主条目（发售信息、剧本总数 64、系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGMD"
+    }
+   ],
+   "note": "日文标题：完整流程表作「ニ柱の闘神」（片假名ニ），本站统一作通行的「二柱の闘神」并在此注记。"
+  }
+ ]
+}
