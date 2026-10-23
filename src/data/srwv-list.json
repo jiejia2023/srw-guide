@@ -1,0 +1,841 @@
+{
+ "groups": [
+  {
+   "title": "序盘：第1–7话（含特别剧本1）",
+   "intro": "开局主人公二选一（总司／千岁）决定第1话版本；第2话起两线同行。特别剧本1为初回特典 DLC 关。",
+   "rows": [
+    {
+     "code": "第1话·总司线",
+     "zh": "遥远的旅途",
+     "ja": "遥かなる旅路",
+     "en": "A Long Journey",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第1话·千岁线",
+     "zh": "从绝望中起航",
+     "ja": "絶望からの出航",
+     "en": "Flight from Despair",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "特别剧本1",
+     "zh": "集结的希望",
+     "ja": "集結する希望",
+     "en": "Galvanizing Hope",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "特别剧本"
+    },
+    {
+     "code": "第2话",
+     "zh": "火星的海盗",
+     "ja": "火星の海賊",
+     "en": "Pirates of Mars",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第3话",
+     "zh": "流星的记忆",
+     "ja": "流星の記憶",
+     "en": "Memories of a Fallen Star",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第4话",
+     "zh": "木星战线，异常",
+     "ja": "木星戦線、異常あり",
+     "en": "Anomaly on the Jovian Front",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第5话",
+     "zh": "再会的冰原",
+     "ja": "再会の氷原",
+     "en": "A Chilling Reunion",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第6话",
+     "zh": "冥王的落日",
+     "ja": "冥王の落日",
+     "en": "Dusk on Pluto",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第7话",
+     "zh": "交错的宇宙",
+     "ja": "交差する宇宙",
+     "en": "Cosmic Crossroads",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "主角分支与合流：第8–14话",
+   "intro": "第8–11话按主人公分版本；第12话起合流。第10话后工厂开放，第13话全金属狂潮队加入，第14话后进入分歧 #1。",
+   "rows": [
+    {
+     "code": "第8话·总司线",
+     "zh": "大宇宙的墓场",
+     "ja": "大宇宙の墓場",
+     "en": "Cosmic Graveyard",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第8话·千岁线",
+     "zh": "伽米拉斯的使者",
+     "ja": "ガミラスの使者",
+     "en": "The Gamillan Messenger",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "第9话·总司线",
+     "zh": "平静的海面",
+     "ja": "凪の海",
+     "en": "Calm Seas",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第9话·千岁线",
+     "zh": "崭新的日子",
+     "ja": "新しい日々",
+     "en": "A Fresh Start",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "第10话·总司线",
+     "zh": "呼唤风暴的勇者",
+     "ja": "嵐の勇者",
+     "en": "The Storm Caller",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第10话·千岁线",
+     "zh": "悄然逼近的巨恶",
+     "ja": "忍び寄る巨悪",
+     "en": "The Creeping Evil",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "第11话·总司线",
+     "zh": "黑衣的复仇者",
+     "ja": "黒衣の復讐者",
+     "en": "The Black-Cloaked Avenger",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第11话·千岁线",
+     "zh": "勇者，抵达！",
+     "ja": "勇者、到着！",
+     "en": "A Hero Arrives",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "第12话",
+     "zh": "破除混沌者",
+     "ja": "混沌を破壊する",
+     "en": "The Dispeller of Chaos",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第13话",
+     "zh": "禁忌之海",
+     "ja": "禁断の海",
+     "en": "The Forbidden Sea",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第14话",
+     "zh": "沾满鲜血的白色羽翼",
+     "ja": "血塗られた白き翼",
+     "en": "Blood-Splattered Wings",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #1：第15–18话",
+   "intro": "第14话后二选一：梵格雷留在阿尔泽纳尔／前往日本，第15–17话内容不同；条件达标时其后插入秘密剧本1。第18话合流，副指令随之开放。",
+   "rows": [
+    {
+     "code": "第15话·阿尔泽纳尔线",
+     "zh": "孤岛的邂逅",
+     "ja": "孤島の出会い",
+     "en": "Island Encounter",
+     "type": "路线关",
+     "area": "",
+     "note": "阿尔泽纳尔线"
+    },
+    {
+     "code": "第15话·日本线",
+     "zh": "别碰我的纳豆",
+     "ja": "納豆に手を出すな",
+     "en": "Not Your Natto",
+     "type": "路线关",
+     "area": "",
+     "note": "日本线"
+    },
+    {
+     "code": "第16话·阿尔泽纳尔线",
+     "zh": "再次结下的羁绊",
+     "ja": "絆、再び",
+     "en": "Bonds Renewed",
+     "type": "路线关",
+     "area": "",
+     "note": "阿尔泽纳尔线"
+    },
+    {
+     "code": "第16话·日本线",
+     "zh": "无法愈合的伤痕",
+     "ja": "消えない傷跡",
+     "en": "Wounds That Won't Heal",
+     "type": "路线关",
+     "area": "",
+     "note": "日本线"
+    },
+    {
+     "code": "第17话·阿尔泽纳尔线",
+     "zh": "飞舞而降的羽翼",
+     "ja": "舞い降りる翼",
+     "en": "Swooping Wings",
+     "type": "路线关",
+     "area": "",
+     "note": "阿尔泽纳尔线"
+    },
+    {
+     "code": "第17话·日本线",
+     "zh": "登场！命运的对手",
+     "ja": "登場！宿命のライバル",
+     "en": "The Fated Rival",
+     "type": "路线关",
+     "area": "",
+     "note": "日本线"
+    },
+    {
+     "code": "秘密剧本1",
+     "zh": "黑衣勇者特急",
+     "ja": "黒い勇者特急",
+     "en": "Black Brave Express",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第18话",
+     "zh": "逼近的危险黄金",
+     "ja": "迫るデンジャラスゴールド",
+     "en": "Dangerous Gold Approaches",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #2 前：第19–22话",
+   "intro": "第19话再按主人公分版本；第20–22话共通。第22话后进入分歧 #2。",
+   "rows": [
+    {
+     "code": "第19话·总司线",
+     "zh": "撕裂宇宙之物",
+     "ja": "宇宙を切り裂くもの",
+     "en": "Tearing Into Space",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第19话·千岁线",
+     "zh": "谎言与心意",
+     "ja": "嘘と想い",
+     "en": "Lies and Feelings",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    },
+    {
+     "code": "第20话",
+     "zh": "天照攻防战",
+     "ja": "アマテラス攻防戦",
+     "en": "Battle of Amaterasu",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第21话",
+     "zh": "决战！火星极冠遗迹！",
+     "ja": "決戦！火星極冠遺跡！",
+     "en": "The Martian Polar Cap Ruins!",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第22话",
+     "zh": "赤色地球",
+     "ja": "赤い地球",
+     "en": "Red Earth",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #2：第23–27话",
+   "intro": "第22话后二选一：与隆德·贝尔接触／独自行动，第23–25话内容不同；玛莉达点数与泰坦点数自此累计。第26话合流。",
+   "rows": [
+    {
+     "code": "第23话·隆德贝尔线",
+     "zh": "被打开的门扉",
+     "ja": "開かれた扉",
+     "en": "An Opened Door",
+     "type": "路线关",
+     "area": "",
+     "note": "隆德·贝尔线"
+    },
+    {
+     "code": "第23话·独自线",
+     "zh": "赤色之海与战斗的大地",
+     "ja": "赤い海と戦いの大地",
+     "en": "Red Seas and War-torn Lands",
+     "type": "路线关",
+     "area": "",
+     "note": "独自行动线"
+    },
+    {
+     "code": "第24话·隆德贝尔线",
+     "zh": "名为年轻的力量",
+     "ja": "若さという力",
+     "en": "The Power of Youth",
+     "type": "路线关",
+     "area": "",
+     "note": "隆德·贝尔线"
+    },
+    {
+     "code": "第24话·独自线",
+     "zh": "岔路",
+     "ja": "岐路",
+     "en": "A Crossroads",
+     "type": "路线关",
+     "area": "",
+     "note": "独自行动线"
+    },
+    {
+     "code": "第25话·隆德贝尔线",
+     "zh": "孤立",
+     "ja": "孤立",
+     "en": "Isolation",
+     "type": "路线关",
+     "area": "",
+     "note": "隆德·贝尔线"
+    },
+    {
+     "code": "第25话·独自线",
+     "zh": "梅利达岛的危机",
+     "ja": "メリダ島の危機",
+     "en": "Crisis on Melida Island",
+     "type": "路线关",
+     "area": "",
+     "note": "独自行动线"
+    },
+    {
+     "code": "第26话",
+     "zh": "降临之物",
+     "ja": "降臨するもの",
+     "en": "Descent from the Heavens",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第27话",
+     "zh": "铁之刃，钢之羁绊",
+     "ja": "鉄の刃、鋼の絆",
+     "en": "An Iron Blade and a Steel Bond",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #3：第28–34话（秘密剧本2 在第27话后）",
+   "intro": "第27话后二选一：留在宇宙世纪世界／前往西历世界，第28–32话内容不同、多项点数与隐藏在此结算；第33话合流，第34话按主人公分版本并决定主人公后继机。",
+   "rows": [
+    {
+     "code": "秘密剧本2",
+     "zh": "思绪的形状",
+     "ja": "想いの形",
+     "en": "Thought Patterns",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第28话·宇宙世纪线",
+     "zh": "通往未来的邀请",
+     "ja": "未来への招待",
+     "en": "An Invitation to the Future",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙世纪线"
+    },
+    {
+     "code": "第28话·西历线",
+     "zh": "冲突的正邪",
+     "ja": "激突する正邪",
+     "en": "The Clash of Right and Wrong",
+     "type": "路线关",
+     "area": "",
+     "note": "西历线"
+    },
+    {
+     "code": "第29话·宇宙世纪线",
+     "zh": "进化的去向",
+     "ja": "進化の行き先",
+     "en": "Where Progress Leads",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙世纪线"
+    },
+    {
+     "code": "第29话·西历线",
+     "zh": "复仇的尽头",
+     "ja": "復讐の果てに",
+     "en": "The Result of Revenge",
+     "type": "路线关",
+     "area": "",
+     "note": "西历线"
+    },
+    {
+     "code": "第30话·宇宙世纪线",
+     "zh": "变化的世界",
+     "ja": "変わりゆく世界",
+     "en": "A Changing World",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙世纪线"
+    },
+    {
+     "code": "第30话·西历线",
+     "zh": "被背叛的故乡",
+     "ja": "裏切りの故郷",
+     "en": "Hometown of Betrayal",
+     "type": "路线关",
+     "area": "",
+     "note": "西历线"
+    },
+    {
+     "code": "第31话·宇宙世纪线",
+     "zh": "灼热的达喀尔",
+     "ja": "灼熱のダカール",
+     "en": "Dakar Burning",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙世纪线"
+    },
+    {
+     "code": "第31话·西历线",
+     "zh": "永恒的自由",
+     "ja": "永遠の自由",
+     "en": "Eternal Freedom",
+     "type": "路线关",
+     "area": "",
+     "note": "西历线"
+    },
+    {
+     "code": "第32话·宇宙世纪线",
+     "zh": "战场上的十字之心",
+     "ja": "戦場のクロスハート",
+     "en": "The Battlefield of Conflicted Hearts",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙世纪线"
+    },
+    {
+     "code": "第32话·西历线",
+     "zh": "黑暗之神的歌谣",
+     "ja": "黒き神の歌",
+     "en": "Song of the Dark God",
+     "type": "路线关",
+     "area": "",
+     "note": "西历线"
+    },
+    {
+     "code": "第33话",
+     "zh": "飞翔吧，伟大的勇者！",
+     "ja": "飛び立て、偉大な勇者！",
+     "en": "Take Flight, Brave Heroes!",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第34话·总司线",
+     "zh": "被释放的希望",
+     "ja": "解き放たれる希望",
+     "en": "Hope Set Free",
+     "type": "主角分支关",
+     "area": "",
+     "note": "总司线"
+    },
+    {
+     "code": "第34话·千岁线",
+     "zh": "希望的去向",
+     "ja": "希望の行き先",
+     "en": "Where Hope Leads",
+     "type": "主角分支关",
+     "area": "",
+     "note": "千岁线"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #4（三路）：第35–39话",
+   "intro": "第36话后三路分兵（地上／宇宙／西历部队），第37–38话各有三版本；特别剧本2 在第36话后、秘密剧本3 与特别剧本3 在第39话后。第40话玩家部队定名地球舰队·天驱。",
+   "rows": [
+    {
+     "code": "第35话",
+     "zh": "毁灭之光",
+     "ja": "滅びの光",
+     "en": "Light of Ruin",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第36话",
+     "zh": "继承星辰之人",
+     "ja": "星を継ぐ者",
+     "en": "Who Inherits the Stars",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "特别剧本2",
+     "zh": "新的力量",
+     "ja": "新しい力",
+     "en": "New Strength",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "特别剧本"
+    },
+    {
+     "code": "第37话·地上部队",
+     "zh": "Dr.地狱，最后的赌注",
+     "ja": "Dr.ヘル、最後の賭け",
+     "en": "Dr Hell's Final Wager",
+     "type": "路线关",
+     "area": "",
+     "note": "地上部队"
+    },
+    {
+     "code": "第37话·宇宙部队",
+     "zh": "奔驰于宇宙的心意",
+     "ja": "宇宙を駆ける想い",
+     "en": "Hope Across the Universe",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙部队"
+    },
+    {
+     "code": "第37话·西历部队",
+     "zh": "Necessary",
+     "ja": "Necessary",
+     "en": "Necessary",
+     "type": "路线关",
+     "area": "",
+     "note": "西历部队"
+    },
+    {
+     "code": "第38话·地上部队",
+     "zh": "地狱之门",
+     "ja": "地獄の門",
+     "en": "The Gates of Hell",
+     "type": "路线关",
+     "area": "",
+     "note": "地上部队"
+    },
+    {
+     "code": "第38话·宇宙部队",
+     "zh": "被托付的未来",
+     "ja": "託された未来",
+     "en": "Future in the Balance",
+     "type": "路线关",
+     "area": "",
+     "note": "宇宙部队"
+    },
+    {
+     "code": "第38话·西历部队",
+     "zh": "扭曲的世界",
+     "ja": "歪む世界",
+     "en": "This Warped World",
+     "type": "路线关",
+     "area": "",
+     "note": "西历部队"
+    },
+    {
+     "code": "第39话",
+     "zh": "终焉的觉醒",
+     "ja": "終焉への目覚め",
+     "en": "Wake up, Time to Die",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本3",
+     "zh": "使者，来访",
+     "ja": "シ者、来訪",
+     "en": "Come the Messenger",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "特别剧本3",
+     "zh": "新的希望成长",
+     "ja": "集結する希望",
+     "en": "A New Hope Grows",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "特别剧本"
+    }
+   ]
+  },
+  {
+   "title": "终盘：第40–45话（分歧 #5）",
+   "intro": "第42话后二选一：配属大和队／抚子队，第43–45话内容不同；秘密剧本4 在第42话后（条件达标时）。",
+   "rows": [
+    {
+     "code": "第40话",
+     "zh": "通往星辰大海",
+     "ja": "星々の海原へ",
+     "en": "Into the Sea of Stars",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第41话",
+     "zh": "记忆海底",
+     "ja": "記憶の海の底",
+     "en": "At the Bottom of the Sea of Memories",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第42话",
+     "zh": "穿越昏暗之光",
+     "ja": "昏き光を越えて",
+     "en": "Beyond the Gloomy Light",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本4",
+     "zh": "支撑漫长旅程",
+     "ja": "長き旅路を支えるもの",
+     "en": "Supporting a Long Journey",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第43话·大和队",
+     "zh": "接触",
+     "ja": "接触",
+     "en": "Contact",
+     "type": "路线关",
+     "area": "",
+     "note": "大和队"
+    },
+    {
+     "code": "第43话·抚子队",
+     "zh": "紫色的恶意",
+     "ja": "紫色の悪意",
+     "en": "Purple Malice",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子队"
+    },
+    {
+     "code": "第44话·大和队",
+     "zh": "夹击，多梅尔幕僚团",
+     "ja": "挟撃、ドメル幕僚団",
+     "en": "A Pincer Attack and the Domel Advisory Council",
+     "type": "路线关",
+     "area": "",
+     "note": "大和队"
+    },
+    {
+     "code": "第44话·抚子队",
+     "zh": "千鸟要的罪",
+     "ja": "チドリカナメの罪",
+     "en": "The Sins of Kaname Chidori",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子队"
+    },
+    {
+     "code": "第45话·大和队",
+     "zh": "人活着的意义",
+     "ja": "人の生きる意味",
+     "en": "The Reason We Live",
+     "type": "路线关",
+     "area": "",
+     "note": "大和队"
+    },
+    {
+     "code": "第45话·抚子队",
+     "zh": "黑暗的使徒",
+     "ja": "暗黒の使徒",
+     "en": "The Dark Disciples",
+     "type": "路线关",
+     "area": "",
+     "note": "抚子队"
+    }
+   ]
+  },
+  {
+   "title": "结局分支：第46–最终话",
+   "intro": "第49话通关后按条件与选择分通常／困难（IF）路线，第50、51、最终话整段不同、不再合流。困难路线（一周目）须第47话用波动炮＋第49话时王牌 ≥25 人且大王牌 ≥1 人。",
+   "rows": [
+    {
+     "code": "第46话",
+     "zh": "宇宙之狼",
+     "ja": "宇宙の狼",
+     "en": "Space Wolf",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第47话",
+     "zh": "应当守护的未来",
+     "ja": "守るべき未来",
+     "en": "The Future",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第48话",
+     "zh": "相连的心意，无法传达的心意",
+     "ja": "繋がる想い、届かぬ想い",
+     "en": "Lost and Bound",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第49话",
+     "zh": "落日之星",
+     "ja": "落日の星",
+     "en": "Closing the Books",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第50话·通常路线",
+     "zh": "无尽的战斗",
+     "ja": "終わりなき戦い",
+     "en": "Battle Never Ending",
+     "type": "结局分支关",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "第50话·困难路线",
+     "zh": "决战的蓝色星群",
+     "ja": "決戦の青き星々",
+     "en": "Battle of the Three Earths",
+     "type": "结局分支关",
+     "area": "",
+     "note": "困难路线（IF）"
+    },
+    {
+     "code": "第51话·通常路线",
+     "zh": "因果的尽头",
+     "ja": "因果の果てに",
+     "en": "At the End of Cause and Effect",
+     "type": "结局分支关",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "第51话·困难路线",
+     "zh": "比黑暗更深邃之物",
+     "ja": "闇より暗きもの",
+     "en": "Darker than the Darkest Black",
+     "type": "结局分支关",
+     "area": "",
+     "note": "困难路线（IF）"
+    },
+    {
+     "code": "最终话·通常路线",
+     "zh": "遥远的故乡",
+     "ja": "遙かなる故郷",
+     "en": "A Distant Home",
+     "type": "最终话",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "最终话·困难路线",
+     "zh": "过去与未来的夹缝间",
+     "ja": "過去と未来の狭間で",
+     "en": "The Gulf Between Past and the Future",
+     "type": "最终话",
+     "area": "",
+     "note": "困难路线（IF）"
+    }
+   ]
+  }
+ ]
+}

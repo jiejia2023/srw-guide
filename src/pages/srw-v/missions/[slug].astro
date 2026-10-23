@@ -1,0 +1,182 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwv-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { m } }));
+}
+const { m } = Astro.props as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战V', path: 'srw-v/' },
+  { label: '关卡攻略', path: 'srw-v/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const comp = m.enemies?.composition;
+---
+<Base title={`超级机器人大战V ${m.code} ${m.zh} 攻略 · 胜利条件 / SR点 / 隐藏要素`} description={`超级机器人大战V（PS4/PS Vita）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、SR点（熟练度）取得条件、工厂 TacP 奖励、我方加入单位、本关敌方编成（双源）与隐藏要素。`} path={`srw-v/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.code}《{m.zh}》</h1>
+  <p class="text-base-content/60">{m.ja} / {m.en} · {m.route}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、工厂 TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战V》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统与点数制另以日方 srw.wiki 互证；两源表述不一致之处已在页面中逐条注记。SR点说明：本作主线剧本每话 1 个 SR 点条件（秘密/特别剧本与最终话无）；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式的难度二档（NORMAL/HARD，随取得率上升；取得率 80% 以上转 HARD 为 srw.wiki 的系列通论目安，本作专属数值未刊载）与白金纹章（50 点）。敌方<strong>编成</strong>凡有两家独立来源（日文 comp-bible 与 Akurasu 部署表）互证的，并列刊出；只有 comp-bible 一家刊载的关卡，编成暂不刊出（待裁决），且两家的<strong>等级/HP/每台 TacP 数值列只有 comp-bible 单源</strong>，亦暂不转录。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本科地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra">
+    <tbody>
+    <tr><th>进入条件 / 位置</th><td>{m.prerequisite}</td></tr>
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>{m.defeat.map((v: string) => <div>{v}</div>)}{m.defeatNote && <div class="muted">{m.defeatNote}</div>}</td></tr>
+    <tr><th>SR点（熟练度）</th><td>
+      {m.sr.length ? m.sr.map((s: string) => <div>{s}</div>) : <div>本关无 SR 点</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    {m.tacpBonus && (
+    <tr><th>TacP 奖励（工厂）</th><td>{m.tacpBonus}</td></tr>
+    )}
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {comp ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 comp-bible（コンプバイブル）的 V 逐话编成表（构成/驾驶员/数量/资金/掉落，全剧本覆盖；难度基准未标注）与英文 Akurasu 的 Deployment Chart（构成/数量/资金/掉落/增援触发，<strong>HARD 基准</strong>、原页自标未完）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：comp-bible 为日文原名，Akurasu 为英文名）。两源均<strong>不提供单位坐标与地形</strong>。注意：comp-bible 原表另有<strong>等级 / HP / 每台 TacP 列，仅该站单源刊载</strong>，按本站双源规则未予转录（待裁决）。</span>
+    </div>
+    {(comp.sources ?? []).map((src: any) => (
+    <div>
+      <h3>敌方编成（{src.name}）</h3>
+      {(src.groups ?? []).map((g: any) => (
+      <div>
+        {g.part && <h4>{g.part}</h4>}
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          {src.kind === 'cb' ? (
+          <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th></tr></thead>
+          <tbody>
+          {g.rows.map((r: any) => (
+            <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td></tr>
+          ))}
+          </tbody></>
+          ) : (
+          <><thead><tr><th>机体</th><th>数量</th><th>资金（台）</th><th>掉落</th></tr></thead>
+          <tbody>
+          {g.rows.map((r: any) => (
+            <tr><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td><td>{r.drops || '—'}{r.note ? `（${r.note}）` : ''}</td></tr>
+          ))}
+          </tbody></>
+          )}
+        </table>
+        </div>
+        {(g.reinforcements ?? []).map((rg: any) => (
+        <div>
+          <h4>增援：{rg.trigger}</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            {src.kind === 'cb' ? (
+            <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th></tr></thead>
+            <tbody>
+            {rg.rows.map((r: any) => (
+              <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td></tr>
+            ))}
+            </tbody></>
+            ) : (
+            <><thead><tr><th>机体</th><th>数量</th><th>资金（台）</th><th>掉落</th></tr></thead>
+            <tbody>
+            {rg.rows.map((r: any) => (
+              <tr><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td><td>{r.drops || '—'}{r.note ? `（${r.note}）` : ''}</td></tr>
+            ))}
+            </tbody></>
+            )}
+          </table>
+          </div>
+        </div>
+        ))}
+        {g.drops && g.drops.length > 0 && (
+        <div>
+          <h4>掉落 / 获得部件（{src.name}）</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            <thead><tr><th>部件 / 物品</th><th>来源</th></tr></thead>
+            <tbody>
+            {g.drops.map((d: any) => (
+              <tr><td>{d.item}</td><td>{d.from || '—'}</td></tr>
+            ))}
+            </tbody>
+          </table>
+          </div>
+        </div>
+        )}
+        {g.notes && <p class="text-sm"><strong>※</strong>{g.notes}</p>}
+      </div>
+      ))}
+    </div>
+    ))}
+    {(comp.conflicts ?? []).length > 0 && (
+    <div>
+      <h3>两源差异注记</h3>
+      <ul>
+        {comp.conflicts.map((c: string) => <li>{c}</li>)}
+      </ul>
+    </div>
+    )}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>{m.enemies.status === '单一来源' ? (m.enemies.holdText === 'akurasu' ? '本关敌方编成目前只有 Akurasu 的 Deployment Chart 一家刊载（该表为 HARD 基准，含构成/数量/资金/掉落/增援触发）；comp-bible 未刊载本关编成。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入（本站 F 完结编有单源导入先例）。' : '本关敌方编成目前只有日文 comp-bible（コンプバイブル）一家刊载（该站对本作有全剧本逐话编成表，含构成/驾驶员/等级/HP/数量/资金/TacP/掉落）；Akurasu 的 Deployment Chart 未覆盖本关（该表原页自标未完：DLC 关与部分路线缺失）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入（本站 F 完结编有单源导入先例）。') : '本关敌方配置（初始配置、增援、等级、坐标）在所查来源中未见成套刊载，核实后补入。'}</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  {m.events.length > 0 && (
+  <>
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  </>
+  )}
+
+  <h2>隐藏要素（本关）</h2>
+  {m.secrets.length ? (
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无单独隐藏要素（全作隐藏要素总览见本作主页）。</p>
+  )}
+
+  <h2>关卡地图（坐标）</h2>
+  <StageMap mission={m} />
+  {m.note && <p><strong>注：</strong>{m.note}</p>}
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+  <p><a href={href('srw-v/missions/')}>← 返回超级机器人大战V关卡列表</a></p>
+</Base>

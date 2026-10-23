@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwVMissionList from '../../../components/SrwVMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战V', path: 'srw-v/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战V（PS4/PS Vita）关卡攻略 · 全87个关卡页面列表" description="超级机器人大战V（2017年 PS4/PS Vita）全部关卡的页面列表：按 Akurasu 完整流程表逐条清点共 87 个不同剧本（80 个编号话变体＋4 个秘密剧本＋3 个特别剧本），一周目实际游玩 52 话。每关独立攻略页含胜利/败北条件、SR Point 取得条件、工厂 TacP 奖励、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-v/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战V · 关卡攻略</h1>
+  <p>2017 年《超级机器人大战V》（PS4/PS Vita）是版权作品机战时隔多年重返掌机/家用机双平台、并<strong>首次推出官方中文版</strong>（繁体中文，与日版同日发售）的一作。剧情横跨<strong>新正历、西历、宇宙世纪三个平行世界</strong>：地球舰队乘宇宙战舰大和号远赴伊斯坎达尔求取宇宙回复系统，第40话才正式定名「<strong>地球舰队·天驱</strong>」。结构上，本作有<strong>开局主人公二选一</strong>（丛云总司／如月千岁，未选者为副主人公，影响第1、8–11、19、34话），外加<strong>五段路线分歧</strong>（第14话后阿尔泽纳尔／日本；第22话后隆德·贝尔／独自行动；第27话后宇宙世纪／西历；第36话后<cite>三路</cite>地上／宇宙／西历；第42话后大和队／抚子队）与<strong>结局分支</strong>（第49话后通常／困难（IF）路线）。按 Akurasu 的<strong>完整流程表（Complete Chart）</strong>逐条清点，全作共 <strong>87 个不同剧本</strong>（80 个编号话变体＋4 个秘密剧本＋3 个特别/DLC剧本），一周目实际游玩 <strong>52 话</strong>，本站已按 87 个剧本全部建页。本作的<strong>熟练度称 SR Point（SR点）</strong>：主线剧本每话 1 点（秘密/特别剧本与最终话无），一周目最多 <strong>52 点</strong>；SR 点不改变路线，只决定普通（Standard）模式的难度二档（NORMAL/HARD，随取得率上升；据 srw.wiki 的系列通论目安为取得率 80% 以上转 HARD，本作专属百分比未刊载）与<strong>白金纹章</strong>（取得 50 点）。<strong>困难路线（IF 路线）不是 SR 门槛</strong>：一周目须第47话使用波动炮＋第49话通关时王牌 ≥25 人且大王牌 ≥1 人，二周目起无条件可选。每一关的完整攻略（胜败条件、SR 条件、工厂 TacP 奖励、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站全关卡补完计划中的又一部完成作——87 个详情页全部建成。流程、胜败条件、SR 条件、TacP 奖励与加入以 Akurasu 的 V <strong>Complete Chart 为主源</strong>，与同站 Flow Chart、Secrets 页逐条交叉核对；系统与隐藏要素另以日方 srw.wiki 与 ja.wikipedia 互证。<strong>敌方编成采用双源并列</strong>：日文 comp-bible（コンプバイブル）的逐话编成表（构成/驾驶员/数量/资金/掉落，全话覆盖，但难度基准未标注）与 Akurasu 的 Deployment Chart（构成/数量/资金/掉落/增援触发，HARD 基准、原页自标未完：DLC 关与部分路线缺失）相互独立、内容互证的关卡，两源编成表并列刊出、差异逐关注明。两项<strong>待用户裁决</strong>：其一，comp-bible 独有的<strong>等级/HP/每台 TacP 数值列</strong>（单源）暂不转录；其二，只有 comp-bible 一家刊载编成的关卡（Akurasu 部署表缺失的路线/特别剧本等），其编成暂不刊出、只注记范围。敌方逐台<strong>坐标与逐格地形</strong>在任何来源中都不存在（s-rpg-navi 对 V 无编成表），各页地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <SrwVMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/V/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars V: Complete Chart</a>（主来源：全关卡的胜败条件、SR 条件、TacP 奖励、秘密条件与机体加入）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/V/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars V: Flow Chart</a>（分支结构与 SR 条件清单，与完整流程表交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/V/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars V: Secrets</a>（隐藏要素总表：点数制、秘密剧本条件、纹章、周回）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/V/Deployment_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars V: Deployment Chart</a>（敌方编成、资金、掉落与增援触发，HARD 型；与 comp-bible 并列刊载）</li>
+    <li><a href="https://comp-bible.com/srw/v/" rel="noopener" target="_blank">コンプバイブル（comp-bible）— スーパーロボット大戦V 攻略</a>（逐话敌方编成表：构成/驾驶员/数量/资金/掉落，全 87 剧本覆盖）</li>
+    <li><a href="https://srw.wiki.cre.jp/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CV" rel="noopener" target="_blank">srw.wiki（スパロボ攻略）— スパロボV 条目群</a>（系统、隐藏要素条件、技能路线与点数制的交叉核对）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6V" rel="noopener" target="_blank">ja.wikipedia — スーパーロボット大戦V</a>（发售信息、参战作品、系统概要）</li>
+  </ul>
+  <p><a href={href('srw-v/')}>← 返回超级机器人大战V</a></p>
+</Base>
