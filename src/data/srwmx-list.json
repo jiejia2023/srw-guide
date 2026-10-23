@@ -1,0 +1,664 @@
+{
+ "groups": [
+  {
+   "title": "序章：主人公机二选一（第1–2话）",
+   "intro": "开局在选定「中意作品」后，选择主人公机：真实系试作 6 号机塞伯拉斯或超级系试作 7 号机加姆雷德。主人公固定为雨果（主驾驶员）＋阿克娅（副驾驶员），两条序章的参战作品群不同：第 3 话合流，另一路线的机体（除另一台主人公机）全部并入。",
+   "rows": [
+    {
+     "code": "第1话·真实系",
+     "zh": "追击者",
+     "ja": "第１話：追撃者",
+     "en": "Pursuer",
+     "type": "序章",
+     "area": "",
+     "note": "真实系开场"
+    },
+    {
+     "code": "第1话·超级系",
+     "zh": "来自远方的来访者",
+     "ja": "第１話：来訪者、彼方より",
+     "en": "Visitors from the Beyond",
+     "type": "序章",
+     "area": "",
+     "note": "超级系开场"
+    },
+    {
+     "code": "第2话·真实系",
+     "zh": "D and E",
+     "ja": "第２話：D and E",
+     "en": "D and E",
+     "type": "序章",
+     "area": "",
+     "note": "真实系序章"
+    },
+    {
+     "code": "第2话·超级系",
+     "zh": "不灭的机器盖塔",
+     "ja": "第２話：不滅のマシンゲッターロボ",
+     "en": "The Indestructible Machine, Getter Robo",
+     "type": "序章",
+     "area": "",
+     "note": "超级系序章"
+    }
+   ]
+  },
+  {
+   "title": "第一部 过去发来的警钟（第3–7话）",
+   "intro": "合流后的序盘：拉泽丰与天之泽奥莱默相继登场，电童夺得第一件数据武器「独角兽钻头」。",
+   "rows": [
+    {
+     "code": "第3话",
+     "zh": "神人苏醒",
+     "ja": "第3話：神人目覚める",
+     "en": "The Deity Awakens",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "蓝色的奇迹",
+     "ja": "第4話：碧い奇跡",
+     "en": "Blue Miracle",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "噩梦的高达武斗",
+     "ja": "第5話：悪夢のガンダムファイト",
+     "en": "The Nightmare Gundam Fight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "面具之下悲伤的眼瞳",
+     "ja": "第6話：仮面の下の悲しい瞳",
+     "en": "The Sad Eyes Beneath the Mask",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "冥府之王，其名为『天』",
+     "ja": "第7話：冥府の王、その名は『天』",
+     "en": "The Ruler of the Dynasty Shall be Called \"Heaven\"",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二部 巨人们的邂逅（第8–14话）",
+   "intro": "EVA、莱汀、魔神系相继加入；第 14 话是全员生存关，通关后电童与瓦尔基里暂时离队，并迎来第一次大分歧。",
+   "rows": [
+    {
+     "code": "第8话",
+     "zh": "冲突",
+     "ja": "第8話：CONFLICT",
+     "en": "Conflict",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "被盯上的拉·姆之星",
+     "ja": "第9話：狙われたラ・ムーの星",
+     "en": "The Star of La Mu, Stolen",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "被操纵的魔神",
+     "ja": "第10話：操られた魔神",
+     "en": "The Demon God, Manipulated",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "主持正义",
+     "ja": "第11話：do justice to",
+     "en": "Do Justice To",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "燃烧的透水、冻结的鬼火",
+     "ja": "第12話：燃ゆる透水、凍る鬼火",
+     "en": "Blazing Water, Freezing Flame",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "与机械神的邂逅",
+     "ja": "第13話：機械神の邂逅",
+     "en": "Encountering the Machine God",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "通往危机的倒计时",
+     "ja": "第14話：危機へのCOUNT DOWN",
+     "en": "COUNT DOWN to Disaster",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三部 分歧：前往重庆／前往月球（第15–18话）",
+   "intro": "第一次路线分歧：地球线（重庆）同行盖塔、魔神、古连戴萨、EVA、龙骑兵、莱汀、拉泽丰；月面线同行 ZZ 高达、G 高达、电童、纳德西科。两线各 4 话、内容完全不同，第 19 话合流。",
+   "rows": [
+    {
+     "code": "第15话·地球线",
+     "zh": "将羁绊托付于双翼",
+     "ja": "第15話：双翼に絆を乗せて",
+     "en": "Bond upon Twin Wings",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·月面线",
+     "zh": "摇曳的螺旋·苏醒的记忆",
+     "ja": "第15話：揺れる螺旋・甦る記憶",
+     "en": "Trembling Spiral, Resurrected Memories",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·地球线",
+     "zh": "光辉的你",
+     "ja": "第16話：Bright you now",
+     "en": "Bright You Now",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·月面线",
+     "zh": "蓝与白的相遇",
+     "ja": "第16話：Blue meets White",
+     "en": "Blue Meets White",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·地球线",
+     "zh": "宇宙怪兽吉尔吉尔甘的恐怖",
+     "ja": "第17話：宇宙怪獣ギルギルガンの恐怖",
+     "en": "The Space Monster Gilgilgan",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·月面线",
+     "zh": "你的回忆",
+     "ja": "第17話：キミノオモイデ",
+     "en": "Your Memories",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·地球线",
+     "zh": "燃烧之心·高飞",
+     "ja": "第18話：Burning Heart, Flying High",
+     "en": "Burning Heart, Flying High",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·月面线",
+     "zh": "来自火星的逃亡者",
+     "ja": "第18話：火星からの逃亡者",
+     "en": "Fugitive from Mars",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第四部 暗云（第19–23话）",
+   "intro": "合流后的中盘：第 23 话埋下全作最重要的练级型隐藏要素（迪杰 SE-R）的判定。",
+   "rows": [
+    {
+     "code": "第19话",
+     "zh": "伟大的翅膀与天之光",
+     "ja": "第19話：偉大な翼、そして天の光",
+     "en": "Great Wings, and the Light of Heaven",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "奇异的诱饵",
+     "ja": "第20話：Strange bait",
+     "en": "Strange Bait",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "有两张脸的男人",
+     "ja": "第21話：二つの顔を持つ男",
+     "en": "The Man with Two Faces",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "时间差只有90秒",
+     "ja": "第22話：タイムラグは90秒",
+     "en": "Time Lag of 90 Seconds",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "梦幻回廊",
+     "ja": "第23話：夢幻回廊",
+     "en": "Infinite Corridor",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏要素判定关"
+    }
+   ]
+  },
+  {
+   "title": "第五部 冥王计划（第24–29话）",
+   "intro": "第 25、26 话是带出击限定的分队关；第 28 话的剧情惨剧令主人公机与天之泽奥莱默双双失去（主人公机随即强化），第 29 话的标题在 Akurasu 流程图有一处误记并列（见该话备注）。",
+   "rows": [
+    {
+     "code": "第24话",
+     "zh": "通往冥府之门",
+     "ja": "第24話：冥府への扉",
+     "en": "The Gates of Hell",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "被光引导的人们",
+     "ja": "第25話：光に導かれし者達",
+     "en": "Ones Guided By the Light",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "被安排的扳机",
+     "ja": "第26話：仕組まれた引き金",
+     "en": "A Rigged Trigger",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "猛攻，毒蛇部队",
+     "ja": "第27話：猛攻、毒蛇部隊",
+     "en": "The Onslaught of the Viper Squad",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "月下的惨剧",
+     "ja": "第28話：月下の惨劇",
+     "en": "Tragedy Beneath the Moon",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "冥王，于黎明出击",
+     "ja": "第28話：冥王、暁に出撃す",
+     "en": "Hades, Sorties at Dawn",
+     "type": "共通关",
+     "area": "",
+     "note": "标题辨误见本页备注"
+    }
+   ]
+  },
+  {
+   "title": "第六部 分歧：留在地上／前往月球（第30–34话）",
+   "intro": "第二次路线分歧：地球线同行盖塔、魔神、古连戴萨、EVA、龙骑兵、莱汀、泽奥莱默、G 高达、拉泽丰；月面线同行 UC 高达、电童、戴莫斯、纳德西科、机器小子。全装甲电童的隐藏连锁只在月面线结算。第 34 话两线合流。",
+   "rows": [
+    {
+     "code": "第30话·地球线",
+     "zh": "红龙的光辉",
+     "ja": "第30話：赤き龍の輝き",
+     "en": "The Red Dragon's Radiance",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·月面线",
+     "zh": "突破隼",
+     "ja": "第30話：Break through the Falcon",
+     "en": "Break Through the Falcon",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·地球线",
+     "zh": "暴虐的铠武者",
+     "ja": "第31話：暴悪の鎧武者",
+     "en": "The Ravaging Knight",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·月面线",
+     "zh": "闪光之刃与我们同在",
+     "ja": "第31話：輝く刃は僕らと共に",
+     "en": "The Shining Sword Is With Us",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·地球线",
+     "zh": "通往奈落之底的邀请函",
+     "ja": "第32話：奈落の底への招待状",
+     "en": "Invitation to the Depths of Defeat",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·月面线",
+     "zh": "MOONRAKER",
+     "ja": "第32話：MOONRAKER",
+     "en": "MOONRAKER",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·地球线",
+     "zh": "决战！大海兽",
+     "ja": "第33話：決戦！大海獣",
+     "en": "The Final Battle vs the Great Sea Monster",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·月面线",
+     "zh": "跨越彩虹",
+     "ja": "第33話：虹を越えて",
+     "en": "Over the Rainbow",
+     "type": "路线关",
+     "area": "",
+     "note": "全装甲电童结算关"
+    },
+    {
+     "code": "第34话·地球线",
+     "zh": "骑士，自火焰的天空而来",
+     "ja": "第34話：騎士、炎の空より",
+     "en": "Knight of the Flame and Sky",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·月面线",
+     "zh": "被斩断的循环",
+     "ja": "第34話：断ち切られたLOOP",
+     "en": "Severed Loop",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第七部 终末的预兆（第35–39话）",
+   "intro": "EVA 三号机加入；第 38 话有说得关与量产型大魔神／黑大魔神连锁的起点。",
+   "rows": [
+    {
+     "code": "第35话",
+     "zh": "半球",
+     "ja": "第35話：Hemisphere",
+     "en": "Hemisphere",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "生命的去向",
+     "ja": "第36話：命の行方",
+     "en": "The Whereabouts of Life",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "男人的战斗",
+     "ja": "第37話：男の戰い",
+     "en": "A Man's Fight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "为了曾经发誓守护的和平",
+     "ja": "第38話：かつて誓った平和のために",
+     "en": "For the Peace We Once Sought",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "通往终局的螺旋阶梯",
+     "ja": "第39話：終局への螺旋階段",
+     "en": "Spiral Staircase Towards the End",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第八部 向异界反击（第40–44话）",
+   "intro": "第 40 话是纯削血关；第 44 话欧加与加迪斯的双削血条件收官。",
+   "rows": [
+    {
+     "code": "第40话",
+     "zh": "再见，木星",
+     "ja": "第40話：Bye-bye jupiter",
+     "en": "Bye Bye Jupiter",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "从这里直到永远",
+     "ja": "第41話：ここより永遠に",
+     "en": "From here to Eternity",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "神啊，为百鬼帝国哭泣吧",
+     "ja": "第42話：神よ、百鬼のために泣け",
+     "en": "God, Weep for the Hyakki Empire",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话",
+     "zh": "零还是无限？",
+     "ja": "第43話：Zero or infinity?",
+     "en": "Zero or Infinity?",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "克洛诺斯的大反击",
+     "ja": "第44話：クロノスの大逆襲",
+     "en": "Chronos' Counterattack",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第九部 巴格拉基昂作战（第45–49话）",
+   "intro": "纳德西科换乘 C 型；第 46 话是多段条件关；第 48 话黑大魔神连锁在此结算。",
+   "rows": [
+    {
+     "code": "第45话",
+     "zh": "Dearest",
+     "ja": "第45話：Dearest",
+     "en": "Dearest",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "星光小夜曲",
+     "ja": "第46話：Starlight serenade",
+     "en": "Starlight Serenade",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "向你的回忆告别",
+     "ja": "第47話：キミノオモイデニ、サヨナラ",
+     "en": "Farewell to your Memories",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "一朵花与绿色的星球",
+     "ja": "第48話：一輪の花と緑の星と",
+     "en": "A Single Flower and the Green Planet",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "使徒新生",
+     "ja": "第49話：シト新生",
+     "en": "Death and Rebirth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第十部 向约定之地（第50话–最终话）",
+   "intro": "终盘 EVA 与拉泽丰系被禁用出击数关；第 51 话藏有 Zero 连破的部件奖励；最终话对决 AI1。",
+   "rows": [
+    {
+     "code": "第50话",
+     "zh": "胜利者们的挽歌",
+     "ja": "第50話：勝利者たちの挽歌",
+     "en": "Anthem for the Victors",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话",
+     "zh": "希望，那是最后的 GEAR",
+     "ja": "第51話：希望、それは最後のＧＥＡＲ",
+     "en": "Hope, Which is the Final GEAR",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏部件关"
+    },
+    {
+     "code": "第52话",
+     "zh": "W·无限",
+     "ja": "第52話：W-Infinity",
+     "en": "W-Infinity",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话",
+     "zh": "灵魂的叠句",
+     "ja": "第53話：魂のルフラン",
+     "en": "Soul's Refrain",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话",
+     "zh": "在那遥远的久远彼方",
+     "ja": "第54話：遙か久遠の彼方",
+     "en": "Across Infinite Time",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "约定之地",
+     "ja": "第FINAL話：約束の地",
+     "en": "The Promised Land",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

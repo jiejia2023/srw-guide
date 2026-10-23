@@ -1,0 +1,4926 @@
+{
+ "missions": [
+  {
+   "code": "第1话·真实系",
+   "slug": "stage-1-real",
+   "zh": "追击者",
+   "ja": "追撃者",
+   "en": "Pursuer",
+   "route": "真实系（塞伯拉斯）",
+   "type": "序章",
+   "prerequisite": "新游戏开局：先选定「お気に入り（中意作品）」（PS2 版只能选 1 部作品），再选择主人公机——真实系试作 6 号机「塞伯拉斯」或超级系试作 7 号机「加姆雷德」——本页是选真实系的开场。主人公为雨果（主驾驶员）与阿克娅（副驾驶员）的固定二人组合。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "纳哈尔·阿伽马（布莱德、托雷斯、三枝）",
+    "ZZ高达（捷多）",
+    "Z高达（露）",
+    "超级高达（艾尔）",
+    "百式（比查）",
+    "梅加莱达（蒙德）",
+    "卡碧尼Mk-II（普露）",
+    "卡碧尼Mk-II（普露兹）",
+    "塞伯拉斯（雨果、阿克娅）"
+   ],
+   "events": [
+    "试作机塞伯拉斯的试验遭到追击者的袭击，雨果与阿克娅迎击；纳哈尔·阿伽马队（Z、ZZ 系高达群）同场参战并在此加入。"
+   ],
+   "unlocks": [
+    "第2话·真实系《D and E》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第1话·超级系",
+   "slug": "stage-1-super",
+   "zh": "来自远方的来访者",
+   "ja": "来訪者、彼方より",
+   "en": "Visitors from the Beyond",
+   "route": "超级系（加姆雷德）",
+   "type": "序章",
+   "prerequisite": "新游戏开局：选定中意作品后选择主人公机为超级系试作 7 号机「加姆雷德」时的开场（主人公仍为雨果＋阿克娅）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "古连戴萨（迪克）",
+    "TFO（甲儿）",
+    "加姆雷德（雨果、阿克娅）"
+   ],
+   "events": [
+    "来自远方的来访者——古连戴萨（迪克）与 TFO（甲儿）在此登场；加姆雷德与他们共同迎击来袭的敌人。"
+   ],
+   "unlocks": [
+    "第2话·超级系《不灭的机器盖塔》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第2话·真实系",
+   "slug": "stage-2-real",
+   "zh": "D and E",
+   "ja": "D and E",
+   "en": "D and E",
+   "route": "真实系（塞伯拉斯）",
+   "type": "序章",
+   "prerequisite": "真实系路线第 1 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "龙骑兵1号机（L) (Kaine）",
+    "龙骑兵2号机（L) (Tapp）",
+    "龙骑兵3号机（L) (Light）",
+    "EVA二号机（明日香）（本关临时参战）"
+   ],
+   "events": [
+    "龙骑兵小队（凯恩、塔普、莱特，乘 L 装龙骑兵 1/2/3 号机）在此加入；EVA 二号机（明日香）以临时参战身份同行一关。"
+   ],
+   "unlocks": [
+    "第3话《神人苏醒》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第2话·超级系",
+   "slug": "stage-2-super",
+   "zh": "不灭的机器盖塔",
+   "ja": "不滅のマシンゲッターロボ",
+   "en": "The Indestructible Machine, Getter Robo",
+   "route": "超级系（加姆雷德）",
+   "type": "序章",
+   "prerequisite": "超级系路线第 1 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "盖塔龙（龙马、隼人、弁庆）"
+   ],
+   "events": [
+    "盖塔队（龙马、隼人、弁庆的盖塔龙）在此加入——「不灭的机器」指的正是盖塔。"
+   ],
+   "unlocks": [
+    "第3话《神人苏醒》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "神人苏醒",
+   "ja": "神人目覚める",
+   "en": "The Deity Awakens",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "两条序章路线在此合流：第 3 话起编成统一（另一条路线的参战机体除另一台主人公机外全部并入）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "加姆雷德／塞伯拉斯被击破",
+    "Chensing 2 号机被击破"
+   ],
+   "allies": [
+    "盖塔Q（美智子）",
+    "Chensing 2号机（埃尔维）（本关临时参战）",
+    "ALIEL（遥）（本关临时参战）",
+    "拉泽丰（绫人）（本关临时参战）"
+   ],
+   "events": [
+    "合流关：另一路线的机体（除另一台主人公机）在此并入；盖塔Q（美智子）加入。",
+    "拉泽丰（绫人）、ALIEL（遥）、Chensing 2 号机（埃尔维）在本关临时参战——拉泽丰的「神人」在此苏醒。"
+   ],
+   "unlocks": [
+    "第4话《蓝色的奇迹》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "蓝色的奇迹",
+   "ja": "碧い奇跡",
+   "en": "Blue Miracle",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 3 话通关后。第 4–6 话是自由顺序区块：三话同时开放，可按任意顺序攻略（据日本 SRW Wiki 全话一览的注记）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "瓦尔基里（维加）",
+    "GEAR战士电童（银河、北斗）"
+   ],
+   "events": [
+    "GEAR 战士电童（银河、北斗）与瓦尔基里（维加）在此加入。"
+   ],
+   "unlocks": [
+    "第7话《冥府之王，其名为『天』》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "噩梦的高达武斗",
+   "ja": "悪夢のガンダムファイト",
+   "en": "The Nightmare Gundam Fight",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 3 话通关后。第 4–6 话是自由顺序区块：三话同时开放，可按任意顺序攻略（据日本 SRW Wiki 全话一览的注记）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "多蒙被击破"
+   ],
+   "allies": [
+    "神高达（多蒙）",
+    "风云再起"
+   ],
+   "events": [
+    "神高达（多蒙）与风云再起在此加入；败北条件含多蒙被击破，注意保护。"
+   ],
+   "unlocks": [
+    "第7话《冥府之王，其名为『天』》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "面具之下悲伤的眼瞳",
+   "ja": "仮面の下の悲しい瞳",
+   "en": "The Sad Eyes Beneath the Mask",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 3 话通关后。第 4–6 话是自由顺序区块：三话同时开放，可按任意顺序攻略（据日本 SRW Wiki 全话一览的注记）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一敌人进入宇宙科学研究所",
+    "古连戴萨被击破"
+   ],
+   "allies": [],
+   "events": [
+    "守点关：敌人进入宇宙科学研究所即败北，须在入口方向布防；古连戴萨被击破同样败北。本关无新增加入。"
+   ],
+   "unlocks": [
+    "第7话《冥府之王，其名为『天』》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "冥府之王，其名为『天』",
+   "ja": "冥府の王、その名は『天』",
+   "en": "The Ruler of the Dynasty Shall be Called \"Heaven\"",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 4–6 话（自由顺序区块）全部通关后。",
+   "victory": [
+    "击破风之兰斯塔",
+    "歼灭全部敌人",
+    "把独角兽钻头的 HP 削减到规定值以下"
+   ],
+   "defeat": [
+    "天之泽奥莱默被击破",
+    "独角兽钻头、瓦尔基里或电童被击破",
+    "我方全灭"
+   ],
+   "allies": [
+    "天之泽奥莱默（真人、美久）（本关临时参战）",
+    "塞尔战机（进、埃莉斯）"
+   ],
+   "events": [
+    "天之泽奥莱默（真人、美久）在本关临时参战，击破风之兰斯塔并压制独角兽钻头；电童在此夺得数据武器「独角兽钻头」（含其必杀技版本）。",
+    "塞尔战机（进、埃莉斯）在此加入。"
+   ],
+   "unlocks": [
+    "第8话《冲突》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "冲突",
+   "ja": "CONFLICT",
+   "en": "Conflict",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 7 话通关后。",
+   "victory": [
+    "击破骑士 GEAR 欧加",
+    "击破第五使徒拉米尔"
+   ],
+   "defeat": [
+    "电童被击破",
+    "我方全灭",
+    "（后半）EVA 初号机、零号机或电童受到攻击",
+    "剑龙被击破"
+   ],
+   "allies": [
+    "EVA初号机（真嗣）",
+    "EVA零号机（橙色装甲）（丽）（本关临时参战）",
+    "剑龙（罗姆）（本关临时参战）",
+    "EVA二号机（明日香）（通关后加入）",
+    "EVA零号机（丽）（通关后加入）"
+   ],
+   "events": [
+    "EVA 初号机（真嗣）加入，零号机（橙色装甲，丽）临时参战；剑龙（罗姆）临时参战。电童夺得数据武器「狮环」。",
+    "本关分前后两段：后半的败北条件极为苛刻——初号机、零号机、电童只要受到攻击即告败北，须以射程与站位避免他们进入敌方火力范围。",
+    "通关后 EVA 二号机（明日香）与零号机（丽）正式加入。"
+   ],
+   "unlocks": [
+    "第9话《被盯上的拉·姆之星》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "被盯上的拉·姆之星",
+   "ja": "狙われたラ・ムーの星",
+   "en": "The Star of La Mu, Stolen",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 8 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "莱汀或神高达被击破"
+   ],
+   "allies": [
+    "莱汀（洸）",
+    "布鲁加（真理）"
+   ],
+   "events": [
+    "莱汀（洸）与布鲁加（真理）在此加入。"
+   ],
+   "unlocks": [
+    "第10话《被操纵的魔神》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "被操纵的魔神",
+   "ja": "操られた魔神",
+   "en": "The Demon God, Manipulated",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 9 话通关后。第 10–12 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "把魔神 Z 的 HP 削减到 60% 以下，随后说得甲儿",
+    "把大魔神的 HP 削减到 30% 以下",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "古连戴萨、大魔神或魔神 Z 被击破"
+   ],
+   "allies": [
+    "魔神Z（甲儿）",
+    "波士博罗特（Boss、Nuke、Mucha）（通关后加入）",
+    "戴安娜A（Sayaka）（通关后加入）",
+    "光（通关后加入）"
+   ],
+   "events": [
+    "被操纵的魔神 Z 与大魔神作为敌方登场：只能削血不能击破（击破即败北），把魔神 Z 削到 60% 以下后由甲儿说得解除操纵。",
+    "魔神 Z（甲儿）就此加入；通关后波士博罗特（波士、努克、姆查）、戴安娜 A（沙也加）加入，（光）亦登记在册。"
+   ],
+   "unlocks": [
+    "第13话《与机械神的邂逅》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "说得的具体交战组合以 Akurasu 流程图为准：流程图记为「削减魔神 Z 的 HP 后说得甲儿」，未指定说得方机体。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "主持正义",
+   "ja": "do justice to",
+   "en": "Do Justice To",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 9 话通关后。第 10–12 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "瓦尔基里到达指定地点",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "护送关：瓦尔基里须到达指定地点，同时歼灭全部敌人。本关无新增加入。"
+   ],
+   "unlocks": [
+    "第13话《与机械神的邂逅》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "燃烧的透水、冻结的鬼火",
+   "ja": "燃ゆる透水、凍る鬼火",
+   "en": "Blazing Water, Freezing Flame",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 9 话通关后。第 10–12 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "任一敌人进入早乙女研究所",
+    "泽奥莱默系机体被击破"
+   ],
+   "allies": [
+    "天之泽奥莱默（真人、美久）（本关临时参战）"
+   ],
+   "events": [
+    "守点关：敌人进入早乙女研究所即败北；天之泽奥莱默在本关临时参战且不得被击破。"
+   ],
+   "unlocks": [
+    "第13话《与机械神的邂逅》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "与机械神的邂逅",
+   "ja": "機械神の邂逅",
+   "en": "Encountering the Machine God",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 10–12 话（自由顺序区块）全部通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "Chensing 2号机（埃尔维）（本关临时参战）",
+    "拉泽丰（绫人）（本关临时参战）"
+   ],
+   "events": [
+    "Chensing 2 号机（埃尔维）与拉泽丰（绫人）在本关临时参战。本关无正式加入。"
+   ],
+   "unlocks": [
+    "第14话《通往危机的倒计时》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "通往危机的倒计时",
+   "ja": "危機へのCOUNT DOWN",
+   "en": "COUNT DOWN to Disaster",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 13 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [],
+   "events": [
+    "全员生存关：任一我方被击破即败北。本关结束时电童与瓦尔基里离队（暂时），第 3 部路线分歧（重庆／月球）自下一话开始。"
+   ],
+   "unlocks": [
+    "第15话·地球线《将羁绊托付于双翼》",
+    "第15话·月面线《摇曳的螺旋·苏醒的记忆》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第15话·地球线",
+   "slug": "stage-15-earth",
+   "zh": "将羁绊托付于双翼",
+   "ja": "双翼に絆を乗せて",
+   "en": "Bond upon Twin Wings",
+   "route": "地球线（前往重庆）",
+   "type": "路线关",
+   "prerequisite": "第 14 话后选择「前往重庆」（地球线）。地球线的同行作品群：盖塔、魔神、古连戴萨、EVA、龙骑兵、莱汀、拉泽丰。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "拉泽丰（绫人）",
+    "双翼斯佩扎（玛丽亚）"
+   ],
+   "events": [
+    "拉泽丰（绫人）在此正式加入；双翼斯佩扎（玛丽亚）加入。"
+   ],
+   "unlocks": [
+    "第16话·地球线《光辉的你》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第15话·月面线",
+   "slug": "stage-15-space",
+   "zh": "摇曳的螺旋·苏醒的记忆",
+   "ja": "揺れる螺旋・甦る記憶",
+   "en": "Trembling Spiral, Resurrected Memories",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "第 14 话后选择「前往月球」（月面线）。月面线的同行作品群：ZZ 高达、G 高达、电童、纳德西科。",
+   "victory": [
+    "歼灭全部敌人",
+    "全员登上纳德西科 B"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [
+    "纳德西科B（琉璃、哈利）",
+    "超级艾斯特瓦利斯（三郎太机）（三郎太）",
+    "GEAR战士电童（银河、北斗）",
+    "巴伊坎夫（罗姆）（本关临时参战）"
+   ],
+   "events": [
+    "纳德西科 B（琉璃、哈利）在此加入；电童（银河、北斗）归队，超级艾斯特瓦利斯（三郎太）加入；巴伊坎夫（罗姆）本关临时参战。",
+    "胜利条件含「全员登上纳德西科 B」，且任一我方被击破即败北。"
+   ],
+   "unlocks": [
+    "第16话·月面线《蓝与白的相遇》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第16话·地球线",
+   "slug": "stage-16-earth",
+   "zh": "光辉的你",
+   "ja": "Bright you now",
+   "en": "Bright You Now",
+   "route": "地球线（前往重庆）",
+   "type": "路线关",
+   "prerequisite": "地球线第 15 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "飞龙高达（蔡赛西）",
+    "闪电高达（阿尔戈）",
+    "诺贝尔高达（阿莲比）"
+   ],
+   "events": [
+    "飞龙高达（蔡赛西）、闪电高达（阿尔戈）、诺贝尔高达（阿莲比）在此加入——洗牌同盟在此集结大半。"
+   ],
+   "unlocks": [
+    "第17话·地球线《宇宙怪兽吉尔吉尔甘的恐怖》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第16话·月面线",
+   "slug": "stage-16-space",
+   "zh": "蓝与白的相遇",
+   "ja": "Blue meets White",
+   "en": "Blue Meets White",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 15 话通关后。",
+   "victory": [
+    "阿姆罗在 4 回合内到达指定地点",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "ν高达被击破"
+   ],
+   "allies": [
+    "ν高达（阿姆罗）",
+    "玫瑰高达（乔治）",
+    "麦克斯特高达（奇波迪）",
+    "飞升高达（蕾茵）（通关后加入）",
+    "瓦尔基里（维加）（通关后加入）"
+   ],
+   "events": [
+    "ν高达（阿姆罗）在此加入，且须在 4 回合内到达指定地点；玫瑰高达（乔治）、麦克斯特高达（奇波迪）加入。",
+    "通关后飞升高达（蕾茵）与瓦尔基里（维加）加入／归队。"
+   ],
+   "unlocks": [
+    "第17话·月面线《你的回忆》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第17话·地球线",
+   "slug": "stage-17-earth",
+   "zh": "宇宙怪兽吉尔吉尔甘的恐怖",
+   "ja": "宇宙怪獣ギルギルガンの恐怖",
+   "en": "The Space Monster Gilgilgan",
+   "route": "地球线（前往重庆）",
+   "type": "路线关",
+   "prerequisite": "地球线第 16 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "吉尔吉尔甘移动到指定地点"
+   ],
+   "defeat": [
+    "我方全灭",
+    "波士博罗特被击破",
+    "回合开始时吉尔吉尔甘的 HP 不满"
+   ],
+   "allies": [
+    "大魔神（Tetsuya）",
+    "维纳斯A（Jun）"
+   ],
+   "events": [
+    "大魔神（铁也）与维纳斯 A（纯）在此加入。",
+    "本关的败北条件特殊：每回合开始时吉尔吉尔甘必须保持满 HP，且要护送它到达指定地点——它受一点伤、下一回合开始即告败北，须提前清场并挡住射线。"
+   ],
+   "unlocks": [
+    "第18话·地球线《燃烧之心·高飞》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第17话·月面线",
+   "slug": "stage-17-space",
+   "zh": "你的回忆",
+   "ja": "キミノオモイデ",
+   "en": "Your Memories",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 16 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "任一我方单位到达指定地点"
+   ],
+   "defeat": [
+    "我方全灭",
+    "凉子或三郎太被击破"
+   ],
+   "allies": [
+    "艾斯特瓦利斯改（凉子机）（凉子）"
+   ],
+   "events": [
+    "艾斯特瓦利斯改·凉子机（凉子）在此加入。"
+   ],
+   "unlocks": [
+    "第18话·月面线《来自火星的逃亡者》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第18话·地球线",
+   "slug": "stage-18-earth",
+   "zh": "燃烧之心·高飞",
+   "ja": "Burning Heart, Flying High",
+   "en": "Burning Heart, Flying High",
+   "route": "地球线（前往重庆）",
+   "type": "路线关",
+   "prerequisite": "地球线第 17 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "龙骑（Dragoon）（凯恩）（本关临时参战）",
+    "龙骑（Dragoon）（塔普）（本关临时参战）",
+    "龙骑（Dragoon）（莱特）（本关临时参战）",
+    "全装甲百式改（克瓦特罗）",
+    "剑龙（罗姆）（本关临时参战）",
+    "龙骑兵1号机·改（凯恩）",
+    "龙骑兵2号机·改（塔普）",
+    "龙骑兵3号机（莱特）"
+   ],
+   "events": [
+    "龙骑兵小队在本关换乘：凯恩、塔普、莱特先以龙骑（Dragoon）临时出击，其后换乘龙骑兵 1 号机·改、2 号机·改与 3 号机（莱特机无「改」型）；全装甲百式改（克瓦特罗）加入，剑龙（罗姆）临时参战。"
+   ],
+   "unlocks": [
+    "第19话《伟大的翅膀与天之光》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第18话·月面线",
+   "slug": "stage-18-space",
+   "zh": "来自火星的逃亡者",
+   "ja": "火星からの逃亡者",
+   "en": "Fugitive from Mars",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 17 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "古尔瓦 FXII 到达指定地点"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [
+    "古尔瓦FXII（京四郎、奈奈）",
+    "戴莫斯（一矢）"
+   ],
+   "events": [
+    "古尔瓦 FXII（京四郎、奈奈）与戴莫斯（一矢）在此加入；护送古尔瓦 FXII 到达指定地点，且全员不得被击破。"
+   ],
+   "unlocks": [
+    "第19话《伟大的翅膀与天之光》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "伟大的翅膀与天之光",
+   "ja": "偉大な翼、そして天の光",
+   "en": "Great Wings, and the Light of Heaven",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 3 部两条路线在第 19 话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "大魔神被击破"
+   ],
+   "allies": [],
+   "events": [
+    "合流关。通关习得：EVA 初号机与二号机获得合体攻击「一体踢」；大魔神获得武装「大助推器」。"
+   ],
+   "unlocks": [
+    "第20话《奇异的诱饵》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "奇异的诱饵",
+   "ja": "Strange bait",
+   "en": "Strange Bait",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 19 话通关后。第 20–22 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "加特林野猪被击破",
+    "喷射、钻头、吉姆或丽娜被击破"
+   ],
+   "allies": [
+    "蓝喷射（本关临时参战）",
+    "罗德钻头（本关临时参战）",
+    "三重吉姆（本关临时参战）",
+    "动力提升机（丽娜）（本关临时参战）"
+   ],
+   "events": [
+    "机器小子队的蓝喷射、罗德钻头、三重吉姆、动力提升机（丽娜）在本关临时参战，且四台都不得被击破（加特林野猪是数据武器的实体，同样不得被击破）。",
+    "魔神 Z 在此获得武装「巨人挥舞火箭拳」与「强化火箭拳」。"
+   ],
+   "unlocks": [
+    "第23话《梦幻回廊》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "有两张脸的男人",
+   "ja": "二つの顔を持つ男",
+   "en": "The Man with Two Faces",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 19 话通关后。第 20–22 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "泽奥莱默被击破"
+   ],
+   "allies": [
+    "天之泽奥莱默（真人、美久）"
+   ],
+   "events": [
+    "天之泽奥莱默（真人、美久）在此由临时参战转为正式加入；但泽奥莱默被击破即败北，运用时注意其耐久。"
+   ],
+   "unlocks": [
+    "第23话《梦幻回廊》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "时间差只有90秒",
+   "ja": "タイムラグは90秒",
+   "en": "Time Lag of 90 Seconds",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 19 话通关后。第 20–22 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "本关无新增加入。"
+   ],
+   "unlocks": [
+    "第23话《梦幻回廊》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "梦幻回廊",
+   "ja": "夢幻回廊",
+   "en": "Infinite Corridor",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 20–22 话（自由顺序区块）全部通关后。",
+   "victory": [
+    "让两台 EVA 紧邻维瓦切",
+    "击破维瓦切以外的全部单位",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "任一 EVA 或莱汀被击破"
+   ],
+   "allies": [],
+   "events": [
+    "分段条件关：先让两台 EVA 与维瓦切相邻，再清掉维瓦切以外的单位，最后歼灭全部敌人。",
+    "莱汀在此获得武装「神之声」与「神之声（地图炮）」；EVA 初号机获得武装「孙六 E 剑」。"
+   ],
+   "unlocks": [
+    "第24话《通往冥府之门》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏机体·迪杰 SE-R（1/2）】在本关结束时，UC 系驾驶员（布莱特、阿姆罗、克瓦特罗、捷多、露、比查、蒙德、艾尔、伊诺、普露、普露兹共 11 人）的平均等级达到 25 以上——达成后卡缪在第 24 话改乘迪杰 SE-R 出击（未达成时乘里格兹）。练级须在本关内完成。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "通往冥府之门",
+   "ja": "冥府への扉",
+   "en": "The Gates of Hell",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 23 话通关后。",
+   "victory": [
+    "把戴莫斯的 HP 削减到 50% 以下",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "里格兹／迪杰SE-R（卡缪）（按第 23 话隐藏条件二选一，见下方隐藏要素）"
+   ],
+   "events": [
+    "卡缪的乘机按第 23 话的隐藏条件二选一：达成平均等级条件则乘迪杰 SE-R，未达成则乘里格兹。",
+    "通关后 Z 高达获得武装「乘浪者突击」，Z 高达与 ZZ 高达获得合体攻击「双重米加粒子炮」。"
+   ],
+   "unlocks": [
+    "第25话《被光引导的人们》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏机体·里格兹（2/2）】若第 23 话达成了迪杰 SE-R 的条件，本关通关后里格兹改为以部件／备用机体形式入库（即两台都能拿到，只是出场顺序对调）；未达成时本关卡缪直接乘里格兹，迪杰 SE-R 不会出现。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "被光引导的人们",
+   "ja": "光に導かれし者達",
+   "en": "Ones Guided By the Light",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 24 话通关后。第 25–27 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人",
+    "电童到达两个数据武器处"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "阿尔塔伊尔先于电童到达任一数据武器",
+    "任一数据武器被击破"
+   ],
+   "allies": [
+    "剑龙（罗姆）（本关临时参战）"
+   ],
+   "events": [
+    "出击限制：本关只能出击电童、G 高达系与纳德西科系单位。",
+    "竞速关：电童须抢在阿尔塔伊尔之前到达两个数据武器处——电童在此夺得数据武器「龙焰」与「加特林野猪」；剑龙（罗姆）本关临时参战。且全员不得被击破。"
+   ],
+   "unlocks": [
+    "第28话《月下的惨剧》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "被安排的扳机",
+   "ja": "仕組まれた引き金",
+   "en": "A Rigged Trigger",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 24 话通关后。第 25–27 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "出击限制：本关只能出击 Z／ZZ／逆袭的夏亚系高达、EVA、拉泽丰与莱汀系单位。本关无新增加入。"
+   ],
+   "unlocks": [
+    "第28话《月下的惨剧》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "猛攻，毒蛇部队",
+   "ja": "猛攻、毒蛇部隊",
+   "en": "The Onslaught of the Viper Squad",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 24 话通关后。第 25–27 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [
+    "蓝喷射（本关临时参战）",
+    "罗德钻头（本关临时参战）",
+    "三重吉姆（本关临时参战）",
+    "动力提升机（丽娜）（本关临时参战）"
+   ],
+   "events": [
+    "强制出击：龙骑兵、魔神、古连戴萨系全员出击；机器小子队四台（蓝喷射、罗德钻头、三重吉姆、动力提升机）临时参战。全员不得被击破。"
+   ],
+   "unlocks": [
+    "第28话《月下的惨剧》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "月下的惨剧",
+   "ja": "月下の惨劇",
+   "en": "Tragedy Beneath the Moon",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 25–27 话（自由顺序区块）全部通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "泽奥莱默或加姆雷德／塞伯拉斯被击破"
+   ],
+   "allies": [
+    "加姆雷德·烈焰／塞伯拉斯·引燃（雨果、阿克娅）（通关后加入）"
+   ],
+   "events": [
+    "强制出击：盖塔、戴莫斯、泽奥莱默与原创系全员出击，中途可追加出击电童、G 高达与纳德西科系。",
+    "剧情转折关：天之泽奥莱默与主人公机（加姆雷德／塞伯拉斯）在本关事件中失去——通关后主人公机强化为加姆雷德·烈焰／塞伯拉斯·引燃（PS2 版在此到账）。"
+   ],
+   "unlocks": [
+    "第29话《冥王，于黎明出击》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图对本关后的主人公机记有版本注记：PS2 版在第 28 话通关后即获得烈焰／引燃形态；PSP 版则推迟一话（见第 29 话条目）。本站以 PS2 版为准。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "冥王，于黎明出击",
+   "ja": "冥王、暁に出撃す",
+   "en": "Hades, Sorties at Dawn",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 28 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童或任一数据武器被击破"
+   ],
+   "allies": [
+    "天之泽奥莱默（真人、美久）",
+    "蓝喷射（通关后加入）",
+    "罗德钻头（通关后加入）",
+    "剑龙（罗姆）（通关后加入）",
+    "三重吉姆（通关后加入）",
+    "动力提升机（丽娜）（通关后加入）",
+    "塞尔助推机（进、维加）（通关后加入）"
+   ],
+   "events": [
+    "天之泽奥莱默（真人、美久）在本关再次加入；电童在事件中失去数据武器「独角兽钻头」与「狮环」，塞尔战机离队。",
+    "通关后机器小子队四台与剑龙正式加入，塞尔战机改型为塞尔助推机（进、维加）归队。"
+   ],
+   "unlocks": [
+    "第30话·地球线《红龙的光辉》",
+    "第30话·月面线《突破隼》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·全装甲电童（1/3）】本关之后的选择决定连锁起点：通关后选择「前往月球」（第 6 部月面线），全装甲电童的后续步骤才在月面线第 33 话出现；选地球线则本轮无法取得（条件细节见月面线第 33 话页）。"
+   ],
+   "note": "标题辨误：Akurasu 的 Flow Chart 在本话并列了另一个标题「泽奥莱默，于黎明出撃す」，但日本 SRW Wiki 的全话一览与 atwiki 的话数表都只列「冥王、暁に出撃す」一版，Complete Chart 亦只刊载此版的胜败条件与加入表——「ゼオライマー、暁に出撃す」实为《冥王计划泽奥莱默》OVA 的剧中 BGM 曲名（后亦用作《超级机器人大战J》的名场面标题），并非本作的剧本。本站按单一版本建页，此处注明该并列应属 Akurasu 流程图的误记。另注：PSP 版在本话有阿克娅乘龙骑（Dragoon）临时出击的追加内容，PS2 版没有，本站不收录。",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第30话·地球线",
+   "slug": "stage-30-earth",
+   "zh": "红龙的光辉",
+   "ja": "赤き龍の輝き",
+   "en": "The Red Dragon's Radiance",
+   "route": "地球线（留在地上）",
+   "type": "路线关",
+   "prerequisite": "第 29 话后选择「留在地上」（地球线）。地球线的同行作品群：盖塔、魔神、古连戴萨、EVA、龙骑兵、莱汀、泽奥莱默、G 高达、拉泽丰。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "盖塔龙被击破"
+   ],
+   "allies": [],
+   "events": [
+    "盖塔龙在此获得武装「闪光火花」。"
+   ],
+   "unlocks": [
+    "第31话·地球线《暴虐的铠武者》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第30话·月面线",
+   "slug": "stage-30-space",
+   "zh": "突破隼",
+   "ja": "Break through the Falcon",
+   "en": "Break Through the Falcon",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "第 29 话后选择「前往月球」（月面线）。月面线的同行作品群：UC 高达、电童、戴莫斯、纳德西科、机器小子。",
+   "victory": [
+    "纳德西科在 7 回合内到达指定地点"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "护送关：胜利条件只有到达——纳德西科须在 7 回合内到达指定地点（不必歼灭敌人）。"
+   ],
+   "unlocks": [
+    "第31话·月面线《闪光之刃与我们同在》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第31话·地球线",
+   "slug": "stage-31-earth",
+   "zh": "暴虐的铠武者",
+   "ja": "暴悪の鎧武者",
+   "en": "The Ravaging Knight",
+   "route": "地球线（留在地上）",
+   "type": "路线关",
+   "prerequisite": "地球线第 30 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "龙骑兵 1 号机·改被击破"
+   ],
+   "allies": [],
+   "events": [
+    "本关无新增加入。"
+   ],
+   "unlocks": [
+    "第32话·地球线《通往奈落之底的邀请函》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第31话·月面线",
+   "slug": "stage-31-space",
+   "zh": "闪光之刃与我们同在",
+   "ja": "輝く刃は僕らと共に",
+   "en": "The Shining Sword Is With Us",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 30 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "把拉古引诱到指定地点后，将其 HP 削减到 10% 以下"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童或罗姆被击破",
+    "拉古被击破"
+   ],
+   "allies": [],
+   "events": [
+    "诱导关：拉古只能削血不能击破——先把它引到指定地点，再削到 10% 以下。电童在此夺回／获得数据武器「基巴」「独角兽钻头」「狮环」。"
+   ],
+   "unlocks": [
+    "第32话·月面线《MOONRAKER》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第32话·地球线",
+   "slug": "stage-32-earth",
+   "zh": "通往奈落之底的邀请函",
+   "ja": "奈落の底への招待状",
+   "en": "Invitation to the Depths of Defeat",
+   "route": "地球线（留在地上）",
+   "type": "路线关",
+   "prerequisite": "地球线第 31 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "维米莉昂（埃尔维）",
+    "曼陀罗高达（Kyral）"
+   ],
+   "events": [
+    "维米莉昂（Vermillion，埃尔维）与曼陀罗高达（基拉尔）在此加入。"
+   ],
+   "unlocks": [
+    "第33话·地球线《决战！大海兽》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第32话·月面线",
+   "slug": "stage-32-space",
+   "zh": "MOONRAKER",
+   "ja": "MOONRAKER",
+   "en": "MOONRAKER",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 31 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "在 5 回合内破坏质量投射器",
+    "把北斗心的 HP 削减到 50% 以下"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "法尔根MAFFU（梅欧）（本关临时参战）",
+    "盖尔夫MAFFU（丹）（本关临时参战）",
+    "利布·盖尔夫MAFFU（卡尔）（本关临时参战）",
+    "雅克特·盖尔夫MAFFU（维尔纳）（本关临时参战）"
+   ],
+   "events": [
+    "法尔根 MAFFU（梅欧）、盖尔夫 MAFFU（丹）、利布·盖尔夫 MAFFU（卡尔）、雅克特·盖尔夫 MAFFU（维尔纳）在本关临时参战。",
+    "本关事件中维加脱离队伍，电童失去全部数据武器。"
+   ],
+   "unlocks": [
+    "第33话·月面线《跨越彩虹》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第33话·地球线",
+   "slug": "stage-33-earth",
+   "zh": "决战！大海兽",
+   "ja": "決戦！大海獣",
+   "en": "The Final Battle vs the Great Sea Monster",
+   "route": "地球线（留在地上）",
+   "type": "路线关",
+   "prerequisite": "地球线第 32 话通关后。",
+   "victory": [
+    "德拉戈萨乌鲁斯移动到指定地点",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "魔神 Z、古连戴萨、大魔神或盖塔龙被击破",
+    "德拉戈萨乌鲁斯的 HP 低于 90%（仅前半段）"
+   ],
+   "allies": [],
+   "events": [
+    "护送关：前半段须让大海兽德拉戈萨乌鲁斯的 HP 保持在 90% 以上并护送其到达指定地点；波士博罗特本关无法出击。",
+    "盖塔龙、魔神 Z、大魔神、古连戴萨在此获得合体攻击「最终动态特击」。"
+   ],
+   "unlocks": [
+    "第34话·地球线《骑士，自火焰的天空而来》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第33话·月面线",
+   "slug": "stage-33-space",
+   "zh": "跨越彩虹",
+   "ja": "虹を越えて",
+   "en": "Over the Rainbow",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 32 话通关后。（全装甲电童连锁的结算在本关，须先在第 29 话后选月面线。）",
+   "victory": [
+    "歼灭全部敌人",
+    "把欧加的 HP 削减到 20% 以下",
+    "找到维加"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童被击破",
+    "任一数据武器被击破"
+   ],
+   "allies": [
+    "艾斯特瓦利斯改（光机）（光）",
+    "艾斯特瓦利斯改（泉机）（泉）",
+    "全装甲电童（银河、北斗）（达成隐藏条件时，本关以此形态出击）"
+   ],
+   "events": [
+    "艾斯特瓦利斯改·光机（光）、泉机（泉）在此加入；埃莉斯成为塞尔助推机的副驾驶员；电童在此夺回全部数据武器。",
+    "若达成右侧隐藏条件，本关以「全装甲电童」形态出击（临时），部件在第 34 话通关后正式到账。"
+   ],
+   "unlocks": [
+    "第34话·月面线《被斩断的循环》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·全装甲电童（2/3）】三个条件须同时满足：① 北斗与银河的合计击坠数达到 40 以上；② 电童第一个进入阿尔德巴兰（Aldebaran）；③ 由电童击破关押维加的那面墙。达成后本关获得全装甲电童（临时使用），第 34 话通关后部件正式入库（见月面线第 34 话页）。前置：第 29 话后必须选月面线（见第 29 话页）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第34话·地球线",
+   "slug": "stage-34-earth",
+   "zh": "骑士，自火焰的天空而来",
+   "ja": "騎士、炎の空より",
+   "en": "Knight of the Flame and Sky",
+   "route": "地球线（留在地上）",
+   "type": "路线关",
+   "prerequisite": "地球线第 33 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "骑士GEAR欧加（阿尔塔伊尔）（本关临时参战）"
+   ],
+   "events": [
+    "合流关：另一条路线（月面线）的全部单位在此并入。骑士 GEAR 欧加（阿尔塔伊尔）本关以临时参战身份同行（自带数据武器「毒蛇鞭」）。"
+   ],
+   "unlocks": [
+    "第35话《半球》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第34话·月面线",
+   "slug": "stage-34-space",
+   "zh": "被斩断的循环",
+   "ja": "断ち切られたLOOP",
+   "en": "Severed Loop",
+   "route": "月面线（前往月球）",
+   "type": "路线关",
+   "prerequisite": "月面线第 33 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童被击破"
+   ],
+   "allies": [
+    "电童（银河、北斗）",
+    "骑士GEAR欧加（阿尔塔伊尔）（本关临时参战）",
+    "维加（通关后归队）"
+   ],
+   "events": [
+    "合流关：另一条路线（地球线）的全部单位在此并入；电童（银河、北斗）归队，骑士 GEAR 欧加（阿尔塔伊尔）临时参战（自带「毒蛇鞭」）。",
+    "通关后维加归队（登记在册）。"
+   ],
+   "unlocks": [
+    "第35话《半球》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·全装甲电童（3/3）】若月面线第 33 话达成了全部条件，本关通关后「全装甲电童」的部件正式入库，电童自此可换装全装甲形态。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "半球",
+   "ja": "Hemisphere",
+   "en": "Hemisphere",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 34 话合流后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "拉泽丰、莱汀或维米莉昂被击破"
+   ],
+   "allies": [],
+   "events": [
+    "本关无新增加入。"
+   ],
+   "unlocks": [
+    "第36话《生命的去向》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "生命的去向",
+   "ja": "命の行方",
+   "en": "The Whereabouts of Life",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 35 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "把巴迪尔的 HP 削减到 70% 以下"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [
+    "EVA三号机（Touji）（本关临时参战）"
+   ],
+   "events": [
+    "EVA 三号机（冬二）在本关临时参战；全员不得被击破。巴迪尔（第 13 使徒）须先削到 70% 以下再歼灭其余敌人。"
+   ],
+   "unlocks": [
+    "第37话《男人的战斗》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "男人的战斗",
+   "ja": "男の戰い",
+   "en": "A Man's Fight",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 36 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "拉泽丰或巴伊坎夫被击破"
+   ],
+   "allies": [
+    "EVA三号机（Touji）（通关后加入）"
+   ],
+   "events": [
+    "EVA 初号机在此获得能力「S2 机关」（不再需要脐带电缆供电）；零号机获得地图炮武装「N2 爆雷」。",
+    "通关后 EVA 三号机（冬二）正式加入。"
+   ],
+   "unlocks": [
+    "第38话《为了曾经发誓守护的和平》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "为了曾经发誓守护的和平",
+   "ja": "かつて誓った平和のために",
+   "en": "For the Peace We Once Sought",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 37 话通关后。",
+   "victory": [
+    "迪克在 5 回合内说得莫尔斯",
+    "击破莫尔斯",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "古连戴萨被击破"
+   ],
+   "allies": [
+    "骑士GEAR欧加（北斗）",
+    "塞尔助推机·瓦尔哈拉（维加）",
+    "量产型大魔神（无驾驶员）（达成隐藏条件时本关取得，见下方隐藏要素）"
+   ],
+   "events": [
+    "说得关：迪克须在 5 回合内说得莫尔斯，其后将其击破。",
+    "本关北斗离开电童副驾驶员位置；电童失去数据武器「独角兽钻头」「龙焰」，改获得「公牛角」；骑士 GEAR 欧加改由北斗驾驶（可用毒蛇鞭、独角兽钻头、龙焰、基巴四种数据武器）；塞尔助推机·瓦尔哈拉（维加）加入。"
+   ],
+   "unlocks": [
+    "第39话《通往终局的螺旋阶梯》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·量产型大魔神（早期取得）与黑大魔神连锁（1/3）】本关让波士驾驶波士博罗特击破一台量产型大魔神，即可在本关提前获得量产型大魔神；这是第 48 话「黑大魔神」的前置之一。若本关未取得，量产型大魔神会在第 48 话自动到账（但黑大魔神的连锁条件另计，见第 45、48 话页）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "通往终局的螺旋阶梯",
+   "ja": "終局への螺旋階段",
+   "en": "Spiral Staircase Towards the End",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 38 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "螺旋城之主在出现后 4 回合内被击破"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童或欧加被击破"
+   ],
+   "allies": [],
+   "events": [
+    "限时击破：螺旋城之主登场后须在 4 回合内击破，同时歼灭全部敌人。"
+   ],
+   "unlocks": [
+    "第40话《再见，木星》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "再见，木星",
+   "ja": "Bye-bye jupiter",
+   "en": "Bye Bye Jupiter",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 39 话通关后。",
+   "victory": [
+    "把拉尔戈的 HP 削减到 40% 以下"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "削血关：胜利条件只有把拉尔戈削到 40% 以下，不必歼灭敌人。"
+   ],
+   "unlocks": [
+    "第41话《从这里直到永远》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "从这里直到永远",
+   "ja": "ここより永遠に",
+   "en": "From here to Eternity",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 40 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "加姆雷德·烈焰／塞伯拉斯·引燃被击破"
+   ],
+   "allies": [],
+   "events": [
+    "本关无新增加入。"
+   ],
+   "unlocks": [
+    "第42话《神啊，为百鬼帝国哭泣吧》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "神啊，为百鬼帝国哭泣吧",
+   "ja": "神よ、百鬼のために泣け",
+   "en": "God, Weep for the Hyakki Empire",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 41 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "本关无新增加入。"
+   ],
+   "unlocks": [
+    "第43话《零还是无限？》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第43话",
+   "slug": "stage-43",
+   "zh": "零还是无限？",
+   "ja": "Zero or infinity?",
+   "en": "Zero or Infinity?",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 42 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "本关事件中骑士 GEAR 欧加（北斗机）一度离队（第 44 话归队）。"
+   ],
+   "unlocks": [
+    "第44话《克洛诺斯的大反击》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第44话",
+   "slug": "stage-44",
+   "zh": "克洛诺斯的大反击",
+   "ja": "クロノスの大逆襲",
+   "en": "Chronos' Counterattack",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 43 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "把欧加的 HP 削减到 10% 以下",
+    "把加迪斯的 HP 削减到 80% 以下"
+   ],
+   "defeat": [
+    "我方全灭",
+    "巴伊坎夫、动力提升机、电童或塞尔助推机·瓦尔哈拉被击破"
+   ],
+   "allies": [
+    "骑士GEAR欧加（北斗）"
+   ],
+   "events": [
+    "骑士 GEAR 欧加（北斗）归队；巴伊坎夫在此获得武装「裁命双刃」。欧加与加迪斯都只需削血、不可误击破到条件之外——按胜利条件的顺序逐项完成。"
+   ],
+   "unlocks": [
+    "第45话《Dearest》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "Dearest",
+   "ja": "Dearest",
+   "en": "Dearest",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 44 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "把骑士遗产（Knight Legacy）的 HP 削减到 30% 以下"
+   ],
+   "defeat": [
+    "我方全灭",
+    "龙骑兵 1 号机·改或骑士 GEAR 欧加被击破"
+   ],
+   "allies": [
+    "纳德西科C（琉璃、哈利）",
+    "斯巴鲁（通关后加入，任塞尔助推机·瓦尔哈拉副驾驶员）"
+   ],
+   "events": [
+    "纳德西科 B 在本关退役、换乘纳德西科 C（琉璃、哈利）；龙骑兵 1 号机·改在本关事件中脱离（凯恩转乘问题见第 46 话）。",
+    "通关后斯巴鲁登记加入（塞尔助推机·瓦尔哈拉副驾驶员）。"
+   ],
+   "unlocks": [
+    "第46话《星光小夜曲》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·黑大魔神连锁（2/3）】本关结束时，剑铁也的累计击坠数须达到 50 以上——这是第 48 话取得黑大魔神的第二个前置（第一个是第 38 话的量产型大魔神早期取得）。未达成则第 48 话只能拿到量产型大魔神。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "星光小夜曲",
+   "ja": "Starlight serenade",
+   "en": "Starlight Serenade",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 45 话通关后。第 46–48 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "存活 5 回合",
+    "塔普或莱特说得凯恩",
+    "龙骑兵 2 号机或 3 号机进入要塞内部",
+    "击破多尔切诺夫"
+   ],
+   "defeat": [
+    "我方全灭",
+    "龙骑兵 1 号机、2 号机或 3 号机被击破"
+   ],
+   "allies": [
+    "龙骑兵1号机·改（凯恩）",
+    "法尔根MAFFU（梅欧）",
+    "斯塔克·戴因（敏）",
+    "盖尔夫MAFFU（丹）（通关后加入）",
+    "雅克特·盖尔夫MAFFU（卡尔）（通关后加入）",
+    "利布·盖尔夫MAFFU（维尔纳）（通关后加入）"
+   ],
+   "events": [
+    "多段条件关：先存活 5 回合，再由塔普或莱特说得凯恩，让 2 号机或 3 号机进入要塞，最后击破多尔切诺夫。出击限制：本关只能出击 UC 高达、盖塔与龙骑兵系单位。",
+    "龙骑兵 1 号机·改（凯恩）归队；法尔根 MAFFU（梅欧）与斯塔克·戴因（敏）加入；通关后盖尔夫 MAFFU（丹）、雅克特·盖尔夫（卡尔）、利布·盖尔夫（维尔纳）加入。"
+   ],
+   "unlocks": [
+    "第49话《使徒新生》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第47话",
+   "slug": "stage-47",
+   "zh": "向你的回忆告别",
+   "ja": "キミノオモイデニ、サヨナラ",
+   "en": "Farewell to your Memories",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 45 话通关后。第 46–48 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "击破北辰"
+   ],
+   "defeat": [
+    "我方全灭",
+    "黑百合被击破"
+   ],
+   "allies": [
+    "黑百合（明人）（本关临时参战）"
+   ],
+   "events": [
+    "强制出击：纳德西科、戴莫斯与机器小子系全员出击。黑百合（明人）本关临时参战且不得被击破；黑百合在此获得武装「扭曲攻击 S」。"
+   ],
+   "unlocks": [
+    "第49话《使徒新生》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第48话",
+   "slug": "stage-48",
+   "zh": "一朵花与绿色的星球",
+   "ja": "一輪の花と緑の星と",
+   "en": "A Single Flower and the Green Planet",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 45 话通关后。第 46–48 话是自由顺序区块：三话同时开放，可按任意顺序攻略。",
+   "victory": [
+    "击破祖里尔与甘达尔",
+    "击破维加王"
+   ],
+   "defeat": [
+    "古连戴萨被击破"
+   ],
+   "allies": [
+    "黑大魔神（无驾驶员）（达成全部隐藏前置时，出击前取得，见下方隐藏要素）",
+    "量产型大魔神（无驾驶员）（第 38 话未取得时本关到账）"
+   ],
+   "events": [
+    "出击限制：本关只能出击 G 高达、魔神、古连戴萨与莱汀系单位；败北条件只有古连戴萨被击破一项。",
+    "大魔神在此变为「大魔神（原型）」形态。量产型大魔神若第 38 话未取得，在本关自动到账。"
+   ],
+   "unlocks": [
+    "第49话《使徒新生》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏·黑大魔神（3/3）】同时满足两个前置——① 第 38 话由波士击破量产型大魔神取得其早期入手；② 第 45 话结束时铁也击坠数 ≥50——本关出击前即可获得黑大魔神（无驾驶员，须自行指派）。任一前置未达成时，本关只获得量产型大魔神。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第49话",
+   "slug": "stage-49",
+   "zh": "使徒新生",
+   "ja": "シト新生",
+   "en": "Death and Rebirth",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 46–48 话（自由顺序区块）全部通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破薰"
+   ],
+   "defeat": [
+    "EVA 初号机、零号机、二号机、ALIEL 或拉泽丰被击破"
+   ],
+   "allies": [
+    "ALIEL（遥）"
+   ],
+   "events": [
+    "强制出击：EVA、电童、拉泽丰、泽奥莱默与原创系全员出击。本关事件中 EVA 零号机（丽）离队；ALIEL（遥）在此正式加入。"
+   ],
+   "unlocks": [
+    "第50话《胜利者们的挽歌》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第50话",
+   "slug": "stage-50",
+   "zh": "胜利者们的挽歌",
+   "ja": "勝利者たちの挽歌",
+   "en": "Anthem for the Victors",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 49 话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破巨型高达（Grand Master Gundam）",
+    "击破恶魔高达"
+   ],
+   "defeat": [
+    "我方全灭",
+    "洗牌同盟任一成员、蕾茵、阿尔贝罗或雨果被击破"
+   ],
+   "allies": [
+    "梅迪乌斯·洛库斯（阿尔贝罗、埃尔德）（本关临时参战）"
+   ],
+   "events": [
+    "出击限制：本关起 EVA 与拉泽丰系单位无法出击（仍可改造）。梅迪乌斯·洛库斯（阿尔贝罗、埃尔德）在本关临时参战。",
+    "通关习得：神高达等五台洗牌同盟机获得合体攻击「洗牌同盟拳」；神高达与飞升高达获得合体攻击「石破爱爱天惊拳」；神高达获得武装「石破天惊神指」。"
+   ],
+   "unlocks": [
+    "第51话《希望，那是最后的 GEAR》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第51话",
+   "slug": "stage-51",
+   "zh": "希望，那是最后的 GEAR",
+   "ja": "希望、それは最後のＧＥＡＲ",
+   "en": "Hope, Which is the Final GEAR",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 50 话通关后。",
+   "victory": [
+    "纳德西科 C 与纳哈尔·阿伽马在 8 回合内到达指定地点"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童、欧加或塞尔助推机·瓦尔哈拉被击破"
+   ],
+   "allies": [
+    "黑百合（明人）"
+   ],
+   "events": [
+    "护送关：两艘战舰须在 8 回合内到达指定地点。黑百合（明人）在此正式加入，通关后的休整期改型为高机动型黑百合。",
+    "本关事件中骑士 GEAR 欧加（北斗机）与塞尔助推机·瓦尔哈拉一度离队（第 52 话归队）。EVA 与拉泽丰系本关仍不可出击。"
+   ],
+   "unlocks": [
+    "第52话《W·无限》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "【隐藏部件·额外哈罗与米诺夫斯基飞行器】本关内把 Zero 击坠 2 次以上——通关后「哈罗（额外）」与「米诺夫斯基飞行器」两个强化部件进入库存。Zero 会在本关多次出现，须有意留出击坠机会，不要只顾护送战舰。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "哈罗（额外）",
+     "米诺夫斯基飞行器"
+    ],
+    "note": "两个部件均为本关隐藏要素的报酬，取得条件见下方「隐藏要素」。"
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第52话",
+   "slug": "stage-52",
+   "zh": "W·无限",
+   "ja": "W-Infinity",
+   "en": "W-Infinity",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 51 话通关后。",
+   "victory": [
+    "击破 Zero",
+    "在同一回合内击破 Zero 与古尔法皇帝"
+   ],
+   "defeat": [
+    "我方全灭",
+    "电童被击破"
+   ],
+   "allies": [
+    "塞尔助推机·瓦尔哈拉（维加、斯巴鲁）",
+    "骑士GEAR欧加（阿尔塔伊尔）"
+   ],
+   "events": [
+    "塞尔助推机·瓦尔哈拉（维加、斯巴鲁）归队；骑士 GEAR 欧加改由阿尔塔伊尔驾驶归队；北斗转任电童副驾驶员。",
+    "电童与欧加在此获得数据武器「凤凰之翼」（并一度失去其余全部数据武器，通关后恢复）；电童获得武装「黎明之剑」。EVA 与拉泽丰系本关仍不可出击。"
+   ],
+   "unlocks": [
+    "第53话《灵魂的叠句》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第53话",
+   "slug": "stage-53",
+   "zh": "灵魂的叠句",
+   "ja": "魂のルフラン",
+   "en": "Soul's Refrain",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 52 话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "allies": [],
+   "events": [
+    "全员生存关：任一我方被击破即败北。EVA 二号机在此获得武装「A.T. 力场」。"
+   ],
+   "unlocks": [
+    "第54话《在那遥远的久远彼方》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "第54话",
+   "slug": "stage-54",
+   "zh": "在那遥远的久远彼方",
+   "ja": "遙か久遠の彼方",
+   "en": "Across Infinite Time",
+   "route": "共通",
+   "type": "共通关",
+   "prerequisite": "第 53 话通关后。",
+   "victory": [
+    "击破真·拉泽丰以外的全部敌人"
+   ],
+   "defeat": [
+    "莱汀、EVA 初号机、戴莫斯、泽奥莱默、梅迪乌斯·洛库斯或任一战舰被击破"
+   ],
+   "allies": [
+    "梅迪乌斯·洛库斯（阿尔贝罗、埃尔德）（本关临时参战）"
+   ],
+   "events": [
+    "梅迪乌斯·洛库斯（阿尔贝罗、埃尔德）本关临时参战且不得被击破；拉泽丰（绫人）在本关事件中离队——最终话改由真·拉泽丰登场。"
+   ],
+   "unlocks": [
+    "最终话《约定之地》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  },
+  {
+   "code": "最终话",
+   "slug": "final",
+   "zh": "约定之地",
+   "ja": "約束の地",
+   "en": "The Promised Land",
+   "route": "共通",
+   "type": "最终话",
+   "prerequisite": "第 54 话通关后。",
+   "victory": [
+    "击破梅迪乌斯·洛库斯",
+    "击破 AI1"
+   ],
+   "defeat": [
+    "任一战舰、真·拉泽丰或加姆雷德·烈焰／塞伯拉斯·引燃被击破"
+   ],
+   "allies": [
+    "真·拉泽丰（绫人）（本关临时参战）"
+   ],
+   "events": [
+    "真·拉泽丰（绫人）在本关临时参战（最终决战形态）。最终 Boss 为夺舍梅迪乌斯·洛库斯的 AI1——先击破梅迪乌斯·洛库斯，再击破现身的 AI1。"
+   ],
+   "unlocks": [],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的 Complete Chart 未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": []
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作部分关卡有「多层构造地图」（日文维基），逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Complete Chart（全关卡胜败条件、机体加入与隐藏条件；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars MX》Secrets（隐藏要素总表，与 Complete Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦MX（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX"
+    }
+   ]
+  }
+ ]
+}
