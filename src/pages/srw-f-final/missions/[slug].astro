@@ -22,11 +22,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    {m.enemies.composition ? (
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 F完结编（FF）流程图与隐藏要素页，并以 SRW Wiki（全話一覧/F完結編、隠し要素/F・F完結編）交叉核对路线结构与隐藏条件（见页末来源）。<strong>敌方编成数据来源：s-rpg-navi（单一来源，未经交叉核对）</strong>——本作（SS 原版）没有可交叉核对的逐关敌方配置来源（GameCenter GX 未收录本作），本站经用户决定将该站的逐关编成表（机体、驾驶员、等级、数量、HP、资金与增援时机）作为本作的单源例外导入本页；该来源不提供坐标，敌方坐标与逐格地形仍标为待核实，地图为参照框架。本作没有正式的熟练度系统；《F》内部的未完成「内部点数」在完结编已被删除（SRW Wiki 明文），本作各关不再有任何点数条件。</span>
-    ) : (
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 F完结编（FF）流程图与隐藏要素页，并以 SRW Wiki（全話一覧/F完結編、隠し要素/F・F完結編）交叉核对路线结构与隐藏条件（见页末来源）。本作（SS 原版）没有可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作；日文个人站 s-rpg-navi 虽有逐关编成表，但为单一来源且无坐标，本站暂不据此刊出——故「敌方出场与增援」一节标为待核实，地图为参照框架。本作没有正式的熟练度系统；《F》内部的未完成「内部点数」在完结编已被删除（SRW Wiki 明文），本作各关不再有任何点数条件。</span>
-    )}
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 F完结编（FF）流程图与隐藏要素页，并以 SRW Wiki（全話一覧/F完結編、隠し要素/F・F完結編）交叉核对路线结构与隐藏条件（见页末来源）。敌方配置与地图已于 2026-10-23 补齐：数据来自ケイブンシャ《スーパーロボット大戦F完結編》攻略本（SS 版）的逐关配置表与关卡地图照片——初期配置坐标由图面图标逐个定位并与配置表台数逐关核对，增援按图面标示的出现点标记给出；逐格地形由照片逐格判读（详见各关「敌方配置」与「坐标地图」节的注记，以及游戏页的「地图数据说明」）。此前按用户决定导入的 s-rpg-navi 编成表（单一来源）保留于本节后半，并已与攻略本逐关交叉核对，差异逐关双源并记。本作没有正式的熟练度系统；《F》内部的未完成「内部点数」在完结编已被删除（SRW Wiki 明文），本作各关不再有任何点数条件。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -51,10 +47,58 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   </ul>
 
   <h2>敌方出场与增援</h2>
-  {m.enemies.composition ? (
+  {m.enemies.rows.length > 0 ? (
   <div>
+  <p class="text-sm text-base-content/60">坐标原点为地图左上 (1,1)，与本站地图一致。下表为ケイブンシャ攻略本配置表（构成、等级）与图面图标定位（坐标）的合并刊出；注记中的对账情况见表后说明。</p>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+    <tbody>
+    {m.enemies.rows.map((e: any) => (
+      <tr><td>{e.name}</td><td>{e.pilot}</td><td>{e.lv}</td><td>{coord(e)}</td><td>{e.behavior || '—'}</td><td>{e.note || ''}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+  {m.enemies.reinforcements && m.enemies.reinforcements.length > 0 && (
+    <div>
+      <h3>增援</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>出现时机</th><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+        <tbody>
+        {m.enemies.reinforcements.map((r: any) => (
+          <tr><td>{r.trigger}</td><td>{r.name}</td><td>{r.pilot}</td><td>{r.lv}</td><td>{coord(r)}</td><td>{r.behavior || '—'}</td><td>{r.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  )}
+    <ul>
+      {(m.enemies.bookNotes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级、坐标）暂无可交叉核对的公开来源，核实后补入。</span>
+    </div>
+  </div>
+  )}
+  {(m.enemies.crosscheck ?? []).length > 0 && (
+  <div>
+    <h3>与 s-rpg-navi 既刊编成表的交叉核对</h3>
+    <ul>
+      {(m.enemies.crosscheck ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+  {m.enemies.composition && (
+  <div>
+    <h3>s-rpg-navi 编成表（先行导入，单一来源）</h3>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：s-rpg-navi（单一来源，未经交叉核对）</strong>——下表照该站原表导入：机体、驾驶员、等级、数量、HP、资金与增援出现时机；机体与驾驶员名称为该站的日语原名。该站攻略以 PS 版制作并自注个别规格可能与 SS 版有出入，本站未以第二来源复核。该来源不提供坐标：敌方坐标与逐格地形仍待核实。</span>
+      <span><strong>敌方编成数据来源：s-rpg-navi（单一来源）</strong>——下表为本站先前经用户决定导入的该站编成表（原文未改动）：机体、驾驶员、等级、数量、HP、资金与增援出现时机；机体与驾驶员名称为该站的日语原名。该站攻略以 PS 版制作并自注个别规格可能与 SS 版有出入。现已与ケイブンシャ攻略本（SS 版）逐关交叉核对，核对结果见上节；两来源有出入处双源并记，不擅自合并。该来源不提供坐标。</span>
     </div>
     {m.enemies.composition.groups.map((g: any) => (
     <div>
@@ -92,44 +136,6 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
-  ) : m.enemies.rows.length > 0 ? (
-  <div>
-  <p class="text-sm text-base-content/60">坐标原点为地图左上 (1,1)，与本站地图一致。</p>
-  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
-  <table class="table table-zebra table-sm">
-    <thead><tr><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
-    <tbody>
-    {m.enemies.rows.map((e: any) => (
-      <tr><td>{e.name}</td><td>{e.pilot}</td><td>{e.lv}</td><td>{coord(e)}</td><td>{e.behavior || '—'}</td><td>{e.note || ''}</td></tr>
-    ))}
-    </tbody>
-  </table>
-  </div>
-  {m.enemies.reinforcements && m.enemies.reinforcements.length > 0 && (
-    <div>
-      <h3>增援</h3>
-      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
-      <table class="table table-zebra table-sm">
-        <thead><tr><th>出现时机</th><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
-        <tbody>
-        {m.enemies.reinforcements.map((r: any) => (
-          <tr><td>{r.trigger}</td><td>{r.name}</td><td>{r.pilot}</td><td>{r.lv}</td><td>{coord(r)}</td><td>{r.behavior || '—'}</td><td>{r.note || ''}</td></tr>
-        ))}
-        </tbody>
-      </table>
-      </div>
-    </div>
-  )}
-  </div>
-  ) : (
-  <div>
-    <div class="alert alert-warning alert-soft my-4">
-      <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级、坐标）暂无可交叉核对的公开来源，核实后补入。</span>
-    </div>
-    <ul>
-      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
-    </ul>
-  </div>
   )}
 
   <h2>剧情事件</h2>
@@ -152,7 +158,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} nameChips />
     </div>
   </div>
   <h3>已核实点位</h3>
