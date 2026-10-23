@@ -22,7 +22,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入、部件奖励与隐藏要素来自 Akurasu Wiki 的 Compact 流程图与隐藏要素页，并以 CMori 的 GameFAQs 攻略（结构、舞台、系统）与日文维基交叉核对（见页末来源）。本作（WS 原版）没有可交叉核对的逐关敌方配置来源——GameCenter GX 未收录本作；CMori 攻略虽刊有逐关敌方编成与地图尺寸，但为单一来源，本站按先例暂不据此刊出——故「敌方出场与增援」一节标为待核实，地图为参照框架。本作没有熟练度系统，也没有援护系统（援护是 WSC 版才追加的）；其标志性系统是自由顺序剧本、技能协调与个人资料表，见本作主页。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入、部件奖励与隐藏要素来自 Akurasu Wiki 的 Compact 流程图与隐藏要素页，并以 CMori 的 GameFAQs 攻略与日文维基交叉核对（见页末来源）。敌方配置与地图已于 2026-10-23 补齐：数据来自双葉社《スーパーロボット大戦COMPACT 必勝攻略法》（WS 版）的逐关配置表与关卡地图——初期配置坐标由图面图标逐个定位、并与配置表的印刷台数逐关核对，增援按图面区域标记给出出现范围，逐格地形由图面逐格判读（详见本页「敌方配置」与「坐标地图」节的注记，以及游戏页的「地图数据说明」）。CMori 的逐关编成未作刊载来源，仅用于逐关交叉核对，结果见下方「交叉核对」节。本作没有熟练度系统，也没有援护系统（援护是 WSC 版才追加的）；其标志性系统是自由顺序剧本、技能协调与个人资料表，见本作主页。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -90,6 +90,23 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   </div>
   )}
 
+  {(m.enemies.crosscheck ?? []).length > 0 && (
+  <div>
+    <h3>与 CMori 编成表（GameFAQs）的交叉核对</h3>
+    <ul>
+      {(m.enemies.crosscheck ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+  {(m.enemies.notes ?? []).length > 0 && m.enemies.rows.length > 0 && (
+  <div>
+    <h3>敌方配置注记</h3>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
   <h2>剧情事件</h2>
   <ul>
     {m.events.map((e: string) => <li>{e}</li>)}
@@ -110,7 +127,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} nameChips />
     </div>
   </div>
   <h3>已核实点位</h3>
