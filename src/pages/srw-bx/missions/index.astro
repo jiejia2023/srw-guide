@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwBxMissionList from '../../../components/SrwBxMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战BX', path: 'srw-bx/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战BX（3DS）关卡攻略 · 全57个关卡页面列表" description="超级机器人大战BX（2015年 3DS）全部关卡的页面列表：序章＋第1–47话＋最终话，三次路线分歧与最终选择的全部版本共57个不同剧本，一周目实际游玩49关。每关独立攻略页含胜利/败北条件、我方加入、过关奖励（固定资金＋技能零件）与本关隐藏要素（全20条旗标制连锁；本作无熟练度系统）。敌方编成在任何已查到的来源中都不存在（数据缺失，非单一来源待裁决）。本页为链接索引。" path="srw-bx/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战BX · 关卡攻略</h1>
+  <p>2015 年 8 月 20 日发售的 3DS《超级机器人大战BX》是 UX 之后任天堂掌机线的第二作、也是该线事实上的最后一作（开发：A.I.）。标题与 UX 相近只因同属一个系列线，<strong>故事与 UX 无关联、是独立作品</strong>（日文维基明言）。主人公是 17 岁的<strong>柊阳太</strong>，乘拥有自我意志的「次元守人」<strong>法尔塞巴</strong>（女主角<strong>柊结希</strong>任副驾驶员），中盘改乘<strong>布鲁维克托</strong>、第 35 话起两机辉煌合体为<strong>辉煌法尔塞巴</strong>；自军名为<strong>布莱提克斯（BrightiX）</strong>，敌方是德斯特鲁克（首领巴尔吉亚斯，真幕后吉斯佩尔）。本作沿用 UX 的<strong>搭档战斗</strong>（BX 的机体奖励由 PU 两机叠加共享）、<strong>战术指挥</strong>（新增 TSP 三阶蓄积，且指挥官是战斗员时<strong>不出击也生效</strong>——与 UX 相反）与战斗记录/部队点数，新增<strong>灵感系统</strong>。剧本为<strong>序章＋第 1–47 话＋最终话</strong>，途中<strong>三次路线分歧</strong>（第 7、17、29 话后）与最终话的吊坠选择使不同剧本达 <strong>57 个</strong>，本站全部建页；一周目实际游玩 <strong>49 关</strong>。本作<strong>没有熟练度系统</strong>，隐藏要素是全 20 条<strong>旗标制连锁</strong>（必达步＋可选步配额，无点数货币），且集齐全部隐藏是进入真最终话的门槛。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-bx/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——57 个详情页全部建成（按发售顺序逐作补完；BX 在年表上位于第3次Z天狱篇与 X-Ω 之间）。流程、胜败条件、加入以 Akurasu 的 BX <strong>Flow Chart 为主源</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，过关奖励另以 <strong>ds-can</strong> 的过关奖励一览逐话复核：<strong>第 18–20 话两线的奖励在 Akurasu 流程图中缺载</strong>（双栏排版截断），由 ds-can 补全（其明言两线奖励相同，资金数与全作「话数×1000」的规律亦合）；其余各话两源一致，唯<strong>第 33 话（全体攻击／反击）与第 42、43 话（修理／补给技能互换）</strong>有实质冲突，已在各页与主页并记、不擅自裁决。<strong>计数说明</strong>：Akurasu 主页对总话数没有任何自述，57 条是本站按其流程图逐条点算（序章的存在由 Secrets 页流程图与战斗记录第 1 号证实，流程图本身无序章条目，故序章的胜败条件与奖励如实标待核实）。<strong>敌方数据如实说明</strong>：本作的逐话敌方编成在日文 wiki 圈<strong>没有任何可用来源</strong>——atwiki 的 BX wiki 本体存在，但逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 无敌方表；Akurasu 流程图不列编成。这比「单一来源」更弱，是<strong>数据缺失，不列为待用户裁决事项</strong>；敌方等级是否动态变化亦无来源记载（不外推 UX 的结论）。敌方坐标、逐关地图尺寸与逐格地形同样无任何公开来源——各页坐标图为参照框架（官方攻略本《完美圣经》列入本站地图补完计划的首选候选，ISBN 未查到、不杜撰）。本页只做 3DS 原版（2015 年）；DLC 关卡（Tsume Robo 益智关 24 关与 Campaign Maps 18 关）不在本表内，其内容与奖励见本作主页。</span>
+  </div>
+
+  <SrwBxMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars BX: Flow Chart</a>（主来源：全关卡的胜败条件、加入、过关奖励与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars BX: Secrets</a>（隐藏要素总表与 20 条连锁的逐步条件，与流程图交叉核对）</li>
+    <li><a href="http://ds-can.com/srw-bx/time2/clearbonus.html" rel="noopener" target="_blank">ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧</a>（过关奖励的日文原名核对与第 18–20 话补全）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦BX</a>（发售日、系统、参战作品的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-bx/')}>← 返回超级机器人大战BX</a></p>
+</Base>

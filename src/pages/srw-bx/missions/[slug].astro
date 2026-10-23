@@ -1,0 +1,124 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwbx-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战BX', path: 'srw-bx/' },
+  { label: '关卡攻略', path: 'srw-bx/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战BX（2015 3DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、过关奖励（固定资金＋技能零件）与本关隐藏要素（全 20 条旗标制连锁的步骤；本作无熟练度系统）。敌方编成在任何已查到的来源中都不存在（不是单一来源问题），坐标地图为参照框架。`} path={`srw-bx/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与过关奖励来自 Akurasu Wiki 的 BX <strong>Flow Chart</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，过关奖励另以 ds-can 的过关奖励一览逐话核对（第 18–20 话两线的奖励流程图缺载、由 ds-can 补全；第 33 话与第 42/43 话两源有实质冲突，已在各页并记）。本作<strong>没有熟练度（SR 点）系统</strong>：Akurasu 流程图第 21–47 话条目里有一个「SR Point:」标签，但 29 处全为空白，是未填写的模板残留；ds-can 攻略指南明言本作没有 SR 点一类的特殊条件，ja.wiki 系统节亦无熟练度——本页出现的时限、到达、削血与保护条件都是<strong>胜败条件本身</strong>，或隐藏要素的达成条件。本作编号为第 1–47 话＋最终话，途中<strong>三次路线分歧</strong>（第 7、17、29 话后）与最终话的吊坠选择使不同剧本条目达 <strong>56 个</strong>，再加序章共 <strong>57 页</strong>，本站全部建页，一周目实际游玩 <strong>49 关</strong>（序章＋48）。<span>本关的敌方编成在<strong>任何已查到的来源中都不存在</strong>——这不是「单一来源待裁决」，而是数据缺失（详见下方「敌方出场与增援」）；敌方坐标与逐格地形同样无公开来源，地图为参照框架。</span></span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      <div>本作无熟练度系统（分歧与隐藏要素由路线选择、战术指挥设定与击坠数旗标决定，见本作主页）</div>
+    </td></tr>
+    <tr><th>资金（过关奖励）</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>技能零件（过关奖励）</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（无任何来源）：</strong>本关敌方编成在已查到的全部来源中都不存在——Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。本作恰好落在两代攻略站交接的空档，属<strong>数据缺失</strong>，不是单一来源待裁决事项。敌方等级机制（是否随我方进度动态变化）亦无任何来源记载，本站不照搬 UX 的结论。敌方坐标与逐格地形同样不存在。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作隐藏要素共 <strong>20 条连锁</strong>，全部是<strong>旗标制</strong>：每条连锁由若干「必达步」与一个「可选步配额」（如必达全取＋可选至少 3/5）组成，<strong>没有任何点数货币</strong>；击坠数、出击次数门槛本身就是单个旗标。部分连锁的必达/可选会随所走路线互换（罗蕾莱、玛莉妲、托德、罗妮、新拜斯顿各条，见各步注记）。「与 X 交战」类步骤可能被本话的通用初战对话顶掉而不计数，须交战至触发专用对话为止（Akurasu Secrets 页通则；海、托德、贝尔泽布与第 33 话另有「须交战两次」的逐项注记，已写在各步里）。第 47 话后<strong>拒绝结希的吊坠</strong>进入真最终话，须全部 20 条连锁解锁。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-bx/missions/')}>← 返回关卡列表</a> · <a href={href('srw-bx/')}>返回超级机器人大战BX</a></p>
+</Base>

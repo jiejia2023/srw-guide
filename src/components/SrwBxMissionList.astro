@@ -1,0 +1,41 @@
+---
+import listData from '../data/srwbx-list.json';
+import missionsData from '../data/srwbx-missions.json';
+import { href } from '../lib/site';
+
+// code -> detail slug + secrets presence (every scenario has its own detail page)
+const detailByCode: Record<string, string> = {};
+const secretsByCode: Record<string, number> = {};
+for (const m of (missionsData as any).missions ?? []) {
+  if (m.code && m.slug) {
+    detailByCode[m.code] = m.slug;
+    secretsByCode[m.code] = (m.secrets ?? []).length;
+  }
+}
+const groups = (listData as any).groups ?? [];
+---
+{groups.map((g: any) => (
+  <>
+  <h3>{g.title}</h3>
+  {g.intro && <p class="text-sm text-base-content/60">{g.intro}</p>}
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名</th><th>类型</th><th>隐藏要素</th><th>详情</th><th>备注</th></tr></thead>
+      <tbody>
+      {g.rows.map((r: any) => (
+        <tr>
+          <td>{r.code}</td>
+          <td>{detailByCode[r.code] ? <a class="link link-primary font-semibold" href={href(`srw-bx/missions/${detailByCode[r.code]}/`)}>{r.zh}</a> : r.zh}</td>
+          <td>{r.ja}</td>
+          <td>{r.en}</td>
+          <td><span class="badge badge-primary badge-sm">{r.type}</span></td>
+          <td>{secretsByCode[r.code] ? `${secretsByCode[r.code]} 项` : '—'}</td>
+          <td>{detailByCode[r.code] ? <a class="link link-primary font-semibold" href={href(`srw-bx/missions/${detailByCode[r.code]}/`)}>攻略</a> : ''}</td>
+          <td>{r.note}</td>
+        </tr>
+      ))}
+      </tbody>
+    </table>
+  </div>
+  </>
+))}

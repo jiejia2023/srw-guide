@@ -1,0 +1,5090 @@
+{
+ "missions": [
+  {
+   "code": "序章",
+   "slug": "prologue",
+   "zh": "序章",
+   "ja": "プロローグ",
+   "en": "Prologue",
+   "route": "共通 · 本篇开端",
+   "area": "",
+   "type": "序章",
+   "prerequisite": "新游戏开局的第一关。战斗记录（Battle Record）第 1 号「战斗开始」的达成条件即通关本序章——这是序章存在的间接但确凿的证据。",
+   "victory": [
+    "待核实（见备注）"
+   ],
+   "defeat": [],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "待核实：Akurasu 流程图没有序章条目，ds-can 的过关奖励一览自第 1 话起，序章的过关奖励在已查到的来源中无记载。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "待核实（Akurasu 流程图无序章条目；按剧情，第 1 话开局的法尔塞巴（阳太、法尔塞巴、结希）与我王凯牙自序章起即为我方，但序章本身的出击编成未在来源中逐项列出，本站不补写）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 1 话《开始转动之命运》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "序章确实存在于游戏中（Akurasu Secrets 页的隐藏流程图与战斗记录第 1 号均列有プロローグ），但 Akurasu 流程图没有为它设条目：其胜败条件、出击编成与过关奖励在已查到的公开来源中均无记载，本页只确认其存在与位置，其余字段如实标待核实，不照第 1 话类推补写。"
+  },
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "开始转动之命运",
+   "ja": "第1話：動き出す運命",
+   "en": "Scenario 1: Fate Begins to Move",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关序章后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "任意我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +1000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴（阳太、法尔塞巴、结希）",
+    "我王凯牙（凯）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 2 话《决意！被继承的意志》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "决意！被继承的意志",
+   "ja": "第2話：決意!引き継がれる意志",
+   "en": "Scenario 2: Determination! The Inherited Will",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 1 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "任意我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +2000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "魔神Z（甲儿）",
+    "维纳斯A（沙耶加）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 3 话《纽约悬疑》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题的英译在 Akurasu 内部三页互不一致（Flow Chart 作 The Inherited Will、Secrets 页作 The Passed on Will、Timeline 页作 The Drive to Conquer），本站从流程图。"
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "纽约悬疑",
+   "ja": "第3話：ニューヤーク サスぺンス",
+   "en": "Scenario 3: New York Suspense",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 2 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "00强化组被击坠",
+    "（其后）00强化组或任意我方单位被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +3000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "00强化组（刹那）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 4 话《消失的存在》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "消失的存在",
+   "ja": "第4話：ミッシング・イグジステンス",
+   "en": "Scenario 4: Missing Existence",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 3 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "任意我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +4000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "YF-25 先知（里昂）",
+    "YF-19E 王者之剑（艾夏）",
+    "YF-29 杜兰德尔（阿尔特）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 5 话《初始之钟》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "艾夏的机体名：流程图作「YF-19E」、Timeline 页作「VF-19E」，本站从流程图并记。"
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "初始之钟",
+   "ja": "第5話：始まりの鐘",
+   "en": "Scenario 5: Bell of Beginnings",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 4 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠克桑德拉格（Xamdrag）"
+   ],
+   "defeat": [
+    "任意我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +5000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "抚子号（尤里卡、琉璃、港、惠）",
+    "艾斯特瓦利斯 0G骨架（明人）",
+    "艾斯特瓦利斯 0G骨架（凉子）",
+    "艾斯特瓦利斯 0G骨架（光）",
+    "艾斯特瓦利斯 0G骨架（和泉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 6 话《绝对无敌的合体机器人》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "绝对无敌的合体机器人",
+   "ja": "第6話：絶対無敵の合体ロボ",
+   "en": "Scenario 6: Absolutely Invincible Combining Robo",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 5 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠任一原种（Primeval）"
+   ],
+   "defeat": [
+    "任意我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +6000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "底力 Lv+1（底力，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "雷神王（仁、飞鸟、洸司）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 7 话《你想守护的「某种东西」》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "你想守护的「某种东西」",
+   "ja": "第7話：君が守りたい『何か』",
+   "en": "Scenario 7: \"Something\" You Have To Protect",
+   "route": "共通 · 本关后路线分歧 1",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 6 话后进入。本关通关后发生路线分歧 1（见通关后开放）。",
+   "victory": [
+    "击坠魔神或铁人",
+    "击坠铁人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +7000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "YF-29 杜兰德尔（阿尔特）",
+    "VF-25F 弥赛亚（阿尔特）",
+    "抚子号（尤里卡、琉璃、港）",
+    "艾斯特瓦利斯 地面骨架（晓）",
+    "艾斯特瓦利斯 地面骨架（凉子）",
+    "艾斯特瓦利斯 地面骨架（光）",
+    "艾斯特瓦利斯 地面骨架（和泉）",
+    "全部艾斯特瓦利斯在本关幕间追加 0G、重装甲、空中三种骨架"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "路线分歧 1：选择「与抚子号一同前往月球」→ 第 8 话A《月面邂逅》；选择「前往奥利弗诺茨」→ 第 8 话B《爷爷的高达》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话·月路线",
+   "slug": "stage-8a",
+   "zh": "月面邂逅",
+   "ja": "第8話：月面の邂逅",
+   "en": "Scenario 8: Encounter on the Moon",
+   "route": "分歧 1 · 月路线（与抚子号同行）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 7 话后选择「与抚子号一同前往月球」。",
+   "victory": [
+    "全灭敌军",
+    "击坠大魔神"
+   ],
+   "defeat": [
+    "任意我方单位被击坠",
+    "阿基特或抚子号被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +8000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "艾斯特瓦利斯 月面骨架（明人）",
+    "提尔瓦（吉拉德）",
+    "提尔瓦追加武器「T Bit」",
+    "抚子号追加副驾驶员：惠",
+    "明人的艾斯特瓦利斯在本关幕间追加 0G、重装甲、空中三种骨架"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 9 话A《激突的独角兽》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励的「集中力」：Akurasu 流程图本话作「Concentration」、第 16 话作「Mental Focus」，是同一技能（集中力）的两种英译，ds-can 的日文原名两处均为集中力，本站统一作集中力（同类处理见第 11、16 话）。"
+  },
+  {
+   "code": "第8话·奥利弗诺茨线",
+   "slug": "stage-8b",
+   "zh": "爷爷的高达",
+   "ja": "第8話：じいちゃんのガンダム",
+   "en": "Scenario 8: Grandpa's Gundam",
+   "route": "分歧 1 · 奥利弗诺茨路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 7 话后选择「前往奥利弗诺茨」。",
+   "victory": [
+    "全灭敌军",
+    "击坠吉拉格"
+   ],
+   "defeat": [
+    "任意我方单位被击坠",
+    "敌人到达指定地点",
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +8000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "克朗谢（夏娜璐亚）",
+    "克朗谢特装型（塞里克）",
+    "吉欧斯O特装型（奥布莱特）",
+    "女武神（纳托拉、艾拉；友军）",
+    "温格尔（优希）",
+    "高达AGE-3（基奥，本关幕间加入）",
+    "女武神追加副驾驶员：弗利特"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 9 话B《守护！孩子们的战斗》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·月路线",
+   "slug": "stage-9a",
+   "zh": "激突的独角兽",
+   "ja": "第9話：激突するユニコーン",
+   "en": "Scenario 9: Clashing Unicorn",
+   "route": "分歧 1 · 月路线（与抚子号同行）",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 8 话A 后进入。",
+   "victory": [
+    "独角兽高达到达指定地点",
+    "击坠独角兽高达"
+   ],
+   "defeat": [
+    "我方战舰、独角兽高达或剑士泽塔被击坠",
+    "我方战舰、00强化组或剑士泽塔被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +9000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "底力 Lv+1（底力，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "独角兽高达（巴纳吉）",
+    "剑士泽塔（剑士泽塔）",
+    "智天使高达修复型（洛克昂、哈罗）",
+    "托勒密2改（皇、拉塞、菲尔特、米蕾娜）",
+    "00强化组（刹那）",
+    "德尔塔Plus（利迪）",
+    "纳哈尔·阿伽马（奥托、利亚姆、米希洛）",
+    "00强化组追加攻击「Trans-Am 爆发」"
+   ],
+   "events": [],
+   "secrets": [
+    "NT-D 事件发生前，由巴纳吉与玛莉妲交战。——两说并记：Akurasu Secrets 详细版此步作「由巴纳吉击坠玛莉妲」，其流程图与 Secrets 页流程表均作「交战」，本站并记不裁（交战类步骤的通则：可能被本话的通用初战对话顶掉，须交战至触发专用对话为止，见本作主页）。",
+    "NT-D 事件发生后，击坠玛莉妲（流程图未指定击坠者）。",
+    "该连锁全程：必达步全取＋可选步至少 3/5，兑现在第 32 话（克沙特里亚正式加入）；注意若第 7 话后走的是奥利弗诺茨线，第 25 话的步骤转为必达。"
+   ],
+   "unlocks": [
+    "第 10 话《皇的浮现》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·奥利弗诺茨线",
+   "slug": "stage-9b",
+   "zh": "守护！孩子们的战斗",
+   "ja": "第9話：守れ!子供達の戦い",
+   "en": "Scenario 9: Protect! The Children's Battle",
+   "route": "分歧 1 · 奥利弗诺茨路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 8 话B 后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "雷神王、高达AGE-3或我方战舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +9000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "底力 Lv+1（底力，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "雷神王（仁、飞鸟、洸司）",
+    "高达AGE-3 追加攻击「AGE-3 要塞形态」"
+   ],
+   "events": [],
+   "secrets": [
+    "由基奥击坠戈多姆。该连锁（塞里克、杰哈特、莉尔、弗拉姆）全程须必达步全取＋可选步至少 3/11，兑现在第 41 话。"
+   ],
+   "unlocks": [
+    "第 10 话《皇的浮现》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "皇的浮现",
+   "ja": "第10話：皇の浮上",
+   "en": "Scenario 10: Rise of the Emperor",
+   "route": "共通（两线合流）",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 9 话（任一路线）后进入，两线在此合流。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰被击坠",
+    "我方战舰或比尔拜因被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +10000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "比尔拜因（翔、恰姆；本关后翔改乘丹拜因）",
+    "丹拜因（玛贝尔；本关后改乘博丘恩）",
+    "博丘恩",
+    "魔神凯撒SKL（海动、真上）",
+    "格兰·格兰（希艾拉、川濑、艾尔、贝尔）"
+   ],
+   "events": [],
+   "secrets": [
+    "在德雷克撤退之前将其击坠（德雷克在我方击坠 5 个敌小队后撤退）。",
+    "由翔击坠黑骑士。该连锁（萨拜因、伯恩与兹瓦斯）全程须必达步全取＋可选步至少 3/5，兑现在第 36 话（萨拜因）与第 44 话（兹瓦斯）；若第 17 话后不走日本防卫线，本步与第 33、36 话的指定可选步转为必达。"
+   ],
+   "unlocks": [
+    "第 11 话《与巨神相遇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 Rise of the Emperor、Secrets 页作 Surfacing of the Emperor、Timeline 页作 Flight of the Emperor，本站从流程图。"
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "与巨神相遇",
+   "ja": "第11話：巨神との出会い",
+   "en": "Scenario 11: Encounter with the Giant God",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 10 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "骑士高达被击坠",
+    "戈格或我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +11000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "骑士高达（骑士高达）",
+    "巨神戈格（戈格、勇；本关中为 NPC）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 12 话《各自的决意》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "各自的决意",
+   "ja": "第12話：それぞれの決意",
+   "en": "Scenario 12: Our Resolve",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 11 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰被击坠",
+    "我方战舰或法尔塞巴被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +12000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "反击（カウンター，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "德尔塔Plus（利迪）",
+    "卡利亚·比格尔（船长、托梅尼克）"
+   ],
+   "events": [],
+   "secrets": [
+    "由戈格击坠罗德。该连锁 8 步全为必达步、无可选配额，兑现在第 36 话。"
+   ],
+   "unlocks": [
+    "第 13 话《加里安的觉醒》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "加里安的觉醒",
+   "ja": "第13話：ガリアンの目覚め",
+   "en": "Scenario 13: Galient Awakens",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 12 话后进入。本关起战术指挥系统开放（首批指挥官加入，见加入栏）。",
+   "victory": [
+    "全灭敌军",
+    "击坠温加尔·泽（海·沙鲁塔特专用型）"
+   ],
+   "defeat": [
+    "骑士亚历克斯、戈格或德尔塔Plus被击坠",
+    "我方战舰、加里安或 VF-25F 被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +13000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "全体攻击 Lv+1（全体攻撃，技能零件）",
+     "格挡（ガード，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "骑士亚历克斯（骑士亚历克斯）",
+    "加里安（乔乔）",
+    "戈格追加武器「改装型 180mm 炮」",
+    "战术指挥官首批开放：骑士亚历克斯、弗利特、阿斯贝斯、希艾拉、玛丽亚、尤里卡、优希、法尔塞巴（本作战术指挥自本关起可用）"
+   ],
+   "events": [],
+   "secrets": [
+    "由乔乔击坠海。注意（Akurasu Info Dump）：乔乔在本话须与海交战两次，通用初战对话可能顶掉专用对话。该连锁全程须必达步（第 45 话）＋可选步至少 6/8。"
+   ],
+   "unlocks": [
+    "第 14 话《无重力之谷》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "流程图原文把艾夏机写作「V-25F」，应为 VF-25F 之误，本站照通行写法。"
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "无重力之谷",
+   "ja": "第14話：無重力の谷",
+   "en": "Scenario 14: The Floating Valley",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 13 话后进入。",
+   "victory": [
+    "经过 4 回合",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "骑士高达被击坠",
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +14000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "疾走（ダッシュ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "VF-25S 弥赛亚（奥兹马）",
+    "VF-25G 弥赛亚 龙卷风装备（米海尔）",
+    "RVF-25 弥赛亚（卢卡）",
+    "女皇蜜蜂（克兰）",
+    "VB-6 国王怪兽（卡娜莉亚）",
+    "超时空要塞 Quarter（杰弗里、鲍比、凯瑟琳）",
+    "兹瓦斯（驾驶员不明；NPC）",
+    "新增战术指挥官：奥兹马、杰弗里"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 15 话《吹过宇宙的风》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "吹过宇宙的风",
+   "ja": "第15話：宇宙を吹き抜ける風",
+   "en": "Scenario 15: The Winds Blowing Through the Universe",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 14 话后进入。",
+   "victory": [
+    "守护 RVF-25 达 3 回合",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、法尔塞巴、加里安、VF-25F 或 RVF-25 被击坠",
+    "指挥坦克被击坠",
+    "我方战舰、法尔塞巴、加里安或 VF-25F 被击坠；我方战舰或法尔塞巴被击坠",
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。流程图原文的败北条件分四段列出，本站在第三段处合并照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +15000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "预见（見切り，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 16 话《冰点下的重逢》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "冰点下的重逢",
+   "ja": "第16話：氷点下での再会",
+   "en": "Scenario 16: Reunion at Subzero",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 15 话后进入。",
+   "victory": [
+    "到达指定区域",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、斗士ZZ高达、我王凯牙或王者J大个子被击坠",
+    "我方战舰、斗士ZZ高达或王者J大个子被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +16000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "王者J大个子（J、郁美、托摩罗0117）",
+    "斗士ZZ高达（斗士ZZ）",
+    "超龙神",
+    "击龙神",
+    "大我方沃尔福格（Big Volfogg）",
+    "麦克桑德斯13世",
+    "戈拉恩（艾尔、阿部）",
+    "博丘恩（尼尔）",
+    "博丘恩（基恩）",
+    "我王凯牙追加「星辰我王凯牙」部件"
+   ],
+   "events": [],
+   "secrets": [
+    "由 J 击坠至少 1 名敌人。该连锁全程须必达步全取＋可选步至少 3/5（兑现为王者J大个子的永久保留，它在本作中多次加入又离队）。"
+   ],
+   "unlocks": [
+    "第 17 话《让大家的心合而为一！》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励第 3 项：Akurasu 流程图作「Fighting Spirit」，其技能零件目录中无此名，实为斗争心（闘争心，目录英译 Resolve）；ds-can 的日文原名亦作闘争心，本站从日文原名并记。另本话指挥官等新规：博丘恩（尼尔）与博丘恩（基恩）的合体攻击「双重灵光攻击 (K)/(N)」自本话可用（Akurasu 合体攻击表）。"
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "让大家的心合而为一！",
+   "ja": "第17話：みんなの心をひとつにしろ!",
+   "en": "Scenario 17: Make Everyone's Hearts As One!",
+   "route": "共通 · 本关后路线分歧 2",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 16 话后进入。本关通关后发生路线分歧 2（见通关后开放）。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、雷神王或法尔塞巴被击坠",
+    "我方战舰或法尔塞巴被击坠",
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +17000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴恢复副驾驶员结希，并追加攻击「空中火花」",
+    "德尔塔Plus（利迪）"
+   ],
+   "events": [],
+   "secrets": [
+    "出击甲儿。",
+    "由甲儿击坠至少 10 名敌人。",
+    "该连锁的步对随路线而定：走 ELS 护卫线（A 线）时以上两步为必达；走日本防卫线（B 线）时改为第 18 话B 的两步必达。兑现在第 21 话（达努巴α1 加入）。"
+   ],
+   "unlocks": [
+    "路线分歧 2：选择「ELS 移送护卫」→ 第 18 话A《拥有意志的生命体》；选择「日本防卫」→ 第 18 话B《爱憎！被留下的重要之人！》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话·ELS护卫线",
+   "slug": "stage-18a",
+   "zh": "拥有意志的生命体",
+   "ja": "第18話：意志を持った生命体",
+   "en": "Scenario 18: Sentient Lifeforms",
+   "route": "分歧 2 · ELS 移送护卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 17 话后选择「ELS 移送护卫」。",
+   "victory": [
+    "击坠电人（Denjin）",
+    "击坠克桑德拉格（Xamdrag）"
+   ],
+   "defeat": [
+    "任意敌人到达高亮区域",
+    "我方战舰或高达AGE-3 被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +18000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "托勒密2改（皇、拉塞、菲尔特、米蕾娜）",
+    "00强化组（刹那）",
+    "智天使高达最终任务规格（洛克昂、哈罗、哈罗）",
+    "狱天使高达（阿雷路亚、索玛）",
+    "剑士泽塔（剑士泽塔）",
+    "高达AGE-3 追加攻击「AGE-3 轨道形态」",
+    "新增战术指挥官：皇"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 19 话A《消失在历史背后的众人》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 Sentient Lifeforms，Secrets 页与 Timeline 页作 Intent of Life，本站从流程图。"
+  },
+  {
+   "code": "第18话·日本防卫线",
+   "slug": "stage-18b",
+   "zh": "爱憎！被留下的重要之人！",
+   "ja": "第18話：愛憎!残された大切な者!",
+   "en": "Scenario 18: Love and Hate! The Precious Ones Left Behind!",
+   "route": "分歧 2 · 日本防卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 17 话后选择「日本防卫」。",
+   "victory": [
+    "全灭敌军",
+    "击坠达努巴α1"
+   ],
+   "defeat": [
+    "我方战舰或魔神Z被击坠",
+    "任意敌人进入修特罗海姆城"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +18000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "由甲儿最先与罗蕾莱交战。",
+    "由甲儿击坠至少 4 名敌人（走本线时此二步必达；走 A 线时改为第 17 话的两步必达）。兑现在第 21 话（达努巴α1 加入）。"
+   ],
+   "unlocks": [
+    "第 19 话B《父母与孩子》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·ELS护卫线",
+   "slug": "stage-19a",
+   "zh": "消失在历史背后的众人",
+   "ja": "第19話：歴史の裏に消えた者達",
+   "en": "Scenario 19: Those Who Vanished from History",
+   "route": "分歧 2 · ELS 移送护卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 18 话A 后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠胖叔叔特装型",
+    "击坠香布洛"
+   ],
+   "defeat": [
+    "我方战舰、00强化组或高达AGE-3被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +19000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "反击（カウンター，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "独角兽高达（巴纳吉）"
+   ],
+   "events": [],
+   "secrets": [
+    "在香布洛受到 2 次攻击或 HP 降至 30% 以下之前，击坠柯克斯。注意：此连锁的兑现只是「罗妮存活」——罗妮不会成为可操作单位（Akurasu Secrets 页注记）。柯克斯的拼写：流程图作 Kirks、Secrets 详细版作 Kirkus，并记。走 A 线时本连锁共 4 步（本话 1 步＋第 20 话A 3 步）全为必达；走 B 线时改为第 21、24、26、29 话的 4 步（该续篇在剧情上无任何明示）。"
+   ],
+   "unlocks": [
+    "第 20 话A《陨落于罗斯特罗兰》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·日本防卫线",
+   "slug": "stage-19b",
+   "zh": "父母与孩子",
+   "ja": "第19話：親と子",
+   "en": "Scenario 19: Parent and Child",
+   "route": "分歧 2 · 日本防卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 18 话B 后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠 Hyper 小妖精"
+   ],
+   "defeat": [
+    "我方战舰、加里安或丹拜因被击坠",
+    "我方战舰或加里安被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +19000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "反击（カウンター，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "比尔拜因（翔、恰姆；玛贝尔改乘丹拜因）"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为希艾拉。",
+    "在黑骑士撤退之前将其击坠。",
+    "另：比尔拜因（翔）与丹拜因（玛贝尔）的合体攻击「双重灵光攻击」自本话可用（Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 20 话B《正义的人们》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话·ELS护卫线",
+   "slug": "stage-20a",
+   "zh": "陨落于罗斯特罗兰",
+   "ja": "第20話：ロストロウランに散る",
+   "en": "Scenario 20: Scattered in Rostroulan",
+   "route": "分歧 2 · ELS 移送护卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 19 话A 后进入。",
+   "victory": [
+    "全灭敌军",
+    "我方单位到达高亮区域",
+    "把香布洛的 HP 削至 10% 以下"
+   ],
+   "defeat": [
+    "我方战舰、高达AGE-3或独角兽高达被击坠",
+    "经过 5 回合",
+    "德尔塔Plus被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +20000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "格挡（ガード，技能零件）",
+     "精神耐性（精神耐性，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "德尔塔Plus（利迪）"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为弗利特。",
+    "由基奥与杰哈特交战。",
+    "由巴纳吉击坠至少 2 名敌人。",
+    "罗妮返回地图后，由巴纳吉说得罗妮。",
+    "事件之后，由巴纳吉把香布洛的 HP 削至 10% 以下。"
+   ],
+   "unlocks": [
+    "第 21 话《威胁！古代迈锡尼的遗产！》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 Scattered in Rostroulan，Secrets 页与 Timeline 页作 Roustroulam Falls，本站从流程图。"
+  },
+  {
+   "code": "第20话·日本防卫线",
+   "slug": "stage-20b",
+   "zh": "正义的人们",
+   "ja": "第20話：正しき者達",
+   "en": "Scenario 20: The Righteous",
+   "route": "分歧 2 · 日本防卫路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 19 话B 后进入。",
+   "victory": [
+    "击坠斗士ZZ高达与法师ν高达",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰或雷神王被击坠",
+    "我方战舰或王者J大个子被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +20000（Akurasu 流程图的分歧话条目未刊出本话奖励——其双栏排版截断了第 18–20 话两线的奖励栏；资金数与技能零件据 ds-can 过关奖励一览，其明言「两条路线的过关奖励相同」，与全作资金递增规律（话数×1000）亦合）；另有部队点数 +100（全话共通）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "格挡（ガード，技能零件）",
+     "精神耐性（精神耐性，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "王者J大个子（J、郁美、托摩罗0117）",
+    "斗士ZZ高达（斗士ZZ）"
+   ],
+   "events": [],
+   "secrets": [
+    "由凯或 J 击坠原种。"
+   ],
+   "unlocks": [
+    "第 21 话《威胁！古代迈锡尼的遗产！》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 The Righteous，Secrets 页与 Timeline 页作 Man of Justice，本站从流程图。"
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "威胁！古代迈锡尼的遗产！",
+   "ja": "第21話：脅威!古代ミケーネの遺産!",
+   "en": "Scenario 21: Threat! Ancient Mycenean Heritage!",
+   "route": "共通（两线合流）",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 20 话（任一路线）后进入，两线在此合流。自本话起 Akurasu 流程图的每话条目都带有一个空白的「SR Point:」标签——那是未填写的模板残留，本作没有熟练度系统（证据见本作主页），本站不为其造条件。",
+   "victory": [
+    "击坠铁凯撒"
+   ],
+   "defeat": [
+    "任意我方单位被击坠；布鲁维克托被击坠",
+    "我方战舰被击坠；法尔塞巴或魔神Z被击坠"
+   ],
+   "defeatNote": "流程图原文的败北条件标点含混，本站按其分号顺序分两段照录、不擅自断定各段的逻辑关系。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +21000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "全体攻击 Lv+1（全体攻撃，技能零件）",
+     "疾走（ダッシュ，技能零件）",
+     "伤害减半（ハーフカット，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "布鲁维克托（布鲁维克托；NPC）",
+    "博斯机器人（博斯、努克、穆查）",
+    "达努巴α1（罗蕾莱）",
+    "温格尔追加攻击「精神齿轮全开攻击」"
+   ],
+   "events": [],
+   "secrets": [
+    "（仅走日本防卫线时）由巴纳吉击坠至少 2 名敌人。此 B 线续篇共 4 步（本话、第 24、26、29 话），剧情上无任何明示。"
+   ],
+   "unlocks": [
+    "第 22 话《「不可忘记」的温暖？》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "「不可忘记」的温暖？",
+   "ja": "第22話：『忘れちゃいけない』温かさ?",
+   "en": "Scenario 22: \"Do Not Forget\" Passion?",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 21 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠邪恶撒旦"
+   ],
+   "defeat": [
+    "我方战舰被击坠；阿基特被击坠；独角兽高达或雷神王被击坠"
+   ],
+   "defeatNote": "流程图原文以逗号并列列出，本站以分号分隔照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +22000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "预见（見切り，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "爆龙（玛丽亚、努）"
+   ],
+   "events": [],
+   "secrets": [
+    "由仁与贝尔泽布交战。",
+    "由玛丽亚与贝尔泽布交战。注意（Akurasu Info Dump）：玛丽亚在本话须与贝尔泽布交战两次（通用初战对话可能顶掉第一次）。",
+    "该连锁 11 步全为必达步、无可选配额，兑现在第 47 话。"
+   ],
+   "unlocks": [
+    "第 23 话《时间之门》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "时间之门",
+   "ja": "第23話：時の扉",
+   "en": "Scenario 23: Door of Time",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 22 话后进入。",
+   "victory": [
+    "击坠扎乌埃尔",
+    "击坠温加尔·泽"
+   ],
+   "defeat": [
+    "我方战舰被击坠；法尔塞巴或戈格被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +23000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴（阳太、法尔塞巴、结希）",
+    "巨神戈格（勇、戈格）"
+   ],
+   "events": [],
+   "secrets": [
+    "乔乔不被兰维尔击坠。",
+    "由乔乔击坠兰维尔。",
+    "把战术指挥官设为阿斯贝斯。",
+    "由翔与托德交战。（流程图本话起把此人写作「Tod」，Secrets 详细版作「Todd」，本站统一作托德并在此并记。）",
+    "由翔击坠托德。该连锁全程须必达步全取＋可选步至少 2/4，兑现在第 30 话B（赖内克）与第 33 话（托尔斯托尔成为戈拉恩副驾驶员）；若第 29 话后不走波士顿线，此前全部步骤转为必达。"
+   ],
+   "unlocks": [
+    "第 24 话《青色巨神与红色巨神》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "青色巨神与红色巨神",
+   "ja": "第24話：青き巨神と赤き巨神",
+   "en": "Scenario 24: Blue Giant God and Red Giant God",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 23 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠布鲁维克托"
+   ],
+   "defeat": [
+    "我方战舰、强袭加里安被击坠",
+    "法尔塞巴或戈格被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +24000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴（阳太、法尔塞巴、结希）",
+    "强袭加里安（乔乔、温德）",
+    "巨神戈格（勇、戈格）",
+    "斯卡兹（唐·斯拉赞、西蒙）",
+    "普罗马基斯VI（希尔姆卡）",
+    "戈格追加武器「飞翼回旋镖」",
+    "战术指挥官骑士亚历克斯的效果升至第 2 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "（仅走日本防卫线时）由巴纳吉击坠至少 2 名敌人。",
+    "由乔乔与海交战（Info Dump：本话须交战两次）。",
+    "由翔与托德交战。",
+    "由唐·斯拉赞与托德交战（Info Dump：本话须交战两次）。",
+    "由翔击坠托德。",
+    "由戈格与布鲁维克托交战。"
+   ],
+   "unlocks": [
+    "第 25 话《看见彩虹之日》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励第 3 项：Akurasu 流程图作「Continuous Attack」，ds-can 日文原名与本作技能目录均为連続行動（Continuous Action），本站从日文原名并记（同类异译另见第 31 话）。本关标题英译：流程图作 Blue Giant God and Red Giant God，Timeline 页作 Blue Giant God vs. Red Giant God，本站从流程图。"
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "看见彩虹之日",
+   "ja": "第25話：虹を見た日",
+   "en": "Scenario 25: The Rainbow We Saw That Day",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 24 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "把报丧女妖的 HP 削至 10% 以下",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、独角兽高达或00强化组被击坠",
+    "报丧女妖被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +25000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "德尔塔Plus（利迪；NPC）",
+    "报丧女妖（普露十二号；NPC）",
+    "提尔瓦（吉拉德）",
+    "纳哈尔·阿伽马（奥托、利亚姆、米希洛）",
+    "00强化组失去攻击「Trans-Am 爆发」",
+    "新增战术指挥官：奥托",
+    "战术指挥官弗利特、希艾拉、玛丽亚、尤里卡、优希、奥兹马、杰弗里、法尔塞巴的效果升至第 2 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "由吉拉德击坠至少 2 名敌人。该连锁 6 步全为必达，兑现在第 39 话（提尔瓦正式加入）。",
+    "津涅曼事件之后，由巴纳吉攻击玛莉妲。（若第 7 话后走的是奥利弗诺茨线，本步转为必达。）",
+    "奥黛丽事件之后，由巴纳吉把报丧女妖的 HP 削至 10% 以下——与本话胜利条件同着，勿误击坠。",
+    "NPC 利迪存活至本话初始敌方波次全灭。该连锁 3 步全为必达，兑现在第 38 话（无驾驶员的德尔塔Plus 入手）。"
+   ],
+   "unlocks": [
+    "第 26 话《三星汇聚之时》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "三星汇聚之时",
+   "ja": "第26話：三つの星が集う時",
+   "en": "Scenario 26: When the Three Stars Unite",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 25 话后进入。本关通关后全军机体改造上限由 5 段解禁至 10 段。",
+   "victory": [
+    "全灭敌军",
+    "击坠骑士杰农曼萨"
+   ],
+   "defeat": [
+    "骑士高达、00强化组、高达AGE-3或独角兽高达被击坠",
+    "我方战舰被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +26000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "反击（カウンター，技能零件）",
+     "精神耐性（精神耐性，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "骑士高达追加攻击「全装甲骑士高达」",
+    "新增战术指挥官：温迪、丘鲁鲁、恰姆、篠田、守、琉璃、多丽丝、米娜、结希",
+    "全军机体改造上限解禁至 10 段（通关后）"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为骑士亚历克斯。",
+    "以骑士高达的「全装甲骑士高达」攻击击坠骑士杰农曼萨。该连锁 5 步全为必达，兑现在第 44 话（龙宝宝成为臣属骑士高达的副驾驶员）。",
+    "（仅走日本防卫线时）由巴纳吉击坠至少 2 名敌人。"
+   ],
+   "unlocks": [
+    "第 27 话《暗黑大决战》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "暗黑大决战",
+   "ja": "第27話：暗黒の大決戦",
+   "en": "Scenario 27: Great Battle of Darkness",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 26 话后进入。法尔塞巴于本话前后暂时离队（至第 35 话回归并解禁辉煌合体），其战术指挥官资格在本话丧失。",
+   "victory": [
+    "击坠合体原种",
+    "击坠合体原种，或把巴尔吉亚斯的 HP 削至 75% 以下"
+   ],
+   "defeat": [
+    "我方战舰、法尔塞巴或超龙神被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +27000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "格挡（ガード，技能零件）",
+     "伤害减半（ハーフカット，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "麦克桑德斯13世追加攻击「麦克中队光盘X」与地图武器",
+    "全部 VF 系机体追加攻击「反应弹」",
+    "法尔塞巴（阳太、法尔塞巴、结希）",
+    "超龙神",
+    "战术指挥官丧失：法尔塞巴（第 35 话恢复）"
+   ],
+   "events": [],
+   "secrets": [
+    "不让任何敌人进入防卫区域。该连锁 4 步全为必达，兑现在第 42 话（超龙神与击龙神的合体攻击解禁）。"
+   ],
+   "unlocks": [
+    "第 28 话《友》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "友",
+   "ja": "第28話：友",
+   "en": "Scenario 28: Friend",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 27 话后进入。",
+   "victory": [
+    "击坠合体原种"
+   ],
+   "defeat": [
+    "我方战舰、王者J大个子或星辰我王凯牙被击坠",
+    "布鲁维克托被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +28000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "疾走（ダッシュ，技能零件）",
+     "修理技能（修理スキル，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "布鲁维克托（布鲁维克托；NPC）",
+    "布鲁维克托（阳太、布鲁维克托、结希；本话起成为阳太的乘机）",
+    "王者J大个子（J、郁美、托摩罗0117）",
+    "斗士ZZ高达（斗士ZZ）",
+    "王者J大个子追加攻击「J大个子天地双溃」",
+    "战术指挥官皇的效果升至第 2 阶"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 29 话《重逢，然后离别》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励第 4 项（修理技能）：Akurasu 流程图与 ds-can 一致作修理スキル；但两站在第 42、43 话把修理/补给互换记载（见第 42、43 话页与本作主页），本话无争议。"
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "重逢，然后离别",
+   "ja": "第29話：再会、そして別れ",
+   "en": "Scenario 29: A Reunion and Farewell",
+   "route": "共通 · 本关后路线分歧 3",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 28 话后进入。本关通关后发生路线分歧 3（见通关后开放）。本关牵涉三条以「截至本话」为期限的累计型隐藏条件（见隐藏要素）。",
+   "victory": [
+    "击坠大铁人以外的全部敌人",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、大铁人、00强化组或高达AGE-3被击坠",
+    "拉斐尔高达被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +29000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "全体攻击 Lv+1（全体攻撃，技能零件）",
+     "预见（見切り，技能零件）",
+     "补给技能（補給スキル，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "高达AGE-3（基奥）",
+    "00强化组（刹那）",
+    "高达AGE-2 暗黑猎犬（阿谢；NPC）",
+    "拉斐尔高达（提耶利亚）",
+    "抚子号换装为抚子号（Y单元），失去副驾驶员港与惠，追加攻击「相转移炮」与地图武器",
+    "勇者指挥官型（格拉汉姆）",
+    "新增战术指挥官：格拉汉姆"
+   ],
+   "events": [],
+   "secrets": [
+    "（截至本话判定）①基奥在本话之前出击至少 5 次（强制出击不计）；②夏娜璐亚出击至少 5 次（强制出击不计）；③夏娜璐亚的击坠数至少 50。三步全为必达，兑现在第 31 话A（克朗谢回归）并延续至第 38 话。",
+    "把战术指挥官设为弗利特或温迪。",
+    "NPC 阿谢与杰哈特交战。",
+    "（仅走日本防卫线时）巴纳吉的击坠数达到至少 70（累计判定）。",
+    "由阿基特与佃木十郎交战。",
+    "由阿基特与源一郎交战。该连锁（源一郎、源八郎、佐郎太）无必达步，须取得可选步至少 4/7，兑现在第 41 话。"
+   ],
+   "unlocks": [
+    "路线分歧 3：选择「基奥救出作战」→ 第 30 话A《回响于行星的歌声》；选择「波士顿解放作战」→ 第 30 话B《灼热的联合》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话·基奥救出线",
+   "slug": "stage-30a",
+   "zh": "回响于行星的歌声",
+   "ja": "第30話：惑星に響く歌声",
+   "en": "Scenario 30: Singing That Resonates Across the Planet",
+   "route": "分歧 3 · 基奥救出作战路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 29 话后选择「基奥救出作战」。",
+   "victory": [
+    "全灭敌军",
+    "击坠怪物幽灵大扎姆"
+   ],
+   "defeat": [
+    "我方战舰、YF-30克洛诺斯、YF-29杜兰德尔或VF-25S弥赛亚被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +30000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "YF-30 克洛诺斯（里昂）",
+    "YF-29 杜兰德尔（阿尔特）",
+    "VF-25S 弥赛亚 AP（奥兹马）",
+    "新增战术指挥官：雪莉露",
+    "战术指挥官奥托的效果升至第 2 阶"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 31 话A《活下去的愿望，流向宇宙》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 Singing That Resonates Across the Planet，Secrets 页与 Timeline 页作 Voice that Echoes to the Planet，本站从流程图。"
+  },
+  {
+   "code": "第30话·波士顿线",
+   "slug": "stage-30b",
+   "zh": "灼热的联合",
+   "ja": "第30話：灼熱のユニオン",
+   "en": "Scenario 30: Union is Burning",
+   "route": "分歧 3 · 波士顿解放作战路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第 29 话后选择「波士顿解放作战」。",
+   "victory": [
+    "全灭敌军",
+    "击坠 Hyper 赖内克"
+   ],
+   "defeat": [
+    "我方战舰被击坠；任意敌人到达高亮区域"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +30000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "扎乌埃尔（兰维尔）",
+    "GN-XIV（帕特里克）",
+    "GN-XIV（安德烈）",
+    "赖内克（托德）",
+    "战术指挥官丧失：阿斯贝斯",
+    "新增战术指挥官：乔乔"
+   ],
+   "events": [],
+   "secrets": [
+    "安德烈与帕特里克击坠至少 2 名敌人。——两说并记：Akurasu Secrets 详细版作「安德烈或帕特里克（任一人）击坠 2 名」，流程图作「安德烈与帕特里克（合计）至少 2 名」，本站并记不裁。该连锁兑现在第 43 话（安德烈存活）。",
+    "由乔乔击坠马达尔（拼写：Secrets 详细版作 Mardal，流程图作 Mardoul，并记）。",
+    "把战术指挥官设为希艾拉。",
+    "由翔击坠 Hyper 托德。",
+    "另：比尔拜因（翔）与赖内克（托德）的合体攻击「双重灵光攻击」自本话可用（须托德连锁条件达成，Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 31 话B《恶魔十字凯撒》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话·基奥救出线",
+   "slug": "stage-31a",
+   "zh": "活下去的愿望，流向宇宙",
+   "ja": "第31話：生きる願い、宇宙に流れる",
+   "en": "Scenario 31: I Want to Live, Flowing Into the Universe",
+   "route": "分歧 3 · 基奥救出作战路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 30 话A 后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠克桑德拉格",
+    "击坠女王弗朗提亚",
+    "击坠高达雷吉鲁斯或女王弗朗提亚"
+   ],
+   "defeat": [
+    "我方战舰被击坠",
+    "高达AGE-3或YF-29杜兰德尔被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +31000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "YF-29 杜兰德尔（阿尔特）",
+    "VF-25S 弥赛亚 AP（奥兹马）",
+    "VF-27γ 路西法 SP（布雷拉）",
+    "高达AGE-3（基奥）",
+    "高达AGE-2 暗黑猎犬（阿谢）",
+    "克朗谢（夏娜璐亚）",
+    "抚子号恢复副驾驶员港与惠",
+    "新增战术指挥官：兰卡"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为弗利特。",
+    "由基奥或阿谢击坠杰哈特。",
+    "由阿基特击坠佃木十郎。",
+    "由阿基特击坠源一郎。"
+   ],
+   "unlocks": [
+    "第 32 话《双生之兽与光》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话·波士顿线",
+   "slug": "stage-31b",
+   "zh": "恶魔十字凯撒",
+   "ja": "第31話：devil cross kaiser",
+   "en": "Scenario 31: devil cross kaiser",
+   "route": "分歧 3 · 波士顿解放作战路线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第 30 话B 后进入。",
+   "victory": [
+    "击坠艾内尔加Z",
+    "击坠铁凯撒或艾内尔加Z"
+   ],
+   "defeat": [
+    "我方战舰、魔神Z或温格尔被击坠",
+    "魔神凯撒SKL被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +31000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "魔神Z（神拳击装备）（甲儿）",
+    "魔神凯撒SKL 可与温格尔合体为魔神凯撒SKL（翼十字）",
+    "维纳斯A追加攻击「魔神小队同时攻击」",
+    "魔神Z（神拳击装备）追加攻击「大爆炸飞拳」",
+    "魔神凯撒SKL（SKL）追加攻击「SKL-RR」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 32 话《双生之兽与光》（两线合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关日文标题即英文小写「devil cross kaiser」（Akurasu 原记，无独立的日文汉字标题）。"
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "双生之兽与光",
+   "ja": "第32話：対の獣と光",
+   "en": "Scenario 32: Twin Beasts and Light",
+   "route": "共通（两线合流）",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 31 话（任一路线）后进入，两线在此合流。",
+   "victory": [
+    "全灭敌军",
+    "击坠报丧女妖·命运女神型",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、独角兽高达、克沙特里亚或骑士高达被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +32000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "00量子型（刹那）",
+    "拉斐尔高达（提耶利亚）",
+    "加兰谢尔（津涅曼、弗拉斯托）",
+    "克沙特里亚（玛莉妲）——满足条件时为永久加入",
+    "报丧女妖·命运女神型（利迪；NPC）",
+    "觉醒独角兽高达（巴纳吉）",
+    "骑士高达（骑士高达）"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为奥托。",
+    "在安杰洛撤退之前将其击坠。",
+    "由玛莉妲击坠至少 1 名敌人。——标记分歧并记：Akurasu 流程图本话条目一度把此步编号为「必达步 3」，但其 Secrets 页流程表与详细版均标为可选步 5，本站从 Secrets（与详细版一致）。全连锁：必达全取＋可选至少 3/5。",
+    "由友军 NPC 利迪击坠至少 1 名敌人——须在其倒戈之前完成；倒戈之后（作为第三方 NPC 时）的击坠不计（Akurasu Secrets 页注记）。"
+   ],
+   "unlocks": [
+    "第 33 话《AEU 战线》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "AEU 战线",
+   "ja": "第33話：AEU戦線",
+   "en": "Scenario 33: AEU Front",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 32 话后进入。",
+   "victory": [
+    "击坠基亚·古灵格",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、比尔拜因被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +33000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "note": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）",
+     "第 4 项两源冲突：Akurasu 流程图作「全体攻击（All Attack）」、ds-can 作「反击（カウンター）」——本站并记不裁，见备注"
+    ]
+   },
+   "allies": [
+    "臣属骑士高达（骑士高达）",
+    "比尔拜因换装为夜间迷彩比尔拜因",
+    "戈拉恩追加副驾驶员：托尔斯托尔"
+   ],
+   "events": [],
+   "secrets": [
+    "由臣属骑士高达与新黑龙交战（Info Dump：本话须交战两次）。",
+    "把战术指挥官设为希艾拉。",
+    "由翔击坠黑骑士的加拉巴。",
+    "由翔击坠黑骑士的兹瓦斯。"
+   ],
+   "unlocks": [
+    "第 34 话《少年们的决意，与新力量同在》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励冲突（新发现）：Akurasu 流程图本话第 4 项作全体攻击、且未列反击；ds-can 本话作反击、且未列全体攻击。两站其余各话的奖励经逐话核对基本一致，唯本话与第 42/43 话有实质出入；无第三源可裁，本站并记。比尔拜因的拼写：Akurasu 流程图内部 Billbine/Bilbine 两写并存（合体攻击表全用 Bilbine），本站统一作比尔拜因。"
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "少年们的决意，与新力量同在",
+   "ja": "第34話：少年達の決意、新たなる力と共に",
+   "en": "Scenario 34: Determined Kids, With the New Power",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 33 话后进入。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、雷神王或爆龙被击坠",
+    "神雷神王被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +34000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "格挡（ガード，技能零件）",
+     "精神耐性（精神耐性，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "高达AGE-FX（基奥）",
+    "雷神王与爆龙自本话起可合体为神雷神王"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为玛丽亚。",
+    "由仁与贝尔泽布交战。",
+    "由玛丽亚在黑泰达出现之前与贝尔泽布交战（Info Dump 补充：且须在贝尔泽布 HP 降至 70% 之前）。",
+    "由仁与黑泰达交战（Info Dump：已合体为神雷神王时须交战两次，未合体时一次）。",
+    "由凯或 J 击坠原种。"
+   ],
+   "unlocks": [
+    "第 35 话《巨神与孩子们》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "巨神与孩子们",
+   "ja": "第35話：巨神と子供達",
+   "en": "Scenario 35: The Giant God and Children",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 34 话后进入。本关起法尔塞巴回归，并与布鲁维克托解禁「辉煌合体」为辉煌法尔塞巴（合体机的改造以法尔塞巴的改造值为准）。",
+   "victory": [
+    "击坠 GAIL 战斗直升机",
+    "击坠克雷塞迪亚"
+   ],
+   "defeat": [
+    "我方战舰、布鲁维克托被击坠",
+    "超龙神被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +35000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "疾走（ダッシュ，技能零件）",
+     "伤害减半（ハーフカット，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "布鲁维克托失去驾驶员阳太与结希（事件）",
+    "法尔塞巴（阳太、法尔塞巴、结希）回归",
+    "超龙神",
+    "法尔塞巴与布鲁维克托自本话起可辉煌合体为辉煌法尔塞巴",
+    "战术指挥官恢复：法尔塞巴",
+    "战术指挥官温迪、格拉汉姆、乔乔、丘鲁鲁、恰姆、篠田、守、琉璃、多丽丝、雪莉露、兰卡、米娜、结希的效果升至第 2 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "本话结束时，翔的击坠数达到至少 100（累计判定）。",
+    "由击龙神击坠至少 2 名敌人。",
+    "在超龙神觉醒之前，不让任何敌人攻击超龙神。",
+    "在罗德被击坠之前，先击坠博姆。",
+    "由戈格击坠罗德。"
+   ],
+   "unlocks": [
+    "第 36 话《发光之岛》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "发光之岛",
+   "ja": "第36話：光る島",
+   "en": "Scenario 36: Shining Island",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 35 话后进入。",
+   "victory": [
+    "击坠瓦砾守护者以外的全部敌人",
+    "击坠玛农守护者"
+   ],
+   "defeat": [
+    "我方战舰、戈格或比尔拜因被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +36000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "预见（見切り，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "兹瓦斯（无驾驶员）",
+    "GAIL 战斗直升机（罗德）",
+    "GAIL 坦克（博姆）",
+    "新驾驶员：莉姆露（乘玛贝尔的博丘恩）",
+    "萨拜因（翔、恰姆）",
+    "玛农守护者（玛农）",
+    "戈格追加攻击「戈格全功率」",
+    "新增战术指挥官：罗德、玛农",
+    "战术指挥官骑士亚历克斯、奥兹马、杰弗里的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "在肖特之前击坠缪齐。",
+    "由翔在玛农事件之前击坠黑骑士。流程图原注：须集齐该连锁全部必达步＋至少 3 个可选步。",
+    "把战术指挥官设为多丽丝。",
+    "由戈格说得玛农。",
+    "由阳太或乔乔说得玛农。",
+    "由戈格击坠玛农。",
+    "另：戈格与玛农守护者（玛农）的合体攻击「双重守护者」自本话可用；博丘恩（尼尔）与博丘恩（莉姆露）的「双重灵光攻击 (R)/(N)」自本话可用（Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 37 话《降临！伟大神明的化身！》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "兹瓦斯的拼写：流程图本话作「Zwarth」、第 44 话作「Zwauth」、第 14 话亦作 Zwauth，同一机体两写并存，本站统一作兹瓦斯并在此并记。"
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "降临！伟大神明的化身！",
+   "ja": "第37話：降臨!大いなる神の化身!",
+   "en": "Scenario 37: Advent! Incarnation of the Giant God!",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 36 话后进入。",
+   "victory": [
+    "击坠布罗肯V2施耐德、机械兽阿修罗男爵与铁凯撒",
+    "击坠地狱王戈登",
+    "全灭敌军",
+    "击坠暗黑大将军"
+   ],
+   "defeat": [
+    "我方战舰、魔神Z或博斯机器人被击坠",
+    "魔神凯撒SKL或温格尔被击坠",
+    "法尔塞巴或布鲁维克托被击坠",
+    "辉煌法尔塞巴被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +37000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "全体攻击 Lv+1（全体攻撃，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "辉煌法尔塞巴的「三神器」能力变为「全神器」，并追加攻击「空中妖精火花」",
+    "魔神Z追加攻击「100 连发火箭飞拳」",
+    "博斯机器人追加攻击「黑金屋小队同时攻击」",
+    "魔神Z与魔神凯撒SKL追加合体攻击「动感合体」",
+    "新增战术指挥官：翼",
+    "战术指挥官弗利特、希艾拉、玛丽亚、尤里卡、优希、法尔塞巴的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第 38 话《唯一的愿望》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "唯一的愿望",
+   "ja": "第38話：たったひとつの望み",
+   "en": "Scenario 38: Only One Hope",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 37 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠新吉翁号"
+   ],
+   "defeat": [
+    "我方战舰、00量子型或高达AGE-FX被击坠；克沙特里亚被击坠",
+    "报丧女妖·命运女神型或高达AGE-2暗黑猎犬被击坠",
+    "独角兽高达被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +38000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "报丧女妖·命运女神型（利迪）",
+    "VF-27γ 路西法 SP（布雷拉）",
+    "高达AGE-2 暗黑猎犬（阿谢）",
+    "全装甲独角兽高达（巴纳吉）",
+    "独角兽高达自本话起可变形为觉醒独角兽高达",
+    "克朗谢（夏娜璐亚）",
+    "德尔塔Plus（无驾驶员）",
+    "新增战术指挥官：奥黛丽",
+    "战术指挥官皇的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "由纳托拉与弗拉姆交战。",
+    "由基奥与杰哈特交战。",
+    "由阿谢与杰哈特交战。",
+    "由利迪击坠至少 1 名敌人。"
+   ],
+   "unlocks": [
+    "第 39 话《随处可见的「正义」》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "随处可见的「正义」",
+   "ja": "第39話：どこにでもある『正義』",
+   "en": "Scenario 39: \"Justice\" is Everywhere",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 38 话后进入。本关的吉拉德说得有时序要求（暴走事件前后，见隐藏要素）。",
+   "victory": [
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、高达AGE-FX、阿基特或YF-30克洛诺斯被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +39000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "高达AGE-1 格兰萨（弗利特）",
+    "弗利特不再担任女武神的副驾驶员",
+    "提尔瓦（吉拉德）",
+    "战术指挥官奥托的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "由基奥、阿基特先后说得吉拉德：基奥的说得须在吉拉德暴走事件之前，阿基特的说得须在暴走事件之后（暴走自第 3 回合开始，持续至其 HP 恢复的事件）。",
+    "由基奥、阿基特、里昂分别与吉拉德交战：基奥与阿基特须在暴走事件之前，里昂须在之后；其后由谁击坠均可。",
+    "由纳托拉与弗拉姆交战。",
+    "由基奥与杰哈特交战。",
+    "由阿谢与杰哈特交战。",
+    "击坠杰哈特（杰哈特在吉拉德被击坠时撤退，注意顺序）。",
+    "把战术指挥官设为尤里卡或琉璃。"
+   ],
+   "unlocks": [
+    "第 40 话《对各自而言重要的事物》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "对各自而言重要的事物",
+   "ja": "第40話：それぞれにとって大事なモノ",
+   "en": "Scenario 40: What Each of Us Holds Dear",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 39 话后进入。",
+   "victory": [
+    "击坠克雷塞迪亚或怪物幽灵大扎姆",
+    "抚子号到达高亮区域",
+    "全灭敌军"
+   ],
+   "defeat": [
+    "我方战舰、高达AGE-FX或晓被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +40000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "反击（カウンター，技能零件）",
+     "精神耐性（精神耐性，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "吉尔斯拜因（迪恩）",
+    "全部艾斯特瓦利斯追加「月面骨架」部件",
+    "高达AGE-FX追加攻击「爆发模式」",
+    "战术指挥官罗德、翼、玛农的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "由基奥说得迪恩。",
+    "由基奥把迪恩的 HP 削至 10% 以下。",
+    "基奥的击坠数达到至少 100（累计判定）。该连锁 3 步全为必达、全在本话判定。",
+    "基奥、弗利特、阿谢、奥布莱特、塞里克、纳托拉六人的合计击坠数达到至少 500（累计判定）。",
+    "把战术指挥官设为尤里卡或琉璃。",
+    "把战术指挥官设为尤里卡或琉璃。该连锁 3 步全为必达，兑现在第 42 话。",
+    "另：艾斯特瓦利斯月面骨架（明人）与（晓）的合体攻击「钢加阵型」自本话可用（Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 41 话《你心中的英雄》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励第 4 项：Akurasu 流程图作「Spiritual Fortitude」，其技能零件目录与 ds-can 日文原名均为精神耐性（Spiritual Resistance），本站从日文原名并记。"
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "你心中的英雄",
+   "ja": "第41話：君の中の英雄",
+   "en": "Scenario 41: The Hero in You",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 40 话后进入。本关是 AGE 角色连锁与木星人连锁的共同兑现话。",
+   "victory": [
+    "全灭敌军",
+    "击坠高达雷吉鲁斯",
+    "击坠维根机甲 SID"
+   ],
+   "defeat": [
+    "我方战舰、高达AGE-1格兰萨或高达AGE-FX被击坠",
+    "高达AGE-2暗黑猎犬或克朗谢特装型被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +41000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "格挡（ガード，技能零件）",
+     "伤害减半（ハーフカット，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "法师ν高达（法师ν）",
+    "克朗谢特装型（塞里克）——满足条件时存活",
+    "高达雷吉鲁斯（杰哈特）",
+    "法恩·法尔西亚（弗拉姆）",
+    "吉拉格特装型（莉尔）",
+    "大铁人（佃木十郎）",
+    "大魔神（源一郎）——满足条件时为永久加入",
+    "电人（佐郎太）——满足条件时为永久加入",
+    "铁人（源八郎）——满足条件时为永久加入",
+    "高达AGE-1格兰萨、高达AGE-2暗黑猎犬与高达AGE-FX追加合体攻击「三代同堂」",
+    "高达AGE-2暗黑猎犬与高达雷吉鲁斯追加合体攻击「伊甸的记忆」（须杰哈特条件达成）",
+    "高达AGE-1格兰萨在本关后追加攻击「等离子潜行导弹」与地图武器",
+    "女武神追加攻击「光子环射线」与地图武器",
+    "新增战术指挥官：大河、杰哈特",
+    "战术指挥官温迪、格拉汉姆、乔乔、丘鲁鲁、恰姆、篠田、守、琉璃、多丽丝、雪莉露、兰卡、米娜、结希的效果升至第 3 阶"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为弗利特或温迪。流程图原注：全连锁须必达步全取＋可选步至少 3/11。",
+    "源一郎、佐郎太、源八郎三名木星人各击坠至少 1 名敌人。流程图原注：全连锁须可选步至少 4/7。",
+    "另：大铁人（佃木十郎）与大魔神（源一郎）的合体攻击「双重激钢火焰」自本话可用（须木星人条件达成，Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 42 话《连接银河的歌声》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "阿谢的拼写：流程图与 Timeline 页作 Ashe，Akurasu 合体攻击表作 Asemu，本站统一作阿谢并在此并记。"
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "连接银河的歌声",
+   "ja": "第42話：銀河を繋ぐ歌聲",
+   "en": "Scenario 42: The Voice that Connects the Galaxy",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 41 话后进入。",
+   "victory": [
+    "经过 4 回合",
+    "击坠邪恶撒旦",
+    "击坠腕原种"
+   ],
+   "defeat": [
+    "我方战舰、YF-29杜兰德尔或YF-30克洛诺斯被击坠；YF-19E王者之剑被击坠",
+    "X艾斯特瓦利斯被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +42000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "note": null,
+    "parts": [
+     "援护防御 Lv+1（援護防御，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "疾走（ダッシュ，技能零件）",
+     "第 4 项两源冲突：Akurasu 流程图作「补给技能（Resupply Skill）」、ds-can 作「修理技能（修理スキル）」——本站并记不裁，见备注"
+    ]
+   },
+   "allies": [
+    "YF-29 杜兰德尔 SP（阿尔特）",
+    "X艾斯特瓦利斯（宗竹；NPC）——满足条件时入手",
+    "超龙神与击龙神追加合体攻击「源龙神/刚龙神强袭」",
+    "YF-29 杜兰德尔 SP 追加特殊指令「双翼之舞」"
+   ],
+   "events": [],
+   "secrets": [
+    "由超龙神与击龙神各击坠至少 1 名敌人。",
+    "由 J 击坠腕原种。",
+    "由 NPC 宗竹击坠至少 1 名敌人。",
+    "击坠贝尔泽布时，NPC 宗竹的 HP 保持在 80% 以上。"
+   ],
+   "unlocks": [
+    "第 43 话《开拓者》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励冲突：Akurasu 流程图本话第 4 项作补给技能、下一话（第 43 话）作修理技能；ds-can 恰好相反（本话修理、下一话补给）。参看两站其余各话的序列（第 28 话两站同为修理、第 29 话同为补给），ds-can 的「修理→补给」交替序列内部更连贯，但无第三源可裁，本站两话均并记。本关标题英译：流程图作 The Voice that Connects the Galaxy，Timeline 页作 The Song that Connects the Galaxy，本站从流程图。"
+  },
+  {
+   "code": "第43话",
+   "slug": "stage-43",
+   "zh": "开拓者",
+   "ja": "第43話：Trailblazer",
+   "en": "Scenario 43: Trailblazer",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 42 话后进入。",
+   "victory": [
+    "00量子型到达高亮区域"
+   ],
+   "defeat": [
+    "我方战舰被击坠；00量子型被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +43000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "note": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "底力 Lv+1（底力，技能零件）",
+     "预见（見切り，技能零件）",
+     "第 4 项两源冲突：Akurasu 流程图作「修理技能（Repair Skill）」、ds-can 作「补给技能（補給スキル）」——本站并记不裁，见备注"
+    ]
+   },
+   "allies": [
+    "狱天使高达最终任务规格（阿雷路亚、索玛）",
+    "智天使高达最终任务规格（洛克昂、哈罗、哈罗）",
+    "GN-XIV（安德烈）——满足条件时存活",
+    "超时空要塞 Quarter 追加攻击「超时空加农炮（同时射击）」",
+    "00量子型追加副驾驶员：提耶利亚",
+    "00量子型追加特殊指令「量子爆发」"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为皇。——标记分歧并记：Akurasu 流程图本话把此步标为「必达步 2」，其 Secrets 详细版列出此步时未加必达/可选标记，本站从流程图（标必达）并记。",
+    "出击安德烈。",
+    "由安德烈击坠至少 2 名敌人。Secrets 页原注：「选择 B 路线（波士顿线）后本步不再必达」——按其字面照录（走基奥救出线、未在第 30 话B 取得第 1 步者，本连锁的实际可达性以页面所列为准）。"
+   ],
+   "unlocks": [
+    "第 44 话《光之骑士》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "过关奖励冲突与第 42 话互为镜像（Akurasu 作修理、ds-can 作补给），见第 42 话页备注。安德烈的机体名：流程图本话作「GX-XIV」，其余各页与 Timeline 均为 GN-XIV，本站从 GN-XIV 并记。本关日文标题即英文「Trailblazer」。"
+  },
+  {
+   "code": "第44话",
+   "slug": "stage-44",
+   "zh": "光之骑士",
+   "ja": "第44話：光の騎士",
+   "en": "Scenario 44: Knight of Light",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 43 话后进入。",
+   "victory": [
+    "全灭敌军",
+    "击坠怪物幽灵大扎姆",
+    "击坠吉格吉翁"
+   ],
+   "defeat": [
+    "我方战舰、臣属骑士高达被击坠",
+    "比尔拜因或萨拜因被击坠",
+    "新黑龙被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +44000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "SP提升 Lv+1（SPアップ，技能零件）",
+     "斗争心（闘争心，技能零件）",
+     "EN节约（Eセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "新黑龙（新黑龙；NPC）",
+    "兹瓦斯（伯恩）",
+    "臣属骑士高达追加攻击「骑士上级龙」",
+    "骑士高达追加副驾驶员：龙宝宝",
+    "新增战术指挥官：伯恩"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为骑士亚历克斯。",
+    "由臣属骑士高达击坠新黑龙。",
+    "另：比尔拜因（翔）与兹瓦斯（伯恩）的合体攻击「双重灵光攻击」自本话可用（须伯恩条件达成，Akurasu 合体攻击表）。"
+   ],
+   "unlocks": [
+    "第 45 话《传说的光芒》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "传说的光芒",
+   "ja": "第45話：伝説の光芒",
+   "en": "Scenario 45: Legendary Ray of Light",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 44 话后进入。本关集中判定三条终盘连锁（海、乌兹本、士兵J）。",
+   "victory": [
+    "全灭敌军",
+    "击坠 Z 主宰者"
+   ],
+   "defeat": [
+    "我方战舰、强袭加里安被击坠",
+    "星辰我王凯牙或王者J大个子被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +45000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "援护攻击 Lv+1（援護攻撃，技能零件）",
+     "集中力 Lv+1（集中力，技能零件）",
+     "连续行动（連続行動，技能零件）",
+     "弹药节约（Bセーブ，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "王者J大个子（J、郁美、托摩罗0117）",
+    "温加尔·泽（海；NPC）——满足条件时为永久加入",
+    "光盘（乌兹本）——满足条件时为永久加入",
+    "光盘（友军士兵；NPC）×3",
+    "指挥坦克（马达尔；NPC）"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为乔乔。",
+    "由乔乔击坠马达尔。",
+    "由乔乔击坠海。流程图原注：须完成本步且可选步至少 6/8。",
+    "由乌兹本击坠至少 1 名敌人。（拼写：Secrets 连锁标题作 Uuzben、步骤作 Uzben、流程图作 Uzuben，本站统一作乌兹本并记。）",
+    "希尔姆卡的击坠数达到至少 70（累计判定）。",
+    "由 J 与 Z 主宰者交战。",
+    "由凯与 Z 主宰者交战。",
+    "J 与凯的合计击坠数达到至少 200（累计判定）。流程图原注：全连锁须必达步全取＋可选步至少 3/5。"
+   ],
+   "unlocks": [
+    "第 46 话《心》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "心",
+   "ja": "第46話：心",
+   "en": "Scenario 46: Heart",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 45 话后进入。",
+   "victory": [
+    "击坠佐努达机器人",
+    "击坠大邪恶撒旦",
+    "（大邪恶撒旦被击坠后）击坠佐努达机器人"
+   ],
+   "defeat": [
+    "我方战舰、星辰我王凯牙被击坠",
+    "雷神王或爆龙被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +46000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "格斗术 Lv+1（インファイト，技能零件）",
+     "指挥 Lv+1（指揮，技能零件）",
+     "一击脱离（ヒット＆アウェイ，技能零件）",
+     "气力上限突破（気力限界突破，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "王者J大个子（J、郁美、托摩罗0117）",
+    "星辰我王凯牙追加副驾驶员：冰龙、炎龙、风龙、雷龙与沃尔福格"
+   ],
+   "events": [],
+   "secrets": [
+    "由仁与贝尔泽布交战。",
+    "由玛丽亚与贝尔泽布交战。"
+   ],
+   "unlocks": [
+    "第 47 话《为了我们所相信的事物！》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第47话",
+   "slug": "stage-47",
+   "zh": "为了我们所相信的事物！",
+   "ja": "第47話：自分達の信じるモノの為に!",
+   "en": "Scenario 47: For the Sake of What We Believe In!",
+   "route": "共通 · 本关后最终话分歧",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第 46 话后进入。本关通关后出现最终选择：是否接受结希的吊坠——拒绝且须全部隐藏要素解锁，才能进入真最终话（见通关后开放）。",
+   "victory": [
+    "击坠瓦鲁萨",
+    "击坠克雷塞迪亚"
+   ],
+   "defeat": [
+    "我方战舰、雷神王或爆龙被击坠",
+    "法尔塞巴或布鲁维克托被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本话过关固定奖励资金 +47000（Akurasu 流程图与 ds-can 过关奖励一览双源一致；分歧话的两条路线奖励相同）；另有部队点数 +100（全话共通）。敌方击坠获得资金无逐关来源（本作无任何逐话敌方编成数据，见下）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [
+     "枪斗术 Lv+1（ガンファイト，技能零件）",
+     "全体攻击 Lv+1（全体攻撃，技能零件）",
+     "反击（カウンター，技能零件）",
+     "无视尺寸差（サイズ差無視，技能零件）"
+    ],
+    "note": null
+   },
+   "allies": [
+    "大邪恶撒旦（贝尔泽布、法尔泽布、泰达）——满足条件时为永久加入",
+    "神雷神王追加攻击「神雷神王全功率」",
+    "法尔塞巴失去副驾驶员结希",
+    "法尔塞巴失去辉煌合体",
+    "战术指挥官丧失：结希"
+   ],
+   "events": [],
+   "secrets": [
+    "把战术指挥官设为玛丽亚。",
+    "由仁与瓦鲁萨交战。",
+    "由玛丽亚与瓦鲁萨交战。"
+   ],
+   "unlocks": [
+    "最终选择：接受结希的吊坠 → 最终话A《与你同在》；拒绝吊坠（须全部 20 条隐藏连锁解锁）→ 最终话B《被继承的未来》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": "本关标题英译：流程图作 For the Sake of What We Believe In!，Timeline 页作 To Believe in Ourselves!，本站从流程图。"
+  },
+  {
+   "code": "最终话A",
+   "slug": "final-a",
+   "zh": "与你同在",
+   "ja": "最終話：君と共に",
+   "en": "Final Scenario: Together with You",
+   "route": "最终话 · 接受吊坠",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第 47 话后选择「接受结希的吊坠」。",
+   "victory": [
+    "击坠巴尔吉亚斯",
+    "击坠巴尔吉亚斯·龙骑兵型"
+   ],
+   "defeat": [
+    "我方战舰、法尔塞巴或布鲁维克托被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "无过关奖励：Akurasu 流程图两个最终话均未列过关奖励，ds-can 的过关奖励一览亦明记「最终＝无」（双源一致）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴恢复副驾驶员结希",
+    "法尔塞巴恢复辉煌合体"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "通关（普通结局）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话B",
+   "slug": "final-b",
+   "zh": "被继承的未来",
+   "ja": "最終話：受け継がれた未來",
+   "en": "Final Scenario: Inherit the Future",
+   "route": "最终话 · 拒绝吊坠（须全部隐藏解锁）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第 47 话后选择「拒绝结希的吊坠」——Akurasu 流程图原注：须全部隐藏要素解锁（全部 20 条隐藏连锁，逐项见各话页面与本作主页的隐藏要素总览）。未集齐时不可选入本话。",
+   "victory": [
+    "击坠巴尔吉亚斯",
+    "击坠巴尔吉亚斯·龙骑兵型",
+    "击坠吉斯佩尔（真最终 Boss）"
+   ],
+   "defeat": [
+    "我方战舰、法尔塞巴或布鲁维克托被击坠"
+   ],
+   "defeatNote": "本关的胜败条件随剧情推进分阶段变化，上表按 Akurasu 流程图所列顺序照录。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "无过关奖励：Akurasu 流程图两个最终话均未列过关奖励，ds-can 的过关奖励一览亦明记「最终＝无」（双源一致）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "法尔塞巴恢复副驾驶员结希",
+    "法尔塞巴恢复辉煌合体"
+   ],
+   "events": [],
+   "secrets": [
+    "本话本身即全作隐藏收集的兑现：与最终话A 相比多一场对真最终 Boss 吉斯佩尔的战斗。"
+   ],
+   "unlocks": [
+    "通关（真结局）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源（数据缺失，非单一来源待裁决）",
+    "verified": false,
+    "notes": [
+     "本作的逐话敌方编成在已查到的全部来源中都不存在：Akurasu 流程图不列敌方编成；atwiki 的 BX wiki 本体存在，但其逐话攻略页经多组定向检索未能定位；h1g 没有 BX 站（其 SRW 覆盖从 UX 直接跳到 V）；wikiwiki、gameline、s-rpg-navi 均无 BX 覆盖；ds-can 只有系统与方针类页面、无敌方表。这与近邻作品不同（UX 至少有 atwiki 单源全覆盖），BX 恰落在两代攻略站交接的空档——属数据缺失，不是单一来源待裁决。",
+     "BX 的敌方等级是否随我方进度动态变化，日文来源未见任何记载（UX 的动态等级结论不可外推到本作，ja.wiki 明言两作故事与系统各自独立），本站不作断言。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "atwiki、h1g、wikiwiki、gameline、s-rpg-navi、ds-can 与 Akurasu 均不提供本作逐关的地图尺寸、逐格地形与单位坐标。下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。官方攻略本《超级机器人大战BX 完美圣经》（ファミ通の攻略本，KADOKAWA・DWANGO）确有其书、且是日文维基 BX 条目的主要出典，但其是否收录逐关地图与敌配置内页本次未查证、ISBN 亦未查到，列入本站地图补完计划的首选候选来源；逐格地形、敌方初期配置坐标、增援出现坐标与我方出击位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Flow Chart（流程主源：胜败条件、加入、过关奖励、路线结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars BX Secrets（隐藏要素总表与逐条连锁，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/BX/Secrets"
+    },
+    {
+     "name": "ds-can — スーパーロボット大戦BX 攻略の缶詰·クリアボーナス一覧（过关奖励的日文原名与第18–20话补全，双源核对）",
+     "url": "http://ds-can.com/srw-bx/time2/clearbonus.html"
+    },
+    {
+     "name": "日文维基百科 — スーパーロボット大戦BX（发售日、话数口径、系统与参战作品的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6BX"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

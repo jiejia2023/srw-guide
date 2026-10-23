@@ -1,0 +1,565 @@
+{
+ "groups": [
+  {
+   "title": "序章与开局（序章–第7话）",
+   "intro": "原创主人公柊阳太与法尔塞巴开局，各参战作品的主角团依次汇合；第 7 话后发生第一次路线分歧。序章在 Akurasu 流程图中无条目，其存在由 Secrets 页流程图与战斗记录第 1 号证实。",
+   "rows": [
+    {
+     "code": "序章",
+     "zh": "序章",
+     "ja": "プロローグ",
+     "en": "Prologue",
+     "type": "序章",
+     "area": "",
+     "note": "胜败条件与奖励无来源记载（见详情页）"
+    },
+    {
+     "code": "第1话",
+     "zh": "开始转动之命运",
+     "ja": "第1話：動き出す運命",
+     "en": "Scenario 1: Fate Begins to Move",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "决意！被继承的意志",
+     "ja": "第2話：決意!引き継がれる意志",
+     "en": "Scenario 2: Determination! The Inherited Will",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "纽约悬疑",
+     "ja": "第3話：ニューヤーク サスぺンス",
+     "en": "Scenario 3: New York Suspense",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "消失的存在",
+     "ja": "第4話：ミッシング・イグジステンス",
+     "en": "Scenario 4: Missing Existence",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "初始之钟",
+     "ja": "第5話：始まりの鐘",
+     "en": "Scenario 5: Bell of Beginnings",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "绝对无敌的合体机器人",
+     "ja": "第6話：絶対無敵の合体ロボ",
+     "en": "Scenario 6: Absolutely Invincible Combining Robo",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "你想守护的「某种东西」",
+     "ja": "第7話：君が守りたい『何か』",
+     "en": "Scenario 7: \"Something\" You Have To Protect",
+     "type": "共通关",
+     "area": "",
+     "note": "本关后路线分歧 1"
+    }
+   ]
+  },
+  {
+   "title": "分歧 1：第 8–9 话（月路线／奥利弗诺茨路线）",
+   "intro": "第 7 话后的二选一：与抚子号同往月球（机动战舰抚子号、马克罗斯 F、马克罗斯 30 为中心），或前往奥利弗诺茨（勇者王、真魔神、魔神凯撒 SKL、高达 AGE 为中心）；第 10 话合流。玛莉妲连锁在月路线置下可选步，且若走奥利弗诺茨线，其第 25 话步骤转为必达。",
+   "rows": [
+    {
+     "code": "第8话·月路线",
+     "zh": "月面邂逅",
+     "ja": "第8話：月面の邂逅",
+     "en": "Scenario 8: Encounter on the Moon",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·月路线",
+     "zh": "激突的独角兽",
+     "ja": "第9話：激突するユニコーン",
+     "en": "Scenario 9: Clashing Unicorn",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第8话·奥利弗诺茨线",
+     "zh": "爷爷的高达",
+     "ja": "第8話：じいちゃんのガンダム",
+     "en": "Scenario 8: Grandpa's Gundam",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·奥利弗诺茨线",
+     "zh": "守护！孩子们的战斗",
+     "ja": "第9話：守れ!子供達の戦い",
+     "en": "Scenario 9: Protect! The Children's Battle",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "合流至分歧 2 前（第 10–17 话）",
+   "intro": "第 13 话起战术指挥系统开放。此段置下新拜斯顿、玛农、士兵 J、海、罗蕾莱五条连锁的早期步骤。",
+   "rows": [
+    {
+     "code": "第10话",
+     "zh": "皇的浮现",
+     "ja": "第10話：皇の浮上",
+     "en": "Scenario 10: Rise of the Emperor",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第11话",
+     "zh": "与巨神相遇",
+     "ja": "第11話：巨神との出会い",
+     "en": "Scenario 11: Encounter with the Giant God",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "各自的决意",
+     "ja": "第12話：それぞれの決意",
+     "en": "Scenario 12: Our Resolve",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第13话",
+     "zh": "加里安的觉醒",
+     "ja": "第13話：ガリアンの目覚め",
+     "en": "Scenario 13: Galient Awakens",
+     "type": "共通关",
+     "area": "",
+     "note": "战术指挥开放；隐藏步骤 1 项"
+    },
+    {
+     "code": "第14话",
+     "zh": "无重力之谷",
+     "ja": "第14話：無重力の谷",
+     "en": "Scenario 14: The Floating Valley",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "吹过宇宙的风",
+     "ja": "第15話：宇宙を吹き抜ける風",
+     "en": "Scenario 15: The Winds Blowing Through the Universe",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "冰点下的重逢",
+     "ja": "第16話：氷点下での再会",
+     "en": "Scenario 16: Reunion at Subzero",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第17话",
+     "zh": "让大家的心合而为一！",
+     "ja": "第17話：みんなの心をひとつにしろ!",
+     "en": "Scenario 17: Make Everyone's Hearts As One!",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项；本关后路线分歧 2"
+    }
+   ]
+  },
+  {
+   "title": "分歧 2：第 18–20 话（ELS 护卫线／日本防卫线）",
+   "intro": "第 17 话后的二选一：护送 ELS 移送（高达 00 剧场版、高达 AGE、马克罗斯系、抚子号为中心），或防卫日本（勇者王、真魔神、魔神凯撒 SKL、丹拜因、加里安、巨神戈格、SD 高达外传、雷神王为中心）；第 21 话合流。罗妮连锁的两条路线各有一套 4 步必达（B 线的续篇在剧情上无明示）；达努巴α1 连锁的必达步对亦随路线而定。第 18–20 话的过关奖励 Akurasu 流程图缺载，由 ds-can 补全（两线相同）。",
+   "rows": [
+    {
+     "code": "第18话·ELS护卫线",
+     "zh": "拥有意志的生命体",
+     "ja": "第18話：意志を持った生命体",
+     "en": "Scenario 18: Sentient Lifeforms",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·ELS护卫线",
+     "zh": "消失在历史背后的众人",
+     "ja": "第19話：歴史の裏に消えた者達",
+     "en": "Scenario 19: Those Who Vanished from History",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第20话·ELS护卫线",
+     "zh": "陨落于罗斯特罗兰",
+     "ja": "第20話：ロストロウランに散る",
+     "en": "Scenario 20: Scattered in Rostroulan",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 5 项（见详情页）"
+    },
+    {
+     "code": "第18话·日本防卫线",
+     "zh": "爱憎！被留下的重要之人！",
+     "ja": "第18話：愛憎!残された大切な者!",
+     "en": "Scenario 18: Love and Hate! The Precious Ones Left Behind!",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第19话·日本防卫线",
+     "zh": "父母与孩子",
+     "ja": "第19話：親と子",
+     "en": "Scenario 19: Parent and Child",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第20话·日本防卫线",
+     "zh": "正义的人们",
+     "ja": "第20話：正しき者達",
+     "en": "Scenario 20: The Righteous",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "合流至分歧 3 前（第 21–29 话）",
+   "intro": "第 26 话通关后改造上限解禁至 10 段；第 27–35 话法尔塞巴暂时离队、阳太改乘布鲁维克托。第 29 话是三条累计型连锁（夏娜璐亚、AGE、罗妮 B 线）的判定点，通关后发生第三次路线分歧。",
+   "rows": [
+    {
+     "code": "第21话",
+     "zh": "威胁！古代迈锡尼的遗产！",
+     "ja": "第21話：脅威!古代ミケーネの遺産!",
+     "en": "Scenario 21: Threat! Ancient Mycenean Heritage!",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第22话",
+     "zh": "「不可忘记」的温暖？",
+     "ja": "第22話：『忘れちゃいけない』温かさ?",
+     "en": "Scenario 22: \"Do Not Forget\" Passion?",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第23话",
+     "zh": "时间之门",
+     "ja": "第23話：時の扉",
+     "en": "Scenario 23: Door of Time",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 5 项（见详情页）"
+    },
+    {
+     "code": "第24话",
+     "zh": "青色巨神与红色巨神",
+     "ja": "第24話：青き巨神と赤き巨神",
+     "en": "Scenario 24: Blue Giant God and Red Giant God",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 6 项（见详情页）"
+    },
+    {
+     "code": "第25话",
+     "zh": "看见彩虹之日",
+     "ja": "第25話：虹を見た日",
+     "en": "Scenario 25: The Rainbow We Saw That Day",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第26话",
+     "zh": "三星汇聚之时",
+     "ja": "第26話：三つの星が集う時",
+     "en": "Scenario 26: When the Three Stars Unite",
+     "type": "共通关",
+     "area": "",
+     "note": "改造解禁至 10 段；隐藏步骤 3 项"
+    },
+    {
+     "code": "第27话",
+     "zh": "暗黑大决战",
+     "ja": "第27話：暗黒の大決戦",
+     "en": "Scenario 27: Great Battle of Darkness",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第28话",
+     "zh": "友",
+     "ja": "第28話：友",
+     "en": "Scenario 28: Friend",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "重逢，然后离别",
+     "ja": "第29話：再会、そして別れ",
+     "en": "Scenario 29: A Reunion and Farewell",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 6 项；本关后路线分歧 3"
+    }
+   ]
+  },
+  {
+   "title": "分歧 3：第 30–31 话（基奥救出线／波士顿线）",
+   "intro": "第 29 话后的二选一：基奥救出作战（SD 高达外传、高达 AGE、高达 UC、勇者王、抚子号、马克罗斯系为中心），或波士顿解放作战（高达 00 剧场版、加里安、丹拜因、雷神王、巨神戈格、真魔神、魔神凯撒 SKL 为中心）；第 32 话合流。托德连锁只在波士顿线兑现，不走该线时其此前步骤全部转为必达。",
+   "rows": [
+    {
+     "code": "第30话·基奥救出线",
+     "zh": "回响于行星的歌声",
+     "ja": "第30話：惑星に響く歌声",
+     "en": "Scenario 30: Singing That Resonates Across the Planet",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·基奥救出线",
+     "zh": "活下去的愿望，流向宇宙",
+     "ja": "第31話：生きる願い、宇宙に流れる",
+     "en": "Scenario 31: I Want to Live, Flowing Into the Universe",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第30话·波士顿线",
+     "zh": "灼热的联合",
+     "ja": "第30話：灼熱のユニオン",
+     "en": "Scenario 30: Union is Burning",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第31话·波士顿线",
+     "zh": "恶魔十字凯撒",
+     "ja": "第31話：devil cross kaiser",
+     "en": "Scenario 31: devil cross kaiser",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘（第 32–47 话）",
+   "intro": "第 35 话辉煌法尔塞巴解禁。此段是各隐藏连锁的集中兑现区：玛莉妲（32 话）、萨拜因与玛农（36 话）、德尔塔 Plus（38 话）、吉拉德（39 话）、迪恩（40 话）、AGE 角色与木星人（41 话）、合体攻击与 X 艾斯特瓦利斯（42 话）、安德烈（43 话）、伯恩与龙宝宝（44 话）、海与乌兹本（45 话）、贝尔泽布（47 话）。",
+   "rows": [
+    {
+     "code": "第32话",
+     "zh": "双生之兽与光",
+     "ja": "第32話：対の獣と光",
+     "en": "Scenario 32: Twin Beasts and Light",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第33话",
+     "zh": "AEU 战线",
+     "ja": "第33話：AEU戦線",
+     "en": "Scenario 33: AEU Front",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第34话",
+     "zh": "少年们的决意，与新力量同在",
+     "ja": "第34話：少年達の決意、新たなる力と共に",
+     "en": "Scenario 34: Determined Kids, With the New Power",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 5 项（见详情页）"
+    },
+    {
+     "code": "第35话",
+     "zh": "巨神与孩子们",
+     "ja": "第35話：巨神と子供達",
+     "en": "Scenario 35: The Giant God and Children",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 5 项（见详情页）"
+    },
+    {
+     "code": "第36话",
+     "zh": "发光之岛",
+     "ja": "第36話：光る島",
+     "en": "Scenario 36: Shining Island",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 6 项（见详情页）"
+    },
+    {
+     "code": "第37话",
+     "zh": "降临！伟大神明的化身！",
+     "ja": "第37話：降臨!大いなる神の化身!",
+     "en": "Scenario 37: Advent! Incarnation of the Giant God!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "唯一的愿望",
+     "ja": "第38話：たったひとつの望み",
+     "en": "Scenario 38: Only One Hope",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第39话",
+     "zh": "随处可见的「正义」",
+     "ja": "第39話：どこにでもある『正義』",
+     "en": "Scenario 39: \"Justice\" is Everywhere",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 7 项（见详情页）"
+    },
+    {
+     "code": "第40话",
+     "zh": "对各自而言重要的事物",
+     "ja": "第40話：それぞれにとって大事なモノ",
+     "en": "Scenario 40: What Each of Us Holds Dear",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 6 项（见详情页）"
+    },
+    {
+     "code": "第41话",
+     "zh": "你心中的英雄",
+     "ja": "第41話：君の中の英雄",
+     "en": "Scenario 41: The Hero in You",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第42话",
+     "zh": "连接银河的歌声",
+     "ja": "第42話：銀河を繋ぐ歌聲",
+     "en": "Scenario 42: The Voice that Connects the Galaxy",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 4 项（见详情页）"
+    },
+    {
+     "code": "第43话",
+     "zh": "开拓者",
+     "ja": "第43話：Trailblazer",
+     "en": "Scenario 43: Trailblazer",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 3 项（见详情页）"
+    },
+    {
+     "code": "第44话",
+     "zh": "光之骑士",
+     "ja": "第44話：光の騎士",
+     "en": "Scenario 44: Knight of Light",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第45话",
+     "zh": "传说的光芒",
+     "ja": "第45話：伝説の光芒",
+     "en": "Scenario 45: Legendary Ray of Light",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 8 项（见详情页）"
+    },
+    {
+     "code": "第46话",
+     "zh": "心",
+     "ja": "第46話：心",
+     "en": "Scenario 46: Heart",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第47话",
+     "zh": "为了我们所相信的事物！",
+     "ja": "第47話：自分達の信じるモノの為に!",
+     "en": "Scenario 47: For the Sake of What We Believe In!",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 3 项；本关后最终话分歧"
+    }
+   ]
+  },
+  {
+   "title": "最终话（两个版本）",
+   "intro": "第 47 话后的最终选择决定最终话：接受结希的吊坠进入通常最终话；拒绝吊坠且全部 20 条隐藏连锁解锁，才能进入真最终话（多一场对吉斯佩尔的战斗）。两个最终话均无过关奖励（双源一致）。",
+   "rows": [
+    {
+     "code": "最终话A",
+     "zh": "与你同在",
+     "ja": "最終話：君と共に",
+     "en": "Final Scenario: Together with You",
+     "type": "最终话",
+     "area": "",
+     "note": "接受吊坠"
+    },
+    {
+     "code": "最终话B",
+     "zh": "被继承的未来",
+     "ja": "最終話：受け継がれた未來",
+     "en": "Final Scenario: Inherit the Future",
+     "type": "最终话",
+     "area": "",
+     "note": "拒绝吊坠，须全部隐藏解锁"
+    }
+   ]
+  }
+ ]
+}
