@@ -1,0 +1,1024 @@
+{
+ "groups": [
+  {
+   "title": "序盘：第0–11话（含特别剧本与秘密剧本1）",
+   "intro": "第0话为早期购入特典 DLC 序章，特别剧本为特典关；开局主人公二选一（男：斋藏·时任／女：鹭里·樱井，主角机均为提拉涅德）决定第1、2、8、26、42话的版本。秘密剧本 1 在第11话后判定插入。",
+   "rows": [
+    {
+     "code": "第0话",
+     "zh": "审议编号T1023",
+     "ja": "稟議番号T1023",
+     "en": "Proposal No. T1023",
+     "type": "序章（DLC）",
+     "area": "",
+     "note": "DLC序章，无 SR"
+    },
+    {
+     "code": "第1话·男主人公",
+     "zh": "TND计划启动",
+     "ja": "プロジェクトTND始動",
+     "en": "Project TND, Start",
+     "type": "主角分支关",
+     "area": "",
+     "note": "男主人公"
+    },
+    {
+     "code": "第1话·女主人公",
+     "zh": "特务三课的第一天",
+     "ja": "特務三課、始まりの日",
+     "en": "First Day at Work",
+     "type": "主角分支关",
+     "area": "",
+     "note": "女主人公"
+    },
+    {
+     "code": "特别剧本·男主人公",
+     "zh": "特务一课的挑战",
+     "ja": "特務一課の挑戦",
+     "en": "Challenge from Special Section 1",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "第1话后，男主人公"
+    },
+    {
+     "code": "特别剧本·女主人公",
+     "zh": "特务一课的挑战",
+     "ja": "特務一課の挑戦",
+     "en": "Challenge from a Worthy Opponent",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "第1话后，女主人公"
+    },
+    {
+     "code": "第2话·男主人公",
+     "zh": "赏金猎人的忧郁",
+     "ja": "バウンティハンターの憂鬱",
+     "en": "Bounty Hunter's Melancholy",
+     "type": "主角分支关",
+     "area": "",
+     "note": "男主人公"
+    },
+    {
+     "code": "第2话·女主人公",
+     "zh": "赏金猎人的蓝调",
+     "ja": "賞金ハンターのブルース",
+     "en": "Bounty Hunter Blues",
+     "type": "主角分支关",
+     "area": "",
+     "note": "女主人公"
+    },
+    {
+     "code": "第3话",
+     "zh": "燕尾服在火星舞动",
+     "ja": "タキシードは火星に舞う",
+     "en": "A Tuxedo Flutters on Mars",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "战争的红色荒野",
+     "ja": "戦いの赤い荒野",
+     "en": "Red Planet of Conflict",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "哈洛克船长",
+     "ja": "キャプテンハーロック",
+     "en": "Captain Harlock",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "齐聚骷髅旗下",
+     "ja": "ドクロの旗の下に",
+     "en": "Under the Skull and Crossbones",
+     "type": "主线关",
+     "area": "",
+     "note": "后援者指令开放"
+    },
+    {
+     "code": "第7话",
+     "zh": "复仇在我",
+     "ja": "復讐するは我にあり",
+     "en": "Revenge is Mine",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·男主人公",
+     "zh": "火星的狂诗曲",
+     "ja": "スクランブル・マーズ",
+     "en": "Scramble Mars",
+     "type": "主角分支关",
+     "area": "",
+     "note": "男主人公，敌方点数"
+    },
+    {
+     "code": "第8话·女主人公",
+     "zh": "火星狂想曲",
+     "ja": "マーズ・ラプソディ",
+     "en": "Mars Rhapsody",
+     "type": "主角分支关",
+     "area": "",
+     "note": "女主人公，敌方点数"
+    },
+    {
+     "code": "第9话",
+     "zh": "传送门追逐战",
+     "ja": "ゲイトウェイ・チョイス",
+     "en": "Gateway Chase",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "新自护的阴影",
+     "ja": "ネオ・ジオンの影",
+     "en": "Shadow of Neo Zeon",
+     "type": "主线关",
+     "area": "",
+     "note": "普露点数"
+    },
+    {
+     "code": "第11话",
+     "zh": "来自远方星球的灾厄",
+     "ja": "遠い星から来た災厄",
+     "en": "Calamity from Afar",
+     "type": "主线关",
+     "area": "",
+     "note": "秘密剧本1判定"
+    },
+    {
+     "code": "秘密剧本1",
+     "zh": "与正义与勇气为友",
+     "ja": "正義と勇気を友にして",
+     "en": "Justice and Bravery are Friends",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "第11话后"
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧：第12–20话（地球队/宇宙队 → 治安维持队/自由游击队）",
+   "intro": "第11话后分地球队／宇宙队（12–13话），第14话合流并定名 T3；第15话后再分治安维持队／自由游击队（16–20话），第21话合流。",
+   "rows": [
+    {
+     "code": "第12话·地球队",
+     "zh": "无敌！怀抱勇气的人们！",
+     "ja": "無敵！勇気ある者達！",
+     "en": "Undefeated! The Braves!",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地球队"
+    },
+    {
+     "code": "第12话·宇宙队",
+     "zh": "孤独的隆德·贝尔",
+     "ja": "ロンド・ベル孤立",
+     "en": "Isolated Londo Bell",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙队"
+    },
+    {
+     "code": "第13话·地球队",
+     "zh": "复活的Z",
+     "ja": "復活のZ",
+     "en": "Z Returns",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地球队"
+    },
+    {
+     "code": "第13话·宇宙队",
+     "zh": "哈曼与少年们",
+     "ja": "ハマーンと少年達",
+     "en": "Haman and the Boys",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙队，哈曼点数"
+    },
+    {
+     "code": "第14话",
+     "zh": "最大恐怖降临",
+     "ja": "最凶の降臨",
+     "en": "Evil Descends",
+     "type": "主线关",
+     "area": "",
+     "note": "东方不败点数，定名 T3"
+    },
+    {
+     "code": "第15话",
+     "zh": "天空坠落之日",
+     "ja": "空が落ちる日",
+     "en": "The Day the Sky Fell",
+     "type": "主线关",
+     "area": "",
+     "note": "普露点数/东方不败点数"
+    },
+    {
+     "code": "第16话·治安维持队",
+     "zh": "门开启之时",
+     "ja": "門が開く時",
+     "en": "The Door Opens",
+     "type": "路线分支关",
+     "area": "",
+     "note": "治安维持队"
+    },
+    {
+     "code": "第16话·自由游击队",
+     "zh": "星之门",
+     "ja": "星の門",
+     "en": "Stargate",
+     "type": "路线分支关",
+     "area": "",
+     "note": "自由游击队"
+    },
+    {
+     "code": "第17话·治安维持队",
+     "zh": "巴朗巴朗的秘宝",
+     "ja": "バランバランの秘宝",
+     "en": "Treasure of Baran-Baran",
+     "type": "路线分支关",
+     "area": "",
+     "note": "治安维持队"
+    },
+    {
+     "code": "第17话·自由游击队",
+     "zh": "决斗",
+     "ja": "バトリング",
+     "en": "Battling",
+     "type": "路线分支关",
+     "area": "",
+     "note": "自由游击队"
+    },
+    {
+     "code": "第18话·治安维持队",
+     "zh": "魔法骑士的使命",
+     "ja": "魔法騎士、その使命",
+     "en": "Magic Knights and their Duty",
+     "type": "路线分支关",
+     "area": "",
+     "note": "治安维持队"
+    },
+    {
+     "code": "第18话·自由游击队",
+     "zh": "来自电脑世界",
+     "ja": "電脳世界から",
+     "en": "From Cyberspace",
+     "type": "路线分支关",
+     "area": "",
+     "note": "自由游击队"
+    },
+    {
+     "code": "第19话·治安维持队",
+     "zh": "觉醒的传说",
+     "ja": "目覚める伝説",
+     "en": "The Legend Awakens",
+     "type": "路线分支关",
+     "area": "",
+     "note": "治安维持队"
+    },
+    {
+     "code": "第19话·自由游击队",
+     "zh": "大决战",
+     "ja": "ビッグバトル",
+     "en": "Big Battle",
+     "type": "路线分支关",
+     "area": "",
+     "note": "自由游击队"
+    },
+    {
+     "code": "第20话·治安维持队",
+     "zh": "漆黑野心",
+     "ja": "黒い野望",
+     "en": "Dark Ambitions",
+     "type": "路线分支关",
+     "area": "",
+     "note": "治安维持队"
+    },
+    {
+     "code": "第20话·自由游击队",
+     "zh": "星辰尽头的乐园",
+     "ja": "星の果ての楽園",
+     "en": "Paradise at the End of the Stars",
+     "type": "路线分支关",
+     "area": "",
+     "note": "自由游击队"
+    }
+   ]
+  },
+  {
+   "title": "中盘：第21–34话（含秘密剧本2、3）",
+   "intro": "第25话按有无早期购入 DLC 分版本；第26话按主人公分版本并判定秘密剧本 2；第29话后再分正规部队／非正规部队（30–32话）；第34话判定秘密剧本 3。第22、36、41话有地图定点隐藏部件。",
+   "rows": [
+    {
+     "code": "第21话",
+     "zh": "心中的小小火焰",
+     "ja": "小さな火を胸に",
+     "en": "Hold That Small Flame Close",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "为谁而战",
+     "ja": "戦いは誰がために",
+     "en": "Who to Fight For?",
+     "type": "主线关",
+     "area": "",
+     "note": "哈曼点数，隐藏部件"
+    },
+    {
+     "code": "第23话",
+     "zh": "毒与毒与毒",
+     "ja": "毒と毒と毒",
+     "en": "Fire with Fire",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "不回来的日子",
+     "ja": "帰らざる日々",
+     "en": "Days of the Past",
+     "type": "主线关",
+     "area": "",
+     "note": "埃尔多拉之魂兜底"
+    },
+    {
+     "code": "第25话·有早期购入DLC",
+     "zh": "TND计划冻结",
+     "ja": "プロジェクトTND凍結",
+     "en": "Project TND, Shelved",
+     "type": "版本分支关",
+     "area": "",
+     "note": "有早期购入 DLC"
+    },
+    {
+     "code": "第25话·无早期购入DLC",
+     "zh": "特务三课的最后一天",
+     "ja": "特務三課、終わりの日",
+     "en": "Last Day for Special Section 3",
+     "type": "版本分支关",
+     "area": "",
+     "note": "无早期购入 DLC"
+    },
+    {
+     "code": "第26话·男主人公",
+     "zh": "公司、人们与自豪",
+     "ja": "会社と人と誇りと",
+     "en": "Company, People and Pride",
+     "type": "主角分支关",
+     "area": "",
+     "note": "男主人公，敌方点数，秘密剧本2判定"
+    },
+    {
+     "code": "第26话·女主人公",
+     "zh": "公司和我的幸福",
+     "ja": "会社と私と幸せと",
+     "en": "Company, Me, and Happiness",
+     "type": "主角分支关",
+     "area": "",
+     "note": "女主人公，敌方点数，秘密剧本2判定"
+    },
+    {
+     "code": "秘密剧本2",
+     "zh": "私人任务",
+     "ja": "プライベート・ミッション",
+     "en": "Private Mission",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "第26话后"
+    },
+    {
+     "code": "第27话",
+     "zh": "乐园与流放者",
+     "ja": "楽園と追放者",
+     "en": "Paradise and the Expelled",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "决战火星极冠遗迹",
+     "ja": "決戦の火星極冠遺跡",
+     "en": "Showdown with the Martian Successors",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "各自的骄傲",
+     "ja": "それぞれの誇り",
+     "en": "Each of Their Prides",
+     "type": "主线关",
+     "area": "",
+     "note": "敌方点数，副指令强化"
+    },
+    {
+     "code": "第30话·正规部队",
+     "zh": "少年不会回头",
+     "ja": "少年は振り向かない",
+     "en": "Young Man, Don't Turn Back",
+     "type": "路线分支关",
+     "area": "",
+     "note": "正规部队"
+    },
+    {
+     "code": "第30话·非正规部队",
+     "zh": "一滴水的彼方",
+     "ja": "水の一滴の向こう",
+     "en": "Beyond a Single Drop of Water",
+     "type": "路线分支关",
+     "area": "",
+     "note": "非正规部队，东方不败点数"
+    },
+    {
+     "code": "第31话·正规部队",
+     "zh": "不安与恐惧的前方",
+     "ja": "不安と恐れの行き先",
+     "en": "Beyond Anxiety and Fear",
+     "type": "路线分支关",
+     "area": "",
+     "note": "正规部队"
+    },
+    {
+     "code": "第31话·非正规部队",
+     "zh": "扭曲的进化",
+     "ja": "歪んだ進化",
+     "en": "Twisted Developments",
+     "type": "路线分支关",
+     "area": "",
+     "note": "非正规部队"
+    },
+    {
+     "code": "第32话·正规部队",
+     "zh": "圣战士飞翔",
+     "ja": "聖戦士、飛ぶ",
+     "en": "Battlers, Fly",
+     "type": "路线分支关",
+     "area": "",
+     "note": "正规部队"
+    },
+    {
+     "code": "第32话·非正规部队",
+     "zh": "暗中蠢动",
+     "ja": "闇に蠢く",
+     "en": "Lurking Malice",
+     "type": "路线分支关",
+     "area": "",
+     "note": "非正规部队"
+    },
+    {
+     "code": "第33话",
+     "zh": "誓愿的高达武斗",
+     "ja": "誓いのガンダムファイト",
+     "en": "The Promised Gundam Fight",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "终焉之日",
+     "ja": "終焉の日",
+     "en": "Day of Demise",
+     "type": "主线关",
+     "area": "",
+     "note": "秘密剧本3判定"
+    },
+    {
+     "code": "秘密剧本3",
+     "zh": "V交汇",
+     "ja": "Vジャンクション",
+     "en": "V Junction",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "第34话后，V 客串"
+    }
+   ]
+  },
+  {
+   "title": "终盘：第35–54话（含秘密剧本4、5 与双路线结局）",
+   "intro": "第34话后分地球/宇宙路线（35–36话）；第42话按主人公分版本并判定秘密剧本 4，幕间三方路线选择决定 43–45话；第45话结算全部点数、第46话后判定秘密剧本 5；第50话通关判定激斗路线（或通常路线），决定第51–54话。",
+   "rows": [
+    {
+     "code": "第35话·地球路线",
+     "zh": "无限地狱",
+     "ja": "無限の地獄",
+     "en": "Endless Hell",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地球路线，普露加入判定"
+    },
+    {
+     "code": "第35话·宇宙路线",
+     "zh": "阿克西斯震撼",
+     "ja": "アクシズ激震",
+     "en": "Shakeup in Axis",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙路线，普露点数"
+    },
+    {
+     "code": "第36话·地球路线",
+     "zh": "光子力",
+     "ja": "光の子の力",
+     "en": "Photon Power",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地球路线，隐藏部件"
+    },
+    {
+     "code": "第36话·宇宙路线",
+     "zh": "两个新自护",
+     "ja": "二つのネオ・ジオン",
+     "en": "Two Neo Zeons",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙路线，哈曼/普露点数"
+    },
+    {
+     "code": "第37话",
+     "zh": "月面激斗",
+     "ja": "月面の激闘",
+     "en": "Lunar Battle",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "太阳系绝对防卫线",
+     "ja": "太陽系絶対防衛線",
+     "en": "Solar System Absolute Defense Line",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "沉睡的光明，觉醒的黑暗",
+     "ja": "眠る光、目覚める闇",
+     "en": "Slumbering Light, Awakening Darkness",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "真龙翱翔",
+     "ja": "天翔ける真龍",
+     "en": "The True Dragon Soars",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "大家的幸福",
+     "ja": "みんなのしあわせ",
+     "en": "Everyone's Happiness",
+     "type": "主线关",
+     "area": "",
+     "note": "哈曼/普露/夏亚点数，隐藏部件"
+    },
+    {
+     "code": "第42话·男主人公",
+     "zh": "最后的VTX魂",
+     "ja": "最後のVTX魂",
+     "en": "Final VTX Spirit",
+     "type": "主角分支关",
+     "area": "",
+     "note": "男主人公，秘密剧本4判定"
+    },
+    {
+     "code": "第42话·女主人公",
+     "zh": "被托付的意志",
+     "ja": "託される意志",
+     "en": "Entrusted Will",
+     "type": "主角分支关",
+     "area": "",
+     "note": "女主人公，秘密剧本4判定"
+    },
+    {
+     "code": "秘密剧本4",
+     "zh": "来访者X",
+     "ja": "来訪者X",
+     "en": "Visitor X",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "第42话后，X 客串"
+    },
+    {
+     "code": "第43话·夏亚路线",
+     "zh": "夏亚的意图",
+     "ja": "シャアの思惑",
+     "en": "Char's Motive",
+     "type": "路线分支关",
+     "area": "",
+     "note": "夏亚路线"
+    },
+    {
+     "code": "第43话·哈曼路线",
+     "zh": "悲哀的迷途之人",
+     "ja": "悲しき迷い子",
+     "en": "Sad, Lost Children",
+     "type": "路线分支关",
+     "area": "",
+     "note": "哈曼路线"
+    },
+    {
+     "code": "第43话·独立路线",
+     "zh": "混乱的宇宙",
+     "ja": "混迷の宇宙",
+     "en": "Space in Turmoil",
+     "type": "路线分支关",
+     "area": "",
+     "note": "独立路线"
+    },
+    {
+     "code": "第44话·夏亚路线",
+     "zh": "哈曼的眼泪",
+     "ja": "ハマーンの涙",
+     "en": "Haman's Tears",
+     "type": "路线分支关",
+     "area": "",
+     "note": "夏亚路线"
+    },
+    {
+     "code": "第44话·哈曼路线",
+     "zh": "爱恨的尽头",
+     "ja": "愛憎の果てに",
+     "en": "At the End of Love and Hate",
+     "type": "路线分支关",
+     "area": "",
+     "note": "哈曼路线"
+    },
+    {
+     "code": "第44话·独立路线",
+     "zh": "沉默之声",
+     "ja": "サイレント・ヴォイス",
+     "en": "Silent Voice",
+     "type": "路线分支关",
+     "area": "",
+     "note": "独立路线"
+    },
+    {
+     "code": "第45话·夏亚路线",
+     "zh": "阿克西斯的决斗",
+     "ja": "アクシズの決闘",
+     "en": "Showdown at Axis",
+     "type": "路线分支关",
+     "area": "",
+     "note": "夏亚路线，点数结算"
+    },
+    {
+     "code": "第45话·哈曼路线",
+     "zh": "战士再度登场",
+     "ja": "戦士、再び",
+     "en": "A Warrior Flies Again",
+     "type": "路线分支关",
+     "area": "",
+     "note": "哈曼路线，点数结算"
+    },
+    {
+     "code": "第45话·独立路线",
+     "zh": "堕落的红色彗星",
+     "ja": "堕ちた赤い彗星",
+     "en": "The Fallen Red Comet",
+     "type": "路线分支关",
+     "area": "",
+     "note": "独立路线，点数结算"
+    },
+    {
+     "code": "第46话",
+     "zh": "斗志，在冰原燃烧",
+     "ja": "闘志、氷原に燃ゆる",
+     "en": "Fighting Spirit Blazes on Ice",
+     "type": "主线关",
+     "area": "",
+     "note": "敌方点数，东方不败判定"
+    },
+    {
+     "code": "秘密剧本5",
+     "zh": "流浪的哈曼",
+     "ja": "流浪のハマーン",
+     "en": "Haman Adrift",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "第46话后"
+    },
+    {
+     "code": "第47话",
+     "zh": "钢铁的七人",
+     "ja": "鋼鉄の7人",
+     "en": "The Steel Seven",
+     "type": "主线关",
+     "area": "",
+     "note": "点数集中兑现"
+    },
+    {
+     "code": "第48话",
+     "zh": "期盼绝望之人",
+     "ja": "絶望を望むもの",
+     "en": "Seekers of Despair",
+     "type": "主线关",
+     "area": "",
+     "note": "莫柯娜强化判定"
+    },
+    {
+     "code": "第49话",
+     "zh": "前往无限延伸的未来",
+     "ja": "果てしなく広がる未来へ",
+     "en": "Towards the Endless Future",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "看不见的神之意志",
+     "ja": "神の見えざる意志",
+     "en": "The Unseen Will of God",
+     "type": "主线关",
+     "area": "",
+     "note": "激斗路线判定"
+    },
+    {
+     "code": "第51话·通常路线",
+     "zh": "燕尾服舞向明天",
+     "ja": "タキシードは明日に舞う",
+     "en": "A Tuxedo Flutters Tomorrow",
+     "type": "路线分支关",
+     "area": "",
+     "note": "通常路线，卡洛斯觉醒"
+    },
+    {
+     "code": "第51话·激斗路线",
+     "zh": "梦与复仇的终点",
+     "ja": "夢と復讐の果て",
+     "en": "Where Dreams and Vengeance Lead",
+     "type": "路线分支关",
+     "area": "",
+     "note": "激斗路线，卡洛斯觉醒"
+    },
+    {
+     "code": "第52话·通常路线",
+     "zh": "无限的光",
+     "ja": "無限の光",
+     "en": "Infinite Light",
+     "type": "路线分支关",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "第52话·激斗路线",
+     "zh": "超越可能性",
+     "ja": "可能性を越えて",
+     "en": "Beyond Possibilities",
+     "type": "路线分支关",
+     "area": "",
+     "note": "激斗路线，东方不败兜底"
+    },
+    {
+     "code": "第53话·通常路线",
+     "zh": "死斗的前方",
+     "ja": "死闘の先へ",
+     "en": "Beyond Battles",
+     "type": "路线分支关",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "第53话·激斗路线",
+     "zh": "门在激战过后开启",
+     "ja": "死闘の果てに扉は開く",
+     "en": "A Door Opens After Battle",
+     "type": "路线分支关",
+     "area": "",
+     "note": "激斗路线，后援者 Rudi"
+    },
+    {
+     "code": "最终话·通常路线",
+     "zh": "给地球未来，给战士祝福",
+     "ja": "地球に未来を、戦士に祝福を",
+     "en": "Blessings for Warriors, a Future for Earth",
+     "type": "最终话",
+     "area": "",
+     "note": "通常路线结局，无 SR"
+    },
+    {
+     "code": "最终话·激斗路线",
+     "zh": "船将前往希望的大海",
+     "ja": "船は往く、希望の大海へ",
+     "en": "Set Sail for Hope",
+     "type": "最终话",
+     "area": "",
+     "note": "激斗路线结局，无 SR"
+    }
+   ]
+  },
+  {
+   "title": "扩展包（Expansion Pack）：全20话（一周目14话）",
+   "intro": "2019-06-27 配信的付费 DLC 后日谈，须持有本篇通关存档。第5话后分地球队/宇宙队（6–8话），第11话后分通常/激斗路线（12–13话与最终话）。扩展包 SR 上限 13 点。",
+   "rows": [
+    {
+     "code": "扩展第1话",
+     "zh": "凶兆",
+     "ja": "凶兆",
+     "en": "Ill Omen",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第2话",
+     "zh": "来自远方之人",
+     "ja": "彼方から来る者",
+     "en": "Visitor from Afar",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": "V 原作组正式参战"
+    },
+    {
+     "code": "扩展第3话",
+     "zh": "肆虐的恶意",
+     "ja": "吹き荒れる悪意",
+     "en": "Devastating Malice",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": "X 原作组正式参战"
+    },
+    {
+     "code": "扩展第4话",
+     "zh": "火星骚乱",
+     "ja": "火星騒乱",
+     "en": "Mars Mayhem",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第5话",
+     "zh": "对明日的祈愿",
+     "ja": "明日への願い",
+     "en": "Wish for Tomorrow",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第6话·地球队",
+     "zh": "憎恨的使徒",
+     "ja": "地上 憎しみの使徒",
+     "en": "Disciple of Hatred",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "地球队"
+    },
+    {
+     "code": "扩展第6话·宇宙队",
+     "zh": "黑之罪人",
+     "ja": "宇宙 黒の罪人",
+     "en": "The Black Criminal",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "宇宙队"
+    },
+    {
+     "code": "扩展第7话·地球队",
+     "zh": "魔从教团之罪",
+     "ja": "地上 魔従教団の罪",
+     "en": "Crimes of the Keepers of Order",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "地球队"
+    },
+    {
+     "code": "扩展第7话·宇宙队",
+     "zh": "加迪姆再诞",
+     "ja": "宇宙 ガーディム再誕",
+     "en": "Gardim, Ressurected",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "宇宙队"
+    },
+    {
+     "code": "扩展第8话·地球队",
+     "zh": "铁与魂",
+     "ja": "地上 鉄と魂",
+     "en": "Iron and Soul",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "地球队"
+    },
+    {
+     "code": "扩展第8话·宇宙队",
+     "zh": "装满器皿的黑暗",
+     "ja": "宇宙 器を満たす闇",
+     "en": "Overflowing Darkness",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "宇宙队"
+    },
+    {
+     "code": "扩展第9话",
+     "zh": "不可退让的底线",
+     "ja": "ゆずれない一線",
+     "en": "Unyielding Line",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第10话",
+     "zh": "魔之意志",
+     "ja": "魔の意志",
+     "en": "Will of Magic",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第11话",
+     "zh": "光与影的彼方",
+     "ja": "光と影の向こうに",
+     "en": "The Other Side of Light and Darkness",
+     "type": "扩展包剧本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "扩展第12话·通常路线",
+     "zh": "大麦哲伦的激斗",
+     "ja": "通常 大マゼランの激闘",
+     "en": "Large Magellanic Clash",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "扩展第12话·激斗路线",
+     "zh": "超文明的终焉",
+     "ja": "激闘 超文明の終焉",
+     "en": "Demise of a Super-Civilization",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "激斗路线"
+    },
+    {
+     "code": "扩展第13话·通常路线",
+     "zh": "死斗的阿尔·瓦斯",
+     "ja": "通常 死闘のアル・ワース",
+     "en": "Al-Warth's Life or Death",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "通常路线"
+    },
+    {
+     "code": "扩展第13话·激斗路线",
+     "zh": "真正的魔从教团",
+     "ja": "激闘 真の魔従教団",
+     "en": "The True Keepers of Order",
+     "type": "扩展包剧本（分支）",
+     "area": "",
+     "note": "激斗路线，后援者涅万琳娜"
+    },
+    {
+     "code": "扩展最终话·通常路线",
+     "zh": "在尽头等待之物",
+     "ja": "通常 果てに待つもの",
+     "en": "Waiting at the End",
+     "type": "扩展包最终话",
+     "area": "",
+     "note": "通常路线结局，无 SR"
+    },
+    {
+     "code": "扩展最终话·激斗路线",
+     "zh": "超越过去与因果",
+     "ja": "激闘 過去も因果も越えて",
+     "en": "Overcoming the Past, Defying Fate",
+     "type": "扩展包最终话",
+     "area": "",
+     "note": "激斗路线结局，无 SR"
+    }
+   ]
+  }
+ ]
+}
