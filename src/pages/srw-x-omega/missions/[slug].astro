@@ -1,0 +1,67 @@
+---
+import Base from '../../../layouts/Base.astro';
+import data from '../../../data/srwxomega-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战X-Ω', path: 'srw-x-omega/' },
+  { label: '关卡攻略', path: 'srw-x-omega/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`${m.zh}（${m.code}）剧情篇章`} description={`超级机器人大战X-Ω（2015年 iOS／Android，已停服）${m.code} ${m.zh}：舞台设定、剧情梗概、我方与敌对势力、本篇要点。本作是即时路线防卫战斗，没有格子关卡与坐标地图，逐关任务明细在公开来源中没有成套留存，页面内有数据状态说明。`} path={`srw-x-omega/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本作是已停服的手机运营游戏，官方页面与游戏内数据均已不存（停服后配信的离线存档版也已于 2021 年 6 月 30 日结束）。本页内容据日文维基百科、NicoNico 大百科、srw.wiki 与 Akurasu 的现存条目整理、互证；本篇逐关任务的标题、AP 消耗与奖励明细在现存公开来源中<strong>没有成套留存</strong>，本站只刊篇章梗概级信息与有出处的章节锚点，不推测补写。本作<strong>没有熟练度系统</strong>（运营游戏的进度由任务与活动推进决定），也<strong>没有格子地图</strong>——见下方「为什么本页没有坐标地图」。</span>
+  </div>
+
+  <h2>开始时期 / 条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>舞台</h2>
+  <p>{m.world}</p>
+
+  <h2>剧情梗概</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>我方与参战焦点</h2>
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+
+  <h2>主要敌对势力</h2>
+  <ul>
+    {m.enemies.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>本篇要点</h2>
+  <ul>
+    {m.points.map((p: string) => <li>{p}</li>)}
+  </ul>
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>为什么本页没有坐标地图</h2>
+  <p>本站其他作品的逐关页都带坐标地图，但本作的战斗是即时制的<strong>「路线作战」（ラインディフェンス）</strong>：战场是横向的 4 条路线，敌人自画面左端出现、向右推进，玩家部署机体迎击并守护位于后方的战舰——<strong>不存在格子地图、单位坐标与逐格地形</strong>（竞技场的对战盘面虽有 3×3 配置格，那是编队规则而非关卡地图）。这与《NEO》的无格子设计同理（原理上不存在，而非资料遗失）。因此本页以篇章梗概与势力构成代替地图；若将来出现官方设定集级别的任务档案，本站再行增补。</p>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-x-omega/missions/')}>← 返回篇章列表</a> · <a href={href('srw-x-omega/')}>返回超级机器人大战X-Ω</a></p>
+</Base>

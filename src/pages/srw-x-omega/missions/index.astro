@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwXOmegaMissionList from '../../../components/SrwXOmegaMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战X-Ω', path: 'srw-x-omega/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战X-Ω（スパクロ）剧情篇章 · 全4篇页面列表" description="超级机器人大战X-Ω（2015年 iOS／Android，已停服）剧情篇章的列表：火星开篇、奥尔布罗篇、路弗斯篇与并行篇共4篇，每篇独立页面记述舞台、剧情梗概、参战焦点与敌对势力。本作是即时路线防卫战斗的运营游戏，没有格子关卡与逐关数值表存世，收录范围与原因见本页说明。" path="srw-x-omega/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战X-Ω · 剧情篇章</h1>
+  <p>《超级机器人大战X-Ω》（略称「スパクロ」）是 2015 年 10 月 5 日上线的<strong>系列首款智能手机专用 App</strong>（已于 2021 年 3 月 30 日停服）。它不是格子 SRPG：战斗是即时的「路线作战」——敌人在 4 条路线上自左向右推进，玩家守护己方战舰。剧情以「章（Chapter）—关（Stage）—话（Episode）」三层任务随运营逐期追加，因此本站的「关卡」对本作而言是<strong>剧情篇章</strong>：按现存资料能考证的节拍整理为<strong>火星开篇</strong>（第 1–2 章）、<strong>奥尔布罗篇</strong>（第 5–8 章的判明事项）、<strong>路弗斯篇</strong>（第 13 章以后）与<strong>并行篇</strong>（机体任务与索利斯）共四篇。每一篇的完整梗概都在各自的详情页里；本页只是链接索引，与<a href={href('srw-x-omega/')}>本作主页</a>共用同一份篇章数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度与收录范围：</strong>本作已停服、官方页面关闭，逐个任务的清单（每章每关的标题、AP 消耗、奖励）在现存公开来源中<strong>没有成套留存</strong>：Akurasu Wiki 收录了本作的单位、支援单位与活动数据表，但没有主线任务总表；官方攻略 Wiki 等站点已随停服散佚。本站只刊能由日文维基百科、NicoNico 大百科、srw.wiki 与 Akurasu 互证的内容：四篇剧情梗概、系统与运营史（见本作主页）、经核对的参战作品分期名单。可考证的章节锚点有六个（第 1 章至少 30 关、第 2 章、第 5 章、第 6 章第 8 话、第 8 章第 8 话、第 13 章末）；<strong>主线总章数、逐关任务明细与活动逐期清单均已不可考</strong>，本站不凭记忆或推测补写。各篇页面均标注了各自的数据状态。</span>
+  </div>
+
+  <SrwXOmegaMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦X-Ω" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦X-Ω</a>（运营史、系统、原创人物与机体、剧情判明章节、参战作品分期，主来源之一）</li>
+    <li><a href="https://dic.nicovideo.jp/t/a/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6x-%CE%A9" rel="noopener" target="_blank">NicoNico 大百科 — スーパーロボット大戦X-Ω</a>（参战作品逐项名单、组织设定与人物条目）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/X-Omega/Supports" rel="noopener" target="_blank">Akurasu Wiki — X-Omega / Supports</a>（支援单位入手点所记的剧情任务坐标：第 1 章第 30 关等）</li>
+  </ul>
+  <p><a href={href('srw-x-omega/')}>← 返回超级机器人大战X-Ω</a></p>
+</Base>
