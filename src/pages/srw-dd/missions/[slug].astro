@@ -1,0 +1,85 @@
+---
+import Base from '../../../layouts/Base.astro';
+import data from '../../../data/srwdd-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战DD', path: 'srw-dd/' },
+  { label: '关卡攻略', path: 'srw-dd/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const epTotal = (m.parts ?? []).reduce((n: number, p: any) => n + (p.eps?.length ?? 0), 0);
+---
+<Base title={`${m.zh}（${m.code}）世界／章节结构与话数表`} description={`超级机器人大战DD（2019年 iOS／Android，运营中）${m.code} ${m.zh}：解锁条件、舞台与参战作品构成、全${epTotal}话标题表（按 Part 分组、注记追加时期）、剧情梗概要点。本作仍在运营，本页为截至 2026 年 10 月的公开资料快照；逐话战斗段的格子数据在公开来源中没有成套刊载，页面内有说明。`} path={`srw-dd/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本作<strong>仍在运营</strong>（2019 年 8 月 21 日开服，截至 2026 年 10 月第 5 章仍在连载追加）。本页据 srw.wiki《全话一览／DD》（2026-10-21 最新修订）与日文维基百科、Akurasu 的现存条目整理：话数标题与追加时期为逐项刊载；剧情梗概只写到标题与有出处的设定能支持的程度，不推测补写。本作是格子 SRPG，但逐话的格子尺寸、地形与敌方坐标在公开来源中<strong>没有成套刊载</strong>，故本页没有坐标地图——见下方专节。本作<strong>没有熟练度系统</strong>（运营游戏的进度由剧情解锁与活动推进决定）。</span>
+  </div>
+
+  <h2>开始时期 / 条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>舞台与构成</h2>
+  <p>{m.world}</p>
+
+  <h2>话数表（全 {epTotal} 话）</h2>
+  {(m.parts ?? []).map((p: any) => (
+    <>
+      <h3>{p.part}{p.added ? `（追加：${p.added}）` : ''}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>话数</th><th>标题（日文原文）</th></tr></thead>
+          <tbody>
+          {p.eps.map((e: any) => (
+            <tr><td>{e.no}</td><td>{e.title}</td></tr>
+          ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  ))}
+
+  <h2>剧情梗概</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>我方与参战焦点</h2>
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+
+  <h2>主要敌对势力</h2>
+  <ul>
+    {m.enemies.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  <h2>本篇要点</h2>
+  <ul>
+    {m.points.map((p: string) => <li>{p}</li>)}
+  </ul>
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>为什么本页没有坐标地图</h2>
+  <p>本站多数作品的逐关页都带坐标地图，本作不同：DD 的战斗确实是俯视角<strong>格子地图</strong>上的回合制战棋（按速度决定行动顺序，见本作主页），一话还往往由多个战斗段（バトルチャプター）构成——但 srw.wiki、Akurasu 与 Altema 等攻略站的公开数据库收录的是机体与机体部件的数值，<strong>没有任何来源逐话刊载格子尺寸、地形与敌方配置坐标</strong>。本站的原则是无源不刊：所以这里是「资料未公开」而非像《X-Ω》《NEO》那样「原理上不存在」。若将来出现官方攻略本级别的关卡档案，本站再行增补。</p>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-dd/missions/')}>← 返回世界／章节列表</a> · <a href={href('srw-dd/')}>返回超级机器人大战DD</a></p>
+</Base>

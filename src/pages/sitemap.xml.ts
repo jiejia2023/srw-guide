@@ -51,6 +51,7 @@ import srwbx from '../data/srwbx-missions.json';
 import srwoe from '../data/srwoperationextend-missions.json';
 import srwcc from '../data/srwcardchronicle-missions.json';
 import srwxo from '../data/srwxomega-missions.json';
+import srwdd from '../data/srwdd-missions.json';
 import { canonical } from '../lib/site';
 
 export function GET() {
@@ -63,7 +64,7 @@ export function GET() {
     platformSlugs.add(g.platformSlug);
     paths.add(`${g.slug}/`);
     // /secrets/ 与 /units/ 已改为重定向页（noindex），不进 sitemap；
-    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden、srw-og-2nd、srw-og-moon-dwellers、srw-v、srw-x、srw-t 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-z-3-jigoku、srw-z-3-tengoku、srw-k、srw-neo、srw-l、srw-card-chronicle、srw-x-omega、srw-masoukishin-2、srw-masoukishin-3、srw-masoukishin-f、srw-ux、srw-bx 与 srw-operation-extend 有真实总表页，其余作的重定向页同样不收录。
+    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden、srw-og-2nd、srw-og-moon-dwellers、srw-v、srw-x、srw-t 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-z-3-jigoku、srw-z-3-tengoku、srw-k、srw-neo、srw-l、srw-card-chronicle、srw-x-omega、srw-masoukishin-2、srw-masoukishin-3、srw-masoukishin-f、srw-ux、srw-bx、srw-operation-extend 与 srw-dd 有真实总表页，其余作的重定向页同样不收录。
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
@@ -262,6 +263,10 @@ export function GET() {
   paths.add('srw-x-omega/missions/');
   for (const m of (srwxo as any).missions ?? []) {
     if (m.slug) paths.add(`srw-x-omega/missions/${m.slug}/`);
+  }
+  paths.add('srw-dd/missions/');
+  for (const m of (srwdd as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-dd/missions/${m.slug}/`);
   }
   paths.add('srw-ux/missions/');
   for (const m of (srwux as any).missions ?? []) {

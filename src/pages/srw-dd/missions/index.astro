@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwDdMissionList from '../../../components/SrwDdMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战DD', path: 'srw-dd/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战DD · 世界／章节结构与话数索引" description="超级机器人大战DD（2019年 iOS／Android，运营中）的世界／章节索引：序章六个平行世界与主线第 1–5 章共 11 个结构页，每页含解锁条件、舞台构成与完整话数标题表（截至 2026 年 10 月主线共 427 个标题条目）；支线剧集与运营模式以索引行列示。本作逐话格子数据在公开来源中没有成套刊载，收录范围与原因见本页说明。" path="srw-dd/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战DD · 世界／章节结构</h1>
+  <p>《超级机器人大战DD》是 2019 年 8 月 21 日开服、<strong>截至 2026 年 10 月仍在运营</strong>的智能手机 SRPG：与前作《X-Ω》的即时路线战不同，本作回归俯视角格子战棋，但行动顺序不按阵营回合、而按各单位的「速度」逐个轮转。剧情不是一本通关的单行本，而是随运营逐期追加的长篇连载：开局是<strong>序章的六个平行世界</strong>（参战作品按世界分组、各 10 话），世界合流后进入<strong>主线章节</strong>（章—Part—话，逐 Part 配信）。本站的「关卡」对本作而言就是<strong>世界／章节结构页</strong>：六个世界与第 1–5 章共 <strong>11 页</strong>，每页刊有该部的完整话数标题表（按 Part 分组并注记追加时期）、解锁条件与剧情梗概；本页只是链接索引，与<a href={href('srw-dd/')}>本作主页</a>共用同一份数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度与收录范围（截至 2026 年 10 月的公开资料）：</strong>主线话数标题有完整可靠出处——srw.wiki《全话一览／DD》留存逐话标题与追加时期，2026-10-21 仍在更新：序章 60 话＋第 1 章 91 话＋第 2 章 98 话＋第 3 章 119 话＋第 4 章 50 话＋第 5 章 9 话（连载中），合计 <strong>427 个标题条目</strong>，本站按世界／章全数刊入各结构页的话数表。但本站<strong>不建逐话详情页与逐关数值库</strong>：本作仍在运营、话数持续增长，且逐话的战斗段构成、敌方配置与格子数据在任何公开来源中都<strong>没有成套刊载</strong>（各攻略站的数据库只有机体／机体部件数值）——无源即不刊。支线剧集（《第 3 次 ANOTHER》、Crossing Pilot、短编剧集）与运营模式（制压战等）在下表以结构梗概行列示、不设独立页；其逐话标题同样存于 srw.wiki，本站注记出处而不逐话转载建页。</span>
+  </div>
+
+  <SrwDdMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://srw.wiki.cre.jp/w/index.php?title=%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/DD&diff=cur&oldid=482317" rel="noopener" target="_blank">srw.wiki（スーパーロボット大戦Wiki）— 全話一覧/DD</a>（话数标题总表与追加时期，2026-10-21 修订，主线计数主源）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/スーパーロボット大戦DD" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦DD</a>（运营史、系统、参战作品表与原创人物机体）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/DD/Story" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars DD / Story</a>（序章与第 1 章、第 2 章前半的剧情文本存档；进度落后于现行版本）</li>
+  </ul>
+  <p><a href={href('srw-dd/')}>← 返回超级机器人大战DD</a></p>
+</Base>
