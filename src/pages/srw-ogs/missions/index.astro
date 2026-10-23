@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwOgsMissionList from '../../../components/SrwOgsMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OGS', path: 'srw-ogs/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OGS（PS2）关卡攻略 · 全147个关卡页面列表" description="超级机器人大战OGS（2007年 PS2）全部关卡的页面列表：OG1 篇 74 个剧本、OG2 篇 61 个剧本、OG2.5 篇 12 个剧本，合计 147 个不同剧本（一周目通算 104 话）。每关独立攻略页含胜利/败北条件、熟练度（Battle Mastery）取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-ogs/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OGS · 关卡攻略</h1>
+  <p>2007 年 PS2《超级机器人大战 OG ORIGINAL GENERATIONS》（OGS）是 GBA 两部作《OG》（2002）与《OG2》（2005）的<strong>合并重制版</strong>：同一光盘内含 <strong>OG1 篇</strong>（EPISODE 1，DC 战争—L5 战役）与 <strong>OG2 篇</strong>（EPISODE 2，封印战争后半年的新战乱）两个可任意先后游玩的篇章，以及通关 OG2 篇后解锁的追加篇章 <strong>OG2.5 篇</strong>（全 12 话）。按 Akurasu 的清点，全作共 <strong>147 个不同剧本</strong>（OG1 篇 74、OG2 篇 61、OG2.5 篇 12），一周目实际游玩 <strong>104 话</strong>（与日文维基的『全 104 话』口径正好对账：42＋50＋12），本站已按 147 个剧本全部建页。三篇都有<strong>熟练度（Battle Mastery）</strong>：OG1 篇第1–41话共 41 点、OG2 篇第1–49话共 49 点、OG2.5 篇第1–11话共 11 点，累计比例逐关决定<strong>难度（简单/普通/困难）</strong>；与 GBA 原版不同，<strong>OGS 的三篇最终话都不再设熟练度门槛</strong>。本作还新增了双机组队的 <strong>Twin 战斗系统</strong>、特殊弹合成、全篇适用的全改造奖励（FUB）等系统，OG2 篇则新增第1–5话序章等 8 个剧本并调整了多条隐藏连锁（瓦伊萨加改为一周目可得、新增雷文双机等）——OGS 是独立条目，各话数据以 OGS 自己的流程表为准，<strong>不要与本站的 GBA 版《OG》《OG2》页面混用话数与条件</strong>（主要差异见<a href={href('srw-ogs/')}>本作主页</a>与各话页的备注）。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站全关卡补完计划中的又一部完成作——147 个详情页全部建成。流程、胜败条件、熟练度条件、加入与隐藏要素以 Akurasu 的 OGs <strong>Flow Chart 为主源</strong>，逐条与同站 Secrets 页交叉核对，熟练度总数与难度规则据同站 Skill Point 页，系统与话数口径以日文维基互证。<strong>如实说明</strong>：本作的逐关敌方<strong>编成</strong>存在两份 GameFAQs 攻略（CO_Adder、Demitrius）与日文 atwiki 三处来源，但编成数量随难度变动、两份英文攻略一份自承多误、一份只按困难难度记录——在难度基准未定之前本站暂不刊载编成表，列为<strong>待用户裁决</strong>事项（范围：三篇全关的敌方构成/数量/增援/掉落）；敌方逐台的<strong>等级、坐标与逐格地形</strong>在上述来源中均不存在（atwiki 有等级/HP 但无坐标），各页地图为带四边坐标轴的参照框架。重制版与 GBA 原版的逐话差异（条件改写、话数后移、结算点移动）都注记在相应页面上。</span>
+  </div>
+
+  <SrwOgsMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGs/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OGs: Flow Chart</a>（主来源：三篇全关卡的胜败条件、熟练度条件、机体加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGs/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OGs: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGs/Skill_Point" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OGs: Skill Point</a>（各篇熟练度总数 41/49/11 与逐话条件核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OGs" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OGs 主条目</a>（发售信息、剧本总数 147、系统子页索引）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG_ORIGINAL_GENERATIONS" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦OG ORIGINAL GENERATIONS</a>（一周目 104 话口径、篇章结构与系统的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-ogs/')}>← 返回超级机器人大战OGS</a></p>
+</Base>

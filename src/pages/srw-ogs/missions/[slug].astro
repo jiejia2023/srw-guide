@@ -1,0 +1,130 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwogs-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OGS', path: 'srw-ogs/' },
+  { label: '关卡攻略', path: 'srw-ogs/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const partAlert: Record<string, string> = {
+  og1: '本篇（OG1 篇）<strong>有熟练度系统</strong>：第1–41话各有 1 个取得条件、一周目共 41 点，累计比例逐关决定难度（简单/普通/困难）。与 GBA 原版最大的不同：<strong>进入最终话不再需要熟练度 ≥32</strong>——OGS 的流程表对最终话未设门槛；但 23/27/29/30 点仍是四件隐藏要素的下限（各话条件见概要表与隐藏一节）。本篇的话数结构与 GBA 原版相同（隆圣/响介两线），但多话的胜败与熟练度条件已被改写，引用时请勿与本站 GBA 版页面混用（差异在各页注记）。',
+  og2: '本篇（OG2 篇）<strong>有熟练度系统</strong>：第1–49话各有 1 个取得条件、一周目共 49 点（GBA 原版为 41 点——OGS 新增了第1–5话序章等 8 话、又把 GBA 的第42话与隐藏最终话合并，故不同剧本 61 个、一周目 50 话），累计比例逐关决定难度。与 GBA 原版最大的不同：<strong>最终话不再有熟练度 ≥35 的门槛</strong>，且<strong>瓦伊萨加改为一周目可得</strong>；另有雷文双机等 OGS 新增隐藏。各话条件见概要表与隐藏一节，话数全部为 OGS 编号（较 GBA 整体后移），请勿套用本站 GBA 版页面的话数。',
+  og25: '本篇（OG2.5 篇）是通关 OG2 篇后解锁的追加篇章（全 12 话）：第1–11话各有 1 个熟练度条件、共 11 点，最终话不设熟练度、也无门槛。本篇的多项取得物（亡灵 Mk-II·S、雷文双机、隐形回旋镖、重力加农炮、狮子王之剑）<strong>只认 OG2 篇通关存档的继承</strong>——以 OG1 篇或 OG2.5 篇自身通关存档开始的周回不算数，各话的继承限定都写在该话的隐藏一节里。',
+};
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战OGS（2007 PS2）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（Battle Mastery）取得条件、我方加入、本关隐藏要素（跨话连锁与篇间继承限定）与坐标地图。`} path={`srw-ogs/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.partZh} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入与隐藏要素来自 Akurasu Wiki 的 OGs <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，系统与话数口径另以日文维基互证（分歧见本页备注与本作主页）。<span set:html={partAlert[m.part]}></span>本作的逐关敌方编成存在两份 GameFAQs 攻略与日文 atwiki 三处来源，但编成数量随难度变动、两份英文攻略一份自承多误一份只按困难难度记录——在难度基准未定之前本站暂不刊载编成表（待裁决，见本作主页）；敌方逐台坐标与逐格地形则在任何来源中都不存在，故地图为参照框架。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度条件'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实/待裁决：</strong>本关敌方编成（构成、数量、增援）本站暂未刊载——来源盘点与理由见下方注记与本作主页「敌方数据现状」一节；敌方逐台的等级、坐标与逐格地形则无任何公开来源。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作的隐藏要素多为跨话连锁（立旗→在指定话结算等级/击坠数/熟练度→在更后面的话交付），OG2.5 篇另有只认 OG2 篇通关存档的继承限定：请按各话页面顺序核对，前置话的条件错过后无法补救。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-ogs/missions/')}>← 返回关卡列表</a> · <a href={href('srw-ogs/')}>返回超级机器人大战OGS</a></p>
+</Base>

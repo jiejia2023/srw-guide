@@ -29,6 +29,7 @@ import SrwMxMissionList from '../../components/SrwMxMissionList.astro';
 import SrwGcMissionList from '../../components/SrwGcMissionList.astro';
 import SrwJMissionList from '../../components/SrwJMissionList.astro';
 import SrwWMissionList from '../../components/SrwWMissionList.astro';
+import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -64,6 +65,7 @@ const isSrwMx = g.slug === 'srw-mx';
 const isSrwGc = g.slug === 'srw-gc';
 const isSrwJ = g.slug === 'srw-j';
 const isSrwW = g.slug === 'srw-w';
+const isSrwOgs = g.slug === 'srw-ogs';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2653,6 +2655,113 @@ const isSrwW = g.slug === 'srw-w';
     </div>
   )}
 
+  {isSrwOgs && (
+    <div>
+      <h2>剧情概要：一张光盘装下两场战争与一个尾声</h2>
+      <p>本作（2007 年 6 月 28 日发售）是 GBA 两部作《超级机器人大战OG》（2002）与《超级机器人大战OG2》（2005）的<strong>合并重制版</strong>：以 PS2 的画面与系统重新制作，同一光盘内含两个可以<strong>任意先后游玩</strong>的篇章——<strong>OG1 篇（EPISODE 1）</strong>重演 DC 战争与 L5 战役（伊达隆圣/南部响介双主人公线），<strong>OG2 篇（EPISODE 2）</strong>重演其半年后的新生 DC、检察官、影镜与艾因斯特之乱；通关 OG2 篇后解锁追加篇章 <strong>OG2.5 篇</strong>（全 12 话），以虎太与康帕奇布尔凯撒（《The Great Battle》系列）、拉乌尔的埃克瑟伦斯小队（《R》）与修罗神的后续为主线，是后来《OG外伝》的前半部分（据日文维基）。重制并非单纯移植：剧本有改写与新增演出，OG2 篇新增了整段序章，系统则换上开发《MX》班底的画面表现与 α 系班底的系统框架（据 Akurasu 主条目）。</p>
+
+      <h2>篇章结构：147 个不同剧本、一周目 104 话</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>篇章</th><th>结构</th><th>不同剧本</th><th>一周目话数</th><th>熟练度</th></tr></thead>
+          <tbody>
+            <tr><td>OG1 篇</td><td>隆圣线/响介线双主人公：第1–22话与第32–41话按线分开、第23–31话共通、最终话共通</td><td>74</td><td>42</td><td>第1–41话各 1 点，共 41 点</td></tr>
+            <tr><td>OG2 篇</td><td>无主人公分歧；三次部队分歧：第17–20话埃塞俄比亚/月球、第27–30话阿维亚诺/伊豆、第42–44话地球摇篮/宇宙</td><td>61</td><td>50</td><td>第1–49话各 1 点，共 49 点</td></tr>
+            <tr><td>OG2.5 篇</td><td>线性追加篇（通关 OG2 篇后解锁）</td><td>12</td><td>12</td><td>第1–11话各 1 点，共 11 点</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>话数口径：Akurasu 主页作「147 playable scenarios（74＋61＋12）」，日文维基作「2 作品＋α 合计 <strong>104 话</strong>、系列最长」——两说不矛盾：147 是<strong>计入路线变体的不同剧本数</strong>，104 是<strong>一周目实际游玩话数</strong>（42＋50＋12，本站按流程表逐篇清点对账；日维基本身未注明 104 的计数方式，此对账为本站推导）。本站按 147 个剧本全部建页。与 GBA 对照：OG1 篇的两个口径与 GBA《OG》完全相同（74/42）；OG2 篇则由 GBA 的 54/43 增至 61/50（见下节）。</p>
+
+      <h2>与 GBA 原版的主要差异（OG/OG2 → OGS）</h2>
+      <p>本站另有 GBA 版《OG》《OG2》的独立页面；两版<strong>不要混用</strong>。已核实的主要差异如下（逐话差异另见各话页备注）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>事项</th><th>GBA 原版</th><th>OGS</th></tr></thead>
+          <tbody>
+            <tr><td>最终话的熟练度门槛</td><td>OG 须 ≥32/41；OG2 须 ≥35/41 才解锁隐藏最终话</td><td><strong>三篇全部取消</strong>：最终话直接接在末话之后，流程表未设门槛（证据层级见文末分歧说明）</td></tr>
+            <tr><td>OG2 篇最终话的构成</td><td>第42话《「过去」与「未来」》＋隐藏最终话《荒怒的星神》两个剧本</td><td><strong>合并为一个最终话</strong>：两阶段（击破佩尔逊尼奇卡伊特→击破新星主宰者）</td></tr>
+            <tr><td>OG2 篇剧本增减</td><td>54 个剧本</td><td><strong>新增 8 话</strong>：第1–2话（Excellence 小队序章）、第3话（阿克塞尔序章）、第4–5话（影镜处刑事件前后篇）、第14、15话、第41话（拉乌尔归队）；合并最终话 −1，净 61</td></tr>
+            <tr><td>话数编号</td><td>OG2 分歧在第10–13/20–23/34–36话</td><td>OG2 篇整体后移：分歧在第17–20/27–30/42–44话；第三次分歧的飞龙改侧改称<strong>宇宙线</strong>（GBA 称月球摇篮线）</td></tr>
+            <tr><td>隐藏结算点</td><td>OG 响介线亡灵·R型/凶鸟 008L 在第19话结算；OG2 重力加农炮第6话立旗、第15话交付</td><td>OG1 篇响介线两件改在<strong>第20话</strong>结算；OG2 篇重力加农炮改在第11话立旗、<strong>第22话</strong>交付（装备于薇蕾塔的亡灵 Mk-II·R型）；凶鸟 Mk-III·R、亡灵 Mk-II·S 的结算改在第40话（GBA 为第33话）</td></tr>
+            <tr><td>瓦伊萨加</td><td>OG2 须二周目及以后</td><td><strong>一周目可得</strong>（三步连锁的话数与门槛随之调整：立旗第17话埃塞线/第20话月球线、交战第26话、击坠结算第31话——阿什塞巴 ≥53 / 瓦伊萨加 ≥55）</td></tr>
+            <tr><td>新增隐藏</td><td>—</td><td>OG2 篇新增<strong>雷文双机</strong>（拉兹安格利夫·雷文＆兰德格里夫·雷文，四步连锁）；OG2.5 篇的取得物多为「OG2 篇通关存档继承限定」</td></tr>
+            <tr><td>隐形之翼的名称</td><td>Akurasu 作 Stealth Wing、日文作 Stealth Boomerang，两说并存</td><td>Akurasu 的 OGS 资料统一作 <strong>Stealth Boomerang（隐形回旋镖）</strong>，本站从 OGS 命名；且有两把（卡拉机交付第39话、难度简单时第35话基利亚姆机第二把）</td></tr>
+            <tr><td>双机组队</td><td>无（单机出击）</td><td>新增 <strong>Twin 战斗系统</strong>（见专节）</td></tr>
+            <tr><td>特殊弹</td><td>无</td><td>新增<strong>特殊弹（Custom Bullets）</strong>：用关卡容器掉落的素材合成、装填实弹系换装武器</td></tr>
+            <tr><td>全改造奖励（FUB）</td><td>OG 原版是否存在未确认；OG2 有 Custom Bonus</td><td><strong>全篇（含 OG1 篇）都有 FUB</strong>：四项改满后从 6 个选项（5 通用＋1 固有）选 1，选定不可更改、机体被替换时重置（Akurasu FUB 页：OG1 篇约 40 行、OG2 篇约 47 行、OG2.5 篇 5 行）</td></tr>
+            <tr><td>援护</td><td>OG 为攻防合一技能</td><td>OG1 篇也改为<strong>援护攻击/援护防御分离</strong>（与 OG2 同制：各 50 PP 起、每级 +10、最高 Lv4；援攻伤害 75%、援防承受 50%）</td></tr>
+            <tr><td>驾驶员养成单价</td><td>能力 +1 = 4 PP；地形适应 10/20/30/40（日文 SRW Wiki 表）</td><td><strong>改表</strong>：能力 +1 = <strong>10 PP</strong>；地形适应 C→B 40、B→A 50、A→S 60（Akurasu Pilot Skills 页；该表未列 D→C 档）</td></tr>
+            <tr><td>技能池</td><td>OG2 可养成「连续攻击」</td><td>「连续攻击」<strong>删除</strong>（其持有者改持集束攻击）；新增 Learning、集束攻击、气力限界突破（上限 170）等；「反击」可与「复仇」叠加（与 GBA 不同，Akurasu 明记）</td></tr>
+            <tr><td>合体攻击</td><td>OG 2 种；OG2 6 条（HTB 薇蕾塔版标待核实）</td><td>OG1 篇仍 2 种；OG2 篇起 8 行/6 名：HTB 的<strong>薇蕾塔版正式成条</strong>（气力 130/EN 70/射程 1–7，与茉衣版 140/100/3–9 并列）、Rampage Ghost 增加古铁巨人＋纯白骑士的强化版一行；通则变更：R-Formation <strong>失去移动后攻击（P）属性</strong>，合体攻击可由 Twin 内两机发动</td></tr>
+            <tr><td>篇间连动</td><td>GBA 的 OG 与 OG2 卡带之间没有任何存档连动</td><td>同盘内<strong>跨篇继承</strong>：读取前篇通关存档开新篇，继承资金 25%（不带 PP）；OG2 篇通关存档还能把特定隐藏取得物带入 OG2.5 篇</td></tr>
+            <tr><td>Game Over 重打</td><td>（系列通则：保留资金经验续关）</td><td>保留经验/等级/击坠/资金，但 <strong>PP、部件、特殊弹不保留，且本关熟练度永久不可再得</strong>（已得的也会被取消）——刷资源须以熟练度为代价</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>熟练度（Battle Mastery）与难度：门票没了、标尺还在</h2>
+      <ul>
+        <li><strong>规则</strong>：每话至多 1 点、只增不减；三篇的点数规模见结构表（41/49/11）。条件形态与 GBA 类似（限回合全歼、压血、护送竞速、限时击坠会撤退的王牌、指名击坠等），各话条件写在各关攻略页。</li>
+        <li><strong>难度判定</strong>（据 Akurasu Game Mechanics 页）：按「已得熟练度 ÷ 截至当前可得总数」的比例逐关动态判定，比例带与 GBA OG2 相同——<strong>简单 ≤29%</strong>（敌无改造、击坠资金 ×1.5、我方驾驶员开局气力 +5）、<strong>普通 30%–79%</strong>（敌无改造、资金 ×1.2）、<strong>困难 ≥80%</strong>（敌全能力与武器 +3 段改造、部分敌 +5 段、资金为标准值）。OG1 篇在 GBA 原版只有「熟练度影响敌方出现数量」的泛述，OGS 中 OG1 篇也正式套用了这套三档难度。</li>
+        <li><strong>难度的影响</strong>：除敌方改造与资金倍率外，Akurasu 明记<strong>难度决定 OG1/OG2 两篇最终 Boss 的 HP 值</strong>；多条隐藏要素与难度挂钩（难度简单时交付的第二把隐形回旋镖、OG2.5 篇的继承物等），也有取得物只在特定难度出现（OG1 篇第2话·隆圣线：难度简单/普通时量产型亡灵 Mk-II 才随队出场）。</li>
+        <li><strong>隐藏门槛</strong>：最终话虽无门槛，熟练度仍是多件隐藏的下限（OG1 篇四件：23/27/29/30 点；OG2 篇多条连锁以熟练度条件为步奏之一），且 Game Over 重打会永久失去本关的熟练度——规划时要一并考虑。</li>
+      </ul>
+
+      <h2>Twin 战斗系统：本作的招牌新系统（据 Akurasu Twin Battle System 页与日文维基）</h2>
+      <ul>
+        <li><strong>组队条件</strong>：两机驾驶员气力均 ≥110、本回合均未结束行动、相距 1 格以内（含斜向）；战舰不可组 Twin。地面机与飞行机组队时飞行机须着陆，移动力取两机平均值。</li>
+        <li><strong>攻击形态</strong>：集中攻击（两机合击敌 Twin 的一台）、个别攻击（各打一台）、<strong>ALL 攻击</strong>（同时打敌 Twin 两台）与上位版 <strong>ALLW（双重攻击）</strong>（还波及邻接单位，源自《MX》）；ALL/ALLW 命中时不可被援护防御。Twin 还可以援护另一个 Twin，即最多 4 机参与一次攻击。主/副可切换（副机未移动时），反击时两机共同反击、可分别选攻/防/回避。</li>
+        <li><strong>伤害与收益</strong>：打对方的非对应机（主机打副机、副机打主机）伤害为 <strong>65%</strong>，驾驶员技能「集束攻击」可减轻惩罚至 <strong>85%</strong>；副机驾驶员的经验与 PP 为 <strong>75%</strong>，技能「Learning」可使其变为 100%。部分精神在 Twin 内共享（加速、觉醒、幸运等 9 种），另有消耗双驾驶员 SP 的 Twin 精神。</li>
+        <li><strong>机体属性（Twin 特性）</strong>：每机有一属性，同属性两机组队有额外加成——格斗（格斗伤害 +5%，双格斗移动 +1）、射击（射击伤害 +5%，双射击全武器射程 +1）、念动（念动伤害 +5%，双念动念动力技能 +1 级）、命中（命中 +5%，双命中暴击率 +50%）、回避（回避 +5%，双回避获得分身）、防御（受伤害 −5%，双防御屏障效果 +200）、汎用（命中/回避 +5%，双汎用格斗/射击伤害 +5%、命中/回避 +10%）。</li>
+        <li><strong>关系补正</strong>：恋爱/友情/宿敌三类关系补正（按 Lv1–4 影响伤害、最终命中回避与暴击）在 OGS 有专页成表；<strong>处于 Twin 中时全部关系补正等级 +1</strong>。该系统是否为 OGS 首入 OG 系列，本次来源未明言，标待核实。</li>
+      </ul>
+
+      <h2>特殊弹（Custom Bullets）：另一件新系统</h2>
+      <p>战斗中打碎地图上的<strong>容器</strong>可掉落素材，用 2–3 种素材<strong>合成</strong>特殊弹，装填到<strong>实弹系换装武器</strong>上（每武器 1 发，可拆回重组）；固定武装、光束系与无弹药的换装武器不可装。特定素材组合有额外效果（如降低装甲）。素材与特殊弹在 Game Over 重打时不保留（见差异表）。（据日文维基与 Akurasu Game Mechanics 页。）</p>
+
+      <h2>隐藏要素总览</h2>
+      <p>三篇的隐藏都以<strong>跨话连锁</strong>为主体（立旗→结算→交付），各步的具体做法写在触发/结算/交付的那一话页面内。下表为总览（仅列与 GBA 版有别或 OGS 新增的重点，全量以各话页为准）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>篇</th><th>对象</th><th>结算/交付</th><th>要点（与 GBA 的别）</th></tr></thead>
+          <tbody>
+            <tr><td>OG1</td><td>亡灵·R型（响介线）</td><td>第20话结算 → 第31话交付</td><td>基利亚姆 Lv≥23；结算点由 GBA 的第19话移到第20话</td></tr>
+            <tr><td>OG1</td><td>凶鸟 008L（响介线）</td><td>第20话结算 → 第37话交付</td><td>薇蕾塔 Lv≥23；同样后移一话；不达则走古伦加斯特 2 号机</td></tr>
+            <tr><td>OG1</td><td>凶鸟 008L（隆圣线）/ 亡灵 Mk-II·S / 狮子王之剑 / 重力加农炮 / 英雄纹章 / 钢铁之魂</td><td>同 GBA</td><td>熟练度门槛（23/27/29/30）与击坠/等级门槛全部与 GBA 相同</td></tr>
+            <tr><td>OG2</td><td>阿什塞巴 / 瓦伊萨加</td><td>第35话交付</td><td>三步话数后移（17 埃塞或 20 月球立旗→26 交战恰 2/恰 1 次→31 结算 ≥53/≥55）；<strong>瓦伊萨加一周目可得</strong></td></tr>
+            <tr><td>OG2</td><td>雷文双机（OGS 新增）</td><td>第39话交付</td><td>四步：第8话交战＋双撤退→第9话交战→第13话交战＋击坠其一→第27话·阿维亚诺线击坠其一 / 第28话·伊豆线达成 SR 且不击破新生 DC 单位</td></tr>
+            <tr><td>OG2</td><td>凶鸟 Mk-III·R</td><td>第41话后交付</td><td>第24–25话拉特塞尔再添 15 击坠→第37话取得熟练度→第40话六人等级合计 ≥185（改为击坠总数口径）</td></tr>
+            <tr><td>OG2</td><td>亡灵 Mk-II·S</td><td>第40话结算</td><td>卡伊击坠 ≥55 且 Lv≥33；交付在宇宙线第42话前/地球摇篮线第44话后</td></tr>
+            <tr><td>OG2</td><td>重力加农炮 / 狮子王之剑×2 / 助推锤 / G 冲击木桩 / 新环形投射器</td><td>第22/24/16/41话后等</td><td>双来源结构保留、话数整体后移；助推锤是否允许拉妲补刀，两源不一（见分歧说明）</td></tr>
+            <tr><td>OG2.5</td><td>英雄纹章 / 米隆加</td><td>第1话 / 第9话</td><td>本篇仅有的两条篇内隐藏：前者是地图指定格，后者须取得熟练度并由琉妮击破米隆加</td></tr>
+            <tr><td>OG2.5</td><td>亡灵 Mk-II·S / 雷文双机 / 隐形回旋镖 / 重力加农炮 / 狮子王之剑</td><td>第2/3/3/6/6话</td><td>全部为<strong>继承限定</strong>：在 OG2 篇达成取得条件并以其通关存档开始本篇才出现</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>周回继承与追加模式（据 Akurasu Clear Bonus 页）</h2>
+      <ul>
+        <li><strong>通关存档</strong>：任一篇通关后生成通关存档，读取它开新游戏即触发继承。周数按模式（普通/EX Hard/Special）分别记录，继承比例按累计周数算。</li>
+        <li><strong>同篇重开</strong>：继承上一周所获<strong>资金的 50%＋PP 的 50%</strong>；每多完成一周比例 +25%，上限 100%。PP 的继承方式是<strong>汇总后平均分给全体可用驾驶员</strong>（与 GBA OG 的「各自 PP 按比例」不同）。OGS 无 GBA OG 的「双线都通关才触发」要求。</li>
+        <li><strong>跨篇开新篇</strong>（如 OG1 篇通关档→开 OG2 篇）：只继承<strong>资金的 25%、不带 PP</strong>（比例同规则随周数递增）。另有 GameFAQs 论坛帖称跨篇也带 PP，与 Akurasu 冲突，并记待核实。</li>
+        <li><strong>EX Hard 模式</strong>：通关一次后解锁，规则与 GBA OG2 同系——难度固定困难、不可改造武器、养成 PP 消耗 2 倍、敌机与武器 +3 段改造（上限 10）、敌驾驶员击坠数 +30。</li>
+        <li><strong>Special 模式</strong>：通关 EX Hard 后解锁——全机改造上限提至 <strong>10 段</strong>、指定时点发齐全部换装武器与强化部件各 1（OG1 篇第2话后、OG2 篇第1话后）。<strong>OGS 新增二阶奖励</strong>：OG1、OG2 两篇都以 Special 通关后，再以 Special 开新周时全机体与全武器改造上限提至 <strong>15 段</strong>，OG2.5 篇同样适用。</li>
+      </ul>
+
+      <h2>敌方数据现状</h2>
+      <ul>
+        <li><strong>编成来源存在三处</strong>：GameFAQs 的 CO_Adder 攻略（faqs/49358；逐关机体×数量、增援分组与 Twin 组注记，无等级/HP，作者自承多误）与 Demitrius 攻略（faqs/49068；逐关初期/增援机体（驾驶员）×数量、掉落物，每关带难度栏——其数量按<strong>困难难度</strong>记录；其隐藏/附录部分自注与 Akurasu 协调，编成部分为本人游玩记录），以及日文 atwiki 攻略まとめ（逐话成页：机体/驾驶员/<strong>等级/HP</strong>/射程/PP/资金/<strong>数量按简单·普通·困难三难度分列</strong>/掉落——是唯一带等级的来源）。s-rpg-navi 未发现 OGS 条目，GameCenter GX 不收录本作。</li>
+        <li><strong>暂不刊载、待用户裁决</strong>：编成数量<strong>随难度变动</strong>（atwiki 的三难度数量互不相同），不存在难度无关的唯一编成表；两份英文攻略一份自承多误、一份只有困难难度基准。在刊出时选定何种难度基准（或是否按 atwiki 三难度并列）未定之前，本站按「不导入待裁决」处理——<strong>裁决范围：三篇全 147 关的敌方构成、数量、增援与掉落（来源：上述三处；其中等级/HP 只有 atwiki 有）</strong>。敌方逐台<strong>坐标</strong>则三处来源都没有，各页地图为带四边坐标轴的参照框架。</li>
+      </ul>
+
+      <h2>版本注记</h2>
+      <p>本页与全部关卡页只记 <strong>PS2《OGS》（2007 年）</strong>的规则与话数；GBA 原版《OG》《OG2》在本站有独立页面（见<a class="link" href={href('srw-og/')}>《OG》主页</a>、<a class="link" href={href('srw-og-2/')}>《OG2》主页</a>），两版话数与条件多有出入，引用时请先确认版本。OG2.5 篇的完全版剧情后来收录于《OG外伝》（2007 年末），本站按 OGS 收录的 12 话为准。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets 页逐条交叉核对；熟练度与难度据同站 Skill Point、Game Mechanics 页；Twin 系统据同站 Twin Battle System 页并以日文维基互证；继承与模式据同站 Clear Bonus 页；FUB 据同站 Full Upgrade Bonuses 页；合体攻击据同站 Combination Attacks 页；养成单价与技能据同站 Pilot Skills 页；话数口径以日文维基对账。已确认的主要分歧与处理：①最终话门槛取消——Akurasu 各页并无『取消门槛』的明文，结论来自流程表对最终话未设任何熟练度条件这一结构事实，与本站此前据日文 SRW Wiki 在《OG2》主页版本注记中的记载互证，故本站表述为『流程表未设门槛』并保留此出处层级，不冒充明文。②跨篇继承是否含 PP——Akurasu Clear Bonus 页作『只继承资金 25%』，GameFAQs 论坛帖作『资金与 PP 都可带入』，本站从 Akurasu 并在此并记。③阿什塞巴的击坠门槛——Akurasu Secrets 页作 ≥53，Demitrius 攻略作 ≥55，第31话页两说并记。④助推锤——Akurasu Secrets 页称拉妲可造成伤害，Demitrius 作阿拉德独自击破，第23话页并记。⑤第二英雄纹章/第二钢铁之魂——Akurasu 作『以已通关 EX Hard 的通关存档开周回』，Demitrius 只作『通关存档周回』，第40话页并记详略两说。⑥Akurasu 的 OGS Secrets 表有 4 行留空未填（G 冲击木桩第 1 把、新环形投射器首行、英雄纹章第 1 件、特制 CPU）——本站只按流程图的合组注记刊出检察官组五件，留空条目不臆补，各相关页已注明。⑦日文标题异写——第8话·OG2 篇标题 Akurasu 作『聖十字軍の残身』，本站从通行写法作『残骸』并在该页并记；OG2 篇第44话·宇宙线标题 GBA 期 Akurasu 曾误植，本站据 OGS 表作『ルナティック・ドリーム』（《疯狂之梦》），该页有说明；第49话标题 OGS 作『彼方への扉』（GBA 作『彼方の扉』），该页并记。⑧FUB 的行数（约 40/47/5）为本站按 Akurasu 表格人工清点、含同机不同驾驶员的重复行，上限数字以『约』记。⑨OG2 篇合流补正（另一线角色的等级/击坠/PP 加成）逐次分歧都注记在相应分歧的组页与第17/27/42话页的来源数据中，数值以 Akurasu 流程图的分歧表头为准。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -2788,6 +2897,11 @@ const isSrwW = g.slug === 'srw-w';
     <div>
       <p>本作 <strong>70 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 55 话——两部构成、六次路线分歧的全部版本与第12–13、32、55话的周目版本；编号连续、同号异关即路线或周目变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（击坠数计数、说得连锁与路线/周目条件都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成：27 个剧本为两份 GameFAQs 攻略双源刊载、40 个剧本为单一来源暂不刊载待裁决、3 个剧本无任何来源；敌方等级不存在于任何来源，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-w/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwWMissionList />
+    </div>
+  ) : isSrwOgs ? (
+    <div>
+      <p>本作 <strong>147 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：OG1 篇 74 个、OG2 篇 61 个、OG2.5 篇 12 个；一周目实际游玩 104 话——三篇的路线分歧与同号异关全部建页）。下表为按篇章分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入、本关隐藏要素（跨话连锁的每一步与篇间继承限定都写在触发/结算的那一话里）与坐标地图（敌方编成为多来源待裁决暂不刊载、坐标与地形无源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-ogs/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwOgsMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

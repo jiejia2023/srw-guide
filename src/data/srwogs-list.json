@@ -1,0 +1,1429 @@
+{
+ "groups": [
+  {
+   "title": "OG1 篇·隆圣线序盘（第1–22话）",
+   "intro": "OG1 篇（EPISODE 1）开局选伊达隆圣：以钢号为母舰，从 PT 部队的训练与实战起步打到 DC 战争终结，再于第22话与响介队对决会合。结构与话数与 GBA 原版相同，但多话的胜败/熟练度条件已被改写（各页有注记）。",
+   "rows": [
+    {
+     "code": "OG1 第1话·隆圣线",
+     "zh": "第二次接触",
+     "ja": "セカンド･コンタクト",
+     "en": "Second Contact",
+     "type": "开局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第2话·隆圣线",
+     "zh": "个人护卫机",
+     "ja": "パーソナル･トルーパー",
+     "en": "Personal Trooper",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第3话·隆圣线",
+     "zh": "训练",
+     "ja": "訓練",
+     "en": "Training",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第4话·隆圣线",
+     "zh": "恐惧游戏",
+     "ja": "フィアー･ゲーム",
+     "en": "Fear Game",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第5话·隆圣线",
+     "zh": "南极的惨剧",
+     "ja": "南極の惨劇",
+     "en": "Antarctic Atrocity",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第6话·隆圣线",
+     "zh": "圣十字军的威胁",
+     "ja": "聖十字軍の脅威",
+     "en": "The Divine Crusaders",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第7话·隆圣线",
+     "zh": "防卫关门海峡",
+     "ja": "関門海峡を防衛せよ",
+     "en": "Defend the Kanmon Straits",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第8话·隆圣线",
+     "zh": "钢号出击",
+     "ja": "ハガネ発進",
+     "en": "The Hagane Takes Flight",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第9话·隆圣线",
+     "zh": "海沟来的刺客",
+     "ja": "海溝よりの刺客",
+     "en": "From The Depths",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第10话·隆圣线",
+     "zh": "16年前的复仇",
+     "ja": "16年目の復讐",
+     "en": "Overdue Revenge",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第11话·隆圣线",
+     "zh": "魔装机神",
+     "ja": "魔装機神",
+     "en": "Elemental Lord",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第12话·隆圣线",
+     "zh": "超斗士古伦加斯特",
+     "ja": "超闘士グルンガスト",
+     "en": "Grungust: The Hyper Fighter",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第13话·隆圣线",
+     "zh": "比安·佐尔达克",
+     "ja": "ビアン･ゾルダーク",
+     "en": "Bian Zoldak",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第14话·隆圣线",
+     "zh": "越线",
+     "ja": "オーバー･ザ･ライン",
+     "en": "Over the Line",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第15话·隆圣线",
+     "zh": "托马斯的陷阱",
+     "ja": "トーマスの罠",
+     "en": "Thomas's Trap",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第16话·隆圣线",
+     "zh": "斯塔巴克岛浪急",
+     "ja": "スターバク島波高し",
+     "en": "Starbuck Island",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第17话·隆圣线",
+     "zh": "最后的部队",
+     "ja": "ラストバタリオン",
+     "en": "Last Battalion",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第18话·隆圣线",
+     "zh": "冥王之岛",
+     "ja": "冥王の島",
+     "en": "Isle of Hades",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第19话·隆圣线",
+     "zh": "黎明决战",
+     "ja": "暁の決戦",
+     "en": "The Dawning",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第20话·隆圣线",
+     "zh": "侵略者的影子",
+     "ja": "侵略者の影",
+     "en": "Shadow of the Invaders",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第21话·隆圣线",
+     "zh": "小公主",
+     "ja": "リトル･プリンセス",
+     "en": "Little Princess",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第22话·隆圣线",
+     "zh": "R-1对古铁",
+     "ja": "R-1対アルトアイゼン",
+     "en": "R-1 vs. Alteisen",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG1 篇·响介线序盘（第1–22话）",
+   "intro": "开局选南部响介：以飞龙改为母舰的 ATX 小队线。与 GBA 原版的主要差异在后半：亡灵·R型与凶鸟 008L 的等级结算点由第19话移到了第20话。",
+   "rows": [
+    {
+     "code": "OG1 第1话·响介线",
+     "zh": "折翼与碎爪",
+     "ja": "折れた翼、砕けた爪",
+     "en": "Broken Wings, Shattered Claws",
+     "type": "开局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第2话·响介线",
+     "zh": "新天地",
+     "ja": "新天地",
+     "en": "A New Beginning",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第3话·响介线",
+     "zh": "在被斩之前先斩",
+     "ja": "斬られる前に斬れ",
+     "en": "Cut or Be Cut",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第4话·响介线",
+     "zh": "钢铁孤狼",
+     "ja": "鋼鉄の孤狼",
+     "en": "Steel Beowulf",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第5话·响介线",
+     "zh": "天之龙、异界之风",
+     "ja": "天の竜、異界の風",
+     "en": "Soaring Dragon",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第6话·响介线",
+     "zh": "白银的堕天使",
+     "ja": "白銀の堕天使",
+     "en": "Platinum Lucifer",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第7话·响介线",
+     "zh": "燃烧的北方大地",
+     "ja": "北の大地、燃ゆ",
+     "en": "In Flames",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第8话·响介线",
+     "zh": "离别，然后",
+     "ja": "離別、そして",
+     "en": "Separation",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第9话·响介线",
+     "zh": "来自月球的使者",
+     "ja": "月からの使者",
+     "en": "Emissary From The Moon",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第10话·响介线",
+     "zh": "重逢与巨盾",
+     "ja": "再会、そして巨大なる盾",
+     "en": "Colossal Shield",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第11话·响介线",
+     "zh": "月光与枪身",
+     "ja": "月灯りと銃身",
+     "en": "Moonlit Gun",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第12话·响介线",
+     "zh": "月球摇篮",
+     "ja": "ムーンクレイドル",
+     "en": "Moon Cradle",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第13话·响介线",
+     "zh": "消失的护卫机",
+     "ja": "バニシングトルーパー",
+     "en": "Vanishing Trooper",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第14话·响介线",
+     "zh": "名叫布莱恩的男人",
+     "ja": "ブライアンという男",
+     "en": "Mr. President",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第15话·响介线",
+     "zh": "贯穿宇宙之柱",
+     "ja": "宇宙を貫く柱",
+     "en": "A Column Piercing Through Space",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第16话·响介线",
+     "zh": "封印诅咒之物",
+     "ja": "「呪い」を封じ込めたもの",
+     "en": "Sealed Curse",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第17话·响介线",
+     "zh": "急袭埃尔皮斯",
+     "ja": "エルピス、急襲",
+     "en": "Raid on Elpis",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第18话·响介线",
+     "zh": "右手之剑、左手之希望",
+     "ja": "右手に剣、左手に希望",
+     "en": "Sword and Hope",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第19话·响介线",
+     "zh": "为了终将到来之日",
+     "ja": "いつか来るべき日のために",
+     "en": "For the Sake of Tomorrow",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第20话·响介线",
+     "zh": "暗处的眼睛",
+     "ja": "プライベート･アイズ",
+     "en": "Private Eyes",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第21话·响介线",
+     "zh": "小小的公主",
+     "ja": "小さな姫君",
+     "en": "Brave Princess",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第22话·响介线",
+     "zh": "枪与拳",
+     "ja": "銃と拳",
+     "en": "Gun and Fist",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG1 篇·两线共通中盘（第23–31话）",
+   "intro": "第22话会合后两线共通：涅比伊姆出现、琉妮与蕾欧娜加入、英格拉姆的叛离与 R 系列强化。第30话是多条隐藏连锁的结算点。",
+   "rows": [
+    {
+     "code": "OG1 第23话",
+     "zh": "涅比伊姆出现",
+     "ja": "ネビーイーム出現",
+     "en": "Nevi'im Emerges",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第24话",
+     "zh": "琉妮与瓦尔西奥妮",
+     "ja": "リューネ、そしてヴァルシオーネ",
+     "en": "Lüne and Valsione",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第25话",
+     "zh": "毒蛇之牙",
+     "ja": "毒蛇の牙",
+     "en": "The Viper's Fangs",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第26话",
+     "zh": "那个男人的真意",
+     "ja": "その男の真意",
+     "en": "One Man's Resolve",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第27话",
+     "zh": "GEIM系统",
+     "ja": "ゲイム･システム",
+     "en": "Geim System",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第28话",
+     "zh": "十字军消失之日",
+     "ja": "十字軍が消える日",
+     "en": "Fall of The Crusaders",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第29话",
+     "zh": "日内瓦毁灭",
+     "ja": "ジュネーブ壊滅",
+     "en": "Geneva Scourged",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第30话",
+     "zh": "背叛的枪口",
+     "ja": "裏切りの銃口",
+     "en": "Traitorous Gun",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第31话",
+     "zh": "面具之下的真容",
+     "ja": "仮面の下にある顔は",
+     "en": "Beneath the Mask",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG1 篇·隆圣线终盘（第32–41话）",
+   "intro": "终盘按线分开的隆圣线版本：塞普塔金特战役的隆圣视角。",
+   "rows": [
+    {
+     "code": "OG1 第32话·隆圣线",
+     "zh": "斩不断的牵线",
+     "ja": "断ち切れぬ操り糸",
+     "en": "Strings Uncut",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第33话·隆圣线",
+     "zh": "虚伪之影",
+     "ja": "偽りの影",
+     "en": "Shadows of Deceit",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第34话·隆圣线",
+     "zh": "钢之巨神",
+     "ja": "鋼の巨神",
+     "en": "Steel Colossus",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第35话·隆圣线",
+     "zh": "冰国的方舟",
+     "ja": "氷の国の方舟",
+     "en": "Frozen Ark",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第36话·隆圣线",
+     "zh": "傀儡士兵",
+     "ja": "マリオネット･ソルジャー",
+     "en": "Marionettes",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第37话·隆圣线",
+     "zh": "黑色幽灵",
+     "ja": "黒い幽霊",
+     "en": "Black Phantom",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第38话·隆圣线",
+     "zh": "SRW作战",
+     "ja": "オペレーションSRW",
+     "en": "Operation SRW",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第39话·隆圣线",
+     "zh": "射落白色魔星",
+     "ja": "白き魔星を撃て",
+     "en": "Shooting the Star",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第40话·隆圣线",
+     "zh": "昆虫牢笼",
+     "ja": "インセクト･ケージ",
+     "en": "Insect Cage",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第41话·隆圣线",
+     "zh": "手中之剑乃双刃剑",
+     "ja": "手にする剣は両刃なり",
+     "en": "Double-Edged Sword",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG1 篇·响介线终盘（第32–41话）",
+   "intro": "终盘按线分开的响介线版本：夺回艾克塞琳、秘めたる力等响介侧的收束话。",
+   "rows": [
+    {
+     "code": "OG1 第32话·响介线",
+     "zh": "消失的白骑士",
+     "ja": "消えた白騎士",
+     "en": "One Knight Stand",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第33话·响介线",
+     "zh": "红色修罗",
+     "ja": "赤い修羅",
+     "en": "Red Ravager",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第34话·响介线",
+     "zh": "亡灵自过去降临",
+     "ja": "亡霊、過去より来たりて",
+     "en": "Ghost of The Past",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第35话·响介线",
+     "zh": "夺回",
+     "ja": "奪還",
+     "en": "Rescue",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第36话·响介线",
+     "zh": "潜藏之力",
+     "ja": "秘めたる力",
+     "en": "Power Within",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第37话·响介线",
+     "zh": "远方的故乡",
+     "ja": "遠き故郷",
+     "en": "Long Way Home",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第38话·响介线",
+     "zh": "作战密码S·R·W",
+     "ja": "作戦コードS・R・W",
+     "en": "Codename: SRW",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第39话·响介线",
+     "zh": "一点突破",
+     "ja": "一点突破",
+     "en": "Pinpoint Strike",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第40话·响介线",
+     "zh": "赌注的代价",
+     "ja": "賭けの代償",
+     "en": "Price to Pay",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG1 第41话·响介线",
+     "zh": "唯有击穿一途",
+     "ja": "ただ、撃ち貫くのみ",
+     "en": "Just Blast Through",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG1 篇·最终话",
+   "intro": "两线共通的最终话。OGS 取消了 GBA 原版『熟练度 ≥32』的进入门槛。",
+   "rows": [
+    {
+     "code": "OG1 最终话",
+     "zh": "最后的审判者",
+     "ja": "最後の審判者",
+     "en": "The Final Adjudicator",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·共通序盘（第1–16话）",
+   "intro": "OG2 篇（EPISODE 2）序盘：第1–5话是 OGS 新增的序章（Excellence 小队与阿克塞尔的过去），第6话起接 GBA 原版的开局并整体后移编号；第14、15话同为 OGS 新增。",
+   "rows": [
+    {
+     "code": "OG2 第1话",
+     "zh": "蠢动的影子",
+     "ja": "蠢く影",
+     "en": "Writhing Shadows",
+     "type": "新增序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第2话",
+     "zh": "扭曲的时流",
+     "ja": "歪む時流",
+     "en": "Twisted Timestream",
+     "type": "新增序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第3话",
+     "zh": "苍蓝的追击者",
+     "ja": "蒼い追跡者",
+     "en": "Azure Pursuers",
+     "type": "新增序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第4话",
+     "zh": "狡兔死走狗烹？（前篇）",
+     "ja": "狡兎死して走狗煮らるか？（前編）",
+     "en": "The Dustbin of History (Pt. 1)",
+     "type": "新增序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第5话",
+     "zh": "狡兔死走狗烹？（后篇）",
+     "ja": "狡兎死して走狗煮らるか？（後編）",
+     "en": "The Dustbin of History (Pt. 2)",
+     "type": "新增序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第6话",
+     "zh": "美丽的侵入者",
+     "ja": "美しき侵入者",
+     "en": "Beautiful Infiltrator",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第7话",
+     "zh": "向星之翼",
+     "ja": "星への翼",
+     "en": "Wings to the Stars",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第8话",
+     "zh": "圣十字军的残骸",
+     "ja": "聖十字軍の残骸",
+     "en": "Remaining Crusaders",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第9话",
+     "zh": "强化儿童",
+     "ja": "ブーステッド・チルドレン",
+     "en": "Boosted Children",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第10话",
+     "zh": "",
+     "ja": "忘れえぬ記憶",
+     "en": "Unforgettable Memories",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第11话",
+     "zh": "应当守护之物",
+     "ja": "守るべきもの",
+     "en": "Someone to Protect",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第12话",
+     "zh": "过去，以及来自远方",
+     "ja": "過去、そして彼方より",
+     "en": "From Far and Away",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第13话",
+     "zh": "在火焰中消逝的约定",
+     "ja": "約束は炎に消えて",
+     "en": "A Promise in Flames",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第14话",
+     "zh": "梦的途中",
+     "ja": "夢の途中で",
+     "en": "Chasing the Dream",
+     "type": "新增关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第15话",
+     "zh": "为谁而执的盾",
+     "ja": "誰がための盾",
+     "en": "For Whom a Shield",
+     "type": "新增关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第16话",
+     "zh": "充满疑惑的宇宙",
+     "ja": "疑惑の宇宙",
+     "en": "Suspicious Space",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧一·埃塞俄比亚线（第17–20话）",
+   "intro": "第16话后第一次部队分歧的钢号队路线。合流时另一线（月球线）角色 +4 级、+4 击坠、+25 PP（蕾菲娜 +5 级、+6 击坠、+10 PP，肖恩 PP 不变）。",
+   "rows": [
+    {
+     "code": "OG2 第17话·埃塞俄比亚线",
+     "zh": "樱花幻影",
+     "ja": "桜花幻影",
+     "en": "Phantasm in Bloom",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第18话·埃塞俄比亚线",
+     "zh": "异形的呼唤",
+     "ja": "異形の呼び声",
+     "en": "Call of the Xenomorph",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第19话·埃塞俄比亚线",
+     "zh": "明智的人偶",
+     "ja": "ワイズ･ドール",
+     "en": "Clever Doll",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第20话·埃塞俄比亚线",
+     "zh": "",
+     "ja": "ノイエＤＣ",
+     "en": "Neo DC",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧一·月球线（第17–20话）",
+   "intro": "第一次分歧的飞龙改队路线。合流时另一线（埃塞俄比亚线）角色 +4 级、+4 击坠、+30 PP。",
+   "rows": [
+    {
+     "code": "OG2 第17话·月球线",
+     "zh": "其名为艾因斯特",
+     "ja": "その名はアインスト",
+     "en": "Their Name Is Einst",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第18话·月球线",
+     "zh": "应当战斗的敌人",
+     "ja": "戦うべき敵",
+     "en": "Fight or Flight",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第19话·月球线",
+     "zh": "剑神现身",
+     "ja": "剣神現る",
+     "en": "God of the Sword",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第20话·月球线",
+     "zh": "新生·圣十字军",
+     "ja": "新生、聖十字軍",
+     "en": "Crusaders Reborn",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·共通中盘（第21–26话）",
+   "intro": "合流后共通：夏茵事件的收束、检察官登场、特斯拉研脱出与『影』的现身。多条隐藏连锁在此立旗/结算。",
+   "rows": [
+    {
+     "code": "OG2 第21话",
+     "zh": "流亡的公主",
+     "ja": "亡国の姫君",
+     "en": "Princess in Exile",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第22话",
+     "zh": "来自星辰之物",
+     "ja": "星から来るもの",
+     "en": "From the Stars",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第23话",
+     "zh": "第三只凶鸟",
+     "ja": "第三の凶鳥",
+     "en": "The Third Raven",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第24话",
+     "zh": "逃出特斯拉研",
+     "ja": "テスラ研脱出",
+     "en": "Escape from Tesla",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第25话",
+     "zh": "流星，划破夜空",
+     "ja": "流星、夜を切り裂いて",
+     "en": "Cut Through the Night",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第26话",
+     "zh": "出现的「影」",
+     "ja": "現れた「影」",
+     "en": "The Shadow Descends",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧二·阿维亚诺线（第27–30话）",
+   "intro": "第二次分歧的钢号队路线（The School 线）。合流时另一线（伊豆线）角色 +6 级、+6 击坠、+30 PP。",
+   "rows": [
+    {
+     "code": "OG2 第27话·阿维亚诺线",
+     "zh": "超音速的妖精",
+     "ja": "超音速の妖精",
+     "en": "My Fair Lions",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第28话·阿维亚诺线",
+     "zh": "",
+     "ja": "彗星、遥か遠く",
+     "en": "The Comet Cometh",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第29话·阿维亚诺线",
+     "zh": "伯劳与隼",
+     "ja": "百舌と隼",
+     "en": "The Shrike and the Falcon",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第30话·阿维亚诺线",
+     "zh": "被操纵的孩子们",
+     "ja": "仕組まれた子供達",
+     "en": "Under Control",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧二·伊豆线（第27–30话）",
+   "intro": "第二次分歧的飞龙改队路线（影镜线）。合流时另一线（阿维亚诺线）角色 +6 级、+6 击坠、+40 PP。",
+   "rows": [
+    {
+     "code": "OG2 第27话·伊豆线",
+     "zh": "燃吧！斩舰刀",
+     "ja": "燃えよ斬艦刀",
+     "en": "Roar, Zankantou",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第28话·伊豆线",
+     "zh": "龙虎觉醒",
+     "ja": "龍虎覚醒",
+     "en": "Awakening",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第29话·伊豆线",
+     "zh": "贯穿吧，比那家伙更快",
+     "ja": "貫け、奴よりも速く",
+     "en": "Piercing First",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第30话·伊豆线",
+     "zh": "",
+     "ja": "もう一つの『影』",
+     "en": "Another Shadow",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·共通后盘（第31–41话）",
+   "intro": "共通后盘：艾因斯特决战、SRX 成型、大曾伽诞生与影镜决战；第41话是 OGS 新增的埃克瑟伦斯归队话。第33–40话集中结算多件隐藏。",
+   "rows": [
+    {
+     "code": "OG2 第31话",
+     "zh": "不请自来的异邦人（前编）",
+     "ja": "招かれざる異邦人（前編）",
+     "en": "Uninvited Visitors (Pt. 1)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第32话",
+     "zh": "不请自来的异邦人（后编）",
+     "ja": "招かれざる異邦人（後編）",
+     "en": "Uninvited Visitors (Pt. 2)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第33话",
+     "zh": "破碎的人偶",
+     "ja": "壊れた人形",
+     "en": "Broken Puppet",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第34话",
+     "zh": "绯红的幻想",
+     "ja": "紅の幻想",
+     "en": "Scarlet Illusion",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第35话",
+     "zh": "被乐园放逐者",
+     "ja": "楽園からの追放者",
+     "en": "Exiles from Paradise",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第36话",
+     "zh": "如疾风，如流星",
+     "ja": "疾風、そして流星の如く",
+     "en": "Like a Shooting Star",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第37话",
+     "zh": "武神装攻大曾伽",
+     "ja": "武神装攻ダイゼンガー",
+     "en": "War God Armament Dygenguar",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第38话",
+     "zh": "普兰塔吉尼特行动（前编）",
+     "ja": "オペレーション・プランタジネット（前編）",
+     "en": "Operation Plantagenet (Pt. 1)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第39话",
+     "zh": "普兰塔吉尼特行动（后编）",
+     "ja": "オペレーション・プランタジネット（後編）",
+     "en": "Operation Plantagenet (Pt. 2)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第40话",
+     "zh": "会者定离之理",
+     "ja": "会者定離の理",
+     "en": "Nothing Lasts Forever",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第41话",
+     "zh": "时间的迷途船",
+     "ja": "時のストレイシープ",
+     "en": "Ship Out of Time",
+     "type": "新增关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧三·地球摇篮线（第42–44话）",
+   "intro": "第三次分歧的黑钢号队路线。合流时另一线（宇宙线）角色 +5 级、+25 PP、+5 击坠（布里特 +5 级、+40 PP、+10 击坠）。",
+   "rows": [
+    {
+     "code": "OG2 第42话·地球摇篮线",
+     "zh": "",
+     "ja": "熱砂を越えて",
+     "en": "Through the Blazing Sands",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第43话·地球摇篮线",
+     "zh": "梅加斯之门",
+     "ja": "メイガスの門",
+     "en": "The Gate of Magus",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第44话·地球摇篮线",
+     "zh": "眠吧，在大地深处",
+     "ja": "眠れ、地の底に",
+     "en": "Rest in the Cradle",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·分歧三·宇宙线（第42–44话）",
+   "intro": "第三次分歧的飞龙改队路线（GBA 原版称月球摇篮线，OGS 改称宇宙线）。合流时另一线（地球摇篮线）角色 +5 级、+30 PP、+5 击坠。",
+   "rows": [
+    {
+     "code": "OG2 第42话·宇宙线",
+     "zh": "向激震的宇宙",
+     "ja": "激震の宇宙へ",
+     "en": "Turmoil in Space",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第43话·宇宙线",
+     "zh": "纯粹的存在",
+     "ja": "純粋なる存在",
+     "en": "Pure Being",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第44话·宇宙线",
+     "zh": "疯狂之梦",
+     "ja": "ルナティック・ドリーム",
+     "en": "Lunatic Dream",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2 篇·共通终盘（第45–49话＋最终话）",
+   "intro": "共通终盘与最终话。OGS 把 GBA 原版的第42话与隐藏最终话合并为一个最终话剧本，且取消熟练度门槛。",
+   "rows": [
+    {
+     "code": "OG2 第45话",
+     "zh": "白骑士之心",
+     "ja": "白騎士の心",
+     "en": "A Knight's Heart",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第46话",
+     "zh": "",
+     "ja": "魔星へ集う者達",
+     "en": "The Gathering",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第47话",
+     "zh": "为了自己所相信之物",
+     "ja": "己の信じるもののために",
+     "en": "Fight For Your Cause",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第48话",
+     "zh": "审判者，被审判者",
+     "ja": "裁く者、裁かれる者",
+     "en": "Judge or Be Judged",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 第49话",
+     "zh": "",
+     "ja": "彼方への扉",
+     "en": "Door to the Beyond",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2 最终话",
+     "zh": "「过去」与「未来」",
+     "ja": "「かつて」と「これから」",
+     "en": "What Once Was, What Will Be",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "OG2.5 篇（全12话）",
+   "intro": "通关 OG2 篇后解锁的追加篇章：虎太与康帕奇布尔凯撒、修罗神与巴托尔群的后续，拉乌尔的埃克瑟伦斯以三种新形态回归。本篇多项取得物只认 OG2 篇通关存档的继承。",
+   "rows": [
+    {
+     "code": "OG2.5 第1话",
+     "zh": "复苏之炎",
+     "ja": "甦る炎",
+     "en": "Flames Rekindled",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第2话",
+     "zh": "修罗的预兆",
+     "ja": "修羅の予兆",
+     "en": "Omen of the Shura",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第3话",
+     "zh": "烦恼的守人",
+     "ja": "悩める守人",
+     "en": "Troubled Overseer",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第4话",
+     "zh": "受考验的守护者",
+     "ja": "試される番人達",
+     "en": "Trial of the Guardians",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第5话",
+     "zh": "被献上的祭品",
+     "ja": "捧げられた生贄",
+     "en": "Sacrificial Lambs",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第6话",
+     "zh": "成群的机械",
+     "ja": "群れなす機械",
+     "en": "Swarming Machines",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第7话",
+     "zh": "被欺骗的观众",
+     "ja": "欺かれた観客",
+     "en": "Deception",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第8话",
+     "zh": "不速之客",
+     "ja": "望まれぬ訪問者",
+     "en": "Unwelcome Visitors",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第9话",
+     "zh": "崩坏的理想",
+     "ja": "崩壊する理想",
+     "en": "Crumbling Ideals",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第10话",
+     "zh": "迫近的惨事",
+     "ja": "迫り来る惨事",
+     "en": "Looming Tragedy",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 第11话",
+     "zh": "涌来的恶意",
+     "ja": "押し寄せる悪意",
+     "en": "Encroaching Malice",
+     "type": "追加篇关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "OG2.5 最终话",
+     "zh": "迷宫的囚徒",
+     "ja": "迷宮の囚人",
+     "en": "Prisoner of the Labyrinth",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
