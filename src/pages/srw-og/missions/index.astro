@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwOgMissionList from '../../../components/SrwOgMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OG', path: 'srw-og/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OG（GBA）关卡攻略 · 全74个关卡页面列表" description="超级机器人大战OG（2002年 GBA）全部关卡的页面列表：一周目42话（第1–41话＋最终话），计入隆圣/响介两条主人公线的全部版本共74个不同剧本。每关独立攻略页含胜利/败北条件、熟练度（Battle Mastery）取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-og/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OG · 关卡攻略</h1>
+  <p>2002 年 GBA《超级机器人大战OG》（开发：Banpresoft）是全系列第一部<strong>全原创</strong>作品（无版权参战作品），也是 OG 系列的起点。开局二选一主人公：<strong>伊达隆圣</strong>（SRX 小队，母舰钢号）或<strong>南部响介</strong>（ATX 小队，母舰飞龙改）。两线第1–22话完全不同，第22话两队会合，第23–31话共通，第32–41话再按线分开，最终话共通——一周目实际游玩 <strong>42 话</strong>，计入两线全部版本共 <strong>74 个不同剧本</strong>，本站全部建页。本作<strong>有熟练度（Battle Mastery）系统</strong>：第1–41话各有 1 个取得条件（共 41 点），累计 <strong>≥32 点</strong>才能进入最终话，23/27/29/30 点还是猎师王之剑、英雄纹章、重力加农炮、钢铁之魂四件隐藏要素的门槛；隐藏机体则全部由跨话连锁决定（指定话结算等级/击坠数、在更后面的话交付），且响介线的凶鸟 008L 与古伦加斯特二者互斥。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-og/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第二十部<strong>全关卡补完</strong>的作品——74 个详情页全部建成（按发售顺序逐作补完；OG 在年表上位于 R 与第2次α之间，此前被交接遗漏，现已补回原位）。流程、胜败条件、熟练度条件、加入与隐藏要素以 Akurasu 的 OG <strong>Flow Chart 为主源</strong>，逐条与同站 Secrets 页交叉核对，话数与系统以日文维基互证。<strong>计数说明</strong>：本站按流程图逐条清点为一周目 42 话（第1–41话＋最终话）；日文维基作「含真最终话全 43 话／74 舞台」——74 个不同剧本两源一致，但 43 话的口径未注明出处、与逐条清点差 1，本站按可清点的 42 话建页并在此并记。<strong>如实说明</strong>：Akurasu 的流程图不刊载逐关敌方配置，GameCenter GX 不收录本作——本站各页的敌方配置与逐格地形标为待核实、坐标图为参照框架；且本作的敌方出现数量会随累计熟练度变动（日文维基），不存在脱离熟练度档位的唯一编成表。本页只做 GBA 原版（2002 年）；PS2 重制版《OGS》（2007 年）的逐话差异不在本站当前范围内。</span>
+  </div>
+
+  <SrwOgMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: Flow Chart</a>（主来源：全关卡的胜败条件、熟练度条件、机体加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG 主条目</a>（发售信息、剧本总数、系统子页索引）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION</a>（话数口径、系统、剧情梗概的交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG/Clear_Bonus" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OG: Clear Bonus</a>（双线通关后的周回继承规则）</li>
+  </ul>
+  <p><a href={href('srw-og/')}>← 返回超级机器人大战OG</a></p>
+</Base>

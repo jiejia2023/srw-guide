@@ -1,0 +1,6083 @@
+{
+ "missions": [
+  {
+   "code": "第1话·隆圣线",
+   "slug": "stage-1-ryusei",
+   "zh": "第二次接触",
+   "ja": "セカンド·コンタクト",
+   "en": "Second Contact",
+   "route": "隆圣线",
+   "area": "",
+   "type": "开局关",
+   "prerequisite": "新游戏开局：选择隆圣·达特为主人公后进入的隆圣线第1话。另一位主人公响介线的第1话完全不同（见响介线第1话页）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "艾尔扎姆被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·R（艾尔扎姆）——本话由艾尔扎姆驾驶亡灵 Mk-II·R 出击"
+   ],
+   "events": [
+    "本话的败北条件与主角无关：护卫对象艾尔扎姆被击破即败北，配装与站位须优先保他。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第2话·隆圣线《个人护卫机》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·隆圣线",
+   "slug": "stage-2-ryusei",
+   "zh": "个人护卫机",
+   "ja": "パーソナルトルーパー",
+   "en": "Personal Trooper",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第2话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "隆圣被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·TT（隆圣）",
+    "亡灵 Mk-II·M（卡伊）",
+    "亡灵 Mk-II·M（地球联邦军驾驶员）×2"
+   ],
+   "events": [
+    "熟练度要求只有 2 回合，是全作最紧的时限之一：隆圣机与卡伊机的火力分配要提前规划。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第3话·隆圣线《训练》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·隆圣线",
+   "slug": "stage-3-ryusei",
+   "zh": "训练",
+   "ja": "訓練",
+   "en": "Training",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第3话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "舒兹瓦尔特（莱迪斯）",
+    "亡灵 Mk-II·TT（古林彩）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话·隆圣线《恐惧游戏》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·隆圣线",
+   "slug": "stage-4-ryusei",
+   "zh": "恐惧游戏",
+   "ja": "フィアー·ゲーム",
+   "en": "Fear Game",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第4话：护卫千足舰抵达地图东端的护送关。",
+   "victory": [
+    "千足舰（Tausendfussler）抵达地图东端"
+   ],
+   "defeat": [
+    "千足舰被击破",
+    "隆圣被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破天山"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "胜利条件不是歼灭而是护送：千足舰到达东端即过关，敌军可不必全灭。",
+    "熟练度对象天山是敌方王牌：要在护送途中分兵击破他（他就是日后反复登场的宿敌天山）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第5话·隆圣线《南极的惨剧》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·隆圣线",
+   "slug": "stage-5-ryusei",
+   "zh": "南极的惨剧",
+   "ja": "南極の慘劇",
+   "en": "Atrocity",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第5话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "隆圣被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度时限仅 2 回合：与第2话并列全作最紧，开局站位与第一回合的击破顺序决定成败。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第6话·隆圣线《圣十字军的威胁》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·隆圣线",
+   "slug": "stage-6-ryusei",
+   "zh": "圣十字军的威胁",
+   "ja": "聖十字軍の脅威",
+   "en": "Divine Crusaders",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第6话：DC（圣十字军）正式成为敌对势力。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "F-28 梅塞尔（贾多）",
+    "F-28 梅塞尔（迦纳特）",
+    "F-28 梅塞尔（拉托妮）",
+    "亡灵 Mk-II·M（卡伊）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话·隆圣线《防卫关门海峡》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·隆圣线",
+   "slug": "stage-7-ryusei",
+   "zh": "防卫关门海峡",
+   "ja": "關門海峽を防衛せよ",
+   "en": "Kanmon Strait",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第7话：拦截敌方陆上战舰杀人鲸号。",
+   "victory": [
+    "将杀人鲸号（Killer Whale）的 HP 降至 20% 以下"
+   ],
+   "defeat": [
+    "杀人鲸号抵达地图东北角",
+    "隆圣被击破",
+    "杀人鲸号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "天山登场后 3 回合内击破他"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·M（伊鲁姆）",
+    "亡灵 Mk-II·M（卡伊）"
+   ],
+   "events": [
+    "本话是「打残而非击沉」的目标关：把杀人鲸号 HP 压到 20% 以下即胜利，但把它击沉反而败北——火力收尾要留手。",
+    "熟练度的计时从天山登场起算，不是开局。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话·隆圣线《钢号出击》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话·隆圣线",
+   "slug": "stage-8-ryusei",
+   "zh": "钢号出击",
+   "ja": "ハガネ發進",
+   "en": "The Hagane",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第8话：战舰钢号出击，本队正式成军。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：歼灭艾尔扎姆以外的全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：敌人抵达钢号的出击口",
+    "第一阶段：莱迪斯被击破",
+    "第二阶段：钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内歼灭艾尔扎姆以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "野猪（英格拉姆）",
+    "钢号（大铁舰长、铁也）",
+    "亡灵 Mk-II·TT（隆圣）——过关后隆圣换乘猛禽（Wildraubtier）",
+    "亡灵 Mk-II·M（卡伊）"
+   ],
+   "events": [],
+   "secrets": [
+    "凶鸟 008L（隆圣线）连锁的第 1 步在本话立旗：条件在第29话结算——英格拉姆须在第29话结束时等级 ≥32（且击坠 ≥20，见第29话页），达成后第37话获得 008L。"
+   ],
+   "unlocks": [
+    "第9话·隆圣线《海沟来的刺客》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·隆圣线",
+   "slug": "stage-9-ryusei",
+   "zh": "海沟来的刺客",
+   "ja": "海溝よりの刺客",
+   "en": "Silent Service",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第9话：海战，可选择歼灭或护送钢号南下。",
+   "victory": [
+    "歼灭全部敌人，或让钢号抵达地图底端（南端）"
+   ],
+   "defeat": [
+    "第一阶段：钢号被击破",
+    "第二阶段：经过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "凶鸟 009（伊鲁姆）——过关后获得"
+   ],
+   "events": [
+    "两种过关方式并存：走护送路线则必须在 5 回合内让钢号抵达底端；要拿熟练度就必须全歼敌人，二者要提前选边。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第10话·隆圣线《16年前的复仇》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话·隆圣线",
+   "slug": "stage-10-ryusei",
+   "zh": "16年前的复仇",
+   "ja": "16年目の復讎",
+   "en": "Vengeance",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第10话：全员生存压力关。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭坦佩斯特以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "败北条件是任一我方被击破：脆皮单位不要单独突前；熟练度允许放走坦佩斯特本人（他会撤退），先清杂兵。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话·隆圣线《魔装机神》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话·隆圣线",
+   "slug": "stage-11-ryusei",
+   "zh": "魔装机神",
+   "ja": "魔裝機神",
+   "en": "Elemental Lord",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第11话：塞巴斯塔与正树登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "塞巴斯塔（正树）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第12话·隆圣线《超斗士古伦加斯特》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·隆圣线",
+   "slug": "stage-12-ryusei",
+   "zh": "超斗士古伦加斯特",
+   "ja": "超鬥士グルンガスト",
+   "en": "Grungust",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第12话：古伦加斯特登场关，分两阶段。",
+   "victory": [
+    "第一阶段：伊鲁姆抵达千足舰处",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：千足舰被击破",
+    "第二阶段：伊鲁姆被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内击破艾尔扎姆（或歼灭他以外的全部敌人）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "F-28 梅塞尔（伊鲁姆）",
+    "古伦加斯特（伊鲁姆）",
+    "亡灵 Mk-II·M（无驾驶员）×2"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第13话·隆圣线《比安·佐尔达克》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·隆圣线",
+   "slug": "stage-13-ryusei",
+   "zh": "比安·佐尔达克",
+   "ja": "ビアン·ゾルダーク",
+   "en": "Bian Zoldark",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第13话：直面 DC 总帅比安与巴尔西昂。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "巴尔西昂登场后 3 回合内将其 HP 降至 80% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度只要求把巴尔西昂打到 80% 以下且计时从它登场起算：留好高火力单位与精神，不要在它登场前把资源花光。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第14话·隆圣线《越线》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·隆圣线",
+   "slug": "stage-14-ryusei",
+   "zh": "越线",
+   "ja": "オーバー·ザ·ライン",
+   "en": "Cross the Line",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第14话：护送钢号南下与歼灭二选一的推进关。",
+   "victory": [
+    "第一阶段：钢号抵达地图南端",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：钢号被击破",
+    "第二阶段：隆圣被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "9 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话·隆圣线《托马斯的陷阱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话·隆圣线",
+   "slug": "stage-15-ryusei",
+   "zh": "托马斯的陷阱",
+   "ja": "トーマスの罠",
+   "en": "Thomas's Trap",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第15话：莉奥加入；本话古林彩不可出击。",
+   "victory": [
+    "第一阶段：将敌方「Ryo」（Akurasu 原文如此）的 HP 降至 50% 以下",
+    "第二阶段：击破托马斯"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破托马斯"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "莉奥——本话加入",
+    "注记：本话古林彩不可出击（Akurasu 流程图）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话·隆圣线《斯塔巴克岛浪急》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": "Akurasu 流程图本话胜利条件第一阶段写作「Ryo's HP reduced to below 50%」，该目标的具体所指（敌方驾驶员名）在流程图中未作进一步说明，本站照原文转记并在此存疑，不作臆测解读。"
+  },
+  {
+   "code": "第16话·隆圣线",
+   "slug": "stage-16-ryusei",
+   "zh": "斯塔巴克岛浪急",
+   "ja": "スターバク島波高し",
+   "en": "Starbuck Island",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第16话：凉斗与里昂·F 加入。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：钢号抵达地图尽头"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部初期敌人（托马斯与天山可以撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "里昂·F（凉斗）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话·隆圣线《最后的部队》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话·隆圣线",
+   "slug": "stage-17-ryusei",
+   "zh": "最后的部队",
+   "ja": "ラストバタリオン",
+   "en": "Last Battalion",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第17话：限时护送关；R-1 在本话交付隆圣。",
+   "victory": [
+    "6 回合内让钢号抵达地图南端"
+   ],
+   "defeat": [
+    "6 回合内钢号未抵达南端",
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破坦佩斯特"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-1（隆圣）"
+   ],
+   "events": [
+    "胜利靠钢号移动而非歼灭：6 回合时限里要给钢号清出航路，恋战是本话最大的败因。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话·隆圣线《冥王之岛》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话·隆圣线",
+   "slug": "stage-18-ryusei",
+   "zh": "冥王之岛",
+   "ja": "冥王の島",
+   "en": "Isle of Hades",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第18话：全员抵达型目标关。",
+   "victory": [
+    "第一阶段：钢号抵达目的地",
+    "第二阶段：钢号以外的全部我方抵达目的地"
+   ],
+   "defeat": [
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内击破艾尔扎姆"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢号追加武装「特罗宁加农炮（Tronium Cannon）」——过关后获得"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第19话·隆圣线《黎明决战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·隆圣线",
+   "slug": "stage-19-ryusei",
+   "zh": "黎明决战",
+   "ja": "曉の決戰",
+   "en": "The Dawning",
+   "route": "隆圣线",
+   "area": "",
+   "type": "决战关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第19话：与比安的巴尔西昂决战；本话钢号不可出击。",
+   "victory": [
+    "击破巴尔西昂"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "将格兰森的 HP 降至 40% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "注记：本话钢号（大铁、铁也）不可出击（Akurasu 流程图）"
+   ],
+   "events": [
+    "熟练度对象是乱入的格兰森（修的座机）：只需把 HP 压到 40% 以下，不必也不可能在此击沉它，主力火力仍应优先处理巴尔西昂。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第20话·隆圣线《侵略者的影子》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话·隆圣线",
+   "slug": "stage-20-ryusei",
+   "zh": "侵略者的影子",
+   "ja": "侵略者の影",
+   "en": "Invaders",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第20话：异星人的影子开始出现。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "塞巴斯塔（正树）——过关后正式加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话·隆圣线《小公主》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话·隆圣线",
+   "slug": "stage-21-ryusei",
+   "zh": "小公主",
+   "ja": "リトル·プリンセス",
+   "en": "Little Princess",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第21话：里克森特城堡防卫关，夏茵公主登场。",
+   "victory": [
+    "第一阶段：任一我方抵达目的地",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：敌人抵达里克森特城堡",
+    "第二阶段：钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破坦佩斯特（其 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第22话·隆圣线《R-1对古铁》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话·隆圣线",
+   "slug": "stage-22-ryusei",
+   "zh": "R-1对古铁",
+   "ja": "R-1對アルトアイゼン",
+   "en": "R-1 vs Alteisen",
+   "route": "隆圣线",
+   "area": "",
+   "type": "会合关",
+   "prerequisite": "隆圣线（开局选择伊达隆圣为主人公）第22话：隆圣队与响介队在此会合——两线自下一话起合流为共通关卡（第23–31话）。",
+   "victory": [
+    "将古铁的 HP 降至 40% 以下"
+   ],
+   "defeat": [
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内将古铁的 HP 降至 40% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-2（莱迪斯）",
+    "古伦加斯特弐式（楠叶）",
+    "过关后加入：古铁（响介）、白骑士（艾克塞琳）、凶鸟 Mk-II（布里特）",
+    "过关后强化：古铁追加武装「王牌（Trump Card）」、白骑士追加武装「牛舌步枪 D（Oxtongue Rifle D）」、古铁与白骑士习得合体攻击「Rampage Ghost」"
+   ],
+   "events": [
+    "本话是演习性质的对决：把古铁打到 40% 以下即结束，任一我方被击破则败北——不要让脆皮单位进入古铁的射程。",
+    "自第23话起两条主人公线合流，以下第23–31话为两线共通关卡；第32话起再按主人公线分开。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第23话《涅比伊姆出现》（两线共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Team Attacks（合体攻击一览）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Team_Attacks"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第1话·响介线",
+   "slug": "stage-1-kyosuke",
+   "zh": "折翼与碎爪",
+   "ja": "折れた翼、碎けた爪",
+   "en": "Broken Wings",
+   "route": "响介线",
+   "area": "",
+   "type": "开局关",
+   "prerequisite": "新游戏开局：选择南部响介为主人公后进入的响介线第1话。另一位主人公隆圣线的第1话完全不同（见隆圣线第1话页）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "响介被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "猛禽（Wildraubtier，响介）"
+   ],
+   "events": [
+    "熟练度时限仅 2 回合：响介单机开局，站位与第一回合的击破顺序必须一次到位。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第2话·响介线《新天地》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·响介线",
+   "slug": "stage-2-kyosuke",
+   "zh": "新天地",
+   "ja": "新天地",
+   "en": "A New Beginning",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第2话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "响介被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·M（响介）",
+    "亡灵 Mk-II·M（艾克塞琳）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话·响介线《在被斩之前先斩》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话·响介线",
+   "slug": "stage-3-kyosuke",
+   "zh": "在被斩之前先斩",
+   "ja": "斬られる前に斬れ",
+   "en": "Kill or be Killed",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第3话：曾伽与古伦加斯特零式登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在千足舰（Tausendfussler）抵达地图西端之前歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·TT（布里特）",
+    "古伦加斯特零式（曾伽）"
+   ],
+   "events": [
+    "熟练度的计时参照物是千足舰的位置：它抵达西端之前必须清场，推进节奏要盯着它的移动。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第4话·响介线《钢铁孤狼》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话·响介线",
+   "slug": "stage-4-kyosuke",
+   "zh": "钢铁孤狼",
+   "ja": "鋼鐵の孤狼",
+   "en": "Iron Wolf",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第4话：响介换乘古铁。",
+   "victory": [
+    "第一阶段：防卫千足舰",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "千足舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "千足舰（地球联邦军驾驶员）×2",
+    "古铁（响介）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第5话·响介线《天之龙、异界之风》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话·响介线",
+   "slug": "stage-5-kyosuke",
+   "zh": "天之龙、异界之风",
+   "ja": "天の龍、異界の風",
+   "en": "Soaring Dragon",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第5话：飞龙改与塞巴斯塔登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破",
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "千足舰（地球联邦军驾驶员）",
+    "塞巴斯塔（正树）",
+    "飞龙改（蕾菲娜、肖恩）",
+    "F-28 梅塞尔（卡琪娜）",
+    "F-28 梅塞尔（拉塞尔）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话·响介线《白银的堕天使》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话·响介线",
+   "slug": "stage-6-kyosuke",
+   "zh": "白银的堕天使",
+   "ja": "白銀の墮天使",
+   "en": "White Knight",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第6话：艾克塞琳换乘白骑士；后段有导弹防卫目标。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：在导弹抵达基地之前将其 HP 降至 40%"
+   ],
+   "defeat": [
+    "第一阶段：敌人抵达司令部",
+    "第一阶段：飞龙改被击破",
+    "第二阶段：导弹被击破",
+    "第二阶段：导弹抵达司令部",
+    "第二阶段：飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内击破坦佩斯特"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·M（驾驶员改为卡琪娜，机体涂装变红）",
+    "白骑士（艾克塞琳）"
+   ],
+   "events": [
+    "第二阶段的导弹只能打残不能击沉：击破导弹即败北，火力控制与第7话·隆圣线的杀人鲸号同理。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第7话·响介线《燃烧的北方大地》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话·响介线",
+   "slug": "stage-7-kyosuke",
+   "zh": "燃烧的北方大地",
+   "ja": "北の大地、燃ゆ",
+   "en": "In Flames",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第7话：千足舰北进的护送与决战关。",
+   "victory": [
+    "第一阶段：千足舰抵达地图北端后，歼灭全部敌人",
+    "第二阶段：击破托马斯"
+   ],
+   "defeat": [
+    "第一阶段：千足舰被击破",
+    "第一阶段：飞龙改被击破",
+    "第二阶段：敌人抵达司令部",
+    "第二阶段：飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破蕾欧娜与尤莉亚（尤莉亚 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度要同时处理两位敌方王牌：尤莉亚打到 30% 就会撤退，先压她的血线再集火蕾欧娜，或反之——顺序要在开战前定好。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话·响介线《离别，然后》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话·响介线",
+   "slug": "stage-8-kyosuke",
+   "zh": "离别，然后",
+   "ja": "離別、そして",
+   "en": "Separation",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第8话：与艾尔扎姆的加尔利昂·Trombe 对决。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：击破加尔利昂·Trombe（Gaurlion Trombe）"
+   ],
+   "defeat": [
+    "古伦加斯特零式被击破",
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内击破坦佩斯特或天山（两人 HP 降至 60% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特零式（曾伽）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话·响介线《来自月球的使者》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话·响介线",
+   "slug": "stage-9-kyosuke",
+   "zh": "来自月球的使者",
+   "ja": "月からの使者",
+   "en": "From the Moon",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第9话：基利亚姆与亡灵 Mk-II·R 登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：敌人抵达航天飞机发射台",
+    "第一阶段：任一我方被击破",
+    "第二阶段：飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·R（基利亚姆）",
+    "舒兹瓦尔特（拉妲）",
+    "SF-29 朗岑"
+   ],
+   "events": [],
+   "secrets": [
+    "亡灵 R（响介线专属隐藏机）连锁的第 1 步在本话立旗：条件在第19话结算——基利亚姆须在第19话结束时等级 ≥23，达成后第31话他改乘亡灵 R 出击（见第19话·响介线、第31话页）。"
+   ],
+   "unlocks": [
+    "第10话·响介线《重逢与巨盾》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话·响介线",
+   "slug": "stage-10-kyosuke",
+   "zh": "重逢与巨盾",
+   "ja": "再會、そして巨大なる盾",
+   "en": "Confrontation",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第10话：巨盾与塔斯克加入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破尤莉亚或蕾欧娜"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "巨盾（Giganscudo，塔斯克）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第11话·响介线《月光与枪身》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话·响介线",
+   "slug": "stage-11-kyosuke",
+   "zh": "月光与枪身",
+   "ja": "月燈りと銃身",
+   "en": "Moonlit Gun",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第11话：薇蕾塔与 R-Gun 登场；两条隐藏连锁在本话分岔。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：R-Gun 被击破",
+    "第二阶段：飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-Gun（薇蕾塔）"
+   ],
+   "events": [],
+   "secrets": [
+    "凶鸟 008L（响介线）连锁第 1 步：薇蕾塔须在第19话结束时等级 ≥23，达成后第37话她乘 008L 出击。",
+    "古伦加斯特（响介线）连锁第 1 步：条件与上一项互斥——不要达成 008L 的等级条件（薇蕾塔第19话结束时等级 <23），并在第30话击破 R-Gun，第37话薇蕾塔改乘古伦加斯特。两条连锁只能取一，练级时要提前决定。"
+   ],
+   "unlocks": [
+    "第12话·响介线《月球摇篮》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·响介线",
+   "slug": "stage-12-kyosuke",
+   "zh": "月球摇篮",
+   "ja": "ムーンクレイドル",
+   "en": "Moon Cradle",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第12话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第13话·响介线《消失的护卫机》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·响介线",
+   "slug": "stage-13-kyosuke",
+   "zh": "消失的护卫机",
+   "ja": "バニシング·トルーパー",
+   "en": "Berserk Trooper",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第13话：限时抵达关；本话拉妲不可出击。",
+   "victory": [
+    "6 回合内让飞龙改抵达目的地"
+   ],
+   "defeat": [
+    "经过 6 回合",
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭全部敌人（时限同样只有 6 回合）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "凶鸟 Mk-II（布里特）",
+    "注记：本话拉妲不可出击（Akurasu 流程图）"
+   ],
+   "events": [
+    "胜利条件是飞龙改抵达而非歼灭：要拿熟练度就必须在同样的 6 回合里全歼敌人，是本线中段最紧的一关。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第14话·响介线《名叫布莱恩的男人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·响介线",
+   "slug": "stage-14-kyosuke",
+   "zh": "名叫布莱恩的男人",
+   "ja": "ブライアンという男",
+   "en": "Mr. President",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第14话：拦截敌方母舰佩雷格林号。",
+   "victory": [
+    "第一阶段：将佩雷格林号（Peregrine）的 HP 降至 75% 以下",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "佩雷格林号抵达地图西端",
+    "佩雷格林号被击破",
+    "飞龙改被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内将佩雷格林号的 HP 打到 22000 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "佩雷格林号在本话只能打残：击破它即败北；熟练度给出的是绝对数值门槛（HP 22000 以下），按其总 HP 折算火力。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第15话·响介线《贯穿宇宙之柱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话·响介线",
+   "slug": "stage-15-kyosuke",
+   "zh": "贯穿宇宙之柱",
+   "ja": "宇宙を貫く柱",
+   "en": "Column in Space",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第15话：与佩雷格林号的再战，这次可以击破。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "10 回合内击破佩雷格林号"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话·响介线《封印诅咒之物》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话·响介线",
+   "slug": "stage-16-kyosuke",
+   "zh": "封印诅咒之物",
+   "ja": "「咒い」を封じ入めたもの",
+   "en": "Sealed Curse",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第16话：防卫「柱」（Columna）的多线防守关。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "千足舰被击破",
+    "敌人抵达「柱」（Columna）",
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内将佩雷格林号的 HP 降至 25% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话·响介线《急袭埃尔皮斯》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话·响介线",
+   "slug": "stage-17-kyosuke",
+   "zh": "急袭埃尔皮斯",
+   "ja": "エルピス、急襲",
+   "en": "Raid on Elpis",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第17话：全员抵达型限时关。",
+   "victory": [
+    "8 回合内全部我方抵达目的地"
+   ],
+   "defeat": [
+    "经过 8 回合",
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破全部佩雷格林级敌舰（Peregrines）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "胜利条件是全员抵达且无人被击破：一台掉队或一台被击坠都直接失败，移动力低的单位要优先安排路线。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话·响介线《右手之剑、左手之希望》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话·响介线",
+   "slug": "stage-18-kyosuke",
+   "zh": "右手之剑、左手之希望",
+   "ja": "右手に劍、左手に希望",
+   "en": "Sword and Hope",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第18话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内击破西贝尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第19话·响介线《为了终将到来之日》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话·响介线",
+   "slug": "stage-19-kyosuke",
+   "zh": "为了终将到来之日",
+   "ja": "いつか來るべき日のために",
+   "en": "Time to Come",
+   "route": "响介线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第19话：响介线两条隐藏连锁的等级结算点。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破曾伽（其 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "亡灵 R（响介线）连锁第 2 步（结算）：基利亚姆在本话结束时等级 ≥23 → 第31话他改乘亡灵 R 出击（代替亡灵 Mk-II·R）。练级对象是基利亚姆本人，注意不要把经验全喂给别人。",
+    "凶鸟 008L（响介线）连锁第 2 步（结算）：薇蕾塔在本话结束时等级 ≥23 → 第37话她乘凶鸟 008L 出击。",
+    "古伦加斯特（响介线）连锁：条件与上一项互斥——薇蕾塔在本话结束时等级 <23，并在第30话击破 R-Gun，则第37话她改乘古伦加斯特。本话结束前必须二选一并控制好薇蕾塔的等级。"
+   ],
+   "unlocks": [
+    "第20话·响介线《暗处的眼睛》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第20话·响介线",
+   "slug": "stage-20-kyosuke",
+   "zh": "暗处的眼睛",
+   "ja": "プライベート·アイズ",
+   "en": "Under Cover",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第20话：护卫卡琪娜与拉塞尔的关卡。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：卡琪娜或拉塞尔被击破",
+    "第二阶段：飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话·响介线《小小的公主》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话·响介线",
+   "slug": "stage-21-kyosuke",
+   "zh": "小小的公主",
+   "ja": "小さな姬君",
+   "en": "Brave Princess",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第21话：抵达竞速关；Akurasu 流程图在本话列出响介队当前可用阵容。",
+   "victory": [
+    "第一阶段：我方抵达目的地",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "敌人抵达目的地",
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内抵达目的地"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜、肖恩）",
+    "巨盾（塔斯克）",
+    "亡灵 Mk-II·M（卡琪娜）",
+    "亡灵 Mk-II·M",
+    "亡灵 Mk-II·TT",
+    "亡灵 Mk-II·R（基利亚姆）",
+    "R-Gun（薇蕾塔）",
+    "舒兹瓦尔特（拉妲）",
+    "F-28 梅塞尔（拉塞尔）",
+    "F-28 梅塞尔",
+    "SF-29 朗岑"
+   ],
+   "events": [
+    "熟练度只看抵达速度（3 回合）：把移动力最高的单位放在最前，第二阶段的歼灭不计入熟练度。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第22话·响介线《枪与拳》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话·响介线",
+   "slug": "stage-22-kyosuke",
+   "zh": "枪与拳",
+   "ja": "銃と拳",
+   "en": "Gun and Fist",
+   "route": "响介线",
+   "area": "",
+   "type": "会合关",
+   "prerequisite": "响介线（开局选择南部响介为主人公）第22话：响介队与隆圣队在此会合——两线自下一话起合流为共通关卡（第23–31话）。",
+   "victory": [
+    "将 R-1 的 HP 降至 60% 以下"
+   ],
+   "defeat": [
+    "任一我方被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内将 R-1 的 HP 降至 60% 以下，且隆圣不得被击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古铁追加武装「王牌（Trump Card）」、白骑士追加武装「牛舌步枪 D（Oxtongue Rifle D）」、古铁与白骑士习得合体攻击「Rampage Ghost」",
+    "会合加入（隆圣队）：钢号（大铁、铁也）、R-1（隆圣）、R-2（莱迪斯）、亡灵 Mk-II·TT（古林彩）、古伦加斯特（伊鲁姆）、野猪（英格拉姆）、凶鸟 009（凉斗）、亡灵 Mk-II·M（莉奥）、舒兹瓦尔特（贾多）、猛禽（拉托妮）、亡灵 Mk-II·M（迦纳特）、古伦加斯特弐式（楠叶）、亡灵 Mk-II·TT、F-28 梅塞尔 ×2"
+   ],
+   "events": [
+    "与隆圣线第22话同一场对决的另一视角：目标是把 R-1 打到 60% 以下，熟练度还额外要求隆圣本人不能被击破。",
+    "自第23话起两条主人公线合流，以下第23–31话为两线共通关卡；第32话起再按主人公线分开。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第23话《涅比伊姆出现》（两线共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Team Attacks（合体攻击一览）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Team_Attacks"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "涅比伊姆出现",
+   "ja": "ネピーイーム出現",
+   "en": "Neviim Emerges",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第23话，异星人要塞涅比伊姆（Neviim）出现。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "卡琪娜被击破",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜、肖恩）",
+    "巨盾（塔斯克）",
+    "亡灵 Mk-II·M（卡琪娜）",
+    "亡灵 Mk-II·M（拉塞尔）",
+    "舒兹瓦尔特（拉妲）",
+    "SF-29 朗岑",
+    "塞巴斯塔（正树）",
+    "R-Gun",
+    "古林彩（流程图列出）"
+   ],
+   "events": [
+    "合流后第一战：败北条件点名卡琪娜——她刚在响介线第6话换乘红色亡灵，注意别让她落单。",
+    "Akurasu 流程图在本话的加入栏列出的是合流后阵容的一部分，本站照录。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第24话《琉妮与瓦尔西奥妮》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "琉妮与瓦尔西奥妮",
+   "ja": "リューネ、そしてヴァルシオーネ",
+   "en": "Lune & Valsione",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第24话，琉妮驾驶瓦尔西奥妮登场；蕾欧娜的去留也在本话决定。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：击破琉妮"
+   ],
+   "defeat": [
+    "钢号或飞龙改被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破西贝尔（其 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "瓦尔西奥妮（琉妮）——过关后加入",
+    "Guarlion（蕾欧娜）——仅当达成下方隐藏条件时随蕾欧娜一同入手"
+   ],
+   "events": [],
+   "secrets": [
+    "Guarlion＋蕾欧娜：在本话用莱迪斯或塔斯克击破蕾欧娜，她与座机 Guarlion 一同加入；用其他人击破则拿不到这台机体（Akurasu Secrets 页与流程图一致）。收尾的人选要在开战前就定好。"
+   ],
+   "unlocks": [
+    "第25话《毒蛇之牙》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "毒蛇之牙",
+   "ja": "毒蛇の牙",
+   "en": "Viper Fangs",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第25话，卡伊归队。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：卡伊被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·M（卡伊）"
+   ],
+   "events": [
+    "Akurasu Secrets 页注记：卡伊（北村开）作为正式队员加入是响介线的特有待遇（隆圣线中他只在序盘客串出击）；两线在本话的流程图加入栏都列有他的亡灵 Mk-II·M，本站照录流程图，并在此并记 Secrets 页的说法。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第26话《那个男人的真意》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "那个男人的真意",
+   "ja": "その男の真意",
+   "en": "His Resolve",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第26话，与曾伽对决；隐藏武器猎师王之剑在本话结算。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：任一我方被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破曾伽（其 HP 降至 50% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-3（古林彩）"
+   ],
+   "events": [],
+   "secrets": [
+    "猎师王之剑（Shishioh Blade，隐藏武器）：本话结束时达成全部条件即获得——隆圣线：隆圣击坠数 ≥50；响介线：响介击坠数 ≥70；两线共通：累计熟练度 ≥23。击坠数要从开局起就有意识地喂给对应主人公，临时抱佛脚来不及（Akurasu Secrets 页与流程图一致）。"
+   ],
+   "unlocks": [
+    "第27话《GEIM系统》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "GEIM系统",
+   "ja": "ゲイム·システム",
+   "en": "GEIM System",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第27话，巴尔西昂改登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内将巴尔西昂改的 HP 降至 60% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度时限只有 3 回合且对象是 Boss 级机体：开局就要把最强火力摆在它出现的方向，并预留热血等攻击精神。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第28话《十字军消失之日》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "十字军消失之日",
+   "ja": "十字軍が消える日",
+   "en": "Crusaders' END",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第28话，DC 残党的终局；夏茵与巴尔西昂改的去留在本话决定。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：6 回合内将夏茵的巴尔西昂改的 HP 降至 10% 以下",
+    "第三阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "母舰被击破",
+    "第二阶段：夏茵被击破",
+    "第二阶段：超过时限",
+    "第二阶段：母舰被击破",
+    "第三阶段：母舰被击破",
+    "第三阶段：古伦加斯特零式被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内将巴尔西昂的 HP 降至 10% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特零式（曾伽）",
+    "巴尔西昂改——仅当达成下方隐藏条件时入手（夏茵）"
+   ],
+   "events": [],
+   "secrets": [
+    "巴尔西昂改（Valsion Custom）＋夏茵：第二阶段在 5 回合内把夏茵的巴尔西昂改 HP 压到 10% 以下（不能击破她，击破即败北），她与机体一同加入。注意本话的熟练度条件（5 回合内把「巴尔西昂」压到 10% 以下，Akurasu 原文如此）与隐藏条件指向同一场战斗的相近动作，做隐藏时顺手核对熟练度。"
+   ],
+   "unlocks": [
+    "第29话《日内瓦毁灭》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": "Akurasu 流程图本话熟练度写作「Lower Valsion's HP below 10% in five turns」，而阶段目标与隐藏条件中的对象是夏茵的巴尔西昂改（Valsion Custom）；两处名称不一致，本站照录并在此注明，实操按巴尔西昂改执行即可同时满足两处记载。"
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "日内瓦毁灭",
+   "ja": "ジュネーブ壞滅",
+   "en": "Geneva Scourged",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第29话，日内瓦攻防；隆圣线的 008L 连锁在本话结算。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：3 回合内全部我方登上母舰"
+   ],
+   "defeat": [
+    "第一阶段：母舰被击破",
+    "第二阶段：经过 3 回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "凶鸟 008L（隆圣线）连锁第 2 步（结算）：英格拉姆在本话结束时等级 ≥32 且击坠数 ≥20 → 第37话琳格乘 008L 出击，过关后获得。英格拉姆在第30话就会永久离队（见第30话页），所以练级与击坠必须在本话结束前全部完成——这是全作最容易错过的隐藏机体。",
+    "响介线没有本项；响介线的 008L 连锁在第19话·响介线结算（薇蕾塔等级），见该页。"
+   ],
+   "unlocks": [
+    "第30话《背叛的枪口》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "背叛的枪口",
+   "ja": "裏切りの銃口",
+   "en": "Betrayal",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第30话，英格拉姆叛离；R 系列在本话完成强化，本话的选择决定 R-Gun 的去留。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：母舰被击破",
+    "第二阶段：隆圣、莱迪斯、古林彩、楠叶或英格拉姆被击破",
+    "第三阶段：隆圣或楠叶被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破英格拉姆（其 HP 降至 50% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-2（莱迪斯）→ R-2 强化型",
+    "R-3（古林彩）→ R-3 强化型",
+    "R-1 追加武装「T-Link 剑（T-Link Sword）」",
+    "R-1、R-2 强化型、R-3 强化型习得合体攻击「R-Formation」",
+    "古伦加斯特弐式（楠叶）",
+    "黑钢号（艾尔扎姆）",
+    "英格拉姆——本话永久离队",
+    "R-Gun——是否保留取决于下方隐藏条件"
+   ],
+   "events": [],
+   "secrets": [
+    "保留 R-Gun：在本话击破 R-Gun。不击破的后果按线不同——隆圣线：R-Gun 暂时失去，第40话才归队（且薇蕾塔改乘亡灵 Mk-II·S，见下）；响介线：R-Gun 永久失去。",
+    "亡灵 Mk-II·S（隆圣线专属）：在本话击破 R-Gun 后，第40话薇蕾塔改乘亡灵 Mk-II·S 出击并入手（见第40话·隆圣线页）。",
+    "古伦加斯特（响介线）连锁第 2 步：在本话击破 R-Gun，且第19话·响介线结束时薇蕾塔等级 <23（未达成 008L 条件），则第37话薇蕾塔改乘古伦加斯特出击并入手。"
+   ],
+   "unlocks": [
+    "第31话《面具之下的真容》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Team Attacks（合体攻击一览）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Team_Attacks"
+    }
+   ],
+   "note": "Akurasu 流程图本话加入栏写作「R-3 (Aya) > R-2 Powered (Aya)」，与同栏 R-2 的强化记法对照，「R-2 Powered」疑为「R-3 Powered」之笔误，本站按 R-3 强化型刊出并在此注明。又流程图本话胜利条件原文作「All enemies shut down」，显为 shot down 之误植。"
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "面具之下的真容",
+   "ja": "假面の下にある顏は",
+   "en": "Under the Mask",
+   "route": "两线共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "第22话两队会合后、两线共通的关卡（无论开局选隆圣还是响介，本话内容相同，个别隐藏条件的对象按线不同，见本页隐藏要素）：第31话；重力加农炮在本话结算，响介线的亡灵 R 在本话交付。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内击破加鲁因（其 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·R 或亡灵 R（基利亚姆）——视响介线的连锁条件（见隐藏要素）",
+    "亡灵 Mk-II·R——过关后获得"
+   ],
+   "events": [],
+   "secrets": [
+    "重力加农炮（Graviton Cannon，隐藏武器）：本话结束时达成全部条件即获得——隆圣线：响介击坠数 ≥55；响介线：隆圣击坠数 ≥55；两线共通：累计熟练度 ≥29。注意对象是「另一条线的主人公」，合流后要专门给他喂击坠数。",
+    "亡灵 R（响介线，结算）：第19话·响介线结束时基利亚姆等级 ≥23 的话，本话他改乘亡灵 R 出击（代替亡灵 Mk-II·R），亡灵 R 就此入手；未达成则照常为亡灵 Mk-II·R。亡灵 R 与亡灵 Mk-II·R 是两台不同的机体（Akurasu Secrets 页注记）。"
+   ],
+   "unlocks": [
+    "第32话（按主人公线分开：隆圣线《斩不断的牵线》／响介线《消失的白骑士》）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·隆圣线",
+   "slug": "stage-32-ryusei",
+   "zh": "斩不断的牵线",
+   "ja": "斷ち切れぬ操り糸",
+   "en": "Strings Uncut",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：楠叶与古伦加斯特弐式失控，本话 R 系列不可出击。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：将古伦加斯特弐式的 HP 降至 10% 以下"
+   ],
+   "defeat": [
+    "第一阶段：布里特被击破，或战舰被击破",
+    "第二阶段：古伦加斯特弐式被击破，或战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破加扎（其 HP 降至 30% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "注记：本话全部 R 系列机体（含 R-Gun）不可出击（Akurasu 流程图）"
+   ],
+   "events": [
+    "古伦加斯特弐式只能打残不能击破：第二阶段击破它即败北，火力收尾留手。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话·隆圣线《虚伪之影》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·隆圣线",
+   "slug": "stage-33-ryusei",
+   "zh": "虚伪之影",
+   "ja": "偽りの影",
+   "en": "Delusions",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：任一我方被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第34话·隆圣线《钢之巨神》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话·隆圣线",
+   "slug": "stage-34-ryusei",
+   "zh": "钢之巨神",
+   "ja": "鋼の巨神",
+   "en": "Steel Colossus",
+   "route": "隆圣线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：SRX 合体成型；英雄纹章在本话结算。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：由布里特将古伦加斯特弐式的 HP 降至 10% 以下",
+    "第三阶段：歼灭全部敌人（将 R-Gun Rivale 的 HP 降至 40% 以下时，全部敌人撤退）"
+   ],
+   "defeat": [
+    "第一阶段：隆圣、莱迪斯、古林彩或布里特被击破，或战舰被击破",
+    "第二阶段：古伦加斯特弐式被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "8 回合内将 R-Gun Rivale 的 HP 降至 40% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特弐式（楠叶）——过关后加入（此后不可再变形，尽管菜单中仍有该选项，Akurasu 流程图注记）",
+    "SRX（隆圣、莱迪斯、古林彩）"
+   ],
+   "events": [],
+   "secrets": [
+    "英雄纹章（Hero's Mark，隐藏部件）：本话结束时大铁（钢号舰长）等级 ≥35，且累计熟练度 ≥27。舰长等级只能靠钢号的击坠慢慢累积，要从中期开始有意识地让钢号补刀。"
+   ],
+   "unlocks": [
+    "第35话·隆圣线《冰国的方舟》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话·隆圣线",
+   "slug": "stage-35-ryusei",
+   "zh": "冰国的方舟",
+   "ja": "冰の國の方舟",
+   "en": "Ark at the Pole",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：防卫白钢号。",
+   "victory": [
+    "防卫白钢号（Shirogane），并歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：白钢号被击破，或任一我方被击破",
+    "第二阶段：白钢号被击破，且战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "母舰抵达后 5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "凶鸟 Trombe（艾尔扎姆）",
+    "古伦加斯特零式（曾伽）",
+    "黑钢号（DC 舰长）"
+   ],
+   "events": [
+    "熟练度的 5 回合计时从母舰抵达起算：前段战斗拖得再久也不影响，先把阵型摆好再触发抵达。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第36话·隆圣线《傀儡士兵》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话·隆圣线",
+   "slug": "stage-36-ryusei",
+   "zh": "傀儡士兵",
+   "ja": "マリオネツト·ソルジャー",
+   "en": "Marionettes",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：导弹防卫关；SRX 自本话起可正式改造运用。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：将全部导弹的 HP 降至 20% 以下"
+   ],
+   "defeat": [
+    "第一阶段：战舰被击破",
+    "第二阶段：任一导弹被击破",
+    "第三阶段：任一导弹抵达战舰"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "10 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-1、R-2 强化型、R-3 强化型自本话起可合体为 SRX；SRX 自本话起可改造并可装备强化部件（Akurasu 流程图）"
+   ],
+   "events": [
+    "导弹只能打残：击破任何一枚导弹、或让任何一枚导弹碰到战舰都直接败北——用低火力武器逐枚压血线。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第37话·隆圣线《黑色幽灵》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话·隆圣线",
+   "slug": "stage-37-ryusei",
+   "zh": "黑色幽灵",
+   "ja": "黑い幽靈",
+   "en": "Black Phantom",
+   "route": "隆圣线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：隆圣线的凶鸟 008L 在本话交付；钢铁之魂在本话结算。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：琳格被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内击破加鲁因"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特（琳格）或凶鸟 008L（琳格）——视第29话的结算条件（见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "凶鸟 008L（隆圣线，交付）：第29话结束时英格拉姆等级 ≥32 且击坠 ≥20 的话，本话琳格乘凶鸟 008L 出击，过关后正式获得；未达成则她乘古伦加斯特出击，008L 就此错过。",
+    "钢铁之魂（Steel Soul，隐藏部件）：本话结束时蕾菲娜（飞龙改舰长）等级 ≥38，且累计熟练度 ≥30。舰长练级同样靠战舰击坠，终盘才想起来练是来不及的。"
+   ],
+   "unlocks": [
+    "第38话·隆圣线《SRW作战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话·隆圣线",
+   "slug": "stage-38-ryusei",
+   "zh": "SRW作战",
+   "ja": "オベレーションSRW",
+   "en": "Operation SRW",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：舰队向涅比伊姆突入。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：全部我方舰船抵达目标地点"
+   ],
+   "defeat": [
+    "任一我方舰船被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在全部我方舰船抵达涅比伊姆之前歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度与第二阶段目标互相拉扯：先清场再让舰船抵达，顺序反过来就会丢熟练度。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第39话·隆圣线《射落白色魔星》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话·隆圣线",
+   "slug": "stage-39-ryusei",
+   "zh": "射落白色魔星",
+   "ja": "白き魔星を擊て",
+   "en": "Shoot the Star",
+   "route": "隆圣线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：钢号限时突入白星。",
+   "victory": [
+    "第一阶段：5 回合内让钢号抵达目标点",
+    "第二阶段：钢号抵达目标点"
+   ],
+   "defeat": [
+    "我方舰船被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内让钢号抵达目标点"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑钢号（艾尔扎姆）",
+    "古伦加斯特零式（曾伽）",
+    "过关后：钢号（大铁、铁也）换乘黑钢号，凶鸟 Trombe（艾尔扎姆）交付"
+   ],
+   "events": [
+    "本话是钢号与黑钢号的交接点：隆圣线终盘的母舰变为黑钢号（此为隆圣线特有，Akurasu Secrets 页注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第40话·隆圣线《昆虫牢笼》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话·隆圣线",
+   "slug": "stage-40-ryusei",
+   "zh": "昆虫牢笼",
+   "ja": "インセクト·ケージ",
+   "en": "Insect Cage",
+   "route": "隆圣线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：本话飞龙改不可出击；亡灵 Mk-II·S 在本话交付。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方舰船被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "R-Gun（薇蕾塔）或亡灵 Mk-II·S（薇蕾塔）——视第30话的选择（见隐藏要素）",
+    "注记：本话飞龙改不可出击（Akurasu 流程图）"
+   ],
+   "events": [],
+   "secrets": [
+    "亡灵 Mk-II·S（隆圣线，交付）：第30话击破了 R-Gun 的话，本话薇蕾塔改乘亡灵 Mk-II·S 出击并入手（代替 R-Gun 出击）；第30话没击破 R-Gun 的话，R-Gun 在本话归队，薇蕾塔照常乘 R-Gun。"
+   ],
+   "unlocks": [
+    "第41话·隆圣线《手中之剑乃双刃剑》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话·隆圣线",
+   "slug": "stage-41-ryusei",
+   "zh": "手中之剑乃双刃剑",
+   "ja": "手にする劍は兩刃なり",
+   "en": "Double-Edged Sword",
+   "route": "隆圣线",
+   "area": "",
+   "type": "决战关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的隆圣线版本（第32–41话两线内容不同）：与英格拉姆及尤德卡的决战。",
+   "victory": [
+    "第一阶段：击破英格拉姆",
+    "第二阶段：击破尤德卡（Judecca）"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内击破英格拉姆"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话打完还不是结局：累计熟练度不足 32 的话，打完尤德卡游戏就结束，进不了最终话（Akurasu 流程图卷末注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "最终话《最后的审判者》——须累计熟练度 ≥32 才能进入（见最终话页）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话·响介线",
+   "slug": "stage-32-kyosuke",
+   "zh": "消失的白骑士",
+   "ja": "消える白騎士",
+   "en": "Vanished Knight",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：楠叶失控，本话 R 系列不可出击。",
+   "victory": [
+    "第一阶段：将古伦加斯特弐式（楠叶）的 HP 降至 10% 以下",
+    "第二阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：楠叶被击破",
+    "第一阶段：任一我方被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内将楠叶的 HP 降至 10% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特弐式（楠叶）",
+    "白骑士（艾克塞琳）",
+    "注记：本话全部 R 系列机体（含 R-Gun）不可出击（Akurasu 流程图）"
+   ],
+   "events": [
+    "熟练度时限只有 2 回合且目标只能打残：开局站位与第一回合的火力倾泻决定成败，是全作最紧的熟练度之一。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话·响介线《红色修罗》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话·响介线",
+   "slug": "stage-33-kyosuke",
+   "zh": "红色修罗",
+   "ja": "赤い修羅",
+   "en": "Red Vanquisher",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：SRX 在本话交付响介队。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "隆圣、莱迪斯或古林彩被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内歼灭瓦伊克拉（Vayikkra）以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "SRX（隆圣、莱迪斯、古林彩）"
+   ],
+   "events": [
+    "熟练度允许放走瓦伊克拉：先清其他敌人，不要在它身上耗回合。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话·响介线《亡灵自过去降临》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话·响介线",
+   "slug": "stage-34-kyosuke",
+   "zh": "亡灵自过去降临",
+   "ja": "亡靈、過去より來たりて",
+   "en": "Ghost of the Past",
+   "route": "响介线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：艾尔扎姆归队；英雄纹章在本话结算（对象与隆圣线不同）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：任一我方被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破加鲁因（其 HP 降至 25% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亡灵 Mk-II·M（卡伊）",
+    "古伦加斯特零式（曾伽）",
+    "黑钢号（艾尔扎姆）",
+    "过关后：凶鸟 Trombe（艾尔扎姆）"
+   ],
+   "events": [],
+   "secrets": [
+    "英雄纹章（Hero's Mark，隐藏部件）：本话结束时蕾菲娜（飞龙改舰长）等级 ≥35，且累计熟练度 ≥27。注意响介线的对象是蕾菲娜，隆圣线则是大铁——两线别练错人。"
+   ],
+   "unlocks": [
+    "第35话·响介线《夺回》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话·响介线",
+   "slug": "stage-35-kyosuke",
+   "zh": "夺回",
+   "ja": "奪還",
+   "en": "Rescue",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：救出被夺走的白骑士与艾克塞琳。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：响介被击破",
+    "第一阶段：母舰被击破",
+    "第二阶段：艾克塞琳被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内将艾克塞琳的 HP 降至 10% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "白骑士（艾克塞琳）——事件后归队"
+   ],
+   "events": [
+    "熟练度对象是友军的艾克塞琳：4 回合内把她打到 10% 以下（不能击破，第二阶段击破她即败北）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第36话·响介线《潜藏之力》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话·响介线",
+   "slug": "stage-36-kyosuke",
+   "zh": "潜藏之力",
+   "ja": "秘めたる力",
+   "en": "Power Within",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：与修（Shu）交手。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一阶段：正树或琉妮被击破",
+    "第二阶段：母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内将修的 HP 降至 75% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第37话·响介线《远方的故乡》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话·响介线",
+   "slug": "stage-37-kyosuke",
+   "zh": "远方的故乡",
+   "ja": "遠き故鄉",
+   "en": "Long Way Home",
+   "route": "响介线",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：薇蕾塔的机体在本话结算；钢铁之魂也在本话结算（对象与隆圣线不同）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内击破加鲁因"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古伦加斯特或凶鸟 008L（薇蕾塔）——视连锁条件（见隐藏要素）"
+   ],
+   "events": [],
+   "secrets": [
+    "薇蕾塔的机体（结算）：第19话·响介线结束时薇蕾塔等级 ≥23 的话，她乘凶鸟 008L 出击并入手；等级 <23 且第30话击破了 R-Gun 的话，她改乘古伦加斯特；两条连锁在本话二选一兑现（前置见第11话·响介线、第19话·响介线、第30话页）。",
+    "钢铁之魂（Steel Soul，隐藏部件）：本话结束时大铁（钢号舰长）等级 ≥38，且累计熟练度 ≥30。注意响介线的对象是大铁，隆圣线则是蕾菲娜——与英雄纹章正好相反，别练错人。"
+   ],
+   "unlocks": [
+    "第38话·响介线《作战密码S·R·W》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话·响介线",
+   "slug": "stage-38-kyosuke",
+   "zh": "作战密码S·R·W",
+   "ja": "作戰コードS·R·W",
+   "en": "Code Name: SRW",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：核导弹与 R-Gun Rivale 的双重威胁。",
+   "victory": [
+    "第一阶段：歼灭全部敌人",
+    "第二阶段：将 R-Gun Rivale 的 HP 降至 40% 以下，并将全部核导弹的 HP 降至 20% 以下"
+   ],
+   "defeat": [
+    "任一我方舰船被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "15 回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "第二阶段又是「打残」型目标：R-Gun Rivale 与核导弹都不能击破过头——导弹的血线要逐枚盯住。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第39话·响介线《一点突破》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话·响介线",
+   "slug": "stage-39-kyosuke",
+   "zh": "一点突破",
+   "ja": "一點突破",
+   "en": "Pinpoint Attack",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：双舰突入白星。",
+   "victory": [
+    "第一阶段：飞龙改与钢号抵达白星",
+    "第二阶段：击破加扎"
+   ],
+   "defeat": [
+    "飞龙改或钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在飞龙改与钢号抵达涅比伊姆之前歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度与第一阶段目标互相拉扯：先清场、后让双舰抵达，顺序不要反。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第40话·响介线《赌注的代价》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话·响介线",
+   "slug": "stage-40-kyosuke",
+   "zh": "赌注的代价",
+   "ja": "賭けの代償",
+   "en": "Price to Pay",
+   "route": "响介线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：本话钢号与飞龙改均不可出击，纯机体部队决战。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内击破加鲁因"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "注记：本话钢号与飞龙改不可出击（Akurasu 流程图）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第41话·响介线《唯有击穿一途》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话·响介线",
+   "slug": "stage-41-kyosuke",
+   "zh": "唯有击穿一途",
+   "ja": "ただ、擊ち貫くのみ",
+   "en": "Break Through",
+   "route": "响介线",
+   "area": "",
+   "type": "决战关",
+   "prerequisite": "第31话（共通）之后，按开局所选主人公进入的响介线版本（第32–41话两线内容不同）：与尤德卡的决战；本话双舰仍不可出击。",
+   "victory": [
+    "击破尤德卡（Judecca）"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "10 回合内击破尤德卡"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "注记：本话钢号与飞龙改不可出击（Akurasu 流程图）"
+   ],
+   "events": [
+    "本话打完还不是结局：累计熟练度不足 32 的话，打完尤德卡游戏就结束，进不了最终话（Akurasu 流程图卷末注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "最终话《最后的审判者》——须累计熟练度 ≥32 才能进入（见最终话页）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "最后的审判者",
+   "ja": "最後の審判者",
+   "en": "The Adjudicator",
+   "route": "两线共通（真结局）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第41话（任一线）过关后，且累计熟练度（Battle Mastery）≥32 时解锁；不足 32 则第41话结束即通关，进不了本话。",
+   "victory": [
+    "击破 Septuagint"
+   ],
+   "defeat": [
+    "母舰被击破",
+    "在回合限制内未能击破 Septuagint"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话本身没有熟练度条件；进入本话即要求累计熟练度 ≥32（Akurasu 流程图卷末注记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "最终 Boss 是 Septuagint：流程图只记「回合限制」而未给出具体回合数，本站照录——该数值待核实，不臆测。",
+    "熟练度的总账在本话结清：全程可得 41 点（第1–41话各 1 点），进本话要 ≥32 点，几条隐藏要素的门槛（23/27/29/30）也都在这张账上，规划见主页。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关——双线通关同一存档后开启周回继承（见本作主页「通关继承」节）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。因此本关的敌方配置（机体、驾驶员、等级、数量、坐标）与增援明细暂无可交叉核对的公开来源，标为待核实。",
+     "注记：本作的熟练度（Battle Mastery）会影响敌方出现数量等（据日文维基的系统记载），同一关在不同熟练度下敌方构成可能不同——在找到逐关配置来源之前，本站不臆测任何一关的敌方名单。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》主条目（发售信息、系统子页索引、剧本总数）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION（话数口径、系统与剧情梗概的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG》Clear Bonus（双线通关后的周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG/Clear_Bonus"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

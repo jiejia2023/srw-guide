@@ -21,6 +21,7 @@ import SrwAMissionList from '../../components/SrwAMissionList.astro';
 import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
 import SrwRMissionList from '../../components/SrwRMissionList.astro';
 import SrwAlpha2MissionList from '../../components/SrwAlpha2MissionList.astro';
+import SrwOgMissionList from '../../components/SrwOgMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -48,6 +49,7 @@ const isSrwA = g.slug === 'srw-a';
 const isSrwImpact = g.slug === 'srw-impact';
 const isSrwR = g.slug === 'srw-r';
 const isSrwAlpha2 = g.slug === 'srw-alpha-2';
+const isSrwOg = g.slug === 'srw-og';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -1106,6 +1108,108 @@ const isSrwAlpha2 = g.slug === 'srw-alpha-2';
     </div>
   )}
 
+  {isSrwOg && (
+    <div>
+      <h2>剧情概要：DC 战争与异星人的前章</h2>
+      <p>本作（2002 年 11 月 22 日发售，开发：Banpresoft）是系列第一部<strong>全原创作品</strong>——没有版权参战作品，出场的机体与角色全部来自历代机战的原创阵营（DC 战争系列、魔装机神系列、α 系列、COMPACT2/IMPACT、新机战等），OG 系列由此开篇。新西历 179 年，陨石「Meteor 3」坠落在伊德涅斯岛；调查它的比安·佐尔达克判定其为人工物，联邦设立 EOTI 机关研究其中的外星技术。七年后，比安断言异星人侵攻在即，组建 DC（圣十字军／Divine Crusaders）以军事政权强行统一地球。联邦军的钢号与飞龙改先后讨灭 DC 与殖民地统合军——但正如比安所警告的，这只是与异星人战争的<strong>前章</strong>：后半战局转入宇宙，异星人的要塞涅比伊姆与最终审判者 Septuagint 才是真正的终局（以上梗概据日文维基）。本作也是机战系列<strong>首次在海外正式发售</strong>的作品（2006 年北美版，标题作 Super Robot <em>Taisen</em>: Original Generation）。</p>
+
+      <h2>两位主人公与路线结构：一周目 42 话、74 个不同剧本</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>区段</th><th>隆圣线</th><th>响介线</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>第1–22话</td><td>伊达隆圣（SRX 小队，母舰钢号）</td><td>南部响介（ATX 小队，母舰飞龙改）</td><td>两线内容完全不同</td></tr>
+            <tr><td>第22话</td><td colspan="2">两队在「R-1 对古铁／枪与拳」会合（同一场对决的两个视角）</td><td>会合关</td></tr>
+            <tr><td>第23–31话</td><td colspan="2">两线共通（9 话）</td><td>个别隐藏条件的对象按线不同</td></tr>
+            <tr><td>第32–41话</td><td>隆圣线版本（10 话）</td><td>响介线版本（10 话）</td><td>再次按线分开</td></tr>
+            <tr><td>最终话</td><td colspan="2">共通：最后的审判者（须累计熟练度 ≥32）</td><td>真结局</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>话数口径：Akurasu 主页作「74 playable scenarios」，日文维基作「含真最终话全 43 话／74 舞台」——<strong>74 个不同剧本两源一致</strong>，本站已按 74 全部建页；一周目实际游玩话数本站按流程图逐条清点为 <strong>42 话</strong>（22＋9＋10＋最终话），日文维基的 43 话口径未注明出处、与清点差 1，本站按 42 建页并在此并记，不虚构多出的那一话。与《A》《R》的「未选主角」处理不同：本作两位主人公<strong>同属一个世界、都会登场并会合</strong>，开局选择只决定你跟随哪一队打序盘与终盘的哪一版。</p>
+
+      <h2>路线独占（据 Akurasu Secrets 页卷首注记）</h2>
+      <ul>
+        <li><strong>隆圣线独占</strong>：里昂·F 与 SRX 只能在隆圣线取得；隆圣线还多得一台 F-28 梅塞尔；终盘钢号被黑钢号取代也是隆圣线特有。</li>
+        <li><strong>响介线独占</strong>：卡伊（北村开）作为正式队员加入为响介线特有；响介线还多得一台亡灵 Mk-II·TT。</li>
+        <li>两线各可得 <strong>5 台亡灵 Mk-II·M</strong>，但取得节奏不同（隆圣线序盘得 3 台、合流时再得 2 台；响介线序盘 2 台、合流时 2 台、第 5 台要等卡伊终盘加入）。</li>
+      </ul>
+
+      <h2>熟练度（Battle Mastery）：进最终话的门票</h2>
+      <ul>
+        <li><strong>规则</strong>：第1–41话<strong>各设 1 个取得条件、全程共 41 点</strong>，每话至多 +1、只增不减。条件形态多样：限回合全歼、把指定 Boss 的 HP 压到比例以下、护送/抵达竞速、击破会撤退的王牌等——各话的条件写在各关攻略页的概要表里。</li>
+        <li><strong>用途一：最终话</strong>——第41话打完时累计 <strong>≥32 点</strong>才解锁共通最终话《最后的审判者》；不足则游戏在第41话结束，没有真结局。</li>
+        <li><strong>用途二：隐藏门槛</strong>——猎师王之剑（≥23）、英雄纹章（≥27）、重力加农炮（≥29）、钢铁之魂（≥30）四件隐藏要素各有熟练度下限，见下表与相应关卡页。</li>
+        <li><strong>用途三：敌方构成</strong>——据日文维基的系统记载，熟练度会使<strong>敌方出现数量等发生变动</strong>；这也是本站不刊载逐关敌方编成的理由之一：脱离熟练度档位谈敌方名单并不存在唯一答案。</li>
+      </ul>
+
+      <h2>驾驶员养成（PP）：本作首登场</h2>
+      <ul>
+        <li>击坠敌机可获得<strong>驾驶员点数（PP）</strong>，在间歇画面消费 PP 给驾驶员<strong>学习新特殊技能或提升基本能力</strong>——这套「驾驶员养成」在本作首次登场，后来被 OG 系列之外的作品沿用（据日文维基）。</li>
+        <li>PP 的个体上限为 <strong>999</strong>（Akurasu 通关继承页）。击坠越多的驾驶员 PP 攒得越快，这与本作多条隐藏连锁的「指定人物击坠数」要求正好互相强化。</li>
+      </ul>
+
+      <h2>援护：攻防合一的驾驶员技能</h2>
+      <ul>
+        <li>本作的援护是<strong>统一的驾驶员技能「援护（Support）」</strong>：持有该技能的驾驶员既可援护攻击也可援护防御（Akurasu 的 Skills 页列出多位驾驶员持有 Support；该页为未整理的原始笔记，本站不逐人转刊）。</li>
+        <li>与后作的区别：《OG2》起援护才被拆成「援护攻击」「援护防御」两个独立技能（日文维基 OG2 条目）——不要把 OG2 的规则套回本作。</li>
+      </ul>
+
+      <h2>武器换装与换乘：W 槽与个别改造</h2>
+      <ul>
+        <li><strong>武器换装</strong>（据日文维基）：每台机体的武装分「固定武装」与「可换装武器」两类，后者可拆下给其他机体装；可携带量由机体的 <strong>W 槽（Wゲージ）</strong>决定——特机与塞巴斯塔等 W 槽为 0、只能用固定武装，PT 与装甲模块类则可在 W 槽范围内自由选装。修理/补给职能也靠装上修理装置/补给装置实现，任何有机体（包括战舰与战斗机）都能当修理补给位。由于任何单位都能持剑持枪，本作<strong>省略了「切払い」</strong>。</li>
+        <li><strong>武器改造是逐件个别式</strong>：固定武装与换装武器各自单独改造（日文维基）。</li>
+        <li><strong>自由换乘</strong>：本作没有作品枠的限制，除塞巴斯塔、SRX 等特殊机体外，驾驶员可自由换乘机体（日文维基）——配合各关的等级/击坠连锁，可以把要练的人换上容易拿击坠的机体。</li>
+        <li><strong>待核实</strong>：机体改造（HP/EN/运动性/装甲）的统一段数上限、以及「全改造奖励（FUB）」在 GBA 原版是否存在——本次所查来源（Akurasu 各系统页、日文维基）均未明确记载；Akurasu 另有《OGS》（PS2 重制版）的 FUB 专页，但那是重制版系统，本站不把重制版规格写进原版页面，此项标待核实。</li>
+      </ul>
+
+      <h2>合体攻击：全作仅 2 种</h2>
+      <p>Akurasu 的 Team Attacks 页只列出 2 种合体攻击（与《R》的 19 种形成对照，不要按后作的规模预期本作）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>合体攻击</th><th>参与机</th><th>气力</th><th>EN</th><th>射程</th><th>取得</th></tr></thead>
+          <tbody>
+            <tr><td>Rampage Ghost</td><td>古铁＋白骑士</td><td>120</td><td>60</td><td>1–4</td><td>第22话（两线共通事件，两线页面均有记）</td></tr>
+            <tr><td>R-Formation</td><td>R-1＋R-2 强化型＋R-3 强化型</td><td>120</td><td>60</td><td>1–5</td><td>第30话（R 系列强化时）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素分三类：<strong>跨话连锁机体</strong>（在指定话结算等级/选择、在更后面的话交付）、<strong>击坠数＋熟练度双门槛武器/部件</strong>、<strong>单关事件机体</strong>。各步的具体做法写在触发/结算/交付的那一话页面内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>对象</th><th>线</th><th>结算/交付话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>凶鸟 008L</td><td>隆圣线</td><td>第29话结算 → 第37话交付</td><td>英格拉姆在第29话结束时 Lv≥32 且击坠 ≥20（他在第30话离队，必须提前练满）</td></tr>
+            <tr><td>凶鸟 008L</td><td>响介线</td><td>第19话结算 → 第37话交付</td><td>薇蕾塔在第19话结束时 Lv≥23</td></tr>
+            <tr><td>亡灵 R</td><td>响介线</td><td>第19话结算 → 第31话交付</td><td>基利亚姆在第19话结束时 Lv≥23（与亡灵 Mk-II·R 是不同机体）</td></tr>
+            <tr><td>古伦加斯特</td><td>响介线</td><td>第30话击破 R-Gun → 第37话交付</td><td>与 008L 互斥：薇蕾塔第19话结束时 Lv&lt;23，且第30话击破 R-Gun</td></tr>
+            <tr><td>亡灵 Mk-II·S</td><td>隆圣线</td><td>第30话选择 → 第40话交付</td><td>第30话击破 R-Gun</td></tr>
+            <tr><td>R-Gun 的保留</td><td>两线</td><td>第30话</td><td>在本话击破 R-Gun；不击破则隆圣线暂时失去（第40话归队）、响介线永久失去</td></tr>
+            <tr><td>Guarlion＋蕾欧娜</td><td>两线</td><td>第24话</td><td>用莱迪斯或塔斯克击破蕾欧娜</td></tr>
+            <tr><td>巴尔西昂改＋夏茵</td><td>两线</td><td>第28话</td><td>第二阶段 5 回合内将夏茵的 HP 压到 10% 以下（不能击破）</td></tr>
+            <tr><td>猎师王之剑</td><td>两线</td><td>第26话</td><td>隆圣线隆圣击坠 ≥50／响介线响介击坠 ≥70，且熟练度 ≥23</td></tr>
+            <tr><td>重力加农炮</td><td>两线</td><td>第31话</td><td>另一线主人公（隆圣线为响介、响介线为隆圣）击坠 ≥55，且熟练度 ≥29</td></tr>
+            <tr><td>英雄纹章</td><td>两线</td><td>第34话</td><td>隆圣线大铁 Lv≥35／响介线蕾菲娜 Lv≥35，且熟练度 ≥27</td></tr>
+            <tr><td>钢铁之魂</td><td>两线</td><td>第37话</td><td>隆圣线蕾菲娜 Lv≥38／响介线大铁 Lv≥38，且熟练度 ≥30（与英雄纹章的对象正好交叉）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>通关继承（周回）</h2>
+      <ul>
+        <li>在<strong>同一个存档</strong>上把隆圣线与响介线<strong>都通关</strong>后，读取通关存档开始新游戏即进入周回继承（Akurasu Clear Bonus 页）：继承<strong>总资金与各驾驶员的 PP</strong>，比例随周目递增——第 2 周目 50%、第 3 周目 75%、第 4 周目 100%。</li>
+        <li>只通关一条线就开新周目不触发此继承：规划上建议先打完一条线、再在同存档打另一条线，最后开继承周目冲全隐藏（多件隐藏的等级/击坠门槛在继承周目会轻松许多）。</li>
+      </ul>
+
+      <h2>版本注记</h2>
+      <p>本作于 2007 年与续篇《OG2》一并在 PS2 上重制为《超级机器人大战 OG ORIGINAL GENERATIONS》（OGS），系统与剧本都有扩充（如 FUB、熟练度规则细节）。本站关卡数据全部以 <strong>GBA 原版（2002 年）</strong>为准，OGS 的逐话差异不在本站当前范围内；引用本站数据时请勿与 OGS 混用。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets 页逐条交叉核对，系统与话数以日文维基互证，继承规则据 Akurasu Clear Bonus 页，合体攻击据 Akurasu Team Attacks 页。已确认的主要分歧与处理：①话数口径 — 日文维基作全 43 话、本站按流程图逐条清点为一周目 42 话（差 1 的出处不明），两说并记，见上文；②第30话加入栏原文作「R-3 (Aya) &gt; R-2 Powered (Aya)」，疑为 R-3 Powered 之笔误，按 R-3 强化型刊出并在该页注明；③第15话·隆圣线胜利条件第一阶段的「Ryo」，流程图未注明所指，照录存疑；④第28话熟练度原文的对象作「Valsion」，而阶段目标与隐藏条件的对象是夏茵的巴尔西昂改，两处并记于该页；⑤卡伊的加入 — Secrets 页称正式加入为响介线特有，流程图则在第25话（共通）的加入栏列出其机体，两说并记于第25话页；⑥Akurasu 的 Skills 页为玩家留下的未整理笔记，本站仅取其可确认的「援护为驾驶员技能」一点，不逐人转刊技能表。</p>
+    </div>
+  )}
+
   {isSrwR && (
     <div>
       <h2>剧情概要：坏未来与被改写的历史</h2>
@@ -1824,6 +1928,11 @@ const isSrwAlpha2 = g.slug === 'srw-alpha-2';
     <div>
       <p>本作 <strong>40 个流程图条目全部建有独立攻略页</strong>（每一关一个详情页：一周目实际通关 32 关——7 个 Scene 线性推进；40 个条目含 Scene 1 的双路线 1-2/1-3、Scene 2 的双线 2-1～2-4 与 Scene 3 补打另一条线的 3-2/3-3；去掉重演的 3 行后为 37 个不同内容。日文维基「含分歧 38 话」的口径无来源说明、本站不采用，见上方结构说明）。下表为按 Scene 分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方加入、出击枠与本关隐藏要素（全作仅 3 项隐藏要素，都写在触发/结算的那一关里；本作没有熟练度，技能协调已改为驾驶员培养）与坐标地图（敌方配置与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-compact-3/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwCompact3MissionList />
+    </div>
+  ) : isSrwOg ? (
+    <div>
+      <p>本作 <strong>74 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 42 话——隆圣/响介两条主人公线各有第1–22话与第32–41话的不同版本，第23–31话共通，最终话共通且须累计熟练度 ≥32 解锁）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（跨话连锁的立旗、结算与交付都写在对应那一话里）与坐标地图（敌方配置与地形待核实，原因见各详情页；本作敌方出现数量还随熟练度变动）。本作同时保留一份<a class="link" href={href('srw-og/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwOgMissionList />
     </div>
   ) : isSrw30 ? (
     <div>
