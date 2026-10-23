@@ -33,6 +33,7 @@ import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
 import SrwZMissionList from '../../components/SrwZMissionList.astro';
 import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astro';
+import SrwZ2HakaiMissionList from '../../components/SrwZ2HakaiMissionList.astro';
 import SrwKMissionList from '../../components/SrwKMissionList.astro';
 import SrwNeoMissionList from '../../components/SrwNeoMissionList.astro';
 import SrwLMissionList from '../../components/SrwLMissionList.astro';
@@ -75,6 +76,7 @@ const isSrwOgs = g.slug === 'srw-ogs';
 const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 const isSrwZ = g.slug === 'srw-z';
 const isSrwZSpecial = g.slug === 'srw-z-special';
+const isSrwZ2Hakai = g.slug === 'srw-z-2-hakai';
 const isSrwK = g.slug === 'srw-k';
 const isSrwNeo = g.slug === 'srw-neo';
 const isSrwL = g.slug === 'srw-l';
@@ -2679,6 +2681,108 @@ const isSrwL = g.slug === 'srw-l';
     </div>
   )}
 
+  {isSrwZ2Hakai && (
+    <div>
+      <h2>剧情概要：另一个多元世界与 ZEXIS</h2>
+      <p>《第2次超级机器人大战Z 破界篇》是 Z 系列第 2 作、两部作构成的<strong>前篇</strong>（后篇《再世篇》2012 年），也是系列 20 周年纪念作、PSP 上的首个完全新作。舞台与前作《Z》<strong>不是同一个世界</strong>：这是另一个在时空大震动中融合而成的多元世界，融合已过去 20 年——地球上有两个月亮、两个日本列岛，由<strong>不列颠尼亚联合、人革联、AEU</strong>三大势力分割，谜之怪物<strong>次元兽</strong>四处肆虐（日文维基世界观节）。欠下 100 万 G 债务的测试驾驶员<strong>克罗·布鲁斯特</strong>受雇驾驶对次元兽用兵器<strong>布拉斯特</strong>收集战斗数据，在与天上人、真魔神、S.M.S、黑色骑士团等各方势力接触后，受国联和平维持理事会代表<strong>埃尔干·罗迪克</strong>之邀，与众人共同组成特别国际救助队 <strong>ZEXIS</strong>（Z Extra International Savers）。小国利莫内西亚引发的时空灾害「灾厄之诞」使统御次元兽的<strong>破界王盖欧</strong>降临本世界并建立新帝国<strong>因佩利姆</strong>；同时，被召唤到本世界的还有来自前作《Z》多元世界的 <strong>ZEUTH</strong> 成员——他们在中盘（第 24 话起的三线）陆续与 ZEXIS 合流。故事在最终话与盖欧的决战处收束，<strong>本篇自身完结</strong>（后篇是 1 年后的新故事，并非未完待续）。敌方原创角色还有盯上克罗的谜之男<strong>阿伊姆·莱亚德</strong>、因佩利姆的骑士<strong>玛格丽特·皮斯提尔</strong>、以及驾驶休罗加的黑衣男<strong>阿萨基姆·杜温</strong>。</p>
+
+      <h2>主人公：克罗·布鲁斯特（单一主人公）</h2>
+      <p>本作<strong>没有前作 Z 的主人公二选一</strong>：全程只有一位主人公<strong>克罗·布鲁斯特</strong>——斯科特研究所的测试驾驶员，为还清 100 万 G 的借款而战。他的机体<strong>布拉斯特</strong>在第 1 话由玩家选择<strong>射击强化或格斗强化</strong>的开发方向，后续武装随之不同（第 30 话获得的武装 SPIGOT-VX 的动画与射程也取决于这次选择）；第 30 话他一度改乘<strong>阿克西欧</strong>（临时机体，布拉斯特的改造继承过去）。本作也没有前作的玩家部队双主角线——路线分歧改由部队分队承担（见下节）。</p>
+
+      <h2>路线分歧结构（一周目 51 关 / 全 86 剧本）</h2>
+      <p>本作的编号话数为第 1–50 话加最终话，一周目沿任一路线实际游玩 <strong>51 关</strong>；因分歧产生的版本全部计入共 <strong>86 个剧本</strong>（与 Akurasu 主页「86 个可玩剧本」一致）。分歧全部是<strong>关后玩家自选或按出身自动决定</strong>，不存在以熟练度/点数触发的分歧：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>时点</th><th>选项</th><th>并行区间</th></tr></thead>
+          <tbody>
+            <tr><td>第2话结尾</td><td>前往日本 / 追击天上人</td><td>第3–4话双线</td></tr>
+            <tr><td>第4话结尾</td><td>与甲儿同行（仅日本线）/ 追击天上人（共通）/ 追击殖民地高达（仅天上人线）</td><td>第5–8话三线</td></tr>
+            <tr><td>第9话</td><td>次元震：三线合流（四种阵容版本）</td><td>本话后按出身分流</td></tr>
+            <tr><td>第9话结尾</td><td>暗黑大陆线（甲儿组出身）/ 边境船团线（殖民地组出身），自动决定</td><td>第10–12话双线</td></tr>
+            <tr><td>第15话结尾</td><td>与表部队同行 / 与里部队同行</td><td>第16–18话双线</td></tr>
+            <tr><td>第23话结尾</td><td>继续协助联合国 / 前往宇宙 / 前往第11区</td><td>第24–27话三线（ZEUTH 来访）</td></tr>
+            <tr><td>第33话结尾</td><td>前往日本 / 与天上人同行 / 前往第11区</td><td>第34–36话三线</td></tr>
+            <tr><td>第41话结尾</td><td>前往暗黑大陆 / 前往宇宙</td><td>第42–44话双线</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>各并行区间的末端都会合流回共通主干（第 13、19、28、37、45 话）。第 9 话的四个「次元震」版本胜败与 SR 条件相同，差异只在合流的我方阵容构成，本站按 Akurasu 流程图的四个条目分别建页。</p>
+
+      <h2>熟练度（SR 点）：只影响难度，没有路线/结局门槛</h2>
+      <p>本作的熟练度称作 <strong>SR 点（SRポイント）</strong>：第 1–50 话每话各有 1 个取得条件、至多 +1、只升不降，条件在游戏内公示；<strong>最终话没有 SR 点，全作共 50 点</strong>（分歧话的各版本共用同一编号话的 1 点）。与前作 Z 决定性的不同是：本作<strong>不存在 ZEUTH 点、结局点一类的隐藏计数</strong>，也没有任何以 SR 点为条件的路线、结局或隐藏要素——据韩文 Namu 的系统解说，破界篇的 SR 点被改为纯粹的挑战要素：<strong>取得与否只改变游戏难度</strong>（难度随取得情况在 EASY / NORMAL / HARD 间变动，敌方随之强化；最终话可选事件中盖欧的强化形态等级也写作普通难度 Lv70 / 困难难度 Lv99）。前作 Z 的「取得率 ≥80% HARD、30–79% NORMAL、≤29% EASY」三档比例规则在日文维基是就 Z 本篇记载的；<strong>本作的难度判定阈值本站未在一手来源中逐字核实</strong>，故只刊「影响难度」这一已核实结论，不照搬前作的百分比。实务结论：<strong>冲不冲 SR 点纯看玩家想打多难，不影响任何收集要素</strong>；各话的取得条件本站仍按一等字段逐关刊出。</p>
+
+      <h2>战斗系统：小队制（TRI）废止，单机出击</h2>
+      <ul>
+        <li><strong>废止小队制</strong>：前作 Z 的 TRI 小队系统（含巴扎）在本作全部取消，回到单机出击。出击枠变少是本作的结构特征，也是副指令系统存在的理由。</li>
+        <li><strong>精神指令</strong>：每名驾驶员回到 <strong>6 个精神</strong>（小队制时为 5 个；多乘员机体的副驾驶员精神数相应减少）。</li>
+        <li><strong>援护攻击/援护防御保留</strong>；连续攻击同一目标有<strong>连续目标补正</strong>（命中下降）。</li>
+        <li><strong>新驾驶员技能「连续行动」</strong>：气力 120 以上时，击坠敌机后可再行动一次（每回合限 1 次，与再行动类精神重叠时连续行动先发动；日文维基）。</li>
+        <li><strong>王牌奖励</strong>：驾驶员击坠数达到 <strong>70</strong> 解禁各自的王牌奖励（日文维基）——多个隐藏连锁以特定驾驶员的击坠数（40/50/70）为门槛，正为此设。</li>
+        <li><strong>全改造奖励</strong>：机体全改造后除固有数值外还有各机专属的「特制奖励」（Akurasu Full Upgrade Bonuses 页）；武器/机体改造的上限与周回关系见下节。</li>
+      </ul>
+
+      <h2>副指令（Sub-Orders）：第13话后解禁</h2>
+      <p>第 13 话通关后解锁的休息时间系统：把<strong>没有出击</strong>的驾驶员编成 5 人一组执行指令，给无法上场的大量成员一条成长通道（Akurasu Sub-Orders 页与日文维基数值一致）。刚出击过的驾驶员不能立即被指派；路线分歧开始时则可使用全部驾驶员（含通常没机会的战舰舰长）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>指令</th><th>日文</th><th>效果（每名参加驾驶员）</th></tr></thead>
+          <tbody>
+            <tr><td>训练</td><td>トレーニング</td><td>PP +20</td></tr>
+            <tr><td>巡逻</td><td>パトロール</td><td>击坠数 +2</td></tr>
+            <tr><td>模拟战</td><td>シミュレーター</td><td>经验值 +500</td></tr>
+            <tr><td>资金筹措</td><td>資金調達</td><td>取得资金＝参加驾驶员等级总和×500</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>注：击坠数门槛型隐藏要素中，第 33 话的世界树驱动在休息时间<strong>之前</strong>结算，不能靠之后的巡逻补数；第 49 话结算的 SP 推进器则要在第 33 话前半就把霍兰德的击坠数堆到 50（可用此前各话的巡逻）。细节见各话隐藏要素。</p>
+
+      <h2>改造的继承、返还与周回继承</h2>
+      <ul>
+        <li><strong>换乘/进化时的改造继承</strong>（Akurasu Upgrade Carryover 页）：如萨瑟兰→无赖（第13话）、无赖→高文（第27话·第11区线）、格拉斯哥→红莲贰式（第13话）、布拉斯特→阿克西欧（第30话，临时）、尼尔瓦修spec2→specV（第38话）、盖塔机器人→真盖塔（第40话）、断空我Nova→MAXGOD（第42话·宇宙线）等，改造继承到新机体、旧机体不保留；例外如眼镜斗犬→TC-ISS（新机体）为旧机保留。</li>
+        <li><strong>离队机体的改造费用返还</strong>：兰斯洛特·空骑士（第33话进入分歧时）、力天使高达（第48话）、月光号（第49话）离队/失去时，已投入的改造费用返还。</li>
+        <li><strong>周回继承</strong>（Akurasu Clear Bonuses 页）：保存通关数据后，资金（按总获得额）与 PP 按周目继承——2 周目 50%、3 周目 75%、4 周目起 100%，击坠数一并继承；<strong>4 周目起改造上限开放到 15 段</strong>。</li>
+        <li><strong>与前后作的存档联动</strong>：本作<strong>不读取</strong>前作《Z》（PS2）的存档（跨平台、无此功能；本作的 ZEXIS 是新世界的新部队，与 ZEUTH 的关系是剧情上的召唤，不是存档继承）。联动在本作的<strong>下游</strong>：后篇《再世篇》开局可选择读取破界篇的通关数据（Data Linking），按破界篇的通关次数与剧本完成度发放 PP、击坠数、资金与部件——具体数值在本站《再世篇》页处理，此处只记存在性（据 MNeidengard 的再世篇攻略，为单一来源）。</li>
+      </ul>
+
+      <h2>本作没有的系统：巴扎、D-Trade、Z 芯片</h2>
+      <p>为免与前后作混淆，明确三点（均已查证）：①前作 Z 的<strong>巴扎（以 BS 蓝石买卖部件/机体）已废止</strong>，本作部件靠击破掉落与隐藏要素获得；②以专用资源「Z 芯片」买卖部件与强化系统的 <strong>Dトレーダー（D-Trade）是《第3次Z》才登场的系统</strong>（据 srw.wiki 的强化部件条目），破界篇没有 Z 芯片、也没有任何点数商店；③本作同样<strong>没有</strong>前作 Z 的巴扎路线机体、ZEUTH 点与结局点。</p>
+
+      <h2>参战作品（34 作）</h2>
+      <p>参战作品共 <strong>34 作</strong>，其中系列初参战 12 作（日文维基）。Z 系列续投：无敌超人赞波3、无敌钢人戴坦3、特莱达G7、宇宙大帝葛德西格玛、宇宙战士巴尔迪奥斯、六神合体高达玛斯、战斗机甲萨班格尔、超兽机神断空我、THE BIG O、超重神格拉维昂Zwei、创圣阿夸利昂、机动战士Z高达、逆袭的夏亚（仅机体）、高达W、高达X、∀高达、SEED DESTINY、奥加斯。系列初参战：<strong>装甲骑兵波特姆斯（含最后的红肩队/野望的根源/佩尔森文件共 4 作）、真魔神 冲击！Z篇、地球防卫企业戴加德、Code Geass 反逆的鲁路修、天元突破红莲螺岩（含剧场版红莲篇、仅机体）、高达00 第一季、剧场版超时空要塞F 虚空歌姬（仅机体）</strong>；交响诗篇剧场版（口袋里的彩虹）以剧场版形态参战、超时空要塞F 为携带机首次有声参战。前作 Z 的 ZEUTH 作品群（赞波3、戴坦3、萨班格尔、帝王盖纳、断空我、BIG O、格拉维昂、阿夸利昂、高达系等）在第 24 话后的三线陆续抵达本世界。</p>
+
+      <h2>隐藏要素总览（长线连锁为主）</h2>
+      <p>本作共 8 项隐藏要素/可选事件，全部写在触发与结算的那一话页面里。多数是<strong>跨话连锁</strong>，且与击坠数门槛、路线选择绑定，漏一步即整条中断：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>要素</th><th>关键步骤（详情见各话）</th><th>结算</th></tr></thead>
+          <tbody>
+            <tr><td>VF-25F 龙卷包</td><td>第33话选天上人线→第34话选兰花或雪莉露进驾驶舱→第37话选同一人献唱→第45话阿尔特击坠数≥70（进入巢穴前）</td><td>第45话</td></tr>
+            <tr><td>玛格丽特加入（珍珠钉）</td><td>第34–36话区间用克罗击坠玛格丽特一次→第42–44话区间用克罗说得或击坠一次</td><td>第49话加入</td></tr>
+            <tr><td>特米努斯303 SP推进器</td><td>第33话前半事件前霍兰德击坠数≥50</td><td>第49话归队时装备</td></tr>
+            <tr><td>世界树驱动</td><td>第33话结束前朱雀击坠数≥40</td><td>第33话休息时间前</td></tr>
+            <tr><td>英雄之证</td><td>第31话用武说得后击坠玛格→第41话同样再做一次</td><td>第41话</td></tr>
+            <tr><td>眼镜斗犬 TC-ISS</td><td>第39话：前半巴尔科夫小队5人各击坠≥1、后半齐力可击坠伊普西龙、本话结束时齐力可击坠数≥70</td><td>第39话</td></tr>
+            <tr><td>哈罗（部件）</td><td>第48话结束前洛克昂击坠数≥70</td><td>第48话通关后</td></tr>
+            <tr><td>自动修复机 / 超级修理包 / 超合金Z</td><td>地图定点移动型：第13话克罗到雷达站右下角 / 第30话克罗到泽尼鸟出现过的格子 / 第41话甲儿到兜家</td><td>各话</td></tr>
+            <tr><td>可选事件×3</td><td>第20话不击坠约书亚（第48话改乘GN-X再登场，代价是放弃本话SR点）；第48话阿雷路亚提前觉醒；最终话问答让盖欧强化为最强形态（Lv70/Lv99）</td><td>各话</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>敌方数据现状：编成、坐标与地形均无公开成套来源</h2>
+      <p>本作的敌方数据<strong>没有成套且可交叉核对的公开来源</strong>：s-rpg-navi 未收录本作（该站有前作 Z 的逐关表，至破界篇止步）；英文侧最完整的 GameFAQs 攻略（MNeidengard，faqs/67182）以剧情翻译为主体，未刊逐关编成表。因此各详情页的敌方编成（构成、等级、HP）、单位坐标与逐格地形统一标为<strong>待核实</strong>，地图为带四边坐标轴的参照框架。Akurasu 流程图给出的敌方信息只有胜败条件点名的目标敌机（如各话 Boss 与 SR 条件对象），这些已写进各话的胜败/SR 条件，不另立编成表。本作因此<strong>不涉及</strong>本站「单一来源敌方编成是否导入」的裁决事项（不存在已找到的成套单源编成表）。</p>
+
+      <h2>来源分歧与口径说明</h2>
+      <ul>
+        <li><strong>剧本计数 84 vs 86</strong>：日文维基概要作「全50话/84关」，Akurasu 主页作「86 个可玩剧本」，日本媒体在重制版报道中亦作「全50话、含分歧共86个剧本」。本站按 Akurasu 流程图逐条清点为 86 个条目并全部建页，从 86；84 的计数方法无来源说明，并记于此。</li>
+        <li><strong>SR 点难度阈值</strong>：前作 Z 的三档比例（80%/30%）只见于 Z 的记载，本作未在来源中逐字证实，本站不把该百分比写进本作规则（见上节）。</li>
+        <li><strong>第12话两版本条件对应</strong>：Akurasu 流程图把第12话两个版本的条件并排刊载，渲染顺序可能交错；本站按表格排列顺序对应（暗黑大陆版＝全灭+托勒密号败北条件，边境船团版＝骑士级瓦鸠拉），如后续发现对应有误将据实机资料修订。</li>
+        <li><strong>话数用字</strong>：Akurasu 流程图原文个别话数混用「話/话」（如第16话、第42话），本站 code 统一作「第N话」。</li>
+        <li><strong>第9话四版本</strong>：四个条目的加入阵容各有差异，其中两个版本在 Akurasu 原文标题相同（均为 Dimensional Tremor、无后缀），本站以「合流甲/乙/丙/丁」区分并在各页注记阵容差异来源。</li>
+      </ul>
+    </div>
+  )}
+
   {isSrwK && (
     <div>
       <h2>剧情与舞台</h2>
@@ -3463,6 +3567,11 @@ const isSrwL = g.slug === 'srw-l';
     <div>
       <p>本作 <strong>39 个可玩剧本全部建有独立攻略页</strong>（Extra Stage 的故事模式 21 关＋挑战战斗 18 关：每关一个详情页——故事模式 5 个篇章的所有篇目含 Secret Epilogue 序章与第1话双版本，挑战战斗 Normal/Hard/Ex-Hard 各 6 关）。下表为按篇章/难度分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方阵容与资源配给、剧情事件与隐藏要素，以及坐标地图（本盘无任何来源提供敌方编成、坐标与地形，详情页内均如实标为待核实；图鉴/设定资料/战斗剧场/Battle Viewer 等非关卡内容没有关卡页，见上文说明）。本作同时保留一份<a class="link" href={href('srw-z-special/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwZSpecialMissionList />
+    </div>
+  ) : isSrwZ2Hakai ? (
+    <div>
+      <p>本作 <strong>86 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 51 关——第1–50话加最终话；分歧版本包括第3–4话双线、第5–8话三线、第9话四种合流版本、第10–12话双线、第16–18话表/里双线、第24–27话与第34–36话两次三线、第42–44话双线）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（SR点）取得条件</strong>、我方加入、本关隐藏要素（击坠数门槛、路线绑定的长线连锁都写在触发/结算的那一话里；本作的 SR 点只影响难度、没有路线/结局门槛）与坐标地图（敌方编成、坐标与地形均无公开成套来源，待核实，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-z-2-hakai/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwZ2HakaiMissionList />
     </div>
   ) : isSrwK ? (
     <div>

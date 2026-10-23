@@ -1,0 +1,6232 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "100万G的男人",
+   "ja": "１００万Gの男",
+   "en": "The Million Credits Man",
+   "route": "共通",
+   "area": "",
+   "type": "开局",
+   "prerequisite": "游戏开局（主人公克罗·布鲁斯特）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "布拉斯特（克罗·布鲁斯特）",
+    "神龙高达（张五飞）"
+   ],
+   "events": [
+    "本话中布拉斯特获得射击或格斗方向的武装（二选一，由玩家决定），影响其后续武装构成"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "全作开局关卡：欠债100万G的测试驾驶员克罗登场。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "改变的世界",
+   "ja": "変わる世界",
+   "en": "Changing World",
+   "route": "共通",
+   "area": "",
+   "type": "分歧前共通",
+   "prerequisite": "通关第1话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "死神高达（迪奥·麦克斯韦尔）",
+    "能天使高达（刹那·F·塞耶）",
+    "力天使高达（洛克昂·斯特拉托斯、哈罗）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第2话结尾分歧：选择「前往日本」进入日本线（第3话·日本），或选择「追击天上人」进入天上人追击线（第3话·天上人）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "本话结尾是全作第一次路线选择：日本线侧重真魔神/戴加德，天上人线侧重高达W/高达00。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第3话·日本线",
+   "slug": "stage-3-jp",
+   "zh": "启动！魔神！",
+   "ja": "始動！マジンガー！",
+   "en": "Power Up! Mazinger!",
+   "route": "日本线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第2话结尾选择「前往日本」",
+   "victory": [
+    "击破全部敌人",
+    "击破多布拉斯M2或加拉达K7"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：在多布拉斯M2或加拉达K7登场后3回合内将其击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "飞翼号（兜甲儿）→魔神Z（兜甲儿）",
+    "魔神Z获得「锈蚀飓风」「胸部火焰」武装",
+    "阿芙罗黛A（弓沙也加）",
+    "主天使高达（阿雷路亚·哈普提兹姆）",
+    "德天使高达（提耶利亚·阿迪）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第4话·日本线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "日本线第3话：真魔神Z与戴加德的剧情线。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第3话·天上人线",
+   "slug": "stage-3-cb",
+   "zh": "呼唤战火的流星",
+   "ja": "戦火を呼ぶ流星",
+   "en": "The Meteor That Calls For War",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第2话结尾选择「追击天上人」",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "能天使高达（刹那·F·塞耶）",
+    "力天使高达（洛克昂·斯特拉托斯、哈罗）",
+    "主天使高达（阿雷路亚·哈普提兹姆）",
+    "德天使高达（提耶利亚·阿迪）",
+    "飞翼高达（希罗·尤尔）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第4话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第3话：高达00与高达W的剧情线。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第4话·日本线",
+   "slug": "stage-4-jp",
+   "zh": "造访的灾厄",
+   "ja": "やってきた災厄",
+   "en": "Coming Disaster",
+   "route": "日本线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第3话·日本线",
+   "victory": [
+    "击破海特罗达因",
+    "击破第3话未击破的那一台（加拉达K7或多布拉斯M2）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：在加拉达K7或多布拉斯M2登场后3回合内将其击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴加德（赤木骏介、伊吹、青山）",
+    "断空我Nova（???）以NPC身份登场"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话结尾分歧：日本线可选「与甲儿他们同行」或「追击天上人」"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "日本线第4话：戴加德正式加入。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第4话·天上人线",
+   "slug": "stage-4-cb",
+   "zh": "混沌的战场",
+   "ja": "混沌の戦場",
+   "en": "Battlefield in Chaos",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第3话·天上人线",
+   "victory": [
+    "击破全部敌人",
+    "击破制定式（帕特里克·科拉萨瓦）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人，且最后击破帕特里克"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "飞翼高达（希罗·尤尔）",
+    "死神高达（迪奥·麦克斯韦尔）",
+    "重武装高达（特洛瓦·巴顿）",
+    "沙漠高达（卡托尔·拉巴巴·温拿）",
+    "断空我Nova（???）以NPC身份登场"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话结尾分歧：可选「追击天上人」或「追击殖民地的高达」"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第4话：W小队集结。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第5话·甲儿组",
+   "slug": "stage-5-jp",
+   "zh": "宇宙万事屋",
+   "ja": "こちら宇宙のなんでも屋",
+   "en": "We are Space’s Jack of All Trades",
+   "route": "甲儿组",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第4话结尾选择「与甲儿他们同行」（仅日本线可选）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：机械兽出现后，3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "特莱达G7（竹尾瓦太）",
+    "穿梭机（柿小路、厚井、木下、郁绘）",
+    "戴加德获得「捕网枪」「钻头臂」武装，HP+1000、EN+70、装甲+1100、运动性+5、命中+10、移动力+1，并追加补给装置"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第6话·甲儿组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线并行之一（甲儿组）：特莱达G7与戴加德的强化。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第5话·天上人线",
+   "slug": "stage-5-cb",
+   "zh": "超兽合神！",
+   "ja": "超獣合神！",
+   "en": "Super Beast God Combination!",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第4话结尾选择「追击天上人」（日本线/天上人线均可选）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "新星之鹰（飞鹰葵）",
+    "新星之鹰可合神为断空我Nova（每关限5回合）；合神期间库拉拉、朔夜、约翰尼成为副驾驶员"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第6话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线并行之一（天上人线）：断空我Nova的超兽合神（气力130以上、限5回合）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第5话·殖民地组",
+   "slug": "stage-5-col",
+   "zh": "战斗竞技",
+   "ja": "バトリング",
+   "en": "Battling",
+   "route": "殖民地高达追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第4话结尾选择「追击殖民地的高达」（仅天上人线可选）",
+   "victory": [
+    "击破全部敌人",
+    "击破眼镜斗犬（科宁）"
+   ],
+   "defeat": [
+    "齐力可被击坠",
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：希罗与迪奥到达后2回合内击破全部敌人，且最后击破科宁"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "眼镜斗犬（齐力可·丘比）",
+    "眼镜斗犬获得「重机枪」「突击格斗」武装",
+    "格拉斯哥（卡莲·休妲菲尔特）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第6话·殖民地组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线并行之一（殖民地组）：装甲骑兵与反逆的鲁路修的剧情线。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话·甲儿组",
+   "slug": "stage-6-jp",
+   "zh": "觉醒的力量",
+   "ja": "目覚める力",
+   "en": "Awakened Strength",
+   "route": "甲儿组",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第5话·甲儿组",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "武被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖亚（明神武）",
+    "宇宙粉碎者号（健儿、直人、晃、美香、武）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话·甲儿组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "甲儿组第6话：六神合体高达玛斯登场（盖亚气力130以上可合体为高达玛斯）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话·天上人线",
+   "slug": "stage-6-cb",
+   "zh": "通向遥远的和平",
+   "ja": "遠い平和へ",
+   "en": "To A Distant Peace",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第5话·天上人线",
+   "victory": [
+    "击破全部敌人",
+    "击破铁人式高机动B型指挥官机（谢尔盖·斯米尔诺夫）"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破增援出现前的全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "能天使高达获得「七剑组合」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第6话：与人革联军的战斗。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话·殖民地组",
+   "slug": "stage-6-col",
+   "zh": "魔神诞生之日",
+   "ja": "魔神が生まれた日",
+   "en": "The Day The Devil Is Born",
+   "route": "殖民地高达追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第5话·殖民地组",
+   "victory": [
+    "击破全部敌人",
+    "击破除兰斯洛特（枢木朱雀）以外的全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：卡莲到达后3回合内击破除兰斯洛特以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格拉斯哥（扇要）",
+    "格拉斯哥（玉城真一郎）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话·殖民地组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "殖民地组第6话：黑色骑士团结成前夜。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话·甲儿组",
+   "slug": "stage-7-jp",
+   "zh": "六神合体的威胁",
+   "ja": "脅威の六神合体",
+   "en": "The Threat Of The Six God Combination",
+   "route": "甲儿组",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第6话·甲儿组",
+   "victory": [
+    "击破古尔达（盖鲁）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "武被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人，且最后击破盖鲁"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖亚可合体为高达玛斯"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第8话·甲儿组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "甲儿组第7话：高达玛斯合体解禁。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话·天上人线",
+   "slug": "stage-7-cb",
+   "zh": "出击！！盖塔机器人！",
+   "ja": "出撃!!ゲッターロボ!",
+   "en": "Sortie! Getter Robo!",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第6话·天上人线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "我方全灭",
+    "龙马被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：因贝达增援到达后3回合内将其全灭"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔机器人（流龙马、神隼人、巴武藏）",
+    "断空我Nova获得「推进新星拳」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第8话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第7话：真盖塔机器人（世界最后之日版）参战。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话·殖民地组",
+   "slug": "stage-7-col",
+   "zh": "他的名字是ZERO",
+   "ja": "その名はゼロ",
+   "en": "His Name Is Zero",
+   "route": "殖民地高达追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第6话·殖民地组",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "ZERO被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "萨瑟兰（ZERO）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第8话·殖民地组"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "殖民地组第7话：ZERO公开亮相。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8话·甲儿组",
+   "slug": "stage-8-jp",
+   "zh": "被考验的觉悟",
+   "ja": "試される覚悟",
+   "en": "To Attempt A Solution",
+   "route": "甲儿组",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第7话·甲儿组",
+   "victory": [
+    "击破格洛布",
+    "击破斯托隆格T4",
+    "击破格罗伊泽X10"
+   ],
+   "defeat": [
+    "赤木被击坠",
+    "格罗伊泽X10到达指定地点",
+    "甲儿被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人与初期增援，且最后击破格洛布"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z获得「光子力射线」武装",
+    "戴加德获得「结绳粉碎机」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第9话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "甲儿组第8话：三线在本话后于第9话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8话·天上人线",
+   "slug": "stage-8-cb",
+   "zh": "为谁扣动扳机",
+   "ja": "引き金は誰がために",
+   "en": "For Whom The Trigger Is Pulled",
+   "route": "天上人追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第7话·天上人线",
+   "victory": [
+    "击破全部因贝达"
+   ],
+   "defeat": [
+    "哈雷路亚被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破全部因贝达与桃子机（索玛·皮里斯）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "托勒密号（皇李·诺瑞加、拉塞、利希滕达尔、克里斯蒂娜、菲露特）",
+    "阿雷路亚暂时变为哈雷路亚"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第9话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第8话：托勒密号加入。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8话·殖民地组",
+   "slug": "stage-8-col",
+   "zh": "皇女与魔女",
+   "ja": "皇女と魔女",
+   "en": "The Princess and the Witch",
+   "route": "殖民地高达追击线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第7话·殖民地组",
+   "victory": [
+    "击破萨瑟兰（杰雷米亚·哥特瓦尔德）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "希罗被击坠",
+    "我方全灭",
+    "朱雀被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：次元兽增援到达后3回合内将其全灭"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "兰斯洛特（枢木朱雀）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第9话（合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "殖民地组第8话：兰斯洛特在本话作为友军参战。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9话·合流甲",
+   "slug": "stage-9-a",
+   "zh": "次元震",
+   "ja": "次元震",
+   "en": "Dimensional Tremor",
+   "route": "合流",
+   "area": "",
+   "type": "合流",
+   "prerequisite": "通关任一第8话（三线合流，阵容构成因所选路线而异）",
+   "victory": [
+    "击破全部敌人",
+    "击破除次元兽「???」以外的全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "霍兰德或塔尔霍被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：增援到达后3回合内击破除次元兽「???」以外的全部增援"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "天上人线（追击组）的全部单位",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话后分歧：进入暗黑大陆路线或边境船团路线（由第8话所属路线自动决定）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "合流关卡的四个版本之一：胜败条件与SR条件相同，差异只在我方参战阵容（据 Akurasu 流程图的 Unit Acquisition 栏区分）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9话·合流乙",
+   "slug": "stage-9-jp",
+   "zh": "次元震",
+   "ja": "次元震",
+   "en": "Dimensional Tremor (Japan Choice)",
+   "route": "合流",
+   "area": "",
+   "type": "合流",
+   "prerequisite": "通关任一第8话（三线合流，阵容构成因所选路线而异）",
+   "victory": [
+    "击破全部敌人",
+    "击破除次元兽「???」以外的全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "霍兰德或塔尔霍被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：增援到达后3回合内击破除次元兽「???」以外的全部增援"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "日本线（甲儿组）的全部单位",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话后：甲儿组出身自动进入暗黑大陆路线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "合流关卡的四个版本之一（Japan Choice）：甲儿组的单位在此合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9话·合流丙",
+   "slug": "stage-9-a11",
+   "zh": "次元震",
+   "ja": "次元震",
+   "en": "Dimensional Tremor (Area 11 Choice)",
+   "route": "合流",
+   "area": "",
+   "type": "合流",
+   "prerequisite": "通关任一第8话（三线合流，阵容构成因所选路线而异）",
+   "victory": [
+    "击破全部敌人",
+    "击破除次元兽「???」以外的全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "霍兰德或塔尔霍被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：增援到达后3回合内击破除次元兽「???」以外的全部增援"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "飞翼高达（希罗·尤尔）",
+    "死神高达（迪奥·麦克斯韦尔）",
+    "眼镜斗犬（齐力可·丘比）",
+    "萨瑟兰（ZERO）",
+    "格拉斯哥（卡莲·休妲菲尔特）",
+    "格拉斯哥（扇要）",
+    "格拉斯哥（玉城真一郎）",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话后：殖民地组出身自动进入边境船团路线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "合流关卡的四个版本之一（Area 11 Choice）：殖民地组的单位在此合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9话·合流丁",
+   "slug": "stage-9-b",
+   "zh": "次元震",
+   "ja": "次元震",
+   "en": "Dimensional Tremor",
+   "route": "合流",
+   "area": "",
+   "type": "合流",
+   "prerequisite": "通关任一第8话（三线合流，阵容构成因所选路线而异）",
+   "victory": [
+    "击破全部敌人",
+    "击破除次元兽「???」以外的全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "霍兰德或塔尔霍被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：增援到达后3回合内击破除次元兽「???」以外的全部增援"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "天上人线（追击组）的全部单位",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）",
+    "眼镜斗犬（齐力可·丘比）",
+    "萨瑟兰（ZERO）",
+    "格拉斯哥（卡莲·休妲菲尔特）",
+    "格拉斯哥（扇要）",
+    "格拉斯哥（玉城真一郎）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话后分歧：进入暗黑大陆路线或边境船团路线（由第8话所属路线自动决定）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "合流关卡的四个版本之一：天上人线与殖民地组的单位在此合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第10话·暗黑大陆线",
+   "slug": "stage-10-dc",
+   "zh": "用你的钻头突破天际！！",
+   "ja": "お前のドリルで天を突け！！",
+   "en": "Pierce the Heavens With Your Drill!",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第9话后进入暗黑大陆路线（甲儿组出身自动进入）",
+   "victory": [
+    "前半：击破全部敌人",
+    "后半：击破全部敌人"
+   ],
+   "defeat": [
+    "前半：西蒙被击坠",
+    "后半：西蒙被击坠、托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "螺岩（西蒙）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第11话·暗黑大陆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "暗黑大陆线第10话：天元突破红莲螺岩的剧情线开启。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第10话·边境船团线",
+   "slug": "stage-10-ff",
+   "zh": "近距离遭遇",
+   "ja": "クロース・エンカウンター",
+   "en": "Close Encounter",
+   "route": "边境船团线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第9话后进入边境船团路线（殖民地组出身自动进入）",
+   "victory": [
+    "前半：击破全部敌人",
+    "后半：击破全部敌人"
+   ],
+   "defeat": [
+    "前半：任一我方单位被击坠",
+    "后半：任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "VF-25F 弥赛亚（早乙女阿尔特）",
+    "VF-25G 弥赛亚（米哈伊尔·布朗）",
+    "RVF-25 弥赛亚（卢卡·安杰洛尼）",
+    "VF-25S 弥赛亚（奥兹马·李）",
+    "VB-6 怪兽王（卡娜莉亚·贝尔斯坦因）",
+    "女王雷亚（克兰·克兰）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第11话·边境船团线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "边境船团线第10话：超时空要塞F船团从平行世界转移而来。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第11话·暗黑大陆线",
+   "slug": "stage-11-dc",
+   "zh": "那家伙居然有两张脸！！",
+   "ja": "顔が2つたあ生意気なッ！！",
+   "en": "That Thing Has Two Faces!",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第10话·暗黑大陆线",
+   "victory": [
+    "击破恩基（比拉尔）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "托勒密号被击坠",
+    "卡米那被击坠",
+    "卡米那或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4回合内击破包含因贝达增援在内的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "红莲（卡米那）",
+    "红莲与螺岩获得合体攻击「炮弹攻击」",
+    "红莲与螺岩自此以合体状态「红莲螺岩」（西蒙、卡米那）出击"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第12话·暗黑大陆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "暗黑大陆线第11话：红莲螺岩合体。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第11话·边境船团线",
+   "slug": "stage-11-ff",
+   "zh": "各就各位",
+   "ja": "オン・ユア・マークス",
+   "en": "On Your Marks",
+   "route": "边境船团线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第10话·边境船团线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破包含因贝达增援在内的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第12话·边境船团线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "边境船团线第11话：迎击瓦鸠拉。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12话·暗黑大陆线",
+   "slug": "stage-12-dc",
+   "zh": "我完全搞不懂啊！",
+   "ja": "俺にはさっぱりわからねえ！",
+   "en": "I Don’t Get It, Not One Bit!",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第11话·暗黑大陆线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "托勒密号被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "暗黑大陆线第12话（本话与边境船团线的条件对应按 Akurasu 流程图表格的排列顺序刊载）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12话·边境船团线",
+   "slug": "stage-12-ff",
+   "zh": "首次攻击",
+   "ja": "ファースト・アタック",
+   "en": "First Attack",
+   "route": "边境船团线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第11话·边境船团线",
+   "victory": [
+    "击破全部敌人",
+    "击破骑士级瓦鸠拉"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "阿尔特、米哈伊尔或卢卡被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人，且最后击破骑士级瓦鸠拉"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "马克罗斯·夸特（杰弗里·怀尔德、博比·马尔格、凯西·格拉斯）",
+    "VF-25F 弥赛亚获得「ISC连携」武装",
+    "马克罗斯·夸特可变形为人型（强攻形态）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "边境船团线第12话：夸特加入。双线在本话后于第13话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "黑色骑士团",
+   "ja": "黒の騎士団",
+   "en": "The Order of the Black Knights",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关任一第12话（双线合流）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "ZERO被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "眼镜斗犬（齐力可·丘比）",
+    "萨瑟兰→无赖（ZERO）",
+    "卡莲的格拉斯哥→红莲贰式（卡莲·休妲菲尔特）",
+    "扇要的格拉斯哥→无赖（扇要）",
+    "玉城的格拉斯哥→无赖（玉城真一郎）",
+    "兰斯洛特（枢木朱雀）"
+   ],
+   "events": [
+    "本话通关后解锁「副指令（Sub-Orders）」：休息时间可给未出击的驾驶员下达训练/巡逻/模拟战/资金筹措四种指令（详见本作主页「副指令」节）"
+   ],
+   "secrets": [
+    "【隐藏部件·自动修复机】让克罗移动到出击点附近雷达站的右下角（以地图右上为基准：向左11格、向下9格的位置）即可取得自动修复机。此处还有前作 Z 的客串登场（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第14话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "双线合流后的共通关：黑色骑士团正式结成，副指令系统在此解禁。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "信任与觉悟",
+   "ja": "信頼と覚悟と",
+   "en": "With Trust and Resolution",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第13话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第15话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "笼罩世界的阴影",
+   "ja": "世界を覆う影",
+   "en": "The Shadow That Covers The World",
+   "route": "共通",
+   "area": "",
+   "type": "分歧前共通",
+   "prerequisite": "通关第14话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "刹那被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2个我方回合内击破全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "重武装高达（特洛瓦·巴顿）",
+    "沙漠高达（卡托尔·拉巴巴·温拿）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话结尾分歧：选择「与表部队同行」或「与里部队同行」"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "本话结尾分出表/里两支部队，第16–18话双线并行。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第16话·表部队",
+   "slug": "stage-16-overt",
+   "zh": "BIRD-HUMAN",
+   "ja": "BIRD-HUMAN",
+   "en": "BIRD-HUMAN",
+   "route": "表部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第15话结尾选择「与表部队同行」",
+   "victory": [
+    "击破次元兽犀牛型MD"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "克罗被击坠",
+    "布雷拉被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部敌人，且最后击破次元兽犀牛型MD"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "VF-27γ 路西法（布雷拉·斯特恩）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第17话·表部队"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "表部队线第16话：与超时空要塞F、奥加斯等作品为主的部队行动。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第16话·里部队",
+   "slug": "stage-16-covert",
+   "zh": "接触",
+   "ja": "接触",
+   "en": "Contact",
+   "route": "里部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第15话结尾选择「与里部队同行」",
+   "victory": [
+    "前半：击破全部敌人；击破里奥（杰克斯·马奎斯）与联合旗帜式（格拉汉姆·艾卡）",
+    "后半：击破暴犬（???）"
+   ],
+   "defeat": [
+    "前半：母舰被击坠、齐力可被击坠",
+    "后半：齐力可被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2回合内击破全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "眼镜斗犬获得「红肩队特装」换装部件"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第17话·里部队"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "里部队线第16话：装甲骑兵线推进，红肩队特装解禁。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第17话·表部队",
+   "slug": "stage-17-overt",
+   "zh": "新宿夜晚大决战",
+   "ja": "夜の新宿大決戦",
+   "en": "Night Battle in Shinjuku",
+   "route": "表部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第16话·表部队",
+   "victory": [
+    "前半：击破廓克博格（饭冢）",
+    "后半：击破全部敌人；在戴加德出现后5回合内用戴加德的「结绳粉碎机」击破古亚曼德"
+   ],
+   "defeat": [
+    "前半：任一我方单位被击坠",
+    "后半：母舰或饭冢被击坠；赤木被击坠，或戴加德出现后经过5回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：在戴加德出现后3回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "廓克博格（饭冢）",
+    "戴加德获得「结绳粉碎机」武装，HP+600、EN+20、装甲+200、运动性+5、命中+5、移动力+1"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第18话·表部队"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "表部队线第17话：戴加德的宿敌战。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第17话·里部队",
+   "slug": "stage-17-covert",
+   "zh": "梦的延续",
+   "ja": "夢の続き",
+   "en": "After The Dream",
+   "route": "里部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第16话·里部队",
+   "victory": [
+    "击破全部敌人",
+    "击破次元兽犀牛型MD"
+   ],
+   "defeat": [
+    "母舰或航空战舰被击坠",
+    "兰顿、霍兰德或克罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：增援到达后3回合内击破全部敌方增援，且最后击破次元兽犀牛型MD"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼尔瓦修（兰顿、尼尔瓦修）→尼尔瓦修spec2（兰顿、优莱卡、尼尔瓦修）",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第18话·里部队"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "里部队线第17话：交响诗篇的尼尔瓦修进化为spec2。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18话·表部队",
+   "slug": "stage-18-overt",
+   "zh": "开场舞台",
+   "ja": "オーペニング・ステージ",
+   "en": "Opening Stage",
+   "route": "表部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第17话·表部队",
+   "victory": [
+    "击破全部敌人",
+    "击破巴库姆与托罗斯D7"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "卡米那或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2个我方回合内击破全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "红莲螺岩获得「环形爆发（MAP）」「千兆钻头突破」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第19话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "表部队线第18话：红莲螺岩获得千兆钻头突破。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18话·里部队",
+   "slug": "stage-18-covert",
+   "zh": "交错的明天",
+   "ja": "交差する明日",
+   "en": "Crossing Over Into Tomorrow",
+   "route": "里部队线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第17话·里部队",
+   "victory": [
+    "击破全部敌人",
+    "击破全部次元兽与因贝达"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "葵或刹那被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2个我方回合内击破全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第19话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "里部队线第18话：双线在本话后于第19话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "众人的正义",
+   "ja": "みんなの正義",
+   "en": "Everyone’s Justice",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关任一第18话（双线合流）",
+   "victory": [
+    "击破海特罗达因",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第20话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "沙尘中舞动的恶意",
+   "ja": "砂塵に舞う悪意",
+   "en": "Malice in the Sands",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第19话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "刹那、希罗或提耶利亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：杰克斯到达后3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "神龙高达（张五飞）",
+    "神龙高达获得「龙牙」武装",
+    "德天使高达可卸除装甲变为高达纳德雷"
+   ],
+   "events": [],
+   "secrets": [
+    "【可选事件·不同的敌方驾驶员】本话中若不击坠约书亚·爱德华兹驾驶的先驱式（Over Flag），他将在第48话改乘GN-X登场（代替一名普通GN-X驾驶员）。注意：达成此事件就无法取得本话的SR点（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第21话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：沙漠战，神龙高达归队。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "被揭示的真相",
+   "ja": "明かされる真実",
+   "en": "The Truth Revealed",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第20话",
+   "victory": [
+    "击破基辛战斗舰（瓦尔）",
+    "击破祖鲁皇帝或迫使其撤退"
+   ],
+   "defeat": [
+    "武被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：在祖鲁皇帝出现后2回合内将其击破（其在出现后第3回合、或HP低于10000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖亚获得「六神攻击」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第22话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：基辛帝国的祖鲁皇帝首次正面交锋。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "利莫内西亚强袭",
+   "ja": "リモネシア強襲",
+   "en": "Limonecia Assault",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第21话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第23话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：小国利莫内西亚的时空灾害「灾厄之诞」发生地。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "新世界的序幕",
+   "ja": "新世界の幕開け",
+   "en": "The Curtain Rises On The New World",
+   "route": "共通",
+   "area": "",
+   "type": "分歧前共通",
+   "prerequisite": "通关第22话",
+   "victory": [
+    "击破「???」",
+    "击破次元兽恐龙型"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：最初3回合内对敌方「???」造成至少45000点伤害"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "休罗加（???）以NPC身份登场"
+   ],
+   "events": [
+    "本话中神秘机体休罗加（驾驶员不明）以NPC身份参战"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第23话结尾三分歧：选择「继续协助联合国」（ZEUTH来访线）、「前往宇宙」（宇宙线）或「前往第11区」（第11区线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "本话结尾是全作规模最大的三分歧：三条线分别迎来前作《Z》的ZEUTH成员（第24–27话三线并行）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第24话·联合国线",
+   "slug": "stage-24-un",
+   "zh": "异乡人的到访",
+   "ja": "異邦人の来訪",
+   "en": "Visitors from a Foreign Land",
+   "route": "联合国合作线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第23话结尾选择「继续协助联合国」",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "胜平被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "赞波3（胜平、宇宙太、惠子）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第25话·联合国线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（联合国线）：来自另一多元世界的ZEUTH成员陆续抵达本世界。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第24话·宇宙线",
+   "slug": "stage-24-sp",
+   "zh": "互不相容的执行者",
+   "ja": "相容れぬ遂行者",
+   "en": "Strange Pursuers",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第23话结尾选择「前往宇宙」",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "R-大钢（???）以NPC身份登场",
+    "座天使高达一型（约翰·特里尼迪）以NPC身份登场",
+    "座天使高达二型（米歇尔·特里尼迪）以NPC身份登场",
+    "座天使高达三型（尼娜·特里尼迪）以NPC身份登场"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第25话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（宇宙线）：三位一体的座天使高达登场。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第24话·第11区线",
+   "slug": "stage-24-a11",
+   "zh": "成田攻防战",
+   "ja": "ナリタ攻防戦",
+   "en": "Battle of Narita",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第23话结尾选择「前往第11区」",
+   "victory": [
+    "击破全部敌人",
+    "击破格洛斯特（柯内莉亚·兰佩路基）"
+   ],
+   "defeat": [
+    "藤堂被击坠",
+    "藤堂或ZERO被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内击破全部敌人，且最后击破柯内莉亚"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "月下（藤堂镜士朗）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第25话·第11区线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（第11区线）：成田攻防战，藤堂加入。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25话·联合国线",
+   "slug": "stage-25-un",
+   "zh": "遥远的世界",
+   "ja": "遠い世界",
+   "en": "Distant World",
+   "route": "联合国合作线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第24话·联合国线",
+   "victory": [
+    "击破恩奇杜（比拉尔）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰、龙马或蒂姆普被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人，且最后击破比拉尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "沃克·加利亚（基利安、琪露）",
+    "萨班格尔（艾尔琪）",
+    "布莱卡利（蒂姆普·夏伦）",
+    "帝王盖纳（盖纳·桑古）",
+    "恩佩兰萨（盖因·比乔）",
+    "潘萨（萨拉、阿黛特）",
+    "多米尼特（辛西娅·威尔斯）",
+    "基坦王（基坦）",
+    "达雅凯撒（达雅卡）",
+    "特莱达G7与赞波3获得合体攻击「双重小子攻击」",
+    "帝王盖纳获得「超能力攻击」武装",
+    "盖塔1/2/3获得「盖塔变换攻击」武装"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第26话·联合国线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "联合国线第25话：萨班格尔与帝王盖纳一行大举加入。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25话·宇宙线",
+   "slug": "stage-25-sp",
+   "zh": "新的来访者",
+   "ja": "新たな来訪者",
+   "en": "New Visitors",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第24话·宇宙线",
+   "victory": [
+    "击破次元兽犀牛型",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4回合内击破全部敌人，且最后击破次元兽犀牛型"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "强袭自由高达（基拉·大和）",
+    "无限正义高达（阿斯兰·萨拉）",
+    "命运高达（真·飞鸟）",
+    "脉冲高达（露娜玛丽亚·霍克）",
+    "Z高达（卡缪·比丹）",
+    "梅塔斯（花·园丽）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第26话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "宇宙线第25话：SEED DESTINY与Z高达的ZEUTH成员抵达。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25话·第11区线",
+   "slug": "stage-25-a11",
+   "zh": "羁绊",
+   "ja": "絆",
+   "en": "Bonds",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第24话·第11区线",
+   "victory": [
+    "击破全部敌人",
+    "击破暴犬（???）",
+    "击破兰斯洛特（枢木朱雀）"
+   ],
+   "defeat": [
+    "ZERO或齐力可被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破全部敌人，且最后击破朱雀"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第26话·第11区线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "第11区线第25话：齐力可与幻影女士的因缘。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26话·联合国线",
+   "slug": "stage-26-un",
+   "zh": "集结的力量",
+   "ja": "集う力",
+   "en": "Assembled Strength",
+   "route": "联合国合作线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第25话·联合国线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达DX（卡洛德·兰）",
+    "空中霸王爆裂型（维兹·苏）",
+    "利奥波德破坏型（罗亚贝·罗）",
+    "∀高达（罗兰·塞亚克）",
+    "黄金苏摩（哈里·奥德）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第27话·联合国线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "联合国线第26话：高达X与∀高达一行加入。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26话·宇宙线",
+   "slug": "stage-26-sp",
+   "zh": "被切断的归路",
+   "ja": "断ち切られる帰路",
+   "en": "No Way Home",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第25话·宇宙线",
+   "victory": [
+    "击破全部敌人",
+    "击破全部瓦鸠拉"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内击破包含R-大钢（???）在内的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索尔·格拉维昂（天地无量、艾奇、琉妮、瑞丽、水无月、英娜）",
+    "格兰突击兵（菲耶）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第27话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "宇宙线第26话：超重神格拉维昂合体。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26话·第11区线",
+   "slug": "stage-26-a11",
+   "zh": "Geass对Geass",
+   "ja": "ギアス対ギアス",
+   "en": "Geass vs. Geass",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第25话·第11区线",
+   "victory": [
+    "击破全部敌人",
+    "在ZERO出现后5回合内击破全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "ZERO出现后经过5回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第27话·第11区线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "第11区线第26话：与毛的Geass对决（限时条件特殊）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27话·联合国线",
+   "slug": "stage-27-un",
+   "zh": "被诅咒的流浪者",
+   "ja": "呪われし放浪者",
+   "en": "Cursed Wanderer",
+   "route": "联合国合作线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第26话·联合国线",
+   "victory": [
+    "击破全部敌人",
+    "击破珍珠钉（玛格丽特·皮斯提尔）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰、阿萨基姆或克罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破次元兽犀牛型MD（其在第4回合、或HP低于5000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "奥加斯（桂·木叶）",
+    "尼基克（雅典娜·亨德森）",
+    "休罗加（阿萨基姆·杜温）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "联合国线第27话：奥加斯抵达，阿萨基姆的休罗加正式参战。三线在本话后于第28话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27话·宇宙线",
+   "slug": "stage-27-sp",
+   "zh": "黑衣猎人",
+   "ja": "黒衣の狩人",
+   "en": "The Black Hunter",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第26话·宇宙线",
+   "victory": [
+    "击破全部敌人",
+    "击破珍珠钉（玛格丽特·皮斯提尔）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰、克罗、阿波罗或阿萨基姆被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破次元兽犀牛型MD（其在第4回合、或HP低于5000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "太阳阿夸利昂/阿夸利昂·马尔斯/阿夸利昂·卢娜（阿波罗、西尔维娅、西里乌斯）",
+    "太阳阿夸利昂获得「逆转拳」武装",
+    "皮埃尔、丽华、润、亚美自本话后可作副驾驶员",
+    "休罗加（阿萨基姆·杜温）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "宇宙线第27话：创圣阿夸利昂抵达。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27话·第11区线",
+   "slug": "stage-27-a11",
+   "zh": "神之岛",
+   "ja": "神の島",
+   "en": "Island of the Gods",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第26话·第11区线",
+   "victory": [
+    "击破全部敌人",
+    "击破珍珠钉（玛格丽特·皮斯提尔）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "阿萨基姆被击坠；ZERO、朱雀或克罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破次元兽犀牛型MD（其在第4回合撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZERO的无赖→高文（ZERO、C.C.）",
+    "兰斯洛特（枢木朱雀）",
+    "休罗加（阿萨基姆·杜温）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "第11区线第27话：高文入手。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "流浪的ZEUTH",
+   "ja": "放浪のZEUTH",
+   "en": "Wandering ZEUTH",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关任一第27话（三线合流）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "终极断空我（藤原忍、结城沙罗、式部雅人、梁、亚兰）",
+    "强袭自由高达与无限正义高达获得合体攻击「联合突击」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第29话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线合流后的共通关：ZEUTH全员集结。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "反击的狼烟",
+   "ja": "反撃の狼煙",
+   "en": "Signal for the Counterattack",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第28话",
+   "victory": [
+    "击破除大阿克西翁以外的全部敌人"
+   ],
+   "defeat": [
+    "克罗或母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大O（罗杰·史密斯、多罗西·R·温莱特）",
+    "兰斯洛特·空骑士（枢木朱雀）",
+    "多鲁基斯（杰克斯·马奎斯）",
+    "贝克大RX3（贝克、T-伯恩、多夫）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第30话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：对新帝国因佩利姆的反击开始，破界王盖欧的大阿克西翁登场。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "直线·支点",
+   "ja": "ストレート・フルクラム",
+   "en": "Straight Fulcrum",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第29话",
+   "victory": [
+    "击破全部敌人",
+    "击破次元兽犀牛型MD"
+   ],
+   "defeat": [
+    "克罗被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破白羊号（阿伊姆·莱亚德）（其在HP低于10000、或次元兽犀牛型MD被击破时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克西欧（克罗·布鲁斯特）",
+    "布拉斯特HP+500、EN+30、运动性+10，并获得武装「SPIGOT-VX」（动画与射程取决于第1话的选择）"
+   ],
+   "events": [
+    "本话中克罗改乘阿克西欧（临时机体）；布拉斯特的改造继承到阿克西欧"
+   ],
+   "secrets": [
+    "【隐藏部件·超级修理包】让克罗驾驶布拉斯特出击后，移动到泽尼鸟曾出现的格子（以地图左下为基准：向右13格、向上6格的位置）即可取得超级修理包（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第31话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：克罗与宿敌阿伊姆的决战，布拉斯特迎来强化。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "对决！火星与玛格！",
+   "ja": "対決！マーズとマーグ！",
+   "en": "Showdown! Mars and Marg",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第30话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "武被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达西格玛（东丈也、茱丽、奇拉肯）",
+    "巴尔迪奥斯（马林·雷根、奥利弗、赖塔）"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏部件·英雄之证（1/2）】先用武对玛格使用「说得」，再用武击坠玛格，即可取得英雄之证（全2步的第1步；第2步在第41话）。注意：同时想拿本话SR点时，武的移动力非常吃紧，建议配最好的移动力强化部件（Akurasu 隐藏页提示）。"
+   ],
+   "unlocks": [
+    "进入第32话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：高达西格玛与巴尔迪奥斯抵达。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "再见了，朋友……",
+   "ja": "あばよ、ダチ公・・・",
+   "en": "Goodbye, My Friends...",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第31话",
+   "victory": [
+    "击破大钢山（西米洛夫）",
+    "击破白煌（西米洛夫）"
+   ],
+   "defeat": [
+    "母舰、卡米那或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4回合内击破全部敌人，且最后击破西米洛夫"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "红莲（卡米那）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第33话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：卡米那之战（原作剧情的转折点）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "突破天际的生命",
+   "ja": "天を突く命",
+   "en": "The Life That Will Pierce the Heavens",
+   "route": "共通",
+   "area": "",
+   "type": "分歧前共通",
+   "prerequisite": "通关第32话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰、西蒙、兰顿、霍兰德或葵被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：在R-大钢到达后2回合内将其击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "螺岩失去「螺岩冲击」武装",
+    "优莱卡离开尼尔瓦修spec2",
+    "特米努斯303（霍兰德·诺瓦克）",
+    "月光号（塔尔霍、健吾、月杰）永久失去",
+    "断空我Nova强化：解除「不安定运转」、不再需要从新星之鹰合神出击；获得「神兽模式」武装，运动性+5、命中+5；葵与副驾驶员习得技能「野性化」",
+    "红莲螺岩强化：罗西乌成为副驾驶员；西蒙全能力+10，可习得精神「勇气」「魂」；运动性+5、移动力+1；红莲与螺岩自此不可再分离",
+    "大红莲（达雅卡、利隆）",
+    "达雅凯撒→优子M坦克（优子）",
+    "兰斯洛特·空骑士（枢木朱雀）——在进入路线分歧时永久离队，改造费用返还"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏部件·特米努斯303 SP推进器（连锁）】在本话前半的地图事件发生前，让霍兰德的击坠数达到50以上；达成后他将在第49话带着SP推进器归队，否则SP推进器会被破坏（Akurasu）。",
+    "【隐藏部件·世界树驱动】在本话结束前让朱雀的击坠数达到40以上，即可在休息时间前取得世界树驱动。注意：本话在进入分歧时朱雀即离队，且部件在休息时间前发放，无法用之后的副指令「巡逻」补击坠数（Akurasu）。",
+    "【隐藏连锁·龙卷包（1/4）】第33话结尾选择「与天上人同行」路线，是取得龙卷包的第一步（全4步，见第34/37/45话）。"
+   ],
+   "unlocks": [
+    "第33话结尾三分歧：选择「前往日本」（日本线）、「与天上人同行」（天上人线）或「前往第11区」（第11区线），第34–36话三线并行"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：朱雀在此离队（世界树驱动的击坠数门槛需在本话内达成）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话·日本线",
+   "slug": "stage-34-jp",
+   "zh": "回忆中的父亲",
+   "ja": "思い出の中の父",
+   "en": "The Father in my Memories",
+   "route": "日本线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第33话结尾选择「前往日本」",
+   "victory": [
+    "击破全部敌人",
+    "击破因塞克特R"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "赤木被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破珍珠钉（玛格丽特）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "特莱达G7获得「特莱达光束炮」「特莱达军刀」武装，HP+300、EN+20、运动性+5、武器威力+200",
+    "大红莲追加副驾驶员尼娅",
+    "廓克博格（饭冢）"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（1/3）】在本话中用克罗击坠玛格丽特，是玛格丽特加入连锁的第1步（全3步：第34–36话区间一次、第42–44话区间一次、第49话结算）。走日本线时机会在本话；走天上人/第11区线时机会在各自的第36话（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第35话·日本线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（日本线）：玛格丽特在本线于本话登场。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话·天上人线",
+   "slug": "stage-34-cb",
+   "zh": "纪念出道",
+   "ja": "メモリアル・デビュー",
+   "en": "Memorial Debut",
+   "route": "天上人同行线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第33话结尾选择「与天上人同行」",
+   "victory": [
+    "击破全部敌人",
+    "击破女王雷亚（特姆金）"
+   ],
+   "defeat": [
+    "阿尔特被击坠",
+    "母舰被击坠",
+    "阿尔特或米哈伊尔被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·龙卷包（2/4）】在本话中选择让兰花·李或雪莉露·诺姆中的一人坐进阿尔特的驾驶舱——记住这个选择，第37话必须选同一人（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第35话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（天上人线）：兰花与雪莉露的演唱会事件是龙卷包连锁的第2步。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话·第11区线",
+   "slug": "stage-34-a11",
+   "zh": "被囚禁的心",
+   "ja": "囚われの心",
+   "en": "The Imprisoned Heart",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第33话结尾选择「前往第11区」",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "ZERO或齐力可被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话·第11区线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "三线之一（第11区线）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话·日本线",
+   "slug": "stage-35-jp",
+   "zh": "进击！机械兽大作战！",
+   "ja": "進撃！機械獣大作戦！",
+   "en": "Advance! The Great Mechanical Beast Operation!",
+   "route": "日本线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第34话·日本线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z自此可飞行：运动性+10、移动力+1，并获得武装「飞翼粉碎机」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话·日本线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "日本线第35话：魔神Z获得飞翼（Scrander）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话·天上人线",
+   "slug": "stage-35-cb",
+   "zh": "恶意的矛头",
+   "ja": "悪意の矛先",
+   "en": "Spearhead of Evil",
+   "route": "天上人同行线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第34话·天上人线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "刹那、洛克昂或提耶利亚被击坠",
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破制定式特装型（阿里·阿尔·萨切斯）（其在HP低于10000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话·天上人线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第35话：与萨切斯的交锋。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话·第11区线",
+   "slug": "stage-35-a11",
+   "zh": "火焰",
+   "ja": "炎",
+   "en": "Blaze",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第34话·第11区线",
+   "victory": [
+    "击破全部敌人，或任一我方单位到达指定地点",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：红肩队出击后4回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "眼镜斗犬获得「涡轮特装」换装部件",
+    "暴犬（幻影女士）"
+   ],
+   "events": [
+    "本话中齐力可的僚机暴犬（幻影女士）暂时同行；眼镜斗犬的改造可继承到暴犬"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话·第11区线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "第11区线第35话：红肩队集结。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36话·日本线",
+   "slug": "stage-36-jp",
+   "zh": "生命尽头之物",
+   "ja": "命の果てにあるもの",
+   "en": "The Thing at the End of Life",
+   "route": "日本线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第35话·日本线",
+   "victory": [
+    "击破全部敌人",
+    "击破大钢海（阿迪涅）",
+    "击破大钢海；击破盖塔龙、盖塔狮虎、盖塔波塞冬"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第37话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "日本线第36话：与兽人王国的决战、真盖塔的异变。三线在本话后于第37话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36话·天上人线",
+   "slug": "stage-36-cb",
+   "zh": "被托付的意志",
+   "ja": "託される意志",
+   "en": "The Entrusted Will",
+   "route": "天上人同行线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第35话·天上人线",
+   "victory": [
+    "击破座天使高达二型（阿里·阿尔·萨切斯）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠",
+    "刹那、洛克昂、阿雷路亚或提耶利亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人，且最后击破萨切斯"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "能天使、力天使、主天使、德天使与纳德雷高达全部获得武装「Trans-AM系统」",
+    "提耶利亚自此可习得精神「信赖」「勇气」"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（1/3）】在本话中用克罗击坠玛格丽特（走天上人线时的第1步机会；日本线在第34话、第11区线在本话）（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第37话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "天上人线第36话：洛克昂与萨切斯的因缘对决，Trans-AM解禁。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36话·第11区线",
+   "slug": "stage-36-a11",
+   "zh": "血染的尤菲",
+   "ja": "血染めのユフィ",
+   "en": "Blood-stained Euphie",
+   "route": "第11区线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第35话·第11区线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：2回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴坦3（破岚万丈）"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（1/3）】在本话中用克罗击坠玛格丽特（走第11区线时的第1步机会）（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第37话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "第11区线第36话：尤菲米娅事件（原作的转折点，无法回避）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "雄壮……并且，美丽",
+   "ja": "雄々しく・・・・・・そして、美しく",
+   "en": "Be Manly... Then Beautiful",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关任一第36话（三线合流）",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "阿尔特被击坠",
+    "母舰、阿尔特或忍被击坠",
+    "R-大钢被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：因贝达出现后3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "托勒密号强化：获得「GN导弹」「GN光束炮」武装；能天使或力天使可与其发动合体攻击「GN武装（MAP）」；HP+1000、装甲+100、命中+5",
+    "戴坦3、赞波3与特莱达G7获得合体攻击「无敌合体技」",
+    "R-大钢（???）",
+    "终极断空我（藤原忍、结城沙罗、式部雅人、梁、亚兰）"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·龙卷包（3/4）】在本话中选择与第34话（天上人线）所选的同一人（兰花或雪莉露）为你献唱；选错则连锁中断（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第38话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：R-大钢在此正式归队（驾驶员身份在本话揭晓）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "被履行的约定",
+   "ja": "果たされる約束",
+   "en": "The Fulfilled Promise",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第37话",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "霍兰德被击坠，或任一影像体到达沃达拉克宫；母舰被击坠；霍兰德或克罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "特米努斯303（霍兰德·诺瓦克）",
+    "百式（柯瓦特罗·巴吉纳）",
+    "ν高达（阿姆罗·雷）",
+    "尼尔瓦修spec2→尼尔瓦修specV（兰顿、优莱卡、尼尔瓦修）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第39话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：ν高达与百式抵达，尼尔瓦修进化为specV。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "最后的红肩队",
+   "ja": "ザ・ラストレッドショルダー",
+   "en": "The Last Red Shoulder",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第38话",
+   "victory": [
+    "前半：击破全部敌人",
+    "后半：击破嗜血者（雷曼）；击破嗜血者（伊普西龙）"
+   ],
+   "defeat": [
+    "前半：任一我方单位被击坠",
+    "后半：齐力可或格雷戈尔被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破伊普西龙的嗜血者（其在HP低于8000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "前半：眼镜斗犬TC-ISS（齐力可）、眼镜斗犬TC-ISS（巴尔科夫）、眼镜斗犬TC-ISS（戈丹）、眼镜斗犬TC-ISS（科恰克）、眼镜斗犬TC-ISS（扎基）",
+    "后半：眼镜斗犬的涡轮特装部件变为TC-LRS部件",
+    "全部眼镜斗犬HP+200、EN+10、装甲+100、运动性+5，并追加第4个部件槽",
+    "眼镜斗犬TC-LRS（格雷戈尔）",
+    "眼镜斗犬TC-ISS"
+   ],
+   "events": [
+    "本话仅可出击S/M尺寸的机体（可变尺寸的机体如盖亚→高达玛斯同样受限）"
+   ],
+   "secrets": [
+    "【隐藏机体·眼镜斗犬TC-ISS】需同时满足三项：①前半让巴尔科夫小队5人每人至少击坠1台敌机；②后半由齐力可击坠伊普西龙（齐力可的援护攻击击坠也算）；③本话结束时齐力可的击坠数达到70以上（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第40话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：装甲骑兵红肩队篇的完结，齐力可与伊普西龙的决战。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "降临！！真正的存在！",
+   "ja": "降臨！！ 真なる者！",
+   "en": "Descend! The True One!",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第39话",
+   "victory": [
+    "击破大钢天（基托曼德尔）",
+    "击破真龙"
+   ],
+   "defeat": [
+    "母舰、龙马或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔机器人→真盖塔机器人（流龙马、神隼人、巴武藏）",
+    "红莲螺岩自此可飞行"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第41话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：真盖塔与真龙现身。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "玛格，那份生命",
+   "ja": "マーグ、その命",
+   "en": "Marg’s Life",
+   "route": "共通",
+   "area": "",
+   "type": "分歧前共通",
+   "prerequisite": "通关第40话",
+   "victory": [
+    "用武对玛格使用「说得」",
+    "击破玛格的旗舰（玛格）",
+    "击破加尼米德（罗泽）与大钢土（古阿姆）"
+   ],
+   "defeat": [
+    "母舰或武被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：击破大钢土（其在HP低于10000时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大红莲自此可飞行，其最终武装威力+200"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏部件·英雄之证（2/2)】先用武对玛格使用「说得」，再用武击坠玛格，即可完成英雄之证连锁（第1步在第31话）（Akurasu）。",
+    "【隐藏部件·超合金Z】让甲儿移动到兜家（位于地图北侧森林地带3栋房子中间的那一栋）即可取得超合金Z（Akurasu）。"
+   ],
+   "unlocks": [
+    "第41话结尾分歧：选择「前往暗黑大陆」（暗黑大陆线）或「前往宇宙」（宇宙线），第42–44话双线并行"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：玛格的归宿在此决定——英雄之证连锁的结算话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第42话·暗黑大陆线",
+   "slug": "stage-42-dc",
+   "zh": "迈向明日的凯歌",
+   "ja": "明日への凱歌",
+   "en": "Victory Song to the Future",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第41话结尾选择「前往暗黑大陆」",
+   "victory": [
+    "6回合内到达海特罗达因的核心",
+    "6回合内击破黑色戴加德"
+   ],
+   "defeat": [
+    "母舰或赤木被击坠，或经过7回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破全部敌人，且最后击破黑色戴加德"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戴加德获得「大结绳粉碎机」武装"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（2/3）】在本话中用克罗对玛格丽特使用「说得」或将其击坠（走暗黑大陆线时的第2步机会；宇宙线在第43话）（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第43话·暗黑大陆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "双线之一（暗黑大陆线）：限时关卡，戴加德最终强化。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第42话·宇宙线",
+   "slug": "stage-42-sp",
+   "zh": "将思念叠加，向着宇宙",
+   "ja": "想い重ねて、宇宙へ",
+   "en": "Your Thoughts to Space, Again",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "第41话结尾选择「前往宇宙」",
+   "victory": [
+    "击破玛格的旗舰（罗泽）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰、葵或艾达被击坠",
+    "谢尔盖或索玛被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内击破包含增援在内的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "R-大钢（艾达·罗萨）",
+    "GN-X（索玛·皮里斯）",
+    "GN-X（谢尔盖·斯米尔诺夫）",
+    "断空我Nova变为断空我Nova MAXGOD，并追加副驾驶员艾达",
+    "通关后：VF-25F/VF-25G/RVF-25 弥赛亚装备超级包换装部件；VF-25S 弥赛亚装备装甲包换装部件"
+   ],
+   "events": [
+    "断空我Nova的改造在本话继承到断空我Nova MAXGOD"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第43话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "双线之一（宇宙线）：艾达正式加入，断空我Nova MAXGOD诞生。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第43话·暗黑大陆线",
+   "slug": "stage-43-dc",
+   "zh": "前往王都铁佩林",
+   "ja": "王都テッペリンへ",
+   "en": "To the Capital Teppelin",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第42话·暗黑大陆线",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "红莲螺岩可与大红莲发动合体攻击「千兆钻头突破·大红莲团特别版」"
+   ],
+   "events": [
+    "本话中飞行单位按宇宙地形计算（Akurasu 流程图注记）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第44话·暗黑大陆线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "暗黑大陆线第43话：向螺旋王的王都进军。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第43话·宇宙线",
+   "slug": "stage-43-sp",
+   "zh": "罗泽的决意",
+   "ja": "ロゼの決意",
+   "en": "Rose’s Decision",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第42话·宇宙线",
+   "victory": [
+    "击破加尼米德（罗泽）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰或武被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "通关后：宇宙粉碎者号追加副驾驶员罗泽"
+   ],
+   "events": [],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（2/3）】在本话中用克罗对玛格丽特使用「说得」或将其击坠（走宇宙线时的第2步机会；暗黑大陆线在第42话）（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第44话·宇宙线"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "宇宙线第43话：罗泽加入宇宙粉碎者号。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第44话·暗黑大陆线",
+   "slug": "stage-44-dc",
+   "zh": "螺旋王的愤怒",
+   "ja": "怒りの螺旋王",
+   "en": "Wrath of the Spiral King",
+   "route": "暗黑大陆线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第43话·暗黑大陆线",
+   "victory": [
+    "击破恩奇杜杜（比拉尔）",
+    "击破拉赞甘（螺旋王罗杰诺姆）"
+   ],
+   "defeat": [
+    "母舰或西蒙被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5个我方回合内击破包含增援在内的全部敌人，且最后击破罗杰诺姆"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话中飞行单位按宇宙地形计算（Akurasu 流程图注记）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第45话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "暗黑大陆线第44话：与螺旋王罗杰诺姆的决战。双线在本话后于第45话合流。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第44话·宇宙线",
+   "slug": "stage-44-sp",
+   "zh": "向着未来飞翔",
+   "ja": "未来への飛翔",
+   "en": "Soar to the Future",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分歧",
+   "prerequisite": "通关第43话·宇宙线",
+   "victory": [
+    "击破全部敌人",
+    "击破原初断空我（月之意志）"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内击破全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第45话（共通）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "宇宙线第44话：月之意志操纵的原初断空我——本作最难的Boss战之一。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "小小女王",
+   "ja": "リトルクイーン",
+   "en": "Little Queen",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关任一第44话（双线合流）",
+   "victory": [
+    "阿尔特到达指定地点",
+    "击破主教级瓦鸠拉"
+   ],
+   "defeat": [
+    "母舰、阿尔特或布雷拉被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：5回合内击破全部敌人，且最后击破主教级瓦鸠拉"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "眼镜斗犬获得「环绕移动装置」换装部件",
+    "VF-25F 弥赛亚获得装甲包换装部件",
+    "VF-25F 弥赛亚获得龙卷包换装部件",
+    "VF-27γ 路西法（布雷拉·斯特恩）"
+   ],
+   "events": [
+    "本话中阿尔特一度改乘VF-27γ路西法（临时）；VF-25弥赛亚的改造可继承到路西法"
+   ],
+   "secrets": [
+    "【隐藏连锁·龙卷包（4/4）】在阿尔特进入瓦鸠拉巢穴之前，让他的击坠数达到70以上——达成后VF-25F立即获得龙卷包；未达成则只获得无论如何都会入手的装甲包（Akurasu）。"
+   ],
+   "unlocks": [
+    "进入第46话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：龙卷包连锁的结算话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "邪恶的化身",
+   "ja": "邪悪の化身",
+   "en": "Embodiment of Evil",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第45话",
+   "victory": [
+    "击破基辛战斗舰（瓦尔）",
+    "击破假祖鲁皇帝",
+    "击破祖鲁皇帝"
+   ],
+   "defeat": [
+    "母舰或武被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3个我方回合内击破全部敌人，且最后击破基辛战斗舰（瓦尔）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖亚与高达玛斯失去特殊能力「反阳子爆弹」"
+   ],
+   "events": [
+    "本话剧情中盖亚体内的反阳子爆弹被移除，此后盖亚/高达玛斯被击坠不再导致游戏结束"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第47话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：祖鲁皇帝带着多名已击败的Boss与自己的克隆体迎战，最后真身才现身。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第47话",
+   "slug": "stage-47",
+   "zh": "被迎接的胜者",
+   "ja": "迎えられる勝者",
+   "en": "The Welcomed Victors",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第46话",
+   "victory": [
+    "经过4回合，或击破全部敌人"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：3回合内击破全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第48话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：ZEXIS以胜者身份受到迎接——但和平只是表象。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第48话",
+   "slug": "stage-48",
+   "zh": "黎明的钟声",
+   "ja": "夜明けの鐘",
+   "en": "Daybreak’s Bell",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第47话",
+   "victory": [
+    "第一幕：击破全部敌人",
+    "第二幕：击破全部敌人；击破阿尔瓦特雷（亚历杭德罗·科纳）",
+    "第三幕：击破阿尔瓦龙（亚历杭德罗·科纳）"
+   ],
+   "defeat": [
+    "第一幕：母舰、刹那、洛克昂、阿雷路亚或提耶利亚被击坠",
+    "第二幕：母舰、刹那或洛克昂被击坠",
+    "第三幕：刹那被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：4个我方回合内通过第一幕"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿雷路亚觉醒：获得强化版王牌奖励与不同的精神组合",
+    "力天使高达（洛克昂·斯特拉托斯、哈罗）永久失去（改造费用返还）"
+   ],
+   "events": [],
+   "secrets": [
+    "【可选事件·阿雷路亚的觉醒（提前）】在第一幕中让阿雷路亚与索玛·皮里斯交战且双方都不被击坠，阿雷路亚会当场觉醒（否则只在第二幕觉醒）：觉醒后王牌奖励变为命中/回避+20%，精神组合改变（热血升级为同消耗的魂等、多项消耗降低），Trans-AM武装动画变化；效果在索玛被击坠后、及本话结束后消失（Akurasu）。",
+    "【隐藏部件·哈罗】在本话结束前让洛克昂的击坠数达到70以上，通关后取得部件「哈罗」（Akurasu）。",
+    "【可选事件·约书亚再登场】若在第20话没有击坠约书亚·爱德华兹，他会在本话改乘GN-X登场（见第20话）。"
+   ],
+   "unlocks": [
+    "进入第49话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：三幕构成的大战，洛克昂在此迎来原作的命运（力天使永久失去）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第49话",
+   "slug": "stage-49",
+   "zh": "虹",
+   "ja": "虹",
+   "en": "Rainbow",
+   "route": "共通",
+   "area": "",
+   "type": "共通",
+   "prerequisite": "通关第48话",
+   "victory": [
+    "兰顿到达指定地点",
+    "击破特米努斯303 SP（霍兰德）",
+    "击破埃梅拉尔丹（骑士）",
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "母舰或兰顿被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "+1：6个我方回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "特米努斯303（霍兰德·诺瓦克）",
+    "特米努斯303获得换装部件「SP推进器」（取决于第33话的连锁）",
+    "珍珠钉（玛格丽特·皮斯提尔）"
+   ],
+   "events": [
+    "本话中所有女武神（VF）系机体强制解除换装部件",
+    "本话通关后，早期对月光号投入的改造费用返还"
+   ],
+   "secrets": [
+    "【隐藏连锁·珍珠钉/玛格丽特（3/3）】第34–36话区间与第42–44话区间的两步都达成时，本话中玛格丽特会在她本人或埃梅拉尔丹（骑士）被击破后加入我方（Akurasu）。",
+    "【隐藏连锁·SP推进器结算】第33话让霍兰德击坠数达到50以上的连锁在本话结算：他归队时带着SP推进器（见第33话）。"
+   ],
+   "unlocks": [
+    "进入最终话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "共通关：交响诗篇剧情的收官与玛格丽特连锁的结算。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "破界的世纪",
+   "ja": "破界の世紀",
+   "en": "Era of Destruction",
+   "route": "共通",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第49话",
+   "victory": [
+    "击破大阿克西翁（时央）与次元兽利维亚蒙斯",
+    "击破格尔提兰（盖欧）"
+   ],
+   "defeat": [
+    "母舰被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话没有熟练度点：全作SR点共50点（第1–50话各1点）。",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得，并有过关奖励；本作没有前作 Z 的巴扎（BS）系统，强化部件主要靠敌机掉落与隐藏要素获得（Akurasu 流程图未逐关刊载掉落表，待核实）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话中飞行单位按宇宙地形计算（Akurasu 流程图注记）"
+   ],
+   "secrets": [
+    "【可选事件·最强形态的盖欧】盖欧出击时会有一系列问答：依次选择「为了与强大的敌人战斗」与「他是真心渴求战斗本身」，盖欧会强化为Lv70（普通难度）或Lv99（困难难度）的最强形态（Akurasu）。"
+   ],
+   "unlocks": [
+    "本篇完结（后篇《再世篇》）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援、等级、HP）没有成套且可交叉核对的公开来源：s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略（faqs/67182）以剧情翻译为主，未刊逐关编成表。故本关敌方编成暂不刊出，待核实。"
+    ]
+   },
+   "note": "最终话：与破界王盖欧的决战。《破界篇》的故事在此完结，续篇为《再世篇》。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Flow Chart（全关卡流程、胜败条件、SR点与机体加入总表，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z2》Secrets（隐藏要素分项条件与连锁总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  }
+ ]
+}

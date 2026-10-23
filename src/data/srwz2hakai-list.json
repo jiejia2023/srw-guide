@@ -1,0 +1,862 @@
+{
+ "groups": [
+  {
+   "title": "序盘·第1–2话（共通开局）",
+   "intro": "单一主人公克罗·布鲁斯特开局：第1话选布拉斯特的射击/格斗强化方向，第2话结尾第一次分歧（日本/天上人追击）。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "100万G的男人",
+     "ja": "１００万Gの男",
+     "en": "The Million Credits Man",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "改变的世界",
+     "ja": "変わる世界",
+     "en": "Changing World",
+     "type": "分歧前共通",
+     "area": "",
+     "note": "结尾分歧"
+    }
+   ]
+  },
+  {
+   "title": "第3–4话（日本线/天上人追击线）",
+   "intro": "按第2话的选择进入日本线（真魔神·戴加德）或天上人追击线（高达00·高达W）。",
+   "rows": [
+    {
+     "code": "第3话·日本线",
+     "zh": "启动！魔神！",
+     "ja": "始動！マジンガー！",
+     "en": "Power Up! Mazinger!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·天上人线",
+     "zh": "呼唤战火的流星",
+     "ja": "戦火を呼ぶ流星",
+     "en": "The Meteor That Calls For War",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·日本线",
+     "zh": "造访的灾厄",
+     "ja": "やってきた災厄",
+     "en": "Coming Disaster",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·天上人线",
+     "zh": "混沌的战场",
+     "ja": "混沌の戦場",
+     "en": "Battlefield in Chaos",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第5–8话（三线并行：甲儿组/天上人追击/殖民地高达）",
+   "intro": "第4话结尾再分歧：甲儿组（仅日本线）、天上人追击（两线共通）、殖民地高达追击（仅天上人线）三组并行推进，第9话合流。",
+   "rows": [
+    {
+     "code": "第5话·甲儿组",
+     "zh": "宇宙万事屋",
+     "ja": "こちら宇宙のなんでも屋",
+     "en": "We are Space’s Jack of All Trades",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·天上人线",
+     "zh": "超兽合神！",
+     "ja": "超獣合神！",
+     "en": "Super Beast God Combination!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·殖民地组",
+     "zh": "战斗竞技",
+     "ja": "バトリング",
+     "en": "Battling",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·甲儿组",
+     "zh": "觉醒的力量",
+     "ja": "目覚める力",
+     "en": "Awakened Strength",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·天上人线",
+     "zh": "通向遥远的和平",
+     "ja": "遠い平和へ",
+     "en": "To A Distant Peace",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·殖民地组",
+     "zh": "魔神诞生之日",
+     "ja": "魔神が生まれた日",
+     "en": "The Day The Devil Is Born",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·甲儿组",
+     "zh": "六神合体的威胁",
+     "ja": "脅威の六神合体",
+     "en": "The Threat Of The Six God Combination",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·天上人线",
+     "zh": "出击！！盖塔机器人！",
+     "ja": "出撃!!ゲッターロボ!",
+     "en": "Sortie! Getter Robo!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·殖民地组",
+     "zh": "他的名字是ZERO",
+     "ja": "その名はゼロ",
+     "en": "His Name Is Zero",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·甲儿组",
+     "zh": "被考验的觉悟",
+     "ja": "試される覚悟",
+     "en": "To Attempt A Solution",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·天上人线",
+     "zh": "为谁扣动扳机",
+     "ja": "引き金は誰がために",
+     "en": "For Whom The Trigger Is Pulled",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·殖民地组",
+     "zh": "皇女与魔女",
+     "ja": "皇女と魔女",
+     "en": "The Princess and the Witch",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第9话（次元震·四种合流版本）",
+   "intro": "三线在次元震中合流：四个版本的胜败/SR条件相同，差异只在合流的我方阵容。",
+   "rows": [
+    {
+     "code": "第9话·合流甲",
+     "zh": "次元震",
+     "ja": "次元震",
+     "en": "Dimensional Tremor",
+     "type": "合流",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·合流乙",
+     "zh": "次元震",
+     "ja": "次元震",
+     "en": "Dimensional Tremor (Japan Choice)",
+     "type": "合流",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·合流丙",
+     "zh": "次元震",
+     "ja": "次元震",
+     "en": "Dimensional Tremor (Area 11 Choice)",
+     "type": "合流",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·合流丁",
+     "zh": "次元震",
+     "ja": "次元震",
+     "en": "Dimensional Tremor",
+     "type": "合流",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第10–12话（暗黑大陆线/边境船团线）",
+   "intro": "甲儿组出身自动进入暗黑大陆线（天元突破），殖民地组出身自动进入边境船团线（超时空要塞F），第13话合流。",
+   "rows": [
+    {
+     "code": "第10话·暗黑大陆线",
+     "zh": "用你的钻头突破天际！！",
+     "ja": "お前のドリルで天を突け！！",
+     "en": "Pierce the Heavens With Your Drill!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·边境船团线",
+     "zh": "近距离遭遇",
+     "ja": "クロース・エンカウンター",
+     "en": "Close Encounter",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·暗黑大陆线",
+     "zh": "那家伙居然有两张脸！！",
+     "ja": "顔が2つたあ生意気なッ！！",
+     "en": "That Thing Has Two Faces!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·边境船团线",
+     "zh": "各就各位",
+     "ja": "オン・ユア・マークス",
+     "en": "On Your Marks",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·暗黑大陆线",
+     "zh": "我完全搞不懂啊！",
+     "ja": "俺にはさっぱりわからねえ！",
+     "en": "I Don’t Get It, Not One Bit!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·边境船团线",
+     "zh": "首次攻击",
+     "ja": "ファースト・アタック",
+     "en": "First Attack",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第13–15话（共通：黑色骑士团与副指令解禁）",
+   "intro": "黑色骑士团结成；第13话后副指令系统解禁；第15话结尾分表/里部队。",
+   "rows": [
+    {
+     "code": "第13话",
+     "zh": "黑色骑士团",
+     "ja": "黒の騎士団",
+     "en": "The Order of the Black Knights",
+     "type": "共通",
+     "area": "",
+     "note": "副指令解禁"
+    },
+    {
+     "code": "第14话",
+     "zh": "信任与觉悟",
+     "ja": "信頼と覚悟と",
+     "en": "With Trust and Resolution",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "笼罩世界的阴影",
+     "ja": "世界を覆う影",
+     "en": "The Shadow That Covers The World",
+     "type": "分歧前共通",
+     "area": "",
+     "note": "结尾分歧"
+    }
+   ]
+  },
+  {
+   "title": "第16–18话（表部队/里部队）",
+   "intro": "表部队（要塞F等）与里部队（装甲骑兵·交响诗篇等）并行，第19话合流。",
+   "rows": [
+    {
+     "code": "第16话·表部队",
+     "zh": "BIRD-HUMAN",
+     "ja": "BIRD-HUMAN",
+     "en": "BIRD-HUMAN",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·里部队",
+     "zh": "接触",
+     "ja": "接触",
+     "en": "Contact",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·表部队",
+     "zh": "新宿夜晚大决战",
+     "ja": "夜の新宿大決戦",
+     "en": "Night Battle in Shinjuku",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·里部队",
+     "zh": "梦的延续",
+     "ja": "夢の続き",
+     "en": "After The Dream",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·表部队",
+     "zh": "开场舞台",
+     "ja": "オーペニング・ステージ",
+     "en": "Opening Stage",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·里部队",
+     "zh": "交错的明天",
+     "ja": "交差する明日",
+     "en": "Crossing Over Into Tomorrow",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第19–23话（共通：第23话结尾三分歧）",
+   "intro": "共通推进：第20话有约书亚的可选事件，第23话与NPC休罗加交锋后进入全作最大三分歧。",
+   "rows": [
+    {
+     "code": "第19话",
+     "zh": "众人的正义",
+     "ja": "みんなの正義",
+     "en": "Everyone’s Justice",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "沙尘中舞动的恶意",
+     "ja": "砂塵に舞う悪意",
+     "en": "Malice in the Sands",
+     "type": "共通",
+     "area": "",
+     "note": "约书亚事件"
+    },
+    {
+     "code": "第21话",
+     "zh": "被揭示的真相",
+     "ja": "明かされる真実",
+     "en": "The Truth Revealed",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "利莫内西亚强袭",
+     "ja": "リモネシア強襲",
+     "en": "Limonecia Assault",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "新世界的序幕",
+     "ja": "新世界の幕開け",
+     "en": "The Curtain Rises On The New World",
+     "type": "分歧前共通",
+     "area": "",
+     "note": "结尾三分歧"
+    }
+   ]
+  },
+  {
+   "title": "第24–27话（三线：联合国/宇宙/第11区——ZEUTH来访）",
+   "intro": "三条线分别迎来从另一多元世界召唤而来的ZEUTH成员（前作《Z》的参战作品群），第28话合流。",
+   "rows": [
+    {
+     "code": "第24话·联合国线",
+     "zh": "异乡人的到访",
+     "ja": "異邦人の来訪",
+     "en": "Visitors from a Foreign Land",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·宇宙线",
+     "zh": "互不相容的执行者",
+     "ja": "相容れぬ遂行者",
+     "en": "Strange Pursuers",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·第11区线",
+     "zh": "成田攻防战",
+     "ja": "ナリタ攻防戦",
+     "en": "Battle of Narita",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·联合国线",
+     "zh": "遥远的世界",
+     "ja": "遠い世界",
+     "en": "Distant World",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·宇宙线",
+     "zh": "新的来访者",
+     "ja": "新たな来訪者",
+     "en": "New Visitors",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·第11区线",
+     "zh": "羁绊",
+     "ja": "絆",
+     "en": "Bonds",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·联合国线",
+     "zh": "集结的力量",
+     "ja": "集う力",
+     "en": "Assembled Strength",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·宇宙线",
+     "zh": "被切断的归路",
+     "ja": "断ち切られる帰路",
+     "en": "No Way Home",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·第11区线",
+     "zh": "Geass对Geass",
+     "ja": "ギアス対ギアス",
+     "en": "Geass vs. Geass",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·联合国线",
+     "zh": "被诅咒的流浪者",
+     "ja": "呪われし放浪者",
+     "en": "Cursed Wanderer",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·宇宙线",
+     "zh": "黑衣猎人",
+     "ja": "黒衣の狩人",
+     "en": "The Black Hunter",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·第11区线",
+     "zh": "神之岛",
+     "ja": "神の島",
+     "en": "Island of the Gods",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第28–33话（共通：反击与第33话结尾三分歧）",
+   "intro": "ZEUTH全员集结后反击因佩利姆；第33话是世界树驱动/朱雀离队与龙卷包连锁的起点，结尾再分三线。",
+   "rows": [
+    {
+     "code": "第28话",
+     "zh": "流浪的ZEUTH",
+     "ja": "放浪のZEUTH",
+     "en": "Wandering ZEUTH",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "反击的狼烟",
+     "ja": "反撃の狼煙",
+     "en": "Signal for the Counterattack",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "直线·支点",
+     "ja": "ストレート・フルクラム",
+     "en": "Straight Fulcrum",
+     "type": "共通",
+     "area": "",
+     "note": "超级修理包"
+    },
+    {
+     "code": "第31话",
+     "zh": "对决！火星与玛格！",
+     "ja": "対決！マーズとマーグ！",
+     "en": "Showdown! Mars and Marg",
+     "type": "共通",
+     "area": "",
+     "note": "英雄之证1/2"
+    },
+    {
+     "code": "第32话",
+     "zh": "再见了，朋友……",
+     "ja": "あばよ、ダチ公・・・",
+     "en": "Goodbye, My Friends...",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "突破天际的生命",
+     "ja": "天を突く命",
+     "en": "The Life That Will Pierce the Heavens",
+     "type": "分歧前共通",
+     "area": "",
+     "note": "结尾三分歧"
+    }
+   ]
+  },
+  {
+   "title": "第34–36话（三线：日本/天上人同行/第11区）",
+   "intro": "玛格丽特连锁第1步按所选路线分别在本区间的第34话（日本）或第36话（天上人/第11区）触发；第37话合流。",
+   "rows": [
+    {
+     "code": "第34话·日本线",
+     "zh": "回忆中的父亲",
+     "ja": "思い出の中の父",
+     "en": "The Father in my Memories",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·天上人线",
+     "zh": "纪念出道",
+     "ja": "メモリアル・デビュー",
+     "en": "Memorial Debut",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·第11区线",
+     "zh": "被囚禁的心",
+     "ja": "囚われの心",
+     "en": "The Imprisoned Heart",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·日本线",
+     "zh": "进击！机械兽大作战！",
+     "ja": "進撃！機械獣大作戦！",
+     "en": "Advance! The Great Mechanical Beast Operation!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·天上人线",
+     "zh": "恶意的矛头",
+     "ja": "悪意の矛先",
+     "en": "Spearhead of Evil",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·第11区线",
+     "zh": "火焰",
+     "ja": "炎",
+     "en": "Blaze",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·日本线",
+     "zh": "生命尽头之物",
+     "ja": "命の果てにあるもの",
+     "en": "The Thing at the End of Life",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·天上人线",
+     "zh": "被托付的意志",
+     "ja": "託される意志",
+     "en": "The Entrusted Will",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·第11区线",
+     "zh": "血染的尤菲",
+     "ja": "血染めのユフィ",
+     "en": "Blood-stained Euphie",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第37–41话（共通：第41话结尾分歧）",
+   "intro": "共通推进：第39话红肩队完结（仅S/M尺寸可出击），第41话结算英雄之证并分暗黑大陆/宇宙两线。",
+   "rows": [
+    {
+     "code": "第37话",
+     "zh": "雄壮……并且，美丽",
+     "ja": "雄々しく・・・・・・そして、美しく",
+     "en": "Be Manly... Then Beautiful",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "被履行的约定",
+     "ja": "果たされる約束",
+     "en": "The Fulfilled Promise",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "最后的红肩队",
+     "ja": "ザ・ラストレッドショルダー",
+     "en": "The Last Red Shoulder",
+     "type": "共通",
+     "area": "",
+     "note": "TC-ISS"
+    },
+    {
+     "code": "第40话",
+     "zh": "降临！！真正的存在！",
+     "ja": "降臨！！ 真なる者！",
+     "en": "Descend! The True One!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "玛格，那份生命",
+     "ja": "マーグ、その命",
+     "en": "Marg’s Life",
+     "type": "分歧前共通",
+     "area": "",
+     "note": "结尾分歧"
+    }
+   ]
+  },
+  {
+   "title": "第42–44话（暗黑大陆线/宇宙线）",
+   "intro": "玛格丽特连锁第2步按路线分别在第42话（暗黑大陆）或第43话（宇宙）触发；第45话合流。",
+   "rows": [
+    {
+     "code": "第42话·暗黑大陆线",
+     "zh": "迈向明日的凯歌",
+     "ja": "明日への凱歌",
+     "en": "Victory Song to the Future",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·宇宙线",
+     "zh": "将思念叠加，向着宇宙",
+     "ja": "想い重ねて、宇宙へ",
+     "en": "Your Thoughts to Space, Again",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·暗黑大陆线",
+     "zh": "前往王都铁佩林",
+     "ja": "王都テッペリンへ",
+     "en": "To the Capital Teppelin",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·宇宙线",
+     "zh": "罗泽的决意",
+     "ja": "ロゼの決意",
+     "en": "Rose’s Decision",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·暗黑大陆线",
+     "zh": "螺旋王的愤怒",
+     "ja": "怒りの螺旋王",
+     "en": "Wrath of the Spiral King",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·宇宙线",
+     "zh": "向着未来飞翔",
+     "ja": "未来への飛翔",
+     "en": "Soar to the Future",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第45话–最终话（共通收官）",
+   "intro": "龙卷包连锁在第45话结算；第48话为三幕大战（哈罗、阿雷路亚觉醒）；第49话结算玛格丽特与SP推进器连锁；最终话决战破界王盖欧。最终话无SR点。",
+   "rows": [
+    {
+     "code": "第45话",
+     "zh": "小小女王",
+     "ja": "リトルクイーン",
+     "en": "Little Queen",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "邪恶的化身",
+     "ja": "邪悪の化身",
+     "en": "Embodiment of Evil",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "被迎接的胜者",
+     "ja": "迎えられる勝者",
+     "en": "The Welcomed Victors",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "黎明的钟声",
+     "ja": "夜明けの鐘",
+     "en": "Daybreak’s Bell",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "虹",
+     "ja": "虹",
+     "en": "Rainbow",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "破界的世纪",
+     "ja": "破界の世紀",
+     "en": "Era of Destruction",
+     "type": "最终话",
+     "area": "",
+     "note": "无SR点"
+    }
+   ]
+  }
+ ]
+}

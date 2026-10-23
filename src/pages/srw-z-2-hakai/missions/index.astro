@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwZ2HakaiMissionList from '../../../components/SrwZ2HakaiMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战Z破界篇', path: 'srw-z-2-hakai/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第2次超级机器人大战Z 破界篇（PSP）关卡攻略 · 全86个剧本页面列表" description="第2次超级机器人大战Z 破界篇（2011年 PSP）全部剧本的页面列表：第1–50话加最终话（一周目51关），含三线并行、第9话四种合流版本、第23/33话结尾两次三分歧与第41话结尾双线。每关独立攻略页含胜利/败北条件、熟练度（SR点）取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-z-2-hakai/missions/" breadcrumbs={crumbs}>
+  <h1>第2次超级机器人大战Z破界篇 · 关卡攻略</h1>
+  <p>2011 年 PSP《第2次超级机器人大战Z 破界篇》是 Z 系列的第 2 作、两部作构成的前篇（后篇为 2012 年的《再世篇》），也是 PSP 上的首个完全新作机战。舞台是大时空震动融合 20 年后的另一个多元世界：欠下 100 万 G 债务的测试驾驶员<strong>克罗·布鲁斯特</strong>驾驶对次元兽兵器<strong>布拉斯特</strong>辗转各势力之间，最终与各作品主角共同组成特别国际救援队 <strong>ZEXIS</strong>；中盘，来自前作《Z》世界的多元世界守护者 <strong>ZEUTH</strong> 成员被召唤到本世界，ZEXIS 与他们合流，向自称新帝国<strong>因佩利姆</strong>的破界王<strong>盖欧</strong>发起反击——故事在最终话与盖欧的决战处完结（本篇自身完结，续篇再世篇是新的一年后的故事）。编号主干一周目为第 1–50 话加最终话共 51 关：分歧极多——第 2 话结尾（日本/天上人追击）、第 4 话结尾三组并行（第 5–8 话三线）、第 9 话四种合流版本、第 9 话后的暗黑大陆/边境船团双线（第 10–12 话）、第 15 话结尾的表/里部队（第 16–18 话）、第 23 话结尾三分歧（第 24–27 话 ZEUTH 来访）、第 33 话结尾三分歧（第 34–36 话）、第 41 话结尾双线（第 42–44 话）。本站按 Akurasu 流程图逐条清点共 <strong>86 个剧本</strong>，全部建有详情页，与 Akurasu 主页标示的 86 个可玩剧本一致（日文维基的概要作「全50话/84关」，与此有出入，见本作主页「来源分歧」）。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-z-2-hakai/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 <strong>86 个剧本页面全部建有详情页</strong>。流程、胜败条件、<strong>熟练度（SR点）取得条件</strong>、加入与隐藏要素以 Akurasu 的《第2次Z》流程图与隐藏要素页为主源，系统规则以日文维基、日文攻略 wiki 与韩文 Namu 交叉核对。本作的 SR 点只影响难度：<strong>没有前作 Z 那种以点数开启路线/结局的门槛</strong>，不拿满也能走完所有路线与隐藏连锁。本作的敌方<strong>编成</strong>没有成套且可交叉核对的公开来源（s-rpg-navi 未收录本作；GameFAQs 的 MNeidengard 攻略以剧情翻译为主、未刊逐关编成表），故各页敌方编成、<strong>坐标与逐格地形一律如实标为待核实</strong>、坐标图为带四边坐标轴的参照框架。本页只做 PSP 原版（2011 年）。</span>
+  </div>
+
+  <SrwZ2HakaiMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2 Flow Chart</a>（全关卡流程、胜败条件、SR点、机体加入与路线分歧总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2 Secrets</a>（隐藏机体/部件分项条件、可选事件与隐藏连锁总表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2/Sub-Orders" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2 Sub-Orders</a>（副指令四种指令与数值）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2/Clear_Bonuses" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2 Clear Bonuses / Upgrade Carryover</a>（周回继承比例、换乘机体的改造继承与返还）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z" rel="noopener" target="_blank">日本维基百科 — 第2次スーパーロボット大戦Z</a>（参战作品 34 作、副指令数值、王牌奖励与原作再现系统的交叉核对）</li>
+    <li><a href="https://www44.atwiki.jp/srwz2nd/" rel="noopener" target="_blank">第２次スーパーロボット大戦Z 破界篇 攻略＆まとめwiki（atwiki）</a>（参战作品标记与系统情报的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-z-2-hakai/')}>← 返回第2次超级机器人大战Z破界篇</a></p>
+</Base>
