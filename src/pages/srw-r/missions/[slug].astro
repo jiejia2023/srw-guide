@@ -22,7 +22,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 R <strong>Complete Chart</strong>，并逐条与同站 Secrets 页交叉核对，隐藏要素另以 Namu 攻略为第二来源、日文维基校话数口径（分歧见本页备注与隐藏要素栏）。本作<strong>没有熟练度（SR 点）系统</strong>，隐藏要素由说得链、击坠数门槛、路线选择与回合条件决定；援护是统一的<strong>「援护攻击・防御」技能</strong>（次数按技能等级，不是《A》的信赖度制）。本作没有任何公开来源刊载逐关敌方配置、坐标与地形——Akurasu 流程图无敌方栏、GameCenter GX 未收录本作——且本次核查的来源均未记载本作有敌方等级缩放公式（《A》的平均等级公式只属于《A》），故「敌方出场与增援」一节标为待核实，地图为参照框架。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 R <strong>Complete Chart</strong>，并逐条与同站 Secrets 页交叉核对，隐藏要素另以 Namu 攻略为第二来源、日文维基校话数口径（分歧见本页备注与隐藏要素栏）。<strong>敌方配置与地图已补完</strong>：本关的逐格地形、敌方初期配置坐标、我方出击位置与增援出现区域，来自台版《超級機器人大戰R 超完全攻略》（疾風之狼，2002）的关卡地图与配置表数字化，并逐关做台数交叉核对（见下方「与攻略本配置表的交叉核对」）；原书不刊敌方等级（Lv），故本页不刊 Lv。本作<strong>没有熟练度（SR 点）系统</strong>，隐藏要素由说得链、击坠数门槛、路线选择与回合条件决定；援护是统一的<strong>「援护攻击・防御」技能</strong>（次数按技能等级，不是《A》的信赖度制）。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -74,9 +74,16 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   {m.enemies.reinforcements && m.enemies.reinforcements.length > 0 && (
     <div>
       <h3>增援</h3>
-      <ul>
-        {m.enemies.reinforcements.map((r: any) => <li>{typeof r === 'string' ? r : `${r.trigger ?? ''} ${r.name ?? ''}`}</li>)}
-      </ul>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>出现时机</th><th>单位</th><th>驾驶员</th><th>Lv</th><th>坐标</th><th>行动</th><th>备注</th></tr></thead>
+        <tbody>
+        {m.enemies.reinforcements.map((r: any) => (
+          <tr><td>{r.trigger}</td><td>{r.name}</td><td>{r.pilot}</td><td>{r.lv}</td><td>{coord(r)}</td><td>{r.behavior || '—'}</td><td>{r.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
     </div>
   )}
   </div>
@@ -85,6 +92,23 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级、坐标）暂无可交叉核对的公开来源，核实后补入。本作敌方等级是否有缩放公式亦无任何来源记载——《A》的「上位 20 名平均」公式只属于《A》，本站不套用。</span>
     </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  {(m.enemies.crosscheck ?? []).length > 0 && (
+  <div>
+    <h3>与攻略本配置表的交叉核对</h3>
+    <ul>
+      {(m.enemies.crosscheck ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+  {(m.enemies.notes ?? []).length > 0 && m.enemies.rows.length > 0 && (
+  <div>
+    <h3>敌方配置注记</h3>
     <ul>
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
@@ -127,7 +151,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    {m.map.terrainGrid ? <StageMap mission={m} nameChips /> : <StageMap mission={m} />}
     </div>
   </div>
   <h3>已核实点位</h3>
