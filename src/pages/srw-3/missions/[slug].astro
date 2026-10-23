@@ -22,7 +22,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route}{m.area ? ` · 舞台：${m.area}` : ''} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的流程图与隐藏要素表，并以 ROM 内部剧本表（スーファミチート Wiki）与 Namu 攻略页交叉核对分支结构（见页末来源）。本作（SFC 原版）没有公开的逐关敌方配置来源——GameCenter GX 未收录本作，现存唯一的构成级逐关资料为 PS 版攻略，与 SFC 版有个别差异，本站不以 PS 版数据填充——故「敌方出场与增援」一节标为待核实。地图实际尺寸与逐格地形同样未核实，坐标图为参照框架。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的流程图与隐藏要素表，并以 ROM 内部剧本表（スーファミチート Wiki）与 Namu 攻略页交叉核对分支结构（见页末来源），以 <strong>SFC 原版</strong>为准。而本页的<strong>地图地形与「敌方出场与增援」的构成、等级、坐标</strong>，因 SFC 原版没有公开的逐关配置来源（GameCenter GX 未收录本作），按本站方针改用 <strong>PS《Complete Box》版攻略本</strong>《コンプリートボックス パーフェクトガイド》（SOFTBANK）的地图页数字化——<strong>属于 PS 版数据，与 SFC 原版在个别关卡可能存在差异</strong>（增援出现位置、地图细节等），引用时请注意版本区别；若与本页 SFC 来源的记载冲突，以 SFC 记载为准并在该处注明差异。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -75,6 +75,11 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
       </div>
     </div>
   )}
+  {(m.enemies.notes ?? []).length > 0 && (
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  )}
   </div>
   ) : (
   <div>
@@ -107,7 +112,7 @@ const coord = (e: any) => (e.x === null || e.x === undefined || e.y === null || 
   ))}
   <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
     <div class="card-body p-4">
-    <StageMap mission={m} />
+    <StageMap mission={m} nameChips />
     </div>
   </div>
   <h3>已核实点位</h3>
