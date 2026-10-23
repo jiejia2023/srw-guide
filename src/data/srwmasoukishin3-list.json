@@ -1,0 +1,1000 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1–5话）",
+   "intro": "三线共通。第5话通关后三选一决定路线。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "各自的心思",
+     "ja": "それぞれの思惑",
+     "en": "Each Thought",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "父亲、姐姐与弟弟",
+     "ja": "父と、姉と、弟と",
+     "en": "Father, Sister, Brother",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "盛宴之后",
+     "ja": "饗宴の後に",
+     "en": "After the Feast",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "悄然逼近的利刃",
+     "ja": "忍び寄る刃",
+     "en": "Creeping Blade",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "野兽VS猛兽！？",
+     "ja": "野獣VS猛獣！？",
+     "en": "Wild Beast VS Savage Beast!?",
+     "type": "主线",
+     "area": "",
+     "note": "通关后三路分歧"
+    }
+   ]
+  },
+  {
+   "title": "路线分立（第6–11话）：巴戈尼亚 / 拉古兰 / 修特多尼亚斯",
+   "intro": "三线各 6 话、内容与出击阵容完全不同。",
+   "rows": [
+    {
+     "code": "第6话",
+     "zh": "混乱的开端",
+     "ja": "混乱の始まり",
+     "en": "Beginning of Confusion",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第6话",
+     "zh": "拉瓦娜的继承者",
+     "ja": "ラーブァナの継承者",
+     "en": "Rabana's Successor",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第6话",
+     "zh": "普拉纳增幅装置",
+     "ja": "プラーナ増幅装置",
+     "en": "Prana Amplification Device",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    },
+    {
+     "code": "第7话",
+     "zh": "吉诺与艾尔·巴德雷尔",
+     "ja": "ジノとエル・バドレル",
+     "en": "Gino and El Badorel",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第7话",
+     "zh": "厄运任务",
+     "ja": "ハードラック・ミッション",
+     "en": "Hard Luck Mission",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第7话",
+     "zh": "轰鸣调谐",
+     "ja": "ギンギン・チューン",
+     "en": "Gingin Tune",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    },
+    {
+     "code": "第8话",
+     "zh": "无道的探究者",
+     "ja": "非道なる探究者",
+     "en": "Immoral Seeker",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第8话",
+     "zh": "艾兰的忧郁",
+     "ja": "エランの憂鬱",
+     "en": "Melancholy Elan",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第8话",
+     "zh": "挡路的双子",
+     "ja": "立ち塞がる双子",
+     "en": "Standing Twins",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    },
+    {
+     "code": "第9话",
+     "zh": "政治污染",
+     "ja": "ポリティカル・ポリューション",
+     "en": "Political Pollution",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第9话",
+     "zh": "对拉古兰的疑念",
+     "ja": "ラングランへの疑念",
+     "en": "Suspicion about Langran",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第9话",
+     "zh": "莱米亚与杨龙",
+     "ja": "レミアとヤンロン",
+     "en": "Lemia and Yan Long",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    },
+    {
+     "code": "第10话",
+     "zh": "罗莎莉与穆德加",
+     "ja": "ロザリーとムデカ",
+     "en": "Rosalie and Mudega",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第10话",
+     "zh": "防卫线，客至",
+     "ja": "防衛線、客来たりて",
+     "en": "Encounters on the line of defense",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第10话",
+     "zh": "求婚突如其来",
+     "ja": "プロポーズは突然に",
+     "en": "Sudden Proposal",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    },
+    {
+     "code": "第11话",
+     "zh": "是敌是友！？艾尔·巴德雷尔",
+     "ja": "敵か味方か！？エル・バドレル",
+     "en": "El Badorel, friends or foes!?",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚线"
+    },
+    {
+     "code": "第11话",
+     "zh": "特雷斯出击",
+     "ja": "トレイス出撃",
+     "en": "Trace sorties",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰线"
+    },
+    {
+     "code": "第11话",
+     "zh": "火与火",
+     "ja": "ファイア＆ファイア",
+     "en": "Fire & Fire",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯线"
+    }
+   ]
+  },
+  {
+   "title": "合流共通（第12–18话）",
+   "intro": "三线合流。第14话有通常版与拉古兰线限定的特殊版两个版本。",
+   "rows": [
+    {
+     "code": "第12话",
+     "zh": "受伤之翼",
+     "ja": "手負いの翼",
+     "en": "Wounded Wings",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "追踪者艾兰",
+     "ja": "追跡者エラン",
+     "en": "Tracker Elan",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "流浪的劳工",
+     "ja": "ワンダラー・ワーカー",
+     "en": "Wanderer Worker",
+     "type": "主线",
+     "area": "",
+     "note": "第14话通常版"
+    },
+    {
+     "code": "第14话（特殊版）",
+     "zh": "目眩的狂热时间",
+     "ja": "めくるめくフィーバータイム",
+     "en": "Dazzling Fever-Time",
+     "type": "主线",
+     "area": "",
+     "note": "第14话特殊版（拉古兰线限定）"
+    },
+    {
+     "code": "第15话",
+     "zh": "反安提拉斯队成立",
+     "ja": "反アンティラス隊発足",
+     "en": "Anti-Antiras Squad launches",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "恐怖网络崩溃",
+     "ja": "テロネットワーク崩壊",
+     "en": "Terror Network Collapse",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "巴泽缪特与恐怖分子",
+     "ja": "パーゼミュートとテロリスト",
+     "en": "Perse Mute Terrorists",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "格拉基奥斯的凶兆",
+     "ja": "グラギオスの凶兆",
+     "en": "Tragedy of Gragios",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "双列并行（第19–23话）：巴戈尼亚/拉古兰列 与 修特多尼亚斯列",
+   "intro": "两列各 5 话，出击阵容不同。",
+   "rows": [
+    {
+     "code": "第19话",
+     "zh": "追逐涅基拉斯的人们",
+     "ja": "ネギラスを追う者達",
+     "en": "Pursuing Negiras",
+     "type": "主线",
+     "area": "",
+     "note": "巴/拉列"
+    },
+    {
+     "code": "第19话",
+     "zh": "狂信",
+     "ja": "ファナティシズム",
+     "en": "Fanaticism",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第20话",
+     "zh": "比斯摩尔政权成立",
+     "ja": "ビスモル政権発足",
+     "en": "Bismol Inauguration",
+     "type": "主线",
+     "area": "",
+     "note": "巴/拉列"
+    },
+    {
+     "code": "第20话",
+     "zh": "招灾之人",
+     "ja": "災いを呼ぶ者",
+     "en": "Those who call disaster",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第21话",
+     "zh": "固执的老爷子",
+     "ja": "偏屈爺さん",
+     "en": "Obstinate Grandfather",
+     "type": "主线",
+     "area": "",
+     "note": "巴/拉列"
+    },
+    {
+     "code": "第21话",
+     "zh": "无情的策士",
+     "ja": "非情の策士",
+     "en": "Ruthless Strategist",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第22话",
+     "zh": "宝物骚动",
+     "ja": "お宝騒動",
+     "en": "Treasure Tussle",
+     "type": "主线",
+     "area": "",
+     "note": "巴/拉列"
+    },
+    {
+     "code": "第22话",
+     "zh": "报复与报国",
+     "ja": "報復と報国",
+     "en": "Retaliation and Retribution",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第23话",
+     "zh": "对决，艾尔·巴德雷尔",
+     "ja": "対決、エル・バドレル",
+     "en": "Showdown with El Badorel",
+     "type": "主线",
+     "area": "",
+     "note": "巴/拉列"
+    },
+    {
+     "code": "第23话",
+     "zh": "炼金学协会的使者",
+     "ja": "錬金学協会からの使者",
+     "en": "Messenger from the Alchemy Society",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    }
+   ]
+  },
+  {
+   "title": "三列并行（第24–28话）：巴戈尼亚列 / 拉古兰·协助艾兰列 / 修特多尼亚斯列",
+   "intro": "拉古兰线按是否协助艾兰分列：不协助的并入巴戈尼亚列。修特多尼亚斯列没有第28话。",
+   "rows": [
+    {
+     "code": "第24话",
+     "zh": "新的格拉基奥斯神殿",
+     "ja": "新たなグラギオス神殿",
+     "en": "New Temple of Gragios",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚列"
+    },
+    {
+     "code": "第24话",
+     "zh": "管家、女仆与少爷",
+     "ja": "執事とメイドとお坊ちゃま",
+     "en": "Butler, Maid, and Young Master",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰·协助艾兰列"
+    },
+    {
+     "code": "第24话",
+     "zh": "前往波托米亚州",
+     "ja": "ポトミア州へ",
+     "en": "Potomia State",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第25话",
+     "zh": "涅基拉斯的真面目",
+     "ja": "ネギラスの正体",
+     "en": "Negiras' True Identity",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚列"
+    },
+    {
+     "code": "第25话",
+     "zh": "巴泽缪特社的黑暗",
+     "ja": "パーゼミュート社の闇",
+     "en": "Perse Mute's Darkness",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰·协助艾兰列"
+    },
+    {
+     "code": "第25话",
+     "zh": "重逢，兹博尔巴",
+     "ja": "再会、ヅボルバ",
+     "en": "Reunion with D'zuborva",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第26话",
+     "zh": "往昔的回忆",
+     "ja": "ありし日の思い出",
+     "en": "Memories of better days",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚列"
+    },
+    {
+     "code": "第26话",
+     "zh": "潜入任务",
+     "ja": "潜入任務",
+     "en": "Infiltration Mission",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰·协助艾兰列"
+    },
+    {
+     "code": "第26话",
+     "zh": "内部告发",
+     "ja": "内部告発",
+     "en": "Internal Accusation",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第27话",
+     "zh": "瓦夏的真意",
+     "ja": "ワッシャーの真意",
+     "en": "Wassha's true intentions",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚列"
+    },
+    {
+     "code": "第27话",
+     "zh": "泽尔沃伊德之谜",
+     "ja": "ゼルヴォイドの謎",
+     "en": "The mystery of Zelvoid",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰·协助艾兰列"
+    },
+    {
+     "code": "第27话",
+     "zh": "暴走，加茨沃+",
+     "ja": "暴走、ガッツォー+",
+     "en": "Runaway Gatswo +",
+     "type": "主线",
+     "area": "",
+     "note": "修特多尼亚斯列"
+    },
+    {
+     "code": "第28话",
+     "zh": "与祖父的诀别",
+     "ja": "祖父との訣別",
+     "en": "Farewell, Grandfather",
+     "type": "主线",
+     "area": "",
+     "note": "巴戈尼亚列"
+    },
+    {
+     "code": "第28话",
+     "zh": "索恩的目的",
+     "ja": "ソーンの目的",
+     "en": "Thorn's purpose",
+     "type": "主线",
+     "area": "",
+     "note": "拉古兰·协助艾兰列"
+    }
+   ]
+  },
+  {
+   "title": "合流共通（第29–35话；修特多尼亚斯线编号为第28–34话）",
+   "intro": "再次合流共通。修特多尼亚斯线的编号比其他线少 1，括号内为修线编号。",
+   "rows": [
+    {
+     "code": "第29话（修线第28话）",
+     "zh": "教母的残影",
+     "ja": "教母の残影",
+     "en": "The remnant of the mother",
+     "type": "主线",
+     "area": "",
+     "note": "修线第28话"
+    },
+    {
+     "code": "第30话（修线第29话）",
+     "zh": "艾尔希涅的复仇",
+     "ja": "エルシーネの復讐",
+     "en": "Elcine's Revenge",
+     "type": "主线",
+     "area": "",
+     "note": "修线第29话"
+    },
+    {
+     "code": "第31话（修线第30话）",
+     "zh": "愤怒之炎",
+     "ja": "怒りの炎",
+     "en": "Flames of Anger",
+     "type": "主线",
+     "area": "",
+     "note": "修线第30话"
+    },
+    {
+     "code": "第32话（修线第31话）",
+     "zh": "缇缇的焦虑",
+     "ja": "テュッティの焦り",
+     "en": "Tytti's Impatience",
+     "type": "主线",
+     "area": "",
+     "note": "修线第31话"
+    },
+    {
+     "code": "第33话（修线第32话）",
+     "zh": "多数派游行",
+     "ja": "マジョリティ・パレード",
+     "en": "Majority Parade",
+     "type": "主线",
+     "area": "",
+     "note": "修线第32话"
+    },
+    {
+     "code": "第34话（修线第33话）",
+     "zh": "无利者不得食",
+     "ja": "儲からざる者食うべからず",
+     "en": "Don't eat what isn't profitable",
+     "type": "主线",
+     "area": "",
+     "note": "修线第33话"
+    },
+    {
+     "code": "第35话（修线第34话）",
+     "zh": "道森的野心",
+     "ja": "ドーソンの野心",
+     "en": "Dawson's Ambition",
+     "type": "主线",
+     "area": "",
+     "note": "修线第34话"
+    }
+   ]
+  },
+  {
+   "title": "终盘·巴戈尼亚列（第36–42话，含拉古兰线不协助艾兰）",
+   "intro": "最终决战对手为瓦夏。",
+   "rows": [
+    {
+     "code": "第36话",
+     "zh": "梅菲尔与兹雷因",
+     "ja": "メフィルとツレイン",
+     "en": "Mefil and Tsurein",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "家族的羁绊",
+     "ja": "家族の絆",
+     "en": "Family Bonds",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "苏醒的大地",
+     "ja": "目覚める大地",
+     "en": "Awaken the Earth",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "扎穆吉的口信",
+     "ja": "ザムージュの伝言",
+     "en": "Zamuuj's message",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "清算的对峙",
+     "ja": "清算の対峙",
+     "en": "Final Confrontation",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "彭塔尔科斯",
+     "ja": "ペンタルコス",
+     "en": "Pentalcos",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "怀抱着回忆",
+     "ja": "追懐に抱かれて",
+     "en": "Embracing my memories",
+     "type": "最终话",
+     "area": "",
+     "note": "最终话"
+    }
+   ]
+  },
+  {
+   "title": "终盘·拉古兰列（第36–42话，协助艾兰）",
+   "intro": "最终决战为与索恩的师徒对决。",
+   "rows": [
+    {
+     "code": "第36话",
+     "zh": "被灭绝的一族",
+     "ja": "滅ぼされし一族",
+     "en": "Destroyed Clan",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "不应存在之物",
+     "ja": "そこにあってはならないもの",
+     "en": "What should not be there",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "管家的职责",
+     "ja": "執事の務め",
+     "en": "Butler's Duty",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "艾兰的决意",
+     "ja": "エランの決意",
+     "en": "Elan's determination",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "追求最强",
+     "ja": "最強を求めて",
+     "en": "Seeking the Strongest",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "修所指的方向",
+     "ja": "シュウの指す行方",
+     "en": "Where Shu points",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "师徒的决斗",
+     "ja": "師弟の決闘",
+     "en": "Duel of Teacher and Student",
+     "type": "最终话",
+     "area": "",
+     "note": "最终话"
+    }
+   ]
+  },
+  {
+   "title": "终盘·修特多尼亚斯列（第35–42话，修线编号）",
+   "intro": "修线自第35话起自成一列共 8 话，最终决战对手为泽乌兰特。",
+   "rows": [
+    {
+     "code": "第35话",
+     "zh": "拉达特的波澜",
+     "ja": "ラーダットの波瀾",
+     "en": "Raid on Radat",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "亚流者与信奉者",
+     "ja": "亜流者と信奉者",
+     "en": "Imitators and Believers",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "兹博尔巴的心意",
+     "ja": "ヅボルバの想い",
+     "en": "D'zuborva's feelings",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "道森失势",
+     "ja": "ドーソン失脚",
+     "en": "Dawson's downfall",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "要塞搜索",
+     "ja": "要塞捜索",
+     "en": "Fortress Search",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "巨大要塞攻略战",
+     "ja": "巨大要塞攻略戦",
+     "en": "Battle to capture the Giant Fortress",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "虚荣的代价",
+     "ja": "虚栄の代償",
+     "en": "The Price of Vanity",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "爱憎的彼方",
+     "ja": "愛憎の向こうに",
+     "en": "Beyond Love and Hate",
+     "type": "最终话",
+     "area": "",
+     "note": "最终话"
+    }
+   ]
+  },
+  {
+   "title": "DLC 战役地图（20 关，付费配信）",
+   "intro": "在整备画面进入，使用预设角色；奖励的资金与零件可带回主线。每关的零件奖励每周围目限首次通关取得。",
+   "rows": [
+    {
+     "code": "DLC 1",
+     "zh": "圆月摄法！？",
+     "ja": "円月撮法！？",
+     "en": "Full Moon Snapshot Plan!?",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 2",
+     "zh": "高傲者们",
+     "ja": "誇り高き者達",
+     "en": "Stand Tall and Proud",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 3",
+     "zh": "邪灵克星！？",
+     "ja": "邪霊バスターズ！？",
+     "en": "Evil Spirit Busters!?",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 4",
+     "zh": "奋斗，诺尔斯·雷",
+     "ja": "奮闘、ノルス・レイ",
+     "en": "Fight Hard, Nors Rei",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 5",
+     "zh": "特雷斯的训练",
+     "ja": "トレイスの訓練",
+     "en": "Trace's Training",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 6",
+     "zh": "外法·傀儡召唤",
+     "ja": "外法・傀儡召喚",
+     "en": "Forbidden Puppet Summoning",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 7",
+     "zh": "追与被追与战斗",
+     "ja": "追って追われて戦って",
+     "en": "Flight or Fight",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 8",
+     "zh": "特训！对手部队！！",
+     "ja": "特訓！ アドバーザリー部隊！！",
+     "en": "Special Training! Adversary Unit!!",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 9",
+     "zh": "暗杀术的推荐",
+     "ja": "暗殺術のススメ",
+     "en": "Recommendation for Assassination",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 10",
+     "zh": "迷途迷宫",
+     "ja": "ストレイ・メイズ",
+     "en": "Stray Maze",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 11",
+     "zh": "女人的敌人",
+     "ja": "女の敵",
+     "en": "Female Enemies",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 12",
+     "zh": "谦逊的这支部队",
+     "ja": "慎ましきこの部隊",
+     "en": "The Modest Unit",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 13",
+     "zh": "泽尔沃伊德·瓦斯特歼灭作战",
+     "ja": "ゼルヴォイド・ヴァスト撃滅作戦",
+     "en": "Zelvoid Vast Operation",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 14",
+     "zh": "沉默的危机",
+     "ja": "クライシス・オブ・サイレンス",
+     "en": "Crisis of Silence",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 15",
+     "zh": "涌现吧！年轻的力量！",
+     "ja": "みなぎれ！若さの力！",
+     "en": "Overflowing! The Power of Youth!",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 16",
+     "zh": "大规模战斗演习",
+     "ja": "大規模戦闘演習",
+     "en": "Large-scale Battle Exercise",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 17",
+     "zh": "人偶、爆烟、如豪雨",
+     "ja": "人形、爆煙、豪雨のごとく",
+     "en": "Puppets, Smoke, and Heavy Rain",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 18",
+     "zh": "新格兰森的逆袭",
+     "ja": "逆襲のネオ・グランゾン",
+     "en": "Neo Granzon's Counterattack",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 19",
+     "zh": "何谓最强",
+     "ja": "最強とは",
+     "en": "The Strongest",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 20",
+     "zh": "以安提拉斯队之名",
+     "ja": "アンティラス隊の名にかけて",
+     "en": "In the Name of the Antiras Squad",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

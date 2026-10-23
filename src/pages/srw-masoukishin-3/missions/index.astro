@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwMasoukishin3MissionList from '../../../components/SrwMasoukishin3MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OGSAGA魔装机神III', path: 'srw-masoukishin-3/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OGSAGA魔装机神III（PS3）关卡攻略 · 全84个剧本+DLC列表" description="超级机器人大战OGサーガ 魔装機神III PRIDE OF JUSTICE（2013年 PS3/PS Vita）全部 84 个剧本条目与 20 个 DLC 战役地图的链接索引：共通序盘、三条路线（巴戈尼亚/拉古兰/修特多尼亚斯）、合流与终盘三列。每一话有独立攻略页：胜利/败北条件、Part 零件条件、参战与离队、隐藏要素与坐标地图。本页为链接索引。" path="srw-masoukishin-3/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OGSAGA魔装机神III · 关卡攻略</h1>
+  <p>2013 年 PS3 / PS Vita《超级机器人大战OGサーガ 魔装機神III PRIDE OF JUSTICE》是《魔装機神II》的直接续作，舞台仍是地底世界拉·基亚斯：<strong>安提拉斯队</strong>面对的敌人换成了反安提拉斯同盟（究理开明团、拉瓦娜的继承者、和平联合急进派与巴泽缪特社的私兵），暗地里沃尔库ルス教团企图复活最后的邪神格拉基奥斯。本作共 <strong>84 个不同的剧本条目</strong>（本站按 Akurasu 完整流程表逐条清点；日方来源未给出官方总数）：共通序盘第1–5话，其后在第5话结尾三选一分为<strong>巴戈尼亚线、拉古兰线、修特多尼亚斯线</strong>；第12–18话合流共通（第14话另有拉古兰线限定的特殊版），第19–23话分两列，第24–28话分三列（拉古兰线按是否协助艾兰分列，修特多尼亚斯线没有第28话、编号比其他线少 1），第29–35话再合流，第36–42话终盘又分三列、<strong>每条路线的最终决战对手都不同</strong>。三条路线单周目都是 <strong>42 话</strong>。另有 20 个付费 DLC 战役地图（单页列出）。本页只是链接索引——每一话的完整攻略（条件、Part 奖励、分支、加入/离队、隐藏要点、坐标地图）都在各自的详情页里。本页与<a href={href('srw-masoukishin-3/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 84 个剧本条目与 20 个 DLC 战役地图全部建有详情页。流程、胜败条件、Part 条件与隐藏要素以 Akurasu Wiki 的《魔装机神III》完整流程表与 Secret 页为主源，路线结构与话数口径以日本维基百科（系列条目）交叉核对。<strong>如实说明</strong>：本作没有熟练度/SR 点系统（两方来源均无记载）；敌方逐关<strong>编成</strong>在任何已查到的公开来源中都不存在成套记载——Akurasu 不列编成，日方 wikiwiki 没有本作页面、atwiki 与 srw.wiki 也未刊载（与前作 II「有一家单源数据待裁决」的情况不同，III 没有可导入的数据集，故不属于待裁决事项）；逐单位<strong>坐标与逐格地形在任何来源中都不存在</strong>（本作是等角投影立体地图），各页地图为带四边坐标轴的参照框架。官方攻略本《Perfect Guide》（2013 年，ISBN 978-4-04-729229-1）是否收录逐关地图未经在线核实，列为本站地图补完计划的候选来源。</span>
+  </div>
+
+  <SrwMasoukishin3MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_III/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin III Complete Chart</a>（全 84 个剧本条目的逐关流程、胜败条件、Part 条件、机体获得与路线分歧总表；本站关卡编号与路线划分从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_III/Secret" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin III Secret</a>（隐藏武器/升格、隐藏技能与合体攻击总表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_III/Clear_Bonus" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin III Clear Bonus</a>（周回继承规则）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_III/DLC" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin III DLC</a>（20 个战役地图的难度、资金/零件奖励与价格）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神III_PRIDE_OF_JUSTICE" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神III PRIDE OF JUSTICE</a>（作品概要、双平台与发售信息、官方攻略本信息）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/魔装機神シリーズ" rel="noopener" target="_blank">日本维基百科 — 魔装機神シリーズ</a>（三条路线的官方名称与各线概要、剧情前提的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-masoukishin-3/')}>← 返回超级机器人大战OGSAGA魔装机神III</a></p>
+</Base>
