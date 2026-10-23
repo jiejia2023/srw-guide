@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwZ2SaiseiMissionList from '../../../components/SrwZ2SaiseiMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战Z再世篇', path: 'srw-z-2-saisei/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第2次超级机器人大战Z 再世篇（PSP）关卡攻略 · 全105个剧本页面列表" description="第2次超级机器人大战Z 再世篇（2012年 PSP）全部剧本的页面列表：序章3话加本编60话，一周目63关，全部路线变体共105个剧本分开建页，含第3话后四分歧与第49话后由Zero点数决定的终盘分歧。每关独立攻略页含胜利/败北条件、SR点取得条件、我方加入、本关隐藏要素（含Zero点数事件）与坐标地图。本页为链接索引。" path="srw-z-2-saisei/missions/" breadcrumbs={crumbs}>
+  <h1>第2次超级机器人大战Z再世篇 · 关卡攻略</h1>
+  <p>2012 年 PSP《第2次超级机器人大战Z 再世篇》是《破界篇》的后篇，舞台在破界篇故事一年之后。开场视角不再是克罗，而是斯科特实验室所属的次元兽猎人<strong>艾斯特·艾尔哈斯</strong>——她驾驶量产试作机 <strong>Brasta Es</strong> 迎击次元兽；主人公<strong>克罗·布鲁斯特</strong>迟至<strong>第15话</strong>才回归，驾驶继承自 Brasta Es 改造的 Brasta。剧情推进中，特别国际救援队 <strong>ZEXIS</strong> 与来自前作世界的 <strong>ZEUTH</strong> 再度结成，共同迎战本作新登场的敌势力<strong>圣王国因萨拉姆</strong>。本作结构为序章3话加本编60话：一周目实际游玩 63 关；本站把全部路线变体分开建页，共 <strong>105 个剧本</strong>。全程共有六次分歧：第3话后的四分歧（日本/宇宙/中东/库门，第4–14话）、第20话后二分歧（第21–24话）、第31话后二分歧（第32–35话）、第37话后二分歧（仅第38话）、第40话后二分歧（第41–43话），以及第49话后由 Zero 点数决定的终盘条件分歧（第50话至最终话，零之镇魂曲/黑色骑士团两线）。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-z-2-saisei/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 <strong>105 个剧本页面全部建有详情页</strong>。流程、胜败条件、<strong>SR 点取得条件</strong>、加入与隐藏要素以 Akurasu Wiki《第2次Z 再世篇》（Z2.2）的流程图与隐藏要素页为主源。SR 点共 59 点（序章与最终话无、本编第 1–59 话每话 1 点），只影响难度（NORMAL / HARD 两档，分界约为当时可取得数的八成）并关联累计 55 点解锁的白金纹章，<strong>不决定路线/结局</strong>；终盘路线由独立的 <strong>Zero 点数</strong>决定（第49话后 ≥5 出现「相信Zero」选项 → 黑色骑士团路线，否则零之镇魂曲路线；二周目无条件可选）。计数口径并记：本站按 Akurasu 流程图逐条清点为 <strong>105 条</strong>，Akurasu 主页自称 103（100 个可玩剧本 + 3 序章），日文维基一侧作 94 个关卡实例 / 单周目 63 话——三者差异在此并记。敌方<strong>编成</strong>唯一完整的公开来源是日文 atwiki（<strong>单一来源</strong>），按本站规则暂不刊载、待用户裁决；逐单位<strong>坐标与逐格地形无任何公开来源</strong>，各页地图为带四边坐标轴的参照框架。破界篇存档连动特典已经 Akurasu 与 GameFAQs 攻略双源互证、刊于本作主页，唯<strong>资金总额两源说法不一致</strong>，引用时已标注。本页只做 PSP 原版（2012 年）。</span>
+  </div>
+
+  <SrwZ2SaiseiMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2.2 Flow Chart</a>（全关卡流程、胜败条件、SR点、机体加入与路线分歧总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2.2 Secrets</a>（隐藏机体/部件分项条件、Zero点数来源与相信Zero路线条件总表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Carryover_Bonus" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2.2 Carryover Bonus</a>（破界篇存档连动特典分项表；与 GameFAQs 攻略互证，资金总额除外）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Emblems" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2.2 Emblems</a>（纹章系统五种纹章的条件与效果，含 SR 点 55 点的白金纹章）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z2.2/Sub-Orders" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z2.2 Sub-Orders</a>（副指令四种指令与数值）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z" rel="noopener" target="_blank">日本维基百科 — 第2次スーパーロボット大戦Z</a>（作品概要、参战作品、纹章/副指令/王牌奖励等系统的交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/w/index.php?title=%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/%E7%AC%AC2%E6%AC%A1Z%E5%86%8D%E4%B8%96%E7%AF%87&oldid=471388" rel="noopener" target="_blank">スーパーロボット大戦Wiki — 全話一覧/第2次Z再世篇</a>（日文标题与路线结构的交叉核对；计数口径为序章3话+本编60话）</li>
+    <li><a href="https://w.atwiki.jp/srwz2nd2/" rel="noopener" target="_blank">第２次スーパーロボット大戦Z 再世篇 まとめwiki（atwiki, srwz2nd2）</a>（敌方编成的单一来源，暂不导入）</li>
+  </ul>
+  <p><a href={href('srw-z-2-saisei/')}>← 返回第2次超级机器人大战Z再世篇</a></p>
+</Base>

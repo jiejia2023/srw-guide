@@ -1,0 +1,1027 @@
+{
+  "groups": [
+    {
+      "title": "序章",
+      "intro": "三话序章分别以反逆的鲁路修、高达与天元突破的视角开场，均无 SR 点；序章A 藏有第一个 Zero 点数事件。",
+      "rows": [
+        {
+          "code": "序章A",
+          "zh": "黑色叛乱",
+          "ja": "ブラックリベリオン",
+          "en": "Black Rebellion",
+          "type": "序章",
+          "area": "",
+          "note": "含Zero点数事件"
+        },
+        {
+          "code": "序章B",
+          "zh": "高达歼灭指令",
+          "ja": "ガンダム殲滅指令",
+          "en": "Gundam Destruction Order",
+          "type": "序章",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "序章C",
+          "zh": "世界最后之日",
+          "ja": "世界最後の日",
+          "en": "The Last Day of the Earth",
+          "type": "序章",
+          "area": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "第1–3话共通",
+      "intro": "本编开局：艾斯特驾驶 Brasta Es 登场，第3话结尾触发全作第一次分歧（四分歧）。",
+      "rows": [
+        {
+          "code": "第1话",
+          "zh": "战斗少女",
+          "ja": "ファイティング・ガール",
+          "en": "Fighting Girl",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第2话",
+          "zh": "逃亡者",
+          "ja": "逃亡者",
+          "en": "Escapee",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第3话",
+          "zh": "太阳的使者·铁人28号",
+          "ja": "太陽の使者・鉄人28号",
+          "en": "Messenger of the Sun, Tetsujin 28",
+          "type": "共通",
+          "area": "",
+          "note": "关后四分歧"
+        }
+      ]
+    },
+    {
+      "title": "第4–7话四线",
+      "intro": "第3话后四分歧：先二选一再各二选一，日本（粉碎者队）、宇宙（S.M.S.）、中东、库门四条路线各有独立关卡。",
+      "rows": [
+        {
+          "code": "第4话·日本（粉碎者队）",
+          "zh": "竹尾通用公司奋战记",
+          "ja": "竹尾ゼネラルカンパニー奮戦記",
+          "en": "Embattled Takeo General Company",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第4话·宇宙（S.M.S.）",
+          "zh": "第二次降临",
+          "ja": "セカンド・カミング",
+          "en": "Second Coming",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第4话·中东",
+          "zh": "迷惘的战士们",
+          "ja": "迷える戦士達",
+          "en": "Bewildered Soldiers",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第4话·库门",
+          "zh": "集结EX-10",
+          "ja": "アッセンブルEX-10",
+          "en": "Assemble EX-10",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第5话·日本",
+          "zh": "宣传二课的忧郁",
+          "ja": "広報2課の憂鬱",
+          "en": "The Melancholy of Public Relations Division 2",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第5话·宇宙",
+          "zh": "闪烁之星",
+          "ja": "トゥインクル・スタ",
+          "en": "Twinkle Star",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第5话·中东",
+          "zh": "OZ与A-Laws",
+          "ja": "OZとアロウズ",
+          "en": "OZ and A-laws",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第5话·库门",
+          "zh": "漩涡之中",
+          "ja": "渦中",
+          "en": "Maelstrom",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第6话·日本",
+          "zh": "登场！德国的鬼伯爵！",
+          "ja": "登場！ドイツの鬼伯爵！",
+          "en": "Enter! The Diabolic German Count!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第6话·宇宙",
+          "zh": "悄然逼近的威胁",
+          "ja": "忍び寄る脅威",
+          "en": "Creeping Threat",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第6话·中东",
+          "zh": "彷徨的天使们",
+          "ja": "彷徨う天使達",
+          "en": "Wandering Angels",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第6话·库门",
+          "zh": "介入",
+          "ja": "介入",
+          "en": "Intervention",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第7话·日本",
+          "zh": "对决！悲伤的蓝色多瑙河！",
+          "ja": "対決!悲しみの青きドナウ!",
+          "en": "Showdown! The Sorrowful Blue Danube!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第7话·宇宙",
+          "zh": "次元扭曲宙域",
+          "ja": "次元歪曲宙域",
+          "en": "Twisted Dimension",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第7话·中东",
+          "zh": "反叛之翼",
+          "ja": "反逆の翼",
+          "en": "Wings of Rebellion",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第7话·库门",
+          "zh": "暗转",
+          "ja": "暗転",
+          "en": "Blackout",
+          "type": "路线分歧",
+          "area": "",
+          "note": "通关得Zero点数+1"
+        }
+      ]
+    },
+    {
+      "title": "第8–14话二组",
+      "intro": "第8话起四路合并为两组：日本+宇宙组与中东+库门组各共用一组关卡；第14话后解锁副指令（Sub-Orders）。",
+      "rows": [
+        {
+          "code": "第8话·日本+宇宙组",
+          "zh": "风暴前兆",
+          "ja": "嵐の予兆",
+          "en": "Gathering Storm",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第8话·中东+库门组",
+          "zh": "双炉驱动",
+          "ja": "ツインドライヴ",
+          "en": "Twin Drive",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第9话·日本+宇宙组",
+          "zh": "我们都还活着",
+          "ja": "ぼくらはみんな生きている",
+          "en": "We're Not Alone",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第9话·中东+库门组",
+          "zh": "魔神苏醒之日",
+          "ja": "魔神が目覚める日",
+          "en": "The Day a Demon Awakens",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第10话·日本+宇宙组",
+          "zh": "与平静告别",
+          "ja": "平穏との別離",
+          "en": "A Farewell to Peace",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第10话·中东+库门组",
+          "zh": "另一个洛克昂",
+          "ja": "もう一人のロックオン",
+          "en": "Another Lockon",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第11话·日本+宇宙组",
+          "zh": "自门扉彼方",
+          "ja": "扉の向こうから",
+          "en": "Beyond The Gate",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第11话·中东+库门组",
+          "zh": "阿雷路亚夺回作战",
+          "ja": "アレルヤ奪還作戦",
+          "en": "Allelujah Rescue Operation",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第12话·日本+宇宙组",
+          "zh": "超越恶意与谎言",
+          "ja": "悪意と嘘を越えて",
+          "en": "Not Hate, Not Lies",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第12话·中东+库门组",
+          "zh": "百万的奇迹",
+          "ja": "百万のキセキ",
+          "en": "One Million Miracles",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第13话·日本+宇宙组",
+          "zh": "时空震动，再临",
+          "ja": "時空震動、再び",
+          "en": "Time-Space Distortion, Once Again",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第13话·中东+库门组",
+          "zh": "战云之扉",
+          "ja": "戦雲の扉",
+          "en": "Gates of War",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第14话·日本+宇宙组",
+          "zh": "开始运转的世界",
+          "ja": "動き出す世界",
+          "en": "The World Moves Again",
+          "type": "路线分歧",
+          "area": "",
+          "note": "关后合流；解锁副指令"
+        },
+        {
+          "code": "第14话·中东+库门组",
+          "zh": "被赋予的力量",
+          "ja": "与えられた力",
+          "en": "Power Bestowed",
+          "type": "路线分歧",
+          "area": "",
+          "note": "关后合流；解锁副指令；Zero点数+1"
+        }
+      ]
+    },
+    {
+      "title": "第15–20话共通",
+      "intro": "第15话起全队合流，克罗在本段回归；第20话结尾再次分歧。",
+      "rows": [
+        {
+          "code": "第15话",
+          "zh": "一如往昔之人",
+          "ja": "マン・アズ・ビフォー",
+          "en": "Man as Before",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第16话",
+          "zh": "次元的中心",
+          "ja": "次元の心央",
+          "en": "Heart of the Dimension",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第17话",
+          "zh": "朱禁城的新娘",
+          "ja": "朱禁城の花嫁",
+          "en": "A Bride in the Vermilion Forbidden City",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第18话",
+          "zh": "阿什福德狂想曲",
+          "ja": "アッシュフォード・ラプソディ",
+          "en": "Ashford Rhapsody",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第19话",
+          "zh": "各自的战场",
+          "ja": "それぞれの戦場",
+          "en": "Each Other's Battlefield",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第20话",
+          "zh": "白与黑",
+          "ja": "白と黒と",
+          "en": "Black and White",
+          "type": "共通",
+          "area": "",
+          "note": "关后二分歧"
+        }
+      ]
+    },
+    {
+      "title": "第21–24话二线",
+      "intro": "第20话后二分歧：前往暗黑大陆或前往宇宙，两线各四话，第25话合流。",
+      "rows": [
+        {
+          "code": "第21话·暗黑大陆",
+          "zh": "在时间的洪流中",
+          "ja": "時の流れに",
+          "en": "Flowing Time",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第21话·宇宙",
+          "zh": "传说的歌声",
+          "ja": "伝説の歌声",
+          "en": "Legendary Voice",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第22话·暗黑大陆",
+          "zh": "出击！！新的战士们！",
+          "ja": "出撃！！ 新たなる戦士たち！",
+          "en": "Sortie!! New Warriors!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第22话·宇宙",
+          "zh": "兰花攻击",
+          "ja": "ランカ・アタック",
+          "en": "Ranka Attack",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第23话·暗黑大陆",
+          "zh": "你什么都不懂",
+          "ja": "あなたは何もわかってない",
+          "en": "You Do Not Know Anything",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第23话·宇宙",
+          "zh": "悲伤的卡托尔",
+          "ja": "悲しみのカトル",
+          "en": "Grief Stricken Quatre",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第24话·暗黑大陆",
+          "zh": "你已经不需要了",
+          "ja": "あなたはもう必要ないのです",
+          "en": "You Are No Longer Needed",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第24话·宇宙",
+          "zh": "被称为Zero的高达",
+          "ja": "ゼロと呼ばれたG",
+          "en": "The Gundam They Call Zero",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "第25–31话共通",
+      "intro": "共通段落：第27话藏有 Zero 点数的二选一事件；第31话结尾分歧与两项互斥隐藏要素绑定。",
+      "rows": [
+        {
+          "code": "第25话",
+          "zh": "未完的约定",
+          "ja": "終わらない約束",
+          "en": "Neverending Promise",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第26话",
+          "zh": "坠入冥府",
+          "ja": "冥府への転落",
+          "en": "The Fall into Netherworld",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第27话",
+          "zh": "Zero对Zero",
+          "ja": "ゼロVSゼロ",
+          "en": "Zero VS Zero",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第28话",
+          "zh": "来自黑暗的使者",
+          "ja": "暗黒よりの使者",
+          "en": "Messenger from the Darkness",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第29话",
+          "zh": "战士们的呐喊",
+          "ja": "戦士達の叫び",
+          "en": "Warriors' Cry",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第30话",
+          "zh": "一点突破",
+          "ja": "一点突破",
+          "en": "Breakthrough Point",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第31话",
+          "zh": "坚不可摧",
+          "ja": "ジ・アンブレイカブル",
+          "en": "The Unbreakable",
+          "type": "共通",
+          "area": "",
+          "note": "关后二分歧"
+        }
+      ]
+    },
+    {
+      "title": "第32–35话二线",
+      "intro": "第31话后二分歧：留在地上参加佯动部队，或前往宇宙破坏卫星兵器；罗蕾莱与 Anew 两条隐藏链在此互斥结算。",
+      "rows": [
+        {
+          "code": "第32话·地上",
+          "zh": "被夺走的铁人",
+          "ja": "奪われた鉄人",
+          "en": "The Stolen Tetsujin",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第32话·宇宙",
+          "zh": "死兆星攻略战",
+          "ja": "メメントモリ攻略戦",
+          "en": "Assault on Memento Mori",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第33话·地上",
+          "zh": "黑色复仇者",
+          "ja": "ブラック・アヴェンジャー",
+          "en": "Black Avenger",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第33话·宇宙",
+          "zh": "在消散的光芒中",
+          "ja": "散りゆく光の中で",
+          "en": "Scattered Light",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第34话·地上",
+          "zh": "亡者再临",
+          "ja": "亡者再臨",
+          "en": "Resurrection of the Dead",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第34话·宇宙",
+          "zh": "白色獠牙",
+          "ja": "白き牙",
+          "en": "White Fang",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第35话·地上",
+          "zh": "与昨日诀别",
+          "ja": "昨日への決別",
+          "en": "Farewell to Yesterday",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第35话·宇宙",
+          "zh": "为明日挣扎",
+          "ja": "明日へのあがき",
+          "en": "Struggle for Tomorrow",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "第36–40话（含第38话二线）",
+      "intro": "合流后的共通段落，其中第37话后仅第38话分歧（暗黑大陆／11区）；Zero 点数的最后一个取得点也在第37话。",
+      "rows": [
+        {
+          "code": "第36话",
+          "zh": "加速的世界",
+          "ja": "加速する世界",
+          "en": "Accelerating World",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第37话",
+          "zh": "以银河为舞台",
+          "ja": "銀河をステージに",
+          "en": "The Galaxy is the Stage",
+          "type": "共通",
+          "area": "",
+          "note": "关后二分歧（仅第38话）"
+        },
+        {
+          "code": "第38话·暗黑大陆",
+          "zh": "被告知的绝望",
+          "ja": "告げられる絶望",
+          "en": "Confessions of Despair",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第38话·11区",
+          "zh": "来自过去的刺客",
+          "ja": "過去からの刺客",
+          "en": "Assailant from the Past",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第39话",
+          "zh": "禁忌的继承者",
+          "ja": "禁断の継承者",
+          "en": "The Forbidden Successor",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第40话",
+          "zh": "歌唱，为了谁",
+          "ja": "歌え、誰かのために",
+          "en": "Singing, but for Who?",
+          "type": "共通",
+          "area": "",
+          "note": "关后二分歧"
+        }
+      ]
+    },
+    {
+      "title": "第41–43话二线",
+      "intro": "第40话后二分歧：前往日本或前往 Frontier 船团，两线各三话，第44话合流。",
+      "rows": [
+        {
+          "code": "第41话·日本",
+          "zh": "遗恨！黑金屋最长的一天！",
+          "ja": "遺恨！くろがね屋の一番長い日！",
+          "en": "Regret! Kurogane House's Longest Day!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第41话·Frontier",
+          "zh": "三角关系",
+          "ja": "トライアングラー",
+          "en": "Triangular",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第42话·日本",
+          "zh": "从父亲那里继承的东西",
+          "ja": "父ちゃんから受け継いだもの",
+          "en": "What I Inherited from Father",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第42话·Frontier",
+          "zh": "异能者",
+          "ja": "異能者",
+          "en": "Abnormality",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第43话·日本",
+          "zh": "斩断黑暗之牙",
+          "ja": "闇を断つ牙",
+          "en": "The Fang that Crushes Darkness",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第43话·Frontier",
+          "zh": "修罗",
+          "ja": "修羅",
+          "en": "Carnage",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "title": "第44–49话共通",
+      "intro": "共通段落的收官：第49话通关后进入终盘的条件分歧。",
+      "rows": [
+        {
+          "code": "第44话",
+          "zh": "降临！！唤来终末的邪神！",
+          "ja": "降臨！！終末を呼ぶ邪神！",
+          "en": "Advent!! The Evil God that Brings Forth the End!",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第45话",
+          "zh": "次元力",
+          "ja": "次元力",
+          "en": "Dimension Power",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第46话",
+          "zh": "失落的圣王国",
+          "ja": "失われし聖王国",
+          "en": "The Lost Holy Kingdom",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第47话",
+          "zh": "死线！赫尔博士总攻击！",
+          "ja": "死線！総攻撃Dr.ヘル！",
+          "en": "Line of Death! Dr. Hell's Final Assault!",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第48话",
+          "zh": "神佑宇宙",
+          "ja": "ゴッドブレス・ユニバース",
+          "en": "God Bless Universe",
+          "type": "共通",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第49话",
+          "zh": "Zero与鲁路修",
+          "ja": "ゼロとルルーシュ",
+          "en": "Zero and Lelouch",
+          "type": "共通",
+          "area": "",
+          "note": "关后终盘条件分歧"
+        }
+      ]
+    },
+    {
+      "title": "第50–最终话·镇魂曲路线",
+      "intro": "「不相信Zero」的默认／原作再现路线：不满足相信条件时只能走此线，共11话。",
+      "rows": [
+        {
+          "code": "第50话·镇魂曲",
+          "zh": "皇帝失格",
+          "ja": "皇帝失格",
+          "en": "The Emperor Dethroned",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第51话·镇魂曲",
+          "zh": "修奈泽尔的假面",
+          "ja": "シュナイゼルの仮面",
+          "en": "Schneizel's Mask",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第52话·镇魂曲",
+          "zh": "混迷的战场",
+          "ja": "混迷の戦場",
+          "en": "Chaotic Battlefield",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第53话·镇魂曲",
+          "zh": "坠落的月亮",
+          "ja": "堕ちてくる月",
+          "en": "The Moon Falls",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第54话·镇魂曲",
+          "zh": "绝望的世界",
+          "ja": "絶望の世界",
+          "en": "World of Despair",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第55话·镇魂曲",
+          "zh": "你的声音",
+          "ja": "アナタノオト",
+          "en": "Your Song (Anata no Oto)",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第56话·镇魂曲",
+          "zh": "BEYOND",
+          "ja": "BEYOND",
+          "en": "BEYOND",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第57话·镇魂曲",
+          "zh": "零之镇魂曲",
+          "ja": "ゼロ・レクイエム",
+          "en": "Zero Requiem",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第58话·镇魂曲",
+          "zh": "闪光！！进化的尽头！",
+          "ja": "閃光！！進化の果て！",
+          "en": "Flash!! The End of Evolution!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第59话·镇魂曲",
+          "zh": "最后的圣王",
+          "ja": "最後の聖王",
+          "en": "The Last Holy King",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "最终话·镇魂曲",
+          "zh": "再世的未来",
+          "ja": "再世の未来",
+          "en": "Rebirth's Future",
+          "type": "最终话",
+          "area": "",
+          "note": "最终话"
+        }
+      ]
+    },
+    {
+      "title": "第50–最终话·骑士团路线",
+      "intro": "「相信Zero」的 IF 路线：需 Zero 点数≥5（或二周目无条件）才出现选项，共11话，含路线专属单位与最强形态盖亚奥。",
+      "rows": [
+        {
+          "code": "第50话·骑士团",
+          "zh": "超合集国决议第壹号",
+          "ja": "超合集国決議第壱号",
+          "en": "U.F.N. Resolution #1",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第51话·骑士团",
+          "zh": "战乱之王皮斯古罗夫特",
+          "ja": "戦乱の王ピースクラフト",
+          "en": "King of War Peacecraft",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第52话·骑士团",
+          "zh": "决死的终局",
+          "ja": "決死のエンドゲーム",
+          "en": "Desperate Endgame",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第53话·骑士团",
+          "zh": "最后的胜利者",
+          "ja": "最後の勝利者",
+          "en": "The Final Victor",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第54话·骑士团",
+          "zh": "决战！！向着无尽的进化！",
+          "ja": "決戦！！果てなき進化へ！",
+          "en": "Showdown!! Towards Endless Evolution!",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第55话·骑士团",
+          "zh": "复活的暗黑神",
+          "ja": "復活の暗黒神",
+          "en": "The God of Darkness Revives",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第56话·骑士团",
+          "zh": "通往奈落的螺旋",
+          "ja": "奈落への螺旋",
+          "en": "Spiral of Hell",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第57话·骑士团",
+          "zh": "下一个边境",
+          "ja": "ネクスト・フロンティア",
+          "en": "Next Frontier",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第58话·骑士团",
+          "zh": "革新",
+          "ja": "革新",
+          "en": "Innovation",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "第59话·骑士团",
+          "zh": "大逆的因萨拉姆",
+          "ja": "大逆のインサラウム",
+          "en": "Insalaum's Betrayal",
+          "type": "路线分歧",
+          "area": "",
+          "note": ""
+        },
+        {
+          "code": "最终话·骑士团",
+          "zh": "再世的次元",
+          "ja": "再世する次元",
+          "en": "Rebirth's Dimension",
+          "type": "最终话",
+          "area": "",
+          "note": "最终话"
+        }
+      ]
+    }
+  ]
+}

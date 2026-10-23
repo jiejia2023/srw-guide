@@ -34,6 +34,7 @@ import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astr
 import SrwZMissionList from '../../components/SrwZMissionList.astro';
 import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astro';
 import SrwZ2HakaiMissionList from '../../components/SrwZ2HakaiMissionList.astro';
+import SrwZ2SaiseiMissionList from '../../components/SrwZ2SaiseiMissionList.astro';
 import SrwKMissionList from '../../components/SrwKMissionList.astro';
 import SrwNeoMissionList from '../../components/SrwNeoMissionList.astro';
 import SrwLMissionList from '../../components/SrwLMissionList.astro';
@@ -77,6 +78,7 @@ const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 const isSrwZ = g.slug === 'srw-z';
 const isSrwZSpecial = g.slug === 'srw-z-special';
 const isSrwZ2Hakai = g.slug === 'srw-z-2-hakai';
+const isSrwZ2Saisei = g.slug === 'srw-z-2-saisei';
 const isSrwK = g.slug === 'srw-k';
 const isSrwNeo = g.slug === 'srw-neo';
 const isSrwL = g.slug === 'srw-l';
@@ -2783,6 +2785,146 @@ const isSrwL = g.slug === 'srw-l';
     </div>
   )}
 
+  {isSrwZ2Saisei && (
+    <div>
+      <h2>剧情概要：破界之战一年后，圣王国因萨拉姆</h2>
+      <p>《第2次超级机器人大战Z 再世篇》是 Z 系列第 3 作、《破界篇》的后篇（两部作各自完结，本篇是破界之战<strong>一年后</strong>的新故事）。次元兽的威胁暂退后，新的敌人是自称守护世界秩序的<strong>圣王国因萨拉姆</strong>（国王尤瑟、骑士玛格丽特·皮斯提尔等均为本作新原创角色）。本篇的开场视角主角不是克罗：斯科特实验室的次元兽猎人<strong>艾斯特·埃尔哈斯</strong>驾驶量产试作机<strong>布拉斯特Es</strong>在各地讨伐次元兽，前作主人公<strong>克罗·布鲁斯特</strong>迟至<strong>第15话</strong>才登场（历代机战主人公中最迟之一）。剧情中玩家部队是 <strong>ZEXIS 与 ZEUTH 双双再结成</strong>（日文维基剧情梗概）：破界篇的 ZEXIS 与被召唤来的 ZEUTH 在本篇成为并立的两支队伍，克罗以斯科特实验室外派身份在队。终盘则围绕鲁路修的「零之镇魂曲」计划分岔——是按原作走向完成镇魂曲，还是相信 Zero 走出另一条路，由一套独立的隐藏点数决定（见「Zero 点数」节）。</p>
+
+      <h2>主人公：艾斯特开场、克罗第15话回归</h2>
+      <ul>
+        <li><strong>艾斯特·埃尔哈斯（エスター・エルハス，Esther Elhas）</strong>：破界篇中是斯科特实验室的非战斗角色，本篇成为正式驾驶员与开场主角，驾驶<strong>布拉斯特Es</strong>（第1话初始机体）。注意其姓氏的正确拼写为 Elhas。</li>
+        <li><strong>克罗·布鲁斯特</strong>：第15话登场，驾驶<strong>布拉斯特</strong>——布拉斯特Es 的改造继承到布拉斯特，Es 本体保留。第31话布拉斯特进化为<strong>利·布拉斯特</strong>，进化前由玩家二选一：<strong>Plan A＝利·布拉斯特R（格斗/超级系）</strong>或 <strong>Plan B＝利·布拉斯特B（射击/真实系）</strong>；第31话同时可使用阿克西欧·斯科特SP-II（Akurasu 流程图与改造继承页）。</li>
+        <li><strong>特拉伊娅·斯科特</strong>：斯科特实验室代表、非战斗角色，破界篇中替克罗偿还借款并雇其测试机体，本篇继续任代表。</li>
+      </ul>
+
+      <h2>路线分歧结构（一周目 63 关 / 全 105 剧本）</h2>
+      <p>本作由<strong>序章 3 话＋本編第 1–60 话</strong>构成，一周目实际游玩 <strong>63 关</strong>；把全部分歧版本展开共 <strong>105 个剧本</strong>，本站逐一建页（计数口径的分歧见文末「来源分歧」）。共六次分歧，其中五次是关后自选、最后一次是<strong>条件分歧</strong>：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>时点</th><th>选项</th><th>并行区间</th></tr></thead>
+          <tbody>
+            <tr><td>第3话结尾（四分歧）</td><td>先选「送别卡莲」或「与卡莲同行」，再各分二路：日本（地球·粉碎者队）/ 宇宙（S.M.S.）/ 中东（与高达同行）/ 库门（与黑色骑士团同行）</td><td>第4–7话四线；第8–14话并为两组（日本＋宇宙一组、中东＋库门一组），第15话合流</td></tr>
+            <tr><td>第20话结尾</td><td>前往暗黑大陆 / 前往宇宙</td><td>第21–24话双线</td></tr>
+            <tr><td>第31话结尾</td><td>留在地上参加佯动部队 / 前往宇宙破坏卫星兵器</td><td>第32–35话双线（与罗蕾莱、Anew 两项互斥隐藏绑定）</td></tr>
+            <tr><td>第37话结尾</td><td>与本队前往暗黑大陆 / 与黑色骑士团前往第11区</td><td>仅第38话双线</td></tr>
+            <tr><td>第40话结尾</td><td>前往日本 / 前往 Frontier 船团</td><td>第41–43话双线</td></tr>
+            <tr><td>第49话结尾（条件分歧）</td><td>「不相信 Zero」／「试着相信 Zero」（后者需 Zero 点数 ≥5，二周目起无条件出现）</td><td>第50–最终话双线：零之镇魂曲路线 / 黑色骑士团路线</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>据 srw.wiki，《第3次Z 时狱篇》以日本路线（第4话分歧）、宇宙路线（第32话分歧）、零之镇魂曲路线（第50话分歧）为正史。</p>
+
+      <h2>熟练度（SR 点）：共 59 点，仍只影响难度</h2>
+      <p>本作的 SR 点规则与破界篇同制：序章 3 话没有 SR 点，本编第 1–59 话<strong>每话各 1 点</strong>、最终话没有 SR 点，条件游戏内公示、只升不降，一周目上限 <strong>59 点</strong>（分歧话的各版本共用同一编号话的 1 点）。SR 点<strong>不决定任何路线、结局或隐藏要素</strong>——终盘分歧由独立的 Zero 点数决定（见下节）。它影响的是难度：本作难度只有 <strong>NORMAL / HARD 两档</strong>（无 EASY 档），由进入该话时已取得 SR 点占当时可取得总数的比例判定；日文 wikiwiki 的逐话难度表显示分界约为<strong>八成</strong>（如进入第50话时 40/49 起为 HARD、进入第54话骑士团路线时 43/53 起为 HARD——此「八成」是本站对两张实测表的归纳，来源未直接写出百分比公式）。SR 在本作唯一的额外回报是纹章：<strong>累计 55 点入手白金纹章</strong>（装备者行动次数 +1，见纹章节）。</p>
+
+      <h2>Zero 点数与最终分歧（第49话后）</h2>
+      <p>终盘走哪条路线，由与 SR 点无关的隐藏计数 <strong>Zero 点数</strong>决定（Akurasu Secrets 与 srw.wiki 两源一致）。全作可得共 <strong>7 点</strong>：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>时机</th><th>行为</th><th>点数</th></tr></thead>
+          <tbody>
+            <tr><td>序章A《黑色叛乱》</td><td>4 回合内（地图自动结束前）由 Zero 击坠柯内莉亚</td><td>+1</td></tr>
+            <tr><td>第3话选「与卡莲同行」后</td><td>通关库门路线第7话《暗转》</td><td>+1</td></tr>
+            <tr><td>同上</td><td>通关第14话《被赋予的力量》（中东或库门路线）</td><td>+1</td></tr>
+            <tr><td>第17话《朱禁城的花嫁》</td><td>由 Zero 击坠大龙胆号</td><td>+1</td></tr>
+            <tr><td>第27话《Zero对Zero》</td><td>我方增援到达前：击坠五飞 +1，或将希罗 HP 削至 60% 以下 +2（二选一、不可兼得）</td><td>+1 或 +2</td></tr>
+            <tr><td>第37话《以银河为舞台》</td><td>地图结束时 Zero 的累计击坠数 ≥70</td><td>+1</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>开启条件</strong>：第49话通关时 Zero 点数 <strong>≥5</strong>，休息菜单出现「ゼロを信じてみる（试着相信 Zero）」选项；<strong>二周目起无需点数、无条件出现</strong>。</li>
+        <li><strong>路线对应</strong>（两站一致）：选「不相信 Zero」＝<strong>零之镇魂曲路线</strong>（默认/原作再现）；选「相信 Zero」＝<strong>黑色骑士团路线</strong>（通称 IF 路线）。两路线第50–最终话的标题、剧情与部分入手单位完全不同。</li>
+        <li><strong>凑点提示</strong>：若第3话选了「送别卡莲」，同行线的 2 点不可得，其余点数必须全取、且第27话必须达成希罗 HP&lt;60%（+2），否则不足 5 点。</li>
+        <li><strong>达标预判点</strong>：第38话（11区路线）开场时若点数 ≤4，将发生夏莉死亡的原作事件（一周目限定）；点数足够时罗杰·史密斯与万丈介入救下她。第39话若已达标，鲁路修会在基里柯面前摘下面具。</li>
+        <li><strong>相信 Zero 路线的专属内容</strong>：文森特可翔式与罗洛在抉择后立即加入（不信路线罗洛仅第39、49话可用）；第54话霍兰德乘 Terminus 303 SP 加入；最终话可选战最强形态的盖亚奥（两次选最下项，Lv85/99）。</li>
+      </ul>
+
+      <h2>战斗系统：破界篇的延续与本篇新增</h2>
+      <ul>
+        <li><strong>单机出击制延续</strong>：破界篇废止的小队制（TRI）没有回归；援护攻击/防御、连续目标补正、包围补正保留。</li>
+        <li><strong>副指令（Sub-Orders）保留</strong>：四项与数值与破界篇完全相同（训练 PP+20／巡逻 击坠数+2／模拟战 经验值+500／资金筹措 ＝参加者等级合计×500，Akurasu Sub-Orders 页与日文维基一致）。解锁时机来源只说「成员增加到一定程度后」，未见确切话数，本站不写死。</li>
+        <li><strong>连续行动保留</strong>：气力 120 以上击坠后可再行动一次（每回合限 1 次）。<strong>王牌奖励门槛仍是击坠数 70</strong>，PP 驾驶员养成保留。</li>
+        <li><strong>全改造奖励</strong>：判定只看机体五项（HP/EN/装甲/运动性/照准），<strong>武器改造不计</strong>；达成后从通用清单任选 1 项（HP/EN/运动性/照准/装甲各 +10%、移动力 +1、干扰、任一地形武器适应 S、屏障·装甲类 EN 消耗 0、武器射程 +1、暴击补正 +10%），并同时获得该机固有的自定义奖励（Akurasu Full Upgrade Bonuses 页）。改造上限通常 10 段；<strong>4 周目起开放 15 段为韩文 Namu 再世篇页的单一来源记载</strong>（与破界篇记载一致），引用时请留意。</li>
+        <li><strong>本篇专属系统</strong>（日文维基「再世篇のみ」节）：歌系统（超时空要塞7：歌魂/歌能量，对瓦鸠拉与次元兽有特殊效果）、铁人28号的 V 控制器、朱雀的「基亚斯的诅咒」（气力 130 以上常时底力 L9＋伤害 ×1.1）、刹那的纯种变革者（气力 140 以上命中/回避/技量 +20、每回合 SP+10）、阿雷路亚/哈雷路亚的融合、托勒密2 的 Trans-Am、伊卡鲁加的舰长交代（Zero 出击时扇要自动升任舰长）。</li>
+        <li><strong>本作没有的系统（辨误）</strong>：Maximum Break（マキシマムブレイク）与 Tag 编成是<strong>下一作《第3次Z》</strong>才引入的系统，再世篇不存在——网上把两者混谈的二手汇总不要采信，本站已逐项核对 Akurasu 子页清单与日文维基系统节。</li>
+      </ul>
+
+      <h2>纹章系统（エンブレム）：本篇新增</h2>
+      <p>满足条件后入手作为强化部件的「纹章」，共 5 种，条件在游戏内不公开（Akurasu Emblems 页与 srw.wiki 数值一致）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>纹章</th><th>效果</th><th>入手条件</th></tr></thead>
+          <tbody>
+            <tr><td>铁纹章</td><td>经验值 2 倍（与「努力」叠加）</td><td>王牌驾驶员 20 名以上</td></tr>
+            <tr><td>铜纹章</td><td>主驾驶员每回合回复 SP 20</td><td>单一驾驶员击坠数达 150</td></tr>
+            <tr><td>银纹章</td><td>获得 PP 变为 3 倍</td><td>单一驾驶员累计获得 PP 达 1500</td></tr>
+            <tr><td>金纹章</td><td>获得资金 2 倍（与「幸运」叠加）</td><td>累计获得资金达 2000 万</td></tr>
+            <tr><td>白金纹章</td><td>装备者行动次数 +1</td><td>SR 点数累计达 55</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>二周目起，除铁/白金外，其余纹章在前周已满足条件时可于第1话结束后取得（srw.wiki 部件页）。注意与下节的连动部件<strong>「破界之纹章」不是同一件东西</strong>。</p>
+
+      <h2>破界篇存档连动特典（双源互证）</h2>
+      <p>新游戏开始时可选择读取《破界篇》的存档数据，按破界篇的完成度发放开局特典。本节据 <strong>Akurasu 的 Z2.2 Carryover Bonus 专页</strong>与 <strong>GameFAQs 的 MNeidengard 再世篇攻略</strong>两份独立来源互证刊出（分项完全一致）；与破界篇的 SR 点数<strong>无关</strong>：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>条件</th><th>每名驾驶员 PP</th><th>每名驾驶员击坠数</th><th>资金</th><th>部件</th></tr></thead>
+          <tbody>
+            <tr><td>破界篇通关 1 次</td><td>+150</td><td>+5</td><td>+500,000</td><td>破界之纹章、屏障力场、DM 装置</td></tr>
+            <tr><td>破界篇多周通关（累计，上限 10 周）</td><td>每周 +10</td><td>每周 +1</td><td>每周 +100,000</td><td>—</td></tr>
+            <tr><td>破界篇剧本图（Scenario Chart）全完成</td><td>+100</td><td>+5</td><td>+500,000</td><td>A 适配器、修理包、推进剂罐、弹药筒</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li>合计口径：PP 160–350、击坠 6–20，两源一致。其中「破界之纹章」的效果为移动力 +1、攻击力 +200、射程 +1（srw.wiki 部件页独立记载其连动入手方式）。</li>
+        <li><strong>资金总额两源不一致，并记</strong>：按 Akurasu 分项相加，总额为 600,000（通关 1 次、未全图）至 2,000,000（全图＋10 周）；MNeidengard 给出的总区间则是 500,000–1,500,000。两源的<strong>分项数字相同、总额对不上</strong>，未找到第三个给出分项的日文来源裁决，本站按分项刊出、总额以实机为准。</li>
+        <li>未使用连动时，上述部件会在再世篇二周目补发；该情况下 PP/资金是否照发，Akurasu 注为未确认。</li>
+      </ul>
+
+      <h2>周回继承：已确认与待核实</h2>
+      <ul>
+        <li><strong>已确认</strong>：二周目起最终分歧的「相信 Zero」选项无条件出现（Akurasu Secrets 与 srw.wiki 一致）——这是本篇最重要的周回解锁。纹章的跨周取得规则见纹章节。</li>
+        <li><strong>待核实</strong>：资金/PP 的周回继承比例阶梯——破界篇的记载是 2 周目 50%／3 周目 75%／4 周目起 100%（按累计获得量），再世篇的韩文攻略只在脚注确认「2 周目 PP 带入 50%」，再世篇专页未逐项确认同一阶梯，本站<strong>不把破界篇的阶梯当作再世篇的定论</strong>，标为待核实。</li>
+      </ul>
+
+      <h2>参战作品（40 作）</h2>
+      <p>参战作品共 <strong>40 作</strong>，其中系列初参战 6 作（日文维基）：<strong>太阳的使者 铁人28号、高达00（本篇条目含第 2 季）、超时空要塞 Dynamite 7、剧场版超时空要塞F 告别之翼、Code Geass 反逆的鲁路修 R2、剧场版天元突破 红莲螺岩篇</strong>。另：<strong>超时空要塞7</strong> 为 Z 系列初参战；一代《超重神》在本篇回归（破界篇只有 Zwei）。破界篇的 34 作其余均续投。《逆袭的夏亚》与两部剧场版要塞F 为仅机体参战。<strong>《高达UC》与初代《超时空要塞》不在本作</strong>（UC 的机战参战始于第3次Z），坊间名单若有列入即为误记。</p>
+
+      <h2>隐藏要素总览（1 条路线＋6 条链＋11 件部件）</h2>
+      <p>本作的隐藏要素全部写在触发与结算的那一话页面里。路线类只有信 Zero 路线一条（见 Zero 点数节）；机体/驾驶员链 6 条，其中罗蕾莱链与 Anew 链因第31话后的路线分歧<strong>互斥、不可同周目完成</strong>：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>要素</th><th>关键条件</th><th>结算</th></tr></thead>
+          <tbody>
+            <tr><td>多瑙 α1 ＆ 罗蕾莱</td><td>第3话选「送别卡莲」＋粉碎者队路线→第7话以铁人28号说得罗蕾莱并在单挑中击坠→第31话后选地上佯动路线</td><td>第32话正式加入</td></tr>
+            <tr><td>Anew Returner 生还</td><td>第31话后选宇宙路线→第34话刹那出击且未被击坠、通关前击坠 ≥70 等多步条件，最后由洛克昂以 Trans-Am 攻击击坠阿纽</td><td>第34话通关后归队</td></tr>
+            <tr><td>瞄准镜斗犬·导弹舱型</td><td>第40话后选 Frontier 船团路线→第43话后半基里柯与菲娅娜各击坠 ≥3、基里柯通关时击坠 ≥70</td><td>第43话内取得</td></tr>
+            <tr><td>文森特可翔式 ＆ 罗洛</td><td>仅信 Zero 路线（无其他条件）</td><td>抉择后休息菜单加入</td></tr>
+            <tr><td>Terminus 303 SP ＆ 霍兰德</td><td>仅信 Zero 路线</td><td>第54话增援加入（本作 303 须装 SP 推进器部件才能使用）</td></tr>
+            <tr><td>YF-29 杜兰达尔</td><td>阿尔特在结算话开始前击坠 ≥70（首周目还须为要塞F系击坠最高者），并在结算话击坠巨型兰花与布雷拉的 VF-27γ</td><td>第55话（镇魂曲路线）或第57话（骑士团路线）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>另有 <strong>11 件坐标型隐藏部件</strong>（把指定角色移动到指定位置取得：金枪鱼包、肾上腺素安瓿、卡米那的墨镜、辅助 GN 驱动、超级修理包、勇者之印 ×2、DM 适配器、超音速干扰器、因萨拉姆的秘宝、超合金 Z 等），逐件写在对应话的隐藏要素里；本作的这类部件只给位置描述、无公开坐标数值（见下节）。</p>
+
+      <h2>敌方数据现状：编成仅有单一来源（待裁决）</h2>
+      <p>本作的逐关敌方<strong>编成</strong>只有一份成套来源：日文 <strong>atwiki 的再世篇攻略站（srwz2nd2）</strong>——每个路线变体一页，敌方数据表字段为机体／驾驶员／等级／HP／最大射程／获得资金／PP／数量／掉落部件／备注，并含初期配置、增援批次与增援触发条件。经本站查证：s-rpg-navi 对 Z 系列只收录到 PS2 的《Z》，<strong>破界篇、再世篇均未收录</strong>；GameFAQs 的再世篇攻略（MNeidengard）以剧情翻译与流程为主、没有逐关编成表；Akurasu 流程图只点名胜败/SR 条件涉及的目标敌机。因此 atwiki 编成属<strong>单一来源</strong>，按本站「双源交叉才刊载」的惯例<strong>暂不导入、列为待用户裁决事项</strong>（范围：序章＋本编 60 话全部路线变体页；字段如上；该表无坐标）。敌方<strong>坐标与逐格地形在任何已查到的公开来源中都不存在</strong>，各页地图为带四边坐标轴的参照框架。</p>
+
+      <h2>来源分歧与口径说明</h2>
+      <ul>
+        <li><strong>剧本计数三说并记</strong>：本站按 Akurasu 流程图逐条清点为 <strong>105 条</strong>（序章 3＋编号话变体 102）并全部建页；Akurasu 主页自称「100 个可玩剧本＋3 序章」（合计 103，比其流程图清点少 2 条、页面未说明差额）；日文维基概要作「序章 3 话、本编 60 话／94 阶段」，srw.wiki 作「全 63 话」（单周门口径）。三个数字口径不同，本站建页从 105。</li>
+        <li><strong>日文标题用字</strong>：个别话两站写法不同（第5话日本路线篇名「広報2課」Akurasu／「後方2課」srw.wiki、第6话宇宙路线「脅威／驚異」、第13话「震動／振動」、第23话暗黑大陆路线「わかってない／わかっていない」等），本站关卡名从 Akurasu 流程图，分歧在此存记。</li>
+        <li><strong>Zero 点数第 14 话的编号</strong>：「被赋予的力量」一话，Akurasu 编为第14话，srw.wiki 的路线表将其置于第13话一带（路线合并期的编号差异），点数事件本身两站一致。</li>
+        <li><strong>序章标法</strong>：Akurasu 流程图把序章标为第1–3话（疑为页面模板残留），srw.wiki 标为序章 A/B/C，本站从 srw.wiki，以与本编第1–3话区分。</li>
+        <li><strong>连动特典资金总额</strong>：两源分项一致、总额不一致（600,000–2,000,000 对 500,000–1,500,000），见连动节，并记不裁。</li>
+        <li><strong>单一来源标注</strong>：「4 周目起 15 段改造」仅见韩文 Namu 再世篇页；周回继承阶梯仅破界篇有完整记载、再世篇只有脚注旁证——两项均已在上文标注，不作定论。</li>
+      </ul>
+    </div>
+  )}
+
   {isSrwK && (
     <div>
       <h2>剧情与舞台</h2>
@@ -3572,6 +3714,11 @@ const isSrwL = g.slug === 'srw-l';
     <div>
       <p>本作 <strong>86 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 51 关——第1–50话加最终话；分歧版本包括第3–4话双线、第5–8话三线、第9话四种合流版本、第10–12话双线、第16–18话表/里双线、第24–27话与第34–36话两次三线、第42–44话双线）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（SR点）取得条件</strong>、我方加入、本关隐藏要素（击坠数门槛、路线绑定的长线连锁都写在触发/结算的那一话里；本作的 SR 点只影响难度、没有路线/结局门槛）与坐标地图（敌方编成、坐标与地形均无公开成套来源，待核实，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-z-2-hakai/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwZ2HakaiMissionList />
+    </div>
+  ) : isSrwZ2Saisei ? (
+    <div>
+      <p>本作 <strong>105 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 63 关——序章 3 话加本编第 1–60 话；分歧版本包括第4–7话四线、第8–14话两组、第21–24话双线、第32–35话双线、第38话双线、第41–43话双线与第50–最终话的双路线）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（SR点）取得条件</strong>、我方加入、本关隐藏要素（Zero 点数的积累与判定、路线绑定的互斥连锁都写在触发/结算的那一话里；本作的 SR 点只影响难度，终盘路线由独立的 Zero 点数决定）与坐标地图（敌方编成为日文 atwiki 单一来源暂不刊载、待裁决；敌方坐标与地形无任何来源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-z-2-saisei/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwZ2SaiseiMissionList />
     </div>
   ) : isSrwK ? (
     <div>
