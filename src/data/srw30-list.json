@@ -677,6 +677,720 @@
      "note": ""
     }
    ]
+  },
+  {
+   "title": "免费追加任务（Extra · 免费更新）",
+   "intro": "随免费更新与早期购入特典转免费追加的任务（魔装机神、钢之魂为早期购入特典，后转为免费配信）。",
+   "rows": [
+    {
+     "code": "Extra 0-1",
+     "zh": "魔装机神",
+     "ja": "魔装機神",
+     "en": "The Elemental Lord",
+     "type": "追加",
+     "area": "亚洲 - 拉萨",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 0-2",
+     "zh": "钢之魂",
+     "ja": "鋼の魂",
+     "en": "Spirit of Steel",
+     "type": "追加",
+     "area": "地球轨道 - 残骸带",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 1-1",
+     "zh": "恭贺30周年！！",
+     "ja": "CONGRATULATION 30th!!",
+     "en": "Happy 30th Anniversary!",
+     "type": "追加",
+     "area": "极东 - 大阪",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 1-2",
+     "zh": "来访者",
+     "ja": "来訪者",
+     "en": "Visitors",
+     "type": "追加",
+     "area": "黑洋 - 凡尔纳",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 1-3",
+     "zh": "黑色幽灵",
+     "ja": "黒い幽霊",
+     "en": "Black Specter",
+     "type": "追加",
+     "area": "L5 - V-17 残骸区域",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 2-1",
+     "zh": "未知战场",
+     "ja": "未知の戦場",
+     "en": "Unknown Battlefield",
+     "type": "追加",
+     "area": "黑洋 - 艾斯特",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 2-2",
+     "zh": "恭贺1900万！！",
+     "ja": "CONGRATULATION 19000000!!",
+     "en": "Congratulations on 19 Million!",
+     "type": "追加",
+     "area": "L3 - 阿拉拉特区域",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 2-3",
+     "zh": "次元跳跃者",
+     "ja": "Dimension Diver",
+     "en": "Dimension Diver",
+     "type": "追加",
+     "area": "L3 - 戈弗区域",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 3-1",
+     "zh": "开启之门",
+     "ja": "",
+     "en": "The Door Opens",
+     "type": "追加",
+     "area": "黑洋 - 阿夫托斯",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 3-2",
+     "zh": "超级斗士",
+     "ja": "",
+     "en": "The Hyper Fighter",
+     "type": "追加",
+     "area": "非洲 - 开普敦",
+     "note": "免费追加"
+    },
+    {
+     "code": "Extra 3-3",
+     "zh": "交叉之门开启",
+     "ja": "",
+     "en": "The Crossover Door Opens",
+     "type": "追加",
+     "area": "欧洲 - 华沙",
+     "note": "免费追加"
+    }
+   ]
+  },
+  {
+   "title": "奖励任务包（Bonus Mission Pack · DLC）",
+   "intro": "发售时推出的付费奖励任务包，共 15 关。",
+   "rows": [
+    {
+     "code": "SP1",
+     "zh": "勇者之道",
+     "ja": "勇者のススメ",
+     "en": "Leading the Brave",
+     "type": "DLC",
+     "area": "非洲 - 约翰内斯堡",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP2",
+     "zh": "骑士与骑士的相遇",
+     "ja": "騎士と騎士の出会い",
+     "en": "Knightly Meetings",
+     "type": "DLC",
+     "area": "大洋洲 - 基督城",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP3",
+     "zh": "无尽夏日的英雄们",
+     "ja": "",
+     "en": "Endless Summer Heroes",
+     "type": "DLC",
+     "area": "欧洲 - 巴塞罗那",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP4",
+     "zh": "秘密配方是……",
+     "ja": "",
+     "en": "The Secret Ingredient Is...",
+     "type": "DLC",
+     "area": "月球 - 阿尔马格斯特基地",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP5",
+     "zh": "联邦偶像行动",
+     "ja": "",
+     "en": "Operation: Federation Idol",
+     "type": "DLC",
+     "area": "地球圈外围 - 哥伦布区域",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP6",
+     "zh": "英雄觉醒",
+     "ja": "ヒーロー覚醒",
+     "en": "Heroic Awakening",
+     "type": "DLC",
+     "area": "地球轨道 - 星玫瑰",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP7",
+     "zh": "尊敬长者",
+     "ja": "",
+     "en": "Respect Your Elders",
+     "type": "DLC",
+     "area": "火星圈 - 水手峡谷",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP8",
+     "zh": "重返贾布罗",
+     "ja": "ジャブロー再び",
+     "en": "A Return to Jaburo",
+     "type": "DLC",
+     "area": "拉丁美洲 - 贾布罗",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP9",
+     "zh": "占卜师米歇尔",
+     "ja": "易者ミシェル",
+     "en": "Michele, the Fortuneteller",
+     "type": "DLC",
+     "area": "L4 - 殖民地阿米莉亚",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP10",
+     "zh": "蔓延的未知世界",
+     "ja": "広がる未知の世界",
+     "en": "Unknown Horizons",
+     "type": "DLC",
+     "area": "北美 - 旧金山",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP11",
+     "zh": "勇者系谱·另一路线",
+     "ja": "勇者の系譜・別ルート",
+     "en": "A Brave Lineage (Alt. Route)",
+     "type": "DLC",
+     "area": "欧洲 - 直布罗陀",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP12",
+     "zh": "异种混合机器人座谈会",
+     "ja": "異種混合ロボット談義",
+     "en": "Stupendous Robot Symposium",
+     "type": "DLC",
+     "area": "月球 - 奥米克戎",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP13",
+     "zh": "激突！勇者VS勇者！",
+     "ja": "激突！勇者VS勇者！",
+     "en": "Brave vs. Brave",
+     "type": "DLC",
+     "area": "极东 - 东京",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP14",
+     "zh": "黑暗变形陷阱",
+     "ja": "黒のデフォルメ・トラップ",
+     "en": "Super Deformed Danger",
+     "type": "DLC",
+     "area": "大洋洲 - 蓝洞",
+     "note": "奖励任务包"
+    },
+    {
+     "code": "SP15",
+     "zh": "清、正、美、且强",
+     "ja": "清く正しく美しく、そして強く",
+     "en": "Beautiful, Righteous, and Strong",
+     "type": "DLC",
+     "area": "L4 - 昌巴区域",
+     "note": "奖励任务包"
+    }
+   ]
+  },
+  {
+   "title": "DLC① 参战包追加任务",
+   "intro": "2021-11-19 配信：樱花大战、波尔特斯V、Hi-ν高达、龙虎王/虎龙王参战，共 13 关区域任务（另有舰内任务 17 个，不逐关建页）。",
+   "rows": [
+    {
+     "code": "DLC1-1",
+     "zh": "帝都遥远",
+     "ja": "帝都は遠く",
+     "en": "Far From Tokyo",
+     "type": "DLC",
+     "area": "亚洲 - 新加坡",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-2",
+     "zh": "迈向战斗漩涡",
+     "ja": "戦いの渦へ",
+     "en": "Into a Maelstrom of Battle",
+     "type": "DLC",
+     "area": "亚洲 - 马尼拉",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-3",
+     "zh": "龙虎现身",
+     "ja": "龍虎見参",
+     "en": "The Tiger and Dragon Descend",
+     "type": "DLC",
+     "area": "亚洲 - 台北",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-4",
+     "zh": "两人的光",
+     "ja": "二人の光",
+     "en": "The Lights in Amuro's Life",
+     "type": "DLC",
+     "area": "L5 - 殖民地伦德尼恩",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-5",
+     "zh": "巴黎盛开的樱花",
+     "ja": "巴里に咲くサクラ",
+     "en": "Parisian Cherry Blossoms",
+     "type": "DLC",
+     "area": "欧洲 - 巴黎",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-6",
+     "zh": "摩天楼的两位武士",
+     "ja": "摩天楼のサムライ二人",
+     "en": "Skyline Samurai",
+     "type": "DLC",
+     "area": "北美 - 纽约",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-7",
+     "zh": "超电磁之绊",
+     "ja": "超電磁の絆",
+     "en": "Super Electromagnetic Bonds",
+     "type": "DLC",
+     "area": "极东 - 伊豆",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-8",
+     "zh": "魔都蠢动",
+     "ja": "魔都に蠢く",
+     "en": "Danger in the Demon City",
+     "type": "DLC",
+     "area": "极东 - 金泽",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-9",
+     "zh": "思念诞生的力量",
+     "ja": "想いが生む力",
+     "en": "Power Born of Emotion",
+     "type": "DLC",
+     "area": "月球 - Alpha-00 残骸区域",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-10",
+     "zh": "我等无敌",
+     "ja": "我等ニ敵ナシ",
+     "en": "Without Equal",
+     "type": "DLC",
+     "area": "黑洋 - 凡尔纳",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-11",
+     "zh": "扩大的威胁",
+     "ja": "拡大する脅威",
+     "en": "Encroaching Threat",
+     "type": "DLC",
+     "area": "北美 - 纽约",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-12",
+     "zh": "黑色意志",
+     "ja": "黒い意思",
+     "en": "Ignoble Inclinations",
+     "type": "DLC",
+     "area": "亚洲 - 金边",
+     "note": "DLC①（2021-11-19）"
+    },
+    {
+     "code": "DLC1-13",
+     "zh": "只要有爱",
+     "ja": "愛ある限り",
+     "en": "So Long as There's Love",
+     "type": "DLC",
+     "area": "黑洋 - 凡尔纳",
+     "note": "DLC①（2021-11-19）"
+    }
+   ]
+  },
+  {
+   "title": "DLC② 参战包追加任务",
+   "intro": "2021-12-24 配信：奥特曼、铁血的奥尔芬斯、魔神英雄传等参战，共 13 关区域任务（另有舰内任务 18 个，不逐关建页）。",
+   "rows": [
+    {
+     "code": "DLC2-1",
+     "zh": "奥特曼、迈向未知世界",
+     "ja": "ウルトラマン、未知の世界へ",
+     "en": "Ultraman in Worlds Unknown",
+     "type": "DLC",
+     "area": "北美 - 休斯顿",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-2",
+     "zh": "荒野绽放的铁花",
+     "ja": "荒野に咲く鉄の華",
+     "en": "Iron Flower in the Wilds",
+     "type": "DLC",
+     "area": "北美 - 菲尼克斯",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-3",
+     "zh": "钢铁孤狼",
+     "ja": "鋼鉄の孤狼",
+     "en": "Steel Beowulf",
+     "type": "DLC",
+     "area": "亚洲 - 首尔",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-4",
+     "zh": "被称为SEVEN的男人",
+     "ja": "SEVENと呼ばれる男",
+     "en": "The Man They Call Seven",
+     "type": "DLC",
+     "area": "大洋洲 - 卡奔塔利亚",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-5",
+     "zh": "铁之绊",
+     "ja": "鉄の絆",
+     "en": "Iron Bonds",
+     "type": "DLC",
+     "area": "非洲 - 恩贾梅纳",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-6",
+     "zh": "白银堕天使",
+     "ja": "白銀の堕天使",
+     "en": "Platinum Lucifer",
+     "type": "DLC",
+     "area": "拉丁美洲 - 圭亚那高原",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-7",
+     "zh": "王牌的证明",
+     "ja": "エースの証",
+     "en": "An Ace for All Seasons",
+     "type": "DLC",
+     "area": "拉丁美洲 - 圣多明各",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-8",
+     "zh": "光之巨人的使命",
+     "ja": "光の巨人の使命",
+     "en": "The Giant of Light's Cause",
+     "type": "DLC",
+     "area": "北美 - 休斯顿",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-9",
+     "zh": "巴埃尔的继承者",
+     "ja": "バエルを継ぐ者",
+     "en": "Bael's Inheritor",
+     "type": "DLC",
+     "area": "北美 - 埃德蒙顿",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-10",
+     "zh": "天使再临",
+     "ja": "天使、再臨",
+     "en": "Angel's Second Advent",
+     "type": "DLC",
+     "area": "北美 - 菲尼克斯",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-11",
+     "zh": "贯穿者们",
+     "ja": "貫く者達",
+     "en": "Those Who Pierce Through",
+     "type": "DLC",
+     "area": "极东 - 太平洋沿岸",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-12",
+     "zh": "漆黑威胁",
+     "ja": "黒の脅威",
+     "en": "Jet Black Menace",
+     "type": "DLC",
+     "area": "欧洲 - 雅典",
+     "note": "DLC②（2021-12-24）"
+    },
+    {
+     "code": "DLC2-13",
+     "zh": "贯穿的勇气",
+     "ja": "貫く勇気",
+     "en": "Indomitable Bravery",
+     "type": "DLC",
+     "area": "黑洋 - 艾斯特",
+     "note": "DLC②（2021-12-24）"
+    }
+   ]
+  },
+  {
+   "title": "扩展包（Expansion Pack）追加任务",
+   "intro": "2022-04-20 第 2 弹配信：装甲骑兵、断空我、盖塔机器人 Devolution、新干线变形机器人、OG 等参战，共 24 条（官方口径为区域任务 20 + 兄妹篇连续任务 3 话等，Akurasu 流程表共列 24 条；其中 DLC3-19「他们的往昔（下）」在流程表中排在 DLC3-20「他们的往昔（上）」之前）。",
+   "rows": [
+    {
+     "code": "DLC3-1",
+     "zh": "出发！！新世界的冒险",
+     "ja": "出発！！新たな世界の冒険",
+     "en": "On Track for Adventure",
+     "type": "DLC",
+     "area": "极东 - 高知",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-2",
+     "zh": "武神装攻、现身",
+     "ja": "武神装攻、見参",
+     "en": "Face the War God's Regalia",
+     "type": "DLC",
+     "area": "亚洲 - 香港",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-3",
+     "zh": "超兽机神",
+     "ja": "超獣機神",
+     "en": "Super Beast Machine God",
+     "type": "DLC",
+     "area": "大洋洲 - 阿德莱德",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-4",
+     "zh": "接触",
+     "ja": "接触",
+     "en": "Contact",
+     "type": "DLC",
+     "area": "非洲 - 亚的斯亚贝巴",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-5",
+     "zh": "再会！！光与暗",
+     "ja": "再開！！光と闇",
+     "en": "Light and Darkness Reunited",
+     "type": "DLC",
+     "area": "拉丁美洲 - 复活节岛",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-6",
+     "zh": "迷失的世界",
+     "ja": "迷い込んだ世界",
+     "en": "World Astray",
+     "type": "DLC",
+     "area": "木星圈 - 马尔杜克区域",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-7",
+     "zh": "火种",
+     "ja": "火種",
+     "en": "Firestarters",
+     "type": "DLC",
+     "area": "拉丁美洲 - 巴西利亚",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-8",
+     "zh": "两个盖塔",
+     "ja": "2つのゲッター",
+     "en": "The Two Getters",
+     "type": "DLC",
+     "area": "小行星带 - 谷神星区域",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-9",
+     "zh": "合体！！新的力量",
+     "ja": "合体！！新しい力",
+     "en": "Powers Combined",
+     "type": "DLC",
+     "area": "欧洲 - 慕尼黑",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-10",
+     "zh": "龙卷与武神",
+     "ja": "竜巻と武神",
+     "en": "The Tornado of War",
+     "type": "DLC",
+     "area": "亚洲 - 新德里",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-11",
+     "zh": "野性的觉醒",
+     "ja": "野生の目覚め",
+     "en": "Awakening Instincts",
+     "type": "DLC",
+     "area": "地球轨道 - 开拉什·吉里",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-12",
+     "zh": "我们的战斗",
+     "ja": "俺たちの戦い",
+     "en": "Our Fight",
+     "type": "DLC",
+     "area": "小行星带 - 博德区域",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-13",
+     "zh": "决战！！新干线的未来",
+     "ja": "決戦！！シンカリオンの未来",
+     "en": "For Shinkalion's Future",
+     "type": "DLC",
+     "area": "美洲 - 复活节岛",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-14",
+     "zh": "向未来挑战",
+     "ja": "未来への挑戦",
+     "en": "Challenging the Future",
+     "type": "DLC",
+     "area": "木星圈 - 马尔杜克区域",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-15",
+     "zh": "无法消除的伤痕",
+     "ja": "消せない傷",
+     "en": "Indeliable Scars",
+     "type": "DLC",
+     "area": "北美 - 奥古斯塔",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-16",
+     "zh": "疾驰的威胁",
+     "ja": "駆け抜ける脅威",
+     "en": "A Surging Scourge",
+     "type": "DLC",
+     "area": "L3 - Z-08 残骸区域",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-17",
+     "zh": "觉醒的基因",
+     "ja": "覚醒の遺伝子",
+     "en": "Genes of Awakening",
+     "type": "DLC",
+     "area": "极东 - 富良野",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-18",
+     "zh": "他们是OG小队",
+     "ja": "",
+     "en": "They Are The OG Team",
+     "type": "DLC",
+     "area": "地球轨道 - 残骸带",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-19",
+     "zh": "他们的往昔（下）",
+     "ja": "",
+     "en": "Their Bygone Days (Part 2)",
+     "type": "DLC",
+     "area": "火星圈 - 火星轨道",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-20",
+     "zh": "他们的往昔（上）",
+     "ja": "",
+     "en": "Their Bygone Days (Part 1)",
+     "type": "DLC",
+     "area": "火星圈 - 水手峡谷",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-21",
+     "zh": "他们的未来",
+     "ja": "",
+     "en": "Their Days to Come",
+     "type": "DLC",
+     "area": "火星圈 - 北方大荒原",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-22",
+     "zh": "解放的力量",
+     "ja": "解放される力",
+     "en": "Power Unleashed",
+     "type": "DLC",
+     "area": "拉丁美洲 - 安第斯山脉",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-23",
+     "zh": "隐藏的因子",
+     "ja": "秘められた因子",
+     "en": "Hidden Factors",
+     "type": "DLC",
+     "area": "非洲 - 乞力马扎罗",
+     "note": "扩展包（2022-04-20）"
+    },
+    {
+     "code": "DLC3-24",
+     "zh": "怀抱希望",
+     "ja": "希望を胸に",
+     "en": "With A Hopeful heart",
+     "type": "DLC",
+     "area": "黑洋 - 阿夫托斯",
+     "note": "扩展包（2022-04-20）"
+    }
+   ]
   }
  ],
  "sideIntro": "本作支线任务共 166 个（Akurasu 口径，含前线、遗物、舰上等任务类型），此处精选与机体/角色加入、隐藏要素直接相关的剧情支线与全部隐藏任务。编号 OE/OS 为地上/宇宙路线版本，同一任务在两条路线的编号与标题常有对应关系；标「（未记）」者为 Akurasu 未记录其日文标题。",
@@ -1272,30 +1986,6 @@
    "en": "Where Tomorrow Starts",
    "type": "追加",
    "note": "—"
-  }
- ],
- "dlcTitle": "DLC 与追加任务（概要）",
- "dlcIntro": "以下为另行发售的付费 DLC 与免费追加任务的清单概要（详细攻略不在本页范围）。免费追加的 Extra 任务共 11 个：魔装机神（魔装機神 / The Elemental Lord，赛巴斯塔）、钢之魂（鋼の魂 / Spirit of Steel，SRX 小队）、Happy 30th Anniversary!、Visitors、黑暗幽灵（黒い幽霊 / Black Specter，亡灵）、Unknown Battlefield、Congratulations on 19 Million!、Dimension Diver（迪达利昂）、打开的门（開かれた扉 / The Door Opens）、超斗士（超闘士 / The Hyper Fighter，古伦加斯特）、解锁的是交错之门（解錠されるのは交錯の扉 / The Crossover Door Opens，梵格雷·艾因）。「打开的门」是开放通关后追加章节的前提之一。",
- "dlc": [
-  {
-   "pack": "奖励任务包（Bonus Mission Pack）",
-   "count": "15",
-   "content": "勇者的推荐（勇者のススメ）、骑士与骑士的相遇（騎士と騎士の出会い）、Endless Summer Heroes、The Secret Ingredient Is...、Operation: Federation Idol、Heroic Awakening、Respect Your Elders、A Return to Jaburo、Michele the Fortuneteller、Unknown Horizons、A Brave Lineage (Alt. Route)、Stupendous Robot Symposium、Brave vs. Brave、Super Deformed Danger、Beautiful, Righteous, and Strong。多为 PP / 部件奖励关。"
-  },
-  {
-   "pack": "DLC 第 1 弹",
-   "count": "13",
-   "content": "樱花大战、龙虎王传记等参战：远离帝都（帝都は遠く）、进入战斗的漩涡（戦いの渦へ）、龙虎见参（龍虎見参）、The Lights in Amuro's Life、巴黎盛开的樱花（巴里に咲くサクラ）、摩天楼的武士（摩天楼のサムライ）、超电磁之绊（超電磁の絆）、Danger in the Demon City、心意诞生的力量（想いが生む力，Hi-ν高达）、天下无双（我等ニ敵ナシ）；通关后追加 Encroaching Threat、Ignoble Inclinations、So Long as There's Love。"
-  },
-  {
-   "pack": "DLC 第 2 弹",
-   "count": "13",
-   "content": "ULTRAMAN、铁血的奥尔芬斯等参战：奥特曼，未知的世界（ウルトラマン、未知の世界へ）、荒野绽放的铁之花（荒野に咲く鉄の華）、钢铁孤狼（鋼鉄の孤狼）、被称为 SEVEN 的男人（SEVENと呼ばれる男）、铁之绊（鉄の絆）、白银的堕天使（白銀の堕天使）、王牌的证明（エースの証）、光之巨人的使命（光の巨人の使命）、巴耶力的继承者（バエルを継ぐ者）、天使，再临（天使、再臨）；通关后追加 Those Who Pierce Through、Jet Black Menace、Indomitable Bravery。"
-  },
-  {
-   "pack": "扩展包（Expansion Pack）",
-   "count": "24",
-   "content": "独立后续剧情：On Track for Adventure、Face the War God's Regalia、Super Beast Machine God、Contact、Light and Darkness Reunited、World Astray、Firestarters、The Two Getters、Powers Combined、The Tornado of War、Awakening Instincts、我们的战斗（我等の戦い / Our Fight）、For Shinkalion's Future、Challenging the Future、Indeliable Scars（Akurasu 原文拼写）、A Surging Scourge（Akurasu 原文拼写）、Genes of Awakening；通关后追加 They Are The OG Team、Their Bygone Days (Part 1 / Part 2)、Their Days to Come（奖励 500 万资金）、解放的力量（解放される力 / Power Unleashed）、Hidden Factors、With A Hopeful Heart。多数任务的日文标题 Akurasu 未记录。"
   }
  ]
 }

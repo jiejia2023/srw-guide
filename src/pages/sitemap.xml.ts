@@ -68,7 +68,6 @@ export function GET() {
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
-  paths.add('srw-30/missions/sample-01/');
   for (const m of (srw30 as any).missions ?? []) {
     if (m.slug) paths.add(`srw-30/missions/${m.slug}/`);
   }

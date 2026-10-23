@@ -11,7 +11,6 @@ for (const m of (missionsData as any).missions ?? []) {
 const groups = (listData as any).groups ?? [];
 const side = (listData as any).side ?? [];
 const ec = (listData as any).ec ?? [];
-const dlc = (listData as any).dlc ?? [];
 const badgeClass = (t: string) =>
   t === '主线' ? 'badge-primary' : t === '隐藏' ? 'badge-warning' : t === '追加' ? 'badge-accent' : 'badge-secondary';
 ---
@@ -82,15 +81,4 @@ const badgeClass = (t: string) =>
   </table>
 </div>
 
-<h3>{(listData as any).dlcTitle}</h3>
-<p>{(listData as any).dlcIntro}</p>
-<div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
-  <table class="table table-zebra table-sm">
-    <thead><tr><th>包</th><th>关数</th><th>主要内容（Akurasu 英文名）</th></tr></thead>
-    <tbody>
-    {dlc.map((r: any) => (
-      <tr><td>{r.pack}</td><td>{r.count}</td><td>{r.content}</td></tr>
-    ))}
-    </tbody>
-  </table>
-</div>
+
