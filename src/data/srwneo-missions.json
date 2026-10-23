@@ -1,0 +1,3782 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "愤怒的兽神，裁决的巨神",
+   "ja": "第1話：怒りの獣神、裁きの巨神",
+   "en": "Scenario 1: Beast God of Anger, Giant God of Judgment",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "新游戏开局的第一话。本作没有开局主人公选择：双主角稻叶驱（主角机驾驶员）与其弟稻叶天音（母舰伊奥尼亚的生体核心）固定登场。本作也没有出击选择画面——开局只有母舰与强制出击单位在场，其余单位随时从母舰发进/回收（见本作主页的出击系统）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：健被击坠",
+    "第2阶段起：任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "兽神莱卡（健）［获得「变形」能力］",
+    "席格扎尔（驱）［获得席格之刃、席格骑兵、席格战车攻击］",
+    "伊奥尼亚（天音）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第2话《雷神王参上！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "本话败北条件在后段升级为「任一我方被击坠即败北」，是全作前期常见的严苛型败北条件，注意保护弱机。"
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "雷神王参上！",
+   "ja": "第2話：ライジンオー見参！",
+   "en": "Scenario 2: Raijin-Oh Appears!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第1话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：雷神王被击坠",
+    "第2阶段：任一我方单位被击坠",
+    "第3阶段：伊奥尼亚或雷神王被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "雷神王（仁、飞鸟、浩二）",
+    "魔神Z（甲儿）",
+    "戴安娜A（沙也加）",
+    "兽神莱卡（健）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话《唰！勇者传说复活！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "唰！勇者传说复活！",
+   "ja": "第3話：シュパーン！勇者伝説復活！",
+   "en": "Scenario 3: Shh-pop! Revival of the Brave Legend",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第2话。",
+   "victory": [
+    "第1阶段：歼灭全部敌人",
+    "第2阶段：击破席拉基·拉坎斯"
+   ],
+   "defeat": [
+    "阿拉拉城被破坏（全阶段）",
+    "王者压碎者被击坠（全阶段）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "王者压碎者（拉姆涅、塔玛Q）［获得王者压碎者飓风攻击］",
+    "龙魔道士玛吉多拉（帕菲）",
+    "龙祭司巴里乌斯（泉）",
+    "龙忍者爆裂丸（猿飞）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话《宿敌，魔龙王多尔加！！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "本关有保护目标：阿拉拉城被破坏同样败北，不能只顾着歼灭敌人。"
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "宿敌，魔龙王多尔加！！",
+   "ja": "第4話：宿敵、魔竜王ドルガ！！",
+   "en": "Scenario 4: Nemesis, Demon Dragon King Dolga",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第3话；本关通关后发生第一次路线分歧（二选一，仅影响第5话）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：梅尔维尤被击坠",
+    "第2阶段：梅尔维尤或健被击坠",
+    "第3阶段：梅尔维尤、健或伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "梅尔维尤（雪莉）",
+    "奥塞凯撒（奥塞凯撒）",
+    "雷神王（仁、飞鸟、浩二）",
+    "波士机器人（波士、穆查、奴克）"
+   ],
+   "events": [],
+   "secrets": [
+    "在本关让奥塞凯撒击坠 5 台以上敌人——这是立旗步，本身不会立即入队；兑现步在第33话（成功招募贝尔泽布），两步都满足后奥塞凯撒才在第33话正式加入（Akurasu Secrets 页与流程图一致）。只做本步、不做第33话的招募，本周目收不到奥塞凯撒。"
+   ],
+   "unlocks": [
+    "第5话（青空町线）《发现机器人啦！》或第5话（春风町线）《出现！恐龙机器人！》（关后二选一）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Secrets"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "本话标题敌方为魔龙王多尔加；胜利条件为全灭敌人。奥塞凯撒的击坠数要刻意留给它收尾。"
+  },
+  {
+   "code": "第5话（青空町线）",
+   "slug": "stage-5-ozora",
+   "zh": "发现机器人啦！",
+   "ja": "第5話：ロボットみ～っけ！",
+   "en": "Scenario 5 (Ozora): Loooook at That Robot!",
+   "route": "青空町线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第4话通关后选择「前往青空町」（A 路线，侧重雷神王系）。两条路线只差第5话，第6话合流；另一条路线的取得机体（哥修罗）会在第7话共同列出。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：伊奥尼亚或席格扎尔被击坠",
+    "第2阶段：我方全灭",
+    "第3阶段：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "伏魔金刚（虎太郎、洋介、力也）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话《三兽前行》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话（春风町线）",
+   "slug": "stage-5-harukaze",
+   "zh": "出现！恐龙机器人！",
+   "ja": "第5話：出現！恐竜ロボ！",
+   "en": "Scenario 5 (Harukaze): Appear! Dinosaur Robot!",
+   "route": "春风町线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第4话通关后选择「前往春风町」（B 路线，侧重魔神Z/莱卡系）。两条路线只差第5话，第6话合流；另一条路线的取得机体（伏魔金刚）会在第7话共同列出。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一敌人侵入学校",
+    "第1阶段：任一我方单位被击坠",
+    "第2阶段：我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "哥修罗（拳一、广美、忍）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话《三兽前行》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "防线型关卡：任何敌人侵入学校即败北，布防要优先于追击。"
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "三兽前行",
+   "ja": "第6話：三匹が行く",
+   "en": "Scenario 6: Three-Beasts Go",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第5话（两条路线在此合流）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "盖塔机器人被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "盖塔机器人（龙马、隼人、辨庆）",
+    "神高达（多蒙）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话《晴明的阴谋》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "晴明的阴谋",
+   "ja": "第7話：晴明の陰謀",
+   "en": "Scenario 7: Seimei's Plot",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第6话。",
+   "victory": [
+    "前段：全员到达指定区域，并歼灭全部敌人",
+    "后段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "前段：任一我方单位被击坠",
+    "后段第1阶段：伏魔金刚被击坠",
+    "后段第2阶段：伊奥尼亚或席格扎尔被击坠",
+    "后段第3阶段：伊奥尼亚、盖塔、基德或鲍伊、神高达被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "盖塔机器人（龙马、隼人、辨庆）",
+    "神高达（多蒙）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "伏魔金刚（虎太郎、洋介、力也）",
+    "哥修罗（拳一、广美、忍）",
+    "兽神莱卡（健）"
+   ],
+   "events": [
+    "本关分前后两段（地图切换/重新部署型分段：HP、EN、SP、气力保留，行动重置）。前段带「全员到达指定区域」目标，是全作少数的到达型胜利条件。",
+    "第5话两条路线分别取得的伏魔金刚（青空町线）与哥修罗（春风町线）自本关起共同在列——选了哪条线，另一台也会在此汇合，不会永久错过。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话《向剑与魔法的世界》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "向剑与魔法的世界",
+   "ja": "第8話：剣と魔法の世界へ",
+   "en": "Scenario 8: World of Sword and Magic",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第7话。",
+   "victory": [
+    "前段：歼灭全部敌人",
+    "后段第1阶段：击破席拉基·拉坎斯",
+    "后段第2–3阶段：击破里巴里斯"
+   ],
+   "defeat": [
+    "前段：席格扎尔被击坠",
+    "后段第1阶段：王者压碎者被击坠",
+    "后段第2阶段：任一我方单位被击坠",
+    "后段第3阶段：伊奥尼亚、席格扎尔、王者压碎者或阿迪乌被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙骑士泽菲尔（阿迪乌）",
+    "王者压碎者（拉姆涅、塔玛Q）［获得召唤塞洛姆、召唤希尔康、召唤布伦顿攻击］",
+    "斧头轰炸机（可可、牛奶）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话《出现！邪恶的骑士 黑暗龙骑士》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "出现！邪恶的骑士 黑暗龙骑士",
+   "ja": "第9話：出現！邪悪の騎士 暗黒のリューナイト",
+   "en": "Scenario 9: Appear, Evil Knight! The Dark Knight Ryu",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第8话。",
+   "victory": [
+    "第1阶段：歼灭全部敌人",
+    "第2阶段：歼灭全部敌人，且伊奥尼亚到达指定区域",
+    "第3阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：任一我方单位被击坠",
+    "第2阶段：伊奥尼亚或龙骑士系单位被击坠，或伊奥尼亚未在 3 回合内到达指定区域",
+    "第3阶段：伊奥尼亚或龙骑士系单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙魔道士玛吉多拉（帕菲）",
+    "龙祭司巴里乌斯（泉）",
+    "龙忍者爆裂丸（猿飞）",
+    "哥修罗（拳一、广美、忍）",
+    "兽神莱卡（健）",
+    "盖塔机器人（隼人、辨庆）［本关龙马不在，不能变为盖塔1］"
+   ],
+   "events": [
+    "本关带回合限制：第2阶段伊奥尼亚必须在 3 回合内到达指定区域，超时直接败北——开局就要规划母舰的移动路线。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第10话《猛攻！黄金三兄弟！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "猛攻！黄金三兄弟！",
+   "ja": "第10話：猛攻！ゴールド三兄弟！",
+   "en": "Scenario 10: Fierce Attack! The 3 Gold Brothers",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第9话。",
+   "victory": [
+    "第1阶段：击破黄金臂、黄金脚、黄金面具，并经过 2 回合",
+    "第2阶段：歼灭全部敌人",
+    "第3–4阶段：击破黄金三兄弟"
+   ],
+   "defeat": [
+    "第1–3阶段：任一我方单位被击坠",
+    "第4阶段：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "马赫温迪（马赫温迪）",
+    "伏魔金刚（虎太郎、洋介、力也）",
+    "神高达（多蒙）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第11话《森林的白狼，神城的天马》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "第1阶段除击破黄金三兄弟外还要求经过 2 回合——击破太快也要等回合数满足才进入下一阶段。"
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "森林的白狼，神城的天马",
+   "ja": "第11話：森林の白狼、神の城の天馬",
+   "en": "Scenario 11: White Wolf in the Forest, Pegasus in the Castle of God",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第10话。",
+   "victory": [
+    "前段：击破格拉切斯",
+    "后段第1阶段：歼灭全部敌人",
+    "后段第2阶段：击破龙多尔克"
+   ],
+   "defeat": [
+    "前段：阿迪乌被击坠",
+    "后段：伊奥尼亚、健或格拉切斯被击坠，或任一敌人到达指定区域",
+    "后段第2阶段另加：阿迪乌被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙酋长夏因巴拉姆（格拉切斯）",
+    "火焰莱卡获得「骑乘」能力［骑乘时追加舞、唯为副驾驶］"
+   ],
+   "events": [
+    "后段含防线条件：任一敌人到达指定区域即败北，需要在歼灭与拦截之间分配战力。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第12话《暗色的平安京》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "暗色的平安京",
+   "ja": "第12話：闇色の平安京",
+   "en": "Scenario 12: The Darkness of Heian-Kyo",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第11话。",
+   "victory": [
+    "第1–3阶段：歼灭全部敌人",
+    "第4阶段：破坏黑平安京之柱",
+    "第5阶段：击破安倍晴明"
+   ],
+   "defeat": [
+    "第1阶段：豪将军被击坠",
+    "第2阶段：豪将军或月心被击坠",
+    "第3–5阶段：伊奥尼亚、席格扎尔、盖塔、王者压碎者、豪将军或月心被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "豪将军（真吾、蕾米、基利）",
+    "龙武士疾风丸（月心）",
+    "盖塔机器人追加龙马为驾驶员［可变为盖塔1］",
+    "王者压碎者［获得召唤阿萨姆攻击］",
+    "席格扎尔［获得盾防御能力］",
+    "伊奥尼亚［获得守护之光能力］"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第13话《恐怖的地牢！被夺走的光辉与苏醒的力量！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "五段式长关：第4阶段先破坏黑平安京之柱，第5阶段才与安倍晴明决战。"
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "恐怖的地牢！被夺走的光辉与苏醒的力量！",
+   "ja": "第13話：恐怖のダンジョン！奪われし輝きと目覚める力！",
+   "en": "Scenario 13: Dungeon of Horror! Deprived, Brilliant and Awakening Power",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第12话。",
+   "victory": [
+    "第一段：击破 2 台 Solid 与彭帕达",
+    "第二段：击破达西达",
+    "第三段：击破女王希德隆",
+    "第四段：击破女王希德隆"
+   ],
+   "defeat": [
+    "第一段：卡策被击坠",
+    "第二段：王者压碎者、哥修罗或卡策被击坠，或达西达到达指定区域",
+    "第三段：王者压碎者、哥修罗或斧头轰炸机被击坠",
+    "第四段：哥修罗、麦格纳修罗或斧头轰炸机被击坠，或经过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "伊奥尼亚（天音）本关不可用",
+    "斧头轰炸机本关临时获得「母舰」能力（代行发进/回收）",
+    "龙枪手德林加（卡策）",
+    "麦格纳修罗（金太）",
+    "哥修罗与麦格纳修罗获得合体攻击「修罗大爆裂」"
+   ],
+   "events": [
+    "四段关卡。第四段带 5 回合时限，超时败北。",
+    "本关是母舰例外的唯一关卡：伊奥尼亚不可用，由斧头轰炸机临时承担母舰职能。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第14话《夺回帕普利西亚城！！轰鸣吧，愤怒的魔法剑！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "夺回帕普利西亚城！！轰鸣吧，愤怒的魔法剑！",
+   "ja": "第14話：パプリシア城奪還！！うなれ、怒りの魔法剣！",
+   "en": "Scenario 14: Recapture Papricia Castle!!! A Magical Sword of Anger!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第13话。",
+   "victory": [
+    "前段：歼灭全部敌人",
+    "后段：击破加尔登"
+   ],
+   "defeat": [
+    "前段：伊奥尼亚或安培被击坠",
+    "后段第1阶段：伊奥尼亚或猿飞被击坠",
+    "后段第2阶段：伊奥尼亚、阿迪乌、帕菲或猿飞被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "瓦特（瓦特）",
+    "安培（安培）",
+    "龙骑士泽菲尔与龙魔道士玛吉多拉获得合体攻击「火焰冲撞黎明」"
+   ],
+   "events": [],
+   "secrets": [
+    "在本关让瓦特与安培击坠足够数量的敌人，二人即正式留队（否则本关后离队）。⚠️ 门槛数字两源冲突：Akurasu 的 Secrets 页作「两人合计击坠 10 台」，同站 Flow Chart 本话条目作「瓦特和/或安培击坠 6 台以上」——本站并记两说、不擅自合并；实战按合计 10 台执行可同时覆盖两种说法。"
+   ],
+   "unlocks": [
+    "第15话《出来吧！利沃尔加！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Secrets"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "出来吧！利沃尔加！",
+   "ja": "第15話：出てこい！リボルガー！",
+   "en": "Scenario 15: Come Out! Revolger!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第14话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：伊奥尼亚或王者压碎者被击坠",
+    "第2阶段：伊奥尼亚、王者压碎者、伏魔金刚或利沃尔加被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "利沃尔加（力也）［利沃尔加出击时，力也不再担任伏魔金刚的副驾驶］",
+    "伏魔金刚与利沃尔加获得合体攻击「最后之火」",
+    "龙枪手德林加（卡策）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话《极寒的大决战！！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "极寒的大决战！！",
+   "ja": "第16話：極寒の大決戦！！",
+   "en": "Scenario 16: The frigid battle!!!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第15话。",
+   "victory": [
+    "第1阶段：在同一回合内破坏两个冰柱",
+    "第2阶段：击破席拉基·拉坎斯",
+    "第3阶段：将梅尔维尤的 HP 削减至 30% 以下",
+    "第4阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "伊奥尼亚、席格扎尔或王者压碎者被击坠（全阶段共通）",
+    "第1阶段另加：回合结束时仍剩 1 个冰柱",
+    "第2–3阶段另加：梅尔维尤被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "王者压碎者［获得召唤赞扎因攻击］",
+    "梅尔维尤（雪莉）"
+   ],
+   "events": [
+    "本关机制特殊：第1阶段必须在同一回合内同时破坏两个冰柱——要预先把两边的伤害都压到一击线，回合结束时只要还剩 1 个冰柱即败北。",
+    "第3阶段只能削血不能击破：把梅尔维尤的 HP 打到 30% 以下即过阶段，但直接击破她反而是败北条件，下手要收着。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第17话《激战！勇者VS妖神！！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "激战！勇者VS妖神！！",
+   "ja": "第17話：激突！勇者VS妖神！！",
+   "en": "Scenario 17: Exciting! Brave VS Demon God!!!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第16话。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：击破女王希德隆",
+    "第三段：击破灾厄神哥布利基"
+   ],
+   "defeat": [
+    "第一段第1阶段：伊奥尼亚被击坠",
+    "第一段第2阶段：伊奥尼亚或玛格南王牌被击坠",
+    "第二段：伊奥尼亚、席格扎尔、王者压碎者或斧头轰炸机被击坠",
+    "第三段：伊奥尼亚、席格扎尔、王者压碎者、斧头轰炸机或女王希德隆被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "玛格南王牌（玛格南王牌）",
+    "斧头轰炸机追加蕾斯夸为副驾驶",
+    "女王希德隆（达西达、蛇女）加入我方"
+   ],
+   "events": [
+    "三段关卡：第二段的女王希德隆在第三段已转为我方——第三段起她的被击坠被列入败北条件，注意保护刚入队的新战力。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话《邪龙族降临！可怕的侵略者！！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "邪龙族降临！可怕的侵略者！！",
+   "ja": "第18話：邪竜族降り立つ！恐るべき侵略者！！",
+   "en": "Scenario 18: The Evil Dragons Take Off! Awesome Invaders!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第17话。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：击破加尔登"
+   ],
+   "defeat": [
+    "第一段：伊奥尼亚、阿迪乌、玛格南王牌、王者压碎者或女王希德隆被击坠",
+    "第二段：伊奥尼亚、阿迪乌、王者压碎者或女王希德隆被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "玛格南王牌（玛格南王牌）",
+    "王者压碎者与女王希德隆获得合体攻击「皇家压碎」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第19话《觉醒！新的威胁！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "觉醒！新的威胁！",
+   "ja": "第19話：覚醒！新たなる脅威！",
+   "en": "Scenario 19: Awakening! A new threat!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第18话。",
+   "victory": [
+    "第1、2、4阶段：歼灭全部敌人",
+    "第3阶段：击破阿尔席格诺斯"
+   ],
+   "defeat": [
+    "第1阶段：豪将军或彭帕达被击坠",
+    "第2–4阶段：伊奥尼亚或席格扎尔被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "彭帕达（赞帕）",
+    "豪将军（真吾、蕾米、基利）",
+    "席格扎尔能力提升（防御 +1、回避 +2）",
+    "梅尔维尤（雪莉）",
+    "伊奥尼亚驾驶变更：天音 → 雪莉［获得流星制裁、帝国烈焰攻击］"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第20话《其名为大帝王》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "本话起伊奥尼亚的驾驶构成发生变化（雪莉接替天音），并解锁两招新攻击；第37话两条路线都会再次变更驾驶构成，见对应页面。"
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "其名为大帝王",
+   "ja": "第20話：その名はダイテイオー",
+   "en": "Scenario 20: Its name is Daitei-Oh",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第19话；本关通关后发生第二次路线分歧（二选一，影响第21、22话两关）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一敌人进入学校",
+    "第1阶段另加：任一我方单位被击坠",
+    "第2阶段另加：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大魔神（铁也）",
+    "大魔神与魔神Z获得合体攻击「双重燃烧火焰」",
+    "维纳斯A（顺）",
+    "维纳斯A与戴安娜A获得合体攻击「双重导弹」",
+    "大帝王（桃太郎、舞、驱）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话（青空町线）《绝对无敌的战士，苏醒之时！》与第22话（青空町线），或第21话（钏路线）《含泪向友开火！！》与第22话（钏路线）（关后二选一）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "防线型关卡：任何敌人进入学校即败北（与第5话春风町线同型）。"
+  },
+  {
+   "code": "第21话（青空町线）",
+   "slug": "stage-21-ozora",
+   "zh": "绝对无敌的战士，苏醒之时！",
+   "ja": "第21話：絶対無敵の戦士、目覚める時！",
+   "en": "Scenario 21 (Ozora): It's Time To Awaken, Matchless Warrior!",
+   "route": "青空町线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第20话通关后选择「留在青空町」（侧重埃尔多兰系列、龙骑士、拉姆涅、钢铁联赛）。与第22话（青空町线）成对，第23话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：雷神王被击坠",
+    "第2阶段：雷神王或爆龙王/爆龙被击坠",
+    "第3阶段：伊奥尼亚、雷神王或爆龙王/爆龙被击坠",
+    "第4阶段：伊奥尼亚或神雷神王被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "爆龙王（爆龙王）",
+    "雷神王与爆龙王可合体为神雷神王",
+    "彭帕达（赞帕）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第22话（青空町线）《伏魔小队！愤怒的大反击！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话（钏路线）",
+   "slug": "stage-21-kushiro",
+   "zh": "含泪向友开火！！",
+   "ja": "第21話：涙をこらえて友を撃て！！",
+   "en": "Scenario 21 (Kushiro): Hold Back Your Tears and Attack Your Friends",
+   "route": "钏路线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第20话通关后选择「前往钏路」（侧重莱卡、新盖塔、魔神系、G高达、布莱卡、豪将军）。与第22话（钏路线）成对，第23话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "伊奥尼亚或健被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "彭帕达（赞帕）",
+    "兽神莱卡（健）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第22话（钏路线）《现在，雷霆莱卡站起来了！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话（青空町线）",
+   "slug": "stage-22-ozora",
+   "zh": "伏魔小队！愤怒的大反击！",
+   "ja": "第22話：ガンバーチーム！怒りの大反撃！",
+   "en": "Scenario 22 (Ozora): Ganbar Team! Great Furious Counterattack!",
+   "route": "青空町线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "承接第21话（青空町线）；本关通关后在第23话与钏路线合流。",
+   "victory": [
+    "击破极阿克（全阶段目标）"
+   ],
+   "defeat": [
+    "第1阶段：伊奥尼亚、伏魔金刚或利沃尔加被击坠",
+    "第2阶段：另加击龙加被击坠",
+    "第3阶段：伊奥尼亚或大伏魔金刚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "击龙加（洋介）［击龙加出击时，洋介不再担任伏魔金刚的副驾驶］",
+    "伏魔金刚、利沃尔加、击龙加获得合体攻击「三角冲撞」",
+    "伏魔金刚、利沃尔加、击龙加可合体为大伏魔金刚"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话《出现！超越最强的力量！！》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话（钏路线）",
+   "slug": "stage-22-kushiro",
+   "zh": "现在，雷霆莱卡站起来了！",
+   "ja": "第22話：今、立ち上がるサンダーライガー！",
+   "en": "Scenario 22 (Kushiro): Stand up, Thunder Liger!",
+   "route": "钏路线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "承接第21话（钏路线）；本关通关后在第23话与青空町线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：伊奥尼亚被击坠",
+    "第2阶段：伊奥尼亚或健被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "兽神莱卡（健）",
+    "火焰莱卡获得「变形」能力",
+    "魔神Z、大魔神与盖塔1获得合体攻击「最终动感特攻」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话《出现！超越最强的力量！！》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "出现！超越最强的力量！！",
+   "ja": "第23話：出現！最強を超えた力！！",
+   "en": "Scenario 23: Arrival! Power Beyond The Strongest!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第22话（两条路线在此合流）。",
+   "victory": [
+    "前段：歼灭全部敌人",
+    "后段第1–2阶段：歼灭全部敌人",
+    "后段第3–4阶段：击破吉尔塔博"
+   ],
+   "defeat": [
+    "前段第1阶段：麦格纳修罗被击坠",
+    "前段第2阶段：哥修罗或麦格纳修罗被击坠",
+    "前段第3阶段：伊奥尼亚、哥修罗或麦格纳修罗被击坠",
+    "后段第1阶段：伊奥尼亚、哥修罗或麦格纳修罗被击坠",
+    "后段第2–3阶段：另加格兰修罗被击坠",
+    "后段第4阶段：伊奥尼亚或王者哥修罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "格兰修罗（洋二）",
+    "哥修罗、麦格纳修罗、格兰修罗可合体为王者哥修罗"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第24话《多尔·盖斯特！卑劣的陷阱！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "多尔·盖斯特！卑劣的陷阱！",
+   "ja": "第24話：ドル・ガイスト！ 卑劣な罠！",
+   "en": "Scenario 24: Doll Geist! A Sneaky Trap!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第23话。",
+   "victory": [
+    "前段：歼灭全部敌人",
+    "后段第1阶段：歼灭全部敌人",
+    "后段第2阶段：击破吉尔塔博"
+   ],
+   "defeat": [
+    "前段：伊奥尼亚、健、龙多尔克或大帝王被击坠",
+    "后段第1阶段：同前段",
+    "后段第2阶段：伊奥尼亚或大帝王被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魔龙王多尔加（龙多尔克）",
+    "大龙王（飞龙）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第25话《苏醒的咆哮》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "苏醒的咆哮",
+   "ja": "第25話：目覚めの咆哮",
+   "en": "Scenario 25: Awakening Roar",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第24话。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：歼灭全部敌人",
+    "第三段：击破阿尔席格诺斯"
+   ],
+   "defeat": [
+    "第一段：伊奥尼亚、盖塔、健、龙多尔克或席格扎尔被击坠",
+    "第二段：伊奥尼亚、盖塔或席格扎尔被击坠",
+    "第三段第1阶段：伊奥尼亚或席格扎尔被击坠",
+    "第三段第2阶段：伊奥尼亚或席格扎里乌斯被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魔龙王多尔加（龙多尔克）",
+    "雷霆莱卡与魔龙王多尔加获得合体攻击「神雷暴雪」",
+    "盖塔1获得最终盖塔战斧、盖塔光线全功率攻击",
+    "席格扎尔升格为席格扎里乌斯（驱）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话《撼动大地的闪光》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "主角机在本话升格为席格扎里乌斯；第三段的败北条件也随之改以席格扎里乌斯为准。"
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "撼动大地的闪光",
+   "ja": "第26話：大地を揺るがす閃光",
+   "en": "Scenario 26: A Flash That Shakes The Earth",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第25话。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：击破加尔登"
+   ],
+   "defeat": [
+    "伊奥尼亚、阿迪乌或帕菲被击坠（两段共通）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙骑士泽菲尔（阿迪乌）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第27话《看见了！通往圣骑士之路！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "看见了！通往圣骑士之路！",
+   "ja": "第27話：見えた！聖騎士への道！",
+   "en": "Scenario 27: Behold! The Road to the Holy Knight!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第26话；本关通关后发生第三次路线分歧（二选一，仅影响第28话）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：格拉切斯或月心被击坠",
+    "第2阶段：伊奥尼亚被击坠",
+    "第3阶段：伊奥尼亚或阿迪乌被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙骑士泽菲尔（阿迪乌）",
+    "龙骑士泽菲尔能力提升（回避 +2、全攻击 +200）并获得「职业升格」能力",
+    "龙酋长夏因巴拉姆（格拉切斯）",
+    "龙武士疾风丸（月心）",
+    "龙枪手德林加驾驶变更（希特尔、卡策）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第28话（精灵石线）《被揭开的黑衣骑士的秘密！》或第28话（机械帝国线）《与朋友立誓的体育场！》（关后二选一）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话（精灵石线）",
+   "slug": "stage-28-spirit",
+   "zh": "被揭开的黑衣骑士的秘密！",
+   "ja": "第28話：あばかれた黒衣の騎士の秘密！",
+   "en": "Scenario 28 (Spirit Stone): The Secret of the Black-Robed Knight, Exposed!",
+   "route": "精灵石线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第27话通关后选择「追查精灵石的去向」（侧重龙骑士、拉姆涅、魔神、布莱卡、豪将军）。仅影响第28话，第29话合流。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第一段：伊奥尼亚、阿迪乌、帕菲或猿飞被击坠",
+    "第二段第1阶段：同第一段",
+    "第二段第2阶段：伊奥尼亚、帕菲或猿飞被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑骑士斯特鲁/邪龙形态（加尔登）以 NPC 身份登场（Akurasu 原文标注 NPC，非本关正式加入；正式加入在第32话）",
+    "龙魔道士玛吉多拉获得「职业升格」能力"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第29话《通往破灭的倒计时》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话（机械帝国线）",
+   "slug": "stage-28-empire",
+   "zh": "与朋友立誓的体育场！",
+   "ja": "第28話：友と誓ったスタジアム！",
+   "en": "Scenario 28 (Mechanical Empire): The Stadium That I Swore With My Friends!",
+   "route": "机械帝国线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第27话通关后选择「追击机械帝国」（侧重埃尔多兰、莱卡、钢铁联赛、G高达、盖塔）。仅影响第28话，第29话合流。",
+   "victory": [
+    "第1阶段：击破黄金三兄弟",
+    "第2–3阶段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：任一我方单位被击坠",
+    "第2阶段：大帝王或大龙王被击坠",
+    "第3阶段：伊奥尼亚或完美大帝王被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "玛格南王牌获得「小行星加农炮」攻击",
+    "黄金面具（黄金面具）、黄金脚（黄金脚）、黄金臂（黄金臂）",
+    "大帝王与大龙王可合体为完美大帝王"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第29话《通往破灭的倒计时》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "第1阶段的目标黄金三兄弟在本关后续转为我方可用单位（Akurasu 流程图将其列入本关 Unit Acquisition）——先按胜利条件击破、再在剧情中归队，是本作常见的「击破后加入」结构。"
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "通往破灭的倒计时",
+   "ja": "第29話：破滅へのカウントダウン",
+   "en": "Scenario 29: Countdown to Extinction",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第28话（两条路线在此合流）。",
+   "victory": [
+    "前段第1阶段：击破黑暗王者哥修罗",
+    "前段第2阶段：将加尔登的 HP 削减至 30% 以下",
+    "后段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "前段第1阶段：伊奥尼亚或任一龙骑士系单位被击坠，或经过 10 回合",
+    "前段第2阶段：伊奥尼亚或任一龙骑士系单位被击坠，或经过 5 回合；击破加尔登本身亦为败北",
+    "后段：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "龙祭司巴里乌斯获得「职业升格」能力",
+    "龙忍者爆裂丸获得「职业升格」能力",
+    "龙枪手德林加获得「职业升格」能力",
+    "龙酋长夏因巴拉姆获得「职业升格」能力",
+    "龙武士疾风丸获得「职业升格」能力"
+   ],
+   "events": [
+    "前段是双重时限：第1阶段 10 回合、第2阶段 5 回合，任一超时即败北。",
+    "前段第2阶段只能削血：把加尔登 HP 打到 30% 以下即过阶段，直接击破他反而是败北条件（与第16话梅尔维尤同型）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第30话《决战！飞行要塞乌尔塔利亚》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "决战！飞行要塞乌尔塔利亚",
+   "ja": "第30話：決戦！飛行要塞ウルタリア",
+   "en": "Scenario 30: Showdown! Flying Fortress Ultalia",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第29话。",
+   "victory": [
+    "第一段：击破乌尔塔利亚要塞",
+    "第二段：击破席格尼克斯"
+   ],
+   "defeat": [
+    "伊奥尼亚被击坠（两段共通）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第31话《复苏的噩梦》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "复苏的噩梦",
+   "ja": "第31話：よみがえる悪夢",
+   "en": "Scenario 31: A Resurrected Nightmare",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第30话。",
+   "victory": [
+    "第1阶段：击破席格尼克斯",
+    "第2阶段：击破恶魔乌尔塔利亚",
+    "第3阶段：击破阿尔席格诺斯"
+   ],
+   "defeat": [
+    "第1–2阶段：伊奥尼亚、神高达、席格扎里乌斯或德巴·基诺β被击坠",
+    "第3阶段：伊奥尼亚、席格扎里乌斯或德巴·基诺β被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "席格扎里乌斯获得「幻影席格战车」攻击",
+    "神高达（超级模式）获得「石破天惊神指」攻击",
+    "德巴·基诺β（里巴里乌斯）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第32话《燃烧吧拉姆涅斯！热血力量永恒！！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": "三段目标依次为席格尼克斯 → 恶魔乌尔塔利亚 → 阿尔席格诺斯，是终盘前的连续 Boss 战。"
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "燃烧吧拉姆涅斯！热血力量永恒！！",
+   "ja": "第32話：燃えろラムネス！ 熱血パワーよ 永遠に！！",
+   "en": "Scenario 32: Burn Lamuness! The Eternal Hot Blooded Power",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第31话。",
+   "victory": [
+    "四段均为：击破灾厄神哥布利基"
+   ],
+   "defeat": [
+    "第一段：伊奥尼亚、女王希德隆或斧头轰炸机被击坠",
+    "第二段：伊奥尼亚或斧头轰炸机被击坠",
+    "第三、四段：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑骑士斯特鲁/邪龙形态（加尔登）正式加入"
+   ],
+   "events": [
+    "四段连续战，目标始终是灾厄神哥布利基——注意各段之间 HP/EN 的保留与补给安排（地图切换时行动重置、状态保留）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话《我们的梦想绝对无敌！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "我们的梦想绝对无敌！",
+   "ja": "第33話：僕らの夢は絶対無敵！",
+   "en": "Scenario 33: Our Dreams Are Absolutely Invincible",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第32话。本关是全作隐藏要素的结算关（贝尔泽布招募 + 奥塞凯撒链兑现），等级门槛需要提前多关练级准备。",
+   "victory": [
+    "第一段第1阶段：歼灭全部巨阿克·达玛尔",
+    "第一段第2阶段：击破邪恶撒旦",
+    "第二段：击破瓦鲁萨"
+   ],
+   "defeat": [
+    "第一段第1阶段：伊奥尼亚、仁或爆龙王/爆龙被击坠，或经过 6 回合",
+    "第一段第2阶段：伊奥尼亚或神雷神王被击坠",
+    "第二段第1阶段：伊奥尼亚或神雷神王被击坠",
+    "第二段第2阶段：另加邪恶撒旦被击坠（此时已属我方）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "邪恶撒旦（贝尔泽布、法尔泽布、泰达）［满足右侧招募条件时加入］",
+    "奥塞凯撒（奥塞凯撒）［成功招募贝尔泽布后加入］"
+   ],
+   "events": [
+    "第一段第1阶段带 6 回合时限，超时败北。",
+    "第二段中邪恶撒旦已属我方侧——其被击坠被列入败北条件，招募成功后要立刻转入保护。"
+   ],
+   "secrets": [
+    "两个条件缺一不可：① 在第一段内由仁（雷神王主驾驶）亲手击坠贝尔泽布；② 在本关结束前，四名埃尔多兰系主角驾驶员——仁、虎太郎、拳一、桃太郎——全部达到 80 级以上。达成后贝尔泽布携邪恶撒旦（副驾驶法尔泽布、泰达）加入（Akurasu Secrets 页与流程图一致，流程图另限定击坠须在第一段内完成）。",
+    "第4话的立旗步（奥塞凯撒在本话击坠 5 台以上）+ 成功招募贝尔泽布，两步齐备后奥塞凯撒在本关正式加入；只满足其一不会入队（见第4话页面）。",
+    "提示：80 级门槛是全作最重的练级要求——仁、虎太郎、拳一、桃太郎四人中只要一人不到 80 级，本关即无法招募，且没有补救关。建议自中盘起有意识地把击坠与经验分配给这四人。"
+   ],
+   "unlocks": [
+    "第34话《用心灵的力量迎战！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Secrets"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "用心灵的力量迎战！",
+   "ja": "第34話：心の力で立ち向かえ！",
+   "en": "Scenario 34: Fight With The Power of Your Heart!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第33话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "第1阶段：任一我方单位被击坠",
+    "第2阶段：伊奥尼亚被击坠"
+   ],
+   "defeatNote": "Akurasu 流程图第1阶段原文作 “No ally is defeated”（字面为「无我方被击破」），本站按其惯用语义理解为「任一我方被击坠即败北」刊出，原文如此、语义存疑，待实机核对。",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第35话《最终之战！机械化城》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "最终之战！机械化城",
+   "ja": "第35話：最終バトル！ 機械化城",
+   "en": "Scenario 35: The Final Battle! Mechanized Castle",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第34话。标题虽作「最终之战」，其后还有第36–41话，并非最终关。",
+   "victory": [
+    "第1阶段：歼灭全部敌人",
+    "第2阶段：击破机械化城·龙头",
+    "第3阶段：击破其余全部机械化城龙头",
+    "第4阶段：击破吉尔塔博",
+    "第5阶段：击破机械化城"
+   ],
+   "defeat": [
+    "伊奥尼亚、神雷神王、大伏魔金刚、王者哥修罗或完美大帝王被击坠（第3阶段不含王者哥修罗）",
+    "第2–3阶段另加：机械化城本体被击破",
+    "第4阶段另加：经过 8 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "神雷神王、大伏魔金刚、王者哥修罗、完美大帝王获得合体攻击「埃尔多兰特别攻击」"
+   ],
+   "events": [
+    "顺序敏感：第2–3阶段必须先处理龙头与吉尔塔博——在此期间打爆机械化城本体反而是败北条件；到第5阶段才允许击破本体。",
+    "第4阶段带 8 回合时限。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第36话《永远热血最强！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "永远热血最强！",
+   "ja": "第36話：いつまでも熱血最強！",
+   "en": "Scenario 36: The Strongest Hot Blood Forever!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第35话；本关通关后发生第四次（最后一次）路线分歧（二选一，影响第37、38话两关）。",
+   "victory": [
+    "击破机械神"
+   ],
+   "defeat": [
+    "伊奥尼亚或王者哥修罗被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第37话（阿斯提亚线）与第38话（阿斯提亚线），或第37话（地球线）《揭露！大魔界的大秘密！》与第38话（地球线）（关后二选一）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话（阿斯提亚线）",
+   "slug": "stage-37-tear",
+   "zh": "决战，埃尔多齿轮！突破邪龙族的包围",
+   "ja": "第37話：決戦、エルドギア！ 邪竜族の包囲を突き破れ",
+   "en": "Scenario 37 (Earth Tear): The Decisive Battle, EldoGear! Break Through The Siege of The Evil Dragons",
+   "route": "阿斯提亚线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第36话通关后选择「前往阿斯提亚」（侧重龙骑士、拉姆涅、钢铁联赛、布莱卡、豪将军、G高达）。与第38话（阿斯提亚线）成对，第39话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "伊奥尼亚被击坠",
+    "埃尔多齿轮中央塔被破坏"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "伊奥尼亚驾驶构成变更：雪莉 → 天音、雪莉",
+    "梅尔维尤（雪莉）［梅尔维尤出击时，伊奥尼亚失去雪莉副驾驶与流星制裁、帝国烈焰攻击］",
+    "神高达（多蒙）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "豪将军（真吾、蕾米、基利）"
+   ],
+   "events": [
+    "本关有保护目标：埃尔多齿轮中央塔被破坏即败北。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第38话（阿斯提亚线）《闪耀吧！光速的圣骑士阿迪乌！》"
+   ],
+   "enemies": {
+    "status": "待核实（无任何来源）",
+    "verified": false,
+    "notes": [
+     "本关的敌方编成在任何已查到的来源中都不存在：唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）在第36话后只走了地球线，其本人明确声明攻略完成至第38话地球线版本、「不含 A 路线」——本关（阿斯提亚线）与第38话（阿斯提亚线）不在他的覆盖内；Akurasu 流程图不刊载编成。",
+     "s-rpg-navi 没有 Wii 栏目、未收录本作；日文 srw.wiki、日文维基与日文 Fandom 均无逐关敌方编成表；另一份 GameFAQs 文档（joekage 的剧情脚本）只有叙事性的出场标记、不成编成表。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话（地球线）",
+   "slug": "stage-37-earth",
+   "zh": "揭露！大魔界的大秘密！",
+   "ja": "第37話：発覚！ 大魔界の大秘密！",
+   "en": "Scenario 37 (Earth): Discovery! The Great Secret of the Demon World",
+   "route": "地球线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第36话通关后选择「留在地球」（侧重埃尔多兰、莱卡、魔神、盖塔）。与第38话（地球线）成对，第39话合流。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段：歼灭全部敌人"
+   ],
+   "defeat": [
+    "伊奥尼亚或大伏魔金刚被击坠（两段共通）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "伊奥尼亚驾驶构成变更：雪莉 → 天音、雪莉",
+    "梅尔维尤（雪莉）［梅尔维尤出击时，伊奥尼亚失去雪莉副驾驶与流星制裁、帝国烈焰攻击］"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第38话（地球线）《我们元气爆发！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话（阿斯提亚线）",
+   "slug": "stage-38-tear",
+   "zh": "闪耀吧！光速的圣骑士阿迪乌！",
+   "ja": "第38話：輝け！ 光速の聖騎士アデュー！",
+   "en": "Scenario 38 (Earth Tear): Shine! Holy Knight of Light Speed Adeu!",
+   "route": "阿斯提亚线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "承接第37话（阿斯提亚线）；本关通关后在第39话与地球线合流。",
+   "victory": [
+    "第1阶段：歼灭全部敌人",
+    "第2阶段：击破杜姆/里盖尔",
+    "第3阶段：破坏神秘之盾破坏装置",
+    "第4阶段：击破杜姆/皇帝"
+   ],
+   "defeat": [
+    "伊奥尼亚或任一龙骑士系单位被击坠（全阶段共通）",
+    "第3阶段另加：经过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "神高达（多蒙）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "豪将军（真吾、蕾米、基利）"
+   ],
+   "events": [
+    "第3阶段带 5 回合时限：须在时限内破坏神秘之盾破坏装置，超时败北。第4阶段的 Boss 为杜姆/皇帝。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第39话《邪神复活》（合流）"
+   ],
+   "enemies": {
+    "status": "待核实（无任何来源）",
+    "verified": false,
+    "notes": [
+     "本关的敌方编成在任何已查到的来源中都不存在：唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）在第36话后只走了地球线，其本人明确声明攻略完成至第38话地球线版本、「不含 A 路线」——本关（阿斯提亚线）不在他的覆盖内；Akurasu 流程图不刊载编成。",
+     "s-rpg-navi 没有 Wii 栏目、未收录本作；日文 srw.wiki、日文维基与日文 Fandom 均无逐关敌方编成表；另一份 GameFAQs 文档（joekage 的剧情脚本）只有叙事性的出场标记、不成编成表。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第38话（地球线）",
+   "slug": "stage-38-earth",
+   "zh": "我们元气爆发！",
+   "ja": "第38話：俺たちは元気爆発！",
+   "en": "Scenario 38 (Earth): We Are Exploding Energy!",
+   "route": "地球线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "承接第37话（地球线）；本关通关后在第39话与阿斯提亚线合流。",
+   "victory": [
+    "第一段：歼灭全部敌人",
+    "第二段第1阶段：歼灭全部敌人",
+    "第二段第2阶段：在同一回合内击破极阿克、圣阿克、烈阿克",
+    "第三段：击破极阿克"
+   ],
+   "defeat": [
+    "伊奥尼亚或大伏魔金刚被击坠（全段共通）",
+    "第三段第2阶段另加：经过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "第二段第2阶段要求在同一回合内同时击破极阿克、圣阿克、烈阿克三台——要预先把三台的 HP 都压到一击线再统一收尾（与第16话双冰柱同型）。",
+    "第三段第2阶段带 5 回合时限。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第39话《邪神复活》（合流）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "single",
+    "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "邪神复活",
+   "ja": "第39話：邪神復活",
+   "en": "Scenario 39: Resurrection of the Evil God",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第38话（两条路线在此合流）。",
+   "victory": [
+    "第1阶段：歼灭全部敌人",
+    "第2阶段：将德拉哥帝国要塞的 HP 削减至 20%",
+    "第3阶段：击破德拉哥帝国要塞"
+   ],
+   "defeat": [
+    "伊奥尼亚、健或龙多尔克被击坠（全阶段共通）",
+    "第2阶段另加：击破德拉哥帝国要塞本身亦为败北"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "第2阶段只能削血：把要塞 HP 打到 20% 即过阶段，在此阶段打爆要塞反而是败北条件；第3阶段才可击破。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第40话《超越时空的神之战》"
+   ],
+   "enemies": {
+    "status": "待核实（无任何来源）",
+    "verified": false,
+    "notes": [
+     "本关的敌方编成在任何已查到的来源中都不存在：唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）未完成、止于第38话地球线版本，本关（终盘）不在覆盖内；Akurasu 流程图不刊载编成。",
+     "s-rpg-navi 没有 Wii 栏目、未收录本作；日文 srw.wiki、日文维基与日文 Fandom 均无逐关敌方编成表；另一份 GameFAQs 文档（joekage 的剧情脚本）只有叙事性的出场标记、不成编成表。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "超越时空的神之战",
+   "ja": "第40話：時を超えた神々の戦い",
+   "en": "Scenario 40: The Timeless Battle of The Gods",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第39话。",
+   "victory": [
+    "击破邪神德拉哥"
+   ],
+   "defeat": [
+    "伊奥尼亚、健或龙多尔克被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第41话《向着光明的明天》（最终话）"
+   ],
+   "enemies": {
+    "status": "待核实（无任何来源）",
+    "verified": false,
+    "notes": [
+     "本关的敌方编成在任何已查到的来源中都不存在：唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）未完成、止于第38话地球线版本，本关（终盘）不在覆盖内；Akurasu 流程图不刊载编成。",
+     "s-rpg-navi 没有 Wii 栏目、未收录本作；日文 srw.wiki、日文维基与日文 Fandom 均无逐关敌方编成表；另一份 GameFAQs 文档（joekage 的剧情脚本）只有叙事性的出场标记、不成编成表。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "向着光明的明天",
+   "ja": "第41話：光の明日へ",
+   "en": "Scenario 41: The Light of Tomorrow",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "承接第40话。最终话。",
+   "victory": [
+    "第一段：击破拉尔瓦",
+    "第二段：击破拉尔瓦"
+   ],
+   "defeat": [
+    "伊奥尼亚被击坠（两段共通）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得。周回继承（按累计获得资金比例带入下一周目）规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "最终 Boss 为拉尔瓦——两段连续战，目标不变；拉尔瓦即附身天音的古代炼金术士之魂（人物设定见本作主页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "（最终话，通关）"
+   ],
+   "enemies": {
+    "status": "待核实（无任何来源）",
+    "verified": false,
+    "notes": [
+     "本关的敌方编成在任何已查到的来源中都不存在：唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）未完成、止于第38话地球线版本，本关（终盘）不在覆盖内；Akurasu 流程图不刊载编成。",
+     "s-rpg-navi 没有 Wii 栏目、未收录本作；日文 srw.wiki、日文维基与日文 Fandom 均无逐关敌方编成表；另一份 GameFAQs 文档（joekage 的剧情脚本）只有叙事性的出场标记、不成编成表。",
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "本作是回合制机战正传中第一部废除格子（マス目）的作品：地图为无缝 3D 空间，单位在圆形移动半径内向任意方向移动，根本不存在 (x,y) 格子坐标系——因此任何来源都不可能提供逐格地形与单位坐标，本页的坐标框架仅供攻略解说时参照方位之用，不代表该关的实际地图范围与地形。本关的障碍物、高低段差与敌我配置位置均待核实（官方纸质攻略本《The Complete Guide》《Perfect Bible》是未来可能的图源，本站尚未取得核对）。",
+    "verifiedPoints": [],
+    "missing": [
+     "地图全图示意（障碍物与高低段差）",
+     "敌方初期配置位置",
+     "增援出现位置",
+     "我方母舰与出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars Neo Flow Chart（流程主源：全47个剧本的胜败条件、加入与分支结构）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart"
+    },
+    {
+     "name": "srw.wiki（日文）— 全話一覧/NEO（话数口径与分支结构的交叉核对）",
+     "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
+    },
+    {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

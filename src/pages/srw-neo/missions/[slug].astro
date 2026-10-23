@@ -1,0 +1,136 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwneo-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战NEO', path: 'srw-neo/' },
+  { label: '关卡攻略', path: 'srw-neo/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const es = m.enemies.state as string;
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战NEO（2009 Wii）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（全作仅3项隐藏要素，都写在触发/结算的那一话；本作无熟练度系统）与敌方编成现状（42个剧本为单一来源暂不刊载、5个剧本无任何来源；本作无格子地图、不存在坐标数据）。`} path={`srw-neo/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 NEO <strong>Flow Chart</strong>，话数口径与分支结构逐条与日文 srw.wiki 的「全話一覧/NEO」交叉核对，隐藏要素另与同站 Secrets 页核对（分歧见本页与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：日文维基的系列系统条目把熟练度采用作品限定为 α 系、OG 系、IMPACT 与 Z 系，Akurasu 的 NEO 流程图也没有任何一话列出熟练度条件——本页出现的时限、到达与削血条件都是<strong>胜败条件本身</strong>。本站共建 47 个剧本页面（编号第 1–41 话，其中第 5、21、22、28、37、38 话因四次路线分歧各有两个版本），一周目实际游玩 41 关。本作是回合制机战正传中第一部<strong>废除格子</strong>的作品：地图为无缝 3D 空间、单位在圆形半径内自由移动，<strong>根本不存在 (x,y) 坐标系</strong>，敌方配置坐标与逐格地形在原理上无从谈起（详见下方坐标地图说明）。{es === 'single' ? <span>本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载（s-rpg-navi 没有 Wii 栏目、未收录本作；另一份 GameFAQs 文档是剧情脚本、无编成表），按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）。</span> : <span>本关的敌方编成在<strong>任何已查到的来源中都不存在</strong>——唯一的网络编成来源 CO_Adder 的 GameFAQs 攻略（faqs/58348）未完成（止于第 38 话地球线版本），不覆盖本关，故待核实。</span>}</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      <div>本作无熟练度系统（分歧与隐藏要素由路线选择与击坠/等级条件决定，见本作主页）</div>
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {es === 'single' ? (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 {m.enemies.singleName} 一家刊载——{m.enemies.singleDesc}按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：第3次α的 43 个剧本、J 的 14 个剧本、W 的 40 个剧本、K 的 23 个剧本）。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（无任何来源）：</strong>本关敌方编成在已查到的全部来源中都不存在——CO_Adder 的 GameFAQs 攻略（faqs/58348）未完成、止于第38话地球线版本（作者自述「不含 A 路线」，第39–41话亦未写）；s-rpg-navi 没有 Wii 栏目、日文侧各站均无逐关编成表。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作隐藏要素总共只有 3 项（奥塞凯撒、瓦特＆安培、贝尔泽布），且全部与路线分歧无关、都在共通线上；其中奥塞凯撒是跨 29 话的两步链，贝尔泽布带全作最重的等级门槛（四名埃尔多兰系主角 80 级），错过触发话或等级不足，本周目无法补救（可在后续周目补做）。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>本站其他作品的坐标规则为左上角原点 (1,1)、X 向右、Y 向下；<strong>本作（NEO）本身没有格子坐标系</strong>，下图仅为解说方位的参照框架。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-neo/missions/')}>← 返回关卡列表</a> · <a href={href('srw-neo/')}>返回超级机器人大战NEO</a></p>
+</Base>

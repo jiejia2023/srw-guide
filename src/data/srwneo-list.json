@@ -1,0 +1,481 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1–4话）",
+   "intro": "双主角稻叶驱与稻叶天音（母舰伊奥尼亚的生体核心）登场；第4话埋下奥塞凯撒隐藏链的第1步，通关后发生第一次路线分歧。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "愤怒的兽神，裁决的巨神",
+     "ja": "第1話：怒りの獣神、裁きの巨神",
+     "en": "Scenario 1: Beast God of Anger, Giant God of Judgment",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "雷神王参上！",
+     "ja": "第2話：ライジンオー見参！",
+     "en": "Scenario 2: Raijin-Oh Appears!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "唰！勇者传说复活！",
+     "ja": "第3話：シュパーン！勇者伝説復活！",
+     "en": "Scenario 3: Shh-pop! Revival of the Brave Legend",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "宿敌，魔龙王多尔加！！",
+     "ja": "第4話：宿敵、魔竜王ドルガ！！",
+     "en": "Scenario 4: Nemesis, Demon Dragon King Dolga",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧（第5话）",
+   "intro": "第4话通关后二选一：前往青空町（雷神王系）或春风町（魔神Z/莱卡系），仅影响第5话，第6话合流。两条线各自取得的伏魔金刚/哥修罗在第7话共同在列，不会永久错过。",
+   "rows": [
+    {
+     "code": "第5话（青空町线）",
+     "zh": "发现机器人啦！",
+     "ja": "第5話：ロボットみ～っけ！",
+     "en": "Scenario 5 (Ozora): Loooook at That Robot!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第4话后选「前往青空町」"
+    },
+    {
+     "code": "第5话（春风町线）",
+     "zh": "出现！恐龙机器人！",
+     "ja": "第5話：出現！恐竜ロボ！",
+     "en": "Scenario 5 (Harukaze): Appear! Dinosaur Robot!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第4话后选「前往春风町」"
+    }
+   ]
+  },
+  {
+   "title": "共通路线（第6–20话）",
+   "intro": "全员合流后的长段共通线：第14话有瓦特＆安培的击坠留队条件（两源数字冲突，见该关页面），第20话大帝王登场，通关后发生第二次分歧。",
+   "rows": [
+    {
+     "code": "第6话",
+     "zh": "三兽前行",
+     "ja": "第6話：三匹が行く",
+     "en": "Scenario 6: Three-Beasts Go",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "晴明的阴谋",
+     "ja": "第7話：晴明の陰謀",
+     "en": "Scenario 7: Seimei's Plot",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "向剑与魔法的世界",
+     "ja": "第8話：剣と魔法の世界へ",
+     "en": "Scenario 8: World of Sword and Magic",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "出现！邪恶的骑士 黑暗龙骑士",
+     "ja": "第9話：出現！邪悪の騎士 暗黒のリューナイト",
+     "en": "Scenario 9: Appear, Evil Knight! The Dark Knight Ryu",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "猛攻！黄金三兄弟！",
+     "ja": "第10話：猛攻！ゴールド三兄弟！",
+     "en": "Scenario 10: Fierce Attack! The 3 Gold Brothers",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "森林的白狼，神城的天马",
+     "ja": "第11話：森林の白狼、神の城の天馬",
+     "en": "Scenario 11: White Wolf in the Forest, Pegasus in the Castle of God",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "暗色的平安京",
+     "ja": "第12話：闇色の平安京",
+     "en": "Scenario 12: The Darkness of Heian-Kyo",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "恐怖的地牢！被夺走的光辉与苏醒的力量！",
+     "ja": "第13話：恐怖のダンジョン！奪われし輝きと目覚める力！",
+     "en": "Scenario 13: Dungeon of Horror! Deprived, Brilliant and Awakening Power",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "夺回帕普利西亚城！！轰鸣吧，愤怒的魔法剑！",
+     "ja": "第14話：パプリシア城奪還！！うなれ、怒りの魔法剣！",
+     "en": "Scenario 14: Recapture Papricia Castle!!! A Magical Sword of Anger!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "出来吧！利沃尔加！",
+     "ja": "第15話：出てこい！リボルガー！",
+     "en": "Scenario 15: Come Out! Revolger!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "极寒的大决战！！",
+     "ja": "第16話：極寒の大決戦！！",
+     "en": "Scenario 16: The frigid battle!!!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "激战！勇者VS妖神！！",
+     "ja": "第17話：激突！勇者VS妖神！！",
+     "en": "Scenario 17: Exciting! Brave VS Demon God!!!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "邪龙族降临！可怕的侵略者！！",
+     "ja": "第18話：邪竜族降り立つ！恐るべき侵略者！！",
+     "en": "Scenario 18: The Evil Dragons Take Off! Awesome Invaders!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "觉醒！新的威胁！",
+     "ja": "第19話：覚醒！新たなる脅威！",
+     "en": "Scenario 19: Awakening! A new threat!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "其名为大帝王",
+     "ja": "第20話：その名はダイテイオー",
+     "en": "Scenario 20: Its name is Daitei-Oh",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧（第21–22话）",
+   "intro": "第20话通关后二选一：留在青空町（埃尔多兰/龙骑士/拉姆涅/钢铁联赛）或前往钏路（莱卡/新盖塔/魔神系/G高达/布莱卡/豪将军），两话成对分歧，第23话合流。",
+   "rows": [
+    {
+     "code": "第21话（青空町线）",
+     "zh": "绝对无敌的战士，苏醒之时！",
+     "ja": "第21話：絶対無敵の戦士、目覚める時！",
+     "en": "Scenario 21 (Ozora): It's Time To Awaken, Matchless Warrior!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第20话后选「留在青空町」"
+    },
+    {
+     "code": "第22话（青空町线）",
+     "zh": "伏魔小队！愤怒的大反击！",
+     "ja": "第22話：ガンバーチーム！怒りの大反撃！",
+     "en": "Scenario 22 (Ozora): Ganbar Team! Great Furious Counterattack!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "承接第21话（青空町线）"
+    },
+    {
+     "code": "第21话（钏路线）",
+     "zh": "含泪向友开火！！",
+     "ja": "第21話：涙をこらえて友を撃て！！",
+     "en": "Scenario 21 (Kushiro): Hold Back Your Tears and Attack Your Friends",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第20话后选「前往钏路」"
+    },
+    {
+     "code": "第22话（钏路线）",
+     "zh": "现在，雷霆莱卡站起来了！",
+     "ja": "第22話：今、立ち上がるサンダーライガー！",
+     "en": "Scenario 22 (Kushiro): Stand up, Thunder Liger!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "承接第21话（钏路线）"
+    }
+   ]
+  },
+  {
+   "title": "共通路线（第23–27话）",
+   "intro": "合流后的共通线；第25话主角机升格为席格扎里乌斯，第27话通关后发生第三次分歧。",
+   "rows": [
+    {
+     "code": "第23话",
+     "zh": "出现！超越最强的力量！！",
+     "ja": "第23話：出現！最強を超えた力！！",
+     "en": "Scenario 23: Arrival! Power Beyond The Strongest!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "多尔·盖斯特！卑劣的陷阱！",
+     "ja": "第24話：ドル・ガイスト！ 卑劣な罠！",
+     "en": "Scenario 24: Doll Geist! A Sneaky Trap!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "苏醒的咆哮",
+     "ja": "第25話：目覚めの咆哮",
+     "en": "Scenario 25: Awakening Roar",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "撼动大地的闪光",
+     "ja": "第26話：大地を揺るがす閃光",
+     "en": "Scenario 26: A Flash That Shakes The Earth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "看见了！通往圣骑士之路！",
+     "ja": "第27話：見えた！聖騎士への道！",
+     "en": "Scenario 27: Behold! The Road to the Holy Knight!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧（第28话）",
+   "intro": "第27话通关后二选一：追查精灵石的去向或追击机械帝国，仅影响第28话，第29话合流。",
+   "rows": [
+    {
+     "code": "第28话（精灵石线）",
+     "zh": "被揭开的黑衣骑士的秘密！",
+     "ja": "第28話：あばかれた黒衣の騎士の秘密！",
+     "en": "Scenario 28 (Spirit Stone): The Secret of the Black-Robed Knight, Exposed!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第27话后选「追查精灵石」"
+    },
+    {
+     "code": "第28话（机械帝国线）",
+     "zh": "与朋友立誓的体育场！",
+     "ja": "第28話：友と誓ったスタジアム！",
+     "en": "Scenario 28 (Mechanical Empire): The Stadium That I Swore With My Friends!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第27话后选「追击机械帝国」"
+    }
+   ]
+  },
+  {
+   "title": "共通路线（第29–36话）",
+   "intro": "第33话是全作隐藏要素的结算关（贝尔泽布招募需四名埃尔多兰系主角达到 80 级，见该关页面）；第36话通关后发生最后一次分歧。",
+   "rows": [
+    {
+     "code": "第29话",
+     "zh": "通往破灭的倒计时",
+     "ja": "第29話：破滅へのカウントダウン",
+     "en": "Scenario 29: Countdown to Extinction",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "决战！飞行要塞乌尔塔利亚",
+     "ja": "第30話：決戦！飛行要塞ウルタリア",
+     "en": "Scenario 30: Showdown! Flying Fortress Ultalia",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "复苏的噩梦",
+     "ja": "第31話：よみがえる悪夢",
+     "en": "Scenario 31: A Resurrected Nightmare",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "燃烧吧拉姆涅斯！热血力量永恒！！",
+     "ja": "第32話：燃えろラムネス！ 熱血パワーよ 永遠に！！",
+     "en": "Scenario 32: Burn Lamuness! The Eternal Hot Blooded Power",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "我们的梦想绝对无敌！",
+     "ja": "第33話：僕らの夢は絶対無敵！",
+     "en": "Scenario 33: Our Dreams Are Absolutely Invincible",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "用心灵的力量迎战！",
+     "ja": "第34話：心の力で立ち向かえ！",
+     "en": "Scenario 34: Fight With The Power of Your Heart!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "最终之战！机械化城",
+     "ja": "第35話：最終バトル！ 機械化城",
+     "en": "Scenario 35: The Final Battle! Mechanized Castle",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "永远热血最强！",
+     "ja": "第36話：いつまでも熱血最強！",
+     "en": "Scenario 36: The Strongest Hot Blood Forever!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第四次分歧（第37–38话）",
+   "intro": "第36话通关后二选一：前往阿斯提亚（龙骑士/拉姆涅/钢铁联赛/布莱卡/豪将军/G高达）或留在地球（埃尔多兰/莱卡/魔神/盖塔），两话成对分歧，第39话合流。敌方编成的单一来源 CO_Adder 只走了地球线——阿斯提亚线两关无任何编成来源（见各关页面）。",
+   "rows": [
+    {
+     "code": "第37话（阿斯提亚线）",
+     "zh": "决战，埃尔多齿轮！突破邪龙族的包围",
+     "ja": "第37話：決戦、エルドギア！ 邪竜族の包囲を突き破れ",
+     "en": "Scenario 37 (Earth Tear): The Decisive Battle, EldoGear! Break Through The Siege of The Evil Dragons",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第36话后选「前往阿斯提亚」"
+    },
+    {
+     "code": "第38话（阿斯提亚线）",
+     "zh": "闪耀吧！光速的圣骑士阿迪乌！",
+     "ja": "第38話：輝け！ 光速の聖騎士アデュー！",
+     "en": "Scenario 38 (Earth Tear): Shine! Holy Knight of Light Speed Adeu!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "承接第37话（阿斯提亚线）"
+    },
+    {
+     "code": "第37话（地球线）",
+     "zh": "揭露！大魔界的大秘密！",
+     "ja": "第37話：発覚！ 大魔界の大秘密！",
+     "en": "Scenario 37 (Earth): Discovery! The Great Secret of the Demon World",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第36话后选「留在地球」"
+    },
+    {
+     "code": "第38话（地球线）",
+     "zh": "我们元气爆发！",
+     "ja": "第38話：俺たちは元気爆発！",
+     "en": "Scenario 38 (Earth): We Are Exploding Energy!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "承接第37话（地球线）"
+    }
+   ]
+  },
+  {
+   "title": "共通终盘（第39–41话）",
+   "intro": "合流后的终盘三话：邪神复活、神之战与最终话《向着光明的明天》（最终 Boss 拉尔瓦两段战）。",
+   "rows": [
+    {
+     "code": "第39话",
+     "zh": "邪神复活",
+     "ja": "第39話：邪神復活",
+     "en": "Scenario 39: Resurrection of the Evil God",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "超越时空的神之战",
+     "ja": "第40話：時を超えた神々の戦い",
+     "en": "Scenario 40: The Timeless Battle of The Gods",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "向着光明的明天",
+     "ja": "第41話：光の明日へ",
+     "en": "Scenario 41: The Light of Tomorrow",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

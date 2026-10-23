@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwNeoMissionList from '../../../components/SrwNeoMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战NEO', path: 'srw-neo/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战NEO（Wii）关卡攻略 · 全47个关卡页面列表" description="超级机器人大战NEO（2009年 Wii）全部关卡的页面列表：编号话数41话（一周目实际游玩41关），计入四次路线分歧的全部版本共47个不同剧本。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（全作仅3项：奥塞凯撒、瓦特＆安培、贝尔泽布；本作无熟练度系统）与坐标框架。本页为链接索引。" path="srw-neo/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战NEO · 关卡攻略</h1>
+  <p>2009 年 10 月 29 日发售的《超级机器人大战NEO》是系列<strong>唯一的 Wii 专用作</strong>，也是第一部<strong>完全没有真实系作品</strong>参战的机战（唯一的敢达作品是超级系描写的 G 高达），参战阵容以埃尔多兰系列四作齐聚为最大特征。它在系统上是全系列最激进的一作：<strong>废除格子</strong>——地图为无缝 3D 空间、单位在圆形半径内向任意方向自由移动；新增<strong>包围系统</strong>（在敌人周围布阵可提升攻击方的攻击力与命中）；精神命令改为<strong>等级制＋SP 自然回复制</strong>；驾驶员与机体<strong>绑定、不可换乘</strong>。原创主人公是稻叶驱（主角机席格扎尔）与其弟稻叶天音——天音被母舰伊奥尼亚吸收为「生体核心」，玩家部队在剧情中<strong>没有正式部队名</strong>。剧本为<strong>单一主线加四次路线分歧</strong>：第 4 话后（青空町/春风町）、第 20 话后（青空町/钏路）、第 27 话后（精灵石/机械帝国）、第 36 话后（阿斯提亚/地球）——编号话数 <strong>41 话</strong>，其中 6 个话因分歧有两个版本，全部变体共 <strong>47 个不同剧本</strong>，本站全部建页；一周目实际游玩 <strong>41 关</strong>。本作<strong>没有熟练度系统</strong>，隐藏要素总共只有 3 项（奥塞凯撒两步链、瓦特＆安培击坠留队、贝尔泽布招募），全部位于共通线上。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-neo/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——47 个详情页全部建成（按发售顺序逐作补完；NEO 在年表上位于 K 与 L 之间）。流程、胜败条件、加入与隐藏要素以 Akurasu 的 NEO <strong>Flow Chart 为主源</strong>，话数口径与分支结构逐条与日文 srw.wiki 的「全話一覧/NEO」交叉核对（两家口径完全一致：全 41 话、分歧 4 回、含变体 47 条目），隐藏要素另与 Akurasu Secrets 页核对。<strong>敌方数据如实说明</strong>：敌方编成（初期单位×数量、增援与触发条件）在全网只有 <strong>CO_Adder 的一份未完成 GameFAQs 攻略</strong>（faqs/58348）刊载过，覆盖第 1 话至第 38 话的地球线版本（按本站编号计 42 个剧本，含第 5、21、22、28 话的双版本）；s-rpg-navi 没有 Wii 栏目、未收录本作。按本站「双源交叉才刊载」的惯例，这 42 个剧本的编成<strong>暂不刊载、列为待用户裁决事项</strong>；其余 5 个剧本（第 37、38 话的阿斯提亚线版本与第 39–41 话）则<strong>没有任何编成来源</strong>。<strong>敌方等级在本作不存在公开的逐关表</strong>（敌方详细情报在游戏内本就不可见、无侦察类精神；CO_Adder 的编成表亦不列等级）。至于坐标与地形：本作采用无格 3D 地图（半径移动），<strong>原理上不存在格子坐标系</strong>——各页的坐标图为参照框架，标为待核实（本站地图补完计划另行处理；本作有 2 本官方纸质攻略本，是未来可能的图源）。本页只做 Wii 原版（2009 年）。</span>
+  </div>
+
+  <SrwNeoMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Neo/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Neo: Flow Chart</a>（主来源：全关卡的胜败条件、加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Neo/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Neo: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO" rel="noopener" target="_blank">srw.wiki — 全話一覧/NEO</a>（话数口径、分支结构与标题的交叉核对）</li>
+    <li><a href="https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348" rel="noopener" target="_blank">CO_Adder — Super Robot Taisen Neo Guide and Walkthrough</a>（GameFAQs faqs/58348；敌方编成的单一来源，覆盖第1话–第38话地球线，本站未导入、待裁决）</li>
+  </ul>
+  <p><a href={href('srw-neo/')}>← 返回超级机器人大战NEO</a></p>
+</Base>
