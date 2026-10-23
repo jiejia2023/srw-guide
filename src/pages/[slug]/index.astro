@@ -27,6 +27,7 @@ import SrwOg2MissionList from '../../components/SrwOg2MissionList.astro';
 import SrwDMissionList from '../../components/SrwDMissionList.astro';
 import SrwMxMissionList from '../../components/SrwMxMissionList.astro';
 import SrwGcMissionList from '../../components/SrwGcMissionList.astro';
+import SrwJMissionList from '../../components/SrwJMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -60,6 +61,7 @@ const isSrwOg2 = g.slug === 'srw-og-2';
 const isSrwD = g.slug === 'srw-d';
 const isSrwMx = g.slug === 'srw-mx';
 const isSrwGc = g.slug === 'srw-gc';
+const isSrwJ = g.slug === 'srw-j';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2457,6 +2459,102 @@ const isSrwGc = g.slug === 'srw-gc';
     </div>
   )}
 
+  {isSrwJ && (
+    <div>
+      <h2>剧情概要：来自宇宙的「审判者」</h2>
+      <p>本作（2005 年 9 月 15 日发售，开发：A.I，发行：Banpresto）是 GBA 平台的第六作、也是最后一作机战，标题的 J 取自「Judgment（审判）」。故事以地球圈各势力的纷争（高达SEED 的联合与 ZAFT、木连、拉达姆等）为表层，主线敌人是自称审判者的异星文明：裘亚姆、芙璐等先锋相继现身，其首领<strong>古兰顿</strong>驾驶兹加迪因君临最终决战；原创主角机与敌方王牌<strong>阿尔万</strong>的拉弗特克兰兹之间的因缘贯穿全程。参战阵容有一个标志性缺席：<strong>盖塔系列本作未参战</strong>（系列常客罕见缺席），高达只用非宇宙世纪作品；《惊爆危机》《宇宙骑士铁加曼布莱德》为系列初参战（梗概据日本维基百科与 Akurasu 流程图）。</p>
+
+      <h2>路线结构：主角双线序盘 + 五次路线分歧 — 一周目 52 话、68 个不同剧本</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>区段</th><th>内容</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>第1–2话</td><td>统夜线／卡尔维娜线</td><td>开局主人公二选一，两线内容完全不同，第3话合流</td></tr>
+            <tr><td>第3–10话</td><td>全员共通</td><td>第10话击破恶魔高达，通关后第一次分歧</td></tr>
+            <tr><td>第11–15话</td><td>大天使线／娜德什子线</td><td>盖尔链与 IWSP 走大天使线；大捷欧莱马链走娜德什子线</td></tr>
+            <tr><td>第16–20话</td><td>全员共通</td><td>第20话茱莉亚说得链起点，通关后第二次分歧</td></tr>
+            <tr><td>第21–23话</td><td>留在地上线／前往月球线</td><td>大捷欧莱马链第3步在地上线；凯复归链第1步在月球线</td></tr>
+            <tr><td>第24–31话</td><td>全员共通</td><td>博太君链（24/29/30话）、大捷欧莱马链（29话）推进</td></tr>
+            <tr><td>第32话</td><td>残留线／北美线</td><td>只分歧一话：残留线是大捷欧莱马决战；北美线开战前选力量/速度定雷兹纳形态</td></tr>
+            <tr><td>第33–36话</td><td>全员共通</td><td>第36话大捷欧莱马兑现，通关后子分歧</td></tr>
+            <tr><td>第37话</td><td>阿拉斯加线／和平交涉线</td><td>只分歧一话：阿拉斯加线关系到 IWSP 背包（第38话入手）</td></tr>
+            <tr><td>第38–43话</td><td>全员共通</td><td>第38话多链结算；第39话主角机升级；第43话利刃加入，通关后第四次分歧</td></tr>
+            <tr><td>第44–45话</td><td>讨伐拉达姆线／和平会议线</td><td>巴尔扎克保留链在拉达姆线；凯复归在和平会议线兑现</td></tr>
+            <tr><td>第46话</td><td>全员共通</td><td>自由/正义高达获得流星装备，通关后最终分歧</td></tr>
+            <tr><td>第47–48话</td><td>留在宇宙线／降下地球线</td><td>宇宙线为 PLANT 防卫战（穆在此永久离队）；地球线为布伦护送战</td></tr>
+            <tr><td>第49话–最终话</td><td>全员共通</td><td>第51话为 10 回合时限战；最终话出击 15 台</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>编号方式为<strong>固定编号</strong>（同号异关即路线变体，不存在 D 那种浮动编号）。Akurasu 主条目作「68 playable scenarios」，日本维基百科作「全52話（含分歧共 68 个ステージ）」——同一事实的两种口径（一周目流程 vs 含全部变体），本站 68 个剧本全部建页。</p>
+
+      <h2>主人公、主角机与副驾驶系统（本作核心）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>主人公</th><th>开局同乘作品侧</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>紫云统夜（Touya Shun）</td><td>魔神Z 侧</td><td>有专属结局分歧：结局按全程出击次数最多的副驾驶变化；三人到最终话都不足 20 次出击时有秘密结局变体</td></tr>
+            <tr><td>卡尔维娜·库朗日（Calvina Coulange）</td><td>娜德什子号侧</td><td>人称「白色山猫（White Lynx）」，前第二中尉；无结局分歧</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>主角机开局三选一：第39话统一升级为后继机（改造继承）。<strong>格朗提德</strong>（超级系）→ 格朗提德·德拉科迪乌斯；<strong>贝尔泽鲁特</strong>（远程型真实系）→ 贝尔泽鲁特·布里甘迪；<strong>库斯托威尔</strong>（近战型真实系）→ 库斯托威尔·布拉奇姆。隐藏第四机<strong>沃尔伦特</strong>须在同一通关存档链上通关 3 次、三机各用至少一次后自第4周目起可选，第39话升级为<strong>拉弗特克兰兹</strong>。</p>
+      <p><strong>副驾驶（搭档）系统</strong>：主角机必须同乘一名专属副驾驶，出击前可更换、只能乘 1 人，三人经验共享。开局默认费斯特尼亚；卡提亚在第2话（统夜）／第3话（卡尔维娜）加入，梅露亚在第3话（统夜）加入；统夜自第4话起、卡尔维娜自第5话起可自由选择。三人提供的加成与精神完全不同：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>副驾驶</th><th>机体加成</th><th>精神指令组</th></tr></thead>
+          <tbody>
+            <tr><td>卡提亚·格里尼亚尔</td><td>运动性 +10；武器射程 +1（MAP 兵器除外）</td><td>祝福、直击、狙击、铁壁、闪避、友情</td></tr>
+            <tr><td>费斯特尼亚·缪斯</td><td>武器攻击力 +200；暴击率 +10%</td><td>根性、斗志、气合、必中、搅乱、激励</td></tr>
+            <tr><td>梅露亚·梅尔纳·梅亚</td><td>装甲 +300；移动力 +1</td><td>应援、信赖、集中、献身、再动、补给</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>副驾驶还决定后继机<strong>最强攻击</strong>：当前同乘的副驾驶累计出击 <strong>20 次以上</strong>后，自第39话起解锁其对应的最强攻击（拉弗特克兰兹时连武器名与性能都随副驾驶变化）；出击次数按人分别计数、周回继承。战舰舰长也可换乘（娜德什子号：由利加／琉璃；大天使号：玛琉／娜塔尔；永恒号：巴尔特菲尔德／拉克丝）。</p>
+
+      <h2>系统要点（逐项核实）</h2>
+      <ul>
+        <li><strong>没有熟练度系统。</strong>Akurasu 流程图没有任何一话列出熟练度条件（全文检索为 0），日本维基百科系统解说亦无此系统——各话的时限、到达、分段条件都是胜败条件本身。分歧与隐藏全部由路线选择、说得、指定击坠与出击次数决定。</li>
+        <li><strong>中意作品（お気に入り）系统（MX 引入、J 改良）：</strong>开局选 3 部作品为中意作品，每通关一次再追加 3 部（已选保留），池子共 15（14 部版权作品＋原创）。指定作品的机体：改造上限由 10 段升至 <strong>15 段</strong>，获得资金与经验增加（倍率因作品而异，逐作品数值待核实）；<strong>全部作品都指定时</strong>上限进一步升至 <strong>20 段</strong>、资金与经验全作品一律 1.5 倍。</li>
+        <li><strong>改造与全改造奖励：</strong>机体 4 项（HP／EN／运动性／装甲）＋武器统一改造，上限随中意作品为 10／15／20 段。单项改满后可从 6 项奖励中选 1（如机体：最大 HP +20%／移动力 +2／全地形 S；武器：射程 +1／弹数 ×2／EN 消耗 -30% 等）——注意：所选奖励<strong>在本周目及之后所有周回永久保留、不可更改</strong>，且中意作品抬高上限时只需改到非指定上限（10 段）即可领奖。后继机改造继承共 10 组（见 Akurasu Upgrade Carryover），个别换机还会永久复制原机指定槽位的部件效果（魔神Z 2 号槽→魔神凯撒、勇布伦 3 号槽→内莉布伦、雷兹纳 2/3 号槽→雷兹纳Mk-II），各关页面已注明。</li>
+        <li><strong>驾驶员养成是 BP 制（不是 PP）：</strong>升级获得 BP，分配到格斗／射击／命中／回避／技量／防御 6 项（每项上限 255），通关不清零、全额带入下周目；BP 不能学技能，新技能靠<strong>技能部件</strong>（装着制，通关时全部丢失、无补偿）。强化部件可出售；另有解谜小游戏「填充机战（ツメスパロボ）」可拿部件与资金。</li>
+        <li><strong>援护攻防分离</strong>（两个独立技能，等级决定每回合次数）；与 OG2 不同，J 的<strong>合体攻击会触发敌方屏障、且不可被援护攻击</strong>（日本维基百科 J 专项记述）。合体攻击共数十组（艾斯特巴利斯阵型、超电磁回旋 V 字斩、双重凯撒之剑、洗牌同盟攻击、双重伏尔特加等），最早可用话数见各关页面与 Akurasu 合体攻击表。没有小队系统。</li>
+        <li><strong>周回（New Game+）为全额继承型，没有百分比扣减：</strong>未花资金、驾驶员 BP、机体与武器改造、击坠数<strong>全部保留</strong>；强化部件与技能部件<strong>全部丢失</strong>。NG+ 可重选主人公与主角机、可重排主人公精神指令表、可选中意作品追加 3 部；另可给全体敌人附加 0–3 段全能力改造（难度调节，上限每多一周目 +3）。原创机之间不共享改造，两位主人公之间不共享 BP 与击坠数。与其他 GBA 作品<strong>无存档联动特典</strong>（Akurasu 全部子页与日本维基百科均无记载）。</li>
+      </ul>
+
+      <h2>参战作品（14 部 + 原创）</h2>
+      <p>超兽机神断空我、惊爆危机（系列初参战）、惊爆危机？校园篇（系列初参战）、Brain Powerd、苍之流星 SPT 雷兹纳、机动战舰抚子号、机动武斗传 G 高达、机动战士高达 SEED、宇宙骑士铁加曼布莱德（系列初参战）、魔神凯撒、魔神凯撒 死斗！暗黑大将军（系列初参战）、冥王计划捷欧莱马、超电磁侠孔巴特拉 V、超电磁机器侠伏特斯 V，及 Banpresto 原创。计数口径：日本维基百科作 14 部（原创不计），Akurasu 的 Series 页与中意作品池作 15（14＋原创）——同一阵容、两种数法，本站并记。</p>
+
+      <h2>隐藏要素总览（全部写在触发/结算的那一话里）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>涉及话数</th><th>要点</th></tr></thead>
+          <tbody>
+            <tr><td>格莱姆凯撒＋盖尔</td><td>第3、4话说得，第10话后大天使线，第14话·大天使线交战，第38话后加入</td><td>与茱莉亚互斥、盖尔优先</td></tr>
+            <tr><td>血凯撒＋茱莉亚</td><td>第20话说得，第27、35话不击坠，第38话后加入</td><td>仅在未满足盖尔全条件时加入</td></tr>
+            <tr><td>大捷欧莱马</td><td>第10话后娜德什子线，第13、21、29、32话·残留线四次指定击坠，第36话兑现</td><td>全作最长链；其间捷欧莱马除强制出击外不得出击</td></tr>
+            <tr><td>IWSP 背包</td><td>第10话后大天使线 + 第36话后阿拉斯加线，第38话入手</td><td>穆的强袭高达首装，之后 SEED 系可换装</td></tr>
+            <tr><td>博太君</td><td>第24、29、30话宗介三次指定击坠，第34话可用</td><td>第30话与败北条件的原文张力见该话页面</td></tr>
+            <tr><td>X艾斯特巴利斯</td><td>第31话后北美线，第32话·北美线通关后入手</td><td>—</td></tr>
+            <tr><td>强化型雷兹纳／雷兹纳 Mk-II</td><td>第32话·北美线开战前选力量／速度；残留线自动给强化型</td><td>二选一，不可兼得</td></tr>
+            <tr><td>铁加曼利刃</td><td>第34、36话布莱德两次指定击坠，第43话后加入</td><td>第43话剧情演出「死亡」但实际加入</td></tr>
+            <tr><td>诺贝尔高达＋阿莲比</td><td>第38话不击坠，第41话蕾茵说得后再击坠</td><td>顺序不能反</td></tr>
+            <tr><td>大豪寺凯复归</td><td>第20话后月球线 + 第43话后和平会议线，第44话·和平会议线兑现</td><td>连锁：第49话九十九 NPC 登场</td></tr>
+            <tr><td>保住巴尔扎克</td><td>第43话后拉达姆线，第45话·拉达姆线巴尔扎克击坠铁加曼索德</td><td>不达成则永久失去</td></tr>
+            <tr><td>后继机最强攻击</td><td>副驾驶出击累计 20 次，第39话起解锁</td><td>按副驾驶分别计数、周回继承</td></tr>
+            <tr><td>沃尔伦特／拉弗特克兰兹</td><td>同一存档链通关 3 次、三机各用一次，第4周目可选</td><td>见最终话页面</td></tr>
+            <tr><td>统夜专属结局变体</td><td>最终话判定</td><td>按出击最多的副驾驶变化；三人都不满 20 次有秘密变体</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>敌方数据现状</h2>
+      <p>敌方<strong>编成</strong>（构成、数量、增援）在 <strong>54 个剧本</strong>有两份独立来源交叉：日文攻略站 <strong>s-rpg-navi</strong>（覆盖全 68 关：初期配置、增援批次与触发条件、罗盘方位、具名敌驾驶员、部分行的 HP／资金、掉落部件）与 GameFAQs 的 <strong>Nillie 攻略</strong>（faqs/39165，只走了一条路线、54 个条目）——本站在 54 关的页面上照两份原文分列刊出。其余 <strong>14 个剧本</strong>（第11–15话大天使线、第21–23话月球线、第32话北美线、第37话和平交涉线、第44–45话和平会议线、第47–48话宇宙线）只有 s-rpg-navi 一家数据（其中第11–15话大天使线另有一份作者不详的中文转载攻略在第1–16话范围内可作旁证，但不构成具名独立来源），按本站双源惯例<strong>暂不刊载、列为待用户裁决事项</strong>：若裁决导入，将按 F完结编先例以「单一来源」标注刊出这 14 关的编成（字段范围同上）。<strong>敌方等级在任何来源中都不存在</strong>（两份来源皆无等级字段，navi 以 HP／资金区分个体）；<strong>敌方坐标、逐关地图尺寸与逐格地形无任何公开来源</strong>（当年 5 本印刷攻略本均未找到扫描），各页地图为带四边坐标轴的参照框架，与本站地图补完计划衔接。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets、Series、Team Attacks、Pilot Abilities、Upgrade Carryover、Max Upgrade Bonuses、Clear 各子页交叉核对；系统以日本维基百科与日本 SRW Wiki（换乘／系列系统条目）互证；敌方编成以 s-rpg-navi 与 GameFAQs 的 Nillie 攻略交叉刊载（另以 kibbitz 攻略核对路线覆盖、以一份中文全程攻略旁证第1–16话）。已确认的主要分歧与处理：①话数口径——Akurasu「68 个可玩剧本」与日文维基「全52話（含分歧 68 关）」为同一事实两种数法，并记；②参战作品——日文维基 14 部 vs Akurasu 15 行（差在原创是否计入），并记；③中意作品倍率——日方来源只给出「全指定时一律 1.5 倍」，英文 Fandom 称倍率按作品可变且大作更低，逐作品倍率表未找到，本站标待核实、不编造数字；④改造基础上限 10 段——由 FAQ「中意＝15 段」与日文维基「改到非指定上限即可领全改造奖励」反推（15/20 段有直接来源），属推定可信；⑤合体攻击与援护——日文维基 J 专项作「合体攻击触发屏障且不可援护」，Fandom 系列总条目的表述字面冲突，本站从 J 专项；⑥大捷欧莱马「捷欧莱马不出击」限制——Secrets 作「任何非强制关卡」，流程图第13话注作「自第13话起」，实际影响相同（第13话前未入手），并记；⑦沃尔伦特解锁计数——Secrets 作「通关 3 次、第4周目」，流程图最终话注作「第3次 NG+ 起」，指向同一节点，并记；⑧第46话在流程图版式上只列于拉达姆线一栏，按章节跨度与衔接判为合流关（见该话页面备注）；⑨第30话败北条件含「九龙被击破」与博太君条件「宗介击坠九龙」原文并存，本站原样并记、不自行调和（见第30话页面）；⑩第20话日文标题在流程图原文引号错位（疑原站笔误），本站作「真実は一つじゃない」并注记；⑪拼写统一——Akurasu 内部 Touya Shun/Shuin、Grimekaiser/Greimkaiser、Katia Grineal/Grignard、Belzellute/Bellzelute 等异写，本站统一作统夜（Touya Shun）、格莱姆凯撒（Grimekaiser）、卡提亚·格里尼亚尔、贝尔泽鲁特，并以 Akurasu 的 Calvina Coulange 为准（外站有作 Coulanges 者）。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -2582,6 +2680,11 @@ const isSrwGc = g.slug === 'srw-gc';
     <div>
       <p>本作 <strong>79 个剧本全部建有独立攻略页</strong>（每一话一个详情页：主线 59 话线性推进、<strong>没有路线分歧</strong>，另有 20 个支线剧本在各自主线话之后开放、进入下一主线话之前可反复攻略）。下表为按剧情章分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、<strong>本话可捕獲机体</strong>（部位破坏＋捕獲是本作的核心系统）、本关隐藏要素（多系于支线通关与说得，连锁步骤都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方<strong>编成</strong>、坐标与地形待核实——经全面检索无任何公开来源刊载本作逐关敌方编成，见各详情页说明）。本作同时保留一份<a class="link" href={href('srw-gc/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwGcMissionList />
+    </div>
+  ) : isSrwJ ? (
+    <div>
+      <p>本作 <strong>68 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 52 话——主角双线序盘、五次路线分歧的全部版本与共通终盘；编号固定、同号异关即路线变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（说得连锁、路线选择与副驾驶出击次数都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成在 54 个剧本由 s-rpg-navi 与 GameFAQs 攻略双源交叉刊载，14 个剧本为 s-rpg-navi 单一来源暂不刊载、待裁决；敌方等级不存在于任何来源，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-j/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwJMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

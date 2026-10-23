@@ -1,0 +1,670 @@
+{
+ "groups": [
+  {
+   "title": "序盘：主角分歧（第1–2话）与合流（第3–10话）",
+   "intro": "开局在紫云统夜与卡尔维娜·库朗日之间二选一：两条主角线的第1–2话内容完全不同（统夜线从魔神Z侧开局，卡尔维娜线从娜德什子号侧开局），第3话起合流。主角机开局三选一（格朗提德／贝尔泽鲁特／库斯托威尔），副驾驶费斯特尼亚开局同乘，卡提亚、梅露亚在序盘依次解锁。",
+   "rows": [
+    {
+     "code": "第1话·统夜线",
+     "zh": "从天而降的「灾厄」？",
+     "ja": "第1話：降ってきた「災厄」？",
+     "en": "Scenario 1: Falling Disaster",
+     "type": "主角线关卡",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·卡尔维娜线",
+     "zh": "娜德什子出击",
+     "ja": "第1話：ナデシコ発進",
+     "en": "Scenario 1: Nadesico Takes Off",
+     "type": "主角线关卡",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·统夜线",
+     "zh": "目的地，火星！",
+     "ja": "第2話：目的地、火星！",
+     "en": "Scenario 2: Destination, Mars!",
+     "type": "主角线关卡",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·卡尔维娜线",
+     "zh": "对地球联合军",
+     "ja": "第2話：vs地球連合軍",
+     "en": "Scenario 2: VS Earth Allied Forces",
+     "type": "主角线关卡",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "他的名字是艾吉",
+     "ja": "第3話：彼の名はエイジ",
+     "en": "Scenario 3: His Name is Eiji",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "再见了，红色之星",
+     "ja": "第4話：さよならの赤い星",
+     "en": "Scenario 4: Farewell, Red Planet",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "转变的命运",
+     "ja": "第5話：変転する運命",
+     "en": "Scenario 5: Changing Destinies",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "崩坏的大地 前篇",
+     "ja": "第6話：崩壊の大地 前編",
+     "en": "Scenario 6: Collapsing Land, Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "崩坏的大地 后篇",
+     "ja": "第7話：崩壊の大地 後編",
+     "en": "Scenario 7: Collapsing Land, Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "敌军的歌姬 前篇",
+     "ja": "第8話：敵軍の歌姫 前編",
+     "en": "Scenario 8: Songstress of the Enemy Forces, Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "敌军的歌姬 后篇",
+     "ja": "第9話：敵軍の歌姫 後編",
+     "en": "Scenario 9: Songstress of the Enemy Forces, Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "黑暗的胎动",
+     "ja": "第10話：闇の胎動",
+     "en": "Scenario 10: The Gathering Darkness",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧：第11–15话（大天使线／娜德什子线）",
+   "intro": "第10话通关后二选一：与大天使号同行（SEED、雷兹纳、铁加曼为主，可招募 Brain Powerd）或留在娜德什子（抚子号、G高达、魔神凯撒为主，可招募捷欧莱马、伏特斯V）。两条线的隐藏条件链在此分叉：盖尔与 IWSP 走大天使线，大捷欧莱马链走娜德什子线。第16话合流。",
+   "rows": [
+    {
+     "code": "第11话·大天使线",
+     "zh": "沙漠之虎",
+     "ja": "第11話：砂漠の虎",
+     "en": "Scenario 11: The Desert Tiger",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·娜德什子线",
+     "zh": "打倒敌方新型兵器！",
+     "ja": "第11話：敵の新型兵器を叩け！",
+     "en": "Scenario 11: Crush the New Enemy Weapon!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·大天使线",
+     "zh": "燃烧的沙尘之中",
+     "ja": "第12話：燃える砂塵の中で",
+     "en": "Scenario 12: Within the Burning Sands",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·娜德什子线",
+     "zh": "兜甲儿，死了！？",
+     "ja": "第12話：兜甲児、死す！？",
+     "en": "Scenario 12: Kouji Kabuto, Dead!?",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·大天使线",
+     "zh": "自深海出发",
+     "ja": "第13話：深海を発して",
+     "en": "Scenario 13: Departure in the Deep Sea",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·娜德什子线",
+     "zh": "两尊魔神",
+     "ja": "第13話：2体の魔神",
+     "en": "Scenario 13: The Two Demon Gods",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·大天使线",
+     "zh": "化作蓝色流星",
+     "ja": "第14話：蒼き流星となって",
+     "en": "Scenario 14: Becoming the Blue Comet",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·娜德什子线",
+     "zh": "新的威胁，新的力量",
+     "ja": "第14話：さらなる脅威、新たなる力",
+     "en": "Scenario 14: Another Menace, A New Power",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·大天使线",
+     "zh": "各自的心意，各自的决意",
+     "ja": "第15話：それぞれの想い、それぞれの決意",
+     "en": "Scenario 15: Those Feelings, That Determination",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·娜德什子线",
+     "zh": "那段「难以忘怀的日子」",
+     "ja": "第15話：あの「忘れ得ぬ日々」",
+     "en": "Scenario 15: Those Unforgettable Days",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流：第16–20话",
+   "intro": "两线合流后的共通段。第20话击败阿尔万的拉弗特克兰兹，通关后发生第二次分歧；本段也是血凯撒／茱莉亚说得链的起点。",
+   "rows": [
+    {
+     "code": "第16话",
+     "zh": "灵魂力量",
+     "ja": "第16話：ブレンパワード",
+     "en": "Scenario 16: Brain Powered",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "耳语者 前篇",
+     "ja": "第17話：ウィスパード 前編",
+     "en": "Scenario 17: Whispered, Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "耳语者 后篇",
+     "ja": "第18話：ウィスパード 後編",
+     "en": "Scenario 18: Whispered, Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "谋划者",
+     "ja": "第19話：策謀する者たち",
+     "en": "Scenario 19: Those who Scheme",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "真相不止一个",
+     "ja": "第20話：真実は一つじゃない",
+     "en": "Scenario 20: There is No Lone Truth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧：第21–23话（留在地上线／前往月球线）",
+   "intro": "第20话通关后二选一：留在地上（大捷欧莱马链第3步在此侧）或前往月球（大豪寺凯复归链第1步在此侧）。第24话合流。",
+   "rows": [
+    {
+     "code": "第21话·地球线",
+     "zh": "奥尔冈的抗体",
+     "ja": "第21話：オルファンの抗体",
+     "en": "Scenario 21: Orphan's Antibodies",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·月球线",
+     "zh": "这是「我们的战争」 前篇",
+     "ja": "第21話：これは「僕たちの戦争」だ 前編",
+     "en": "Scenario 21: This is Our War, Part 1",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·地球线",
+     "zh": "双重复活",
+     "ja": "第22話：ダブルリバイバル",
+     "en": "Scenario 22: Double Revival",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·月球线",
+     "zh": "这是「我们的战争」 后篇",
+     "ja": "第22話：これは「僕たちの戦争」だ 後編",
+     "en": "Scenario 22: This is Our War, Part 2",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·地球线",
+     "zh": "超电磁合体不能！",
+     "ja": "第23話：超電磁合体不能！",
+     "en": "Scenario 23: Super EM Stop-Up!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·月球线",
+     "zh": "华丽的鲁·卡因",
+     "ja": "第23話：華麗なるル・カイン",
+     "en": "Scenario 23: The Extravagant Ru Cain",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流：第24–31话",
+   "intro": "共通段：博太君三连击坠链（第24、29、30话）、大捷欧莱马链（第29话）、茱莉亚链（第27、35话）在此推进。第31话通关后发生第三次分歧。",
+   "rows": [
+    {
+     "code": "第24话",
+     "zh": "巨兽",
+     "ja": "第24話：ベヘモス",
+     "en": "Scenario 24: Behemoth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "血脉相连的恶魔 前篇",
+     "ja": "第25話：血を分けた悪魔 前編",
+     "en": "Scenario 25: The Demon is My Brother, Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "血脉相连的恶魔 后篇",
+     "ja": "第26話：血を分けた悪魔 後編",
+     "en": "Scenario 26: The Demon is My Brother, Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "浮出水面",
+     "ja": "第27話：浮上",
+     "en": "Scenario 27: Surfacing",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "帷幕的另一侧",
+     "ja": "第28話：カーテンの向こうで",
+     "en": "Scenario 28: Beyond the Curtain",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "地狱城的激战！",
+     "ja": "第29話：地獄城の激闘！",
+     "en": "Scenario 29: Fierce Battle at Hell Castle!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "被夺走的女神",
+     "ja": "第30話：奪われた女神",
+     "en": "Scenario 30: Stolen Goddess",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "命运的楔子",
+     "ja": "第31話：さだめの楔",
+     "en": "Scenario 31: The Turning Point",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧与合流：第32–37话",
+   "intro": "第31话后二选一只影响第32话（残留线：大捷欧莱马决战；北美线：雷兹纳二选一与 X艾斯特巴利斯）；第33话合流；第36话后再分一次子分歧只影响第37话（阿拉斯加线关系到 IWSP 背包，和平交涉线为明人到达型关卡）。",
+   "rows": [
+    {
+     "code": "第32话·残留线",
+     "zh": "怨念的终结",
+     "ja": "第32話：怨念の終焉",
+     "en": "Scenario 32: Feud's Demise",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·北美线",
+     "zh": "战栗！五名铁加曼",
+     "ja": "第32話：戦慄！5人のテッカマン",
+     "en": "Scenario 32: Tremble! The 5 Tekkamen",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "对决！恶魔高达军团！",
+     "ja": "第33話：対決！ デビルガンダム軍団！",
+     "en": "Scenario 33: Showdown! Devil Gundam Corps!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "侵略者的真相",
+     "ja": "第34話：真実の侵略者",
+     "en": "Scenario 34: The Truth of the Invaders",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "恸哭的天空",
+     "ja": "第35話：慟哭の空",
+     "en": "Scenario 35: Grieving Skies",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "玻色子跳跃",
+     "ja": "第36話：ボソンジャンプ",
+     "en": "Scenario 36: Boson Jump",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·阿拉斯加线",
+     "zh": "舞降之剑",
+     "ja": "第37話：舞い降りる剣",
+     "en": "Scenario 37: The Descending Sword",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·和平交涉线",
+     "zh": "名为「故乡」的地方",
+     "ja": "第37話：「故郷」と呼べる場所",
+     "en": "Scenario 37: A Place We Call Home",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流：第38–43话",
+   "intro": "第38话是多条隐藏线的结算点（IWSP 入手、盖尔／茱莉亚加入判定、阿莲比链立旗）；第39话主角机升级为后继机、断空我合体为最终断空我；第43话利刃正式加入，通关后发生第四次分歧。",
+   "rows": [
+    {
+     "code": "第38话",
+     "zh": "选择道路之时",
+     "ja": "第38話：道を選ぶとき",
+     "en": "Scenario 38: Choosing the Road",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "不灭的灯火，消逝的生命",
+     "ja": "第39話：消えない灯火、消える命",
+     "en": "Scenario 39: Endless Light, Fading Life",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "交错而过的命运",
+     "ja": "第40話：すれ違う運命",
+     "en": "Scenario 40: Passing Destinies",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "含泪的兄弟拳！东方不败黎明陨落",
+     "ja": "第41話：涙の兄弟拳！東方不敗暁に死す",
+     "en": "Scenario 41: Tearful Brotherly Attack! Master Asia's Last Breath",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "那个男人的疯狂",
+     "ja": "第42話：その男の狂気",
+     "en": "Scenario 42: One Man's Madness",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话",
+     "zh": "月之暗面",
+     "ja": "第43話：Darkside Of The Moon",
+     "en": "Scenario 43: Darkside Of The Moon",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第四次分歧：第44–46话（讨伐拉达姆线／和平会议线）",
+   "intro": "第43话后二选一：讨伐拉达姆（巴尔扎克保留链在此侧）或前往和平会议（大豪寺凯复归在此兑现，前提是第20话后走了月球线）。第46话合流，通关后发生最终分歧。",
+   "rows": [
+    {
+     "code": "第44话·拉达姆线",
+     "zh": "螺旋的邂逅",
+     "ja": "第44話：螺旋の邂逅",
+     "en": "Scenario 44: Spiral of Encounters",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·和平会议线",
+     "zh": "无处不在的「正义」",
+     "ja": "第44話：どこにでもある「正義」",
+     "en": "Scenario 44: Ubiquitous Righteousness",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·拉达姆线",
+     "zh": "黑暗与死亡的命运",
+     "ja": "第45話：闇と死の運命",
+     "en": "Scenario 45: Destiny of Darkness and Death",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·和平会议线",
+     "zh": "只有一个「绝妙的办法」？",
+     "ja": "第45話：たった一つの「冴えたやり方」？",
+     "en": "Scenario 45: Is There Only One Clear Method?",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "通往破灭之门",
+     "ja": "第46話：破滅への扉",
+     "en": "Scenario 46: Doorway to Ruin",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终分歧与结局：第47话–最终话",
+   "intro": "第46话后二选一只影响第47–48话（留在宇宙线为 PLANT 防卫战，降下地球线为布伦护送战）；第49话合流，经第50、51话（10 回合时限战）进入最终话（出击 15 台）。统夜的结局还按副驾驶出击次数变化。",
+   "rows": [
+    {
+     "code": "第47话·宇宙线",
+     "zh": "终末之光 前篇",
+     "ja": "第47話：終末の光 前編",
+     "en": "Scenario 47: The Final Light Part 1",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·地球线",
+     "zh": "移动的山脉",
+     "ja": "第47話：動く山脈",
+     "en": "Scenario 47: The Moving Mountain Range",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·宇宙线",
+     "zh": "终末之光 后篇",
+     "ja": "第48話：終末の光 後編",
+     "en": "Scenario 48: The Final Light Part 2",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·地球线",
+     "zh": "飞翔",
+     "ja": "第48話：飛翔",
+     "en": "Scenario 48: Flight",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "憎恨的尽头",
+     "ja": "第49話：憎悪の果て",
+     "en": "Scenario 49: The Limits of Hatred",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "百亿之夜与千亿之暗",
+     "ja": "第50話：百億の夜と千億の闇",
+     "en": "Scenario 50: Uncountable Nights, Unimaginable Darkness",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话",
+     "zh": "冰冷的世界 前篇",
+     "ja": "第51話：冷たい世界 前編",
+     "en": "Scenario 51: Coldhearted World, Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "冰冷的世界 后篇",
+     "ja": "最終話：冷たい世界 後編",
+     "en": "Final Scenario: Coldhearted World, Part 2",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

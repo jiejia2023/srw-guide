@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwJMissionList from '../../../components/SrwJMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战J', path: 'srw-j/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战J（GBA）关卡攻略 · 全68个关卡页面列表" description="超级机器人大战J（2005年 GBA）全部关卡的页面列表：一周目52话（第1–51话＋最终话），计入主角双线与五次路线分歧的全部版本共68个不同剧本。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（说得连锁、路线选择、副驾驶出击次数；本作无熟练度系统）、敌方编成与坐标地图。本页为链接索引。" path="srw-j/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战J · 关卡攻略</h1>
+  <p>2005 年 GBA《超级机器人大战J》（J = Judgment）是 GBA 平台的最后一作机战：开局在两位主人公<strong>紫云统夜／卡尔维娜·库朗日</strong>之间二选一（仅第1–2话分流），主角机三选一（格朗提德／贝尔泽鲁特／库斯托威尔），并搭乘一名<strong>专属副驾驶</strong>（费斯特尼亚／卡提亚／梅露亚，出击前可更换）——副驾驶决定主角机的能力补正、精神指令组与最强武器。本作编号<strong>固定</strong>（同号异关即路线变体），流程中共有五次路线分歧（第10、20、31、36、43话后，分别影响第11–15、21–23、32、37、44–45、47–48话）；一周目实际游玩 <strong>52 话</strong>，计入全部版本共 <strong>68 个不同剧本</strong>，本站全部建页。本作<strong>没有熟练度系统</strong>，隐藏要素全部由路线选择、说得连锁、指定角色击坠与副驾驶出击次数（最强武器需 20 次）决定。每一关的完整攻略（胜败条件、加入、隐藏要素、敌方编成、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-j/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——68 个详情页全部建成（按发售顺序逐作补完；J 在年表上位于第3次α与 W 之间）。流程、胜败条件、加入与隐藏要素以 Akurasu 的 J <strong>Flow Chart 为主源</strong>，逐条与同站 Secrets 页交叉核对，话数口径（52 话／68 关）与系统以日本维基百科互证。<strong>计数说明</strong>：Akurasu 主条目作「68 playable scenarios」，日本维基百科作「全52話（含分歧共 68 个ステージ）」——两者是同一事实的两种口径（单周目流程 vs 含全部变体），不是分歧。<strong>敌方数据如实说明</strong>：敌方编成（构成、数量、增援）在 <strong>54 个剧本</strong>由日文攻略站 s-rpg-navi 与 GameFAQs 的 Nillie 攻略<strong>双源交叉刊载</strong>于各关页面；其余 <strong>14 个剧本</strong>（第11–15话大天使线 5 关、第21–23话月球线 3 关、第32话北美线、第37话和平交涉线、第44–45话和平会议线 2 关、第47–48话宇宙线 2 关）只有 s-rpg-navi 一家刊载（Nillie 只走了另一侧路线），按本站惯例<strong>暂不刊载、列为待用户裁决事项</strong>（该 14 关的 navi 数据字段为：初期配置与增援的机体×数量、增援触发条件与罗盘方位、具名敌驾驶员、部分行的 HP／资金、掉落部件——无等级、无坐标）。<strong>敌方等级在任何来源中都不存在</strong>；敌方坐标、逐关地图尺寸与逐格地形亦无任何公开来源——各页的坐标图为参照框架，标为待核实（本站地图补完计划另行处理）。本页只做 GBA 原版（2005 年）。</span>
+  </div>
+
+  <SrwJMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/J/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars J: Flow Chart</a>（主来源：全关卡的胜败条件、加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/J/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars J: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/J" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars J 主条目</a>（发售信息、剧本总数 68、系统子页索引）</li>
+    <li><a href="https://s-rpg-navi.com/srw-j/" rel="noopener" target="_blank">s-rpg-navi — スパロボJ 攻略</a>（敌方编成来源之一：全 68 关的初期配置、增援与掉落部件）</li>
+    <li><a href="https://gamefaqs.gamespot.com/gba/929355-super-robot-taisen-j/faqs/39165" rel="noopener" target="_blank">GameFAQs — Super Robot Wars J FAQ/Walkthrough by Nillie（faqs/39165）</a>（敌方编成来源之一：单一路 54 个条目）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6J" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦J</a>（话数口径、系统、参战作品的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-j/')}>← 返回超级机器人大战J</a></p>
+</Base>
