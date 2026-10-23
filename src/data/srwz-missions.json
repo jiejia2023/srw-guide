@@ -4577,7 +4577,9 @@
     "status": "编成已刊出（s-rpg-navi 与 GameFAQs 攻略交叉）",
     "rows": [],
     "reinforcements": [],
-    "notes": [],
+    "notes": [
+     "CO_Adder 对本关（共通关）分别写了兰德线与节子线两个章节，两份敌方列表并不相同（主要差异包括作为敌方数据出现的主人公机：第14话兰德线为钢雷昂、节子线为巴尔戈拉1号机；第15话的末波增援构成亦不同）。本站以兰德线章节为主表刊出，并附节子线章节的编成表于 CO_Adder 来源末尾，两份并列。"
+    ],
     "composition": {
      "sources": [
       {
@@ -4764,6 +4766,85 @@
          ],
          "drops": [],
          "notes": ""
+        },
+        {
+         "part": "节子线版本（CO_Adder 的节子线章节）",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "Wad",
+           "members": [
+            "Wad",
+            "Wad ×4"
+           ],
+           "note": ""
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "Wadom",
+           "members": [],
+           "note": "×2"
+          },
+          {
+           "leader_pilot": "Po",
+           "leader_unit": "Wadom",
+           "members": [],
+           "note": ""
+          },
+          {
+           "leader_pilot": "Enil",
+           "leader_unit": "Jenice Custom",
+           "members": [],
+           "note": ""
+          },
+          {
+           "leader_pilot": "Setsuko",
+           "leader_unit": "Virgola Unit 1",
+           "members": [],
+           "note": ""
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "Turn 3",
+           "squads": [
+            {
+             "leader_pilot": "Eagle",
+             "leader_unit": "Coren Nander",
+             "members": [],
+             "note": ""
+            }
+           ]
+          },
+          {
+           "trigger": "Po Attacks",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Dotreis Neo",
+             "members": [
+              "Dotreis Neo",
+              "Dotreis Neo ×6"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Shagia",
+             "members": [],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Olba",
+             "members": [],
+             "note": ""
+            }
+           ]
+          }
+         ],
+         "drops": [],
+         "notes": ""
         }
        ]
       }
@@ -4877,7 +4958,9 @@
     "status": "编成已刊出（s-rpg-navi 与 GameFAQs 攻略交叉）",
     "rows": [],
     "reinforcements": [],
-    "notes": [],
+    "notes": [
+     "CO_Adder 对本关（共通关）分别写了兰德线与节子线两个章节，两份敌方列表并不相同（主要差异包括作为敌方数据出现的主人公机：第14话兰德线为钢雷昂、节子线为巴尔戈拉1号机；第15话的末波增援构成亦不同）。本站以兰德线章节为主表刊出，并附节子线章节的编成表于 CO_Adder 来源末尾，两份并列。"
+    ],
     "composition": {
      "sources": [
       {
@@ -5226,6 +5309,169 @@
              "note": "×5"
             }
            ]
+          }
+         ],
+         "drops": [],
+         "notes": ""
+        },
+        {
+         "part": "节子线版本（CO_Adder 的节子线章节）",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "Aishkik",
+           "members": [],
+           "note": "×3"
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "Aishfain",
+           "members": [],
+           "note": ""
+          },
+          {
+           "leader_pilot": "Henry",
+           "leader_unit": "Aishkik Commander",
+           "members": [
+            "Aishkik",
+            "Aishkik"
+           ],
+           "note": ""
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "Henry shot down",
+           "squads": [
+            {
+             "leader_pilot": "Windam",
+             "leader_unit": "Neo",
+             "members": [
+              "Windam",
+              "Windam"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "Chaos",
+             "leader_unit": "Sting",
+             "members": [
+              "Windam",
+              "Windam"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "Abyss",
+             "leader_unit": "Aul",
+             "members": [
+              "Dagger L",
+              "Dagger L"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "Gaia",
+             "leader_unit": "Stella",
+             "members": [
+              "Dagger L",
+              "Dagger L"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "HiZack",
+             "members": [
+              "HiZack",
+              "HiZack ×2"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Windam",
+             "members": [
+              "Windam",
+              "Windam ×2"
+             ],
+             "note": ""
+            }
+           ]
+          },
+          {
+           "trigger": "Neo Shot Down/Turn 6",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Golgol",
+             "members": [
+              "Minifo",
+              "Minifo ×3"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Kumoganira",
+             "members": [
+              "Tomira",
+              "Tomira ×2"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Guraken",
+             "members": [
+              "Halbea",
+              "Halbea ×2"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Jirogiras",
+             "members": [
+              "Halbea",
+              "Halbea"
+             ],
+             "note": ""
+            },
+            {
+             "leader_pilot": "Teraul",
+             "leader_unit": "Eldar Battleship",
+             "members": [],
+             "note": ""
+            },
+            {
+             "leader_pilot": "Butcher",
+             "leader_unit": "Bandock",
+             "members": [],
+             "note": ""
+            }
+           ]
+          },
+          {
+           "trigger": "Enemy battleship shot down/Turn 8",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Jyapalpa",
+             "members": [],
+             "note": "×5"
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "Gelbeam",
+             "members": [],
+             "note": "×5"
+            }
+           ]
+          },
+          {
+           "trigger": "Two enemies shot down",
+           "squads": []
           }
          ],
          "drops": [],
