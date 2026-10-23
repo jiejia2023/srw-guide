@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwMxMissionList from '../../../components/SrwMxMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战MX', path: 'srw-mx/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战MX（PS2）关卡攻略 · 全66个关卡页面列表" description="超级机器人大战MX（2004年 PS2）全部关卡的页面列表：一周目55话，计入序章主人公机两版、两次路线分歧的全部版本共66个不同剧本。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（迪杰SE-R、全装甲电童、黑大魔神三条连锁）、敌方编成（两份 GameFAQs 攻略交叉刊载）与坐标地图。本页为链接索引。" path="srw-mx/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战MX · 关卡攻略</h1>
+  <p>2004 年 PS2《超级机器人大战MX》（开发：バンプレソフト、トーセ）是承 COMPACT 系列血脉的家用机单作。开局在选定系列首创的「中意作品（お気に入り）」后，选择主人公机——真实系试作 6 号机<strong>塞伯拉斯</strong>或超级系试作 7 号机<strong>加姆雷德</strong>（主人公固定为雨果＋阿克娅的二人组合）；中盘有两次<strong>路线分歧</strong>（重庆／月球、留在地上／前往月球），另有五组可自由顺序攻略的三话区块。一周目实际游玩 <strong>55 话</strong>（第 1 话–第 54 话＋最终话），计入序章两版与两次分歧的全部版本共 <strong>66 个不同剧本</strong>，本站全部建页。本作<strong>没有熟练度系统</strong>：隐藏要素由三条连锁构成——迪杰 SE-R（第 23 话 UC 系平均等级）、全装甲电童（月面线限定）、黑大魔神（第 38→45→48 话）。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-mx/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第二十二部<strong>全关卡补完</strong>的作品——66 个详情页全部建成。用词与编号说明：本站关卡编号与标题以 Akurasu 的 MX <strong>Complete Chart 为主源</strong>，逐条与同站 Secrets 页交叉核对，系统与结构以日本维基百科及日本 SRW Wiki 互证——「一周目 55 话」与日本维基百科一致，66 个不同剧本由本站按各分歧的版本数清点（55＋序章 2＋第一次分歧 4＋第二次分歧 5）。<strong>敌方编成</strong>：由两份独立的 GameFAQs 全文攻略（Deranged faqs/31061、gundamtotoro faqs/30537）交叉刊载（只有构成与掉落，无等级与坐标；两份攻略对总数的出入在各页注明；例外：月面线第 18 话只有 Deranged 一份记录，按本站惯例暂不刊载、待用户裁决）。<strong>版本范围</strong>：本站以 PS2 原版为准——Akurasu 的 Complete Chart 中标为 PSP 版《MX Portable》的内容（如第 29 话阿克娅乘龙骑）不收录；流程图在本话并列的「泽奥莱默，于黎明出撃す」经日本来源核对为误记（见第 29 话页备注）。<strong>如实说明</strong>：Akurasu 的 Complete Chart 不刊载逐关敌方配置与地图数据，GameCenter GX 不收录本作——各页的敌方等级、坐标与逐格地形标为待核实（任何已查到的来源都不记敌方等级），坐标图为参照框架；本作部分关卡有「多层构造地图」，同样待核实。</span>
+  </div>
+
+  <SrwMxMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/MX/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars MX: Complete Chart</a>（主来源：全关卡的胜败条件、机体加入、隐藏条件与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/MX/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars MX: Secrets</a>（隐藏要素总表，与 Complete Chart 交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/MX" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars MX 主条目</a>（发售信息、系统子页索引）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0MX" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦MX</a>（系统、话数、参战作品与 PSP 版差异的交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/MX" rel="noopener" target="_blank">日本 SRW Wiki — 全話一覧/MX</a>（话数构成、自由顺序区块与第 29 话单版本口径的交叉核对）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/919293-super-robot-taisen-mx/faqs/31061" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen MX Guide by Deranged（faqs/31061）</a>（敌方编成来源之一）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/919293-super-robot-taisen-mx/faqs/30537" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen MX Guide by gundamtotoro（faqs/30537）</a>（敌方编成来源之二）</li>
+  </ul>
+  <p><a href={href('srw-mx/')}>← 返回超级机器人大战MX</a></p>
+</Base>
