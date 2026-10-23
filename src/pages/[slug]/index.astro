@@ -22,6 +22,7 @@ import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
 import SrwRMissionList from '../../components/SrwRMissionList.astro';
 import SrwAlpha2MissionList from '../../components/SrwAlpha2MissionList.astro';
 import SrwOgMissionList from '../../components/SrwOgMissionList.astro';
+import SrwOg2MissionList from '../../components/SrwOg2MissionList.astro';
 import SrwDMissionList from '../../components/SrwDMissionList.astro';
 import SrwMxMissionList from '../../components/SrwMxMissionList.astro';
 import SrwGcMissionList from '../../components/SrwGcMissionList.astro';
@@ -53,6 +54,7 @@ const isSrwImpact = g.slug === 'srw-impact';
 const isSrwR = g.slug === 'srw-r';
 const isSrwAlpha2 = g.slug === 'srw-alpha-2';
 const isSrwOg = g.slug === 'srw-og';
+const isSrwOg2 = g.slug === 'srw-og-2';
 const isSrwD = g.slug === 'srw-d';
 const isSrwMx = g.slug === 'srw-mx';
 const isSrwGc = g.slug === 'srw-gc';
@@ -1227,6 +1229,146 @@ const isSrwGc = g.slug === 'srw-gc';
     </div>
   )}
 
+  {isSrwOg2 && (
+    <div>
+      <h2>剧情概要：封印战争之后半年的新战乱</h2>
+      <p>本作（2005 年 2 月 3 日发售，开发：Banpresoft）是 OG 系列的正统续篇。DC 战争与 L5 战役（与异星人 Aerogater 之战、白星决战）结束半年后，联邦政府公开承认地球外智慧生命体的存在，并公布军队改编与军备增强的「伊吉斯计划（Aegis 计划）」。然而战乱并未结束：DC 残党集结为新组织<strong>新生 DC（Neue DC）</strong>继续对抗联邦；无预告现身的异星人<strong>检察官（Inspectors）</strong>以压倒性战力介入；自称来自「另一个世界」的神秘组织<strong>影镜（Shadow-Mirror）</strong>在暗中活动；被称为<strong>艾因斯特（Einst）</strong>的神秘存在则开始侵蚀这个世界。本作的故事骨干来自《IMPACT》《A》《COMPACT2》等作的原创班底（The School 的强化儿童、阿克塞尔与拉米亚、龙虎王传说等）在 OG 世界线上的重新编织（以上梗概据日文维基与日文 SRW Wiki）。</p>
+
+      <h2>路线结构：无主人公分歧、三次部队分歧 — 一周目 43 话、54 个不同剧本</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>区段</th><th>内容</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>第1–9话</td><td>全员共通</td><td>拉米亚与影镜登场、The School 强化儿童、新生 DC 残党</td></tr>
+            <tr><td>第10–13话</td><td>埃塞俄比亚线（钢号队）／月球线（飞龙改队）</td><td>第一次分歧，两线内容完全不同</td></tr>
+            <tr><td>第14–19话</td><td>全员共通</td><td>夏茵事件（第14–18话大半单位不可用）、检察官三机、千足舰护送</td></tr>
+            <tr><td>第20–23话</td><td>阿维亚诺线（钢号队）／伊豆线（飞龙改队）</td><td>第二次分歧：The School 线走阿维亚诺，影镜线走伊豆</td></tr>
+            <tr><td>第24–33话</td><td>全员共通</td><td>艾因斯特决战、SRX 成型、大曾伽登场、第33话集中结算多件隐藏</td></tr>
+            <tr><td>第34–36话</td><td>地球摇篮线（黑钢号队）／月球摇篮线（飞龙改队）</td><td>第三次分歧</td></tr>
+            <tr><td>第37–42话</td><td>全员共通</td><td>第42话《「过去」与「未来」》为名义最终话</td></tr>
+            <tr><td>最终话</td><td>共通：荒怒的星神（须累计熟练度 ≥35）</td><td>隐藏最终话</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>话数口径：日文维基作「全 43 话／54 关」，Akurasu 主页作「54 playable scenarios」，日文 SRW Wiki 的全话一览同样记 3 次选择分歧、第42话为最终话、第43话（荒怒的星神）为隐藏最终话——<strong>三源一致</strong>，本站已按 54 个不同剧本全部建页。与前作《OG》的根本区别：本作<strong>开局没有主人公二选一</strong>（隆圣与响介都在同一条主线里），分歧只是中途把部队拆成两队各打 3–4 话，之后合流；代价是每条分歧的另一侧在一周目内无法游玩，要看全 54 个剧本至少需要两周目（或分歧前存档）。</p>
+
+      <h2>熟练度（Battle Mastery）：最终话的门票＋难度的标尺</h2>
+      <ul>
+        <li><strong>规则</strong>：第1–41话<strong>各设 1 个取得条件、全程共 41 点</strong>，每话至多 +1、只增不减；第42话与最终话不设条件。条件形态与前作类似（限回合全歼、压血、护送、限时击坠会撤退的王牌等），各话条件写在各关攻略页的概要表里。（总点数 41 与下述门槛 35 出自 Akurasu 的流程图逐条清点与 Secrets 页；日文来源确认了「熟练度不达标进不了真正最终话」的机制本身，但未刊出这两个数字，见文末分歧说明。）</li>
+        <li><strong>用途一：最终话</strong>——第42话打完时累计 <strong>≥35 点</strong>才解锁隐藏最终话《荒怒的星神》；不足则游戏在第42话结束。</li>
+        <li><strong>用途二：难度</strong>——见下节。难度反过来又会影响敌方数量与强度，并有一条隐藏要素（隐形之翼方法 B）要求难度为「简单」。</li>
+        <li><strong>用途三：PP 奖励</strong>——取得熟练度时可获得 PP 奖励（据日文 SRW Wiki 的本作条目；GBA 版的具体数值未在日文来源中确认，标待核实）。</li>
+      </ul>
+
+      <h2>难度系统：熟练度比例决定简单／普通／困难</h2>
+      <ul>
+        <li><strong>判定</strong>（据日文 SRW Wiki 的熟练度系统页）：按「截至当前关为止已得熟练度 ÷ 截至当前关可得总数」的比例划分——<strong>简单 ≤29%、普通 30%–79%、困难 ≥80%</strong>，逐关动态变化。</li>
+        <li><strong>影响</strong>：难度影响敌方数量与强度、击坠的经验/资金/PP 与过关奖励（系统通则，据同页）；「简单」另有全我方驾驶员初期气力 +5 的专属效果（OG2/OGS/OG 外传）。</li>
+        <li><strong>规划含义</strong>：冲最终话要 ≥35/41（约 85%），这意味着终盘必然处于「困难」；反过来，想吃隐形之翼的方法 B（第28话后难度为简单）就得<strong>故意少拿熟练度</strong>——两种目标在同一周目内互斥，要提前选边。</li>
+        <li><strong>待核实</strong>：困难难度下敌机改造段数的具体加成等数字，本次只在 PS2《OGS》的机制资料中见到，未确认适用于 GBA 原版，本站不套用。</li>
+      </ul>
+
+      <h2>援护：自本作起攻防分离</h2>
+      <ul>
+        <li>前作《OG》的援护是一个统一的驾驶员技能（攻防兼用）；<strong>本作起拆成「援护攻击」与「援护防御」两个独立技能</strong>，各自养成、各自升级（日文维基与日文 SRW Wiki 的本作条目一致）。</li>
+        <li><strong>援护防御</strong>（据日文 SRW Wiki 的援护防御页，GBA OG2 栏）：技能 Lv 上限 4，对象为邻接单位，伤害减轻率 50%，每回合可用次数等于技能 Lv；养成 PP 为 Lv1–4 各 50/60/70/80。</li>
+        <li><strong>援护攻击</strong>的养成 PP 表本次未在日文来源中核到，标待核实，不与防御默认同价。</li>
+        <li>另：<strong>「連携攻撃」技能自本作起进入 OG 系列</strong>（日文 SRW Wiki 本作条目；该技能本身首登场于《第2次α》，本站第2次α主页有载）。</li>
+      </ul>
+
+      <h2>驾驶员养成（PP）：与前作同系、三处变化</h2>
+      <ul>
+        <li>基本框架与《OG》相同：击坠得 PP，间歇画面消费 PP 提升能力/学技能。养成单价与前作同表（能力 +1 = 4 PP；地形适应 D→C 10、C→B 20、B→A 30、A→S 40，据日文 SRW Wiki 的驾驶员养成页「OG1・OG2」同栏）。</li>
+        <li><strong>变化一</strong>：驾驶员能力值上限由前作提升至 <strong>400</strong>（日文维基）。</li>
+        <li><strong>变化二</strong>：<strong>副驾驶员自本作起也可以养成</strong>（前作不可）。</li>
+        <li><strong>变化三</strong>：<strong>「连续攻击」是仅本作可养成的技能</strong>（OG 系列后续作中改为不可养成，据同页）。</li>
+      </ul>
+
+      <h2>改造与换装武器：全改造奖励（Custom Bonus）原版即有</h2>
+      <ul>
+        <li><strong>全改造奖励</strong>：GBA 原版<strong>已有</strong>机体全改造奖励，称 Custom Bonus——机体全项目改满后，除共通奖励外可再选 1 种该机固有奖励（如强化部件槽增加、屏障耐久上升等），也可以不选（日文维基与日文 SRW Wiki 一致）。这与前作《OG》不同：OG 的 GBA 原版是否存在 FUB 在本次来源中仍未确认（见 OG 主页）。</li>
+        <li><strong>改造段数</strong>：通常模式下各机体/各项目的上限并不统一（日文来源未给出全机统一数字）；Special 模式才把全机全参数统一开放到 10 段（见周回一节）。</li>
+        <li><strong>武器改造</strong>：与前作一样是<strong>逐件个别式</strong>——固定武装与换装武器各自单独改造；换装武器改满没有全改造奖励。</li>
+        <li><strong>换装武器与 W 槽</strong>：延续前作的武器换装系统（可携带量由机体 W 槽决定，战舰/战斗机系为 10），OG2 的换装武器种类大幅增加；换装武器<strong>不可出售</strong>（强化部件则自本作起可在间歇画面出售）；提高 W 槽上限的唯一手段是部分机体的固有全改造奖励。</li>
+        <li><strong>形态换装</strong>：只有凶鸟 Mk-III 能在间歇画面换装机体形态（枪手型/拳手型等模块），为本作新增（日文维基）。</li>
+      </ul>
+
+      <h2>改造继承（据 Akurasu Upgrade Carryovers 页与流程图）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>原机体</th><th>继承到的机体</th><th>时点</th></tr></thead>
+          <tbody>
+            <tr><td>卡利昂</td><td>阿斯特利昂</td><td>第18话</td></tr>
+            <tr><td>古伦加斯特参式</td><td>武神装攻大曾伽</td><td>第30话</td></tr>
+            <tr><td>凶鸟 Mk-III Trombe</td><td>凶鸟 Mk-III·R（隐藏）</td><td>地球摇篮线第34话出击时／月球摇篮线第36话后</td></tr>
+            <tr><td>古铁</td><td>古铁巨人</td><td>月球摇篮线第34话出击时／地球摇篮线第36话后</td></tr>
+            <tr><td>白骑士</td><td>纯白骑士</td><td>第37话后</td></tr>
+            <tr><td>钢号</td><td>黑钢号</td><td>第34话·地球摇篮线（流程图记黑钢号继承钢号改造；Akurasu 的 Upgrade Carryovers 专页未列此对、只记下述驾驶员继承，两处并记）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>驾驶员继承（同源）：第32话后，铁也（钢号副驾驶）继承大铁（钢号主驾驶）的能力值、技能与精神，成为黑钢号的主驾驶；英太再继承铁也此前的数据（细节在第34话·地球摇篮线页面）。</p>
+
+      <h2>合体攻击（据 Akurasu Combination Attacks 页）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>合体攻击</th><th>参与机</th><th>气力</th><th>EN</th><th>射程</th><th>备注</th></tr></thead>
+          <tbody>
+            <tr><td>Rampage Ghost</td><td>古铁＋白骑士</td><td>120</td><td>35</td><td>1–4</td><td>第37话纯白骑士归队后更新为古铁巨人＋纯白骑士版（气力 120、EN 35、射程 1–5）</td></tr>
+            <tr><td>R-Formation</td><td>R-1＋R-2 强化型＋R-3 强化型</td><td>110</td><td>30</td><td>1–3</td><td>与前作同名，参数不同</td></tr>
+            <tr><td>HTB 加农炮</td><td>SRX＋R-Gun 强化型</td><td>140</td><td>100</td><td>3–9</td><td>茉衣版（流程中实际入手）；Akurasu 同页另列一「薇蕾塔版」（气力 130、EN 70、射程 1–7），其在 GBA 原版中的出现条件该页未注明，待核实</td></tr>
+            <tr><td>双鸟攻击（Twin Bird Strike）</td><td>野蛮人＋野隼</td><td>115</td><td>30</td><td>1–5</td><td>第33话习得</td></tr>
+            <tr><td>龙卷斩舰刀（Tornado Blade）</td><td>武神装攻大曾伽＋奥森赛塔</td><td>130</td><td>65</td><td>1–3</td><td>第30话习得</td></tr>
+            <tr><td>Royal Heartbreaker</td><td>妖精里昂 S＋妖精里昂 G</td><td>110</td><td>25</td><td>1–4</td><td>第20话·阿维亚诺线习得</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素分四类：<strong>跨话连锁机体</strong>、<strong>击坠/等级结算武器与部件</strong>、<strong>单关事件武器</strong>、<strong>周回限定</strong>。各步的具体做法写在立旗/结算/交付的那一话页面内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>对象</th><th>交付话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>阿什塞巴</td><td>第28话</td><td>三步连锁：第10话·埃塞俄比亚线或第13话·月球线让拉米亚站到艾奇德娜撤退的格子 → 第19话拉米亚与阿克塞尔交战恰好 2 次 → 第24话结束时拉米亚击坠 ≥55</td></tr>
+            <tr><td>瓦伊萨加</td><td>第28话</td><td>同上但第19话交战恰好 1 次；<strong>仅二周目及以后</strong>可取得</td></tr>
+            <tr><td>野蛮人 L</td><td>第27话登场、过关后保留</td><td>第19话阿拉德先击坠 4 台以上亡灵 Mk-II·M 再接近塞欧拉 → 第26话结束时阿拉德击坠 ≥50 → 第27话由茉衣在我方增援前击坠 5 台初期敌人</td></tr>
+            <tr><td>凶鸟 Mk-III·R</td><td>第34话（地球摇篮线）／分歧结束后（月球摇篮线）</td><td>第17–18话拉特塞尔再添 15 击坠 → 第30话取得熟练度 → 第33话结束时六名指定驾驶员等级合计 ≥185</td></tr>
+            <tr><td>亡灵 Mk-II·S</td><td>第34话（月球摇篮线）／分歧结束后（地球摇篮线）</td><td>第33话结束时卡伊击坠 ≥55 且等级 ≥33</td></tr>
+            <tr><td>重力加农炮</td><td>第15话</td><td>第6话由薇蕾塔独自击破除三台兰德格里夫外的全部敌人</td></tr>
+            <tr><td>狮子王之剑（两条来源）</td><td>第17话后／第15话</td><td>其一：第14话结束时布里特击坠 ≥45 且等级 ≥18；其二：第15话击破检察官三机且格雷特金最后（与 G 冲击木桩、钢铁之魂、英雄纹章、特制 CPU 同组）</td></tr>
+            <tr><td>助推锤</td><td>第16话</td><td>阿拉德 4 回合内独自击破全部初期敌人（枪虫）</td></tr>
+            <tr><td>隐形之翼</td><td>第32话</td><td>方法 A：第31话之前在任意出场话击坠卡拉至少一次；方法 B：第28话后难度为简单时自动装备于基利亚姆的亡灵（名称分歧见文末）</td></tr>
+            <tr><td>G 冲击木桩、新环形投射器</td><td>第33话后</td><td>第30话大曾伽出击后不再击破任何敌人</td></tr>
+            <tr><td>第二钢铁之魂、第二英雄纹章</td><td>第33话后</td><td>二周目及以后自动获得</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>周回继承与追加模式（与前作 OG 的存档没有连动）</h2>
+      <ul>
+        <li><strong>先说清</strong>：GBA 版 OG2 与前作 OG 的卡带<strong>没有任何存档连动/继承奖励</strong>——本次查阅的日文维基与日文 SRW Wiki 本作条目完整列出了系统与周回特典，均无读取 OG1 通关存档的记载；下述继承全部只针对 OG2 自身的通关存档。（PS2《OGS》在同一光盘内从 OG1 篇把资金/PP 带入 OG2 篇，是重制版的内部结构，不属于 GBA 版。）</li>
+        <li><strong>周回继承</strong>（据日文 SRW Wiki 本作条目）：与前作不同，本作<strong>第 2 周目起即可继承资金与 PP</strong>，继承率随周目数上升；但<strong>第 3 周目起只有上一周目所获得的那部分才是继承对象</strong>。具体百分比本次未在日文来源中确认——前作 OG 的 50%/75%/100% 是 OG 自己的规则，不要套到本作，本站标待核实。</li>
+        <li><strong>EX Hard 模式</strong>：首次通关后解锁（第 2 周目起可在开局选择）。规则：难度无视熟练度固定为「困难」；间歇画面<strong>不可改造武器</strong>；驾驶员养成的 PP 消耗 <strong>2 倍</strong>；全敌机改造段数 +3；敌驾驶员击坠数 +30（日文维基与日文 SRW Wiki 一致；通关 EX Hard 还会按 Akurasu Secrets 页的说法继承资金与 PP 到该模式）。</li>
+        <li><strong>Special 模式</strong>：通关 EX Hard 后解锁（最快第 3 周目）。规则：全机体全参数改造上限升至 <strong>10 段</strong>；开局即持有全部种类的换装武器与强化部件各 1 个；难度变化方式与普通模式相同（注意：上限提高后凑全改造奖励所需资金也随之增加）。</li>
+        <li><strong>其他通关特典</strong>：通关一次后可在系统菜单输入指令开启 Sound Select 听全部 BGM（Akurasu Secrets 页）。</li>
+      </ul>
+
+      <h2>敌方数据现状</h2>
+      <ul>
+        <li><strong>编成（构成、数量、增援）已刊出</strong>：由两份相互独立的 GameFAQs 全文攻略——gundamtotoro（faqs/35278，2005 年，日版发售当月）与 CO_Adder（faqs/48137，2007 年）——逐关交叉刊载于各关页面（照各自原文分列，含掉落物）。<strong>例外</strong>：CO_Adder 的攻略未覆盖月球摇篮线第34–36话，这 3 关的编成只有 gundamtotoro 一份刊载，按本站「单一来源不导入」的惯例暂不刊出、列为<strong>待用户裁决</strong>事项（见该 3 关页面说明）。另有 Rasmiel 的一份同类攻略，但作者自承多条分歧路线未覆盖、且其致谢中称受 gundamtotoro 影响，本站只作旁证、不作为双源之一。</li>
+        <li><strong>两源出入</strong>：两份攻略在多关的敌方数量、个别单位类型与增援触发记述上有出入（罗马字拼写差异更是系统性的，如 Guarlion/Guarion），本站照各自原文并列刊出、不擅自调和，读者可对照两份表自行判断。</li>
+        <li><strong>待核实</strong>：敌方逐台<strong>坐标</strong>与<strong>等级</strong>、逐格<strong>地形</strong>——全部已查来源（Akurasu、两份 GameFAQs、日文各站）均不刊载，GameCenter GX 不收录本作。各页地图为带四边坐标轴的参照框架。</li>
+        <li>两份攻略的编成未按难度分档：本作难度会影响敌方数量与强度（见难度一节），引用编成时请结合当前难度，个别关卡两源之间的数量出入本站照原样并列、不擅自调和。</li>
+      </ul>
+
+      <h2>版本注记</h2>
+      <p>本作于 2007 年与前作《OG》一并在 PS2 上重制为《超级机器人大战 OG ORIGINAL GENERATIONS》（OGS），OG2 篇在系统与剧本上都有调整（如取消熟练度进最终话的门槛，据日文 SRW Wiki）。本站关卡数据全部以 <strong>GBA 原版（2005 年）</strong>为准，OGS 的逐话差异不在本站当前范围内；引用本站数据时请勿与 OGS 混用。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets 页逐条交叉核对；系统以日文维基、日文 SRW Wiki（本作条目、熟练度页、援护防御页、驾驶员养成页、周回页、改造页、换装武器页）互证；合体攻击与改造继承据 Akurasu 的 Combination Attacks／Upgrade Carryovers 页；敌方编成据两份 GameFAQs 攻略（见上）。已确认的主要分歧与处理：①日文标题误记四处——第3话 Akurasu 作「聖十字軍の残身」，本站从通行写法作「残骸」并在该页并记；第22话·阿维亚诺线 Akurasu 作「百舌と隼く」，末尾「く」疑为衍字，从英文题名作「百舌と隼」；第32话 Akurasu 标题末尾的「く」同理删去并注记；第36话·月球摇篮线 Akurasu 的日文题名与第35话同作「純粋なる存在」，但英文题名不同（Pure Presence／Harvest Moon），疑为复制误记，本站中文名从英文作《收获之月》、日文照原表刊出并标待核实。②隐形之翼的名称与方法 B——Akurasu 的流程图与 Secrets 页均作「Stealth Wing」并载有「第28话后难度简单自动装备」的方法 B；日文 SRW Wiki 的本作条目中对应隐藏武器名作「ステルス・ブーメラン（Stealth Boomerang）」且未见方法 B 的记载。本站条件以 Akurasu 为准、名称两说并记于第28话页，待实机核对。③熟练度总数 41 与最终话门槛 35 这两个数字出自 Akurasu（流程图逐条清点＋Secrets 页的最终话注记）；日文来源只确认了门槛机制本身，未刊出数字，本站按 Akurasu 刊出并在此注明出处层级。④凶鸟 Mk-III·R 第 1 步的表述——流程图作「第17、18话内再增加 15 个击坠」，Secrets 时间线作「第18话结束时击坠数 ≥35」，两说并记于第17话页。⑤狮子王之剑有两条互相独立的取得途径（第14话布里特结算／第15话检察官组全灭），Akurasu 的 Secrets 页与流程图均并列两条，本站照录、不合并。⑥HTB 加农炮的「薇蕾塔版」——Akurasu 的合体攻击页与茉衣版并列刊出，但未注明其在 GBA 原版中的出现条件；流程中实际交付的是茉衣版（第25话），薇蕾塔版标待核实。⑦钢号→黑钢号的改造继承——流程图明记黑钢号继承钢号改造，Upgrade Carryovers 专页则未列此对、仅记铁也的驾驶员继承，本站两处并记（见改造继承表注）。⑧Akurasu 的 Formulas 页只刊伤害/命中公式，未刊难度阈值；难度比例（≤29%／30–79%／≥80%）据日文 SRW Wiki 的熟练度页。</p>
+    </div>
+  )}
+
   {isSrwD && (
     <div>
       <h2>剧情概要：消失的地球与破灭之王</h2>
@@ -2324,6 +2466,11 @@ const isSrwGc = g.slug === 'srw-gc';
     <div>
       <p>本作 <strong>74 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 42 话——隆圣/响介两条主人公线各有第1–22话与第32–41话的不同版本，第23–31话共通，最终话共通且须累计熟练度 ≥32 解锁）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（跨话连锁的立旗、结算与交付都写在对应那一话里）与坐标地图（敌方配置与地形待核实，原因见各详情页；本作敌方出现数量还随熟练度变动）。本作同时保留一份<a class="link" href={href('srw-og/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwOgMissionList />
+    </div>
+  ) : isSrwOg2 ? (
+    <div>
+      <p>本作 <strong>54 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 43 话——第1–42话＋须熟练度 ≥35 解锁的隐藏最终话；三次部队分歧的另一侧版本也都建页）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（跨话连锁的立旗、结算与交付都写在对应那一话里）与坐标地图（敌方编成由两份 GameFAQs 攻略交叉刊载，月球摇篮线第34–36话为单一来源暂不刊载、待用户裁决；敌方坐标、等级与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-og-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwOg2MissionList />
     </div>
   ) : isSrwD ? (
     <div>
