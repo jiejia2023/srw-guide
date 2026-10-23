@@ -8,6 +8,7 @@ import Srw3MissionList from '../../components/Srw3MissionList.astro';
 import SrwExMissionList from '../../components/SrwExMissionList.astro';
 import Srw4MissionList from '../../components/Srw4MissionList.astro';
 import SrwMasoukishinMissionList from '../../components/SrwMasoukishinMissionList.astro';
+import SrwMasoukishin2MissionList from '../../components/SrwMasoukishin2MissionList.astro';
 import SrwShinMissionList from '../../components/SrwShinMissionList.astro';
 import SrwFMissionList from '../../components/SrwFMissionList.astro';
 import SrwFFinalMissionList from '../../components/SrwFFinalMissionList.astro';
@@ -53,6 +54,7 @@ const isSrw3 = g.slug === 'srw-3';
 const isSrwEx = g.slug === 'srw-ex';
 const isSrw4 = g.slug === 'srw-4';
 const isMasoukishin = g.slug === 'srw-masoukishin';
+const isMasoukishin2 = g.slug === 'srw-masoukishin-2';
 const isShin = g.slug === 'srw-shin';
 const isSrwF = g.slug === 'srw-f';
 const isSrwFFinal = g.slug === 'srw-f-final';
@@ -488,6 +490,151 @@ const isCardChronicle = g.slug === 'srw-card-chronicle';
       <h2>其他版本（概要）：DS 重制版与 PSP 版</h2>
       <p>本站逐话攻略以 <strong>1996 年 SFC 原版</strong>为准。<strong>DS 重制版《超级机器人大战OGサーガ 魔装机神 THE LORD OF ELEMENTAL》（2010 年 5 月 27 日）</strong>把本作纳入 OG 系列时间线重制（剧情与 DC 战争的关联相应调整），其后 <strong>PSP《魔装机神 I&amp;II》（2012 年）</strong>收录了该重制版与续作《魔装机神II》。重制版的系统、数值与个别剧情处理与 SFC 原版有别，本站各关数据只对应 SFC 原版，不要混用；本站条目中的 DS/PSP 平台标签即指这些重制版。</p>
       <p class="text-sm text-base-content/60">版本信息据日文维基百科（SFC 原版页与 OGサーガ版页）。</p>
+    </div>
+  )}
+
+  {isMasoukishin2 && (
+    <div>
+      <h2>剧情概要：安提拉斯队与修特多尼亚斯分裂</h2>
+      <p>本作是《魔装机神 THE LORD OF ELEMENTAL》的正统续作——SFC 原版（1996）开发一度中断（优先开发《F》），约 16 年后才由 Winkysoft 与万代南梦宫（Banpresto 厂牌）重启完成。时点在 LOE 第二章之后：正树一行调查新发现的伏尔库斯神殿、击破大司教萨蒂鲁斯召唤的伏尔库斯分身之后，拉·基亚斯新成立了独立部队<strong>安提拉斯队</strong>，以巨舰<strong>弗林格霍尔尼</strong>为母舰。与此同时恐怖活动升级，<strong>修特多尼亚斯分裂为南北两国</strong>，幕后是伏尔库斯教团与大司教艾尔希涅的操纵。本作新登场的主要面孔有安提拉斯队的新人操者兹雷因（里奥盖拉）与梅菲尔（德尔吉兰）、接手索尔盖迪的加恩、以及正树的宿敌艾兰·泽诺萨基斯（泽尔沃伊德）。在 OG 世界线中的位置，Akurasu 记为《魔装机神I》后半部分与《第2次OG》的外传篇章之后。</p>
+
+      <h2>路线结构：三条路线、三种终盘</h2>
+      <p>全作 <strong>74 个剧本</strong>（本站按 Akurasu 流程图逐条清点，与日文维基转引官方攻略本《Perfect Bible》的「全 74 剧本」一致；攻略本的目录编号亦可互证：其终盘区块 38–50 号偏温蒂线展开、51–58 号为普蕾西亚线、59–74 号偏扬龙线展开，与本站的双线段＋三终盘划分吻合）。第12(13)话的总分歧决定整条路线，且影响一直延续到终盘——三条路线在第32话之后<strong>不再合流，各有专属的最终话</strong>。中段另有第17话击破数、第18话建筑防卫、第25话男女平均等级等条件产生的版本变体。额外剧本第8话的有无使中段话数差一位（本站沿用 Akurasu 的 X(Y) 双编号）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>路线</th><th>进入方式</th><th>单周目话数</th><th>最终话</th><th>特征</th></tr></thead>
+          <tbody>
+            <tr><td>温蒂线（北部）</td><td>第12(13)话选择北上</td><td>38 话（打额外剧本 39 话）</td><td>第38(39)话「艾尔希涅的真意」</td><td>先与北部军作战；莱考与桑德里布姐妹等在本线正式加入；揭晓温蒂身体的秘密</td></tr>
+            <tr><td>扬龙线（南部）</td><td>第12(13)话选择南下</td><td>41 话（打额外剧本 42 话）</td><td>第41(42)话「终末的启示」</td><td>先与南部军作战；以扬龙与艾尔希涅的关系为核心；修一行（修、萨菲妮、莫妮卡、特里斯）在本线正式加入</td></tr>
+            <tr><td>普蕾西亚线（条件）</td><td>第1话与额外第8话中，普蕾西亚都与伏尔库斯发生战斗</td><td>40 话</td><td>第40话「封印的双重螺旋」</td><td>揭晓施加在普蕾西亚身上的诅咒与泽奥鲁特之死的关系；普蕾西亚长期离队、最终话回归</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">路线名称从日文维基（北部・温蒂／南部・扬龙／普雷西亚）；「温蒂线」「扬龙线」的归属另与 Akurasu General 页的临时角色说明互证（修一行只在扬龙线正式加入、莱考一行只在温蒂线正式加入）。日方来源没有给出「结局总数」的官方数字，本站只记「三条路线各有专属最终话」这一可查证的事实。</p>
+
+      <h2>本作的系统（沿用 LOE 基底、多处改版）</h2>
+      <ul>
+        <li><strong>等角投影的立体地图与朝向。</strong>与前作一样是斜视角立体地图，攻击朝向有修正。本作的朝向数值（据 srw.wiki「方向」页）为：侧面攻击命中 ×1.2、攻击 ×1.1、被反击命中 ×0.8；背面攻击命中 ×1.5、攻击 ×1.2、被反击命中 ×0.5——攻击加成比前作下调。srw.wiki 并指出本作不采用二回行动、因 HP 阈值撤退的敌人较少，朝向的重要性低于前作。<strong>高低差</strong>在前作有明确规则，但本作单独的高低差数值在日方来源中未查到独立明证，标为<strong>待核实</strong>，不套用前作数字。</li>
+        <li><strong>守护精灵：属性、位阶与地形亲和。</strong>每台魔装机有守护精灵：属性分风、炎、水、大地四种，相性影响伤害，高位精灵攻击低位另有加成。本作强化了<strong>地形与精灵属性的亲和</strong>：地形按守护精灵属性产生亲和，修正回避、所受伤害与移动，魔法阵的种类也比前作更多（日文维基）。</li>
+        <li><strong>普拉纳（プラーナ）。</strong>沿用前作：驾驶员的灵力参数，越高机体性能修正越好；强力武器（地图兵器、必杀技）会消耗普拉纳，火力与性能此消彼长。</li>
+        <li><strong>操者育成：技能自由装卸（系列首创）。</strong>本作起驾驶员特殊技能不再随升级自动习得，改为在技能格（开局 2 格、随等级增加）内<strong>自由装卸</strong>；技能靠使用次数升等级，两个特定技能练满可派生复合技能（srw.wiki 明记本作是系列中首个采用「操者育成」的作品）。另有一批技能在通关指定话数后全员习得（第7话后「背水之阵/百发百中」、第11(12)话后「豪腕/名手/一攫千金/武运长久」、第17(18)话后「底力/射程延长/援护攻击/援护防御」、第21(22)话后「纵横无尽/移动扩大/斗争本能」、第25(26)话后「狮子奋迅/意气扬扬/普拉那回复」、第31(32)话后「士气高扬」与按驾驶员分配的上位技能），逐话记在各话攻略页。</li>
+        <li><strong>精神指令：第 6 个自选。</strong>每位驾驶员有 6 个精神指令，前 5 个固定，第 6 个在等级达到 33–39（因人而异）时由玩家从 28 种中<strong>自选一个</strong>永久习得——这是本作的新系统（修一行没有自选格，构成例外）。可选指令见下表。</li>
+        <li><strong>援护与合体攻击（自本传引入，规则有别）。</strong>援护攻击/援护防御作为技能存在，但<strong>使用次数不按回合回复</strong>，用完后到下一张地图为止都不能再用；合体攻击则与本传不同，<strong>参战的全体驾驶员都能获得经验值</strong>（日文维基）。</li>
+        <li><strong>改造与武器升格。</strong>武器改满后<strong>升格（ランクアップ）</strong>为上级武器——本作的规则是：升格后武器的未改造攻击力 <strong>= 原武器改造 6 段时的攻击力</strong>，即升格前的攻击力原样保留（srw.wiki「改造」页；前作 LOE 升格后一般会先变弱）。机体改满另有固定的<strong>全改造奖励</strong>（见下表，含守护精灵位阶提升；弗林格霍尔尼不可改造，斯文德·格哈德/奥兰无全改造奖励）。没有可升格武器的机体在本作一般会短时间离队（有例外，日文维基）。</li>
+        <li><strong>邪神级机体与可破坏建筑。</strong>本作有占据多个格子且不移动的「邪神级」大型机体；地图上的建筑/障碍物可破坏，部分关卡有「保护建筑」的胜败条件，另有落石等随机事件。</li>
+        <li><strong>出击数逐关设定。</strong>没有全作统一的出击上限：逐关由「强制出击机体 + 可选出击 N 台」构成（例如第7话为塞巴斯塔强制 + 任意 7 台），逐关数值以日方攻略页为准，本站未逐关刊载。</li>
+        <li><strong>本作没有熟练度系统。</strong>Akurasu 的流程图没有熟练度/SR 点字段，日方系统资料亦无记载；本作的分歧与隐藏全由路线选择与事件条件（交战、击破数、武器使用次数等）决定，本站不会为本作标注任何熟练度条件。</li>
+        <li><strong>临时角色与改造费返还。</strong>蒂安、阿哈马德、罗德尼、艾丽斯是临时角色，不会正式加入；他们（以及各话记载的永久离队者）离队时，投入其机体的改造费会返还。机体的传承关系为：罗德尼的吉奥拉斯传给方格、艾丽斯的德尔吉兰传给梅菲尔、阿哈马德的索尔盖迪改传给加恩（Akurasu General 页）。</li>
+        <li><strong>周回继承（NG+）。</strong>通关后开新周目：驾驶员等级与机体改造重置，但已获得的武器/合体攻击、特殊技能（含隐藏技能）与技能等级、击破数、武器使用次数保留；资金按总获得额（含已花掉的部分）继承——2 周目 50%、3 周目 75%、4 周目起 100%。塞巴斯塔的「附身」能力不继承（Akurasu General/Clear 页）。</li>
+      </ul>
+
+      <h2>第 6 精神指令可选表（28 种）</h2>
+      <p>每位驾驶员（修一行除外）在等级达到 33–39 时，从下表选 1 个作为自己的第 6 个精神指令（本节内不可更改；周回后技能保留规则见上）。SP 与效果据 Akurasu 的 Spirits 页。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>指令</th><th>SP</th><th>对象</th><th>效果</th></tr></thead>
+          <tbody>
+            <tr><td>集中</td><td>10</td><td>本人</td><td>1 个完整回合命中/回避 +30%</td></tr>
+            <tr><td>必中</td><td>12</td><td>本人</td><td>1 个完整回合命中 100%</td></tr>
+            <tr><td>闪烁（ひらめき）</td><td>14</td><td>本人</td><td>必定回避下一次攻击</td></tr>
+            <tr><td>直感</td><td>15</td><td>本人</td><td>必中 + 闪烁</td></tr>
+            <tr><td>不屈</td><td>20</td><td>本人</td><td>下一次所受伤害降为 10</td></tr>
+            <tr><td>铁壁</td><td>40</td><td>本人</td><td>1 个完整回合装甲值 ×3</td></tr>
+            <tr><td>加速</td><td>6</td><td>本人</td><td>下次移动时移动力 +3</td></tr>
+            <tr><td>手加减</td><td>4</td><td>本人</td><td>下一次攻击若会击破等级低于自己的敌人，则只打到 HP 10</td></tr>
+            <tr><td>突击</td><td>24</td><td>本人</td><td>下次移动后全部武器可用（地图兵器除外）</td></tr>
+            <tr><td>热血</td><td>36</td><td>本人</td><td>下一次攻击伤害 ×2</td></tr>
+            <tr><td>魂</td><td>48</td><td>本人</td><td>下一次攻击伤害 ×2.5</td></tr>
+            <tr><td>努力</td><td>22</td><td>本人</td><td>下一次战斗经验值 ×2</td></tr>
+            <tr><td>幸运</td><td>28</td><td>本人</td><td>下一次战斗击破敌人的资金 ×2</td></tr>
+            <tr><td>侦察</td><td>1</td><td>敌 1 体</td><td>查看敌人状态</td></tr>
+            <tr><td>分析</td><td>20</td><td>敌 1 体</td><td>1 个完整回合该敌攻击/防御 −10%</td></tr>
+            <tr><td>气合</td><td>20</td><td>本人</td><td>气力 +10</td></tr>
+            <tr><td>脱力</td><td>25</td><td>敌 1 体</td><td>气力 −10</td></tr>
+            <tr><td>搅乱（撹乱）</td><td>40</td><td>敌全体</td><td>1 个完整回合命中减半</td></tr>
+            <tr><td>激励</td><td>45</td><td>友军 1 体</td><td>气力 +10</td></tr>
+            <tr><td>勇气</td><td>55</td><td>本人</td><td>热血 + 必中 + 加速 + 气合 + 不屈同时生效</td></tr>
+            <tr><td>吸收</td><td>20</td><td>敌 1 体</td><td>吸取 50 MG 转给自己</td></tr>
+            <tr><td>炼功</td><td>34</td><td>友军 1 体</td><td>回复其普拉纳的一半</td></tr>
+            <tr><td>补给</td><td>36</td><td>友军 1 体</td><td>MG 与弹药全回复，目标气力 −10</td></tr>
+            <tr><td>信赖</td><td>17</td><td>友军 1 体</td><td>回复 HP 30%</td></tr>
+            <tr><td>友情</td><td>23</td><td>友军 1 体</td><td>HP 全回复</td></tr>
+            <tr><td>根性</td><td>10</td><td>本人</td><td>回复 HP 30%</td></tr>
+            <tr><td>大根性（ド根性）</td><td>18</td><td>本人</td><td>HP 全回复</td></tr>
+            <tr><td>爱</td><td>60</td><td>友军全体</td><td>HP 全回复</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>全改造奖励（固定）</h2>
+      <p>机体改满获得的固定奖励（据 Akurasu 的 FUB 页）；有守护精灵的机体另使精灵位阶提升一级。「回复」指每回合自动回复的 HP/MG 比例（自→至）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>机体</th><th>移动</th><th>装甲</th><th>HP</th><th>特殊能力变化</th></tr></thead>
+          <tbody>
+            <tr><td>塞巴斯塔</td><td>+2</td><td>—</td><td>—</td><td>HP 回复 10%→30%</td></tr>
+            <tr><td>格兰威尔</td><td>—</td><td>+200</td><td>—</td><td>MG 回复 5→30</td></tr>
+            <tr><td>卡迪斯</td><td>—</td><td>—</td><td>+2000</td><td>MG 回复 5→30</td></tr>
+            <tr><td>扎姆吉德</td><td>+2</td><td>—</td><td>—</td><td>HP 回复 10%→30%</td></tr>
+            <tr><td>瓦尔希奥妮R</td><td>+2</td><td>—</td><td>+2000</td><td>HP 回复 10%→30%</td></tr>
+            <tr><td>迪亚布罗</td><td>—</td><td>+200</td><td>+2000</td><td>HP 回复 10%→30%</td></tr>
+            <tr><td>诺尔斯·雷</td><td>—</td><td>+200</td><td>+2000</td><td>HP 回复 无→30%</td></tr>
+            <tr><td>里奥盖拉</td><td>+2</td><td>+200</td><td>—</td><td>MG 回复 10→30</td></tr>
+            <tr><td>贾奥姆</td><td>+2</td><td>+200</td><td>—</td><td>HP 回复 无→30%</td></tr>
+            <tr><td>拉·温塔</td><td>—</td><td>—</td><td>+2000</td><td>HP 回复 10%→30%；MG 回复 5→30</td></tr>
+            <tr><td>丁佛斯</td><td>—</td><td>—</td><td>+2000</td><td>HP 回复 无→30%；MG 回复 5→30</td></tr>
+            <tr><td>索尔盖迪</td><td>+2</td><td>—</td><td>+2000</td><td>MG 回复 5→30</td></tr>
+            <tr><td>扎因</td><td>—</td><td>—</td><td>+2000</td><td>HP 回复 无→30%；MG 回复 5→30</td></tr>
+            <tr><td>吉奥拉斯</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>德尔吉兰</td><td>+2</td><td>—</td><td>—</td><td>HP 回复 无→30%；MG 回复 10→30</td></tr>
+            <tr><td>法尔克</td><td>—</td><td>+200</td><td>+2000</td><td>MG 回复 5→30</td></tr>
+            <tr><td>丁弗莱尔</td><td>+2</td><td>—</td><td>—</td><td>HP 回复 无→30%；MG 回复 10→30</td></tr>
+            <tr><td>加尔加德</td><td>—</td><td>+200</td><td>+2000</td><td>MG 回复 10→30</td></tr>
+            <tr><td>拉斯托尔</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>杰法尔</td><td>—</td><td>+200</td><td>+2000</td><td>MG 回复 10→30</td></tr>
+            <tr><td>格兰森</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>威佐尔改</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>迦迪福尔</td><td>+2</td><td>—</td><td>+2000</td><td>HP 回复 无→30%</td></tr>
+            <tr><td>共鸣·赤</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>共鸣·青</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+            <tr><td>斯文德·尼达姆</td><td>+2</td><td>+200</td><td>+2000</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">日方来源对「全改造」的明确记载只有武器升格一项，本表的逐机固定奖励以 Akurasu 的 FUB 页为据，两者不冲突（升格讲武器、奖励表讲机体），在此并记。</p>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素以<strong>追加武器/合体攻击、专属技能与额外资金</strong>为主，条件多为累计击破数与武器使用次数（使用次数在周回间继承，常可分周目攒）。各步的具体做法写在对应话数的攻略页内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>机体/驾驶员</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>普拉那放出</td><td>塞巴斯塔</td><td>第23(24)话</td><td>正树未被击破通关（流程图）；Secrets 页另记为后一话自动获得，两说并记</td></tr>
+            <tr><td>卡塔拉克特飞溅</td><td>卡迪斯（缇缇）</td><td>第19(20)话→第25(26)话</td><td>缇缇在第19(20)话结束时击破 ≥10，在第25(26)话获得</td></tr>
+            <tr><td>精炎·火之精灵</td><td>格兰威尔（杨龙）</td><td>第19(20)话→第25(26)话</td><td>杨龙在第19(20)话结束时击破 ≥5，在第25(26)话获得</td></tr>
+            <tr><td>双裂</td><td>扎姆吉德（美绪）</td><td>第18(19)话[击破0]</td><td>美绪出击、击破 ≥10 且守住基地</td></tr>
+            <tr><td>里·扬·投当·木灵</td><td>扎姆吉德（美绪）</td><td>第33话[普蕾西亚]</td><td>美绪出击且「五郎入道正宗」使用 ≥5 次</td></tr>
+            <tr><td>沃尔斯帕</td><td>卡迪斯（缇缇）</td><td>第33(34)话[扬龙]</td><td>缇缇出击且「芬里尔碎击」使用 ≥5 次</td></tr>
+            <tr><td>凤喙火风青云剑</td><td>格兰威尔</td><td>第38(39)话[扬龙]</td><td>自动获得</td></tr>
+            <tr><td>莫比乌斯翡翠</td><td>瓦尔希奥妮R（琉妮）</td><td>第30(31)话A→第32(33)话[温蒂]</td><td>「十字碎击」使用 ≥5 次后，在后一话出击琉妮</td></tr>
+            <tr><td>广域修理装置</td><td>诺尔斯·雷（塞尼亚）</td><td>第25(26)话[女性平均高]</td><td>「天使的耳语」使用 ≥5 次，过关后获得地图回复</td></tr>
+            <tr><td>春之祭典</td><td>迪亚布罗（普蕾西亚）</td><td>第40话[普蕾西亚]</td><td>最终话剧情中普蕾西亚归队时自动获得</td></tr>
+            <tr><td>暂斩攻击（合体）</td><td>塞巴斯塔＆瓦尔希奥妮R</td><td>第31(32)话A</td><td>「乱舞之太刀」「圆月杀法」各使用 ≥5 次</td></tr>
+            <tr><td>太极阴阳破邪法（合体）</td><td>格兰威尔＆卡迪斯</td><td>第29(30)话A</td><td>同时出击杨龙与缇缇，话初解禁</td></tr>
+            <tr><td>盖亚的锁缚（合体）</td><td>扎姆吉德＆迪亚布罗</td><td>第27(28)话B→第28(29)话B</td><td>「超振动拳」「绿色墓标」各使用 ≥5 次后，次话同时出击两人；注意条件达成前不要升格这两件武器</td></tr>
+            <tr><td>专属技能 5 种</td><td>梅菲尔/普蕾西亚·修/兹雷因/加恩/奎多</td><td>第14(15)话、第8话[额外]、第18(19)话[击破0]、第20(21)话、第25(26)话[男性平均高]</td><td>弹药装填（击破 ≥5）、坚忍不拔（普蕾西亚与乌夫交战）、猪突猛进（击破 ≥10 且守住基地）、征讨亡魔（击破 ≥15）、隐密行动（击破 ≥5）</td></tr>
+            <tr><td>额外资金 3 处</td><td>—</td><td>第5话、第6话、第21(22)话</td><td>保护目标的达成度决定金额（20,000/10,000；30,000/20,000/10,000；50,000/10,000）；第6话另有金色魔像连锁出现的刷法（最多约 100,000）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>参战作品</h2>
+      <p>本作与前作一样<strong>没有版权作品参战</strong>：登场的只有原创的《魔装机神》世界——魔装机神与魔装机群、安提拉斯队、伏尔库斯教团与修特多尼亚斯军。本作属于 OG 系列（OGサーガ），人物与机体承自 LOE 并在此后继续活跃于 OG 本传。</p>
+
+      <h2>敌方数据现状：编成单一来源待裁决，坐标无源</h2>
+      <p>本作的敌方<strong>编成</strong>（初期配置、增援构成与时机，以及逐台的等级/HP/射程/资金）在日方只有一份已填写的来源：<strong>wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页</strong>（抽查的关卡均为完整填写）。atwiki 的同名站有相同的表格模板但内容是未填写的占位符，不能算第二来源；Akurasu 的流程图不列逐关编成。按本站「双源交叉才刊载」的惯例，这批编成<strong>暂不导入、列为待用户裁决事项</strong>（范围：该站逐关页所覆盖的关卡；字段：敌方构成、操者、精灵属性、等级、HP、射程、获得资金、数量、增援时机与大致区域）。敌方<strong>坐标</strong>与逐格地形在任何已查到的来源中都不存在——本作是等角投影立体地图，日方攻略只以「地图西南」一类的方位文字描述位置；各页地图为带四边坐标轴的参照框架。官方攻略本《Perfect Bible》（Enterbrain，2012-03-02，ISBN 978-4-04-727915-5）是已知的纸质候选，但其是否收录逐关地图/编成未经在线核实，列入本站地图补完计划的候选来源。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号、逐话条件与标题以 Akurasu 的 Complete Flow Chart 为主源，隐藏要素逐条与同站 Secrets 页交叉核对，路线名称与系统沿革以日文维基百科与 srw.wiki 互证。已确认的分歧与处理：①「普拉那放出」的获得话与条件——流程图记为第23(24)话「正树未被击破」，Secrets 页记为在第24(25)话自动获得，两说并记于两话页面。②梅菲尔的「弹药装填」——Secrets 页作「第15话结束时击破 ≥5」，流程图作第14(15)话，并记。③个别标题字形——第24(25)话 Akurasu 作「闇もまた強し」、wikiwiki 用语录作「闇もまた深し」；第18(19)话 Akurasu 作「エリアル国内紛」、wikiwiki 作「エリアル王国内紛」，本站各取一说并在该话页面注明另一说。④Akurasu 内部的拼写异写（Nors/Nols/Norse Rei、Valspar/Volspar、Hogai/Hou Gei 等）本站统一采用通行写法，有实质差异处在相关页面并记。⑤atwiki 的 masoukishin2 站把发售日误记为 2011 年，本站从日文维基的 2012 年 1 月 12 日。⑥本作的开发商/发行：日文维基作开发 Winkysoft、发行万代南梦宫（Banpresto 厂牌）；games.json 的既有信息与之一致。</p>
     </div>
   )}
 
@@ -3656,6 +3803,11 @@ const isCardChronicle = g.slug === 'srw-card-chronicle';
     <div>
       <p>本作 103 个剧本<strong>全部建有独立攻略页</strong>（每一个剧本一个详情页，含第1章全部早期分岐、第2章三条终盘路线与 4 个最终关）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜利条件、出击条件、分支条件、参战与加入、隐藏要点与坐标地图（敌方逐关配置与败北条件待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-masoukishin/missions/')}>关卡总表页</a>，内容与下表相同。注：下表「日文名」为来源所载的日文标题罗马字转写，日文原文标题未在公开来源中逐话收录。</p>
       <SrwMasoukishinMissionList />
+    </div>
+  ) : isMasoukishin2 ? (
+    <div>
+      <p>本作 74 个剧本<strong>全部建有独立攻略页</strong>（每一个剧本一个详情页，含条件出现的额外剧本、三条路线的全部版本变体与三个专属最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、出击条件、分支条件、参战与离队、隐藏要素与坐标地图（敌方逐关编成为单一来源暂未刊载、坐标待核实，原因见各详情页与上方「敌方数据现状」一节）。本作同时保留一份<a class="link" href={href('srw-masoukishin-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwMasoukishin2MissionList />
     </div>
   ) : isShin ? (
     <div>

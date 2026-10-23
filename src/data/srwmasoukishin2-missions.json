@@ -1,0 +1,5276 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "evil-omen",
+   "zh": "凶兆",
+   "ja": "凶兆",
+   "en": "Evil Omen",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "游戏开局",
+   "victory": [
+    "击破伏尔库斯（分身）"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "塞巴斯塔（正树）加入",
+    "瓦尔希奥妮R（琉妮）加入",
+    "诺尔斯·雷（塞尼亚）加入",
+    "格兰威尔（杨龙）临时出击（本关后离队）",
+    "卡迪斯（缇缇）临时出击（本关后离队）",
+    "扎姆吉德（美绪）临时出击（本关后离队）",
+    "迪亚布罗（普蕾西亚）临时出击（本关后离队）"
+   ],
+   "events": [
+    "开局即与伏尔库斯教团交战，正树一行击退大司教萨蒂鲁斯召唤的伏尔库斯分身、摧毁神殿（剧情前提据日文维基）"
+   ],
+   "secrets": [
+    "【路线条件】若想进入普蕾西亚路线，本话须让普蕾西亚与伏尔库斯发生战斗（Akurasu 流程图注记；普蕾西亚路线的完整条件见第8话［额外］与其页面说明）"
+   ],
+   "unlocks": [
+    "进入第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第2话",
+   "slug": "antiras-squad-is-born",
+   "zh": "安提拉斯队成立",
+   "ja": "アンティラス隊発足",
+   "en": "The Antiras Squad is born",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第1话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "里奥盖拉（兹雷因）加入",
+    "贾奥姆（正树）临时出击（本关后离队）"
+   ],
+   "events": [
+    "独立部队「安提拉斯队」正式成立（本话标题即指此事）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第3话",
+   "slug": "launch-ceremony",
+   "zh": "下水仪式",
+   "ja": "進水式",
+   "en": "Launch Ceremony",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第2话",
+   "victory": [
+    "击破翁加雷德与德雷普"
+   ],
+   "defeat": [
+    "弗林格霍尔尼受到伤害"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "卡迪斯（缇缇）加入",
+    "扎姆吉德（美绪）加入",
+    "贾奥姆（根纳季）加入",
+    "拉·温塔（贝奇）加入"
+   ],
+   "events": [
+    "安提拉斯队的母舰弗林格霍尔尼举行下水仪式，仪式遭敌袭击——本话须保护弗林格霍尔尼不受任何伤害"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第4话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第4话",
+   "slug": "banquet",
+   "zh": "晚宴",
+   "ja": "晩餐会",
+   "en": "Banquet",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第3话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪亚布罗（普蕾西亚）加入",
+    "迦迪福尔（梅菲尔）加入",
+    "迦迪福尔（奎多）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第5话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第5话",
+   "slug": "naval-review",
+   "zh": "阅舰式",
+   "ja": "観艦式",
+   "en": "Naval Review",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第4话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "结界装置被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "丁佛斯（蒂安）加入",
+    "索尔盖迪（阿哈马德）加入",
+    "扎因（西莫妮）加入",
+    "卡迪斯（缇缇）离队（第7话回归）",
+    "扎姆吉德（美绪）离队（第7话回归）",
+    "贾奥姆（根纳季）离队"
+   ],
+   "events": [],
+   "secrets": [
+    "【额外资金】结界装置未受任何伤害通关：获得 20,000 资金；受过伤害则为 10,000（Akurasu Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第6话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话",
+   "slug": "volkruss-stirs",
+   "zh": "伏尔库斯的胎动",
+   "ja": "ヴォルクルスの胎動",
+   "en": "Volkruss Stirs",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第5话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "建筑全部被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【额外资金】保护全部建筑：30,000 资金；1–2 栋被破坏：20,000；3 栋被破坏：10,000（Akurasu Secrets 页；流程图节选口径与之略有出入，以 Secrets 页的三段表为准）",
+    "【刷资金】击破地图上的金色魔像（Golden Demon Golem）时，若场上还留有其他魔像，敌方阶段开始时有概率在同一点再出现一只金色魔像，最多 10 只；Secrets 页称此法最多约可得 100,000 资金"
+   ],
+   "unlocks": [
+    "进入第7话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话",
+   "slug": "betrayal",
+   "zh": "背叛",
+   "ja": "裏切り",
+   "en": "Betrayal",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第6话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "卡迪斯（缇缇）回归加入",
+    "扎姆吉德（美绪）回归加入"
+   ],
+   "events": [],
+   "secrets": [
+    "【关键分歧】本话让普蕾西亚与乌夫（Wolf）发生战斗，下一话将改为额外剧本第8话「不可饶恕者」；不战斗则直接进入第8(9)话「暗杀者」。此事同时是进入普蕾西亚路线的条件之一，并在第8话使普蕾西亚与修习得专属技能「坚忍不拔」（wikiwiki 与 Akurasu 互证）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「背水之阵」「百发百中」",
+    "进入第8话（额外）或第8(9)话（视本话分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8话[额外]",
+   "slug": "those-who-we-must-forgive",
+   "zh": "不可饶恕者",
+   "ja": "赦されざる者",
+   "en": "Those who we must forgive",
+   "route": "共通（额外剧本）",
+   "area": "",
+   "type": "额外剧本",
+   "prerequisite": "第7话中普蕾西亚与乌夫发生战斗（否则不出现，后续话数顺移一位）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "普蕾西亚或修被击破，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰森（修）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [
+    "【普蕾西亚路线条件】若想进入普蕾西亚路线，本话须再让普蕾西亚与伏尔库斯发生战斗（第1话与本话两次都满足，才开放第12(13)话的普蕾西亚版本；Akurasu 流程图注记）"
+   ],
+   "unlocks": [
+    "普蕾西亚习得专属技能「坚忍不拔」",
+    "修习得专属技能「坚忍不拔」",
+    "进入第8(9)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "本话为条件出现的额外剧本：出现与否决定之后全部话数（Akurasu 因此采用 X(Y) 双编号：X 为未打本话时的号数，Y 为打了本话时的号数）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8(9)话",
+   "slug": "assassin",
+   "zh": "暗杀者",
+   "ja": "暗殺者",
+   "en": "Assassin",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第7话（或额外剧本第8话）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贾奥姆（根纳季）临时出击（本关后离队）",
+    "丁佛斯（蒂安）永久离队（改造费返还）",
+    "除卡迪斯、扎姆吉德外全员暂时离队（第9(10)话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第9(10)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9(10)话",
+   "slug": "mios-decision",
+   "zh": "美绪的决心",
+   "ja": "ミオの決意",
+   "en": "Mio's Decision",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第8(9)话",
+   "victory": [
+    "击破里卡多"
+   ],
+   "defeat": [
+    "美绪被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贾奥姆（根纳季）加入",
+    "第8(9)话离队的全员回归",
+    "卡迪斯（缇缇）离队（第11(12)话回归）",
+    "扎姆吉德（美绪）离队（第11(12)话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第10(11)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第10(11)话",
+   "slug": "shutedonias-in-turmoil",
+   "zh": "修特多尼亚斯骚乱",
+   "ja": "シュテドニアス騒乱",
+   "en": "Shutedonias in Turmoil",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第9(10)话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（罗德尼）加入",
+    "德尔吉兰（艾丽斯）加入",
+    "除塞巴斯塔、瓦尔希奥妮R、扎因外全员离队（第11(12)话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第11(12)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第11(12)话",
+   "slug": "holy-mother-of-the-battlefield",
+   "zh": "战场的教母",
+   "ja": "戦場の教母",
+   "en": "Holy Mother of the Battlefield",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第10(11)话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "涅斯托里安教会（Nestorian church）被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "法尔克（德梅克萨）加入",
+    "卡迪斯（缇缇）回归加入",
+    "扎姆吉德（美绪）回归加入",
+    "第10(11)话离队的全员回归"
+   ],
+   "events": [
+    "本话结束后迎来全作第一次大分歧：第12(13)话起三条路线（见各版本页面与主页的路线结构表）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「豪腕」「名手」「一攫千金」「武运长久」",
+    "进入第12(13)话（三路分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12(13)话[普蕾西亚]",
+   "slug": "precia-and-elscine",
+   "zh": "普蕾西亚与艾尔希涅",
+   "ja": "プレシアとエルシーネ",
+   "en": "Precia and Elscine",
+   "route": "普蕾西亚线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第1话与额外第8话中普蕾西亚都与伏尔库斯发生战斗（条件路线，代替本话的北上/南下版本）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（罗德尼）永久离队（改造费返还）",
+    "德尔吉兰（艾丽斯）永久离队（改造费返还）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13(14)话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12(13)话[温蒂]",
+   "slug": "barom-the-master-schemer",
+   "zh": "神机妙算的巴洛姆",
+   "ja": "神算鬼謀のバロム",
+   "en": "Barom, the Master Schemer",
+   "route": "温蒂线（北上）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第11(12)话后选择北上（北部）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13(14)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12(13)话[扬龙]",
+   "slug": "shutedonias-divided",
+   "zh": "修特多尼亚斯分裂",
+   "ja": "シュテドニアス分裂",
+   "en": "Shutedonias, Divided",
+   "route": "扬龙线（南下）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第11(12)话后选择南下（南部）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索尔盖迪（阿哈马德）离队（第13(14)话[扬龙]后回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13(14)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第13(14)话[普蕾西亚]",
+   "slug": "rodney-in-chains",
+   "zh": "罗德尼被俘",
+   "ja": "ロドニー捕囚",
+   "en": "Rodney in Chains",
+   "route": "普蕾西亚线",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第12(13)话[普蕾西亚]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迦迪福尔（梅菲尔）永久离队（改造费返还）",
+    "德尔吉兰（梅菲尔）加入（接手艾丽斯离队后的德尔吉兰）",
+    "吉奥拉斯与德尔吉兰的改造费一并返还"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第14(15)话（三线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第13(14)话[温蒂]",
+   "slug": "elscines-speech",
+   "zh": "艾尔希涅的演说",
+   "ja": "エルシーネの演説",
+   "en": "Elscine's Speech",
+   "route": "温蒂线（北上）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第12(13)话[温蒂]",
+   "victory": [
+    "击破阿克雷德"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（罗德尼）永久离队（改造费返还）",
+    "德尔吉兰（艾丽斯）永久离队（改造费返还）",
+    "迦迪福尔（梅菲尔）永久离队（改造费返还）",
+    "德尔吉兰（梅菲尔）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第14(15)话（三线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第13(14)话[扬龙]",
+   "slug": "two-justices",
+   "zh": "两种正义",
+   "ja": "二つの正義",
+   "en": "Two Justices",
+   "route": "扬龙线（南下）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第12(13)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（罗德尼）永久离队（改造费返还）",
+    "德尔吉兰（艾丽斯）永久离队（改造费返还）",
+    "迦迪福尔（梅菲尔）永久离队（改造费返还）",
+    "德尔吉兰（梅菲尔）加入",
+    "索尔盖迪（阿哈马德）回归加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第14(15)话（三线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "三条路线在本话的离队/加入处理基本一致：罗德尼、艾丽斯、梅菲尔（迦迪福尔）永久离队并返还改造费，梅菲尔转乘德尔吉兰加入（与 Akurasu General 页「艾丽斯把德尔吉兰传给梅菲尔、罗德尼把吉奥拉斯传给方格」的说明对应；吉奥拉斯的新驾驶员方格在第24(25)话加入）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第14(15)话",
+   "slug": "varied-intentions",
+   "zh": "各自的盘算",
+   "ja": "それぞれの思惑",
+   "en": "Varied Intentions",
+   "route": "共通（三线合流）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关任一版本的第13(14)话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一敌人到达指定区域，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "杜拉克西尔（加恩）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [
+    "【专属技能】梅菲尔在本话结束时累计击破数达到 5 台以上：习得专属技能「弹药装填」（最大弹药 +2）。Akurasu 的 Secrets 页把此条件记在「第15话」，流程图则记在本话（第14(15)话），两说并记"
+   ],
+   "unlocks": [
+    "进入第15(16)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第15(16)话[普蕾西亚后]",
+   "slug": "elan-zenosakis",
+   "zh": "艾兰·泽诺萨基斯",
+   "ja": "エラン・ゼノサキス",
+   "en": "Elan Zenosakis",
+   "route": "共通（版本变体）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12(13)话走了普蕾西亚版本时，本话为此标题",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "杜拉克西尔（加恩）临时出击（本关后离队）",
+    "索尔盖迪（阿哈马德）永久离队（改造费返还）",
+    "索尔盖迪（加恩）加入（接手阿哈马德的索尔盖迪）",
+    "丁弗莱尔（奎多）加入"
+   ],
+   "events": [
+    "本作新登场的宿敌艾兰·泽诺萨基斯（驾驶泽尔沃伊德）在此登场（据 srw.wiki）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第16(17)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "本话的胜败条件与加入/离队与「另一台塞巴斯塔」版本完全相同，只有标题与剧情不同（Akurasu 流程图）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第15(16)话[温蒂/扬龙后]",
+   "slug": "another-cybuster",
+   "zh": "另一台塞巴斯塔",
+   "ja": "もう一機のサイバスター",
+   "en": "Another Cybuster",
+   "route": "共通（版本变体）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12(13)话走了温蒂（北上）或扬龙（南下）版本时，本话为此标题",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "杜拉克西尔（加恩）临时出击（本关后离队）",
+    "索尔盖迪（阿哈马德）永久离队（改造费返还）",
+    "索尔盖迪（加恩）加入（接手阿哈马德的索尔盖迪）",
+    "丁弗莱尔（奎多）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第16(17)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "本话的胜败条件与加入/离队与「艾兰·泽诺萨基斯」版本完全相同，只有标题与剧情不同（Akurasu 流程图）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第16(17)话",
+   "slug": "terrorist-suppression",
+   "zh": "镇压恐怖分子",
+   "ja": "テロリスト鎮圧",
+   "en": "Terrorist Suppression",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关任一版本的第15(16)话",
+   "victory": [
+    "歼灭全部敌人（炮台除外）"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第17(18)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第17(18)话",
+   "slug": "merchant-of-death",
+   "zh": "死亡商人",
+   "ja": "死の商人",
+   "en": "Merchant of Death",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第16(17)话",
+   "victory": [
+    "保护弗林格霍尔尼 3 回合，或歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗林格霍尔尼被击沉"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰威尔（杨龙）加入",
+    "弗林格霍尔尼（布拉德罗伊）临时出击（本关后离队）"
+   ],
+   "events": [
+    "【重要分歧】本话的击破敌人数决定下一话：第18(19)话——击破 5 台以上→「谈判破裂」；1–4 台→「艾丽亚尔王国内乱」；0 台→「暗中活动的影子」"
+   ],
+   "secrets": [
+    "【条件加入】本话击破敌人数在 4 台以下时，斯文德·尼达姆（莱考）将以隐藏条件形式处理加入事宜（流程图记为需查 Secrets 的特殊条件；其正式加入在第19(20)话[通常]）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「底力」「射程延长」「援护攻击」「援护防御」",
+    "进入第18(19)话（按本话击破数三版本分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18(19)话[击破5+]",
+   "slug": "diplomatic-breakdown",
+   "zh": "谈判破裂",
+   "ja": "交渉決裂",
+   "en": "Diplomatic Breakdown",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第17(18)话击破敌人数 5 台以上",
+   "victory": [
+    "保护万治到达指定区域，或歼灭全部敌人"
+   ],
+   "defeat": [
+    "万治被击破，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第19(20)话[通常]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18(19)话[击破1-4]",
+   "slug": "erial-internal-strife",
+   "zh": "艾丽亚尔王国内乱",
+   "ja": "エリアル王国内紛",
+   "en": "Internal Strife in the Kingdom of Erial",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第17(18)话击破敌人数 1–4 台",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第19(20)话[通常]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "日文标题：Akurasu 流程图作「エリアル国内紛」，wikiwiki 用语录作「エリアル王国内紛」，本站从后者",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18(19)话[击破0]",
+   "slug": "moving-in-the-shadows",
+   "zh": "暗中活动的影子",
+   "ja": "暗躍する影",
+   "en": "Moving in the Shadows",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第17(18)话击破敌人数 0 台",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【追加攻击】美绪出击且在本话结束时累计击破数达到 10 台以上，并成功守住基地（研究所）：扎姆吉德获得攻击「双裂（Twin Fracture）」（Akurasu 流程图与 Secrets 页；Secrets 页作「研究所不得被破坏」）",
+    "【专属技能】兹雷因出击且在本话结束时累计击破数达到 10 台以上，并成功守住基地（研究所）：习得专属技能「猪突猛进（Headlong）」（使精灵的负修正无效）"
+   ],
+   "unlocks": [
+    "进入第19(20)话[暗跃·受损]或[暗跃·全保]（按本话建筑是否受损）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第19(20)话[通常]",
+   "slug": "honor-redeemed",
+   "zh": "雪耻",
+   "ja": "汚名返上",
+   "en": "Honor, Redeemed",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第18(19)话为「谈判破裂」或「艾丽亚尔王国内乱」",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "斯文德·尼达姆（莱考）加入"
+   ],
+   "events": [],
+   "secrets": [
+    "【后续隐藏的前提】缇缇在本话结束时累计击破数达到 10 台以上 → 第25(26)话获得卡迪斯的攻击「卡塔拉克特飞溅（Cataract Splash）」；杨龙在本话结束时累计击破数达到 5 台以上 → 第25(26)话获得格兰威尔的攻击「精炎·火之精灵（Light Flame of Vigor）」（Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第20(21)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第19(20)话[暗跃·受损]",
+   "slug": "elan-returns",
+   "zh": "艾兰再临",
+   "ja": "エラン再び",
+   "en": "Elan Returns",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第18(19)话为「暗中活动的影子」，且该话中有建筑被破坏",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【后续隐藏的前提】缇缇在本话结束时累计击破数达到 10 台以上 → 第25(26)话获得卡迪斯的攻击「卡塔拉克特飞溅」；杨龙在本话结束时累计击破数达到 5 台以上 → 第25(26)话获得格兰威尔的攻击「精炎·火之精灵」（与[通常]版本相同）"
+   ],
+   "unlocks": [
+    "进入第20(21)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第19(20)话[暗跃·全保]",
+   "slug": "hacker-vs-cracker",
+   "zh": "黑客对骇客",
+   "ja": "ハッカー対クラッカー",
+   "en": "Hacker VS Cracker",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "第18(19)话为「暗中活动的影子」，且该话中全部建筑防卫成功",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【后续隐藏的前提】缇缇在本话结束时累计击破数达到 10 台以上 → 第25(26)话获得卡迪斯的攻击「卡塔拉克特飞溅」；杨龙在本话结束时累计击破数达到 5 台以上 → 第25(26)话获得格兰威尔的攻击「精炎·火之精灵」（与[通常]版本相同）"
+   ],
+   "unlocks": [
+    "进入第20(21)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第20(21)话",
+   "slug": "elans-goal",
+   "zh": "艾兰的目的",
+   "ja": "エランの目的",
+   "en": "Elan's Goal",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关任一版本的第19(20)话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "扎姆吉德（美绪）离队（第21(22)话后半回归）",
+    "诺尔斯·雷（塞尼亚）离队（第21(22)话后半回归）",
+    "贾奥姆（根纳季）离队（第21(22)话后半回归）",
+    "法尔克（德梅克萨）离队（第21(22)话后半回归）",
+    "索尔盖迪（加恩）离队（第21(22)话后半回归）",
+    "斯文德·尼达姆（莱考）离队（终盘各线另有处理）"
+   ],
+   "events": [
+    "本话结束时部队一分为二：第21(22)话前半由美绪一组行动，后半换回正树一组（见第21(22)话）"
+   ],
+   "secrets": [
+    "【专属技能】加恩在本话结束时累计击破数达到 15 台以上：习得专属技能「征讨亡魔（Seito）」（对无精灵属性的敌人攻击 +10%；Secrets 页作「15 台以上」、一处作「超过 15 台」，从流程图的「至少 15 台」）"
+   ],
+   "unlocks": [
+    "进入第21(22)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第21(22)话",
+   "slug": "time-and-space",
+   "zh": "古往今来谓之宙，四方上下谓之宇",
+   "ja": "往古来今、これを宙と謂う、四方上下、これを宇と謂う",
+   "en": "From Furthest Past To Modern Day Is Called Time; All Directions Around, Above And Below Is Called Space",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第20(21)话",
+   "victory": [
+    "歼灭全部敌人，并保护飞艇到达指定区域"
+   ],
+   "defeat": [
+    "飞艇被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "前半出击组：扎姆吉德（美绪）、诺尔斯·雷（塞尼亚）、贾奥姆（根纳季）、法尔克（德梅克萨）、索尔盖迪（加恩）",
+    "塞巴斯塔（正树）、瓦尔希奥妮R（琉妮）、格兰威尔（杨龙）、卡迪斯（缇缇）、扎因（西莫妮）、拉·温塔（贝奇）、迪亚布罗（普蕾西亚）、里奥盖拉（兹雷因）、德尔吉兰（梅菲尔）、丁弗莱尔（奎多）本话离队（不出击）"
+   ],
+   "events": [],
+   "secrets": [
+    "【额外资金】飞艇以 50% 以上 HP 存活到达：获得 50,000 资金；否则 10,000（Akurasu 流程图；此条未收录于 Secrets 页的资金表）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「纵横无尽」「移动扩大」「斗争本能」",
+    "进入第22(23)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第22(23)话[外交线]",
+   "slug": "the-mysterious-orgine-project",
+   "zh": "神秘的奥加茵计划",
+   "ja": "謎のオーガイン計画",
+   "en": "The Mysterious Orgine Project",
+   "route": "共通（版本变体）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第18(19)话为「谈判破裂」或「艾丽亚尔王国内乱」时，本话为此标题",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "斯文德·尼达姆（莱考）临时出击（本关后离队，改造费返还）",
+    "斯文德·格哈德（斯梅拉）临时出击（本关后离队）",
+    "斯文德·格哈德（尤诺）临时出击（本关后离队）",
+    "斯文德·奥兰（葵）临时出击（本关后离队）",
+    "斯文德·奥兰（戈辛）临时出击（本关后离队）",
+    "塞巴斯塔（正树）、瓦尔希奥妮R（琉妮）、格兰威尔（杨龙）、卡迪斯（缇缇）回归出击",
+    "扎姆吉德（美绪）、诺尔斯·雷（塞尼亚）、贾奥姆（根纳季）、法尔克（德梅克萨）、索尔盖迪（加恩）离队（第23(24)话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第23(24)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "本话的胜败条件与出击构成与「奥加茵计划」版本完全相同，只有标题与剧情不同（Akurasu 流程图）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第22(23)话[暗跃线]",
+   "slug": "the-orgine-project",
+   "zh": "奥加茵计划",
+   "ja": "オーガイン計画",
+   "en": "The Orgine Project",
+   "route": "共通（版本变体）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第18(19)话为「暗中活动的影子」时，本话为此标题",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "斯文德·尼达姆（莱考）临时出击（本关后离队，改造费返还）",
+    "斯文德·格哈德（斯梅拉）临时出击（本关后离队）",
+    "斯文德·格哈德（尤诺）临时出击（本关后离队）",
+    "斯文德·奥兰（葵）临时出击（本关后离队）",
+    "斯文德·奥兰（戈辛）临时出击（本关后离队）",
+    "塞巴斯塔（正树）、瓦尔希奥妮R（琉妮）、格兰威尔（杨龙）、卡迪斯（缇缇）回归出击",
+    "扎姆吉德（美绪）、诺尔斯·雷（塞尼亚）、贾奥姆（根纳季）、法尔克（德梅克萨）、索尔盖迪（加恩）离队（第23(24)话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第23(24)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "本话的胜败条件与出击构成与「神秘的奥加茵计划」版本完全相同，只有标题与剧情不同（Akurasu 流程图）",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第23(24)话",
+   "slug": "rolling-waves",
+   "zh": "力挽狂澜",
+   "ja": "回瀾を既倒に反す",
+   "en": "The Rolling Waves Return Just to Fall",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关任一版本的第22(23)话",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "无（Akurasu 流程图记为 None）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贾奥姆（正树）临时出击（本关后离队）",
+    "扎姆吉德（美绪）、诺尔斯·雷（塞尼亚）、贾奥姆（根纳季）、法尔克（德梅克萨）、索尔盖迪（加恩）、扎因（西莫妮）、拉·温塔（贝奇）、迪亚布罗（普蕾西亚）、里奥盖拉（兹雷因）、德尔吉兰（梅菲尔）、丁弗莱尔（奎多）回归出击",
+    "格兰威尔（杨龙）离队（第25(26)话回归）",
+    "卡迪斯（缇缇）离队（第25(26)话回归）"
+   ],
+   "events": [],
+   "secrets": [
+    "【追加攻击】本话中正树未被击破并通关：塞巴斯塔获得攻击「普拉那放出（Prana Discharge）」（Akurasu 流程图）。注意 Akurasu 的 Secrets 页把「普拉那放出」记为在第24(25)话「光越强，暗也越强」自动获得，与流程图的记载不一致，两说并记"
+   ],
+   "unlocks": [
+    "进入第24(25)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第24(25)话",
+   "slug": "light-and-darkness",
+   "zh": "光越强，暗也越强",
+   "ja": "光強ければ、闇もまた強し",
+   "en": "When the Light is too Strong, Darkness can be Beautiful",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "通关第23(24)话",
+   "victory": [
+    "歼灭全部敌人，并击破泽尔沃伊德"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加尔加德（扎什）加入",
+    "吉奥拉斯（方格）加入（接手罗德尼的吉奥拉斯）"
+   ],
+   "events": [],
+   "secrets": [
+    "【能力解禁】塞巴斯塔解禁「附身（Possession）」能力（Akurasu 流程图）",
+    "【版本分歧】Akurasu 的 Secrets 页称塞巴斯塔的攻击「普拉那放出」在本话自动获得；流程图则记在其前一话（第23(24)话）以「正树未被击破」为条件，两说并记（见第23(24)话页面）"
+   ],
+   "unlocks": [
+    "进入第25(26)话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "日文标题：Akurasu 流程图作「光強ければ、闇もまた強し」，wikiwiki 用语录作「光強ければ、闇もまた深し」，两说并记",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25(26)话[女性平均高]",
+   "slug": "the-mens-suffering",
+   "zh": "男人们的受难",
+   "ja": "男達の受難",
+   "en": "The Men's Suffering",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "本话开始时女性驾驶员的平均等级高于男性驾驶员时，本话为此标题（本话仅女性阵容出击）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "卡迪斯（缇缇）回归加入",
+    "格兰威尔（杨龙）本话后加入",
+    "塞巴斯塔（正树）、贾奥姆（根纳季）、法尔克（德梅克萨）、索尔盖迪（加恩）、里奥盖拉（兹雷因）、丁弗莱尔（奎多）、吉奥拉斯（方格）、加尔加德（扎什）本话不出击"
+   ],
+   "events": [],
+   "secrets": [
+    "【地图兵器】塞尼亚在本话结束时累计使用「天使的耳语（Angel Whisper）」达到 5 次以上：诺尔斯·雷获得地图回复攻击「广域修理装置（Wide-area Repair Equipment）」（过关后获得；本版本限定）",
+    "【追加攻击】第19(20)话的前置条件达成时，卡迪斯在本话获得攻击「卡塔拉克特飞溅」、格兰威尔获得攻击「精炎·火之精灵」（Akurasu 流程图在本话列出两者的获得）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「狮子奋迅」「意气扬扬」「普拉那回复」",
+    "进入第26(27)话（双线分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25(26)话[男性平均高]",
+   "slug": "manly-battle-scene",
+   "zh": "心跳☆全是男人的战斗场面",
+   "ja": "どきっ☆男だらけの戦闘シーン",
+   "en": "*gasp* Such a Manly Battle Scene",
+   "route": "共通（条件变体）",
+   "area": "",
+   "type": "条件分岐",
+   "prerequisite": "本话开始时男性驾驶员的平均等级高于女性驾驶员时，本话为此标题（本话仅男性阵容出击）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰威尔（杨龙）回归加入",
+    "卡迪斯（缇缇）本话后加入",
+    "瓦尔希奥妮R（琉妮）、扎姆吉德（美绪）、诺尔斯·雷（塞尼亚）、扎因（西莫妮）、拉·温塔（贝奇）、迪亚布罗（普蕾西亚）、德尔吉兰（梅菲尔）本话不出击"
+   ],
+   "events": [],
+   "secrets": [
+    "【专属技能】奎多在本话结束时累计击破数达到 5 台以上：习得专属技能「隐密行动（Covert Action）」（受攻击时必定面向敌人，且使对方的「气配察知」无效；与「气配察知」不能同时装备；本版本限定）",
+    "【追加攻击】第19(20)话的前置条件达成时，卡迪斯在本话获得攻击「卡塔拉克特飞溅」、格兰威尔获得攻击「精炎·火之精灵」（Akurasu 流程图在本话列出两者的获得）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「狮子奋迅」「意气扬扬」「普拉那回复」",
+    "进入第26(27)话（双线分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26(27)话A",
+   "slug": "the-benevolent-leader-dusdresh",
+   "zh": "仁德之将达斯德雷什",
+   "ja": "仁徳の将、ダスドレーシュ",
+   "en": "The Benevolent Leader, Dusdresh",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12(13)话走了普蕾西亚或温蒂（北上）版本",
+   "victory": [
+    "歼灭全部敌人（炮台除外）"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "拉斯托尔（吉诺）加入",
+    "杰法尔（罗莎莉）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第27(28)话A"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26(27)话B",
+   "slug": "capture-the-fortress",
+   "zh": "要塞攻略",
+   "ja": "要塞攻略",
+   "en": "Capture the Fortress",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "第12(13)话走了扬龙（南下）版本",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "拉斯托尔（吉诺）加入",
+    "杰法尔（罗莎莉）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第27(28)话B"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27(28)话A",
+   "slug": "shus-secret-plot",
+   "zh": "修的算计",
+   "ja": "シュウの魂胆",
+   "en": "Shu's Secret Plot",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第26(27)话A",
+   "victory": [
+    "击破修"
+   ],
+   "defeat": [
+    "涅斯托里安教会（Nestorian church）被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第28(29)话A"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27(28)话B",
+   "slug": "a-false-peace",
+   "zh": "虚假的和平",
+   "ja": "偽りの和平",
+   "en": "A False Peace",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第26(27)话B",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "涅斯托里安教会（Nestorian church）被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "共鸣·赤（妮可）临时出击（本关后离队）",
+    "共鸣·青（莉可）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [
+    "【合体攻击·前半】美绪在本话结束前累计使用「超振动拳」达到 5 次以上，且普蕾西亚在本话结束前累计使用「绿色墓标」达到 5 次以上——这是合体攻击「盖亚的锁缚（Gaia's Bind）」的第一段条件；注意：两件武器在条件达成前不要升阶，升阶后的武器不算同一武器、将无法解禁（Akurasu Secrets 页的特别警告）。第二段条件在第28(29)话B"
+   ],
+   "unlocks": [
+    "进入第28(29)话B"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第28(29)话A",
+   "slug": "the-closed-road-to-peace",
+   "zh": "被封闭的和平之路",
+   "ja": "閉ざされた和平への道",
+   "en": "The Closed Road to Peace",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第27(28)话A",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗林格霍尔尼被击沉"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "弗林格霍尔尼（布拉德罗伊）临时出击（本关后离队）",
+    "吉奥拉斯（方格）离队（第29(30)话A回归）",
+    "诺尔斯·雷（塞尼亚）离队（第29(30)话A回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第29(30)话A"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第28(29)话B",
+   "slug": "the-battle-at-rumsfair",
+   "zh": "拉姆兹菲亚会战",
+   "ja": "ラムズフェア会戦",
+   "en": "The Battle at Rumsfair",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第27(28)话B",
+   "victory": [
+    "防卫弗林格霍尔尼至第 6 回合，或歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗林格霍尔尼被击沉"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "弗林格霍尔尼（布拉德罗伊）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [
+    "【合体攻击·后半】本话同时出击扎姆吉德与迪亚布罗（且第27(28)话B 的第一段使用次数条件已达成）：在话初获得合体攻击「盖亚的锁缚（Gaia's Bind）」（Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第29(30)话B"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第29(30)话A",
+   "slug": "god-of-balance-and-god-of-destruction",
+   "zh": "调和神与破坏神",
+   "ja": "調和神と破壊神",
+   "en": "The God of Balance and the God of Destruction",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第28(29)话A",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（方格）回归加入",
+    "诺尔斯·雷（塞尼亚）回归加入"
+   ],
+   "events": [],
+   "secrets": [
+    "【合体攻击】本话同时出击缇缇与杨龙：获得卡迪斯与格兰威尔的合体攻击「太极阴阳破邪法（Taikyoku Onmyō Haja-Hō）」（话初解禁；Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第30(31)话A"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第29(30)话B",
+   "slug": "misdeeds-in-the-dark-of-night",
+   "zh": "暗夜里的蠢动",
+   "ja": "陰夜の蠢動",
+   "en": "Misdeeds in the Dark of Night",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第28(29)话B",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第30(31)话B"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第30(31)话A",
+   "slug": "inhuman-tactics",
+   "zh": "非道的作战",
+   "ja": "非道の作戦",
+   "en": "Inhuman Tactics",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第29(30)话A",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "弗林格霍尔尼被击沉，或其他我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "弗林格霍尔尼（布拉德罗伊）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [
+    "【合体/追加·前半】琉妮在本话结束前累计使用「十字碎击（Cross Smasher）」达到 5 次以上——这是瓦尔希奥妮R的攻击「莫比乌斯翡翠（Moebius Jade）」的第一段条件；第二段条件在温蒂线终盘第32(33)话（Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第31(32)话A"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第30(31)话B",
+   "slug": "sea-battle-at-iknar-strait",
+   "zh": "伊克纳尔海峡海战",
+   "ja": "イクナル海峡海戦",
+   "en": "Sea Battle at Iknar Strait",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第29(30)话B",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第31(32)话B"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第31(32)话A",
+   "slug": "ongaredd-the-usurper",
+   "zh": "篡夺者翁加雷德",
+   "ja": "簒奪者オンガレッド",
+   "en": "Ongaredd the Usurper",
+   "route": "A线（普蕾西亚/温蒂之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第30(31)话A",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "瓦尔希奥妮R（琉妮）本话不出击"
+   ],
+   "events": [],
+   "secrets": [
+    "【合体攻击】正树在本话结束前累计使用「乱舞之太刀」达到 5 次以上，且琉妮在本话结束前累计使用「圆月杀法」达到 5 次以上：过关后塞巴斯塔与瓦尔希奥妮R获得合体攻击「暂斩攻击（Shibaraku Attack）」（Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「士气高扬」",
+    "正树、普蕾西亚、加恩、扎什、方格、吉诺、罗莎莉、莱考习得技能「免许皆传」",
+    "杨龙、琉妮、兹雷因、根纳季、奎多、蒂安、阿哈马德、罗德尼、修、特里斯、戈辛、葵、妮可习得技能「气炎万丈」",
+    "缇缇、美绪、塞尼亚、贝奇、梅菲尔、西莫妮、德梅克萨、艾丽斯、修、萨菲妮、莫妮卡、斯梅拉、尤诺、莉可习得技能「无念无想」（注：修同时出现在 Akurasu 的「气炎万丈」与「无念无想」两份名单中，照原文并记）",
+    "进入终盘分歧（按第12(13)话的选择进入温蒂线或普蕾西亚线终盘）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第31(32)话B",
+   "slug": "defend-the-gate",
+   "zh": "防卫传送门",
+   "ja": "ゲート防衛",
+   "en": "Defend the Gate",
+   "route": "B线（扬龙之后）",
+   "area": "",
+   "type": "分岐",
+   "prerequisite": "通关第30(31)话B",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "传送门（gate）被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（方格）离队",
+    "斯文德·尼达姆（莱考）临时出击（本关后离队）",
+    "斯文德·格哈德（斯梅拉）临时出击（本关后离队）",
+    "斯文德·格哈德（尤诺）临时出击（本关后离队）",
+    "斯文德·奥兰（葵）临时出击（本关后离队）",
+    "斯文德·奥兰（戈辛）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "通关后全体驾驶员习得技能「士气高扬」",
+    "正树、普蕾西亚、加恩、扎什、方格、吉诺、罗莎莉、莱考习得技能「免许皆传」",
+    "杨龙、琉妮、兹雷因、根纳季、奎多、蒂安、阿哈马德、罗德尼、修、特里斯、戈辛、葵、妮可习得技能「气炎万丈」",
+    "缇缇、美绪、塞尼亚、贝奇、梅菲尔、西莫妮、德梅克萨、艾丽斯、修、萨菲妮、莫妮卡、斯梅拉、尤诺、莉可习得技能「无念无想」（注：修同时出现在 Akurasu 的「气炎万丈」与「无念无想」两份名单中，照原文并记）",
+    "进入扬龙线终盘（第32(33)话起）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第32(33)话[温蒂]",
+   "slug": "the-battle-at-yamana",
+   "zh": "亚马纳会战",
+   "ja": "ヤーマーナ会戦",
+   "en": "The Battle at Yamana",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "第12(13)话走了温蒂（北上）版本，并通关第31(32)话A",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【追加攻击·后半】本话出击琉妮（且第30(31)话A 的第一段使用次数条件已达成）：瓦尔希奥妮R获得攻击「莫比乌斯翡翠（Moebius Jade）」（Akurasu 流程图与 Secrets 页）"
+   ],
+   "unlocks": [
+    "进入第33(34)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第33(34)话[温蒂]",
+   "slug": "from-the-depths-of-the-earth-it-awakens",
+   "zh": "自地底苏醒之物",
+   "ja": "地底より目覚めしもの",
+   "en": "From the depths of the earth, it awakens",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第32(33)话[温蒂]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第34(35)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34(35)话[温蒂]",
+   "slug": "the-sad-sisters",
+   "zh": "悲伤的姐妹",
+   "ja": "悲しき姉妹",
+   "en": "The Sad Sisters",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第33(34)话[温蒂]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第35(36)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35(36)话[温蒂]",
+   "slug": "wicked-threats",
+   "zh": "邪恶的恫吓",
+   "ja": "邪曲な恫喝",
+   "en": "Wicked Threats",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第34(35)话[温蒂]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "共鸣·赤（妮可）正式加入",
+    "共鸣·青（莉可）正式加入",
+    "斯文德·尼达姆（莱考）正式加入",
+    "斯文德骑士团成员加入（斯梅拉、尤诺、葵、戈辛；Akurasu 流程图在此处的机体名拼写有误植，驾驶员名单从其注记）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第36(37)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "Akurasu General 页称莱考一行（妮可、莉可、莱考与四名骑士）在温蒂线以外只是临时角色、在本线正式加入，与本话的加入记载对应——这也是本终盘通称「温蒂线」的依据之一",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36(37)话[温蒂]",
+   "slug": "the-horrific-ionized-plasma-gun",
+   "zh": "可憎的电离等离子炮",
+   "ja": "忌むべき電離プラズマ砲",
+   "en": "The horrific Ionzied Plasma Gun",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第35(36)话[温蒂]",
+   "victory": [
+    "歼灭全部敌人（炮台除外）"
+   ],
+   "defeat": [
+    "我方全灭，或翁加雷德受到攻击（两个阶段的条件，Akurasu 流程图原文分段记述）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第37(38)话[温蒂]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第37(38)话[温蒂]",
+   "slug": "wendy-kidnapped",
+   "zh": "被掳走的温蒂",
+   "ja": "さらわれたウェンディ",
+   "en": "Wendy, Kidnapped",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第36(37)话[温蒂]",
+   "victory": [
+    "击破修"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第38(39)话[温蒂]（最终话）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第38(39)话[温蒂]",
+   "slug": "elscines-true-goal",
+   "zh": "艾尔希涅的真意",
+   "ja": "エルシーネの真意",
+   "en": "Elscine's True Goal",
+   "route": "温蒂线终盘",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第37(38)话[温蒂]",
+   "victory": [
+    "（阶段1）依次由正树、琉妮、正树说得缇优蒂；（阶段2）击破艾尔希涅；（阶段3）击破萨瓦·伏尔库斯"
+   ],
+   "defeat": [
+    "（阶段1）正树、琉妮或缇优蒂被击破，或 4 回合内未完成说得；（阶段2）正树被击破（Akurasu 流程图原文分段记述）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话是温蒂线的最终话：须先按顺序完成对缇优蒂的三段说得，再连战艾尔希涅与萨瓦·伏尔库斯"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关（温蒂线结局）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第33话[普蕾西亚]",
+   "slug": "a-cowardly-alliance",
+   "zh": "卑劣的同盟",
+   "ja": "卑劣な同盟",
+   "en": "A Cowardly Alliance",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "第12(13)话走了普蕾西亚版本，并通关第31(32)话A（本线终盘话数按 Akurasu 原表为无括号的 33–40）",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【追加攻击】美绪出击，且在本话结束前累计使用「五郎入道正宗」达到 5 次以上：扎姆吉德获得攻击「里·扬·投当·木灵（Ura age tōate kodama）」（Akurasu 流程图与 Secrets 页；该攻击的日文原名两页均未给出汉字表记，英文名为音译）"
+   ],
+   "unlocks": [
+    "进入第34话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话[普蕾西亚]",
+   "slug": "the-mysterious-illness",
+   "zh": "神秘的疾病",
+   "ja": "謎の病",
+   "en": "The Mysterious Illness",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第33话[普蕾西亚]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪亚布罗（普蕾西亚）离队（最终话回归）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "日文维基（转引官方攻略本）称普蕾西亚线中普蕾西亚长期离队、于最终关（攻略本编号 58 号）中途回归，与本线的离队/回归安排对应",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话[普蕾西亚]",
+   "slug": "elscines-allegations",
+   "zh": "艾尔希涅的嫌疑",
+   "ja": "エルシーネの疑惑",
+   "en": "Elscine's Allegations",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第34话[普蕾西亚]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰森（修）临时出击（本关后离队）",
+    "威佐尔改（萨菲妮）临时出击（本关后离队）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第36话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36话[普蕾西亚]",
+   "slug": "precia-the-puppet",
+   "zh": "被操纵的普蕾西亚",
+   "ja": "操られたプレシア",
+   "en": "Precia the Puppet",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第35话[普蕾西亚]",
+   "victory": [
+    "（阶段1）由正树说得普蕾西亚；（阶段2）歼灭全部敌人"
+   ],
+   "defeat": [
+    "（阶段1）正树被击破，或 6 回合内未完成说得；（阶段2）我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第37话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第37话[普蕾西亚]",
+   "slug": "showdown-in-the-south",
+   "zh": "与南部的决战",
+   "ja": "南部との決戦",
+   "en": "Showdown in the South",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第36话[普蕾西亚]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第38话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第38话[普蕾西亚]",
+   "slug": "inheritor-of-the-curse",
+   "zh": "被继承的诅咒",
+   "ja": "受け継がれた呪い",
+   "en": "Inheritor of the Curse",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第37话[普蕾西亚]",
+   "victory": [
+    "（阶段1）歼灭全部敌人；（阶段2）击破艾兰"
+   ],
+   "defeat": [
+    "（阶段1）正树被击破；（阶段2）无（Akurasu 流程图记为 None）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第39话[普蕾西亚]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第39话[普蕾西亚]",
+   "slug": "the-zenosakis-bloodline",
+   "zh": "泽诺萨基斯的血脉",
+   "ja": "ゼノサキスの血脈",
+   "en": "The Zenosakis Bloodline",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第38话[普蕾西亚]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第40话[普蕾西亚]（最终话）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第40话[普蕾西亚]",
+   "slug": "the-double-helix-seal",
+   "zh": "封印的双重螺旋",
+   "ja": "封印の二重螺旋",
+   "en": "The Double-Helix Seal",
+   "route": "普蕾西亚线终盘",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第39话[普蕾西亚]",
+   "victory": [
+    "（阶段1）由正树与吉诺说得普蕾西亚；（阶段2）歼灭全部敌人"
+   ],
+   "defeat": [
+    "（阶段1）正树或吉诺被击破；（阶段2）我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪亚布罗（普蕾西亚）回归加入"
+   ],
+   "events": [
+    "本话是普蕾西亚线的最终话：先由正树与吉诺完成对普蕾西亚的说得，再歼灭全部敌人"
+   ],
+   "secrets": [
+    "【追加攻击】普蕾西亚回归后，迪亚布罗自动获得攻击「春之祭典（Rite of Spring）」（Akurasu Secrets 页：剧情事件发生、普蕾西亚归队时获得）"
+   ],
+   "unlocks": [
+    "通关（普蕾西亚线结局）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第32(33)话[扬龙]",
+   "slug": "the-southern-unions-counterattack",
+   "zh": "南部联合的反击",
+   "ja": "南部聯合の反撃",
+   "en": "The Southern Union's Counterattack",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "第12(13)话走了扬龙（南下）版本，并通关第31(32)话B",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "吉奥拉斯（方格）回归加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第33(34)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第33(34)话[扬龙]",
+   "slug": "border-combat",
+   "zh": "国境线攻防",
+   "ja": "国境線の攻防",
+   "en": "Border Combat",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第32(33)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "【追加攻击】缇缇出击，且在本话结束前累计使用「芬里尔碎击（Fenrir Crash）」达到 5 次以上：卡迪斯获得攻击「沃尔斯帕（Valspar）」（Akurasu Secrets 页作 Valspar，流程图作 Volspar，两说并记）"
+   ],
+   "unlocks": [
+    "进入第34(35)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34(35)话[扬龙]",
+   "slug": "north-and-south",
+   "zh": "北与南",
+   "ja": "北と南",
+   "en": "North and South",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第33(34)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "涅斯托里安教会（Nestorian church）被破坏，或我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第35(36)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35(36)话[扬龙]",
+   "slug": "elscine",
+   "zh": "艾尔希涅",
+   "ja": "エルシーネ",
+   "en": "Elscine",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第34(35)话[扬龙]",
+   "victory": [
+    "击破萨尔提斯"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "威佐尔改（萨菲妮）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第36(37)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "Akurasu General 页称修一行（修、萨菲妮、莫妮卡、特里斯）在扬龙线以外只是临时角色；萨菲妮自本话起在本线正式加入，与该说明对应——这也是本终盘通称「扬龙线」的依据之一",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36(37)话[扬龙]",
+   "slug": "and-the-dead-shall-rise",
+   "zh": "死灰复燃",
+   "ja": "死灰復燃ゆ",
+   "en": "And the dead shall rise",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第35(36)话[扬龙]",
+   "victory": [
+    "（阶段1）先由萨菲妮、再由杨龙说得艾尔希涅（Akurasu 流程图将此条件藏于注记中，明示如上）；（阶段2）歼灭全部敌人"
+   ],
+   "defeat": [
+    "（阶段1）杨龙或萨菲妮被击破；（阶段2）我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第37(38)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第37(38)话[扬龙]",
+   "slug": "ongaredd-the-sociopath",
+   "zh": "纵横家翁加雷德",
+   "ja": "縦横家オンガレッド",
+   "en": "Ongaredd the Sociopath",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第36(37)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰威尔（杨龙）本话不出击",
+    "除格兰威尔外全员本话离队（第38(39)话回归）——Akurasu 流程图原文如此记载，本话实际为格兰威尔单独行动的构成"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第38(39)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第38(39)话[扬龙]",
+   "slug": "discord-in-the-south",
+   "zh": "南部紊乱",
+   "ja": "南部紊乱",
+   "en": "Discord in the South",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第37(38)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "除格兰威尔外全员回归加入"
+   ],
+   "events": [],
+   "secrets": [
+    "【追加攻击】格兰威尔在本话自动获得攻击「凤喙火风青云剑（Hou Gei Kafuu Seiun Ken）」（Akurasu 流程图；Secrets 页作 Hogai Kafuu Seiun Ken，拼写两说并记）"
+   ],
+   "unlocks": [
+    "进入第39(40)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Secrets（隐藏武器/合体攻击、专属技能与额外资金总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第39(40)话[扬龙]",
+   "slug": "the-god-of-balance-returns",
+   "zh": "自黄泉归来的调和神",
+   "ja": "黄泉返る調和神",
+   "en": "The God of Balance returns from the Underworld",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第38(39)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "格兰森（修）正式加入",
+    "诺尔斯·雷（莫妮卡）加入",
+    "迦迪福尔（特里斯）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第40(41)话[扬龙]"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第40(41)话[扬龙]",
+   "slug": "the-nightmare-returns",
+   "zh": "噩梦再临",
+   "ja": "悪夢再び",
+   "en": "The Nightmare Returns",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "终盘",
+   "prerequisite": "通关第39(40)话[扬龙]",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第41(42)话[扬龙]（最终话）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第41(42)话[扬龙]",
+   "slug": "the-closing-revelation",
+   "zh": "终末的启示",
+   "ja": "終末の黙示",
+   "en": "The Closing Revelation",
+   "route": "扬龙线终盘",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第40(41)话[扬龙]",
+   "victory": [
+    "击破艾尔希涅"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得（个别关卡另有保护目标达成时的额外资金奖励，见隐藏要素）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "法尔克（德梅克萨）本话离队（Akurasu 流程图记载）"
+   ],
+   "events": [
+    "本话是扬龙线的最终话，也是全作话数最长路线的收官"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关（扬龙线结局）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）唯一已填写的公开来源是日文 wikiwiki 攻略站（スーパーロボット大戦シリーズ 攻略 Wiki）的魔装机神II逐关页：其敌方表字段包括机体名、操者、守护精灵属性、格（体型）、等级、HP、射程、获得资金、数量与备注，增援另记出现时机与大致区域。但这属于单一来源（atwiki 的同名站有相同的表格模板但内容未填写；Akurasu 流程图不列逐关编成），按本站单源规则暂不导入、列为待用户裁决，故本关敌方编成暂不刊出。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，wikiwiki 等来源只以「地图西南」一类的方位文字描述出现区域，没有坐标列。坐标与逐格地形待核实（官方攻略本《Perfect Bible》是否收录逐关地图未经在线核实，列为候选来源）。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《OG Saga - Masoukishin II》Complete Flow Chart（全关卡流程、胜败条件、加入与路线分歧总表；本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II REVELATION OF EVIL GOD（作品概要、全74剧本与发售信息）",
+     "url": "http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形（日方攻略只以方位文字描述出现区域）。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwMasoukishin2MissionList from '../../../components/SrwMasoukishin2MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OGSAGA魔装机神II', path: 'srw-masoukishin-2/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OGSAGA魔装机神II（PSP）关卡攻略 · 全74个剧本列表" description="超级机器人大战OGサーガ 魔装機神II REVELATION OF EVIL GOD（2012年 PSP）全部 74 个剧本的链接索引：共通序盘、三条路线（温蒂/扬龙/条件路线的普蕾西亚）、双线并行段与三种终盘。每一话有独立攻略页：胜利/败北条件、分支条件、参战与离队、隐藏要素与坐标地图。本页为链接索引。" path="srw-masoukishin-2/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OGSAGA魔装机神II · 关卡攻略</h1>
+  <p>2012 年 PSP《超级机器人大战OGサーガ 魔装機神II REVELATION OF EVIL GOD》是 1996 年 SFC《魔装机神 THE LORD OF ELEMENTAL》的正统续作（时隔约 16 年），舞台仍是地底世界拉·基亚斯：新成立的独立部队<strong>安提拉斯队</strong>以巨型战舰<strong>弗林格霍尔尼</strong>为母舰，一面应对修特多尼亚斯的分裂与恐怖活动，一面对抗幕后的伏尔库斯教团。全作共 <strong>74 个剧本</strong>（日文维基转引官方攻略本《Perfect Bible》与本站按 Akurasu 流程图逐条清点的口径一致）：共通序盘 12 个（含条件出现的额外剧本第8话），其后在第12(13)话迎来三路总分歧——北上的<strong>温蒂线</strong>、南下的<strong>扬龙线</strong>、以及须在第1话与额外第8话都让普蕾西亚与伏尔库斯交战才能进入的<strong>普蕾西亚线</strong>；三线在第14(15)话暂时合流，中盘按击破数、建筑防卫与男女平均等级等条件产生多个版本变体，第26(27)话起又分 A/B 两条平行线，第32话起三条路线<strong>各自独立走向不同的最终话</strong>（温蒂线第38(39)话、普蕾西亚线第40话、扬龙线第41(42)话）。单周目实际游玩话数因路线而异：普蕾西亚线 40 话、温蒂线 38 话（打额外剧本则 39 话）、扬龙线 41 话（同理 42 话）。额外剧本的有无使中段话数相差一位，Akurasu 以 X(Y) 双编号标记，本站沿用。本页只是链接索引——每一话的完整攻略（条件、分支、加入/离队、隐藏要点、坐标地图）都在各自的详情页里。本页与<a href={href('srw-masoukishin-2/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 74 个剧本全部建有详情页。流程、胜败条件与隐藏要素以 Akurasu Wiki 的《魔装機神II》完整流程图与 Secrets 页为主源，全作话数（74）与 Akurasu、日文维基（转引官方攻略本）三方一致。<strong>如实说明</strong>：本作没有熟练度/SR 点系统（两方来源均无记载）；敌方逐关<strong>编成</strong>唯一已填写的公开来源是日文 wikiwiki 攻略站（字段含机体/操者/精灵属性/等级/HP/射程/资金/数量与增援时机）——<strong>单一来源</strong>，按本站规则暂不刊载、<strong>列为待用户裁决事项</strong>（atwiki 的同名站有相同模板但内容未填写，不构成第二来源）；逐单位<strong>坐标与逐格地形在任何来源中都不存在</strong>（本作是等角投影立体地图，日方攻略只有方位文字），各页地图为带四边坐标轴的参照框架。官方攻略本《Perfect Bible》（2012 年，ISBN 978-4-04-727915-5）是否收录逐关地图未经在线核实，列为本站地图补完计划的候选来源。</span>
+  </div>
+
+  <SrwMasoukishin2MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Complete_Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — OG Saga - Masoukishin II Complete Flow Chart</a>（全 74 个剧本的逐关流程、胜败条件、加入/离队与路线分歧总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/Secrets" rel="noopener" target="_blank">Akurasu Wiki — OG Saga - Masoukishin II Secrets</a>（隐藏武器/合体攻击 13 项、专属技能 5 项、额外资金表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG_Saga_-_Masoukishin_2/General" rel="noopener" target="_blank">Akurasu Wiki — OG Saga - Masoukishin II General Information</a>（周回继承、临时角色与路线归属说明）</li>
+    <li><a href="http://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神II_REVELATION_OF_EVIL_GOD" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神II</a>（作品概要、全 74 剧本（转引官方攻略本）、三条路线与系统沿革的交叉核对）</li>
+    <li><a href="https://wikiwiki.jp/srw-series/masoukishin2/%E7%94%A8%E8%AA%9E%E9%8C%B2" rel="noopener" target="_blank">wikiwiki — スーパーロボット大戦シリーズ 攻略 Wiki・魔装机神II 用语录</a>（关卡标题文字与路线条件的交叉查证；其逐关敌方编成为单一来源，暂不导入、待用户裁决）</li>
+  </ul>
+  <p><a href={href('srw-masoukishin-2/')}>← 返回超级机器人大战OGSAGA魔装机神II</a></p>
+</Base>

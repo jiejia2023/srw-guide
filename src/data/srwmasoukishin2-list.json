@@ -1,0 +1,712 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1话–第11(12)话）",
+   "intro": "全线共通的开局：安提拉斯队成立、弗林格霍尔尼下水、修特多尼亚斯骚乱。其中第8话「不可饶恕者」是条件出现的额外剧本（第7话让普蕾西亚与乌夫交战才出现），出现与否使之后的话数相差一位——Akurasu 采用 X(Y) 双编号，本站沿用：X 为未打额外剧本时的号数，Y 为打了时的号数。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "凶兆",
+     "ja": "凶兆",
+     "en": "Evil Omen",
+     "type": "主线",
+     "area": "",
+     "note": "普蕾西亚线条件之一在此"
+    },
+    {
+     "code": "第2话",
+     "zh": "安提拉斯队成立",
+     "ja": "アンティラス隊発足",
+     "en": "The Antiras Squad is born",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "下水仪式",
+     "ja": "進水式",
+     "en": "Launch Ceremony",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "晚宴",
+     "ja": "晩餐会",
+     "en": "Banquet",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "阅舰式",
+     "ja": "観艦式",
+     "en": "Naval Review",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "伏尔库斯的胎动",
+     "ja": "ヴォルクルスの胎動",
+     "en": "Volkruss Stirs",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "背叛",
+     "ja": "裏切り",
+     "en": "Betrayal",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话[额外]",
+     "zh": "不可饶恕者",
+     "ja": "赦されざる者",
+     "en": "Those who we must forgive",
+     "type": "额外剧本",
+     "area": "",
+     "note": "条件出现的额外剧本，决定后续编号"
+    },
+    {
+     "code": "第8(9)话",
+     "zh": "暗杀者",
+     "ja": "暗殺者",
+     "en": "Assassin",
+     "type": "主线",
+     "area": "",
+     "note": "蒂安永久离队"
+    },
+    {
+     "code": "第9(10)话",
+     "zh": "美绪的决心",
+     "ja": "ミオの決意",
+     "en": "Mio's Decision",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10(11)话",
+     "zh": "修特多尼亚斯骚乱",
+     "ja": "シュテドニアス騒乱",
+     "en": "Shutedonias in Turmoil",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11(12)话",
+     "zh": "战场的教母",
+     "ja": "戦場の教母",
+     "en": "Holy Mother of the Battlefield",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧（第12(13)话–第13(14)话）与合流（第14(15)话）",
+   "intro": "全作的路线总分歧点：满足两次交战条件的普蕾西亚线、北上的温蒂线、南下的扬龙线，三线在第14(15)话合流，但分歧的影响会一直延续到终盘（第26话起的双线与三种终盘都由这里的选择决定）。",
+   "rows": [
+    {
+     "code": "第12(13)话[普蕾西亚]",
+     "zh": "普蕾西亚与艾尔希涅",
+     "ja": "プレシアとエルシーネ",
+     "en": "Precia and Elscine",
+     "type": "分岐",
+     "area": "",
+     "note": "条件路线：两次与伏尔库斯交战"
+    },
+    {
+     "code": "第12(13)话[温蒂]",
+     "zh": "神机妙算的巴洛姆",
+     "ja": "神算鬼謀のバロム",
+     "en": "Barom, the Master Schemer",
+     "type": "分岐",
+     "area": "",
+     "note": "北上"
+    },
+    {
+     "code": "第12(13)话[扬龙]",
+     "zh": "修特多尼亚斯分裂",
+     "ja": "シュテドニアス分裂",
+     "en": "Shutedonias, Divided",
+     "type": "分岐",
+     "area": "",
+     "note": "南下"
+    },
+    {
+     "code": "第13(14)话[普蕾西亚]",
+     "zh": "罗德尼被俘",
+     "ja": "ロドニー捕囚",
+     "en": "Rodney in Chains",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13(14)话[温蒂]",
+     "zh": "艾尔希涅的演说",
+     "ja": "エルシーネの演説",
+     "en": "Elscine's Speech",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13(14)话[扬龙]",
+     "zh": "两种正义",
+     "ja": "二つの正義",
+     "en": "Two Justices",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14(15)话",
+     "zh": "各自的盘算",
+     "ja": "それぞれの思惑",
+     "en": "Varied Intentions",
+     "type": "主线",
+     "area": "",
+     "note": "三线合流"
+    }
+   ]
+  },
+  {
+   "title": "中盘共通（第15(16)话–第25(26)话）：标题变体与条件变体",
+   "intro": "合流后的共通段落，但多个话数有按条件变化的版本：第15(16)话按所走路线换标题；第18(19)话按前一话的击破数分三版；第19(20)话承之分三版；第22(23)话按第18话版本换标题；第25(26)话按男女驾驶员平均等级分两版（出击阵容也随之全为女性/男性）。",
+   "rows": [
+    {
+     "code": "第15(16)话[普蕾西亚后]",
+     "zh": "艾兰·泽诺萨基斯",
+     "ja": "エラン・ゼノサキス",
+     "en": "Elan Zenosakis",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15(16)话[温蒂/扬龙后]",
+     "zh": "另一台塞巴斯塔",
+     "ja": "もう一機のサイバスター",
+     "en": "Another Cybuster",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16(17)话",
+     "zh": "镇压恐怖分子",
+     "ja": "テロリスト鎮圧",
+     "en": "Terrorist Suppression",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17(18)话",
+     "zh": "死亡商人",
+     "ja": "死の商人",
+     "en": "Merchant of Death",
+     "type": "主线",
+     "area": "",
+     "note": "击破数决定下一话版本"
+    },
+    {
+     "code": "第18(19)话[击破5+]",
+     "zh": "谈判破裂",
+     "ja": "交渉決裂",
+     "en": "Diplomatic Breakdown",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18(19)话[击破1-4]",
+     "zh": "艾丽亚尔王国内乱",
+     "ja": "エリアル王国内紛",
+     "en": "Internal Strife in the Kingdom of Erial",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18(19)话[击破0]",
+     "zh": "暗中活动的影子",
+     "ja": "暗躍する影",
+     "en": "Moving in the Shadows",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19(20)话[通常]",
+     "zh": "雪耻",
+     "ja": "汚名返上",
+     "en": "Honor, Redeemed",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19(20)话[暗跃·受损]",
+     "zh": "艾兰再临",
+     "ja": "エラン再び",
+     "en": "Elan Returns",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19(20)话[暗跃·全保]",
+     "zh": "黑客对骇客",
+     "ja": "ハッカー対クラッカー",
+     "en": "Hacker VS Cracker",
+     "type": "条件分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20(21)话",
+     "zh": "艾兰的目的",
+     "ja": "エランの目的",
+     "en": "Elan's Goal",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21(22)话",
+     "zh": "古往今来谓之宙，四方上下谓之宇",
+     "ja": "往古来今、これを宙と謂う、四方上下、これを宇と謂う",
+     "en": "From Furthest Past To Modern Day Is Called Time; All Directions Around, Above And Below Is Called Space",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22(23)话[外交线]",
+     "zh": "神秘的奥加茵计划",
+     "ja": "謎のオーガイン計画",
+     "en": "The Mysterious Orgine Project",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22(23)话[暗跃线]",
+     "zh": "奥加茵计划",
+     "ja": "オーガイン計画",
+     "en": "The Orgine Project",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23(24)话",
+     "zh": "力挽狂澜",
+     "ja": "回瀾を既倒に反す",
+     "en": "The Rolling Waves Return Just to Fall",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24(25)话",
+     "zh": "光越强，暗也越强",
+     "ja": "光強ければ、闇もまた強し",
+     "en": "When the Light is too Strong, Darkness can be Beautiful",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25(26)话[女性平均高]",
+     "zh": "男人们的受难",
+     "ja": "男達の受難",
+     "en": "The Men's Suffering",
+     "type": "条件分岐",
+     "area": "",
+     "note": "女性平均等级较高时"
+    },
+    {
+     "code": "第25(26)话[男性平均高]",
+     "zh": "心跳☆全是男人的战斗场面",
+     "ja": "どきっ☆男だらけの戦闘シーン",
+     "en": "*gasp* Such a Manly Battle Scene",
+     "type": "条件分岐",
+     "area": "",
+     "note": "男性平均等级较高时"
+    }
+   ]
+  },
+  {
+   "title": "双线并行（第26(27)话–第31(32)话）",
+   "intro": "按第12(13)话的选择分两条平行线：A线（普蕾西亚或温蒂之后）与 B线（扬龙之后），各 6 话、内容完全不同。第31(32)话通关时有大规模的技能一括习得。",
+   "rows": [
+    {
+     "code": "第26(27)话A",
+     "zh": "仁德之将达斯德雷什",
+     "ja": "仁徳の将、ダスドレーシュ",
+     "en": "The Benevolent Leader, Dusdresh",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26(27)话B",
+     "zh": "要塞攻略",
+     "ja": "要塞攻略",
+     "en": "Capture the Fortress",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27(28)话A",
+     "zh": "修的算计",
+     "ja": "シュウの魂胆",
+     "en": "Shu's Secret Plot",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27(28)话B",
+     "zh": "虚假的和平",
+     "ja": "偽りの和平",
+     "en": "A False Peace",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28(29)话A",
+     "zh": "被封闭的和平之路",
+     "ja": "閉ざされた和平への道",
+     "en": "The Closed Road to Peace",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28(29)话B",
+     "zh": "拉姆兹菲亚会战",
+     "ja": "ラムズフェア会戦",
+     "en": "The Battle at Rumsfair",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29(30)话A",
+     "zh": "调和神与破坏神",
+     "ja": "調和神と破壊神",
+     "en": "The God of Balance and the God of Destruction",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29(30)话B",
+     "zh": "暗夜里的蠢动",
+     "ja": "陰夜の蠢動",
+     "en": "Misdeeds in the Dark of Night",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30(31)话A",
+     "zh": "非道的作战",
+     "ja": "非道の作戦",
+     "en": "Inhuman Tactics",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30(31)话B",
+     "zh": "伊克纳尔海峡海战",
+     "ja": "イクナル海峡海戦",
+     "en": "Sea Battle at Iknar Strait",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31(32)话A",
+     "zh": "篡夺者翁加雷德",
+     "ja": "簒奪者オンガレッド",
+     "en": "Ongaredd the Usurper",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31(32)话B",
+     "zh": "防卫传送门",
+     "ja": "ゲート防衛",
+     "en": "Defend the Gate",
+     "type": "分岐",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "温蒂线终盘（第32(33)话–第38(39)话）",
+   "intro": "第12(13)话选北上（巴洛姆）的路线终盘：莱考一行在本线正式加入，最终话须按顺序说得缇优蒂、再连战艾尔希涅与萨瓦·伏尔库斯。日方称此线为「北部・温蒂路线」。",
+   "rows": [
+    {
+     "code": "第32(33)话[温蒂]",
+     "zh": "亚马纳会战",
+     "ja": "ヤーマーナ会戦",
+     "en": "The Battle at Yamana",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33(34)话[温蒂]",
+     "zh": "自地底苏醒之物",
+     "ja": "地底より目覚めしもの",
+     "en": "From the depths of the earth, it awakens",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34(35)话[温蒂]",
+     "zh": "悲伤的姐妹",
+     "ja": "悲しき姉妹",
+     "en": "The Sad Sisters",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35(36)话[温蒂]",
+     "zh": "邪恶的恫吓",
+     "ja": "邪曲な恫喝",
+     "en": "Wicked Threats",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36(37)话[温蒂]",
+     "zh": "可憎的电离等离子炮",
+     "ja": "忌むべき電離プラズマ砲",
+     "en": "The horrific Ionzied Plasma Gun",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37(38)话[温蒂]",
+     "zh": "被掳走的温蒂",
+     "ja": "さらわれたウェンディ",
+     "en": "Wendy, Kidnapped",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38(39)话[温蒂]",
+     "zh": "艾尔希涅的真意",
+     "ja": "エルシーネの真意",
+     "en": "Elscine's True Goal",
+     "type": "最终话",
+     "area": "",
+     "note": "温蒂线最终话"
+    }
+   ]
+  },
+  {
+   "title": "普蕾西亚线终盘（第33话–第40话）",
+   "intro": "条件路线（普蕾西亚）的终盘：普蕾西亚长期离队、于最终话回归。Akurasu 对本线终盘采用无括号的 33–40 编号。",
+   "rows": [
+    {
+     "code": "第33话[普蕾西亚]",
+     "zh": "卑劣的同盟",
+     "ja": "卑劣な同盟",
+     "en": "A Cowardly Alliance",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话[普蕾西亚]",
+     "zh": "神秘的疾病",
+     "ja": "謎の病",
+     "en": "The Mysterious Illness",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话[普蕾西亚]",
+     "zh": "艾尔希涅的嫌疑",
+     "ja": "エルシーネの疑惑",
+     "en": "Elscine's Allegations",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话[普蕾西亚]",
+     "zh": "被操纵的普蕾西亚",
+     "ja": "操られたプレシア",
+     "en": "Precia the Puppet",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话[普蕾西亚]",
+     "zh": "与南部的决战",
+     "ja": "南部との決戦",
+     "en": "Showdown in the South",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话[普蕾西亚]",
+     "zh": "被继承的诅咒",
+     "ja": "受け継がれた呪い",
+     "en": "Inheritor of the Curse",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话[普蕾西亚]",
+     "zh": "泽诺萨基斯的血脉",
+     "ja": "ゼノサキスの血脈",
+     "en": "The Zenosakis Bloodline",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话[普蕾西亚]",
+     "zh": "封印的双重螺旋",
+     "ja": "封印の二重螺旋",
+     "en": "The Double-Helix Seal",
+     "type": "最终话",
+     "area": "",
+     "note": "普蕾西亚线最终话"
+    }
+   ]
+  },
+  {
+   "title": "扬龙线终盘（第32(33)话–第41(42)话）",
+   "intro": "第12(13)话选南下（修特多尼亚斯分裂）的路线终盘，全作最长：修一行在本线正式加入，最终话与艾尔希涅决战。日方称此线为「南部・扬龙路线」。",
+   "rows": [
+    {
+     "code": "第32(33)话[扬龙]",
+     "zh": "南部联合的反击",
+     "ja": "南部聯合の反撃",
+     "en": "The Southern Union's Counterattack",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33(34)话[扬龙]",
+     "zh": "国境线攻防",
+     "ja": "国境線の攻防",
+     "en": "Border Combat",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34(35)话[扬龙]",
+     "zh": "北与南",
+     "ja": "北と南",
+     "en": "North and South",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35(36)话[扬龙]",
+     "zh": "艾尔希涅",
+     "ja": "エルシーネ",
+     "en": "Elscine",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36(37)话[扬龙]",
+     "zh": "死灰复燃",
+     "ja": "死灰復燃ゆ",
+     "en": "And the dead shall rise",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37(38)话[扬龙]",
+     "zh": "纵横家翁加雷德",
+     "ja": "縦横家オンガレッド",
+     "en": "Ongaredd the Sociopath",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38(39)话[扬龙]",
+     "zh": "南部紊乱",
+     "ja": "南部紊乱",
+     "en": "Discord in the South",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39(40)话[扬龙]",
+     "zh": "自黄泉归来的调和神",
+     "ja": "黄泉返る調和神",
+     "en": "The God of Balance returns from the Underworld",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40(41)话[扬龙]",
+     "zh": "噩梦再临",
+     "ja": "悪夢再び",
+     "en": "The Nightmare Returns",
+     "type": "终盘",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41(42)话[扬龙]",
+     "zh": "终末的启示",
+     "ja": "終末の黙示",
+     "en": "The Closing Revelation",
+     "type": "最终话",
+     "area": "",
+     "note": "扬龙线最终话"
+    }
+   ]
+  }
+ ]
+}
