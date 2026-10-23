@@ -29,6 +29,7 @@ import srwj from '../data/srwj-missions.json';
 import srww from '../data/srww-missions.json';
 import srwogs from '../data/srwogs-missions.json';
 import srwoggaiden from '../data/srwoggaiden-missions.json';
+import srwog2nd from '../data/srwog2nd-missions.json';
 import srwz from '../data/srwz-missions.json';
 import srwzspecial from '../data/srwzspecial-missions.json';
 import srwz2hakai from '../data/srwz2hakai-missions.json';
@@ -50,7 +51,7 @@ export function GET() {
     platformSlugs.add(g.platformSlug);
     paths.add(`${g.slug}/`);
     // /secrets/ 与 /units/ 已改为重定向页（noindex），不进 sitemap；
-    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-k、srw-neo、srw-l、srw-card-chronicle 与 srw-masoukishin-2 有真实总表页，其余作的重定向页同样不收录。
+    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden、srw-og-2nd 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-k、srw-neo、srw-l、srw-card-chronicle 与 srw-masoukishin-2 有真实总表页，其余作的重定向页同样不收录。
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
@@ -173,6 +174,10 @@ export function GET() {
   paths.add('srw-og-gaiden/missions/');
   for (const m of (srwoggaiden as any).missions ?? []) {
     if (m.slug) paths.add(`srw-og-gaiden/missions/${m.slug}/`);
+  }
+  paths.add('srw-og-2nd/missions/');
+  for (const m of (srwog2nd as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-og-2nd/missions/${m.slug}/`);
   }
   paths.add('srw-z/missions/');
   for (const m of (srwz as any).missions ?? []) {

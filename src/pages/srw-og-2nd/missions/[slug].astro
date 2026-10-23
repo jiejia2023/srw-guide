@@ -1,0 +1,136 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwog2nd-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const md = (s: string) => s.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战OG', path: 'srw-og-2nd/' },
+  { label: '关卡攻略', path: 'srw-og-2nd/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const SR_COMMON = '本作<strong>有熟练度系统（称 SR Point）</strong>：第1–59话与结局分支各话各有 1 个取得条件，累计只增不减；第59话结束时累计 ≥41 点进入秘密结局（判定前最多可得 59 点），此外熟练度只影响难度档位（NORMAL/HARD 两档，触发 HARD 的确切比例无来源刊载）。';
+const routeAlert: Record<string, string> = {
+  '共通': SR_COMMON,
+  '正树线': '本话是<strong>正树线</strong>版本（第1话后的路线分歧：第2–17话，不访问飞龙改）。魔装机神追加武装的击坠计点在本线第17话结算（四人合计 127）。' + SR_COMMON,
+  '琉妮线': '本话是<strong>琉妮线</strong>版本（第1话后的路线分歧：第2–17话，访问飞龙改）。魔装机神追加武装的击坠计点在本线第17话结算（三人合计 97）。' + SR_COMMON,
+  '地上线': '本话是<strong>地上线</strong>版本（第29话后或第53话后的路线分歧，与宇宙线并行，次段首话合流）。' + SR_COMMON,
+  '宇宙线': '本话是<strong>宇宙线</strong>版本（第29话后或第53话后的路线分歧，与地上线并行，次段首话合流）。' + SR_COMMON,
+  '普通结局': '本话属于<strong>普通结局</strong>路线（第59话结束时熟练度 &lt;41 点）。' + SR_COMMON,
+  '秘密结局': '本话属于<strong>秘密结局</strong>路线（第59话结束时熟练度 ≥41 点）：比普通结局多 2 话，并有专属最终话。' + SR_COMMON,
+};
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`第2次超级机器人大战OG（2012 PS3）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（SR Point）取得条件、我方加入、本关隐藏要素与坐标地图。`} path={`srw-og-2nd/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、<strong>熟练度（SR Point）条件</strong>、我方加入与隐藏要素来自 Akurasu Wiki 的 OG2nd <strong>Complete Chart</strong>，并与同站 Flow Chart、Secrets 页交叉核对，系统与结构另以日文维基及 4Gamer 官方情报互证（分歧见本页备注与本作主页）。<span set:html={routeAlert[m.route]}></span>本作的逐关敌方编成未找到可双源交叉核对的成套来源（日文 atwiki 逐话编成表字段未逐页核实，且敌情随难度变化），暂不刊载（待裁决，见本作主页）；敌方逐台坐标与逐格地形则在任何来源中都不存在，故地图为参照框架。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度条件'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 完整流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实/待裁决：</strong>本关敌方编成（构成、数量、增援）本站暂未刊载——来源盘点与理由见下方注记与本作主页「敌方数据现状」一节；敌方逐台的等级、坐标与逐格地形则无任何公开来源。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li set:html={md(e)} />)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 完整流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li set:html={md(s)} />)}
+  </ul>
+  <p class="muted">本作的隐藏要素多为跨话连锁（第17话击坠计点→第44/46话交付；第38→40话、第41→42话、第47→48话的两段式；第46→47→48话的 Forte Gigas 三段链）与话末结算门槛：结算型条件必须在结算话之前练达标，错过无法补救。秘密结局的分歧判定在第59话页。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-og-2nd/missions/')}>← 返回关卡列表</a> · <a href={href('srw-og-2nd/')}>返回第2次超级机器人大战OG</a></p>
+</Base>

@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwOg2ndMissionList from '../../../components/SrwOg2ndMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战OG', path: 'srw-og-2nd/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第2次超级机器人大战OG（PS3）关卡攻略 · 全93个关卡页面列表" description="第2次超级机器人大战OG（2012年 PS3）全部关卡的页面列表：按 Akurasu 完整流程表逐条清点共 93 个剧本条目（含序章；不计序章为 92 个可玩剧本），含三次路线分歧的全部版本与双结局；一周目实际游玩 62 话（普通结局）或 64 话（秘密结局）。每关独立攻略页含胜利/败北条件、熟练度（SR Point）取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-og-2nd/missions/" breadcrumbs={crumbs}>
+  <h1>第2次超级机器人大战OG · 关卡攻略</h1>
+  <p>2012 年 PS3《第2次超级机器人大战OG》是 OG 系列的「EPISODE 3」，直接承接《OG外传》（EPISODE 2.5）。与外界常有的印象不同，<strong>本作有路线分歧</strong>：第1话后分<strong>正树线/琉妮线</strong>（第2–17话）、第29话后与第53话后两次分<strong>地上线/宇宙线</strong>（第30–36话、第54–57话），第18、37、58话合流；终盘还有一次由熟练度决定的<strong>结局分歧</strong>——第59话结束时累计熟练度 ≥41 点进入秘密结局（多 2 话、阿尔菲米加入），否则为普通结局。按 Akurasu 的<strong>完整流程表（Complete Chart）</strong>逐条清点，全作共 <strong>93 个剧本条目</strong>（含无熟练度的第0话序章；Akurasu 主条目所称「92 个可玩剧本」即不计序章的口径），一周目实际游玩 <strong>62 话</strong>（普通结局）或 <strong>64 话</strong>（秘密结局），本站已按 93 个条目全部建页。本作的<strong>熟练度称 SR Point</strong>：第1–59话与结局分支各话各有 1 个条件（一周目可得 60 点／秘密结局 62 点），判定结局前最多 59 点；两个最终话都没有熟练度。难度只有 <strong>NORMAL/HARD 两档</strong>（据 4Gamer 官方情报，与取得的 SR Point 相关、NORMAL 时获得资金增加），但<strong>触发 HARD 的确切比例在所查来源中均未刊载，本站不套用前作 OGS 的三档百分比</strong>。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站全关卡补完计划中的又一部完成作——93 个详情页全部建成。流程、胜败条件、熟练度条件、加入与隐藏要素以 Akurasu 的 OG2nd <strong>Complete Chart 为主源</strong>，与同站 Flow Chart、Secrets 页逐条交叉核对；系统（Maximum Break、能力槽、模式与继承）以日文维基、4Gamer 官方情报稿与同站 Clear 页互证。<strong>如实说明</strong>：本作的逐关敌方<strong>编成</strong>未找到可双源交叉核对的成套来源——日文 atwiki 攻略站设有逐话攻略与敌方数据库，但其逐话编成表的字段构成本站本轮未能逐页核实，且敌情随难度（NORMAL/HARD）变化；GameFAQs 未查到本作的编成攻略。故编成表暂不刊载，列为<strong>待用户裁决</strong>事项（范围：全 93 个剧本的敌方构成/数量/增援）；敌方逐台的<strong>坐标与逐格地形</strong>在任何来源中都不存在，各页地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <SrwOg2ndMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — The 2nd Super Robot Wars OG: Complete Chart</a>（主来源：全关卡的胜败条件、熟练度条件、机体加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — The 2nd Super Robot Wars OG: Flow Chart</a>（熟练度条件清单，与完整流程表交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Secrets" rel="noopener" target="_blank">Akurasu Wiki — The 2nd Super Robot Wars OG: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OG2nd/Clear" rel="noopener" target="_blank">Akurasu Wiki — The 2nd Super Robot Wars OG: Clear</a>（周回继承比例、EX-HARD 与 Special 模式）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E5%83%88%E5%A4%A7%E6%88%A6OG" rel="noopener" target="_blank">日本维基百科 — 第2次スーパーロボット大戦OG</a>（结构与新系统的交叉核对）</li>
+    <li><a href="https://www.4gamer.net/games/133/G013318/20120926001/" rel="noopener" target="_blank">4Gamer 官方情报稿（2012-09-27）</a>（难度两档制、能力槽系统、休整画面编组双机的官方说明）</li>
+  </ul>
+  <p><a href={href('srw-og-2nd/')}>← 返回第2次超级机器人大战OG</a></p>
+</Base>

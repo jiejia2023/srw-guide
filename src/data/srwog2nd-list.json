@@ -1,0 +1,913 @@
+{
+ "groups": [
+  {
+   "title": "序章与共通序盘（第0–1话）",
+   "intro": "第1话结束后分歧：选「不顺路去飞龙改」走正树线、选「顺路去飞龙改」走琉妮线（第2–17话）。",
+   "rows": [
+    {
+     "code": "第0话",
+     "zh": "序章",
+     "ja": "プロローグ",
+     "en": "Prologue",
+     "type": "序章",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话",
+     "zh": "无星之空",
+     "ja": "星なき空",
+     "en": "Starless Sky",
+     "type": "开局关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧：正树线（第2–17话）",
+   "intro": "不访问飞龙改的一线：以钢号队为中心转战拉·基亚斯，魔装机神组的击坠数在本线第17话结算追加武装。",
+   "rows": [
+    {
+     "code": "第2话·正树线",
+     "zh": "召唤",
+     "ja": "召喚",
+     "en": "Summons",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·正树线",
+     "zh": "不朽峡谷",
+     "ja": "イモータルの迎撃",
+     "en": "Immortal Gorge",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·正树线",
+     "zh": "索拉提斯神殿",
+     "ja": "ソラティス神殿",
+     "en": "Soraties Shrine",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·正树线",
+     "zh": "恶魔骇入",
+     "ja": "デモン・ハック",
+     "en": "Demon Hack",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·正树线",
+     "zh": "珊瑚峡谷",
+     "ja": "コーラルキャニオン",
+     "en": "Coral Canyon",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·正树线",
+     "zh": "失去的记忆",
+     "ja": "喪われた記憶",
+     "en": "Lost Memories",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·正树线",
+     "zh": "扎姆吉德之心",
+     "ja": "ザムジードの心",
+     "en": "Zamzeed's Heart",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·正树线",
+     "zh": "被囚的公主",
+     "ja": "囚われの王女",
+     "en": "The Captive Princess",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·正树线",
+     "zh": "通往王都之路",
+     "ja": "王都への路",
+     "en": "The Road to the Royal Capital",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·正树线",
+     "zh": "卡克斯的野心",
+     "ja": "カークスの野望",
+     "en": "Kirkus's Ambition",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·正树线",
+     "zh": "特里乌斯出走",
+     "ja": "テリウス出奔",
+     "en": "Telius' Flight",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·正树线",
+     "zh": "野心的代价",
+     "ja": "野心の代償",
+     "en": "The Price of Ambition",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·正树线",
+     "zh": "邪神的胎动",
+     "ja": "邪神の胎動",
+     "en": "Awakening of the Evil God",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·正树线",
+     "zh": "费尔之暗",
+     "ja": "フェイルの闇",
+     "en": "Feil's Darkness",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·正树线",
+     "zh": "走上歧路",
+     "ja": "違えた道",
+     "en": "Changed Ways",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·正树线",
+     "zh": "决战·杜拉克希尔",
+     "ja": "決戦、デュラクシール",
+     "en": "Duraxyl's Decisive Battle",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧：琉妮线（第2–17话）",
+   "intro": "访问飞龙改的一线：以飞龙改队为中心，魔装机神组的击坠数在本线第17话结算追加武装。",
+   "rows": [
+    {
+     "code": "第2话·琉妮线",
+     "zh": "地底世界",
+     "ja": "地底世界",
+     "en": "Subterranean World",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·琉妮线",
+     "zh": "与孤狼重逢",
+     "ja": "孤狼との再会",
+     "en": "A Reunion with Beowulf",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·琉妮线",
+     "zh": "丹克市攻防战",
+     "ja": "ダンク市の攻防",
+     "en": "The Battle for Dank",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·琉妮线",
+     "zh": "各自的正义",
+     "ja": "それぞれの正義",
+     "en": "Different Justices",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·琉妮线",
+     "zh": "孢子之谷",
+     "ja": "胞子の谷",
+     "en": "The Valley of Spores",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·琉妮线",
+     "zh": "奇袭",
+     "ja": "サプライズド・アタック",
+     "en": "Surprise Attack",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·琉妮线",
+     "zh": "信念与疑惑",
+     "ja": "信念と疑惑",
+     "en": "Faith and Doubt",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·琉妮线",
+     "zh": "沃尔克鲁斯之影",
+     "ja": "ヴォルクルスの影",
+     "en": "Shadow of Volkrus",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·琉妮线",
+     "zh": "卡克斯的真意",
+     "ja": "カークスの真意",
+     "en": "Kirkus's Intentions",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·琉妮线",
+     "zh": "异界之剑",
+     "ja": "異界の剣",
+     "en": "Sword from the Beyond",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·琉妮线",
+     "zh": "遭遇",
+     "ja": "遭遇",
+     "en": "The Encounter",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·琉妮线",
+     "zh": "卡克斯之眼",
+     "ja": "カークスの目",
+     "en": "Kirkus's Vision",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·琉妮线",
+     "zh": "赛布神殿",
+     "ja": "セブ神殿",
+     "en": "Seb Shrine",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·琉妮线",
+     "zh": "追击修特多尼亚斯",
+     "ja": "シュテドニアス追撃",
+     "en": "The Pursuit of Shutedonias",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·琉妮线",
+     "zh": "败军之将",
+     "ja": "敗軍の将",
+     "en": "The Defeated General",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·琉妮线",
+     "zh": "超魔装机尤克利德",
+     "ja": "超魔装機エウリード",
+     "en": "Euclid, the Hyper-Elemental Machine",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后共通（第18–29话）",
+   "intro": "第18话两线合流；第21话有全员击坠数的部件结算，第29话是不可交战的抵达话，其后第二次分歧。",
+   "rows": [
+    {
+     "code": "第18话",
+     "zh": "来自「混沌」的使者",
+     "ja": "「混乱」からの使者",
+     "en": "The Envoy from [Chaos]",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "负伤之狼",
+     "ja": "手負いの狼",
+     "en": "The Wounded Wolf",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "渴望天空的骑士",
+     "ja": "空を望む騎士",
+     "en": "The Knight who Wished to Fly",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "黑焰猎人",
+     "ja": "黒焔の狩人",
+     "en": "Blazing Black Huntress",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "黑色迅雷",
+     "ja": "黒き迅雷",
+     "en": "Black Jinrai",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "恶客再临",
+     "ja": "厭客再来",
+     "en": "Unwanted Guests Return",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "守护地球之剑",
+     "ja": "地球を護る剣",
+     "en": "The Sword that Defends the Earth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "苏醒的青龙",
+     "ja": "甦る青龍",
+     "en": "Return of the Blue Dragon",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "混编部队",
+     "ja": "ミクスト・トルーパーズ",
+     "en": "Mixed Troopers",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "南极之门",
+     "ja": "南極の門",
+     "en": "The Antarctic Gate",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "其名「破灭」",
+     "ja": "その名は“破滅”",
+     "en": "Their name is \"Ruin\"",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "动摇的矛头",
+     "ja": "揺れる矛先",
+     "en": "The Swaying Spearhead",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧：地上线（第30–36话）",
+   "intro": "飞龙改队留在地上；第35话有地上线限定的「扭曲头带」说得事件。",
+   "rows": [
+    {
+     "code": "第30话·地上线",
+     "zh": "永夜的世界",
+     "ja": "常夜の世界",
+     "en": "A World of Endless Night",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·地上线",
+     "zh": "影之军团",
+     "ja": "影の軍団",
+     "en": "Army of Shadows",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·地上线",
+     "zh": "冰人偶",
+     "ja": "アイス・ドール",
+     "en": "Ice Doll",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·地上线",
+     "zh": "伪面复仇者",
+     "ja": "偽面の報復者",
+     "en": "Revenge of the Traitor",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·地上线",
+     "zh": "流星与彗星",
+     "ja": "流星と彗星",
+     "en": "Shooting Star and Comet",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·地上线",
+     "zh": "漆黑之虎，冰之白刃",
+     "ja": "漆黒の虎、氷の白刃",
+     "en": "Obsidian Tiger, Alabaster Ice Blade",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·地上线",
+     "zh": "命运之风",
+     "ja": "運命の風",
+     "en": "The Winds of Fate",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧：宇宙线（第30–36话）",
+   "intro": "钢号队前往宇宙；阿克塞尔在本线第36话后暂时离队。",
+   "rows": [
+    {
+     "code": "第30话·宇宙线",
+     "zh": "没有蓝光的宇宙",
+     "ja": "蒼光なき宇宙",
+     "en": "Space without Blue Light",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·宇宙线",
+     "zh": "远方来的刺客",
+     "ja": "遠方からの刺客",
+     "en": "Assassin from Distant Lands",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·宇宙线",
+     "zh": "相互呼应的伪核",
+     "ja": "呼応する偽核",
+     "en": "Concordant Counterfeit Cores",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·宇宙线",
+     "zh": "相连之绿",
+     "ja": "繋がる緑",
+     "en": "Bound By Viridian",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·宇宙线",
+     "zh": "双重拦截",
+     "ja": "ダブル・インターセプト",
+     "en": "Double Intercept",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·宇宙线",
+     "zh": "追逃逆转",
+     "ja": "追逃逆転",
+     "en": "Hunters Becomes Hunted",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·宇宙线",
+     "zh": "不可见之门",
+     "ja": "不可視の扉",
+     "en": "The Invisible Door",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后共通（第37–53话）",
+   "intro": "第37话两线合流。本段隐藏连锁最密集：狮子王之剑（38→40）、高性能电子头脑（41→42）、MTDM（43）、魔装机神交付（44/46）、重力子发射器（45）、Forte Gigas（46→47→48）、自由电子炮（47→48）、钢之魂（49）。",
+   "rows": [
+    {
+     "code": "第37话",
+     "zh": "顽铁番町G·班卡兰",
+     "ja": "頑鉄番町Gバンカラン",
+     "en": "Gantetsu Banchou G-BANKARAN",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "四神邂逅",
+     "ja": "四神邂逅",
+     "en": "Meeting of the Four Gods",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "狼与犬",
+     "ja": "狼と犬達",
+     "en": "Wolves and Dogs",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "苍炎之逆鳞",
+     "ja": "蒼炎の逆鱗",
+     "en": "Wrath of the Blue Flame",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "被妄念操纵者（前篇）",
+     "ja": "妄念に操られし者(前篇)",
+     "en": "The Manipulated Ones (Part 1)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "被妄念操纵者（后篇）",
+     "ja": "妄念に操られし者(後篇)",
+     "en": "The Manipulated Ones (Part 2)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话",
+     "zh": "光辉合而为一",
+     "ja": "輝きを一つに",
+     "en": "Shining Into One",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "特异点崩坏",
+     "ja": "特異点崩壊",
+     "en": "Singularity Collapses",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话",
+     "zh": "凶鸟三度死",
+     "ja": "凶鳥は三度死ぬ",
+     "en": "The Thrice-felled Raven",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "琉妮的随想曲",
+     "ja": "リューネ・カプリッチオ",
+     "en": "Lune's Capriccio",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "碉堡奇袭",
+     "ja": "トーチカ奇襲",
+     "en": "Assault on Bunker 8",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "深秘的存在",
+     "ja": "深秘なる存在",
+     "en": "An Esoteric Existence",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "斗志，炎燃",
+     "ja": "闘志、炎に燃ゆる",
+     "en": "Fighting Spirit Ablaze",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "去来交汇点",
+     "ja": "去来交差点",
+     "en": "Crossing Paths Once More",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话",
+     "zh": "风的呼唤",
+     "ja": "風の呼び声",
+     "en": "The Wind Calls",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话",
+     "zh": "向我告别",
+     "ja": "私に、さよならを",
+     "en": "Tell Me Goodbye",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话",
+     "zh": "封印的预兆",
+     "ja": "封印の予兆",
+     "en": "The Seal's Omen",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧：地上线（第54–57话）",
+   "intro": "钢号队留在地上（圣诞决战）。",
+   "rows": [
+    {
+     "code": "第54话·地上线",
+     "zh": "天盖之下",
+     "ja": "天蓋の下で",
+     "en": "Beneath the Celestial Canopy",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·地上线",
+     "zh": "雷迅升星",
+     "ja": "雷迅昇星",
+     "en": "Rising Lightning Meteor",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·地上线",
+     "zh": "绯红圣诞祭（前篇）",
+     "ja": "紅の聖誕祭(前篇)",
+     "en": "Crimson Christmas (Part 1)",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·地上线",
+     "zh": "绯红圣诞祭（后篇）",
+     "ja": "紅の聖誕祭(後篇)",
+     "en": "Crimson Christmas (Part 2)",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧：宇宙线（第54–57话）",
+   "intro": "飞龙改队前往宇宙（嘉宾与监察者决战）。",
+   "rows": [
+    {
+     "code": "第54话·宇宙线",
+     "zh": "神之牢狱",
+     "ja": "神の牢獄",
+     "en": "God's Prison",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·宇宙线",
+     "zh": "嘉宾与监察者",
+     "ja": "ゲストとインスペクター",
+     "en": "Guests and Inspectors",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·宇宙线",
+     "zh": "再征服作战",
+     "ja": "オペレーション・レコンキスタ",
+     "en": "Operation Reconquista",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·宇宙线",
+     "zh": "激震的白色大地",
+     "ja": "激震の白い大地",
+     "en": "The Trembling White Landscape",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘共通（第58–59话）",
+   "intro": "第58话两线合流；第59话结束时按累计熟练度（≥41）决定结局分歧。",
+   "rows": [
+    {
+     "code": "第58话",
+     "zh": "危机节点",
+     "ja": "クライシス・ポイント",
+     "en": "Crisis Point",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第59话",
+     "zh": "欲望",
+     "ja": "デザイア",
+     "en": "Desire",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "普通结局（第60话＋最终话）",
+   "intro": "熟练度 <41 点时进入：比秘密结局少 2 话，最终话《封印战争》无熟练度。",
+   "rows": [
+    {
+     "code": "第60话·普通结局",
+     "zh": "四龙之长",
+     "ja": "四龍の長",
+     "en": "Greatest of the Four Dragons",
+     "type": "结局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·普通结局",
+     "zh": "封印战争",
+     "ja": "封印戦争",
+     "en": "Sealing War",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "秘密结局（第60–62话＋最终话）",
+   "intro": "熟练度 ≥41 点时进入：多 2 话、第60话阿尔菲米加入，最终话《远古的忌忆》无熟练度。",
+   "rows": [
+    {
+     "code": "第60话·秘密结局",
+     "zh": "最后的呐喊",
+     "ja": "ラスト・クライ",
+     "en": "Last Cry",
+     "type": "结局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第61话·秘密结局",
+     "zh": "机人大战",
+     "ja": "機人大戦",
+     "en": "Kijin Wars",
+     "type": "结局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第62话·秘密结局",
+     "zh": "母星的守护神",
+     "ja": "母なる星の護り神",
+     "en": "Guardian Goddess of Mother Earth",
+     "type": "结局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·秘密结局",
+     "zh": "远古的忌忆",
+     "ja": "古の忌憶",
+     "en": "Ancient Lamentations",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
