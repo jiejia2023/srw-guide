@@ -1,0 +1,31 @@
+---
+import listData from '../data/srwoperationextend-list.json';
+import { href } from '../lib/site';
+
+const groups = (listData as any).groups ?? [];
+---
+{groups.map((g: any) => (
+  <>
+  <h3>{g.title}</h3>
+  {g.intro && <p class="text-sm text-base-content/60">{g.intro}</p>}
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名</th><th>类型</th><th>推荐Lv</th><th>详情</th><th>备注</th></tr></thead>
+      <tbody>
+      {g.rows.map((r: any) => (
+        <tr>
+          <td>{r.code}</td>
+          <td>{r.slug ? <a class="link link-primary font-semibold" href={href(`srw-operation-extend/missions/${r.slug}/`)}>{r.zh}</a> : r.zh}</td>
+          <td>{r.ja}</td>
+          <td>{r.en}</td>
+          <td><span class="badge badge-primary badge-sm">{r.type}</span></td>
+          <td>{r.lv ?? '—'}</td>
+          <td>{r.slug ? <a class="link link-primary font-semibold" href={href(`srw-operation-extend/missions/${r.slug}/`)}>攻略</a> : ''}</td>
+          <td>{r.note}</td>
+        </tr>
+      ))}
+      </tbody>
+    </table>
+  </div>
+  </>
+))}

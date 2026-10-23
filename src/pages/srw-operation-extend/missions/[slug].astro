@@ -1,0 +1,167 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwoperationextend-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OperationExtend', path: 'srw-operation-extend/' },
+  { label: '关卡攻略', path: 'srw-operation-extend/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const es = m.enemies.state as string;
+const terrainLabel = (m.terrain ?? []).join('／');
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战 Operation Extend（2013 PSP 下载作）${m.code} ${m.zh} 攻略：推荐Lv、地形、过关奖励（资金／EC）、我方加入与初期配置、EC 获得事件与本关要点（本作无熟练度系统；本作无格子地图）；敌方编成只有 wikiwiki 一家刊载、按本站惯例暂不刊载待裁决。`} path={`srw-operation-extend/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · 第{m.chapter}章 · 类型：{m.kind} · 推荐Lv：{m.lv ?? '待核实'}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的推荐等级、地形、过关／连续奖励与出击信息来自日文攻略 Wiki <strong>wikiwiki（SRW 系列 Wiki）</strong>的 OE 各章任务表与各任务页，我方加入由同站「参戦タイムテーブル」与任务页的初期配置两表互证；任务骨架（主线／支线／DLC／模拟战的分类与编号）另与 Akurasu 的 OE 流程表交叉核对，隐藏要素（隐藏武器／零件）来自 Akurasu 的 Secrets 页。本作<strong>没有熟练度（SR 点）系统</strong>——这一点三方一致：日文维基百科的系统记述中没有熟练度，两家攻略站的任务表也没有熟练度栏（继承 NEO 系系统的作共同点）。本作是<strong>无格子</strong>的半径移动系统（NEO 引擎改良），不存在格子坐标与逐格地形，地图为参照框架。中文／英文标题无官方译名，为本站译名。{es === 'single' ? <span>本关的<strong>敌方编成</strong>（初期敌方构成・数量与增援批次）只有 wikiwiki 一家刊载，按本站「双源交叉才刊载」的惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）。</span> : <span>本关是模拟战任务：wikiwiki 没有模拟战专页（该站的模拟战页面不存在），逐项数据无来源刊载，见下方说明。</span>}</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.length ? m.victory.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}</td></tr>
+    <tr><th>败北条件</th><td>{m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}</td></tr>
+    <tr><th>熟练度</th><td><div>本作无熟练度系统（见本作主页的证据说明）</div></td></tr>
+    <tr><th>推荐 Lv</th><td>{m.lv ?? '待核实'}</td></tr>
+    <tr><th>地形</th><td>{terrainLabel || '待核实'}</td></tr>
+    <tr><th>小队（GR）出击</th><td>{m.gr == null ? '待核实' : m.gr ? '可（本关允许以预先编成的小队出击）' : '不可'}</td></tr>
+    <tr><th>母舰</th><td>{m.mothership ?? '待核实'}</td></tr>
+    <tr><th>出击数</th><td>{m.sortieTotal == null ? '待核实' : `总出击 ${m.sortieTotal}（强制出击 ${m.sortieForced ?? '—'}）`}</td></tr>
+    <tr><th>过关奖励</th><td>{m.clearFunds == null ? '待核实' : `资金 ${m.clearFunds} ／ EC ${m.clearEC ?? '—'}`}</td></tr>
+    {(m.chainFunds != null) && (
+    <tr><th>连续奖励</th><td>资金 {m.chainFunds} ／ EC {m.chainEC ?? '—'}（与相邻主线任务连续游玩时的追加奖励）</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.length ? m.unlocks.map((u: string) => <div>{u}</div>) : <div>—</div>}</td></tr>
+  </table>
+  </div>
+  {(!m.victory.length || !m.defeat.length) && (
+  <p class="text-sm text-base-content/70">胜败条件说明：两家攻略站都没有为本作设逐关胜败条件专栏（Akurasu 流程表第 1–2 章的条件栏全是「???」、第 3 章起连栏目都没有），本站仅刊载 wikiwiki 各任务页攻略提示中<strong>明示</strong>的条件，其余标待核实、不逐关断言。本作任务以歼灭敌方为目标是通例，但具体到每一关仍以来源明示为准。</p>
+  )}
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（wikiwiki 参戦タイムテーブル本关未列出新增单位；条目为日文原记）。</p>
+  )}
+  <p class="muted text-sm">※ 加入条目与下方初期配置的机体／驾驶员名均为来源的日文原记（含武器追加、形态追加一类非单位条目，照录）。</p>
+
+  <h2>我方初期配置</h2>
+  {m.initialAllies && m.initialAllies.length ? (
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th></tr></thead>
+    <tbody>
+    {m.initialAllies.map((a: any) => (
+      <tr><td>{a.unit}</td><td>{a.pilot || '—'}</td><td>{a.count ?? '—'}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+  ) : (
+  <p class="muted">待核实（来源未刊载本关的我方初期配置表，或本关只有选择出击、无固定初期配置）。</p>
+  )}
+
+  {m.ecEvents && m.ecEvents.length > 0 && (
+  <div>
+  <h2>EC 获得事件</h2>
+  <ul>
+    {m.ecEvents.map((e: string) => <li>{e}</li>)}
+  </ul>
+  <p class="muted text-sm">※ EC（Extend Coin）事件条目为 wikiwiki 的日文原记：多为「初战交战」或「与特定敌人交战（vs○○）」时由指定驾驶员触发会話事件获得 EC。</p>
+  </div>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {es === 'single' ? (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成（初期敌方构成／数量、增援批次与触发）只有 <strong>wikiwiki 攻略 Wiki</strong> 一家刊载——Akurasu 的 OE 流程表不列敌方编成，s-rpg-navi、GameFAQs、atwiki 均无本作的逐关编成表。按本站「双源交叉才刊载」的惯例暂不导入，列为<strong>待用户裁决事项</strong>（范围：全 203 个章节任务；字段：初期敌方机体／驾驶员／数量与增援批次／触发；同类先例：第 3 次α 的 43 个剧本、J 的 14 个剧本、L 的 55 个剧本、UX 的 67 个剧本）。该数据本站已提取保存在工作档案中，裁决后可直接导入。本关的攻略要点（见下节）中涉及的敌方信息均为 wikiwiki 攻略提示的转述。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（无逐关数据来源）：</strong>模拟战任务在 wikiwiki 上没有专页（该站模拟战页面不存在），Akurasu 流程表只列任务名与所属章。本关的推荐等级、地形、出击与敌方编成均无来源刊载。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>本关要点</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">来源未刊载本关的攻略要点。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作隐藏要素只有「隐藏武器」与「隐藏零件」两类（Akurasu Secrets 页全表：武器 6 项、零件 24 项），没有隐藏单位——条件都是在指定任务出击指定机体、到达宝物点或击破指定目标，全表见本作主页。各条的任务编号以 Akurasu 流程表为准（其 Secrets 页的支线编号有个别与流程表差一位的情况，本站按标题对应、并在本作主页并记）。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-operation-extend/missions/')}>← 返回关卡列表</a> · <a href={href('srw-operation-extend/')}>返回超级机器人大战OperationExtend</a></p>
+</Base>

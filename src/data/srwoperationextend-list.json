@@ -1,0 +1,2288 @@
+{
+ "groups": [
+  {
+   "title": "第1章（2013 年 7 月 18 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "初等训练",
+     "ja": "初等訓練",
+     "en": "Basic Training",
+     "type": "支线",
+     "lv": 1,
+     "slug": "ch1-01",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "救援白色基地",
+     "ja": "ホワイトベースを救援せよ",
+     "en": "Rescue the White Base",
+     "type": "支线",
+     "lv": 1,
+     "slug": "ch1-02",
+     "note": ""
+    },
+    {
+     "code": "第01話",
+     "zh": "试作雷伯暴走事件",
+     "ja": "試作レイバー暴走事件",
+     "en": "The Prototype Labor Runaway Incident",
+     "type": "主线",
+     "lv": 1,
+     "slug": "ch1-03",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "黑色三连星",
+     "ja": "黒い三連星",
+     "en": "The Black Tri-Stars",
+     "type": "支线",
+     "lv": 1,
+     "slug": "ch1-04",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "阻止水爆导弹",
+     "ja": "水爆ミサイルを阻止せよ",
+     "en": "Stop the Hydrogen Bomb Missile",
+     "type": "支线",
+     "lv": 1,
+     "slug": "ch1-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "防卫组的训练",
+     "ja": "防衛組の訓練",
+     "en": "Training of the Defense Team",
+     "type": "支线",
+     "lv": 2,
+     "slug": "ch1-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "亚历克斯发射",
+     "ja": "アレックス打ち上げ",
+     "en": "Launch of the Alex",
+     "type": "支线",
+     "lv": 2,
+     "slug": "ch1-07",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "救出米迪亚运输机",
+     "ja": "ミデア輸送機を救出せよ",
+     "en": "Rescue the Medea Transport",
+     "type": "支线",
+     "lv": 2,
+     "slug": "ch1-08",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "暴走雷伯再现",
+     "ja": "暴走レイバー再び",
+     "en": "The Runaway Labor Again",
+     "type": "支线",
+     "lv": 2,
+     "slug": "ch1-09",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "潜入调查",
+     "ja": "潜入調査",
+     "en": "Infiltration Investigation",
+     "type": "支线",
+     "lv": 2,
+     "slug": "ch1-10",
+     "note": ""
+    },
+    {
+     "code": "第02話",
+     "zh": "潜伏于地底的威胁",
+     "ja": "地底に潜む脅威",
+     "en": "Threats Lurking Beneath the Earth",
+     "type": "主线",
+     "lv": 3,
+     "slug": "ch1-11",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "黑色雷伯",
+     "ja": "黒いレイバー",
+     "en": "The Black Labor",
+     "type": "支线",
+     "lv": 3,
+     "slug": "ch1-12",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "野性的咆哮",
+     "ja": "野生の雄叫び",
+     "en": "Wild Roar",
+     "type": "支线",
+     "lv": 3,
+     "slug": "ch1-13",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "贾布罗之战",
+     "ja": "ジャブローの戦い",
+     "en": "Battle of Jaburo",
+     "type": "支线",
+     "lv": 3,
+     "slug": "ch1-14",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "阿普萨拉斯强袭",
+     "ja": "アプサラス強襲",
+     "en": "Apsaras Assault",
+     "type": "支线",
+     "lv": 4,
+     "slug": "ch1-15",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "强行突破作战",
+     "ja": "強行突破作戦",
+     "en": "Forced Breakthrough Operation",
+     "type": "支线",
+     "lv": 4,
+     "slug": "ch1-16",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "追击桑吉巴尔",
+     "ja": "ザンジバル追撃",
+     "en": "Pursuit of the Zanzibar",
+     "type": "支线",
+     "lv": 4,
+     "slug": "ch1-17",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "防卫组，前往宇宙",
+     "ja": "防衛組、宇宙へ",
+     "en": "The Defense Team, To Space",
+     "type": "支线",
+     "lv": 4,
+     "slug": "ch1-18",
+     "note": ""
+    },
+    {
+     "code": "第03話-1",
+     "zh": "高达军事介入",
+     "ja": "ガンダム軍事介入",
+     "en": "Gundam Armed Intervention",
+     "type": "主线",
+     "lv": 5,
+     "slug": "ch1-19",
+     "note": ""
+    },
+    {
+     "code": "第03話-2",
+     "zh": "悄然逼近的黑影",
+     "ja": "忍び寄る黒い影",
+     "en": "A Creeping Black Shadow",
+     "type": "主线",
+     "lv": 5,
+     "slug": "ch1-20",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "绿色的侵略者",
+     "ja": "緑の侵略者",
+     "en": "The Green Invaders",
+     "type": "支线",
+     "lv": 5,
+     "slug": "ch1-21",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "压制海贼据点",
+     "ja": "海賊アジト制圧",
+     "en": "Suppressing the Pirate Hideout",
+     "type": "支线",
+     "lv": 6,
+     "slug": "ch1-22",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "火星基地袭击事件",
+     "ja": "火星基地襲撃事件",
+     "en": "The Mars Base Attack Incident",
+     "type": "支线",
+     "lv": 6,
+     "slug": "ch1-23",
+     "note": ""
+    },
+    {
+     "code": "第04話",
+     "zh": "攻击格拉多斯舰",
+     "ja": "グラドス艦を叩け",
+     "en": "Attack the Grados Ship",
+     "type": "主线",
+     "lv": 7,
+     "slug": "ch1-24",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "入侵者的魔手",
+     "ja": "インベーダーの魔手",
+     "en": "The Invaders' Grasp",
+     "type": "支线",
+     "lv": 7,
+     "slug": "ch1-25",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "时间的异乡人",
+     "ja": "時の異邦人",
+     "en": "A Stranger in Time",
+     "type": "支线",
+     "lv": 7,
+     "slug": "ch1-26",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "反叛的鲁路修",
+     "ja": "反逆のルルーシュ",
+     "en": "Lelouch of the Rebellion",
+     "type": "DLC",
+     "lv": 8,
+     "slug": "ch1-27",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "第05話-1",
+     "zh": "传送门",
+     "ja": "ワープゲート",
+     "en": "Warp Gate",
+     "type": "主线",
+     "lv": 9,
+     "slug": "ch1-28",
+     "note": ""
+    },
+    {
+     "code": "第05話-2",
+     "zh": "兽人维拉尔",
+     "ja": "獣人ヴィラル",
+     "en": "The Beastman Viral",
+     "type": "主线",
+     "lv": 10,
+     "slug": "ch1-29",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "Zi行星的少年",
+     "ja": "惑星Ziの少年",
+     "en": "The Boy of Planet Zi",
+     "type": "支线",
+     "lv": 10,
+     "slug": "ch1-30",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "野心的根源",
+     "ja": "野望のルーツ",
+     "en": "Roots of Ambition",
+     "type": "支线",
+     "lv": 10,
+     "slug": "ch1-31",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "勇者拉姆内斯，新的启程",
+     "ja": "勇者ラムネス、新たなる旅立ち",
+     "en": "Hero Lamuness, A New Journey",
+     "type": "支线",
+     "lv": 10,
+     "slug": "ch1-32",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "白色骑士",
+     "ja": "白き騎士",
+     "en": "The White Knight",
+     "type": "DLC",
+     "lv": 11,
+     "slug": "ch1-33",
+     "note": "付费DLC任务"
+    }
+   ]
+  },
+  {
+   "title": "第2章（2013 年 8 月 1 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "DG细胞的恐怖",
+     "ja": "DG細胞の恐怖",
+     "en": "The Horrors of DG Cells",
+     "type": "支线",
+     "lv": 10,
+     "slug": "ch2-01",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "邪龙族的残党",
+     "ja": "邪竜族の残党",
+     "en": "Remnants of the Evil Dragon Clan",
+     "type": "支线",
+     "lv": 11,
+     "slug": "ch2-02",
+     "note": ""
+    },
+    {
+     "code": "第06話-1",
+     "zh": "超时空要塞Frontier",
+     "ja": "マクロスフロンティア",
+     "en": "Macross Frontier",
+     "type": "主线",
+     "lv": 11,
+     "slug": "ch2-03",
+     "note": ""
+    },
+    {
+     "code": "第06話-2",
+     "zh": "瓦鸠拉母星",
+     "ja": "バジュラ母星",
+     "en": "The Vajra Homeworld",
+     "type": "主线",
+     "lv": 11,
+     "slug": "ch2-04",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "ISTO舰队",
+     "ja": "ISTO艦隊",
+     "en": "ISTO Fleet",
+     "type": "支线",
+     "lv": 12,
+     "slug": "ch2-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "切断传送航路作战",
+     "ja": "ワープ航路分断作戦",
+     "en": "Operation to Sever the Warp Route",
+     "type": "支线",
+     "lv": 12,
+     "slug": "ch2-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "黑之奥加诺伊德",
+     "ja": "黒のオーガノイド",
+     "en": "The Black Organoid",
+     "type": "支线",
+     "lv": 12,
+     "slug": "ch2-07",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "向共和国军运送物资",
+     "ja": "共和国軍に物資を運べ",
+     "en": "Deliver Supplies to the Republic Army",
+     "type": "支线",
+     "lv": 12,
+     "slug": "ch2-08",
+     "note": ""
+    },
+    {
+     "code": "第07話-1",
+     "zh": "奥萨山要塞",
+     "ja": "マウントオッサ要塞",
+     "en": "Mount Ossa Fortress",
+     "type": "主线",
+     "lv": 13,
+     "slug": "ch2-09",
+     "note": ""
+    },
+    {
+     "code": "第07話-2",
+     "zh": "施瓦茨的攻势",
+     "ja": "シュバルツの攻勢",
+     "en": "Schwarz's Offensive",
+     "type": "主线",
+     "lv": 13,
+     "slug": "ch2-10",
+     "note": ""
+    },
+    {
+     "code": "第07話-3",
+     "zh": "首都攻防",
+     "ja": "首都攻防",
+     "en": "Battle for the Capital",
+     "type": "主线",
+     "lv": 13,
+     "slug": "ch2-11",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "索斯兽伊芙的搜寻",
+     "ja": "ゾイドイヴの捜索",
+     "en": "Search for the Zoid Eve",
+     "type": "支线",
+     "lv": 13,
+     "slug": "ch2-12",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "自称黑色骑士团的女人",
+     "ja": "黒の騎士団を名乗る女",
+     "en": "The Woman Who Calls Herself the Black Knights",
+     "type": "支线",
+     "lv": 14,
+     "slug": "ch2-13",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "心跳空间",
+     "ja": "ドキドキスペース",
+     "en": "Thrilling Space",
+     "type": "支线",
+     "lv": 14,
+     "slug": "ch2-14",
+     "note": ""
+    },
+    {
+     "code": "第08話-1",
+     "zh": "阿斯提亚",
+     "ja": "アースティア",
+     "en": "Earthtia",
+     "type": "主线",
+     "lv": 14,
+     "slug": "ch2-15",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第08話-2",
+     "zh": "邪龙海贼",
+     "ja": "邪竜海賊",
+     "en": "Evil Dragon Pirates",
+     "type": "主线",
+     "lv": 14,
+     "slug": "ch2-16",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "达·赛达再现",
+     "ja": "ダ・サイダー再び",
+     "en": "Dasaider Returns",
+     "type": "支线",
+     "lv": 15,
+     "slug": "ch2-17",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "稀有金属采掘",
+     "ja": "レアメタル採掘",
+     "en": "Rare Metal Mining",
+     "type": "DLC",
+     "lv": 15,
+     "slug": "ch2-18",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "",
+     "zh": "红肩队",
+     "ja": "レッドショルダー",
+     "en": "Red Shoulder",
+     "type": "支线",
+     "lv": 16,
+     "slug": "ch2-19",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "桑萨攻略战",
+     "ja": "サンサ攻略戦",
+     "en": "Battle to Capture Sansa",
+     "type": "支线",
+     "lv": 16,
+     "slug": "ch2-20",
+     "note": ""
+    },
+    {
+     "code": "第09話-1",
+     "zh": "介入桑萨之战",
+     "ja": "サンサ戦介入",
+     "en": "Sansa's Intervention",
+     "type": "主线",
+     "lv": 17,
+     "slug": "ch2-21",
+     "note": ""
+    },
+    {
+     "code": "第09話-2",
+     "zh": "与利曼的死斗",
+     "ja": "リーマンとの死闘",
+     "en": "Deathmatch with Lehman",
+     "type": "主线",
+     "lv": 18,
+     "slug": "ch2-22",
+     "note": ""
+    },
+    {
+     "code": "第09話-3",
+     "zh": "缪卡斯之种",
+     "ja": "ミューカスの種",
+     "en": "Mucus Seeds",
+     "type": "主线",
+     "lv": 19,
+     "slug": "ch2-23",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "德拉古之影再现",
+     "ja": "ドラゴの影再び",
+     "en": "The Shadow of Drago Returns",
+     "type": "支线",
+     "lv": 20,
+     "slug": "ch2-24",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "格里芬VS阿方斯",
+     "ja": "グリフォンVSアルフォンス",
+     "en": "Griffon vs. Alphonse",
+     "type": "支线",
+     "lv": 20,
+     "slug": "ch2-25",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "30 Bunch事件",
+     "ja": "30バンチ事件",
+     "en": "The 30 Bunch Incident",
+     "type": "DLC",
+     "lv": 21,
+     "slug": "ch2-26",
+     "note": "付费DLC任务"
+    }
+   ]
+  },
+  {
+   "title": "第3章（2013 年 8 月 22 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "流转的战士们",
+     "ja": "流転する戦士達",
+     "en": "Wandering Warriors",
+     "type": "支线",
+     "lv": 20,
+     "slug": "ch3-01",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "机械化帝国的新一手",
+     "ja": "機械化帝国、新たなる一手",
+     "en": "The Mechanized Empire's New Move",
+     "type": "支线",
+     "lv": 21,
+     "slug": "ch3-02",
+     "note": ""
+    },
+    {
+     "code": "第10話-1",
+     "zh": "邪神的气息",
+     "ja": "邪神の気配",
+     "en": "Presence of the Evil God",
+     "type": "主线",
+     "lv": 21,
+     "slug": "ch3-03",
+     "note": ""
+    },
+    {
+     "code": "第10話-2",
+     "zh": "地底的缪卡斯之门",
+     "ja": "地底のミューカス・ゲート",
+     "en": "Underground Mucas Gate",
+     "type": "主线",
+     "lv": 21,
+     "slug": "ch3-04",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "与使者的对话",
+     "ja": "使者との対話",
+     "en": "Dialogue with the Messenger",
+     "type": "支线",
+     "lv": 21,
+     "slug": "ch3-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "亚历克斯夺取作战",
+     "ja": "アレックス奪取作戦",
+     "en": "Alex Capture Operation",
+     "type": "支线",
+     "lv": 22,
+     "slug": "ch3-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "阻止核攻击",
+     "ja": "核攻撃を阻止せよ",
+     "en": "Stop the Nuclear Attack",
+     "type": "支线",
+     "lv": 22,
+     "slug": "ch3-07",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "宇宙要塞所罗门",
+     "ja": "宇宙要塞ソロモン",
+     "en": "Space Fortress Solomon",
+     "type": "支线",
+     "lv": 22,
+     "slug": "ch3-08",
+     "note": ""
+    },
+    {
+     "code": "第11話-1",
+     "zh": "方舟夺回作战",
+     "ja": "方舟奪回作戦",
+     "en": "Ark Recapture Operation",
+     "type": "主线",
+     "lv": 23,
+     "slug": "ch3-09",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第11話-2",
+     "zh": "向黑暗敞开的门",
+     "ja": "闇に開く扉",
+     "en": "Door Opening into Darkness",
+     "type": "主线",
+     "lv": 23,
+     "slug": "ch3-10",
+     "note": ""
+    },
+    {
+     "code": "第11話-3",
+     "zh": "机械化帝国的巢穴",
+     "ja": "機械化帝国の巣窟",
+     "en": "Lair of the Mechanized Empire",
+     "type": "主线",
+     "lv": 23,
+     "slug": "ch3-11",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "特车二课与新战力",
+     "ja": "特車二課と新戦力",
+     "en": "Special Vehicle Section 2 and New Forces",
+     "type": "支线",
+     "lv": 24,
+     "slug": "ch3-12",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "太阳激光阻止作战",
+     "ja": "ソーラ・レイ阻止作戦",
+     "en": "Operation to Stop the Solar Ray",
+     "type": "DLC",
+     "lv": 24,
+     "slug": "ch3-13",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "",
+     "zh": "Z的鼓动",
+     "ja": "Zの鼓動",
+     "en": "Pulse of Z",
+     "type": "支线",
+     "lv": 24,
+     "slug": "ch3-14",
+     "note": ""
+    },
+    {
+     "code": "第12話-1",
+     "zh": "殖民地的守护者",
+     "ja": "コロニーの守護者",
+     "en": "Colony's Guardian",
+     "type": "主线",
+     "lv": 25,
+     "slug": "ch3-15",
+     "note": "隐藏要素 2 项（见详情页）"
+    },
+    {
+     "code": "第12話-2",
+     "zh": "扫荡作战",
+     "ja": "掃討作戦",
+     "en": "Sweep Operation",
+     "type": "主线",
+     "lv": 25,
+     "slug": "ch3-16",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "盘踞在小行星带的缪卡斯",
+     "ja": "小惑星帯に巣食うミューカス",
+     "en": "Mucas Nesting in the Asteroid Belt",
+     "type": "支线",
+     "lv": 26,
+     "slug": "ch3-17",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "暗杀鲁道夫",
+     "ja": "ルドルフ暗殺",
+     "en": "Assassination of Rudolf",
+     "type": "支线",
+     "lv": 27,
+     "slug": "ch3-18",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "复苏的魔兽",
+     "ja": "蘇る魔獣",
+     "en": "The Revived Demon Beast",
+     "type": "支线",
+     "lv": 27,
+     "slug": "ch3-19",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "壮烈！杰诺布雷卡",
+     "ja": "壮烈！ ジェノブレイカー",
+     "en": "Heroic! Geno Breaker",
+     "type": "支线",
+     "lv": 28,
+     "slug": "ch3-20",
+     "note": ""
+    },
+    {
+     "code": "第13話-1",
+     "zh": "年轻王者的归来",
+     "ja": "若き王の帰還",
+     "en": "Return of the Young King",
+     "type": "主线",
+     "lv": 29,
+     "slug": "ch3-21",
+     "note": ""
+    },
+    {
+     "code": "第13話-2",
+     "zh": "帝都燃烧",
+     "ja": "帝都炎上",
+     "en": "Imperial Capital Ablaze",
+     "type": "主线",
+     "lv": 30,
+     "slug": "ch3-22",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "亡国的圣战士",
+     "ja": "亡国の聖戦士",
+     "en": "Holy Warrior of the Fallen Kingdom",
+     "type": "支线",
+     "lv": 30,
+     "slug": "ch3-23",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "协调者",
+     "ja": "コーディネイター",
+     "en": "Coordinator",
+     "type": "支线",
+     "lv": 30,
+     "slug": "ch3-24",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "夜鹰之梦",
+     "ja": "夜鷹の夢",
+     "en": "Dream of the Nighthawk",
+     "type": "DLC",
+     "lv": 31,
+     "slug": "ch3-25",
+     "note": "付费DLC任务"
+    }
+   ]
+  },
+  {
+   "title": "第4章（2013 年 9 月 5 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "莱西之心",
+     "ja": "レッシィ・マインド",
+     "en": "Lesshi Mind",
+     "type": "支线",
+     "lv": 31,
+     "slug": "ch4-01",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "压制核储存库",
+     "ja": "核貯蔵庫を制圧せよ",
+     "en": "Capture the Nuclear Storage Depot",
+     "type": "支线",
+     "lv": 31,
+     "slug": "ch4-02",
+     "note": ""
+    },
+    {
+     "code": "第14話-1",
+     "zh": "战争阴云",
+     "ja": "ウォー・クラウド",
+     "en": "Clouds of War",
+     "type": "主线",
+     "lv": 31,
+     "slug": "ch4-03",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第14話-2",
+     "zh": "对抗",
+     "ja": "アゲインスト",
+     "en": "Against",
+     "type": "主线",
+     "lv": 31,
+     "slug": "ch4-04",
+     "note": ""
+    },
+    {
+     "code": "第14話-3",
+     "zh": "行星轰炸者",
+     "ja": "プラネット・ボンバー",
+     "en": "Planet Bomber",
+     "type": "主线",
+     "lv": 32,
+     "slug": "ch4-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "守护者部队",
+     "ja": "ガーディアンフォース",
+     "en": "Guardian Force",
+     "type": "支线",
+     "lv": 32,
+     "slug": "ch4-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "龙马再临",
+     "ja": "竜馬再び",
+     "en": "Ryoma Returns",
+     "type": "支线",
+     "lv": 33,
+     "slug": "ch4-07",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "ZZ高达运输作战",
+     "ja": "ZZガンダム輸送作戦",
+     "en": "ZZ Gundam Transport Operation",
+     "type": "支线",
+     "lv": 33,
+     "slug": "ch4-08",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "香格里拉的少年",
+     "ja": "シャングリラの少年",
+     "en": "The Boy of Shangri-La",
+     "type": "支线",
+     "lv": 33,
+     "slug": "ch4-09",
+     "note": ""
+    },
+    {
+     "code": "第15話-1",
+     "zh": "新吉翁崛起",
+     "ja": "ネオ・ジオン台頭",
+     "en": "Rise of Neo Zeon",
+     "type": "主线",
+     "lv": 33,
+     "slug": "ch4-10",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第15話-2",
+     "zh": "阿克西斯激战",
+     "ja": "アクシズ激突",
+     "en": "Clash at Axis",
+     "type": "主线",
+     "lv": 33,
+     "slug": "ch4-11",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "热砂攻防战",
+     "ja": "熱砂の攻防戦",
+     "en": "Battle in the Scorching Sands",
+     "type": "支线",
+     "lv": 34,
+     "slug": "ch4-12",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "名为自由之翼",
+     "ja": "自由という名の翼",
+     "en": "Wings Named Freedom",
+     "type": "支线",
+     "lv": 34,
+     "slug": "ch4-13",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "命运",
+     "ja": "デスティニー",
+     "en": "Destiny",
+     "type": "支线",
+     "lv": 34,
+     "slug": "ch4-14",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "复活的哥布里奇军团",
+     "ja": "復活のゴブーリキ軍団",
+     "en": "Resurrection of the Gobriki Army",
+     "type": "DLC",
+     "lv": 35,
+     "slug": "ch4-15",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "",
+     "zh": "祈愿妖神复活的人们",
+     "ja": "妖神復活を願う者達",
+     "en": "Those Who Wish for the Demon God's Revival",
+     "type": "支线",
+     "lv": 35,
+     "slug": "ch4-16",
+     "note": ""
+    },
+    {
+     "code": "第16話-1",
+     "zh": "哥布里奇军团的袭击",
+     "ja": "ゴブーリキ軍団の襲撃",
+     "en": "Attack of the Gobriki Army",
+     "type": "主线",
+     "lv": 35,
+     "slug": "ch4-17",
+     "note": ""
+    },
+    {
+     "code": "第16話-2",
+     "zh": "灵光力的暴走",
+     "ja": "オーラ力の暴走",
+     "en": "Rampage of Aura Power",
+     "type": "主线",
+     "lv": 35,
+     "slug": "ch4-18",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "启程之日",
+     "ja": "旅立ちの日",
+     "en": "Day of Departure",
+     "type": "支线",
+     "lv": 36,
+     "slug": "ch4-19",
+     "note": "隐藏要素 2 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "加雷亚德最前线",
+     "ja": "ガレアデ最前線",
+     "en": "The Front Line at Galeade",
+     "type": "支线",
+     "lv": 36,
+     "slug": "ch4-20",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "加雷亚德救出作战",
+     "ja": "ガレアデ救出作戦",
+     "en": "Galeade Rescue Operation",
+     "type": "支线",
+     "lv": 36,
+     "slug": "ch4-21",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第17話-1",
+     "zh": "莫纳德攻略战",
+     "ja": "モナド攻略戦",
+     "en": "Battle to Capture Monad",
+     "type": "主线",
+     "lv": 38,
+     "slug": "ch4-22",
+     "note": ""
+    },
+    {
+     "code": "第17話-2",
+     "zh": "异能生存体",
+     "ja": "異能生存体",
+     "en": "Abnormal Survivor",
+     "type": "主线",
+     "lv": 39,
+     "slug": "ch4-23",
+     "note": ""
+    },
+    {
+     "code": "第17話-3",
+     "zh": "救出",
+     "ja": "救出",
+     "en": "Rescue",
+     "type": "主线",
+     "lv": 40,
+     "slug": "ch4-24",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "刻印之星",
+     "ja": "刻印の星",
+     "en": "Star of the Seal",
+     "type": "支线",
+     "lv": 40,
+     "slug": "ch4-25",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "盗贼团的悲剧",
+     "ja": "盗賊団の悲劇",
+     "en": "Tragedy of the Bandits",
+     "type": "DLC",
+     "lv": 41,
+     "slug": "ch4-26",
+     "note": "付费DLC任务"
+    }
+   ]
+  },
+  {
+   "title": "第5章（2013 年 9 月 19 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "跃迁门防卫",
+     "ja": "ワープゲート防衛",
+     "en": "Warp Gate Defense",
+     "type": "支线",
+     "lv": 40,
+     "slug": "ch5-01",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "进化的DG细胞",
+     "ja": "進化するDG細胞",
+     "en": "Evolving DG Cells",
+     "type": "支线",
+     "lv": 41,
+     "slug": "ch5-02",
+     "note": ""
+    },
+    {
+     "code": "第18話-1",
+     "zh": "解放的序曲",
+     "ja": "解放への序曲",
+     "en": "Overture to Liberation",
+     "type": "主线",
+     "lv": 41,
+     "slug": "ch5-03",
+     "note": ""
+    },
+    {
+     "code": "第18話-2",
+     "zh": "鲁·凯因的挑战",
+     "ja": "ル・カインの挑戦",
+     "en": "Ru Cain's Challenge",
+     "type": "主线",
+     "lv": 41,
+     "slug": "ch5-04",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "欲望的溪谷",
+     "ja": "欲望の渓谷",
+     "en": "Valley of Desire",
+     "type": "支线",
+     "lv": 42,
+     "slug": "ch5-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "小行星利德",
+     "ja": "小惑星リド",
+     "en": "Asteroid Lido",
+     "type": "支线",
+     "lv": 42,
+     "slug": "ch5-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "乌德",
+     "ja": "ウド",
+     "en": "Uood",
+     "type": "支线",
+     "lv": 42,
+     "slug": "ch5-07",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "脱出",
+     "ja": "脱出",
+     "en": "Escape",
+     "type": "支线",
+     "lv": 42,
+     "slug": "ch5-08",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第19話-1",
+     "zh": "突破阿克西斯防卫线",
+     "ja": "アクシズ防衛線突破",
+     "en": "Breaking Through the Axis Defense Line",
+     "type": "主线",
+     "lv": 43,
+     "slug": "ch5-09",
+     "note": ""
+    },
+    {
+     "code": "第19話-2",
+     "zh": "强袭登陆阿克西斯",
+     "ja": "アクシズ強襲上陸",
+     "en": "Axis Assault Landing",
+     "type": "主线",
+     "lv": 43,
+     "slug": "ch5-10",
+     "note": ""
+    },
+    {
+     "code": "第19話-3",
+     "zh": "从阿克西斯撤退",
+     "ja": "アクシズからの撤退",
+     "en": "Withdrawal from Axis",
+     "type": "主线",
+     "lv": 43,
+     "slug": "ch5-11",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "新人类部队的追击",
+     "ja": "ニュータイプ部隊の追撃",
+     "en": "Pursuit by the Newtype Unit",
+     "type": "支线",
+     "lv": 44,
+     "slug": "ch5-12",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "武士道先生",
+     "ja": "ミスター・ブシドー",
+     "en": "Mr. Bushido",
+     "type": "支线",
+     "lv": 44,
+     "slug": "ch5-13",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "攻击敌军补给基地",
+     "ja": "敵の補給基地を叩け",
+     "en": "Strike the Enemy Supply Base",
+     "type": "支线",
+     "lv": 44,
+     "slug": "ch5-14",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "基地压制战",
+     "ja": "基地制圧戦",
+     "en": "Base Suppression Battle",
+     "type": "支线",
+     "lv": 45,
+     "slug": "ch5-15",
+     "note": ""
+    },
+    {
+     "code": "第20話-1",
+     "zh": "第203跃迁门",
+     "ja": "第203ワープゲート",
+     "en": "Warp Gate #203",
+     "type": "主线",
+     "lv": 46,
+     "slug": "ch5-16",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第20話-2",
+     "zh": "应继承之剑",
+     "ja": "引き継ぐべき剣",
+     "en": "The Sword to Be Inherited",
+     "type": "主线",
+     "lv": 46,
+     "slug": "ch5-17",
+     "note": ""
+    },
+    {
+     "code": "第20話-3",
+     "zh": "行星探查",
+     "ja": "惑星探査",
+     "en": "Planetary Exploration",
+     "type": "主线",
+     "lv": 46,
+     "slug": "ch5-18",
+     "note": "隐藏要素 2 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "面具之下的决心",
+     "ja": "仮面の下の決意",
+     "en": "Determination Beneath the Mask",
+     "type": "支线",
+     "lv": 47,
+     "slug": "ch5-19",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "月面的陷阱",
+     "ja": "月面の罠",
+     "en": "Trap on the Lunar Surface",
+     "type": "DLC",
+     "lv": 47,
+     "slug": "ch5-20",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "",
+     "zh": "闪光的达·赛达",
+     "ja": "閃光のダ・サイダー",
+     "en": "Da Cider's Flash",
+     "type": "支线",
+     "lv": 48,
+     "slug": "ch5-21",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第21話-1",
+     "zh": "黑暗的兹瓦乌斯",
+     "ja": "暗黒のズワウス",
+     "en": "The Dark Zwauth",
+     "type": "主线",
+     "lv": 49,
+     "slug": "ch5-22",
+     "note": ""
+    },
+    {
+     "code": "第21話-2",
+     "zh": "戈布里基究极体",
+     "ja": "ゴブーリキ究極体",
+     "en": "Goburiki Ultimate Form",
+     "type": "主线",
+     "lv": 50,
+     "slug": "ch5-23",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "DG细胞的先锋",
+     "ja": "DG細胞の先鋒",
+     "en": "Vanguard of the DG Cells",
+     "type": "支线",
+     "lv": 50,
+     "slug": "ch5-24",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "新的噩梦机甲",
+     "ja": "新たなナイトメアフレーム",
+     "en": "A New Knightmare Frame",
+     "type": "DLC",
+     "lv": 51,
+     "slug": "ch5-25",
+     "note": "付费DLC任务"
+    }
+   ]
+  },
+  {
+   "title": "第6章（2013 年 9 月 26 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "",
+     "zh": "接近DG小行星",
+     "ja": "DG小惑星接近",
+     "en": "Approaching the DG Asteroid",
+     "type": "支线",
+     "lv": 50,
+     "slug": "ch6-01",
+     "note": ""
+    },
+    {
+     "code": "第22話-1",
+     "zh": "决战，DG细胞 R1",
+     "ja": "決戦、DG細胞 R1",
+     "en": "Decisive Battle: DG Cells R1",
+     "type": "主线",
+     "lv": 51,
+     "slug": "ch6-02",
+     "note": ""
+    },
+    {
+     "code": "第22話-2",
+     "zh": "决战，DG细胞 R2",
+     "ja": "決戦、DG細胞 R2",
+     "en": "Decisive Battle: DG Cells R2",
+     "type": "主线",
+     "lv": 51,
+     "slug": "ch6-03",
+     "note": ""
+    },
+    {
+     "code": "第22話-3",
+     "zh": "恶魔高达，最终R",
+     "ja": "デビルガンダム、最終R",
+     "en": "Devil Gundam, Final Round",
+     "type": "主线",
+     "lv": 52,
+     "slug": "ch6-04",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "神凯隆参上！",
+     "ja": "ゴッドケロン参上！",
+     "en": "God Keron Arrives!",
+     "type": "支线",
+     "lv": 52,
+     "slug": "ch6-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "艾尔多兰的勇者大集合！",
+     "ja": "エルドランの勇者大集合！",
+     "en": "The Eldran Heroes Assemble!",
+     "type": "支线",
+     "lv": 53,
+     "slug": "ch6-06",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "殖民地激光再次启动",
+     "ja": "コロニーレーザー再稼働",
+     "en": "Colony Laser Reactivation",
+     "type": "支线",
+     "lv": 53,
+     "slug": "ch6-07",
+     "note": ""
+    },
+    {
+     "code": "第23話-1",
+     "zh": "基连的陷阱",
+     "ja": "ギレンの罠",
+     "en": "Gihren's Trap",
+     "type": "主线",
+     "lv": 53,
+     "slug": "ch6-08",
+     "note": ""
+    },
+    {
+     "code": "第23話-2",
+     "zh": "哈曼的决心",
+     "ja": "ハマーンの決意",
+     "en": "Haman's Determination",
+     "type": "主线",
+     "lv": 53,
+     "slug": "ch6-09",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第23話-3",
+     "zh": "地球圈统一",
+     "ja": "地球圏統一",
+     "en": "Earth Sphere Unification",
+     "type": "主线",
+     "lv": 53,
+     "slug": "ch6-10",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "共同战线",
+     "ja": "共同戦線",
+     "en": "Joint Front",
+     "type": "支线",
+     "lv": 53,
+     "slug": "ch6-11",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "扫荡缪卡斯之门",
+     "ja": "ミューカス・ゲート掃討",
+     "en": "Mucus Gate Sweep",
+     "type": "支线",
+     "lv": 54,
+     "slug": "ch6-12",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "不稳的征兆",
+     "ja": "不穏な兆し",
+     "en": "An Ominous Sign",
+     "type": "支线",
+     "lv": 54,
+     "slug": "ch6-13",
+     "note": ""
+    },
+    {
+     "code": "第24話-1",
+     "zh": "母亲的记忆",
+     "ja": "母の記憶",
+     "en": "A Mother's Memory",
+     "type": "主线",
+     "lv": 55,
+     "slug": "ch6-14",
+     "note": ""
+    },
+    {
+     "code": "第24話-2",
+     "zh": "与维拉尔的决斗",
+     "ja": "ヴィラルとの決闘",
+     "en": "Duel with Viral",
+     "type": "主线",
+     "lv": 56,
+     "slug": "ch6-15",
+     "note": ""
+    },
+    {
+     "code": "DLC",
+     "zh": "发掘萨拜因",
+     "ja": "サーバイン発掘",
+     "en": "Sirbine Excavation",
+     "type": "DLC",
+     "lv": 56,
+     "slug": "ch6-16",
+     "note": "付费DLC任务"
+    },
+    {
+     "code": "",
+     "zh": "金属骑士入侵",
+     "ja": "メタルナイト侵攻",
+     "en": "Metal Knight Invasion",
+     "type": "支线",
+     "lv": 56,
+     "slug": "ch6-17",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "蹂躏阿斯提亚",
+     "ja": "アースティア蹂躙",
+     "en": "Devastation of Earthtia",
+     "type": "支线",
+     "lv": 58,
+     "slug": "ch6-18",
+     "note": ""
+    },
+    {
+     "code": "第25話-1",
+     "zh": "艾尔多吉亚防卫战",
+     "ja": "エルドギア防衛戦",
+     "en": "Defense of Eldgear",
+     "type": "主线",
+     "lv": 58,
+     "slug": "ch6-19",
+     "note": ""
+    },
+    {
+     "code": "第25話-2",
+     "zh": "前往大地之刃",
+     "ja": "アースブレードへ",
+     "en": "To the Earth Blade",
+     "type": "主线",
+     "lv": 59,
+     "slug": "ch6-20",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第25話-3",
+     "zh": "邪神德拉戈",
+     "ja": "邪神ドラゴ",
+     "en": "Evil God Drago",
+     "type": "主线",
+     "lv": 60,
+     "slug": "ch6-21",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "捕捉沉眠索伊德作战",
+     "ja": "スリーパーゾイド捕獲作戦",
+     "en": "Sleeper Zoid Capture Operation",
+     "type": "支线",
+     "lv": 60,
+     "slug": "ch6-22",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "吉瓦扎·罗瓦乌",
+     "ja": "ギワザ・ロワウ",
+     "en": "Giwaza Lowau",
+     "type": "支线",
+     "lv": 60,
+     "slug": "ch6-23",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "杰诺布雷卡再现",
+     "ja": "ジェノブレイカー再び",
+     "en": "Genobreaker Returns",
+     "type": "支线",
+     "lv": 61,
+     "slug": "ch6-24",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第7章（2013 年 10 月 3 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第26話-1",
+     "zh": "终焉的使者",
+     "ja": "終焉の使者",
+     "en": "Messenger of the End",
+     "type": "主线",
+     "lv": 61,
+     "slug": "ch7-01",
+     "note": ""
+    },
+    {
+     "code": "第26話-2",
+     "zh": "首都崩溃",
+     "ja": "首都崩壊",
+     "en": "Collapse of the Capital",
+     "type": "主线",
+     "lv": 61,
+     "slug": "ch7-02",
+     "note": ""
+    },
+    {
+     "code": "第26話-3",
+     "zh": "超索拉复活",
+     "ja": "ウルトラザウルス復活",
+     "en": "Revival of the Ultrasaurus",
+     "type": "主线",
+     "lv": 61,
+     "slug": "ch7-03",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "死线",
+     "ja": "死線",
+     "en": "Death Line",
+     "type": "支线",
+     "lv": 62,
+     "slug": "ch7-04",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "机械化帝国的搜索",
+     "ja": "機械化帝国の捜索",
+     "en": "Search of the Mechanization Empire",
+     "type": "支线",
+     "lv": 62,
+     "slug": "ch7-05",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "机械化帝国的线索",
+     "ja": "機械化帝国の手がかり",
+     "en": "Clues to the Mechanization Empire",
+     "type": "支线",
+     "lv": 62,
+     "slug": "ch7-06",
+     "note": ""
+    },
+    {
+     "code": "第27話-1",
+     "zh": "向机械化城进发",
+     "ja": "機械化城を目指して",
+     "en": "Heading for the Mechanization Castle",
+     "type": "主线",
+     "lv": 63,
+     "slug": "ch7-07",
+     "note": ""
+    },
+    {
+     "code": "第27話-2",
+     "zh": "恐怖！机械神的怒火",
+     "ja": "恐怖！ 機械神の怒り",
+     "en": "Terror! Wrath of the Machine God",
+     "type": "主线",
+     "lv": 63,
+     "slug": "ch7-08",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "库瓦桑·奥利比",
+     "ja": "クワサン・オリビー",
+     "en": "Kuwasan Olivier",
+     "type": "支线",
+     "lv": 64,
+     "slug": "ch7-09",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "旗帜之下",
+     "ja": "アンダー・ザ・フラッグ",
+     "en": "Under the Flag",
+     "type": "支线",
+     "lv": 64,
+     "slug": "ch7-10",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "国际象棋棋子",
+     "ja": "チェス・ピース",
+     "en": "Chess Piece",
+     "type": "支线",
+     "lv": 65,
+     "slug": "ch7-11",
+     "note": ""
+    },
+    {
+     "code": "第28話-1",
+     "zh": "首次攻击",
+     "ja": "ファースト・アタック",
+     "en": "First Attack",
+     "type": "主线",
+     "lv": 65,
+     "slug": "ch7-12",
+     "note": ""
+    },
+    {
+     "code": "第28話-2",
+     "zh": "复仇之战",
+     "ja": "リベンジ・バトル",
+     "en": "Revenge Battle",
+     "type": "主线",
+     "lv": 66,
+     "slug": "ch7-13",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第28話-3",
+     "zh": "梦想者再临",
+     "ja": "ドリーマーズアゲン",
+     "en": "Dreamers Again",
+     "type": "主线",
+     "lv": 66,
+     "slug": "ch7-14",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "最后的红肩队",
+     "ja": "ザ・ラスト・レッドショルダー",
+     "en": "The Last Red Shoulder",
+     "type": "支线",
+     "lv": 67,
+     "slug": "ch7-15",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "完美士兵",
+     "ja": "パーフェクトソルジャー",
+     "en": "Perfect Soldier",
+     "type": "支线",
+     "lv": 67,
+     "slug": "ch7-16",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "再战的准备",
+     "ja": "再戦の備え",
+     "en": "Preparations for the Rematch",
+     "type": "支线",
+     "lv": 68,
+     "slug": "ch7-17",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "决战前夜",
+     "ja": "決戦前夜",
+     "en": "The Night Before the Decisive Battle",
+     "type": "支线",
+     "lv": 69,
+     "slug": "ch7-18",
+     "note": ""
+    },
+    {
+     "code": "第29話-1",
+     "zh": "重力加农炮",
+     "ja": "グラビティカノン",
+     "en": "Gravity Cannon",
+     "type": "主线",
+     "lv": 69,
+     "slug": "ch7-19",
+     "note": ""
+    },
+    {
+     "code": "第29話-2",
+     "zh": "死亡毒刺的猛攻",
+     "ja": "デススティンガーの猛攻",
+     "en": "Onslaught of Death Stinger",
+     "type": "主线",
+     "lv": 70,
+     "slug": "ch7-20",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "",
+     "zh": "来自虚空的邀请函",
+     "ja": "虚空からの招待状",
+     "en": "Invitation from the Void",
+     "type": "支线",
+     "lv": 70,
+     "slug": "ch7-21",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "潜伏在陨石坑中的恶魔",
+     "ja": "クレーターに潜む悪魔",
+     "en": "The Demon Lurking in the Crater",
+     "type": "支线",
+     "lv": 70,
+     "slug": "ch7-22",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第8章（2013 年 10 月 10 日配信）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第30話-1",
+     "zh": "古代的记忆",
+     "ja": "古代の記憶",
+     "en": "Ancient Memories",
+     "type": "主线",
+     "lv": 71,
+     "slug": "ch8-01",
+     "note": ""
+    },
+    {
+     "code": "第30話-2",
+     "zh": "伊夫波利斯上空",
+     "ja": "イヴポリス上空",
+     "en": "Skies Over Evepolis",
+     "type": "主线",
+     "lv": 71,
+     "slug": "ch8-02",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第30話-3",
+     "zh": "破灭的魔兽死亡索拉",
+     "ja": "破滅の魔獣デスザウラー",
+     "en": "The Destructive Demon Beast, Deathsaurer",
+     "type": "主线",
+     "lv": 71,
+     "slug": "ch8-03",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "入侵者扫讨作战",
+     "ja": "インベーダー掃討作戦",
+     "en": "Invader Extermination Operation",
+     "type": "支线",
+     "lv": 72,
+     "slug": "ch8-04",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "共识",
+     "ja": "コンセンサス",
+     "en": "Consensus",
+     "type": "支线",
+     "lv": 72,
+     "slug": "ch8-05",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "跃迁环启动",
+     "ja": "ワープリング起動",
+     "en": "Warp Ring Activation",
+     "type": "支线",
+     "lv": 73,
+     "slug": "ch8-06",
+     "note": ""
+    },
+    {
+     "code": "第31話-1",
+     "zh": "死斗！！入侵者要塞！",
+     "ja": "死闘!! インベーダー要塞！",
+     "en": "Death Match!! The Invader Fortress!",
+     "type": "主线",
+     "lv": 73,
+     "slug": "ch8-07",
+     "note": ""
+    },
+    {
+     "code": "第31話-2",
+     "zh": "闪光！！在进化的尽头！",
+     "ja": "閃光!! 進化の果てに！",
+     "en": "Flash!! At the End of Evolution!",
+     "type": "主线",
+     "lv": 73,
+     "slug": "ch8-08",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "跃迁门内搜索",
+     "ja": "ワープゲート内捜索",
+     "en": "Search Inside the Warp Gate",
+     "type": "支线",
+     "lv": 73,
+     "slug": "ch8-09",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "邪龙界的战士们",
+     "ja": "邪竜界の戦士達",
+     "en": "Warriors of the Evil Dragon World",
+     "type": "支线",
+     "lv": 74,
+     "slug": "ch8-10",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "超索拉进宙",
+     "ja": "ウルトラザウルス進宙",
+     "en": "Ultrasaurus Advances into Space",
+     "type": "支线",
+     "lv": 74,
+     "slug": "ch8-11",
+     "note": ""
+    },
+    {
+     "code": "第32話-1",
+     "zh": "雷科拉尔银河",
+     "ja": "レコーラル銀河",
+     "en": "Recoral Galaxy",
+     "type": "主线",
+     "lv": 75,
+     "slug": "ch8-12",
+     "note": ""
+    },
+    {
+     "code": "第32話-2",
+     "zh": "缪卡斯要塞",
+     "ja": "ミューカス要塞",
+     "en": "Mucus Fortress",
+     "type": "主线",
+     "lv": 75,
+     "slug": "ch8-13",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "前往救援友军",
+     "ja": "友軍の救援に向かえ",
+     "en": "Head to Rescue the Allies",
+     "type": "支线",
+     "lv": 76,
+     "slug": "ch8-14",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "方舟舰运输作战",
+     "ja": "アークシップ輸送作戦",
+     "en": "Arc Ship Transport Operation",
+     "type": "支线",
+     "lv": 76,
+     "slug": "ch8-15",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第33話-1",
+     "zh": "调和的领域",
+     "ja": "調和の領域",
+     "en": "Area of Harmony",
+     "type": "主线",
+     "lv": 77,
+     "slug": "ch8-16",
+     "note": "隐藏要素 1 项（见详情页）"
+    },
+    {
+     "code": "第33話-2",
+     "zh": "传送门守卫",
+     "ja": "ゲートキーパー",
+     "en": "Gatekeeper",
+     "type": "主线",
+     "lv": 77,
+     "slug": "ch8-17",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "杰尼希斯的浓雾",
+     "ja": "ジェネシスの霧",
+     "en": "The Mist of Genesis",
+     "type": "支线",
+     "lv": 78,
+     "slug": "ch8-18",
+     "note": ""
+    },
+    {
+     "code": "",
+     "zh": "魔之空间障壁",
+     "ja": "魔の空間障壁",
+     "en": "Demonic Spatial Barrier",
+     "type": "支线",
+     "lv": 79,
+     "slug": "ch8-19",
+     "note": ""
+    },
+    {
+     "code": "第34話-1",
+     "zh": "突入杰尼希斯",
+     "ja": "ジェネシス突入",
+     "en": "Charging into Genesis",
+     "type": "主线",
+     "lv": 80,
+     "slug": "ch8-20",
+     "note": ""
+    },
+    {
+     "code": "第34話-2",
+     "zh": "被托付的心意",
+     "ja": "託された思い",
+     "en": "Entrusted Feelings",
+     "type": "主线",
+     "lv": 81,
+     "slug": "ch8-21",
+     "note": ""
+    },
+    {
+     "code": "第34話-3",
+     "zh": "延展行动",
+     "ja": "Operation Extend",
+     "en": "Operation Extend",
+     "type": "主线",
+     "lv": 82,
+     "slug": "ch8-22",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "模拟战（シミュレーター）",
+   "intro": "在任务列表下层选择游玩的训练任务，满足条件后逐个开放、可无限重打；编号从 Akurasu 流程表（01–16、18–21，无 17 号）。wikiwiki 无模拟战专页，故各页数据以 Akurasu 的标题与所属章为限，其余待核实。",
+   "rows": [
+    {
+     "code": "SIM 01",
+     "zh": "暴走机器",
+     "ja": "暴走マシン",
+     "en": "Runaway Machines",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-01",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 02",
+     "zh": "地上机动战士战",
+     "ja": "地上モビルスーツ戦",
+     "en": "Ground Mobile Suit Battle",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-02",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 03",
+     "zh": "武装集团",
+     "ja": "武装グループ",
+     "en": "Armed Group",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-03",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 04",
+     "zh": "宇宙的威胁",
+     "ja": "宇宙の脅威",
+     "en": "Space Threats",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-04",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 05",
+     "zh": "身经百战的MS驾驶员",
+     "ja": "歴戦のMS乗り",
+     "en": "Veteran MS Pilots",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-05",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 06",
+     "zh": "太阳系防卫训练",
+     "ja": "太陽系防衛訓練",
+     "en": "Solar System Defense Training",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-06",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 07",
+     "zh": "银河的法外地带",
+     "ja": "銀河の無法地帯",
+     "en": "Galactic Lawless Zone",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-07",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 08",
+     "zh": "混成AT部队",
+     "ja": "混成AT部隊",
+     "en": "Mixed AT Squad",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-08",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 09",
+     "zh": "地球的噩梦",
+     "ja": "地球の悪夢",
+     "en": "Earth's Nightmare",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-09",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 10",
+     "zh": "索斯兽大部队",
+     "ja": "ゾイド大部隊",
+     "en": "Zoids Grand Army",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-10",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 11",
+     "zh": "增殖的战斗机器",
+     "ja": "増殖する戦闘マシン",
+     "en": "Multiplying Combat Machines",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-11",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 12",
+     "zh": "陆战的勇者们",
+     "ja": "陸戦の勇者達",
+     "en": "Heroes of Ground Combat",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-12",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 13",
+     "zh": "混成机动部队",
+     "ja": "混成機動部隊",
+     "en": "Mixed Mobile Squad",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-13",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 14",
+     "zh": "被夺走的月亮",
+     "ja": "奪われた月",
+     "en": "The Stolen Moon",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-14",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 15",
+     "zh": "对雷帕、对AT战斗",
+     "ja": "対レイバー、対AT戦闘",
+     "en": "Anti-Labor, Anti-AT Combat",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-15",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 16",
+     "zh": "黑暗攻击者强袭",
+     "ja": "ダークアタッカー強襲",
+     "en": "Dark Attacker Assault",
+     "type": "模拟战",
+     "lv": null,
+     "slug": "sim-16",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 18",
+     "zh": "法外地带",
+     "ja": "無法地帯",
+     "en": "Lawless Zone",
+     "type": "模拟战",
+     "lv": 71,
+     "slug": "sim-18",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 19",
+     "zh": "吉翁宇宙军迎击训练",
+     "ja": "ジオン宇宙軍迎撃訓練",
+     "en": "Zeon Space Force Interception Training",
+     "type": "模拟战",
+     "lv": 71,
+     "slug": "sim-19",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 20",
+     "zh": "蠢动的大地？",
+     "ja": "うごめく大地?",
+     "en": "Writhing Earth?",
+     "type": "模拟战",
+     "lv": 71,
+     "slug": "sim-20",
+     "note": "可反复游玩的训练任务"
+    },
+    {
+     "code": "SIM 21",
+     "zh": "群雄割据？",
+     "ja": "群雄割拠?",
+     "en": "Warlords Divided?",
+     "type": "模拟战",
+     "lv": 71,
+     "slug": "sim-21",
+     "note": "可反复游玩的训练任务"
+    }
+   ]
+  }
+ ]
+}

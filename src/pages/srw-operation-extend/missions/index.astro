@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwOperationExtendMissionList from '../../../components/SrwOperationExtendMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OperationExtend', path: 'srw-operation-extend/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战 Operation Extend（PSP）关卡攻略 · 全223个任务页面列表" description="超级机器人大战 Operation Extend（2013年 PSP 下载专用作）全部任务的页面列表：8章共203个章节任务（主线第01–34话共79个任务＋支线113个＋DLC 11个）与20个模拟战任务，合计223个。本作是任务制（无路线分歧、通关后可反复游玩），最短通关176个任务为发售当时历代最长。每关独立攻略页含推荐Lv、地形、过关奖励（资金／EC）、我方加入与初期配置、EC事件与攻略要点（本作无熟练度系统、无格子地图）；敌方编成为 wikiwiki 单一来源暂不刊载。本页为链接索引。" path="srw-operation-extend/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战 Operation Extend · 关卡攻略</h1>
+  <p>2013 年 7 月 18 日起分章配信的 PSP《超级机器人大战 Operation Extend》是<strong>系列首款下载专用作</strong>（开发：さざなみ）：免费序章＋第 1 章先行配信，其后第 2–8 章逐章追加，2013 年 10 月 10 日全 8 章完结（2015 年 12 月 24 日结束配信）。本作采用<strong>任务制</strong>而非线性话数制：主线剧本为<strong>第 01 话–第 34 话</strong>（多段构成，合计 <strong>79 个主线任务</strong>），每章另有大量<strong>支线任务</strong>（113 个）与付费 <strong>DLC 任务</strong>（11 个），加上可反复游玩的<strong>模拟战任务</strong>（20 个），本站共建 <strong>223 个任务页</strong>。本作<strong>没有路线分歧</strong>，通关过的任务可反复游玩；日文维基百科记载「通关所需最短 176 个任务」为发售当时历代最长。战斗系统继承《超级机器人大战NEO》的<strong>无格子半径移动</strong>并加以改良（新增「宙」地形、击退／曲射／突破攻击），并引入新资源 <strong>EC（Extend Coin）</strong> 与素材部件交换。本作<strong>没有熟练度系统</strong>。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-operation-extend/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——223 个详情页全部建成（按发售顺序逐作补完；OE 在年表上位于 UX 与魔装机神III 之间）。逐任务数据（推荐 Lv、地形、过关／连续奖励、出击数、我方初期配置、EC 事件、攻略要点）以 <strong>wikiwiki（SRW 系列 Wiki）</strong>的各章任务表＋各任务页为主源，我方加入由同站参戦タイムテーブル与任务页两表互证；任务分类与编号骨架、隐藏要素与系统细则与 <strong>Akurasu</strong> 的 OE 流程表／Secrets／System 页交叉核对，发售结构与价格以日文维基百科、GAME Watch 与 Gundam.info 互证。<strong>计数说明</strong>：Akurasu 主页自述「224 scenarios」，其流程表逐条清点为 223 条（主线 79＋支线 113＋DLC 11＋模拟战 20）——差额 1 恰为流程表中缺号的「Sim 17」（任何一章的流程表都没有 Sim 17），本站按 223 建页并在此并记。<strong>敌方数据如实说明</strong>：敌方编成（初期构成／数量与增援）只有 wikiwiki 一家刊载（Akurasu 流程表不列编成），按本站「双源交叉才刊载」的惯例<strong>暂不导入、列为待用户裁决事项</strong>（范围：全 203 个章节任务；字段：初期敌方机体／驾驶员／数量、增援批次与触发）。胜败条件无任何来源设专栏逐关记载（Akurasu 第 1–2 章的条件栏全为「???」），各页仅刊载攻略提示中明示者，其余标待核实。本作无格子地图，坐标与逐格地形原理上不存在，各页地图为带四边坐标轴的参照框架。序章（免费配信的教学部分）没有逐关数据来源，未单独建页，其定位见本作主页。</span>
+  </div>
+
+  <SrwOperationExtendMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://wikiwiki.jp/srw-series/OE" rel="noopener" target="_blank">wikiwiki — SRW 系列 Wiki：Operation Extend</a>（主来源：各章任务表、各任务页、参戦タイムテーブル）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OE/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OE: Flow Chart</a>（任务分类与编号骨架的交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/OE/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars OE: Secrets</a>（隐藏武器／零件全表）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦Operation Extend</a>（发售结构、系统、参战作品的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-operation-extend/')}>← 返回超级机器人大战OperationExtend</a></p>
+</Base>
