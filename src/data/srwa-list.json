@@ -1,0 +1,541 @@
+{
+ "groups": [
+  {
+   "title": "开局分歧（第1–3话·真实系／超级系）",
+   "intro": "由开局选择的主人公机类型决定：真实系（阿修萨瓦／拉兹安古力夫）与超级系（索尔盖因／维萨卡／安杰尔格）前三话完全不同，第4话合流。",
+   "rows": [
+    {
+     "code": "第1话·真实系",
+     "zh": "异邦人",
+     "ja": "異邦人",
+     "en": "Scenario 1: Foreigner",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·超级系",
+     "zh": "从天而降的男人",
+     "ja": "堕ちてきた男",
+     "en": "Scenario 1: The Man Who Fell from The Sky",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·真实系",
+     "zh": "姐妹之战",
+     "ja": "妹たちの戦い",
+     "en": "Scenario 2: Battle of the Sisters",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·超级系",
+     "zh": "不和谐音",
+     "ja": "不協和音",
+     "en": "Scenario 2: Discord",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·真实系",
+     "zh": "只属于两人的战争",
+     "ja": "二人だけの戦争",
+     "en": "Scenario 3: War For Two",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·超级系",
+     "zh": "让我看看你的空手道",
+     "ja": "おまえの空手を見せてやれ",
+     "en": "Scenario 3: Show Them Your Karate",
+     "type": "开局分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通路线（第4–8话）",
+   "intro": "两线合流。第7话是隐藏要素最密集的一关；第8话结束后的选择决定第9–12话的路线。",
+   "rows": [
+    {
+     "code": "第4话",
+     "zh": "以「男子汉」的方式前进",
+     "ja": "「男らしく」でいこう",
+     "en": "Scenario 4: Lets 'Get Manly'",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "两位舰长",
+     "ja": "二人の艦長",
+     "en": "Scenario 5: The Two Captains",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "离去者与追赶者",
+     "ja": "去る者、追われる者",
+     "en": "Scenario 6: The One Who's Gone, The One Who Chases",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "热砂攻防战",
+     "ja": "熱砂の攻防戦",
+     "en": "Scenario 7: Battle in the Burning Sand",
+     "type": "通常关",
+     "area": "",
+     "note": "隐藏要素最密集"
+    },
+    {
+     "code": "第8话",
+     "zh": "开始行动的恶魔",
+     "ja": "動き出す悪魔",
+     "en": "Scenario 8: The Devil Moves",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第8话后分歧（第9–12话·宇宙线／地上线）",
+   "intro": "「留在阿伽马」（宇宙线）与「阻止恶魔高达」（地上线）两组关卡完全不同，第13话合流；多条隐藏链只在特定线推进。",
+   "rows": [
+    {
+     "code": "第9话·宇宙线",
+     "zh": "交错的宇宙",
+     "ja": "すれ違う宇宙",
+     "en": "Scenario 9: Passing Space",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·地上线",
+     "zh": "其名为赞波特3",
+     "ja": "その名も、ザンボット3",
+     "en": "Scenario 9: Its Name is Zambot 3",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·宇宙线",
+     "zh": "没有胜利者的战斗",
+     "ja": "勝利者などいない戦い",
+     "en": "Scenario 10: A Battle Without Winners",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·地上线",
+     "zh": "舞动吧白鸟！在我心中",
+     "ja": "舞えよ白鳥！わが胸に",
+     "en": "Scenario 10: Dance into My Heart, Swan!",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·宇宙线",
+     "zh": "恶梦的闪光",
+     "ja": "悪夢の閃光",
+     "en": "Scenario 11: The Flash of the Nightmare",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·地上线",
+     "zh": "恐怖！无限机动炮",
+     "ja": "恐怖！無限機動砲",
+     "en": "Scenario 11: The Dread of the Infinite Mobile Cannon",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·宇宙线",
+     "zh": "星屑的记忆",
+     "ja": "星の屑の記憶",
+     "en": "Scenario 12: Memories of Stardust",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·地上线",
+     "zh": "登场！究极的MA",
+     "ja": "登場！究極のMA",
+     "en": "Scenario 12: Behold! The Ultimate MAs",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后（第13–16话）",
+   "intro": "第16话结束后的三路选择决定第28话的三件路线武器与多条隐藏链。",
+   "rows": [
+    {
+     "code": "第13话",
+     "zh": "出现的「影」",
+     "ja": "現れた「影」",
+     "en": "Scenario 13: The 'Shadow' Appears",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "和平解放军",
+     "ja": "平和解放軍",
+     "en": "Scenario 14: Peace Liberation Forces",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "燃烧的友情",
+     "ja": "燃える友情",
+     "en": "Scenario 15: Burning Friendship",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "傀儡们",
+     "ja": "操り人形たち",
+     "en": "Scenario 16: Puppet",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第16话后三分歧（第17话）",
+   "intro": "三支队伍各打一关：第17话三版本互斥，一周目只能打其中一关，第18话合流。",
+   "rows": [
+    {
+     "code": "第17话·南原线",
+     "zh": "精彩！凯洛特扰乱战术",
+     "ja": "見事!ケロット撹乱戦術",
+     "en": "Scenario 17: Splendid! Kerot's Disturbing Ability",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·巨鹰线",
+     "zh": "寻父",
+     "ja": "父をもとめて",
+     "en": "Scenario 17: Seeking the Father",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·圭亚那线",
+     "zh": "吾心明镜止水",
+     "ja": "我が心、明鏡止水",
+     "en": "Scenario 17: My Heart, Clear and Serene like Water",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通路线（第18–25话）",
+   "intro": "东方不败链、阿莲比链在此推进与结算；第25话结束后再次二分。",
+   "rows": [
+    {
+     "code": "第18话",
+     "zh": "磨练，为了胜利",
+     "ja": "鍛えよ、勝つために",
+     "en": "Scenario 18: Training, to Win",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "胜利者们的挽歌",
+     "ja": "勝利者たちの挽歌",
+     "en": "Scenario 19: Elegy of the Victorious",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "那段难忘的日子",
+     "ja": "あの忘れえぬ日々",
+     "en": "Scenario 20: Those Unforgettable Days",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "与其只走既定的道路",
+     "ja": "決められた道をただ歩くよりも",
+     "en": "Scenario 21: Instead of Just Walking the Decided Path",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "守护「来访者」？",
+     "ja": "「来訪者」を守り抜け？",
+     "en": "Scenario 22: Protect the 'Incoming Ones'?",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "「我们的战争」开始",
+     "ja": "「僕たちの戦争」が始まる",
+     "en": "Scenario 23: My War Begins",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "梦色的追迹者",
+     "ja": "夢色の追跡者",
+     "en": "Scenario 24: Dream-Color Chaser",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "星光小夜曲",
+     "ja": "星灯りの小夜曲",
+     "en": "Scenario 25: Serenade of Starlight",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第25话后分歧（第26话）",
+   "intro": "恶魔殖民卫星线藏着石破天惊爱爱拳的结算；MO-III 线是 W 高达队的归队关。",
+   "rows": [
+    {
+     "code": "第26话·恶魔线",
+     "zh": "永远爱你",
+     "ja": "君を永遠に愛してる",
+     "en": "Scenario 26: Love You Forever",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·MO-III线",
+     "zh": "向永恒的回归",
+     "ja": "永遠への回帰",
+     "en": "Scenario 26: Eternal Revolution",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后（第27–31话）",
+   "intro": "击坠数门槛（30架）集中在本段结算；第31话结束后的选择决定终盘四话的版本。",
+   "rows": [
+    {
+     "code": "第27话",
+     "zh": "有你，也有我",
+     "ja": "あなたがいて、私がいる",
+     "en": "Scenario 27: You Are Here, And So Am I",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "各自战斗的意义",
+     "ja": "それぞれの戦う意味",
+     "en": "Scenario 28: Our Reason to Fight",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "强袭地底城",
+     "ja": "地底城強襲",
+     "en": "Scenario 29: Assault at Nadir Castle",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "父子之绊",
+     "ja": "父と子の絆",
+     "en": "Scenario 30: Bonds of Father and Son",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "爱与勇气与力量",
+     "ja": "愛と勇気と力",
+     "en": "Scenario 31: Love, Courage and Power",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第31话后分歧（第32–35话·木连线／小巴姆线）",
+   "intro": "木连线与小巴姆线四话完全不同，第36话合流；全装甲ZZ高达的判定在小巴姆线第35话。",
+   "rows": [
+    {
+     "code": "第32话·木连线",
+     "zh": "无处不在的「正义」",
+     "ja": "どこにでもある「正義」",
+     "en": "Scenario 32: 'Justice' is Everywhere",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·小巴姆线",
+     "zh": "战士，再临",
+     "ja": "戦士、再び",
+     "en": "Scenario 32: Warrior, Again",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·木连线",
+     "zh": "愤怒的日轮",
+     "ja": "怒りの日輪",
+     "en": "Scenario 33: Sun of Rage",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·小巴姆线",
+     "zh": "点燃愤怒之心",
+     "ja": "怒る心に火をつけろ",
+     "en": "Scenario 33: Ignite the Raging Heart",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·木连线",
+     "zh": "纵使消失于宇宙尽头",
+     "ja": "宇宙の果てに消えるとも",
+     "en": "Scenario 34: Disappear into Outer Space",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·小巴姆线",
+     "zh": "无法回头的路",
+     "ja": "帰れぬ道",
+     "en": "Scenario 34: Road to No Return",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·木连线",
+     "zh": "像你一样，自豪地",
+     "ja": "君らしく、誇らしく",
+     "en": "Scenario 35: You To Seem, Proud",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·小巴姆线",
+     "zh": "与友人立誓的这份和平",
+     "ja": "友と誓ったこの平和",
+     "en": "Scenario 35: This Peace I Swore To My Friend",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘共通（第36–38话·最终话）",
+   "intro": "全路线共通的最后四话；最终话与未被选中的主人公、影镜指挥官温德尔做个了断。",
+   "rows": [
+    {
+     "code": "第36话",
+     "zh": "迈向命运的人们",
+     "ja": "運命に向かう者たち",
+     "en": "Scenario 36: Those Who Face Their Destiny",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "真实的光辉",
+     "ja": "真実の輝き",
+     "en": "Scenario 37: Shining of Truth",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "静寂之声",
+     "ja": "静寂の声",
+     "en": "Scenario 38: Voice of Silence",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "在极近又无限遥远的世界",
+     "ja": "極めて近く、限りなく遠い世界に",
+     "en": "Final Scenario: So Close, Yet So Far",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
