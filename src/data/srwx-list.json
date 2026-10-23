@@ -1,0 +1,784 @@
+{
+ "groups": [
+  {
+   "title": "序盘：第0–13话（含特别剧本与秘密剧本1）",
+   "intro": "第0话为初回特典 DLC 序章；开局主人公二选一（伊欧利／安玛莉）决定第1、2、9话的版本。特别剧本《魔装机神》为塞巴斯塔特典关，秘密剧本1在第12话后判定插入。",
+   "rows": [
+    {
+     "code": "第0话",
+     "zh": "誓言的启程",
+     "ja": "誓いの旅立ち",
+     "en": "Vow of the Journey",
+     "type": "序章（DLC）",
+     "area": "",
+     "note": "DLC序章"
+    },
+    {
+     "code": "第1话·伊欧利线",
+     "zh": "旅途的序章",
+     "ja": "旅の序章",
+     "en": "Prologue to a Journey",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第1话·安玛莉线",
+     "zh": "相遇，然后开始",
+     "ja": "出会い、そして始まり",
+     "en": "An Encounter and a Beginning",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第2话·伊欧利线",
+     "zh": "站起来，救世主！",
+     "ja": "立ち上がれ、救世主！",
+     "en": "Arise, Savior!",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第2话·安玛莉线",
+     "zh": "救世主瓦塔尔！",
+     "ja": "救世主ワタル!",
+     "en": "Wataru the Savior!",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "特别剧本",
+     "zh": "魔装机神",
+     "ja": "魔装機神",
+     "en": "Elemental Lord",
+     "type": "特别剧本（DLC）",
+     "area": "",
+     "note": "特别剧本"
+    },
+    {
+     "code": "第3话",
+     "zh": "蓝水晶的少女",
+     "ja": "ブルーウォーターの少女",
+     "en": "Blue Water Girl",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第4话",
+     "zh": "流浪的圣战士",
+     "ja": "流浪の聖戦士",
+     "en": "Battler Errant",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第5话",
+     "zh": "海盗部队的G",
+     "ja": "海賊部隊のG",
+     "en": "The Pirate Corps' G",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第6话",
+     "zh": "来自异界之物",
+     "ja": "異界から来るもの",
+     "en": "From Another World",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第7话",
+     "zh": "在那片天空的相遇",
+     "ja": "あの空の出会い",
+     "en": "Encounter in the Sky",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第8话",
+     "zh": "异境之战",
+     "ja": "異境の戦い",
+     "en": "Battle in a Strange Land",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第9话·伊欧利线",
+     "zh": "向着应走的路",
+     "ja": "進むべき道を",
+     "en": "The Right Path",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第9话·安玛莉线",
+     "zh": "黑暗中的灯火",
+     "ja": "暗闇の灯火",
+     "en": "Light in the Darkness",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第10话",
+     "zh": "相遇的螺旋",
+     "ja": "めぐり合う螺旋",
+     "en": "Spiral Encounter",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第11话",
+     "zh": "命运的二人",
+     "ja": "宿命の二人",
+     "en": "Destined Combination",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第12话",
+     "zh": "灵光战士飞翔",
+     "ja": "オーラバトラー飛翔",
+     "en": "The Aura Battler Takes Off",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本1",
+     "zh": "名为思念的灵光",
+     "ja": "想いというオーラ",
+     "en": "The Aura Called Love",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第13话",
+     "zh": "娜迪亚的离家出走",
+     "ja": "ナディアの家出",
+     "en": "Nadia the Runaway",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #1 与合流：第14–20话",
+   "intro": "第13话后分多阿克达讨伐组／玛娜之国调查组两线（第14–16话），第17话合流；第16话后副指令开放。",
+   "rows": [
+    {
+     "code": "第14话·多阿克达线",
+     "zh": "重逢的阿尔泽纳尔",
+     "ja": "再会のアルゼナル",
+     "en": "Arzenal Reunited",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第14话·玛娜之国线",
+     "zh": "确认目标",
+     "ja": "ターゲット確認",
+     "en": "Target Confirmed",
+     "type": "路线分支关",
+     "area": "",
+     "note": "玛娜之国线"
+    },
+    {
+     "code": "第15话·多阿克达线",
+     "zh": "勇者特急，抵达",
+     "ja": "勇者特急、到着",
+     "en": "The Brave Express, Right on Schedule",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第15话·玛娜之国线",
+     "zh": "单翼的二人",
+     "ja": "片翼の二人",
+     "en": "Two Individual Wings",
+     "type": "路线分支关",
+     "area": "",
+     "note": "玛娜之国线"
+    },
+    {
+     "code": "第16话·多阿克达线",
+     "zh": "照亮黑暗的太阳",
+     "ja": "闇を照らす太陽",
+     "en": "The Sun that Shines Darkness",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第16话·玛娜之国线",
+     "zh": "战场上的重逢",
+     "ja": "戦場の再会",
+     "en": "Reunion on the Battlefield",
+     "type": "路线分支关",
+     "area": "",
+     "note": "玛娜之国线"
+    },
+    {
+     "code": "第17话",
+     "zh": "沉睡的魔王",
+     "ja": "眠る魔王",
+     "en": "Dark Lord Dormant",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第18话",
+     "zh": "苏醒的决心",
+     "ja": "目覚める決意",
+     "en": "Awakened Oath",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第19话",
+     "zh": "诀别",
+     "ja": "決別",
+     "en": "Parting",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第20话",
+     "zh": "宇宙与大地与",
+     "ja": "宇宙と大地と",
+     "en": "Space and the Earth",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #2 与魔神篇：第21–29话（含秘密剧本2）",
+   "intro": "第20话后分地上／宇宙两线（第21–22话），第23话合流；第25、26话再分主角版本；秘密剧本2在第28话后判定插入；第29话后进入分歧 #3。",
+   "rows": [
+    {
+     "code": "第21话·地上线",
+     "zh": "灼热的激战",
+     "ja": "灼熱の激闘",
+     "en": "Burning Bash",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地上线"
+    },
+    {
+     "code": "第21话·宇宙线",
+     "zh": "未知的宇宙",
+     "ja": "未知の宇宙",
+     "en": "Unknown Space",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙线"
+    },
+    {
+     "code": "第22话·地上线",
+     "zh": "极寒的死斗",
+     "ja": "極寒の死闘",
+     "en": "Frigid Fight",
+     "type": "路线分支关",
+     "area": "",
+     "note": "地上线"
+    },
+    {
+     "code": "第22话·宇宙线",
+     "zh": "雷汉顿之血",
+     "ja": "レイハントンの血",
+     "en": "Blood of the Rayhunton",
+     "type": "路线分支关",
+     "area": "",
+     "note": "宇宙线"
+    },
+    {
+     "code": "第23话",
+     "zh": "龙王咆哮",
+     "ja": "龍王咆哮",
+     "en": "Ryuoh Roars",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第24话",
+     "zh": "伟大的勇者",
+     "ja": "偉大な勇者",
+     "en": "The Great Hero",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第25话·伊欧利线",
+     "zh": "魔从教团",
+     "ja": "魔従教団",
+     "en": "The Keepers of Order",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第25话·安玛莉线",
+     "zh": "奉恩殆之名",
+     "ja": "エンデの名の下に",
+     "en": "In the Name of Ende",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第26话·伊欧利线",
+     "zh": "希望之翼",
+     "ja": "希望の翼",
+     "en": "Wings of Hope",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第26话·安玛莉线",
+     "zh": "名为自由之翼",
+     "ja": "自由という翼",
+     "en": "The Wings Called Freedom",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第27话",
+     "zh": "命运的对手",
+     "ja": "宿命のライバル",
+     "en": "Fated Rivalry",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第28话",
+     "zh": "黑暗与光",
+     "ja": "闇と光",
+     "en": "Darkness and Light",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本2",
+     "zh": "最凶VS最强",
+     "ja": "最凶VS最強",
+     "en": "The Worst Vs. the Best",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第29话",
+     "zh": "玫瑰狂战士",
+     "ja": "薔薇のバーサーカー",
+     "en": "Rose Berserker",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #3：第30–35话（含秘密剧本3）",
+   "intro": "第29话后分讨伐多阿克达部队／对米斯尔奇部队两线（第30–34话），第35话合流；秘密剧本3在第35话后判定插入。",
+   "rows": [
+    {
+     "code": "第30话·多阿克达线",
+     "zh": "正义与友情与",
+     "ja": "正義と友情と",
+     "en": "Justice and Friendship",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第30话·米斯尔奇线",
+     "zh": "心中的风暴",
+     "ja": "胸の中の嵐",
+     "en": "The Storm Within",
+     "type": "路线分支关",
+     "area": "",
+     "note": "米斯尔奇线"
+    },
+    {
+     "code": "第31话·多阿克达线",
+     "zh": "尼莫的秘密",
+     "ja": "ネモの秘密",
+     "en": "Nemo's Secret",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第31话·米斯尔奇线",
+     "zh": "两人的羁绊",
+     "ja": "ふたりの絆",
+     "en": "Their Bonds",
+     "type": "路线分支关",
+     "area": "",
+     "note": "米斯尔奇线"
+    },
+    {
+     "code": "第32话·多阿克达线",
+     "zh": "来自过去的亡灵",
+     "ja": "過去からの亡霊",
+     "en": "Ghost from the Past",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第32话·米斯尔奇线",
+     "zh": "来自金星的灾祸",
+     "ja": "金星から来た災い",
+     "en": "The Menace from Venus",
+     "type": "路线分支关",
+     "area": "",
+     "note": "米斯尔奇线"
+    },
+    {
+     "code": "第33话·多阿克达线",
+     "zh": "洁白之翼",
+     "ja": "白き翼",
+     "en": "White Wings",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第33话·米斯尔奇线",
+     "zh": "夏亚的迷惘",
+     "ja": "シャアの迷い",
+     "en": "Char's Hesitation",
+     "type": "路线分支关",
+     "area": "",
+     "note": "米斯尔奇线"
+    },
+    {
+     "code": "第34话·多阿克达线",
+     "zh": "超越托德",
+     "ja": "ビヨン・ザ・トッド",
+     "en": "Beyond the Todd",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第34话·米斯尔奇线",
+     "zh": "完全的世界",
+     "ja": "完全な世界",
+     "en": "A Perfect World",
+     "type": "路线分支关",
+     "area": "",
+     "note": "米斯尔奇线"
+    },
+    {
+     "code": "第35话",
+     "zh": "向着更高的地方",
+     "ja": "さらなる高みへ",
+     "en": "To Greater Heights",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本3",
+     "zh": "红色彗星的矜持",
+     "ja": "赤い彗星の矜持",
+     "en": "The Red Comet's Dignity",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    }
+   ]
+  },
+  {
+   "title": "中盘：第36–42话（含秘密剧本4）",
+   "intro": "第38、39话分主角版本；秘密剧本4在第41话前后判定；第42话后进入分歧 #4。",
+   "rows": [
+    {
+     "code": "第36话",
+     "zh": "决战，米斯尔奇皇国",
+     "ja": "決戦、ミスルギ皇国",
+     "en": "The Battle Against Misurugi",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第37话",
+     "zh": "向着无人知晓的明天",
+     "ja": "誰も知らない明日へ",
+     "en": "To a Tomorrow No One Knows",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第38话·伊欧利线",
+     "zh": "陌生的故乡",
+     "ja": "見知らぬ故郷",
+     "en": "An Unfamiliar Hometown",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第38话·安玛莉线",
+     "zh": "我珍贵的地方",
+     "ja": "私の大切な場所",
+     "en": "My Important Place",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第39话·伊欧利线",
+     "zh": "多格玛的意义",
+     "ja": "ドグマの意味",
+     "en": "The Meaning of Dogma",
+     "type": "主角分支关",
+     "area": "",
+     "note": "伊欧利线"
+    },
+    {
+     "code": "第39话·安玛莉线",
+     "zh": "应归的世界",
+     "ja": "帰るべき世界",
+     "en": "A World to Call Home",
+     "type": "主角分支关",
+     "area": "",
+     "note": "安玛莉线"
+    },
+    {
+     "code": "第40话",
+     "zh": "乐园的终结",
+     "ja": "楽園の終わり",
+     "en": "Paradise's End",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第41话",
+     "zh": "贯穿天际的螺旋",
+     "ja": "天を貫く螺旋",
+     "en": "The Spiral That Pierces the Heavens",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "秘密剧本4",
+     "zh": "舒华新力加的秘密",
+     "ja": "シュワルビネガーの秘密",
+     "en": "Schwarvenegger's Secret",
+     "type": "秘密剧本",
+     "area": "",
+     "note": "秘密剧本"
+    },
+    {
+     "code": "第42话",
+     "zh": "以正义之名",
+     "ja": "正義の名の下に",
+     "en": "In the Name of Justice",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "分歧 #4 与终盘：第43–48话",
+   "intro": "第42话后分对多阿克达部队／对雷康吉斯塔军部队两线（第43–45话），第46话合流；第48话结算 IF 路线点数。",
+   "rows": [
+    {
+     "code": "第43话·多阿克达线",
+     "zh": "开始崩坏的理",
+     "ja": "崩れ始める理",
+     "en": "A Crumbling World",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第43话·雷康吉斯塔线",
+     "zh": "各自的了断",
+     "ja": "それぞれの決着",
+     "en": "Each and Every Resolve",
+     "type": "路线分支关",
+     "area": "",
+     "note": "雷康吉斯塔线"
+    },
+    {
+     "code": "第44话·多阿克达线",
+     "zh": "真实的默示录",
+     "ja": "真実の黙示録",
+     "en": "Revelation of Truth",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第44话·雷康吉斯塔线",
+     "zh": "在回归那片天空的未来",
+     "ja": "あの空に還る未来で",
+     "en": "Into the Skies of Tomorrow",
+     "type": "路线分支关",
+     "area": "",
+     "note": "雷康吉斯塔线"
+    },
+    {
+     "code": "第45话·多阿克达线",
+     "zh": "王者的资格",
+     "ja": "王者の資格",
+     "en": "Right to Rule",
+     "type": "路线分支关",
+     "area": "",
+     "note": "多阿克达线"
+    },
+    {
+     "code": "第45话·雷康吉斯塔线",
+     "zh": "在闪光的风中",
+     "ja": "光る風の中",
+     "en": "In the Shining Wind",
+     "type": "路线分支关",
+     "area": "",
+     "note": "雷康吉斯塔线"
+    },
+    {
+     "code": "第46话",
+     "zh": "新的皇帝",
+     "ja": "新たなる皇帝",
+     "en": "A New Emperor",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第47话",
+     "zh": "继承群星之人",
+     "ja": "星を継ぐ者",
+     "en": "Successors to the Stars",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    },
+    {
+     "code": "第48话",
+     "zh": "黑暗之王，光之勇者",
+     "ja": "暗黒の王、光の勇者",
+     "en": "Lord of Darkness, Hero of Light",
+     "type": "主线关",
+     "area": "",
+     "note": "共通"
+    }
+   ]
+  },
+  {
+   "title": "结局分歧：第49话–最终话",
+   "intro": "第48话后按 IF 路线点数（≥5，一周目）或二周目无条件出现选择：通常路线与 IF（困难）路线的第49–51话与最终话各不相同。",
+   "rows": [
+    {
+     "code": "第49话·通常线",
+     "zh": "艾尔·瓦司的真相",
+     "ja": "アル・ワースの真実",
+     "en": "The Truth Behind Al-Warth",
+     "type": "结局分支关",
+     "area": "",
+     "note": "通常线"
+    },
+    {
+     "code": "第49话·IF线",
+     "zh": "无尽的敌群",
+     "ja": "果てしなき群れ",
+     "en": "Overwhelming Odds",
+     "type": "结局分支关",
+     "area": "",
+     "note": "IF线"
+    },
+    {
+     "code": "第50话·通常线",
+     "zh": "在黑暗之中",
+     "ja": "闇の中で",
+     "en": "Within Darkness",
+     "type": "结局分支关",
+     "area": "",
+     "note": "通常线"
+    },
+    {
+     "code": "第50话·IF线",
+     "zh": "起死回生",
+     "ja": "起死回生",
+     "en": "The Tides Have Turned",
+     "type": "结局分支关",
+     "area": "",
+     "note": "IF线"
+    },
+    {
+     "code": "第51话·通常线",
+     "zh": "天上之光皆为未来",
+     "ja": "天の光はすべて未来",
+     "en": "The Lights in the Sky Are the Future",
+     "type": "结局分支关",
+     "area": "",
+     "note": "通常线"
+    },
+    {
+     "code": "第51话·IF线",
+     "zh": "可能性的宇宙",
+     "ja": "可能性の宇宙",
+     "en": "Universe's Infinite Possibilities",
+     "type": "结局分支关",
+     "area": "",
+     "note": "IF线"
+    },
+    {
+     "code": "最终话·通常路线",
+     "zh": "仅限于此的世界",
+     "ja": "ここにある世界",
+     "en": "The World Around Us",
+     "type": "最终话",
+     "area": "",
+     "note": "通常线"
+    },
+    {
+     "code": "最终话·IF路线",
+     "zh": "永远的艾尔·瓦司",
+     "ja": "永遠のアル・ワース",
+     "en": "Eternal Al-Warth",
+     "type": "最终话",
+     "area": "",
+     "note": "IF线"
+    }
+   ]
+  }
+ ]
+}

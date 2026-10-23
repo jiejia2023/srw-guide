@@ -1,0 +1,6033 @@
+{
+ "missions": [
+  {
+   "code": "第0话",
+   "slug": "stage-0",
+   "zh": "誓言的启程",
+   "ja": "誓いの旅立ち",
+   "en": "Vow of the Journey",
+   "route": "DLC序章",
+   "area": "",
+   "type": "序章（DLC）",
+   "prerequisite": "购入初回特典 DLC 后、开始新游戏时可玩的序章；未购入者从第1话开始（本话无 SR 点数）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德（主人公、霍普斯）"
+   ],
+   "events": [
+    "被魔从教团召唤到艾尔·瓦司的主人公与捷尔嘉德的序章。完整流程表注记：本话须购入相应 DLC 才能游玩。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第1话（按所选主人公进入对应版本）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 誓いの旅立ち 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x00/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第1话·伊欧利线",
+   "slug": "stage-1-iori",
+   "zh": "旅途的序章",
+   "ja": "旅の序章",
+   "en": "Prologue to a Journey",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "新游戏开始时选择男主人公伊欧利·埃欧莱特后进入的第一话（选择安玛莉则进入安玛莉线版本，剧情大势相同、细节不同）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "捷尔嘉德被击破",
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在关卡内使用捷尔嘉德的全部武装各攻击一次"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "「???（???）」——完整流程表原文如此，本话有未明身份的单位登场"
+   ],
+   "events": [
+    "开局二选一主人公：伊欧利（菫青石术士）／安玛莉（蓝柱石术士）；未被选择的一人会在后续作为同伴登场。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第2话·伊欧利线《站起来，救世主！》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 旅の序章 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x01a/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第1话·安玛莉线",
+   "slug": "stage-1-amari",
+   "zh": "相遇，然后开始",
+   "ja": "出会い、そして始まり",
+   "en": "An Encounter and a Beginning",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "新游戏开始时选择女主人公安玛莉·艾奎玛琳后进入的第一话（选择伊欧利则进入伊欧利线版本，剧情大势相同、细节不同）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在关卡内使用捷尔嘉德的全部武装各攻击一次"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "「???（???）」——完整流程表原文如此，本话有未明身份的单位登场"
+   ],
+   "events": [
+    "开局二选一主人公：伊欧利（菫青石术士）／安玛莉（蓝柱石术士）；未被选择的一人会在后续作为同伴登场。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第2话·安玛莉线《救世主瓦塔尔！》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 出会い、そして始まり 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x01b/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·伊欧利线",
+   "slug": "stage-2-iori",
+   "zh": "站起来，救世主！",
+   "ja": "立ち上がれ、救世主！",
+   "en": "Arise, Savior!",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第1话·伊欧利线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "以援护攻击击破至少 1 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "战神丸（柴钣古）",
+    "龙神丸（渡、龙神丸）"
+   ],
+   "events": [
+    "本话通关后，工厂（Vault）开放使用（完整流程表注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "特别剧本《魔装机神》（持有初回特典 DLC 时，本话后可玩）",
+    "第3话《蓝水晶的少女》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 立ち上がれ、救世主！ 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x02a/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话·安玛莉线",
+   "slug": "stage-2-amari",
+   "zh": "救世主瓦塔尔！",
+   "ja": "救世主ワタル!",
+   "en": "Wataru the Savior!",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第1话·安玛莉线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "以援护攻击击破至少 1 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "战神丸（柴钣古）",
+    "龙神丸（渡、龙神丸）"
+   ],
+   "events": [
+    "本话通关后，工厂（Vault）开放使用（完整流程表注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "特别剧本《魔装机神》（持有初回特典 DLC 时，本话后可玩）",
+    "第3话《蓝水晶的少女》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 救世主ワタル! 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x02b/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "特别剧本",
+   "slug": "special-1",
+   "zh": "魔装机神",
+   "ja": "魔装機神",
+   "en": "Elemental Lord",
+   "route": "特别剧本",
+   "area": "",
+   "type": "特别剧本（DLC）",
+   "prerequisite": "初回特典 DLC 关卡：持有特典时第2话通关后即可游玩；通常流程下于第34话与第35话之间开放（完整流程表注记）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "塞巴斯塔（正树）"
+   ],
+   "events": [
+    "魔装机神塞巴斯塔与安藤正树登场的特典关；塞巴斯塔的正式加入时点随是否持有特典而不同（据日文维基，特典可使其序盘即参战，通常流程为第34话后）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第3话《蓝水晶的少女》（回到主线）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 魔装機神 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x01s/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "通关本关（300 TacP）"
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "蓝水晶的少女",
+   "ja": "ブルーウォーターの少女",
+   "en": "Blue Water Girl",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第2话通关后。",
+   "victory": [
+    "歼灭全部敌人，或使敌军撤退",
+    "击破巡航汤姆"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破量产型盖佩尔（舒华新力加）；舒华新力加在 HP 低于 6,000 时会撤退，须在此前击破"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "格拉坦（格兰迪斯、桑森、汉森）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话《流浪的圣战士》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ブルーウォーターの少女 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x03/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "格拉坦攻击舒华新力加（100 TacP）"
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "流浪的圣战士",
+   "ja": "流浪の聖戦士",
+   "en": "Battler Errant",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第3话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破比亚雷斯"
+   ],
+   "defeat": [
+    "托德被击破",
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "丹拜因（秀、查姆）",
+    "比亚雷斯（托德）"
+   ],
+   "events": [],
+   "secrets": [
+    "托德以我方（客串）单位身份击破 1 台敌机。",
+    "秀说得托德。（日方 srw.wiki 隐藏页将本话条目拆为「托德击破先行登场的朵拉 +1」与「秀说得增援的托德 +1」，与完整流程表的记法略有出入，总分相同。）"
+   ],
+   "unlocks": [
+    "第5话《海盗部队的G》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 流浪の聖戦士 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x04/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "秀的击破数比我方托德多 1 台以上（100 TacP）"
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "海盗部队的G",
+   "ja": "海賊部隊のG",
+   "en": "The Pirate Corps' G",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第4话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破凯特西斯（马斯克）"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破 4 台以上敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "G-塞尔夫（贝尔利）",
+    "G-阿尔凯恩（全装型）（艾达）",
+    "梅加法乌纳（多尼尔、副长）"
+   ],
+   "events": [],
+   "secrets": [
+    "贝尔利击破马斯克。"
+   ],
+   "unlocks": [
+    "第6话《来自异界之物》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 海賊部隊のG 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x05/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "艾达击破 2 台敌机（100 TacP）"
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "来自异界之物",
+   "ja": "異界から来るもの",
+   "en": "From Another World",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第5话通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破???"
+   ],
+   "defeat": [
+    "梅加法乌纳被击破",
+    "安琪或薇薇安被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破至少 1 台加利恩级龙型"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "维尔基斯（安琪）",
+    "拉泽尔（薇薇安）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话《在那片天空的相遇》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 異界から来るもの 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x06/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在「???」登场后由渡击破 1 台敌机（100 TacP，于第7话结算）"
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "在那片天空的相遇",
+   "ja": "あの空の出会い",
+   "en": "Encounter in the Sky",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第6话通关后。",
+   "victory": [
+    "击破涅比罗斯"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破、青叶或迪奥被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，任一我方驾驶员在一回合内击破至少 3 台敌机（MAP 武器击破不计）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "布拉迪翁（迪奥）",
+    "天鹅号（仓光、蕾妮）",
+    "卢克锡翁（青叶）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第8话《异境之战》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — あの空の出会い 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x07/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "异境之战",
+   "ja": "異境の戦い",
+   "en": "Battle in a Strange Land",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第7话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破、迪奥被击破",
+    "青叶或迪奥被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第9话（按所选主人公进入对应版本）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 異境の戦い 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x08/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "6 回合内击破比佐与希娜（100 TacP）"
+  },
+  {
+   "code": "第9话·伊欧利线",
+   "slug": "stage-9-iori",
+   "zh": "向着应走的路",
+   "ja": "進むべき道を",
+   "en": "The Right Path",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第8话通关后（伊欧利线版本）。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破狄恩贝尔",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破、贝尔利、希布克或塞西莉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破 5 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "高达F91（希布克）",
+    "比基纳·基娜（塞西莉）",
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「闪技1：破邪之光」"
+   ],
+   "events": [],
+   "secrets": [
+    "贝尔利击破马斯克。"
+   ],
+   "unlocks": [
+    "第10话《相遇的螺旋》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。",
+     "Akurasu 的 Events Chart 对本关有一份未完成的部署草表（仅单位名与数量、无资金/掉落，该页自标制作中），本站未将其作为编成来源采用。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 進むべき道を 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x09a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "4 回合内击破狄恩贝尔（100 TacP）"
+  },
+  {
+   "code": "第9话·安玛莉线",
+   "slug": "stage-9-amari",
+   "zh": "黑暗中的灯火",
+   "ja": "暗闇の灯火",
+   "en": "Light in the Darkness",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第8话通关后（安玛莉线版本）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破、贝尔利、希布克或塞西莉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破 5 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "高达F91（希布克）",
+    "比基纳·基娜（塞西莉）",
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「闪技1：破邪之光」"
+   ],
+   "events": [],
+   "secrets": [
+    "贝尔利击破马斯克。"
+   ],
+   "unlocks": [
+    "第10话《相遇的螺旋》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 暗闇の灯火 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x09b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "4 回合内击破狄恩贝尔（100 TacP）"
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "相遇的螺旋",
+   "ja": "めぐり合う螺旋",
+   "en": "Spiral Encounter",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第9话通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "西蒙被击破",
+    "任一我方战舰被击破、西蒙被击破、敌机进入城镇"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让任何敌机侵入高亮显示的区域"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "古伦拉刚（西蒙）"
+   ],
+   "events": [],
+   "secrets": [
+    "秀与托德交战。"
+   ],
+   "unlocks": [
+    "第11话《命运的二人》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — めぐり合う螺旋 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x10/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "秀与主人公（伊欧利／安玛莉）分别与托德交战（100 TacP）"
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "命运的二人",
+   "ja": "宿命の二人",
+   "en": "Destined Combination",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第10话通关后。",
+   "victory": [
+    "击破恩基杜杜",
+    "击破塞坎德冈"
+   ],
+   "defeat": [
+    "任一我方战舰被击破、西蒙或渡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内先击破恩基杜杜以外的全部敌人，最后击破恩基杜杜"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "古伦拉刚追加副驾驶员比拉尔与武装「双重回旋镖螺旋」",
+    "龙神丸追加武装「龙雷剑」，「必杀登龙剑」威力 +200"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第12话《灵光战士飞翔》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 宿命の二人 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x11/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以合体攻击「Unisolize Combat」击破敌机（100 TacP）"
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "灵光战士飞翔",
+   "ja": "オーラバトラー飛翔",
+   "en": "The Aura Battler Takes Off",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第11话通关后。本话通关后判定秘密剧本1。",
+   "victory": [
+    "击破比亚雷斯"
+   ],
+   "defeat": [
+    "任一我方战舰被击破、秀被击破",
+    "秀或玛贝尔被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "本话结束前，任一我方驾驶员的 ExC 达到 5 以上"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "比尔拜因（秀）",
+    "丹拜因（玛贝尔）"
+   ],
+   "events": [
+    "换乘：丹拜因 → 比尔拜因的改造继承在本话（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "本话中秀击破托德，且托德点数累计 ≥4 时，本话后插入秘密剧本1，并可选择比尔拜因的夜间迷彩涂装。",
+    "秀以丹拜因与托德交战。",
+    "秀换乘比尔拜因后与托德交战。"
+   ],
+   "unlocks": [
+    "秘密剧本1《名为思念的灵光》（满足条件时）",
+    "第13话《娜迪亚的离家出走》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — オーラバトラー飛翔 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x12/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "西蒙与托德互相攻击（100 TacP）"
+  },
+  {
+   "code": "秘密剧本1",
+   "slug": "secret-1",
+   "zh": "名为思念的灵光",
+   "ja": "想いというオーラ",
+   "en": "The Aura Called Love",
+   "route": "秘密剧本",
+   "area": "",
+   "type": "秘密剧本",
+   "prerequisite": "第12话通关时满足条件（秀击破托德且托德点数 ≥4）后插入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破、秀或玛贝尔被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "可为比尔拜因选择夜间迷彩或原色涂装；选夜间迷彩后，第34话（多阿克达线）追加武装「灵光射击」"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 SR 点数（秘密剧本通例）。",
+    "比尔拜因的「灵光射击」追加点：多阿克达线在第34话A追加；走米斯尔奇线时于合流时追加（据日方 srw.wiki 隐藏页）。"
+   ],
+   "unlocks": [
+    "第13话《娜迪亚的离家出走》（回到主线）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 想いというオーラ 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x01k/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "解锁本关（300 TacP）"
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "娜迪亚的离家出走",
+   "ja": "ナディアの家出",
+   "en": "Nadia the Runaway",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第12话（及秘密剧本1）通关后。本话后进入路线分歧 #1（第14–16话）。",
+   "victory": [
+    "歼灭全部敌人",
+    "到达第 3 回合",
+    "击破飞行舰，或到达第 7 回合"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破、格兰迪斯被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "N-鹦鹉螺号（尼莫、艾雷克特拉）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第14话·多阿克达线《重逢的阿尔泽纳尔》",
+    "第14话·玛娜之国线《确认目标》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ナディアの家出 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x13/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "2 回合内歼灭全部卡拉帕 3 型（100 TacP）"
+  },
+  {
+   "code": "第14话·多阿克达线",
+   "slug": "stage-14-a",
+   "zh": "重逢的阿尔泽纳尔",
+   "ja": "再会のアルゼナル",
+   "en": "Arzenal Reunited",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第13话后选择讨伐多阿克达组（创界山路线）时进入；第17话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破、安琪被击破、萨莉亚被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "阿尔克布斯·萨莉亚专用型（萨莉亚）",
+    "格雷夫·希尔达专用型（希尔达）",
+    "格雷夫·罗莎莉专用型（罗莎莉）",
+    "豪泽尔·艾尔莎专用型（艾尔莎）",
+    "豪泽尔·克莉丝专用型（克莉丝）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话·多阿克达线《勇者特急，抵达》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 再会のアルゼナル 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x14a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "安琪与渡攻击萨拉曼蒂涅（100 TacP）"
+  },
+  {
+   "code": "第14话·玛娜之国线",
+   "slug": "stage-14-b",
+   "zh": "确认目标",
+   "ja": "ターゲット確認",
+   "en": "Target Confirmed",
+   "route": "玛娜之国线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第13话后选择玛娜之国调查组时进入；第17话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破、青叶、迪奥或贝尔利被击破（其后变为希罗被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "托鲁基斯III（杰克斯）",
+    "托拉斯（诺茵）",
+    "飞翼高达零式（希罗）",
+    "天鹅号的「巴里安萨合体攻击」威力 +200"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话·玛娜之国线《单翼的二人》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ターゲット確認 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x14b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "杰克斯攻击阿尔弗里德（100 TacP）"
+  },
+  {
+   "code": "第15话·多阿克达线",
+   "slug": "stage-15-a",
+   "zh": "勇者特急，抵达",
+   "ja": "勇者特急、到着",
+   "en": "The Brave Express, Right on Schedule",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第14话·多阿克达线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "N-鹦鹉螺号或舞人被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破 5 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "盖因",
+    "战斗轰炸机",
+    "警卫潜水员",
+    "强力凯因（舞人、强力凯因）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话·多阿克达线《照亮黑暗的太阳》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 勇者特急、到着 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x15a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "原创主角击破 2 台敌机（100 TacP）"
+  },
+  {
+   "code": "第15话·玛娜之国线",
+   "slug": "stage-15-b",
+   "zh": "单翼的二人",
+   "ja": "片翼の二人",
+   "en": "Two Individual Wings",
+   "route": "玛娜之国线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第14话·玛娜之国线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰或青叶被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内在同一回合击破涅比罗斯与福尔图娜"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "双头龙高达（五飞）"
+   ],
+   "events": [],
+   "secrets": [
+    "青叶与希娜交战。",
+    "青叶与比佐交战。",
+    "希罗与比佐交战。"
+   ],
+   "unlocks": [
+    "第16话·玛娜之国线《战场上的重逢》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 片翼の二人 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x15b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "希罗攻击比佐（100 TacP）"
+  },
+  {
+   "code": "第16话·多阿克达线",
+   "slug": "stage-16-a",
+   "zh": "照亮黑暗的太阳",
+   "ja": "闇を照らす太陽",
+   "en": "The Sun that Shines Darkness",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第15话·多阿克达线通关后。本话后两线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破、黑色强力凯因被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内以带 ExC 指令「粉碎打击」的状态击破黑色强力凯因（援护攻击不算；完整流程表注记：游戏内英文版此条件有误译）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "无敌钢人泰坦3（班乔）",
+    "黑色强力凯因"
+   ],
+   "events": [
+    "本话通关后副指令（Sub-Order）开放（完整流程表注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第17话《沉睡的魔王》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 闇を照らす太陽 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x16a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "强力凯因、战斗轰炸机与警卫潜水员攻击黑色强力凯因（100 TacP）"
+  },
+  {
+   "code": "第16话·玛娜之国线",
+   "slug": "stage-16-b",
+   "zh": "战场上的重逢",
+   "ja": "戦場の再会",
+   "en": "Reunion on the Battlefield",
+   "route": "玛娜之国线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第15话·玛娜之国线通关后。本话后两线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破、派雷索伊德进入城镇",
+    "任一我方战舰被击破、派雷索伊德进入城镇、贝尔利或捷多被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭全部派雷索伊德"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "高达沙漠型改（卡托尔）",
+    "地狱死神高达（迪奥）",
+    "重炮手高达改（特洛瓦）",
+    "Z高达（捷多）",
+    "百式（比查）",
+    "R·加兹（露）",
+    "高达Mk-II（艾儿）",
+    "丘贝雷Mk-II（紫）（普露）"
+   ],
+   "events": [
+    "本话通关后副指令（Sub-Order）开放（完整流程表注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第17话《沉睡的魔王》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 戦場の再会 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x16b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "贝尔利攻击普露（100 TacP）"
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "沉睡的魔王",
+   "ja": "眠る魔王",
+   "en": "Dark Lord Dormant",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第16话通关后（两线合流）。",
+   "victory": [
+    "击破斯凯尔巴特，或使其撤退（斯凯尔巴特受到任意伤害即撤退；其后变为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "我方战舰被击破；战舰以外的我方单位全灭"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "以一次攻击击破斯凯尔巴特（受到其他数值的伤害它就会逃走）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "红莲圣天八极式（卡莲）",
+    "兰斯洛特·阿尔比昂（朱雀）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第18话《苏醒的决心》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 眠る魔王 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x17/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在斯凯尔巴特被击破前由迪奥击破 1 台敌机（100 TacP）"
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "苏醒的决心",
+   "ja": "目覚める決意",
+   "en": "Awakened Oath",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第17话通关后。",
+   "victory": [
+    "击破萨瑟兰·齐格与莫德雷德（达成后变为击破斯凯尔巴特）"
+   ],
+   "defeat": [
+    "我方战舰被击破；战舰以外的我方单位全灭（达成胜利条件 1 后变为鲁路修被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内由同一名驾驶员击破莫德雷德与萨瑟兰·齐格（不必在同一回合）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "蜃气楼（鲁路修）",
+    "兰斯洛特·边境型（C.C.）",
+    "莫德雷德（阿妮亚）",
+    "萨瑟兰·齐格（杰雷米亚）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第19话《诀别》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 目覚める決意 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x18/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "鲁路修、C.C.、阿妮亚与杰雷米亚攻击斯凯尔巴特（100 TacP）"
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "诀别",
+   "ja": "決別",
+   "en": "Parting",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第18话通关后。",
+   "victory": [
+    "歼灭全部敌人（达成后：天鹅号与 N-鹦鹉螺号在第 7 回合结束前到达地图尽头）"
+   ],
+   "defeat": [
+    "天鹅号被击破（达成胜利条件后变为：我方战舰被击破；安琪被击破；战斗超过 8 回合）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在我方第 3 回合阶段前歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "阿尔克布斯·瓦妮莎专用型（塔斯克）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第20话《宇宙与大地与》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 決別 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x19/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在战舰离开区域前歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "宇宙与大地与",
+   "ja": "宇宙と大地と",
+   "en": "Space and the Earth",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第19话通关后。本话后进入路线分歧 #2（第21–22话）。",
+   "victory": [
+    "击破马克刀（马斯克）（达成后变为歼灭全部敌人）",
+    "夏亚登场后：将沙扎比的 HP 削减至 10,000 以下"
+   ],
+   "defeat": [
+    "我方战舰被击破；贝尔利或捷多被击破（达成胜利条件 1 后变为马斯克或贝尔利被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内、于同一回合先击破马克刀（芭拉拉），再由同一名驾驶员击破马克刀（马斯克）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "ZZ高达（捷多）",
+    "杰刚（凯尔贝斯）",
+    "马克刀（马斯克）"
+   ],
+   "events": [],
+   "secrets": [
+    "以我方（客串）身份的马斯克击破 1 台敌机。",
+    "以我方（客串）身份的马斯克击破 2 台敌机（完整流程表记为两条独立 +1；日方 srw.wiki 隐藏页作「1 台 +1／2 台以上 +2」，总分相同）。"
+   ],
+   "unlocks": [
+    "第21话·地上线《灼热的激战》",
+    "第21话·宇宙线《未知的宇宙》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 宇宙と大地と 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x20/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "击破夏亚（100 TacP）"
+  },
+  {
+   "code": "第21话·地上线",
+   "slug": "stage-21-a",
+   "zh": "灼热的激战",
+   "ja": "灼熱の激闘",
+   "en": "Burning Bash",
+   "route": "地上线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第20话后选择地上部队时进入；第23话合流。",
+   "victory": [
+    "歼灭全部敌人（海克力斯王登场后变为击破海克力斯王）"
+   ],
+   "defeat": [
+    "任一我方单位被击破（海克力斯王登场后变为：N-鹦鹉螺号被击破；安琪或薇薇安被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "本话结束前，让任一我方单位的 ExC 达到 10 点"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "魔神Z（甲儿）",
+    "维纳斯A（咲也香）",
+    "波斯机器人（阿强、阿国、阿武）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第22话·地上线《极寒的死斗》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 灼熱の激闘 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x21a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "安琪与咲也香攻击布罗肯伯爵（100 TacP）"
+  },
+  {
+   "code": "第21话·宇宙线",
+   "slug": "stage-21-b",
+   "zh": "未知的宇宙",
+   "ja": "未知の宇宙",
+   "en": "Unknown Space",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第20话后选择宇宙部队时进入；第23话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破；贝尔利、克利姆或米克被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "本话结束前，让任一我方单位的 ExC 达到 10 点"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "天鹅号获得宇宙地形适应 A",
+    "亚克特·多加（基尼专用机）（克利姆）",
+    "亚克特·多加（葵斯专用机）（米克）",
+    "G-塞尔夫追加可选装备「宇宙包」，G-塞尔夫（宇宙包）追加武装「强袭包攻击」"
+   ],
+   "events": [],
+   "secrets": [
+    "克利姆击破 ≥2 台敌机后取得。",
+    "克利姆与米克各击破 ≥2 台敌机后取得。（据日方隐藏页：二周目起无视路线自动取得；走地上线的玩家在合流时取得两台。）"
+   ],
+   "unlocks": [
+    "第22话·宇宙线《雷汉顿之血》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 未知の宇宙 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x21b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "贝尔利击破 2 台敌机（100 TacP）"
+  },
+  {
+   "code": "第22话·地上线",
+   "slug": "stage-22-a",
+   "zh": "极寒的死斗",
+   "ja": "極寒の死闘",
+   "en": "Frigid Fight",
+   "route": "地上线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第21话·地上线通关后。本话后两线合流。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破海克力斯王）",
+    "击破海克力斯王后变为击破盖塔达伊达尔"
+   ],
+   "defeat": [
+    "任一我方单位被击破（事件后变为：N-鹦鹉螺号被击破；渡被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破至少 8 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "炎龙号（萨拉曼蒂涅）",
+    "维尔基斯追加武装「能力解放」",
+    "龙神丸（渡、龙神丸）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话《龙王咆哮》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 極寒の死闘 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x22a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "让萨拉曼蒂涅以援护攻击支援安琪（100 TacP）"
+  },
+  {
+   "code": "第22话·宇宙线",
+   "slug": "stage-22-b",
+   "zh": "雷汉顿之血",
+   "ja": "レイハントンの血",
+   "en": "Blood of the Rayhunton",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第21话·宇宙线通关后。本话后两线合流。",
+   "victory": [
+    "击破盖特拉什（达成后变为击破沙扎比）"
+   ],
+   "defeat": [
+    "任一我方战舰被击破；贝尔利被击破（达成胜利条件 1 后变为阿姆罗或托比亚被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破至少 12 台敌机，且最后击破盖特拉什"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "ν高达（阿姆罗）",
+    "海盗高达X1改·改（托比亚）",
+    "G-卢西法（拉拉伊亚、诺雷德）",
+    "摩兰（林格）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第23话《龙王咆哮》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — レイハントンの血 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x22b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "贝尔利攻击夏亚（100 TacP）"
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "龙王咆哮",
+   "ja": "龍王咆哮",
+   "en": "Ryuoh Roars",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第22话通关后（两线合流）。",
+   "victory": [
+    "击破以下任意 3 名：塞坎德冈、斯凯尔巴特、海克力斯王、吉冈、飞行要塞古尔（第 3 回合后变为击破盖塔达伊达尔）"
+   ],
+   "defeat": [
+    "我方战舰被击破（第 3 回合后变为：我方战舰被击破；渡或源流裁被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内、于同一回合击破塞坎德冈、斯凯尔巴特、海克力斯王、吉冈、飞行要塞古尔中的至少 3 名"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "龙神丸（渡、龙神丸）",
+    "龙神丸获得能力「变身」",
+    "幻神丸（源流裁、火美子）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第24话《伟大的勇者》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 龍王咆哮 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x23/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "柴钣古击破古尔以外的任一 Boss（100 TacP）"
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "伟大的勇者",
+   "ja": "偉大な勇者",
+   "en": "The Great Hero",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第23话通关后。",
+   "victory": [
+    "歼灭全部敌人（第 2 回合后变为击破幽灵火焰V9）",
+    "剧情事件后变为歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破（剧情事件后变为甲儿被击破）",
+    "事件后：我方战舰被击破；甲儿、铁也或主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "大魔神（铁也）"
+   ],
+   "events": [],
+   "secrets": [
+    "甲儿或铁也击破加拉达布拉。（两套点数共用此事件；IF 路线判定见第48话与主页，秘密剧本2 判定在本话后至第28话。）",
+    "完整流程表注记：若本话未达成，下一个机会是第28话把魔神ZERO 的 HP 在其登场 3 回合内削至 30,000 以下。"
+   ],
+   "unlocks": [
+    "第25话（按所选主人公进入对应版本）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 偉大な勇者 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x24/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在幽灵火焰V9登场前歼灭全部初期敌人，并在其首次登场时击破它（100 TacP）"
+  },
+  {
+   "code": "第25话·伊欧利线",
+   "slug": "stage-25-iori",
+   "zh": "魔从教团",
+   "ja": "魔従教団",
+   "en": "The Keepers of Order",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第24话通关后（伊欧利线版本）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "伊欧利被击破（事件后变为：梅加法乌纳被击破；伊欧利被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，伊欧利在一回合内击破 3 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "塞巴斯塔性能与武装强化",
+    "塞巴斯塔追加武装「宇宙新星」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话·伊欧利线《希望之翼》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 魔従教団 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x25a/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话·安玛莉线",
+   "slug": "stage-25-amari",
+   "zh": "奉恩殆之名",
+   "ja": "エンデの名の下に",
+   "en": "In the Name of Ende",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第24话通关后（安玛莉线版本）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "安玛莉被击破（事件后变为：天鹅号被击破；安玛莉被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，安玛莉在一回合内击破 3 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "塞巴斯塔性能与武装强化",
+    "塞巴斯塔追加武装「宇宙新星」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第26话·安玛莉线《名为自由之翼》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — エンデの名の下に 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x25b/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话·伊欧利线",
+   "slug": "stage-26-iori",
+   "zh": "希望之翼",
+   "ja": "希望の翼",
+   "en": "Wings of Hope",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第25话·伊欧利线通关后。",
+   "victory": [
+    "击破沃斯·狄恩贝尔"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破 4 台狄恩贝尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「比翼天翔」"
+   ],
+   "events": [
+    "捷尔嘉德在本话展开翼部强化（据日文维基，约第26话事件）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第27话《命运的对手》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 希望の翼 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x26a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以捷尔嘉德的「比翼天翔」击破赛立克（100 TacP）"
+  },
+  {
+   "code": "第26话·安玛莉线",
+   "slug": "stage-26-amari",
+   "zh": "名为自由之翼",
+   "ja": "自由という翼",
+   "en": "The Wings Called Freedom",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第25话·安玛莉线通关后。",
+   "victory": [
+    "击破狄恩贝尔（安玛莉）（达成后变为击破沃斯·狄恩贝尔）"
+   ],
+   "defeat": [
+    "我方战舰被击破（达成胜利条件 1 后变为：我方战舰被击破；安玛莉被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内先歼灭全部狄恩贝尔、再击破安玛莉"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「比翼天翔」"
+   ],
+   "events": [
+    "捷尔嘉德在本话展开翼部强化（据日文维基，约第26话事件）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第27话《命运的对手》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 自由という翼 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x26b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以捷尔嘉德的「比翼天翔」击破赛立克（100 TacP）"
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "命运的对手",
+   "ja": "宿命のライバル",
+   "en": "Fated Rivalry",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第26话通关后。",
+   "victory": [
+    "击破飞龙（达成后变为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "舞人被击破（胜利条件变化后变为我方战舰被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在我方第 6 回合阶段前通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "强力凯因（舞人、强力凯因）",
+    "强力凯撒（舞人）"
+   ],
+   "events": [
+    "改造继承注意：强力凯因 → 强力凯撒不继承改造（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "贝尔利击破马斯克。",
+    "贝尔利或拉拉伊亚击破玛尼。",
+    "拉拉伊亚与林格在本话结束前都与洛克皮交战，且由其中一人击破他（援护攻击的击破不计）。达成后洛克皮于第43话B后加入（走多阿克达线时于合流时加入）。若本话未达成，第43话B还有一次机会。"
+   ],
+   "unlocks": [
+    "第28话《黑暗与光》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 宿命のライバル 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x27/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "舞人在第 3 回合前击破乔（100 TacP）"
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "黑暗与光",
+   "ja": "闇と光",
+   "en": "Darkness and Light",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第27话通关后。本话通关后判定秘密剧本2。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破暗黑大将军）"
+   ],
+   "defeat": [
+    "我方战舰被击破、甲儿或铁也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在一回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "魔神凯撒（甲儿）",
+    "魔神皇帝G（铁也）"
+   ],
+   "events": [
+    "换乘与改造继承：魔神Z → 魔神凯撒、大魔神 → 魔神皇帝G（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "本话后判定：满足以下任一组合即可在本话后插入秘密剧本2、提前取得合体攻击「魔神双皇击」——（甲）将魔神ZERO 的 HP 在其登场 3 回合内削至 30,000 以下；（乙）第24话甲儿/铁也击破加拉达布拉，且甲儿或铁也击破暗黑大将军、结算时甲儿与铁也合计击破数 ≥80。（日方 srw.wiki 隐藏页以点数表表述：第24话 +1、ZERO 的 HP 条件 +2、暗黑大将军+合计 80 击破 +1，≥2 点；与完整流程表的「任一组合」表述等价与否未有第三方定版，两说并记。）",
+    "同时满足三项：将魔神ZERO 的 HP 在其登场 3 回合内削至 30,000 以下；甲儿或铁也击破暗黑大将军；结算时甲儿与铁也合计击破数 ≥80。（IF 点数须三项全达成才计分，与秘密剧本2 的判定口径不同。）"
+   ],
+   "unlocks": [
+    "秘密剧本2《最凶VS最强》（满足条件时）",
+    "第29话《玫瑰狂战士》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 闇と光 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x28/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "第 4 回合前将魔神ZERO 的 HP 削减至 30,000 以下（200 TacP）"
+  },
+  {
+   "code": "秘密剧本2",
+   "slug": "secret-2",
+   "zh": "最凶VS最强",
+   "ja": "最凶VS最強",
+   "en": "The Worst Vs. the Best",
+   "route": "秘密剧本",
+   "area": "",
+   "type": "秘密剧本",
+   "prerequisite": "第28话通关时满足条件（见第28话页）后插入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破（增援到达后变为：我方战舰被击破、甲儿或铁也被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "魔神凯撒与魔神皇帝G 取得合体攻击「魔神双皇击」"
+   ],
+   "events": [
+    "未打本关时，「魔神双皇击」改于第48话取得。"
+   ],
+   "secrets": [
+    "本关无 SR 点数（秘密剧本通例）。"
+   ],
+   "unlocks": [
+    "第29话《玫瑰狂战士》（回到主线）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 最凶VS最強 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x02k/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "解锁本关（300 TacP）"
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "玫瑰狂战士",
+   "ja": "薔薇のバーサーカー",
+   "en": "Rose Berserker",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第28话（及秘密剧本2）通关后。本话后进入路线分歧 #3（第30–34话）。",
+   "victory": [
+    "前半：击破扎古III改；后半：击破扎古III改（达成后变为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "前半：任一我方单位被击破。后半：我方战舰被击破；渡、捷多或露被击破（达成条件 1 后变为卡缪、玛修玛或花被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，以一次 MAP 武器攻击击破 4 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "Z高达（卡缪）",
+    "梅塔斯（花）",
+    "Z高达追加武装「高能粒子炮冲锋」",
+    "ZZ高达追加武装「高能光束炮·全功率」",
+    "扎古III改（玛修玛）（满足条件时正式加入）"
+   ],
+   "events": [],
+   "secrets": [
+    "完整流程表记为三步：前半 3 回合内由捷多击破玛修玛；后半捷多说得玛修玛后再由捷多击破；以我方增援身份的玛修玛击破至少 2 台敌机。⚠️ 日方 srw.wiki 隐藏页（最新版）则记为「满足任意一项即可」，与完整流程表的连续步骤表述冲突，两说并记、未裁决。未达成时，玛修玛会在 IF 路线第49话作为增援兜底加入。",
+    "本话通关后于幕间访问工厂（Vault）可得部件 1 件（仅 Akurasu Secrets 页记载）。"
+   ],
+   "unlocks": [
+    "第30话·多阿克达线《正义与友情与》",
+    "第30话·米斯尔奇线《心中的风暴》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 薔薇のバーサーカー 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x29/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "使玛修玛加入（100 TacP）"
+  },
+  {
+   "code": "第30话·多阿克达线",
+   "slug": "stage-30-a",
+   "zh": "正义与友情与",
+   "ja": "正義と友情と",
+   "en": "Justice and Friendship",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第29话后选择讨伐多阿克达部队时进入；第35话合流。",
+   "victory": [
+    "歼灭全部敌人（增援到达后变为击破乔、虎王或堂五郎）",
+    "事件后变为击破乔"
+   ],
+   "defeat": [
+    "任一我方单位被击破（增援到达后变为：N-鹦鹉螺号、渡或舞人被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭全部敌人，且最后击破刚龙"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "强力凯撒（舞人）",
+    "伟大强力凯因（舞人、伟大强力凯因）",
+    "战神丸（柴钣古）",
+    "战王丸（柴钣古）",
+    "幻神丸（源流裁、火美子）",
+    "幻王丸（源流裁、火美子）",
+    "空神丸（仓马）"
+   ],
+   "events": [
+    "改造继承注意：强力凯撒 → 伟大强力凯因的改造不继承（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第31话·多阿克达线《尼莫的秘密》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 正義と友情と 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x30a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "由渡击破虎王（100 TacP）"
+  },
+  {
+   "code": "第30话·米斯尔奇线",
+   "slug": "stage-30-b",
+   "zh": "心中的风暴",
+   "ja": "胸の中の嵐",
+   "en": "The Storm Within",
+   "route": "米斯尔奇线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第29话后选择对米斯尔奇路线时进入；第35话合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破、希罗或迪奥被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "卢克锡翁（青叶）"
+   ],
+   "events": [],
+   "secrets": [
+    "希罗与比佐交战。",
+    "杰克斯与比佐交战。"
+   ],
+   "unlocks": [
+    "第31话·米斯尔奇线《两人的羁绊》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 胸の中の嵐 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x30b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以希罗与杰克斯攻击比佐（100 TacP）"
+  },
+  {
+   "code": "第31话·多阿克达线",
+   "slug": "stage-31-a",
+   "zh": "尼莫的秘密",
+   "ja": "ネモの秘密",
+   "en": "Nemo's Secret",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第30话·多阿克达线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "格拉坦性能与武装强化",
+    "N-鹦鹉螺号性能与武装强化",
+    "N-鹦鹉螺号获得能力「电磁屏障」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第32话·多阿克达线《来自过去的亡灵》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ネモの秘密 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x31a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "尼莫击破飞行舰（100 TacP）"
+  },
+  {
+   "code": "第31话·米斯尔奇线",
+   "slug": "stage-31-b",
+   "zh": "两人的羁绊",
+   "ja": "ふたりの絆",
+   "en": "Their Bonds",
+   "route": "米斯尔奇线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第30话·米斯尔奇线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破、迪奥或青叶被击破、第 7 回合开始"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，以一次 MAP 武器攻击击破至少 4 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "布拉迪翁（迪奥）",
+    "卢克锡翁 NEXT（青叶）",
+    "布拉迪翁 NEXT（迪奥）"
+   ],
+   "events": [
+    "改造继承注意：卢克锡翁／布拉迪翁 → NEXT 的改造不继承（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第32话·米斯尔奇线《来自金星的灾祸》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ふたりの絆 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x31b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以合体攻击「Unisolize Combat」击破敌机（100 TacP）"
+  },
+  {
+   "code": "第32话·多阿克达线",
+   "slug": "stage-32-a",
+   "zh": "来自过去的亡灵",
+   "ja": "過去からの亡霊",
+   "en": "Ghost from the Past",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第31话·多阿克达线通关后。",
+   "victory": [
+    "击破飞行舰（卡戈伊尔）、希斯特里卡、克娄巴特拉、狄奥多拉、拉齐亚、维多利亚与艾琳娜"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "全部 Para-Mail 性能与武装强化",
+    "阿尔克布斯·萨莉亚专用型（萨莉亚）",
+    "豪泽尔·艾尔莎专用型（艾尔莎）",
+    "豪泽尔·克莉丝专用型（克莉丝）",
+    "格雷夫·希尔达专用型（希尔达）",
+    "阿尔克布斯·希尔达专用型（希尔达）"
+   ],
+   "events": [
+    "改造继承注意：格雷夫·希尔达 → 阿尔克布斯·希尔达的改造不继承，其后 → 狄奥多拉亦不继承；阿尔克布斯·萨莉亚 → 克娄巴特拉不继承（据 Akurasu 改造继承页，时点第36话）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话·多阿克达线《洁白之翼》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 過去からの亡霊 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x32a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "第32话·米斯尔奇线",
+   "slug": "stage-32-b",
+   "zh": "来自金星的灾祸",
+   "ja": "金星から来た災い",
+   "en": "The Menace from Venus",
+   "route": "米斯尔奇线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第31话·米斯尔奇线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "克利姆或米克被击破、我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，任一我方驾驶员在我方回合内击破 4 台敌机（MAP 武器不计）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "达哈克（克利姆）",
+    "特里尼蒂（米克）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第33话·米斯尔奇线《夏亚的迷惘》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 金星から来た災い 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x32b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "由卡缪击破亚赞、由捷多击破拉坎（100 TacP）"
+  },
+  {
+   "code": "第33话·多阿克达线",
+   "slug": "stage-33-a",
+   "zh": "洁白之翼",
+   "ja": "白き翼",
+   "en": "White Wings",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第32话·多阿克达线通关后。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破；舞人被击破（事件后变为舞人、秀或朱雀被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "以一次攻击造成至少 10,000 伤害（HARD 难度为 13,000；援护攻击不计）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "萨拜因（秀、西尔琪）",
+    "伟大强力凯因追加武装「强力凯因自走炮」「完美加农炮」「完美加农炮（MAP）」",
+    "伟大强力凯因追加合体攻击「合体龙火」",
+    "比尔拜因性能强化"
+   ],
+   "events": [
+    "换乘与改造继承：比尔拜因 → 萨拜因（据 Akurasu 改造继承页，本线为第33话A；米斯尔奇线为第34话B）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话·多阿克达线《超越托德》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 白き翼 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x33a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "柴钣古与源流裁攻击将领三船（100 TacP）"
+  },
+  {
+   "code": "第33话·米斯尔奇线",
+   "slug": "stage-33-b",
+   "zh": "夏亚的迷惘",
+   "ja": "シャアの迷い",
+   "en": "Char's Hesitation",
+   "route": "米斯尔奇线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第32话·米斯尔奇线通关后。",
+   "victory": [
+    "歼灭全部敌人（第 2 回合起先击破沙扎比，其后在古雷米登场后存活 3 回合以上）"
+   ],
+   "defeat": [
+    "我方战舰被击破、卡缪、捷多或希布克被击破（古雷米登场后变为：我方战舰被击破、夏亚被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 α·阿吉尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "高达F91获得能力「解除限制器」与武装「限制器全开」",
+    "沙扎比（夏亚）"
+   ],
+   "events": [
+    "换乘与改造继承：ν高达 → Hi-ν高达在本话后的第35话；沙扎比 → 夜莺为秘密剧本3（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "捷多说得普露茨。",
+    "普露说得普露茨。",
+    "捷多或普露击破普露茨。",
+    "基亚被击破 +1；被夏亚、贝尔利或克利姆击破 +2。",
+    "击破 α·阿吉尔。"
+   ],
+   "unlocks": [
+    "第34话·米斯尔奇线《完全的世界》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — シャアの迷い 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x33b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "普露说得普露茨（100 TacP）"
+  },
+  {
+   "code": "第34话·多阿克达线",
+   "slug": "stage-34-a",
+   "zh": "超越托德",
+   "ja": "ビヨン・ザ・トッド",
+   "en": "Beyond the Todd",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第33话·多阿克达线通关后。本话后两线合流（特别剧本《魔装机神》通常流程亦在此后开放）。",
+   "victory": [
+    "击破比亚雷斯（达成后变为击破地狱拉伊加 2 型）"
+   ],
+   "defeat": [
+    "秀被击破（胜利条件变化后变为：N-鹦鹉螺号被击破；秀或托德被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在一回合内击破 15 台以上敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "比尔拜因（夜间迷彩）追加武装「灵光射击」",
+    "比亚雷斯（托德）（满足条件时正式加入）"
+   ],
+   "events": [],
+   "secrets": [
+    "托德点数 ≥5 时，托德与比亚雷斯在本话以增援身份正式加入。本话内另有：第 3 回合前秀击破托德。未达标者：走米斯尔奇线时于合流时加入（据日方隐藏页）。"
+   ],
+   "unlocks": [
+    "第35话《向着更高的地方》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — ビヨン・ザ・トッド 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x34a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "使托德加入（200 TacP）"
+  },
+  {
+   "code": "第34话·米斯尔奇线",
+   "slug": "stage-34-b",
+   "zh": "完全的世界",
+   "ja": "完全な世界",
+   "en": "A Perfect World",
+   "route": "米斯尔奇线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第33话·米斯尔奇线通关后。本话后两线合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破；艾达被击破（事件后变为贝尔利或艾达被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在一回合内击破 15 台以上敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "海盗高达X1改·改（托比亚）",
+    "海盗高达X1全覆式（托比亚）",
+    "G-阿尔凯恩（全装型）性能与武装强化，追加武装「激光束加农炮」",
+    "G-塞尔夫追加可选装备「完美包」",
+    "贝尔利习得技能「新人类」",
+    "比亚雷斯（托德）",
+    "比尔拜因（夜间迷彩）追加武装「灵光射击」"
+   ],
+   "events": [
+    "换乘与改造继承：海盗高达X1改·改 → 全覆式不继承改造（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "托德点数 ≥5 时托德于合流时加入（本线判定，完整流程表注记）。",
+    "贝尔利与玛尼交战。",
+    "拉拉伊亚与玛尼交战。"
+   ],
+   "unlocks": [
+    "第35话《向着更高的地方》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 完全な世界 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x34b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "艾达击破 3 台敌机（100 TacP）"
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "向着更高的地方",
+   "ja": "さらなる高みへ",
+   "en": "To Greater Heights",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第34话通关后（两线合流）。本话通关后判定秘密剧本3。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破、阿姆罗被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内由同一名驾驶员在同一回合击破以下任意两名：盖昂、盖特拉什、汉布拉比、杜宾狼、马克刀（马斯克）、尤古多拉希尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "Hi-ν高达（阿姆罗）",
+    "ZZ高达追加可选装备「全装甲部件」"
+   ],
+   "events": [
+    "换乘与改造继承：ν高达 → Hi-ν高达（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "本话中阿姆罗与夏亚合计击破 ≥5，且夏亚（乘沙扎比）击破以下具名驾驶员至少一人：基亚、亚赞、马斯克、洛克皮、拉坎、芭拉拉。满足后本话后插入秘密剧本3，取得夜莺。",
+    "夏亚击破基亚。"
+   ],
+   "unlocks": [
+    "秘密剧本3《红色彗星的矜持》（满足条件时）",
+    "第36话《决战，米斯尔奇皇国》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — さらなる高みへ 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x35/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "夏亚击破任一 Boss（100 TacP）"
+  },
+  {
+   "code": "秘密剧本3",
+   "slug": "secret-3",
+   "zh": "红色彗星的矜持",
+   "ja": "赤い彗星の矜持",
+   "en": "The Red Comet's Dignity",
+   "route": "秘密剧本",
+   "area": "",
+   "type": "秘密剧本",
+   "prerequisite": "第35话通关时满足条件（见第35话页）后插入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "我方战舰被击破、夏亚或捷多被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "夜莺（继承沙扎比的改造，沙扎比保留；UC 系与 G 世纪系驾驶员可搭乘——据日方隐藏页）"
+   ],
+   "events": [],
+   "secrets": [
+    "本关无 SR 点数（秘密剧本通例）。"
+   ],
+   "unlocks": [
+    "第36话《决战，米斯尔奇皇国》（回到主线）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 赤い彗星の矜持 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x03k/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "解锁本关（300 TacP）"
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "决战，米斯尔奇皇国",
+   "ja": "決戦、ミスルギ皇国",
+   "en": "The Battle Against Misurugi",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第35话（及秘密剧本3）通关后。",
+   "victory": [
+    "击破拉齐亚（达成后变为击破蛇魔丸）",
+    "击破蛇魔丸后变为击破克娄巴特拉",
+    "击破克娄巴特拉后变为击破希斯特里卡"
+   ],
+   "defeat": [
+    "我方战舰被击破；安琪或渡被击破；战斗超过 8 回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在我方第 2 回合阶段前击破拉齐亚"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "维尔基斯追加武装「收束加农炮『星岚』」，照准值 +5",
+    "刚龙（乔）",
+    "拉齐亚（吉尔）",
+    "克娄巴特拉（萨莉亚）",
+    "维尔基斯追加武装「次元震荡波」与「次元震荡波（MAP）」",
+    "阿尔克布斯·希尔达专用型（希尔达）",
+    "狄奥多拉（希尔达）",
+    "豪泽尔·艾尔莎专用型（艾尔莎）",
+    "豪泽尔·克莉丝专用型（克莉丝）"
+   ],
+   "events": [
+    "换乘与改造继承：阿尔克布斯·萨莉亚 → 克娄巴特拉、格雷夫·希尔达 → 狄奥多拉均不继承改造（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第37话《向着无人知晓的明天》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 決戦、ミスルギ皇国 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x36/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "向着无人知晓的明天",
+   "ja": "誰も知らない明日へ",
+   "en": "To a Tomorrow No One Knows",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第36话通关后。",
+   "victory": [
+    "击破涅尔加尔",
+    "击破卡鲁拉"
+   ],
+   "defeat": [
+    "我方战舰被击破；青叶、迪奥或希罗被击破（达成任一胜利条件后变为青叶、迪奥、希娜或希罗被击破）；战斗超过 7 回合"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "卡鲁拉（希娜）",
+    "卢克锡翁 NEXT 与卡鲁拉取得合体攻击「Unisolize Combat（LK）」"
+   ],
+   "events": [],
+   "secrets": [
+    "本话得分点较多：击破阿尔弗里德 +1；希罗与比佐交战 +1；青叶在剧情事件前击破比佐 +1、事件后 +2；青叶以最后一台敌机身份击破比佐 +1；希娜以最后一台敌机身份击破比佐 +2。（日方 srw.wiki 隐藏页的条目拆分与完整流程表略有不同：其另记「再登场的比佐」一组得分，总分口径以各页注记为准。）",
+    "比佐点数 ≥5 的回报在第44话B（涅尔加尔与阿尔希尔加入）与第45话A（合流加入）。"
+   ],
+   "unlocks": [
+    "第38话（按所选主人公进入对应版本）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 誰も知らない明日へ 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x37/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "击破赛立克（100 TacP）"
+  },
+  {
+   "code": "第38话·伊欧利线",
+   "slug": "stage-38-iori",
+   "zh": "陌生的故乡",
+   "ja": "見知らぬ故郷",
+   "en": "An Unfamiliar Hometown",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第37话通关后（伊欧利线版本）。",
+   "victory": [
+    "击破狄恩贝尔（安玛莉）"
+   ],
+   "defeat": [
+    "伊欧利被击破（事件后变为：我方战舰被击破；伊欧利被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，让任一驾驶员身上同时生效 7 种精神指令"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第39话·伊欧利线《多格玛的意义》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 見知らぬ故郷 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x38a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以「比翼天翔」击破安玛莉（100 TacP）"
+  },
+  {
+   "code": "第38话·安玛莉线",
+   "slug": "stage-38-amari",
+   "zh": "我珍贵的地方",
+   "ja": "私の大切な場所",
+   "en": "My Important Place",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第37话通关后（安玛莉线版本）。",
+   "victory": [
+    "击破狄恩贝尔（伊欧利）"
+   ],
+   "defeat": [
+    "安玛莉被击破（事件后变为：我方战舰被击破；安玛莉被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在本话结束前，让任一驾驶员身上同时生效 7 种精神指令"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第39话·安玛莉线《应归的世界》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 私の大切な場所 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x38b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以「比翼天翔」击破伊欧利（100 TacP）"
+  },
+  {
+   "code": "第39话·伊欧利线",
+   "slug": "stage-39-iori",
+   "zh": "多格玛的意义",
+   "ja": "ドグマの意味",
+   "en": "The Meaning of Dogma",
+   "route": "伊欧利线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第38话·伊欧利线通关后。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破捷尔嘉德镜像）",
+    "达成后变为击破沃斯·狄恩贝尔"
+   ],
+   "defeat": [
+    "我方战舰被击破；伊欧利被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破捷尔嘉德镜像"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「天地真命」，安玛莉成为副驾驶员",
+    "霍普斯的精神指令列表变化"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第40话《乐园的终结》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ドグマの意味 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x39a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以「天地真命」击破赛立克（100 TacP）"
+  },
+  {
+   "code": "第39话·安玛莉线",
+   "slug": "stage-39-amari",
+   "zh": "应归的世界",
+   "ja": "帰るべき世界",
+   "en": "A World to Call Home",
+   "route": "安玛莉线",
+   "area": "",
+   "type": "主角分支关",
+   "prerequisite": "第38话·安玛莉线通关后。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破沃斯·狄恩贝尔）"
+   ],
+   "defeat": [
+    "我方战舰被击破（事件后变为霍普斯或伊欧利被击破；达成胜利条件 1 后变为安玛莉被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破沃斯·狄恩贝尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德（霍普斯）",
+    "狄恩贝尔（伊欧利）",
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德追加武装「天地真命」，伊欧利成为副驾驶员",
+    "霍普斯的精神指令列表变化"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第40话《乐园的终结》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 帰るべき世界 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x39b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以「天地真命」击破赛立克（100 TacP）"
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "乐园的终结",
+   "ja": "楽園の終わり",
+   "en": "Paradise's End",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第39话通关后。第41话开始前判定秘密剧本4。",
+   "victory": [
+    "将加拉达布拉的 HP 削减至 15,000 以下（达成后变为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "我方战舰被击破；西蒙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破加拉达布拉（其 HP 低于 15,000 时会逃走）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "宇宙冈马尔（基米）",
+    "宇宙冈马尔（达莉）",
+    "宇宙王奇坦（奇坦）",
+    "宇宙洋子 W 型坦克（洋子）"
+   ],
+   "events": [],
+   "secrets": [
+    "第41话开始前：王牌驾驶员 ≥10 人，且 Magic 改装等级 ≥5 时解锁秘密剧本4（三方来源一致；出现时点表述不一：日方隐藏页与流程图作「第41话通关时／之后」，ds-can 与 Akurasu Secrets 页作「第41话开始前」，并记）。"
+   ],
+   "unlocks": [
+    "秘密剧本4《舒华新力加的秘密》（满足条件时）",
+    "第41话《贯穿天际的螺旋》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 楽園の終わり 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x40/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "基米、达莉、奇坦与洋子各击破 1 台敌机（100 TacP）"
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "贯穿天际的螺旋",
+   "ja": "天を貫く螺旋",
+   "en": "The Spiral That Pierces the Heavens",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第40话通关后。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破大圣堂拉泽干）"
+   ],
+   "defeat": [
+    "我方战舰被击破；西蒙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 20 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "古伦拉刚追加武装「爆裂旋转拳」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第42话《以正义之名》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 天を貫く螺旋 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x41/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "秘密剧本4",
+   "slug": "secret-4",
+   "zh": "舒华新力加的秘密",
+   "ja": "シュワルビネガーの秘密",
+   "en": "Schwarvenegger's Secret",
+   "route": "秘密剧本",
+   "area": "",
+   "type": "秘密剧本",
+   "prerequisite": "第41话前后满足条件（王牌 ≥10 人且 Magic 改装 ≥5 级，判定见第40话页）后出现。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [
+    "本关全部敌人掉落大量资金（完整流程表注记）；据 ds-can 与中文攻略：盖佩伦（72,000 资金）×1、符文魔像（24,000）×12 等高额敌机，利用全灭重打一周可刷 100 万以上资金。"
+   ],
+   "secrets": [
+    "本关无 SR 点数（秘密剧本通例）。"
+   ],
+   "unlocks": [
+    "第42话《以正义之名》（回到主线）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — シュワルビネガーの秘密 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x04k/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "解锁本关（300 TacP）"
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "以正义之名",
+   "ja": "正義の名の下に",
+   "en": "In the Name of Justice",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第41话（及秘密剧本4）通关后。本话后进入路线分歧 #4（第43–45话）。",
+   "victory": [
+    "歼灭全部敌人（击破虎王后变为击破空中战舰布兰卡）"
+   ],
+   "defeat": [
+    "我方战舰被击破；舞人或渡被击破（击破虎王后变为舞人、渡或虎王被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内在同一回合击破沃尔夫冈、霍伊·科乌罗、维顿、三船与虎王，且最后击破虎王"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "蛇魔丸（虎王）",
+    "伟大强力凯因追加武装「双重驱动轮剑」"
+   ],
+   "events": [],
+   "secrets": [
+    "路线点数提示：本话后选多阿克达线时，古雷米点数 +1、基亚点数 +2、α·阿吉尔点数 +1（据日方 srw.wiki 隐藏页）——影响第43–45话B线各单位的加入判定，走A线者请在本话结算前留意各点数累计。"
+   ],
+   "unlocks": [
+    "第43话·多阿克达线《开始崩坏的理》",
+    "第43话·雷康吉斯塔线《各自的了断》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 正義の名の下に 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x42/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以乔与虎王攻击紫色机，并歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "第43话·多阿克达线",
+   "slug": "stage-43-a",
+   "zh": "开始崩坏的理",
+   "ja": "崩れ始める理",
+   "en": "A Crumbling World",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第42话后选择对多阿克达部队时进入；第46话合流。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破艾格泽布）"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭全部符文魔像"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "维尔基斯（安琪）"
+   ],
+   "events": [],
+   "secrets": [
+    "本线专属的部件取得在第44话A（放过伊尔玛与塔妮娅）；本话无点数事件。B线的秘密部件（托米·比琼等）见第43话B页。"
+   ],
+   "unlocks": [
+    "第44话·多阿克达线《真实的默示录》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 崩れ始める理 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x43a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "乔或西蒙攻击艾格泽布（100 TacP）"
+  },
+  {
+   "code": "第43话·雷康吉斯塔线",
+   "slug": "stage-43-b",
+   "zh": "各自的了断",
+   "ja": "それぞれの決着",
+   "en": "Each and Every Resolve",
+   "route": "雷康吉斯塔线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第42话后选择对雷康吉斯塔军部队时进入；第46话合流。",
+   "victory": [
+    "击破卡巴卡利（达成后变为击破女王曼莎）"
+   ],
+   "defeat": [
+    "我方战舰被击破；贝尔利被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内在同一回合击破尤古多拉希尔、卡巴卡利与 G-拉赫，且以「粉碎打击」击破卡巴卡利"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "丘贝雷Mk-II（红）（普露茨）",
+    "女王曼莎（古雷米）",
+    "盖特拉什（洛克皮）",
+    "尤古多拉希尔（芭拉拉）",
+    "G-拉赫（玛尼）"
+   ],
+   "events": [],
+   "secrets": [
+    "以最后一台敌机的身份击破古雷米，且古雷米点数 ≥4 时加入。若第33话B的条件未达成，可由露击破古雷米（点数 +3 的补救）。",
+    "通关本话即加入；若第27话的条件未完成，须在本话由拉拉伊亚或林格击破洛克皮。",
+    "贝尔利击破马斯克 +1；玛尼被击破 +1；芭拉拉被击破 +1。",
+    "本话亦是两点数的结算前最后得分段之一（明细见第45话B页）；另有秘密部件：让阿姆罗、夏亚、卡缪、捷多、希布克、贝尔利中任一人停在马斯克初期位置西南 1 格的十字路口，可取得托米·比琼与额外武装（日方隐藏页作「西南」，Akurasu Secrets 页作「正南」，并记）。"
+   ],
+   "unlocks": [
+    "第44话·雷康吉斯塔线《在回归那片天空的未来》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — それぞれの決着 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x43b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "使古雷米加入（100 TacP）"
+  },
+  {
+   "code": "第44话·多阿克达线",
+   "slug": "stage-44-a",
+   "zh": "真实的默示录",
+   "ja": "真実の黙示録",
+   "en": "Revelation of Truth",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第43话·多阿克达线通关后。",
+   "victory": [
+    "击破希斯特里卡（达成后变为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号被击破（达成胜利条件 1 后变为安琪被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内、在击破恩布利欧之前歼灭全部加利恩级龙型与派雷索伊德"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "维尔基斯（安琪）",
+    "维尔基斯追加武装「真·能力解放」",
+    "维尔基斯的「次元震荡波（MAP）」威力 +200",
+    "安琪解锁第 6 个精神指令"
+   ],
+   "events": [],
+   "secrets": [
+    "本话中不要击破伊尔玛与塔妮娅，各可得部件 1 件（仅 Akurasu Secrets 页记载）。",
+    "本线合流后：第45话A的各点数单位（基亚、马斯克组、比佐、α·阿吉尔）按较低门槛加入（见第45话A页）。"
+   ],
+   "unlocks": [
+    "第45话·多阿克达线《王者的资格》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 真実の黙示録 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x44a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "格拉坦击破 1 台量产型希斯特里卡（100 TacP）"
+  },
+  {
+   "code": "第44话·雷康吉斯塔线",
+   "slug": "stage-44-b",
+   "zh": "在回归那片天空的未来",
+   "ja": "あの空に還る未来で",
+   "en": "Into the Skies of Tomorrow",
+   "route": "雷康吉斯塔线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第43话·雷康吉斯塔线通关后。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破卡尔基诺斯）"
+   ],
+   "defeat": [
+    "我方战舰被击破；青叶、迪奥或希娜被击破（事件后追加：卡尔基诺斯登场后第 3 回合开始）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破至少 22 台敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "阿尔希尔（阿尔弗里德）（满足比佐条件时）",
+    "卢克锡翁 NEXT、布拉迪翁 NEXT 与卡鲁拉取得合体攻击「Unisolize Combat」",
+    "涅尔加尔（比佐）"
+   ],
+   "events": [],
+   "secrets": [
+    "比佐点数 ≥5 时在本话加入（完整流程表与日方隐藏页一致）。未达标者于第45话A合流时加入。"
+   ],
+   "unlocks": [
+    "第45话·雷康吉斯塔线《在闪光的风中》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — あの空に還る未来で 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x44b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "使比佐加入（100 TacP）"
+  },
+  {
+   "code": "第45话·多阿克达线",
+   "slug": "stage-45-a",
+   "zh": "王者的资格",
+   "ja": "王者の資格",
+   "en": "Right to Rule",
+   "route": "多阿克达线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第44话·多阿克达线通关后。本话后两线合流。",
+   "victory": [
+    "击破塞坎德冈、斯凯尔巴特、吉冈、海克力斯王、康博斯与地狱拉伊加 2 型（达成后变为击破暗黑大将军）"
+   ],
+   "defeat": [
+    "N-鹦鹉螺号或渡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内以带 ExC「粉碎打击」的状态击破全部 Boss"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "女王曼莎（古雷米）",
+    "盖特拉什（洛克皮）",
+    "盖昂（基亚）",
+    "卡巴卡利（马斯克）",
+    "G-拉赫（玛尼）",
+    "尤古多拉希尔（芭拉拉）",
+    "涅尔加尔（比佐）",
+    "α·阿吉尔"
+   ],
+   "events": [],
+   "secrets": [
+    "本话为 B 线各点数单位的合流加入点（完整流程表注记）：基亚（盖昂）须基亚点数 ≥1；马斯克、玛尼、芭拉拉须马斯克点数 ≥6；比佐（涅尔加尔）须比佐点数 ≥5；α·阿吉尔须 α·阿吉尔点数 ≥1。（Akurasu Secrets 页的门槛口径：走本线时基亚须 1 点、α·阿吉尔须 1 点；日方隐藏页的统一门槛为基亚 ≥3、α·阿吉尔 ≥2——因本线另有路线加分，两说在本线的结果大体一致，未达标者仍有 IF 路线第49话的兜底加入，仅限部分单位。）"
+   ],
+   "unlocks": [
+    "第46话《新的皇帝》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 王者の資格 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x45a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "分别以西蒙攻击塞坎德冈、鲁路修攻击斯凯尔巴特、甲儿攻击海克力斯王、安琪攻击吉冈、源流裁攻击康博斯、托德攻击地狱拉伊加 2 型（100 TacP）"
+  },
+  {
+   "code": "第45话·雷康吉斯塔线",
+   "slug": "stage-45-b",
+   "zh": "在闪光的风中",
+   "ja": "光る風の中",
+   "en": "In the Shining Wind",
+   "route": "雷康吉斯塔线",
+   "area": "",
+   "type": "路线分支关",
+   "prerequisite": "第44话·雷康吉斯塔线通关后。本话后两线合流。",
+   "victory": [
+    "击破盖昂、α·阿吉尔、汉布拉比、杜宾狼（拉坎）（第 2 回合追加击破卡巴卡利）",
+    "达成后变为击破拉弗雷西亚"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内以带 ExC「粉碎打击」的状态击破全部 Boss"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "α·阿吉尔",
+    "盖昂（基亚）",
+    "卡巴卡利（马斯克）"
+   ],
+   "events": [],
+   "secrets": [
+    "普露茨、阿姆罗或贝尔利击破 α·阿吉尔 +1；且在基亚仍在场时击破 α·阿吉尔再 +1（日方隐藏页则记为「在击破基亚之前先击破 α·阿吉尔」会使基亚点数 −1 的惩罚，两源表述不同，并记）。本话结束时 α·阿吉尔点数 ≥2 时 α·阿吉尔加入。",
+    "基亚被夏亚、贝尔利或克利姆击破 +1；本话结束时基亚点数 ≥3 时盖昂（基亚）加入（Akurasu Secrets 页口径为本线须 3 点）。",
+    "卡巴卡利（马斯克）在本话加入的前提为马斯克点数 ≥6（结算见第43话B与本话）。"
+   ],
+   "unlocks": [
+    "第46话《新的皇帝》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 光る風の中 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x45b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "使 α·阿吉尔加入（100 TacP）"
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "新的皇帝",
+   "ja": "新たなる皇帝",
+   "en": "A New Emperor",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第45话通关后（两线合流）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第47话《继承群星之人》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 新たなる皇帝 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x46/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "以鲁路修、朱雀、卡莲、C.C.、阿妮亚与杰雷米亚攻击玛丽安娜，并由鲁路修击破她（100 TacP）"
+  },
+  {
+   "code": "第47话",
+   "slug": "stage-47",
+   "zh": "继承群星之人",
+   "ja": "星を継ぐ者",
+   "en": "Successors to the Stars",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第46话通关后。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破红色诺亚）"
+   ],
+   "defeat": [
+    "我方战舰被击破；格拉坦被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在击破红色诺亚之前、5 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "N-鹦鹉螺号追加武装「电磁屏障充能」",
+    "格拉坦性能与武装强化",
+    "格拉坦获得能力「干扰」"
+   ],
+   "events": [],
+   "secrets": [
+    "让格拉坦停在埃菲尔铁塔的相邻格取得（日方隐藏页与 Akurasu Secrets 页一致为格拉坦；日方隐藏页正文有一处作「格兰迪斯」，疑为格拉坦之误记，并记）。——这是以地标为参照的相对位置，非逐格坐标。"
+   ],
+   "unlocks": [
+    "第48话《黑暗之王，光之勇者》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 星を継ぐ者 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x47/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "格拉坦击破 1 台敌机（100 TacP）"
+  },
+  {
+   "code": "第48话",
+   "slug": "stage-48",
+   "zh": "黑暗之王，光之勇者",
+   "ja": "暗黒の王、光の勇者",
+   "en": "Lord of Darkness, Hero of Light",
+   "route": "共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第47话通关后。本话通关后进入结局分歧（通常／IF 路线）。",
+   "victory": [
+    "击破堂五郎",
+    "在同一回合击破暗黑龙与黑暗大帝"
+   ],
+   "defeat": [
+    "我方战舰被击破、渡、虎王、甲儿或铁也被击破；在暗黑龙或黑暗大帝任一被击破后的下一个我方回合开始时未达成同回合击破则失败"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破盖塔达伊达尔、加拉达布拉与堂五郎，且最后击破堂五郎；虎王须至少与堂五郎交战一次"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "龙王丸追加武装「龙王之剑」",
+    "龙王丸性能强化，能力「破灵攻击」升级为「万能无效化」",
+    "魔神凯撒与魔神皇帝G 的全部武器威力 +200",
+    "魔神凯撒追加武装「凯撒新星」",
+    "魔神皇帝G 追加武装「光环推进器G」",
+    "魔神凯撒与魔神皇帝G 取得合体攻击「魔神双皇击」（未玩秘密剧本2 时）"
+   ],
+   "events": [],
+   "secrets": [
+    "以合体攻击「魔神双皇击」击破黑暗大帝。",
+    "本话结束时王牌驾驶员 ≥25 人。",
+    "IF 路线点数总计 ≥5 时，第49话开始前出现路线选择（见第49话两页与主页）；二周目起无条件出现。无此点数时只能选通常路线。"
+   ],
+   "unlocks": [
+    "第49话·通常线《艾尔·瓦司的真相》（选择通常路线时）",
+    "第49话·IF线《无尽的敌群》（满足 IF 条件并选择时）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 暗黒の王、光の勇者 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x48/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "虎王攻击多阿克达（100 TacP）"
+  },
+  {
+   "code": "第49话·通常线",
+   "slug": "stage-49-a",
+   "zh": "艾尔·瓦司的真相",
+   "ja": "アル・ワースの真実",
+   "en": "The Truth Behind Al-Warth",
+   "route": "通常线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第48话通关后，在开场选择「大师们的话，一定能赢」进入通常路线。",
+   "victory": [
+    "???（事件后变为击破沃斯·狄恩贝尔）"
+   ],
+   "defeat": [
+    "我方战舰被击破；西蒙或主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内通关，且击破 50 台以上敌机"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "超银河大红莲（达亚卡、利隆、罗杰侬）",
+    "古伦拉刚与超银河大红莲获得能力「合体」",
+    "超银河红莲螺岩（西蒙、比拉尔、达亚卡、利隆、罗杰侬）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第50话·通常线《在黑暗之中》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — アル・ワースの真実 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x49a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "第49话·IF线",
+   "slug": "stage-49-b",
+   "zh": "无尽的敌群",
+   "ja": "果てしなき群れ",
+   "en": "Overwhelming Odds",
+   "route": "IF线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第48话通关后，IF 路线点数 ≥5（一周目）或二周目起无条件，在开场选择「今后，会有难以想象的敌人来袭」进入 IF（困难）路线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破、西蒙或主人公被击破、第 8 回合开始"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "超银河大红莲（达亚卡、利隆、罗杰侬）",
+    "古伦拉刚与超银河大红莲获得能力「合体」",
+    "超银河红莲螺岩（西蒙、比拉尔、达亚卡、利隆、罗杰侬）",
+    "扎古III改（玛修玛）",
+    "卡巴卡利（马斯克）",
+    "G-拉赫（玛尼）",
+    "尤古多拉希尔（芭拉拉）"
+   ],
+   "events": [
+    "IF 路线兜底：未满足加入条件的玛修玛、马斯克＆卡巴卡利、吉拉哈＆玛尼、尤古多拉希尔＆芭拉拉在本话作为增援加入（据日方 srw.wiki 隐藏页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第50话·IF线《起死回生》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 果てしなき群れ 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x49b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "西蒙击破 2 台敌机（100 TacP）"
+  },
+  {
+   "code": "第50话·通常线",
+   "slug": "stage-50-a",
+   "zh": "在黑暗之中",
+   "ja": "闇の中で",
+   "en": "Within Darkness",
+   "route": "通常线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第49话·通常线通关后。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破帝国（艾格泽布）",
+    "击破黑色诺瓦尔",
+    "击破黑色诺瓦尔与魔神ZERO"
+   ],
+   "defeat": [
+    "我方战舰被击破（事件后追加：西蒙被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内通关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "宇宙王奇坦（奇坦）（技能 TacP 与改造资金全额返还）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第51话·通常线《天上之光皆为未来》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 闇の中で 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x50a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在本话结束前使奇坦成为王牌驾驶员（500 TacP）"
+  },
+  {
+   "code": "第50话·IF线",
+   "slug": "stage-50-b",
+   "zh": "起死回生",
+   "ja": "起死回生",
+   "en": "The Tides Have Turned",
+   "route": "IF线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第49话·IF线通关后。",
+   "victory": [
+    "击破帝国（艾格泽布）与沃斯·狄恩贝尔（达成后变为击破黑色诺瓦尔）"
+   ],
+   "defeat": [
+    "我方战舰被击破；主人公被击破（事件后变为主人公或西蒙被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "宇宙王奇坦（奇坦）（技能 TacP 与改造资金全额返还）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第51话·IF线《可能性的宇宙》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 起死回生 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x50b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "在本话结束前使奇坦成为王牌驾驶员（500 TacP）"
+  },
+  {
+   "code": "第51话·通常线",
+   "slug": "stage-51-a",
+   "zh": "天上之光皆为未来",
+   "ja": "天の光はすべて未来",
+   "en": "The Lights in the Sky Are the Future",
+   "route": "通常线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第50话·通常线通关后。",
+   "victory": [
+    "击破古兰泽博马"
+   ],
+   "defeat": [
+    "西蒙被击破（事件后追加：我方战舰被击破）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内将古兰泽博马的 HP 削减至 99,999 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "超银河红莲螺岩获得能力「天元突破」",
+    "天元突破红莲螺岩（西蒙、比拉尔、达亚卡、利隆、罗杰侬／妮亚）",
+    "天元突破红莲螺岩追加武装「S.T.T. 大红莲攻击」「S.T.T. 小队大红莲」「S.T.T. 基加钻头突破」"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "最终话·通常路线《仅限于此的世界》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 天の光はすべて未来 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x51a/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "歼灭全部敌人（100 TacP）"
+  },
+  {
+   "code": "第51话·IF线",
+   "slug": "stage-51-b",
+   "zh": "可能性的宇宙",
+   "ja": "可能性の宇宙",
+   "en": "Universe's Infinite Possibilities",
+   "route": "IF线",
+   "area": "",
+   "type": "结局分支关",
+   "prerequisite": "第50话·IF线通关后。",
+   "victory": [
+    "击破古兰泽博马（事件后变为击破古兰泽博马与魔神ZERO）"
+   ],
+   "defeat": [
+    "我方战舰被击破；西蒙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内将古兰泽博马的 HP 削减至 99,999 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）；取得本话 SR 点数时另有 10,000 奖励资金（据繁中版实机文本整理站 RoboInfo 与游民星空攻略）。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "超银河红莲螺岩获得能力「天元突破」",
+    "天元突破红莲螺岩（西蒙、比拉尔、达亚卡、利隆、罗杰侬／妮亚）",
+    "天元突破红莲螺岩追加武装「S.T.T. 大红莲攻击」「S.T.T. 小队大红莲」「S.T.T. 基加钻头突破」",
+    "魔神ZERO"
+   ],
+   "events": [
+    "改造继承：魔神凯撒 → 魔神ZERO（据 Akurasu 改造继承页）。"
+   ],
+   "secrets": [
+    "本话中在甲儿出击的状态下击破魔神ZERO，甲儿即换乘魔神ZERO（仅 IF 路线可取得；完整流程表、Akurasu Secrets 页与日文维基三方一致）。"
+   ],
+   "unlocks": [
+    "最终话·IF路线《永远的艾尔·瓦司》"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Secrets（隐藏要素总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets"
+    },
+    {
+     "name": "comp-bible — 可能性の宇宙 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x51b/"
+    }
+   ],
+   "note": "",
+   "tacpBonus": "通关本关（500 TacP）"
+  },
+  {
+   "code": "最终话·通常路线",
+   "slug": "final-normal",
+   "zh": "仅限于此的世界",
+   "ja": "ここにある世界",
+   "en": "The World Around Us",
+   "route": "通常线",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第51话·通常线通关后（本话无 SR 点数）。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破恩殆）"
+   ],
+   "defeat": [
+    "我方战舰被击破；主人公被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "通关（进入周回继承，见主页系统节）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — ここにある世界 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x52a/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话·IF路线",
+   "slug": "final-if",
+   "zh": "永远的艾尔·瓦司",
+   "ja": "永遠のアル・ワース",
+   "en": "Eternal Al-Warth",
+   "route": "IF线",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第51话·IF线通关后（本话无 SR 点数）。",
+   "victory": [
+    "歼灭全部敌人（事件后变为击破恩殆）",
+    "击破恩殆后变为击破霍普斯"
+   ],
+   "defeat": [
+    "我方战舰被击破；主人公被击破（恩殆登场后追加：第 10 回合开始）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "本作没有固定通关资金：资金靠击破敌机逐台获得（各敌机的资金值只有 comp-bible 一家刊载、暂未转录，见下方敌方编成说明）。本话没有 SR 点数。初学者模式下另有通关奖励资金与奖励 TacP。",
+    "parts": []
+   },
+   "allies": [
+    "捷尔嘉德性能与武装强化",
+    "捷尔嘉德失去副驾驶员霍普斯"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "通关（进入周回继承，见主页系统节）"
+   ],
+   "enemies": {
+    "notes": [
+     "comp-bible 对本关有完整编成表（构成/驾驶员/数量/资金/掉落/增援，另有等级/HP/每台 TacP 数值列），为单一来源、暂未转录（待裁决）；敌方逐台坐标与地形无任何来源。"
+    ],
+    "status": "单一来源",
+    "holdText": "comp-bible"
+   },
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "无坐标来源（参照框架）",
+    "note": "本站说明：本作没有任何来源刊载逐关的地图地形格或敌方单位坐标——comp-bible 的逐话攻略页只给编成构成、不给坐标，Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 是制作中的草表、亦无坐标。此处仅给出带四边数字坐标轴的参照框架（横轴 X、纵轴 Y，原点在左上）；真实地图尺寸、地形与单位坐标待核实后补入，不要据此框架推测站位。",
+    "verifiedPoints": [],
+    "missing": [
+     "地形",
+     "敌方坐标"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — SRW X Complete Chart（胜利/败北/SR点/TacP奖励/加入 主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — SRW X Flow Chart（分支结构与 SR 点交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart"
+    },
+    {
+     "name": "comp-bible — 永遠のアル・ワース 逐话页（敌方编成，单一来源待裁决）",
+     "url": "https://comp-bible.com/srw/x/scenario-x52b/"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}

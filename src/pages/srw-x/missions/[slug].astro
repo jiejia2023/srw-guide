@@ -1,0 +1,93 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwx-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { m } }));
+}
+const { m } = Astro.props as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战X', path: 'srw-x/' },
+  { label: '关卡攻略', path: 'srw-x/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`超级机器人大战X ${m.code} ${m.zh} 攻略 · 胜利条件 / SR点 / 隐藏要素`} description={`超级机器人大战X（PS4/PS Vita）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、SR点（熟练度）取得条件、TacP 奖励、我方加入单位与隐藏要素；敌方编成只有 comp-bible 单一来源、暂不刊出（待裁决）。`} path={`srw-x/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.code}《{m.zh}》</h1>
+  <p class="text-base-content/60">{m.ja} / {m.en} · {m.route}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战X》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统、点数制与 IF 路线条件另以日方 srw.wiki 互证；来源表述不一致之处已在页面中逐条注记。SR点说明：本作编号话（第1–51话）每话 1 个 SR 点条件，第0话、最终话、秘密剧本与特别剧本无，一周目最多 <strong>51 点</strong>；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式难度与<strong>白金纹章</strong>（50 点）；本作新增 <strong>Expert 模式</strong>（全程 HARD、SR 条件固定为不重试通关）。<strong>IF 路线由独立的 IF 点数（≥5 点）门槛开启，与 SR 点无关</strong>。敌方<strong>编成</strong>方面：Akurasu 对本作<strong>没有部署表（Deployment Chart）</strong>，其 Events Chart 是自标制作中的草表（82 关中仅 11 关有真实数据，且无资金/掉落/TacP 字段），不能作为编成来源；逐话编成只有日文 comp-bible 一家刊载，按本站规则<strong>全部 82 关暂不刊出（待裁决）</strong>，其独有的<strong>等级/HP/每台 TacP 数值列</strong>同为单源、亦暂不转录。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本页地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra">
+    <tbody>
+    <tr><th>进入条件 / 位置</th><td>{m.prerequisite}</td></tr>
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>{m.defeat.map((v: string) => <div>{v}</div>)}{m.defeatNote && <div class="muted">{m.defeatNote}</div>}</td></tr>
+    <tr><th>SR点（熟练度）</th><td>
+      {m.sr.length ? m.sr.map((s: string) => <div>{s}</div>) : <div>本关无 SR 点</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    {m.tacpBonus && (
+    <tr><th>TacP 奖励（工厂）</th><td>{m.tacpBonus}</td></tr>
+    )}
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待裁决（单一来源）：</strong>本关敌方编成目前只有日文 comp-bible（コンプバイブル）一家刊载（该站对本作有全 82 剧本逐话编成表，含构成/驾驶员/等级/HP/数量/资金/每台 TacP/掉落与增援触发）。Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 为制作中草表、无成套编成数据，无法构成第二来源。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入（本站 F 完结编有单源导入先例）；comp-bible 独有的等级/HP/每台 TacP 数值列同为单一来源，一并待裁决。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  {m.events.length > 0 && (
+  <>
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  </>
+  )}
+
+  <h2>隐藏要素（本关）</h2>
+  {m.secrets.length ? (
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无单独隐藏要素（全作隐藏要素总览见本作主页）。</p>
+  )}
+
+  <h2>关卡地图（坐标）</h2>
+  <StageMap mission={m} />
+  {m.note && <p><strong>注：</strong>{m.note}</p>}
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+  <p><a href={href('srw-x/missions/')}>← 返回超级机器人大战X关卡列表</a></p>
+</Base>

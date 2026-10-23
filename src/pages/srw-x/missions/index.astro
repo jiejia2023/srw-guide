@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwXMissionList from '../../../components/SrwXMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战X', path: 'srw-x/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战X（PS4/PS Vita）关卡攻略 · 全82个剧本页面列表" description="超级机器人大战X（2018年 PS4/PS Vita）全部关卡的页面列表：按 Akurasu 完整流程表逐条清点共 82 个不同剧本（74 个编号话变体＋第0话＋2 个最终话变体＋1 个特别剧本＋4 个秘密剧本），一周目实际游玩 52 话主线。每关独立攻略页含胜利/败北条件、SR Point 取得条件、TacP 奖励、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-x/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战X · 关卡攻略</h1>
+  <p>2018 年《超级机器人大战X》（PS4/PS Vita）是 V 的直系续作系统作，舞台是异世界<strong>艾尔·瓦司（アル・ワース）</strong>：自军「<strong>X-Cross（エクスクロス）</strong>」在向导魔兽霍普斯（ホープス）的引导下，对抗企图用「秩序」束缚世界的<strong>魔从教团</strong>与巨兽恩殆（エンデ）。本作有<strong>官方繁体中文版</strong>（与日版同日发售），本站名称以官方中文版为准。结构上，本作有<strong>开局主人公二选一</strong>（伊欧利·埃欧莱特／安玛莉·艾奎玛琳，主角机均为捷尔嘉德、无后继机，影响第1、2、9、25、26、38、39话），外加<strong>四段路线分歧</strong>（第13话后多阿克达打倒组／玛娜之国调查组；第20话后地上／宇宙；第29话后多阿克达／米斯尔奇；第42话后对多阿克达／对雷康吉斯塔）与<strong>结局分支</strong>（第48话后通常路线／IF（困难）路线）。按 Akurasu 的<strong>完整流程表（Complete Chart）</strong>逐条清点，全作共 <strong>82 个不同剧本</strong>（74 个编号话变体＋第0话（DLC序章）＋2 个最终话变体＋1 个特别剧本＋4 个秘密剧本），一周目实际游玩 <strong>52 话</strong>主线（第1–51话＋最终话），含 DLC 与秘密剧本最多 58 话，本站已按 82 个剧本全部建页。本作的<strong>熟练度称 SR Point（SR点）</strong>：编号话每话 1 点（第0话、最终话、秘密/特别剧本无），一周目最多 <strong>51 点</strong>；SR 点不改变路线，只影响普通（Standard）模式难度与<strong>白金纹章</strong>（50 点）；本作新增 <strong>Expert 模式</strong>（全程 HARD）。<strong>IF 路线不是 SR 门槛</strong>，而由独立的 <strong>IF 点数（≥5 点）</strong>开启（一周目；二周目起无条件可选），点数来源与计算见本作主页。每一关的完整攻略（胜败条件、SR 条件、TacP 奖励、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站全关卡补完计划中的又一部完成作——82 个详情页全部建成。流程、胜败条件、SR 条件、TacP 奖励与加入以 Akurasu 的 X <strong>Complete Chart 为主源</strong>，与同站 Flow Chart、Secrets 页逐条交叉核对；系统、IF 点数制与隐藏要素另以日方 srw.wiki 互证。<strong>敌方编成只有单一来源</strong>：Akurasu 对本作<strong>没有部署表（Deployment Chart）</strong>，其 Events Chart 是自标制作中的草表（82 关中仅 11 关有真实数据、无资金/掉落/TacP 字段）；逐话编成只有日文 comp-bible 一家刊载（全 82 剧本，含构成/驾驶员/数量/资金/掉落/增援）。按本站双源规则，<strong>全部 82 关的编成暂不刊出，列为待用户裁决</strong>；comp-bible 独有的<strong>等级/HP/每台 TacP 数值列</strong>同为单源，一并待裁决。敌方逐台<strong>坐标与逐格地形</strong>在任何来源中都不存在，各页地图为带四边坐标轴的参照框架。另有 20 个付费<strong>奖励 DLC 剧本</strong>不属于流程表剧本，只在本作主页以表格列出（与 V 的处理一致）。</span>
+  </div>
+
+  <SrwXMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/X/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars X: Complete Chart</a>（主来源：全关卡的胜败条件、SR 条件、TacP 奖励、秘密条件与机体加入）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/X/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars X: Flow Chart</a>（分支结构与 SR 条件清单，与完整流程表交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/X/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars X: Secrets</a>（隐藏要素总表：点数制、秘密剧本条件、纹章、周回）</li>
+    <li><a href="https://comp-bible.com/srw/x/" rel="noopener" target="_blank">コンプバイブル（comp-bible）— スーパーロボット大戦X 攻略</a>（逐话敌方编成表：构成/驾驶员/数量/资金/掉落，全 82 剧本覆盖——单一来源，暂未转录，待裁决）</li>
+    <li><a href="https://srw.wiki.cre.jp/%E3%82%B9%E3%83%91%E3%83%AD%E3%83%9CX" rel="noopener" target="_blank">srw.wiki（スパロボ攻略）— スパロボX 条目群</a>（系统、IF 点数制、隐藏要素条件的交叉核对）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6X" rel="noopener" target="_blank">ja.wikipedia — スーパーロボット大戦X</a>（发售信息、参战作品、系统概要）</li>
+  </ul>
+  <p><a href={href('srw-x/')}>← 返回超级机器人大战X</a></p>
+</Base>

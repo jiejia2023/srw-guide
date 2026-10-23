@@ -36,6 +36,7 @@ import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import SrwOg2ndMissionList from '../../components/SrwOg2ndMissionList.astro';
 import SrwOgMdMissionList from '../../components/SrwOgMdMissionList.astro';
 import SrwVMissionList from '../../components/SrwVMissionList.astro';
+import SrwXMissionList from '../../components/SrwXMissionList.astro';
 import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
 import SrwZMissionList from '../../components/SrwZMissionList.astro';
 import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astro';
@@ -93,6 +94,7 @@ const isSrwOgs = g.slug === 'srw-ogs';
 const isSrwOg2nd = g.slug === 'srw-og-2nd';
 const isSrwOgMd = g.slug === 'srw-og-moon-dwellers';
 const isSrwV = g.slug === 'srw-v';
+const isSrwX = g.slug === 'srw-x';
 const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 const isSrwZ = g.slug === 'srw-z';
 const isSrwZSpecial = g.slug === 'srw-z-special';
@@ -4024,6 +4026,119 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
     </div>
   )}
 
+  {isSrwX && (
+  <div>
+    <h2>剧情与结构概要</h2>
+    <p>2018 年 PS4／PS Vita 的《超级机器人大战X》是《V》的直系续作系统作，<strong>有官方繁体中文版</strong>（与日版同日发售，2018-03-29；本站译名以官方中文版为准）。舞台是漂浮于生与死之间的异世界<strong>艾尔·瓦司</strong>：信奉「智之神」恩殆的<strong>魔从教团</strong>以「秩序」之名统治世界，两名来自地球的少年少女被召唤至此、记忆被篡改，成为教团的奥特·沃洛克（自动魔导机）驾驶员。他们在魔导生命体<strong>霍普斯</strong>的引导下脱离教团，与来自各个世界的异世界人结成队伍<strong>X-Cross</strong>（队名由安琪提议、主角定名；繁中版默认保留拉丁字母写法）。主角机<strong>捷尔嘉德</strong>是教团百余年前制造的自动魔导机——<strong>本作只有这一台主角机、没有后继机</strong>，靠剧情事件分阶段强化（约第9、26、39话）。最终 Boss 是以负面感情为食、创造了艾尔·瓦司的<strong>魔兽恩殆</strong>。</p>
+    <p><strong>关卡结构</strong>：按 Akurasu 完整流程表逐条清点，全作 <strong>82 个不同剧本</strong>（74 个编号话变体＋第0话＋2 个最终话变体＋1 个特别剧本＋4 个秘密剧本），<strong>一周目实际游玩 52 话</strong>主线（第1–51话＋最终话，每个分歧点只走一支），加上第0话、特别剧本与 4 个秘密剧本最多 58 话。开局先<strong>二选一主人公</strong>：伊欧利·埃欧莱特／安玛莉·艾奎玛琳（未选的一方仍会作为同伴加入；两人专属必杀不同、结局奖杯要求两种结局都看过）。</p>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>分歧点</th><th>路线</th><th>受影响话数</th><th>合流</th></tr></thead>
+      <tbody>
+      <tr><td>开局</td><td>伊欧利线／安玛莉线</td><td>第1、2、9、25、26、38、39话各有两版本</td><td>—（贯穿全程）</td></tr>
+      <tr><td>第13话后</td><td>多阿克达打倒组／玛娜之国调查组</td><td>第14–16话</td><td>第17话</td></tr>
+      <tr><td>第20话后</td><td>地上部队／宇宙部队</td><td>第21–22话</td><td>第23话</td></tr>
+      <tr><td>第29话后</td><td>多阿克达打倒部队／对米斯尔奇部队</td><td>第30–34话</td><td>第35话</td></tr>
+      <tr><td>第42话后</td><td>对多阿克达部队／对雷康吉斯塔军部队</td><td>第43–45话</td><td>第46话</td></tr>
+      <tr><td>第48话后（结局）</td><td>通常路线／IF 路线（困难）</td><td>第49–51话与最终话整段不同</td><td>不合流</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>秘密剧本插入点：第12话后《想いというオーラ》、第28话后《最凶VS最強》、第35话后《赤い彗星の矜持》、第41话后《シュワルビネガーの秘密》；特别剧本《精灵凭依者》（魔装机神赛巴斯塔，早期购入特典／DLC）在第2话后可玩，无特典时赛巴斯塔于第34话后加入。逐话条件、胜败条件与 SR 条件都在各自的详情页里，本节只作系统总览。</p>
+    <p><strong>参战作品</strong>共 23 部，其中 5 部系列初参战：《高达 G之复国运动》《魔神英雄传》《巴迪康普雷克斯》及《完结编》《不可思议之海的娜迪娅》；其余包括《无敌钢人泰坦3》《圣战士丹拜因》（＋New Story 仅机体）、《机动战士Z高达》《ZZ》《逆袭的夏亚》（＋Beltorchika's Children 仅机体）、《F91》《海盗高达 钢铁七人》（仅机体）、《新机动战记高达W 无尽的华尔兹》《勇者特急迈特凯因》《Code Geass 反叛的鲁路修 R2》《Cross Ange 天使与龙的轮舞》《魔神凯撒（原创版）》（仅机体）、《真魔神 冲击! Z篇》《真魔神ZERO vs 暗黑大将军》《天元突破古莲拉甘》（＋剧场版 螺岩篇）；合体攻击在本作只需合体双方中 1 台出击即可使用（威力降低）；本作无战舰选择（舰队由 N-鹦鹉螺号、メガファウナ、シグナス固定构成）。</p>
+
+    <h2>SR 点（熟练度）与难度、游戏模式</h2>
+    <p>本作的熟练度称 <strong>SR 点（SR Point）</strong>：编号话（第1–51话）每话 1 点，第0话、最终话、秘密剧本与特别剧本<strong>没有</strong> SR 点，一周目最多 <strong>51 点</strong>。每取得 1 个 SR 点，结算奖励 <strong>10,000 资金</strong>。SR 点<strong>不</strong>是任何路线分歧的门槛（IF 路线由独立的 IF 点数开启，见下文隐藏要素节）——它只决定普通（Standard）模式的难度与<strong>白金纹章</strong>（取得 50 点，只容许丢 1 点）。<strong>注意</strong>：没有任何 X 专门来源给出「SR 取得率 → 难度档位（NORMAL/HARD）切换」的具体百分比，本站不套用 V 的数值，此项待核实。</p>
+    <p><strong>游戏模式</strong>有三种：<strong>初学者模式（Beginner's Mode）</strong>——完全没有 SR 点、每话通关另有奖励资金与奖励 TacP；<strong>普通模式（Standard Mode）</strong>——游戏内重试（全灭后重打）该话即失去该话 SR 点；<strong>Expert 模式（エキスパートモード，本作新增）</strong>——难度恒定 HARD、敌方改造等级更高、SR 条件固定为「无重试通关」。模式可在幕间（系统菜单选项）切换。</p>
+
+    <h2>TacP 与工厂：Magic 改装与 Dogma</h2>
+    <p><strong>TacP</strong> 沿用 V 的全军共享资源池制（击破敌机逐台获得，本站未转录数值列，见「敌方数据现状」）。幕间菜单仍叫<strong>工厂（ファクトリー，英文菜单名 Vault）</strong>，第2话通关后开放，可用 TacP 买卖强化部件（部件靠达成特定事迹逐件解锁商店库存）。V 的 TAC 定制在本作改名为 <strong>Magic 改装（Magicカスタマイズ）</strong>：共 <strong>6 个 GRADE、每档 3 选 1</strong>，价格依次 400／800／1600／3200／3600／4800 TacP；选定的效果该周目内不可更改，周回时保留已选项并可每档<strong>再追加 1 个</strong>（第3周目可选满每档 3 个）。</p>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>GRADE（价格）</th><th>候选效果（每档三选一）</th></tr></thead>
+      <tbody>
+      <tr><td>1（400）</td><td>SP Arise：每回合 SP 回复 5→8／Repair Arise：玩家回合开始时 HP·EN 回复 10%／Force Arise：每回合全驾驶员气力 +2</td></tr>
+      <tr><td>2（800）</td><td>Cost Gain：通关奖励资金 = 本图总伤害的 5%／TacP Gain：TacP = 本图总击坠数 ×10／Double Gain：资金 2.5% ＋ TacP = 击坠数 ×5</td></tr>
+      <tr><td>3（1600）</td><td>Damage Support：热血/魂 SP 消耗变为 85%／Target Support：感应/先见 SP 消耗变为 80%／Cost Support：幸运/祝福 SP 消耗变为 75%</td></tr>
+      <tr><td>4（3200）</td><td>Force Boost：任一单位 ExC 达 3 时触发（持续至本图结束）气力上限 +10／Range Boost：同触发，射程 +1（MAP 武器与射程 1 武器除外）／Accel Boost：同触发，移动力 +1</td></tr>
+      <tr><td>5（3600）</td><td>Infight Up：格斗武器攻击力 +200／Gunfight Up：射击武器攻击力 +200／All-round Up：全部武器攻击力 +100</td></tr>
+      <tr><td>6（4800）</td><td>SP Plus：出击时全驾驶员 SP +20／ExC Plus：出击时 ExC +1／Force Plus：出击时全驾驶员气力 +10</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p><strong>Dogma（ドグマ，多格玛）是本作新增系统</strong>：主角专属特殊指令，每购入 1 个 Magic GRADE 解锁 1 个（共 6 个，与具体选了哪项无关），每个 Dogma 每话限用 1 次。</p>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>#</th><th>名称</th><th>效果</th></tr></thead>
+      <tbody>
+      <tr><td>1</td><td>意力之 SPRITA</td><td>3 格内我方回复 25 SP（范围有分歧：gameranbu 作「3 格内 1 名我方（含自身）」，Akurasu Vault 作「3 格内全部我方」，并记）</td></tr>
+      <tr><td>2</td><td>源泉之 POTANT</td><td>2 格内全部我方（含自身）EN +50</td></tr>
+      <tr><td>3</td><td>战阵之 AUXLUM</td><td>相邻 1 名我方 ExC +1</td></tr>
+      <tr><td>4</td><td>力场之 PALAS</td><td>2 格内全部敌方 EN −100，且运动性/装甲/照准下降</td></tr>
+      <tr><td>5</td><td>跳跃之 SALIRA</td><td>将 1 名我方移动到以其为中心半径 4 格内任意位置</td></tr>
+      <tr><td>6</td><td>魂魄之 PRODIG</td><td>3 格内 1 名我方（含自身）在一场战斗中获得 魂＋气迫＋直击＋粉碎击</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <h2>技能路线与技能程式</h2>
+    <p>结构与 V 相同：TacP 为全军共享池，在<strong>技能路线</strong>上开发 → 生产<strong>技能程式</strong>（可生产多份）→ 驾驶员习得，每名驾驶员最多习得 <strong>30 个</strong>特殊技能。参数类技能（格斗/射击/技量/防御/回避/命中 Up）各 100 TacP、+5；地形适应类 250 TacP。X 的路径价格（据 Akurasu Pilot Skills）：底力 50 → 尺寸差补正无视 100 → 援护攻击 250 → Support Attack 300 → E Save／B Save 各 150 → 再攻击 350；援护防御 250 → Guard／见切 各 100 → Hit &amp; Away 300 → 先制攻击 400（该支线另有一处 500 的数字，归属不明确，注记保留）；精神耐性 200 → 斗争心 100 → 气力+ATK／气力+DEF 各 250 → 气力限界突破 100；部件供给 150 → SP Up 100 → 救援技能 300 → Ace Proud 200（Ace 门槛 60→50、Great Ace 80→70）→ Lucky Star 350。特殊系技能为固定价格：战术待机 2500、SP 回复 2500、<strong>ExC Bonus 2000（出击时 ExC +2，本作强势新技能）</strong>、Full Counter 2000、Attacker 2500、Dash 1500；Lucky Star 为官方标注的 X 新设特殊技能。已查来源均未给出特殊技能的「按话数解锁」表——与 V 一样，特殊系程式是在达成游戏内事迹后揭示，本站不编造具体话数。</p>
+
+    <h2>ExC、额外行动、额外指令与副指令</h2>
+    <p><strong>ExC</strong> 为驾驶员个人持有、上限 10（击坠 +1、升级 +1、MAP 武器多重击坠 +2、战舰在我方总击坠数每满 10 时 +1），与 V 相同。<strong>额外行动</strong> 5 种：Boost Dash（2）、Direct Attack（2）、Trick Attack（3）、Smash Hit（3）、Multi Action（3）。<strong>额外指令</strong>（战舰指令）5 种：紧急回收（1，射程 8）、<strong>周边指挥（2，本作新增：半径 4，命中/回避/装甲/技量 +10/+10/+10/+15，可叠加至 ×10）</strong>、气力上升（2）、ExC 上升（3，赋予 2 ExC）、行动回复（5）。<strong>副指令（Sub-Order）</strong>存在：4 类 × 每类 5 名驾驶员（出击过的驾驶员不可指派）——训练（每人 TacP +20，第40话后 +50）、巡逻（每人击坠数 +2）、模拟器（每人 EXP +500）、资金调达（每人资金 5,000，第40话后 10,000）。<strong>Ace 门槛</strong>：击坠 60 为 Ace（初始 SP 50%），击坠 80 为 Great Ace（出击时 ExC +1、初始 SP 75%）。</p>
+
+    <h2>改造与改造继承</h2>
+    <p>全改造奖励在改造 10 段时取得，改造奖励（Custom Bonus）在 5 段时取得；捷尔嘉德的改造奖励为部件槽 +1。<strong>继承改造</strong>的换乘/后继链：丹拜因 → 比尔拜因（第12话）、比尔拜因 → 萨拜因（33A/34B）、魔神Z → 魔神凯撒（第28话）、大魔神 → 魔神皇帝G（第28话）、ν高达 → Hi-ν高达（第35话）、沙扎比 → 南丁格尔（秘密剧本3）、魔神凯撒 → 魔神ZERO（51B）。<strong>不继承改造</strong>：迈特凯因 → 迈特凯撒（第27话）→ 大迈特凯因（30A/34B）、旋风丸 → 旋王丸、幻神丸 → 幻王丸、路克西翁/布拉迪翁 → NEXT（31B/34A）、海盗高达X1改·改 → 全装甲型（34A/34B）等（据 Akurasu Upgrade Carryover）。古莲拉甘与超银河古莲拉甘共享改造等级但不共享全改造奖励。</p>
+
+    <h2>周回继承与结算纹章</h2>
+    <p><strong>周回继承</strong>（据 Akurasu Clear 页）：以通关存档开始新周目时，继承上周的资金、TacP 与各项纪录；技能程式的开发进度与 Magic 改装的开发进度均继承；每通关一周可保留 <strong>5 个</strong>强化部件带入下周（上限 25 个，纹章类除外）；<strong>第3周目起</strong>改造上限提升至 <strong>15 段</strong>；<strong>第4周目起</strong>开局追加奖励部件（X-Crystal、X-Booster、Bionic Armor、Cyclone Booster、Travel Charm、Topological Scope、Maxwell Motor）。⚠️ 继承的资金/TacP <strong>百分比</strong>没有任何 X 专门来源明示——「100% 继承」只见于一篇 T 攻略对 VXT 共通规则的描述，本站按出处性质标注，不写成 X 的定论。</p>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>纹章</th><th>取得条件</th><th>效果</th><th>备注</th></tr></thead>
+      <tbody>
+      <tr><td>白金（Platinum）</td><td>SR 点 ≥50（全 51）</td><td>装备机行动次数 +1</td><td>X 专门来源（ds-can、srw.wiki 部件页）一致</td></tr>
+      <tr><td>黄金（Gold）</td><td>累计获得资金 &gt;10,000,000</td><td>击坠所得资金 ×2（可与幸运叠加）</td><td>ds-can X 页确认</td></tr>
+      <tr><td>钢铁（Iron）</td><td>培养出一定数量的 Ace</td><td>装备机主驾驶员 EXP ×2</td><td>⚠️ 数量分歧：srw.wiki 部件页正文作 20 名（并注第3次Z、V 为 15 名），ds-can 的 T 页作 15 名——无 X 专门来源定版，并记</td></tr>
+      <tr><td>铜（Bronze）</td><td>单一驾驶员个人累计击坠 &gt;100</td><td>主驾驶员每回合 SP 回复</td><td>⚠️ 回复量分歧：srw.wiki 通用文本作 20，ds-can 的 T 页（附「若与前作相同」条件）作 15，并记</td></tr>
+      <tr><td>银（Silver）</td><td>累计获得 TacP 达到门槛</td><td>装备机击坠所得 TacP ×2（不可叠加）</td><td>⚠️⚠️ <strong>X 的门槛数值在任何已读 X 专门来源中均未找到</strong>（V = 28,000、T = 32,000 不可套用），待核实</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p>纹章共 5 个，作为特殊部件装备；周回时铜/银/黄金若上周累计数据达标，可在第1话后取得，钢铁/白金不适用此早期发放。取得任意纹章即解锁工厂部件普拉纳转换器。</p>
+
+    <h2>隐藏要素总览（细节在各关详情页）</h2>
+    <p>本作隐藏要素以<strong>点数制</strong>为主（据 srw.wiki《隠し要素/X》最新版，与 Akurasu Secrets 互证；两源拆分方式不同之处已在各关页并记）：</p>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>点数系统</th><th>门槛</th><th>回报与兑现时机</th></tr></thead>
+      <tbody>
+      <tr><td>托德点数</td><td>≥5</td><td>托德＆比阿雷斯加入：多阿克达路线第34话A 作增援；米斯尔奇路线合流时加入</td></tr>
+      <tr><td>马斯克点数</td><td>≥6</td><td>巴拉拉＆玛尼于第43话B 加入、马斯克于第45话B 加入（雷康吉斯塔路线）；多阿克达路线合流时加入；未达标者 IF 路线第49话兜底补入</td></tr>
+      <tr><td>比宗点数</td><td>≥5</td><td>比宗＆内尔加尔于第44话B 加入（阿尔弗里德/阿尔谢尔客串加入）；多阿克达路线合流时加入</td></tr>
+      <tr><td>格雷米点数</td><td>≥4</td><td>格雷米＆昆曼沙在被击坠后加入（第43话B，须最后击坠格雷米）；多阿克达路线合流时加入</td></tr>
+      <tr><td>基亚点数</td><td>≥3</td><td>基亚＆盖昂于第45话B 加入；多阿克达路线合流时加入</td></tr>
+      <tr><td>α·阿齐尔点数</td><td>≥2</td><td>第45话后取得 α·阿齐尔（第45话B 有 −1 惩罚项：先于 α·阿齐尔击坠基亚）</td></tr>
+      <tr><td><strong>IF 路线点数</strong></td><td><strong>≥5</strong></td><td>第49话前出现 IF 路线选项（一周目）；二周目起无条件出现</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p><strong>IF 点数明细</strong>（srw.wiki 最新版为决定性来源）：第24话甲儿或铁也击坠加拉达布拉 <strong>+1</strong>；第28话三项<strong>全部达成</strong>（将魔神ZERO 的 HP 削至 ≤30,000；甲儿或铁也击坠暗黑大将军；结算时甲儿＋铁也合计击坠 ≥80）<strong>+1</strong>；第48话以合体攻击魔神双皇击击坠暗之帝王 <strong>+2</strong>；第48话结算时 Ace 驾驶员 ≥25 人 <strong>+3</strong>。算术上不含 Ace 项最高只有 4 点，故 <strong>25 名 Ace 的 +3 点事实上不可或缺</strong>。⚠️ Akurasu Secrets 把同一组事件列为平铺条件清单、未给出点数结构，本站从 srw.wiki 最新版并注记此差异。IF 路线专属回报：<strong>魔神ZERO 只能在 IF 路线取得</strong>（第51话B：甲儿出击并击坠 ZERO 后换乘）；未满足加入条件的马斯克、巴拉拉、玛尼、马修马等会在第49话B 作增援兜底补入。</p>
+    <p><strong>秘密剧本</strong>（4 个，均无 SR 点）：《想いというオーラ》（第12话后：托德点数 ≥4 且第12话修击坠托德，可选比尔拜因夜间迷彩涂装）；《最凶VS最強》（第28话后：独立点数表 ≥2 点，提前解锁合体攻击魔神双皇击——srw.wiki 为点数表、Akurasu 为二选一逻辑表述，并记）；《赤い彗星の矜持》（第35话后：阿姆罗与夏亚（沙扎比）合计击坠 ≥5 且夏亚击坠中含具名驾驶员之一，取得南丁格尔）；《シュワルビネガーの秘密》（金策剧本：Ace ≥10 人<strong>且</strong> Magic 改装 GRADE ≥5——出现时机有分歧：srw.wiki 最新版与 Flow Chart 作「第41话通关后」，ds-can 与 Akurasu Secrets 作「第41话开始前」，并记）。<strong>步骤式隐藏</strong>：马修马＆渣古III改（第29话，srw.wiki 最新版作满足任意一项即可、Akurasu 作三步连续且第一步限 3 回合，并记）；罗克派＆盖特拉什（第27/43话B 交战/击坠条件满足任意一项）；亚克特·多加双机（第21话B 宇宙路线：居内专用机需克利姆击坠 ≥2 台、奎丝专用机需克利姆与米克各击坠 ≥2 台；二周目起无视路线自动取得，走地上路线者在合流时取得两台）。<strong>秘密部件</strong>：第43话B 特定十字路口待机得汤米视觉＋额外武装（位置方向分歧：srw.wiki 作马斯克初期位置「西南 1 格」、Akurasu 作「正南」，并记）；第47话古拉坦停在埃菲尔铁塔相邻格得高性能雷达＋S 适配器。</p>
+
+    <h2>奖励 DLC 剧本（不属于流程表剧本）</h2>
+    <p>除第0话与特别剧本（已按剧本建页）外，本作另有 <strong>20 个付费奖励 DLC 剧本</strong>（据 Akurasu DLC Missions 页）：在幕间 Network 的 Bonus Scenario 进入，单位为预设构成、不受主线等级/改造影响，通关奖励资金与 TacP 可用于主线（部件每周围目限得一次；二周目起选中即领奖励、无需游玩）。早期剧本多为 50,000 资金／500 TacP（¥150），后期为 100,000／1,000（¥200）；另有入门包、下载包、完全包与重玩包等合集。它们<strong>不属于流程表剧本</strong>，本站只在此总览、不单独建页（与 V 的处理一致）。</p>
+
+    <h2>敌方数据现状</h2>
+    <ul>
+      <li><strong>Akurasu 对本作没有部署表（Deployment Chart）</strong>：该站 X 的部署类页面是 Events Chart，但原页自标制作中（WORK IN PROGRESS）——82 关的表中只有 11 关（第0话、第1/2/3–8话伊欧利线、特别剧本与第9话伊欧利线）有真实数据，其余为占位空表；且字段只有触发条件与出场名单，<strong>没有资金、掉落、TacP 与难度基准</strong>，不能作为编成来源。</li>
+      <li><strong>日文 comp-bible（コンプバイブル）是目前唯一的成套编成来源</strong>：其 X 逐话页覆盖全部 82 个剧本，含初期配置与增援组（附触发条件）、构成/驾驶员/数量/资金/掉落，另有<strong>等级/HP/每台 TacP 数值列</strong>。</li>
+      <li><strong>暂不刊载、待用户裁决</strong>：裁决范围为<strong>全 82 个剧本的敌方构成、数量、资金、掉落与增援</strong>，以及 comp-bible 独有的<strong>等级/HP/每台 TacP 数值列</strong>——均为单一来源，按本站方针不擅自导入（F 完结编有单源导入先例，须逐作裁决）。敌方逐台<strong>坐标</strong>与逐格<strong>地形</strong>任何来源都没有（comp-bible 逐话页不给坐标），各页地图为带四边坐标轴的参照框架。</li>
+    </ul>
+
+    <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Complete Chart 为主源，与同站 Flow Chart、Secrets 页逐条交叉核对；系统、点数制与 IF 路线条件以日方 srw.wiki（《隠し要素/X》最新版、ファクトリー/X、強化パーツ页）为主证，Akurasu 的 Vault/Pilot Skills/Extra Commands/Suborders/Ace Bonuses/Upgrade Carryover/Clear/Full Upgrade Bonuses 各专页、ds-can、gameranbu 与 PlayStation 官方博客互证；定位、参战作品与发售信息据 ja.wikipedia，官方繁中译名据 zh.wikipedia 与繁中版实机文本整理站 RoboInfo。已确认的主要分歧均在上文与各关页并记：①IF 路线条件的点数结构（srw.wiki 最新版）与平铺清单（Akurasu Secrets）；②《最凶VS最強》的点数表与二选一逻辑；③马修马三步的「任意一项」与「连续步骤＋3 回合」；④秘密剧本 4 的出现时机（第41话通关后／开始前）；⑤第43话B 秘密部件位置（西南／正南）；⑥Dogma 1 的作用范围（1 名／全部）；⑦钢铁纹章的 Ace 数量（20／15）与铜纹章的 SP 回复量（20／15）；⑧银纹章的 X 版 TacP 门槛与周回继承百分比、SR→难度档位百分比均无 X 专门来源，未套用他作数值。</p>
+  </div>
+  )}
+
   {isSrwV && (
   <div>
     <h2>剧情与结构概要</h2>
@@ -4896,6 +5011,11 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
     <div>
       <p>本作 <strong>87 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 52 话——开局主人公二选一（第1、8–11、19、34话双版本）、五段路线分歧的全部版本（第15–17话阿尔泽纳尔/日本线、第23–25话隆德·贝尔/独自线、第28–32话宇宙世纪/西历线、第37–38话三路、第43–45话大和队/抚子队）、第50–最终话的通常/困难（IF）双路线、4 个秘密剧本与 3 个特别剧本）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>SR 点（熟练度）条件</strong>、工厂 TacP 奖励、我方加入、本关隐藏要素（玛莉达/泰坦/雷恩点数、结算型隐藏与困难路线的三项门槛都写在触发/结算的那一话里）与坐标地图（敌方编成在两源齐备的关卡双源并列刊载，单源关卡待裁决暂不刊载、坐标与地形无源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-v/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwVMissionList />
+    </div>
+  ) : isSrwX ? (
+    <div>
+      <p>本作 <strong>82 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 52 话主线——开局主人公二选一（第1、2、9、25、26、38、39话双版本）、四段路线分歧的全部版本（第14–16话多阿克达/玛娜之国线、第21–22话地上/宇宙线、第30–34话多阿克达/米斯尔奇线、第43–45话对多阿克达/对雷康吉斯塔线）、第49–最终话的通常/IF 双路线、第0话、4 个秘密剧本与 1 个特别剧本）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>SR 点（熟练度）条件</strong>、TacP 奖励、我方加入、本关隐藏要素（各点数制的逐话得点与 IF 点数的结算都写在触发/结算的那一话里）与坐标地图（敌方编成为 comp-bible 单一来源、待裁决暂不刊载，坐标与地形无源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-x/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwXMissionList />
     </div>
   ) : isSrwOgMd ? (
     <div>
