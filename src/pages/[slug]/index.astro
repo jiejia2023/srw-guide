@@ -31,6 +31,7 @@ import SrwJMissionList from '../../components/SrwJMissionList.astro';
 import SrwWMissionList from '../../components/SrwWMissionList.astro';
 import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
+import SrwZMissionList from '../../components/SrwZMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -68,6 +69,7 @@ const isSrwJ = g.slug === 'srw-j';
 const isSrwW = g.slug === 'srw-w';
 const isSrwOgs = g.slug === 'srw-ogs';
 const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
+const isSrwZ = g.slug === 'srw-z';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2465,6 +2467,127 @@ const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
     </div>
   )}
 
+  {isSrwZ && (
+    <div>
+      <h2>剧情概要：被融合的多元世界</h2>
+      <p>本作是 Z 系列的开篇、PS2 最后一作机战，2008 年 9 月 25 日发售，开发：万普雷斯特软件（Banpresoft）。《奥加斯》的次元弹引发「Break the World（世界崩坏）」，多个平行世界被融合成一个<strong>多元世界</strong>：宇宙世纪与 SEED DESTINY 的世界、萨本格尔与高达 X 的荒废未来、交响诗篇与创圣的世界等并存于同一时空。玩家部队取各世界守护者的名义组成 <strong>ZEUTH（Z Emergency Union of Terrestrial Human，地球人类紧急联合）</strong>；身着黑衣、驾驶狩狼牙的 <strong>阿萨基姆·多文</strong>反复接触主人公，其目的与被称为「斯菲亚（Sphere）」的球体、以及多元世界终局的「黑历史」相连（梗概据 Akurasu 与日文维基）。</p>
+
+      <h2>两位主人公与路线结构</h2>
+      <p>开局从两位主人公中选一人。<strong>两人互斥</strong>：未选中的一位不会加入我方、将单独旅行，并在中盘一度以敌方身份登场、之后和解（Akurasu 流程图注 1 与日文维基一致）。节子出身于宇宙世纪/SEED 侧的世界、兰德出身于荒废未来侧的世界，两线参战作品的重心不同；编号共享第 1–59 话 + 最终话，一周目约 60 话，全部变体合计 <strong>107 个剧本</strong>（与 Akurasu 主页标示一致）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>主人公</th><th>身份 / 声优</th><th>搭档</th><th>初始机 → 后期形态</th></tr></thead>
+          <tbody>
+            <tr><td>节子·奥哈拉（19 岁）</td><td>地球联邦军战技研究班「Glory Star」成员 / 高口幸子</td><td>队友丹泽尔·哈默、托比·沃森（各驾驶一台巴尔戈拉，非副驾驶）</td><td>巴尔戈拉3号机 → 1号机（第9话）→ 巴尔戈拉改（第21话）→ 巴尔戈拉·荣耀（第32话，第47话再强化）</td></tr>
+            <tr><td>兰德·特拉维斯（27 岁）</td><td>流动修理屋「Beater Service」经营者 / 河原佳久</td><td>梅尔·比达（16 岁，钢雷昂副驾驶）</td><td>钢雷昂（全程同一机体，第32话原地强化：追加两件武器、补给装置、EN+30/运动性+10）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>区段</th><th>结构</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>第1–9话</td><td>节子线 / 兰德线</td><td>双线各自展开，第10话起首次合流</td></tr>
+            <tr><td>第10–15话</td><td>共通</td><td>第10话「Break the World」为世界融合的转折点</td></tr>
+            <tr><td>第16–19话</td><td>太平洋部队 / 加利亚部队</td><td>第15话后自愿选择加入的部队，两线与主人公无关、任选其一</td></tr>
+            <tr><td>第20–25话</td><td>共通（第21话为双线）</td><td>第20话合流；第21话节子/兰德各自的话</td></tr>
+            <tr><td>第26–32话</td><td>节子线 / 兰德线</td><td>两线参战作品重心不同（见流程图页首的各线作品表）</td></tr>
+            <tr><td>第33–35话</td><td>四路分线</td><td>节子：直布罗陀基地 / 边境巡逻；兰德：搜索伦顿 / 留守看舰</td></tr>
+            <tr><td>第36–40话</td><td>节子线 / 兰德线</td><td>四路在第36话合流回双线</td></tr>
+            <tr><td>第41–46话</td><td>共通</td><td>结局点自第41话起开始累计</td></tr>
+            <tr><td>第47话</td><td>节子线 / 兰德线</td><td>本话结束后进行 ZEUTH/ZAFT 路线判定（见下节）</td></tr>
+            <tr><td>第48–53话</td><td>ZEUTH 线 / ZAFT 线</td><td>密涅瓦组留在我方（ZEUTH）或返回扎夫特（ZAFT，默认线）</td></tr>
+            <tr><td>第54–55话</td><td>共通</td><td>两线合流</td></tr>
+            <tr><td>第56–57话</td><td>ZEUTH 线 / ZAFT 线</td><td>史黛拉、芙罗等隐藏人物的加入关在这两话按线结算</td></tr>
+            <tr><td>第58话</td><td>共通</td><td>洁涅/阿萨基姆助战的判定在本话结束时截止</td></tr>
+            <tr><td>第59话</td><td>节子线 / 兰德线</td><td>按结局点与本话的回答分出结局（见下节）</td></tr>
+            <tr><td>最终话</td><td>3 个版本</td><td>节子好结局 / 兰德好结局 / 坏结局（黑历史）；通常结局与两种最佳结局为第59话后的文字结局、无可玩最终话</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>主人公的生日与血型</strong>可在开局设定，决定主人公本人的精神指令组合（5 个，按等级习得）；队友（丹泽尔、托比、梅尔）的精神表固定、不受此设定影响（Akurasu Birthday 页）。默认：兰德 8 月 9 日 AB 型、节子 9 月 3 日 A 型。注：Akurasu 流程图把兰德线称作「Land Route」（ランド的日式读法），本站统一作<strong>兰德</strong>；梅尔的日文为メール・ビーター，Akurasu 内部 Mail/Mel 两种拼写并存，本站作梅尔·比达。</p>
+
+      <h2>熟练度（SR点）与三套隐藏计数</h2>
+      <p>本作的熟练度改称 <strong>SR 点（SRポイント）</strong>：每话至多取得 1 点、只升不降，取得条件<strong>在游戏内公示</strong>（据日文维基系列系统条目，熟练度条件自 OG 起在游戏内显示，本作从之）；取得时出击驾驶员获得 PP 奖励（每点 +5 PP 为第2次α 以来的系列通例，Akurasu 的 Z 流程图未重述具体数值，本站并记为通例）。SR 点的作用有三：<strong>其一，决定难度</strong>——以「本话开始前已取得点数 ÷ 当时可取得点数」的比例分档（日文维基 Z 条目明文）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>取得比例</th><th>难度</th><th>已知影响</th></tr></thead>
+          <tbody>
+            <tr><td>80% 以上</td><td>HARD</td><td>部分关卡的回合限制更严（如第52话 ZAFT 线 9/8/7 回合）；过关奖励资金反而低于 NORMAL（流程图实例）；卫星加农炮可见月亮的关卡数减少</td></tr>
+            <tr><td>30–79%</td><td>NORMAL</td><td>—</td></tr>
+            <tr><td>29% 以下</td><td>EASY</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>其二，代偿部分隐藏要素的点数门槛</strong>：芙罗（加普兰）需芙罗点 ≥5，或 ≥4 且 SR 点 ≥28（第36话判定、第38话加入）；史黛拉（盖亚高达）需史黛拉点 ≥8，或 ≥7 且 SR 点 ≥28（第36话判定，ZEUTH 线第51话/ZAFT 线第56话加入）；蒂法副驾驶与 G 比特武装在事件链不全时可由 SR 点补足（蒂法 SR 点 40 以上、G 比特 SR 点 50 以上，节子线因黑盒 F 不可得而<strong>必须</strong>走 SR 点路线）；洁涅与阿萨基姆的最终战助战需结局点 ≥15，或结局点 ≥7 且 SR 点 ≥46（第58话截止）；兰德线救秋（Aki）需秋点 ≥4 且 SR 点 ≥32（节子线为秋点 ≥7、无 SR 代偿）。<strong>其三，参与第 47 话的路线判定</strong>（见下）。</p>
+      <p>另外两套隐藏计数（游戏内均不显示数字，只能从剧情对话推断）：<strong>ZEUTH 点</strong>——仅由 SEED DESTINY 相关的行动增减（第 2–43 话共 21 处，多为 +1，含 +2 与 −1 的场合），决定第 47 话后的路线：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th></th><th>自动进入 ZEUTH 线</th><th>可自由选择 ZEUTH/ZAFT</th></tr></thead>
+          <tbody>
+            <tr><td>节子线</td><td>ZEUTH 点 ≥9；或 7–8 点且 SR 点 ≥36</td><td>ZEUTH 点 ≥10 且 SR 点 ≥36；或二周目</td></tr>
+            <tr><td>兰德线</td><td>ZEUTH 点 9 点；或 7 点且 SR 点 ≥36</td><td>ZEUTH 点 ≥8 且 SR 点 ≥36；或二周目</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>两线门槛表述在 Akurasu 第 47 话两格原文中并不完全对称，本站照原文分列（见分歧说明）。不满足上述任一条件时走默认的 ZAFT 线。<strong>结局点</strong>——仅自第 41 话起增减（含第 58 话一个 −15 的重大选项），在第 59 话判定结局：≤7 点时按回答分出坏结局「黑历史」（选「无法自己决定」）或通常结局「不稳定的世界」（选「希望世界安定」）；8–17 点为好结局「略为安定的世界」（回答不影响）；≥18 点时按回答分出最佳结局 1「完全安定的世界」（选「安定」，Akurasu 注明此为通往 Z2 的正史）或最佳结局 2「复原的世界」（选「希望一切复原」）。可玩的最终话只有好结局（节子/兰德各一版）与坏结局（一版）。</p>
+
+      <h2>TRI 战斗系统（トライバトルシステム）</h2>
+      <p>本作以 <strong>TRI 系统</strong>取代 α 系列的小队系统：<strong>3 台机体编成 1 个小队，α 系列的 COST 制废止</strong>（日文维基）。自定义编成在兰德线第 3 话后（合流后共通）开放；<strong>TRI 攻击（Tri-Charge）</strong>在节子线第 6 话 / 兰德线第 4 话解禁。小队有三种阵型，呈循环相克（TRI 克中央、中央克散开、散开克 TRI），处于优势阵型时伤害上升并可无效化部分敌方能力：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>阵型</th><th>站位与攻击方式</th><th>特征</th></tr></thead>
+          <tbody>
+            <tr><td>TRI 阵型</td><td>队长在前、队员纵列于后；普通攻击只有队长出手</td><td>唯一能使用 <strong>Tri-Charge</strong> 的阵型：全体（ALL）攻击但可贯穿屏障、且不按敌小队人数减伤（通常 ALL 攻击对 2/3 台小队减伤 20%/40%）；只消耗队长的弹药/EN；队员可援护防御队长；全员对 ALL 攻击有防御/回避加成。按原作编成组队可提升 Tri-Charge 威力，另有专属组合 Tri-Charge</td></tr>
+            <tr><td>中央阵型（Centre）</td><td>两名队员在前、队长在后；队长攻击 + 队员的小队攻击（PLA）集中于敌一台</td><td>最接近 α 系列小队制；PLA 威力大幅降低；队员可援护防御队长；小队内任一机的屏障效果全队共享；队长对 ALL 攻击有防御/回避加成</td></tr>
+            <tr><td>散开阵型（Wide）</td><td>队长居中、队员左右展开；与敌小队逐台一对一攻击</td><td>队员攻击的威力降低幅度小于中央阵型；不可援护防御；队员受 ALL 攻击/Tri-Charge 的伤害大幅降低</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>小队长奖励</strong>（Akurasu Squad Leader Bonus 页）：每位驾驶员任队长时给全队一项固有效果（如盖纳 +10% 回避、凯 +全体武器射程 +1（射程 1 与 MAP 武器除外）、夏亚 +小队攻击伤害 20%、阿姆罗 +回避/暴击各 10%）；主人公两人为：兰德——全队使武器附加效果无效；节子——全队射击武器攻击力 +10%。战舰舰长的奖励作用于与战舰相邻的全部我方单位。含修理/补给机的队全员每我方回合开始时回复 HP/EN；含升降（Lifter）机的队全员移动类型变为空、地形适应变 A；含干扰机的队全员最终命中/回避 +10%。<strong>援护攻防</strong>：小队内的援护防御由阵型决定（见上表）；小队之间则靠 PP 购买的独立技能<strong>援护攻击 / 援护防御</strong>（各 500 PP 起、每级 +100），另有連携攻击（1000 PP，援护攻击必暴击）、支援攻击（1000 PP，小队攻击伤害 +20%）、再攻击（1200 PP）等相关技能（Akurasu Pilot Skills 页）。注意 Akurasu 流程图注 3：「让 X 与 Y 交战」类隐藏条件要求以该机为<strong>队长</strong>的小队与目标小队交战，MAP 攻击、援护攻击与援护防御不算数；「说得」条件则要求队长机移动到目标相邻格后使用说得指令（注 4）。其他 Z 新系统：照准值（新能力值，影响命中）、连续目标补正（同一阶段内每回避一次、回避率 −5%）、包围加成（目标四边有 2–3 个我方小队相邻 +5% 伤害、4 个 +10%）均据日文维基。</p>
+
+      <h2>改造继承、全改造奖励、巴扎与周回继承</h2>
+      <p><strong>改造</strong>：机体/武器分段改造，全改造后从成对的奖励中选其一（最大 HP/EN/运动性/命中/装甲 +10%、四种地形武器/机体适应 S、屏障耗 EN 变 0、移动力 +1、武器射程 +1（射程 1/MAP 除外）、赋予干扰功能（全队命中/回避 +10%，已有干扰的机体不可选）、武器暴击 +10%——据 Akurasu Upgrade Bonus 页）。通常改造上限的数值在所查 Akurasu 页面中未明文给出（特别模式为 15 段，见下），本站不写死。<strong>改造继承</strong>共 20 余组：高达 X→高达 DX（第27话·兰德）、DX→G 猎鹰（第33话·兰德搜索伦顿线，两机共享改造）、高达 Mk-II→Z 高达（第33话·节子直布罗陀线）、脉冲→命运、烈焰扎古幻影→传说（均第43话）、自由→强袭自由（第43话）、巴尔戈拉 1 号机→改→荣耀、格兰凯撒→神格拉维昂→索尔格拉维昂、尼尔瓦修→spec2→spec3 等；被替换的旧机多数保留，少数不保留（各关页面注明）。巴尔戈拉 2/3 号机的改造费在第 9 话末（3 号机）与第 21 话末（2 号机）返还。<strong>强化部件</strong>每机 2–4 槽（强机多为 2 槽），由击破敌人与过关获得。</p>
+      <p><strong>巴扎（バザー，市集）</strong>：在幕间（部分地图除外）用<strong>蓝石（BS）</strong>而非资金买卖：可买入/卖出强化部件，机体可买不可卖。每话结束时目录只随机列出 9 种部件、各限购 1 个，每话的目录各不相同，部分话有特价。巴扎还卖整机（100–280 BS），含路线限定机：节子线限定的阿西玛、兰德线限定的 Government 与 Mexbrute，其余如达格、卡普里克、普罗梅斯、加拉帕戈斯、哥雷姆、里格兹、布罗卡利等按话数与路线开放（Akurasu Bazaar Items 页）。多条隐藏链要在巴扎买齐一套交易品才能完成（见隐藏要素总览）。</p>
+      <p><strong>周回继承</strong>（Akurasu Clear Bonuses 页）：资金按「总获得额」继承——通关 1 次 25%、2 次 50%、3 次 75%、4 次 100%（改造花掉的也计入总获得额）；PP 同比例；击坠数继承；蓝石保留本轮全额 + 上一轮的 25–100%。上限：资金 99,999,999 / PP 99,999 / 蓝石 999,999 / 击坠 9,999。特殊规则：二周目起优佳丽继承伦顿的 PP 与击坠数；莎拉·泰瑞尔在换乘时继承杰米尔的 PP/击坠；亚历克斯（Alex）的击坠/PP 不会转给阿斯兰。通关后解锁 <strong>EX-HARD</strong>（不可改造、不可用 PP、巴扎不可买部件）；<strong>节子与兰德两线都通关后解锁特别模式</strong>（改造上限 15 段、开局附赠大量部件）。二周目起第 47 话后可无条件选择 ZEUTH/ZAFT 线。与其他作品（包括 Z 特别盘）之间的存档连动特典，在所查来源中<strong>均无记载</strong>（特别盘是外传剧本与鉴赏内容的补充盘，不是连动盘）。</p>
+
+      <h2>敌方编成数据现状</h2>
+      <p>本作有两个互相独立的逐关编成来源：日文字站 <strong>s-rpg-navi</strong> 的逐关表（本站已逐页清点，<strong>107 个剧本全覆盖</strong>，字段含机体/驾驶员/等级/台数/HP/资金/PP、增援触发与掉落部件，原表以难度 <strong>HARD</strong> 为基准）与英文 <strong>CO_Adder</strong> 攻略（GameFAQs 54485，走完两条主人公线，小队长+队员式编成与增援触发；无等级/HP 等数值）。其中 <strong>99 个剧本达到本站双源标准</strong>，已逐页并列刊出两份编成表（第 56 话 ZEUTH 线另有刊载不完整注记，见该页）；<strong>7 个剧本只有 navi 单一来源</strong>（节子线第 33–35 话边境巡逻、兰德线第 33–35 话搜索伦顿、坏结局最终话——CO_Adder 的攻略未完成这几段），按双源规则<strong>暂不刊出、等待用户裁决</strong>是否按单一来源导入（本站 F 完结编有单源导入先例）；同样，navi 原表的<strong>等级/HP/资金/PP/掉落列属单源字段，未转录，一并待裁决</strong>（双源刊载的只是「哪些机体、以何种小队构成与数量、何种触发增援」这一层）。两源表述粒度有别（如第 10 话 navi 细分为指挥官机/通常型/后续型三类、CO_Adder 合并记为同型 ×5），总数一致，本站照两源原样并列。敌方<strong>坐标与逐格地形在任何来源中都不存在</strong>，各页地图为带四边坐标轴的参考框。</p>
+
+      <h2>参战作品（全 21 条目）</h2>
+      <p>OVERMAN 金盖纳★、THE 大 O、THE 大 O（第 2 期）★、无敌钢人戴坦 3、无敌超人赞波特 3、战斗机甲萨本格尔、机动战士 Z 高达（剧场版 A New Translation）、机动战士高达 逆袭的夏亚、机动新世纪高达 X、∀高达、机动战士高达 SEED DESTINY、魔神 Z、大魔神、UFO 机器人古连达萨、盖塔机器人 G、宇宙大帝古德西格马★、创圣的阿克艾利昂★、交响诗篇优佳丽 7★、超时空世纪奥加斯★、宇宙战士巴尔迪奥斯★、超重神格拉维昂★、超重神格拉维昂 Zwei★，及万普雷斯特原创。（据 Akurasu Series 页：★＝系列初参战共 9 条目；大 O 第 2 期若与大 O 合并计则为 8 作。Akurasu 亦称本作的新参战作品数是自初代以来最多的一作。参战作品本体 20 作 + 原创。）</p>
+
+      <h2>长线隐藏要素总览</h2>
+      <p>下表汇总跨多话的连锁隐藏要素与主要单关要素；每一步的完整条件写在触发／结算的那一话页面内。本作隐藏要素共 33 项（Akurasu Secrets 页：14 名隐藏人物、6 台隐藏机体、9 项隐藏武装/攻击、4 件隐藏部件），另有 ZEUTH 点、结局点与史黛拉/芙罗/秋三套人物点数。与 SR 点相关的代偿规则见上文「熟练度」一节。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>高达 Mk-II（黑色）与迪杰</td><td>第3话埋点、第25话判定</td><td>第3话（节子线）不击破艾玛的高达 Mk-II，阿姆罗将乘黑色 Mk-II 加入；迪杰需卡缪、夏亚、布莱特、艾玛、蕾柯亚、阿波利、罗伯特、阿姆罗、卡兹 9 人在第25话结束时平均等级 ≥25</td></tr>
+            <tr><td>加普兰（芙罗）</td><td>第36话判定、第38话加入</td><td>芙罗点 ≥5，或 ≥4 且 SR 点 ≥28（详见熟练度一节）</td></tr>
+            <tr><td>盖亚高达（史黛拉）</td><td>第36话判定</td><td>史黛拉点 ≥8，或 ≥7 且 SR 点 ≥28；ZEUTH 线第51话 / ZAFT 线第56话加入</td></tr>
+            <tr><td>哈曼与卡碧尼</td><td>第47话选择、第51话后加入</td><td>走 ZEUTH 线，哈曼与卡碧尼在第51话后加入</td></tr>
+            <tr><td>蕾伊（传说高达）与塔莉娅（密涅瓦）</td><td>第47话起连锁（共 5 步）</td><td>须走 ZEUTH 线并完成后续各步，第56–57话一带结算</td></tr>
+            <tr><td>伊扎克（GOUF 烈焰）</td><td>多话连锁</td><td>按 Secrets 页各步（与迪亚卡相关事件）在终盘加入</td></tr>
+            <tr><td>莎拉（波里诺克·萨曼）与蕾柯亚（帕拉斯·雅典娜）</td><td>第35话一带</td><td>连锁条件达成后两人加入（Secrets 页该条的图表格有一处错位，以详解为准，见分歧说明）</td></tr>
+            <tr><td>蒂法（高达 DX 副驾驶）与 G 比特</td><td>第50话（ZAFT）/第52话（ZEUTH）结算</td><td>5 个事件条件集齐 2 个以上，或以 SR 点代偿（蒂法 40+、G 比特 50+）；节子线必须靠 SR 点（见熟练度一节）</td></tr>
+            <tr><td>洁涅（凯奥斯·卡帕）与阿萨基姆（狩狼牙）最终战助战</td><td>第58话判定、最终话登场</td><td>结局点 ≥15，或结局点 ≥7 且 SR 点 ≥46；最终话还有「让兰德亲手击破阿萨基姆」等关内步骤</td></tr>
+            <tr><td>查尔斯与蕾（斯皮亚海德）最终战助战</td><td>兰德线限定连锁</td><td>达成后在好结局最终话以友军登场（与洁涅/阿萨基姆同为最终话助战组）</td></tr>
+            <tr><td>救秋（Aki 生存）</td><td>第5–6话（节子线）等</td><td>秋点：节子线 ≥7；兰德线 ≥4 且 SR 点 ≥32</td></tr>
+            <tr><td>铁甲鬼</td><td>第24–25话</td><td>第24话让龙马与铁甲鬼交战至少一次；第25话在全灭敌人后的单挑中于 3 回合内击破，过关后加入</td></tr>
+            <tr><td>突击型阿克艾利昂（阿尔法等）</td><td>第48话（ZEUTH 线）/第53话</td><td>第48话击破阿尔法与德尔塔两机，并在巴扎购买向量机（ベクターマシン）即提前入手；否则第53话后入手</td></tr>
+            <tr><td>萨本格尔 2 号机、拉什罗德（亚萨巴）</td><td>巴扎与击坠数连锁</td><td>2 号机经巴扎入手；拉什罗德需基拉等人合计击坠数在第18话（加利亚线）结束时 ≥100 等步骤</td></tr>
+            <tr><td>TFO、飞甲冲撞、百万吨火箭炮、巨型助推器、等离子机关与 O 雷、巴尔迪罗塞、生物感应武装、大 O 最终形态、Final Dynamic Special</td><td>各话</td><td>隐藏武装/攻击组：多为单关事件、击破指定敌人或巴扎交易（如巨型助推器有「提前」版本）</td></tr>
+            <tr><td>4 件隐藏强化部件（英雄之证、钢之魂、哈罗、影天使之羽）</td><td>兰德线限定，巴扎交易链</td><td>在巴扎按链条逐件购买交易品（如熏蜥蜴→纳豆→熏大蜥蜴→英雄之证；银饰品→化妆品→花束→钢之魂）后换得，均为兰德线才出现的交易品</td></tr>
+            <tr><td>三种可玩最终话与五种结局</td><td>第59话判定</td><td>结局点与回答决定（见熟练度一节的结局点说明）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets、Series、Bazaar Items、Upgrade Bonus、Clear Bonuses、Birthday、Squad Leader Bonus 各页交叉核对；系统以日文维基（Z 条目与系列系统条目）及日本 SRW Wiki 互证；敌方编成以 s-rpg-navi 与 GameFAQs 的 CO_Adder 攻略交叉刊载。已确认的主要分歧与处理：①主人公名——Akurasu 主条目作 Rand、其流程图作 Land，本站作兰德并在此注明；梅尔的拼写 Akurasu 内部 Mail/Mel 并存。②第 48 话后两线的来源口径——s-rpg-navi 图表把两线列名作「ザフトルート／通常ルート」，其「ザフトルート」列的关卡标题（楽園の追放者等）与 Akurasu 的 ZEUTH 线一致，本站按关卡标题归属、路线名从 Akurasu（并以 CO_Adder 同关编成抽验：第 48 话两源均为百鬼系敌群，与 ZEUTH 线一致）。③第 47 话 ZEUTH 门槛——节子/兰德两格原文的点数表述不对称（自由选择 10 点 vs 8 点、自动进入的代偿点数 7–8 vs 7），本站照原文分列、不擅自统一。④卫星加农炮的蓄力回合——Akurasu Special Systems 作 3 回合、日文维基作 4 回合（可能为「第 4 回合可用」的计数差异），本站并记。⑤特别模式解锁——Akurasu 的 Z 专题页作「节子与兰德两线都通关」，日文维基系列系统条目的通例表述作「通关 EX-HARD 后」，本站从 Z 专题页。⑥中央/散开阵型的小队攻击威力比例（50%/80%）仅见于二手攻略摘要，日文维基只作定性记载，本站不刊具体百分比。⑦第 55 话日文标题——Akurasu 流程图作「永延に耀け」，s-rpg-navi 作「永遠に輝け」，本站标题从 Akurasu 并在此注明。⑧Secrets 页图表中莎拉/蕾柯亚一条的第 35 话步骤与 ZEUTH 点条目文字交错，本站以同页详解为准。⑨钢雷昂的「Magna 模式」之名见于非 Akurasu 的英文资料，Akurasu 各页只记第 32 话强化事件本身，本站正文不使用该名。</p>
+    </div>
+  )}
+
   {isSrwJ && (
     <div>
       <h2>剧情概要：来自宇宙的「审判者」</h2>
@@ -2995,6 +3118,11 @@ const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
     <div>
       <p>本作 <strong>147 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：OG1 篇 74 个、OG2 篇 61 个、OG2.5 篇 12 个；一周目实际游玩 104 话——三篇的路线分歧与同号异关全部建页）。下表为按篇章分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入、本关隐藏要素（跨话连锁的每一步与篇间继承限定都写在触发/结算的那一话里）与坐标地图（敌方编成为多来源待裁决暂不刊载、坐标与地形无源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-ogs/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwOgsMissionList />
+    </div>
+  ) : isSrwZ ? (
+    <div>
+      <p>本作 <strong>107 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目沿编号主干第1–59话＋最终话共 60 个位置——节子/兰德双主人公双线、第16–19话太平洋/加利亚部队分线、第33–35话四路分线、第48–53与56–57话 ZEUTH/ZAFT 双线、按结局点判定的第59话与三种可玩最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（SR点）取得条件</strong>、我方加入、本关隐藏要素（路线选择、ZEUTH 点/结局点与 SR 点代偿都写在触发/结算的那一话里）与坐标地图（敌方编成在 99 个剧本由 s-rpg-navi 与 GameFAQs 攻略双源交叉刊载，7 个剧本为单一来源暂不刊载、ZEUTH 线第56话为部分刊载；敌方坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-z/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwZMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

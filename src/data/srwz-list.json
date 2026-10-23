@@ -1,0 +1,1051 @@
+{
+ "groups": [
+  {
+   "title": "序盘·第1–9话（节子/兰德双线）",
+   "intro": "开局从节子·奥哈拉与兰德·特拉维斯中选一人为主人公，第1–9话两线各不相同。",
+   "rows": [
+    {
+     "code": "第1话·节子线",
+     "zh": "天选之人",
+     "ja": "ザ･ライトスタッフ",
+     "en": "The Right Stuff",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·兰德线",
+     "zh": "流浪的修理屋",
+     "ja": "さすらいの修理屋",
+     "en": "The Wandering Mechanics",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·节子线",
+     "zh": "愤怒的双眸",
+     "ja": "怒れる瞳",
+     "en": "Angry Eyes",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·兰德线",
+     "zh": "启程之日",
+     "ja": "旅立ちの日",
+     "en": "Day of Departure",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·节子线",
+     "zh": "两个世界",
+     "ja": "二つの世界",
+     "en": "Two Worlds",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·兰德线",
+     "zh": "破戒的援军们",
+     "ja": "掟破りの助っ人達",
+     "en": "Lawbreaking Helpers",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·节子线",
+     "zh": "外星人来袭",
+     "ja": "異星人襲来",
+     "en": "Alien Invasion",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·兰德线",
+     "zh": "各自的旅程，各自的缘由",
+     "ja": "それぞれの旅,それぞれの事情",
+     "en": "Respective Journeys, Respective Circumstances",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·节子线",
+     "zh": "觉醒之日",
+     "ja": "目覚めの日",
+     "en": "Day of Awakening",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·兰德线",
+     "zh": "月亮骑士",
+     "ja": "ムーン・ライダーズ",
+     "en": "Moon Riders",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·节子线",
+     "zh": "超重神降临",
+     "ja": "超重神降臨",
+     "en": "Descend, Super Gravity God",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·兰德线",
+     "zh": "祭典之夜",
+     "ja": "祭りの夜に",
+     "en": "The Night of the Festival",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·节子线",
+     "zh": "月光，染上怒火",
+     "ja": "月光、怒りに染めて",
+     "en": "Moonlight, Tainted by Rage",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·兰德线",
+     "zh": "月之女神",
+     "ja": "月の女神",
+     "en": "Goddess of the Moon",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·节子线",
+     "zh": "世界终结之时",
+     "ja": "世界の終わる時",
+     "en": "The End of the World",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·兰德线",
+     "zh": "天翅的记忆",
+     "ja": "天翅の記憶",
+     "en": "Angel Memories",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·节子线",
+     "zh": "时空破坏",
+     "ja": "時空破壊",
+     "en": "Dimension Crash",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·兰德线",
+     "zh": "世界终结之日",
+     "ja": "世界の終わりの日",
+     "en": "The Day the World Ends",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流·第10–15话（共通）",
+   "intro": "第10话起两线合流为共通路线，第15话后再次分线。",
+   "rows": [
+    {
+     "code": "第10话·共通线",
+     "zh": "击碎世界",
+     "ja": "ブレイク・ザ・ワールド",
+     "en": "Break the World",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·共通线",
+     "zh": "范式转移",
+     "ja": "パラダイム・シフト",
+     "en": "Paradigm Shift",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·共通线",
+     "zh": "蓝天之鱼",
+     "ja": "ブルースカイ・フィッシュ",
+     "en": "Blue Sky Fish",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·共通线",
+     "zh": "站起来，宇宙的战士！",
+     "ja": "立ち上がれ、宇宙の戦士！",
+     "en": "Stand Tall, Warrior of Space!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·共通线",
+     "zh": "聚集的异邦人",
+     "ja": "集う異邦人たち",
+     "en": "The Gathering Strangers",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·共通线",
+     "zh": "向着看不见的明天",
+     "ja": "見えない明日へ",
+     "en": "To an Unseen Tomorrow",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第16–19话（太平洋部队/加利亚部队）",
+   "intro": "第15话后自愿加入太平洋部队或加利亚部队，两侧话目不同，第20话合流。",
+   "rows": [
+    {
+     "code": "第16话·太平洋部队",
+     "zh": "交汇的决心",
+     "ja": "交差する決意",
+     "en": "Crossing Resolves",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·加利亚部队",
+     "zh": "特异点",
+     "ja": "特異点",
+     "en": "Singularity Point",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·太平洋部队",
+     "zh": "蓝色流浪者",
+     "ja": "青い放浪者",
+     "en": "Blue Drifter",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·加利亚部队",
+     "zh": "地狱的驿传竞走",
+     "ja": "地獄のエキデン",
+     "en": "The Relay from Hell",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·太平洋部队",
+     "zh": "染血的双眸",
+     "ja": "血に染まる瞳",
+     "en": "Bloodstained Eyes",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·加利亚部队",
+     "zh": "别了，我的朋友",
+     "ja": "さらば、我が友よ",
+     "en": "Farewell, My Friend",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·太平洋部队",
+     "zh": "复苏之翼",
+     "ja": "よみがえる翼",
+     "en": "Resurrected Wings",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·加利亚部队",
+     "zh": "建国的暴风雪",
+     "ja": "建国のブリザード",
+     "en": "Nation-Founding Blizzard",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "中盘·第20–25话（共通与第21话双线）",
+   "intro": "第20话合流，第21话按主人公分线，其后至第25话为共通路线。",
+   "rows": [
+    {
+     "code": "第20话·共通线",
+     "zh": "没有谎言的世界",
+     "ja": "ウソのない世界",
+     "en": "A World Without Lies",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·节子线",
+     "zh": "被留下之物",
+     "ja": "残されるもの",
+     "en": "That Which Remains",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·兰德线",
+     "zh": "父亲的回忆",
+     "ja": "父の思い出",
+     "en": "Memories of Father",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·共通线",
+     "zh": "只属于自己的出走",
+     "ja": "自分だけのエクソダス",
+     "en": "My Own Exodus",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·共通线",
+     "zh": "百鬼的挑战书",
+     "ja": "百鬼の挑戦状",
+     "en": "Challenge from the Hyakki",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·共通线",
+     "zh": "光子力研究所夺还作战",
+     "ja": "光子力研究所奪還作戦",
+     "en": "The Photon Power Laboratory Recapture Operation",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·共通线",
+     "zh": "黑暗的巢穴",
+     "ja": "闇の住処",
+     "en": "Darkness' Lair",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第26–32话（节子/兰德双线）",
+   "intro": "第25话共通线之后再次按主人公分线：第26–32话节子线与兰德线各不相同，第32话结束时各自再分二路。",
+   "rows": [
+    {
+     "code": "第26话·节子线",
+     "zh": "香港市",
+     "ja": "ホンコン・シティ",
+     "en": "Hong Kong City",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·兰德线",
+     "zh": "走进大自然",
+     "ja": "イントゥ・ザ・ネイチャー",
+     "en": "Into the Nature",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·节子线",
+     "zh": "产生的裂痕",
+     "ja": "生じる亀裂",
+     "en": "Rising Fissure",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·兰德线",
+     "zh": "15年后的亡灵",
+     "ja": "１５年目の亡霊",
+     "en": "The Ghost From 15 Years Ago",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·节子线",
+     "zh": "白银之牙",
+     "ja": "しろがねの牙",
+     "en": "Silver Fang",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·兰德线",
+     "zh": "灵魂的角色扮演者",
+     "ja": "魂のコスプレイヤー",
+     "en": "Spirit Cosplayer",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·节子线",
+     "zh": "灼热的海原",
+     "ja": "灼熱の海原",
+     "en": "The Boiling Sea",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·兰德线",
+     "zh": "局外人",
+     "ja": "アウトサイダー",
+     "en": "Outsider",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·节子线",
+     "zh": "罪之所在",
+     "ja": "罪の在処",
+     "en": "The Place of Sin",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·兰德线",
+     "zh": "体验",
+     "ja": "アクペリエンス",
+     "en": "Acperience",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·节子线",
+     "zh": "羁绊所生之物",
+     "ja": "絆が生むもの",
+     "en": "Born From Our Bonds",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·兰德线",
+     "zh": "被撕裂的过去",
+     "ja": "引き裂かれる過去",
+     "en": "Shattered Past",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·节子线",
+     "zh": "名为悲伤的力量",
+     "ja": "悲しみという力",
+     "en": "The Power Called Sadness",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·兰德线",
+     "zh": "为了做我自己",
+     "ja": "俺が俺であるために",
+     "en": "So I Can Be Myself",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第33–35话（四路分线）",
+   "intro": "第32话结束时的选择形成四路：节子线（直布罗陀基地／边境巡逻）与兰德线（搜索伦顿／留守看舰），第36话合流。",
+   "rows": [
+    {
+     "code": "第33话·节子线（直布罗陀）",
+     "zh": "Z的鼓动",
+     "ja": "Ｚの鼓動",
+     "en": "Pulse of Zeta",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·节子线（边境巡逻）",
+     "zh": "群星闪耀之时",
+     "ja": "星が輝く時",
+     "en": "When the Stars Shine",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·兰德线（搜索伦顿）",
+     "zh": "孤独的逃亡",
+     "ja": "ロンリー・ランナウェイ",
+     "en": "Lonely Runaway",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·兰德线（留守看舰）",
+     "zh": "致远方的朋友",
+     "ja": "遠き友へ",
+     "en": "O Distant Friend...",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·节子线（直布罗陀）",
+     "zh": "虚假的女王，假面的公主",
+     "ja": "偽りの女王, 仮面の姫",
+     "en": "The False Queen and the Masked Princess",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·节子线（边境巡逻）",
+     "zh": "这颗星球属于谁",
+     "ja": "この星は誰のもの",
+     "en": "To Whom Does This Planet Belong?",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·兰德线（搜索伦顿）",
+     "zh": "奇异的接触",
+     "ja": "ストレンジ・コンタクト",
+     "en": "Strange Contact",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·兰德线（留守看舰）",
+     "zh": "愤怒的铁路王",
+     "ja": "怒りの鉄道王",
+     "en": "The Angry Railroad King",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·节子线（直布罗陀）",
+     "zh": "战斗神之影",
+     "ja": "戦闘神の影",
+     "en": "Shadow of the War God",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·节子线（边境巡逻）",
+     "zh": "悲叹的念珠",
+     "ja": "嘆きのロザリオ",
+     "en": "Rosary of Grief",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·兰德线（搜索伦顿）",
+     "zh": "牵牛花",
+     "ja": "モーニング・グローリー",
+     "en": "Morning Glory",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·兰德线（留守看舰）",
+     "zh": "超越之战",
+     "ja": "オーバー・バトル",
+     "en": "Over Battle",
+     "type": "分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第36–40话（节子/兰德双线）",
+   "intro": "四路合流后仍按主人公分线：第36–40话节子线与兰德线各不相同。",
+   "rows": [
+    {
+     "code": "第36话·节子线",
+     "zh": "恸哭的星空",
+     "ja": "慟哭の星空",
+     "en": "The Wailing Night Sky",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·兰德线",
+     "zh": "被昭示的明天",
+     "ja": "示される明日",
+     "en": "Indicative Tomorrow",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·节子线",
+     "zh": "新地球联邦重组",
+     "ja": "新地球連邦再編",
+     "en": "Reshuffle in the New Earth Federation",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·兰德线",
+     "zh": "肃清的风暴",
+     "ja": "粛清の嵐",
+     "en": "Purging Storm",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·节子线",
+     "zh": "起舞的噩梦",
+     "ja": "踊る悪夢",
+     "en": "Dancing Nightmare",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·兰德线",
+     "zh": "被安排的决战",
+     "ja": "仕組まれた決戦",
+     "en": "Preplanned Showdown",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·节子线",
+     "zh": "举起旗帜",
+     "ja": "レイズ・ザ・フラッグ",
+     "en": "Raise the Flag",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·兰德线",
+     "zh": "让它启动",
+     "ja": "スタート・イット・アップ",
+     "en": "Start It Up",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话·节子线",
+     "zh": "冲击再临",
+     "ja": "インパクト･アゲイン",
+     "en": "Impact Again",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话·兰德线",
+     "zh": "崩坏序曲",
+     "ja": "崩壊序曲",
+     "en": "Prelude to Destruction",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第41–46话（共通）",
+   "intro": "第41话起两线完全合流的共通话，结局点系统自第41话起计入。",
+   "rows": [
+    {
+     "code": "第41话·共通线",
+     "zh": "交叉点",
+     "ja": "クロス・ポイント",
+     "en": "Cross Point",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·共通线",
+     "zh": "终章开幕",
+     "ja": "終章開幕",
+     "en": "The Beginning of the End",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·共通线",
+     "zh": "命运与自由",
+     "ja": "運命と自由と",
+     "en": "Destiny and Freedom",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·共通线",
+     "zh": "飘落的太阳",
+     "ja": "舞い降りる太陽",
+     "en": "The Falling Sun",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·共通线",
+     "zh": "遗产的继承者",
+     "ja": "遺産の継承者",
+     "en": "Inheritors of the Legacy",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·共通线",
+     "zh": "混迷中的正义",
+     "ja": "混迷の中の正義",
+     "en": "Justice Amongst the Chaos",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第47话（双线·ZEUTH/ZAFT路线抉择）",
+   "intro": "第47话仍按主人公分线；本话结束时按ZEUTH点与SR点判定（或二周目自由选择）进入ZEUTH路线或ZAFT路线，影响第48–53话与第56–57话。",
+   "rows": [
+    {
+     "code": "第47话·节子线",
+     "zh": "倒计时",
+     "ja": "カウント・ダウン",
+     "en": "Count Down",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·兰德线",
+     "zh": "我们的去向",
+     "ja": "俺達の行き先",
+     "en": "What Lies Ahead",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第48–53话（ZEUTH/ZAFT双线）",
+   "intro": "第47话结束时的路线选择决定本段走向：ZEUTH线与ZAFT线各话标题、剧情与隐藏要素均不相同，按话数交错排列（ZEUTH在前、ZAFT在后）。",
+   "rows": [
+    {
+     "code": "第48话·ZEUTH线",
+     "zh": "乐园的放逐者",
+     "ja": "楽園の追放者",
+     "en": "Eden's Castaways",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·ZAFT线",
+     "zh": "背叛的月光",
+     "ja": "裏切りの月光",
+     "en": "Duplicitous Moonlight",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话·ZEUTH线",
+     "zh": "幻想的大都会",
+     "ja": "幻想のメトロポリス",
+     "en": "Illusionary Metropolis",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话·ZAFT线",
+     "zh": "绝望之光，希望之灯",
+     "ja": "絶望の光, 希望の灯",
+     "en": "Light of Despair, Glimmer of Hope",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话·ZEUTH线",
+     "zh": "人之心，天使之梦",
+     "ja": "ヒトの心, テンシの夢",
+     "en": "A Human's Heart, An Angel's Dream",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话·ZAFT线",
+     "zh": "我是D.O.M.E.……",
+     "ja": "私はＤ．Ｏ．Ｍ．Ｅ．・・・・・・",
+     "en": "I am D.O.M.E.......",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·ZEUTH线",
+     "zh": "诀别",
+     "ja": "決別",
+     "en": "Farewell",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·ZAFT线",
+     "zh": "绯红之路",
+     "ja": "紅い道",
+     "en": "The Crimson Path",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·ZEUTH线",
+     "zh": "黑历史的真相",
+     "ja": "黒歴史の真実",
+     "en": "The Truth of the Black History",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·ZAFT线",
+     "zh": "盖因超越",
+     "ja": "ゲインオーバー",
+     "en": "Gain Over",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·ZEUTH线",
+     "zh": "月面决战",
+     "ja": "月面決戦",
+     "en": "Lunar Showdown",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·ZAFT线",
+     "zh": "扭曲的审判",
+     "ja": "歪んだ裁き",
+     "en": "Warped Judgement",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第54–55话（共通）",
+   "intro": "双线合流后的共通话。",
+   "rows": [
+    {
+     "code": "第54话·共通线",
+     "zh": "灵魂的凯歌",
+     "ja": "魂の凱歌",
+     "en": "Triumphal Song of the Soul",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·共通线",
+     "zh": "永远闪耀吧，我们的星球",
+     "ja": "永延に耀け, 僕らの星よ",
+     "en": "Shine Forevermore, Our Beloved Planet",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第56–57话（ZEUTH/ZAFT双线）",
+   "intro": "再次按第47话的路线选择分线，雷／哈曼／史黛拉等隐藏要素的结算话。",
+   "rows": [
+    {
+     "code": "第56话·ZEUTH线",
+     "zh": "你的身姿，我的身姿",
+     "ja": "君の姿, 僕の姿",
+     "en": "Your Self, My Self",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·ZAFT线",
+     "zh": "最后的力量",
+     "ja": "最後の力",
+     "en": "The Final Power",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·ZEUTH线",
+     "zh": "终末之光",
+     "ja": "終末の光",
+     "en": "Climactic Light",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·ZAFT线",
+     "zh": "向星星许愿",
+     "ja": "星に願いを",
+     "en": "Wish Upon a Star",
+     "type": "终盘分线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第58话（共通）·第59话（双线·结局判定）",
+   "intro": "第58话为共通话（选择可扣结局点数15点）；第59话按主人公分线，并在此以结局点数与提问回答判定结局。",
+   "rows": [
+    {
+     "code": "第58话·共通线",
+     "zh": "回忆",
+     "ja": "メモリーズ",
+     "en": "Memories",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第59话·节子线",
+     "zh": "黑色世界",
+     "ja": "黒の世界",
+     "en": "World in Black",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第59话·兰德线",
+     "zh": "被涂抹的明天",
+     "ja": "塗り潰される明日",
+     "en": "Overpainted Tomorrow",
+     "type": "主人公专属",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终话（3个版本）",
+   "intro": "好结局／最佳结局1 进入主人公专属最终话；坏结局（黑历史）为双线共用最终话。通常结局与最佳结局2 无最终话。",
+   "rows": [
+    {
+     "code": "最终话·节子线（好结局）",
+     "zh": "我的未来，大家的未来",
+     "ja": "私の未来、みんなの未来",
+     "en": "My Future, Everyone's Future",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·坏结局",
+     "zh": "走向无尽的战斗之环",
+     "ja": "果て無き戦いの環へ",
+     "en": "Into an Endless Cycle of War",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话·兰德线（好结局）",
+     "zh": "我的未来，你的未来",
+     "ja": "俺の未来、お前の未来",
+     "en": "My Future, Your Future",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

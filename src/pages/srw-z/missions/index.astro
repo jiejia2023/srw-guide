@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwZMissionList from '../../../components/SrwZMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Z', path: 'srw-z/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战Z（PS2）关卡攻略 · 全107个剧本页面列表" description="超级机器人大战Z（2008年 PS2）全部剧本的页面列表：节子/兰德双主人公线、第16–19话太平洋/加利亚部队分线、第33–35话四路分线、第48–57话 ZEUTH/ZAFT 双线、按结局点判定的第59话与三种最终话。每关独立攻略页含胜利/败北条件、熟练度（SR点）取得条件、我方加入、本关隐藏要素、敌方编成与坐标地图。本页为链接索引。" path="srw-z/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战Z · 关卡攻略</h1>
+  <p>2008 年 PS2《超级机器人大战Z》是 <strong>PS2 最后一作机战</strong>，也是新系列「Z 系列」的开篇。开局从两位主人公中选一人：地球联邦军战技研究班「Glory Star」的<strong>节子·奥哈拉</strong>（巴尔戈拉驾驶员，出身于宇宙世纪/SEED DESTINY 侧的世界），或是在荒废的未来世界经营流动修理屋「Beater Service」的<strong>兰德·特拉维斯</strong>（钢雷昂驾驶员，出身于萨本格尔/高达X 侧的世界）；未被选中的一位不会加入我方、将单独行动并在中盘一度以敌方身份登场。编号主干一周目为第 1–59 话加最终话共 60 个位置：序盘（第 1–9 话）与中盘多段（第 21、26–32、36–40、47 话）为双线，中途有第 16–19 话的<strong>太平洋部队/加利亚部队</strong>分线、第 33–35 话的<strong>四路分线</strong>；第 47 话后按隐藏计数「ZEUTH 点」（或 SR 点代偿、二周目）决定走 <strong>ZEUTH 线还是 ZAFT 线</strong>（第 48–53、56–57 话）；第 59 话再按另一套隐藏计数<strong>「结局点」</strong>与玩家的回答分出结局（文字结局的通常/最佳结局之外，可玩的最终话有节子好结局、兰德好结局与坏结局三种）。本站按 Akurasu 流程图逐条清点共 <strong>107 个剧本</strong>，全部建有详情页，与 Akurasu 主页标示的 107 个可玩剧本一致。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-z/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 <strong>107 个剧本页面全部建有详情页</strong>。流程、胜败条件、<strong>熟练度（SR点）取得条件</strong>、加入与隐藏要素以 Akurasu 的 Z 流程图与隐藏要素页为主源，系统规则以日文维基交叉核对。敌方<strong>编成</strong>有两个互相独立的来源（日文 s-rpg-navi 逐关表与英文 GameFAQs 攻略 CO_Adder）：达到双源标准的剧本已并列刊载两份编成表（ZEUTH 线第 56 话的 CO_Adder 一侧刊载不完整——其第二波增援为空表，该页有注记）；<strong>只有 navi 单一来源的范围</strong>——节子线第 33–35 话（边境巡逻）、兰德线第 33–35 话（搜索伦顿）、坏结局最终话共 7 个剧本——按本站双源规则暂不刊出、等待用户裁决，各页已如实标注；navi 原表的等级/HP/资金/PP/掉落列同为单源字段，未转录、一并待裁决。<strong>如实说明</strong>：本作没有任何公开来源刊载逐关敌方坐标与地图地形，故各页地形标为待核实、坐标图为带四边坐标轴的参照框架。本页只做 PS2 原版（2008 年）。</span>
+  </div>
+
+  <SrwZMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z Flow Chart / SR Point List</a>（全关卡流程、胜败条件、熟练度、机体加入与隐藏要素总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Z Secrets</a>（隐藏要素分项条件、ZEUTH 点/结局点等隐藏计数与五种结局）</li>
+    <li><a href="https://s-rpg-navi.com/srw-z/" rel="noopener" target="_blank">s-rpg-navi — スーパーロボット大戦Z 攻略</a>（逐关敌方编成表：构成、增援；原表以难度 HARD 为基准）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/945859-super-robot-taisen-z/faqs/54485" rel="noopener" target="_blank">GameFAQs — Guide and Walkthrough by CO_Adder (faqs/54485)</a>（敌方小队编成：小队长＋队员构成与增援触发）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦Z</a>（参战作品、SR 点与难度的比例规则、TRI 系统的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-z/')}>← 返回超级机器人大战Z</a></p>
+</Base>
