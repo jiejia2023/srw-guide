@@ -1,0 +1,30 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwAlpha2MissionList from '../../../components/SrwAlpha2MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战α', path: 'srw-alpha-2/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="第2次超级机器人大战α（PS2）关卡攻略 · 全150个剧本页面列表" description="第2次超级机器人大战α（2003年 PS2）全部 150 个不同剧本的页面列表：四位主人公各自的序盘话目（第1–20话）、合流与系别分线、Vital Net/北美新吉翁、月面/阿克西斯、日本/米凯内分线、哈曼休战/拒绝两套终盘与四位主人公的最终话。每关独立攻略页含胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素、敌方编成（两份 GameFAQs 攻略交叉）与坐标地图。本页为链接索引。" path="srw-alpha-2/missions/" breadcrumbs={crumbs}>
+  <h1>第2次超级机器人大战α · 关卡攻略</h1>
+  <p>2003 年 PS2《第2次超级机器人大战α》是 <strong>α 系列</strong>第三作，也是<strong>小队系统的首创作</strong>。结构上与前作大不相同：开局从<strong>四位主人公</strong>（曾伽、楠叶、阿拉德、伊比斯）中选一人，<strong>第 1–20 话四人各有独立话目</strong>，第 21 话合流后反复分合（超级系/真实系、Vital Net/北美新吉翁、月面/阿克西斯、日本/米凯内），第 49 话的<strong>哈曼休战抉择</strong>决定第 50–56 话的整套话目，第 57 话最终话再按主人公分四个版本。单周目实际游玩 57 话；本站按 Akurasu 流程图逐条清点共 <strong>150 个不同剧本</strong>，全部建有独立详情页（Akurasu 主页的表头写作 151，但其流程图、时间线与隐藏要素页可清点的不同场景均为 150，多出的 1 个无对应条目，本站按 150 刊出并在此注明）。每一关的完整攻略（胜败条件、熟练度条件、加入、隐藏要素、敌方编成、坐标地图）都在各自的详情页里；本页只是链接索引，与<a href={href('srw-alpha-2/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站又一部<strong>全关卡补完</strong>的作品——150 个剧本页面全部建有详情页。流程、胜败条件、<strong>熟练度取得条件</strong>、加入与隐藏要素以 Akurasu 的第2次α流程图为主源，与同站 Secrets 页及韩文 Namu 攻略的熟练度总表交叉核对；敌方编成（构成与增援）来自两份独立的 GameFAQs 全文攻略（Deranged、gundamtotoro）交叉刊载，分歧与拼写出入在各页备注中如实标明。<strong>如实说明</strong>：本作没有任何公开来源刊载逐关敌方坐标、等级与地形（两份 GameFAQs 攻略只有编成；Akurasu 只有流程图；s-rpg-navi 无本作条目），故各页坐标与地形标为待核实、坐标图为带四边坐标轴的参照框架。本页只做 PS2 原版（2003 年）。</span>
+  </div>
+
+  <SrwAlpha2MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_2/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha 2 Flow Chart</a>（全关卡流程、胜败条件、熟练度、机体加入与隐藏要素总表；本站关卡编号从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Alpha_2/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Alpha 2 Secrets</a>（隐藏要素分项条件）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/583492-dai-2-ji-super-robot-taisen-alpha/faqs/22732" rel="noopener" target="_blank">GameFAQs — Guide and Walkthrough by Deranged (faqs/22732)</a>（敌方小队编成：小队长＋队长机＋队员，含增援）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ps2/583492-dai-2-ji-super-robot-taisen-alpha/faqs/22734" rel="noopener" target="_blank">GameFAQs — Guide and Walkthrough by gundamtotoro (faqs/22734)</a>（敌方构成：机体＋数量，含增援与掉落物）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E7%AC%AC2%E6%AC%A1%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6%CE%B1" rel="noopener" target="_blank">日本维基百科 — 第2次スーパーロボット大戦α</a>（开发经纬、参战作品与系统沿革的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-alpha-2/')}>← 返回第2次超级机器人大战α</a></p>
+</Base>

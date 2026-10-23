@@ -1,0 +1,208 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwalpha2-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '第2次超级机器人大战α', path: 'srw-alpha-2/' },
+  { label: '关卡攻略', path: 'srw-alpha-2/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`第2次超级机器人大战α（2003 PS2）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素与敌方编成（两份 GameFAQs 攻略交叉刊载）。`} path={`srw-alpha-2/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、熟练度条件、我方加入与隐藏要素来自 Akurasu Wiki 的第2次α流程图与隐藏要素页（熟练度另与韩文 Namu 攻略的熟练度总表交叉核对，分歧见本页备注）。敌方编成（构成与增援）来自两份独立的 GameFAQs 全文攻略（Deranged、gundamtotoro）交叉刊载——这是本作唯一能找到的逐关编成数据：两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>（本站照各自原文刊出，拼写出入保留）。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在（Akurasu 只有流程图；s-rpg-navi 无本作条目），故地图为参照框架。本作的熟练度规则与《α》不同：<strong>每话至多 +1、只升不降</strong>，条件不在游戏内显示；且熟练度只影响难度档位（简单/普通/困难），<strong>路线与结局分歧全部由玩家选择决定</strong>，系统细则见本作主页。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      {m.sr.length ? m.sr.map((v: string) => <div>{v}</div>) : <div>{m.srNote || '本话无熟练度点'}</div>}
+      {m.sr.length > 0 && m.srNote && <div class="muted">{m.srNote}</div>}
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {m.enemies.composition ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——Deranged（faqs/22732）以「小队长＋队长机＋队员」记小队编成，gundamtotoro（faqs/22734）以「机体＋数量」记构成并附掉落物；本站照各自原文刊出（名称为攻略英文原文，两攻略的罗马字拼写多有出入，如 Magaruga / Megruga 为同一机体）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span>
+    </div>
+    {(m.enemies.composition.deranged ?? []).map((g: any) => (
+    <div>
+      <h3>敌方小队编成（Deranged 攻略）{g.part && <span>·{g.part}</span>}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>小队长（驾驶员/小队名）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+        <tbody>
+        {g.squads.map((sq: any) => (
+          <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+      {(g.reinforcements ?? []).map((rg: any) => (
+      <div>
+        <h4>增援：{rg.trigger}</h4>
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>小队长（驾驶员/小队名）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+          <tbody>
+          {rg.squads.map((sq: any) => (
+            <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+          ))}
+          </tbody>
+        </table>
+        </div>
+      </div>
+      ))}
+      {g.notes && <p class="text-sm"><strong>※</strong>{g.notes}</p>}
+    </div>
+    ))}
+    {(m.enemies.composition.totoro ?? []).map((g: any) => (
+    <div>
+      <h3>敌方构成（gundamtotoro 攻略）{g.part && <span>·{g.part}</span>}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>数量</th><th>驾驶员</th><th>备注</th></tr></thead>
+        <tbody>
+        {g.enemies.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.count}</td><td>{e.pilot || '—'}</td><td>{e.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+      {(g.reinforcements ?? []).map((rg: any) => (
+      <div>
+        <h4>增援：{rg.trigger}</h4>
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>单位</th><th>数量</th><th>驾驶员</th><th>备注</th></tr></thead>
+          <tbody>
+          {rg.enemies.map((e: any) => (
+            <tr><td>{e.unit}</td><td>{e.count}</td><td>{e.pilot || '—'}</td><td>{e.note || ''}</td></tr>
+          ))}
+          </tbody>
+        </table>
+        </div>
+      </div>
+      ))}
+      {g.drops && g.drops.length > 0 && (
+      <div>
+        <h4>掉落 / 获得物（gundamtotoro 攻略）</h4>
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>物品</th><th>来源</th></tr></thead>
+          <tbody>
+          {g.drops.map((d: any) => (
+            <tr><td>{d.item}</td><td>{d.from || '—'}</td></tr>
+          ))}
+          </tbody>
+        </table>
+        </div>
+      </div>
+      )}
+      {g.notes && <p class="text-sm"><strong>※</strong>{g.notes}</p>}
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>本关敌方配置（初始配置、增援、等级、坐标）暂无可交叉核对的公开来源，核实后补入。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-alpha-2/missions/')}>← 返回关卡列表</a> · <a href={href('srw-alpha-2/')}>返回第2次超级机器人大战α</a></p>
+</Base>

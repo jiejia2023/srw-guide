@@ -1,0 +1,1426 @@
+{
+ "groups": [
+  {
+   "title": "曾伽线·序盘（第1–20话）",
+   "intro": "四位主人公各有独立的序盘话目（第1–20话标题与内容互不相同）；本组为超级系男主人公曾伽·宗博尔特的路线。",
+   "rows": [
+    {
+     "code": "第1话·曾伽",
+     "zh": "断恶之剑",
+     "ja": "悪を断つ剣なり",
+     "en": "The Sword Which Smites Evil",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·曾伽",
+     "zh": "坠入地狱的剑铁也",
+     "ja": "地獄に堕ちた剣鉄也",
+     "en": "Tetsuya Tsurugi Falls Into Hell",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·曾伽",
+     "zh": "世纪的磁力机器人",
+     "ja": "世紀のマグネ・ロボット",
+     "en": "Century of the MagneRobot",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·曾伽",
+     "zh": "站起来！斗将戴莫斯",
+     "ja": "立て！闘将ダイモス",
+     "en": "Arise! Brave Leader Daimos",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·曾伽",
+     "zh": "太阳的光辉在我手中 前篇",
+     "ja": "我が手に太陽の輝きを −前編−",
+     "en": "I Have Obtained the Brilliance of the Sun -First Act-",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·曾伽",
+     "zh": "太阳的光辉在我手中 后篇",
+     "ja": "我が手に太陽の輝きを −後編ー",
+     "en": "I Have Obtained the Brillance of the Sun -Last Act-",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·曾伽",
+     "zh": "豪将军出击",
+     "ja": "ゴーショーグン発進せよ",
+     "en": "Goshogun Launch!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·曾伽",
+     "zh": "抗体",
+     "ja": "アンチボディ",
+     "en": "Antibody",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·曾伽",
+     "zh": "最终融合，批准！",
+     "ja": "ファイナルフュージョン、承認！",
+     "en": "Final Fusion, Approved!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·曾伽",
+     "zh": "两个死亡先锋",
+     "ja": "二つのクロスボーン・バンガード",
+     "en": "The Two Crossbone Vanguards",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·曾伽",
+     "zh": "宿命的相遇在战火中",
+     "ja": "宿命の出会いは戦火の中",
+     "en": "A Fated Encounter within the Flames of War",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·曾伽",
+     "zh": "从木星归来者",
+     "ja": "木星からの帰還者",
+     "en": "Refugee From Jupiter",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·曾伽",
+     "zh": "悲伤的罪无法用眼泪消除",
+     "ja": "悲しい罪は涙で消えない",
+     "en": "A Sorrowful Sin That Tears Cannot Erase",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·曾伽",
+     "zh": "叛逆的狼烟",
+     "ja": "反逆の狼煙",
+     "en": "Beacon of Mutiny",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·曾伽",
+     "zh": "翱翔天际的高达",
+     "ja": "天翔けるガンダム",
+     "en": "The Soaring Gundam",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·曾伽",
+     "zh": "复活的红色彗星",
+     "ja": "復活の赤い彗星",
+     "en": "Resurrection of the Red Comet",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·曾伽",
+     "zh": "绿发少年",
+     "ja": "緑の髪の少年",
+     "en": "The Boy With Green Hair",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·曾伽",
+     "zh": "遨游银河之船",
+     "ja": "銀河を旅する船",
+     "en": "Milky Way Traveling Ship",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·曾伽",
+     "zh": "所爱之人已逝",
+     "ja": "愛する者は,すでに亡く",
+     "en": "Those You Love, Already Departed",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·曾伽",
+     "zh": "艾丽卡与戴莫斯，泪之战！",
+     "ja": "エリカとダイモス、涙の戦い！",
+     "en": "Erika and Daimos, The Battle of Tears!",
+     "type": "路线汇合",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "楠叶线·序盘（第1–20话）",
+   "intro": "超级系女主人公楠叶（クスハ・ミズハ）的路线，以豪杰/勇者王等作品为中心。",
+   "rows": [
+    {
+     "code": "第1话·楠叶",
+     "zh": "龙虎激突",
+     "ja": "龍虎激突",
+     "en": "Dragon-Tiger Clash",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·楠叶",
+     "zh": "豪将军，合身GO",
+     "ja": "ゴーショーグン、合身GO",
+     "en": "Goshogun, Gasshin GO!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·楠叶",
+     "zh": "勇者王诞生",
+     "ja": "勇者王誕生",
+     "en": "The King of Braves is Born!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·楠叶",
+     "zh": "飞翔吧！大空魔龙凯王",
+     "ja": "飛び立て！大空魔竜ガイキング",
+     "en": "Take Off! Daikyu Maryu Gaiking",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·楠叶",
+     "zh": "来自深海的访客",
+     "ja": "深海からの訪問者",
+     "en": "Visitors from the Deep Sea",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·楠叶",
+     "zh": "其名超龙神",
+     "ja": "その名は超竜神",
+     "en": "His Name is ChoRyuJin",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·楠叶",
+     "zh": "寻求光明",
+     "ja": "光を求めて",
+     "en": "Seeking the Light",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·楠叶",
+     "zh": "另一个盖塔机器人",
+     "ja": "もう一つのゲッターロボ",
+     "en": "Another Getter Robo",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·楠叶",
+     "zh": "太古的怨灵",
+     "ja": "太古の怨霊",
+     "en": "Ancient Grudge",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·楠叶",
+     "zh": "司马宙站起来！强化！！",
+     "ja": "宙よ立て！ビルドアップ！！",
+     "en": "Stand Up, Hiroshi! Build-Up!!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·楠叶",
+     "zh": "G夺回作战",
+     "ja": "G奪回作戦",
+     "en": "G Recapture Operation",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·楠叶",
+     "zh": "军神招来灾祸",
+     "ja": "軍神が災いを呼ぶ",
+     "en": "The God of War Summons Disaster",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·楠叶",
+     "zh": "悄悄接近的邻人",
+     "ja": "忍び寄る隣人",
+     "en": "The Creeping Neighbor",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·楠叶",
+     "zh": "那黑暗名为木星",
+     "ja": "その闇の名は木星",
+     "en": "That Darkness' Name is Jupiter",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·楠叶",
+     "zh": "噩梦！我的哥哥是地球的敌人",
+     "ja": "悪夢！私の兄は地球の敵",
+     "en": "A Nightmare! My Brother is Earth's Enemy",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·楠叶",
+     "zh": "提坦斯的亡灵",
+     "ja": "ティターンズの亡霊",
+     "en": "Ghost of the Titans",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·楠叶",
+     "zh": "两位公主",
+     "ja": "二人の姫君",
+     "en": "Two Princesses",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·楠叶",
+     "zh": "太迟的追击",
+     "ja": "遅すぎた追撃",
+     "en": "Lagging Pursuit",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·楠叶",
+     "zh": "应归之处",
+     "ja": "帰るべき場所",
+     "en": "The Place You'll Return To",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·楠叶",
+     "zh": "赌上祖国荣誉的勇士",
+     "ja": "母国の誇りをかけた勇士",
+     "en": "The Patriotic Hero",
+     "type": "路线汇合",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "阿拉德线·序盘（第1–20话）",
+   "intro": "真实系男主人公阿拉德·巴兰加的路线，以高达系列为中心。",
+   "rows": [
+    {
+     "code": "第1话·阿拉德",
+     "zh": "被抹消的Mk-III",
+     "ja": "抹消されたＭｋ－３",
+     "en": "The Deleted Mark 3",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·阿拉德",
+     "zh": "来到隆德尼恩的男人",
+     "ja": "ロンデニオンに来た男",
+     "en": "The Man From Londenion",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·阿拉德",
+     "zh": "约定消失在火焰中",
+     "ja": "約束は炎に消えて",
+     "en": "The Promise Erased by Flame",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·阿拉德",
+     "zh": "应守护之物、应打倒之敌",
+     "ja": "守るべきもの、倒すべき敵",
+     "en": "What Must Be Protected, What Must Be Defeated",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·阿拉德",
+     "zh": "G的归来",
+     "ja": "Gの帰還",
+     "en": "The Return of G",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·阿拉德",
+     "zh": "动乱的红色之星",
+     "ja": "動乱の赤き星",
+     "en": "The Riotous Red Comet",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·阿拉德",
+     "zh": "宇宙海盗死亡先锋",
+     "ja": "宇宙海賊クロスボーン・バンガード",
+     "en": "Space Pirate Crossbone Vanguard",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·阿拉德",
+     "zh": "被撕裂的心意",
+     "ja": "引き裂かれた想い",
+     "en": "Sundered Emotions",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·阿拉德",
+     "zh": "叛乱与死亡旋风",
+     "ja": "反乱と死の旋風",
+     "en": "Whirlwind of Death and Dissent",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·阿拉德",
+     "zh": "弱肉强食之理",
+     "ja": "弱肉強食の理",
+     "en": "Survival of the Fittest",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·阿拉德",
+     "zh": "强袭隆德尼恩",
+     "ja": "ロンデニオン強襲",
+     "en": "Londenion Raid",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·阿拉德",
+     "zh": "夏亚相信我们的祈祷",
+     "ja": "シャアズ・ビリービング・アワズプレイ",
+     "en": "Char's Believing Ours Pray",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·阿拉德",
+     "zh": "回收者",
+     "ja": "リクレイマー",
+     "en": "Reclaimers",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·阿拉德",
+     "zh": "神秘能量比姆拉",
+     "ja": "謎のエネルギー、ビムラー",
+     "en": "The Mysterious Energy, Beamler",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·阿拉德",
+     "zh": "复活",
+     "ja": "リバイバル",
+     "en": "Revival",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·阿拉德",
+     "zh": "铁之巨神",
+     "ja": "鉄の巨神",
+     "en": "Iron Giant",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·阿拉德",
+     "zh": "蓝与红",
+     "ja": "青と赤",
+     "en": "Blue and Red",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·阿拉德",
+     "zh": "是敌是友",
+     "ja": "敵か味方か",
+     "en": "Friend or Foe?",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·阿拉德",
+     "zh": "邪魔大王国的复活",
+     "ja": "邪魔大王国の復活",
+     "en": "Revival of the Jama Kingdom",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·阿拉德",
+     "zh": "仿制任务",
+     "ja": "ミッション・イミテイション",
+     "en": "Mission: Imitation",
+     "type": "路线汇合",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "伊比斯线·序盘（第1–20话）",
+   "intro": "真实系女主人公伊比斯·道格拉斯的路线，以海盗高达等作品为中心。",
+   "rows": [
+    {
+     "code": "第1话·伊比斯",
+     "zh": "银色流星",
+     "ja": "銀の流星",
+     "en": "Silver Falling Star",
+     "type": "开局",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·伊比斯",
+     "zh": "海盗高达",
+     "ja": "海賊のガンダム",
+     "en": "The Pirate Gundam",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·伊比斯",
+     "zh": "斗将，立于火星",
+     "ja": "闘将、火星に立つ",
+     "en": "Daimos Stands Upon Mars",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·伊比斯",
+     "zh": "与我们一起走向真实",
+     "ja": "我らと共に真実へ",
+     "en": "To The Truth, Together",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·伊比斯",
+     "zh": "木星帝国",
+     "ja": "木星帝国",
+     "en": "Jupiterian Empire",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·伊比斯",
+     "zh": "宣告毁灭者",
+     "ja": "滅びを告げる者",
+     "en": "Those Who Herald Destruction",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·伊比斯",
+     "zh": "消失于战火的和平愿望",
+     "ja": "戦火に消えた平和の願い",
+     "en": "The Wish for Peace, Lost to War",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·伊比斯",
+     "zh": "扎比内叛乱",
+     "ja": "ザビーネ反乱",
+     "en": "Zabine's Mutiny",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·伊比斯",
+     "zh": "战士之战、士兵的信念",
+     "ja": "戦士の戦い、兵士の信念",
+     "en": "The Warrior's Battle, The Soldier's Conviction",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·伊比斯",
+     "zh": "少年们的决心",
+     "ja": "少年達の決意",
+     "en": "The Resolute Youths",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·伊比斯",
+     "zh": "给妹妹高贵的死",
+     "ja": "我が妹に誇り高き死を",
+     "en": "A Noble Death for My Sister",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·伊比斯",
+     "zh": "叛逆之翼，再临",
+     "ja": "反逆の翼、再び",
+     "en": "The Wings of Rebellion, Once Again",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·伊比斯",
+     "zh": "彗星来袭",
+     "ja": "彗星の来襲",
+     "en": "The Comet's Raid",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·伊比斯",
+     "zh": "向深海进发",
+     "ja": "深海を発して",
+     "en": "Shooting in the Depths",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·伊比斯",
+     "zh": "漫长旅途的开始",
+     "ja": "長き旅路の始まり",
+     "en": "The Start of a Long Journey",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·伊比斯",
+     "zh": "姬与布伦帕瓦多",
+     "ja": "比瑪とブレンパワード",
+     "en": "Hime and Brain Powered",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·伊比斯",
+     "zh": "勇者王我王凯牙",
+     "ja": "勇者王ガオガイガー",
+     "en": "King of Braves GaoGaiGar",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话·伊比斯",
+     "zh": "Build Up！钢铁吉克！",
+     "ja": "ビルドアップ！鋼鉄ジーグ！",
+     "en": "Build Up! Steel Jeeg!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·伊比斯",
+     "zh": "勇之战",
+     "ja": "勇の戦い",
+     "en": "Yuu's Battle",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话·伊比斯",
+     "zh": "不需要虚假的和平",
+     "ja": "まやかしの平和は要らない",
+     "en": "We Don't Need False Peace",
+     "type": "路线汇合",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与系别分线（第21–25话）",
+   "intro": "第21话四线合流；第22–24话按超级系/真实系分线；第25话再合流（关内有出击方式二选一）。",
+   "rows": [
+    {
+     "code": "第21话·共通",
+     "zh": "金色的破坏神",
+     "ja": "金色の破壊神",
+     "en": "The Golden God of Destruction",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·超级系",
+     "zh": "醒来吧吉克！愤怒的反击！！",
+     "ja": "目覚めろジーグ！怒りの反撃！！",
+     "en": "Wake Up, Jeeg! A Raging Counterattack!!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话·真实系",
+     "zh": "只为战斗的机器",
+     "ja": "戦うだけのマシン",
+     "en": "A Machine Only for Battle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·超级系",
+     "zh": "机械大陆浮上",
+     "ja": "マシーンランド浮上",
+     "en": "Machine Land Surfaces",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话·真实系",
+     "zh": "恐龙帝国的反击 前篇",
+     "ja": "恐竜帝国の逆襲 前編",
+     "en": "The Dinosaur Empire's Counterattack: First Part",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·超级系",
+     "zh": "帝王戈尔拼死的猛烈反击",
+     "ja": "帝王ゴール決死の猛反撃",
+     "en": "Emperor Gore's Desperately Fierce Counterattack",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·真实系",
+     "zh": "恐龙帝国的反击 后篇",
+     "ja": "恐竜帝国の逆襲 後編",
+     "en": "The Dinosaur Empire's Counterattack: Last Part",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话·共通",
+     "zh": "被打开的地狱之门",
+     "ja": "開かれた地獄の扉",
+     "en": "The Opened Door to Hell",
+     "type": "分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第26–30话：Vital Net 作战 / 追击北美新吉翁",
+   "intro": "第25话结束时的选择决定本段路线：参加 Vital Net 作战（诺维斯·诺亚）或追击北美新吉翁。",
+   "rows": [
+    {
+     "code": "第26话·Vital Net",
+     "zh": "无法相容的存在",
+     "ja": "相容れぬ存在",
+     "en": "Accepting Existence Together",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·北美新吉翁",
+     "zh": "谋略的大地",
+     "ja": "謀略の大地",
+     "en": "World of Schemes",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·Vital Net",
+     "zh": "猎鹰毁灭的危机",
+     "ja": "ファルコン壊滅の危機",
+     "en": "Falcon's Destruction Crisis",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话·北美新吉翁",
+     "zh": "热砂中的蜉蝣",
+     "ja": "熱砂の蜉蝣",
+     "en": "Mayfly of the Blazing Sands",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·Vital Net",
+     "zh": "以性命赌在我的拳上",
+     "ja": "我が拳に命を懸けて",
+     "en": "Bet Your Life on my Fist",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话·北美新吉翁",
+     "zh": "海底城！大进攻开始！！",
+     "ja": "海底城！大攻撃開始！！",
+     "en": "The Undersea Castle! Begin the Offensive!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·Vital Net",
+     "zh": "愤怒的日轮",
+     "ja": "怒りの日輪",
+     "en": "The Anger of the Sun",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·北美新吉翁",
+     "zh": "劈开地球作战",
+     "ja": "地球ぶった切り作戦",
+     "en": "The Plan to Break the Earth",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·Vital Net",
+     "zh": "杀不死科罗斯",
+     "ja": "コロスは殺せない",
+     "en": "Koros is Unkillable",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·北美新吉翁",
+     "zh": "华丽的卡娜",
+     "ja": "華麗なるかな二流",
+     "en": "The Magnificent Kana",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "主人公专属话与月面/阿克西斯分线（第31–37话）",
+   "intro": "第31、37话为主人公专属话（新机体入手/合体）；第34–36话分月面线与阿克西斯线。",
+   "rows": [
+    {
+     "code": "第31话·曾伽线",
+     "zh": "武神装攻，降临",
+     "ja": "武神装攻、降臨",
+     "en": "The God of War's New Armaments",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·楠叶线",
+     "zh": "吾无敌手",
+     "ja": "我ニ敵ナシ",
+     "en": "I Am Invincible",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·阿拉德线",
+     "zh": "百舌与隼",
+     "ja": "百舌と隼",
+     "en": "Shrike and Falcon",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·伊比斯线",
+     "zh": "向着约定的宇宙",
+     "ja": "約束の宇宙へ",
+     "en": "The Promise of Space",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·共通线",
+     "zh": "妄执的妖花",
+     "ja": "妄執の妖花",
+     "en": "Beckoning Blossom of Delusion",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·共通线",
+     "zh": "迈向未来的少年们",
+     "ja": "少年に向かう未来",
+     "en": "The Boys who Head Towards the Future",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·月面线",
+     "zh": "阿波罗作战",
+     "ja": "オペレーション・アポロ",
+     "en": "Operation Apollo",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·阿克西斯线",
+     "zh": "为了终将重逢的那一天",
+     "ja": "いつかまた出逢う日のために",
+     "en": "For the Day We'll Meet Again",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·月面线",
+     "zh": "大空魔龙，千钧一发！",
+     "ja": "大空魔竜、危機一髪！",
+     "en": "Daikyuu Maryuu, Dire Straits!",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话·阿克西斯线",
+     "zh": "灵魂，被重力吸引 前篇",
+     "ja": "魂、重力に引かれて 前編",
+     "en": "The Souls Weighed Down by Gravity: First Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·月面线",
+     "zh": "泪之恶魔捷豹",
+     "ja": "涙のデビルジャガー",
+     "en": "Sympathy for the Devil Jaguar",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·阿克西斯线",
+     "zh": "灵魂，被重力吸引 后篇",
+     "ja": "魂、重力に引かれて 後編",
+     "en": "The Souls Weighed Down by Gravity: Last Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·曾伽线",
+     "zh": "常世之舞",
+     "ja": "常世の舞",
+     "en": "Dance of the Dead",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·楠叶线",
+     "zh": "超机人的宿命",
+     "ja": "超機人の宿命",
+     "en": "The Chokijin's Destiny",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·阿拉德线",
+     "zh": "双生之鸟",
+     "ja": "ツイン・バード",
+     "en": "Twin Bird",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话·伊比斯线",
+     "zh": "光辉合而为一",
+     "ja": "輝きを一つに",
+     "en": "Shine Unto One",
+     "type": "主人公线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "共通中盘（第38–45话）",
+   "intro": "第38话起全线共通；第43话有母舰先锋号去留的选择（影响增援构成）。",
+   "rows": [
+    {
+     "code": "第38话·共通线",
+     "zh": "星尘，再度",
+     "ja": "星の屑、再び",
+     "en": "Stardust, Again",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·共通线",
+     "zh": "坠入绝望与奈落",
+     "ja": "絶望と奈落への落下",
+     "en": "The Drop into Hell and Despair",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话·共通线",
+     "zh": "内莉复活",
+     "ja": "ネリー・リバイバル",
+     "en": "Nelly Revival",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话·共通线",
+     "zh": "恐怖！压制日本作战！前篇",
+     "ja": "恐怖！日本制圧作戦！前編",
+     "en": "Terror! The Japanese Oppression Plan! First Act",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·共通线",
+     "zh": "恐怖！压制日本作战！后篇",
+     "ja": "恐怖！日本制圧作戦！後編",
+     "en": "Terror! The Japanese Oppression Plan! Last Act",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话·共通线",
+     "zh": "超级机器人军团，愤怒的大反击！",
+     "ja": "スーパーロボット軍団、怒りの大反撃！",
+     "en": "The Super Robot Army's Furious Counterattack!",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·共通线",
+     "zh": "回应我，奥尔法",
+     "ja": "応えよ、オルファン",
+     "en": "Answer me, Orphan",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·共通线",
+     "zh": "比姆拉的意志",
+     "ja": "ビムラーの意志",
+     "en": "The Will of Beamler",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "日本/米凯内分线与休战抉择（第46–49话）",
+   "intro": "第46–47话按第45话后的选择分日本线/米凯内线；第49话哈曼的休战提议决定终盘整套话目。",
+   "rows": [
+    {
+     "code": "第46话·日本线",
+     "zh": "大东京消灭 前篇",
+     "ja": "大東京消滅－前編－",
+     "en": "Tokyo's Annihilation -First Act-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话·米凯内线",
+     "zh": "激战！米凯内帝国 前篇",
+     "ja": "激突！ミケーネ帝国 前編",
+     "en": "Clash! Mycenae Empire: First Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·日本线",
+     "zh": "大东京消灭 后篇",
+     "ja": "大東京消滅－後編－",
+     "en": "Tokyo's Annihilation -Last Act-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话·米凯内线",
+     "zh": "激战！米凯内帝国 后篇",
+     "ja": "激突！ミケーネ帝国 後編",
+     "en": "Clash! Mycenae Empire: Last Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·共通线",
+     "zh": "决战的倒计时",
+     "ja": "決戦への秒読み",
+     "en": "Countdown to the Decisive Battle",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话·共通线",
+     "zh": "决断",
+     "ja": "決断",
+     "en": "Decision",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘·休战线（第50–56话）",
+   "intro": "接受哈曼休战提议的路线；第55–56话再按此前日本/米凯内路线分版。",
+   "rows": [
+    {
+     "code": "第50话·休战线",
+     "zh": "小巴姆大攻防战",
+     "ja": "小バームの大攻防戦",
+     "en": "Little Barm's Great Battle",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·休战线",
+     "zh": "黑暗的支配者",
+     "ja": "闇の支配者",
+     "en": "Ruler of The Darkness",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·休战线",
+     "zh": "由人类的手来做个了断",
+     "ja": "決着は人間の手で",
+     "en": "The End is Made by Human Hands",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·休战线",
+     "zh": "人心的光芒",
+     "ja": "人の心の光",
+     "en": "The Light of People's Hearts",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话·休战线",
+     "zh": "夏亚的逆袭",
+     "ja": "逆襲のシャア",
+     "en": "Char's Counter Attack",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·休战·日本线",
+     "zh": "燃烧的地球 前篇",
+     "ja": "燃える地球 前編",
+     "en": "Burning Earth: First Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·休战·米凯内线",
+     "zh": "机械装置的世界 前篇",
+     "ja": "機械仕掛けの世界 前編",
+     "en": "Mechanized World: First Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·休战·日本线",
+     "zh": "燃烧的地球 后篇",
+     "ja": "燃える地球 後編",
+     "en": "Burning Earth: Last Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·休战·米凯内线",
+     "zh": "机械装置的世界 后篇",
+     "ja": "機械仕掛けの世界 後編",
+     "en": "Mechanized World: Last Part",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘·拒绝休战线（第50–56话）",
+   "intro": "拒绝休战提议的路线；第50–51话按此前日本/米凯内路线分版，第52话起合流。",
+   "rows": [
+    {
+     "code": "第50话·拒绝休战·日本线",
+     "zh": "我拥有抗争之力 前篇",
+     "ja": "坑がう力は我にあり 前編",
+     "en": "I Have The Strength to Fight -Prelude-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话·拒绝休战·米凯内线",
+     "zh": "机界转生 前篇",
+     "ja": "機界転生 前編",
+     "en": "Mechanical Reincarnation -Prelude-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·拒绝休战·日本线",
+     "zh": "我拥有抗争之力 后篇",
+     "ja": "坑がう力は我にあり 後編",
+     "en": "I Have The Strength to Fight -Conclusion-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·拒绝休战·米凯内线",
+     "zh": "机界转生 后篇",
+     "ja": "機界転生 後編",
+     "en": "Mechanical Reincarnation -Conclusion-",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·拒绝休战线",
+     "zh": "我想要守护的东西",
+     "ja": "私が守りたかったもの",
+     "en": "That Which I Wanted to Protect",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第53话·拒绝休战线",
+     "zh": "不可饶恕之罪",
+     "ja": "許されざる罪",
+     "en": "The Unforgiven Sin",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话·拒绝休战线",
+     "zh": "邪恶的救世主",
+     "ja": "邪悪な救世主",
+     "en": "Wicked Messiah",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·拒绝休战线",
+     "zh": "伴着可憎的记忆",
+     "ja": "忌まわしい記憶と共に",
+     "en": "Together with Abominable Memories",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第56话·拒绝休战线",
+     "zh": "超越时空",
+     "ja": "ＢＥＹＯＮＤ ＴＨＥ ＴＩＭＥ",
+     "en": "Beyond the Time",
+     "type": "路线分歧",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "最终话（第57话）",
+   "intro": "最终话按主人公分四个版本；话内有「拯救伊鲁伊 / 斩断甘埃登」的最终选择，无熟练度门槛。",
+   "rows": [
+    {
+     "code": "第57话·曾伽线（最终话）",
+     "zh": "斩神之剑",
+     "ja": "神を断つ剣なり",
+     "en": "The Sword Which Smites Gods",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·楠叶线（最终话）",
+     "zh": "永远相伴",
+     "ja": "FOREVER＆EVER",
+     "en": "Forever&Ever",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·阿拉德线（最终话）",
+     "zh": "愿再无争斗之日，在荒野献上花束",
+     "ja": "争いのない日々を、荒野に花束を",
+     "en": "Days Without Conflict, Bouquet in the Desert",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话·伊比斯线（最终话）",
+     "zh": "被母亲般的大地环抱",
+     "ja": "母なる大地に抱かれて",
+     "en": "The Earth, Embraced",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
