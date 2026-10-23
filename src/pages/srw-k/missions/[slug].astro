@@ -1,0 +1,136 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwk-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战K', path: 'srw-k/' },
+  { label: '关卡攻略', path: 'srw-k/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const es = m.enemies.state as string;
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战K（2009 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（路线分歧、女主点数与跨话连锁；本作无熟练度系统）与敌方编成现状（第1–16话为单一来源暂不刊载、第17话起无任何来源）。`} path={`srw-k/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 K <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，话数口径与系统另以日文 SRW Wiki（Fandom）与 srw.wiki 互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 的流程图没有任何一话列出熟练度条件、日文维基的系统一览（本作 6 项系统）与系列系统条目的熟练度采用作品名单均不含本作——本页出现的时限、到达与削血条件都是<strong>胜败条件本身</strong>。本作编号为第 1–35 话加最终话（共 36 个编号话），其中 12 个话分前后篇、8 个话因路线分歧有二至三个版本，本站共建 59 个剧本页面，一周目实际游玩 46 关。本作<strong>敌方等级为动态值</strong>：取我方主力驾驶员前 20 名的平均等级（向下取整），不存在逐关等级表。{es === 'single' ? <span>本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载（另一来源 ATX233 的攻略是剧情翻译、无敌方数据），按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；敌方坐标与逐格地形在任何来源中都不存在，地图为参照框架。</span> : <span>本关的敌方编成在<strong>任何已查到的来源中都不存在</strong>（slg369 的 GameFAQs 攻略未完成、止于第16话后篇；ATX233 的攻略是剧情翻译、无敌方数据），故待核实；敌方坐标与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      <div>本作无熟练度系统（分歧与隐藏要素由路线选择、女主点数与跨话连锁条件决定，见本作主页）</div>
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>部件获得</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  {es === 'single' ? (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 {m.enemies.singleName} 一家刊载——{m.enemies.singleDesc}按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：第3次α的 43 个剧本、J 的 14 个剧本、W 的 40 个剧本）。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（无任何来源）：</strong>本关敌方编成在已查到的全部来源中都不存在——slg369 的 GameFAQs 攻略（faqs/56053）在第16话后篇后未完成（第17话只有占位标题），ATX233 的攻略（faqs/77629）是覆盖第1–19话后篇的剧情翻译、没有任何敌方数据；日文侧（srw.wiki、日本 SRW Wiki、个人攻略站）亦无逐关编成来源，仅 Namu 有个别中后期 Boss 的掉落与撤退 HP 散记，未成表、不足以构成编成数据。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">本作隐藏要素几乎全是跨话连锁（立旗→指定话操作/击坠→结算话兑现），且与四次路线分歧、女主点数强绑定：请按各话页面顺序核对，错过前置话、走错路线或点数不足，本周目无法补救（可在后续周目补做）。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-k/missions/')}>← 返回关卡列表</a> · <a href={href('srw-k/')}>返回超级机器人大战K</a></p>
+</Base>

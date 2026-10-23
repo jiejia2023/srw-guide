@@ -1,0 +1,577 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1–13话）",
+   "intro": "固定主人公米斯特·雷克斯与双女主安洁莉卡、谢尔迪亚依次登场；第11、12话各分前后篇。第13话通关后发生第一次路线分歧。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "婚礼钟声是战斗之钟",
+     "ja": "第1話：ウェディングベルは戦いの鐘",
+     "en": "Scenario 1: Wedding Bells are in the Fight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "来自异世界的来访者",
+     "ja": "第2話：異世界からの来訪者",
+     "en": "Scenario 2: Visitors From Another World",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "建造升级！苏醒的传说！",
+     "ja": "第3話：ビルドアップ！ 蘇る伝説！",
+     "en": "Scenario 3: Build Up! The Legend is Reborn!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "重逢的合体攻击",
+     "ja": "第4話：再会のコンビネーションアタック",
+     "en": "Scenario 4: Combination Attack of Reunion",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "超越者之战",
+     "ja": "第5話：オーバーマンバトル",
+     "en": "Scenario 5: Overman Battle",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "穿燕尾服的笨蛋家伙",
+     "ja": "第6話：タキシードを着たボンクラ野郎",
+     "en": "Scenario 6: The Tuxedo Wearing Fool",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "醉汉英雄·疾风少女",
+     "ja": "第7話：ドランクヒーロー・スウィフトガール",
+     "en": "Scenario 7: Drunk Hero, Swift Girl",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "宿命的终点站",
+     "ja": "第8話：宿命のターミナル",
+     "en": "Scenario 8: Terminal of Fate",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "Zi区域的激战",
+     "ja": "第9話：エリアＺｉの激闘",
+     "en": "Scenario 9: Battle in Area Zi",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "黑炎将军",
+     "ja": "第10話：黒き炎の将軍",
+     "en": "Scenario 10: General of the Black Flame",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·前篇",
+     "zh": "盖金克绝体绝命！！·前篇",
+     "ja": "第11話前編：ガイキング絶体絶命！！・前編",
+     "en": "Scenario 11-1: Desperate Gaiking!! - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·后篇",
+     "zh": "盖金克绝体绝命！！·后篇",
+     "ja": "第11話後編：ガイキング絶体絶命！！・後編",
+     "en": "Scenario 11-2: Desperate Gaiking!! - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·前篇",
+     "zh": "蠢动的阴影·前篇",
+     "ja": "第12話前編：蠢く翳・前編",
+     "en": "Scenario 12-1: Wriggling Shadow - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·后篇",
+     "zh": "蠢动的阴影·后篇",
+     "ja": "第12話後編：蠢く翳・後編",
+     "en": "Scenario 12-2: Wriggling Shadow - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "面目全非的地球",
+     "ja": "第13話：変わり果てた地球",
+     "en": "Scenario 13: The Changed World",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧（第14–15话）：柏林线 / 龙宫岛线",
+   "intro": "第13话后二选一。柏林线（安洁莉卡随行）是传奇/盖亚高达连锁的必经线；龙宫岛线（谢尔迪亚随行）是法芙娜全员生还与刃盖纳连锁的必经线。两线在第16话合流。",
+   "rows": [
+    {
+     "code": "第14话·前篇（柏林线）",
+     "zh": "离别之光·前篇",
+     "ja": "第14話前編：離別の光・前編",
+     "en": "Scenario 14-1 (Berlin): Separation of Light - Part 1",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第13话后选「前往柏林」"
+    },
+    {
+     "code": "第14话·后篇（柏林线）",
+     "zh": "离别之光·后篇",
+     "ja": "第14話後編：離別の光・後編",
+     "en": "Scenario 14-2 (Berlin): Separation of Light - Part 2",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话（柏林线）",
+     "zh": "天使坠落",
+     "ja": "第15話：エンジェルダウン",
+     "en": "Scenario 15 (Berlin): Angel Down",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话（龙宫岛线）",
+     "zh": "孤独～战斗",
+     "ja": "第14話：孤独～たたかい",
+     "en": "Scenario 14 (Tatsumiya): Loneliness ~ Battle",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第13话后选「前往龙宫岛」"
+    },
+    {
+     "code": "第15话·前篇（龙宫岛线）",
+     "zh": "悲伤的飞翔·前篇",
+     "ja": "第15話前編：悲しみの飛翔・前編",
+     "en": "Scenario 15-1 (Tatsumiya): Flight of Sorrow - Part 1",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·后篇（龙宫岛线）",
+     "zh": "悲伤的飞翔·后篇",
+     "ja": "第15話後編：悲しみの飛翔・後編",
+     "en": "Scenario 15-2 (Tatsumiya): Flight of Sorrow - Part 2",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与第二次分歧（第16–18话）：建造基地线 / 达里乌斯线",
+   "intro": "第16话（前后篇）合流后再次二选一：建造基地线（安洁莉卡随行）含法芙娜生还连锁的关键话；达里乌斯线（谢尔迪亚随行）为盖金克/机兽线。两线在第19话合流。",
+   "rows": [
+    {
+     "code": "第16话·前篇",
+     "zh": "激战！丹纳基地！！·前篇",
+     "ja": "第16話前編：激闘！ダンナーベース！！・前編",
+     "en": "Scenario 16-1: Fierce Fight! Dannar Base!! - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·后篇",
+     "zh": "激战！丹纳基地！！·后篇",
+     "ja": "第16話後編：激闘！ダンナーベース！！・後編",
+     "en": "Scenario 16-2: Fierce Fight! Dannar Base!! - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话（建造基地线）",
+     "zh": "夺回吧！另一个钢铁吉克！！",
+     "ja": "第17話：奪還せよ！もう一人の鋼鉄ジーグ！！",
+     "en": "Scenario 17 (Build Base): Reborn! Another Steel Jeeg!!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第16话后选「前往建造基地」"
+    },
+    {
+     "code": "第18话（建造基地线）",
+     "zh": "存在～伙伴",
+     "ja": "第18話：存在～なかま",
+     "en": "Scenario 18 (Build Base): Exist ~ Comrade",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话（达里乌斯线）",
+     "zh": "苏醒的大地魔龙",
+     "ja": "第17話：蘇る大地魔竜",
+     "en": "Scenario 17 (Darius): Revival of the Daichi Maryu",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第16话后选「前往达里乌斯界」"
+    },
+    {
+     "code": "第18话（达里乌斯线）",
+     "zh": "加里斯舰长，冲击的秘密",
+     "ja": "第18話：キャプテン・ガリス、衝撃の秘密",
+     "en": "Scenario 18 (Darius): Captain Garis, Shocking Secret",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流中盘（第19–25话）",
+   "intro": "第19话后篇确定女主搭档、第21话后篇点高者一度离队；第22话为出击限制关；第25话通关后发生第三次分歧。",
+   "rows": [
+    {
+     "code": "第19话·前篇",
+     "zh": "星之门，命运之门·前篇",
+     "ja": "第19話前編：星の扉、運命の扉・前編",
+     "en": "Scenario 19-1: Door of Stars, Door of Fate - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话·后篇",
+     "zh": "星之门，命运之门·后篇",
+     "ja": "第19話後編：星の扉、運命の扉・後編",
+     "en": "Scenario 19-2: Door of Stars, Door of Fate - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "背叛与相遇",
+     "ja": "第20話：裏切りと出会いと",
+     "en": "Scenario 20: Betrayal and Encounters",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·前篇",
+     "zh": "决战之时已至·前篇",
+     "ja": "第21話前編：決戦の時は来たれり・前編",
+     "en": "Scenario 21-1: The Time for the Decisive Battle Has Come - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·后篇",
+     "zh": "决战之时已至·后篇",
+     "ja": "第21話後編：決戦の時は来たれり・後編",
+     "en": "Scenario 21-2: The Time for the Decisive Battle Has Come - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "混乱嘉年华",
+     "ja": "第22話：コンフュージョン・カーニバル",
+     "en": "Scenario 22: Confusion Carnival",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "结成！迪加尔德讨伐军",
+     "ja": "第23話：結成！ディガルド討伐軍",
+     "en": "Scenario 23: Assemble! Digald Suppression Army",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·前篇",
+     "zh": "超越恶魔危机·前篇",
+     "ja": "第24話前編：オーバーデビルクライシス・前編",
+     "en": "Scenario 24-1: Overdevil Crisis - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话·后篇",
+     "zh": "超越恶魔危机·后篇",
+     "ja": "第24話後編：オーバーデビルクライシス・後編",
+     "en": "Scenario 24-2: Overdevil Crisis - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "奇袭",
+     "ja": "第25話：奇襲",
+     "en": "Scenario 25: Surprise Attack",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第三次分歧（第26–27话）：大天使号线 / 大空魔龙线",
+   "intro": "第25话后二选一。大天使号线是思念/大丽花连锁与法芙娜生还连锁的必经线；大空魔龙线是生化翼龙（费尔梅）连锁的必经线。两线在第28话合流。",
+   "rows": [
+    {
+     "code": "第26话（大天使号线）",
+     "zh": "在绝望中抓住的光",
+     "ja": "第26話：絶望の中で掴んだ光",
+     "en": "Scenario 26 (Archangel): Light Seized by Despair",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第25话后选「与大天使号同行」"
+    },
+    {
+     "code": "第27话（大天使号线）",
+     "zh": "通往幸福的倒计时",
+     "ja": "第27話：幸せへのカウントダウン",
+     "en": "Scenario 27 (Archangel): Countdown to Happiness",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话（大空魔龙线）",
+     "zh": "吉恩的野心",
+     "ja": "第26話：ジーンの野望",
+     "en": "Scenario 26 (Daikyu Maryu): Jin's Ambition",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第25话后选「与大空魔龙前往索拉城」"
+    },
+    {
+     "code": "第27话（大空魔龙线）",
+     "zh": "结局",
+     "ja": "第27話：結末",
+     "en": "Scenario 27 (Daikyu Maryu): Ending",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与终盘三分线（第28–31话）",
+   "intro": "第28话女主点数结算、合体机塞尔克里乌斯登场；第29话后三选一进入终盘三线（龙宫岛/大空魔龙/丹纳基地），各含一条隐藏连锁的结算（丹纳基地线除外，其结算是刃盖纳）。",
+   "rows": [
+    {
+     "code": "第28话",
+     "zh": "联动",
+     "ja": "第28話：リンケージ",
+     "en": "Scenario 28: Linkage",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "解开悲伤的咒缚",
+     "ja": "第29話：哀しき呪縛を解け",
+     "en": "Scenario 29: Break the Sorrowful Curse",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话·前篇（龙宫岛线）",
+     "zh": "情爱～再见·前篇",
+     "ja": "第30話前編：情愛～さよなら・前編",
+     "en": "Scenario 30-1 (Tatsumiya): Affection ~ Goodbye - Part 1",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第29话后选「与大天使号前往龙宫岛」"
+    },
+    {
+     "code": "第30话·后篇（龙宫岛线）",
+     "zh": "情爱～再见·后篇",
+     "ja": "第30話後編：情愛～さよなら・後編",
+     "en": "Scenario 30-2 (Tatsumiya): Affection ~ Goodbye - Part 2",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话（龙宫岛线）",
+     "zh": "苍穹～天空",
+     "ja": "第31話：蒼穹～そら",
+     "en": "Scenario 31 (Tatsumiya): Azure ~ Sky",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话（大空魔龙线）",
+     "zh": "决战！三大魔龙！！",
+     "ja": "第30話：決戦！三大魔竜！！",
+     "en": "Scenario 30 (Daikyu Maryu): Final Battle! The 3 Maryu",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第29话后选「与大空魔龙前往达里乌斯界」"
+    },
+    {
+     "code": "第31话·前篇（大空魔龙线）",
+     "zh": "父亲之心·前篇",
+     "ja": "第31話前編：父の心・前編",
+     "en": "Scenario 31-1 (Daikyu Maryu): A Father's Heart - Part 1",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·后篇（大空魔龙线）",
+     "zh": "父亲之心·后篇",
+     "ja": "第31話後編：父の心・後編",
+     "en": "Scenario 31-2 (Daikyu Maryu): A Father's Heart - Part 2",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话（丹纳基地线）",
+     "zh": "狂犬病综合征的恐怖",
+     "ja": "第30話：ラビッドシンドロームの恐怖",
+     "en": "Scenario 30 (Dannar Base): Fear of Rabid Syndrome",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第29话后选「前往丹纳基地防守」"
+    },
+    {
+     "code": "第31话·前篇（丹纳基地线）",
+     "zh": "钢铁巨人们·前篇",
+     "ja": "第31話前編：鋼の巨人達・前編",
+     "en": "Scenario 31-1 (Dannar Base): Giants of Steel - Part 1",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话·后篇（丹纳基地线）",
+     "zh": "钢铁巨人们·后篇",
+     "ja": "第31話後編：鋼の巨人達・後編",
+     "en": "Scenario 31-2 (Dannar Base): Giants of Steel - Part 2",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "结局段（第32话–最终话）",
+   "intro": "三线合流后的共通终盘：思念/大丽花连锁在第32话前篇结算，最终话对决鲁·科博尔，结局由女主点数决定。",
+   "rows": [
+    {
+     "code": "第32话·前篇",
+     "zh": "被重置的世界·前篇",
+     "ja": "第32話前編：リセットされる世界・前編",
+     "en": "Scenario 32-1: A World Reset - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·后篇",
+     "zh": "被重置的世界·后篇",
+     "ja": "第32話後編：リセットされる世界・後編",
+     "en": "Scenario 32-2: A World Reset - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·前篇",
+     "zh": "妃魅祸，野心的尽头·前篇",
+     "ja": "第33話前編：妃魅禍、野望の果て・前編",
+     "en": "Scenario 33-1: Himika's Final Ambition - Part 1",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·后篇",
+     "zh": "妃魅祸，野心的尽头·后篇",
+     "ja": "第33話後編：妃魅禍、野望の果て・後編",
+     "en": "Scenario 33-2: Himika's Final Ambition - Part 2",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "天国的雷霆",
+     "ja": "第34話：天国の雷",
+     "en": "Scenario 34: Heaven's Thunder",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "另一领域",
+     "ja": "第35話：Another Sphere",
+     "en": "Scenario 35: Another Sphere",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "发自内心的…",
+     "ja": "最終話：心からの…",
+     "en": "Final Scenario: From the Heart...",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

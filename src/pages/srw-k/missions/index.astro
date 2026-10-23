@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwKMissionList from '../../../components/SrwKMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战K', path: 'srw-k/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战K（DS）关卡攻略 · 全59个关卡页面列表" description="超级机器人大战K（2009年 DS）全部关卡的页面列表：编号话数36话（一周目实际游玩46关），计入四次路线分歧的全部版本共59个不同剧本。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（跨话连锁、路线选择与女主点数；本作无熟练度系统）与坐标地图。本页为链接索引。" path="srw-k/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战K · 关卡攻略</h1>
+  <p>2009 年 DS《超级机器人大战K》（K 取自「携帯機」与作中关键词）是 Banpresto 品牌名义下的最后一作机战：主人公<strong>固定</strong>为来自行星阿特里姆的青年<strong>米斯特·雷克斯</strong>（乘机雷布里亚斯），双女主<strong>安洁莉卡·夏尔蒂尔</strong>与<strong>谢尔迪亚·鲁朱</strong>都全程登场，二人的地位由剧情中累计的<strong>女主点数</strong>决定——点高者在第 28 话搭乘合体机塞尔克里乌斯、与雷布里亚斯合体为索尔布里亚斯，并决定结局。本作的编队核心是新引入的<strong>搭档单位（Partner Unit，PU）系统</strong>：两机一组在整备画面编队，援护攻防只在搭档之间发生。剧本为<strong>单一主线加四次路线分歧</strong>：第 13 话后（柏林/龙宫岛）、第 16 话后篇后（建造基地/达里乌斯界）、第 25 话后（大天使号/大空魔龙）、第 29 话后（终盘三选一：龙宫岛/大空魔龙/丹纳基地）——编号话数 <strong>36 话</strong>（第 1–35 话加最终话），其中 13 话分前后篇、17 话有路线版本，全部变体共 <strong>59 个不同剧本</strong>，本站全部建页；一周目实际游玩 <strong>46 关</strong>。本作<strong>没有熟练度系统</strong>，隐藏要素全部由路线选择、女主点数与跨话连锁条件（多为指定驾驶员击破/攻击/说得与击坠数累计）决定，其中多条连锁与路线互斥，一周目无法全达成。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-k/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站逐作补完计划中的一部——59 个详情页全部建成（按发售顺序逐作补完；K 在年表上位于 Z 特别盘与 NEO 之间）。流程、胜败条件、加入与隐藏要素以 Akurasu 的 K <strong>Flow Chart 为主源</strong>，逐条与同站 Secrets 页交叉核对，话数口径与系统以日文 SRW Wiki（Fandom）与 srw.wiki 互证。<strong>计数说明</strong>：Akurasu 索引页自称「49 playable scenarios」、日文侧作「全36話／49ステージ」——本站按流程图逐条清点：36 个编号话（第1–35话＋最终话）计入前后篇拆分与四次路线分歧的全部版本共 59 个不同剧本；一周目沿任一路线游玩为 46 关。两家的「49」未给出计数口径（可能按「话＋前后篇」合并路线变体计算），本站并记而不采用。<strong>敌方数据如实说明</strong>：敌方编成（构成、数量与增援）在全网只有 <strong>slg369 的一份未完成 GameFAQs 攻略</strong>（faqs/56053）刊载过，覆盖范围为第 1 话至第 16 话后篇（按本站编号计 23 个剧本，含第14–15话两条路线版本）；另一份攻略 ATX233（faqs/77629）是剧情翻译、无敌方数据。按本站「双源交叉才刊载」的惯例，这 23 个剧本的编成<strong>暂不刊载、列为待用户裁决事项</strong>；第 17 话起的 36 个剧本则<strong>没有任何编成来源</strong>。<strong>敌方等级在本作不存在固定值</strong>（取我方主力驾驶员前 20 名平均等级的动态缩放），不存在逐关等级表；敌方坐标、逐关地图尺寸与逐格地形亦无任何公开来源——各页的坐标图为参照框架，标为待核实（本站地图补完计划另行处理）。本页只做 DS 原版（2009 年）。</span>
+  </div>
+
+  <SrwKMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars K: Flow Chart</a>（主来源：全关卡的胜败条件、加入与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars K: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/K/Clear" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars K: Clear（New Game Plus）</a>（周回继承规则）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/K/Relationship_Bonuses" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars K: Relationship Bonuses</a>（信赖补正与 Trust 规则）</li>
+    <li><a href="https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053" rel="noopener" target="_blank">slg369 — Super Robot Taisen K Guide and Walkthrough</a>（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话，本站未导入、待裁决）</li>
+    <li><a href="https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K" rel="noopener" target="_blank">日本 SRW Wiki（Fandom）— スーパーロボット大戦K</a>（话数口径、系统、参战作品的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-k/')}>← 返回超级机器人大战K</a></p>
+</Base>

@@ -33,6 +33,7 @@ import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
 import SrwZMissionList from '../../components/SrwZMissionList.astro';
 import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astro';
+import SrwKMissionList from '../../components/SrwKMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -72,6 +73,7 @@ const isSrwOgs = g.slug === 'srw-ogs';
 const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 const isSrwZ = g.slug === 'srw-z';
 const isSrwZSpecial = g.slug === 'srw-z-special';
+const isSrwK = g.slug === 'srw-k';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2663,6 +2665,96 @@ const isSrwZSpecial = g.slug === 'srw-z-special';
     </div>
   )}
 
+  {isSrwK && (
+    <div>
+      <h2>剧情与舞台</h2>
+      <p>《超级机器人大战K》是 2009 年 3 月 20 日发售的 DS 作品，也是 <strong>Banpresto 品牌名义下的最后一作</strong>机战（2009 年 4 月起发行名改为万代南梦宫游戏）。标题的「K」取自「携帯機（便携机）」与作中关键词。舞台是星历确立约 100 年后的星历 105 年：50 年前大邪王国（女王妃魅祸）被「Zone」结界封印于九州；5 年前「巨人之战」后拟态兽消失；自然人与调整者的冲突再起、地球联合与 ZAFT 开战、赫尔博士暗中活动——战争结束半年后，新的威胁同时从宇宙与异世界逼近（Akurasu Story 页梗概）。主人公是来自行星阿特里姆的青年 <strong>米斯特·雷克斯</strong>（20 岁，乘机<strong>雷布里亚斯</strong>，以「水晶之心」为动力源，本人名字与机体名可在首次登场时改名）；两名女主角<strong>安洁莉卡·夏尔蒂尔</strong>（乘塞利乌斯）与<strong>谢尔迪亚·鲁朱</strong>（17 岁，乘塞利乌斯II）都全程登场——本作<strong>没有开局主人公二选一</strong>，二人的地位由剧情点数决定（见下节）。敌方原创势力为「伊迪克斯」，首领是最终话的对手<strong>鲁·科博尔</strong>。附带一提：本作是掌机系列中<strong>唯一没有官方玩家部队名</strong>的一作（srw.wiki）——各关卡页里本站不会给玩家部队安一个不存在的名称。</p>
+
+      <h2>路线结构（四次分歧，一周目 46 关）</h2>
+      <p>剧本编号为第 1–35 话加最终话，共 <strong>36 个编号话</strong>；12 个话分前后篇，8 个话因分歧有二至三个版本，本站共建 <strong>59 个剧本页</strong>，一周目沿任一路线实际游玩 <strong>46 关</strong>。四次分歧都是关后玩家自选（不存在熟练度触发的分歧）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>分歧点</th><th>选项</th><th>覆盖话数</th><th>随行与备注</th></tr></thead>
+          <tbody>
+            <tr><td>① 第13话后</td><td>前往柏林 / 前往龙宫岛</td><td>第14–15话（各 3 关）</td><td>柏林线随行安洁莉卡（高达SEED DESTINY、魔神Z、王者盖纳、丹加伊奥、机兽创世纪）；龙宫岛线随行谢尔迪亚（高达纳、钢铁神吉克、盖金克、枪×剑）。两线在第16话合流</td></tr>
+            <tr><td>② 第16话后篇后</td><td>前往建造基地 / 前往达里乌斯界</td><td>第17–18话（各 2 关）</td><td>建造基地线随行安洁莉卡；达里乌斯线随行谢尔迪亚。两线在第19话合流</td></tr>
+            <tr><td>③ 第25话后</td><td>与大天使号同行 / 与大空魔龙前往索拉城</td><td>第26–27话（各 2 关）</td><td>大天使号线（SEED 系/法芙娜/枪×剑等）；大空魔龙线（机兽/盖金克/电脑战机等）。两线在第28话合流</td></tr>
+            <tr><td>④ 第29话后（三选一）</td><td>与大天使号前往龙宫岛 / 与大空魔龙前往达里乌斯界 / 前往丹纳基地防守</td><td>第30–31话（各 3 关）</td><td>终盘三线，随行作品各不相同；三线在第32话合流进入结局段</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>另有两处<strong>关内选择</strong>不改变关卡构成、只影响女主点数：第12话前篇的救出方法（±5）、第19话前篇的派遣对象（±10，且效果与选项字面相反）——都在对应关卡页的隐藏要素里写明。</p>
+
+      <h2>女主点数（Love Interest Points）与结局</h2>
+      <p>安洁莉卡与谢尔迪亚各有一套隐藏点数，全程共 7 处增减：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>时点</th><th>安洁莉卡 +</th><th>谢尔迪亚 +</th></tr></thead>
+          <tbody>
+            <tr><td>第12话前篇：救出方法的选择</td><td>选「与安洁莉卡合作救出」+5</td><td>选「独自去救谢尔迪亚」+5</td></tr>
+            <tr><td>分歧① 第13话后</td><td>选柏林线 +7</td><td>选龙宫岛线 +7</td></tr>
+            <tr><td>分歧② 第16话后篇后</td><td>选建造基地线 +7</td><td>选达里乌斯线 +7</td></tr>
+            <tr><td>第19话前篇：派遣对象的选择</td><td>选「让谢尔迪亚去」+10</td><td>选「让安洁莉卡去」+10</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>第19话后篇</strong>开始时，点数较高的一位女主成为米斯特的正式搭档并影响结局；<strong>第21话后篇</strong>，正是这位点高者被剧情带走一度离队；<strong>第23话</strong>，未被选中的另一位女主获得机体性能强化作为补偿；<strong>第28话</strong>，点高者搭乘合体机<strong>塞尔克里乌斯</strong>出击，与雷布里亚斯合体为<strong>索尔布里亚斯</strong>（雷克斯形态偏攻击／蕾吉娜形态偏辅助）。</li>
+        <li><strong>结局阈值</strong>（Akurasu Secrets 页）：某位女主的点数 <strong>&gt;15</strong> 时为她的「结局 1」，<strong>恰为 15</strong> 时为「结局 2」；安洁莉卡与谢尔迪亚各有两种结局。Ending 页另述存在两名女主相关的复数结局变体、且会影响两名主要敌方角色的身份，但不改变故事大体走向。</li>
+        <li>可达点数上限：单线全取一位女主时为 5＋7＋7＋10＝29；两人的点数此消彼长，想推哪位女主就全程沿她的线走——但注意分歧①③④同时是隐藏连锁的路线门槛（见隐藏要素总览），点数与隐藏机不可兼得的组合需要靠多周目补齐。</li>
+      </ul>
+
+      <h2>本作的系统</h2>
+      <ul>
+        <li><strong>搭档单位（Partner Unit，PU）系统——本作引入</strong>：两台机体在整备（出击准备）画面编成一个 PU（一主一副），出击枠因此实际翻倍。援护攻击与援护防御<strong>只在 PU 的两机之间发生</strong>（需对应技能）；移动与地形适应取<strong>主位机</strong>的数值，主副地形适应不同时无法援护。编成 PU 的机体气力增量修正：未命中、击坠、我方击坠带来的气力各 <strong>−1</strong>（Akurasu Pre-Release 页）；据日文来源（srw.wiki 对 L 的条目回溯 K 的规则），PU 还带运动性 <strong>−5</strong> 的惩罚（L 中废除）且 PU 在 K 里<strong>只能在整备画面换搭档</strong>、不能像 L 那样在地图上重组。</li>
+        <li><strong>攻击连击（アタックコンボ）系统——本作引入</strong>：<strong>单机出击</strong>的单位可用带「C」标记的武器同时攻击射程内的多个敌方 PU，目标数上限＝连击技能等级（最高 3 个 PU、即最多 6 台机体），每多一个目标多耗一份弹药/EN（Akurasu Pilot Skills 页）。PU 状态不能使用攻击连击。</li>
+        <li><strong>中意作品（Favourites）</strong>：本作<strong>保留</strong>了 W 的中意作品制（个别二手汇总误传本作无此系统——Akurasu 的 Clear 页把「Favourites 选择」列为周回继承的第一项、Pre-Release 页亦有明确记载，本站从一手来源）。开局选 <strong>3 部</strong>作品（slg369 攻略），该作品的机体/驾驶员经验与资金获取提升，且<strong>改造上限由 10 段升至 15 段</strong>；每通关一周目可多选 3 部，全部选满后经验/资金倍率固定为 <strong>1.5 倍</strong>（Akurasu Clear 页），第 4 周目起全部作品自动成为中意作品（Pre-Release 页）。</li>
+        <li><strong>改造</strong>：机体 6 项（HP、EN、命中、机动、装甲、武器）改造，基础上限 <strong>10 段</strong>、中意作品机体 <strong>15 段</strong>。六项全改满后开启「全改造奖励」自选一项——机体类：最大 HP +300／最大 EN +50／命中 +10／机动 +10／装甲 +100／移动 +1／全地形适应 A；武器类：射程 +1（MAP 与射程 1 武器除外）／命中修正 +20／EN 消耗 −20%／弹数 ×2／暴击率 +20／全武器地形适应 A（Akurasu Full Upgrade Bonus 页）。<strong>改造继承</strong>存在同系传递表（如自由高达→强袭自由、命运高达→传奇/盖亚、马克埃尔夫→马克塞因等）与共享改造组（雷布里亚斯⇔索尔布里亚斯两种形态、高达纳⇔TDM 两形态、盖金克⇔盖金克·伟大等，Akurasu Unit Upgrades 页）。</li>
+        <li><strong>强化部件</strong>：部件由击破掉落或过关取得，每机 2–4 个装备槽（强力机体多为 2 槽）。另有<strong>技能部件</strong>：给驾驶员附加技能，其获得的技能可跨周目继承（见周回继承）。</li>
+        <li><strong>驾驶员养成（无 PP／BP 制）</strong>：本作<strong>没有</strong> W、J 的 BP 驾驶员训练，也没有 PP 货币（Namu 明确记载 BP 废止；Akurasu 的 Pilot Skills 页亦无 PP 字段）。养成靠升级、技能部件与<strong>击坠奖金</strong>：驾驶员每累计 100 击坠，6 项能力各 +10，999 击坠时 +100 封顶（Akurasu Ace Bonus 页）；整备画面排名前 3 的驾驶员下一关开局气力 +5，其 PU 搭档同样 +5。技能分专有技能（斩回、击落、盾防御、指挥官、Coordinator、SEED、Overflow 等）与可升级技能（底力、攻击连击、援护攻击、援护防御、集中力、E Save、B Save、气力限界突破等，Akurasu Pilot Skills 页）。</li>
+        <li><strong>信赖补正（Relationship Bonuses）与 Trust</strong>：与他作不同，本作的补正<strong>按角色固定为一种类型</strong>，全 12 种（伤害±、受伤∓、命中±、回避±、暴击±各分近/远，加经验+、资金+）。有补正关系的两机相邻或同 PU 时<strong>双方同时获得彼此的补正</strong>，幅度（%）＝两人的 Trust 值。Trust 每对独立计算、0–30：两人同关出击即 +1（被击坠也算，客串角色同样累计），<strong>永不下降且跨周目继承</strong>。单机时可叠加多个相邻补正；<strong>PU 时只吃副机的补正</strong>，不再吃相邻补正（Akurasu Relationship Bonuses 页）。</li>
+        <li><strong>连续目标补正</strong>：沿袭《A PORTABLE》的同目标连续攻击命中/伤害补正，本作规则为持续到我方下一回合为止、被敌击中不重置（日文维基系统节）。</li>
+        <li><strong>敌方等级缩放</strong>：敌方等级取我方主力驾驶员<strong>前 20 名的平均等级</strong>（向下取整，副驾驶不计），随玩家练度浮动（Akurasu Pre-Release 页、Namu）。这意味着本作<strong>不存在固定的逐关敌方等级/HP 表</strong>——各关卡页不设等级栏，原因即在此（与《超级机器人大战A》同理）。</li>
+        <li><strong>没有熟练度系统</strong>：本作的系统一览（日文维基）只有上述 6 项核心系统（搭档战斗、攻击连击、双卡槽、连续目标补正、信赖补正、击坠奖金），Akurasu 流程图亦无一话给出熟练度条件，系列系统条目的熟练度采用名单（α 系、OG 系、IMPACT、Z 系）不含本作。本站各关卡页的「熟练度」欄因此统一记为无，不虚构条件。</li>
+        <li><strong>双卡槽联动（Double Slot）</strong>：与 W 相同，在 DS 的 GBA 卡槽插入 GBA 版机战卡带，新开游戏或读档时按卡带获得专用部件与资金；通关一次后这些部件也可在商店购买（价格按通关次数解锁，见 Akurasu Clear 页）。对应表（Akurasu Secrets 页）：SRW A→EG装甲＋30,000／SRW R→时流引擎＋40,000／SRW D→レースアルカーナ＋50,000／SRW OG→特斯拉驱动＋60,000／SRW OG2→Z.O.装甲＋70,000／SRW J→奥尔冈云＋80,000／Famicom Mini 第2次→普拉纳转换器＋100,000。DSi/3DS 等无 GBA 卡槽的机型不可用。另注意 Clear 页的商店解锁价格与 Secrets 页的卡带资金是两套数字、且两页对 OG/OG2/J 对应部件的说法有出入，本站并记（见分歧说明）。</li>
+        <li><strong>二周目特典</strong>：二周目起可自定义米斯特、安洁莉卡、谢尔迪亚三人的精神指令（Akurasu Clear 页）；强化部件可在商店购买；全部 BGM 解锁。</li>
+      </ul>
+
+      <h2>隐藏要素总览（六条连锁＋女主点数）</h2>
+      <p>本作的可收集隐藏要素是 <strong>6 条跨话连锁</strong>（另加女主点数系统，见上节），每条的每一步都写在触发/结算的那一话页面里：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>连锁</th><th>步数</th><th>结算</th><th>路线绑定</th></tr></thead>
+          <tbody>
+            <tr><td>传奇高达（雷）＆盖亚高达（史黛拉）</td><td>6 步：第13话选线→第14话前/后篇（柏林）→第15话（柏林）→第29话选线→加入</td><td>第30话后篇（龙宫岛线）加入</td><td>分歧①柏林＋分歧④龙宫岛</td></tr>
+            <tr><td>烈焰老虎（海涅）</td><td>1 步：第19话后篇阿斯兰先攻击、再说得海涅</td><td>当场加入</td><td>无（共通话）</td></tr>
+            <tr><td>刃盖纳（健）</td><td>4 步：第13话选线→第15话后篇→第16话后篇→第29话选线</td><td>第31话后篇（丹纳基地线）过关后加入</td><td>分歧①龙宫岛＋分歧④丹纳基地</td></tr>
+            <tr><td>生化翼龙（费尔梅）</td><td>3 步：第25话选线→第27话（大空魔龙线）三人分别攻击＋两人合计击坠 150</td><td>第27话（大空魔龙线）过关后加入</td><td>分歧③大空魔龙</td></tr>
+            <tr><td>星期日之思念（米海尔）＆星期三之大丽花（法萨莉娜）</td><td>8 步：第8话→第25话→选线→第26话（大天使号线）三步→第27话（大天使号线）→第32话前篇</td><td>第32话前篇过关后两机加入</td><td>分歧③大天使号</td></tr>
+            <tr><td>法芙娜全员生还</td><td>9 步：第13话选线→第15话后篇→第16话后选线→第17话（建造基地）→第22/23话起每关出击五人→第25话选线→第29话选线→第30话后篇到达完成</td><td>第31话（龙宫岛线）过关后全员加入/回归</td><td>分歧①龙宫岛＋②建造基地＋③大天使号＋④龙宫岛</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>六条连锁的路线要求彼此冲突（例如传奇/盖亚要①柏林、法芙娜生还要①龙宫岛），<strong>一周目不可能全达成</strong>，需要多周目补齐；这也是本作周回游玩的核心目标。</p>
+
+      <h2>参战作品（14 作）</h2>
+      <p>破邪大星丹加伊奥、☆超越者王者盖纳、★苍穹的法芙娜、☆电脑战机 Virtual-On Marz、机动战士高达SEED、☆机动战士高达SEED DESTINY、★机动战士高达SEED C.E.73 -STARGAZER-、魔神Z、★盖金克 LEGEND OF DAIKU-MARYU、★钢铁神吉克、★机兽创世纪 Zoids Genesis、☆神魂合体高达纳!!、☆神魂合体高达纳!! SECOND SEASON、★枪×剑（★为系列初参战、☆为掌机初登场，日文维基）。阵容以 2000 年代作品为中心、面向年轻玩家层，除魔神Z、丹加伊奥与高达SEED 外均为掌机初登场。</p>
+
+      <h2>周回继承（Akurasu Clear 页）</h2>
+      <ul>
+        <li><strong>继承</strong>：中意作品的选择（每通关一次可多选 3 部，全选满后倍率固定 1.5 倍）；资金（按通关时最大资金的 <strong>25%</strong> 继承，每多通关一次 +25%，上限 100%）；通过技能部件获得的技能；击坠数；Trust 值。</li>
+        <li><strong>不继承</strong>：强化部件与技能部件本体（通关时<strong>自动卖出</strong>）；机体与武器的改造度。</li>
+        <li>这与 W 的「近全继承」明显不同：K 的周回更接近「资源部分继承＋收集（中意作品、GBA 部件、技能）累积」的结构。</li>
+      </ul>
+
+      <h2>敌方数据现状：23 关单一来源（待裁决）、36 关无任何来源</h2>
+      <p>本作的敌方编成<strong>只有一个部分来源</strong>：<strong>slg369 的 GameFAQs 攻略（faqs/56053）</strong>——作者自通关记录，含敌方构成、数量、每机击破资金、具名敌的掉落部件/技能部件与按事件阶段分组的增援，但这份攻略<strong>未完成</strong>（做到第 16 话后篇，第 17 话只有占位标题）。按本站（Akurasu）编号口径，它覆盖 <strong>第 1 话至第 16 话后篇共 23 个剧本</strong>（含第 14–15 话的两条路线版本）。全网没有第二家来源可与之交叉：另一份 GameFAQs 攻略 ATX233（faqs/77629）是剧情翻译（覆盖第 1–19 话后篇，无任何敌方数据）；s-rpg-navi 没有 K 板块；日文侧（srw.wiki、日本 SRW Wiki、个人攻略站）都没有逐关编成；Namu 只有个别中后期 Boss 的掉落物与撤退 HP 散记。因此按本站「双源交叉才刊载」的惯例，这 23 个剧本的编成<strong>暂不导入、列为待用户裁决事项</strong>（范围：第 1 话–第 16 话后篇共 23 个剧本；字段：构成、数量、每机资金、具名敌掉落（部件＋技能部件）、增援分组与触发说明；无等级、无 HP、无坐标）；<strong>第 17 话起的 36 个剧本没有任何编成来源</strong>。敌方坐标、逐关地图尺寸与逐格地形在任何已查到的来源中都不存在，各页地图为参照框架（四边坐标轴完备），本站地图补完计划另行处理（本作有 4 本纸质攻略本，ISBN 见日文维基，是未来可能的图源）。</p>
+
+      <h2>来源与分歧说明</h2>
+      <p class="text-sm text-base-content/60">主源：Akurasu 的 K 分册——Flow Chart（全 59 个剧本条目的胜败条件、加入、路线结构）、Secrets（6 条连锁与女主点数的逐步条件）、Clear（周回继承与 GBA 部件）、Unit Upgrades Inheritance 与 Full Upgrade Bonus（改造）、Relationship Bonuses（信赖补正/Trust）、Ace Bonus（击坠奖金）、Pilot Skills（技能与攻击连击）、Series（参战作品）、Story/Ending（剧情与结局阈值）。交叉核对：日文 SRW Wiki（Fandom）的 K 条目（36 話/49 ステージ口径、参战作品与发售信息）、日文维基的系列系统条目（熟练度采用名单）、srw.wiki 的隠し要素/K 分岐表与 L 条目（PU 规则回溯）、Namu 的 K 页（等级缩放公式、BP 废止、个别 Boss 散记）、slg369 的 GameFAQs 攻略（中意作品初始 3 部与改造段数、敌方编成的单一来源）。已确认的分歧与处理：①<strong>计数口径</strong>——Akurasu 索引页与日文侧均作「49」，Akurasu 未说明口径、日文侧只说「全36話／49ステージ（前后篇分开计）」；本站按流程图逐条清点为 59 个不同剧本（含全部路线版本）、一周目 46 关、编号 36 话，三数并记、建页从 59。②<strong>关卡编号</strong>——slg369 攻略对第 14–18 话的标法与 Akurasu 不同（其 14A-1/14A-2＝柏林线第14话前/后篇、15A＝柏林线第15话、14B＝龙宫岛线第14话、15B-1/15B-2＝龙宫岛线第15话前/后篇；又把建造基地线标为 17A/18A），本站统一从 Akurasu 口径，并在待裁决事项中注明导入前须做编号对照。③<strong>第12话前篇选项</strong>——流程图对「选项1/选项2」与点数的对应与 Secrets 页的日文原文相反，本站从 Secrets 页日文（独自救谢尔迪亚＝谢尔迪亚 +5；与安洁莉卡合作＝安洁莉卡 +5），两说在该关页面并记。④<strong>第19话前篇选项</strong>——点数效果与选项字面相反（让谢尔迪亚去＝安洁莉卡 +10），两页一致如此记载，本站照录并加粗提醒。⑤<strong>法芙娜生还的「每关出击五人」起点</strong>——Secrets 页作第 22 话起、流程图在第 23 话条目作「自本关起」，差一关，两说并记（稳妥做法自第 22 话起执行）。⑥<strong>第26话（大天使号线）秘密条件</strong>——Secrets 页作「Priscilla 攻击 Sin of Friday 或 Sen of Friday」，流程图作「Sin of Friday 或 Sen of Saturday」，站内不一致，并记。⑦<strong>班布里安的进化名</strong>——流程图作 Bamburian Grand、改造继承页作 Bamburian Ground，本站从后者并注记。⑧<strong>第14话后篇（柏林线）英文标题</strong>——流程图原拼 “Seperation”，本站按正确拼写 Separation 刊出并注明原拼。⑨<strong>原创机体拼写</strong>——Akurasu 站内对主角机有 Revlius/Revilas/Revrius、女主机有 Selius/Serius、合体机有 Selkerius/Serkerius 等多种拼写，本站中文名统一（雷布里亚斯、塞利乌斯、塞尔克里乌斯），拼写差异在此存记。⑩<strong>双卡槽部件对应</strong>——Secrets 页与 Clear 页对 SRW OG/OG2/J 对应的部件说法有出入（Secrets 页作 OG→特斯拉驱动、OG2→Z.O.装甲、J→奥尔冈云；Clear 页以通关次数解锁顺序排列），本站主页表格从 Secrets 页（卡带直得口径），两页差异在此注记。⑪<strong>中意作品的存在性</strong>——个别二手汇总称本作无中意作品，与 Akurasu Clear 页（继承项明列 Favourites 选择）、Pre-Release 页及 slg369 攻略（开局选 3 部、改造上限 15 段）的三处一手记载矛盾，本站从一手来源：本作有中意作品。</p>
+    </div>
+  )}
+
   {isSrwJ && (
     <div>
       <h2>剧情概要：来自宇宙的「审判者」</h2>
@@ -3203,6 +3295,11 @@ const isSrwZSpecial = g.slug === 'srw-z-special';
     <div>
       <p>本作 <strong>39 个可玩剧本全部建有独立攻略页</strong>（Extra Stage 的故事模式 21 关＋挑战战斗 18 关：每关一个详情页——故事模式 5 个篇章的所有篇目含 Secret Epilogue 序章与第1话双版本，挑战战斗 Normal/Hard/Ex-Hard 各 6 关）。下表为按篇章/难度分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方阵容与资源配给、剧情事件与隐藏要素，以及坐标地图（本盘无任何来源提供敌方编成、坐标与地形，详情页内均如实标为待核实；图鉴/设定资料/战斗剧场/Battle Viewer 等非关卡内容没有关卡页，见上文说明）。本作同时保留一份<a class="link" href={href('srw-z-special/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwZSpecialMissionList />
+    </div>
+  ) : isSrwK ? (
+    <div>
+      <p>本作 <strong>59 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 46 关——单一主线、四次路线分歧的全部版本（第14–15、17–18、26–27 话各两套，第30–31 话三套）与 12 个话的前后篇；编号话数 36 话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（六条跨话连锁、女主点数的立旗与结算都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成：第1–16话的 23 个剧本为单一来源暂不刊载待裁决、第17话起的 36 个剧本无任何来源；敌方等级为动态缩放不存在固定表，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-k/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwKMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

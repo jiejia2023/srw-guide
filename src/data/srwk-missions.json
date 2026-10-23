@@ -1,0 +1,4643 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "婚礼钟声是战斗之钟",
+   "ja": "第1話：ウェディングベルは戦いの鐘",
+   "en": "Scenario 1: Wedding Bells are in the Fight",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "新游戏开局（本作主人公固定为米斯特·雷克斯，无开局主人公选择；开局选定的中意作品 3 部影响本话起的经验/资金加成与改造上限，见本作主页）。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "魔神Z（兜甲儿）",
+    "戴安娜A（弓沙也加）",
+    "高达纳（猿渡悟）",
+    "新奥库萨（安娜）",
+    "G炮手（静流，本关客串）",
+    "雷布里亚斯（米斯特）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第2话《来自异世界的来访者》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "过关后加入：核心炮手（静流）、波士机器人（波士、奴克、姆恰）。本话败北条件是全作最严苛的一类——任一我方被击坠即败北（前期多话沿用此型，见各页）。"
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "来自异世界的来访者",
+   "ja": "第2話：異世界からの来訪者",
+   "en": "Scenario 2: Visitors From Another World",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第1话。",
+   "victory": [
+    "击破萨斯佩奇（Suspage）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "大空魔龙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大空魔龙（加里斯、露露）",
+    "盖金克（大也）",
+    "斯廷格（普莉亚）",
+    "瑟潘特（李）",
+    "蟹式碉堡（扬马、哈乔、布比）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第3话《建造升级！苏醒的传说！》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "建造升级！苏醒的传说！",
+   "ja": "第3話：ビルドアップ！ 蘇る伝説！",
+   "en": "Scenario 3: Build Up! The Legend is Reborn!",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第2话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢铁吉克（草薙剑儿）",
+    "新大射手（京、椿）",
+    "建造天使（柳生）",
+    "村雨（阿历克斯，本关客串）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话《重逢的合体攻击》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "重逢的合体攻击",
+   "ja": "第4話：再会のコンビネーションアタック",
+   "en": "Scenario 4: Combination Attack of Reunion",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第3话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "塞利乌斯（安洁莉卡）"
+   ],
+   "events": [
+    "强化：高达纳与新奥库萨获得合体攻击「丹纳组合（Danner Combination）」",
+    "强化：雷布里亚斯与塞利乌斯获得合体攻击「追击组合（Chaser Combination）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第5话《超越者之战》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "超越者之战",
+   "ja": "第5話：オーバーマンバトル",
+   "en": "Scenario 5: Overman Battle",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第4话。",
+   "victory": [
+    "消灭全部敌人",
+    "击破布伦希尔德（Brunhilde）"
+   ],
+   "defeat": [
+    "任一我方单位、大空魔龙、盖纳、盖因、萨拉、高里或贝洛被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "王者盖纳（盖纳）",
+    "加奇科（盖因）",
+    "潘萨（萨拉）",
+    "潘萨（高里）",
+    "潘萨（贝洛）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话《穿燕尾服的笨蛋家伙》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "穿燕尾服的笨蛋家伙",
+   "ja": "第6話：タキシードを着たボンクラ野郎",
+   "en": "Scenario 6: The Tuxedo Wearing Fool",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第5话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "星期四之丹被击破",
+    "大空魔龙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "星期四之丹（范，本关客串）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第7话《醉汉英雄·疾风少女》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "醉汉英雄·疾风少女",
+   "ja": "第7話：ドランクヒーロー・スウィフトガール",
+   "en": "Scenario 7: Drunk Hero, Swift Girl",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第6话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位、大空魔龙、范、普莉希拉或尼罗被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "星期四之丹（范，正式加入）",
+    "埃尔多拉V（尼罗、霍塞、巴里奥斯、卡洛斯，本关客串）",
+    "布朗尼（普莉希拉，本关客串）"
+   ],
+   "events": [
+    "强化：王者盖纳获得「超技能连续攻击（Overskill Continuous Attack）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话《宿命的终点站》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "宿命的终点站",
+   "ja": "第8話：宿命のターミナル",
+   "en": "Scenario 8: Terminal of Fate",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第7话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位、大空魔龙或范被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后离队：加奇科（盖因）、潘萨（高里）、潘萨（贝洛）（日后回归）"
+   ],
+   "secrets": [
+    "隐藏连锁「星期日之思念＆星期三之大丽花」第 1 步：本话让范击破星期一之恶魔（Diablo of Monday）。整条连锁共 8 步，分布在第8、25、26、27、32话前篇，错过任一步本周目无法补救，全表见本作主页。"
+   ],
+   "unlocks": [
+    "第9话《Zi区域的激战》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "Zi区域的激战",
+   "ja": "第9話：エリアＺｉの激闘",
+   "en": "Scenario 9: Battle in Area Zi",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第8话。",
+   "victory": [
+    "击破生化猛禽（扎伊林）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、鲁基、拉·坎、玲美、科托纳、李或大也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "村雨狮虎（鲁基）",
+    "剑狼（拉·坎）",
+    "兰斯塔格（玲美）",
+    "彩虹杰克（科托纳）"
+   ],
+   "events": [
+    "强化：盖金克与斯廷格获得合体攻击「双重绝望之瞄（Double Death Sight）」",
+    "强化：盖金克与瑟潘特获得合体攻击「瑟潘特破坏者（Serpent Buster）」",
+    "强化：盖金克与蟹式碉堡获得合体攻击「溪流旋风（Stream Cyclone）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第10话《黑炎将军》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "黑炎将军",
+   "ja": "第10話：黒き炎の将軍",
+   "en": "Scenario 10: General of the Black Flame",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第9话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、盖金克、米斯特、安洁莉卡、谢尔迪亚被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "塞利乌斯II（谢尔迪亚）"
+   ],
+   "events": [
+    "强化：盖金克获得「开面（Face Open）」",
+    "强化：雷布里亚斯与塞利乌斯II获得合体攻击「摇晃组合（Shaker Combination）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话前篇《盖金克绝体绝命！！·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第11话·前篇",
+   "slug": "stage-11a",
+   "zh": "盖金克绝体绝命！！·前篇",
+   "ja": "第11話前編：ガイキング絶体絶命！！・前編",
+   "en": "Scenario 11-1: Desperate Gaiking!! - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第10话。",
+   "victory": [
+    "击破泽尔加伊亚（普罗伊斯特）",
+    "击破超铁击格兰普斯（Hyper Iron Beat Graneps）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "盖金克被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "猎杀美洲豹（迪克）"
+   ],
+   "events": [
+    "本话后离队：盖金克（大也）（后篇回归）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话后篇《盖金克绝体绝命！！·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第11话·后篇",
+   "slug": "stage-11b",
+   "zh": "盖金克绝体绝命！！·后篇",
+   "ja": "第11話後編：ガイキング絶体絶命！！・後編",
+   "en": "Scenario 11-2: Desperate Gaiking!! - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第11话前篇。",
+   "victory": [
+    "将钢铁吉克移动到盖金克相邻格",
+    "击破巴雷昂（诺扎）与凯恩·泽伦加（凯恩）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、大也、剑儿、李、普莉亚、迪克、鲁基或拉·坎被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "盖金克（大也，回归）"
+   ],
+   "events": [
+    "强化：村雨狮虎获得「疾风狮虎（Hayate Liger）」变形",
+    "强化：盖金克与猎杀美洲豹获得合体攻击「死亡火焰（Death Fire）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第12话前篇《蠢动的阴影·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "本话胜利条件含「移动到相邻格」步骤：钢铁吉克需移动到盖金克所在格的相邻格触发剧情，之后再击破两名目标并全灭敌人。"
+  },
+  {
+   "code": "第12话·前篇",
+   "slug": "stage-12a",
+   "zh": "蠢动的阴影·前篇",
+   "ja": "第12話前編：蠢く翳・前編",
+   "en": "Scenario 12-1: Wriggling Shadow - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第11话后篇。",
+   "victory": [
+    "击破吉古拉特（Ziggurat）"
+   ],
+   "defeat": [
+    "米斯特、安洁莉卡、谢尔迪亚或哈特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "女主点数（Love Interest Points）第 1 处：本话救出方法的选择——选「独自去救谢尔迪亚」= 谢尔迪亚 +5 点；选「与安洁莉卡合作救出」= 安洁莉卡 +5 点（据 Akurasu Secrets 页日文原文）。注意 Akurasu 流程图对「选项1/选项2」的对应说法与 Secrets 页相反，本站从 Secrets 页日文原文，两说并记。点数决定第19话后篇起的搭档、第21话后篇离队者、第28话合体机乘员与结局（阈值见本作主页）。"
+   ],
+   "unlocks": [
+    "第12话后篇《蠢动的阴影·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "过关后加入：阿法姆德·哈特（哈特）。"
+  },
+  {
+   "code": "第12话·后篇",
+   "slug": "stage-12b",
+   "zh": "蠢动的阴影·后篇",
+   "ja": "第12話後編：蠢く翳・後編",
+   "en": "Scenario 12-2: Wriggling Shadow - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第12话前篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、哈特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "丹加伊奥（罗尔、米娅、兰巴、派）"
+   ],
+   "events": [
+    "本话后离队：阿法姆德·哈特（哈特）（日后回归）",
+    "过关后加入：Cosmodiver（娄）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第13话《面目全非的地球》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "面目全非的地球",
+   "ja": "第13話：変わり果てた地球",
+   "en": "Scenario 13: The Changed World",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第12话后篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大天使号（玛琉、诺伊曼）",
+    "自由高达（基拉）"
+   ],
+   "events": [],
+   "secrets": [
+    "本话结束后发生第一次路线分歧（二选一），同时是多条隐藏连锁的路线前置：选「前往柏林」——女主点数 安洁莉卡 +7，且是隐藏机「传奇高达＆盖亚高达」连锁的第 1 步；选「前往龙宫岛」——谢尔迪亚 +7，且是「法芙娜全员生还」与「刃盖纳」两条连锁的第 1 步。本周目只能走一条线，另一条线的连锁本周目无法达成。"
+   ],
+   "unlocks": [
+    "第14话前篇《离别之光·前篇》（柏林线）",
+    "第14话《孤独～战斗》（龙宫岛线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第14话·前篇（柏林线）",
+   "slug": "stage-14a-berlin",
+   "zh": "离别之光·前篇",
+   "ja": "第14話前編：離別の光・前編",
+   "en": "Scenario 14-1 (Berlin): Separation of Light - Part 1",
+   "route": "柏林线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第13话后选择「前往柏林（ベルリン行き）」。本线随行作品：高达SEED DESTINY、魔神Z、王者盖纳、丹加伊奥、机兽创世纪；随行塞利乌斯（安洁莉卡）。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大天使号被击沉"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "隐藏连锁「传奇高达＆盖亚高达」第 2 步：本话让基拉攻击真，但不要用基拉击破真。整条连锁共 6 步（第13话选线、本话、第14话后篇、第15话、第29话后选线、第30话后篇结算），见本作主页。"
+   ],
+   "unlocks": [
+    "第14话后篇《离别之光·后篇》（柏林线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第14话·后篇（柏林线）",
+   "slug": "stage-14b-berlin",
+   "zh": "离别之光·后篇",
+   "ja": "第14話後編：離別の光・後編",
+   "en": "Scenario 14-2 (Berlin): Separation of Light - Part 2",
+   "route": "柏林线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第14话前篇（柏林线）。",
+   "victory": [
+    "击破温达姆（尼奥）与毁灭高达（史黛拉）"
+   ],
+   "defeat": [
+    "大天使号或基拉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "隐藏连锁「传奇高达＆盖亚高达」第 3 步：本话不要击破真。"
+   ],
+   "unlocks": [
+    "第15话《天使坠落》（柏林线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "Akurasu 流程图的本话英文标题作 “Seperation of Light”（原文拼写），本站英文名按正确拼写 Separation 刊出，原拼写在此注明。"
+  },
+  {
+   "code": "第15话（柏林线）",
+   "slug": "stage-15-berlin",
+   "zh": "天使坠落",
+   "ja": "第15話：エンジェルダウン",
+   "en": "Scenario 15 (Berlin): Angel Down",
+   "route": "柏林线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第14话后篇（柏林线）。",
+   "victory": [
+    "大天使号到达海岸",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大天使号或基拉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后离队：自由高达（基拉）（日后回归）"
+   ],
+   "secrets": [
+    "隐藏连锁「传奇高达＆盖亚高达」第 4 步：本话不要击破真、雷或塔莉娅。"
+   ],
+   "unlocks": [
+    "第16话前篇《激战！丹纳基地！！·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第14话（龙宫岛线）",
+   "slug": "stage-14-tatsumiya",
+   "zh": "孤独～战斗",
+   "ja": "第14話：孤独～たたかい",
+   "en": "Scenario 14 (Tatsumiya): Loneliness ~ Battle",
+   "route": "龙宫岛线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第13话后选择「前往龙宫岛（竜宮島行き）」。本线随行作品：高达纳、钢铁神吉克、盖金克、枪×剑；随行塞利乌斯II（谢尔迪亚）。",
+   "victory": [
+    "击破菲斯特姆A型（Festum Type A）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙或一骑被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "嫣红强袭高达（卡嘉莉）",
+    "法芙娜·马克埃尔夫（一骑）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话前篇《悲伤的飞翔·前篇》（龙宫岛线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "嫣红强袭高达（卡嘉莉）的加入，Akurasu 流程图列于本话（龙宫岛线第14话）条目之下。"
+  },
+  {
+   "code": "第15话·前篇（龙宫岛线）",
+   "slug": "stage-15a-tatsumiya",
+   "zh": "悲伤的飞翔·前篇",
+   "ja": "第15話前編：悲しみの飛翔・前編",
+   "en": "Scenario 15-1 (Tatsumiya): Flight of Sorrow - Part 1",
+   "route": "龙宫岛线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第14话（龙宫岛线）。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、娄或一骑被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第15话后篇《悲伤的飞翔·后篇》（龙宫岛线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第15话·后篇（龙宫岛线）",
+   "slug": "stage-15b-tatsumiya",
+   "zh": "悲伤的飞翔·后篇",
+   "ja": "第15話後編：悲しみの飛翔・後編",
+   "en": "Scenario 15-2 (Tatsumiya): Flight of Sorrow - Part 2",
+   "route": "龙宫岛线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第15话前篇（龙宫岛线）。",
+   "victory": [
+    "击破菲斯特姆C型（Festum Type C）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "翔子被击破",
+    "大空魔龙、一骑、米斯特或谢尔迪亚被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "法芙娜·马克六（翔子，本关客串）"
+   ],
+   "events": [
+    "过关后离队：法芙娜·马克埃尔夫（一骑）（日后回归）"
+   ],
+   "secrets": [
+    "隐藏连锁「法芙娜全员生还」第 2 步：本话在 2 回合内、翔子的 HP 高于 30% 时由翔子击破菲斯特姆C型（流程图口径；Secrets 页只记「翔子击破C型」）。",
+    "隐藏连锁「刃盖纳」第 2 步：本话出击娄（Cosmodiver），但不要让娄攻击任何拟态兽（Mimetic Beasts）。"
+   ],
+   "unlocks": [
+    "第16话前篇《激战！丹纳基地！！·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第16话·前篇",
+   "slug": "stage-16a",
+   "zh": "激战！丹纳基地！！·前篇",
+   "ja": "第16話前編：激闘！ダンナーベース！！・前編",
+   "en": "Scenario 16-1: Fierce Fight! Dannar Base!! - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第15话（两条路线在此合流）。",
+   "victory": [
+    "将核心炮手的 HP 降至 10% 以下",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "高达纳被击破",
+    "核心炮手被击毁"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第16话后篇《激战！丹纳基地！！·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ],
+   "note": "本话胜利条件彼此牵制：要把核心炮手削到 HP 10% 以下，但败北条件包含「核心炮手被击毁」——削血时注意不要打过头。"
+  },
+  {
+   "code": "第16话·后篇",
+   "slug": "stage-16b",
+   "zh": "激战！丹纳基地！！·后篇",
+   "ja": "第16話後編：激闘！ダンナーベース！！・後編",
+   "en": "Scenario 16-2: Fierce Fight! Dannar Base!! - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第16话前篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "敌人进入基地",
+    "悟、安娜或娄被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "梅纳斯零（Menage Zero，NPC 客串）"
+   ],
+   "events": [
+    "过关后离队：Cosmodiver（娄）（日后以其他机体回归）"
+   ],
+   "secrets": [
+    "隐藏连锁「刃盖纳」第 3 步：本话让娄击破至少 2 只 18 型拟态兽（Type 18 Mimetic Beasts）。",
+    "本话结束后发生第二次路线分歧：选「前往建造基地」——女主点数 安洁莉卡 +7，随行塞利乌斯（安洁莉卡），且是「法芙娜全员生还」连锁的第 3 步；选「前往达里乌斯界」——谢尔迪亚 +7，随行塞利乌斯II（谢尔迪亚）。"
+   ],
+   "unlocks": [
+    "第17话《夺回吧！另一个钢铁吉克！！》（建造基地线）",
+    "第17话《苏醒的大地魔龙》（达里乌斯线）"
+   ],
+   "enemies": {
+    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "verified": false,
+    "notes": [
+     "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+    ],
+    "state": "single",
+    "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    },
+    {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    }
+   ]
+  },
+  {
+   "code": "第17话（建造基地线）",
+   "slug": "stage-17-build",
+   "zh": "夺回吧！另一个钢铁吉克！！",
+   "ja": "第17話：奪還せよ！もう一人の鋼鉄ジーグ！！",
+   "en": "Scenario 17 (Build Base): Reborn! Another Steel Jeeg!!",
+   "route": "建造基地线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第16话后篇后选择「前往建造基地（ビルドベース行き）」。本线随行作品：高达SEED DESTINY、魔神Z、钢铁神吉克、高达纳、枪×剑；随行塞利乌斯（安洁莉卡）。",
+   "victory": [
+    "击破大火球（Great Fire，伊奇马）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大天使号、甲儿、剑儿、柳生、京、一骑、甲洋或咲良被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "村雨",
+    "法芙娜·马克埃尔夫（一骑，回归）",
+    "法芙娜·马克三（咲良）",
+    "法芙娜·马克四（甲洋，本关客串）"
+   ],
+   "events": [
+    "强化：魔神Z 性能强化，获得「铁碎拳（Iron Cutter）」「大车轮火箭飞拳（Daisharin Rocket Punch）」与「魔神力量（Mazin Power）」能力",
+    "强化：钢铁吉克获得合体攻击「吉克火箭炮（Jeeg Bazooka）」「马赫钻头（Mach Drill）」"
+   ],
+   "secrets": [
+    "隐藏连锁「法芙娜全员生还」第 4、5 步：本话让甲洋击破的菲斯特姆数量多于一骑；且让甲洋击破 1 只阿尔亨特鲁斯型菲斯特姆（Alhenterus Type Festum）。"
+   ],
+   "unlocks": [
+    "第18话《存在～伙伴》（建造基地线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第17话（达里乌斯线）",
+   "slug": "stage-17-darius",
+   "zh": "苏醒的大地魔龙",
+   "ja": "第17話：蘇る大地魔竜",
+   "en": "Scenario 17 (Darius): Revival of the Daichi Maryu",
+   "route": "达里乌斯线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第16话后篇后选择「前往达里乌斯界（ダリウス界行き）」。本线随行作品：王者盖纳、机兽创世纪、丹加伊奥、盖金克；随行塞利乌斯II（谢尔迪亚）。",
+   "victory": [
+    "击破巴尔金克（Vulking）与大地魔龙（Daichi Maryu）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙或盖金克被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：盖金克获得「真龙水神破（Shinryu Hydro Blazer）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话《加里斯舰长，冲击的秘密》（达里乌斯线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第18话（建造基地线）",
+   "slug": "stage-18-build",
+   "zh": "存在～伙伴",
+   "ja": "第18話：存在～なかま",
+   "en": "Scenario 18 (Build Base): Exist ~ Comrade",
+   "route": "建造基地线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第17话（建造基地线）。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "一骑、道生或卡农被击破",
+    "大天使号或米斯特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "墨伽特里翁型（道生，本关客串）",
+    "巴比伦型（卡农，本关客串）",
+    "法芙娜·马克五（卫，本关客串）",
+    "法芙娜·马克七（真矢，本关客串）",
+    "法芙娜·马克八（剑司，本关客串）",
+    "法芙娜·马克塞因（一骑，本关客串）",
+    "旧吉克（宙）",
+    "旧大射手（美和）"
+   ],
+   "events": [
+    "本话后离队：法芙娜·马克埃尔夫（一骑）",
+    "强化：法芙娜·马克三（咲良）、马克八、马克五获得合体攻击「三重对接（Triple Dock）」",
+    "强化：钢铁吉克与旧吉克获得合体攻击「双重旋转风暴（Double Spin Storm）」",
+    "过关后离队：法芙娜·马克三（咲良）（日后回归）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第19话前篇《星之门，命运之门·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第18话（达里乌斯线）",
+   "slug": "stage-18-darius",
+   "zh": "加里斯舰长，冲击的秘密",
+   "ja": "第18話：キャプテン・ガリス、衝撃の秘密",
+   "en": "Scenario 18 (Darius): Captain Garis, Shocking Secret",
+   "route": "达里乌斯线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第17话（达里乌斯线）。",
+   "victory": [
+    "击破天空魔龙（Tenkuu Maryu）",
+    "击破雷金克（Raiking）与天空魔龙",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大空魔龙主驾驶变更：罗莎接替加里斯（本关客串性质，见备注）"
+   ],
+   "events": [
+    "过关后：露露接替加里斯成为大空魔龙主驾驶，罗莎转为副驾驶"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第19话前篇《星之门，命运之门·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "流程图原文的胜利条件分两段列出（先击破天空魔龙、再击破雷金克与天空魔龙），本站照录；本话的驾驶员交替是剧情事件，加里斯的去向见剧情。"
+  },
+  {
+   "code": "第19话·前篇",
+   "slug": "stage-19a",
+   "zh": "星之门，命运之门·前篇",
+   "ja": "第19話前編：星の扉、運命の扉・前編",
+   "en": "Scenario 19-1: Door of Stars, Door of Fate - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第18话（两条路线在此合流）。",
+   "victory": [
+    "击破漆黑强袭高达（斯威恩）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "敌人到达特洛伊空间站（Trojan Station）",
+    "我方战舰或观星者高达被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "翔翼强袭高达（穆）",
+    "观星者高达（赛蕾娜、索尔，本关客串）",
+    "民间用赫雷 DSSD 定制型（DSSD 士兵，NPC 客串）×13"
+   ],
+   "events": [
+    "本话全部盖金克系、高达纳系机体与卡嘉莉不可出击（流程图以离队色标注）",
+    "过关后离队：丹加伊奥（罗尔、米娅、兰巴、派）（后篇回归）；过关后离队：塞利乌斯（安洁莉卡）或塞利乌斯II（谢尔迪亚）之一（取决于女主点数，后篇回归）"
+   ],
+   "secrets": [
+    "女主点数第 4 处：本话的选择与字面相反——选「让谢尔迪亚去」= 安洁莉卡 +10；选「让安洁莉卡去」= 谢尔迪亚 +10（据 Akurasu Secrets 页日文原文）。第19话后篇开始时，点数较高的一位女主成为米斯特的正式搭档，并影响结局走向。"
+   ],
+   "unlocks": [
+    "第19话后篇《星之门，命运之门·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第19话·后篇",
+   "slug": "stage-19b",
+   "zh": "星之门，命运之门·后篇",
+   "ja": "第19話後編：星の扉、運命の扉・後編",
+   "en": "Scenario 19-2: Door of Stars, Door of Fate - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第19话前篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "基拉、阿斯兰、穆、卡嘉莉或米斯特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "永恒号（拉克丝）",
+    "强袭自由高达（基拉）",
+    "无限正义高达（阿斯兰）",
+    "拂晓高达（卡嘉莉）",
+    "村雨（安德鲁）",
+    "圆顶骑兵（希尔达）",
+    "烈焰老虎（伊扎克）",
+    "烈焰扎古幻影（迪亚卡）"
+   ],
+   "events": [
+    "强化：斯廷格升级为上级斯廷格（Superior Stinger）",
+    "强化：大空魔龙（聚合防护形态）获得「绝叫过山车攻击（Zekkyou Coaster Attack）」",
+    "强化：盖金克与大空魔龙（聚合防护形态）获得合体攻击「大回转过山车摆锤（Daikaiten Coaster Swing）」",
+    "强化：盖金克与上级斯廷格获得合体攻击「上级推进器（Superior Booster）」",
+    "过关后加入：命运高达（真）、脉冲高达（露娜玛利亚）、丹加伊奥（回归）、塞利乌斯或塞利乌斯II（回归）"
+   ],
+   "secrets": [
+    "隐藏机体「烈焰老虎（海涅）」：本话先用阿斯兰攻击海涅、再用阿斯兰说得海涅，海涅立即加入（Akurasu Secrets 页与流程图一致）。",
+    "盖亚高达的入手分歧：若「传奇高达＆盖亚高达」连锁的步骤已达成，本话安德鲁驾驶村雨出击；若未达成，本话会在此直接获得盖亚高达（流程图原文注记）——两条路径互斥，决定盖亚/传奇的最终取得方式。"
+   ],
+   "unlocks": [
+    "第20话《背叛与相遇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "背叛与相遇",
+   "ja": "第20話：裏切りと出会いと",
+   "en": "Scenario 20: Betrayal and Encounters",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第19话后篇。",
+   "victory": [
+    "击破吉尔·伯格（Gil Berg）",
+    "消灭全部敌人",
+    "击破伊斯佩尔（Ipseil）"
+   ],
+   "defeat": [
+    "我方战舰或米斯特被击破",
+    "铁木真 a8 型被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "铁木真747J（酋长）",
+    "阿法姆德·哈特（哈特，回归）",
+    "菲伊燕 with VH（菲伊燕）",
+    "铁木真 a8 型（克莱莉亚，NPC 客串）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话前篇《决战之时已至·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第21话·前篇",
+   "slug": "stage-21a",
+   "zh": "决战之时已至·前篇",
+   "ja": "第21話前編：決戦の時は来たれり・前編",
+   "en": "Scenario 21-1: The Time for the Decisive Battle Has Come - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第20话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第21话后篇《决战之时已至·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第21话·后篇",
+   "slug": "stage-21b",
+   "zh": "决战之时已至·后篇",
+   "ja": "第21話後編：決戦の時は来たれり・後編",
+   "en": "Scenario 21-2: The Time for the Decisive Battle Has Come - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第21话前篇。",
+   "victory": [
+    "击破伊斯佩尔（Ipseil）"
+   ],
+   "defeat": [
+    "我方战舰、米斯特与女主被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：雷布里亚斯性能强化，获得「勇敢冲撞（Brave Crash）」与「水晶之心（Crystal Heart）」能力",
+    "本话后离队：塞利乌斯（安洁莉卡）或塞利乌斯II（谢尔迪亚）——女主点数较高者离队（剧情事件，见隐藏要素）",
+    "过关后加入：漆黑强袭高达（斯威恩）、观星者高达（赛蕾娜、索尔）"
+   ],
+   "secrets": [
+    "女主点数第 5 处（剧情结算）：本话点数较高的女主将被剧情带走离队（与第19话后篇确定的搭档是同一人）；她在失去期间，其搭档关系与结局判定仍按点数计算。不要误以为是永久离队——后续剧情会回归并在第28话搭乘合体机。"
+   ],
+   "unlocks": [
+    "第22话《混乱嘉年华》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "混乱嘉年华",
+   "ja": "第22話：コンフュージョン・カーニバル",
+   "en": "Scenario 22: Confusion Carnival",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第21话后篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "法芙娜·马克塞因（一骑）",
+    "法芙娜·马克七（真矢）",
+    "法芙娜·马克八（剑司）",
+    "法芙娜·马克三（咲良）",
+    "法芙娜·马克五（卫）",
+    "恩佩兰萨（盖因）"
+   ],
+   "events": [
+    "本话仅可出击高达SEED DESTINY、观星者、枪×剑、电电脑战机、原创与法芙娜系机体（出击限制关）",
+    "过关后加入：墨伽特里翁型（道生）、巴比伦型（卡农）、潘萨（高里，回归）、潘萨（贝洛，回归）、拉什罗德（亚萨巴）、多尔贝克（阿黛特）"
+   ],
+   "secrets": [
+    "隐藏连锁「法芙娜全员生还」第 6 步的起点口径有分歧：Secrets 页作「自第22话起，每关都出击咲良、卫、剑司、道生与卡农」，流程图在第23话条目记为「自本关（第23话）起」——两说差一关，本站并记；稳妥做法是自本话起就每关出击这五人。"
+   ],
+   "unlocks": [
+    "第23话《结成！迪加尔德讨伐军》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "结成！迪加尔德讨伐军",
+   "ja": "第23話：結成！ディガルド討伐軍",
+   "en": "Scenario 23: Assemble! Digald Suppression Army",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第22话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、鲁基、女主或米斯特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "死亡金刚（加拉加）",
+    "班布里安（朗）"
+   ],
+   "events": [
+    "强化：塞利乌斯或塞利乌斯II性能强化，获得「水晶之心（Crystal Heart）」能力"
+   ],
+   "secrets": [
+    "隐藏连锁「法芙娜全员生还」第 6 步：自本话起（Secrets 页作自第22话起，见第22话页注记），每关都出击剑司、卫、咲良、道生与卡农，直到连锁结算。",
+    "女主点数第 6 处（剧情结算）：未被选为搭档的另一位女主在本话获得机体性能强化（流程图 [升级] 标注于塞利乌斯/塞利乌斯II）。"
+   ],
+   "unlocks": [
+    "第24话前篇《超越恶魔危机·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第24话·前篇",
+   "slug": "stage-24a",
+   "zh": "超越恶魔危机·前篇",
+   "ja": "第24話前編：オーバーデビルクライシス・前編",
+   "en": "Scenario 24-1: Overdevil Crisis - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第23话。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰或盖纳被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "埃尔多拉之魂（尼罗、霍塞、巴里奥斯、卡洛斯）",
+    "布朗尼（普莉希拉）"
+   ],
+   "events": [
+    "强化：布朗尼获得「妖精之刺（Fairy Sting）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第24话后篇《超越恶魔危机·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第24话·后篇",
+   "slug": "stage-24b",
+   "zh": "超越恶魔危机·后篇",
+   "ja": "第24話後編：オーバーデビルクライシス・後編",
+   "en": "Scenario 24-2: Overdevil Crisis - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第24话前篇。",
+   "victory": [
+    "击破超越恶魔（辛西亚）",
+    "将盖金克移动到超越恶魔相邻格",
+    "再次击破超越恶魔（辛西亚）"
+   ],
+   "defeat": [
+    "我方战舰、盖纳、盖因、萨拉或大也被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "灵魂虎（清十郎）"
+   ],
+   "events": [
+    "强化：剑狼→剑狼粉碎者；班布里安→班布里安大地型；兰斯塔格→兰斯塔格破坏型；彩虹杰克→彩虹杰克风型",
+    "强化：死亡金刚获得「镰刀（Scythe）」；恩佩兰萨获得「布伦希尔德（Brunhilde）」",
+    "过关后加入：多米尼特（辛西亚）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第25话《奇袭》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "本话胜利条件分三段：先击破超越恶魔一次，再把盖金克移动到其相邻格触发剧情，最后再次击破。流程图对班布里安的进化名作 “Grand”、Akurasu 改造继承页作 “Ground”，本站正文从改造继承页的 Ground 并在此注记。"
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "奇袭",
+   "ja": "第25話：奇襲",
+   "en": "Scenario 25: Surprise Attack",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第24话后篇。",
+   "victory": [
+    "击破星期二之梅察（Metsa of Tuesday）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、范、鲁基或拉·坎被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "布拉斯托虎（提泽）",
+    "莫尔加·卡诺里（阿坎）"
+   ],
+   "events": [
+    "强化：村雨狮虎获得「无限狮虎（Mugen Liger）」变形",
+    "过关后强化：灵魂虎→灵魂虎推进型（Soul Tiger Boost）"
+   ],
+   "secrets": [
+    "隐藏连锁「星期日之思念＆星期三之大丽花」第 2 步：本话让范击破星期二之梅察。",
+    "本话结束后发生第三次路线分歧：选「与大天使号同行」——是思念/大丽花连锁的第 3 步、且「法芙娜全员生还」连锁的第 7 步需要此线；选「与大空魔龙前往索拉城」——是隐藏机「生化翼龙（费尔梅）」连锁的第 1 步。"
+   ],
+   "unlocks": [
+    "第26话《在绝望中抓住的光》（大天使号线）",
+    "第26话《吉恩的野心》（大空魔龙线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第26话（大天使号线）",
+   "slug": "stage-26-archangel",
+   "zh": "在绝望中抓住的光",
+   "ja": "第26話：絶望の中で掴んだ光",
+   "en": "Scenario 26 (Archangel): Light Seized by Despair",
+   "route": "大天使号线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第25话后选择「与大天使号同行（アークエンジェルに同行）」。本线随行作品：高达SEED DESTINY、STARGAZER、王者盖纳、法芙娜、魔神Z、钢铁神吉克、枪×剑。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大天使号、辛西亚或范被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "戈莱姆（阿斯哈姆）",
+    "沃尔肯（雷，NPC 客串）"
+   ],
+   "events": [
+    "强化：星期四之丹性能强化，获得「突击（Assault）」与「EM 护盾（EM Shield）」能力"
+   ],
+   "secrets": [
+    "隐藏连锁「星期日之思念＆星期三之大丽花」第 4 步：本话出击布朗尼（普莉希拉）。",
+    "同连锁第 5 步：本话让普莉希拉攻击星期五之罪（Sin of Friday）或星期六之森（Sen of Saturday）其一（Secrets 页原文作 “Sin of Friday or Sen of Friday”，与流程图的 Sen of Saturday 不一致，两说并记）。",
+    "同连锁第 6 步：本话让范击破星期二之梅察（累计条件，与第25话的击破合并计算）且击破星期五之罪或星期六之森其一。"
+   ],
+   "unlocks": [
+    "第27话《通往幸福的倒计时》（大天使号线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第26话（大空魔龙线）",
+   "slug": "stage-26-daikyu",
+   "zh": "吉恩的野心",
+   "ja": "第26話：ジーンの野望",
+   "en": "Scenario 26 (Daikyu Maryu): Jin's Ambition",
+   "route": "大空魔龙线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第25话后选择「与大空魔龙前往索拉城（大空魔竜とソラシティへ）」。本线随行作品：电脑战机、机兽创世纪、丹加伊奥、盖金克、高达纳。",
+   "victory": [
+    "击破生化翼龙（费尔梅）",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙或鲁基被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "过关后加入：兰斯塔格（宗太）（驾驶员追加/变更）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第27话《结局》（大空魔龙线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第27话（大天使号线）",
+   "slug": "stage-27-archangel",
+   "zh": "通往幸福的倒计时",
+   "ja": "第27話：幸せへのカウントダウン",
+   "en": "Scenario 27 (Archangel): Countdown to Happiness",
+   "route": "大天使号线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第26话（大天使号线）。",
+   "victory": [
+    "消灭全部敌人",
+    "我方机体在 5 回合内到达火箭"
+   ],
+   "defeat": [
+    "范被击破",
+    "我方战舰被击破",
+    "未能到达火箭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "沃尔肯（雷，NPC 客串）"
+   ],
+   "events": [
+    "过关后加入：安德戈莱姆（恩盖）、安德戈莱姆（凯吉南）、安德戈莱姆（贾博里）"
+   ],
+   "secrets": [
+    "隐藏连锁「星期日之思念＆星期三之大丽花」第 7 步：本话让范先击破星期五之罪或星期六之森其一，再击破星期三之大丽花。顺序颠倒则不成立。"
+   ],
+   "unlocks": [
+    "第28话《联动》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第27话（大空魔龙线）",
+   "slug": "stage-27-daikyu",
+   "zh": "结局",
+   "ja": "第27話：結末",
+   "en": "Scenario 27 (Daikyu Maryu): Ending",
+   "route": "大空魔龙线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第26话（大空魔龙线）。",
+   "victory": [
+    "击破生化三角龙（Bio Tricera）与生化翼龙（Bio Ptera）",
+    "击破生化暴龙（Bio Tyrano）"
+   ],
+   "defeat": [
+    "大空魔龙、鲁基、玲美、加拉加、科托纳、宗太或扎伊林被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "生化火山（扎伊林）"
+   ],
+   "events": [
+    "过关后强化：全部狮虎形态获得「连续进化（Consecutive Evolt）」；死亡金刚获得「剪刀臂（Scissor Arm）」"
+   ],
+   "secrets": [
+    "隐藏机「生化翼龙（费尔梅）」第 2 步：本话让宗太、玲美、科托纳分别攻击费尔梅（每人至少攻击一次）。",
+    "同连锁第 3 步：在本关结束前，科托纳与玲美的合计击坠数达到 150。达成后，生化翼龙（费尔梅）在过关后加入。"
+   ],
+   "unlocks": [
+    "第28话《联动》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "联动",
+   "ja": "第28話：リンケージ",
+   "en": "Scenario 28: Linkage",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第27话（两条路线在此合流）。",
+   "victory": [
+    "消灭全部敌人",
+    "击破杰纳迪（Zenadi）与维克托拉（Victora）"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "我方战舰、米斯特或女主被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "塞尔克里乌斯（女主，见隐藏要素）"
+   ],
+   "events": [
+    "强化：雷布里亚斯获得「合体（Combination）」能力，可与塞尔克里乌斯合体为索尔布里亚斯·雷克斯或索尔布里亚斯·蕾吉娜",
+    "本话后离队：新大射手（京）（第29话回归）"
+   ],
+   "secrets": [
+    "女主点数第 7 处（最终结算）：点数最高的一位女主在本话搭乘合体机塞尔克里乌斯出击，并成为与雷布里亚斯的合体对象；合体形态（雷克斯/蕾吉娜）与结局均由点数决定（阈值：任一女主点数 >15 为其结局 1，=15 为其结局 2；细则见本作主页）。"
+   ],
+   "unlocks": [
+    "第29话《解开悲伤的咒缚》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "解开悲伤的咒缚",
+   "ja": "第29話：哀しき呪縛を解け",
+   "en": "Scenario 29: Break the Sorrowful Curse",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第28话。",
+   "victory": [
+    "将剑儿移动到大火（Big Fire）相邻格",
+    "消灭全部敌人",
+    "击破超越恶魔或维克托拉"
+   ],
+   "defeat": [
+    "我方战舰、剑儿、京、大火、罗尔、盖纳、米斯特或女主被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "新大射手（京，回归）"
+   ],
+   "events": [
+    "强化：钢铁吉克获得「巴尔巴吉克（Balba Jeeg）」；王者盖纳获得「过热（Overheat）」；丹加伊奥获得「最终心灵波（Final Psychic Wave）」"
+   ],
+   "secrets": [
+    "本话结束后发生第四次路线分歧（三选一），同时是三条隐藏连锁的结算分线：选「与大天使号前往龙宫岛」——传奇/盖亚连锁第 5 步、法芙娜全员生还连锁第 8 步；选「前往丹纳基地防守」——刃盖纳连锁的最后一步（流程图把它编号为 #3，与第16话后篇的 #3 重号，原文如此）；选「与大空魔龙前往达里乌斯界」无隐藏连锁绑定。"
+   ],
+   "unlocks": [
+    "第30话前篇《情爱～再见·前篇》（龙宫岛线）",
+    "第30话《决战！三大魔龙！！》（大空魔龙线）",
+    "第30话《狂犬病综合征的恐怖》（丹纳基地线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第30话·前篇（龙宫岛线）",
+   "slug": "stage-30a-tatsumiya",
+   "zh": "情爱～再见·前篇",
+   "ja": "第30話前編：情愛～さよなら・前編",
+   "en": "Scenario 30-1 (Tatsumiya): Affection ~ Goodbye - Part 1",
+   "route": "龙宫岛线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第29话后选择「与大天使号前往龙宫岛（アークエンジェルと竜宮島へ）」。本线随行作品：高达SEED DESTINY、STARGAZER、枪×剑、法芙娜、丹加伊奥。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大天使号、一骑、剑司、卫、道生被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "机体变化：墨伽特里翁型离队→法芙娜·马克一（道生，客串形态）；巴比伦型、马克五（卫）、马克三（咲良）离队→马克三改由卡农驾驶"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第30话后篇《情爱～再见·后篇》（龙宫岛线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第30话（大空魔龙线）",
+   "slug": "stage-30-daikyu",
+   "zh": "决战！三大魔龙！！",
+   "ja": "第30話：決戦！三大魔竜！！",
+   "en": "Scenario 30 (Daikyu Maryu): Final Battle! The 3 Maryu",
+   "route": "大空魔龙线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第29话后选择「与大空魔龙前往达里乌斯界（大空魔竜とダリウス界へ）」。本线随行作品：王者盖纳、钢铁神吉克、盖金克、机兽创世纪。",
+   "victory": [
+    "击破巴尔金克（萨斯佩奇）",
+    "将大地魔龙与雷金克的 HP 降至 10% 以下",
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "大空魔龙、大也、李、贝斯塔努、凯恩或诺扎被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "大地魔龙（贝斯塔努）",
+    "天空魔龙（凯恩）",
+    "雷金克（诺扎）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第31话前篇《父亲之心·前篇》（大空魔龙线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "本话胜利条件含削血要求：大地魔龙与雷金克要降到 HP 10% 以下（击破它们会怎样流程图未单独注明败北，按条件字面执行：削血而非击破）。"
+  },
+  {
+   "code": "第30话（丹纳基地线）",
+   "slug": "stage-30-dannar",
+   "zh": "狂犬病综合征的恐怖",
+   "ja": "第30話：ラビッドシンドロームの恐怖",
+   "en": "Scenario 30 (Dannar Base): Fear of Rabid Syndrome",
+   "route": "丹纳基地线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第29话后选择「前往丹纳基地防守（ダンナーベースを守れ）」。本线随行作品：高达纳、电脑战机、魔神Z。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "悟被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第31话前篇《钢铁巨人们·前篇》（丹纳基地线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第30话·后篇（龙宫岛线）",
+   "slug": "stage-30b-tatsumiya",
+   "zh": "情爱～再见·后篇",
+   "ja": "第30話後編：情愛～さよなら・後編",
+   "en": "Scenario 30-2 (Tatsumiya): Affection ~ Goodbye - Part 2",
+   "route": "龙宫岛线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第30话前篇（龙宫岛线）。",
+   "victory": [
+    "大天使号到达高亮区域"
+   ],
+   "defeat": [
+    "大天使号、一骑、真矢、剑司、卡农被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：法芙娜·马克塞因、马克七、马克八与马克三（卡农）获得合体攻击「十字对接（Cross Dock）」"
+   ],
+   "secrets": [
+    "隐藏连锁「传奇高达＆盖亚高达」结算：前置 5 步全部达成时，传奇高达（雷）与盖亚高达（史黛拉）在本话加入。",
+    "隐藏连锁「法芙娜全员生还」第 9 步（最后一步）：本话必须以「大天使号到达高亮区域」的方式完成（即按胜利条件到达），而不是全灭敌人通关。"
+   ],
+   "unlocks": [
+    "第31话《苍穹～天空》（龙宫岛线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第31话·前篇（大空魔龙线）",
+   "slug": "stage-31a-daikyu",
+   "zh": "父亲之心·前篇",
+   "ja": "第31話前編：父の心・前編",
+   "en": "Scenario 31-1 (Daikyu Maryu): A Father's Heart - Part 1",
+   "route": "大空魔龙线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第30话（大空魔龙线）。",
+   "victory": [
+    "消灭全部敌人",
+    "击破德沃扎克（普罗伊斯特）"
+   ],
+   "defeat": [
+    "大空魔龙、大也、李或诺扎被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "巴尔金克（李）"
+   ],
+   "events": [
+    "本话后离队：瑟潘特（李）（改为驾驶巴尔金克）",
+    "强化：盖金克获得「合体（Combination）」能力，可与雷金克、巴尔金克合体为盖金克·伟大（Gaiking the Great）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第31话后篇《父亲之心·后篇》（大空魔龙线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第31话·前篇（丹纳基地线）",
+   "slug": "stage-31a-dannar",
+   "zh": "钢铁巨人们·前篇",
+   "ja": "第31話前編：鋼の巨人達・前編",
+   "en": "Scenario 31-1 (Dannar Base): Giants of Steel - Part 1",
+   "route": "丹纳基地线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第30话（丹纳基地线）。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "强奥库萨尔（安娜）",
+    "新奥库萨（米拉）"
+   ],
+   "events": [
+    "机体变化：新奥库萨（安娜）离队；G炮手（甲儿）→G零式炮手（甲儿）",
+    "强化：高达纳TDM（新）获得「碎心全开（Heartbreaker Full Throttle）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第31话后篇《钢铁巨人们·后篇》（丹纳基地线）"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第31话（龙宫岛线）",
+   "slug": "stage-31-tatsumiya",
+   "zh": "苍穹～天空",
+   "ja": "第31話：蒼穹～そら",
+   "en": "Scenario 31 (Tatsumiya): Azure ~ Sky",
+   "route": "龙宫岛线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第30话后篇（龙宫岛线）。",
+   "victory": [
+    "消灭全部敌人",
+    "击破伊杜恩（Idun）",
+    "击破法芙娜·马克尼希特（Mark Nicht）"
+   ],
+   "defeat": [
+    "大天使号、一骑、真矢、剑司或卡农被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：法芙娜·马克塞因与马克七获得合体攻击「双重对接（Twin Dock）」"
+   ],
+   "secrets": [
+    "隐藏连锁「法芙娜全员生还」结算：前置 9 步全部达成时，过关后加入/回归——法芙娜·马克一（道生）、马克四（甲洋）、马克五（卫）、马克六（翔子）、巴比伦型，以及咲良相关机体（流程图原文仅记「（Sakura）」，指咲良的回归/机体，本站照录原文并注记）。注记：马克三可由咲良或卡农驾驶、两人各有合体攻击；若咲良驾驶马克三，卡农可再驾驶巴比伦型。"
+   ],
+   "unlocks": [
+    "第32话前篇《被重置的世界·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第31话·后篇（大空魔龙线）",
+   "slug": "stage-31b-daikyu",
+   "zh": "父亲之心·后篇",
+   "ja": "第31話後編：父の心・後編",
+   "en": "Scenario 31-2 (Daikyu Maryu): A Father's Heart - Part 2",
+   "route": "大空魔龙线（终盘）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第31话前篇（大空魔龙线）。",
+   "victory": [
+    "将最终德沃扎克（普罗伊斯特）的 HP 降至 10% 以下",
+    "击破最终德沃扎克",
+    "击破达里乌斯王（普罗伊斯特）"
+   ],
+   "defeat": [
+    "大空魔龙、大也、李、诺扎或迪克被击破",
+    "在达里乌斯王出击前击破普罗伊斯特"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：盖金克·伟大获得「开面·伟大（Face Open The Great）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第32话前篇《被重置的世界·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "败北条件含一条反直觉规则：在达里乌斯王出击之前就击破普罗伊斯特会直接败北——先按胜利条件把最终德沃扎克削到 10% 以下触发剧情，不要提前击破普罗伊斯特本人。"
+  },
+  {
+   "code": "第31话·后篇（丹纳基地线）",
+   "slug": "stage-31b-dannar",
+   "zh": "钢铁巨人们·后篇",
+   "ja": "第31話後編：鋼の巨人達・後編",
+   "en": "Scenario 31-2 (Dannar Base): Giants of Steel - Part 2",
+   "route": "丹纳基地线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "完成第31话前篇（丹纳基地线）。",
+   "victory": [
+    "将高达纳（悟）的 HP 降至 10% 以下",
+    "击破超级拟态兽（Super Mimetic Beast）"
+   ],
+   "defeat": [
+    "悟、安娜或米拉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "切雷布雷达（娄）"
+   ],
+   "events": [
+    "强化：高达纳TDM（悟）与切雷布雷达获得合体攻击「高达纳三重驱动（Godannar Triple Drive）」"
+   ],
+   "secrets": [
+    "隐藏连锁「刃盖纳」结算：前置步骤全部达成（第13话选龙宫岛线、第15话后篇、第16话后篇、第29话后选丹纳基地线）时，过关后刃盖纳（健）与健一同加入。"
+   ],
+   "unlocks": [
+    "第32话前篇《被重置的世界·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第32话·前篇",
+   "slug": "stage-32a",
+   "zh": "被重置的世界·前篇",
+   "ja": "第32話前編：リセットされる世界・前編",
+   "en": "Scenario 32-1: A World Reset - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第31话（三条路线在此合流）。",
+   "victory": [
+    "击破生日（Birthday，爪之男）"
+   ],
+   "defeat": [
+    "我方战舰、范、雷或尼罗被击破",
+    "超过 7 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "沃尔肯改（雷）"
+   ],
+   "events": [
+    "强化：范获得「溢出（Overflow）」技能；星期四之丹性能强化并获得「神之审判（God's Judgement）」",
+    "强化：埃尔多拉之魂获得「东贡轰炸（Dungun Bombardiero）」",
+    "强化：星期四之丹与埃尔多拉之魂获得合体攻击「子弹埃尔多拉丹（Bullet Eldoradan）」；星期四之丹与沃尔肯改获得合体攻击「枪×剑（GunXSword）」"
+   ],
+   "secrets": [
+    "隐藏连锁「星期日之思念＆星期三之大丽花」第 8 步（最后一步）：本话让范在击破星期日之思念与星期三之大丽花之前，先击破生日（Birthday）。达成后两机在过关后加入。"
+   ],
+   "unlocks": [
+    "第32话后篇《被重置的世界·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "过关后加入（条件达成时）：星期日之思念（米海尔）、星期三之大丽花（法萨莉娜）——见隐藏要素。本话有 7 回合时限（败北条件）。"
+  },
+  {
+   "code": "第32话·后篇",
+   "slug": "stage-32b",
+   "zh": "被重置的世界·后篇",
+   "ja": "第32話後編：リセットされる世界・後編",
+   "en": "Scenario 32-2: A World Reset - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第32话前篇。",
+   "victory": [
+    "消灭全部敌人",
+    "击破超越恶魔（Overdevil）",
+    "击破杰纳迪（Zenadie）"
+   ],
+   "defeat": [
+    "我方战舰、米斯特或女主被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：索尔布里亚斯·雷克斯获得「遗憾破坏者（Regret Buster）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第33话前篇《妃魅祸，野心的尽头·前篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第33话·前篇",
+   "slug": "stage-33a",
+   "zh": "妃魅祸，野心的尽头·前篇",
+   "ja": "第33話前編：妃魅禍、野望の果て・前編",
+   "en": "Scenario 33-1: Himika's Final Ambition - Part 1",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第32话后篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰、米斯特或女主被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第33话后篇《妃魅祸，野心的尽头·后篇》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第33话·后篇",
+   "slug": "stage-33b",
+   "zh": "妃魅祸，野心的尽头·后篇",
+   "ja": "第33話後編：妃魅禍、野望の果て・後編",
+   "en": "Scenario 33-2: Himika's Final Ambition - Part 2",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第33话前篇。",
+   "victory": [
+    "消灭全部敌人",
+    "击破须佐之男（Susanoo）"
+   ],
+   "defeat": [
+    "我方战舰、剑儿、宙、京或美和被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "强化：钢铁吉克与旧吉克获得合体攻击「钢铁神吉克（Kotetsushin Jeeg）」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话《天国的雷霆》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "天国的雷霆",
+   "ja": "第34話：天国の雷",
+   "en": "Scenario 34: Heaven's Thunder",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第33话后篇。",
+   "victory": [
+    "消灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "铁木真 a8 型（克莱莉亚）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第35话《另一领域》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "另一领域",
+   "ja": "第35話：Another Sphere",
+   "en": "Scenario 35: Another Sphere",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第34话。",
+   "victory": [
+    "击破坦格莱姆（Tangram，大门）"
+   ],
+   "defeat": [
+    "我方战舰或铁木真747J被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "MYZR Δ I「夏洛特」（珍妮弗，NPC 客串）",
+    "MYZR Δ I「伊芙琳」（黛博拉，NPC 客串）",
+    "MYZR Δ IV typeR「费尔·比安卡」（希尔维，NPC 客串）",
+    "RAIDEN(gfk)512 E1（吉尔，NPC 客串）",
+    "RAIDEN(gfk)512 E2（雷顿，NPC 客串）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "最终话《发自内心的…》"
+   ],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ]
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "发自内心的…",
+   "ja": "最終話：心からの…",
+   "en": "Final Scenario: From the Heart...",
+   "route": "共通线",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "完成第35话。",
+   "victory": [
+    "击破鲁·科博尔（Ru-Cobol）"
+   ],
+   "defeat": [
+    "我方战舰、女主或米斯特被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（敌方每机均有击破资金，数值只见于单一来源攻略、本站未刊载，见下方「敌方出场与增援」）。中意作品的资金加成与周回继承规则见本作主页。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "结局由女主点数决定：点数最高者且 >15 时为该女主的结局 1、恰为 15 时为结局 2（安洁莉卡/谢尔迪亚各两种，另有两页来源提及的复数结局变体，见本作主页的结局节）；两位女主的点数构成全表见本作主页。"
+   ],
+   "unlocks": [],
+   "enemies": {
+    "status": "敌方编成无任何来源，待核实",
+    "verified": false,
+    "notes": [
+     "本关敌方编成在已查到的全部来源中都不存在：slg369 的 GameFAQs 攻略（faqs/56053）只做到第16话后篇（第17话是未完成的占位标题），ATX233 的攻略（faqs/77629）是剧情翻译、覆盖第1–19话后篇却没有任何敌方数据；Akurasu 流程图不刊编成，日文侧（srw.wiki、Fandom 等）亦无逐关编成来源。",
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动；敌方坐标与逐格地形同样无公开来源，地图为参照框架。"
+    ],
+    "state": "none"
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu、GameFAQs 的两份攻略（slg369／ATX233）与日文各来源均不提供本作逐关的地图尺寸、逐格地形与单位坐标（slg369 只有「地图中左侧」之类的文字方位描述）；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现坐标均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Flow Chart（流程主源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars K Secrets（隐藏要素总表，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/K/Secrets"
+    },
+    {
+     "name": "日本 SRW Wiki（Fandom）— スーパーロボット大戦K（话数口径、参战作品与系统的交叉核对）",
+     "url": "https://superrobotwars.fandom.com/ja/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6K"
+    }
+   ],
+   "note": "通关后进入下一周目：继承中意作品选择（每通关 +3 部可选）、资金（通关时最大资金的 25%，每多通关一次 +25%、上限 100%）、技能部件获得的技能、击坠数与信赖度（Trust）；部件本体在通关时自动卖出、改造度不继承。细则见本作主页。"
+  }
+ ]
+}
