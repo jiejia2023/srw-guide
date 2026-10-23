@@ -1,0 +1,141 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwgc-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { mission: m } }));
+}
+const m = Astro.props.mission as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战GC', path: 'srw-gc/' },
+  { label: '关卡攻略', path: 'srw-gc/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+const caps = (m.capturable ?? []) as any[];
+---
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战GC（2004 GameCube）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素与本话可捕獲机体。`} path={`srw-gc/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
+  <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入、隐藏要素与「本话可捕獲机体」来自 Akurasu Wiki 的 GC <strong>Flow Chart</strong>，并与同站 Secrets 页、Mech Capture 表交叉核对，系统与话数口径另以日本维基百科互证。本站逐关攻略以 <strong>GameCube 原版</strong>为准（Xbox 360 移植版《XO》追加的支线与机体形态不收录）。本作<strong>没有熟练度（SR 点）系统</strong>：日文维基系统条目的熟练度采用作品清单中没有 GC/XO，本作亦无 PP 养成（驾驶员技能靠着脱式技能部件）；隐藏要素由<strong>支线通关、说得与关内条件</strong>决定。本作<strong>没有路线分歧</strong>：主线 59 话线性推进，支线在本话之后、进入下一主线话之前可反复攻略。<strong>敌方编成无任何公开来源</strong>：经全面检索，英、日文来源中没有一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表），故标为待核实、地图为参照框架；能确认的敌方出场信息只有下方的「本话可捕獲机体」。</span>
+  </div>
+
+  <h2>出击条件</h2>
+  <p>{m.prerequisite}</p>
+
+  <h2>关卡概要</h2>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table [&_th]:bg-base-200 [&_th]:w-36 [&_th]:align-top">
+    <tr><th>胜利条件</th><td>{m.victory.map((v: string) => <div>{v}</div>)}</td></tr>
+    <tr><th>败北条件</th><td>
+      {m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>待核实（见下方说明）</div>}
+      {m.defeatNote && <div class="muted">{m.defeatNote}</div>}
+    </td></tr>
+    <tr><th>熟练度</th><td>
+      <div>本作无熟练度系统（隐藏要素由支线通关、说得与关内条件决定，见本作主页）</div>
+    </td></tr>
+    <tr><th>资金</th><td>{m.rewards.funds}</td></tr>
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（Akurasu 流程图本话未列出新增单位；编成变化见剧情事件与隐藏要素）。</p>
+  )}
+
+  {caps.length > 0 && (
+  <div>
+  <h2>本话可捕獲机体</h2>
+  <div class="alert alert-info alert-soft my-4">
+    <span>以下机体自本话起成为<strong>可捕獲对象</strong>（据 Akurasu 流程图「New Capturable Units」与捕獲表）：把敌机 BODY 以外的全部位（头部/腕部/脚部，战舰类为操纵/武器/引擎）打到 0，再让自军母舰（白色基地或甘道尔）相邻选择「捕獲」。「可自军运用」的机体在结算时可编入自军（可换驾驶员、可改造）；其余只能在结算时变换为所列的强化部件或解体回收资金。<strong>捕獲不会得到击破的经验值与资金。</strong>注意：这只是本话新登场的可捕獲机体，不等于本关的完整敌方编成。</span>
+  </div>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>机体</th><th>英文名</th><th>处置</th><th>回收价（解体）</th><th>变换部件</th><th>备注</th></tr></thead>
+    <tbody>
+    {caps.map((c: any) => (
+      <tr><td>{c.zh}</td><td>{c.en}</td><td>{c.kind === 'capture' ? '可捕獲并自军运用' : '仅出售/变换部件'}</td><td>{c.sell}</td><td>{c.item}</td><td>{c.note}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+  </div>
+  )}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实：</strong>本关敌方编成（初始配置、增援、等级、坐标）无任何公开来源可查，核实后补入。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  <h2>剧情事件</h2>
+  {m.events.length ? (
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">Akurasu 流程图本话未单列剧情事件（胜败条件与加入见上）。</p>
+  )}
+
+  {m.secrets.length > 0 && (
+  <div>
+  <h2>隐藏要素 / 本关要点</h2>
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  <p class="muted">连锁步骤多的话会跨页标（x/y）：请按各话页面顺序核对，不要漏掉前置支线的通关与说得流程。</p>
+  </div>
+  )}
+
+  {m.note && (
+  <div>
+  <h2>备注</h2>
+  <p>{m.note}</p>
+  </div>
+  )}
+
+  <h2>坐标地图</h2>
+  <p>坐标规则与全站一致：左上角为原点 (1,1)，X 向右递增，Y 向下递增。</p>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>核实范围：</strong>{m.map.note}</span>
+  </div>
+  {(m.map.missing ?? []).map((t: string) => (
+    <div class="alert alert-warning alert-soft my-2"><span>{t}</span></div>
+  ))}
+  <div class="card bg-base-100 border border-base-300 shadow-sm my-4">
+    <div class="card-body p-4">
+    <StageMap mission={m} />
+    </div>
+  </div>
+  <h3>已核实点位</h3>
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra table-sm">
+    <thead><tr><th>坐标</th><th>类别</th><th>内容</th></tr></thead>
+    <tbody>
+    {(m.map.verifiedPoints ?? []).map((p: any) => (
+      <tr><td>({p.x},{p.y})</td><td>{p.kind}</td><td>{p.label}</td></tr>
+    ))}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+
+  <p><a href={href('srw-gc/missions/')}>← 返回关卡列表</a> · <a href={href('srw-gc/')}>返回超级机器人大战GC</a></p>
+</Base>

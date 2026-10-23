@@ -1,0 +1,6720 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "防卫队出动！",
+   "ja": "防衛隊出動！",
+   "en": "Defense Force, Move Out!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "新游戏开局的第一话。开局先选主人公的性别（男／女，默认名同为「赤月秋水」）与主人公机的系别——超级系「索尔塞巴」或真实系「索尔加纳」——两种开局只差主人公机（与日后第31话的强化形态），剧情与同行单位完全共通：本作没有路线分歧（日文维基明记）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "allies": [
+    "索尔塞巴（超级系）或索尔加纳（真实系）——二选一（主人公、菲莉）",
+    "特莱达G7（瓦塔）",
+    "莱汀欧（仁、飞鸟、星山耕司）"
+   ],
+   "events": [
+    "民间防卫公司「最上重工」的继承人赤月秋水，与身兼社长秘书与监护人的菲莉共同驾驶自家机动兵器，与竹尾通用公司的特莱达G7、地球防卫组（莱汀欧）共同守护街区——本作主线自此开始。莱汀欧三机在本话即可使用合体攻击「无敌攻击」（据 Akurasu 合体攻击表，第1话起可用）。"
+   ],
+   "unlocks": [
+    "第2话《早乙女研究所遇袭》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "开局变体只有主人公机一处（索尔塞巴／索尔加纳二选一，副驾驶同为菲莉）；性别选择在本作（GC 原版）不改变机体与剧情，XO 版才追加性别互斥的新角色（见本作主页的版本差异）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "早乙女研究所遇袭",
+   "ja": "狙われた早乙女研究所",
+   "en": "Saotome Lab Under Attack!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "allies": [
+    "德克萨斯·马克（杰克、玛丽）",
+    "莱汀欧（仁、飞鸟、星山耕司）"
+   ],
+   "events": [
+    "早乙女研究所遭到袭击，德克萨斯·马克赶来协防。"
+   ],
+   "unlocks": [
+    "第2话支线《为了守护和平》",
+    "第3话《联邦军机动兵器，启动！》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第2话·支线",
+   "slug": "sub-2",
+   "zh": "为了守护和平",
+   "ja": "平和を守るために",
+   "en": "In Order to Protect Peace",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第2话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "allies": [
+    "莱汀欧（仁、飞鸟、星山耕司）"
+   ],
+   "events": [
+    "支线剧本：以莱汀欧为中心的小规模战斗，可反复攻略。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "联邦军机动兵器，启动！",
+   "ja": "連邦軍機動兵器、始動！",
+   "en": "Federation Mobile Weapon, Activate!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "allies": [
+    "高达（阿姆罗）",
+    "龙骑兵1号（凯恩）",
+    "龙骑兵2号（塔普）",
+    "龙骑兵3号（莱特）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "白色基地（布莱德）",
+    "钢加农（凯）",
+    "钢坦克（隼人）",
+    "（小龙）"
+   ],
+   "events": [
+    "一年战争的叙事正式展开：白色基地队与机甲战记龙骑兵队加入；龙骑兵1号在本话取得骑士0型框架。"
+   ],
+   "unlocks": [
+    "第4话《高达破坏命令》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话的加入名单末尾有「(Ryu)」一项（小龙），原表未注明其机体，本站照录。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "高达破坏命令",
+   "ja": "ガンダム破壊命令",
+   "en": "Destroy the Gundam!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "（1）捕獲任意一台敌机",
+    "（2）歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰或阿姆罗的机体被击坠，或先把全部敌人歼灭（未完成捕獲即失败）",
+    "（2）我方战舰被击坠"
+   ],
+   "allies": [
+    "白色基地自本话起可对失去行动能力的敌机执行「捕獲」",
+    "扎古II（剧情强制捕獲）",
+    "布莱卡（基德、鲍伊、大町、艾萨克）"
+   ],
+   "events": [
+    "本作核心系统「捕獲」在本话解禁：先破坏敌机的全部位（头部／腕部／脚部，战舰类为操纵／武器／引擎），再让自军母舰（白色基地或甘道尔）移动到其相邻位置选择「捕獲（seize）」即可收缴。第一阶段必须先成功捕獲一台才能进入歼灭阶段。"
+   ],
+   "unlocks": [
+    "第5话《只属于两人的战争》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Dreu",
+     "zh": "德雷乌",
+     "kind": "capture",
+     "sell": 1600,
+     "item": "口粮",
+     "note": "德雷乌，本话起可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "只属于两人的战争",
+   "ja": "二人だけの戦争",
+   "en": "War for Two",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方全灭，或改良型萨拉米斯被击坠",
+    "（2）改良型萨拉米斯或我方战舰被击坠"
+   ],
+   "allies": [
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "吉姆（桑达斯）",
+    "铁球（西罗）",
+    "（米歇尔）"
+   ],
+   "events": [
+    "第08MS小队的西罗等人登场；本话起姆赛级只能出售/换部件，不能自军运用。"
+   ],
+   "unlocks": [
+    "第5话支线《大气圈突入准备》",
+    "第6话《大气圈突入》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Musai",
+     "zh": "姆赛",
+     "kind": "sell",
+     "sell": 8000,
+     "item": "超级修理套件",
+     "note": "姆赛：不可自军运用，捕獲后出售或拆部件"
+    },
+    {
+     "en": "Gewei",
+     "zh": "盖维",
+     "kind": "capture",
+     "sell": 1800,
+     "item": "推进器模块",
+     "note": "盖维：可捕獲并自军运用"
+    },
+    {
+     "en": "Deins",
+     "zh": "戴因斯",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "磁性涂层",
+     "note": "戴因斯：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第5话·支线",
+   "slug": "sub-5",
+   "zh": "大气圈突入准备",
+   "ja": "大気圏突入準備",
+   "en": "Preparing for Reentry",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第5话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：为大气圈突入做准备的战斗；本话起高机动型扎古可捕獲。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "High Mobility Zaku",
+     "zh": "高机动型扎古",
+     "kind": "capture",
+     "sell": 1900,
+     "item": "磁性涂层",
+     "note": "高机动型扎古：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "大气圈突入",
+   "ja": "大気圏突入",
+   "en": "Atmospheric Entry",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "白色基地到达指定区域"
+   ],
+   "defeat": [
+    "我方战舰、阿姆罗的机体、D兵器任一台或特莱达G7被击坠，或经过6回合"
+   ],
+   "allies": [],
+   "events": [
+    "护卫白色基地突入大气圈的限时关：胜利条件是到达指定区域，不要恋战。"
+   ],
+   "unlocks": [
+    "第7话《卡尔玛出击》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "卡尔玛出击",
+   "ja": "ガルマ出撃す",
+   "en": "Garma Strikes",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "（1）白色基地与米迪亚接触",
+    "（2）歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰或米迪亚被击坠，或经过3回合",
+    "（2）我方战舰被击坠"
+   ],
+   "allies": [
+    "布莱卡（基德、鲍伊、大町、艾萨克）",
+    "陆战型高达（西罗）",
+    "陆战型高达（桑达斯）",
+    "陆战型高达（卡伦）",
+    "悬浮卡车（米歇尔、艾雷多亚）"
+   ],
+   "events": [
+    "与运输机米迪亚会合的限时关（第一阶段限3回合）；本话起加乌级可捕獲（仅出售/部件）。"
+   ],
+   "unlocks": [
+    "第8话《卡尔玛陨落》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gaw",
+     "zh": "加乌",
+     "kind": "sell",
+     "sell": 8000,
+     "item": "超级修理套件",
+     "note": "加乌：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "卡尔玛陨落",
+   "ja": "ガルマ散る",
+   "en": "Garma Falls",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "把卡尔玛诱导到指定区域"
+   ],
+   "defeat": [
+    "我方战舰被击坠，或卡尔玛的机体被击破"
+   ],
+   "allies": [
+    "陆战型高达换装为吉姆头（GM Head）"
+   ],
+   "events": [
+    "再现原作「卡尔玛陨落」：本关靠诱导而非击破——击破卡尔玛反而失败。"
+   ],
+   "unlocks": [
+    "第9话《日本侵攻作战》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "日本侵攻作战",
+   "ja": "日本侵攻作戦",
+   "en": "The Invasion of Japan",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）达尔塔尼亚斯被击坠",
+    "（2）达尔塔尼亚斯或断空我被击坠",
+    "（3）达尔塔尼亚斯、断空我或我方战舰被击坠"
+   ],
+   "allies": [
+    "达尔塔尼亚斯（剑人、弹儿、贝拉里奥斯）",
+    "断空我（忍、沙罗、亮、正树）",
+    "魔神Z（甲儿）",
+    "大魔神（铁也）",
+    "博斯波罗特（博斯、努克、穆查）",
+    "阿芙罗狄A（沙也加）",
+    "莱汀欧（仁、飞鸟、星山耕司）"
+   ],
+   "events": [
+    "舞台移回日本：超级系大部队在本话集结（达尔塔尼亚斯、断空我、魔神系）；本话起侦察机器人、卡拉达K7、多布拉斯M2可捕獲（均为出售/部件）。"
+   ],
+   "unlocks": [
+    "第9话支线《日本防卫战》",
+    "第10话《逃亡》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Surveillance Robot",
+     "zh": "侦察机器人",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "侦察机器人：不可自军运用"
+    },
+    {
+     "en": "Garada K7",
+     "zh": "卡拉达K7",
+     "kind": "sell",
+     "sell": 2200,
+     "item": "学习型CPU+",
+     "note": "卡拉达K7：不可自军运用"
+    },
+    {
+     "en": "Doublas M2",
+     "zh": "多布拉斯M2",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "多布拉斯M2：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第9话·支线",
+   "slug": "sub-9",
+   "zh": "日本防卫战",
+   "ja": "日本防衛",
+   "en": "Defending Japan",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第9话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "莱汀欧（仁、飞鸟、星山耕司）",
+    "魔神Z（甲儿）",
+    "大魔神（铁也）",
+    "阿芙罗狄A（沙也加）"
+   ],
+   "events": [
+    "支线剧本。本话的特殊安排：故意让莱汀欧被击坠，巨大机关莱汀欧会立即代替出击（通关第33话后可永久获得该机，见第33话页）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "巨大机关莱汀欧（1/2）：本话中让莱汀欧被击坠，巨大机关莱汀欧立即出击；正式入手在第33话通关后（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Exhaust",
+     "zh": "伊克佐斯特",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "伊克佐斯特：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第10话",
+   "slug": "stage-10",
+   "zh": "逃亡",
+   "ja": "脱走",
+   "en": "Desertion",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方全灭",
+    "（2）我方战舰被击坠"
+   ],
+   "allies": [
+    "悬浮卡车失去艾雷多亚副驾驶员",
+    "（阿姆罗在本话出击名单中，Akurasu 流程图未注明机体）"
+   ],
+   "events": [
+    "兰巴·拉尔队相关的逃亡剧；悬浮卡车的副驾驶员编成在本话发生变化。"
+   ],
+   "unlocks": [
+    "第10话支线《追击兰巴·拉尔》",
+    "第11话《头顶上的恶魔》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第10话·支线",
+   "slug": "sub-10",
+   "zh": "追击兰巴·拉尔",
+   "ja": "ランバ・ラル追撃",
+   "en": "Ramba Ral's Pursuit",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第10话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "击破桑吉巴尔（哈蒙）"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：目标是哈蒙乘坐的桑吉巴尔——只需击破它即可，不必全灭。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第11话",
+   "slug": "stage-11",
+   "zh": "头顶上的恶魔",
+   "ja": "頭上の悪魔",
+   "en": "The Demon Overhead",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方全灭，或西罗被击坠",
+    "（2）西罗或我方战舰被击坠",
+    "（3）我方战舰被击坠"
+   ],
+   "allies": [
+    "（阿姆罗在本话出击名单中，Akurasu 流程图未注明机体）",
+    "扎古II（本话免费捕獲一台）",
+    "陆战型高达"
+   ],
+   "events": [
+    "本话可免费捕獲一台扎古II（Akurasu 捕獲表注：另在第4话强制捕獲一台）。"
+   ],
+   "unlocks": [
+    "第12话《敖德萨之日》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第12话",
+   "slug": "stage-12",
+   "zh": "敖德萨之日",
+   "ja": "オデッサ・デー",
+   "en": "Odessa Day",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "G战机（塞拉）",
+    "悬浮卡车重新取得艾雷多亚副驾驶员",
+    "陆战型高达→高达Ez8",
+    "龙骑兵1号→升降1号（Lifter-1）",
+    "龙骑兵2号→升降2号",
+    "龙骑兵3号→升降3号",
+    "骑士0型框架",
+    "布莱卡（基德、鲍伊、大町、艾萨克）"
+   ],
+   "events": [
+    "敖德萨作战：多台机体在本话换装/进化（Ez8、升降型龙骑兵）。本话起古夫可捕獲。"
+   ],
+   "unlocks": [
+    "第13话《灼热的贝尔法斯特》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gouf",
+     "zh": "古夫",
+     "kind": "capture",
+     "sell": 1800,
+     "item": "磁性涂层",
+     "note": "古夫：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第13话",
+   "slug": "stage-13",
+   "zh": "灼热的贝尔法斯特",
+   "ja": "灼熱のベルファスト",
+   "en": "Belfast in Flames",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）新盖塔被击坠",
+    "（2）我方战舰被击坠"
+   ],
+   "allies": [
+    "新盖塔机器人（号、翔、凯）"
+   ],
+   "events": [
+    "新盖塔机器人参战；本话起机械恐龙多巴、布尔可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第14话《贾布罗攻防战（前篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Mechasaurus Doba",
+     "zh": "机械恐龙多巴",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "机械恐龙多巴：不可自军运用"
+    },
+    {
+     "en": "Mechasaurus Bull",
+     "zh": "机械恐龙布尔",
+     "kind": "sell",
+     "sell": 2200,
+     "item": "学习型CPU+",
+     "note": "机械恐龙布尔：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第14话",
+   "slug": "stage-14",
+   "zh": "贾布罗攻防战（前篇）",
+   "ja": "ジャブロー攻防戦（前編）",
+   "en": "The Battle of Jaburo (Part 1)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "G战机（斯雷卡）"
+   ],
+   "events": [
+    "贾布罗攻防战前篇；本话起兹寇克、多姆可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第15话《贾布罗攻防战（后篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Z'Gok",
+     "zh": "兹寇克",
+     "kind": "capture",
+     "sell": 1900,
+     "item": "光束涂层S",
+     "note": "兹寇克：可捕獲并自军运用"
+    },
+    {
+     "en": "Dom",
+     "zh": "多姆",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "防尘装置",
+     "note": "多姆：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "贾布罗攻防战（后篇）",
+   "ja": "ジャブロー攻防戦（後編）",
+   "en": "The Battle of Jaburo (Part 2)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "吉姆狙击型（无驾驶员，自行编配）"
+   ],
+   "events": [
+    "贾布罗攻防战后篇；本话起海寇克（Hygogg）可捕獲。"
+   ],
+   "unlocks": [
+    "第15话支线《追击》",
+    "第16话《向着宇宙》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Hygogg",
+     "zh": "海寇克",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "光束涂层S",
+     "note": "海寇克：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第15话·支线",
+   "slug": "sub-15",
+   "zh": "追击",
+   "ja": "追撃",
+   "en": "Pursuit",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第15话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "阿普萨拉斯II（无驾驶员）"
+   ],
+   "events": [
+    "支线剧本：说得爱娜是本话的隐藏要素（见下）；桑吉巴尔可捕獲但与爱娜说得互斥。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "爱娜·萨哈林与额外的阿普萨拉斯II：在击破桑吉巴尔之前，用西罗对爱娜使用「说得」，即可获得阿普萨拉斯II（无驾驶员）并让爱娜成为可用驾驶员（与第20话的入手互有关联，见 Akurasu 流程图）。注意：捕獲桑吉巴尔与本条互斥。",
+    "施瓦尔格（Schwalg）与道泽恩（Dauzehn）自二周目起在本话可捕獲（Akurasu 捕獲表注）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Zanzibar",
+     "zh": "桑吉巴尔",
+     "kind": "sell",
+     "sell": 10000,
+     "item": "超级修理套件",
+     "note": "桑吉巴尔：不可自军运用；与爱娜说得互斥"
+    },
+    {
+     "en": "Schwalg",
+     "zh": "施瓦尔格",
+     "kind": "capture",
+     "sell": 2400,
+     "item": "磁性涂层",
+     "note": "施瓦尔格：仅二周目起可捕獲"
+    },
+    {
+     "en": "Dauzehn",
+     "zh": "道泽恩",
+     "kind": "capture",
+     "sell": 2600,
+     "item": "光束涂层S",
+     "note": "道泽恩：仅二周目起可捕獲"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "向着宇宙",
+   "ja": "宇宙へ",
+   "en": "To Space",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "舞台移向宇宙；本话起里克·多姆、比格罗可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第17话《映在褐色瞳孔中的事物》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Rick Dom",
+     "zh": "里克·多姆",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "推进器模块",
+     "note": "里克·多姆：可捕獲并自军运用"
+    },
+    {
+     "en": "Bigro",
+     "zh": "比格罗",
+     "kind": "capture",
+     "sell": 4000,
+     "item": "大型发电机",
+     "note": "比格罗：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "映在褐色瞳孔中的事物",
+   "ja": "茶色の瞳に映るもの",
+   "en": "Reflections in a Brown Eye",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "NT-1 亚历克斯（克里斯蒂娜）",
+    "G-3高达（阿姆罗）"
+   ],
+   "events": [
+    "0080「口袋里的战争」相关剧情：克里斯与阿姆罗在此交错。本话不可捕獲。"
+   ],
+   "unlocks": [
+    "第17话支线《口袋里的战争》",
+    "第18话《所罗门攻略战（前篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "本话不可捕獲（Akurasu 流程图明记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第17话·支线",
+   "slug": "sub-17",
+   "zh": "口袋里的战争",
+   "ja": "ポケットの中の戦争",
+   "en": "War in the Pocket",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第17话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）克里斯的机体被击破",
+    "（2）我方全灭"
+   ],
+   "allies": [
+    "扎古II（无驾驶员，过关后取得）"
+   ],
+   "events": [
+    "支线剧本：巴尼的扎古改是本话的隐藏核心（见下）。本话不可捕獲（说得流程除外）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "巴尼与额外的扎古II：先把巴尼驾驶的扎古改的腕部、头部、脚部全部破坏（部位破坏），再用克里斯对他「说得」，两人一同离场；过关后取得一台扎古II，巴尼在第19话之后成为可用驾驶员（Akurasu 流程图）。"
+   ],
+   "note": "本话不可捕獲（Akurasu 流程图明记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "所罗门攻略战（前篇）",
+   "ja": "ソロモン攻略戦（前編）",
+   "en": "The Siege of Solomon (Part 1)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破大扎姆"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "所罗门攻略战前篇：大扎姆是必须击破的目标；本话起扎古II改、契瓦亚（出售/部件）可捕獲。"
+   ],
+   "unlocks": [
+    "第19话《所罗门攻略战（后篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Zaku II Kai",
+     "zh": "扎古II改",
+     "kind": "capture",
+     "sell": 1800,
+     "item": "口粮",
+     "note": "扎古II改：可捕獲并自军运用"
+    },
+    {
+     "en": "Chivvay",
+     "zh": "契瓦亚",
+     "kind": "sell",
+     "sell": 9000,
+     "item": "超级修理套件",
+     "note": "契瓦亚：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "所罗门攻略战（后篇）",
+   "ja": "ソロモン攻略戦（後編）",
+   "en": "The Siege of Solomon (Part 2)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "（过关后）巴尼成为可用驾驶员（需第17话支线完成说得流程）"
+   ],
+   "events": [
+    "所罗门攻略战后篇；本话起格鲁古古可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第20话《向着新的宇宙》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gelgoog",
+     "zh": "格鲁古古",
+     "kind": "capture",
+     "sell": 2200,
+     "item": "生物感测器",
+     "note": "格鲁古古：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "向着新的宇宙",
+   "ja": "新たなる宇宙へ",
+   "en": "To a New Universe",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "（1）歼灭全部敌人",
+    "（2）甘道尔进入异次元之门"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "甘道尔（叶月博士）",
+    "爱娜成为可用驾驶员",
+    "白色基地（布莱德）"
+   ],
+   "events": [
+    "大型战舰甘道尔加入，并带队穿过异次元之门——舞台自此扩展到其他世界（重金属L-Gaim、J9系列等）。本话起死亡盖亚系的机体可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第21话《亚曼一族》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Zei Far",
+     "zh": "泽法",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "泽法：不可自军运用"
+    },
+    {
+     "en": "Deathgrome II",
+     "zh": "死亡格罗姆II",
+     "kind": "sell",
+     "sell": 2400,
+     "item": "混合装甲",
+     "note": "死亡格罗姆II：不可自军运用"
+    },
+    {
+     "en": "Deathgaia Battleship",
+     "zh": "死亡盖亚战舰",
+     "kind": "sell",
+     "sell": 9000,
+     "item": "超级修理套件",
+     "note": "死亡盖亚战舰：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "亚曼一族",
+   "ja": "ヤーマン・クラン",
+   "en": "The Yaman Clan",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "L-Gaim（达巴、莉莉丝）",
+    "奥隆（桥）",
+    "奥隆（蕾希）",
+    "奥隆（阿姆）"
+   ],
+   "events": [
+    "进入重金属L-Gaim的世界：达巴一行加入；本话起奥隆、巴休可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第21话支线《紧急出击》",
+    "第22话《诱饵，诱饵》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Allone",
+     "zh": "奥隆",
+     "kind": "capture",
+     "sell": 1600,
+     "item": "口粮",
+     "note": "奥隆：可捕獲并自军运用"
+    },
+    {
+     "en": "Bat-Shu",
+     "zh": "巴休",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "磁性涂层",
+     "note": "巴休：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第21话·支线",
+   "slug": "sub-21",
+   "zh": "紧急出击",
+   "ja": "スクランブル",
+   "en": "Scramble",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第21话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "（1）歼灭全部敌人",
+    "（2）经过8回合"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "巴休（无驾驶员，过关取得）"
+   ],
+   "events": [
+    "支线剧本：存活8回合亦可通关；7回合内结束则多得一台巴休（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "额外的巴休：在7回合以内结束本支线，过关后取得一台巴休（无驾驶员）（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "诱饵，诱饵",
+   "ja": "ディコイ・ディコイ",
+   "en": "Decoy Decoy",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "以诱饵作战为主题的一话。本话不可捕獲。"
+   ],
+   "unlocks": [
+    "第23话《破碎的心》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "本话不可捕獲（Akurasu 流程图明记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "破碎的心",
+   "ja": "ブロークン・ハート",
+   "en": "Broken Heart",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [],
+   "events": [
+    "L-Gaim篇的情感线推进。本话不可捕獲。"
+   ],
+   "unlocks": [
+    "第24话《小塞伊的毁灭》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "本话不可捕獲（Akurasu 流程图明记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "小塞伊的毁灭",
+   "ja": "リトル・セイ壊滅",
+   "en": "The Destruction of Little Saye",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "甘道尔进入撤离区域"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "特纳（桥）",
+    "（阿姆在本话出击名单中）"
+   ],
+   "events": [
+    "撤退战：胜利条件是甘道尔抵达撤离区域；蕾希、阿姆、桥本话不能出击。本话起内·莫·汉的红色萨吉·奥普斯可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第25话《启程吧！银河的米托王子》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "蕾希、阿姆、桥本话不可出击（Akurasu 流程图）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Sarge Opus (Red)",
+     "zh": "萨吉·奥普斯（红）",
+     "kind": "sell",
+     "sell": 11000,
+     "item": "米诺夫斯基飞行器",
+     "note": "萨吉·奥普斯（红，内·莫·汉机）：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "启程吧！银河的米托王子",
+   "ja": "旅立て！銀河のミト王子",
+   "en": "Go Forth, Cosmic Prince Mito!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠（Akurasu 流程图原文为 Allied Unit Destroyed；并列战舰被击坠）"
+   ],
+   "allies": [
+    "大巨神（米托、斯凯德、基克斯）",
+    "巴克辛格（史郎、迪亚戈、斯特肯、蕾拉、萨马）",
+    "萨斯莱卡（洛克、比特、布鲁斯、芭蒂）"
+   ],
+   "events": [
+    "J9三部曲（布莱卡、巴克辛格、萨斯莱卡）与大巨神的世界：米托王子一行加入。本话起西加尔、佐尔达格可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第26话《动荡的惑星海》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话败北条件原文为「Allied Unit Destroyed; Allied Battleship Destroyed」，从严解读即任一友军被击坠就失败，本站照录并注记。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Shigaru",
+     "zh": "西加尔",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "西加尔：不可自军运用"
+    },
+    {
+     "en": "Zoldag",
+     "zh": "佐尔达格",
+     "kind": "sell",
+     "sell": 2400,
+     "item": "混合装甲",
+     "note": "佐尔达格：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "动荡的惑星海",
+   "ja": "揺れる惑星海",
+   "en": "The Trembling Planets Ocean",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "击破凯·马洛的船"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "目标是击破凯·马洛的船，不必全灭敌人；本话起克拉万卡、NPA战舰可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第26话支线《新惑星联合》",
+    "第27话《加斯托加尔演示》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Krauwanka",
+     "zh": "克拉万卡",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "乔巴姆装甲",
+     "note": "克拉万卡：不可自军运用"
+    },
+    {
+     "en": "NPA Battleship",
+     "zh": "NPA战舰",
+     "kind": "sell",
+     "sell": 8000,
+     "item": "超级修理套件",
+     "note": "NPA战舰：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第26话·支线",
+   "slug": "sub-26",
+   "zh": "新惑星联合",
+   "ja": "新惑星連合",
+   "en": "The New Planets Alliance",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第26话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "击破凯·马洛的船"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：与第26话呼应，目标同样是凯·马洛的船。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "加斯托加尔演示",
+   "ja": "ガストガル・デモ",
+   "en": "Gustgal Demo",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "甘道尔到达站卫星"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）塞姆什的机体被击坠",
+    "（3）济克的机体被击坠",
+    "（4）莎莉的机体被击坠"
+   ],
+   "allies": [
+    "（蕾希在本话出击名单中）",
+    "D-塞萨德（塞姆什）",
+    "十字真理（莎莉）",
+    "克劳德·哈肯（济克）",
+    "（阿姆在本话出击名单中）"
+   ],
+   "events": [
+    "原创势力「加迪索德」的塞姆什、济克、莎莉在此现身并同行；本话起本伯格·达兰切、终结者警察可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第28话《然后，回到地球》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Bemborg Dalanche",
+     "zh": "本伯格·达兰切",
+     "kind": "sell",
+     "sell": 2600,
+     "item": "混合装甲",
+     "note": "本伯格·达兰切：不可自军运用"
+    },
+    {
+     "en": "Terminator Police",
+     "zh": "终结者警察",
+     "kind": "sell",
+     "sell": 1600,
+     "item": "口粮",
+     "note": "终结者警察：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "然后，回到地球",
+   "ja": "そして、地球へ",
+   "en": "Back to Earth",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）断空我被击坠"
+   ],
+   "allies": [
+    "白色基地（布莱德）",
+    "Z高达（卡缪）",
+    "百式（克瓦特罗）",
+    "高达Mk-II（爱玛）",
+    "艾尔美斯（拉拉）",
+    "夏亚专用扎古II（无驾驶员）",
+    "夏亚专用兹寇克（无驾驶员）",
+    "夏亚专用格鲁古古（无驾驶员）",
+    "雷兹纳（英二）",
+    "黑翼（阿兰）",
+    "甘道尔（叶月博士）"
+   ],
+   "events": [
+    "返回地球圈：Z高达时代的编成加入，并「附带」夏亚的旧机体三台（无驾驶员，自行编配）。本话起卡扎C可捕獲——但 Akurasu 明确警告：捕獲卡扎C会引发跳过整个话数的严重故障，强烈不推荐（见备注）。"
+   ],
+   "unlocks": [
+    "第29话《驰骋而过的宇宙》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "捕獲警告：Akurasu 流程图与捕獲表均注明——捕獲卡扎C（Gaza C）会引发破坏游戏进程的故障（跳过整个话数），本站强烈建议不要捕獲。本话的全装问题与气体武器免疫等机体细节不在本站当前整理范围。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gaza C",
+     "zh": "卡扎C",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "生物感测器",
+     "note": "卡扎C：可捕獲，但有著名故障风险，见备注"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "驰骋而过的宇宙",
+   "ja": "駆け抜けた宇宙",
+   "en": "Dashing Through Space",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "英二的机体被击坠",
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "ZZ高达（捷多）",
+    "高达Mk-II（蒙德）",
+    "（比查）",
+    "（伊诺）",
+    "（艾尔）",
+    "（露）",
+    "玩偶（西蒙妮）",
+    "玩偶（大卫）"
+   ],
+   "events": [
+    "ZZ高达队加入；本话起德托尔、钢斯塔德可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第29话支线《死鬼队的魔掌》",
+    "第30话《激斗，双魔神》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话败北条件并列三条（全灭／英二机体被击坠／战舰被击坠），本站并列照录。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Dtol",
+     "zh": "德托尔",
+     "kind": "capture",
+     "sell": 1800,
+     "item": "防尘装置",
+     "note": "德托尔：可捕獲并自军运用"
+    },
+    {
+     "en": "Gunstaid",
+     "zh": "钢斯塔德",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "磁性涂层",
+     "note": "钢斯塔德：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第29话·支线",
+   "slug": "sub-29",
+   "zh": "死鬼队的魔掌",
+   "ja": "死鬼隊の魔の手",
+   "en": "The Evil Clutches of the Death Demons",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第29话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）米迪亚被击坠"
+   ],
+   "allies": [
+    "陆战型吉姆（花园丽）"
+   ],
+   "events": [
+    "支线剧本：通关本话即可让花园丽加入并取得陆战型吉姆（见下）；格拉多斯战舰可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "花园丽与陆战型吉姆：通关本支线即可（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gradosian Battleship",
+     "zh": "格拉多斯战舰",
+     "kind": "sell",
+     "sell": 10000,
+     "item": "超级修理套件",
+     "note": "格拉多斯战舰：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "激斗，双魔神",
+   "ja": "激闘、ダブルマジンガー",
+   "en": "Fight On, Double Mazingers!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "allies": [
+    "魔神Z（甲儿）",
+    "大魔神（铁也）",
+    "阿芙罗狄A（沙也加）",
+    "博斯波罗特（博斯、努克、穆查）"
+   ],
+   "events": [
+    "双魔神并肩作战的一话，败北条件严格（任一友军被击坠即失败）。本话不可捕獲。"
+   ],
+   "unlocks": [
+    "第31话《出发！无敌的战士！》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "本话不可捕獲（Akurasu 流程图明记）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "出发！无敌的战士！",
+   "ja": "発進！無敵の戦士！",
+   "en": "Depart, Invincible Warrior!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（随剧情阶段变化）我方全灭／莱汀欧队被击坠／我方战舰被击坠／主人公机体被击坠（Akurasu 流程图分阶段并列记载，见备注）"
+   ],
+   "allies": [
+    "大魔神（铁也）",
+    "阿芙罗狄A（沙也加）",
+    "博斯波罗特（博斯、努克、穆查）",
+    "莱汀欧（仁、飞鸟、星山耕司）",
+    "爆龙欧（爆龙欧）",
+    "甘道尔（叶月博士）",
+    "索尔塞巴／索尔加纳→超级索尔塞巴／索尔兰萨（主人公、菲莉）"
+   ],
+   "events": [
+    "主人公机在本话强化：索尔塞巴／索尔加纳进化为超级索尔塞巴／索尔兰萨。本话起邪虎莱汀欧、塔兰图勒姆可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第32话《复活！真盖塔机器人》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话败北条件分三个阶段交错记载（全灭／莱汀欧队／战舰／主人公机的组合随阶段变化），本站概括照录，具体以游戏内提示为准。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Jaku Raijin-Oh",
+     "zh": "邪虎莱汀欧",
+     "kind": "sell",
+     "sell": 3000,
+     "item": "大型弹仓",
+     "note": "邪虎莱汀欧：不可自军运用"
+    },
+    {
+     "en": "Tarantulum",
+     "zh": "塔兰图勒姆",
+     "kind": "sell",
+     "sell": 2400,
+     "item": "混合装甲",
+     "note": "塔兰图勒姆：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "复活！真盖塔机器人",
+   "ja": "復活！真ゲッターロボ",
+   "en": "The Resurrection of Shin Getter Robo",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（随剧情阶段变化）盖塔被击坠为各阶段共通的核心败北条件，另有莱汀欧队、爆龙欧队、我方战舰被击坠的阶段条件（Akurasu 流程图分阶段并列记载，见备注）"
+   ],
+   "allies": [
+    "新盖塔机器人（由新盖塔进化）",
+    "莱汀欧（仁、飞鸟、星山耕司）",
+    "爆龙欧"
+   ],
+   "events": [
+    "真盖塔机器人复活；本话起机械恐龙摩巴可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第32话支线《守住早乙女研究所》",
+    "第33话《魔神降临》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话败北条件分多个阶段交错记载，本站概括照录，具体以游戏内提示为准。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Mechasaurus Moba",
+     "zh": "机械恐龙摩巴",
+     "kind": "sell",
+     "sell": 2400,
+     "item": "混合装甲",
+     "note": "机械恐龙摩巴：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第32话·支线",
+   "slug": "sub-32",
+   "zh": "守住早乙女研究所",
+   "ja": "早乙女研究所を守り抜け",
+   "en": "Defend the Saotome Lab!",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第32话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "allies": [
+    "德克萨斯·马克（杰克、玛丽）"
+   ],
+   "events": [
+    "支线剧本：通关本话即可让杰克、玛丽带德克萨斯·马克（重新）加入（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "杰克、玛丽与德克萨斯·马克：通关本支线即可（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "魔神降临",
+   "ja": "魔神降臨",
+   "en": "The Devil Descends",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "大魔神被击坠",
+    "（后续阶段）我方战舰被击坠"
+   ],
+   "allies": [
+    "大魔神（铁也）",
+    "阿芙罗狄A（沙也加）",
+    "博斯波罗特（博斯、努克、穆查）",
+    "神莱汀欧（仁、飞鸟、星山耕司、爆龙欧）",
+    "（纯）"
+   ],
+   "events": [
+    "神莱汀欧合体登场；过关后第9话支线的巨大机关莱汀欧正式入库。本话起达姆达姆L2可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第33话支线《千钧一发！光子力研究所》",
+    "第34话《古恩·杰姆队来袭》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "巨大机关莱汀欧（2/2）：通关本话后正式取得（前置：第9话支线中让莱汀欧被击坠过，见第9话支线页）。"
+   ],
+   "note": "Akurasu 流程图本话加入名单末尾的「(Jun)」未注明机体（应为神莱汀欧的追加成员），本站照录。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Damdam L2",
+     "zh": "达姆达姆L2",
+     "kind": "sell",
+     "sell": 2400,
+     "item": "混合装甲",
+     "note": "达姆达姆L2：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第33话·支线",
+   "slug": "sub-33",
+   "zh": "千钧一发！光子力研究所",
+   "ja": "危機一髪！光子力研究所",
+   "en": "Close Call at the Photon Energy Lab!",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第33话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（随阶段）敌人进入光子力研究所／维纳斯A被击坠／大魔神或我方战舰被击坠（Akurasu 流程图分阶段并列记载）"
+   ],
+   "allies": [
+    "维纳斯A",
+    "大魔神（铁也）"
+   ],
+   "events": [
+    "支线剧本：防守光子力研究所，敌人进入研究所即失败；通关与真大魔神的入手相连（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "维纳斯A与真大魔神：通关本支线取得维纳斯A；真大魔神在第38话交付（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "古恩·杰姆队来袭",
+   "ja": "グン・ジェム隊来襲",
+   "en": "The Gun Jem Squadron Attacks",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方全灭",
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "甘道尔（叶月博士）",
+    "魔神凯撒（甲儿）",
+    "雷兹纳→强化型雷兹纳或雷兹纳Mk-II",
+    "升降1号→龙骑兵1号改",
+    "升降2号→龙骑兵2号改",
+    "升降3号→龙骑兵3号改"
+   ],
+   "events": [
+    "魔神凯撒参战；龙骑兵三机进化为「改」；雷兹纳的进化形态由英二的击坠数决定（见下）。本话起甘多拉、肯普法、古夫特装型可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第34话支线《重庆基地防卫战》",
+    "第35话《抵抗军的反抗》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "雷兹纳Mk-II：英二的累计击坠数达到20以上时，本话可在雷兹纳Mk-II与强化型雷兹纳之间二选一；不足20时自动取得强化型雷兹纳（Akurasu 流程图）。"
+   ],
+   "note": "雷兹纳Mk-II 的击坠数门槛：Akurasu 流程图作「20 or more kills」、同站 Secrets 页作「over 20 kills」，两处相差1。本站正文从流程图（20以上），从严执行的话按21以上准备更稳妥。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Gan-Dolla",
+     "zh": "甘多拉",
+     "kind": "capture",
+     "sell": 2200,
+     "item": "防尘装置",
+     "note": "甘多拉：可捕獲并自军运用"
+    },
+    {
+     "en": "Kämpfer",
+     "zh": "肯普法",
+     "kind": "capture",
+     "sell": 2200,
+     "item": "防尘装置",
+     "note": "肯普法：可捕獲并自军运用"
+    },
+    {
+     "en": "Gouf Custom",
+     "zh": "古夫特装型",
+     "kind": "capture",
+     "sell": 2000,
+     "item": "生物感测器",
+     "note": "古夫特装型：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第34话·支线",
+   "slug": "sub-34",
+   "zh": "重庆基地防卫战",
+   "ja": "重慶基地防衛戦",
+   "en": "The Defense of Chongqing Base",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第34话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）敌人进入重庆基地"
+   ],
+   "allies": [
+    "灵格斯（芙）",
+    "龙骑兵（×3）"
+   ],
+   "events": [
+    "支线剧本：防守重庆基地；通关奖励与反复通关奖励不同（见下），是本作少见的「二刷有额外奖励」支线。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "芙与灵格斯：通关本支线即可取得（Akurasu 流程图）。",
+    "龙骑兵×3：第二次通关本支线时取得（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "抵抗军的反抗",
+   "ja": "レジスタンスの抵抗",
+   "en": "The Resistance's Opposition",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "英二的机体被击坠",
+    "（后续阶段）我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "雷兹纳篇：与格拉多斯军的抵抗战。"
+   ],
+   "unlocks": [
+    "第36话《格拉多斯的刻印》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第36话",
+   "slug": "stage-36",
+   "zh": "格拉多斯的刻印",
+   "ja": "グラドスの刻印",
+   "en": "Seal of Grados",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）英二的机体被击坠",
+    "（3）主人公的机体被击坠",
+    "（4）敌人进入遗迹"
+   ],
+   "allies": [],
+   "events": [
+    "守护遗迹的一话：敌人进入遗迹即失败；本话起双胞胎博格·尤尼特拉斯可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第37话《开辟吧！地球的未来》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Twinborg Unitgelas",
+     "zh": "双胞胎博格·尤尼特拉斯",
+     "kind": "sell",
+     "sell": 3000,
+     "item": "超合金Z",
+     "note": "双胞胎博格·尤尼特拉斯：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第37话",
+   "slug": "stage-37",
+   "zh": "开辟吧！地球的未来",
+   "ja": "切り開け！地球の未来",
+   "en": "Carve a Path to Earth's Future!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）真盖塔被击坠",
+    "（2）特莱达G7被击坠",
+    "（3）捷多的机体被击坠",
+    "（4）我方战舰被击坠"
+   ],
+   "allies": [
+    "卡碧尼Mk-II（普露）",
+    "高达Mk-II→超级高达／G飞行器",
+    "真盖塔1号追加武器「盖塔最终冲击」"
+   ],
+   "events": [
+    "普露带卡碧尼Mk-II加入；超级高达在本话成型；真盖塔1号学会盖塔最终冲击。"
+   ],
+   "unlocks": [
+    "第38话《决战！火焰地狱城》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第38话",
+   "slug": "stage-38",
+   "zh": "决战！火焰地狱城",
+   "ja": "決戦！炎の地獄城",
+   "en": "Hell's Infernal Castle",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "击破地狱城的大门",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）魔神凯撒被击坠"
+   ],
+   "allies": [
+    "魔神凯撒→魔神凯撒（KS）",
+    "真大魔神（铁也）",
+    "魔神凯撒（KS）与真盖塔1号学会合体攻击「最终动态特击」"
+   ],
+   "events": [
+    "攻入机械兽军团的地狱城：先破门再全灭；魔神凯撒进化为 KS 规格，第33话支线的真大魔神在此交付。本话起德拉戈Ω1、卡拉多布拉Mk01、空中要塞古鲁可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第38话支线《被留下者的觉悟》",
+    "第39话《苍蓝之鹰，再临》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Drago Ω1",
+     "zh": "德拉戈Ω1",
+     "kind": "sell",
+     "sell": 2600,
+     "item": "EN芯片",
+     "note": "德拉戈Ω1：不可自军运用"
+    },
+    {
+     "en": "Garadoublas MK01",
+     "zh": "卡拉多布拉Mk01",
+     "kind": "sell",
+     "sell": 2800,
+     "item": "超合金Z",
+     "note": "卡拉多布拉Mk01：不可自军运用"
+    },
+    {
+     "en": "Aerial Fortress Gool",
+     "zh": "空中要塞古鲁",
+     "kind": "sell",
+     "sell": 10000,
+     "item": "超级修理套件",
+     "note": "空中要塞古鲁：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第38话·支线",
+   "slug": "sub-38",
+   "zh": "被留下者的觉悟",
+   "ja": "残されし者の覚悟",
+   "en": "The Resolve of Those Left Behind",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第38话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "全装甲高达框架（高达换装用）"
+   ],
+   "events": [
+    "支线剧本：通关取得高达用的全装甲框架（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "全装甲高达框架：通关本支线即可取得（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第39话",
+   "slug": "stage-39",
+   "zh": "苍蓝之鹰，再临",
+   "ja": "蒼き鷹、再び",
+   "en": "The Blue Hawk Returns",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "（多阶段）歼灭全部敌人／我方战舰进入月面基地／歼灭全部敌人／我方战舰移动到指定区域（Akurasu 流程图分阶段记载）"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）断空我被击坠",
+    "（3）黑翼被击坠"
+   ],
+   "allies": [
+    "最终断空我",
+    "法尔甘·马福（梅奥）",
+    "雅克多·盖尔夫·马福（威尔纳）",
+    "雷维·盖尔夫·马福（卡尔）",
+    "盖尔夫·马福（丹）"
+   ],
+   "events": [
+    "「吉加诺斯的苍蓝之鹰」梅奥·普拉特一行以马福队身份加入（驾驶员敌转友的代表段落）；断空我进化为最终断空我。本话起阿普萨拉斯II可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第39话支线《封锁阿·巴瓦·空指令》",
+    "第40话《宇宙要塞阿·巴瓦·空》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Apsalus II",
+     "zh": "阿普萨拉斯II",
+     "kind": "capture",
+     "sell": 7000,
+     "item": "大型发电机",
+     "note": "阿普萨拉斯II：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第39话·支线",
+   "slug": "sub-39",
+   "zh": "封锁阿·巴瓦·空指令",
+   "ja": "ア・バオア・クー封鎖指令",
+   "en": "The Blockade of A Baoa Qu",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第39话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "（一周目）（1）击破敌方基地大门后经过5回合；（2）歼灭全部敌人",
+    "（二周目起）经过5回合"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "萨扎比（隐藏取得，见下）"
+   ],
+   "events": [
+    "支线剧本：一周目与二周目起的胜利条件不同；限时破门与克瓦特罗的沙扎比入手相连（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "萨扎比：在5回合以内击破基地大门、让克瓦特罗进入，再通关本支线，即可取得萨扎比（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第40话",
+   "slug": "stage-40",
+   "zh": "宇宙要塞阿·巴瓦·空",
+   "ja": "宇宙要塞ア・バオア・クー",
+   "en": "Space Fortress A Baoa Qu",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "一年战争的终局要塞战；本话起德莱森、艾尔美斯、阿普萨拉斯III可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第41话《战士，再次…》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Dreissen",
+     "zh": "德莱森",
+     "kind": "capture",
+     "sell": 2400,
+     "item": "远地点马达",
+     "note": "德莱森：可捕獲并自军运用"
+    },
+    {
+     "en": "Elmeth",
+     "zh": "艾尔美斯",
+     "kind": "capture",
+     "sell": 5000,
+     "item": "EN芯片",
+     "note": "艾尔美斯：可捕獲并自军运用（拉拉机的性能略有差异，见 Akurasu 捕獲表）"
+    },
+    {
+     "en": "Apsalus III",
+     "zh": "阿普萨拉斯III",
+     "kind": "capture",
+     "sell": 9000,
+     "item": "太阳能板",
+     "note": "阿普萨拉斯III：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第41话",
+   "slug": "stage-41",
+   "zh": "战士，再次…",
+   "ja": "戦士、再び…",
+   "en": "Warrior, Once More...",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破多尔切诺夫的机体"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）捷多的机体被击坠",
+    "（3）克瓦特罗的机体被击坠"
+   ],
+   "allies": [
+    "法尔甘·马福（梅奥）",
+    "雅克多·盖尔夫·马福（威尔纳）",
+    "雷维·盖尔夫·马福（卡尔）",
+    "盖尔夫·马福（丹）",
+    "卡碧尼Mk-II（普露2）"
+   ],
+   "events": [
+    "普露2的去向在本话决定（见下）；本话起扎古III、大扎姆、量产型吉尔加扎姆尼可捕獲（量产型吉尔加扎姆尼为出售/部件）。"
+   ],
+   "unlocks": [
+    "第42话《野心的崩溃》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "普露2与卡碧尼Mk-II（普露2）：先让普露与普露2交战，再让捷多与普露2交战两次，并由捷多击破普露2——普露2随后加入并带卡碧尼Mk-II（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Zaku III",
+     "zh": "扎古III",
+     "kind": "capture",
+     "sell": 2600,
+     "item": "线性座椅",
+     "note": "扎古III：可捕獲并自军运用"
+    },
+    {
+     "en": "Big Zam",
+     "zh": "大扎姆",
+     "kind": "capture",
+     "sell": 10000,
+     "item": "太阳能板",
+     "note": "大扎姆：可捕獲并自军运用"
+    },
+    {
+     "en": "Mass-produced Gilgazamune",
+     "zh": "量产型吉尔加扎姆尼",
+     "kind": "sell",
+     "sell": 4000,
+     "item": "生物感测器",
+     "note": "量产型吉尔加扎姆尼：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第42话",
+   "slug": "stage-42",
+   "zh": "野心的崩溃",
+   "ja": "野望の崩壊",
+   "en": "The Collapse of Ambition",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破加迪亚尔·布拉德"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）改良型萨拉米斯被击坠",
+    "（3）主人公的机体被击坠",
+    "（4）拉拉的机体被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "吉加诺斯篇的收束：必须击破加迪亚尔·布拉德（驾驶员为加迪索德亲卫队队长雷吉亚内，日文 SRW Wiki／マルチウォーカー条目）。"
+   ],
+   "unlocks": [
+    "第42话支线《袭击》",
+    "第43话《扭曲的宇宙》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第42话·支线",
+   "slug": "sub-42",
+   "zh": "袭击",
+   "ja": "襲撃",
+   "en": "Assault",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第42话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）补给舰被击坠"
+   ],
+   "allies": [
+    "ν高达"
+   ],
+   "events": [
+    "支线剧本：保护补给舰；通关取得ν高达。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话的取得栏只记「Nu Gundam」，未注明驾驶员，本站照录。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第43话",
+   "slug": "stage-43",
+   "zh": "扭曲的宇宙",
+   "ja": "歪む宇宙",
+   "en": "Distorted Space",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "英二的机体被击坠／我方战舰被击坠（Akurasu 流程图分阶段记载）"
+   ],
+   "allies": [],
+   "events": [
+    "舞台再度扭曲转移的一话。"
+   ],
+   "unlocks": [
+    "第44话《艾顿国动乱》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第44话",
+   "slug": "stage-44",
+   "zh": "艾顿国动乱",
+   "ja": "エドン国動乱",
+   "en": "A Disturbance in Edon",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "大巨神的故乡艾顿国发生动乱。"
+   ],
+   "unlocks": [
+    "第45话《大家都在等待王子！》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第45话",
+   "slug": "stage-45",
+   "zh": "大家都在等待王子！",
+   "ja": "みんなが王子を待っている！",
+   "en": "Everyone's Waiting for the Prince!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）大巨神被击坠"
+   ],
+   "allies": [
+    "（过关后）巴克辛格追加武器「新巴克斯之剑」"
+   ],
+   "events": [
+    "米托王子的归国战；过关后巴克辛格学会新巴克斯之剑。"
+   ],
+   "unlocks": [
+    "第45话支线《悄然迫近的敌人》",
+    "第46话《戈瓦汉德星SOS》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第45话·支线",
+   "slug": "sub-45",
+   "zh": "悄然迫近的敌人",
+   "ja": "忍び寄る敵",
+   "en": "Creeping Enemies",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第45话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：通关奖励是达尔塔尼亚斯的两件追加武器（见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "达尔塔尼亚斯追加武器：通关本支线取得「加农立方」与「火焰十字斩」（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第46话",
+   "slug": "stage-46",
+   "zh": "戈瓦汉德星SOS",
+   "ja": "ゴワハンド星SOS",
+   "en": "SOS From Gowahand",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）布莱卡被击坠",
+    "（3）萨斯莱卡被击坠"
+   ],
+   "allies": [
+    "小说版D-塞萨德（蕾希）",
+    "特纳（塞姆什）"
+   ],
+   "events": [
+    "响应戈瓦汉德星的求救；本话起卡巴利神殿可捕獲并自军运用，阿普辛为出售/部件。"
+   ],
+   "unlocks": [
+    "第47话《阿曼达拉·卡曼达拉》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图与捕獲表的拼写分别为 Cavalry Temple／Calvary Temple，本站统一作「卡巴利神殿」。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Cavalry Temple",
+     "zh": "卡巴利神殿",
+     "kind": "capture",
+     "sell": 2400,
+     "item": "光束涂层S",
+     "note": "卡巴利神殿：可捕獲并自军运用"
+    },
+    {
+     "en": "Apsin",
+     "zh": "阿普辛",
+     "kind": "sell",
+     "sell": 2000,
+     "item": "混合装甲",
+     "note": "阿普辛：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第47话",
+   "slug": "stage-47",
+   "zh": "阿曼达拉·卡曼达拉",
+   "ja": "アマンダラ・カマンダラ",
+   "en": "Amandara Kamandara",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [
+    "L-Gaim Mk-II"
+   ],
+   "events": [
+    "与阿曼达拉的对决；L-Gaim Mk-II在本话入手。"
+   ],
+   "unlocks": [
+    "第48话《奥利比危机》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第48话",
+   "slug": "stage-48",
+   "zh": "奥利比危机",
+   "ja": "オリビー・クライシス",
+   "en": "Olibee Crisis",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）达巴的机体被击坠",
+    "（3）阿姆的机体被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "奥利比相关的危机（L-Gaim终盘前哨）。"
+   ],
+   "unlocks": [
+    "第48话支线《出击前夜》",
+    "第49话《梦想者再临（前篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第48话·支线",
+   "slug": "sub-48",
+   "zh": "出击前夜",
+   "ja": "出撃前夜",
+   "en": "The Night Before the Sortie",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第48话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：决战前夜的小规模战斗；通关奖励是达尔塔尼亚斯的最终追加武器（需先取得第45话支线的两件，见下）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [
+    "达尔塔尼亚斯追加武器「超空间能量解放」：先取得第45话支线的两件追加武器，再通关本支线取得（Akurasu 流程图）。"
+   ],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Secrets（隐藏要素总表，与 Flow Chart 交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第49话",
+   "slug": "stage-49",
+   "zh": "梦想者再临（前篇）",
+   "ja": "ドリーマーズ アゲイン（前編）",
+   "en": "Dreamers Again (Part 1)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）达巴的机体被击坠"
+   ],
+   "allies": [
+    "克劳德·哈肯（济克·阿尔托里德）",
+    "巴休（加布莱）"
+   ],
+   "events": [
+    "L-Gaim最终决战的前篇：加布莱带巴休反正加入，济克归队。本话起奥吉（Auge）可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第50话《梦想者再临（后篇）》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Auge",
+     "zh": "奥吉",
+     "kind": "sell",
+     "sell": 10000,
+     "item": "无",
+     "note": "奥吉：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第50话",
+   "slug": "stage-50",
+   "zh": "梦想者再临（后篇）",
+   "ja": "ドリーマーズ アゲイン（後編）",
+   "en": "Dreamers Again (Part 2)",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）达巴的机体被击坠"
+   ],
+   "allies": [
+    "特纳（塞姆什）"
+   ],
+   "events": [
+    "L-Gaim最终决战的后篇；本话起阿修罗神殿可捕獲并自军运用。"
+   ],
+   "unlocks": [
+    "第51话《银河之虎加斯康》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Ashura Temple",
+     "zh": "阿修罗神殿",
+     "kind": "capture",
+     "sell": 2800,
+     "item": "生物感测器",
+     "note": "阿修罗神殿：可捕獲并自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第51话",
+   "slug": "stage-51",
+   "zh": "银河之虎加斯康",
+   "ja": "銀河の虎ガスコン",
+   "en": "Gascon, the Galactic Tiger",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）甲儿、铁也的机体或盖塔被击坠",
+    "（3）达尔塔尼亚斯被击坠"
+   ],
+   "allies": [
+    "加斯康机器人（加斯康）"
+   ],
+   "events": [
+    "「银河之虎」加斯康带其机器人加入。"
+   ],
+   "unlocks": [
+    "第52话《决战！移动要塞》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第52话",
+   "slug": "stage-52",
+   "zh": "决战！移动要塞",
+   "ja": "決戦！移動要塞",
+   "en": "Showdown at the Mobile Fortress",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）达尔塔尼亚斯被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "与移动要塞的决战。"
+   ],
+   "unlocks": [
+    "第52话支线《突破敌阵！》",
+    "第53话《向着风暴的扎尔，全舰出击！》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第52话·支线",
+   "slug": "sub-52",
+   "zh": "突破敌阵！",
+   "ja": "敵陣突破！",
+   "en": "Break Through the Enemy Lines!",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第52话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "（1）歼灭全部敌人",
+    "（2）我方战舰移动到指定区域"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：歼灭或让战舰突入指定区域均可通关。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第53话",
+   "slug": "stage-53",
+   "zh": "向着风暴的扎尔，全舰出击！",
+   "ja": "嵐のザールへ、全艦出撃せよ！",
+   "en": "Forward, Into the Storms of Zarl!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）达尔塔尼亚斯被击坠",
+    "（3）特莱达G7被击坠",
+    "（4）济克的机体被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "向贝拉里奥斯的故乡扎尔进发。"
+   ],
+   "unlocks": [
+    "第54话《努比亚的狂乱》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第54话",
+   "slug": "stage-54",
+   "zh": "努比亚的狂乱",
+   "ja": "ヌビアの狂乱",
+   "en": "Nubia's Frenzy",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "（多阶段）歼灭全部敌人／主人公或莎莉移动到卡门·卡门座舰旁／主人公移动到我方战舰旁／我方战舰移动到指定区域（Akurasu 流程图分阶段记载）"
+   ],
+   "defeat": [
+    "（多阶段）主人公机体被击坠／我方战舰被击坠／卡门·卡门被击破／莎莉的机体被击坠／经过5回合（分阶段，见备注）"
+   ],
+   "allies": [
+    "十字真理（莎莉·艾米尔）"
+   ],
+   "events": [
+    "莎莉与十字真理正式归队；卡门·卡门座舰相关的多阶段目标是本话的难点。"
+   ],
+   "unlocks": [
+    "第55话《献给逝者的镇魂歌》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图原文作「Khamen」，指《银河旋风布莱卡》的反派卡门·卡门（日文 SRW Wiki 的加迪索德相关条目亦提到他曾利用 C.U.B.E. 的计划）；本话胜败条件分四至五个阶段交错记载，本站并列概括照录，具体以游戏内提示为准（其中一阶段限5回合）。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第55话",
+   "slug": "stage-55",
+   "zh": "献给逝者的镇魂歌",
+   "ja": "失われた者たちへの鎮魂歌",
+   "en": "Requiem for Victims",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）断空我被击坠",
+    "（3）济克的机体被击坠",
+    "（4）莎莉的机体被击坠"
+   ],
+   "allies": [
+    "十字真理（莎莉·艾米尔）"
+   ],
+   "events": [
+    "镇魂的一战：济克、莎莉、断空我任一被击坠即失败。"
+   ],
+   "unlocks": [
+    "第55话支线《加迪索德之影》",
+    "第56话《加迪索德前卫要塞》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第55话·支线",
+   "slug": "sub-55",
+   "zh": "加迪索德之影",
+   "ja": "ガディソードの影",
+   "en": "Shadows of Gadisword",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第55话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：加迪索德的残党战。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第56话",
+   "slug": "stage-56",
+   "zh": "加迪索德前卫要塞",
+   "ja": "ガディソード前衛要塞",
+   "en": "Gadisword's Advance Fortress",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "（2）让莎莉与战舰相邻"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）主人公的机体被击坠",
+    "（3）济克的机体被击坠",
+    "（4）普露或捷多的机体被击坠"
+   ],
+   "allies": [
+    "十字真理（莎莉·艾米尔）"
+   ],
+   "events": [
+    "攻打加迪索德的前卫要塞；第二阶段须让莎莉与战舰相邻。"
+   ],
+   "unlocks": [
+    "第57话《巨烈燃烧》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第57话",
+   "slug": "stage-57",
+   "zh": "巨烈燃烧",
+   "ja": "巨烈燃ゆ",
+   "en": "Raging Inferno",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "量产型巴克辛格进入指定区域"
+   ],
+   "defeat": [
+    "我方战舰被击坠",
+    "量产型巴克辛格被击破"
+   ],
+   "allies": [
+    "（迪亚戈自巴克辛格队中离脱）",
+    "量产型巴克辛格（迪亚戈）"
+   ],
+   "events": [
+    "迪亚戈改乘量产型巴克辛格单独行动：必须护送它进入指定区域。"
+   ],
+   "unlocks": [
+    "第58话《打倒皇帝瓦鲁萨！》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第58话",
+   "slug": "stage-58",
+   "zh": "打倒皇帝瓦鲁萨！",
+   "ja": "皇帝ワルーサを倒せ！",
+   "en": "Defeat Emperor Warusa!",
+   "route": "主线",
+   "type": "主线关",
+   "prerequisite": "主线剧本：通过上一主线话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "（2）真盖塔进入指定区域",
+    "击破大邪神撒旦"
+   ],
+   "defeat": [
+    "（1）我方战舰被击坠",
+    "（2）真盖塔被击坠",
+    "（3）莱汀欧队被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "莱汀欧篇的最终决战：皇帝瓦鲁萨与大邪神撒旦；本话起香烟机器人可捕獲（出售/部件）。"
+   ],
+   "unlocks": [
+    "第58话支线《悄然迫近的敌人》",
+    "最终话《灼热的巨大要塞》"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Cigarette Bot",
+     "zh": "香烟机器人",
+     "kind": "sell",
+     "sell": 4000,
+     "item": "超合金Z",
+     "note": "香烟机器人：不可自军运用"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "第58话·支线",
+   "slug": "sub-58",
+   "zh": "悄然迫近的敌人",
+   "ja": "忍び寄る敵",
+   "en": "The Terrifying Replicant Force",
+   "route": "支线",
+   "type": "支线关",
+   "prerequisite": "支线剧本（サブシナリオ）：在主线第58话之后开放。支线在进入下一主线话之前可反复攻略（刷资金与捕獲机体的基本手段）；一旦推进主线便不能回头打本支线。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "支线剧本：最终话之前最后的支线；本话的敌方多为可捕獲机体的再出场（Akurasu 捕獲表中多台机体的出场话含 Sub 58）。"
+   ],
+   "unlocks": [
+    "（支线，通关不推进主线）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "Akurasu 流程图本话日文标题与第45话支线同为「忍び寄る敵」，英文标题则不同（The Terrifying Replicant Force），本站照录并注记。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-59",
+   "zh": "灼热的巨大要塞",
+   "ja": "灼熱の巨大要塞",
+   "en": "Colossal Fortress of Flames",
+   "route": "主线",
+   "type": "最终话",
+   "prerequisite": "通过第58话与第58话支线窗口后进入的最终决战。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破阿隆扎"
+   ],
+   "defeat": [
+    "我方战舰被击坠"
+   ],
+   "allies": [],
+   "events": [
+    "最终决战：巨大要塞与阿隆扎；本话起奥尔达伊可捕獲（出售/部件，全作回收价最高的机体之一，10000）。"
+   ],
+   "unlocks": [
+    "通关（进入周回，继承规则见本作主页）"
+   ],
+   "area": "",
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "secrets": [],
+   "note": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破、捕獲敌机获得（周回继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的 GC 流程图只刊载胜利/败北条件、机体加入、隐藏条件与「本话新登场的可捕獲机体」，不刊载逐关敌方编成；经全面检索，英、日文公开来源中没有任何一份刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，无全程攻略；GameCenter GX 不收录本作）——敌方编成、敌方坐标与逐格地形均待核实。本页的「本话可捕獲机体」来自流程图与 Akurasu 捕獲表，是可确认的敌方出场信息的一部分（仅限可捕獲对象，不等于完整编成）。"
+    ]
+   },
+   "capturable": [
+    {
+     "en": "Ordai",
+     "zh": "奥尔达伊",
+     "kind": "sell",
+     "sell": 10000,
+     "item": "超合金New Z",
+     "note": "奥尔达伊：不可自军运用，回收价10000并附带强化部件（见 Akurasu 捕獲表）"
+    }
+   ],
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。本作战斗画面为 3D 表现，逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Flow Chart（全关卡胜败条件、机体加入、隐藏条件与可捕獲机体；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars GC》Mech Capture（可捕獲机体全表：回收价、附带部件、可否自军运用与出场话）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦GC（系统、话数与版本差异的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,763 @@
+{
+ "groups": [
+  {
+   "title": "第一章 一年战争·地球篇（第1–8话）",
+   "intro": "宇宙世纪0079的重演：民间防卫公司之子赤月秋水与白色基地队汇合，护卫白色基地突入大气圈、在北美与卡尔玛交锋。支线在进入下一主线话前可反复攻略。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "防卫队出动！",
+     "ja": "第1話：防衛隊出動！",
+     "en": "Defense Force, Move Out!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "早乙女研究所遇袭",
+     "ja": "第2話：狙われた早乙女研究所",
+     "en": "Saotome Lab Under Attack!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·支线",
+     "zh": "为了守护和平",
+     "ja": "第2話サブ：平和を守るために",
+     "en": "In Order to Protect Peace",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第3话",
+     "zh": "联邦军机动兵器，启动！",
+     "ja": "第3話：連邦軍機動兵器、始動！",
+     "en": "Federation Mobile Weapon, Activate!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "高达破坏命令",
+     "ja": "第4話：ガンダム破壊命令",
+     "en": "Destroy the Gundam!",
+     "type": "主线关",
+     "area": "",
+     "note": "捕獲系统解禁"
+    },
+    {
+     "code": "第5话",
+     "zh": "只属于两人的战争",
+     "ja": "第5話：二人だけの戦争",
+     "en": "War for Two",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·支线",
+     "zh": "大气圈突入准备",
+     "ja": "第5話サブ：大気圏突入準備",
+     "en": "Preparing for Reentry",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第6话",
+     "zh": "大气圈突入",
+     "ja": "第6話：大気圏突入",
+     "en": "Atmospheric Entry",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "卡尔玛出击",
+     "ja": "第7話：ガルマ出撃す",
+     "en": "Garma Strikes",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "卡尔玛陨落",
+     "ja": "第8話：ガルマ散る",
+     "en": "Garma Falls",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二章 日本集结与贾布罗篇（第9–15话）",
+   "intro": "超级系大部队在日本集结（达尔塔尼亚斯、断空我、魔神系、新盖塔），随后是贾布罗攻防战与爱娜说得支线。",
+   "rows": [
+    {
+     "code": "第9话",
+     "zh": "日本侵攻作战",
+     "ja": "第9話：日本侵攻作戦",
+     "en": "The Invasion of Japan",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话·支线",
+     "zh": "日本防卫战",
+     "ja": "第9話サブ：日本防衛",
+     "en": "Defending Japan",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第10话",
+     "zh": "逃亡",
+     "ja": "第10話：脱走",
+     "en": "Desertion",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话·支线",
+     "zh": "追击兰巴·拉尔",
+     "ja": "第10話サブ：ランバ・ラル追撃",
+     "en": "Ramba Ral's Pursuit",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第11话",
+     "zh": "头顶上的恶魔",
+     "ja": "第11話：頭上の悪魔",
+     "en": "The Demon Overhead",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "敖德萨之日",
+     "ja": "第12話：オデッサ・デー",
+     "en": "Odessa Day",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "灼热的贝尔法斯特",
+     "ja": "第13話：灼熱のベルファスト",
+     "en": "Belfast in Flames",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "贾布罗攻防战（前篇）",
+     "ja": "第14話：ジャブロー攻防戦（前編）",
+     "en": "The Battle of Jaburo (Part 1)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "贾布罗攻防战（后篇）",
+     "ja": "第15話：ジャブロー攻防戦（後編）",
+     "en": "The Battle of Jaburo (Part 2)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·支线",
+     "zh": "追击",
+     "ja": "第15話サブ：追撃",
+     "en": "Pursuit",
+     "type": "支线关",
+     "area": "",
+     "note": "说得爱娜（与桑吉巴尔捕獲互斥）"
+    }
+   ]
+  },
+  {
+   "title": "第三章 宇宙与所罗门篇（第16–20话）",
+   "intro": "转战宇宙：克里斯与巴尼的「口袋里的战争」、所罗门攻略战，最终乘甘道尔穿过异次元之门。",
+   "rows": [
+    {
+     "code": "第16话",
+     "zh": "向着宇宙",
+     "ja": "第16話：宇宙へ",
+     "en": "To Space",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "映在褐色瞳孔中的事物",
+     "ja": "第17話：茶色の瞳に映るもの",
+     "en": "Reflections in a Brown Eye",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·支线",
+     "zh": "口袋里的战争",
+     "ja": "第17話サブ：ポケットの中の戦争",
+     "en": "War in the Pocket",
+     "type": "支线关",
+     "area": "",
+     "note": "说得巴尼"
+    },
+    {
+     "code": "第18话",
+     "zh": "所罗门攻略战（前篇）",
+     "ja": "第18話：ソロモン攻略戦（前編）",
+     "en": "The Siege of Solomon (Part 1)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "所罗门攻略战（后篇）",
+     "ja": "第19話：ソロモン攻略戦（後編）",
+     "en": "The Siege of Solomon (Part 2)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "向着新的宇宙",
+     "ja": "第20話：新たなる宇宙へ",
+     "en": "To a New Universe",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第四章 异世界篇（第21–29话）",
+   "intro": "外宇宙诸世界：彭塔戈纳（L-Gaim）、J9三部曲与大巨神的世界，随后返回地球圈迎接Z高达时代的编成（雷兹纳参战）。",
+   "rows": [
+    {
+     "code": "第21话",
+     "zh": "亚曼一族",
+     "ja": "第21話：ヤーマン・クラン",
+     "en": "The Yaman Clan",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话·支线",
+     "zh": "紧急出击",
+     "ja": "第21話サブ：スクランブル",
+     "en": "Scramble",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第22话",
+     "zh": "诱饵，诱饵",
+     "ja": "第22話：ディコイ・ディコイ",
+     "en": "Decoy Decoy",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "破碎的心",
+     "ja": "第23話：ブロークン・ハート",
+     "en": "Broken Heart",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "小塞伊的毁灭",
+     "ja": "第24話：リトル・セイ壊滅",
+     "en": "The Destruction of Little Saye",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "启程吧！银河的米托王子",
+     "ja": "第25話：旅立て！銀河のミト王子",
+     "en": "Go Forth, Cosmic Prince Mito!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "动荡的惑星海",
+     "ja": "第26話：揺れる惑星海",
+     "en": "The Trembling Planets Ocean",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话·支线",
+     "zh": "新惑星联合",
+     "ja": "第26話サブ：新惑星連合",
+     "en": "The New Planets Alliance",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第27话",
+     "zh": "加斯托加尔演示",
+     "ja": "第27話：ガストガル・デモ",
+     "en": "Gustgal Demo",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "然后，回到地球",
+     "ja": "第28話：そして、地球へ",
+     "en": "Back to Earth",
+     "type": "主线关",
+     "area": "",
+     "note": "卡扎C捕獲有故障警告"
+    },
+    {
+     "code": "第29话",
+     "zh": "驰骋而过的宇宙",
+     "ja": "第29話：駆け抜けた宇宙",
+     "en": "Dashing Through Space",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话·支线",
+     "zh": "死鬼队的魔掌",
+     "ja": "第29話サブ：死鬼隊の魔の手",
+     "en": "The Evil Clutches of the Death Demons",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    }
+   ]
+  },
+  {
+   "title": "第五章 合流与魔神凯撒篇（第30–38话）",
+   "intro": "各线合流：主人公机强化、真盖塔复活、神莱汀欧合体、魔神凯撒参战与地狱城决战；真大魔神、雷兹纳Mk-II 等隐藏要素在本章结算。",
+   "rows": [
+    {
+     "code": "第30话",
+     "zh": "激斗，双魔神",
+     "ja": "第30話：激闘、ダブルマジンガー",
+     "en": "Fight On, Double Mazingers!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "出发！无敌的战士！",
+     "ja": "第31話：発進！無敵の戦士！",
+     "en": "Depart, Invincible Warrior!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "复活！真盖塔机器人",
+     "ja": "第32話：復活！真ゲッターロボ",
+     "en": "The Resurrection of Shin Getter Robo",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·支线",
+     "zh": "守住早乙女研究所",
+     "ja": "第32話サブ：早乙女研究所を守り抜け",
+     "en": "Defend the Saotome Lab!",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第33话",
+     "zh": "魔神降临",
+     "ja": "第33話：魔神降臨",
+     "en": "The Devil Descends",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·支线",
+     "zh": "千钧一发！光子力研究所",
+     "ja": "第33話サブ：危機一髪！光子力研究所",
+     "en": "Close Call at the Photon Energy Lab!",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第34话",
+     "zh": "古恩·杰姆队来袭",
+     "ja": "第34話：グン・ジェム隊来襲",
+     "en": "The Gun Jem Squadron Attacks",
+     "type": "主线关",
+     "area": "",
+     "note": "雷兹纳Mk-II 分歧（击坠数）"
+    },
+    {
+     "code": "第34话·支线",
+     "zh": "重庆基地防卫战",
+     "ja": "第34話サブ：重慶基地防衛戦",
+     "en": "The Defense of Chongqing Base",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第35话",
+     "zh": "抵抗军的反抗",
+     "ja": "第35話：レジスタンスの抵抗",
+     "en": "The Resistance's Opposition",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话",
+     "zh": "格拉多斯的刻印",
+     "ja": "第36話：グラドスの刻印",
+     "en": "Seal of Grados",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "开辟吧！地球的未来",
+     "ja": "第37話：切り開け！地球の未来",
+     "en": "Carve a Path to Earth's Future!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "决战！火焰地狱城",
+     "ja": "第38話：決戦！炎の地獄城",
+     "en": "Hell's Infernal Castle",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·支线",
+     "zh": "被留下者的觉悟",
+     "ja": "第38話サブ：残されし者の覚悟",
+     "en": "The Resolve of Those Left Behind",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    }
+   ]
+  },
+  {
+   "title": "第六章 阿·巴瓦·空与艾顿篇（第39–45话）",
+   "intro": "梅奥的马福队加入、阿·巴瓦·空攻坚与普露2的去向；转入大巨神的故乡艾顿国动乱，达尔塔尼亚斯追加武器支线开启。",
+   "rows": [
+    {
+     "code": "第39话",
+     "zh": "苍蓝之鹰，再临",
+     "ja": "第39話：蒼き鷹、再び",
+     "en": "The Blue Hawk Returns",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话·支线",
+     "zh": "封锁阿·巴瓦·空指令",
+     "ja": "第39話サブ：ア・バオア・クー封鎖指令",
+     "en": "The Blockade of A Baoa Qu",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第40话",
+     "zh": "宇宙要塞阿·巴瓦·空",
+     "ja": "第40話：宇宙要塞ア・バオア・クー",
+     "en": "Space Fortress A Baoa Qu",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "战士，再次…",
+     "ja": "第41話：戦士、再び…",
+     "en": "Warrior, Once More...",
+     "type": "主线关",
+     "area": "",
+     "note": "普露2 说得链"
+    },
+    {
+     "code": "第42话",
+     "zh": "野心的崩溃",
+     "ja": "第42話：野望の崩壊",
+     "en": "The Collapse of Ambition",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话·支线",
+     "zh": "袭击",
+     "ja": "第42話サブ：襲撃",
+     "en": "Assault",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第43话",
+     "zh": "扭曲的宇宙",
+     "ja": "第43話：歪む宇宙",
+     "en": "Distorted Space",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "艾顿国动乱",
+     "ja": "第44話：エドン国動乱",
+     "en": "A Disturbance in Edon",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话",
+     "zh": "大家都在等待王子！",
+     "ja": "第45話：みんなが王子を待っている！",
+     "en": "Everyone's Waiting for the Prince!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·支线",
+     "zh": "悄然迫近的敌人",
+     "ja": "第45話サブ：忍び寄る敵",
+     "en": "Creeping Enemies",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    }
+   ]
+  },
+  {
+   "title": "第七章 L-Gaim 终盘篇（第46–50话）",
+   "intro": "响应戈瓦汉德星求救、与阿曼达拉决战，L-Gaim 线以「梦想者再临」前后篇收束。",
+   "rows": [
+    {
+     "code": "第46话",
+     "zh": "戈瓦汉德星SOS",
+     "ja": "第46話：ゴワハンド星SOS",
+     "en": "SOS From Gowahand",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "阿曼达拉·卡曼达拉",
+     "ja": "第47話：アマンダラ・カマンダラ",
+     "en": "Amandara Kamandara",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "奥利比危机",
+     "ja": "第48話：オリビー・クライシス",
+     "en": "Olibee Crisis",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话·支线",
+     "zh": "出击前夜",
+     "ja": "第48話サブ：出撃前夜",
+     "en": "The Night Before the Sortie",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第49话",
+     "zh": "梦想者再临（前篇）",
+     "ja": "第49話：ドリーマーズ アゲイン（前編）",
+     "en": "Dreamers Again (Part 1)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话",
+     "zh": "梦想者再临（后篇）",
+     "ja": "第50話：ドリーマーズ アゲイン（後編）",
+     "en": "Dreamers Again (Part 2)",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第八章 终盘：扎尔与加迪索德篇（第51–59话）",
+   "intro": "进军扎尔、莎莉归队、攻打加迪索德前卫要塞、打倒皇帝瓦鲁萨，最终在灼热的巨大要塞与阿隆扎决战。",
+   "rows": [
+    {
+     "code": "第51话",
+     "zh": "银河之虎加斯康",
+     "ja": "第51話：銀河の虎ガスコン",
+     "en": "Gascon, the Galactic Tiger",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话",
+     "zh": "决战！移动要塞",
+     "ja": "第52話：決戦！移動要塞",
+     "en": "Showdown at the Mobile Fortress",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话·支线",
+     "zh": "突破敌阵！",
+     "ja": "第52話サブ：敵陣突破！",
+     "en": "Break Through the Enemy Lines!",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第53话",
+     "zh": "向着风暴的扎尔，全舰出击！",
+     "ja": "第53話：嵐のザールへ、全艦出撃せよ！",
+     "en": "Forward, Into the Storms of Zarl!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话",
+     "zh": "努比亚的狂乱",
+     "ja": "第54話：ヌビアの狂乱",
+     "en": "Nubia's Frenzy",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话",
+     "zh": "献给逝者的镇魂歌",
+     "ja": "第55話：失われた者たちへの鎮魂歌",
+     "en": "Requiem for Victims",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第55话·支线",
+     "zh": "加迪索德之影",
+     "ja": "第55話サブ：ガディソードの影",
+     "en": "Shadows of Gadisword",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "第56话",
+     "zh": "加迪索德前卫要塞",
+     "ja": "第56話：ガディソード前衛要塞",
+     "en": "Gadisword's Advance Fortress",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第57话",
+     "zh": "巨烈燃烧",
+     "ja": "第57話：巨烈燃ゆ",
+     "en": "Raging Inferno",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第58话",
+     "zh": "打倒皇帝瓦鲁萨！",
+     "ja": "第58話：皇帝ワルーサを倒せ！",
+     "en": "Defeat Emperor Warusa!",
+     "type": "主线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第58话·支线",
+     "zh": "悄然迫近的敌人",
+     "ja": "第58話サブ：忍び寄る敵",
+     "en": "The Terrifying Replicant Force",
+     "type": "支线关",
+     "area": "",
+     "note": "支线，可反复攻略"
+    },
+    {
+     "code": "最终话",
+     "zh": "灼热的巨大要塞",
+     "ja": "最終話：灼熱の巨大要塞",
+     "en": "Colossal Fortress of Flames",
+     "type": "最终话",
+     "area": "",
+     "note": "最终话"
+    }
+   ]
+  }
+ ]
+}

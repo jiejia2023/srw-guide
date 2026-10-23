@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwGcMissionList from '../../../components/SrwGcMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战GC', path: 'srw-gc/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战GC（GameCube）关卡攻略 · 全79个关卡页面列表" description="超级机器人大战GC（2004年 GameCube）全部关卡的页面列表：主线59话＋支线20话，共79个剧本，无路线分歧。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素、本话可捕獲机体（捕獲系统）与坐标地图。本页为链接索引。" path="srw-gc/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战GC · 关卡攻略</h1>
+  <p>2004 年 GameCube《超级机器人大战GC》（开发：アトリエ彩、エーアイ）是系列在 GC 上的唯一一作。主人公是民间防卫公司「最上重工」的继承人<strong>赤月秋水</strong>（性别可选，默认名男女同名），开局在超级系<strong>索尔塞巴</strong>与真实系<strong>索尔加纳</strong>之间二选一（副驾驶同为菲莉），此后剧情完全共通——<strong>本作没有路线分歧</strong>，代之以 GC 首创的<strong>支线剧本（サブシナリオ）</strong>：在若干主线话之后开放、在进入下一主线话之前可反复攻略。本作的标志性系统是<strong>部位破坏＋捕獲</strong>：把敌机 BODY 以外的全部位打到 0，再让自军母舰相邻「捕獲」，即可在结算时选择运用、变换强化部件或解体换钱。主线 <strong>59 话</strong>＋支线 <strong>20 话</strong>共 <strong>79 个剧本</strong>，本站全部建页。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-gc/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第二十三部<strong>全关卡补完</strong>的作品——79 个详情页全部建成。用词与编号说明：本站关卡编号与标题以 Akurasu 的 GC <strong>Flow Chart 为主源</strong>，逐条与同站 Secrets 页、Mech Capture 表交叉核对，系统与话数以日本维基百科及日本 SRW Wiki 互证——「主线59话＋支线20话＝79」与日文维基一致。<strong>敌方编成</strong>：经全面检索，英、日文公开来源中<strong>没有任何一份</strong>刊载本作逐关的敌方编成、等级与增援（GameFAQs 上本作只有部件表与合体攻击表两份专题文档，同一作者；无全程攻略）——这是连「单一来源」都不存在的情形，各页的敌方编成、坐标与地形标为待核实；能确认的敌方出场信息只有流程图逐话刊载的「本话新登场的可捕獲机体」，已按 Akurasu 捕獲表（回收价、附带部件、可否自军运用）逐话列在各详情页。<strong>版本范围</strong>：本站以 GC 原版为准——Xbox 360 移植版《XO》（2006）追加了 4 个支线、新角色与新形态（索尔加纳·暴风、索尔兰萨·爆裂），不在本站当前范围内（差异概要见本作主页）。<strong>熟练度</strong>：本作没有熟练度系统（日文维基系统条目的熟练度采用作品清单中无 GC/XO；本作亦无 PP 养成，驾驶员技能靠着脱式技能部件）。</span>
+  </div>
+
+  <SrwGcMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/GC/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars GC: Flow Chart</a>（主来源：全关卡的胜败条件、机体加入、隐藏条件与可捕獲机体）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/GC/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars GC: Secrets</a>（隐藏要素总表，与 Flow Chart 交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/GC/Mech_Capture" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars GC: Mech Capture</a>（可捕獲机体全表：回收价、附带部件、可否运用与出场话）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/GC/Team_Attacks" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars GC: Team Attacks</a>（合体攻击全表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/GC" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars GC 主条目</a>（发售信息、剧本数与子页索引）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%B0GC" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦GC</a>（系统、话数构成、参战作品与 XO 版差异的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-gc/')}>← 返回超级机器人大战GC</a></p>
+</Base>
