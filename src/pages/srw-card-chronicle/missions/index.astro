@@ -1,0 +1,28 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwCardChronicleMissionList from '../../../components/SrwCardChronicleMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战CardChronicle', path: 'srw-card-chronicle/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战CardChronicle（Mobage）剧情篇章 · 全4篇页面列表" description="超级机器人大战Card Chronicle（2012年 Mobage，已停服）主线剧情的篇章列表：第一宇宙篇、第二宇宙篇、统合宇宙篇与2015年新章「伪造的世界」共4篇，每篇独立页面记述舞台、剧情梗概、参战焦点与敌对势力。本作是卡牌社交游戏，没有格子关卡与逐关数值表存世，收录范围与原因见本页说明。" path="srw-card-chronicle/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战CardChronicle · 剧情篇章</h1>
+  <p>《超级机器人大战Card Chronicle》是 2012 年 9 月 13 日在 Mobage 上线的<strong>系列首款社交游戏</strong>（已于 2015 年 12 月 21 日停服）。它不是主机 SRPG：没有编号话数、没有格子地图，剧情以「出击」任务的形式随运营逐期追加，战斗的主体是收集、改造卡牌并编成小队。因此本站的「关卡」对本作而言是<strong>剧情篇章</strong>——主线由四个篇章构成：以大天使队为核心的<strong>第一宇宙篇</strong>、玩家部队改名「卡尔斯」的<strong>第二宇宙篇</strong>、多世界统合的<strong>统合宇宙篇</strong>，以及 2015 年开启的最终新章<strong>「伪造的世界」</strong>。每一篇的完整梗概都在各自的详情页里；本页只是链接索引，与<a href={href('srw-card-chronicle/')}>本作主页</a>共用同一份篇章数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度与收录范围：</strong>本作的官方网站已关闭、游戏本体不可再玩，逐个任务的清单（每话标题、EN 消耗、Boss、奖励卡）在现存公开来源中<strong>没有完整留存</strong>：Akurasu Wiki 根本未收录本作（其待补清单里还列着本作条目），纸质攻略本不存在。本站只刊能由 srw.wiki（スーパーロボット大戦Wiki）的「卡尔斯」「世界观/CC」等条目与 Namu Wiki 本作条目互证的内容：四个篇章的舞台、梗概、敌我势力，以及系统与运营史（见本作主页）。逐话任务明细、卡牌全图鉴（名称/数值）与活动逐期清单均<strong>已不可考</strong>，本站不凭记忆或推测补写。各篇页面均标注了各自的数据状态。</span>
+  </div>
+
+  <SrwCardChronicleMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://srw.wiki.cre.jp/w/index.php?title=%E4%B8%96%E7%95%8C%E8%A6%B3/CC&direction=prev&oldid=108186" rel="noopener" target="_blank">srw.wiki — 世界观/CC</a>（各篇章的舞台设定与敌我势力，主来源之一）</li>
+    <li><a href="https://en.namu.wiki/w/%EC%8A%88%ED%8D%BC%EB%A1%9C%EB%B4%87%EB%8C%80%EC%A0%84%20%EC%B9%B4%EB%93%9C%20%ED%81%AC%EB%A1%9C%EB%8B%88%ED%81%B4" rel="noopener" target="_blank">Namu Wiki — Super Robot Wars Card Chronicle</a>（系统、运营史与停服日期）</li>
+    <li><a href="https://superrobotwars.fandom.com/wiki/Super_Robot_Wars_Card_Chronicle" rel="noopener" target="_blank">Super Robot Wars Wiki (Fandom) — Card Chronicle</a>（参战作品分批的交叉核对）</li>
+  </ul>
+  <p><a href={href('srw-card-chronicle/')}>← 返回超级机器人大战CardChronicle</a></p>
+</Base>

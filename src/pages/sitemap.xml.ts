@@ -36,6 +36,7 @@ import srwz2saisei from '../data/srwz2saisei-missions.json';
 import srwk from '../data/srwk-missions.json';
 import srwneo from '../data/srwneo-missions.json';
 import srwl from '../data/srwl-missions.json';
+import srwcc from '../data/srwcardchronicle-missions.json';
 import { canonical } from '../lib/site';
 
 export function GET() {
@@ -48,7 +49,7 @@ export function GET() {
     platformSlugs.add(g.platformSlug);
     paths.add(`${g.slug}/`);
     // /secrets/ 与 /units/ 已改为重定向页（noindex），不进 sitemap；
-    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-k、srw-neo、srw-l 有真实总表页，其余作的重定向页同样不收录。
+    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-k、srw-neo、srw-l、srw-card-chronicle 有真实总表页，其余作的重定向页同样不收录。
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
@@ -199,6 +200,10 @@ export function GET() {
   paths.add('srw-l/missions/');
   for (const m of (srwl as any).missions ?? []) {
     if (m.slug) paths.add(`srw-l/missions/${m.slug}/`);
+  }
+  paths.add('srw-card-chronicle/missions/');
+  for (const m of (srwcc as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-card-chronicle/missions/${m.slug}/`);
   }
 
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...paths]
