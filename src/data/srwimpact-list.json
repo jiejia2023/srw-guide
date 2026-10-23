@@ -1,0 +1,1057 @@
+{
+ "groups": [
+  {
+   "title": "第1部 地上激動編 · Scene 1 异变篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 1-1",
+     "zh": "飞龙乘云",
+     "ja": "飛竜乗雲",
+     "en": "Flying Dragon, Into The Clouds",
+     "type": "开场关",
+     "area": "第1部",
+     "note": "开场关"
+    },
+    {
+     "code": "第1部 1-2",
+     "zh": "三颗心",
+     "ja": "３つの心",
+     "en": "3 Hearts",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 1-3",
+     "zh": "黑铁之城",
+     "ja": "黒鉄の城",
+     "en": "Fortress of Black Iron",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 1-4",
+     "zh": "开火！",
+     "ja": "ファイヤー・オン！",
+     "en": "Fire On!",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 1-5",
+     "zh": "就要男子汉",
+     "ja": "「男らしく」でいこう",
+     "en": "To Go 'Like a Man'",
+     "type": "顺序关",
+     "area": "第1部",
+     "note": "隐藏要素 4 项"
+    },
+    {
+     "code": "第1部 1-6",
+     "zh": "翱翔之翼，坠落之翼",
+     "ja": "舞い上がる翼、舞い降りた翼",
+     "en": "Ascending Wings and Descending Wings",
+     "type": "收尾关",
+     "area": "第1部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第1部 地上激動編 · Scene 2 日本篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 2-1",
+     "zh": "交叉之战",
+     "ja": "CROSS FIGHT",
+     "en": "CROSS FIGHT (Kurosu Faito in Flow Chart)",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 2-2",
+     "zh": "醒来吧，勇者",
+     "ja": "目覚めよ勇者",
+     "en": "Awaken, Brave Hero",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 2-3",
+     "zh": "失落的忍者传说",
+     "ja": "失われた忍者伝説",
+     "en": "The Lost Ninja Legend",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 2-4",
+     "zh": "远方来客",
+     "ja": "来訪者、彼方より",
+     "en": "Visitors From Afar",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 2-5",
+     "zh": "两位新人类",
+     "ja": "二人のニュータイプ",
+     "en": "Two Newtypes",
+     "type": "收尾关",
+     "area": "第1部",
+     "note": "收尾关；隐藏要素 1 项"
+    }
+   ]
+  },
+  {
+   "title": "第1部 地上激動編 · Scene 3 世界一周篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 3-1",
+     "zh": "出击，超电磁机器人",
+     "ja": "出撃、超電磁ロボ",
+     "en": "Sortie, Super Electromagnetic Robot",
+     "type": "开场关",
+     "area": "第1部",
+     "note": "开场关"
+    },
+    {
+     "code": "第1部 3-2",
+     "zh": "自灵魂的故乡",
+     "ja": "魂の故郷から",
+     "en": "The Soul's Hometown",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 3-3",
+     "zh": "强袭",
+     "ja": "強襲",
+     "en": "Raid",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 3-4",
+     "zh": "我是我，你是米蕾奴",
+     "ja": "僕は僕、君はミレーヌ",
+     "en": "I am Me, and You are Mylene",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 3-5",
+     "zh": "异变",
+     "ja": "異変",
+     "en": "Disaster",
+     "type": "收尾关",
+     "area": "第1部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第1部 地上激動編 · Scene 4 魂之归宿篇／地底帝国侵略篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 4-1A",
+     "zh": "黑色恐怖",
+     "ja": "黒い、おそろしいもの",
+     "en": "Black, Terrible One",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 4-1B",
+     "zh": "绝对零度的陷阱",
+     "ja": "絶対零度の罠",
+     "en": "Absolute Zero Trap",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 4-2A",
+     "zh": "红色风暴的女王",
+     "ja": "赤い嵐の女王",
+     "en": "Red Storm Queen",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 4-3A",
+     "zh": "沉默的堡垒",
+     "ja": "沈黙の城砦",
+     "en": "Silent Fortress",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 4-2B",
+     "zh": "皇子的最后一搏",
+     "ja": "皇子、最期の賭け",
+     "en": "The Prince's Final Gamble",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关"
+    },
+    {
+     "code": "第1部 4-3B",
+     "zh": "迎着战斗之风",
+     "ja": "戦いの風の中へ",
+     "en": "Into the Winds of Battle",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关"
+    },
+    {
+     "code": "第1部 4-4A",
+     "zh": "被撬开的道路",
+     "ja": "こじ開けられた道",
+     "en": "The Forced Open Road",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 4-4B",
+     "zh": "一滴水",
+     "ja": "水のひとしずく",
+     "en": "A Single Drop of Water",
+     "type": "路线关",
+     "area": "第1部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 4-5",
+     "zh": "在风暴中闪耀",
+     "ja": "嵐の中で輝いて",
+     "en": "Shine In The Storm",
+     "type": "合流关",
+     "area": "第1部",
+     "note": "合流关；隐藏要素 2 项"
+    }
+   ]
+  },
+  {
+   "title": "第1部 地上激動編 · Scene 5 百鬼帝国的威胁篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 5-1",
+     "zh": "回过神来「老规矩？」",
+     "ja": "気が付けば「お約束？」",
+     "en": "Finding yourself in a \"Routine Plot?\"",
+     "type": "开场关",
+     "area": "第1部",
+     "note": "开场关"
+    },
+    {
+     "code": "第1部 5-2",
+     "zh": "指挥官的遗产",
+     "ja": "コマンダーの遺産",
+     "en": "Commander's Legacy",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 5-3",
+     "zh": "G的咆吼",
+     "ja": "Ｇの咆吼",
+     "en": "G's Roar",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第1部 5-4",
+     "zh": "大将军加鲁达的悲剧",
+     "ja": "大将軍ガルーダの悲劇",
+     "en": "Great General Garuda's Tragedy",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 5-5",
+     "zh": "背叛的收藏家！",
+     "ja": "裏切りのコレクター！",
+     "en": "The Traitorous Collector!",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 5-6",
+     "zh": "战场在高空之上",
+     "ja": "戦場は、大空高く",
+     "en": "Battlefield, High in the Sky",
+     "type": "收尾关",
+     "area": "第1部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第1部 地上激動編 · Scene 6 贾布罗夺还篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第1部 6-1",
+     "zh": "梦的碎片",
+     "ja": "夢の欠片",
+     "en": "Dream Fragments",
+     "type": "开场关",
+     "area": "第1部",
+     "note": "开场关"
+    },
+    {
+     "code": "第1部 6-2",
+     "zh": "阿克西斯的使者",
+     "ja": "アクシズの使者",
+     "en": "Axis' Messenger (Axis's Messenger in Flow Chart)",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 6-3",
+     "zh": "头顶的恶魔",
+     "ja": "頭上の悪魔",
+     "en": "The Flying Demon",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 6-4",
+     "zh": "格利普斯的亡灵",
+     "ja": "グリプスの亡霊",
+     "en": "Gryps's Ghost",
+     "type": "选择关",
+     "area": "第1部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第1部 6-5",
+     "zh": "引导者与被引导之物",
+     "ja": "導く者、導かれるモノ",
+     "en": "The Guider and the Guided (Those Who Guide, And Those Who Are Guided in Flow Chart)",
+     "type": "选择关",
+     "area": "第1部",
+     "note": ""
+    },
+    {
+     "code": "第1部 6-6",
+     "zh": "制霸激荡大地之人",
+     "ja": "激動の地上を制するもの",
+     "en": "He Who Controls The Tumultuous Earth [sic]",
+     "type": "最终话",
+     "area": "第1部",
+     "note": "最终话；隐藏要素 4 项"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 1 侵略篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 1-1",
+     "zh": "出击",
+     "ja": "出撃",
+     "en": "Sortie",
+     "type": "开场关",
+     "area": "第2部",
+     "note": "开场关"
+    },
+    {
+     "code": "第2部 1-2",
+     "zh": "破坏者的威胁",
+     "ja": "破壊者の脅威",
+     "en": "The Destroyer's Threat (Threat of Vandals in Flow Chart)",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 1-3",
+     "zh": "来自月球的战士",
+     "ja": "月からの戦士",
+     "en": "Warriors from the Moon",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 1-4",
+     "zh": "卷起风暴·正义的拳法",
+     "ja": "巻き起これ嵐・正義の拳法",
+     "en": "Arrival of the Great Storm・The Just Martial Art",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 1-5",
+     "zh": "蓝心的访客",
+     "ja": "蒼い心の訪問者",
+     "en": "Visitors with Blue Hearts",
+     "type": "顺序关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 1-6",
+     "zh": "呼唤奇迹的咒语",
+     "ja": "奇跡を呼ぶ呪文",
+     "en": "The Spell Called a Miracle",
+     "type": "收尾关",
+     "area": "第2部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 2 侵略者篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 2-1",
+     "zh": "愤怒的魔神",
+     "ja": "怒りの魔神",
+     "en": "Rage of the Demon God",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第2部 2-2",
+     "zh": "被盯上的蓝色星球",
+     "ja": "狙われた青い星",
+     "en": "The Targeted Blue World",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 2-3",
+     "zh": "Z的脉动，再次",
+     "ja": "Ζの鼓動、再び",
+     "en": "The Pulse of Zeta, Once Again (Z's Heart Beats Once More in Flow Chart)",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 2-4",
+     "zh": "环",
+     "ja": "環",
+     "en": "Ring",
+     "type": "顺序关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 2-5",
+     "zh": "总有一天你会「唱起那首诗」",
+     "ja": "いつかお前が『歌う詩』",
+     "en": "The 'Song That You Will Sing' One Day",
+     "type": "收尾关",
+     "area": "第2部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 3 暗跃篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 3-1",
+     "zh": "泪之螺旋拳",
+     "ja": "涙のスパイラルナックル",
+     "en": "Spiral Knuckle of Tears",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第2部 3-2",
+     "zh": "孤独的战士",
+     "ja": "孤独の戦士",
+     "en": "The Lonely Warrior",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 3-3",
+     "zh": "温热的「冷酷方程式」",
+     "ja": "温めの『冷たい方程式』",
+     "en": "The Luke Warm 'Cold Equation'",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 3-4",
+     "zh": "两个计划",
+     "ja": "2つのプロジェクト",
+     "en": "The Two Projects",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 3-5",
+     "zh": "噩梦，再临",
+     "ja": "悪夢、再来",
+     "en": "The Nightmare Returns",
+     "type": "收尾关",
+     "area": "第2部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 4 放逐世界篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 4-1",
+     "zh": "纵使我命殒落",
+     "ja": "たとえ我が命つきるとも",
+     "en": "Even if I Must Throw My Life Away",
+     "type": "开场关",
+     "area": "第2部",
+     "note": "开场关"
+    },
+    {
+     "code": "第2部 4-2",
+     "zh": "杰特啊，破那双杀剑",
+     "ja": "ジェットよ、双殺剣を破れ",
+     "en": "Jet, Defeat the Twin Killing Blade (Jet's Killing Blade, Broken in Flow Chart)",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 4-3",
+     "zh": "迪拉德觉醒",
+     "ja": "ディラド覚醒",
+     "en": "Dillard Awakes",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 4-4",
+     "zh": "新的侵略之手",
+     "ja": "新たなる侵略の手",
+     "en": "A New Enemy Arrives",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第2部 4-5",
+     "zh": "炼金术士的心意",
+     "ja": "錬金術師の想い",
+     "en": "The Alchemist Searches for Love",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 4-6",
+     "zh": "回归乐园",
+     "ja": "楽園への帰還",
+     "en": "Back to Paradise",
+     "type": "收尾关",
+     "area": "第2部",
+     "note": "收尾关；隐藏要素 2 项"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 5 殖民卫星夺回篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 5-1",
+     "zh": "策谋的宙域",
+     "ja": "策謀の宙域",
+     "en": "Conspiracy Sector",
+     "type": "开场关",
+     "area": "第2部",
+     "note": "开场关"
+    },
+    {
+     "code": "第2部 5-2",
+     "zh": "燃烧奔跑吧，姐弟战士",
+     "ja": "燃えて走れ姉弟戦士",
+     "en": "Burn and Run, Sibling Warriors (Burning Brother and Sister Warriors in Flow Chart)",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第2部 5-3",
+     "zh": "魔神转生",
+     "ja": "魔神転生",
+     "en": "Revival of the Devil",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 5-4",
+     "zh": "开始行动的幽鬼们",
+     "ja": "動き出す幽鬼たち",
+     "en": "The Ghosts Begin to Move",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 3 项"
+    },
+    {
+     "code": "第2部 5-5",
+     "zh": "常暗之国",
+     "ja": "常闇の国",
+     "en": "Land of Eternal Darkness (Enemies of the State in Flow Chart/Secrets)",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 5-6",
+     "zh": "在绝望的宇宙中",
+     "ja": "絶望の宇宙に",
+     "en": "Despair of the Universe",
+     "type": "收尾关",
+     "area": "第2部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第2部 宇宙激震編 · Scene 6 混乱的世界篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第2部 6-1",
+     "zh": "面向明日的勇气",
+     "ja": "明日への勇気",
+     "en": "Courage for Tomorrow",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 6-2",
+     "zh": "悠久之风",
+     "ja": "悠久なる風",
+     "en": "Eternal Wind",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 6-3",
+     "zh": "探究者",
+     "ja": "探究者",
+     "en": "Inquisitor",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第2部 6-4",
+     "zh": "毁灭双曲线",
+     "ja": "壊滅双曲線",
+     "en": "Devastating Hyperbola",
+     "type": "选择关",
+     "area": "第2部",
+     "note": ""
+    },
+    {
+     "code": "第2部 6-5",
+     "zh": "杀不得的科洛斯",
+     "ja": "コロスは殺せない",
+     "en": "I Can't Kill Koros",
+     "type": "选择关",
+     "area": "第2部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第2部 6-6",
+     "zh": "向着激震的宇宙",
+     "ja": "激震する宇宙に",
+     "en": "Into the Galaxy Quake",
+     "type": "最终话",
+     "area": "第2部",
+     "note": "最终话；隐藏要素 1 项"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 1 迪拉德突入篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 1-1",
+     "zh": "迪拉德突入",
+     "ja": "ディラド突入",
+     "en": "Dillard Charges",
+     "type": "开场关",
+     "area": "第3部",
+     "note": "开场关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 1-2",
+     "zh": "生命种子所召唤之物",
+     "ja": "生命の種子が呼んだもの",
+     "en": "The Seeds of Life Speak",
+     "type": "选择关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 1-3",
+     "zh": "做着空虚之梦的人",
+     "ja": "空虚な夢を見る者",
+     "en": "The Man of Empty Dreams",
+     "type": "选择关",
+     "area": "第3部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 1-4",
+     "zh": "白热的终章",
+     "ja": "白熱の終章",
+     "en": "Blazing Epilogue",
+     "type": "收尾关",
+     "area": "第3部",
+     "note": "收尾关"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 2 出现篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 2-1",
+     "zh": "被诅咒的圣女贞德",
+     "ja": "呪われしジャンヌ＝ダルク",
+     "en": "The Cursed Jeanne d'Arc",
+     "type": "开场关",
+     "area": "第3部",
+     "note": "开场关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 2-2",
+     "zh": "盖塔射线，其意义",
+     "ja": "ゲッター線、その意味",
+     "en": "The Meaning of Getter Rays",
+     "type": "选择关",
+     "area": "第3部",
+     "note": "隐藏要素 3 项"
+    },
+    {
+     "code": "第3部 2-3",
+     "zh": "斩断怨念之剑",
+     "ja": "怨念を断つ剣",
+     "en": "The Blade that Ends Hate",
+     "type": "选择关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 2-4",
+     "zh": "鬼面之怪",
+     "ja": "鬼面の怪",
+     "en": "The Mysterious Devil Mask",
+     "type": "选择关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 2-5",
+     "zh": "为此而活到今天",
+     "ja": "そのために今、生きている",
+     "en": "That's Why I'm Alive Now (For Now, It is Alive in Flow Chart)",
+     "type": "顺序关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 2-6",
+     "zh": "大海啊、大地啊",
+     "ja": "海よ、大地よ",
+     "en": "O Sea, O Earth (Land By The Sea in Flow Chart)",
+     "type": "收尾关",
+     "area": "第3部",
+     "note": "收尾关；隐藏要素 2 项"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 3 地球／火星／月球篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 3A-1",
+     "zh": "神的祝福",
+     "ja": "神の祝福を",
+     "en": "God Bless",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3A-2",
+     "zh": "没有明天的总力战",
+     "ja": "明日なき総力戦",
+     "en": "Total War with No Tomorrow (Future Without War in Flow Chart)",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关"
+    },
+    {
+     "code": "第3部 3A-3",
+     "zh": "拉·姆之星",
+     "ja": "ラ・ムーの星",
+     "en": "Star of La-Mu",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3A-4",
+     "zh": "妖魔之岛",
+     "ja": "妖魔の島",
+     "en": "Island of Youma (Island of Mystics in Flow Chart)",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3B-1",
+     "zh": "无命之者",
+     "ja": "命持たぬ者たち",
+     "en": "Those Without Life (The Unexpected Life in Flow Chart/Secrets)",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关"
+    },
+    {
+     "code": "第3部 3B-2",
+     "zh": "伟大的胎动",
+     "ja": "大いなる胎動",
+     "en": "A Great Stirring (Great Movements in Flow Chart)",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3B-3",
+     "zh": "布彻最后之日",
+     "ja": "ブッチャー最期の日",
+     "en": "Butcher's Last Day",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关"
+    },
+    {
+     "code": "第3部 3B-4",
+     "zh": "燃烧的宇宙",
+     "ja": "燃える宇宙",
+     "en": "Burning Space",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3C-1",
+     "zh": "白骑士之心",
+     "ja": "白騎士の心",
+     "en": "The Heart of the White Knight",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 3 项"
+    },
+    {
+     "code": "第3部 3C-2",
+     "zh": "复仇鬼们",
+     "ja": "復讐鬼たち",
+     "en": "Demons of Vengeance",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3C-3",
+     "zh": "恶魔与阴谋",
+     "ja": "悪魔と陰謀と",
+     "en": "Of Devils and Conspiracies (Conspiracy of the Devil in Flow Chart)",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 3C-4",
+     "zh": "只为地球的和平",
+     "ja": "ただ地球の平和のために",
+     "en": "For the Peace of the Earth",
+     "type": "路线关",
+     "area": "第3部",
+     "note": "路线关；隐藏要素 1 项"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 4 银河激震篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 4-1",
+     "zh": "你心中的永恒",
+     "ja": "君の中の永遠",
+     "en": "The Eternity in You",
+     "type": "开场关",
+     "area": "第3部",
+     "note": "开场关；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 4-2",
+     "zh": "宇宙的路标",
+     "ja": "宇宙の道標",
+     "en": "Signpost of the Universe",
+     "type": "选择关",
+     "area": "第3部",
+     "note": "隐藏要素 2 项"
+    },
+    {
+     "code": "第3部 4-3",
+     "zh": "「曾经」的意义",
+     "ja": "「かつて」の意味",
+     "en": "The Meaning of the 'Past'",
+     "type": "选择关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 4-4",
+     "zh": "决着，以及新的谜团",
+     "ja": "決着、そして新たなる謎",
+     "en": "Endings and A New Mystery",
+     "type": "选择关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 4-5",
+     "zh": "机器罗伯·炎",
+     "ja": "マシンロボ・炎",
+     "en": "Machine Robo of Flame",
+     "type": "收尾关",
+     "area": "第3部",
+     "note": "收尾关；隐藏要素 2 项"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 5 银河决战篇",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 5-1",
+     "zh": "火星攻击",
+     "ja": "マーズ・アタック",
+     "en": "Mars Attacks",
+     "type": "选择关",
+     "area": "第3部",
+     "note": "隐藏要素 3 项"
+    },
+    {
+     "code": "第3部 5-2",
+     "zh": "夺取运算单元",
+     "ja": "演算ユニットを奪え",
+     "en": "Steal the Calculation Unit (Operation to Steal the Unit in Flow Chart)",
+     "type": "顺序关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 5-3",
+     "zh": "以诚实之心",
+     "ja": "誠実な心で",
+     "en": "With a Sincere Heart",
+     "type": "顺序关",
+     "area": "第3部",
+     "note": "隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 5-4",
+     "zh": "献给逝去者们的镇魂歌",
+     "ja": "失われた者たちへの鎮魂歌",
+     "en": "Requiem for Victims",
+     "type": "顺序关",
+     "area": "第3部",
+     "note": ""
+    },
+    {
+     "code": "第3部 5-5",
+     "zh": "向着决战的银河",
+     "ja": "そして決戦の銀河へ",
+     "en": "To the Decisive Battle for the Galaxy",
+     "type": "最终话",
+     "area": "第3部",
+     "note": "最终话；隐藏要素 2 项"
+    }
+   ]
+  },
+  {
+   "title": "第3部 銀河決戦編 · Scene 6 逆袭的夏亚篇（隐藏）",
+   "intro": null,
+   "rows": [
+    {
+     "code": "第3部 6-1",
+     "zh": "伴随着可憎的记忆",
+     "ja": "忌まわしき記憶と共に",
+     "en": "Together with Abominable Memories",
+     "type": "隐藏关（熟练度 ≥50）",
+     "area": "第3部",
+     "note": "隐藏关（熟练度 ≥50）；隐藏要素 1 项"
+    },
+    {
+     "code": "第3部 6-2",
+     "zh": "跨越莫比乌斯的宇宙",
+     "ja": "メビウスの宇宙を越えて",
+     "en": "Beyond the Moebius Universe",
+     "type": "隐藏关（熟练度 ≥50）",
+     "area": "第3部",
+     "note": "隐藏关（熟练度 ≥50）；隐藏要素 1 项"
+    }
+   ]
+  }
+ ]
+}

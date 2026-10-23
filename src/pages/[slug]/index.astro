@@ -17,6 +17,7 @@ import SrwCompact2MissionList from '../../components/SrwCompact2MissionList.astr
 import SrwAlphaMissionList from '../../components/SrwAlphaMissionList.astro';
 import SrwAlphaGaidenMissionList from '../../components/SrwAlphaGaidenMissionList.astro';
 import SrwAMissionList from '../../components/SrwAMissionList.astro';
+import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -40,6 +41,7 @@ const isSrwCompact2 = g.slug === 'srw-compact-2';
 const isSrwAlpha = g.slug === 'srw-alpha';
 const isSrwAlphaGaiden = g.slug === 'srw-alpha-gaiden';
 const isSrwA = g.slug === 'srw-a';
+const isSrwImpact = g.slug === 'srw-impact';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -1098,6 +1100,151 @@ const isSrwA = g.slug === 'srw-a';
     </div>
   )}
 
+  {isSrwImpact && (
+    <div>
+      <h2>剧情概要：COMPACT2 三部曲的 PS2 扩充重制</h2>
+      <p>本作（2002 年 3 月 28 日发售，开发：TOSE；「TOSE 开发」仅日文维基有载）是 WonderSwan《超级机器人大战COMPACT2》三部曲的 PS2 扩充重制：剧情骨架沿袭三部曲——第 1 部在地上迎击多方势力、第 2 部转战宇宙、第 3 部两部队伍合流并与神秘种族<strong>阿因斯特</strong>决战——但剧本被大幅重写扩充，新增《机动战舰抚子号》与《机动武斗传G高达》的剧情线，并新增《COMPACT2》不存在的原创角色<strong>阿因斯特·阿尔菲米</strong>（见下文专节）。与三部曲最大的制度差异是：三部不再是三款独立软件靠存档继承，而是<strong>在一周目内连续进行</strong>。主人公不再可自选：第 1 部是南部响介（古铁），第 2 部换艾克塞琳·布洛宁（白骑士），第 3 部两队合流；主人公改名机能也随之取消。</p>
+
+      <h2>关卡结构：三部连成一周目，105 个不同关卡</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>部</th><th>日文名</th><th>不同关卡数</th><th>主人公</th></tr></thead>
+          <tbody>
+            <tr><td>第 1 部</td><td>地上激動編</td><td>37</td><td>南部响介（古铁）</td></tr>
+            <tr><td>第 2 部</td><td>宇宙激震編</td><td>34</td><td>艾克塞琳·布洛宁（白骑士）</td></tr>
+            <tr><td>第 3 部</td><td>銀河決戦編</td><td>34</td><td>两部队伍合流</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>每部 6 章（Scene）</strong>，结构统一为「固定开场关 → 可任意顺序攻略的选择关组（全部都要打）→ 固定收尾关」。</li>
+        <li><strong>全作唯一真路线分歧</strong>：第 1 部第 3 章的选择关「自灵魂的故乡」<strong>最后打 → 拜斯顿·威尔路线（第 4 章 A）</strong>，不是最后打 → <strong>地上路线（第 4 章 B）</strong>；两队在第 4 章第 5 话合流。此选择还决定能否早期取得比尔拜因，并连锁到第 3 部的夜间迷彩。</li>
+        <li>第 3 部第 3 章的<strong>地球（3A）／火星（3B）／月球（3C）</strong>三路线是按作品分队、<strong>三条全打</strong>，不是互斥分歧；但攻略顺序有讲究（想说得格罗巴因须先月后地，见各页）。</li>
+        <li>一周目实际游玩 <strong>101 话（含隐藏最终章）／99 话（不含）</strong>：第 1 部第 4 章两路线一周目只走一条（少 4 个不同关卡），隐藏第 6 章 2 话需另行解锁。<strong>计数分歧并记</strong>：日文维基作「全 101 话」（一周目口径）、Niconico 大百科作 99+2，与 Akurasu 的「105 个可玩剧本」（不同关卡口径）并不矛盾，本站按 105 建页。</li>
+      </ul>
+
+      <h2>熟练度（SR 点）：隐藏最终章、难度检查点与反直觉容器</h2>
+      <ul>
+        <li><strong>规则</strong>：每话至多 +1、<strong>只增不减</strong>——任何来源都未记载《α》那种扣分/负数规则，本作请勿套用 α 的规则。取得条件各异（限回合全灭、Boss 的 HP 撤退线、指定机击破等，个别条件相当反直觉，如「不要击破某人」），且<strong>不在游戏内显示</strong>，须逐话对照各关攻略页。理论上限口径有分歧：Niconico 大百科作 <strong>98</strong>，SRW Wiki 作「最终话开始时点 <strong>97</strong>」，两说并记。</li>
+        <li><strong>用途一：隐藏最终章</strong>——第 3 部第 5 章最终话过关时累计 <strong>≥50</strong>，解锁隐藏第 6 章「逆襲のシャア編」（2 话）；不足则在第 5 章结束（通常结局）。</li>
+        <li><strong>用途二：四处「难易度」检查点（低分反而有好处）</strong>——在下列时点按累计熟练度判定 HARD／NORMAL；处于 NORMAL（低）时，过关后的技能协调选择池会<strong>追加「援护攻击」「援护防御」</strong>，两处还<strong>必得</strong>特定技能。熟练度冲太高反而拿不到这些：</li>
+      </ul>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>检查点</th><th>NORMAL 上限</th><th>NORMAL 的追加</th></tr></thead>
+          <tbody>
+            <tr><td>第 1 部第 3 章末</td><td>累计 ≤7</td><td>援护攻击、援护防御入池</td></tr>
+            <tr><td>第 1 部第 6 章末（第 1 部结束）</td><td>累计 ≤15</td><td>援护攻击、援护防御入池；且必得「强运」</td></tr>
+            <tr><td>第 2 部第 3 章末</td><td>累计 ≤23</td><td>援护攻击、援护防御入池</td></tr>
+            <tr><td>第 2 部第 6 章末（第 2 部结束）</td><td>累计 ≤32</td><td>援护攻击、援护防御入池；且必得「起死回生」「统率」</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>用途三：三处容器二选一</strong>——第 1 部最终话的容器：过关时熟练度 <strong>≥16 → 高达（RX-78-2）；≤15 → 资金 20000</strong>（阈值 Secrets 页作「&gt;16」，见该页备注）；第 2 部「探究者」的容器：<strong>≤29 → 全装甲百式改；≥30 → 百式改</strong>（且需第 1 部立下「阻止核攻击」旗标，否则容器不出现）；进入第 3 部月路线时：<strong>≤39 → ν高达HWS；≥40 → ν高达</strong>。后两处是「低分拿更好机体」的反直觉设计。</li>
+        <li><strong>熟练度不影响路线分歧</strong>（路线只由第 3 章的攻略顺序决定）。另有一处跨部反噬：第 2 部「决战迪拉德宙域」的熟练度对象卡多，若你已取得第 1 部「强袭」的熟练度便不会登场、该点自动不可达——规划全熟练度时请注意（见该页备注）。</li>
+      </ul>
+
+      <h2>援护：拆成两个技能，另有同时攻击与战舰援护</h2>
+      <ul>
+        <li>《COMPACT2》的统一技能「援护」在本作<strong>拆成「援护攻击」与「援护防御」两个独立驾驶员技能</strong>：没有对应技能的驾驶员不能援护；且两技能并非初始常备，主要靠上节的 NORMAL 检查点追加进技能协调池（或剧情习得）。</li>
+        <li><strong>地形限制</strong>：援护者必须能站到被援护者所在的那种地形上，否则不能援护（Akurasu 系统页）。</li>
+        <li><strong>同时攻击（新）</strong>：主攻驾驶员持有技能「统率」时，相邻且持有援护攻击的单位可与其<strong>同时攻击</strong>（双方攻击必定暴击），每话可用次数等于统率的技能等级（据 SRW Wiki）。</li>
+        <li><strong>战舰援护（新）</strong>：以绿色格标示的战舰可被<strong>舰内未出击的单位</strong>援护，且援护者能获得经验值——这是「援护不给经验」通则的例外（据 SRW Wiki）。</li>
+        <li>待核实注记：援护在本作能否逐次取消、每回合次数公式的原文表述，所查来源（Akurasu 系统页与 SRW Wiki）未明记，本站不臆测。</li>
+      </ul>
+      <h2>技能协调（过关回合数奖励）</h2>
+      <p>沿袭《COMPACT》的制度：每话过关后按<strong>过关回合数</strong>从奖励池选 1 个技能给指定驾驶员，回合越少档位越高——≤5 回合「集中力」（精神 SP 消费变 80%）、≤6「精神力+15」、≤7「回避率+15」、≤8「命中率+20」、≤9「特殊技能LV+1」、≤10「斗争心」、≤11「暴击率+25」、≤12「底力」、≤13「精神力+5」、≤14「命中率+10」、≤15「回避率+10」、≤16「暴击率+15」。除回合档位外，还有<strong>事件与检查点追加</strong>的入池项（援护攻击/援护防御、强运、起死回生、统率等，见熟练度一节与各话隐藏要素）。另：本作精神指令的倍率是自家口径——「热血」1.5 倍（SP 40）、「魂」2 倍（SP 60）、「爱」为旧式全军 HP 全回复（SP 60，「威压」可令敌方援护次数归零）。</p>
+
+      <h2>跨部继承与后继机改造继承</h2>
+      <ul>
+        <li><strong>第 1 部 → 第 2 部：资金与已取得零件全部重置</strong>（据 Niconico 大百科难度节），进入第 2 部之初战力会明显下降。唯一的例外是<strong>改造度</strong>：第 1 部第 1 章末被派往宇宙的那一组（甲儿组或铁也组），在第 2 部登场时<strong>保留其离队时的改造阶段</strong>。</li>
+        <li><strong>第 2 部 → 第 3 部</strong>：两部的我方名单在第 3 部第 1 话合流（包括两部的隐藏取得物）。但第 3 部开局的资金/零件是重置还是承继第 2 部，<strong>所查来源未明确记载，标为待核实</strong>，本站不默认。</li>
+        <li><strong>后继机改造继承</strong>（Akurasu「Upgrade Carryover」页，共 7 条）：旧机被后继机替换时改造继承到新机，细节如下表（韩文攻略另载有剑龙→拜坎夫、黑狮子→兽魔等合体形态的继承，Akurasu 表未收录，并记于此）：</li>
+      </ul>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>旧机</th><th>继承到</th><th>发生话</th><th>保留旧机</th></tr></thead>
+          <tbody>
+            <tr><td>古铁</td><td>古铁巨人</td><td>第 3 部第 3 章（月路线）</td><td>否</td></tr>
+            <tr><td>白骑士</td><td>纯白骑士</td><td>第 3 部第 3C 章第 1 话</td><td>否</td></tr>
+            <tr><td>ZZ高达</td><td>全装甲ZZ高达</td><td>第 3 部第 3 章（月路线）</td><td><strong>是</strong></td></tr>
+            <tr><td>比尔拜因</td><td>比尔拜因（夜间迷彩）</td><td>第 3 部第 2 章第 1 话</td><td>否</td></tr>
+            <tr><td>抚子号</td><td>抚子号Y单元</td><td>第 2 部第 6 章第 1 话</td><td>否</td></tr>
+            <tr><td>盖塔机器人</td><td>盖塔机器人G</td><td>第 1 部第 5 章</td><td>否</td></tr>
+            <tr><td>盖塔机器人G</td><td>真盖塔机器人</td><td>第 3 部第 2 章</td><td>否</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>原创角色：阿因斯特·阿尔菲米</h2>
+      <p><strong>阿因斯特·阿尔菲米</strong>（アインスト・アルフィミィ，Einst Alfimi／Alchimie，声：水谷優子）是本作新增的原创角色——以艾克塞琳的数据为蓝本、由阿因斯特制造的人形复制体，搭乘机为<strong>佩尔泽因·利希凯特</strong>（ペルゼイン・リヒカイト，德式拼写 Personlichkeit）。她在第 3 部第 5 章最终话随剧情加入我方，并在最终决战中反抗新生雷吉赛亚、随阿因斯特一同消失。她的英译名在 Akurasu 页面上有 Alfimi／Alchemie 两种拼写（完整流程图的熟练度栏曾误拼 Alchemie），本站统一作「阿尔菲米」。</p>
+
+      <h2>与《COMPACT2》的主要差异</h2>
+      <ul>
+        <li>三部合为一作连续游玩，废除存档数据继承；主人公固定（无自选、无改名）。</li>
+        <li>新增参战《机动战舰抚子号》《机动武斗传G高达》与原创角色阿尔菲米；《圣战士丹拜因》的新传说（New Story of Aura Battler DUNBINE）机体被移除。</li>
+        <li>援护拆为援护攻击／援护防御两技能，新增同时攻击与战舰援护；盾改为<strong>次数制</strong>（沿袭《A》的系统，按防御技能减轻 500–1200）。</li>
+        <li>系列首次采用<strong>地形破坏与隐藏容器</strong>（宝物多藏在可破坏的墙后，见各话隐藏要素）；OP 部件 35 种；消耗品持有上限 99；有全改造奖励（FUB）；驾驶员技能栏 4 格。</li>
+        <li>废除《COMPACT2》的个人数据记录表（PS2 无记忆卡外的数据保存方式之故，据系统研究）。</li>
+      </ul>
+
+      <h2>参战作品（26 部）</h2>
+      <p>超兽机神断空我／机器小子 时空大反击／破邪大星弹劾凰／<strong>机动战舰抚子号 ★对COMPACT2新增</strong>／忍者战士飞影／机动战士高达／机动战士高达 第08MS小队／机动战士高达0080 口袋中的战争／机动战士高达0083 星尘的记忆／机动战士Z高达／机动战士高达ZZ／机动战士高达：逆袭的夏亚／机动战士高达F91／<strong>机动武斗传G高达 ★对COMPACT2新增</strong>／无敌钢人泰坦3／无敌超人赞波特3／圣战士丹拜因／魔神Z／大魔神／UFO机器人古连泰沙／盖塔机器人／盖塔机器人G／真·盖塔机器人（原作漫画版）／超电磁机器人孔巴特拉V／勇者莱汀／Banpresto原创（据 Akurasu 参战作品表与日文维基，两者一致，共 26 部）。注：日文维基明确本作「无系列初参战作品」——抚子号与 G 高达只是相对《COMPACT2》新增（其定位是「家用机初参战／有声作品初参战」级别），本站只标「对 COMPACT2 新增」。</p>
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素共 47 项（据 Akurasu Secrets 页清点），以<strong>说得连锁、攻略顺序旗标、隐藏容器、熟练度二选一</strong>四类为主，且多处互斥（拿人还是拿武装、走哪条路线）。每一步的具体做法写在触发／结算的那一话页面内，下表为总览（「第 X 部 a-b」即该部的第 a 章第 b 话）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>对象</th><th>结算话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>量产型大魔神</td><td>第 1 部 4-1B</td><td>链：第 1 部 1-4 最后打＋1-5 送甲儿组上宇宙＋铁也说得（与战兽达ンテ互斥）</td></tr>
+            <tr><td>V-UP 单元(U)（战兽达ンテ）</td><td>第 1 部 1-5／4-1B</td><td>1-5 送铁也组上宇宙（与量产型大魔神互斥），击破达ンテ</td></tr>
+            <tr><td>嘉拉莉亚＋巴斯托尔</td><td>第 1 部 2-4</td><td>不击破嘉拉莉亚（与本话熟练度条件一致）</td></tr>
+            <tr><td>罗莎米娅＋加普兰</td><td>第 1 部 2-5</td><td>卡缪说得</td></tr>
+            <tr><td>托德＋丹拜因（托德机）</td><td>第 1 部 3-5 前</td><td>3-2 肖说得托德后再击破</td></tr>
+            <tr><td>肯普法</td><td>第 1 部 3-4 过关后</td><td>条件三方记载不一致，稳妥打法取交集：顺序第 2/3 个打＋不触发雪山事件＋出击希罗（见该页）</td></tr>
+            <tr><td>普露＋卡碧尼Mk-II（普露机）</td><td>第 2 部 5-6 前</td><td>第 1 部 3-4 先达成熟练度（毁 3 座金字塔）再击破普露</td></tr>
+            <tr><td>比尔拜因（早期入手）</td><td>第 1 部 4-2A</td><td>走拜斯顿·威尔路线（3-2 最后打）</td></tr>
+            <tr><td>莱奈克</td><td>第 1 部 4-4A</td><td>击破伯恩掉落的容器</td></tr>
+            <tr><td>阿普萨拉斯II＋艾娜</td><td>第 1 部 4-5</td><td>先触发雪山事件（3-3 希罗击破），再希罗说得艾娜</td></tr>
+            <tr><td>诺里斯＋古夫特装型</td><td>第 1 部 4-5</td><td>说得艾娜后，依次用艾娜、伯尼说得（得技能「强运」）</td></tr>
+            <tr><td>杰克＆玛丽·金＋德克萨斯马克</td><td>第 1 部 5-3 过关后</td><td>5-3 在选择关中第 1 或第 2 个打</td></tr>
+            <tr><td>G-3 高达＋夏亚专用扎古II</td><td>第 1 部 5-6 前</td><td>5-5 让本梅尔存活 10 回合，增援后由克莉丝／伯尼分别击破</td></tr>
+            <tr><td>精神感应高达</td><td>第 1 部 6-4</td><td>先打 6-2（顺序旗标）＋卡缪击破</td></tr>
+            <tr><td>修巴鲁兹＋镜高达</td><td>第 1 部 6-6</td><td>不让修巴鲁兹 HP 降至一半以下</td></tr>
+            <tr><td>东方不败＋尊者高达</td><td>第 3 部 3C-3 可用</td><td>第 1 部 4-4B 立旗＋6-6 三步手续（打至半血→多蒙交战→他人击破）</td></tr>
+            <tr><td>高达（RX-78-2）或资金 20000</td><td>第 1 部 6-6</td><td>容器二选一：过关时熟练度 ≥16／≤15</td></tr>
+            <tr><td>吉姆加农II</td><td>第 1 部 6-6</td><td>破墙后的隐藏容器</td></tr>
+            <tr><td>里克·迪亚斯（黑色）／资金 20000</td><td>第 2 部 2-1</td><td>破门／破墙的隐藏容器</td></tr>
+            <tr><td>夏扎拉＋艾扎姆三世 或 螺旋指节</td><td>第 2 部 3-1</td><td>罗尔两次说得（加入）或说得后弹劾凰击破（武装）——与本话熟练度互斥取舍</td></tr>
+            <tr><td>卡多＋诺耶·吉尔</td><td>第 3 部 4-2</td><td>链：第 2 部 4-6 交战＋说得立旗 → 第 3 部两次说得</td></tr>
+            <tr><td>普露2＋卡碧尼Mk-II（普露2机）</td><td>第 2 部 5-4</td><td>杰多两次说得（中途需先击破葛雷米）</td></tr>
+            <tr><td>奥拉转换器／杰刚</td><td>第 2 部 5-4</td><td>隐藏房间与破墙后的隐藏容器</td></tr>
+            <tr><td>百式改 或 全装甲百式改</td><td>第 2 部 6-3</td><td>容器二选一：熟练度 ≤29 得全装甲（前置：第 1 部阻止核攻击）</td></tr>
+            <tr><td>X 艾斯特巴利斯改 或 ZII</td><td>第 2 部 6-5</td><td>选择关攻略顺序二选一：第 1/2 个打／第 3/4 个打</td></tr>
+            <tr><td>基那＆科伦＋仁基Mk-II</td><td>第 2 部 6-6</td><td>链：5-2 罗姆说得立旗 → 6-6 击破迪翁多拉后再说得</td></tr>
+            <tr><td>真盖塔机器人 或 纯白骑士</td><td>第 3 部 2-2 起</td><td>全作最重要的二选一（互斥，且决定最终话结局 CG 版本）</td></tr>
+            <tr><td>ν高达HWS 或 ν高达</td><td>第 3 部 3C-1</td><td>进入月路线时结算：熟练度 ≤39 得 HWS</td></tr>
+            <tr><td>格罗巴因</td><td>第 3 部 3C-2</td><td>先打月路线后打地球路线＋蓝杰特说得（得技能「起死回生」）</td></tr>
+            <tr><td>断空光剑（含 MAP 版）</td><td>第 3 部 3A-1</td><td>断空我与夏皮罗首次交战结束时其 HP 低于 35%</td></tr>
+            <tr><td>神之声（MAP 版）</td><td>第 3 部 3A-4</td><td>链：莱汀击破巨兽戈斯坦＋班加与巴拉贡</td></tr>
+            <tr><td>合体技「石破爱爱天惊拳」</td><td>第 3 部 4-1</td><td>多蒙说得蕾茵（与本话熟练度互斥）</td></tr>
+            <tr><td>扎古III改／昆曼萨／卡碧尼</td><td>第 3 部 4-2</td><td>玛修玛／葛雷米／哈曼掉落的容器</td></tr>
+            <tr><td>技能「精神统一」×2</td><td>第 3 部 3C-4／4-5</td><td>玛利亚说得琪莉卡／罗姆、蕾娜说得加尔迪（本人均不加入）</td></tr>
+            <tr><td>伊尔博拉＋零影</td><td>第 3 部 5-1</td><td>三段说得链：1-3 起步→3B-2→5-1 罗米娜说得后乔击破</td></tr>
+            <tr><td>高达试作 2 号机（GP-02）</td><td>第 3 部 5-1</td><td>雪山事件前置＋出击希罗并由其击破</td></tr>
+            <tr><td>九十九＋大铁人</td><td>第 3 部 5-2 过关后</td><td>5-1 快速过关（回合门槛两说：10 回合未满／以内，见该页）</td></tr>
+            <tr><td>隐藏最终章「逆襲のシャア編」</td><td>第 3 部第 6 章</td><td>第 5 章最终话过关时累计熟练度 ≥50（进章代价见 6-1 页）</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号沿用「第 X 部 a-b」式（Akurasu 原表作 P1/P2/P3 编号），逐话条件以 Akurasu 完整流程图（Complete Chart）为主源，与同站简版流程图（Flow Chart）、Secrets 页逐条交叉核对；系统面以 SRW Wiki、日文维基、Niconico 大百科互证。三方出入共 26 处，一律从完整流程图并在受影响页面备注并记两说，主要包括：布鲁迪 2 号与艾娜、卡多的撤退 HP 线（20%/5200 对 30%/7800 等）、第 2 部 5-5 的熟练度回合（9 对 7）、普露2 话的 SR 对象（萨布罗塔对登金）、肯普法的取得顺序（三方互不一致，本站给交集打法）、RX-78-2 的阈值（≥16 对 &gt;16）、大铁人的回合门槛（未满 10 对 10 以内）、V-UP 单元型号（(U) 对 (W)）、第 3 部 3B-1 与 3C-4 的日文标题误植（本站已按日文维基订正）。另有两点单一来源注记已在对应页面标明：托德与艾娜的「降级取得」说法仅见韩文攻略；加尔迪说得的 HP 附加条件仅见 SRW Wiki。敌方配置方面：Akurasu 两表与 GX 均无逐关敌编成，目前只有 Joekage 的英文 FAQ 一份单一来源数据（无坐标），本站未导入、待用户决定，各页敌方配置栏有详细说明。</p>
+    </div>
+  )}
+    </div>
+  )}
+
   {isSrw64 && (
     <div>
       <h2>剧情概要：四位主人公与被占领的地球</h2>
@@ -1340,6 +1487,11 @@ const isSrwA = g.slug === 'srw-a';
     <div>
       <p>本作 <strong>53 个不同关卡全部建有独立攻略页</strong>（每一关一个详情页：一周目实际游玩 39 话——第1–38话＋最終話；本表按 Akurasu 流程图可清点的全部标题计，含开局真实系/超级系两套 1–3 话、第8话后宇宙线/地上线四话、第16话后第17话三版本、第25话后第26话两版本、第31话后木连线/小巴姆线四话与共通最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（路线选择、击坠数门槛与说得连锁都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方配置、坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-a/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwAMissionList />
+    </div>
+  ) : isSrwImpact ? (
+    <div>
+      <p>本作 <strong>105 个不同关卡全部建有独立攻略页</strong>（每一关一个详情页：第 1 部 37 个、第 2 部 34 个、第 3 部 34 个，含第 1 部第 4 章的拜斯顿·威尔／地上两路线、第 3 部第 3 章的地球／火星／月球三路线与熟练度 ≥50 的隐藏最终章 2 话；一周目实际游玩 101 话（含隐藏章）或 99 话（不含））。下表为按部与章分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（说得链、隐藏容器与跨部连锁都写在触发/结算的那一关里）与坐标地图（敌方配置与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-impact/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwImpactMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

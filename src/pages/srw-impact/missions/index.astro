@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwImpactMissionList from '../../../components/SrwImpactMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战IMPACT', path: 'srw-impact/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战IMPACT（PS2）关卡攻略 · 全105个关卡页面列表" description="超级机器人大战IMPACT（2002年 PS2）全部关卡的页面列表：三部构成（第1部地上激動編37话＋第2部宇宙激震編34话＋第3部銀河決戦編34话），计入第1部第4章的拜斯顿·威尔／地上两路线与熟练度≥50的隐藏最终章，共105个不同关卡；一周目实际游玩101话（含隐藏章）或99话（不含）。每关独立攻略页含胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素与坐标地图。本页为链接索引。" path="srw-impact/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战IMPACT · 关卡攻略</h1>
+  <p>2002 年 PS2《超级机器人大战IMPACT》（开发：TOSE）是 WonderSwan《COMPACT2》三部曲的 PS2 扩充重制：三部在一周目内<strong>连续进行</strong>（《COMPACT2》那种各部独立＋存档继承被废除），第 1 部「地上激動編」37 话、第 2 部「宇宙激震編」34 话、第 3 部「銀河決戦編」34 话，计入路线版本共 <strong>105 个不同关卡</strong>；一周目实际游玩 <strong>101 话（含隐藏最终章）／99 话（不含）</strong>——差额来自第 1 部第 4 章的两条路线（一周目只走一条、少 4 话）与隐藏第 6 章（2 话）。每部的结构都是「固定开场关→可任意顺序攻略的选择关组→固定收尾关」。全作<strong>唯一的真路线分歧</strong>在第 1 部第 3 章：关键关「自灵魂的故乡」在选择关中<strong>最后打→拜斯顿·威尔路线（4A）</strong>、不是最后→<strong>地上路线（4B）</strong>；第 3 部第 3 章的地球／火星／月球三路线则<strong>全部都要打</strong>（只是分队）。本作<strong>有熟练度（SR 点）</strong>：每话至多 +1、只增不减，累计 ≥50 解锁隐藏最终章「逆襲のシャア編」，四处章末检查点还会按熟练度高低改变技能协调的可选池，并有三处「低分反而拿更好机体」的容器二选一（规则见<a href={href('srw-impact/')}>本作主页</a>）。对《COMPACT2》的新增参战作品是《机动战舰抚子号》与《机动武斗传G高达》（两者都非系列初参战），并新增原创角色阿尔菲米。每一关的完整攻略（胜败条件、熟练度、加入、隐藏要素、坐标地图）都在各自的详情页里；本页只是链接索引，与本作主页共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十六部<strong>全关卡补完</strong>的作品——105 个详情页全部建成（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新、F、F完结编、COMPACT、64、COMPACT2、α、α外传、A 已完成）。流程、胜败条件、熟练度、加入与隐藏要素以 Akurasu 的 IMPACT <strong>完整流程图（Complete Chart）为主源</strong>，逐条与同站简版流程图（Flow Chart）和 Secrets 页交叉核对；三方共 26 处出入（布鲁迪2号的撤退线、普露2 的 SR 对象、肯普法的取得顺序等）已在相关页面备注中如实并记、一律从完整流程图。<strong>如实说明</strong>：Akurasu 的两张流程图都不刊载逐关敌方配置，GameCenter GX 不收录本作——本站各页的敌方配置与逐格地形标为待核实、坐标图为参照框架；目前已知<strong>存在一份单一来源的英文走查</strong>（Joekage 的 GameFAQs／Neoseeker FAQ v1.4，逐话列有初期敌军的机体/驾驶员/等级/HP/资金与增援、掉落，但无坐标），按本站惯例<strong>未导入、等待用户决定</strong>（细节见各关详情页的「敌方配置」栏）。话数口径：日文维基的「全 101 话」是一周目话数，与 Akurasu 的 105 个不同关卡并不矛盾，本站两说并记（见本作主页）。本页只做 PS2 原版（2002 年）。</span>
+  </div>
+
+  <SrwImpactMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Impact/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Impact: Complete Chart</a>（主来源：全关卡的胜败条件、熟练度、取得物与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Impact/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Impact: Flow Chart</a>（简版流程图，交叉核对；与主来源的出入已在各页备注并记）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Impact/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Impact: Secrets</a>（隐藏要素总表：47 条隐藏机体/单位/武装/技能的连锁条件）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Impact" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Impact 主条目</a>（发售信息、参战作品、系统子页索引）</li>
+  </ul>
+  <p><a href={href('srw-impact/')}>← 返回超级机器人大战IMPACT</a></p>
+</Base>
