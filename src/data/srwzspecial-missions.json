@@ -1,0 +1,2954 @@
+{
+ "missions": [
+  {
+   "code": "另一侧记录·第1话",
+   "slug": "asr-1",
+   "zh": "发令",
+   "ja": "発令",
+   "en": "Announcement",
+   "route": "Another Side Record",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Another Side Record》第1话（各篇章相互独立、可任意顺序开始；开始篇章时按下述规则发放资金/蓝石/PP 与部件，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加布斯雷（杰利德·梅萨）",
+    "加布斯雷（卡克里孔·卡库勒）",
+    "加布斯雷（摩亚·巴洛克）",
+    "混沌高达（斯汀·奥克雷）",
+    "深渊高达（奥尔·尼达）",
+    "盖亚高达（史黛拉·鲁西耶）",
+    "温达姆（尼奥·罗阿诺克）",
+    "尼尔瓦修 the END（阿妮莫妮）",
+    "混沌·雷奥（拉文·格涅拉尔）",
+    "混沌·安奎斯（修兰·奥佩尔）",
+    "联邦军飞行战舰（舰长尤尔根斯、参谋多米尼克·索雷尔）"
+   ],
+   "events": [
+    "本篇以「敌方视角」展开：新地球联邦为追捕谜之机体「BG」而组建的特殊部队「013」——成员来自提坦斯、幻痛（Phantom Pain）与凯美拉（Chimera）等阵营（剧情梗概据 MNeidengard 攻略）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Another Side Record》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Another Side Record 第1话。玩家操作的是 Z 本编中的敌方阵营角色。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "GameFAQs / Neoseeker《Super Robot Taisen Z Special Disc》FAQ/Walkthrough by MNeidengard（故事模式剧情梗概，英文）",
+     "url": "https://www.neoseeker.com/super-robot-taisen-z-special-disc/faqs/208574-a.html"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "另一侧记录·第2话",
+   "slug": "asr-2",
+   "zh": "接触",
+   "ja": "接触",
+   "en": "Contact",
+   "route": "Another Side Record",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Another Side Record》第2话（各篇章相互独立、可任意顺序开始；开始篇章时按下述规则发放资金/蓝石/PP 与部件，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接第1话结束时的阵容",
+    "政府型（丁普·沙龙）",
+    "加拉帕戈斯（霍拉）",
+    "普罗梅斯（杰拉巴）",
+    "高达维尔萨古 CB（沙基亚·弗罗斯特）",
+    "高达阿什塔隆 HC（奥尔巴·弗罗斯特）",
+    "津巴（阿斯塔姆）",
+    "安德哥雷姆（扎基）",
+    "多米尼特（辛西娅）",
+    "多哥佐（凯吉南）",
+    "多哥佐（恩盖）",
+    "多哥佐（贾波利）",
+    "过关后加入：精神高达（村雨凤）",
+    "过关后加入：阿西玛（布兰·布鲁塔克）",
+    "过关后加入：加普兰（罗莎米娅·巴达姆）"
+   ],
+   "events": [
+    "「BG」的真身是阿萨基姆与茜（ツィーネ）——二人放出堕天使（Fallen Angels）迎击后脱离；其后百鬼帝国部队来袭，013 与赶到的民间协力者（西伯利亚铁道警察一系）共同迎击（剧情梗概据 MNeidengard 攻略）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Another Side Record》第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Another Side Record 第2话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "GameFAQs / Neoseeker《Super Robot Taisen Z Special Disc》FAQ/Walkthrough by MNeidengard（故事模式剧情梗概，英文）",
+     "url": "https://www.neoseeker.com/super-robot-taisen-z-special-disc/faqs/208574-a.html"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "另一侧记录·第3话",
+   "slug": "asr-3",
+   "zh": "迷走",
+   "ja": "迷走",
+   "en": "Astray",
+   "route": "Another Side Record",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Another Side Record》第3话（各篇章相互独立、可任意顺序开始；开始篇章时按下述规则发放资金/蓝石/PP 与部件，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接第2话结束时的阵容",
+    "贝克胜利豪华型（贝克、提邦、达夫）",
+    "伊盖尔（科林·纳基）",
+    "过关后获得：鲍多克",
+    "过关后获得：拜亚兰",
+    "过关后获得：布罗卡利",
+    "过关后获得：哥雷姆",
+    "过关后获得：梅克斯布鲁特",
+    "过关后获得：多尔贝克"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Another Side Record》第4话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Another Side Record 第3话。英文名从 Akurasu 作 Astray；MNeidengard 攻略作 Meditation（系对「迷走（めいそう）」的误读），本站不采用。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "GameFAQs / Neoseeker《Super Robot Taisen Z Special Disc》FAQ/Walkthrough by MNeidengard（故事模式剧情梗概，英文）",
+     "url": "https://www.neoseeker.com/super-robot-taisen-z-special-disc/faqs/208574-a.html"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "另一侧记录·第4话",
+   "slug": "asr-4",
+   "zh": "意义",
+   "ja": "意味",
+   "en": "Meaning",
+   "route": "Another Side Record",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Another Side Record》第4话（各篇章相互独立、可任意顺序开始；开始篇章时按下述规则发放资金/蓝石/PP 与部件，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接第3话结束时的阵容"
+   ],
+   "events": [
+    "出击前幕间：贝克胜利豪华型改造为「伟大的贝克 RX3」（贝克、提邦、达夫）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Another Side Record》最终话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Another Side Record 第4话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "另一侧记录·最终话",
+   "slug": "asr-5",
+   "zh": "黑色意志",
+   "ja": "黒の意思",
+   "en": "Black Will",
+   "route": "Another Side Record",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Another Side Record》最终话（各篇章相互独立、可任意顺序开始；开始篇章时按下述规则发放资金/蓝石/PP 与部件，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "击破狩狼牙（Shurouga）",
+    "击破雷姆雷斯试作型（Lemures Prototype）"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": "通关本篇后，此后开始其他篇章时可获得本篇的通关奖励：资金 1,000,000、蓝石 1,000、PP 1,000，并入手部件「勇者之证」（各篇通关奖励与部件全表见本作主页）。"
+   },
+   "allies": [
+    "承接第4话结束时的阵容"
+   ],
+   "events": [
+    "茜（ツィーネ·艾斯皮奥）在本话以敌方副官级单位登场（据 GameFAQs 论坛玩家记录，她在 Another Side Record 最后一关作为小 Boss 出现）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "《Another Side Record》完结"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。",
+     "胜利条件点名的目标（狩狼牙、雷姆雷斯试作型）见上方概要；其编成、等级与坐标无公开来源。"
+    ]
+   },
+   "note": "Another Side Record 最终话（第5话）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "GameFAQs 论坛《Super Robot Taisen Z Special Disc》讨论帖（Shale0 的各篇开始奖励/通关奖励翻译帖，2009 年）",
+     "url": "https://gamefaqs.gamespot.com/boards/955117-super-robot-taisen-z-special-disc/48450285"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "背景回忆·第1话",
+   "slug": "bsm-1",
+   "zh": "少年啊，胸怀大志",
+   "ja": "少年よ、大志を抱け",
+   "en": "Boys, Be Ambitious",
+   "route": "Backstory Memory",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Backstory Memory》第1话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 2,000,000、蓝石 1,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼尔瓦修（伦顿·萨斯顿、优莱卡）",
+    "王者凯纳（凯纳·桑加）",
+    "潘萨（萨拉·科迪）",
+    "高达X分离器（卡洛德·兰）",
+    "端点909（霍兰德·诺瓦克）",
+    "端点606（马修、斯托纳）",
+    "端点808（希尔达·舒图贝尔）",
+    "多尔贝克（阿黛特·布鲁）",
+    "高达空中大师爆裂型（维茨·苏）",
+    "高达豹式破坏型（罗阿比·罗伊）",
+    "月光号（塔尔霍·雪溪、拳刚、哈普）",
+    "过关后加入：大O（罗杰·史密斯）",
+    "过关后加入：戴坦3（破岚万丈）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Backstory Memory》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Backstory Memory 第1话。本篇讲述伦顿与罗杰两人在 Z 本编期间各自遭遇的事件（日文维基）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "背景回忆·第2话",
+   "slug": "bsm-2",
+   "zh": "继续前行",
+   "ja": "キープ・オン・ムービン",
+   "en": "Keep On Movin'",
+   "route": "Backstory Memory",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Backstory Memory》第2话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 2,000,000、蓝石 1,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接第1话结束时的阵容",
+    "过关后加入：戴坦3（破岚万丈）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Backstory Memory》第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Backstory Memory 第2话。Akurasu 流程图把戴坦3 同时列在第1话与第2话的「过关后加入」中，本站照原表记录。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "背景回忆·第3话",
+   "slug": "bsm-3",
+   "zh": "在这个世界的中央",
+   "ja": "この世界の真ん中で",
+   "en": "At the Center of This World",
+   "route": "Backstory Memory",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Backstory Memory》第3话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 2,000,000、蓝石 1,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": "通关本篇后，此后开始其他篇章时可获得本篇的通关奖励：资金 1,000,000、蓝石 500、PP 500，并入手部件「哈罗」（全表见本作主页）。"
+   },
+   "allies": [
+    "加尔巴迪 β（One）",
+    "沃多姆（Zwei）",
+    "烈焰扎古幻影（Trois）",
+    "村雨（Shijou）",
+    "多尔贝克（Sank）",
+    "蒙斯诺10（Hex）",
+    "伊什基克指挥官型（Septe）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "《Backstory Memory》完结"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Backstory Memory 第3话（最终话）。本关阵容为一组以数字代号命名的驾驶员（代号拼写从 Akurasu 原表）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "荣耀报告·第1话",
+   "slug": "gsr-1",
+   "zh": "热斗！战士的休息",
+   "ja": "熱闘！戦士の休息",
+   "en": "Fiery Battle! The Warriors' Day Off",
+   "route": "Glory Star Report",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Glory Star Report》第1话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编节子线第32话结束、第33话路线分歧之前的阵容为准）"
+   ],
+   "events": [
+    "例外与注记（Akurasu 流程图）：巴扎购买的机体不在阵容内；超级火箭发射器、迪杰与黑色高达 Mk-II 视为已经获得。",
+    "本篇讲述 Z 本编节子线第32–33话之间发生的事件（日文维基）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Glory Star Report》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Glory Star Report 第1话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "荣耀报告·第2话",
+   "slug": "gsr-2",
+   "zh": "特拉尔的决心",
+   "ja": "テラルの決意",
+   "en": "Teral's Resolve",
+   "route": "Glory Star Report",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Glory Star Report》第2话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编节子线第32话结束、第33话路线分歧之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Glory Star Report》第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Glory Star Report 第2话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "荣耀报告·第3话",
+   "slug": "gsr-3",
+   "zh": "被揭开的墓所",
+   "ja": "暴かれた墓所",
+   "en": "Unearthed Graveyard",
+   "route": "Glory Star Report",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Glory Star Report》第3话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编节子线第32话结束、第33话路线分歧之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Glory Star Report》第4话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Glory Star Report 第3话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "荣耀报告·第4话",
+   "slug": "gsr-4",
+   "zh": "拭去泪水的翅膀",
+   "ja": "涙拭う翼",
+   "en": "Wings Wiping Away Tears",
+   "route": "Glory Star Report",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Glory Star Report》第4话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": "通关本篇后，此后开始其他篇章时可获得本篇的通关奖励：资金 1,000,000、蓝石 1,000、PP 1,000，并入手部件「S适配器」（全表见本作主页）。"
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编节子线第32话结束、第33话路线分歧之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "《Glory Star Report》完结"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Glory Star Report 第4话（最终话）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "业务日誌·第1话",
+   "slug": "bsd-1",
+   "zh": "为吃而合体",
+   "ja": "食べたくて合体",
+   "en": "Combine to Eat",
+   "route": "Beater Service Business Diary",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Beater Service Business Diary》第1话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编兰德线第38话结束、第39话之前的阵容为准）"
+   ],
+   "events": [
+    "注记（Akurasu 流程图）：巴扎机体视为全部已获得；铁甲鬼与拉什罗德视为已经获得。",
+    "本篇讲述 Z 本编兰德线第38–39话之间发生的事件（日文维基）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Beater Service Business Diary》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Beater Service Business Diary 第1话。本篇英文名 Beater 的拼写在社区翻译中曾有 Better/Bitter 之争，从 Akurasu 与日文维基的「ビーター・サービス」定作 Beater Service（兰德的修理屋名）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "业务日誌·第2话",
+   "slug": "bsd-2",
+   "zh": "奋斗！阿黛特老师",
+   "ja": "奮闘！アデット先生",
+   "en": "A Hard Battle! Teacher Adette",
+   "route": "Beater Service Business Diary",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Beater Service Business Diary》第2话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "多尔贝克（阿黛特机）被击破",
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编兰德线第38话结束、第39话之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Beater Service Business Diary》第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Beater Service Business Diary 第2话。本关败北条件含保护阿黛特的多尔贝克。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "业务日誌·第3话",
+   "slug": "bsd-3",
+   "zh": "赌上自尊",
+   "ja": "at the risk of pride",
+   "en": "at the risk of pride",
+   "route": "Beater Service Business Diary",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Beater Service Business Diary》第3话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编兰德线第38话结束、第39话之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Beater Service Business Diary》第4话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Beater Service Business Diary 第3话。本关标题在游戏中即为英文「at the risk of pride」。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "业务日誌·第4话",
+   "slug": "bsd-4",
+   "zh": "将这份心意传达给你",
+   "ja": "この想いを君に",
+   "en": "May These Feelings Reach You",
+   "route": "Beater Service Business Diary",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Beater Service Business Diary》第4话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭",
+    "在同一回合内击破两台格雷夫·智天使（Grave Cherubim）"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "阿克艾利昂被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 4,000,000、蓝石 1,000、PP 2,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": "通关本篇后，此后开始其他篇章时可获得本篇的通关奖励：资金 1,000,000、蓝石 1,000、PP 1,000，并入手部件「影天使之羽」（全表见本作主页）。"
+   },
+   "allies": [
+    "ZEUTH 全队（以 Z 本编兰德线第38话结束、第39话之前的阵容为准）（承接第1话，无变化）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "《Beater Service Business Diary》完结"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。",
+     "胜利条件点名的两台格雷夫·智天使为同回合击破目标；其编成、等级与坐标无公开来源。"
+    ]
+   },
+   "note": "Beater Service Business Diary 第4话（最终话）。胜利条件为两段式：先全灭其余敌人，再于同一回合内击破两台格雷夫·智天使（Akurasu 原文为分项列出的两个胜利条件）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "秘密尾声·第0话",
+   "slug": "se-0",
+   "zh": "序章",
+   "ja": "プロローグ",
+   "en": "Prologue",
+   "route": "Secret Epilogue",
+   "area": "",
+   "type": "故事模式·事件关",
+   "prerequisite": "Extra Stage → 故事模式 →《Secret Epilogue》序章（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "无战斗（剧情事件关，观看后进入第1话）"
+   ],
+   "defeat": [],
+   "defeatNote": "本关无战斗、无败北条件。",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 5,000,000、蓝石 3,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（本篇的叠加额高于其他篇章，数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "过关后获得的阵容按开篇时选择的主人公区分（节子线／兰德线），见剧情事件节"
+   ],
+   "events": [
+    "与 Z 本编不同，本篇中节子与兰德两位主人公并肩作战（日文维基：本盘中两人的斯菲亚均已共鸣）。",
+    "开篇选择节子为主人公时，过关后获得的阵容（Akurasu 流程图）：高达 Mk-II／超级高达（艾玛·辛）、Z 高达（卡缪·比丹）、百式（夏亚·阿兹纳布尔）、迪杰、力克·迪亚斯（红色）、力克·迪亚斯（阿波利）、力克·迪亚斯（罗伯特）、尼莫（卡兹·哈萨维）、尼莫、梅塔斯（花·园丽）、阿西玛、加普兰（村雨凤）、梅萨拉、加布斯雷、Re-GZ、ν高达（阿姆罗·雷）、∀高达（罗兰·塞亚克）、卡普尔（索茜艾·海姆）、卡普尔（美莎·克罗尔）、科林卡普尔（科林·纳基）、博贾诺恩（加巴南）、博贾诺恩（约瑟夫）、SUMO 银型（波·艾吉）、SUMO 金型（哈利·奥德）、伊盖尔、高达X分离器／高达X（贾米尔·尼特）、高达空中大师爆裂型（维茨·苏）、高达豹式破坏型（罗阿比·罗伊）、高达DX（卡洛德·兰、蒂法·亚迪尔）、G猎鹰（帕拉·西丝）、珍尼克改 恩尼尔机、希望号（恩尼尔·艾尔）、克劳达（兰斯洛）、贝尔蒂戈（卡里斯·诺提拉斯）、脉冲高达（露娜玛利亚·霍克）、GOUF 烈焰（伊扎克·焦尔）、命运高达（真·飞鸟）、强袭自由高达（基拉·大和）、无限正义高达（阿斯兰·扎拉）、拂晓（大鹫／不知火，穆·拉·弗拉格）、巴尔戈拉1号机（丹泽尔·哈默）、巴尔戈拉2号机（托比·沃森）、巴尔戈拉·荣耀（节子·奥哈拉）、阿伽马（布莱特、托雷斯、三枝）、索莱尤（迪安娜、米兰）、弗里顿（萨拉、托尼亚、新吾）、大天使号（玛琉、诺伊曼、钱德拉）、永恒号（拉克丝、巴尔特菲尔德、梅林）。",
+    "开篇选择兰德为主人公时，过关后获得的阵容（Akurasu 流程图）：魔神Z（兜甲儿）、戴安娜A（弓沙耶加）、大魔神（剑铁也）、维纳斯A（炎纯）、博斯机器人（博斯、努克、穆查）、古连达萨（杜克·弗利德）、双翼飞翼号（鲁比娜）、海洋飞翼号（宇门光）、钻头飞翼号（玛利亚）、盖塔机器人G（流龙马、神隼人、车弁庆）、丽迪·指挥官型（早乙女满）、铁甲鬼、巴尔迪奥斯（马林、奥利弗、莱塔）、哥德西格马（坛斗志也、朱利、吉拉肯）、赞波特3（方舟胜平、梅梅、京子）、奥加斯（桂木桂）、奥加斯II（奥尔森）、M·拉瓦·玛爱（玛爱）、M·拉瓦·莉艾（莉艾）、尼基克·雅典娜（雅典娜）、萨本格尔（拉格、布鲁梅）、步行者加利亚（吉隆·阿莫斯、琪鲁）、特拉德11、杜加、卡普里克、普罗梅斯、政府型、加拉帕戈斯（戴克）、德兰（比林、玛利亚）、布罗卡利、王者凯纳（凯纳·桑加）、潘萨（高里）、潘萨、潘萨（贝洛）、恩佩兰扎（凯恩）、多尔贝克（阿黛特·布鲁）、拉什罗德（亚萨巴）、哥雷姆、梅克斯布鲁特、津巴（萨拉）、多米尼特（辛西娅）、索尔格拉维昂（天空侍斗牙、英二、卢纳、水无月、艾娜、莉尔）、哥德西格马格拉维昂（桑德曼）、格兰·托鲁帕（菲伊）、端点606（马修、斯托纳）、端点808（希尔达）、端点303（霍兰德）、钢雷昂（兰德·特拉维斯、梅尔·比达）、金比尔（平左卫门、源五郎、市太郎）、格罗马（莎亚、米姆兹、摩姆）、钢铁巨人（艾尔奇、法特曼、科塞特）、月光号（塔尔霍、哈普、拳刚、穆恩多基）。",
+    "第1话结束后两线阵容合流（见第1话页）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入《Secret Epilogue》第1话（开篇选择决定第1话的版本与初始阵容）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关为无战斗的剧情事件关，没有敌方配置。"
+    ]
+   },
+   "note": "Secret Epilogue 序章。本篇是 Z 本编结束后的后日谈、系列的「真·完结篇」：已解散的 ZEUTH 为阻止突然启动的谜之系统「执行者（Executor）」而再集结（日文维基）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "秘密尾声·第1话（节子线）",
+   "slug": "se-1s",
+   "zh": "悄然逼近的黑暗",
+   "ja": "忍び寄る闇",
+   "en": "Creeping Darkness",
+   "route": "Secret Epilogue",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Secret Epilogue》第1话·节子线版本（序章开篇选择节子时）（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 5,000,000、蓝石 3,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（本篇的叠加额高于其他篇章，数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接序章（节子线）结束时的阵容",
+    "过关后：两线队伍合流",
+    "过关后加入：戴坦3（破岚万丈）",
+    "过关后加入：大O（罗杰·史密斯、多萝西·R·伟恩莱特）",
+    "过关后加入：突击型阿克艾利昂（丽花、皮埃尔、丽娜）",
+    "过关后加入：阿克艾利昂（阿波罗、西里乌斯、西尔维亚、淳、双美）",
+    "过关后加入：尼尔瓦修（伦顿·萨斯顿、优莱卡）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Secret Epilogue》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Secret Epilogue 第1话的节子线版本。路线归属从 Akurasu 流程图；GameFAQs 论坛的社区翻译帖把本话与兰德线版本的归属标反且一侧标题留空（见本作主页分歧说明）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "GameFAQs 论坛《Super Robot Taisen Z Special Disc》讨论帖（Shale0 的各篇开始奖励/通关奖励翻译帖，2009 年）",
+     "url": "https://gamefaqs.gamespot.com/boards/955117-super-robot-taisen-z-special-disc/48450285"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "秘密尾声·第1话（兰德线）",
+   "slug": "se-1r",
+   "zh": "沉睡的威胁",
+   "ja": "眠れる脅威",
+   "en": "Sleeping Menace",
+   "route": "Secret Epilogue",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Secret Epilogue》第1话·兰德线版本（序章开篇选择兰德时）（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 5,000,000、蓝石 3,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（本篇的叠加额高于其他篇章，数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接序章（兰德线）结束时的阵容",
+    "过关后：两线队伍合流",
+    "过关后加入：戴坦3（破岚万丈）",
+    "过关后加入：大O（罗杰·史密斯、多萝西·R·伟恩莱特）",
+    "过关后加入：突击型阿克艾利昂（丽花、皮埃尔、丽娜）",
+    "过关后加入：阿克艾利昂（阿波罗、西里乌斯、西尔维亚、淳、双美）",
+    "过关后加入：尼尔瓦修（伦顿·萨斯顿、优莱卡）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Secret Epilogue》第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Secret Epilogue 第1话的兰德线版本。两个版本的第1话内容不同、过关后均合流为同一阵容进入第2话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "秘密尾声·第2话",
+   "slug": "se-2",
+   "zh": "执行者",
+   "ja": "執行者",
+   "en": "Executor",
+   "route": "Secret Epilogue",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Secret Epilogue》第2话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "突击型阿克艾利昂被击破"
+   ],
+   "defeatNote": "Akurasu 流程图原文把败北条件列为两条：（1）我方战舰或突击型阿克艾利昂被击破；（2）我方战舰被击破——两条有重叠，本站合并照录并在此注记。",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 5,000,000、蓝石 3,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（本篇的叠加额高于其他篇章，数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "承接第1话结束时的合流阵容",
+    "关内：尼尔瓦修 spec2（伦顿、优莱卡换乘；改造继承自端点303）",
+    "关内：阿克艾利昂（阿波罗、西里乌斯、西尔维亚换乘；改造继承自突击型阿克艾利昂）",
+    "过关后：淳与双美可在阿克艾利昂与突击型阿克艾利昂之间自由换乘"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入《Secret Epilogue》最终话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "Secret Epilogue 第2话。本关标题「執行者」即本篇要阻止的谜之系统 Executor。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "秘密尾声·最终话",
+   "slug": "se-final",
+   "zh": "跨越黑历史",
+   "ja": "黒い歴史を越えて",
+   "en": "Beyond the Black History",
+   "route": "Secret Epilogue",
+   "area": "",
+   "type": "故事模式",
+   "prerequisite": "Extra Stage → 故事模式 →《Secret Epilogue》最终话（各篇章相互独立、可任意顺序开始；开始篇章时发放资源，见本作主页「故事模式的开始奖励」）",
+   "victory": [
+    "敌全灭",
+    "击破 XAN"
+   ],
+   "defeat": [
+    "我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "篇章开始时发放（本篇基础值）：资金 5,000,000、蓝石 3,000、PP 1,000；另按 Z 本编双线通关与本盘各篇通关记录叠加（本篇的叠加额高于其他篇章，数值见本作主页）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": "通关本篇后，此后开始其他篇章时可获得本篇的通关奖励：资金 70,000,000、蓝石 10,000、PP 6,000，并入手部件「钢之魂」；且 Battle Viewer 中有 2 台本作登场机体随「Extra Stage 全剧本通关」解禁（机体名待核实，见本作主页）。"
+   },
+   "allies": [
+    "承接第2话结束时的阵容"
+   ],
+   "events": [],
+   "secrets": [
+    "通关 Extra Stage 的全部故事模式剧本是 Battle Viewer 解禁 2 台机体的条件（日文维基记载，机体名待核实）。"
+   ],
+   "unlocks": [
+    "《Secret Epilogue》完结（Z 本编故事的真正终点）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 流程图只给胜败条件与我方阵容，MNeidengard 的攻略为剧情梗概向、不含敌方数据表，s-rpg-navi 未收录本盘。胜败条件中点名的目标见上方概要；其余敌方数据待核实。",
+     "胜利条件点名的最终目标 XAN 见上方概要；其编成、等级与坐标无公开来源。"
+    ]
+   },
+   "note": "Secret Epilogue 最终话。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Story Mode Flow Chart（故事模式全剧本流程、胜败条件与我方阵容，本站关卡编号从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Story_Mode_Flow_Chart"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 1",
+   "slug": "cb-n1",
+   "zh": "百台歼灭（4回合）",
+   "ja": "",
+   "en": "Normal Mission 1",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第1关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "4 回合内击破至少 100 台敌机"
+   ],
+   "defeat": [
+    "阿伽马被击破",
+    "4 回合内未击破 100 台"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 1,500,000、蓝石 300、每位驾驶员 PP 3,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "高达 Mk-II／超级高达（艾玛·辛）",
+    "Z 高达（卡缪·比丹）",
+    "百式（夏亚·阿兹纳布尔）",
+    "力克·迪亚斯（阿波利）",
+    "力克·迪亚斯（罗伯特）",
+    "尼莫（卡兹·哈萨维）",
+    "梅塔斯（花·园丽）",
+    "阿伽马（布莱特、托雷斯、三枝）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。",
+    "达成胜利条件后，本关仍会持续到第 4 回合结束。",
+    "增援：每击破 20 台敌机，再出现 20 台（据 Akurasu 注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第1关。挑战战斗的任务在游戏中没有标题，本站中文名为按胜利条件拟的内容描述名。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 2",
+   "slug": "cb-n2",
+   "zh": "一击三万（科学要塞岛）",
+   "ja": "",
+   "en": "Normal Mission 2",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第2关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内对科学要塞岛（Kagaku Yousaitou）以「一次攻击」造成 30,000 以上伤害"
+   ],
+   "defeat": [
+    "我方全灭",
+    "未在一次攻击中对科学要塞岛造成 30,000 伤害",
+    "超过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 2,000,000、蓝石 200、每位驾驶员 PP 3,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "小队1：魔神Z（兜甲儿）、戴安娜A（弓沙耶加）、钻头飞翼号（玛利亚）",
+    "小队2：大魔神（剑铁也）、维纳斯A（炎纯）、博斯机器人（博斯、努克、穆查）",
+    "小队3：古连达萨（杜克·弗利德）、双翼飞翼号（鲁比娜）、海洋飞翼号（宇门光）",
+    "小队4：盖塔机器人G（流龙马、神隼人、车弁庆）、丽迪·指挥官型（早乙女满）、铁甲鬼"
+   ],
+   "events": [
+    "编队：不可自由编队（固定为上列 4 个小队）。",
+    "「一次攻击」的计算（Akurasu 注记）：中央阵型下全小队成员造成的伤害合计，再加上援护攻击的伤害。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第2关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 3",
+   "slug": "cb-n3",
+   "zh": "沃达拉神殿防卫",
+   "ja": "",
+   "en": "Normal Mission 3",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第3关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "防卫沃达拉神殿（Vodara Temple）5 回合，或击破全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一敌人进入沃达拉神殿（地图标记区域）"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 400,000、蓝石 300、每位驾驶员 PP 3,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼尔瓦修（伦顿·萨斯顿、优莱卡）",
+    "端点909（霍兰德·诺瓦克）",
+    "端点606（马修、斯托纳）",
+    "端点808（希尔达·舒图贝尔）",
+    "月光号（塔尔霍、拳刚、哈普、穆恩多基）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第3关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 4",
+   "slug": "cb-n4",
+   "zh": "资金筹措（35万）",
+   "ja": "",
+   "en": "Normal Mission 4",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第4关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内靠击破敌机获得 350,000 资金"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "5 回合结束时未获得 350,000 资金",
+    "敌全灭时仍未获得 350,000 资金"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 200,000、蓝石 150、每位驾驶员 PP 2,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "步行者加利亚（吉隆·阿莫斯）",
+    "萨本格尔（拉格）",
+    "布罗卡利（布鲁梅）",
+    "加拉帕戈斯（戴克）",
+    "德兰（比林）",
+    "卡普里克（玛利亚）",
+    "钢铁巨人（艾尔奇、法特曼、科塞特）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。",
+    "达成胜利条件后，本关仍会持续到第 5 回合结束。",
+    "每台敌机击破时掉落 10,000 资金（Akurasu 注记）；开战前携带的资金不计入本关「获得」额（GameFAQs 论坛玩家对金额差额的讨论结论）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第4关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 5",
+   "slug": "cb-n5",
+   "zh": "三巨头讨伐",
+   "ja": "",
+   "en": "Normal Mission 5",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第5关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "7 回合内击破拉什罗德、哥雷姆与普拉涅塔（Planetta）"
+   ],
+   "defeat": [
+    "我方全灭",
+    "超过 7 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 500,000、蓝石 250、每位驾驶员 PP 3,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "王者凯纳（凯纳·桑加）",
+    "恩佩兰扎（凯恩）",
+    "多尔贝克（阿黛特·布鲁）",
+    "潘萨（高里）",
+    "潘萨（萨拉）",
+    "潘萨（贝洛）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第5关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Normal 6",
+   "slug": "cb-n6",
+   "zh": "全灭战（9回合）",
+   "ja": "",
+   "en": "Normal Mission 6",
+   "route": "挑战战斗·Normal",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Normal（第6关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "9 回合内击破全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "超过 9 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 15,000,000、蓝石 500、每位驾驶员 PP 3,000（全员等级固定为 30）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "古连达萨（杜克·弗利德）",
+    "双翼飞翼号（兜甲儿）",
+    "盖塔机器人G（流龙马、神隼人、车弁庆）",
+    "巴尔迪奥斯（马林、奥利弗、莱塔）",
+    "哥德西格马（坛斗志也、朱利、吉拉肯）",
+    "赞波特3（方舟胜平、梅梅、京子）",
+    "奥加斯（桂木桂）",
+    "萨本格尔（艾尔奇、拉格）",
+    "步行者加利亚（吉隆·阿莫斯、琪鲁）",
+    "高达 Mk-II（卡缪·比丹）",
+    "百式（夏亚·阿兹纳布尔）",
+    "迪杰（阿姆罗·雷）",
+    "∀高达（罗兰·塞亚克）",
+    "高达X分离器（卡洛德·兰）",
+    "力量脉冲高达（真·飞鸟）",
+    "救世主高达（阿斯兰·扎拉）",
+    "自由高达（基拉·大和）",
+    "王者凯纳（凯纳·桑加）",
+    "加奇科（凯恩）",
+    "大O（罗杰·史密斯）",
+    "格兰凯撒（天空侍斗牙）",
+    "阿克艾利昂（阿波罗、西里乌斯、西尔维亚）",
+    "尼尔瓦修（优莱卡、伦顿）",
+    "端点909（霍兰德·诺瓦克）",
+    "索莱尤（迪安娜、米兰）",
+    "弗里顿（贾米尔、萨拉、托尼亚、新吾）"
+   ],
+   "events": [
+    "编队：可自由编队。",
+    "格兰凯撒可合神为哥德格拉维昂（斗牙、英二、卢纳、水无月、艾娜、莉尔）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "（据 GameFAQs 论坛玩家记录）通关某一难度的全部任务后解锁下一难度：Normal → Hard → Ex-Hard。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Normal 第6关（本难度的最终任务）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 1",
+   "slug": "cb-h1",
+   "zh": "百五十台歼灭（4回合）",
+   "ja": "",
+   "en": "Hard Mission 1",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第1关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "4 回合内击破至少 150 台敌机"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "4 回合内未击破 150 台"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 2,500,000、蓝石 300、每位驾驶员 PP 2,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "强袭自由高达（基拉·大和）",
+    "无限正义高达（阿斯兰·扎拉）",
+    "拂晓（大鹫／不知火，穆·拉·弗拉格）",
+    "大天使号（玛琉、诺伊曼、钱德拉）",
+    "永恒号（拉克丝、巴尔特菲尔德、梅林）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。",
+    "达成胜利条件后，本关仍会持续到第 4 回合结束。",
+    "增援：每击破 20 台敌机，再出现 20 台（据 Akurasu 注记）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第1关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 2",
+   "slug": "cb-h2",
+   "zh": "班多克一击讨伐",
+   "ja": "",
+   "en": "Hard Mission 2",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第2关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "先击破其他全部敌人，最后以「一次攻击」击破班多克（Bandock），且全程在 5 回合内"
+   ],
+   "defeat": [
+    "金比尔被击破",
+    "未以一次攻击击破班多克",
+    "超过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 1,500,000、蓝石 200、每位驾驶员 PP 1,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "巴尔迪奥斯（马林、奥利弗、莱塔）",
+    "哥德西格马（坛斗志也、朱利、吉拉肯）",
+    "赞波特3（方舟胜平、梅梅、京子）",
+    "哥德格拉维昂（天空侍斗牙、英二、卢纳、水无月、艾娜、莉尔）",
+    "阿克艾利昂（阿波罗、西里乌斯、西尔维亚）",
+    "金比尔（平左卫门、源五郎、市太郎）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。",
+    "「一次攻击」的计算（Akurasu 注记）：单个单位造成的伤害加上援护攻击的伤害。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第2关。胜利条件有顺序要求：班多克必须留到最后一击。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 3",
+   "slug": "cb-h3",
+   "zh": "埃马恩舰队护卫",
+   "ja": "",
+   "en": "Hard Mission 3",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第3关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "击破全部敌人"
+   ],
+   "defeat": [
+    "格罗马被击破",
+    "任一埃马恩舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 700,000、蓝石 200、每位驾驶员 PP 2,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "奥加斯（桂木桂）",
+    "奥加斯II（奥尔森）",
+    "尼基克·雅典娜（雅典娜）",
+    "M·拉瓦·玛爱（玛爱）",
+    "M·拉瓦·莉艾（莉艾）",
+    "格罗马（莎亚、米姆兹、摩姆）"
+   ],
+   "events": [
+    "编队：不可自由编队（固定阵容）。",
+    "本关为护卫关：格罗马与埃马恩舰（NPC）任一被击破即败北。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第3关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 4",
+   "slug": "cb-h4",
+   "zh": "资金筹措（45万）",
+   "ja": "",
+   "en": "Hard Mission 4",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第4关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内靠击破敌机获得 450,000 资金"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "5 回合结束时未获得 450,000 资金",
+    "敌全灭时仍未获得 450,000 资金"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 500,000、蓝石 300、每位驾驶员 PP 2,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "固定单机小队：高达DX（卡洛德·兰、蒂法·亚迪尔）",
+    "固定单机小队：G猎鹰（帕拉·西丝）",
+    "固定单机小队：高达X分离器（贾米尔·尼特）",
+    "固定单机小队：高达空中大师爆裂型（维茨·苏）",
+    "固定单机小队：高达豹式破坏型（罗阿比·罗伊）",
+    "固定单机小队：希望号（恩尼尔·艾尔）",
+    "固定单机小队：贝尔蒂戈（卡里斯·诺提拉斯）",
+    "固定单机小队：弗里顿（萨拉、托尼亚、新吾）",
+    "可编入自由小队的机体：戴安娜A（弓沙耶加）",
+    "可编入：萨本格尔（琪鲁）",
+    "可编入：德兰（比林）",
+    "可编入：高达 Mk-II（艾玛·辛）",
+    "可编入：尼莫（卡兹·哈萨维）",
+    "可编入：卡普尔（索茜艾·海姆）",
+    "可编入：多尔贝克（阿黛特·布鲁）",
+    "可编入：端点606（马修、斯托纳）"
+   ],
+   "events": [
+    "编队：8 个固定单机小队 + 1 个自由 3 机小队（从上列「可编入」机体中选）。",
+    "掉落资金（Akurasu 注记）：多托雷斯·尼奥每台 10,000、加迪尔每台 15,000；高达维尔萨古 CB 与高达阿什塔隆 HC 不必击破（也不掉落资金）。",
+    "社区攻略（GameFAQs 论坛）指出：本关敌机数量有限，须让几乎每台敌机都在「幸运/祝福」生效时被击破，才能凑满 45 万。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第4关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 5",
+   "slug": "cb-h5",
+   "zh": "七大Boss讨伐",
+   "ja": "",
+   "en": "Hard Mission 5",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第5关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "8 回合内击破吉尔吉尔（Gear Gear）、机甲要塞鬼（Mecha Yousaiki）、普拉涅塔、多米尼特、铁奥（The O）、尼尔瓦修 the END 与大双子·因费尔诺（Big Duo Inferno）"
+   ],
+   "defeat": [
+    "阿伽马被击破",
+    "超过 8 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 4,000,000、蓝石 400、每位驾驶员 PP 3,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z",
+    "戴安娜A（弓沙耶加）",
+    "大魔神",
+    "维纳斯A（炎纯）",
+    "博斯机器人（博斯、努克、穆查）",
+    "海洋飞翼号（宇门光）",
+    "钻头飞翼号（玛利亚）",
+    "M·拉瓦·玛爱（玛爱）",
+    "M·拉瓦·莉艾（莉艾）",
+    "萨本格尔",
+    "步行者加利亚",
+    "特拉德11（布鲁梅）",
+    "特拉德11（戴克）",
+    "德兰（比林、玛利亚）",
+    "高达 Mk-II（艾玛·辛）",
+    "Z 高达",
+    "百式",
+    "迪杰",
+    "力克·迪亚斯（阿波利）",
+    "力克·迪亚斯（罗伯特）",
+    "尼莫（卡兹·哈萨维）",
+    "梅塔斯（花·园丽）",
+    "ν高达",
+    "∀高达",
+    "卡普尔（索茜艾·海姆）",
+    "卡普尔（美莎·克罗尔）",
+    "博贾诺恩（加巴南）",
+    "博贾诺恩（约瑟夫）",
+    "SUMO 金型",
+    "高达X分离器",
+    "高达DX",
+    "G猎鹰（帕拉·西丝）",
+    "希望号（恩尼尔·艾尔）",
+    "多尔贝克（阿黛特·布鲁）",
+    "潘萨（高里）",
+    "潘萨（贝洛）",
+    "拉什罗德",
+    "津巴",
+    "端点606（马修、斯托纳）",
+    "端点808（希尔达·舒图贝尔）"
+   ],
+   "events": [
+    "编队：可自由编队。",
+    "本关阵容以各作品的配角/支援角色为主（GameFAQs 论坛攻略指出：主角级角色不在阵容内，但可让驾驶员换乘主角机出击）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第5关。目标名「Mecha Yousaiki」的日文原名待核实（Akurasu 原表仅给罗马字，本站暂按「机甲要塞鬼」意译）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Hard 6",
+   "slug": "cb-h6",
+   "zh": "全灭战（9回合）",
+   "ja": "",
+   "en": "Hard Mission 6",
+   "route": "挑战战斗·Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Hard（第6关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "9 回合内击破全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "超过 9 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 12,000,000、蓝石 500、每位驾驶员 PP 3,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z（兜甲儿）",
+    "大魔神（剑铁也）",
+    "古连达萨（杜克·弗利德）",
+    "盖塔机器人G（流龙马、神隼人、车弁庆）",
+    "巴尔迪奥斯（马林、奥利弗、莱塔）",
+    "哥德西格马（坛斗志也、朱利、吉拉肯）",
+    "赞波特3（方舟胜平、梅梅、京子）",
+    "戴坦3（破岚万丈）",
+    "奥加斯（桂木桂）",
+    "奥加斯II（奥尔森）",
+    "萨本格尔（艾尔奇、拉格）",
+    "步行者加利亚（吉隆·阿莫斯、琪鲁）",
+    "Z 高达（卡缪·比丹）",
+    "百式（夏亚·阿兹纳布尔）",
+    "ν高达（阿姆罗·雷）",
+    "∀高达（罗兰·塞亚克）",
+    "高达DX（卡洛德·兰）",
+    "G猎鹰（帕拉·西丝）",
+    "命运高达（真·飞鸟）",
+    "无限正义高达（阿斯兰·扎拉）",
+    "强袭自由高达（基拉·大和）",
+    "王者凯纳（凯纳·桑加）",
+    "恩佩兰扎（凯恩）",
+    "大O（罗杰·史密斯、多萝西·R·伟恩莱特）",
+    "索尔格拉维昂（天空侍斗牙、英二、卢纳、水无月、艾娜、莉尔）",
+    "哥德西格马格拉维昂（桑德曼）",
+    "阿克艾利昂（阿波罗、西里乌斯、西尔维亚）",
+    "尼尔瓦修（伦顿·萨斯顿、优莱卡）",
+    "端点909（霍兰德·诺瓦克）",
+    "格罗马（莎亚、米姆兹、摩姆）",
+    "永恒号（拉克丝、巴尔特菲尔德、梅林）"
+   ],
+   "events": [
+    "编队：可自由编队。",
+    "社区攻略（GameFAQs 论坛）提醒：本关有多台带 MAP 武器的 Boss（中央的班多克、戈马、智天使级敌人与巴尔迪奥斯系敌战舰等），推进时需留意站位。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "（据 GameFAQs 论坛玩家记录）通关 Hard 全部任务后解锁 Ex-Hard。"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Hard 第6关（本难度的最终任务）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 1",
+   "slug": "cb-x1",
+   "zh": "百台歼灭（禁精神/MAP·3回合）",
+   "ja": "",
+   "en": "Ex-Hard Mission 1",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第1关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "3 回合内击破 100 台敌机（本关不可使用精神指令与 MAP 武器）"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "3 回合结束时未击破 100 台"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 6,000,000、蓝石 300、每位驾驶员 PP 2,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：战舰 1 + 小队 5。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。",
+    "社区攻略（GameFAQs 论坛）：本关敌方为泽拉拜亚，增援只有 2 波（每击破 20 台出现一波、出现在地图下方）；与 Normal/Hard 第1关的无限增援不同，因此须近乎全灭地图上的敌机才能凑满 100 台，打法以分散站位、靠反击击破为主。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第1关。Ex-Hard 各关的共同特点：多数任务禁用精神指令（部分另禁 MAP 武器），逐关条件见各页。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 2",
+   "slug": "cb-x2",
+   "zh": "人工太阳破坏",
+   "ja": "",
+   "en": "Ex-Hard Mission 2",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第2关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内击破人工太阳（Artificial Sun）（本关不可使用精神指令）"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "超过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 8,000,000、蓝石 250、每位驾驶员 PP 1,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：战舰 1 + 小队 6。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。",
+    "社区攻略（GameFAQs 论坛）：人工太阳（冰河溶解装置）HP 约 200,000、带防御（Guard）特性，周围有 24 艘战舰环绕；须在第 2 回合内抵达、第 3–5 回合以中央阵型配合再攻击/援护集中攻击。本关失败时会看到《巴尔迪奥斯》式的「水世界」坏结局演出。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第2关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 3",
+   "slug": "cb-x3",
+   "zh": "防线死守（禁精神/MAP）",
+   "ja": "",
+   "en": "Ex-Hard Mission 3",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第3关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内阻止敌人抵达地图标记线（本关不可使用精神指令与 MAP 武器）"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "敌人抵达标记线"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 8,000,000、蓝石 250、每位驾驶员 PP 1,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：战舰 1 + 小队 6。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。",
+    "增援：每击破 5 个敌小队，再出现 5 个敌小队（Akurasu 注记）。",
+    "【来源分歧】Akurasu 的 Challenge Battle 页把本关条目列了两次：胜败条件相同，但资源不同——其一为「战舰1+小队6、PP 1,500、资金 8,000,000、蓝石 250」（本页采用），其二为「战舰1+小队8、PP 2,000、资金 7,500,000、蓝石 300」。而 Akurasu 本盘主页的总数（挑战战斗 18 关 = 每难度 6 关）意味着 Ex-Hard 应只有 6 关、重复条目之一为编辑讹误；在获得其他来源核对前，本站按 6 关建页、两组数值并记于此，第二组数值的归属待核实。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第3关（防线任务）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 4",
+   "slug": "cb-x4",
+   "zh": "资金筹措（80万·禁精神）",
+   "ja": "",
+   "en": "Ex-Hard Mission 4",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第4关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内靠击破敌机获得 800,000 资金（本关不可使用精神指令）"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "5 回合结束时未获得 800,000 资金",
+    "敌全灭时仍未获得 800,000 资金"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 3,000,000、蓝石 250、每位驾驶员 PP 1,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：战舰 2 + 小队 6。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。",
+    "注记（Akurasu）：由 NPC 友军击破的敌人掉落的资金不计入本关目标。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第4关。禁用精神指令意味着不能靠「幸运/祝福」放大收益，须纯靠掉落额达标。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 5",
+   "slug": "cb-x5",
+   "zh": "五大Boss讨伐（禁精神）",
+   "ja": "",
+   "en": "Ex-Hard Mission 5",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第5关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "5 回合内击破卡碧尼、铁奥、高达维尔萨古 CB、高达阿什塔隆 HC 与 Turn X（本关不可使用精神指令）"
+   ],
+   "defeat": [
+    "我方全灭",
+    "超过 5 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 10,000,000、蓝石 400、每位驾驶员 PP 1,500（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：小队 8（本关无我方战舰出击）。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。"
+   ],
+   "secrets": [],
+   "unlocks": [],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第5关。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "挑战·Ex-Hard 6",
+   "slug": "cb-x6",
+   "zh": "全灭战（12回合）",
+   "ja": "",
+   "en": "Ex-Hard Mission 6",
+   "route": "挑战战斗·Ex-Hard",
+   "area": "",
+   "type": "挑战战斗",
+   "prerequisite": "Extra Stage → 挑战战斗（Challenge Battle）·Ex-Hard（第6关）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（命中率不固定）、可以地图存档、可以在出击前做准备（改造/PP/巴扎），且通关没有奖品。",
+   "victory": [
+    "12 回合内击破全部敌人"
+   ],
+   "defeat": [
+    "我方战舰被击破",
+    "超过 12 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "本作（特别盘）没有熟练度（SR 点）系统：Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目；本关的胜负条件与资源配给见本页各节。",
+   "rewards": {
+    "funds": "配给资源（开局下发）：资金 20,000,000、蓝石 700、每位驾驶员 PP 3,000（全员等级固定为 70）。资金/PP/蓝石只在本任务内使用。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "可出击阵容：Z 本编节子线与兰德线获得过的几乎全部驾驶员与机体（含两位主人公、大部分隐藏机体/驾驶员与大部分巴扎机体），可自由编队"
+   ],
+   "events": [
+    "编队：可自由编队。出击规模：战舰 4 + 小队 20（全盘最大）。",
+    "阵容例外（Akurasu）：无 TFO、迪杰、黑色高达 Mk-II、卡碧尼（哈曼）、混沌·卡普拉（茜）；无宇宙世纪巴扎机体（含第 2 台 Re-GZ）；特拉德11、红色力克·迪亚斯、尼莫各只有 1 台；无混沌·雷奥；Z 本编最终话的增援组中只有尼尔瓦修 the END（阿妮莫妮）在场。",
+    "被新机体替换/升级过的单位以新机体状态参战（尼尔瓦修 spec2 例外）。"
+   ],
+   "secrets": [
+    "通关全部挑战战斗任务后，可在 Special Theatre 的「设定资料集」界面按 △ 键打开本盘全程使用的壁纸列表（Akurasu）。"
+   ],
+   "unlocks": [
+    "挑战战斗全部通关（壁纸列表解禁，见隐藏要素）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（机体构成、数量、等级、增援）没有任何公开来源刊载逐关表：Akurasu 挑战战斗表只给胜败条件、我方阵容与配给资源。胜败条件中点名的目标见上方概要；其余敌方数据待核实。"
+    ]
+   },
+   "note": "挑战战斗 Ex-Hard 第6关（挑战战斗的最终任务）。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》Challenge Battle（挑战战斗全任务：胜败条件、出击阵容与配给资源）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD/Challenge_Battle"
+    },
+    {
+     "name": "日本维基百科《スーパーロボット大戦Z》「スペシャルディスク」节（发售日 2009 年 3 月 5 日、收录模式与各篇话数）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Z"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars Z Special Disc》主页（收录内容与剧本计数：故事模式 21 + 挑战战斗 18）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/ZSPD"
+    }
+   ],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 与已查到的公开来源均不提供本作逐关地图尺寸、单位坐标与逐格地形；下方为带四边坐标轴的参照框架，仅供攻略解说时参照坐标方位，不代表实际地图尺寸与地形。敌方/我方单位坐标与逐格地形均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  }
+ ]
+}

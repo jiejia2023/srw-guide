@@ -32,6 +32,7 @@ import SrwWMissionList from '../../components/SrwWMissionList.astro';
 import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
 import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
 import SrwZMissionList from '../../components/SrwZMissionList.astro';
+import SrwZSpecialMissionList from '../../components/SrwZSpecialMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -70,6 +71,7 @@ const isSrwW = g.slug === 'srw-w';
 const isSrwOgs = g.slug === 'srw-ogs';
 const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 const isSrwZ = g.slug === 'srw-z';
+const isSrwZSpecial = g.slug === 'srw-z-special';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2588,6 +2590,70 @@ const isSrwZ = g.slug === 'srw-z';
     </div>
   )}
 
+  {isSrwZSpecial && (
+    <div>
+      <h2>这张盘里到底有什么：补充盘而非续作</h2>
+      <p>《超级机器人大战Z特别盘》是 2009 年 3 月 5 日发售的《超级机器人大战Z》<strong>补充盘（粉丝盘）</strong>，也是 PS2 上的最后一作机战（日文维基）。它没有新的本编剧情，从模式上看，收录内容分为：</p>
+      <ul>
+        <li><strong>Extra Stage</strong>——新剧本所在。其中<strong>故事模式</strong>为 5 个相对独立的篇章共 <strong>21 关</strong>（见下文）；<strong>挑战战斗（Challenge Battle）</strong>为三档难度共 <strong>18 关</strong>的定式任务；合计 <strong>39 个可玩剧本</strong>，本站全部建有详情页。</li>
+        <li><strong>Special Theatre</strong>——玩家间公认的最重头部分：含可重演小剧场（Save Skits）、剧情 CG 影像、设定资料集、战斗剧场（Battle Theatre；可自选机体、武器、音乐、驾驶员贴纸、HP/EN、士气与地形的自由配对观战）与壁纸列表。</li>
+        <li><strong>Library</strong>——机体/驾驶员大图鉴与剧情图：与大多数 SRW 不同，本盘的图鉴<strong>出厂即为完成状态</strong>（Akurasu），无需靠反复通关填充。</li>
+        <li><strong>Battle Viewer</strong>——自由观看战斗动画的观看模式；其中有 <strong>2 台本作登场机体</strong>在通关 Extra Stage 的全部剧本后才解禁（日文维基；机体名无可用来源明确写出，待核实）。</li>
+      </ul>
+      <p>也就是说：可玩的部分是 39 个剧本，其余是图鉴、影像与观战型内容——本站按「一剧本一详情页」的惯例为 39 个剧本建页，观看型内容在本页集中说明，不虚构关卡。</p>
+
+      <h2>故事模式：五个篇章</h2>
+      <p>故事模式由 5 个篇章构成（数量与日文维基一致：5＋3＋4＋4＋3 个正篇关，加序章与第 1 话的双版本，Akurasu 流程图共列 21 个条目）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>篇章</th><th>话数</th><th>内容</th></tr></thead>
+          <tbody>
+            <tr><td>Another Side Record</td><td>5 话</td><td>敌方视角的互补故事：主角是提坦斯、幻痛（Phantom Pain）等的成员——新地球联邦为追捕谜之机体「BG」组建特殊部队「013」并与之交战（剧情梗概据 MNeidengard 攻略）。</td></tr>
+            <tr><td>Backstory Memory</td><td>3 话</td><td>讲述伦顿与罗杰两人在本编期间各自遭遇的事件。</td></tr>
+            <tr><td>Glory Star Report</td><td>4 话</td><td>讲述 Z 本编<strong>节子线</strong>第 32–33 话之间发生的事件；阵容为该时点 ZEUTH 全队，巴扎机体不计入。</td></tr>
+            <tr><td>Beater Service Business Diary</td><td>4 话</td><td>讲述 Z 本编<strong>兰德线</strong>第 38–39 话之间发生的事件；阵容为该时点 ZEUTH 全队，巴扎机体视为全部已获得。</td></tr>
+            <tr><td>Secret Epilogue</td><td>序章＋第1话（双版本）＋第2话＋最终话</td><td>本编结束后的后日谈、系列真正的完结篇：已解散的 ZEUTH 为阻止突然启动的谜之系统「<strong>执行者（Executor）</strong>」再集结。序章为无战斗的事件关，并按开篇选择的主人公给出两套不同的过关后阵容；第 1 话分节子/兰德两个版本，之后合流打第 2 话与最终话（击败 XAN 收束）。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>故事模式的开始奖励与通关奖励（开篇资源规则）</h2>
+      <p>各篇章彼此独立，可以任意顺序开始；且<strong>开始某个篇章时会一次性发放资源</strong>——「基础值」＋已通关篇章的「通关奖励」累积＋《超级机器人大战Z》本编读档通关奖励。下表为数值（<strong>本节数值来自 GameFAQs 论坛 2009 年社区帖（Shale0 的翻译转帖），只此一个社区来源、未经第二来源交叉核对</strong>，请按「社区记录」看待；Akurasu 与日文维基均未刊此表）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-sm">
+          <thead><tr><th>篇章</th><th>基础值（资金 / 蓝石 / PP）</th><th>通关奖励（之后开始其他篇章时叠加）</th><th>通关部件</th></tr></thead>
+          <tbody>
+            <tr><td>Another Side Record</td><td>4,000,000 / 1,000 / 2,000</td><td>资金 1,000,000、蓝石 1,000、PP 1,000</td><td>勇者之证</td></tr>
+            <tr><td>Backstory Memory</td><td>2,000,000 / 1,000 / 1,000</td><td>资金 1,000,000、蓝石 500、PP 500</td><td>哈罗</td></tr>
+            <tr><td>Glory Star Report</td><td>4,000,000 / 1,000 / 2,000</td><td>资金 1,000,000、蓝石 1,000、PP 1,000</td><td>S适配器</td></tr>
+            <tr><td>Beater Service Business Diary</td><td>4,000,000 / 1,000 / 2,000</td><td>资金 1,000,000、蓝石 1,000、PP 1,000</td><td>影天使之羽</td></tr>
+            <tr><td>Secret Epilogue</td><td>5,000,000 / 3,000 / 1,000</td><td>资金 70,000,000、蓝石 10,000、PP 6,000</td><td>钢之魂</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Z 本编读档的通关奖励：兰德线通关——资金 5,000,000、蓝石 1,000、PP 1,000，部件「<strong>超导体引擎（Hyper Jammer）</strong>」；节子线通关——资金 5,000,000、蓝石 1,000、PP 1,000，部件「<strong>障壁领域（Barrier Field）</strong>」。社区帖称这些奖励「每次开始新篇章时都会重复计算」（原文括号附注，对于最终话奖励而言数额过于惊人，社区帖本身也注明是「游戏的计算方式如此」），本站照记此说、无法复核。游戏内开始篇章时会弹出窗口逐项显示发放内容，玩家社区建议：先打资源宽裕的篇章、最后打基础值低的篇章，让通关奖励充分叠加。</p>
+
+      <h2>挑战战斗（Challenge Battle）</h2>
+      <p>站在本编最后一块拼图上的可选高强度任务组，共 18 关：<strong>Normal 6 关</strong>（全员 Lv30）→<strong>Hard 6 关</strong>（全员 Lv70）→<strong>Ex-Hard 6 关</strong>（全员 Lv70，阵容为 Z 本编双线获得过的几乎全部机体、自由编队）；据玩家社区记录，通关某一难度全部任务后解锁下一难度。任务内容为「回合限制＋击破数/金额/单次伤害」式的定式挑战——歼灭数、防卫、资金筹措（在回合内靠击破敌机赚够指定金额）、「一次攻击」讨伐目标等；Ex-Hard 各关多<strong>禁用精神指令</strong>（部分另禁 MAP 武器）。与《超级机器人大战D》等作的ツメスパロボ的不同点（日文维基）：使用与本编相同的战斗系统（<strong>命中率不固定</strong>）、<strong>可以地图存档</strong>、可做出击前准备（改造/PP/巴扎），且<strong>通关没有奖品</strong>。任务在游戏中没有标题，本站中文名为按胜利条件拟的内容描述名。各关的配给资源（资金/PP/蓝石）与阵容见各详情页。</p>
+      <p><strong>壁纸解禁：</strong>通关全部挑战战斗后，在 Special Theatre「设定资料集」界面按 △ 键可以打开<strong>壁纸列表</strong>（收录本盘全程使用的全部壁纸，Akurasu；日文维基亦记载壁纸相关设定）。</p>
+
+      <h2>与《超级机器人大战Z》本编的关系</h2>
+      <ul>
+        <li><strong>系统沿用本编：</strong>小队系统（TRI 队形）、巴扎、强化部件、PP 养成、蓝石改装、改造继承等沿用 Z 本编；本盘的故事模式各关与挑战战斗均为独立结算，资源按各关/各篇章发放、带入规则见各详情页。</li>
+        <li><strong>本盘没有熟练度（SR 点）：</strong>Akurasu 的故事模式流程图与挑战战斗表均未设 SR 点条目，是与本编最明显的规则差异；本站各详情页的「熟练度」欄因此统一记为无（原文说明），不虚构条件。</li>
+        <li><strong>斯菲亚设定差异：</strong>在本编中只有被选为玩家的主人公一人的斯菲亚会共鸣；本盘中两位主人公（节子与兰德）的斯菲亚<strong>都已共鸣</strong>（日文维基，《Secret Epilogue》的序章即据此展开）。</li>
+        <li><strong>本编通关存档的作用：</strong>读取 Z 本编的双线通关记录会给故事模式各篇章的开始发放带来加成（资金/蓝石/PP 与专用部件，见上节表格说明；单一社区来源）。</li>
+        <li>本作的参战作品与本编相同，共 21 部；本盘封面登场机体为 XAN 与 ZERO（日文维基记载的本盘新登场机体为古利斯塔尔等，均见于本盘剧本）。</li>
+      </ul>
+
+      <h2>敌方数据现状：编成、坐标与地形均无来源</h2>
+      <p>本作的敌方数据<strong>没有任何公开来源刊载逐关编成表</strong>：Akurasu 的流程图与挑战战斗表只给胜败条件、我方阵容与资源配给；MNeidengard 的 GameFAQs/Neoseeker 攻略是剧情梗概向的通关流程、不含敌方表；日文 s-rpg-navi 未收录本盘。本站也到 Akurasu 本盘主页与论坛社区帖中核对过，正文只出现个别关卡的目标敌机名（胜败条件点名的目标，如狩狼牙、雷姆雷斯试作型、XAN 与各挑战关的讨伐目标——这些已写进各关的胜败条件）。因此各详情页的敌方编成、单位坐标与逐格地形统一标为<strong>待核实</strong>，单位坐标与真实地图尺寸无从取得，地图为带四边坐标轴的参照框架（仅供解说时参照方位，不代表实际尺寸与地形）；日后若出现可核实的攻略本/数据来源，再按站内规则补全。因编成本身即无任何来源，本盘不涉及本站的「单一来源敌方编成是否导入」裁决事项。</p>
+
+      <h2>来源与分歧说明</h2>
+      <p class="text-sm text-base-content/60">主源：Akurasu 的 Z Special Disc 主页（收录内容、剧本计数 21＋18）、Story Mode Flow Chart（故事模式各话胜败条件与阵容）、Challenge Battle（挑战战斗全表）。交叉核对：日文维基百科《スーパーロボット大戦Z》条目的「スペシャルディスク」节（发售日、模式构成、各篇话数、挑战战斗与本编系统的差异、Battle Viewer 解禁说明）；MNeidengard 的 FAQ/Walkthrough（故事梗概）；GameFAQs 论坛 2009 年讨论帖（Shale0 的各篇开始/通关奖励帖、各难度解锁与数个挑战关的打法记录，为社区来源，已在文中标注）。已确认的分歧与处理：①发售日——Akurasu 本盘主页误记为 2009 年 5 月 3 日，日文维基与本站 games.json 均为 <strong>2009 年 3 月 5 日</strong>，本站从后者。②剧本计数口径——Akurasu 的 21 个故事模式条目包含 Secret Epilogue 的序章（无战斗）与第 1 话的节子/兰德<strong>两个版本</strong>；若按「正篇话数」计则为 5＋3＋4＋4＋3＝19，两种口径本站在本页与各分组说明中均已注明，详情页按 21 个条目建。③挑战战斗 Ex-Hard 第 3 关——Akurasu 原表把该关条目<strong>重复列出两次</strong>：胜败条件完全相同，配给资源不同（其一 战舰1＋小队6/PP 1,500/资金 8,000,000/蓝石 250；其二 战舰1＋小队8/PP 2,000/资金 7,500,000/蓝石 300）。与 Akurasu 本盘主页「挑战战斗共 18 关」的总数对照，Ex-Hard 应为 6 关、重复条目之一系编辑讹误；本站按 6 关建页、在该关页面并记两组数值、第二组归属待核实。④Secret Epilogue 第 1 话的版本归属——Akurasu 流程图明确列出「第1话（节子）＝忍び寄る闇」「第1话（兰德）＝眠れる脅威」两个版本；社区翻译帖（Shale0）把两版的路线标签标反、且一侧标题留空，本站从 Akurasu、并在相关页面注明。⑤「Meditation」——MNeidengard 攻略把 Another Side Record 第 3 话《迷走》的英文名译作 Meditation（「迷走」的另一种读音误读），本站从 Akurasu 的 Astray。⑥修理屋名「ビーター・サービス」的英文拼写在社区曾有 Better/Bitter Service 之争，Akurasu 与日文维基罗马字一致作 Beater Service，本站从之。⑦本盘是否存在 Z 本编难度的四档结构等系统细节无来源，本站不刊。</p>
+    </div>
+  )}
+
   {isSrwJ && (
     <div>
       <h2>剧情概要：来自宇宙的「审判者」</h2>
@@ -3123,6 +3189,11 @@ const isSrwZ = g.slug === 'srw-z';
     <div>
       <p>本作 <strong>107 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目沿编号主干第1–59话＋最终话共 60 个位置——节子/兰德双主人公双线、第16–19话太平洋/加利亚部队分线、第33–35话四路分线、第48–53与56–57话 ZEUTH/ZAFT 双线、按结局点判定的第59话与三种可玩最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（SR点）取得条件</strong>、我方加入、本关隐藏要素（路线选择、ZEUTH 点/结局点与 SR 点代偿都写在触发/结算的那一话里）与坐标地图（敌方编成在 99 个剧本由 s-rpg-navi 与 GameFAQs 攻略双源交叉刊载，7 个剧本为单一来源暂不刊载、ZEUTH 线第56话为部分刊载；敌方坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-z/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwZMissionList />
+    </div>
+  ) : isSrwZSpecial ? (
+    <div>
+      <p>本作 <strong>39 个可玩剧本全部建有独立攻略页</strong>（Extra Stage 的故事模式 21 关＋挑战战斗 18 关：每关一个详情页——故事模式 5 个篇章的所有篇目含 Secret Epilogue 序章与第1话双版本，挑战战斗 Normal/Hard/Ex-Hard 各 6 关）。下表为按篇章/难度分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方阵容与资源配给、剧情事件与隐藏要素，以及坐标地图（本盘无任何来源提供敌方编成、坐标与地形，详情页内均如实标为待核实；图鉴/设定资料/战斗剧场/Battle Viewer 等非关卡内容没有关卡页，见上文说明）。本作同时保留一份<a class="link" href={href('srw-z-special/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwZSpecialMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

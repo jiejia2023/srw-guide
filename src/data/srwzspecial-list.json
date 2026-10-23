@@ -1,0 +1,403 @@
+{
+ "groups": [
+  {
+   "title": "故事模式 · Another Side Record（アナザーサイドレコード）",
+   "intro": "敌方视角的本编补完故事：以提坦斯、幻痛等敌方角色为主角，讲述 ZEUTH 与百鬼帝国在日本交战期间，联邦特殊部队「013」追捕谜之机体「BG」的战斗。全 5 话。",
+   "rows": [
+    {
+     "code": "另一侧记录·第1话",
+     "zh": "发令",
+     "ja": "発令",
+     "en": "Announcement",
+     "type": "敌方视角",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "另一侧记录·第2话",
+     "zh": "接触",
+     "ja": "接触",
+     "en": "Contact",
+     "type": "敌方视角",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "另一侧记录·第3话",
+     "zh": "迷走",
+     "ja": "迷走",
+     "en": "Astray",
+     "type": "敌方视角",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "另一侧记录·第4话",
+     "zh": "意义",
+     "ja": "意味",
+     "en": "Meaning",
+     "type": "敌方视角",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "另一侧记录·最终话",
+     "zh": "黑色意志",
+     "ja": "黒の意思",
+     "en": "Black Will",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "故事模式 · Backstory Memory（バックストーリーメモリー）",
+   "intro": "讲述伦顿与罗杰两人在本编期间各自遭遇的事件，全 3 话。",
+   "rows": [
+    {
+     "code": "背景回忆·第1话",
+     "zh": "少年啊，胸怀大志",
+     "ja": "少年よ、大志を抱け",
+     "en": "Boys, Be Ambitious",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "背景回忆·第2话",
+     "zh": "继续前行",
+     "ja": "キープ・オン・ムービン",
+     "en": "Keep On Movin'",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "背景回忆·第3话",
+     "zh": "在这个世界的中央",
+     "ja": "この世界の真ん中で",
+     "en": "At the Center of This World",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "故事模式 · Glory Star Report（グローリー・スターレポート）",
+   "intro": "讲述 Z 本编节子线第 32–33 话之间发生的事件，全 4 话；阵容为该时点的 ZEUTH 全队。",
+   "rows": [
+    {
+     "code": "荣耀报告·第1话",
+     "zh": "热斗！战士的休息",
+     "ja": "熱闘！戦士の休息",
+     "en": "Fiery Battle! The Warriors' Day Off",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "荣耀报告·第2话",
+     "zh": "特拉尔的决心",
+     "ja": "テラルの決意",
+     "en": "Teral's Resolve",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "荣耀报告·第3话",
+     "zh": "被揭开的墓所",
+     "ja": "暴かれた墓所",
+     "en": "Unearthed Graveyard",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "荣耀报告·第4话",
+     "zh": "拭去泪水的翅膀",
+     "ja": "涙拭う翼",
+     "en": "Wings Wiping Away Tears",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "故事模式 · Beater Service Business Diary（ビーター・サービス業務日誌）",
+   "intro": "讲述 Z 本编兰德线第 38–39 话之间发生的事件，全 4 话；阵容为该时点的 ZEUTH 全队。",
+   "rows": [
+    {
+     "code": "业务日誌·第1话",
+     "zh": "为吃而合体",
+     "ja": "食べたくて合体",
+     "en": "Combine to Eat",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "业务日誌·第2话",
+     "zh": "奋斗！阿黛特老师",
+     "ja": "奮闘！アデット先生",
+     "en": "A Hard Battle! Teacher Adette",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "业务日誌·第3话",
+     "zh": "赌上自尊",
+     "ja": "at the risk of pride",
+     "en": "at the risk of pride",
+     "type": "支线故事",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "业务日誌·第4话",
+     "zh": "将这份心意传达给你",
+     "ja": "この想いを君に",
+     "en": "May These Feelings Reach You",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "故事模式 · Secret Epilogue（シークレットエピローグ）",
+   "intro": "本编结束后的后日谈、真正的完结篇：再集结的 ZEUTH 阻止突然启动的谜之系统「执行者」。序章为无战斗的事件关；第 1 话按序章选择的主人公分为节子/兰德两个版本，之后合流。全篇按 Akurasu 口径共 5 个条目。",
+   "rows": [
+    {
+     "code": "秘密尾声·第0话",
+     "zh": "序章",
+     "ja": "プロローグ",
+     "en": "Prologue",
+     "type": "事件关（无战斗）",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "秘密尾声·第1话（节子线）",
+     "zh": "悄然逼近的黑暗",
+     "ja": "忍び寄る闇",
+     "en": "Creeping Darkness",
+     "type": "路线版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "秘密尾声·第1话（兰德线）",
+     "zh": "沉睡的威胁",
+     "ja": "眠れる脅威",
+     "en": "Sleeping Menace",
+     "type": "路线版本",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "秘密尾声·第2话",
+     "zh": "执行者",
+     "ja": "執行者",
+     "en": "Executor",
+     "type": "共通",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "秘密尾声·最终话",
+     "zh": "跨越黑历史",
+     "ja": "黒い歴史を越えて",
+     "en": "Beyond the Black History",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "挑战战斗 · Normal（全员 Lv30）",
+   "intro": "挑战战斗的任务在游戏中没有标题，下表中文名为本站按胜利条件拟的内容描述名。各关多为固定阵容，通关无奖品。",
+   "rows": [
+    {
+     "code": "挑战·Normal 1",
+     "zh": "百台歼灭（4回合）",
+     "ja": "",
+     "en": "Normal Mission 1",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Normal 2",
+     "zh": "一击三万（科学要塞岛）",
+     "ja": "",
+     "en": "Normal Mission 2",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Normal 3",
+     "zh": "沃达拉神殿防卫",
+     "ja": "",
+     "en": "Normal Mission 3",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Normal 4",
+     "zh": "资金筹措（35万）",
+     "ja": "",
+     "en": "Normal Mission 4",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Normal 5",
+     "zh": "三巨头讨伐",
+     "ja": "",
+     "en": "Normal Mission 5",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Normal 6",
+     "zh": "全灭战（9回合）",
+     "ja": "",
+     "en": "Normal Mission 6",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "挑战战斗 · Hard（全员 Lv70）",
+   "intro": "在 Normal 基础上升格的任务组：目标数量/金额提高，并加入一次攻击讨伐、护卫等复合条件。",
+   "rows": [
+    {
+     "code": "挑战·Hard 1",
+     "zh": "百五十台歼灭（4回合）",
+     "ja": "",
+     "en": "Hard Mission 1",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Hard 2",
+     "zh": "班多克一击讨伐",
+     "ja": "",
+     "en": "Hard Mission 2",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Hard 3",
+     "zh": "埃马恩舰队护卫",
+     "ja": "",
+     "en": "Hard Mission 3",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Hard 4",
+     "zh": "资金筹措（45万）",
+     "ja": "",
+     "en": "Hard Mission 4",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Hard 5",
+     "zh": "七大Boss讨伐",
+     "ja": "",
+     "en": "Hard Mission 5",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Hard 6",
+     "zh": "全灭战（9回合）",
+     "ja": "",
+     "en": "Hard Mission 6",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "挑战战斗 · Ex-Hard（全员 Lv70）",
+   "intro": "最高难度组：可用阵容为 Z 本编双线获得过的几乎全部机体（自由编队），但多数任务禁用精神指令（部分另禁 MAP 武器）。据玩家社区记录，通关全部 Hard 后解锁本组。",
+   "rows": [
+    {
+     "code": "挑战·Ex-Hard 1",
+     "zh": "百台歼灭（禁精神/MAP·3回合）",
+     "ja": "",
+     "en": "Ex-Hard Mission 1",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Ex-Hard 2",
+     "zh": "人工太阳破坏",
+     "ja": "",
+     "en": "Ex-Hard Mission 2",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Ex-Hard 3",
+     "zh": "防线死守（禁精神/MAP）",
+     "ja": "",
+     "en": "Ex-Hard Mission 3",
+     "type": "挑战",
+     "area": "",
+     "note": "Akurasu 原表本关条目重复、两组数值并记（见详情页）"
+    },
+    {
+     "code": "挑战·Ex-Hard 4",
+     "zh": "资金筹措（80万·禁精神）",
+     "ja": "",
+     "en": "Ex-Hard Mission 4",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Ex-Hard 5",
+     "zh": "五大Boss讨伐（禁精神）",
+     "ja": "",
+     "en": "Ex-Hard Mission 5",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "挑战·Ex-Hard 6",
+     "zh": "全灭战（12回合）",
+     "ja": "",
+     "en": "Ex-Hard Mission 6",
+     "type": "挑战",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
