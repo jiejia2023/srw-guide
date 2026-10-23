@@ -1,0 +1,2996 @@
+{
+ "missions": [
+  {
+   "code": "1-1",
+   "slug": "stage-1-1",
+   "zh": "坠落的火种",
+   "ja": "舞い堕ちる火種",
+   "en": "Falling Sparks",
+   "route": "Scene 1 地球篇 · 共通",
+   "area": "",
+   "type": "开场关",
+   "prerequisite": "全作开场关，固定最先游玩；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "主人公（福尔卡）被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "亚尔达拜欧斯（福尔卡·阿尔巴克）",
+    "阿加玛（布莱特·诺亚）",
+    "Z高达（卡缪·维丹）",
+    "ZZ高达（捷多·亚西塔）",
+    "超级高达（艾玛·辛）",
+    "百式（克瓦特罗·巴吉纳）",
+    "梅塔斯（法·优伊）",
+    "露·卢卡（流程图仅列驾驶员名，机体未注）",
+    "莉娜·亚西塔（流程图仅列驾驶员名，机体未注）"
+   ],
+   "events": [
+    "全作开场：修罗攻陷贾布罗，阿加玛队迎击，主人公福尔卡自此随队作战",
+    "本关结束后（进入第 2 关前）须做全作第一个二选一：前往光子力研究所还是科学要塞研究所——决定第 1-2、1-3 关内容与盖塔系走向，见本页隐藏要素"
+   ],
+   "secrets": [
+    "【盖塔路线分歧（全作仅 3 项隐藏要素之一）】本关后二选一：选「光子力研究所」线，最终在第 3-3 话《死斗！暴风男儿道》获得真盖塔与机械铁甲鬼；选「科学要塞研究所」线，在第 1-3 话《红蝶谣曲》中可通过说得获得盖塔机器人G与机械胡蝶鬼（条件见该页）。没选的那条线的第 1-2、1-3 关会在 Scene 3 以第 3-2、3-3 话的形式补打（顺序自选）"
+   ],
+   "unlocks": [
+    "开放路线选择：第 1-2 关（光子力研究所线／科学要塞研究所线二选一）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "全作开场关；盖塔路线分歧的决策点在本关之后"
+  },
+  {
+   "code": "1-2（光子力线）",
+   "slug": "stage-1-2-photon",
+   "zh": "黑铁之城",
+   "ja": "黒鉄の城",
+   "en": "Castle of Black Iron",
+   "route": "Scene 1 地球篇 · 光子力研究所线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-1 话后选择「光子力研究所」线；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z（兜甲儿）",
+    "阿芙罗狄A（弓沙也加）",
+    "波士机器人（波士）"
+   ],
+   "events": [
+    "光子力研究所线第 1 关：魔神系三机在本关加入",
+    "若当时选的是科学要塞线，本关会在 Scene 3 以第 3-2 话的形式补打（内容相同）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 1-3 关（光子力研究所线）《大将军迦楼罗的悲剧》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "光子力线：魔神Z 队加入"
+  },
+  {
+   "code": "1-2（科学要塞线）",
+   "slug": "stage-1-2-science",
+   "zh": "正义之力，火焰全开",
+   "ja": "正義の力、ファイヤーオン",
+   "en": "Power of Justice, Fire On!",
+   "route": "Scene 1 地球篇 · 科学要塞研究所线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-1 话后选择「科学要塞研究所」线；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大魔神（剑铁也）",
+    "维纳斯A（炎纯）"
+   ],
+   "events": [
+    "科学要塞线第 1 关：大魔神与维纳斯A 在本关加入",
+    "若当时选的是光子力研究所线，本关会在 Scene 3 以第 3-2 话的形式补打（内容相同）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 1-3 关（科学要塞研究所线）《红蝶谣曲》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "科学要塞线：大魔神队加入"
+  },
+  {
+   "code": "1-3（光子力线）",
+   "slug": "stage-1-3-photon",
+   "zh": "大将军迦楼罗的悲剧",
+   "ja": "大将軍ガルーダの悲劇",
+   "en": "Tragedy of General Garuda",
+   "route": "Scene 1 地球篇 · 光子力研究所线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-2 关（光子力研究所线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击破奥雷阿娜（Oreana）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "孔巴特拉V被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "孔巴特拉V（豹马、十三、大作、千鹤、小介）"
+   ],
+   "events": [
+    "光子力研究所线第 2 关：孔巴特拉V 在本关参战，胜利条件点名敌将奥雷阿娜",
+    "若当时选的是科学要塞线，本关会在 Scene 3 以第 3-3 话的形式补打（内容相同）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 1-4 关《新的战乱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "光子力线：孔巴特拉V 加入，目标奥雷阿娜"
+  },
+  {
+   "code": "1-3（科学要塞线）",
+   "slug": "stage-1-3-science",
+   "zh": "红蝶谣曲",
+   "ja": "赤い蝶のバラード",
+   "en": "Ballad of the Red Butterfly",
+   "route": "Scene 1 地球篇 · 科学要塞研究所线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-2 关（科学要塞研究所线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "盖塔机器人G被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "盖塔机器人G（流龙马、神隼人、车弁庆）",
+    "机械胡蝶鬼（胡蝶鬼）——须按隐藏要素的条件说得后加入"
+   ],
+   "events": [
+    "科学要塞线第 2 关：盖塔机器人G 在本关参战",
+    "敌方的机械胡蝶鬼是本作唯一需要战斗中操作的隐藏取得对象，见隐藏要素"
+   ],
+   "secrets": [
+    "【机械胡蝶鬼说得（盖塔分歧的科学要塞侧结算）】先把机械胡蝶鬼的 HP 打到 30% 以下（不要击坠），再让流龙马对她使用「说得」，即可使胡蝶鬼连同机械胡蝶鬼加入。这是全作 3 项隐藏要素中唯一一项需要在战斗中完成指定操作、而非自动取得的（Akurasu 隐藏要素页与流程图互证；精神「手加减」可留敌方 10 HP，有助于控制血量）"
+   ],
+   "unlocks": [
+    "开放第 1-4 关《新的战乱》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "科学要塞线：盖塔G 加入；胡蝶鬼说得在本关"
+  },
+  {
+   "code": "1-4",
+   "slug": "stage-1-4",
+   "zh": "新的战乱",
+   "ja": "新たなる戦乱",
+   "en": "A New War",
+   "route": "Scene 1 地球篇 · 共通",
+   "area": "",
+   "type": "分歧关",
+   "prerequisite": "第 1-3 关（任一线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机（击破大地之龙后本关即结束）"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "法纳利亚盖姆雷孚（巴恩·法纳尔）"
+   ],
+   "events": [
+    "巴恩乘盖姆雷孚登场，大地之龙（Earth Dragon）出现——击破它本关即告结束",
+    "本关结束后进入 Scene 2，并做全作第二个二选一：跟随巴恩前往法纳利亚，或协助妮一行——同时决定比尔拜因的版本（见隐藏要素）"
+   ],
+   "secrets": [
+    "【夜战迷彩比尔拜因（决策点）】本关后选择第二个选项「协助妮一行」，后续在第 5-2 话结束时可获得夜战迷彩比尔拜因；若选第一个选项「跟随巴恩去法纳利亚」，第 5-2 话得到的只是通常版比尔拜因。选择同时决定 Scene 2 第 2-1～2-4 关的内容（Akurasu 隐藏要素页与流程图互证；隐藏要素页把决策点写作“第 4 关之后”，即本关）"
+   ],
+   "unlocks": [
+    "进入 Scene 2：第 2-1 关（法纳利亚线／协助妮线二选一）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "大地之龙击破即结束；Scene 2 路线与比尔拜因版本的决策点"
+  },
+  {
+   "code": "2-1（Van线）",
+   "slug": "stage-2-1-van",
+   "zh": "守护神觉醒",
+   "ja": "守護神目覚める",
+   "en": "Awaken Guardian",
+   "route": "Scene 2 异世界篇 · 法纳利亚线（跟随巴恩）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-4 关后选择「跟随巴恩去法纳利亚」；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "第 3 回合开始时全体撤退，之后击坠全部敌机（流程图两段条件：先撑到第 3 回合，再歼灭敌人）"
+   ],
+   "defeat": [
+    "阿克罗班奇被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克罗班奇（达也、弘、纯、凉、美希、丽香）",
+    "艾斯卡弗伦（巴恩·法纳尔）"
+   ],
+   "events": [
+    "法纳利亚线第 1 关：阿克罗班奇与艾斯卡弗伦在本关加入",
+    "第 3 回合开始时发生全体撤退事件，胜利条件随之进入第二段"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-2 关（法纳利亚线）《华丽的剑士》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Van 线：阿克罗班奇、艾斯卡弗伦加入"
+  },
+  {
+   "code": "2-1（Nie线）",
+   "slug": "stage-2-1-nie",
+   "zh": "圣战士们",
+   "ja": "聖戦士たち",
+   "en": "Aura Battlers",
+   "route": "Scene 2 异世界篇 · 协助妮线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 1-4 关后选择「协助妮一行」；出击枠：9（Akurasu 流程图）",
+   "victory": [
+    "第 3 回合开始时全体撤退，之后击坠全部敌机（流程图两段条件：先撑到第 3 回合，再歼灭敌人）"
+   ],
+   "defeat": [
+    "阿克罗班奇被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克罗班奇（达也、弘、纯、凉、美希、丽香）",
+    "洁拉娜（妮）",
+    "芙（奇恩）",
+    "达纳·奥西（玛贝尔·弗罗森、恰姆·华）"
+   ],
+   "events": [
+    "协助妮线第 1 关：转战拜斯顿·威尔，奥拉战士队在本关加入",
+    "第 3 回合开始时发生全体撤退事件，胜利条件随之进入第二段",
+    "本线是第 5-2 话取得夜战迷彩比尔拜因的必经路线（决策点在第 1-4 关，见该页）"
+   ],
+   "secrets": [
+    "本关所属路线决定第 5-2 话的比尔拜因为「夜战迷彩」版本（隐藏要素本体记于第 1-4 话与第 5-2 话页）"
+   ],
+   "unlocks": [
+    "开放第 2-2 关（协助妮线）《基邦之馆》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Nie 线：奥拉战士队加入；夜迷彩比尔拜因路线"
+  },
+  {
+   "code": "2-2（Van线）",
+   "slug": "stage-2-2-van",
+   "zh": "华丽的剑士",
+   "ja": "華麗なる剣士",
+   "en": "The Brilliant Swordsman",
+   "route": "Scene 2 异世界篇 · 法纳利亚线（跟随巴恩）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-1 关（法纳利亚线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "谢赫拉扎德（阿伦·斯米西）"
+   ],
+   "events": [
+    "法纳利亚线第 2 关：阿伦乘谢赫拉扎德在本关加入"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-3 关（法纳利亚线）《谋略之都》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Van 线：阿伦加入"
+  },
+  {
+   "code": "2-2（Nie线）",
+   "slug": "stage-2-2-nie",
+   "zh": "基邦之馆",
+   "ja": "ギブンの館",
+   "en": "The House of Given",
+   "route": "Scene 2 异世界篇 · 协助妮线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-1 关（协助妮线）通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "丹拜因（翔·扎马）"
+   ],
+   "events": [
+    "协助妮线第 2 关：翔乘丹拜因在本关正式参战",
+    "流程图注：丹拜因与芙此后可合体为「丹拜因＋芙」形态"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-3 关（协助妮线）《基伦城攻防战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Nie 线：丹拜因加入"
+  },
+  {
+   "code": "2-3（Van线）",
+   "slug": "stage-2-3-van",
+   "zh": "谋略之都",
+   "ja": "策謀の都",
+   "en": "City of Schemes",
+   "route": "Scene 2 异世界篇 · 法纳利亚线（跟随巴恩）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-2 关（法纳利亚线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "潜水舰到达地图底部",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "法纳利亚线第 3 关：败北条件特殊——敌方潜水舰抵达地图底部即告失败，须优先拦截"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-4 关（法纳利亚线）《托德的猛攻》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Van 线：潜水舰到达底部即败北"
+  },
+  {
+   "code": "2-3（Nie线）",
+   "slug": "stage-2-3-nie",
+   "zh": "基伦城攻防战",
+   "ja": "キロン城攻防",
+   "en": "Battle at Chiron Castle",
+   "route": "Scene 2 异世界篇 · 协助妮线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-2 关（协助妮线）通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "协助妮线第 3 关：基伦城攻防战"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-4 关（协助妮线）《托德的猛攻》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Nie 线：基伦城攻防"
+  },
+  {
+   "code": "2-4（Van线）",
+   "slug": "stage-2-4-van",
+   "zh": "托德的猛攻",
+   "ja": "トッド激進",
+   "en": "Tod's Fierce Attack",
+   "route": "Scene 2 异世界篇 · 法纳利亚线（跟随巴恩）",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-3 关（法纳利亚线）通关后；出击枠：Akurasu 流程图未标注",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "丹拜因（翔·扎马、恰姆·华）",
+    "洁拉娜（妮）",
+    "芙（奇恩）",
+    "达纳·奥西（玛贝尔·弗罗森）"
+   ],
+   "events": [
+    "法纳利亚线第 4 关：与另一线的同名关相对——走法纳利亚线时，奥拉战士队（丹拜因等）在本关才加入"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-5 关《埃尔夫城攻略战》（两线汇合）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Van 线：奥拉战士队在本关加入（与 Nie 线同名关）"
+  },
+  {
+   "code": "2-4（Nie线）",
+   "slug": "stage-2-4-nie",
+   "zh": "托德的猛攻",
+   "ja": "トッド激進",
+   "en": "Tod's Fierce Attack",
+   "route": "Scene 2 异世界篇 · 协助妮线",
+   "area": "",
+   "type": "路线分歧关",
+   "prerequisite": "第 2-3 关（协助妮线）通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "艾斯卡弗伦（巴恩·法纳尔）",
+    "谢赫拉扎德（阿伦·斯米西）"
+   ],
+   "events": [
+    "协助妮线第 4 关：与另一线的同名关相对——走协助妮线时，巴恩的艾斯卡弗伦与阿伦在本关才加入",
+    "两线同名《托德的猛攻》、内容与加入不同，这是日文维基「分歧计 38 话」与 Akurasu「40 条目」计数差异的来源之一"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 2-5 关《埃尔夫城攻略战》（两线汇合）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Nie 线：艾斯卡弗伦、阿伦在本关加入（与 Van 线同名关）"
+  },
+  {
+   "code": "2-5",
+   "slug": "stage-2-5",
+   "zh": "埃尔夫城攻略战",
+   "ja": "エルフ城攻略戦",
+   "en": "The Raiders of Elf Castle",
+   "route": "Scene 2 异世界篇 · 共通（两线汇合）",
+   "area": "",
+   "type": "汇合关",
+   "prerequisite": "第 2-4 关（任一线）通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机（击破格拉莉亚的巴斯托尔后本关即结束）"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "Scene 2 收尾：两线在此汇合；敌将格拉莉亚乘巴斯托尔迎击，击破它本关即告结束"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入 Scene 3：第 3-1 关《击落！欧米茄导弹》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Scene 2 汇合关；巴斯托尔击破即结束"
+  },
+  {
+   "code": "3-1",
+   "slug": "stage-3-1",
+   "zh": "击落！欧米茄导弹",
+   "ja": "叩け！オメガミサイル",
+   "en": "Strike! Omega Missile",
+   "route": "Scene 3 新的力量篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 2-5 关通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "梅坎达机器人被击破",
+    "母舰被击破（流程图原文把「母舰被击破」与「梅坎达机器人被击破」并列书写两次，本站照录）"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "梅坎达机器人（吉米·奥利恩、小次郎、亮介）"
+   ],
+   "events": [
+    "Scene 3 开场：敷岛博士开发的梅坎达机器人在本关交付并参战，须拦截欧米茄导弹（原作剧情再现；事前宣传过的「欧米茄导弹系统」并未实装，为事件演出——日文维基）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放自由顺序区块：第 3-2、3-3 关（补打 Scene 1 未选路线的两关，顺序自选）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "梅坎达机器人加入；Omega 导弹事件关"
+  },
+  {
+   "code": "3-2（选光子力线时）",
+   "slug": "stage-3-2-photon-path",
+   "zh": "正义之力，火焰全开",
+   "ja": "正義の力、ファイヤーオン",
+   "en": "Power of Justice, Fire On!",
+   "route": "Scene 3 新的力量篇 · 自由顺序（补打科学要塞线）",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 3-1 关通关后，与第 3-3 关顺序自选；仅当 Scene 1 选了光子力研究所线时出现此版本；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "大魔神（剑铁也）",
+    "维纳斯A（炎纯）"
+   ],
+   "events": [
+    "自由顺序补打关：内容与科学要塞线第 1-2 关《正义之力，火焰全开》相同——Scene 1 没选科学要塞线失去的加入机会，在这里补回",
+    "与第 3-3 关《死斗！暴风男儿道》顺序自选"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 3-3 关（选光子力线时）共同完成后，开放第 3-4 关《普里凡塔》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "补打关：大魔神队加入（同 1-2 科学要塞线）"
+  },
+  {
+   "code": "3-3（选光子力线时）",
+   "slug": "stage-3-3-photon-path",
+   "zh": "死斗！暴风男儿道",
+   "ja": "死闘！嵐吹く男の道",
+   "en": "Deathmatch! A Storm Brewing in a Man's Path",
+   "route": "Scene 3 新的力量篇 · 自由顺序（光子力线独有）",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 3-1 关通关后，与第 3-2 关顺序自选；仅当 Scene 1 选了光子力研究所线时出现此版本；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "真盖塔（流龙马、神隼人、车弁庆）",
+    "机械铁甲鬼（铁甲鬼）"
+   ],
+   "events": [
+    "光子力研究所线独有的新关（不是重演）：真盖塔与机械铁甲鬼在本关过关后自动加入",
+    "与第 3-2 关《正义之力，火焰全开》顺序自选"
+   ],
+   "secrets": [
+    "【盖塔路线分歧（光子力侧结算）】Scene 1 选光子力研究所线的最终回报在本关：真盖塔（龙马、隼人、弁庆）与机械铁甲鬼（铁甲鬼）自动加入，无额外操作条件。与科学要塞线的盖塔机器人G＋机械胡蝶鬼二选一（Akurasu 隐藏要素页与流程图互证）"
+   ],
+   "unlocks": [
+    "与第 3-2 关（选光子力线时）共同完成后，开放第 3-4 关《普里凡塔》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "光子力线独有：真盖塔＋铁甲鬼在本关结算"
+  },
+  {
+   "code": "3-2（选科学要塞线时）",
+   "slug": "stage-3-2-science-path",
+   "zh": "黑铁之城",
+   "ja": "黒鉄の城",
+   "en": "Castle of Black Iron",
+   "route": "Scene 3 新的力量篇 · 自由顺序（补打光子力线）",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 3-1 关通关后，与第 3-3 关顺序自选；仅当 Scene 1 选了科学要塞研究所线时出现此版本；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "魔神Z（兜甲儿）",
+    "阿芙罗狄A（弓沙也加）",
+    "波士机器人（波士）"
+   ],
+   "events": [
+    "自由顺序补打关：内容与光子力线第 1-2 关《黑铁之城》相同——Scene 1 没选光子力线失去的加入机会，在这里补回",
+    "与第 3-3 关《大将军迦楼罗的悲剧》顺序自选"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 3-3 关（选科学要塞线时）共同完成后，开放第 3-4 关《普里凡塔》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "补打关：魔神Z 队加入（同 1-2 光子力线）"
+  },
+  {
+   "code": "3-3（选科学要塞线时）",
+   "slug": "stage-3-3-science-path",
+   "zh": "大将军迦楼罗的悲剧",
+   "ja": "大将軍ガルーダの悲劇",
+   "en": "Tragedy of General Garuda",
+   "route": "Scene 3 新的力量篇 · 自由顺序（补打光子力线）",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 3-1 关通关后，与第 3-2 关顺序自选；仅当 Scene 1 选了科学要塞研究所线时出现此版本；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击破奥雷阿娜（Oreana）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "孔巴特拉V被击坠",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "孔巴特拉V（豹马、十三、大作、千鹤、小介）"
+   ],
+   "events": [
+    "自由顺序补打关：内容与光子力线第 1-3 关《大将军迦楼罗的悲剧》相同，孔巴特拉V 在本关参战，胜利条件点名奥雷阿娜",
+    "与第 3-2 关《黑铁之城》顺序自选"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 3-2 关（选科学要塞线时）共同完成后，开放第 3-4 关《普里凡塔》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "补打关：孔巴特拉V 加入（同 1-3 光子力线）"
+  },
+  {
+   "code": "3-4",
+   "slug": "stage-3-4",
+   "zh": "普里凡塔",
+   "ja": "プリベンター",
+   "en": "Preventer",
+   "route": "Scene 3 新的力量篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 3-2、3-3 关（任一版本组合）完成后；出击枠：8（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "我方全灭",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "飞翼高达零式改（希罗·尤尔）",
+    "地狱死神高达改（迪奥·麦克斯韦尔）",
+    "沙漠高达改（卡托尔·拉巴巴·温拿）",
+    "重武装高达改（特洛瓦·巴顿）",
+    "双头龙高达改（张五飞）",
+    "托鲁基斯III（杰克斯·马其士）",
+    "金牛座（SK）（露克蕾琪亚·诺茵）"
+   ],
+   "events": [
+    "W 五子与杰克斯、诺茵在本关成批加入（流程图原文金牛座注为「Taurus (SK)」，本站照录）",
+    "无论 Scene 1 选哪条线，本关起内容共通"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 3-5 关《遭遇》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "W 系全员加入；出击枠降为 8"
+  },
+  {
+   "code": "3-5",
+   "slug": "stage-3-5",
+   "zh": "遭遇",
+   "ja": "遭遇",
+   "en": "Encounter",
+   "route": "Scene 3 新的力量篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 3-4 关通关后；出击枠：8（Akurasu 流程图）",
+   "victory": [
+    "击破奇卡（Chika-chan）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "觉醒人1号被击破",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "觉醒人1号（启太、桧木）",
+    "贝塔曼内布拉（拉米亚）（NPC）"
+   ],
+   "events": [
+    "觉醒人1号在本关登场；贝塔曼以 NPC 身份同行",
+    "胜利条件点名目标奇卡（Chika-chan）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 3-6 关《贝赫莫斯的呼唤》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "觉醒人登场；目标奇卡"
+  },
+  {
+   "code": "3-6",
+   "slug": "stage-3-6",
+   "zh": "贝赫莫斯的呼唤",
+   "ja": "ベヘモットの呼び声",
+   "en": "Call of the Behemoth",
+   "route": "Scene 3 新的力量篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 3-5 关通关后；出击枠：8（Akurasu 流程图）",
+   "victory": [
+    "击破贝赫莫斯（Behemoth）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "ν高达（阿姆罗·雷）",
+    "里·卡兹（陈）",
+    "觉醒人1号（启太、桧木）",
+    "泰兰（翔、枫）",
+    "贝塔曼内布拉（拉米亚）（NPC）→ 关内变化为贝塔曼弗尔特（拉米亚）（NPC）"
+   ],
+   "events": [
+    "ν高达与里·卡兹在本关加入；贝塔曼在关内由内布拉形态变化为弗尔特形态（NPC）",
+    "胜利条件点名巨兽贝赫莫斯"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入 Scene 4：第 4-1 关《复活》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "ν高达加入；对贝赫莫斯战"
+  },
+  {
+   "code": "4-1",
+   "slug": "stage-4-1",
+   "zh": "复活",
+   "ja": "復活",
+   "en": "Revival",
+   "route": "Scene 4 七百年的野心篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 3-6 关通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击破兹沃斯（Zwauth）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "萨拜因（锡恩·罗克贝尔、希尔琪·玛乌）"
+   ],
+   "events": [
+    "Scene 4 开场：萨拜因（锡恩、希尔琪）在本关加入",
+    "胜利条件点名黑骑士的兹沃斯"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 4-2 关《接近地上之人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "萨拜因加入；目标兹沃斯"
+  },
+  {
+   "code": "4-2",
+   "slug": "stage-4-2",
+   "zh": "接近地上之人",
+   "ja": "地上に近き者",
+   "en": "Those Close to the Upper Earth",
+   "route": "Scene 4 七百年的野心篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 4-1 关通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击破兹沃斯（Zwauth）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "萨拜因被击坠（流程图条件 (1) 并列）",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（过关后变化）亚尔达拜欧斯 → 神化亚尔达拜欧斯（福尔卡）：显示名不变，但全部攻击与机体图像改变（流程图注记）"
+   ],
+   "events": [
+    "再度迎击兹沃斯",
+    "过关后主人公机亚尔达拜欧斯「神化」：名称显示不变，全部攻击与图像更新"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入 Scene 5：第 5-1 关《红岚女王》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "亚尔达拜欧斯神化在本关结算"
+  },
+  {
+   "code": "5-1",
+   "slug": "stage-5-1",
+   "zh": "红岚女王",
+   "ja": "赤い嵐の女王",
+   "en": "The Queen of the Red Storm",
+   "route": "Scene 5 意志的集结篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 4-2 关通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克罗班奇（达也、弘、纯、凉、美希、丽香）",
+    "（过关后）波丘恩（莉姆露·勒弗特）"
+   ],
+   "events": [
+    "Scene 5 开场：阿克罗班奇队再合流；过关后波丘恩（莉姆露）加入"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 5-2 关《戈拉翁的出发》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Scene 5 开场；波丘恩过关后加入"
+  },
+  {
+   "code": "5-2",
+   "slug": "stage-5-2",
+   "zh": "戈拉翁的出发",
+   "ja": "ゴラオンの発進",
+   "en": "Goraon's Take-Off",
+   "route": "Scene 5 意志的集结篇 · 共通",
+   "area": "",
+   "type": "结算关",
+   "prerequisite": "第 5-1 关通关后；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戈拉翁（艾尔·菲诺亚）（NPC）",
+    "（过关后）比尔拜因 或 夜战迷彩比尔拜因（取决于第 1-4 关后的选择）"
+   ],
+   "events": [
+    "过关后比尔拜因交付：版本由 Scene 2 开头的路线选择决定（见隐藏要素）",
+    "流程图注：自此丹拜因与比尔拜因可合体为「丹拜因＋翼卡利巴」"
+   ],
+   "secrets": [
+    "【夜战迷彩比尔拜因（结算）】第 1-4 关后若选择了「协助妮一行」（第二选项），本关结束时获得的是夜战迷彩比尔拜因；若选了「跟随巴恩去法纳利亚」，本关得到的只是通常版比尔拜因。二者只能取得其一，交付在本关、决策在第 1-4 关（Akurasu 隐藏要素页与流程图 #1/#2 说明互证）"
+   ],
+   "unlocks": [
+    "开放第 5-3 关《秘密之门》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "比尔拜因版本在本关结算（夜迷彩／通常）"
+  },
+  {
+   "code": "5-3",
+   "slug": "stage-5-3",
+   "zh": "秘密之门",
+   "ja": "秘密の扉",
+   "en": "The Secret Door",
+   "route": "Scene 5 意志的集结篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 5-2 关通关后；出击枠：11（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破",
+    "艾斯卡弗伦被击坠"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克罗班奇（达也、弘、纯、凉、美希、丽香）",
+    "艾斯卡弗伦（巴恩）——自第 3 个敌方回合起变为不可控 NPC，直到迪兰达乌被击破为止"
+   ],
+   "events": [
+    "事件关：艾斯卡弗伦自第 3 个敌方回合开始 NPC 化失控，须先击破迪兰达乌才能恢复控制（流程图注记）",
+    "本关败北条件含艾斯卡弗伦被击坠，NPC 化期间须注意保护"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放第 5-4 关《失落的乐园》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "艾斯卡弗伦中途 NPC 化；须保护"
+  },
+  {
+   "code": "5-4",
+   "slug": "stage-5-4",
+   "zh": "失落的乐园",
+   "ja": "失われた楽園",
+   "en": "Lost Paradise",
+   "route": "Scene 5 意志的集结篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 5-3 关通关后（全流程第 21 关）；出击枠：12（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "阿克罗班奇（达也、弘、纯、凉、美希、丽香）",
+    "（过关后）提林格（纳丽娅）、提林格（艾丽娅）——须按隐藏要素条件处理"
+   ],
+   "events": [
+    "纳丽娅与艾丽娅姐妹乘提林格在本关登场，是本作最后一项隐藏要素的舞台（见隐藏要素）",
+    "本关按一周目顺序正好是第 21 关，与 Akurasu 隐藏要素页的「Stage 21」表述互证"
+   ],
+   "secrets": [
+    "【纳丽娅＆艾丽娅加入（全作仅 3 项隐藏要素之一）】把纳丽娅与艾丽娅两人的 HP 都打到 30% 以下但不要击坠——她们会撤退，并在本关结束后各带一台提林格加入。不需要使用说得。若其中一人被击坠，另一名生还者仍会单独加入（不会两人全失）。控制血量可用精神「手加减」（攻击若会击坠则留 10 HP）（Akurasu 隐藏要素页与流程图互证，流程图的单人死亡规则更精确）"
+   ],
+   "unlocks": [
+    "开放第 5-5 关《绝对幸运圈》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "纳丽娅＆艾丽娅姐妹的加入判定在本关"
+  },
+  {
+   "code": "5-5",
+   "slug": "stage-5-5",
+   "zh": "绝对幸运圈",
+   "ja": "絶対幸運圏",
+   "en": "Absolute Fortune Zone",
+   "route": "Scene 5 意志的集结篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 5-4 关通关后；出击枠：15（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "Scene 5 收尾：出击枠扩大到 15"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入 Scene 6：第 6-1 关《静止卫星破坏作战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Scene 5 收尾；出击枠 15"
+  },
+  {
+   "code": "6-1",
+   "slug": "stage-6-1",
+   "zh": "静止卫星破坏作战",
+   "ja": "静止衛星破壊作戦",
+   "en": "Satellite Destruction Strategy",
+   "route": "Scene 6 力量之狂篇 · 共通",
+   "area": "",
+   "type": "限时关",
+   "prerequisite": "第 5-5 关通关后；出击枠：15（Akurasu 流程图）",
+   "victory": [
+    "在 5 回合内击破同步卫星（击破 3 个时胜利条件变更，流程图注记）",
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "限时关：须在 5 回合内击破同步卫星；击破第 3 个时条件发生变更（流程图给出的唯一数量线索，卫星总数与变更后条件未见公布）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放自由顺序区块：第 6-2、6-3、6-4 关（顺序自选）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "5 回合限时；击破 3 个卫星后条件变更"
+  },
+  {
+   "code": "6-2",
+   "slug": "stage-6-2",
+   "zh": "博士的野心",
+   "ja": "博士の野望",
+   "en": "The Doctor's Ambition",
+   "route": "Scene 6 力量之狂篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 6-1 关通关后，与第 6-3、6-4 关顺序自选；出击枠：12 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "觉醒人1号（启太、桧木）",
+    "泰兰（翔、枫）",
+    "樱（可分配驾驶员，可乘觉醒人1号或泰兰）",
+    "贝塔曼弗尔特（拉米亚）（NPC）",
+    "贝塔曼鲁梅（塞梅）（NPC）"
+   ],
+   "events": [
+    "自由顺序关之一：贝塔曼系在本关集结，新增可分配驾驶员「樱」"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 6-3、6-4 关共同完成后，开放第 6-5 关《布拉曼诞生》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：贝塔曼系集结"
+  },
+  {
+   "code": "6-3",
+   "slug": "stage-6-3",
+   "zh": "超级洁丽尔",
+   "ja": "ハイパー・ジェリル",
+   "en": "Hyper Jeryll",
+   "route": "Scene 6 力量之狂篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 6-1 关通关后，与第 6-2、6-4 关顺序自选；出击枠：14 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "梅坎达机器人被击破",
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "戈拉翁（艾尔·菲诺亚）",
+    "梅坎达机器人（吉米·奥利恩、小次郎、亮介）"
+   ],
+   "events": [
+    "自由顺序关之一：戈拉翁与梅坎达机器人在本关再参战，梅坎达机器人被击破即败北"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 6-2、6-4 关共同完成后，开放第 6-5 关《布拉曼诞生》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：梅坎达机器人须保护"
+  },
+  {
+   "code": "6-4",
+   "slug": "stage-6-4",
+   "zh": "巴黎炎上",
+   "ja": "パリ炎上",
+   "en": "Paris in Flames",
+   "route": "Scene 6 力量之狂篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 6-1 关通关后，与第 6-2、6-3 关顺序自选；出击枠：15 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迦兰迦兰（希拉、卡瓦塞、艾尔、贝尔）"
+   ],
+   "events": [
+    "自由顺序关之一：迦兰迦兰在本关加入"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 6-2、6-3 关共同完成后，开放第 6-5 关《布拉曼诞生》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：迦兰迦兰加入"
+  },
+  {
+   "code": "6-5",
+   "slug": "stage-6-5",
+   "zh": "布拉曼诞生",
+   "ja": "ブラフマン誕生",
+   "en": "Birth of Brahman",
+   "route": "Scene 6 力量之狂篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 6-2、6-3、6-4 关全部完成后；出击枠：15 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贝塔曼弗尔特（拉米亚）（NPC）",
+    "（过关后）梅坎达机器人追加第 4 名驾驶员：美香"
+   ],
+   "events": [
+    "Scene 6 收尾：过关后美香追加为梅坎达机器人的第 4 名驾驶员"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入 Scene 7：第 7-1 关《被操纵者》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "Scene 6 收尾；美香追加为梅坎达第 4 驾驶员"
+  },
+  {
+   "code": "7-1",
+   "slug": "stage-7-1",
+   "zh": "被操纵者",
+   "ja": "操られし者",
+   "en": "The Manipulated",
+   "route": "Scene 7 最终决战篇 · 共通",
+   "area": "",
+   "type": "主线关",
+   "prerequisite": "第 6-5 关通关后；出击枠：15 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "佩里尼斯（梅西斯）（NPC）",
+    "瓦勒弗尔（费尔南多·阿尔巴克）（NPC）",
+    "（过关后强化）觉醒人1号与泰兰获得飞行／空适性 A／第 3 驾驶员席位与新攻击（流程图注记）",
+    "（过关后）朝美、赤松成为可分配的第 3 副驾驶员（可乘觉醒人1号或泰兰）"
+   ],
+   "events": [
+    "最终章开场：修罗的佩里尼斯与瓦勒弗尔以 NPC 身份登场",
+    "过关后觉醒人1号与泰兰大幅强化：获得飞行、空适性 A、第 3 驾驶员席位与新攻击"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "开放自由顺序区块：第 7-2、7-3、7-4 关（顺序自选）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "终章开场；觉醒人/泰兰过关后强化"
+  },
+  {
+   "code": "7-2",
+   "slug": "stage-7-2",
+   "zh": "阿尔迦农",
+   "ja": "アルジャーノン",
+   "en": "Algernon",
+   "route": "Scene 7 最终决战篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 7-1 关通关后，与第 7-3、7-4 关顺序自选；出击枠：12 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贝塔曼弗尔特（拉米亚）（NPC）→ 关内变化为贝塔曼奥尔图斯（拉米亚）（NPC）"
+   ],
+   "events": [
+    "自由顺序关之一：以奇病「阿尔迦农」为题；贝塔曼在关内由弗尔特形态变化为奥尔图斯形态（NPC）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 7-3、7-4 关共同完成后，开放最终关第 7-5 关《悠久野心的尽头》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：阿尔迦农之战"
+  },
+  {
+   "code": "7-3",
+   "slug": "stage-7-3",
+   "zh": "大将军的末路",
+   "ja": "大将軍の最後",
+   "en": "The Final General",
+   "route": "Scene 7 最终决战篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 7-1 关通关后，与第 7-2、7-4 关顺序自选；出击枠：15 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "自由顺序关之一：与大将军的最后对决"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 7-2、7-4 关共同完成后，开放最终关第 7-5 关《悠久野心的尽头》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：大将军的最后一战"
+  },
+  {
+   "code": "7-4",
+   "slug": "stage-7-4",
+   "zh": "交叉决战",
+   "ja": "クロス・ファイト",
+   "en": "Cross Fight",
+   "route": "Scene 7 最终决战篇 · 自由顺序",
+   "area": "",
+   "type": "自由顺序关",
+   "prerequisite": "第 7-1 关通关后，与第 7-2、7-3 关顺序自选；出击枠：15 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击坠全部敌机"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "自由顺序关之一：最终决战前的交叉会战"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "与第 7-2、7-3 关共同完成后，开放最终关第 7-5 关《悠久野心的尽头》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "自由顺序：最终决战前哨"
+  },
+  {
+   "code": "7-5",
+   "slug": "stage-7-5",
+   "zh": "悠久野心的尽头",
+   "ja": "悠久な野望の果てに･･･",
+   "en": "The End to Eternal Ambition...",
+   "route": "Scene 7 最终决战篇 · 最终关",
+   "area": "",
+   "type": "最终关",
+   "prerequisite": "第 7-2、7-3、7-4 关全部完成后；出击枠：14 机＋1 战舰（Akurasu 流程图）",
+   "victory": [
+    "击破修罗王（Shura King）"
+   ],
+   "defeat": [
+    "母舰被击破"
+   ],
+   "defeatNote": "",
+   "rewards": {
+    "funds": "资金靠击坠敌机获得，用于休息期间改造机体；Akurasu 流程图未给出固定过关资金",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "（本关无新加入，流程图）"
+   ],
+   "events": [
+    "全作最终关：与修罗王（阿尔卡伊德）的决战——胜利条件只需击破修罗王",
+    "本作没有周回特典：通关不会给下一周目任何继承加成（日文维基明记）；但击破最终 Boss 仍可获得经验值与资金"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "全作通关（全 32 关，一周目）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 流程图与隐藏要素页均未公布本作逐关敌方编成、等级与坐标，GameCenter GX 亦不收录本作，故敌方编成标为待核实、不编造数据",
+     "已检索的公开来源中未发现任何逐关敌方配置数据集（包括单一来源的成套编成表）——本作连单一来源候选都不存在；日文维基参考文献所列的攻略本《COMPACT3 Perfect Guide》（ISBN 9784797324648）是后续可能的找源方向，本次未取得"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "真实地图尺寸与地形未见公开来源公布（Akurasu 流程图不含地图数据），此为本站标准参考框（12×9），不猜测任何坐标",
+    "verifiedPoints": [],
+    "missing": []
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki — Compact 3 Complete Flow Chart & Table",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki — Compact 3 Secrets",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki — Super Robot Wars/Compact 3",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Compact_3"
+    },
+    {
+     "name": "ja.wikipedia — スーパーロボット大戦COMPACT3",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3"
+    }
+   ],
+   "note": "最终关：击破修罗王即通关"
+  }
+ ]
+}

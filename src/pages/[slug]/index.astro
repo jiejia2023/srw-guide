@@ -14,6 +14,7 @@ import SrwFFinalMissionList from '../../components/SrwFFinalMissionList.astro';
 import SrwCompactMissionList from '../../components/SrwCompactMissionList.astro';
 import Srw64MissionList from '../../components/Srw64MissionList.astro';
 import SrwCompact2MissionList from '../../components/SrwCompact2MissionList.astro';
+import SrwCompact3MissionList from '../../components/SrwCompact3MissionList.astro';
 import SrwAlphaMissionList from '../../components/SrwAlphaMissionList.astro';
 import SrwAlphaGaidenMissionList from '../../components/SrwAlphaGaidenMissionList.astro';
 import SrwAMissionList from '../../components/SrwAMissionList.astro';
@@ -40,6 +41,7 @@ const isSrwFFinal = g.slug === 'srw-f-final';
 const isSrwCompact = g.slug === 'srw-compact';
 const isSrw64 = g.slug === 'srw-64';
 const isSrwCompact2 = g.slug === 'srw-compact-2';
+const isSrwCompact3 = g.slug === 'srw-compact-3';
 const isSrwAlpha = g.slug === 'srw-alpha';
 const isSrwAlphaGaiden = g.slug === 'srw-alpha-gaiden';
 const isSrwA = g.slug === 'srw-a';
@@ -1460,6 +1462,50 @@ const isSrwAlpha2 = g.slug === 'srw-alpha-2';
     </div>
   )}
 
+  {isSrwCompact3 && (
+    <div>
+      <h2>剧情概要：修罗之神降临</h2>
+      <p>地上圈遭自称<strong>「修罗」</strong>的武装集团席卷：拥有机动兵器「机兵」的修罗攻陷南美贾布罗基地，其机兵中出身地球者<strong>福尔卡·阿尔巴克（Folka Albark）</strong>在战斗中与联邦军接触，逐渐被同伴接纳，最终与我方共同对抗修罗王<strong>阿尔卡伊德（Rusty Ritzart，修罗名 Alkaid）</strong>。舞台横跨地上、拜斯顿·威尔与盖亚（Gaia）。主人公<strong>固定一人、不可改名、不可选择</strong>（系列少有），座机亚尔达拜欧斯（Ialdabaoth；在意译中被称作「修罗神」）将在本作兵器化并在第 4-2 关后「神化」。修罗一族后来在《OG2》回归，本作因此被视作修罗神的原点。剧情构成的另一半驱动力来自初参战的 4 部作品：可以在本页下方的参战作品一览里看到《魔境传说阿克罗班奇》《天空之艾斯卡弗伦》《贝塔曼》《合身战队梅坎达机器人》——这四部对本作的关卡构成影响很大。（据日文维基所录：事前宣传过的「主人公选择制」与「欧米茄导弹系统」最终<strong>都未实装</strong>——欧米茄导弹在本作只以事件演出出现，即第 3-1 关。）</p>
+
+      <h2>关卡结构（一周目 32 关 · 流程图 40 条目）</h2>
+      <ul>
+        <li><strong>7 个 Scene 线性推进</strong>：Scene 1 地球篇（4 关）→ Scene 2 异世界篇（5 关）→ Scene 3 新的力量篇（6 关）→ Scene 4 七百年的野心篇（2 关）→ Scene 5 意志的集结篇（5 关）→ Scene 6 力量之狂篇（5 关）→ Scene 7 最终决战篇（5 关）。与《COMPACT》的自由选关、《COMPACT2》的三部曲都不同，本作是完全线性的，只有下面的分歧与自由顺序区块。</li>
+        <li><strong>分歧（1）Scene 1 研究所路线</strong>：第 1-1 关后在<strong>光子力研究所</strong>与<strong>科学要塞研究所</strong>之间二选一，决定第 1-2、1-3 关的内容与盖塔系的走向（真盖塔＋机械铁甲鬼 ↔ 盖塔机器人G＋说得机械胡蝶鬼）；没选的那条线的两关会在 Scene 3 以第 3-2、3-3 关的形式<strong>补打回来</strong>（顺序自选），其中光子力出身的第 3-3 关是独有新关。</li>
+        <li><strong>分歧（2）Scene 2 开头</strong>：第 1-4 关后在「跟随巴恩去法纳利亚」与「协助妮一行」之间二选一，决定第 2-1～2-4 关内容（第 2-4 关两线同名《托德的猛攻》、加入不同），并决定第 5-2 关交付的比尔拜因是<strong>夜战迷彩版（妮线）还是通常版（巴恩线）</strong>。</li>
+        <li><strong>自由顺序区块 3 处</strong>：Scene 3 的第 3-2、3-3 关；Scene 6 的第 6-2、6-3、6-4 关；Scene 7 的第 7-2、7-3、7-4 关。流程图未给出任何「顺序影响奖励」类条件。</li>
+        <li><strong>计数口径</strong>：场景编号共 <strong>32</strong> 个＝一周目实际通关关数（日文维基作「全32話」）；Akurasu 流程图把每个变体各列一行、共 <strong>40</strong> 行（Akurasu 主页「Number of Scenarios: 40」即此口径），去掉 Scene 3 重演的 3 行后为 <strong>37</strong> 个不同内容、36 个不同标题。日文维基另有「含分歧 38 话」一句、无计数方法、且其文中没有关卡标题清单——38 与图表口径差 1～2 无法对齐，本站采用可验证的 32／40 口径，并把 38 作为另一来源的数字记录在此，不强行调和。本站关卡表按 40 个条目逐页建置。</li>
+      </ul>
+
+      <h2>系统：驾驶员培养取代技能协调</h2>
+      <ul>
+        <li><strong>驾驶员培养（本作的核心新制）</strong>：COMPACT 系列的「技能协调」在<strong>本作终结</strong>，改为用 <strong>PP（Pilot Points，驾驶员点数）</strong>自由购买技能。PP 来源：战斗获得（击坠/命中/回避/受伤等）；按通关回合数另有「通关回合 PP 奖励」（日文维基注脚提及存在，但<strong>公式与数值两源都未公布，标为待核实</strong>）；部件「里茵之翼」可使 PP 获得量 2 倍；精神「修行」使下一次攻击 PP 2 倍。可购技能共 9 种可升级型（防御 25／底力 20／反击 30／SP 回复 35／斗争心 30／豪腕 40／狙击 40／援护攻击 40／援护防御 35 PP，各 Lv1～9）与 6 种一次性型（集中力 80／胆量 65／特殊技能+1 95／复仇 115／逆袭 120／看破 110 PP），价格据 Akurasu 驾驶员培养页。附注：Akurasu 的购买表把援护防御列到 9 级、成长曲线图却画到 10 级，来源内未解决，本站照录购买表。</li>
+        <li><strong>个人资料表废止</strong>：《COMPACT》以来的记录功能在本作取消，攻略时以「驾驶员培养」的成长为准。</li>
+        <li><strong>援护改为任意可选</strong>：《COMPACT2》的援护是半强制，本作起可自由选择是否发动；援护防御的发动次数＝驾驶员的援护防御等级，每级减伤 5%，SP 消耗大幅下调。</li>
+        <li><strong>改造</strong>：武器改造由逐件改为<strong>全武器一括改造</strong>（提升量改为固定值）；运动性仍影响命中率这一 COMPACT 系传统保留；Limit（限界）值仍存在。</li>
+        <li><strong>没有宇宙地图</strong>：本作的地形适性只有空·陆·海三类（无「宇」），但飞行单位可在海上关卡「着水」。</li>
+        <li><strong>精神</strong>：新精神「修行」（下一次攻击 PP 2 倍）与本作独有的「传授」（把自己的 PP 分一半给相邻单位）在本作 debut；「热血」在本作的倍率是 <strong>1.5 倍</strong>（购入技能与精神的完整表见 Akurasu 的驾驶员培养/精神页，各关页只记与流程相关的部分）。</li>
+        <li><strong>本作独有便利功能</strong>：COMPACT 系列里唯一可关战斗动画、可中途存档的一作。</li>
+        <li><strong>无周回特典</strong>：日文维基明记——通关后没有任何下一周目的继承加成（击破最终 Boss 仍可获得经验值与资金）。</li>
+      </ul>
+
+      <h2>隐藏要素（全作仅 3 项，写在各自触发/结算的关卡页）</h2>
+      <ul>
+        <li><strong>盖塔路线分歧</strong>：第 1-1 关后选择研究所路线——真盖塔＋机械铁甲鬼（光子力线，第 <a class="link" href={href('srw-compact-3/missions/stage-3-3-photon-path/')}>3-3 关</a>结算）与盖塔机器人G＋机械胡蝶鬼（科学要塞线，第 <a class="link" href={href('srw-compact-3/missions/stage-1-3-science/')}>1-3 关</a>说得，条件：HP 打到 30% 以下后让流龙马说得）二选一，详见第 <a class="link" href={href('srw-compact-3/missions/stage-1-1/')}>1-1 关</a>页。</li>
+        <li><strong>夜战迷彩比尔拜因</strong>：第 1-4 关后选「协助妮一行」，在第 <a class="link" href={href('srw-compact-3/missions/stage-5-2/')}>5-2 关</a>结束时交付夜战迷彩版（选巴恩线则为通常版），决策点见第 <a class="link" href={href('srw-compact-3/missions/stage-1-4/')}>1-4 关</a>页。</li>
+        <li><strong>纳丽娅＆艾丽娅</strong>：第 <a class="link" href={href('srw-compact-3/missions/stage-5-4/')}>5-4 关</a>（全流程第 21 关）把两人 HP 都打到 30% 以下但不击坠，两人撤退后于关后各带一台提林格加入；死一人则只加入生还者。</li>
+        <li>本作没有隐藏武器或隐藏部件（Akurasu 隐藏要素页仅列上述 3 项，与流程图互证）。</li>
+      </ul>
+
+      <h2>发售与版本注记</h2>
+      <ul>
+        <li><strong>发售日 2003 年 7 月 17 日</strong>：Akurasu 主页与日文维基一致，经本站多源核对无误（坊间曾流传的 2001 年日期与三源均不符；2001-12-13 实为初代《COMPACT》的 WSC 复刻版发售日）。平台为 WonderSwan Color 专用软件，SwanCrystal 主机亦兼容。</li>
+        <li>本作与《COMPACT》《COMPACT2》<strong>剧情、存档均不衔接</strong>（独立作品，无继承读取），系统骨架是同系进化，详见上方系统说明。</li>
+        <li>本作是 <strong>COMPACT 系列的第 5 作、最终作</strong>，也是 Banpresto 最后一款 WonderSwan 软件，由 TOSE 开发。</li>
+        <li><strong>敌方数据说明</strong>：已检索的来源中，本作不存在任何逐关敌方编成/坐标/地形数据（Akurasu 流程图无此栏目，GX 未收录），连单一来源的成套编成表都没有；各关页据实标待核实，不编造。</li>
+      </ul>
+    </div>
+  )}
+
   {isSrwCompact2 && (
     <div>
       <h2>剧情概要：阿因斯特与平行展开的两场战争</h2>
@@ -1773,6 +1819,11 @@ const isSrwAlpha2 = g.slug === 'srw-alpha-2';
     <div>
       <p>本作 <strong>150 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 57 话——四位主人公各自的第1–20话序盘、合流与系别分线、Vital Net/北美新吉翁、月面/阿克西斯、日本/米凯内分线、哈曼休战/拒绝两套终盘与四位主人公的最终话；Akurasu 主页表头作 151，但其流程图逐条清点为 150，多出的 1 个无对应条目，见关卡总表页说明）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（说得链与路线选择都写在触发/结算的那一话里）与坐标地图（敌方坐标与地形待核实，原因见各详情页；敌方编成有两份 GameFAQs 攻略交叉刊载）。本作同时保留一份<a class="link" href={href('srw-alpha-2/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwAlpha2MissionList />
+    </div>
+  ) : isSrwCompact3 ? (
+    <div>
+      <p>本作 <strong>40 个流程图条目全部建有独立攻略页</strong>（每一关一个详情页：一周目实际通关 32 关——7 个 Scene 线性推进；40 个条目含 Scene 1 的双路线 1-2/1-3、Scene 2 的双线 2-1～2-4 与 Scene 3 补打另一条线的 3-2/3-3；去掉重演的 3 行后为 37 个不同内容。日文维基「含分歧 38 话」的口径无来源说明、本站不采用，见上方结构说明）。下表为按 Scene 分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该关页面，查看该关的胜负条件、我方加入、出击枠与本关隐藏要素（全作仅 3 项隐藏要素，都写在触发/结算的那一关里；本作没有熟练度，技能协调已改为驾驶员培养）与坐标地图（敌方配置与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-compact-3/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwCompact3MissionList />
     </div>
   ) : isSrw30 ? (
     <div>

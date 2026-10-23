@@ -1,0 +1,29 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwCompact3MissionList from '../../../components/SrwCompact3MissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Compact3', path: 'srw-compact-3/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战Compact3（WSC）关卡攻略 · 全40个剧本条目页面列表" description="超级机器人大战COMPACT3（WonderSwan Color，2003）全部 40 个流程图条目的独立攻略页：一周目共 32 关（7 个 Scene 线性推进），含 Scene 1 的盖塔路线分歧、Scene 2 的法纳利亚／协助妮双线与 Scene 3 的补打关。每关页面含胜利/败北条件、我方加入、出击枠、本关隐藏要素（全作仅 3 项：盖塔分歧、夜战迷彩比尔拜因、纳丽娅＆艾丽娅）与坐标地图。本页为链接索引。" path="srw-compact-3/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战Compact3 · 关卡攻略</h1>
+  <p>《超级机器人大战COMPACT3》是 COMPACT 系列的第 5 作、最终作，2003 年 7 月 17 日发售于 WonderSwan Color（兼容 SwanCrystal），也是 Banpresto 的最后一款 WonderSwan 软件。与前两作不同，本作回到<strong>完全线性推进</strong>：7 个 Scene 顺序打通，仅有 2 处二选一分歧（Scene 1 的研究所路线决定盖塔系走向、Scene 2 开头的同行选择决定比尔拜因版本）与 3 处自由顺序小区块。计数口径有三个数字：<strong>一周目实际通关 32 关</strong>（场景编号总数，与日文维基「全32話」一致）；Akurasu 流程图把每个分支变体各列一行共 <strong>40 个条目</strong>（Akurasu 主页的「Number of Scenarios: 40」即此口径）；去掉 Scene 3 重演另一条线的 3 行后是 37 个不同内容。日文维基另有「含分歧 38 话」一说，但其计数方法无来源说明、与图表对不上（差 1～2），本站采用可验证的口径并保留分歧记录（详见<a href={href('srw-compact-3/')}>本作主页</a>）。本站为 40 个条目各建一页，本页只是链接索引——每一关的完整攻略都在各自的详情页里。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第十九部<strong>全关卡补完</strong>的作品——40 个剧本条目全部建有详情页（按发售顺序逐作补完，初代、第 2 次、第 3 次、EX、第 4 次、魔装机神外传、新超级机器人大战、F、F完结编、COMPACT、64、COMPACT2、阿尔法、阿尔法外传、A、IMPACT、R、第 2 次阿尔法已完成）。流程、胜败条件、加入、出击枠与隐藏要素以 Akurasu 的 COMPACT3 完整流程图与隐藏要素页为主源，发售日、话数与系统以日文维基交叉核对。<strong>如实说明</strong>：本作（WSC 原版）没有任何逐关敌方配置来源——GameCenter GX 未收录本作，Akurasu 流程图只有胜败条件、加入与出击枠，没有敌方编成、坐标、部件或资金记载；已检索的公开来源中连单一来源的成套敌方编成表都不存在——故各页的敌方配置与真实地图标为待核实，坐标图为参照框架（12×9）。另：流程图原文用颜色区分「加入／临时可用／离队／升级」，纯文本无法完全恢复颜色信息，各页加入清单按流程图文字与隐藏要素页核对，离队时点未逐条标注。系统方面请注意：本作<strong>没有熟练度</strong>，COMPACT 系列的技能协调在本作改为<strong>驾驶员培养</strong>（用 PP 购买技能），个人资料表废止，详见本作主页。</span>
+  </div>
+
+  <SrwCompact3MissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Compact 3 Complete Flow Chart &amp; Table</a>（全部 40 个条目的胜败条件、加入单位、出击枠与隐藏条件注记）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact_3/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Compact 3 Secrets</a>（全作 3 项隐藏要素：盖塔分歧、夜战迷彩比尔拜因、纳丽娅＆艾丽娅）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Compact_3" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars/Compact 3</a>（发售日 2003-07-17、剧本数口径、驾驶员培养技能表）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦COMPACT3" rel="noopener" target="_blank">日文维基百科 — スーパーロボット大戦COMPACT3</a>（发售日、全 32 话／含分歧 38 话、参战作品、系统概要与发售更正史）</li>
+  </ul>
+  <p><a href={href('srw-compact-3/')}>← 返回超级机器人大战Compact3</a></p>
+</Base>
