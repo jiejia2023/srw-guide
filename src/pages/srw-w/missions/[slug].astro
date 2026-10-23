@@ -14,13 +14,18 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-w/missions/' },
   { label: `${m.code} ${m.zh}` },
 ];
+const compSources = [
+  { key: 'yangxu', name: 'yangxu（GameFAQs）', faq: '' },
+  { key: 'javechen', name: 'JaveChen（GameFAQs）', faq: 'faqs/53800' },
+];
+const es = m.enemies.state as string;
 ---
-<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战W（2007 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（击坠数计数、交战、说得、路线选择与周目版本；本作无熟练度系统）与敌方编成现状（单一来源暂不刊载）。`} path={`srw-w/missions/${m.slug}/`} breadcrumbs={crumbs}>
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战W（2007 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（击坠数计数、交战、说得、路线选择与周目版本；本作无熟练度系统）与敌方编成（两份 GameFAQs 攻略交叉刊载或单一来源说明）。`} path={`srw-w/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 W <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，话数与系统另以日本维基百科互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 的流程图没有任何一话列出熟练度条件，日本维基百科的系统解说亦无此系统，英文资料对熟练度的作品名单也不含本作——本页出现的时限、到达型与分段条件都是<strong>胜败条件本身</strong>，不要与熟练度混淆；隐藏要素全部由<strong>击坠数计数、交战、说得、路线选择与周目版本</strong>决定。本作编号连续 1–55 话（第1部 1–27 话／第2部 28–55 话，编号不重置），同号异关即路线或周目变体，一周目游玩 55 话，计入全部变体共 70 个剧本。本关的敌方编成只有 <strong>s-rpg-navi 一家刊载</strong>（覆盖全 70 个剧本），按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；敌方等级、坐标与逐格地形同样无公开来源，地图为参照框架。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 W <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，话数与系统另以日本维基百科互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 的流程图没有任何一话列出熟练度条件，日本维基百科的系统解说亦无此系统，英文资料对熟练度的作品名单也不含本作——本页出现的时限、到达型与分段条件都是<strong>胜败条件本身</strong>，不要与熟练度混淆；隐藏要素全部由<strong>击坠数计数、交战、说得、路线选择与周目版本</strong>决定。本作编号连续 1–55 话（第1部 1–27 话／第2部 28–55 话，编号不重置），同号异关即路线或周目变体，一周目游玩 55 话，计入全部变体共 70 个剧本。{es === 'dual' ? <span>敌方编成（构成、数量与增援）来自<strong>两份独立的 GameFAQs 全文攻略交叉刊载</strong>：yangxu 的 Walkthrough/FAQ 与 JaveChen 的 Guide and Walkthrough（faqs/53800）——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>；个别关卡两源的机种/数量有出入，本站并列刊出、不做调和（见下方注记）。敌方坐标与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : es === 'none' ? <span>本关的敌方编成在<strong>任何已查到的来源中都不存在</strong>（两份 GameFAQs 攻略在第49话后都走了 PLANT 线，没有月线第50–51话的编成数据；日文侧亦无逐关编成来源），故待核实；敌方等级、坐标与逐格地形同样无公开来源，地图为参照框架。</span> : <span>本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载（另一份攻略未覆盖本关或本版本），按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；敌方等级、坐标与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
   </div>
 
   <h2>出击条件</h2>
@@ -55,14 +60,84 @@ const crumbs = [
   )}
 
   <h2>敌方出场与增援</h2>
+  {m.enemies.composition ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——yangxu 的 Walkthrough/FAQ 以「机体名 ×数量」记名、具名敌附驾驶员并附增援分组与触发；JaveChen 的 Guide and Walkthrough（faqs/53800）记法相同，并为具名/Boss 敌附掉落物。本站照各自原文分列刊出（名称为攻略英文原文）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实；两源在个别关卡的机种与数量有出入（见下方注记），本站不做调和。</span>
+    </div>
+    {compSources.map((src: any) => (
+    <div>
+      {(m.enemies.composition[src.key] ?? []).map((g: any) => (
+      <div>
+        <h3>敌方编成（{src.name} 攻略）{g.part && <span>·{g.part}</span>}</h3>
+        <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>单位</th><th>数量</th><th>驾驶员</th><th>备注</th></tr></thead>
+          <tbody>
+          {g.enemies.map((e: any) => (
+            <tr><td>{e.unit}</td><td>{e.count}</td><td>{e.pilot || '—'}</td><td>{e.note || ''}</td></tr>
+          ))}
+          </tbody>
+        </table>
+        </div>
+        {(g.reinforcements ?? []).map((rg: any) => (
+        <div>
+          <h4>增援：{rg.trigger}</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            <thead><tr><th>单位</th><th>数量</th><th>驾驶员</th><th>备注</th></tr></thead>
+            <tbody>
+            {rg.enemies.map((e: any) => (
+              <tr><td>{e.unit}</td><td>{e.count}</td><td>{e.pilot || '—'}</td><td>{e.note || ''}</td></tr>
+            ))}
+            </tbody>
+          </table>
+          </div>
+        </div>
+        ))}
+        {g.drops && g.drops.length > 0 && (
+        <div>
+          <h4>掉落 / 获得物（{src.name} 攻略）</h4>
+          <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+          <table class="table table-zebra table-sm">
+            <thead><tr><th>物品</th><th>数量</th><th>来源</th></tr></thead>
+            <tbody>
+            {g.drops.map((d: any) => (
+              <tr><td>{d.item}</td><td>{d.count}</td><td>{d.from || '—'}</td></tr>
+            ))}
+            </tbody>
+          </table>
+          </div>
+        </div>
+        )}
+        {g.notes && <p class="text-sm"><strong>※</strong>{g.notes}</p>}
+      </div>
+      ))}
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : es === 'none' ? (
   <div>
     <div class="alert alert-warning alert-soft my-4">
-      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 s-rpg-navi 一家刊载——该站对本关有成表的初期配置、增援、具名驾驶员、HP／资金与掉落部件数据（覆盖全 70 个剧本），但该站自设订正页承认存在数值识别错误，且没有第二家独立来源可交叉核对，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：第3次α的 43 个剧本、OG2 月球摇篮线 3 话、J 的 14 个剧本）。敌方等级、坐标与逐格地形则在任何来源中都不存在。</span>
+      <span><strong>待核实（无任何来源）：</strong>本关敌方编成在已查到的全部来源中都不存在——两份 GameFAQs 全文攻略（yangxu、JaveChen）在第49话后的分歧都走了 PLANT 线，没有月线第50–51话的编成数据；日文侧（日本 SRW Wiki 的逐话页等）亦只有剧情与胜败条件、无编成数字。敌方等级、坐标与逐格地形同样不存在。</span>
     </div>
     <ul>
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
+  ) : (
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 {m.enemies.singleName} 一家刊载——{m.enemies.singleDesc}按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：第3次α的 43 个剧本、OG2 月球摇篮线 3 话、J 的 14 个剧本）。敌方等级、坐标与逐格地形则在任何来源中都不存在。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  )}
 
   <h2>剧情事件</h2>
   {m.events.length ? (
