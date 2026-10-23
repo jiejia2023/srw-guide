@@ -28,6 +28,7 @@ import SrwDMissionList from '../../components/SrwDMissionList.astro';
 import SrwMxMissionList from '../../components/SrwMxMissionList.astro';
 import SrwGcMissionList from '../../components/SrwGcMissionList.astro';
 import SrwJMissionList from '../../components/SrwJMissionList.astro';
+import SrwWMissionList from '../../components/SrwWMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -62,6 +63,7 @@ const isSrwD = g.slug === 'srw-d';
 const isSrwMx = g.slug === 'srw-mx';
 const isSrwGc = g.slug === 'srw-gc';
 const isSrwJ = g.slug === 'srw-j';
+const isSrwW = g.slug === 'srw-w';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2555,6 +2557,102 @@ const isSrwJ = g.slug === 'srw-j';
     </div>
   )}
 
+  {isSrwW && (
+    <div>
+      <h2>剧情概要：运送一家与「知识的记录者」</h2>
+      <p>本作（2007 年 3 月 1 日发售，开发：エーアイ，发行：バンプレスト）是 DS 平台的第一作机战、系列通算第 40 作，标题 W 源于 DS 的双画面与剧本的<strong>两部构成</strong>。主人公<strong>固定</strong>（不同于以往的多选式）：16 岁的运送业者（Trailer）之家长男<strong>卡兹马·阿迪根</strong>，与父亲布雷斯、姐姐希霍米、姐姐阿卡内、妹妹米希洛及舵手霍里斯组成的<strong>瓦尔斯托克一家</strong>，驾驶二人乘机<strong>瓦尔霍克</strong>与武装输送舰<strong>瓦尔斯托克</strong>（OG 系列以外首次出现的原创旗舰）。敌对的原创势力是自称「<strong>知识的记录者</strong>」的 <strong>The Database（扎·数据库）</strong>——始源文明遗留的自律型记录装置（知的生命体群）：管理者<strong>阿普利坎特</strong>是布雷斯的机械分身，前线指挥官<strong>阿莉亚·阿德万斯</strong>是按卡兹马数据造出的人工生命体；其记录 AI「记录者」失控自名<strong>因费伦斯</strong>后转为毁灭文明。第 1 部终局布雷斯为救卡兹马牺牲/失踪，一家被冲散；半年后第 2 部以 Database 的全面攻势与旧同伴的再集结展开（梗概据日本维基百科与 Akurasu）。</p>
+
+      <h2>两部构成与路线结构 — 编号 55 话、70 个不同剧本</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>区段</th><th>内容</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><td>第1部 第1–8话</td><td>全员共通</td><td>第8话通关后第一次分歧</td></tr>
+            <tr><td>第9话</td><td>宇宙线／地上线</td><td>护卫抚子号／地上应对劫机</td></tr>
+            <tr><td>第10话</td><td>全员共通</td><td>通关后第二次分歧</td></tr>
+            <tr><td>第11话</td><td>日本线／北美线</td><td>防范赫尔博士／救援 D-Boy</td></tr>
+            <tr><td>第12–13话</td><td>周目版本（内容对调）</td><td>一周目与二周目版本不同，1、2周目强制分配，3周目起可自选</td></tr>
+            <tr><td>第14–21话</td><td>全员共通</td><td>第21话为两段式，通关后第三次分歧</td></tr>
+            <tr><td>第22话</td><td>火星线／月线</td><td>火星遗迹调查／月面护卫抚子号</td></tr>
+            <tr><td>第23–27话</td><td>全员共通</td><td>第27话第1部最终话：全员离队，时间跳跃 6 个月（月数据 Akurasu 角色页）</td></tr>
+            <tr><td>第2部 第28–32话</td><td>共通 + 第32话周目版本</td><td>阵容重置后重新集结；第32话九十九乘机随周目为魔人／铁人；中意作品在第2部开始时重选</td></tr>
+            <tr><td>第33–34话</td><td>拒绝委托线／接受委托线</td><td>第32话后选择「接受委托与否」</td></tr>
+            <tr><td>第35–36话</td><td>全员共通</td><td>第36话通关后的选择绑定互斥隐藏链（见下）</td></tr>
+            <tr><td>第37–38话</td><td>奥布线／巴黎线</td><td>奥布线承载迅雷高达链，巴黎线承载秘密版魔神Z链，二者互斥</td></tr>
+            <tr><td>第39–43话</td><td>全员共通</td><td>第42话为迅雷链/剑装灾厄链的共同结算点；第43话通关后分歧</td></tr>
+            <tr><td>第44–45话</td><td>火星后继者线／月地警戒线</td><td>决斗高达链第 2 步在火星后继者线</td></tr>
+            <tr><td>第46–49话</td><td>全员共通</td><td>第46话为多数长线隐藏计数的集中兑现点；第49话通关后最后分歧</td></tr>
+            <tr><td>第50–51话</td><td>月线／PLANT线</td><td>铁加曼雷皮亚链在月线；海伯利安/决斗/红炎/剑装灾厄在 PLANT 线，与雷皮亚互斥</td></tr>
+            <tr><td>第52–54话</td><td>全员共通</td><td>第52话为雷皮亚/海伯利安的兑现点</td></tr>
+            <tr><td>第55话（最终话）</td><td>周目版本</td><td>一周目 Boss 为因费伦斯，二周目 Boss 改为克里提克且瓦尔阿姆参战（3周目起可自选版本）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>编号方式为<strong>连续编号 1–55 话</strong>（第2部不重置编号，重置的是剧情与阵容）。Akurasu 主条目作「70 playable scenarios」，日本维基百科作「全55話/64ステージ」——本站按流程图逐条清点：55 个编号话 + 15 个分歧/周目变体 = <strong>70 个不同剧本</strong>，与 Akurasu 总数一致；日维基的「64 ステージ」口径无法与流程图条目对应（可能合并了部分变体计法），本站并记而不采用。流程图页首规则：路线分歧在 1、2 周目被<strong>强制分配</strong>，3 周目起可自由选择。</p>
+
+      <h2>主人公一家与原创机体</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>人物</th><th>身份</th><th>岗位 / 乘机</th></tr></thead>
+          <tbody>
+            <tr><td>卡兹马·阿迪根（16 岁）</td><td>长男，主人公</td><td>瓦尔霍克主驾驶（第2部第28话一度失踪、化名雇佣兵「凯特」，第29话回归）</td></tr>
+            <tr><td>米希洛·阿迪根（10 岁）</td><td>三女</td><td>瓦尔霍克副驾驶（管制）；第28话单独驾驶瓦尔霍克</td></tr>
+            <tr><td>布雷斯菲尔德·阿迪根（45 岁）</td><td>家长，传说级宇航员「鹰眼」</td><td>瓦尔斯托克舰长；第1部主驾驶，第27话为救卡兹马牺牲/失踪</td></tr>
+            <tr><td>希霍米·阿迪根（22 岁）</td><td>长女</td><td>瓦尔斯托克操作员；第2部起任主驾驶</td></tr>
+            <tr><td>阿卡内·阿迪根（20 岁）</td><td>次女</td><td>瓦尔斯托克炮手</td></tr>
+            <tr><td>霍里斯·霍拉里安（24 岁）</td><td>家中唯一非血亲</td><td>瓦尔斯托克舵手</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>原创机体链：<strong>瓦尔霍克</strong>（二人乘可变机，格斗/飞行两形态）与<strong>瓦尔斯托克</strong>（一家的家兼商船的武装输送舰）可合体为<strong>瓦尔加德</strong>（第29话解锁）；第49话瓦尔斯托克与阿莉亚的阿姆阿尔克斯合体为最终形态<strong>瓦尔扎卡德</strong>。敌方对应机<strong>瓦尔阿姆</strong>（阿普利坎特乘）在二周目最终话作为友军参战。主人公姓名可改（改姓会连带全家姓氏）。</p>
+
+      <h2>系统要点（逐项核实）</h2>
+      <ul>
+        <li><strong>没有熟练度系统。</strong>Akurasu 流程图没有任何一话列出熟练度条件（全文检索为 0)，日本维基百科的本作系统清单（支援要请、多重连锁、技能部件、驾驶员养成、交代、搭载、商店、BGM 变更、双插槽、周回继承、中意作品）亦无熟练度，英文 SRW Fandom 的熟练度条目名单（Impact、α 系、OG 系、Z 系）不含本作——三源一致。分歧与隐藏全部由路线选择、周目版本、说得、交战与击坠数决定；难度调节只有周回后的「敌方改造度指定」（见周回一条）。</li>
+        <li><strong>中意作品（お気に入り）系统（MX 引入、J 沿用）：</strong>开局从参战作品中选 <strong>3 作</strong>，被选作品的机体获得资金与经验补正、改造上限提升（Akurasu 的 Clear 页给出可继承的上限为 15 段；通常上限与中意上限的确切段数本次未找到单一来源明说，本站不写死）。因第 1 部有未登场/仅客串的作品，<strong>第 2 部开始时重新选择</strong>；铁加曼、FMP、盖塔、SEED ASTRAY 四个系列各自共享一个名额（但《SEED》与《SEED ASTRAY》算不同作品）。第 1 部以中意上限改造的机体向第 2 部新机继承时，只继承到通常上限为止。</li>
+        <li><strong>驾驶员养成是 BP 制（与 D、J 相同，不是 PP）：</strong>升级获得 BP，分配到格斗／射击／命中／回避／技量／防御 6 项（每项上限 255)，通关不清零、带入下周目；BP 不能学技能，技能靠<strong>技能部件</strong>——本作起技能部件改为<strong>消费型</strong>（使用即消耗、直接给驾驶员附加特殊技能，效果通关后仍保留，故跨周目继承）。</li>
+        <li><strong>援护与「支援要请」（本作新系统）：</strong>经典援护攻击/援护防御（邻接制、等级决定次数）仍在；新增<strong>支援要请</strong>：向本话<strong>未出击</strong>的单位请求援攻/援防，无需邻接，每话可用次数为请求方驾驶员的支援要请 Lv；支援方的地形适应须能适应受援方所在格，援攻距离以受援方所在格为基点计算；支援方在本图内 HP/EN/弹药不再回复。另有<strong>多重连锁（マルチコンボ）</strong>（按连锁 Lv 同时攻击多名敌人、无需排成直线，第 2 名起敌人自动防御，且多重连锁不可被援护防御）、<strong>交代系统</strong>（同 J 的再出击：换下者本话不可再出击，永恒号例外不可交代）与<strong>搭载系统</strong>（母舰移动前可多次、移动后 1 次搭载邻接单位）。</li>
+        <li><strong>合体攻击存在</strong>（Akurasu Team Attacks 页共 32 行）：魔神系的双重火箭飞拳/双重燃烧火焰、与真盖塔 1 的 Final Dynamic Special、Dynamic Double Impact；勇者系的超龙神/击龙神突击、天龙神 Maximum To-Long；艾斯特巴里斯的双重击碎火焰与各骨骼阵型攻击；FMP 的 Uruz Strike / Uruz Special；铁加曼的双枪合击、双重沃尔特加（布莱德×雷皮亚/伊贝尔）、三重沃尔特加；SEED 的 Combination Assault（自由×正义）等；原创合体攻击<strong>质子炮聚焦</strong>（瓦尔霍克×瓦尔斯托克，第21话获得）。没有小队系统。</li>
+        <li><strong>改造继承：</strong>换乘/进化时改造按 Akurasu 的继承表转移（多数旧机保留，少数替换）；共享改造组包括瓦尔霍克/瓦尔斯托克/瓦尔加德一组、龙神系 8 机一组，<strong>ARX-7 强弩与秘密机博太君共享改造</strong>；第49话瓦尔扎卡德汇合三台瓦尔系的改造。全部继承为追溯生效。秘密版魔神Z与通常版同名不同性能、是不同机体，其改造注记见 Akurasu 继承表。</li>
+        <li><strong>商店（NG+ 专属）：</strong>第 1 周目商店只能出售强化部件；2 周目起可购买强化部件与部分机体——范围为《SEED》《SEED ASTRAY》的 MS 与《FMP》的 AS(Akurasu Unit Shop 页有完整价格表，如拉戈韦 10000、剑装灾厄 10000 等）。</li>
+        <li><strong>双插槽联动（ダブルスロット）：</strong>在 DS 插槽 2 插入<strong>任意 GBA 版机战卡带</strong>（不限于 J）启动本作，可获得启动资金与专用强化部件「Soul of …」：A 卡 30,000（装甲+100/运动+10/命中+10)，依 R(40,000)、D(50,000)、OG(60,000)、OG2(70,000)、<strong>J(80,000，+350/+35/+35)</strong>递增，非卖品的《第2次》Famicom Mini 版最强（99,999,+500/+50/+50)。触发时机的表述两源不同（Akurasu 作开新游戏时插入；日维基作进入整备画面时、每周围限 1 次），本站并记。无 GBA 插槽的 DSi/3DS 不可使用。</li>
+        <li><strong>周回（New Game+）继承：</strong>未花资金<strong>全额保留</strong>（无百分比扣减），通关时所持强化部件与技能部件全部自动出售折算进资金；机体/武器<strong>改造保留</strong>（含中意作品带来的 15 段上限）；驾驶员 <strong>BP 养成值与技能部件习得的技能保留</strong>（日维基明载，与系列系统 Wiki「BP 通关不重置」互证；Akurasu 的 Clear 页未列此项，见分歧说明）；<strong>击坠数、中意作品指定、全改造奖励重置</strong>（奖励可重新设定）。周回递进：2 周目起商店可购机且部分路线与 1 周目不同；3 周目起路线可自由选择；<strong>4 周目起全机改造上限 20 段、全作品自动中意（资金/经验一律 1.5 倍）</strong>；开局可指定的敌方改造度上限随通关次数上升（通关次数×3 段，最大 20 段）。</li>
+      </ul>
+
+      <h2>参战作品（19 部 + 原创）</h2>
+      <p>惊爆危机、惊爆危机？校园篇、惊爆危机 The Second Raid（系列初）、勇者王 GaoGaiGar（掌机初）、勇者王 GaoGaiGar FINAL（掌机初）、机动战舰抚子号、剧场版 机动战舰抚子号 -The prince of darkness-、新机动战记高达 W 无尽的华尔兹、机动战士高达 SEED、机动战士高达 SEED ASTRAY（系列初）、机动战士高达 SEED X ASTRAY（系列初）、宇宙骑士铁加曼布莱德、宇宙骑士铁加曼布莱德 II（系列初）、起爆器奥刚（系列初）、魔神凯撒、魔神凯撒 死斗！暗黑大将军、盖塔机器人 G、真·盖塔机器人（原作漫画版）、百兽王 GoLion（系列初），及原创。计数口径：日本维基百科与 Akurasu 的 Series 页均为 19 部（原创不计）；另《SEED ASTRAY R》《SEED MSV》的机体人物与《GaoGaiGar FINAL GRAND GLORIOUS GATHERING》的部分 BGM/设定亦有登场，不计入 19 部。《盖塔机器人 G》仅主要角色登场，无机体与百鬼帝国。</p>
+
+      <h2>隐藏要素总览（全部写在触发/结算的那一话里）</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>涉及话数</th><th>要点</th></tr></thead>
+          <tbody>
+            <tr><td>迅雷高达 + 尼科尔</td><td>第30话击破迅雷，第35话 Part 1 击破拉戈韦，第36话顺序击破三机，第37话·奥布线交战×3 后击破，第42话基拉说得阿斯兰后过关加入</td><td>全作最长链（五步）；与秘密版魔神Z互斥（37 话路线）</td></tr>
+            <tr><td>秘密版魔神Z</td><td>第36话后选巴黎线，第38话·巴黎线 5 回合内击破暗黑大将军（第一次）</td><td>与迅雷高达互斥；与通常版魔神Z同名不同机</td></tr>
+            <tr><td>阿尔斯托罗梅利亚 + 艾斯特巴里斯II + 大铁人 + 资金 200,000</td><td>第24话击破神乐月（而非护送到达），第46话兑现</td><td>一次选择点亮四项，全作性价比最高的节点</td></tr>
+            <tr><td>博太君（机体）</td><td>第8话击坠≥2，第12话·一周目/第13话·二周目击坠≥2，第32话击坠≥3，第46话入库</td><td>与 ARX-7 强弩共享改造</td></tr>
+            <tr><td>闪电强袭部件</td><td>穆击坠数第10话结束时 ≥10，第46话兑现</td><td>计数自第3话起</td></tr>
+            <tr><td>IWSP 部件</td><td>卡嘉莉击坠数第39话前 ≥5，第46话兑现</td><td>第35话已满 5 坠则不必走奥布线</td></tr>
+            <tr><td>EDF利夫型固体装甲</td><td>洋子击坠数第41话结束时 ≥10，第46话换乘</td><td>计数自第4话起</td></tr>
+            <tr><td>铁加曼雷皮亚</td><td>第10/17话击破伊比鲁或第21话击破阿克斯，第50话·月线击破伊比鲁，第52话加入</td><td>与迅雷以外的 PLANT 线四项全部互斥</td></tr>
+            <tr><td>决斗高达 + 伊扎克</td><td>第43话后选火星后继者线，第45话·火星后继者线迪亚卡交战后说得，第51话·PLANT线不击破决斗</td><td>与雷皮亚互斥</td></tr>
+            <tr><td>海伯利安高达 + 卡纳德</td><td>第49话后选 PLANT 线，第50话·PLANT线 HP&lt;50%→基拉交战→普雷亚击破，第52话加入</td><td>与雷皮亚互斥</td></tr>
+            <tr><td>剑装灾厄（爱德华，客串）</td><td>第42话基拉说得阿斯兰后罗说得爱德华，第50话·PLANT线罗再次说得</td><td>仅スポット参战；机体可在 NG+ 商店购买</td></tr>
+            <tr><td>红炎（Red Strike)</td><td>第51话·PLANT线：罗以动力红形态击破再生高达</td><td>名称两源不一（Secrets 作 Red Flame、流程图作 Red Strike），见分歧说明</td></tr>
+            <tr><td>J凤凰（J王追加武装）</td><td>第49话：5 回合内击破 GaoFighGar，再在击破帕尔帕雷帕 Plus 前击破皮亚·德凯姆·皮特</td><td>顺序不能反</td></tr>
+            <tr><td>幻龙神 &amp; 强龙神恢复合体</td><td>第49话出击冰/炎/风/雷四龙</td><td>第26话后被封印的合体在此恢复</td></tr>
+            <tr><td>提前获得正义高达</td><td>第42话基拉说得阿斯兰（而非击破）</td><td>当场加入且本话内可用合体攻击；是迅雷链与剑装灾厄链的共同前置</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>敌方数据现状</h2>
+      <p>敌方<strong>编成</strong>（构成、数量、增援、具名驾驶员、HP/资金、掉落部件）目前只有日文攻略站 <strong>s-rpg-navi</strong> 一家刊载成表（逐话页覆盖全部 70 个剧本），该站自设订正页承认存在数值识别错误（「数値ミス」），且 GameFAQs 上另有一则（未经证实的）玩家贴文指其雷皮亚链某一步的转录有误——没有第二家独立来源可供交叉（GameFAQs 的 W 攻略只有招式表性质的专题 FAQ，无逐话编成；日本 SRW Wiki 的逐话页只有剧情、胜败条件与奖励部件名）。按本站双源惯例<strong>暂不刊载、列为待用户裁决事项</strong>：若裁决导入，将按 F完结编先例以「单一来源」标注刊出这 70 个剧本的编成（字段范围：初期配置与增援的机体×数量、具名敌驾驶员、初期配置的 HP/资金、掉落部件——无触发条件、无等级、无坐标）。<strong>敌方等级在任何来源中都不存在</strong>（navi 以 HP/资金区分个体，与 J 相同）；<strong>敌方坐标、逐关地图尺寸与逐格地形无任何公开来源</strong>，各页地图为带四边坐标轴的参照框架，与本站地图补完计划衔接。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets、Clear（NG+）、Double Slot Feature、Series、Team Attacks、Unit Upgrades、Unit Shop、Pilot Skills、Banpresto Originals 各子页交叉核对；系统与话数口径以日本维基百科（含「The Database」条目）互证；熟练度之有无另以英文 SRW Fandom 的 Gameplay 条目与系列系统 Wiki 三方确认。已确认的主要分歧与处理：①话数口径——日维基「55話/64ステージ」vs Akurasu「70 playable scenarios」vs 流程图 55 编号话：本站按流程图清点 70 建页并并记（见结构一节）；②改造 20 段开放时点——日维基作「4周目以降」，Akurasu 作「On NG+4」，若后者指第 5 周目则差一周围，本站以日维基为主并注记；③BP 养成值与习得技能的继承——只有日维基明载（Akurasu 的 Clear 页未列），与系列系统 Wiki「BP 通关不重置」互证后采信并注明来源；④资金继承表述——Akurasu 明言未花资金全额保留，日维基只述「通关时全部部件出售额追加」，本站合并表述时分开注明；⑤迅雷链第 3 步（第36话）——Secrets 页作「九龙登场前击破迅雷、再击破决斗与暴风」，流程图作「沃斯古罗夫级被击破前按迅雷→决斗→暴风顺序击破」，触发锚点与顺序要求不同，第36话页面两说并记、未裁决；⑥雷皮亚链第 2 步（第50话·月线）——Secrets 页明记 5 回合限制、流程图未注，本站以 Secrets 页为准并注记；⑦红炎的名称——Secrets 页作 Red Flame、流程图作 Red Strike，疑英译差异，日文原名待核实，两名并记；⑧双插槽触发时机——Akurasu 作开新游戏时，日维基作整备画面时且每周限 1 次，并记；⑨第2部时间跳跃的月数——6 个月出自 Akurasu 角色页，日维基本篇只说「经过一段时间」，本站标注来源；⑩第55话瓦尔阿姆加入行的归属——流程图原文无栏目标记，本站按二周目版败北条件含瓦尔阿姆推定其属二周目版，两页均有注记；⑪第10话后分歧处的「抚子号+五台艾斯特巴里斯」再加入清单未标明路线归属，第10话页面并记；⑫拼写统一——Akurasu 内部 Armarcus/Armarrcus、Kagurazuki/Kagurazaki 等异写，本站统一作阿姆阿尔克斯、神乐月并在相关页注记；⑬第16话流程图将铁加曼伊比鲁列于加入栏而无说明，该话页面照录并标注待核实。</p>
+    </div>
+  )}
+
   <h2>关卡攻略</h2>
   {isSrw1 ? (
     <div>
@@ -2685,6 +2783,11 @@ const isSrwJ = g.slug === 'srw-j';
     <div>
       <p>本作 <strong>68 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 52 话——主角双线序盘、五次路线分歧的全部版本与共通终盘；编号固定、同号异关即路线变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（说得连锁、路线选择与副驾驶出击次数都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成在 54 个剧本由 s-rpg-navi 与 GameFAQs 攻略双源交叉刊载，14 个剧本为 s-rpg-navi 单一来源暂不刊载、待裁决；敌方等级不存在于任何来源，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-j/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwJMissionList />
+    </div>
+  ) : isSrwW ? (
+    <div>
+      <p>本作 <strong>70 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 55 话——两部构成、六次路线分歧的全部版本与第12–13、32、55话的周目版本；编号连续、同号异关即路线或周目变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（击坠数计数、说得连锁与路线/周目条件都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成为 s-rpg-navi 单一来源暂不刊载、待裁决；敌方等级不存在于任何来源，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-w/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwWMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

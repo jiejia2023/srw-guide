@@ -1,0 +1,658 @@
+{
+ "groups": [
+  {
+   "title": "第1部：共通序盘（第1–8话）",
+   "intro": "固定主人公卡兹马·阿迪根与瓦尔斯托克一家开局。第1部的舞台以高达W、抚子号、铁加曼、勇者王、FMP 的交汇为主线；第8话通关后发生第一次路线分歧。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "向宇宙之海扬帆起航",
+     "ja": "第１話：宇宙の海に帆をあげろ",
+     "en": "Scenario 1: The Sea of Space Awaits",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "白色铁骑士们",
+     "ja": "第2話：白き鉄騎士たち",
+     "en": "Scenario 2: White Iron Knights",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "任务『击沉抚子号指令』",
+     "ja": "第3話：ミッション『ナデシコ破壊指令』",
+     "en": "Scenario 3: Order: Sink the Nadesico",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "破碎的希望",
+     "ja": "第4話：砕け散る希望",
+     "en": "Scenario 4: All Hope Gone",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "机界・机械・奇奇怪怪",
+     "ja": "第5話：機界・機械・奇々怪々",
+     "en": "Scenario 5: Machines and Mysteries",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "GGG千钧一发",
+     "ja": "第6話：ＧＧＧ危機一髪",
+     "en": "Scenario 6: GGG Hangs by a Thread",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "「相遇与离别」的红色之星",
+     "ja": "第7話：『出会いと別れ』の赤い星",
+     "en": "Scenario 7: Meetings and Farewells at Mars",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "冲绳最热的一天",
+     "ja": "第8話：沖縄の一番暑い日",
+     "en": "Scenario 8: Okinawa's Hottest Day",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第1部：路线分歧与终盘（第9–27话）",
+   "intro": "四次玩家选择分歧（第8、10、21话后）与一组周目版本话（第12–13话：一周目与二周目内容对调，三周目起可自选）。第27话为第1部最终话，结束后全员离队、时间跳跃 6 个月进入第2部。",
+   "rows": [
+    {
+     "code": "第9话·宇宙线",
+     "zh": "灾厄的抉择",
+     "ja": "第9話：最悪な災厄の採択",
+     "en": "Scenario 9: A Dire Choice",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第8话后选「宇宙护卫抚子号」"
+    },
+    {
+     "code": "第9话·地上线",
+     "zh": "战斗的少年少女们",
+     "ja": "第9話：戦うボーイズ・アンド・ガールズ",
+     "en": "Scenario 9: Fighting Boys and Girls",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第8话后选「地上应对劫机」"
+    },
+    {
+     "code": "第10话",
+     "zh": "红与白的恶魔",
+     "ja": "第10話：赤と白の悪魔",
+     "en": "Scenario 10: Red and White Demons",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·日本线",
+     "zh": "魔神交锋",
+     "ja": "第11話：魔神相打つ",
+     "en": "Scenario 11: Clash of Mazins",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第10话后选「日本防范赫尔博士」"
+    },
+    {
+     "code": "第11话·北美线",
+     "zh": "寻求心灵",
+     "ja": "第11話：心求めて",
+     "en": "Scenario 11: Seeking a Heart",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第10话后选「北美救援 D-Boy」"
+    },
+    {
+     "code": "第12话·一周目",
+     "zh": "禁播的战吼",
+     "ja": "第12話：放送不可のウォークライ",
+     "en": "Scenario 12: R-Rated Warcry",
+     "type": "周目版本关",
+     "area": "",
+     "note": "一周目版本"
+    },
+    {
+     "code": "第12话·二周目",
+     "zh": "「舰长」是你！「教授」是谁！",
+     "ja": "第12話：『艦長』は君だ！『教授』は誰だ！",
+     "en": "Scenario 12: You're the Cap! Who's the Prof?",
+     "type": "周目版本关",
+     "area": "",
+     "note": "二周目版本"
+    },
+    {
+     "code": "第13话·一周目",
+     "zh": "「秘密打工」有危险的气息",
+     "ja": "第13話：『秘密のバイト』は危険な香り",
+     "en": "Scenario 13: This Gig Smells Fishy",
+     "type": "周目版本关",
+     "area": "",
+     "note": "一周目版本"
+    },
+    {
+     "code": "第13话·二周目",
+     "zh": "友情的滑稽动物们",
+     "ja": "第13話：友情のファニーアニマルズ",
+     "en": "Scenario 13: Friendly Funny Animals",
+     "type": "周目版本关",
+     "area": "",
+     "note": "二周目版本"
+    },
+    {
+     "code": "第14话",
+     "zh": "那生命，为谁而存",
+     "ja": "第14話：その生命、誰がために",
+     "en": "Scenario 14: Who Do You Live For?",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "五色的羁绊，金色的勇气",
+     "ja": "第15話：五色の絆、金色の勇気",
+     "en": "Scenario 15: Five Bonds, Gold Courage",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "被囚禁的两人",
+     "ja": "第16話：閉ざされた二人",
+     "en": "Scenario 16: Brothers, Trapped",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "永别了勇者们！东京大决战！！",
+     "ja": "第17話：さらば勇者達！東京大決戦!!",
+     "en": "Scenario 17: Tokyo Clash: Farewell Braves",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "悲剧的一夜",
+     "ja": "第18話：悲劇のワン・ナイト・スタンド",
+     "en": "Scenario 18: The Tragic One Night Stand",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "激战！魔神VS地狱王",
+     "ja": "第19話：激突！魔神VS地獄王",
+     "en": "Scenario 19: Mazin VS King of Hell",
+     "type": "共通关",
+     "area": "",
+     "note": "单话两段式"
+    },
+    {
+     "code": "第20话",
+     "zh": "加速的宇宙",
+     "ja": "第20話：加速する宇宙",
+     "en": "Scenario 20: Accelerating Space",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "被派来的刺客",
+     "ja": "第21話：送られてきた刺客",
+     "en": "Scenario 21: An Assassin Dispatched",
+     "type": "共通关",
+     "area": "",
+     "note": "单话两段式"
+    },
+    {
+     "code": "第22话·火星线",
+     "zh": "自过去归来之人",
+     "ja": "第22話：過去からの帰還者",
+     "en": "Scenario 22: Returner From the Past",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第21话后选「火星遗迹调查」"
+    },
+    {
+     "code": "第22话·月线",
+     "zh": "到来的「遥远的同胞」",
+     "ja": "第22話：やってきた『遠い同胞』",
+     "en": "Scenario 22: Our Distant Kin",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第21话后选「月面护卫抚子号」"
+    },
+    {
+     "code": "第23话",
+     "zh": "无尽圆舞曲・终幕",
+     "ja": "第23話：終わらない円舞曲・終幕",
+     "en": "Scenario 23: The Endless Waltz's Finale",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "各自的「做自己」",
+     "ja": "第24話：それぞれの『自分らしく』",
+     "en": "Scenario 24: Being Yourself",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏要素关键节点"
+    },
+    {
+     "code": "第25话",
+     "zh": "木星决战！超重力陷阱",
+     "ja": "第25話：木星決戦！超重力の罠",
+     "en": "Scenario 25: Jupiter Clash: The Gravity Trap!",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "勇气的战斗",
+     "ja": "第26話：勇気ある戦い",
+     "en": "Scenario 26: Battle of Courage",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "然后，迈向无尽的明天",
+     "ja": "第27話：そして、終わらない明日へ",
+     "en": "Scenario 27: To an Unending Tomorrow",
+     "type": "第1部最终话",
+     "area": "",
+     "note": "第1部最终话"
+    }
+   ]
+  },
+  {
+   "title": "第2部：再集结与周目版本（第28–32话）",
+   "intro": "第2部开局阵容重置：卡兹马一度失踪、瓦尔霍克由米希洛单独驾驶，旧成员陆续以强化形态归队；中意作品在第2部开始时重选。第32话有周目版本差异（九十九乘魔人／铁人），通关后分歧。",
+   "rows": [
+    {
+     "code": "第28话",
+     "zh": "独自一人在宇宙",
+     "ja": "第28話：宇宙に一人だけの",
+     "en": "Scenario 28: The Only One in Space",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "红色的魂，蓝色的炎",
+     "ja": "第29話：赤い魂、青い炎",
+     "en": "Scenario 29: Red Soul, Blue Flame",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "女神之梦，战神之野望",
+     "ja": "第30話：女神の夢、戦神の野望",
+     "en": "Scenario 30: Athena's Dreams, Ares' Ambition",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "公主与小丑，女王与勇者",
+     "ja": "第31話：姫と道化、女王と勇者",
+     "en": "Scenario 31: Princess, Queen and Hero",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话·一周目",
+     "zh": "终结的高中生活",
+     "ja": "第32話：終わるハイスクールライフ",
+     "en": "Scenario 32: High School Life Ends",
+     "type": "周目版本关",
+     "area": "",
+     "note": "一周目版本"
+    },
+    {
+     "code": "第32话·二周目",
+     "zh": "决意的兼职工作",
+     "ja": "第32話：決意のパートタイムジョブ",
+     "en": "Scenario 32: The Decisive Part-Time Job",
+     "type": "周目版本关",
+     "area": "",
+     "note": "二周目版本"
+    }
+   ]
+  },
+  {
+   "title": "第2部：路线分歧与终盘（第33–55话）",
+   "intro": "四次玩家选择分歧（第32、36、43、49话后），其中第36话后的奥布／巴黎选择与第49话后的月／PLANT选择分别绑定互斥的隐藏链（迅雷高达 vs 秘密版魔神Z；铁加曼雷皮亚 vs 海伯利安／决斗／红炎／剑装灾厄）。第46话是多数长线计数的集中兑现点；最终话第55话有周目版本（Boss 不同）。",
+   "rows": [
+    {
+     "code": "第33话·拒绝线",
+     "zh": "悄然逼近的黄金之影",
+     "ja": "第33話：忍び寄る黄金の影",
+     "en": "Scenario 33: Looming Golden Shadow",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第32话后选「拒绝委托」"
+    },
+    {
+     "code": "第33话·接受线",
+     "zh": "VIRGIN FLUSH",
+     "ja": "第33話：VIRGIN FLUSH",
+     "en": "Scenario 33: Virgin Flush",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第32话后选「接受委托」"
+    },
+    {
+     "code": "第34话·拒绝线",
+     "zh": "复苏的墓场名刀",
+     "ja": "第34話：よみがえる墓場の名刀",
+     "en": "Scenario 34: Graveyard's Blade, Reborn",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话·接受线",
+     "zh": "动摇的心意与小小的决意",
+     "ja": "第34話：揺れる想いと小さな決意",
+     "en": "Scenario 34: Uncertainty and Resolve",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "单话两段式"
+    },
+    {
+     "code": "第35话",
+     "zh": "吹过热砂的风",
+     "ja": "第35話：熱砂に吹く風",
+     "en": "Scenario 35: The Wind Across Hot Sands",
+     "type": "共通关",
+     "area": "",
+     "note": "单话两段式"
+    },
+    {
+     "code": "第36话",
+     "zh": "别离的蓝色",
+     "ja": "第36話：別れのイントゥ・ザ・ブルー",
+     "en": "Scenario 36: Into the Blue of Farewells",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏分歧绑定话"
+    },
+    {
+     "code": "第37话·奥布线",
+     "zh": "和平之国的雷霆",
+     "ja": "第37話：平和の国の雷",
+     "en": "Scenario 37: Thunder From the Land of Peace",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第36话后选「奥布」·单话两段式"
+    },
+    {
+     "code": "第37话·巴黎线",
+     "zh": "来自黑暗的侵略者",
+     "ja": "第37話：暗黒からの侵略者",
+     "en": "Scenario 37: Invaders from the Dark",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第36话后选「巴黎」"
+    },
+    {
+     "code": "第38话·奥布线",
+     "zh": "他与她的问题",
+     "ja": "第38話：彼と彼女の問題",
+     "en": "Scenario 38: His and Her Problems",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话·巴黎线",
+     "zh": "死斗！魔神VS大将军",
+     "ja": "第38話：死闘！魔神ＶＳ大将軍",
+     "en": "Scenario 38: Mazin VS Great General!",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "铁骑士再诞",
+     "ja": "第39話：鉄騎士再誕",
+     "en": "Scenario 39: Rebirth of the Iron Knight",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "勇者的真实",
+     "ja": "第40話：勇者の真実",
+     "en": "Scenario 40: The Truth About Heroes",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第41话",
+     "zh": "心意与力量，其所向之处",
+     "ja": "第41話：想いと力、その向かう先",
+     "en": "Scenario 41: Where Wishes and Strength Lead",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第42话",
+     "zh": "拂晓的闪光",
+     "ja": "第42話：暁の閃光",
+     "en": "Scenario 42: The Flash of Dawn",
+     "type": "共通关",
+     "area": "",
+     "note": "迅雷链结算话"
+    },
+    {
+     "code": "第43话",
+     "zh": "自记忆深处",
+     "ja": "第43話：記憶の底から",
+     "en": "Scenario 43: From the Depths of Memory",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话·火星后继者线",
+     "zh": "应回归的每一天",
+     "ja": "第44話：帰るべきデイ・バイ・デイ",
+     "en": "Scenario 44: Returning to the Day By Day",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第43话后选「追击火星后继者」"
+    },
+    {
+     "code": "第44话·月地警戒线",
+     "zh": "命运的孩子们",
+     "ja": "第44話：運命の子ら",
+     "en": "Scenario 44: Children of Fate",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第43话后选「月地警戒」"
+    },
+    {
+     "code": "第45话·火星后继者线",
+     "zh": "与生俱来的恶意",
+     "ja": "第45話：生まれ落ちた悪意",
+     "en": "Scenario 45: Malice Born",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话·月地警戒线",
+     "zh": "肆虐的破坏风暴",
+     "ja": "第45話：吹き荒れる破壊の嵐",
+     "en": "Scenario 45: Raging Storm of Destruction",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "在新时代的开端",
+     "ja": "第46話：新しい時代の始まりに",
+     "en": "Scenario 46: The Beginning of a New Age",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏集中兑现话"
+    },
+    {
+     "code": "第47话",
+     "zh": "黑衣复仇鬼的末路",
+     "ja": "第47話：黒衣の復讐鬼の最期",
+     "en": "Scenario 47: End of the Avenger in Black",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "逆袭的大帝王",
+     "ja": "第48話：逆襲の大帝王",
+     "en": "Scenario 48: The Emperor Strikes Back",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "在战斗之海扬起勇气之帆",
+     "ja": "第49話：戦いの海に勇気の帆を",
+     "en": "Scenario 49: Courage Upon the Sea of Battle",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第50话·月线",
+     "zh": "时间静止的两人",
+     "ja": "第50話：静止した時の二人",
+     "en": "Scenario 50: Brothers, Frozen in Time",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第49话后选「月」·单话两段式"
+    },
+    {
+     "code": "第50话·PLANT线",
+     "zh": "憎恨与命运的螺旋",
+     "ja": "第50話：憎悪と運命の螺旋",
+     "en": "Scenario 50: Spiral of Hatred and Destiny",
+     "type": "路线分歧关",
+     "area": "",
+     "note": "第49话后选「PLANT」"
+    },
+    {
+     "code": "第51话·月线",
+     "zh": "燃尽的生命",
+     "ja": "第51話：燃え尽きる生命",
+     "en": "Scenario 51: Burnt-Out Life",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第51话·PLANT线",
+     "zh": "所选道路的前方",
+     "ja": "第51話：選んだ道の先",
+     "en": "Scenario 51: At the Road's End",
+     "type": "路线分歧关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话",
+     "zh": "扭曲的太阳",
+     "ja": "第52話：歪んだ太陽",
+     "en": "Scenario 52: Twisted Sun",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏兑现话"
+    },
+    {
+     "code": "第53话",
+     "zh": "呼唤清晨的人们",
+     "ja": "第53話：朝をよぶ者達",
+     "en": "Scenario 53: They Who Summon the Dawn",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第54话",
+     "zh": "怀着难忘的回忆",
+     "ja": "第54話：忘れえぬ思い出を胸に",
+     "en": "Scenario 54: Unforgettable Memories",
+     "type": "共通关",
+     "area": "",
+     "note": "单话两段式"
+    },
+    {
+     "code": "最终话·一周目",
+     "zh": "向着无尽未来的出航",
+     "ja": "第55話：果て無き未来への出航",
+     "en": "Scenario 55: Into a Neverending Future",
+     "type": "最终话（一周目版本）",
+     "area": "",
+     "note": "一周目最终话"
+    },
+    {
+     "code": "最终话·二周目",
+     "zh": "无尽的旅途",
+     "ja": "第55話：終わり無き旅路",
+     "en": "Scenario 55: Unending Voyage",
+     "type": "最终话（二周目版本）",
+     "area": "",
+     "note": "二周目最终话"
+    }
+   ]
+  }
+ ]
+}
