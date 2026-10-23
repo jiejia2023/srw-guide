@@ -1,0 +1,643 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1–5话）",
+   "intro": "全线共通。第5话通关后按艾莉西亚与咲人的等级比较自动分歧（不是玩家选择）。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "堕落的世界",
+     "ja": "フォールン・ワールド",
+     "en": "Fallen World",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "未知",
+     "ja": "アンノウン",
+     "en": "Unknown",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "只为一条性命",
+     "ja": "ただ一命の為だけに",
+     "en": "Because of Just One Life",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "失去之物、残留之物",
+     "ja": "失われたもの、残されたもの",
+     "en": "What Was Lost, What Was Left",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "常在战场",
+     "ja": "常在戦場",
+     "en": "Endemic Battlefield",
+     "type": "主线",
+     "area": "",
+     "note": "通关后按等级自动分歧"
+    }
+   ]
+  },
+  {
+   "title": "第一次分歧（第6–7话）：艾莉西亚线 / 咲人线",
+   "intro": "艾莉西亚等级高于咲人走艾莉西亚线，咲人等级大于或等于艾莉西亚走咲人线；第8话合流。",
+   "rows": [
+    {
+     "code": "第6话",
+     "zh": "波纹",
+     "ja": "波紋",
+     "en": "Ripple",
+     "type": "主线",
+     "area": "",
+     "note": "艾莉西亚线"
+    },
+    {
+     "code": "第6话",
+     "zh": "逃脱",
+     "ja": "エスケープ",
+     "en": "Escape",
+     "type": "主线",
+     "area": "",
+     "note": "咲人线"
+    },
+    {
+     "code": "第7话",
+     "zh": "邪恶军势",
+     "ja": "悪しき軍勢",
+     "en": "Evil Army",
+     "type": "主线",
+     "area": "",
+     "note": "艾莉西亚线"
+    },
+    {
+     "code": "第7话",
+     "zh": "逃避的前方",
+     "ja": "逃避の先に",
+     "en": "Before the Escape",
+     "type": "主线",
+     "area": "",
+     "note": "咲人线"
+    }
+   ]
+  },
+  {
+   "title": "合流共通（第8–33话）",
+   "intro": "第33话通关后二选一分歧进入第34–35话。",
+   "rows": [
+    {
+     "code": "第8话",
+     "zh": "巨大的黑暗",
+     "ja": "大いなる闇",
+     "en": "Great Darkness",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "直到和平到来之日",
+     "ja": "平安が来るその日まで",
+     "en": "Until The Day Peace Comes",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "死都的相遇",
+     "ja": "亡都の出会い",
+     "en": "Encounter In The Dead City",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "无秩序不得伸张",
+     "ja": "無秩序は正されず",
+     "en": "Disorder Is Not Righteous",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "爱国者",
+     "ja": "パトリオット",
+     "en": "Patriot",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话",
+     "zh": "善意与恶意",
+     "ja": "善意と悪意",
+     "en": "Goodwill And Malice",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话",
+     "zh": "伊尔泽农社的委托",
+     "ja": "イルゼノン社の依頼",
+     "en": "Irzenon Squad's Request",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话",
+     "zh": "暗中活动的人们",
+     "ja": "暗躍せし者達",
+     "en": "Those Behind The Scenes",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "灼热的遭遇战",
+     "ja": "灼熱の遭遇戦",
+     "en": "Scorching Encounter",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "异变",
+     "ja": "異変",
+     "en": "Incident",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "结界维持装置攻略战",
+     "ja": "結界維持装置攻略戦",
+     "en": "Battle Of The Barrier Maintenance Equipment",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "审判降临之时",
+     "ja": "裁き、下されしとき",
+     "en": "Time to Give Judgement",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "前路未明",
+     "ja": "行く先は見えず",
+     "en": "Unseen Destination",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "荒废的世界",
+     "ja": "荒廃世界",
+     "en": "Devastated World",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "双子的羁绊",
+     "ja": "双子の絆",
+     "en": "Twin's Bond",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "并立的英杰",
+     "ja": "並び立つ英傑",
+     "en": "Lining Up For A Final Farewell",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "首都夺回作战",
+     "ja": "首都奪回作戦",
+     "en": "Capital Recapture Operation",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "在前方等待之物",
+     "ja": "その先に待つものは",
+     "en": "Those Who Wait For A Destination",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "托付者与被托付者",
+     "ja": "託す者、託される者",
+     "en": "What Was Entrusted, And Who Were Entrusted",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "修特多尼亚斯的明天",
+     "ja": "シュテドニアスの明日",
+     "en": "Shutedonia's Tomorrow",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "破坏的化身",
+     "ja": "破壊の権化",
+     "en": "Embodiment Of Destruction",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "抵达朗格朗",
+     "ja": "ラングラン到達",
+     "en": "Arrival At Langran",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "袭击者",
+     "ja": "襲撃者",
+     "en": "Assailant",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "歼灭之光",
+     "ja": "殲滅の光",
+     "en": "Light of Annihilation",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "突破",
+     "ja": "ブレイクスルー",
+     "en": "Breakthrough",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "弗林格霍尔尼",
+     "ja": "フリングホルニ",
+     "en": "Hringhorni",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第二次分歧（第34–35话）：正树线 / 琉蒂线",
+   "intro": "第33话后四组分头救援魔装机神，玩家二选一跟随；两线的 Part 奖励是不同的「意志」零件。第36话合流。",
+   "rows": [
+    {
+     "code": "第34话",
+     "zh": "鸣动",
+     "ja": "鳴動",
+     "en": "Rumbling",
+     "type": "主线",
+     "area": "",
+     "note": "正树线"
+    },
+    {
+     "code": "第34话",
+     "zh": "永不熄灭的火焰",
+     "ja": "炎、尽きる事なく",
+     "en": "Endless Flame",
+     "type": "主线",
+     "area": "",
+     "note": "琉蒂线"
+    },
+    {
+     "code": "第35话",
+     "zh": "解放之时",
+     "ja": "解放の時",
+     "en": "Time For Release",
+     "type": "主线",
+     "area": "",
+     "note": "正树线"
+    },
+    {
+     "code": "第35话",
+     "zh": "不断的奔流",
+     "ja": "絶えぬ奔流",
+     "en": "Never-Ending Torrent",
+     "type": "主线",
+     "area": "",
+     "note": "琉蒂线"
+    }
+   ]
+  },
+  {
+   "title": "合流共通（第36–40话）",
+   "intro": "第37话开始前的选择（诚实/蒙混）决定此后第41话、第50话与最终话的版本和两组互斥隐藏。",
+   "rows": [
+    {
+     "code": "第36话",
+     "zh": "献给亡国的挽歌",
+     "ja": "亡き王国に捧ぐ挽歌",
+     "en": "Elegy For The Lost Kingdom",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37话",
+     "zh": "巨恶之鼎",
+     "ja": "巨悪の鼎",
+     "en": "Cauldron of Great Evil",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第38话",
+     "zh": "在终结的世界",
+     "ja": "終わりゆく世界で",
+     "en": "At The Ending World",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第39话",
+     "zh": "破灭之门",
+     "ja": "破滅の扉",
+     "en": "Door Of Ruin",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第40话",
+     "zh": "难以忘怀的痛",
+     "ja": "忘れられぬ痛み",
+     "en": "Unforgettable Pain",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第41话（第37话选择分歧）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第41话",
+     "zh": "菲莉斯",
+     "ja": "フィリス",
+     "en": "Phyllis",
+     "type": "主线",
+     "area": "",
+     "note": "谎言路线（第37话选「蒙混过关」）"
+    },
+    {
+     "code": "第41话",
+     "zh": "英雄",
+     "ja": "ヒーロー",
+     "en": "Hero",
+     "type": "主线",
+     "area": "",
+     "note": "诚实路线（第37话选「如实坦白」）"
+    }
+   ]
+  },
+  {
+   "title": "合流共通（第42–49话）",
+   "intro": "",
+   "rows": [
+    {
+     "code": "第42话",
+     "zh": "破碎的心",
+     "ja": "砕かれた心",
+     "en": "Shattered Heart",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第43话",
+     "zh": "世界、痛苦与现实",
+     "ja": "世界と、痛みと、現実と",
+     "en": "World, Pain, And Reality",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第44话",
+     "zh": "伟大者与虚无者",
+     "ja": "巨なる者と虚なる者",
+     "en": "Great Person And Hollow Person",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第45话",
+     "zh": "挡路者",
+     "ja": "立ちはだかる者",
+     "en": "Those Who Stand In The Way",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第46话",
+     "zh": "那力量为谁而存在",
+     "ja": "その力は誰が為に",
+     "en": "For Whom Is That Power",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "反攻开始",
+     "ja": "反攻開始",
+     "en": "Starting The Counter-Offensive",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第48话",
+     "zh": "巨人杀手",
+     "ja": "ジャイアント・キリング",
+     "en": "Giant Killing",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第49话",
+     "zh": "不断重复之事",
+     "ja": "繰り返されてゆく事",
+     "en": "Repeated Things",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘（第50–52话）",
+   "intro": "第50话与最终话（第52话）的版本由第37话的选择决定；第51话共通。",
+   "rows": [
+    {
+     "code": "第50话",
+     "zh": "以一切愿望为代价",
+     "ja": "願いは全てと引き換えに",
+     "en": "In Exchange For All Wishes",
+     "type": "主线",
+     "area": "",
+     "note": "谎言路线"
+    },
+    {
+     "code": "第50话",
+     "zh": "未能实现的约定",
+     "ja": "約束は果たせぬままに",
+     "en": "Unfulfilled Promise",
+     "type": "主线",
+     "area": "",
+     "note": "诚实路线"
+    },
+    {
+     "code": "第51话",
+     "zh": "结局",
+     "ja": "結末",
+     "en": "Outcome",
+     "type": "主线",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第52话（最终话）",
+     "zh": "为了明天，为了未来",
+     "ja": "明日の為に、未来の為に",
+     "en": "For Tomorrow, For The Future",
+     "type": "最终话",
+     "area": "",
+     "note": "谎言路线·最终话"
+    },
+    {
+     "code": "第52话（最终话）",
+     "zh": "用自己的手抓住明天",
+     "ja": "明日を、その手で",
+     "en": "Tomorrow, With Your Own Hands",
+     "type": "最终话",
+     "area": "",
+     "note": "诚实路线·最终话"
+    }
+   ]
+  },
+  {
+   "title": "DLC 战役地图（6 关，付费配信）",
+   "intro": "2014-08-28 发售 4 关、2014-09-03 发售 2 关；单买 185 日元＋税（或 6 关打包 1,111 日元＋税）。",
+   "rows": [
+    {
+     "code": "DLC 1",
+     "zh": "猎人与公主与魔女",
+     "ja": "狩人と王女と魔女",
+     "en": "Hunter, Princess, and Witch",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 2",
+     "zh": "明日的英雄",
+     "ja": "明日のヒーロー",
+     "en": "Tomorrow's Hero",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 3",
+     "zh": "极秘开发计划",
+     "ja": "極秘開発計画",
+     "en": "Top Secret Development Plan",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 4",
+     "zh": "七名操者",
+     "ja": "七人の操者",
+     "en": "Seven Operators",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 5",
+     "zh": "违法交易揭发作战",
+     "ja": "違法取引摘発作戦",
+     "en": "Illegal Transaction Detection Operation",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "DLC 6",
+     "zh": "太古的恐怖与泽尔沃伊德",
+     "ja": "太古の恐怖とゼルヴォイド",
+     "en": "Ancient Fear and Zelvoid",
+     "type": "DLC",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

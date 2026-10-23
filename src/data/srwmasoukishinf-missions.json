@@ -1,0 +1,4936 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "fallen-world",
+   "zh": "堕落的世界",
+   "ja": "フォールン・ワールド",
+   "en": "Fallen World",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "游戏开局",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "莱布雷德被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱布雷德（咲人）本话出击",
+    "里杰利奥尔CL（艾莉西亚）于本话通关后获得"
+   ],
+   "events": [
+    "本作主人公咲人是被阿尔梅拉共和国召唤到拉·基亚斯的地上少年，在魔物（玛古基）袭击中苏醒并登上攻灵机莱布雷德（剧情前提据日文维基）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第2话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第2话",
+   "slug": "unknown",
+   "zh": "未知",
+   "ja": "アンノウン",
+   "en": "Unknown",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第1话后进入",
+   "victory": [
+    "我方全员到达指定区域，或敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第3话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第3话",
+   "slug": "because-of-just-one-life",
+   "zh": "只为一条性命",
+   "ja": "ただ一命の為だけに",
+   "en": "Because of Just One Life",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第2话后进入",
+   "victory": [
+    "10 回合内敌全灭"
+   ],
+   "defeat": [
+    "经过 15 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第4话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第4话",
+   "slug": "what-was-lost-what-was-left",
+   "zh": "失去之物、残留之物",
+   "ja": "失われたもの、残されたもの",
+   "en": "What Was Lost, What Was Left",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第3话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "里杰利奥尔AR（菲莉斯）加入",
+    "瓦尔西奥加（提尔）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第5话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第5话",
+   "slug": "endemic-battlefield",
+   "zh": "常在战场",
+   "ja": "常在戦場",
+   "en": "Endemic Battlefield",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第4话后进入",
+   "victory": [
+    "敌全灭，且莱昂内尔不得被击破"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "全程不让莱昂内尔的 HP 低于 30% → 弹仓（Cartridge；Akurasu 原表拼写作 Cartdrige）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪格里德（莱昂内尔）加入"
+   ],
+   "events": [
+    "本话通关后按等级自动分歧（不是玩家选择）：艾莉西亚的等级高于咲人 → 走艾莉西亚线的第6–7话；咲人的等级大于或等于艾莉西亚 → 走咲人线的第6–7话。两线在第8话合流"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "按等级判定进入第6话（艾莉西亚线或咲人线）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话",
+   "slug": "ripple",
+   "zh": "波纹",
+   "ja": "波紋",
+   "en": "Ripple",
+   "route": "艾莉西亚线（第5话后按等级判定分歧）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第5话通关后，艾莉西亚的等级高于咲人时进入本版本（另一版本见咲人线第6话《逃脱》）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "里杰利奥尔AR（琉蒂）于本线加入"
+   ],
+   "events": [
+    "本版本的出击阵容为艾莉西亚队：里杰利奥尔CL（艾莉西亚）、瓦尔西奥加（提尔）、迪格里德（莱昂内尔）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话（艾莉西亚线）《邪恶军势》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第6话",
+   "slug": "escape",
+   "zh": "逃脱",
+   "ja": "エスケープ",
+   "en": "Escape",
+   "route": "咲人线（第5话后按等级判定分歧）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第5话通关后，咲人的等级大于或等于艾莉西亚时进入本版本（另一版本见艾莉西亚线第6话《波纹》）",
+   "victory": [
+    "我方全员到达指定区域，或敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "7 回合内到达指定区域 → 弗利力场（Foley Field）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本版本的出击阵容为咲人队：莱布雷德（咲人）、里杰利奥尔AR（菲莉斯）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第7话（咲人线）《逃避的前方》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话",
+   "slug": "evil-army",
+   "zh": "邪恶军势",
+   "ja": "悪しき軍勢",
+   "en": "Evil Army",
+   "route": "艾莉西亚线（第5话后按等级判定分歧）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第6话（艾莉西亚线）后进入",
+   "victory": [
+    "敌全灭，其后我方全员到达目标区域"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "4 回合内击破 5 台敌机 → 弗利力场（Foley Field）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第8话合流《巨大的黑暗》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第7话",
+   "slug": "before-the-escape",
+   "zh": "逃避的前方",
+   "ja": "逃避の先に",
+   "en": "Before the Escape",
+   "route": "咲人线（第5话后按等级判定分歧）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第6话（咲人线）后进入",
+   "victory": [
+    "我方全员到达指定区域"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "贾奥姆（根纳季）于本线加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第8话合流《巨大的黑暗》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第8话",
+   "slug": "great-darkness",
+   "zh": "巨大的黑暗",
+   "ja": "大いなる闇",
+   "en": "Great Darkness",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第7话（任一版本）通关后两线合流进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让咲人用「转化驱动（Trance Drive）」击破 3 台敌机 → 修复装置（Repair Device）、补给模块（Supply Module）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "第6–7话分开的全部单位在本话合流"
+   ],
+   "events": [
+    "莱布雷德在本话获得「转化驱动」攻击——TR 计量表攒满后可用的强力武器（TR 系统是本作新引入，见主页）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第9话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "Part 奖励一次列出两件零件（修复装置与补给模块），Akurasu 原表未说明是两件都给还是二选一，本站照原样并记。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第9话",
+   "slug": "until-the-day-peace-comes",
+   "zh": "直到和平到来之日",
+   "ja": "平安が来るその日まで",
+   "en": "Until The Day Peace Comes",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第8话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让莫妮卡击破 3 台敌机 → 水之祝福（Water Blessing）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "诺尔斯·格拉尼亚（莫妮卡）加入",
+    "威佐尔改（萨菲妮）加入",
+    "加里尔纳甘（阿玛拉）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第10话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第10话",
+   "slug": "encounter-in-the-dead-city",
+   "zh": "死都的相遇",
+   "ja": "亡都の出会い",
+   "en": "Encounter In The Dead City",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第9话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让琉蒂击破一台玛古基·雷基（マグゥーキ・ヘキ）→ 魔力电容器（Magic Condenser）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "尼姆巴斯（穆德卡）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第11话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第11话",
+   "slug": "disorder-is-not-righteous",
+   "zh": "无秩序不得伸张",
+   "ja": "無秩序は正されず",
+   "en": "Disorder Is Not Righteous",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第10话后进入",
+   "victory": [
+    "击破布洛"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让穆德卡用「费米子加农炮」击破布洛 → 矢量喷口（Vector Nozzle）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第12话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第12话",
+   "slug": "patriot",
+   "zh": "爱国者",
+   "ja": "パトリオット",
+   "en": "Patriot",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第11话后进入",
+   "victory": [
+    "敌全灭，且我方任何单位不得进入指定区域"
+   ],
+   "defeat": [
+    "我方全灭，或我方单位进入指定区域"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让穆德卡击破 5 台敌机 → 附装甲盾（Add-on Shield）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第13话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第13话",
+   "slug": "goodwill-and-malice",
+   "zh": "善意与恶意",
+   "ja": "善意と悪意",
+   "en": "Goodwill And Malice",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第12话后进入",
+   "victory": [
+    "把尤里德II的 HP 打到 50% 以下，或击破它以外的全部敌人"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "击坠尤里德II → 扩展器（Extender）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第14话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第14话",
+   "slug": "irzenon-squads-request",
+   "zh": "伊尔泽农社的委托",
+   "ja": "イルゼノン社の依頼",
+   "en": "Irzenon Squad's Request",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第13话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "由我方单位击破埃里克、兹内罗与布洛 → AG 调节器（AG Adjuster）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话里杰利奥尔AR（菲莉斯）无法出击"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第15话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第15话",
+   "slug": "those-behind-the-scenes",
+   "zh": "暗中活动的人们",
+   "ja": "暗躍せし者達",
+   "en": "Those Behind The Scenes",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第14话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "莱米亚被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让兹内罗存活到通关 → 主动装甲（Active Armor）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加尔加迪亚（莱米亚）加入"
+   ],
+   "events": [
+    "本提德（兹内罗）与格拉夫无人机（拂晓旅团的混混）×4 以友军 NPC 身份参战"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第16话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第16话",
+   "slug": "scorching-encounter",
+   "zh": "灼热的遭遇战",
+   "ja": "灼熱の遭遇戦",
+   "en": "Scorching Encounter",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第15话后进入",
+   "victory": [
+    "击破阿迪南以外的全部敌人，或阿迪南撤退（HP 降到 50% 时撤退）"
+   ],
+   "defeat": [
+    "我方全灭，或任一敌人到达防卫线"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让阿迪南撤退 → 火之祝福（Flame Blessing）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第17话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第17话",
+   "slug": "incident",
+   "zh": "异变",
+   "ja": "異変",
+   "en": "Incident",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第16话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "莱布雷德（咲人）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "咲人整关不受任何伤害 → 大地祝福（Earth Blessing）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第18话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第18话",
+   "slug": "battle-of-the-barrier-maintenance-equipment",
+   "zh": "结界维持装置攻略战",
+   "ja": "結界維持装置攻略戦",
+   "en": "Battle Of The Barrier Maintenance Equipment",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第17话后进入",
+   "victory": [
+    "咲人在 15 回合内到达指定区域，其后敌全灭"
+   ],
+   "defeat": [
+    "莱布雷德LF（咲人）被击破，或经过 15 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "咲人在 5 回合内到达指定区域 → 生命增幅器（Vital Booster）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话开始时莱布雷德强化为莱布雷德LF"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第19话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第19话",
+   "slug": "time-to-give-judgement",
+   "zh": "审判降临之时",
+   "ja": "裁き、下されしとき",
+   "en": "Time to Give Judgement",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第18话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "索尔盖迪（加恩）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让加恩击破巴修里埃与沃尔夫 → 风之祝福（Wind Blessing）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索尔盖迪（加恩）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第20话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第20话",
+   "slug": "unseen-destination",
+   "zh": "前路未明",
+   "ja": "行く先は見えず",
+   "en": "Unseen Destination",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第19话后进入",
+   "victory": [
+    "阿克雷德到达指定区域，或敌全灭"
+   ],
+   "defeat": [
+    "迪翁（阿克雷德）或里杰利奥尔AR（琉蒂）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "通关时阿克雷德的 HP 不低于 50% → PP 增幅（PP Gain）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪翁（阿克雷德）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第21话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第21话",
+   "slug": "devastated-world",
+   "zh": "荒废的世界",
+   "ja": "荒廃世界",
+   "en": "Devastated World",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第20话后进入",
+   "victory": [
+    "击破布洛"
+   ],
+   "defeat": [
+    "我方全灭；其后莱布雷德LF（咲人）与瓦尔西奥加（提尔）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "5 回合内击破布洛 → 普拉纳循环器（Prana Circulator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "里杰利奥尔CL（艾莉西亚）在本话参战"
+   ],
+   "events": [
+    "本话加尔加迪亚（莱米亚）无法出击"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第22话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第22话",
+   "slug": "twins-bond",
+   "zh": "双子的羁绊",
+   "ja": "双子の絆",
+   "en": "Twin's Bond",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第21话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "共鸣·赤（妮可）或共鸣·苍（莉可）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让妮可或莉可击破布拉什 → HP 回复（HP Recovery）与 MG 回复（MG Recovery）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "共鸣·赤（妮可）加入",
+    "共鸣·苍（莉可）加入"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第23话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第23话",
+   "slug": "lining-up-for-a-final-farewell",
+   "zh": "并立的英杰",
+   "ja": "並び立つ英傑",
+   "en": "Lining Up For A Final Farewell",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第22话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "尤里德II（罗约拉）、尤里德II（莱芬）、共鸣·赤（妮可）、共鸣·苍（莉可）中任一被击破",
+    "其后莱芬或罗约拉被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "通关时莱芬与罗约拉的 HP 都不低于 50% → 以太干扰箔（Ether Chaff）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "里杰利奥尔CL（艾莉西亚）加入",
+    "尤里德II（罗约拉）加入",
+    "尤里德II（莱芬）加入"
+   ],
+   "events": [
+    "本话结束后的整备画面起，以下单位暂时离队（第25话起陆续归队）：加尔加迪亚（莱米亚）、贾奥姆（根纳季）、诺尔斯·格拉尼亚（莫妮卡）、里杰利奥尔AR（琉蒂）、威佐尔改（萨菲妮）、尼姆巴斯（穆德卡）、索尔盖迪（加恩）、共鸣·赤（妮可）、共鸣·苍（莉可）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第24话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第24话",
+   "slug": "capital-recapture-operation",
+   "zh": "首都夺回作战",
+   "ja": "首都奪回作戦",
+   "en": "Capital Recapture Operation",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第23话后进入（第23话离队的单位尚未归队）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第25话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第25话",
+   "slug": "those-who-wait",
+   "zh": "在前方等待之物",
+   "ja": "その先に待つものは",
+   "en": "Those Who Wait For A Destination",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第24话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "5 回合内击破 5 台以上敌机 → 护盾强化器（Shield Enhancer）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加尔加迪亚（莱米亚）归队",
+    "贾奥姆（根纳季）归队",
+    "里杰利奥尔AR（琉蒂）归队",
+    "尼姆巴斯（穆德卡）归队",
+    "索尔盖迪（加恩）归队"
+   ],
+   "events": [
+    "诺尔斯·格拉尼亚（莫妮卡）与威佐尔改（萨菲妮）在本话通关后归队"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第26话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第26话",
+   "slug": "entrusted",
+   "zh": "托付者与被托付者",
+   "ja": "託す者、託される者",
+   "en": "What Was Entrusted, And Who Were Entrusted",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第25话后进入",
+   "victory": [
+    "保护咲人到第 5 回合，其后在 10 回合内击破格拉基奥斯"
+   ],
+   "defeat": [
+    "咲人被击破，或咲人以外的我方单位全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让咲人用「整合之剑（Integral Calibur）」攻击格拉基奥斯 → 普拉纳护盾（Prana Shield）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "共鸣·赤（妮可）归队",
+    "共鸣·苍（莉可）归队"
+   ],
+   "events": [
+    "本话威佐尔改（萨菲妮）无法出击"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第27话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第27话",
+   "slug": "shutedonias-tomorrow",
+   "zh": "修特多尼亚斯的明天",
+   "ja": "シュテドニアスの明日",
+   "en": "Shutedonia's Tomorrow",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第26话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让菲莉斯击破 3 台以上敌机并与博洛交战 → 加速器（Accelerator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱布雷德LF（咲人）参战",
+    "迪弗雷尔（吉多）加入",
+    "拉·温塔（贝奇）加入",
+    "齐内（西莫妮）加入"
+   ],
+   "events": [
+    "本话开始前的整备画面：共鸣·苍（莉可）离队（改造费用返还）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第28话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "Akurasu 流程表把莉可离队在本话单元格内重复写了两次，应为排版重复，本站只记一次。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第28话",
+   "slug": "embodiment-of-destruction",
+   "zh": "破坏的化身",
+   "ja": "破壊の権化",
+   "en": "Embodiment Of Destruction",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第27话后进入",
+   "victory": [
+    "击破沃尔库ルス"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "击破博洛 → 魔力蓄积器（Magic Accumulator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "莱布雷德LF（咲人）参战（Akurasu 流程表如此记载）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第29话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第29话",
+   "slug": "arrival-at-langran",
+   "zh": "抵达朗格朗",
+   "ja": "ラングラン到達",
+   "en": "Arrival At Langran",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第28话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让加恩击破巴修里埃与沃尔夫 → 模块装甲（Modular Armor）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索尔盖迪（加恩）参战"
+   ],
+   "events": [
+    "里杰利奥尔AR（琉蒂）在本话永久离队（改造费用返还）"
+   ],
+   "secrets": [
+    "隐藏升格前置：在第30话开始前，把索尔盖迪的「火魔召唤」攻击升格（Rank Up）——达成后索尔盖迪将在第31话获得升格攻击「无形·攣拘摧破」（见第31话页与主页隐藏总览）"
+   ],
+   "unlocks": [
+    "进入第30话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第30话",
+   "slug": "assailant",
+   "zh": "袭击者",
+   "ja": "襲撃者",
+   "en": "Assailant",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第29话后进入",
+   "victory": [
+    "敌全灭，其后由穆德卡或莱米亚对罗莎莉使用「说得」指令"
+   ],
+   "defeat": [
+    "我方任一单位被击破；其后加尔加迪亚（莱米亚）或尼姆巴斯（穆德卡）被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让穆德卡与莱米亚各击破 2 台敌机 → 精灵石（Spirit Stone）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "贾斯提尼亚（罗莎莉）在本话通关后加入我方"
+   ],
+   "secrets": [
+    "合体攻击连锁（第 1 步）：在本话由穆德卡对罗莎莉使用「说得」——这是穆德卡与罗莎莉的合体攻击「相克剑·龙虎破乃」习得连锁的起点，后续步骤在第33话（见第33话页）"
+   ],
+   "unlocks": [
+    "进入第31话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第31话",
+   "slug": "light-of-annihilation",
+   "zh": "歼灭之光",
+   "ja": "殲滅の光",
+   "en": "Light of Annihilation",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第30话后进入",
+   "victory": [
+    "击破布拉什"
+   ],
+   "defeat": [
+    "咲人被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "击破阿迪南 → PN 回复（PN Repair）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "索尔盖迪（加恩）参战"
+   ],
+   "events": [
+    "莱布雷德LF 在本话结算：除「整合之剑」外，其余武器的改造费用全部返还",
+    "莱布雷德HB（咲人）在本话无法使用",
+    "若第29话页的隐藏前置已达成（索尔盖迪火魔召唤已升格），索尔盖迪在本话获得升格攻击「无形·攣拘摧破」"
+   ],
+   "secrets": [
+    "隐藏攻击的结算在本话：索尔盖迪的升格攻击「无形·攣拘摧破」——条件是在第30话开始前完成索尔盖迪「火魔召唤」的升格（见第29话页）"
+   ],
+   "unlocks": [
+    "进入第32话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第32话",
+   "slug": "breakthrough",
+   "zh": "突破",
+   "ja": "ブレイクスルー",
+   "en": "Breakthrough",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第31话后进入",
+   "victory": [
+    "格兰佐到达指定地点，其后击破阿迪南"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "通关时修的 HP 不低于 50% → 敌人探测器（Enemy Dowser）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "共鸣·赤（妮可）参战",
+    "共鸣·苍（莉可）参战"
+   ],
+   "events": [
+    "格兰佐（修）以 NPC 身份参战，到达目标区域前由电脑控制",
+    "共鸣·赤与共鸣·苍在本话获得合体攻击「双击·阴阳」"
+   ],
+   "secrets": [
+    "隐藏升格：在本话用妮可与莉可的合体攻击「双击·阴阳」击坠阿迪南——达成后该合体攻击升格为「神秘的冰与火焰之影」"
+   ],
+   "unlocks": [
+    "进入第33话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第33话",
+   "slug": "hringhorni",
+   "zh": "弗林格霍尔尼",
+   "ja": "フリングホルニ",
+   "en": "Hringhorni",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第32话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让塞尼亚击破 3 台以上敌机 → 普拉纳共振器（Prana Resonator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "瓦尔希奥妮R（琉妮）加入",
+    "迪亚布罗（普蕾西亚）加入",
+    "吉奥拉斯·罗伊（方格）加入",
+    "威尔斯宾纳·雷（吉诺）加入",
+    "迪拉克希尔（塞尼亚）加入"
+   ],
+   "events": [
+    "本话通关后全军分为 4 组分头救援四台魔装机神，由玩家二选一决定跟随的路线：「在意正树」或「在意琉蒂」，两条路线的第34–35话不同，第36话合流；莱布雷德HB（咲人）会出现在所选路线的第二话（第35话）"
+   ],
+   "secrets": [
+    "合体攻击连锁（第 2 步）：出击罗莎莉与穆德卡——让罗莎莉在穆德卡的援护攻击下击破 2 台敌机，且罗莎莉与穆德卡再各单独击破 1 台。第 1 步（第30话说得罗莎莉）与本步都完成，合体攻击「相克剑·龙虎破乃」即习得",
+    "瓦尔希奥妮R 升格前置（须走正树线）：提尔在本话结束时等级 ≥30、琉妮在本话击破至少 1 台敌机并存活——后续在正树线第35话开头获得升格攻击「圆月杀法·乱散华」（见正树线第35话页）"
+   ],
+   "unlocks": [
+    "按选择进入第34话（正树线《鸣动》或琉蒂线《永不熄灭的火焰》）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话",
+   "slug": "rumbling",
+   "zh": "鸣动",
+   "ja": "鳴動",
+   "en": "Rumbling",
+   "route": "正树线（第33话后选择「在意正树」）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第33话通关后选择「在意正树」时进入本版本（另一版本见琉蒂线第34话《永不熄灭的火焰》）",
+   "victory": [
+    "敌全灭，其后加恩到达指定区域，再敌全灭"
+   ],
+   "defeat": [
+    "加恩被击破；其后我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "近卫骑士团出现后 8 回合内通关 → 大地之意志（Earth Will，闇纏う大地の意志；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "加里尔纳甘（阿玛拉）参战",
+    "贾奥姆（根纳季）参战",
+    "里杰利奥尔CL（艾莉西亚）参战",
+    "索尔盖迪（加恩）参战",
+    "莱奥盖拉（兹雷因）加入",
+    "德尔吉兰（梅菲尔）加入",
+    "共鸣·赤（妮可）参战",
+    "共鸣·苍（莉可）参战",
+    "扎姆吉德（美绪）加入"
+   ],
+   "events": [
+    "初期配置的金魔像被击破后会持续增援新的金魔像（Akurasu 流程表注记）",
+    "本话的 Part 奖励「大地之意志」是解除扎姆吉德凭依回合限制的零件；同类「意志」零件共有 5 件（见主页系统节），且是少数能跨周目继承的零件"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话（正树线）《解放之时》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第34话",
+   "slug": "endless-flame",
+   "zh": "永不熄灭的火焰",
+   "ja": "炎、尽きる事なく",
+   "en": "Endless Flame",
+   "route": "琉蒂线（第33话后选择「在意琉蒂」）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第33话通关后选择「在意琉蒂」时进入本版本（另一版本见正树线第34话《鸣动》）",
+   "victory": [
+    "击破玛古基·马宁（マグゥーキ・マニン）"
+   ],
+   "defeat": [
+    "莱米亚被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让莱米亚击破一台玛古基·马宁，其后 5 回合内再击破两台 → 火焰之意志（Flame Will，光放つ炎の意志；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "威佐尔改（萨菲妮）参战",
+    "诺尔斯·格拉尼亚（莫妮卡）参战",
+    "齐内（西莫妮）参战",
+    "拉·温塔（贝奇）参战",
+    "迪弗雷尔（吉多）参战",
+    "加尔加迪亚（莱米亚）参战",
+    "格兰威尔（杨龙）参战——救出杨龙即结束本话"
+   ],
+   "events": [
+    "本话的 Part 奖励「火焰之意志」是解除格兰威尔凭依回合限制的零件；同类「意志」零件共有 5 件（见主页系统节），且是少数能跨周目继承的零件"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第35话（琉蒂线）《不断的奔流》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话",
+   "slug": "time-for-release",
+   "zh": "解放之时",
+   "ja": "解放の時",
+   "en": "Time For Release",
+   "route": "正树线（第33话后选择「在意正树」）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第34话（正树线）后进入",
+   "victory": [
+    "琉妮在 15 回合内到达指定区域，或敌全灭；其后击破正体不明机"
+   ],
+   "defeat": [
+    "琉妮被击破；其后我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让琉妮击破 4 台以上恶魔型吉鲁弗（Demon Ziruf）→ 风之意志（Wind Will，空駆ける風の意志；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "瓦尔希奥妮R（琉妮）参战",
+    "迪亚布罗（普蕾西亚）参战",
+    "瓦尔西奥加（提尔）参战",
+    "威尔斯宾纳·雷（吉诺）参战",
+    "格兰佐（修）参战",
+    "莱布雷德HB（咲人）参战"
+   ],
+   "events": [
+    "塞巴斯塔（正树）在琉妮到达目标地点后加入",
+    "奈塞利亚（图迪/温蒂）在琉妮到达目标地点后加入",
+    "本话的 Part 奖励「风之意志」是解除塞巴斯塔凭依回合限制的零件"
+   ],
+   "secrets": [
+    "若第33话的升格前置已达成（提尔 Lv≥30、琉妮击破 ≥1 并存活、且走了正树线），瓦尔希奥妮R 在本话开头获得升格攻击「圆月杀法·乱散华」"
+   ],
+   "unlocks": [
+    "第36话合流《献给亡国的挽歌》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第35话",
+   "slug": "never-ending-torrent",
+   "zh": "不断的奔流",
+   "ja": "絶えぬ奔流",
+   "en": "Never-Ending Torrent",
+   "route": "琉蒂线（第33话后选择「在意琉蒂」）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第34话（琉蒂线）后进入",
+   "victory": [
+    "敌全灭，其后菲莉斯在 12 回合内到达指定地点"
+   ],
+   "defeat": [
+    "里杰利奥尔AR（菲莉斯）被击破，或经过 12 回合"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "在救出琉蒂之前击破瓦鲁尼亚 → 水之意志（Water Will，刻満たす水の意志；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "迪拉克希尔（塞尼亚）参战",
+    "吉奥拉斯·罗伊（方格）参战",
+    "尼姆巴斯（穆德卡）参战",
+    "贾斯提尼亚（罗莎莉）参战",
+    "迪格里德（莱昂内尔）参战",
+    "里杰利奥尔AR（菲莉斯）参战",
+    "卡迪斯（琉蒂）参战"
+   ],
+   "events": [
+    "本话的 Part 奖励「水之意志」是解除卡迪斯凭依回合限制的零件"
+   ],
+   "secrets": [
+    "隐藏零件「普拉纳放大器（Prana Amplifier）」的获得条件（本路线专属）：菲莉斯在本话击破至少 1 台敌机、存活到通关、且在本话结束时等级 ≥30"
+   ],
+   "unlocks": [
+    "第36话合流《献给亡国的挽歌》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第36话",
+   "slug": "elegy-for-the-lost-kingdom",
+   "zh": "献给亡国的挽歌",
+   "ja": "亡き王国に捧ぐ挽歌",
+   "en": "Elegy For The Lost Kingdom",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第35话（任一版本）通关后全军合流进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让塞巴斯塔（正树）、卡迪斯（琉蒂）、格兰威尔（杨龙）、扎姆吉德（美绪）各击破 2 台敌机 → 生命发生器（Vital Generator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "第34–35话分开的全部单位在本话开头合流"
+   ],
+   "events": [],
+   "secrets": [
+    "扎什技能连锁（第 1 步）：在本话让莱米亚与蒙加尔交战——这是扎什的追加技能「直到专心」习得连锁的起点，后续步骤在第37话的选择与第45话（见各页）"
+   ],
+   "unlocks": [
+    "进入第37话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第37话",
+   "slug": "cauldron-of-great-evil",
+   "zh": "巨恶之鼎",
+   "ja": "巨悪の鼎",
+   "en": "Cauldron of Great Evil",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第36话后进入；本话开始前的选择将分开此后的路线（见事件）",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让咲人击破格拉基奥斯、修击破沃尔库ルス、正树击破拉斯菲托特 → 摩诃涅槃（Maha Nirvana；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "格兰佐（修）在本话凭依变身为新格兰佐（变身条件与凭依相同，据日方来源）",
+    "本话开始前出现选择：「如实坦白（正直にバラす）」或「蒙混过关（うまくごまかす）」——此选择决定第41话、第50话与最终话（第52话）的版本，以及两组互斥隐藏要素的归属，本周目内不可兼得（靠周回继承补齐）"
+   ],
+   "secrets": [
+    "选「如实坦白」时可达成的隐藏：里杰利奥尔CL 的升格攻击「高流体发射器」（连锁在第41话·英雄）、图迪的追加技能「报复激昂」（连锁在第38话）",
+    "选「蒙混过关」时可达成的隐藏：诺尔斯·格拉尼亚的地图武器「广域修复」（连锁在第44–45话）、扎什的追加技能「直到专心」（连锁在第36/45话）"
+   ],
+   "unlocks": [
+    "进入第38话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "分歧发生的时点：atwiki 的剧本表与 gesato 的隐藏清单都作「第37话开始前」，gesato 自己的分歧概要节却作「第37话结束后」，本站从 atwiki 与隐藏清单的「开始前」并在此注明。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第38话",
+   "slug": "at-the-ending-world",
+   "zh": "在终结的世界",
+   "ja": "終わりゆく世界で",
+   "en": "At The Ending World",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第37话后进入",
+   "victory": [
+    "击破约滕奈"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "图迪技能连锁（仅「如实坦白」路线）：在本话让图迪用反击击破一台敌机——达成后图迪将在第40话开头获得追加技能「报复激昂」（见第40话页）"
+   ],
+   "unlocks": [
+    "进入第39话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第39话",
+   "slug": "door-of-ruin",
+   "zh": "破灭之门",
+   "ja": "破滅の扉",
+   "en": "Door Of Ruin",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第38话后进入",
+   "victory": [
+    "我方全员通过指定区域"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "里杰利奥尔AR（菲莉斯）在本话结算：改造费用全部返还（Akurasu 流程表记载）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第40话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第40话",
+   "slug": "unforgettable-pain",
+   "zh": "难以忘怀的痛",
+   "ja": "忘れられぬ痛み",
+   "en": "Unforgettable Pain",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第39话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话莱布雷德HB（咲人）、里杰利奥尔CL（艾莉西亚）、瓦尔西奥加（提尔）无法出击",
+    "迪格里德（莱昂内尔）在本话通关后结算：改造费用返还（Akurasu 流程表记载）"
+   ],
+   "secrets": [
+    "若第37话选了「如实坦白」且第38话的连锁已达成（图迪反击击破），图迪在本话开头获得追加技能「报复激昂」"
+   ],
+   "unlocks": [
+    "进入第41话（版本由第37话的选择决定）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第41话",
+   "slug": "phyllis",
+   "zh": "菲莉斯",
+   "ja": "フィリス",
+   "en": "Phyllis",
+   "route": "谎言路线（第37话开始前的选择）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第37话开始前选择「蒙混过关」时进入本版本（另一版本见诚实路线第41话《英雄》）",
+   "victory": [
+    "由提尔对菲莉斯使用「说得」指令，其后敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破；其后我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "在说得菲莉斯之前先敌全灭 → 生命发生器（Vital Generator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "瓦尔西奥加（提尔）参战"
+   ],
+   "events": [
+    "本话前半段地图武器不可用",
+    "说得成功后，莱布雷德HB（咲人）、里杰利奥尔CL（艾莉西亚）、加尔加迪亚（莱米亚）撤退离场"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第42话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第41话",
+   "slug": "hero",
+   "zh": "英雄",
+   "ja": "ヒーロー",
+   "en": "Hero",
+   "route": "诚实路线（第37话开始前的选择）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第37话开始前选择「如实坦白」时进入本版本（另一版本见谎言路线第41话《菲莉斯》）",
+   "victory": [
+    "咲人、艾莉西亚与提尔到达指定区域，其后敌全灭"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "在敌全灭之前让咲人、艾莉西亚与提尔先到达指定区域 → 普拉纳共振器（Prana Resonator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "三人到达目标区域后，莱布雷德HB（咲人）、里杰利奥尔CL（艾莉西亚）、瓦尔西奥加（提尔）撤退离场"
+   ],
+   "secrets": [
+    "升格连锁（本路线专属）：在本话让艾莉西亚对提尔进行一次援护攻击或援护防御——达成后里杰利奥尔CL 将在第44话开头获得升格攻击「高流体发射器」（见第44话页）"
+   ],
+   "unlocks": [
+    "进入第42话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第42话",
+   "slug": "shattered-heart",
+   "zh": "破碎的心",
+   "ja": "砕かれた心",
+   "en": "Shattered Heart",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第41话（任一版本）后进入",
+   "victory": [
+    "击破菲莉斯"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让咲人与艾莉西亚都与菲莉斯交战 → 加速器（Accelerator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话地图武器不可用（Akurasu 流程表注记）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第43话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第43话",
+   "slug": "world-pain-and-reality",
+   "zh": "世界、痛苦与现实",
+   "ja": "世界と、痛みと、現実と",
+   "en": "World, Pain, And Reality",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第42话后进入",
+   "victory": [
+    "坚持到第 5 回合，或击破博洛"
+   ],
+   "defeat": [
+    "我方任一单位被击破"
+   ],
+   "defeatNote": "Akurasu 原文的败北条件作 “Any allies defeated”（措辞含混），本站按其字面（任一我方被击破）刊出，与他关的记载方式略有不同，保留待实机核对。",
+   "sr": [],
+   "srNote": "",
+   "part": "在第 4 回合内击破博洛 → SP 回复（SP Repair）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "瓦尔西奥加的驾驶员在本话起变更为莱昂内尔（Akurasu 流程表如此记载，未说明理由）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第44话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第44话",
+   "slug": "great-person-and-hollow-person",
+   "zh": "伟大者与虚无者",
+   "ja": "巨なる者と虚なる者",
+   "en": "Great Person And Hollow Person",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第43话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让艾兰、奥克鲁娅与塞雷娜各击破至少 1 台敌机 → 无之意志（Void Will，虚喚ぶ无の意志；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [
+    "泽尔沃伊德（艾兰）加入",
+    "斯文德·德尔茨（奥克鲁娅）加入",
+    "斯文德·德尔茨（塞雷娜）加入"
+   ],
+   "events": [
+    "本话的 Part 奖励「无之意志」是解除泽尔沃伊德凭依回合限制的零件——5 件「意志」零件至此集齐（其余 4 件在第34–35话的两个版本中）"
+   ],
+   "secrets": [
+    "若第37话选了「如实坦白」且第41话·英雄的连锁已达成，里杰利奥尔CL 在本话开头获得升格攻击「高流体发射器」",
+    "地图武器连锁（仅「蒙混过关」路线）：莫妮卡的累计击坠数在本话结束时达到 30 以上——达成后诺尔斯·格拉尼亚将在第45话开头获得地图武器「广域修复」（见第45话页）"
+   ],
+   "unlocks": [
+    "进入第45话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第45话",
+   "slug": "those-who-stand-in-the-way",
+   "zh": "挡路者",
+   "ja": "立ちはだかる者",
+   "en": "Those Who Stand In The Way",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第44话后进入",
+   "victory": [
+    "击破梅尔森，其后击破蒙加尔"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "由咲人、艾莉西亚或莱昂内尔击破梅尔森 → 魔力蓄积器（Magic Accumulator）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "若第37话选了「蒙混过关」且第44话的连锁已达成（莫妮卡累计击坠 ≥30），诺尔斯·格拉尼亚在本话开头获得地图武器「广域修复」",
+    "扎什技能连锁（第 2 步，仅「蒙混过关」路线）：在本话让莱米亚再次与蒙加尔交战——第 1 步在第36话，达成后扎什将在第47话开头获得追加技能「直到专心」（见第47话页）"
+   ],
+   "unlocks": [
+    "进入第46话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第46话",
+   "slug": "for-whom-is-that-power",
+   "zh": "那力量为谁而存在",
+   "ja": "その力は誰が為に",
+   "en": "For Whom Is That Power",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第45话后进入",
+   "victory": [
+    "击破菲莉斯"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让咲人、艾莉西亚与莱昂内尔都与菲莉斯交战 → S.L.V.R. 代码（S.L.V.R. Code；解锁后跨周目继承）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话地图武器不可用（Akurasu 流程表注记）",
+    "加尔加德（扎什）在出击画面起加入我方",
+    "莱布雷德HB（咲人）在本话获得「转化驱动·全功率」能力；S.L.V.R. 代码同时解除莱布雷德的 TR 限制（据日方来源）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "进入第47话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第47话",
+   "slug": "starting-the-counter-offensive",
+   "zh": "反攻开始",
+   "ja": "反攻開始",
+   "en": "Starting The Counter-Offensive",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第46话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让扎什击破蒙加尔 → 模块装甲（Modular Armor）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话塞巴斯塔（正树）与奈塞利亚（图迪/温蒂）无法出击",
+    "塞巴斯塔的「阿卡夏新星（Akashic Nova）」只能在凭依状态下使用（Akurasu 流程表注记）"
+   ],
+   "secrets": [
+    "若扎什技能连锁已完成（第36话与第45话各让莱米亚与蒙加尔交战一次、且第37话选了「蒙混过关」），扎什在本话开头获得追加技能「直到专心」",
+    "500 万信用点奖励的判定在本话结束时进行：到本话通关为止的总回合数在 300 回合以下，即可在第48话开头获得 500 万信用点（见第48话页）"
+   ],
+   "unlocks": [
+    "进入第48话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第48话",
+   "slug": "giant-killing",
+   "zh": "巨人杀手",
+   "ja": "ジャイアント・キリング",
+   "en": "Giant Killing",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第47话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "让加恩击破巴修里埃与沃尔夫 → 精灵石（Spirit Stone）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "隐藏奖励：若到第47话通关为止的总回合数在 300 回合以下，本话开头获得 500 万信用点。注意 Akurasu 站内两页口径不一：Secret 页作「300 回合以下」，流程表本话条目作「未满 300 回合」，恰好 300 回合时是否给奖两说未裁决，本站并记。"
+   ],
+   "unlocks": [
+    "进入第49话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Secret（隐藏攻击/技能/零件总表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第49话",
+   "slug": "repeated-things",
+   "zh": "不断重复之事",
+   "ja": "繰り返されてゆく事",
+   "en": "Repeated Things",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第48话后进入",
+   "victory": [
+    "敌全灭"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "5 回合内通关 → 护盾强化器（Shield Enhancer）",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第50话（版本由第37话的选择决定）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第50话",
+   "slug": "in-exchange-for-all-wishes",
+   "zh": "以一切愿望为代价",
+   "ja": "願いは全てと引き換えに",
+   "en": "In Exchange For All Wishes",
+   "route": "谎言路线（第37话开始前的选择）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第37话开始前选择「蒙混过关」时进入本版本（另一版本见诚实路线第50话《未能实现的约定》）",
+   "victory": [
+    "击破菲莉斯"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第51话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第50话",
+   "slug": "unfulfilled-promise",
+   "zh": "未能实现的约定",
+   "ja": "約束は果たせぬままに",
+   "en": "Unfulfilled Promise",
+   "route": "诚实路线（第37话开始前的选择）",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "第37话开始前选择「如实坦白」时进入本版本（另一版本见谎言路线第50话《以一切愿望为代价》）",
+   "victory": [
+    "敌全灭，其后击破菲莉斯"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入第51话"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第51话",
+   "slug": "outcome",
+   "zh": "结局",
+   "ja": "結末",
+   "en": "Outcome",
+   "route": "共通",
+   "area": "",
+   "type": "主线",
+   "prerequisite": "完成第50话（任一版本）后进入",
+   "victory": [
+    "击破胡姆·拉卡布"
+   ],
+   "defeat": [
+    "我方全灭"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "进入最终话·第52话（版本由第37话的选择决定）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第52话（最终话）",
+   "slug": "for-tomorrow-for-the-future",
+   "zh": "为了明天，为了未来",
+   "ja": "明日の為に、未来の為に",
+   "en": "For Tomorrow, For The Future",
+   "route": "谎言路线（第37话开始前的选择）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第37话开始前选择「蒙混过关」时进入本版本（另一版本见诚实路线最终话《用自己的手抓住明天》）",
+   "victory": [
+    "击破卡杜姆·哈卡姆"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话气力每回合自动上升；凭依的回合限制在本话解除（Akurasu 流程表注记，两个最终话版本相同）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关本作（谎言路线结局）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "第52话（最终话）",
+   "slug": "tomorrow-with-your-own-hands",
+   "zh": "用自己的手抓住明天",
+   "ja": "明日を、その手で",
+   "en": "Tomorrow, With Your Own Hands",
+   "route": "诚实路线（第37话开始前的选择）",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "第37话开始前选择「如实坦白」时进入本版本（另一版本见谎言路线最终话《为了明天，为了未来》）",
+   "victory": [
+    "击破卡杜姆·哈卡姆"
+   ],
+   "defeat": [
+    "正树被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "本作资金靠击破敌机逐台获得；Akurasu 流程表未逐关刊载通关资金（第48话的 500 万信用点隐藏奖励见该话页面）。",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [
+    "本话气力每回合自动上升；凭依的回合限制在本话解除（Akurasu 流程表注记，两个最终话版本相同）"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关本作（诚实路线结局）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Flow Chart（全关卡流程、胜败条件、Part 条件与机体获得总表；本站关卡编号与逐关条件从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》Clear Bonus（周回继承规则）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    },
+    {
+     "name": "atwiki《魔装機神F》シナリオチャート（全话变体与分歧条件的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/19.html"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 1",
+   "slug": "dlc-hunter-princess-and-witch",
+   "zh": "猎人与公主与魔女",
+   "ja": "狩人と王女と魔女",
+   "en": "Hunter, Princess, and Witch",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-08-28发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★",
+    "通关奖励零件：加速器（Accelerator）、弗利力场（Foley Field）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 2",
+   "slug": "dlc-tomorrows-hero",
+   "zh": "明日的英雄",
+   "ja": "明日のヒーロー",
+   "en": "Tomorrow's Hero",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-08-28发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★★",
+    "通关奖励零件：生命发生器（Vital Generator）、HP 回复（HP Repair）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 3",
+   "slug": "dlc-top-secret-development-plan",
+   "zh": "极秘开发计划",
+   "ja": "極秘開発計画",
+   "en": "Top Secret Development Plan",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-08-28发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★★★",
+    "通关奖励零件：精灵石（Spirit Stone）、PP 增幅（PP Gain）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 4",
+   "slug": "dlc-seven-operators",
+   "zh": "七名操者",
+   "ja": "七人の操者",
+   "en": "Seven Operators",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-08-28发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★★★",
+    "通关奖励零件：普拉纳护盾（Prana Shield）、MG 回复（MG Recovery）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 5",
+   "slug": "dlc-illegal-transaction-detection-operation",
+   "zh": "违法交易揭发作战",
+   "ja": "違法取引摘発作戦",
+   "en": "Illegal Transaction Detection Operation",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-09-03发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★",
+    "通关奖励零件：普拉纳共振器（Prana Resonator）、HP 回复（HP Recovery）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  },
+  {
+   "code": "DLC 6",
+   "slug": "dlc-ancient-fear-and-zelvoid",
+   "zh": "太古的恐怖与泽尔沃伊德",
+   "ja": "太古の恐怖とゼルヴォイド",
+   "en": "Ancient Fear and Zelvoid",
+   "route": "DLC 战役地图",
+   "area": "",
+   "type": "DLC",
+   "prerequisite": "已购买该 DLC 战役地图（2014-09-03发售；单买 185 日元＋税，含税 200 日元，Akurasu DLC 页）",
+   "victory": [],
+   "defeat": [],
+   "defeatNote": "Akurasu 与 atwiki 均未逐关刊载本关的胜败条件，标为待核实。",
+   "sr": [],
+   "srNote": "",
+   "part": "",
+   "rewards": {
+    "funds": "通关奖励资金 100,000（atwiki 战役地图页；重复游玩改为固定 10,000）",
+    "mxp": "",
+    "pp": "",
+    "parts": [],
+    "note": ""
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [
+    "难度（Akurasu 标示）：★★",
+    "通关奖励零件：以太干扰箔（Ether Chaff）、MG 回复（MG Repair）（每周围目限首次通关取得）"
+   ],
+   "unlocks": [
+    "通关奖励可带回主线使用"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "本关敌方编成（初期配置、增援构成与出现时机）在任何已查到的公开来源中都不存在成套记载：Akurasu 的流程表只给胜败条件、Part 条件与机体获得，不列逐关编成；日方 atwiki 有本作逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表；gesato 只有一页综合攻略（无逐关页），wikiwiki 的 SRW 系列站没有本作板块，gameline 与 h1g 均未收录本作（已逐项检索核实）。与前作《魔装机神III》相同——连单一来源的成套编成都不存在，故本关敌方编成标为待核实、且不属于待裁决事项。",
+     "逐单位坐标与逐格地形在任何已查到的公开来源中均不存在：本作地图为等角投影的立体地图，日方来源对位置的描述只有正面/侧面/背面一类朝向用语，没有坐标列。而且本作与 II、III 不同——经日方核查，本作没有发售任何官方攻略本（II 有《Perfect Bible》、III 有《Perfect Guide》，F 均无），地图补完只能靠实机采集，下方为带四边坐标轴的参照框架。"
+    ]
+   },
+   "note": "DLC 关卡在整备画面选择「战役地图（Campaign Maps）」进入，是与主线相连的外传性质普通关卡（不是詰将棋式解谜图），使用预设角色与条件，主线的等级/改造不影响关内机体；关内不给资金、经验与 PP。二周目起只需选中以前通关过的关卡即可直接领取首次通关奖励，6 关全买通关合计可领 600,000（atwiki）。本页的胜败条件来源未逐关刊载，标为待核实。",
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Masou Kishin F》DLC（战役地图一览：难度与零件奖励）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC"
+    },
+    {
+     "name": "atwiki《魔装機神F》キャンペーンマップ（DLC 发售日、价格与通关奖励的交叉核对）",
+     "url": "https://w.atwiki.jp/masoukishinf/pages/76.html"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END（作品概要、发售信息与系统）",
+     "url": "https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END"
+    }
+   ],
+   "map": {
+    "frameW": 14,
+    "frameH": 10,
+    "status": "待核实",
+    "note": "本作地图为等角投影的立体地图（带高低差与朝向），没有传统平面坐标表；任何已查到的公开来源都不提供本关的地图尺寸、单位坐标与逐格地形，本作亦无官方攻略本可供数字化。下方为带四边坐标轴的参照框架，仅供攻略解说时参照方位，不代表实际地图。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与效果）",
+     "敌方单位的初期配置与坐标",
+     "增援的出现坐标",
+     "我方出击位置"
+    ]
+   }
+  }
+ ]
+}

@@ -10,6 +10,7 @@ import Srw4MissionList from '../../components/Srw4MissionList.astro';
 import SrwMasoukishinMissionList from '../../components/SrwMasoukishinMissionList.astro';
 import SrwMasoukishin2MissionList from '../../components/SrwMasoukishin2MissionList.astro';
 import SrwMasoukishin3MissionList from '../../components/SrwMasoukishin3MissionList.astro';
+import SrwMasoukishinFMissionList from '../../components/SrwMasoukishinFMissionList.astro';
 import SrwShinMissionList from '../../components/SrwShinMissionList.astro';
 import SrwFMissionList from '../../components/SrwFMissionList.astro';
 import SrwFFinalMissionList from '../../components/SrwFFinalMissionList.astro';
@@ -61,6 +62,7 @@ const isSrw4 = g.slug === 'srw-4';
 const isMasoukishin = g.slug === 'srw-masoukishin';
 const isMasoukishin2 = g.slug === 'srw-masoukishin-2';
 const isMasoukishin3 = g.slug === 'srw-masoukishin-3';
+const isMasoukishinF = g.slug === 'srw-masoukishin-f';
 const isShin = g.slug === 'srw-shin';
 const isSrwF = g.slug === 'srw-f';
 const isSrwFFinal = g.slug === 'srw-f-final';
@@ -690,6 +692,52 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
       <p>本作的敌方<strong>编成</strong>（初期配置、增援构成与时机、逐台等级/HP 等成表数据）在任何已查到的公开来源中都不存在：Akurasu 的流程表只给胜败条件、Part 条件与机体获得；日方 <strong>wikiwiki 攻略站没有本作的任何页面</strong>，atwiki 只有作品列表提及（其发售日甚至误记），srw.wiki（cre.jp）有丰富的逐机体/逐角色条目但没有逐关敌方构成表。这与前作 II 不同——II 至少有 wikiwiki 一家成套编成（单一来源、待用户裁决）；<strong>III 连单一来源的成套编成都未找到</strong>，因此各页的敌方编成是「无源待核实」，<strong>不属于待裁决事项</strong>（没有可导入的数据集）。敌方<strong>坐标</strong>与逐格地形同样不存在于任何来源（等角投影地图，来源中只有朝向用语），各页地图为带四边坐标轴的参照框架。官方攻略本《Perfect Guide》（角川，2013 年，ISBN 978-4-04-729229-1）是否收录逐关地图未经在线核实，列入本站地图补完计划的候选来源。</p>
 
       <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号、逐话条件与标题以 Akurasu 的 Complete Chart 为主源，与同站 Flow Chart 简表、Secret、Clear Bonus、DLC、FUB 各页交叉核对，路线官方名称、剧情前提与系统沿革以日本维基百科与 srw.wiki、电击 Online 互证。已确认的分歧与处理：①拉古兰线第6话胜利条件——Complete Chart 作「敌全灭」、简表作「击坠杰奥德」，本站从 Complete Chart 并在该页并记。②第14话击坠 5 台金魔像的 Part 奖励名——Complete Chart 作 Vital Generator、简表作 Vital Booster，从 Complete Chart 并记。③加尔加迪亚「超大型光束炮」的获得条件——Complete Chart 作「用莱米亚击坠罗约拉」，Secret 页作「击坠罗约拉的欧几里德II」，两说并记于修线第22话页，未裁决。④第29话胜利条件——Complete Chart 作「敌全灭」、简表作「击坠恶魔型」，从 Complete Chart 并记。⑤Akurasu 内部的人名/物名异写（Shutedonias/Shutedonia、Gennacy/Gennady、Vital Generator/Booster、Cartridge/Cartrige、Horue/Houre 等）本站统一采用通行写法，有实质影响处在相关页面并记。⑥「真结局」的存在由奖杯证实，但其判定条件无源，见上方路线结构节。</p>
+    </div>
+  )}
+
+  {isMasoukishinF && (
+    <div>
+      <h2>剧情概要：静死之棺与魔装机神的终幕</h2>
+      <p>本作是《魔装機神III》的直接续作，也是自《魔装機神 THE LORD OF ELEMENTAL》以来整个魔装机神故事的<strong>完结篇</strong>，同时是开发商 Winkysoft 参与的最后一款机战作品（据日本维基百科）。III 之后不久，神秘的障壁<strong>「静死之棺」</strong>以神圣朗格朗王国为中心展开，朗格朗与外界完全断绝；与此同时，异形魔物<strong>玛古基</strong>成群袭击拉·基亚斯各地、大都市接连被毁。修迎战时<strong>新格兰佐遭到重创</strong>、一时无法使用；修一行以陆上战舰<strong>维拉号</strong>为据点，一边寻找行踪不明的魔装机神操者们，一边向障壁的源头朗格朗进发。前半程故事主要以新主人公<strong>咲人·阿萨吉</strong>的视角展开——他是被阿尔梅拉共和国召唤来的地上少年，在魔物袭击中苏醒、登上攻灵机<strong>莱布雷德</strong>求生。幕后黑手是沃尔库ルス教团的「预言者」<strong>约滕奈</strong>：她是五万五千年前特洛亚文明的人类，肉身被用作封印三邪神的祭品与钥匙，「静死之棺」正是她为切断拉·基亚斯与一切世界、停止全部时间以获得自由与复仇而设的局（据日本维基百科的系列条目与登场人物条目）。</p>
+
+      <h2>路线结构：单一主线，只有三处小分歧</h2>
+      <p>与 II 的三条独立终盘路线、III 的三线结构都不同，本作是<strong>单一主线</strong>：无论怎样分歧，大致的剧情走向与结局都不改变（日方攻略站 gesato 明确如此记载）。全作本站清点 <strong>59 个不同的剧本条目</strong>（Akurasu 流程表与 atwiki 剧本表逐条核对一致：共通 45 话＋变体 14 话），<strong>单周目 52 话</strong>。分歧只有三处：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>分歧点</th><th>决定方式</th><th>影响的剧本</th><th>合流</th></tr></thead>
+          <tbody>
+            <tr><td>第5话通关后</td><td><strong>等级比较（自动判定，不是选择）</strong>：艾莉西亚的等级 ＞ 咲人 → 艾莉西亚线；咲人的等级 ≥ 艾莉西亚 → 咲人线</td><td>第6–7话各有两个版本，出击阵容与加入单位不同</td><td>第8话</td></tr>
+            <tr><td>第33话通关后</td><td>二选一：「在意正树」或「在意琉蒂」（全军四组分头救援魔装机神，跟随其中一组）</td><td>第34–35话各有两个版本；两线的 Part 奖励是不同的凭依解限「意志」零件（正树线：大地/风；琉蒂线：火焰/水）</td><td>第36话</td></tr>
+            <tr><td>第37话开始前</td><td>二选一：「如实坦白」或「蒙混过关」</td><td>第41话、第50话与最终话（第52话）各有两个版本；且两组隐藏要素互斥（诚实：高流体发射器＋报复激昂；蒙混：广域修复＋直到专心），一周目不可兼得</td><td>不合流（版本差异持续到结局）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-base-content/60">第37话选择的时点：atwiki 剧本表与 gesato 的隐藏清单都作「第37话开始前」，gesato 自己的分歧概要节却作「第37话结束后」——本站从「开始前」并在此并记。互斥隐藏靠周回继承补齐：已解锁的隐藏武器/技能在新周目保留（见下方周回继承节）。</p>
+
+      <h2>本作的系统（承 III 的基底，新增 TR 计量表）</h2>
+      <ul>
+        <li><strong>等角投影的立体地图与朝向。</strong>与前作一样是斜视角立体地图，移动后设定朝向，从侧面/背面攻击有命中与攻击力修正、被反击命中下降。srw.wiki 的「方向」条目只刊载了初代与 II 的倍率表，<strong>III 与 F 的具体倍率均未查到来源</strong>，标为待核实，不套用 II 的数字。本作另有一条 F 特有的规则：<strong>武器的追加效果只在从背后命中时才触发</strong>（对敌方同样成立，据 gesato），多个武器与技能都围绕背击设计。</li>
+        <li><strong>Part 条件与强化零件（承 III）。</strong>本作每关除胜败条件外设有一个「Part」条件（限回合、指定击坠、保护对象等），达成后获得一个<strong>强化零件</strong>，逐关刊在各话攻略页；没有 Part 条件的关卡已在该页注明。其中 5 件<strong>「意志」零件</strong>（大地/火焰/风/水/无）分别解除扎姆吉德、格兰威尔、卡迪斯、塞巴斯塔、泽尔沃伊德的<strong>凭依回合限制</strong>，分布在第34–35话的两个版本与第44话——这是第33话分歧在系统上的实际意义。</li>
+        <li><strong>操者育成：PP 学习制（承 III，含改版）。</strong>驾驶员消耗 <strong>PP</strong> 学习特殊技能，技能有等级、装配格数有上限（atwiki 的特殊技能页逐项刊有各等级所需 PP）。相对 III 的变化：II 曾有过的<strong>复合技能</strong>类别在本作复活（一个技能合并两个技能的效果、PP 消耗不高于原两个之和、只占 1 格）；「斩返」与「幻影」合并为「封杀」；技能带来的命中/回避补正改为最终补正（限制在 0%–100%）方式计算。</li>
+        <li><strong>凭依（ポゼッション）。</strong>发动后 HP、MG、PN 全回复（状态变化与 SP 不回复，据 gesato），通常有回合限制，装备对应的「意志」零件后限制解除；第52话（最终话）里凭依限制自动解除。格兰佐变身为新格兰佐（第37话起）的条件与凭依相同。剧情上，四台魔装机神的凭依发动本身就是约滕奈计划的一环。</li>
+        <li><strong>TR（转化）计量表（本作新增）。</strong>莱布雷德与莱布雷德LF 独有的计量表：击破敌人时上升，攒满 100% 后可使用强力武器；第8话莱布雷德获得「转化驱动」攻击。获得第46话的 Part 奖励「S.L.V.R. 代码」后，莱布雷德的 TR 限制解除（据日本维基百科与 atwiki 零件表）。</li>
+        <li><strong>升格（Rank Up）攻击。</strong>部分机体的召唤/固有攻击满足隐藏条件后升格（索尔盖迪的火魔召唤、瓦尔希奥妮R 的圆月杀法、里杰利奥尔CL、妮可与莉可的合体攻击等），全部作为隐藏要素写在触发/获得的那一话页面内（见下方总览）。</li>
+        <li><strong>全灭续战。</strong>全灭后在该话的出击准备画面重新开始，本话内已获得的资金、经验、击坠数与 PP 保留（承 III）；本作的变化是：强制出击的单位在重开的整备画面也能进行改造与养成（据 atwiki）。</li>
+        <li><strong>本作没有熟练度系统。</strong>Akurasu 的流程表没有熟练度/SR 点字段，日本维基百科的系列系统条目所列熟练度采用作品（α 系、OG 系、IMPACT、Z 系）也不含魔装机神系列；本作的分歧与隐藏全由等级比较、路线选择与事件条件（交战、击破数、说得、援护等）决定，本站不会为本作标注任何熟练度条件。第47话结束时「总回合数 ≤300」换 500 万信用点是一次性的隐藏奖励，不是逐关熟练度。</li>
+        <li><strong>全改造奖励（FUB）。</strong>Akurasu 没有为本作设立 FUB 专页（III 有），日方来源中也未查到本作的全改造奖励表，本站标为<strong>待核实</strong>，不套用 III 的奖励清单。</li>
+        <li><strong>周回继承（NG+）。</strong>通关后开新周目，继承：已解锁的全部隐藏武器与隐藏技能、已解锁的技能槽、每名驾驶员击坠数的 100%、以及 7 件解除限制的零件（5 件「意志」零件＋摩诃涅槃＋S.L.V.R. 代码）；总资金（含已花在改造上的部分）与每名驾驶员的 PP 按周目数继承 <strong>50%（二周目）→ 75%（三周目）→ 100%（四周目起）</strong>。不继承：驾驶员等级、上述以外的零件、靠升级解锁的技能（据 Akurasu Clear Bonus 页）。</li>
+      </ul>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素共 <strong>10 项</strong>（Akurasu Secret 页），全是<strong>升格攻击、合体攻击、追加技能与追加零件</strong>，没有隐藏机体；多为跨话连锁，全部写在触发/获得的那一话页面内：索尔盖迪升格攻击「无形·攣拘摧破」（第29话前置→第31话获得）、妮可＆莉可合体攻击升格「神秘的冰与火焰之影」（第32话）、穆德卡＆罗莎莉合体攻击「相克剑·龙虎破乃」（第30话说得→第33话）、瓦尔希奥妮R 升格攻击「圆月杀法·乱散华」（第33话条件→正树线第35话）、里杰利奥尔CL 升格攻击「高流体发射器」（第37话选诚实→第41话·英雄→第44话）、诺尔斯·格拉尼亚地图武器「广域修复」（第37话选蒙混→第44话击坠数→第45话）、零件「普拉纳放大器」（琉蒂线第35话）、图迪的技能「报复激昂」（第37话选诚实→第38话反击→第40话）、扎什的技能「直到专心」（第36话→第37话选蒙混→第45话→第47话）、500 万信用点（第47话结束时总回合 ≤300→第48话）。其中瓦尔希奥妮R 升格与普拉纳放大器被第33话的选择互斥，另四项被第37话的选择两两互斥——全收集必须靠周回。</p>
+
+      <h2>DLC 战役地图（付费配信）</h2>
+      <p>发售后以 DLC 形式贩卖了 <strong>6 个外传性质的战役地图</strong>（2014-08-28 发售 4 关、2014-09-03 发售 2 关；单买 185 日元＋税、含税 200 日元，6 关打包 1,111 日元＋税、含税 1,200 日元——Akurasu 的 200/1,200 日元是含税价，与 atwiki 的税别价是同一价位）。在整备画面选择「战役地图」进入：使用预设角色与条件，主线等级/改造不影响关内机体，关内不给资金、经验与 PP；每关通关奖励 2 件零件＋资金 100,000，每周围目只能取得一次（首次通关），重复游玩只给固定 10,000；二周目起选中以前通关过的关卡即可直接领取奖励，6 关全通合计 600,000。6 关各有独立页面（见下方列表的 DLC 分组），难度星数与零件奖励据 Akurasu DLC 页、资金与价格据 atwiki 战役地图页交叉核对；各关的胜败条件未在来源中逐关刊载，页内标为待核实。</p>
+
+      <h2>敌方数据现状：编成与坐标均无任何来源，且本作没有攻略本</h2>
+      <p>本作的敌方<strong>编成</strong>（初期配置、增援构成与时机、逐台等级/HP 等成表数据）在任何已查到的公开来源中都不存在：Akurasu 的流程表只给胜败条件、Part 条件与机体获得；日方 <strong>atwiki 有本作的逐话页面，但字段只有胜败条件、强化零件获得条件与攻略建议，地图概要是散文记述、没有敌方构成表</strong>；gesato 只有一页综合攻略、没有逐关页；<strong>wikiwiki 攻略站没有本作板块</strong>，gameline 与 h1g 也未收录本作。这与前作 III 相同、比 II 更差——II 至少有 wikiwiki 一家成套编成（单一来源、待用户裁决）；<strong>F 连单一来源的成套编成都未找到</strong>，因此各页的敌方编成是「无源待核实」，<strong>不属于待裁决事项</strong>（没有可导入的数据集）。敌方<strong>坐标</strong>与逐格地形同样不存在于任何来源（等角投影地图，来源中只有朝向用语），各页地图为带四边坐标轴的参照框架。并且本作经日方核查<strong>没有发售任何官方攻略本</strong>（II 有《Perfect Bible》ISBN 978-4-04-727915-5、III 有《Perfect Guide》ISBN 978-4-04-729229-1，F 的日本维基百科条目没有攻略本一节、专门检索也没有任何书目）——III 那样的「攻略本候选」在本作不存在，地图补完只能靠实机采集；限定版附赠的 Special Booklet 是机体美术与阪田雅彦新作短篇小说，不是攻略本。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号、逐话条件与标题以 Akurasu 的 Flow Chart 为主源，与同站 Secret、Clear Bonus、DLC 各页交叉核对，全作话数与变体结构以 atwiki 剧本表独立清点互证（59 个条目、单周目 52 话，两方一致），剧情前提与系统沿革以日本维基百科（本作条目、系列条目、登场人物条目）与 srw.wiki、atwiki、gesato 互证。已确认的分歧与处理：①500 万信用点的回合门槛——Secret 页作「300 回合以下」、流程表第48话条目作「未满 300 回合」，恰好 300 回合是否给奖未裁决，第48话页并记。②第8话的 Part 条件一次列出两件零件（修复装置、补给模块），Akurasu 未说明是两件都给还是二选一，第8话页照原样并记。③第37话选择的时点（开始前/结束后），gesato 站内两处不一致，从 atwiki 与隐藏清单的「开始前」，见上方路线结构节。④Akurasu 内部的人名/物名异写（Ligeriol/Rigierol、Solgady/Sogady、Adinam/Ady Nam、Rosalie/Rosary、Phyllis/Phylis/Philis、Jahom/Jaohm、Duraxyll/Druaxyll、Rayblade HB/BH 等）本站统一采用通行写法。⑤第27话流程表把共鸣·苍的离队重复写了两次，应为排版重复，该页只记一次。⑥DLC 价格的含税/税别口径差异见上方 DLC 节。</p>
     </div>
   )}
 
@@ -4381,6 +4429,11 @@ const isOperationExtend = g.slug === 'srw-operation-extend';
     <div>
       <p>本作 <strong>223 个任务全部建有独立攻略页</strong>（每一个任务一个详情页：8 章共 203 个章节任务——主线第 01–34 话的多段构成共 79 个、支线 113 个、DLC 11 个——加上 20 个模拟战任务；本作无路线分歧，通关所需最短 176 个任务）。下表为按章分组的链接索引：点任务名或「详情」列的<strong>攻略</strong>进入该任务页面，查看该任务的推荐 Lv、地形、过关／连续奖励（资金／EC）、我方加入与初期配置、EC 获得事件与攻略要点及本关隐藏要素（武器 6 项＋零件 24 项，都写在触发的那一关里；本作没有熟练度系统）与坐标地图（敌方编成为 wikiwiki 单一来源暂不刊载待裁决；本作无格子地图、不存在坐标数据，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-operation-extend/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwOperationExtendMissionList />
+    </div>
+  ) : isMasoukishinF ? (
+    <div>
+      <p>本作 <strong>59 个不同剧本全部建有独立攻略页</strong>（每一个剧本一个详情页：共通 45 话，加上三处分歧的全部变体——第6–7话按等级判定分艾莉西亚线/咲人线、第34–35话按选择分正树线/琉蒂线、第41话与第50话与最终话按第37话的选择分诚实/谎言两个版本；单周目实际游玩 52 话），另有 <strong>6 个 DLC 战役地图</strong>各有独立页面，合计 <strong>65 个详情页</strong>。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、Part 零件条件、出击条件、分支条件、参战与离队、隐藏要素与坐标地图（敌方逐关编成与坐标在任何来源中均无记载、待核实，原因见各详情页与上方「敌方数据现状」一节）。本作同时保留一份<a class="link" href={href('srw-masoukishin-f/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwMasoukishinFMissionList />
     </div>
   ) : isSrw30 ? (
     <div>

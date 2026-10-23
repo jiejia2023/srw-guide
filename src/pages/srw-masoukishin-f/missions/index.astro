@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwMasoukishinFMissionList from '../../../components/SrwMasoukishinFMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战OGSAGA魔装机神F', path: 'srw-masoukishin-f/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战OGSAGA魔装机神F（PS3）关卡攻略 · 全59个剧本+DLC列表" description="超级机器人大战OGサーガ 魔装機神F COFFIN OF THE END（2014年 PS3）全部 59 个剧本条目与 6 个 DLC 战役地图的链接索引：单一主线、三处小分歧（第5话后按等级判定、第33话后二选一、第37话开始前的选择）的全部版本。每一话有独立攻略页：胜利/败北条件、Part 零件条件、参战与离队、隐藏要素与坐标地图。本页为链接索引。" path="srw-masoukishin-f/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战OGSAGA魔装机神F · 关卡攻略</h1>
+  <p>2014 年 PS3《超级机器人大战OGサーガ 魔装機神F COFFIN OF THE END》是魔装机神系列的<strong>完结篇</strong>：神秘的障壁「静死之棺」封锁了神圣朗格朗王国，魔物玛古基横行拉·基亚斯，修驾驶的陆上战舰维拉号一边寻找行踪不明的魔装机神操者们、一边向朗格朗进发。与 II、III 的多路线结构不同，本作是<strong>单一主线</strong>，只有三处小分歧：<strong>第5话通关后</strong>按艾莉西亚与咲人的等级比较自动分为艾莉西亚线/咲人线（第6–7话不同，第8话合流）；<strong>第33话通关后</strong>二选一「在意正树」或「在意琉蒂」（第34–35话不同，第36话合流，两线的 Part 奖励是不同的凭依解限零件）；<strong>第37话开始前</strong>的「如实坦白/蒙混过关」选择决定第41话、第50话与最终话的版本，并使两组隐藏要素互斥。本站清点全作共 <strong>59 个不同的剧本条目</strong>（Akurasu 流程表与 atwiki 剧本表逐条核对一致），<strong>单周目 52 话</strong>。另有 6 个付费 DLC 战役地图（单页列出）。本页只是链接索引——每一话的完整攻略（条件、Part 奖励、分支、加入/离队、隐藏要点、坐标地图）都在各自的详情页里。本页与<a href={href('srw-masoukishin-f/')}>本作主页</a>共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作 59 个剧本条目与 6 个 DLC 战役地图全部建有详情页。流程、胜败条件、Part 条件与隐藏要素以 Akurasu Wiki 的《魔装機神F》流程表与 Secret 页为主源，全作话数、变体与分歧结构以日方 atwiki 剧本表和日本维基百科交叉核对。<strong>如实说明</strong>：本作没有熟练度/SR 点系统（两方来源均无记载）；敌方逐关<strong>编成</strong>在任何已查到的公开来源中都不存在成套记载——Akurasu 不列编成，atwiki 的逐话页只有条件与散文式地图概要，gesato 无逐关页，wikiwiki 没有本作板块（与《魔装机神II》「有一家单源数据待裁决」的情况不同，F 连单一来源的成套编成都不存在，故不属于待裁决事项）；逐单位<strong>坐标与逐格地形在任何来源中都不存在</strong>（本作是等角投影立体地图），且本作经日方核查<strong>没有发售任何官方攻略本</strong>（II 有《Perfect Bible》、III 有《Perfect Guide》），地图补完只能靠实机采集，各页地图为带四边坐标轴的参照框架。</span>
+  </div>
+
+  <SrwMasoukishinFMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Flow_Chart" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin F Flow Chart</a>（全 59 个剧本条目的逐关流程、胜败条件、Part 条件、机体获得与路线分歧总表；本站关卡编号与逐关条件从此表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Secret" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin F Secret</a>（隐藏升格攻击、合体攻击、追加技能与零件的总表）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/Clear_Bonus" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin F Clear Bonus</a>（周回继承规则）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Masou_Kishin_F/DLC" rel="noopener" target="_blank">Akurasu Wiki — Masou Kishin F DLC</a>（6 个战役地图的难度与零件奖励）</li>
+    <li><a href="https://w.atwiki.jp/masoukishinf/pages/19.html" rel="noopener" target="_blank">atwiki — 魔装機神F シナリオチャート</a>（全话变体与分歧条件的交叉核对）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/スーパーロボット大戦OGサーガ_魔装機神F_COFFIN_OF_THE_END" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦OGサーガ 魔装機神F COFFIN OF THE END</a>（作品概要、发售信息与 TR 计量表等系统）</li>
+  </ul>
+  <p><a href={href('srw-masoukishin-f/')}>← 返回超级机器人大战OGSAGA魔装机神F</a></p>
+</Base>

@@ -37,6 +37,7 @@ import srwz2saisei from '../data/srwz2saisei-missions.json';
 import srwz3jigoku from '../data/srwz3jigoku-missions.json';
 import srwmk2 from '../data/srwmasoukishin2-missions.json';
 import srwmk3 from '../data/srwmasoukishin3-missions.json';
+import srwmkf from '../data/srwmasoukishinf-missions.json';
 import srwk from '../data/srwk-missions.json';
 import srwneo from '../data/srwneo-missions.json';
 import srwl from '../data/srwl-missions.json';
@@ -55,7 +56,7 @@ export function GET() {
     platformSlugs.add(g.platformSlug);
     paths.add(`${g.slug}/`);
     // /secrets/ 与 /units/ 已改为重定向页（noindex），不进 sitemap；
-    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden、srw-og-2nd 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-z-3-jigoku、srw-k、srw-neo、srw-l、srw-card-chronicle、srw-masoukishin-2、srw-masoukishin-3、srw-ux 与 srw-operation-extend 有真实总表页，其余作的重定向页同样不收录。
+    // /missions/ 仅 srw-30、srw-1、srw-2、srw-3、srw-ex、srw-4、srw-masoukishin、srw-shin、srw-f、srw-f-final、srw-compact、srw-64、srw-compact-2、srw-alpha、srw-alpha-gaiden、srw-a、srw-impact、srw-r、srw-alpha-2、srw-compact-3、srw-og、srw-d、srw-mx、srw-gc、srw-og-2、srw-alpha-3、srw-j、srw-w、srw-ogs、srw-og-gaiden、srw-og-2nd 与 srw-z、srw-z-special、srw-z-2-hakai、srw-z-2-saisei、srw-z-3-jigoku、srw-k、srw-neo、srw-l、srw-card-chronicle、srw-masoukishin-2、srw-masoukishin-3、srw-masoukishin-f、srw-ux 与 srw-operation-extend 有真实总表页，其余作的重定向页同样不收录。
   }
   for (const p of platformSlugs) paths.add(`platform/${p}/`);
   paths.add('srw-30/missions/');
@@ -210,6 +211,10 @@ export function GET() {
   paths.add('srw-masoukishin-3/missions/');
   for (const m of (srwmk3 as any).missions ?? []) {
     if (m.slug) paths.add(`srw-masoukishin-3/missions/${m.slug}/`);
+  }
+  paths.add('srw-masoukishin-f/missions/');
+  for (const m of (srwmkf as any).missions ?? []) {
+    if (m.slug) paths.add(`srw-masoukishin-f/missions/${m.slug}/`);
   }
   paths.add('srw-k/missions/');
   for (const m of (srwk as any).missions ?? []) {
