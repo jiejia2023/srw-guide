@@ -1,0 +1,31 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwDMissionList from '../../../components/SrwDMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战D', path: 'srw-d/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战D（GBA）关卡攻略 · 全54个关卡页面列表" description="超级机器人大战D（2003年 GBA）全部关卡的页面列表：序章＋一周目36–39话，计入地球/宇宙双线、木星/凯拉斯基利、赫利奥斯/天使之环、基辛/拉克斯四重分歧与男女主人公两版，共54个不同剧本。每关独立攻略页含胜利/败北条件、我方加入、本关隐藏要素（说得连锁与击坠数门槛）、敌方编成（两份 GameFAQs 攻略交叉刊载）与坐标地图。本页为链接索引。" path="srw-d/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战D · 关卡攻略</h1>
+  <p>2003 年 GBA《超级机器人大战D》（开发：エーアイ）是 GBA 上的第 4 作机战。舞台是早乙女博士事件后荒废了 13 年的地球：南极遗迹「法布拉·福雷斯」开启异次元之门，地球被黑色力场封锁而「消失」，异次元生命体卢伊纳与「破灭之王」佩尔费克提奥随之而来。开局选择主人公<strong>乔修亚·拉德克利夫（乔什）</strong>或<strong>克莉亚娜·莉姆斯卡亚（莉姆）</strong>，并选定主人公机的类型（真实系／超级系）；序章的选择决定序盘走<strong>地球线</strong>还是<strong>宇宙线</strong>（第1–7话完全不同），其后还有木星／凯拉斯基利、赫利奥斯／天使之环、基辛／拉克斯三重分歧——一周目实际游玩 36–39 话，计入全部路线版本与男女主人公两版共 <strong>54 个不同剧本</strong>，本站全部建页。本作<strong>没有熟练度系统</strong>：隐藏要素全部由路线选择、说得连锁（如全作最长的马尔格四步连锁）与击坠数门槛（哈曼的 400 击坠等）决定。每一关的完整攻略都在各自的详情页里；本页只是链接索引，与<a href={href('srw-d/')}>本作主页</a>共用同一份关卡数据。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>完成度：</strong>本作是本站第二十一部<strong>全关卡补完</strong>的作品——54 个详情页全部建成。用词与编号说明：本站关卡编号与标题以 Akurasu 的 D <strong>Complete Chart 为主源</strong>（话数按路线浮动，采用其并记编号如「第18/17/16话」），逐条与同站 Secrets 页交叉核对，系统与话数以日本维基百科互证——「54 个可玩剧本」与 Akurasu 主条目一致，一周目 36–39 话由本站按各分歧的关数清点（最长：地球线＋凯拉斯基利线＋拉克斯线）。<strong>敌方编成</strong>：47 关由两份独立的 GameFAQs 全文攻略（Deranged faqs/25384、gundamtotoro faqs/25385）交叉刊载（只有构成与掉落，无等级与坐标，两份攻略的总数出入在各页注明）；其余 7 关（木星线 1 关、天使之环线 2 关、拉克斯线 4 关）只有 Deranged 一家记录，按本站「单一来源不导入」的惯例<strong>暂不刊载、待用户裁决</strong>。<strong>如实说明</strong>：Akurasu 的流程图不刊载逐关敌方配置与地图数据，GameCenter GX 不收录本作——各页的敌方等级、坐标与逐格地形标为待核实，坐标图为参照框架。迷你游戏「詰スパロボ（Tsume SRW）」的解谜关卡不属于剧情剧本，未建页（系统说明见本作主页）。</span>
+  </div>
+
+  <SrwDMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/D/Complete_Chart" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars D: Complete Chart</a>（主来源：全关卡的胜败条件、机体加入、隐藏条件与路线结构）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/D/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars D: Secrets</a>（隐藏要素总表，与流程图交叉核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/D" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars D 主条目</a>（发售信息、剧本总数、系统子页索引）</li>
+    <li><a href="https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6D" rel="noopener" target="_blank">日本维基百科 — スーパーロボット大戦D</a>（系统、参战作品、周回继承与剧情梗概的交叉核对）</li>
+    <li><a href="https://gamefaqs.gamespot.com/gba/917609-super-robot-taisen-d/faqs/25384" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen D Guide by Deranged（faqs/25384）</a>（敌方编成来源之一）</li>
+    <li><a href="https://gamefaqs.gamespot.com/gba/917609-super-robot-taisen-d/faqs/25385" rel="noopener" target="_blank">GameFAQs — Super Robot Taisen D Guide by gundamtotoro（faqs/25385）</a>（敌方编成来源之一）</li>
+  </ul>
+  <p><a href={href('srw-d/')}>← 返回超级机器人大战D</a></p>
+</Base>

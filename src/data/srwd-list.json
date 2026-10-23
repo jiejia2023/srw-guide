@@ -1,0 +1,526 @@
+{
+ "groups": [
+  {
+   "title": "序章",
+   "intro": "南极遗迹「法布拉·福雷斯」的事故是全作的起点：主人公（乔什／莉姆二选一）与机体类型（真实系／超级系）在此决定，通关后的二选一决定序盘路线。",
+   "rows": [
+    {
+     "code": "序章",
+     "zh": "地球消失之日",
+     "ja": "プロローグ：地球が消えた日",
+     "en": "The Day the Earth Disappeared",
+     "type": "序章",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "序盘双线（第1–7话＋地球线第8话）",
+   "intro": "地球线与宇宙线的第1–7话内容完全不同：地球线以真盖塔、魔神、达尔塔尼亚斯、V高达为主（第2话起与宇宙线互换部分参战构成的观感不同），宇宙线以逆袭的夏亚、V高达（后段）、高达W、超时空要塞7为主。地球线多一关第8话，宇宙线在本段少一关——这是后续编号浮动的根源。",
+   "rows": [
+    {
+     "code": "第1话·地球线",
+     "zh": "在封闭的世界中",
+     "ja": "閉ざされた世界で",
+     "en": "In a Closed World",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第1话·宇宙线",
+     "zh": "在惑乱的宇宙中",
+     "ja": "惑乱の宇宙（そら）で",
+     "en": "In a Universe of Confusion",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·地球线",
+     "zh": "激震的大地！真龙复活！！",
+     "ja": "激震の大地！真ドラゴン復活！！",
+     "en": "The Earth Quakes! Shin Dragon Revives!!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话·宇宙线",
+     "zh": "最恶的来访者",
+     "ja": "最悪な来訪者",
+     "en": "The Worst Visitor",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·地球线",
+     "zh": "噩梦！侵略者早乙女！",
+     "ja": "悪夢！インベーダー早乙女！",
+     "en": "A Nightmare! Invader Saotome!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话·宇宙线",
+     "zh": "时间之泪永不停歇",
+     "ja": "刻の涙は止まることなく",
+     "en": "The Tears of Time Never End",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·地球线",
+     "zh": "飞吧铁拳！双魔神！！",
+     "ja": "飛ばせ鉄拳！ダブルマジンガー！！",
+     "en": "Flying Metal Punch! Double Mazinger!!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话·宇宙线",
+     "zh": "听我唱歌！",
+     "ja": "オレの歌を聴け！",
+     "en": "LISTEN TO MY SONG!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·地球线",
+     "zh": "在战火中站起来！",
+     "ja": "戦禍の中で立ち上がれ！",
+     "en": "To Stand Up in the Battle!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话·宇宙线",
+     "zh": "少年们重返战场",
+     "ja": "少年たちは戦場へ帰る",
+     "en": "The Boys Who Returned to the Battlefield",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·地球线",
+     "zh": "谈判者先生",
+     "ja": "Ｍｒ．ネゴシエイター",
+     "en": "Mr. Negotiator",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话·宇宙线",
+     "zh": "战斗的女市长 王牌米莉娅！",
+     "ja": "戦う女市長　エースのミリア！",
+     "en": "Fighting Woman Mayor Milia the Ace!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·地球线",
+     "zh": "悲伤在激战之中",
+     "ja": "悲しみは激闘の中",
+     "en": "Sadness in War",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·宇宙线",
+     "zh": "苍蓝的人类摇篮",
+     "ja": "蒼き人類のゆりかご",
+     "en": "The Blue Cradle of Humanity",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·地球线",
+     "zh": "阳光下的战斗",
+     "ja": "陽光下の戦い",
+     "en": "Battle Under the Sun",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流与格拉基艾斯／温特斯（第9/8话–第15/14话）",
+   "intro": "两队合流组成特殊独立部队；第13/12话按主人公分出两版（格拉基艾斯／温特斯连锁的第一步），第15/14话后迎来木星／凯拉斯基利分歧。",
+   "rows": [
+    {
+     "code": "第9/8话",
+     "zh": "结成 特殊独立部队",
+     "ja": "結成　特殊独立部隊",
+     "en": "Formation of the Special Independent Force",
+     "type": "合流关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10/9话",
+     "zh": "俏皮恶魔",
+     "ja": "プリティデビル",
+     "en": "Pretty Devil",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11/10话",
+     "zh": "其名曰\"破灭\"",
+     "ja": "その名は\"破滅\"",
+     "en": "Its Name is \"Ruin\"",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12/11话",
+     "zh": "捕获恐怖的宇宙病贝姆博格！",
+     "ja": "恐怖の宇宙病ベムボーグを捕獲せよ！",
+     "en": "Capture the Fearsome Space Disease Bemborg!",
+     "type": "特殊关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13/12话·男主人公",
+     "zh": "冰之偶人 格拉基艾斯",
+     "ja": "アイスドール　グラキエース",
+     "en": "Ice Doll Glacies",
+     "type": "主人公关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13/12话·女主人公",
+     "zh": "命运之风",
+     "ja": "運命の風",
+     "en": "Winds of Fate",
+     "type": "主人公关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14/13话",
+     "zh": "降临！斩断南海的邪神！！",
+     "ja": "降臨！南海を断つ邪神！！",
+     "en": "Advent! The Evil God Severs the South Sea!!",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15/14话",
+     "zh": "强袭！基辛星际帝国织女舰队",
+     "ja": "強襲！ギシン星間帝国ベガ艦隊",
+     "en": "Assault! Gishin Empire's Vega Fleet",
+     "type": "分歧前关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "木星／凯拉斯基利分歧（第16/15话–第25/24/23话）",
+   "intro": "木星线只有 1 关，凯拉斯基利线有 2 关（多出攻略战）；合流后经马尔格连锁（第20话）、拜因特／梅利克留斯（第21–22话）到第25话的主人公机分岔结算。",
+   "rows": [
+    {
+     "code": "第16/15话·木星线",
+     "zh": "木星幻影",
+     "ja": "ジュピター・ミラージュ",
+     "en": "Jupiter Mirage",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16/15话·凯拉斯基利线",
+     "zh": "对决！火星与马尔格",
+     "ja": "対決！マーズとマーグ",
+     "en": "Showdown! Mars vs. Marg",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17/16话·凯拉斯基利线",
+     "zh": "凯拉斯基利攻略战",
+     "ja": "カイラスギリー攻略戦",
+     "en": "The Keilas Guilie Strategy",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18/17/16话",
+     "zh": "背后的感伤",
+     "ja": "背中ごしのセンチメンタル",
+     "en": "Sentimental Over My Back",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19/18/17话",
+     "zh": "来自另一个地球者",
+     "ja": "アナザー・アースより来るもの",
+     "en": "Those That Came from Another Earth",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20/19/18话",
+     "zh": "银河之虎",
+     "ja": "銀河の虎",
+     "en": "Tiger of the Galaxy",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21/20/19话",
+     "zh": "行星之舞",
+     "ja": "ＰＬＡＮＥＴ　ＤＡＮＣＥ",
+     "en": "PLANET DANCE",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22/21/20话",
+     "zh": "扎尔舰队总司令克罗彭的挑战！",
+     "ja": "ザール艦隊総司令クロッペンの挑戦！",
+     "en": "Zarl Commander Kloppen's Challenge!",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23/22/21话",
+     "zh": "壮绝！巨大滚轮作战！",
+     "ja": "壮絶！巨大ローラー作戦！",
+     "en": "Operation Giant Roller!",
+     "type": "特殊关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24/23/22话",
+     "zh": "听不见的安魂曲",
+     "ja": "聞こえないレクイエム",
+     "en": "Inaudible Requiem",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25/24/23话",
+     "zh": "生与死的咒缚",
+     "ja": "生と死の呪縛",
+     "en": "The Curse of Life and Death",
+     "type": "主人公关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "主人公机结算与赫利奥斯／天使之环分歧（第26/25/24话–第31/30/29话）",
+   "intro": "第26话按主人公分两版并结算福尔特吉加斯的形态；第28话后分赫利奥斯／天使之环两线（各 2 关），连锁在第32话交叉结算；第31话汇合后迎来最后的基辛／拉克斯分歧。",
+   "rows": [
+    {
+     "code": "第26/25/24话·男主人公",
+     "zh": "共鸣灵魂的去向",
+     "ja": "響きあう魂の行方",
+     "en": "Where the Soul Resonates",
+     "type": "主人公关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26/25/24话·女主人公",
+     "zh": "向我告别",
+     "ja": "私に、さよならを",
+     "en": "Goodbye to Myself",
+     "type": "主人公关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27/26/25话",
+     "zh": "高傲的反叛者",
+     "ja": "誇り高き反逆者",
+     "en": "Proud Rebel",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28/27/26话",
+     "zh": "战场之父 战场之子",
+     "ja": "戦場の父　戦場の子",
+     "en": "Father of the Battlefield, Children of the Battlefield",
+     "type": "分歧前关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29/28/27话·赫利奥斯线",
+     "zh": "被揭露的真相",
+     "ja": "暴かれた真実",
+     "en": "Uncovered Truth",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29/28/27话·天使之环线",
+     "zh": "与幻觉共舞",
+     "ja": "幻覚と踊れ",
+     "en": "The Dance of Illusions",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30/29/28话·赫利奥斯线",
+     "zh": "反叛的克罗彭",
+     "ja": "反逆のクロッペン",
+     "en": "Treasonous Kloppen",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30/29/28话·天使之环线",
+     "zh": "狂乱的天使之环",
+     "ja": "狂乱のエンジェル・ハイロゥ",
+     "en": "The Madness of Angel Halo",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31/30/29话",
+     "zh": "黑暗的皇帝",
+     "ja": "暗黒の皇帝",
+     "en": "Emperor of Darkness",
+     "type": "分歧前关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终局：基辛／拉克斯分歧与最终话（第32/31/30话–最终话）",
+   "intro": "基辛线 3 关、拉克斯线 4 关（多出《让我们的歌响彻银河》）；合流后经第36话、危机点，到最终话与破灭之王佩尔费克提奥决战。",
+   "rows": [
+    {
+     "code": "第32/31/30话·基辛线",
+     "zh": "反逆行星的对决！",
+     "ja": "反逆惑星の対決！",
+     "en": "Showdown on the Rebellious Planet!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32/31/30话·拉克斯线",
+     "zh": "禁断行星的西比尔",
+     "ja": "禁断惑星のシビル",
+     "en": "Sivil of the Forbidden Planet",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33/32/31话·基辛线",
+     "zh": "卑劣的皇帝祖鲁",
+     "ja": "卑怯な皇帝ズール",
+     "en": "Cowardly Emperor Zuul",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33/32/31话·拉克斯线",
+     "zh": "决死的防卫",
+     "ja": "決死の防衛",
+     "en": "Desperate Defense",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34/33/32话·基辛线",
+     "zh": "死斗！基辛星最终决战！",
+     "ja": "死闘！ギシン星最終決戦！",
+     "en": "Deathmatch! Final Battle on Planet Gishin!",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34/33/32话·拉克斯线",
+     "zh": "噩梦的突入作战",
+     "ja": "悪夢の突入作戦",
+     "en": "Nightmarish Strategy",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35/34/33话·拉克斯线",
+     "zh": "让我们的歌响彻银河",
+     "ja": "響け銀河に　オレたちの歌",
+     "en": "The Galaxy Echoes with My Song",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36/35/34/33话",
+     "zh": "\"破灭\"的意义",
+     "ja": "\"破滅\"の意味",
+     "en": "The Meaning of \"Ruin\"",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第37/36/35/34话",
+     "zh": "危机点",
+     "ja": "クライシスポイント",
+     "en": "Crisis Point",
+     "type": "通常关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "Desire（欲望）",
+     "ja": "デザイア",
+     "en": "Desire",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

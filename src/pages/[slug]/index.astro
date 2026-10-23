@@ -22,6 +22,7 @@ import SrwImpactMissionList from '../../components/SrwImpactMissionList.astro';
 import SrwRMissionList from '../../components/SrwRMissionList.astro';
 import SrwAlpha2MissionList from '../../components/SrwAlpha2MissionList.astro';
 import SrwOgMissionList from '../../components/SrwOgMissionList.astro';
+import SrwDMissionList from '../../components/SrwDMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -50,6 +51,7 @@ const isSrwImpact = g.slug === 'srw-impact';
 const isSrwR = g.slug === 'srw-r';
 const isSrwAlpha2 = g.slug === 'srw-alpha-2';
 const isSrwOg = g.slug === 'srw-og';
+const isSrwD = g.slug === 'srw-d';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -1210,6 +1212,136 @@ const isSrwOg = g.slug === 'srw-og';
     </div>
   )}
 
+  {isSrwD && (
+    <div>
+      <h2>剧情概要：消失的地球与破灭之王</h2>
+      <p>本作（2003 年 8 月 8 日发售，开发：エーアイ）是 GBA 上的第 4 作机战。早乙女博士引发的事件让世界荒废了 13 年之后，科学者集团「利·特克诺洛基斯特（Re-Technologist）」在南极古代遗迹「法布拉·福雷斯」最深处打开了次元之门——异次元的能量生命体势力「卢伊纳（Ruina）」自门中出现，地球被黑色力场覆盖、与宇宙断绝，在宇宙一侧看来如同「消失」。当时正在进行阿克西斯落下作战的新吉翁、OZ 与超时空要塞 7 船团等势力被迫各自结盟应对混乱；被事故的空间跳跃抛出去的拉德克利夫兄妹——<strong>乔修亚（乔什）</strong>与义妹<strong>克莉亚娜·莉姆斯卡亚（莉姆）</strong>——分别被地上与宇宙的势力收容，成为追查地球消失真相的核心。卢伊纳的指挥官是被称为「梅利奥尔·艾塞（上位存在）」的人偶们，其源头是被「破灭之王」佩尔费克提奥占据了肉体的父亲菲利奥·拉德克利夫（以上梗概据日文维基）。本作的原创班底后来在《第2次OG》中回归 OG 世界线。</p>
+
+      <h2>两位主人公与主人公机：真实系／超级系两套</h2>
+      <p>开局二选一主人公（乔什／莉姆），并选定主人公机的<strong>类型</strong>；另一位主人公会以同类型的另一台主机同时登场（两人是义兄妹，全程同队）。四台前期主人公机与后续形态如下（据 Akurasu 流程图的加入/升级栏与日文机体评价资料）：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>类型</th><th>乔什的机体</th><th>莉姆的机体</th><th>后续形态</th></tr></thead>
+          <tbody>
+            <tr><td>真实系</td><td>艾尔·舒瓦利埃（Aile Chevalier）</td><td>布朗什·涅日（Blanche Neige）</td><td>第25/24/23话分别升级为杰安·舒瓦利埃、德亚·布朗什·涅日</td></tr>
+            <tr><td>超级系</td><td>加纳多尔（Ganador）</td><td>斯特雷加（Strega）</td><td>第26/25/24话通关后合体为福尔特吉加斯（形态按隐藏连锁分岔，见各话页面）</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>主人公机搭载着名为「辛帕西亚（Sympathia）」的系统——它与莉姆的双重人格（莉亚娜／克莉丝）的成因、以及和格拉基艾斯／温特斯的共鸣都有关。第13/12话与第25/24/23话的两步选择决定这两名卢伊纳人偶是否加入，也决定福尔特吉加斯是「可分离、另一主人公任副驾驶员」还是「永久合体、不可分离」。</p>
+
+      <h2>路线结构：四重分歧、一周目 36–39 话、54 个不同剧本</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>分歧点</th><th>路线 A</th><th>路线 B</th><th>差异</th></tr></thead>
+          <tbody>
+            <tr><td>序章通关后</td><td>地球线（第1–8话）</td><td>宇宙线（第1–7话）</td><td>第1–7话内容完全不同；地球线多一关第8话</td></tr>
+            <tr><td>第15/14话后</td><td>木星线（1 关）</td><td>凯拉斯基利线（2 关）</td><td>隐藏互斥：高达Mk-III／ν高达HWS</td></tr>
+            <tr><td>第28/27/26话后</td><td>赫利奥斯线（2 关）</td><td>天使之环线（2 关）</td><td>连锁互斥：达尔塔尼亚斯武装系／V高达・卡特珍娜系</td></tr>
+            <tr><td>第31/30/29话后</td><td>基辛线（3 关）</td><td>拉克斯线（4 关）</td><td>拉克斯线多一关第35话；连锁各在此结算</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>此外第13/12话与第26/25/24话各有男／女主人公两版（剧情与隐藏条件不同）。因为三处分歧的关数不对等，<strong>同一关的话数编号会随路线浮动</strong>（如合流后的某关在不同周目里是第18、17 或 16 话）——本站标题采用 Akurasu 流程图的并记编号（如「第18/17/16话」），详情页的出击条件里写明该关在各路线中的位置。Akurasu 主条目作「54 playable scenarios」，与本站按流程图逐条清点的 54 个不同剧本一致；一周目实际游玩 36–39 话（最长组合：地球线＋凯拉斯基利线＋拉克斯线）。</p>
+
+      <h2>本作的系统</h2>
+      <ul>
+        <li><strong>没有熟练度系统。</strong>本作的分歧与隐藏全部由路线选择、说得连锁、击坠数门槛与回合条件决定。Akurasu 主条目对流程图的简介文字写有「BMs（Battle Mastery）」一词，但流程图本体并无熟练度栏目、日文维基的系统解说也无此系统——本站按「无熟练度」处理，不给任何一关标注熟练度条件（详见文末分歧说明）。</li>
+        <li><strong>援护是分开的两个驾驶员技能。</strong>「援护攻击」「援护防御」各自独立（与《OG》的攻防合一不同），可用次数等于技能等级（Akurasu Pilot Skills 页）。</li>
+        <li><strong>组合（Combo）武器。</strong>持有驾驶员技能「组合」的驾驶员，可用带组合属性的武器一次攻击直线上并排的多台敌人，数量上限等于技能等级（日文维基、Akurasu Pilot Skills 页）。</li>
+        <li><strong>奖励点数（BP）。</strong>与 α 系的 PP 不同：每升 1 级得 1 点 BP，分配到格斗／射击／防御／技量／回避／命中六项强化驾驶员；上限按「已投入总点数」计算，单项最多投入 255 点（日文维基）。</li>
+        <li><strong>技能部件（Skill Parts）。</strong>装在驾驶员身上的部件：有直接加能力值的，也有赋予驾驶员技能（反击、打带跑等）的；每位驾驶员的装配槽数不同（日文维基）。</li>
+        <li><strong>全改造奖励（FUB）在 GBA 作品中首次实装。</strong>机体改满后可再附加一层强化奖励——这是本作在 GBA 系列中的首创（日文维基）；《OG》（PS2 OGS 等）的 FUB 不要套回本作以前的 GBA 作品。</li>
+        <li><strong>武器不可换装</strong>：本作的武器固定，OG 式「特殊效果武器」以强化部件的形态存在；部分原作武器（魔神Z 的锈蚀飓风等）自带追加效果（日文维基）。</li>
+        <li><strong>全灭续关自本作放宽。</strong>《R》为止快速存档后全灭会被送回标题；本作起即使快速存档过也能全灭重打本关，等级、精神、经验、已赚资金与总回合数保留（日文维基）——刷钱刷级可行，但总回合数照涨。</li>
+        <li><strong>王牌奖励（Ace Bonus）。</strong>驾驶员击坠数达 50 → 开局气力 +5（王牌），达 100 → +10（双重王牌）；全军击坠王的击坠数还决定通关资金倍率：40/80/120/160/200 台对应 ×1.1/×1.2/×1.3/×1.4/×1.5（Akurasu Ace Bonus 页）。</li>
+        <li><strong>歌（超时空要塞7）。</strong>巴萨拉等人的歌对友军是能力强化、对持有「原初恶魔」技能的敌人是贯通伤害；消耗专用的「歌EN」、威力取决于「歌魂」值（日文维基）。歌曲还能发动下表之外的地图合体攻击。</li>
+        <li><strong>六神合体与反阳子爆弹。</strong>盖亚 HP 降至 50% 以下（含被击破）会自动召唤五神合体为高德马斯；但高德马斯体内埋有反阳子爆弹，<strong>被击破即游戏结束</strong>——除非走完赫利奥斯→基辛线的两步连锁把爆弹拆除（见隐藏总览）。这是本作最重要的保命线。</li>
+        <li><strong>迷你游戏「詰スパロボ」。</strong>随剧情进度解锁的解谜关卡（将棋式的一回合谜题），过关给部件与奖金；它不是剧情剧本，本站未建页（Akurasu 另有 Puzzle 页专记）。</li>
+      </ul>
+
+      <h2>合体攻击（全表，据 Akurasu Team Attacks 页）</h2>
+      <p>本作的合体攻击数量在 GBA 作品中首屈一指。规则注记：浮游炮系四招要求两名驾驶员出自同一子系列（如 Z 与 ZZ、逆袭的夏亚与 V 高达）；Double Fin Funnel、Double Beam Smartgun、Double Overhang Cannon 只需所列机体中任意两台；D Formation（梦魇）须黑色梦魇三机；超时空要塞7 的合体攻击要求成员形态一致。歌曲地图合体攻击另有 6 种（PLANET DANCE、Totsugeki Love Heart、HOLY LONELY LIGHT、MY FRIENDS、POWER TO THE DREAM、TRY AGAIN，巴萨拉／米莲发动，除伤害外还给命中回避、气力、防御技量、SP、格斗射击等范围强化）。</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>合体攻击</th><th>参与机</th><th>威力</th><th>射程</th><th>气力</th><th>EN</th></tr></thead>
+          <tbody>
+            <tr><td>Double Mega Launcher</td><td>Z高达 / ZZ高达（或全装甲ZZ）</td><td>3600</td><td>2-6</td><td>110</td><td>60</td></tr>
+            <tr><td>Double Funnel</td><td>亚克特·多加（丘尼）/ 亚克特·多加（葵丝）</td><td>3400</td><td>3-7</td><td>110</td><td>45</td></tr>
+            <tr><td>Double Fin Funnel</td><td>ν高达（或 HWS）/ Hi-ν高达 / 量产型ν高达 中任意 2 台</td><td>3400</td><td>3-7</td><td>110</td><td>45</td></tr>
+            <tr><td>Double Beam Smartgun</td><td>V高达 / V高达·六角型 中任意 2 台</td><td>3200</td><td>2-6</td><td>110</td><td>50</td></tr>
+            <tr><td>Double Overhang Cannon</td><td>V-Dash高达 / V-Dash高达·六角型 中任意 2 台</td><td>3800</td><td>2-6</td><td>110</td><td>50</td></tr>
+            <tr><td>Double Mars Flash</td><td>高德马斯（武）/ 高德马斯（马尔格）</td><td>3250</td><td>1</td><td>110</td><td>—</td></tr>
+            <tr><td>Double Final Godmars</td><td>高德马斯（武）/ 高德马斯（马尔格）</td><td>4750</td><td>1</td><td>130</td><td>100</td></tr>
+            <tr><td>W Mazinger Blade (Z)</td><td>魔神Z ＋ 大魔神 或 古连戴萨</td><td>2400</td><td>1</td><td>—</td><td>10</td></tr>
+            <tr><td>W Mazinger Blade (G)</td><td>大魔神 ＋ 古连戴萨</td><td>2400</td><td>1</td><td>—</td><td>10</td></tr>
+            <tr><td>W Mazinger Punch (Z)</td><td>魔神Z ＋ 大魔神 或 古连戴萨</td><td>3000</td><td>1-3</td><td>—</td><td>35</td></tr>
+            <tr><td>W Mazinger Punch (G)</td><td>大魔神 ＋ 古连戴萨</td><td>3000</td><td>1-3</td><td>—</td><td>35</td></tr>
+            <tr><td>Double Breast Fire</td><td>魔神Z / 大魔神</td><td>3700</td><td>1</td><td>—</td><td>60</td></tr>
+            <tr><td>W Lightning Buster</td><td>大魔神 / 古连戴萨</td><td>3700</td><td>1</td><td>—</td><td>60</td></tr>
+            <tr><td>Triple Mazinger Blade</td><td>魔神Z / 大魔神 / 古连戴萨</td><td>2600</td><td>1</td><td>—</td><td>20</td></tr>
+            <tr><td>Triple Mazinger Punch</td><td>魔神Z / 大魔神 / 古连戴萨</td><td>3600</td><td>1-3</td><td>—</td><td>50</td></tr>
+            <tr><td>Mazinger Tornado</td><td>魔神Z / 大魔神 / 古连戴萨</td><td>4000</td><td>1</td><td>110</td><td>80</td></tr>
+            <tr><td>F Dynamic Special</td><td>魔神Z / 大魔神 / 古连戴萨 ＋ 真盖塔1</td><td>4200</td><td>1</td><td>120</td><td>100</td></tr>
+            <tr><td>Double Missile</td><td>戴安娜A / 维纳斯A</td><td>2400</td><td>1-5</td><td>110</td><td>30</td></tr>
+            <tr><td>Borot Home Run</td><td>波士博罗特 / 机器人Jr</td><td>3000</td><td>1-9</td><td>130</td><td>30</td></tr>
+            <tr><td>Double Getter Tomahawk</td><td>盖塔1（三人）/ 黑盖塔（三人）</td><td>2500</td><td>1</td><td>110</td><td>10</td></tr>
+            <tr><td>Double Getter Beam</td><td>盖塔1（三人）/ 黑盖塔（三人）</td><td>3400</td><td>1</td><td>120</td><td>70</td></tr>
+            <tr><td>Final Getter Beam</td><td>真盖塔1 / 真龙</td><td>3700</td><td>1</td><td>120</td><td>70</td></tr>
+            <tr><td>Final Getter Tomahawk</td><td>真盖塔1 / 真龙</td><td>4000</td><td>1</td><td>130</td><td>100</td></tr>
+            <tr><td>Alpha Beta Gamma Attack</td><td>亚特劳斯 / 冈佩尔 / 贝拉利奥斯（合体前组件）</td><td>3000</td><td>1</td><td>110</td><td>30</td></tr>
+            <tr><td>Double Trans Saber</td><td>达尔塔尼亚斯 / 加斯孔专用机器人</td><td>3000</td><td>1</td><td>110</td><td>30</td></tr>
+            <tr><td>D Formation (Nightmare)</td><td>VF-17 梦魇 ×3（黑色三机）</td><td>3000</td><td>1-5</td><td>120</td><td>30</td></tr>
+            <tr><td>D Formation (Excalibur)</td><td>VF-19 王者之剑 ×3</td><td>3100</td><td>1-5</td><td>120</td><td>30</td></tr>
+            <tr><td>Double Micro Missile</td><td>VF-22S 雨燕II（马克）/ VF-22S 雨燕II（米莉娅）</td><td>3400</td><td>1-5</td><td>120</td><td>30</td></tr>
+            <tr><td>Double Gunpod</td><td>VF-22S 雨燕II（马克）/ VF-22S 雨燕II（米莉娅）</td><td>2700</td><td>1-5</td><td>120</td><td>30</td></tr>
+            <tr><td>W Pinpoint Barrier Punch</td><td>VF-22S 雨燕II（马克）/ VF-22S 雨燕II（米莉娅）</td><td>3800</td><td>1</td><td>120</td><td>40</td></tr>
+            <tr><td>Alternate Duel</td><td>加纳多尔 / 斯特雷加</td><td>3750</td><td>1</td><td>130</td><td>100</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>隐藏要素总览</h2>
+      <p>本作的隐藏要素以<strong>路线互斥</strong>为骨架：一周目内赫利奥斯线与天使之环线的连锁回报不可兼得，须靠周回补齐。各步的具体做法写在触发/结算的那一话页面内，下表为总览：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>要素</th><th>关键话</th><th>条件概要</th></tr></thead>
+          <tbody>
+            <tr><td>VF-11C 雷霆／VF-1J 女武神（二选一）</td><td>宇宙线第6话</td><td>卡姆林击坠 ≥6 出现选择、≥10 出现第二次选择；取得后本关时限缩短为 6 回合</td></tr>
+            <tr><td>格拉基艾斯（法比拉利斯）</td><td>第13/12话 → 第25/24/23话</td><td>乔什线：说得格拉基艾斯 → 选「不切断系统」</td></tr>
+            <tr><td>温特斯（斯图迪乌姆）</td><td>第13/12话 → 第25/24/23话</td><td>莉姆线：选「听他讲述」→ 选「不切断系统」</td></tr>
+            <tr><td>高达Mk-III</td><td>木星线第16/15话</td><td>第15/14话后选木星线即取得（与 ν高达HWS 互斥）</td></tr>
+            <tr><td>ν高达HWS</td><td>凯拉斯基利线第16/15话 → 第17/16话</td><td>选凯拉斯基利线，且第16/15话结束时阿姆罗击坠 ≥50</td></tr>
+            <tr><td>B.D. 与扎梅·扎乌</td><td>第18/17/16话</td><td>B.D. 登场后 3 回合内将其击破</td></tr>
+            <tr><td>马尔格（盖亚）</td><td>第20话 → 第27话 → 赫利奥斯线第29话 → 基辛线</td><td>全作最长四步连锁：两次说得 → 说得后由武击破其高德马斯 → 终局选基辛线</td></tr>
+            <tr><td>拜因特／梅利克留斯</td><td>第21/20/19话 → 第22/21/20话</td><td>希尔德＋诺因合计击坠 10–19 只得拜因特、≥20 两台全得</td></tr>
+            <tr><td>全装甲ZZ高达（部件）</td><td>第27/26/25话 → 第28/27/26话</td><td>第27话结束时捷多＋露合计击坠 ≥40</td></tr>
+            <tr><td>达尔塔尼亚斯隐藏武装（3 招）</td><td>赫利奥斯线（第30话到账）</td><td>第28话后选赫利奥斯线</td></tr>
+            <tr><td>拆除盖亚的反阳子爆弹</td><td>赫利奥斯线 → 基辛线第34话</td><td>选赫利奥斯线后，在基辛线最终决战让达尔塔尼亚斯存活、由武击破真祖鲁</td></tr>
+            <tr><td>V2 强袭破坏者（部件）</td><td>天使之环线第30话</td><td>第28话后选天使之环线</td></tr>
+            <tr><td>卡特珍娜与克罗尼克</td><td>天使之环线第29话 → 第30话</td><td>不击破二人 → 乌索与两人都交战 → 乌索依次说得二人后再击破</td></tr>
+            <tr><td>哈曼（卡碧尼）</td><td>天使之环线第30话</td><td>阿姆罗＋卡缪＋捷多＋夏亚合计击坠 ≥400，且卡缪、捷多、夏亚出击并存活</td></tr>
+            <tr><td>罗泽（二选一形态）</td><td>第31/30/29话</td><td>武与之交战 → 宇宙粉碎者第 5 驾驶员；武说得 → 驾驶泽隆加入</td></tr>
+            <tr><td>反应弹（反应武器）</td><td>拉克斯线第33话</td><td>第31话后选拉克斯线，非歌唱用女武神全员装配</td></tr>
+            <tr><td>加比尔（扎乌贝尔盖兰）</td><td>拉克斯线第34话 → 第35话</td><td>卡姆林先攻击加比尔、再攻击加布加</td></tr>
+            <tr><td>西比尔</td><td>拉克斯线第35话</td><td>巴萨拉攻击格佩尔尼奇</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>通关继承（周回）</h2>
+      <ul>
+        <li>读取通关存档开始新游戏时，<strong>未花完的资金、机体与武器的改造段数、全改造奖励、驾驶员的 BP（剩余与已投入状况）与击坠数</strong>都会被记忆并继承（日文维基；Akurasu Clear 页作「资金、改造与击坠数保留」）。</li>
+        <li><strong>改造上限随通关次数上升</strong>：每通关一次上限 +1 段，最多到 20 段；但 2 周目起的奇数周目，敌方的改造段数也会逐周上升——周回是双刃剑（日文维基）。规划上可用第一周目拿一条线的连锁、第二周目补另一条（马尔格与卡特珍娜两条线互斥，必须靠周回拿满）。</li>
+      </ul>
+
+      <h2>参战作品</h2>
+      <p>★ 为系列初参战：★《真（Change!!）盖塔机器人 世界最后之日》、★《未来机器人 达尔塔尼亚斯》、★《超时空要塞7》、★《梅格桑 23》（至第 2 部）、★《THE Big O》、机动战士Z高达、机动战士高达ZZ、机动战士高达 逆袭的夏亚、机动战士V高达、新机动战记高达W、魔神Z、大魔神、UFO机器人 古连戴萨、六神合体高德马斯（另含 OVA《十七岁的传说》的 OVA 版盖亚／高德马斯）、班普雷斯托原创。（据日文维基参战作品表。）</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Complete Chart 为主源，与同站 Secrets 页逐条交叉核对，系统以日文维基与 Akurasu 的 Pilot Skills／Ace Bonus／Team Attacks／Clear 各子页互证，敌方编成由两份独立的 GameFAQs 全文攻略交叉刊载。已确认的主要分歧与处理：①「熟练度」— Akurasu 主条目简介称流程图含「BMs」，但流程图本体无熟练度栏、日文维基系统节亦无——按无熟练度处理，如上文；②一周目话数 — 各源均未单列，本站按流程图各分歧关数清点为 36–39 话（总剧本数 54 两源一致）；③马尔格连锁步数 — 流程图在第20/29话标注 (1/4)(2/4)(3/4)、在第31话后标 (4/4)=选基辛线，Secrets 页则作「第20话与第27话说得」——本站合并为四步口径（第20话说得→第27话再说得→第29话说得并由武击破→选基辛线），并在第27话页注明流程图本关未标此项；④名称罗马字出入 — Ventus（Akurasu）／Wintos（Deranged）、惑星ラクス（Racus／Lux）、エリオス（Helios／Aerios）等并记，中文名本站统一作温特斯、拉克斯、赫利奥斯；⑤敌方编成 — 两份 GameFAQs 攻略在多关的敌方总数不一致（增援波次计入方式不同），本站按双源照刊并在各页注记，不擅自取舍；⑥斯蒂尔瓦的驾驶员「Schwartz」在流程图中的拼写与身份无其他来源可证，照录存疑。</p>
+    </div>
+  )}
+
   {isSrwR && (
     <div>
       <h2>剧情概要：坏未来与被改写的历史</h2>
@@ -1933,6 +2065,11 @@ const isSrwOg = g.slug === 'srw-og';
     <div>
       <p>本作 <strong>74 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 42 话——隆圣/响介两条主人公线各有第1–22话与第32–41话的不同版本，第23–31话共通，最终话共通且须累计熟练度 ≥32 解锁）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度取得条件</strong>、我方加入、本关隐藏要素（跨话连锁的立旗、结算与交付都写在对应那一话里）与坐标地图（敌方配置与地形待核实，原因见各详情页；本作敌方出现数量还随熟练度变动）。本作同时保留一份<a class="link" href={href('srw-og/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwOgMissionList />
+    </div>
+  ) : isSrwD ? (
+    <div>
+      <p>本作 <strong>54 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 36–39 话——序章、地球/宇宙双线序盘、合流后的木星/凯拉斯基利分歧、男女主人公各一版的第13/12话与第26/25/24话、赫利奥斯/天使之环分歧、基辛/拉克斯终局线；话数编号随路线浮动，本站采用 Akurasu 的并记编号）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（四重分歧、说得连锁与击坠数门槛都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方坐标与地形待核实，原因见各详情页；敌方编成由两份 GameFAQs 攻略交叉刊载，7 关为单一来源暂不刊载）。本作同时保留一份<a class="link" href={href('srw-d/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwDMissionList />
     </div>
   ) : isSrw30 ? (
     <div>
