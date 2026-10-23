@@ -29,7 +29,7 @@ const groups = (listData as any).groups ?? [];
           <td>{r.ja}</td>
           <td>{r.en}</td>
           <td><span class="badge badge-primary badge-sm">{r.type}</span></td>
-          <td>{srByCode[r.code] ? '有增减' : '—'}</td>
+          <td>{srByCode[r.code] ? '有取得' : '—'}</td>
           <td>{detailByCode[r.code] ? <a class="link link-primary font-semibold" href={href(`srw-alpha-2/missions/${detailByCode[r.code]}/`)}>攻略</a> : ''}</td>
           <td>{r.note}</td>
         </tr>
