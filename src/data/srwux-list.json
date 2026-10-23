@@ -1,0 +1,703 @@
+{
+ "groups": [
+  {
+   "title": "序章与第一部序盘（序章–第6话）",
+   "intro": "第一部「IN THE END OF WILDS」开幕：原创主角阿尼与各作品主角团依次汇合，武装机甲（漫画版）线在此入队。第6话后发生第一次路线分歧。",
+   "rows": [
+    {
+     "code": "序章",
+     "zh": "序章",
+     "ja": "プロローグ",
+     "en": "Prologue",
+     "type": "序章",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第1话",
+     "zh": "开端",
+     "ja": "第1話：ビギニング",
+     "en": "Scenario 1: Beginning",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "相遇",
+     "ja": "第2話：エンカウンター",
+     "en": "Scenario 2: Encounter",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "我即天意",
+     "ja": "第3話：I AM PROVIDENCE",
+     "en": "I AM PROVIDENCE",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第4话",
+     "zh": "飘落之翼",
+     "ja": "第4話：舞い降りた翼",
+     "en": "Scenario 4: Descending Wings",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第5话",
+     "zh": "传说中的忍者",
+     "ja": "第5話：伝説の忍者",
+     "en": "Scenario 5: The Legendary Ninja",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "钢铁、少年与正义的伙伴",
+     "ja": "第6話：クロガネと少年と正義の味方",
+     "en": "Scenario 6: Iron, Boy and Ally of Justice",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "分歧1：第7–8话（CB线／JUDA线）",
+   "intro": "第6话后的二选一：与天人（Celestial Being）合流走高达00 线，留在 JUDA 走武装机甲线；第9话合流。此选择是凯伦、格拉汉姆、伊鲁波拉、布雷拉（CB 线）与吕布、石神（JUDA 线）六条隐藏连锁的第 1 号旗标。",
+   "rows": [
+    {
+     "code": "第7话·CB线",
+     "zh": "开拓者",
+     "ja": "第7話：The Trailblazer",
+     "en": "The Trailblazer",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话·JUDA线",
+     "zh": "正义的代价",
+     "ja": "第7話：正義の代償",
+     "en": "The Price of Justice",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第8话·CB线",
+     "zh": "在你的梦中",
+     "ja": "第8話：オン・ユア・ドリーム",
+     "en": "On Your Dream",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话·JUDA线",
+     "zh": "通往明日的路标",
+     "ja": "第8話：明日への道標",
+     "en": "Guidepost to Tomorrow",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一部中盘（第9–13话）",
+   "intro": "三国传、魔神凯撒SKL、北条线依次展开；第11话开放战术指挥系统。第13话后发生第二次分歧（三路）。",
+   "rows": [
+    {
+     "code": "第9话",
+     "zh": "死亡随想曲",
+     "ja": "第9話：Death Caprice",
+     "en": "Death Caprice",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第10话",
+     "zh": "神谋，驰骋大地",
+     "ja": "第10話：神謀、大地を駆ける",
+     "en": "Scenario 10: Divine Strategy, Dash Through The Earth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话",
+     "zh": "不速之客",
+     "ja": "第11話：招かれざる者",
+     "en": "Scenario 11: Uninvited One",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话",
+     "zh": "北条之王",
+     "ja": "第12話：ホウジョウの王",
+     "en": "Scenario 12: The King of Houjou",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第13话",
+     "zh": "约定 -誓言-",
+     "ja": "第13話：約束 -ちかい-",
+     "en": "Scenario 13: Promise -Pledge-",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "分歧2：第14–17话（美国／日本／欧洲三路）",
+   "intro": "全作最大的一次分歧：三路各 4 话并行（美国＝HEROMAN/机神咆吼线、日本＝法芙纳/武装机甲线、欧洲＝马克罗斯F/魔神凯撒SKL线），第18话合流；第17–20话间三线以「获得其他线的单位」方式互相补齐队伍。多条隐藏连锁指定必须走其中某一路。",
+   "rows": [
+    {
+     "code": "第14话·美国线",
+     "zh": "我，机器人",
+     "ja": "第14話：I,ROBOT",
+     "en": "I,ROBOT",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·日本线",
+     "zh": "黑色执行者",
+     "ja": "第14話：黒の執行者",
+     "en": "Black Executioner",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·欧洲线",
+     "zh": "搜寻与抹杀",
+     "ja": "第14話：Search-and-Kill",
+     "en": "Search-and-Kill",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·美国线",
+     "zh": "入侵者",
+     "ja": "第15話：THE INVADERS",
+     "en": "THE INVADERS",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·日本线",
+     "zh": "诀别 -朋友-",
+     "ja": "第15話：決別-ともだち-",
+     "en": "Separation -Friend-",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第15话·欧洲线",
+     "zh": "霸王行动",
+     "ja": "第15話：オペレーション・オーバーロード",
+     "en": "Operation Overlord",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·美国线",
+     "zh": "活着",
+     "ja": "第16話：アライブ",
+     "en": "Alive",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话·日本线",
+     "zh": "靠近的灵魂",
+     "ja": "第16話：歩みよる魂",
+     "en": "Compromising Soul",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第16话·欧洲线",
+     "zh": "诀别 -朋友-",
+     "ja": "第16話：決別-ともだち-",
+     "en": "Separation -Friend-",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·美国线",
+     "zh": "诀别 -朋友-",
+     "ja": "第17話：決別-ともだち-",
+     "en": "Separation -Friend-",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话·日本线",
+     "zh": "融化的时间",
+     "ja": "第17話：とけゆく時間",
+     "en": "Melting Time",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第17话·欧洲线",
+     "zh": "歌姬之心",
+     "ja": "第17話：ハート・オブ・ディーヴァ",
+     "en": "Heart of Diva",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第一部终盘（第18–22话）",
+   "intro": "三路合流后的共通 5 话，第22话《超新星》为第一部最终话（Dancouga Nova 在此加入）。",
+   "rows": [
+    {
+     "code": "第18话",
+     "zh": "流淌的是血，失去的是泪",
+     "ja": "第18話：流れるは血、失うは涙",
+     "en": "Scenario 18: Blood is Shed, Tears are Lost",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "黄昏的断罪",
+     "ja": "第19話：黄昏の断罪",
+     "en": "Scenario 19: Judgement at Dusk",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "分解 -擦肩而过-",
+     "ja": "第20話：分解-すれちがい-",
+     "en": "Scenario 20: Dissolution -Crossing Paths-",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第21话",
+     "zh": "朋友 -欢迎回来-",
+     "ja": "第21話：朋友-おかえり-",
+     "en": "Scenario 21: Friends -Welcome Home-",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "超新星",
+     "ja": "第22話：SUPER NOVA",
+     "en": "SUPER NOVA",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "第二部序盘（第23–26话）",
+   "intro": "第二部「VAGABOND BLUES」开幕：马克罗斯F 与高达00 剧场版线推进；第26话《印斯茅斯的阴影》后发生第三次分歧。",
+   "rows": [
+    {
+     "code": "第23话",
+     "zh": "虚空歌姬～虚假的歌姬～",
+     "ja": "第23話：虚空歌姫～イツワリノウタヒメ～",
+     "en": "Scenario 23: The False Songstress",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "觉醒",
+     "ja": "第24話：Awakening",
+     "en": "Awakening",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "生命 -苏醒-",
+     "ja": "第25話：生命-めざめ-",
+     "en": "Scenario 25: Life -Revelation-",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第26话",
+     "zh": "印斯茅斯的阴影",
+     "ja": "第26話：THE SHADOW OVER INNSMOUTH",
+     "en": "THE SHADOW OVER INNSMOUTH",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "分歧3：第27–28话（同行舰线／拜斯顿·威尔线）",
+   "intro": "第26话后的二选一：留在本舰（同行舰线，罗米娜换装、凯伦兑现的舞台）或被送往拜斯顿·威尔（圣战士丹拜因／苍穹之翼的世界，翔子、夜間迷彩比尔拜因、琉克斯、迫水等步的舞台）；第29话合流。",
+   "rows": [
+    {
+     "code": "第27话·同行舰线",
+     "zh": "消失的痛楚",
+     "ja": "第27話：キエルイタミ",
+     "en": "VANISHING PAIN",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第27话·拜斯顿线",
+     "zh": "地上人的灵光力",
+     "ja": "第27話：地上人のオーラ力",
+     "en": "Groundling Aura Force",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第28话·同行舰线",
+     "zh": "短暂的相遇",
+     "ja": "第28話：束の間の出会い",
+     "en": "Brief Encounter",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第28话·拜斯顿线",
+     "zh": "王的奸计",
+     "ja": "第28話：王の奸計",
+     "en": "The King's Designs",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "第二部中盘（第29–32话）",
+   "intro": "飞影正式由乔驾驶（第30话）、奥尔菲斯与莱拉斯合体为奥德修斯（第32话）。第32话后发生第四次分歧。",
+   "rows": [
+    {
+     "code": "第29话",
+     "zh": "灯火",
+     "ja": "第29話：燈火-ともしび-",
+     "en": "Scenario 29: Lantern -Light-",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "伟大的胎动",
+     "ja": "第30話：大いなる胎動",
+     "en": "Scenario 30: Grand Quickening",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第31话",
+     "zh": "最终倒数",
+     "ja": "第31話：Final Count",
+     "en": "Final Count",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第32话",
+     "zh": "大「C」",
+     "ja": "第32話：Big \"C\"",
+     "en": "Big \"C\"",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "分歧4：第33话（瓦鸠拉扫荡线／阿卡姆防卫线）",
+   "intro": "第32话后的二选一，只影响第33话一话：第34话合流。瓦鸠拉线是 SEED DESTINY 终盘与格拉汉姆的舞台；阿卡姆线是机神咆吼终盘、马斯塔泰里昂连锁的必经步。",
+   "rows": [
+    {
+     "code": "第33话·瓦鸠拉线",
+     "zh": "对话之时",
+     "ja": "第33話：対話の刻",
+     "en": "The Time for Dialogues",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话·阿卡姆线",
+     "zh": "乌鸦",
+     "ja": "第33話：THE CROW",
+     "en": "THE CROW",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "第二部终盘（第34–40话，含分歧5）",
+   "intro": "第35话的剧情选择（曹操派／孙权派）只分出第36话一个版本，第37话合流。第二部在第40话《樱花岚》结束，迫水连锁的说得终段在此结算。",
+   "rows": [
+    {
+     "code": "第34话",
+     "zh": "向开始加速",
+     "ja": "第34話：始まりへの加速",
+     "en": "Scenario 34: Acceleration to the Beginning",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第35话",
+     "zh": "选择 -决意-",
+     "ja": "第35話：選択-けつい-",
+     "en": "Scenario 35: Choice -Decision-",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第36话·曹操派",
+     "zh": "被天选中的霸者",
+     "ja": "第36話：天に選ばれし覇者",
+     "en": "The Conqueror Chosen by the Heavens",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第36话·孙权派",
+     "zh": "挑战苍天的勇者",
+     "ja": "第36話：天に挑みし勇者",
+     "en": "The Hero that Challenges the Heavens",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第37话",
+     "zh": "有生命之物",
+     "ja": "第37話：命あるもの",
+     "en": "Scenario 37: One with Life",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第38话",
+     "zh": "防人们",
+     "ja": "第38話：防人たち",
+     "en": "Scenario 38: The Sakimori",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第39话",
+     "zh": "苍穹",
+     "ja": "第39話：蒼穹-そら-",
+     "en": "Scenario 39: Azure -The Sky-",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第40话",
+     "zh": "樱花岚",
+     "ja": "第40話：桜花嵐",
+     "en": "Scenario 40: Sakura Tempest",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "第三部开幕（第41话）",
+   "intro": "第三部「SOMEDAY, LIFE TOGETHER」开幕：法芙纳剧场版（HEAVEN AND EARTH）规格机体群登场。第41话后发生最后一次分歧。",
+   "rows": [
+    {
+     "code": "第41话",
+     "zh": "再来 -操-",
+     "ja": "第41話：再来-みさお-",
+     "en": "Scenario 41: Return -Misao-",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "分歧6：第42–43话（联合军线／龙宫岛线）",
+   "intro": "第41话后的二选一：向联合军（Union）进军（机神咆吼终盘、马斯塔泰里昂与残党的舞台）或留守龙宫岛防卫（三国传终盘、吕布终步与石神关键步的舞台）；第44话合流。",
+   "rows": [
+    {
+     "code": "第42话·联合军线",
+     "zh": "复活",
+     "ja": "第42話：リザレクション",
+     "en": "Resurrection",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第42话·龙宫岛线",
+     "zh": "龙的光辉",
+     "ja": "第42話：龍の輝き",
+     "en": "The Dragon's Radiance",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第43话·联合军线",
+     "zh": "魔术师归来",
+     "ja": "第43話：THE RETURN OF THE SORCERER",
+     "en": "THE RETURN OF THE SORCERER",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第43话·龙宫岛线",
+     "zh": "特异点",
+     "ja": "第43話：特異点",
+     "en": "Singularity",
+     "type": "路线关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    }
+   ]
+  },
+  {
+   "title": "第三部终盘（第44话–最终话）",
+   "intro": "共通终盘 9 关：多条隐藏连锁在第45话集中兑现（石神、迫水、吕布），其后伊鲁波拉（第49话）、布雷拉（第50话）、马斯塔泰里昂（第51话）依次收尾，最终话与卡利·尤加决战。",
+   "rows": [
+    {
+     "code": "第44话",
+     "zh": "信念",
+     "ja": "第44話：フェイス",
+     "en": "Scenario 44: Faith",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第45话",
+     "zh": "犹大",
+     "ja": "第45話：ユダ",
+     "en": "Scenario 45: Juda",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第46话",
+     "zh": "美丽的反乌托邦",
+     "ja": "第46話：麗しのディストピア",
+     "en": "Scenario 46: Beautiful Dystopia",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第47话",
+     "zh": "天地",
+     "ja": "第47話：HEAVEN AND EARTH",
+     "en": "HEAVEN AND EARTH",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 3 项（见详情页）"
+    },
+    {
+     "code": "第48话",
+     "zh": "即将到来的对话",
+     "ja": "第48話：来るべき対話",
+     "en": "Scenario 48: The Dialogues to Come",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第49话",
+     "zh": "侵略的终焉",
+     "ja": "第49話：侵略の終焉",
+     "en": "Scenario 49: The End of the Invasion",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "第50话",
+     "zh": "恋离飞翼～告别的翅膀～",
+     "ja": "第50話：恋離飛翼～サヨナラノツバサ～",
+     "en": "Scenario 50: The Wings of Goodbye",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 2 项（见详情页）"
+    },
+    {
+     "code": "第51话",
+     "zh": "奇异万古",
+     "ja": "第51話：STRANGE EONS",
+     "en": "STRANGE EONS",
+     "type": "共通关",
+     "area": "",
+     "note": "隐藏步骤 1 项（见详情页）"
+    },
+    {
+     "code": "最终话",
+     "zh": "生命的开始",
+     "ja": "最終話：命の始まり",
+     "en": "Final Scenario: The Beginning of Life",
+     "type": "最终关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}
