@@ -1,0 +1,44 @@
+---
+import listData from '../data/srwy-list.json';
+import missionsData from '../data/srwy-missions.json';
+import { href } from '../lib/site';
+
+// 主线与支线共用章节内编号（如 2-2 主线/支线各一关），故以「编号+中文名」定位详情页
+const detailByKey: Record<string, string> = {};
+for (const m of (missionsData as any).missions ?? []) {
+  if (m.code && m.slug) detailByKey[`${m.code}::${m.zh}`] = m.slug;
+}
+const groups = (listData as any).groups ?? [];
+const badgeClass = (t: string) =>
+  t === '主线' ? 'badge-primary'
+  : t === '支线' ? 'badge-secondary'
+  : t === '遗产任务' ? 'badge-info'
+  : t === '战线任务' ? 'badge-neutral'
+  : t === '战术研究记录' ? 'badge-ghost'
+  : 'badge-accent';
+---
+{groups.map((g: any) => (
+  <>
+  <h3>{g.title}</h3>
+  {g.intro && <p class="text-sm text-base-content/60">{g.intro}</p>}
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>编号</th><th>中文名</th><th>日文名</th><th>英文名（Akurasu）</th><th>类型</th><th>舞台</th><th>详情</th><th>备注</th></tr></thead>
+      <tbody>
+      {g.rows.map((r: any) => (
+        <tr>
+          <td>{r.code}</td>
+          <td>{r.zh}</td>
+          <td>{r.ja}</td>
+          <td>{r.en}</td>
+          <td><span class={`badge ${badgeClass(r.type)} badge-sm`}>{r.type}</span></td>
+          <td>{r.area}</td>
+          <td>{detailByKey[`${r.code}::${r.zh}`] ? <a class="link link-primary font-semibold" href={href(`srw-y/missions/${detailByKey[`${r.code}::${r.zh}`]}/`)}>攻略</a> : ''}</td>
+          <td>{r.note}</td>
+        </tr>
+      ))}
+      </tbody>
+    </table>
+  </div>
+  </>
+))}

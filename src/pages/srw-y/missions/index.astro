@@ -1,0 +1,33 @@
+---
+import Base from '../../../layouts/Base.astro';
+import SrwYMissionList from '../../../components/SrwYMissionList.astro';
+import { href } from '../../../lib/site';
+
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Y', path: 'srw-y/' },
+  { label: '关卡攻略' },
+];
+---
+<Base title="超级机器人大战Y 关卡攻略 · 全部任务列表（270 关）" description="超级机器人大战Y（Switch/PS5/Steam，2025）全部任务列表：主线 55 + 支线 54 + 章节内 DLC 76 + 战术研究记录 10 + 战线任务 8 组 + 遗产任务 42 + 35 周年纪念战役 25，共 270 关，每关均有独立攻略页（胜负条件、加入单位、隐藏要素）；本作无 SR 点。" path="srw-y/missions/" breadcrumbs={crumbs}>
+  <h1>超级机器人大战Y · 关卡攻略</h1>
+  <p>本作采用与《30》同系的「战术区域选择（Tactical Area Select）」结构：剧情按<strong>章节</strong>推进，每章内在区域图上自由选择任务。开局先在双子主角<strong>月之轮克罗斯 / 月之轮芙尔缇</strong>中二选一担任主角（部分关卡有主角专属版本）；第 5 章末的选择决定第 7 章的结局路线（A/B）。本页按 Akurasu Wiki 的完整流程表（Complete Chart）整理全部 <strong>270 关</strong>：主线 55、支线 54、编织在各章内的 DLC 任务 76、战术研究记录 10、战线任务 8 组、遗产任务 42（14 组 × 3 段），以及独立战役「35 周年纪念战役」25 关——每一关均有独立攻略页（「详情」列的<strong>攻略</strong>链接）。本页与本作主页共用同一份关卡数据，两处列表一致。</p>
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>隐藏要素的位置：</strong>本站不单设隐藏要素汇总页。每个隐藏机体、说得角色、点数条件（伯恩点数 / 玲子点数等）与路线判定，都写在它<strong>触发、取得或结算的那一关</strong>的攻略页「隐藏要素（本关）」一节里；全作隐藏要素的总览与点数制的累计方式见<a href={href('srw-y/')}>本作主页</a>的系统说明。</span>
+  </div>
+  <div class="alert alert-warning alert-soft my-4">
+    <span><strong>译名与数据说明：</strong>本作有官方中文版，但官方的逐关中文名称未能取得可核对的完整原文，下表中文名为本站根据日文原名翻译（机体、人物名从官方中文版用字与玩家间通行译名），并同时给出日文原名与 Akurasu 英文名便于对照；DLC-RD-11 在 Akurasu 流程表中只有英文标题、无日文标题，本站照实标注。<strong>本作没有 SR 点</strong>（继《30》后继续废除，难度由玩家自选：休闲 / 普通 / 困难 / 专家，通关后追加超级专家）。敌方<strong>编成</strong>方面，gameline（wikiwiki《戦術指南》）与繁中站点 A9VG 都刊有逐关敌方资料，但两者是否相互独立未经证实（A9VG 可能转录自日方资料），按本站双源规则<strong>暂不刊出（待裁决）</strong>；各关固定奖励 CREDIT / MxP 数值由 Game8 逐关刊载，本站本轮未转录（待核实）。</span>
+  </div>
+  <p class="text-sm text-base-content/60">计数口径：Akurasu 索引自述「主线 55 / 可选 104 / DLC 112」——其中主线 55 是把主角专属版与结局路线 A/B 版分别计条的结果，可选 104 = 支线 54 + 遗产 42 + 战线 8；机战Wiki（srw.wiki）则把必通关主线计为 74 关、章节划分亦与 Akurasu 不同（序章 + 第 1–5 章 + 最终章 + 外），两家口径不一致，本站按 Akurasu 流程表的条目逐关建页，共 270 页。官方已发表的第 4 弹付费 DLC 截至 2026-10 尚未发售，无流程表数据，未收录。</p>
+
+  <SrwYMissionList />
+
+  <h2>数据来源</h2>
+  <ul>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Y/Complete" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Y Complete Chart</a>（任务清单与编号、胜负条件、加入单位、通关奖励部件、隐藏条件；2026-10 与现行版逐项核对）</li>
+    <li><a href="https://akurasu.net/wiki/Super_Robot_Wars/Y/Secrets" rel="noopener" target="_blank">Akurasu Wiki — Super Robot Wars Y Secrets</a>（隐藏要素与点数制的交叉核对）</li>
+    <li><a href="https://srw.wiki.cre.jp/wiki/全話一覧/Y" rel="noopener" target="_blank">スーパーロボット大戦Wiki — 全話一覧/Y</a>（日文标题、主线话数口径与章节结构核对；其遗产/战线栏目仍为占位）</li>
+    <li><a href="https://game8.jp/suparobo-y/712397" rel="noopener" target="_blank">Game8 — スパロボY 攻略</a>（逐关奖励数值与系统情报的核对来源；数值本轮未转录）</li>
+  </ul>
+  <p><a href={href('srw-y/')}>← 返回超级机器人大战Y</a></p>
+</Base>

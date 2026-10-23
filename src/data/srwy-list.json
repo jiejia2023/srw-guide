@@ -1,0 +1,2500 @@
+{
+ "groups": [
+  {
+   "title": "第 1 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "1-1C",
+     "zh": "花与忍者与生日",
+     "ja": "花と忍と誕生日",
+     "en": "Flowers, a Ninja, a Birthday",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": "克罗斯专属，与 1-1F 互斥"
+    },
+    {
+     "code": "1-1F",
+     "zh": "花开之园，花又来",
+     "ja": "花咲く園に花来たる",
+     "en": "A Flower Comes to the Garden",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": "芙尔缇专属，与 1-1C 互斥"
+    },
+    {
+     "code": "1-2A",
+     "zh": "苏醒的天之鬼",
+     "ja": "目覚める天の鬼",
+     "en": "The Demon on High Awakens",
+     "type": "主线",
+     "area": "极东 - 浅间山",
+     "note": "与 1-3B 为一组（两关顺序随路线互换）"
+    },
+    {
+     "code": "1-2B",
+     "zh": "怪兽使与龙",
+     "ja": "怪獣使いと竜",
+     "en": "The Kaiju User and the Dragon",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "与 1-3A 为一组（两关顺序随路线互换）"
+    },
+    {
+     "code": "1-3A",
+     "zh": "合体龙人",
+     "ja": "合体竜人",
+     "en": "Combine Dragon",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "与 1-2B 为一组"
+    },
+    {
+     "code": "1-3B",
+     "zh": "命运的孩子们",
+     "ja": "運命の子ら",
+     "en": "The Children of Destiny",
+     "type": "主线",
+     "area": "极东 - 浅间山",
+     "note": "与 1-2A 为一组"
+    },
+    {
+     "code": "1-4",
+     "zh": "被开启的门扉",
+     "ja": "開かれる扉",
+     "en": "The Door Opens",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第 2 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "2-1",
+     "zh": "被托付的勇者们",
+     "ja": "託された勇者たち",
+     "en": "A Mission for Brave Heroes",
+     "type": "主线",
+     "area": "极东 - 伊豆",
+     "note": ""
+    },
+    {
+     "code": "DLC-A01",
+     "zh": "三十五周年快乐！",
+     "ja": "CONGRADULATION 35th!",
+     "en": "Happy 35th Anniversary!",
+     "type": "DLC · 35周年纪念",
+     "area": "极东 - 东京",
+     "note": ""
+    },
+    {
+     "code": "DLC-P01",
+     "zh": "来自异界之物",
+     "ja": "異界から来るもの",
+     "en": "Visitors from Another World",
+     "type": "DLC · 特典客串",
+     "area": "极东 - 太平洋海域",
+     "note": ""
+    },
+    {
+     "code": "DLC-P02",
+     "zh": "摇晃的次元",
+     "ja": "揺れる次元",
+     "en": "Unstable Dimensions",
+     "type": "DLC · 特典客串",
+     "area": "地球 - Amsterdam",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-01",
+     "zh": "微笑于街角",
+     "ja": "街角に微笑むは",
+     "en": "A Smile on the Street Corner",
+     "type": "DLC 第1弹",
+     "area": "地球 - 约翰内斯堡",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-01",
+     "zh": "预兆",
+     "ja": "予兆",
+     "en": "Omen",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 菲律宾海",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-02",
+     "zh": "其名为W",
+     "ja": "その名はW",
+     "en": "His Name is Double",
+     "type": "DLC 第1弹",
+     "area": "地球 - 贝尔格莱德",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-03",
+     "zh": "交涉人罗杰",
+     "ja": "Roger The Negotiator",
+     "en": "Roger the Negotiator",
+     "type": "DLC 第1弹",
+     "area": "地球 - 温尼伯",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-02",
+     "zh": "不死之男，再临",
+     "ja": "不死身の男、再び",
+     "en": "The Immortal Man Returns",
+     "type": "DLC · 35周年纪念",
+     "area": "极东 - 金泽",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-03",
+     "zh": "传说的勇者",
+     "ja": "伝説の勇者",
+     "en": "Brave of the Legend",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 马尔代夫",
+     "note": ""
+    },
+    {
+     "code": "2-1A",
+     "zh": "战斗的意义",
+     "ja": "戦うことの意味",
+     "en": "A Reason to Fight",
+     "type": "支线",
+     "area": "地球 - 新加坡",
+     "note": ""
+    },
+    {
+     "code": "2-1B",
+     "zh": "通往英雄之路",
+     "ja": "ヒーローへの道",
+     "en": "To Be a Hero",
+     "type": "支线",
+     "area": "地球 - 新加坡",
+     "note": ""
+    },
+    {
+     "code": "2-2",
+     "zh": "激突！新的高达格斗！",
+     "ja": "激突！新たなガンダムファイト！",
+     "en": "A New Gundam Fight!",
+     "type": "支线",
+     "area": "地球 - 纽约",
+     "note": ""
+    },
+    {
+     "code": "2-3",
+     "zh": "近在咫尺的恶意",
+     "ja": "すぐそこにある悪意",
+     "en": "Malice in Their Shadows",
+     "type": "支线",
+     "area": "地球 - 斯德哥尔摩",
+     "note": ""
+    },
+    {
+     "code": "2-4",
+     "zh": "愤怒眼瞳的彼方",
+     "ja": "怒れる瞳の向こうに",
+     "en": "Behind Those Rage-Filled Eyes",
+     "type": "支线",
+     "area": "地球 - 所罗门群岛",
+     "note": ""
+    },
+    {
+     "code": "2-5",
+     "zh": "坎贝尔星人的谜团",
+     "ja": "キャンベル星人の謎",
+     "en": "The Campbellian Enigma",
+     "type": "支线",
+     "area": "地球 - 复活节岛",
+     "note": ""
+    },
+    {
+     "code": "2-2",
+     "zh": "漂流的异邦人",
+     "ja": "漂流する異邦人",
+     "en": "Aliens Adrift",
+     "type": "主线",
+     "area": "地球 - 巴拿马",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-04",
+     "zh": "小行星大乱斗",
+     "ja": "乱闘アステロイド",
+     "en": "Trouble Among the Asteroids",
+     "type": "DLC 第1弹",
+     "area": "地球圈 - Da Gama Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-A02",
+     "zh": "恭贺突破两千万！",
+     "ja": "CONGRADULATION 20000000",
+     "en": "Congratulations on Twenty Million!",
+     "type": "DLC · 35周年纪念",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-04",
+     "zh": "黑色盖塔",
+     "ja": "黒いゲッター",
+     "en": "The Black Getter",
+     "type": "DLC · 35周年纪念",
+     "area": "地球圈 - 盂兰盆宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-01",
+     "zh": "接触",
+     "ja": "接触",
+     "en": "Contact",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 拉杰普宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-05",
+     "zh": "委托人L",
+     "ja": "依頼人L",
+     "en": "Client L",
+     "type": "DLC 第1弹",
+     "area": "地球 - 莫尔兹比港",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-05",
+     "zh": "战士的使命",
+     "ja": "戦う者の使命",
+     "en": "The Purpose of Warriors",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 斯科舍海",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-02",
+     "zh": "传说巨神",
+     "ja": "伝説の巨神",
+     "en": "Space Runaway",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - Debris Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-03",
+     "zh": "天使无畏地微笑",
+     "ja": "天使は不敵に笑う",
+     "en": "The Intrepid Angel Smiles",
+     "type": "DLC · 扩展包",
+     "area": "地球 - Brasília",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-04",
+     "zh": "偶像与主人",
+     "ja": "アイドルとマスター",
+     "en": "Idol and Master",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - Alaya Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-05",
+     "zh": "银河美少年登场",
+     "ja": "銀河美少年あらわる",
+     "en": "Enter the Ginga Bishonen",
+     "type": "DLC · 扩展包",
+     "area": "极东 - Nagoya",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-06",
+     "zh": "逃亡之旅",
+     "ja": "逃避行",
+     "en": "On the Run",
+     "type": "DLC · 扩展包",
+     "area": "地球 - Warsaw",
+     "note": ""
+    },
+    {
+     "code": "2-6",
+     "zh": "红色漩涡",
+     "ja": "紅い渦",
+     "en": "Crimson Vortex",
+     "type": "支线",
+     "area": "极东 - 千叶",
+     "note": ""
+    },
+    {
+     "code": "2-7",
+     "zh": "银河机攻队，出击",
+     "ja": "マジェスティックプリンス出撃",
+     "en": "Majestic Prince, Sortie",
+     "type": "支线",
+     "area": "地球圈 - Columbus Sector",
+     "note": ""
+    },
+    {
+     "code": "2-8",
+     "zh": "圣少女们",
+     "ja": "聖少女たち",
+     "en": "Aura Ladies",
+     "type": "支线",
+     "area": "地球 - 伦敦",
+     "note": ""
+    },
+    {
+     "code": "2-9A",
+     "zh": "隆德尼翁的钟声",
+     "ja": "ロンデニオンの鐘",
+     "en": "The Bell of Londenion",
+     "type": "支线",
+     "area": "地球圈 - Colony Londenion",
+     "note": ""
+    },
+    {
+     "code": "2-9B",
+     "zh": "红色彗星的目光",
+     "ja": "赤い彗星の目差し",
+     "en": "The Gaze of the Red Comet",
+     "type": "支线",
+     "area": "地球圈 - Banchi 1",
+     "note": ""
+    },
+    {
+     "code": "2-10A",
+     "zh": "夏亚与阿姆罗",
+     "ja": "シャアとアムロと",
+     "en": "Char and Amuro",
+     "type": "支线",
+     "area": "地球圈 - Banchi 1",
+     "note": ""
+    },
+    {
+     "code": "2-10B",
+     "zh": "白色流星所见的光",
+     "ja": "白き流星の見た光",
+     "en": "The Light the White Meteor Saw",
+     "type": "支线",
+     "area": "地球圈 - Colony Londenion",
+     "note": ""
+    },
+    {
+     "code": "2-11",
+     "zh": "第六人的忧郁",
+     "ja": "6人目のユウウツ",
+     "en": "The Despondence of the Sixth",
+     "type": "支线",
+     "area": "地球圈 - 星玫瑰",
+     "note": ""
+    },
+    {
+     "code": "2-12",
+     "zh": "悠久的拜斯顿·威尔",
+     "ja": "悠久のバイストン・ウェル",
+     "en": "Byston Well, Eternal",
+     "type": "支线",
+     "area": "地球 - West Coast Waters",
+     "note": ""
+    },
+    {
+     "code": "2-13",
+     "zh": "跨越时间，跨越宇宙",
+     "ja": "刻をこえて、宇宙をこえて",
+     "en": "Beyond Time, Beyond Space",
+     "type": "支线",
+     "area": "地球圈 - Colony Londenion",
+     "note": ""
+    },
+    {
+     "code": "2-3",
+     "zh": "魔女与新娘与天使",
+     "ja": "魔女と花嫁と天使",
+     "en": "A Witch, a Bride, an Angel",
+     "type": "主线",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "2-4",
+     "zh": "被诅咒的机动战士",
+     "ja": "呪いのモビルスーツ",
+     "en": "Cursed Mobile Suits",
+     "type": "主线",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "2-14",
+     "zh": "正义与友情的去向",
+     "ja": "正義と友情、その行方",
+     "en": "Justice and Friendship",
+     "type": "支线",
+     "area": "地球 - 上海",
+     "note": ""
+    },
+    {
+     "code": "2-15",
+     "zh": "决定命运者",
+     "ja": "運命を決めるもの",
+     "en": "Who Determines Destiny",
+     "type": "支线",
+     "area": "地球圈 - PLANT",
+     "note": ""
+    },
+    {
+     "code": "2-16",
+     "zh": "知晓痛苦的人们",
+     "ja": "痛みを知る者たち",
+     "en": "Those Who Know Pain",
+     "type": "支线",
+     "area": "地球圈 - Colony Raidak",
+     "note": ""
+    },
+    {
+     "code": "2-5",
+     "zh": "自深渊归来之人",
+     "ja": "深淵からの帰還者",
+     "en": "Returned from the Abyss",
+     "type": "主线",
+     "area": "地球 - 印度洋",
+     "note": "与 2-6 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "2-6",
+     "zh": "来自银河的歌姬",
+     "ja": "銀河から来た歌姫",
+     "en": "The Singer from the Galaxy",
+     "type": "主线",
+     "area": "地球 - 旧金山",
+     "note": "与 2-5 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "DLC-01",
+     "zh": "苦战的NINJA",
+     "ja": "苦闘する忍者",
+     "en": "The Struggling NINJA",
+     "type": "DLC",
+     "area": "地球 - Hiroshima",
+     "note": ""
+    },
+    {
+     "code": "2-17",
+     "zh": "双重之心",
+     "ja": "ダブル・ハート",
+     "en": "Double Heart",
+     "type": "支线",
+     "area": "地球 - 赫尔辛基",
+     "note": ""
+    },
+    {
+     "code": "2-18",
+     "zh": "鸟儿唱着毁灭",
+     "ja": "鳥は滅びを歌う",
+     "en": "The Bird Sings of Destruction",
+     "type": "支线",
+     "area": "极东 - 伊豆",
+     "note": ""
+    },
+    {
+     "code": "2-7",
+     "zh": "引领未来的手",
+     "ja": "未来の導き手",
+     "en": "The Hand Guiding the Future",
+     "type": "主线",
+     "area": "地球圈 - 隆纳克宙域",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第 3 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "DLC-P03",
+     "zh": "背负的使命",
+     "ja": "背負った使命",
+     "en": "The Weight of Purpose",
+     "type": "DLC · 特典客串",
+     "area": "地球 - 新加坡",
+     "note": ""
+    },
+    {
+     "code": "DLC-P04",
+     "zh": "教条与薪水",
+     "ja": "ドグマとサラリー",
+     "en": "The Dogma Way, The Office Way",
+     "type": "DLC · 特典客串",
+     "area": "地球 - Dakar",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-06",
+     "zh": "深红的假面骑士",
+     "ja": "深紅の仮面ライダー",
+     "en": "The Scarlet Kamen Rider",
+     "type": "DLC 第1弹",
+     "area": "地球 - 布宜诺斯艾利斯",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-07",
+     "zh": "在不公平的剧场",
+     "ja": "アンフェアな劇場で",
+     "en": "An Unfair Stage",
+     "type": "DLC 第1弹",
+     "area": "地球 - 贝尔格莱德",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-07",
+     "zh": "两位尤里卡",
+     "ja": "二人のEUREKA",
+     "en": "The Two Eurekas",
+     "type": "DLC · 扩展包",
+     "area": "地球 - 卡萨布兰卡",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-08",
+     "zh": "银河与地球",
+     "ja": "銀河と地球と",
+     "en": "The Cosmos and the Earth",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - Olivin Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-09",
+     "zh": "我也要当偶像",
+     "ja": "わたしもアイドル",
+     "en": "Joining the Idols",
+     "type": "DLC · 扩展包",
+     "area": "地球 - Antananarivo",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-10",
+     "zh": "心中的英雄",
+     "ja": "心のヒーロー",
+     "en": "Heroes for All",
+     "type": "DLC · 扩展包",
+     "area": "地球 - Dublin",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-11",
+     "zh": "在黑暗中发笑的小丑",
+     "ja": "闇に笑う道化",
+     "en": "A Clown Laughs in the Dark",
+     "type": "DLC · 扩展包",
+     "area": "地球 - Santo Domingo",
+     "note": ""
+    },
+    {
+     "code": "3-1",
+     "zh": "地狱之釜",
+     "ja": "地獄の釜",
+     "en": "The Cauldron of Hell",
+     "type": "支线",
+     "area": "极东 - 浅间山",
+     "note": ""
+    },
+    {
+     "code": "3-2",
+     "zh": "某人与自己与伙伴",
+     "ja": "誰かと自分と仲間と",
+     "en": "Another, Oneself, a Team",
+     "type": "支线",
+     "area": "地球圈 - Columbus Sector",
+     "note": ""
+    },
+    {
+     "code": "3-3",
+     "zh": "黎明前的战云",
+     "ja": "夜明け前の戦雲",
+     "en": "Fog of War Before the Dawn",
+     "type": "支线",
+     "area": "地球圈 - Colony Avalon",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-08",
+     "zh": "在星影中蠢动的恶",
+     "ja": "星影にうごめく悪",
+     "en": "Evil Lurking Under Starlight",
+     "type": "DLC 第1弹",
+     "area": "地球圈 - 贝罗索斯宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-09",
+     "zh": "在恶意的箱庭",
+     "ja": "悪意の箱庭で",
+     "en": "The Walled Garden of Malice",
+     "type": "DLC 第1弹",
+     "area": "地球 - Lagos",
+     "note": ""
+    },
+    {
+     "code": "3-4",
+     "zh": "怪兽讨伐与金钱与和平",
+     "ja": "怪獣退治とお金と平和",
+     "en": "Kaiju Hunting",
+     "type": "支线",
+     "area": "极东 - Osaka",
+     "note": ""
+    },
+    {
+     "code": "3-5A",
+     "zh": "红色彗星的使者",
+     "ja": "赤い彗星の使者",
+     "en": "The Herald of the Red Comet",
+     "type": "支线",
+     "area": "地球圈 - Chittoor Sector",
+     "note": ""
+    },
+    {
+     "code": "3-5B",
+     "zh": "红色彗星的袭来",
+     "ja": "赤い彗星の襲来",
+     "en": "The Charge of the Red Comet",
+     "type": "支线",
+     "area": "地球圈 - Chittoor Sector",
+     "note": ""
+    },
+    {
+     "code": "3-1",
+     "zh": "被盯上的瓦尔基里",
+     "ja": "ねらわれたワルキューレ",
+     "en": "Walküre Under Attack",
+     "type": "主线",
+     "area": "地球 - Dakar",
+     "note": "与 3-2 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "3-2",
+     "zh": "雪与冰的生日",
+     "ja": "雪と氷の誕生日",
+     "en": "A Snowy, Icy Birthday",
+     "type": "主线",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": "与 3-1 一组；奥莉比说得在本关"
+    },
+    {
+     "code": "3-6",
+     "zh": "对未来的警告",
+     "ja": "未来への警告",
+     "en": "A Warning of the Future",
+     "type": "支线",
+     "area": "地球 - Phnom Penh",
+     "note": ""
+    },
+    {
+     "code": "3-3",
+     "zh": "天之魔神，地之魔王",
+     "ja": "天の魔神、地の魔王",
+     "en": "Mazin Above, Demon Below",
+     "type": "主线",
+     "area": "极东 - 高知",
+     "note": ""
+    },
+    {
+     "code": "DLC-02",
+     "zh": "粗犷之事亦优雅",
+     "ja": "荒事はエレガントに",
+     "en": "In Coarse Things, Elegance",
+     "type": "DLC",
+     "area": "极东 - Furano",
+     "note": ""
+    },
+    {
+     "code": "3-7",
+     "zh": "四分五裂的众人",
+     "ja": "バラバラとそれぞれ",
+     "en": "Separate, Apart",
+     "type": "支线",
+     "area": "极东 - Okinawa",
+     "note": ""
+    },
+    {
+     "code": "3-4",
+     "zh": "他们与她的选择",
+     "ja": "彼らと彼女の選択",
+     "en": "Their Choice, and Hers",
+     "type": "主线",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "3-5",
+     "zh": "生与死的夹缝",
+     "ja": "生と死の狭間で",
+     "en": "Between Life and Death",
+     "type": "主线",
+     "area": "地球 - 印度洋",
+     "note": ""
+    },
+    {
+     "code": "DLC-03",
+     "zh": "追求至高之盘",
+     "ja": "至高の皿を求めて",
+     "en": "In Pursuit of the Perfect Plate",
+     "type": "DLC",
+     "area": "地球圈 - Padum Sector",
+     "note": ""
+    },
+    {
+     "code": "3-8",
+     "zh": "复仇的恶魔",
+     "ja": "復讐の悪魔",
+     "en": "Dark Vengeance",
+     "type": "支线",
+     "area": "地球 - Hong Kong",
+     "note": ""
+    },
+    {
+     "code": "3-9",
+     "zh": "超越师父，超越自我",
+     "ja": "師を越え、己を越え",
+     "en": "Surpass the Master and Oneself",
+     "type": "支线",
+     "area": "地球 - Guiana Highlands",
+     "note": ""
+    },
+    {
+     "code": "3-6",
+     "zh": "新世界的宣誓",
+     "ja": "新世界の宣誓",
+     "en": "The New World Oath",
+     "type": "主线",
+     "area": "地球圈 - LCROSS宙域",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第 4 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "DLC-04",
+     "zh": "市民部第一课·大施工祭",
+     "ja": "市民部第一課・大工事祭",
+     "en": "Section 1's Construction Bash",
+     "type": "DLC",
+     "area": "地球 - 奥古斯塔",
+     "note": ""
+    },
+    {
+     "code": "DLC-05",
+     "zh": "通往破产的倒计时",
+     "ja": "破産へのカウントダウン",
+     "en": "Countdown to Bankruptcy",
+     "type": "DLC",
+     "area": "地球 - 首尔",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-10",
+     "zh": "战斗的旋律",
+     "ja": "戦いのメロディー",
+     "en": "The Melody of Battle",
+     "type": "DLC 第1弹",
+     "area": "地球圈 - 贝罗索斯宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-11",
+     "zh": "无面者",
+     "ja": "",
+     "en": "The Faceless",
+     "type": "DLC 第1弹",
+     "area": "地球 - 布宜诺斯艾利斯",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-06",
+     "zh": "被诅咒者",
+     "ja": "呪われしもの",
+     "en": "Cursed Existence",
+     "type": "DLC · 35周年纪念",
+     "area": "极东 - 高知",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-07",
+     "zh": "三心合一",
+     "ja": "三つの心を一つに",
+     "en": "Three Hearts as One",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 菲律宾海",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-08",
+     "zh": "红色的逆袭",
+     "ja": "逆襲の赤",
+     "en": "Red's Counterattack",
+     "type": "DLC · 35周年纪念",
+     "area": "极东 - 千叶",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-09",
+     "zh": "存在的意义",
+     "ja": "存在する意味",
+     "en": "The Meaning of Existence",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 布拉格",
+     "note": ""
+    },
+    {
+     "code": "4-1",
+     "zh": "诺亚·布兰德的挑战",
+     "ja": "ノア・ブランドの挑戦",
+     "en": "NOAH Brand's Challenge",
+     "type": "支线",
+     "area": "地球圈 - 奥米克戎宙域",
+     "note": ""
+    },
+    {
+     "code": "4-2",
+     "zh": "诅咒之歌在夜空回响",
+     "ja": "呪いの歌が夜響く",
+     "en": "A Cursed Song in the Night",
+     "type": "支线",
+     "area": "地球 - 北京",
+     "note": ""
+    },
+    {
+     "code": "4-3",
+     "zh": "闪闪发光的边界线",
+     "ja": "キラキラ・ボーダーライン",
+     "en": "Sparkling Borderline",
+     "type": "支线",
+     "area": "地球圈 - 星玫瑰",
+     "note": ""
+    },
+    {
+     "code": "4-4",
+     "zh": "迷失的战士们",
+     "ja": "迷える戦士たち",
+     "en": "Lost Warriors",
+     "type": "支线",
+     "area": "地球 - 休斯顿",
+     "note": ""
+    },
+    {
+     "code": "4-1",
+     "zh": "斯维特强袭",
+     "ja": "スヴェート強襲",
+     "en": "The Sveet Raid",
+     "type": "主线",
+     "area": "地球 - 挪威海",
+     "note": "与 4-2 一组，顺序任意"
+    },
+    {
+     "code": "4-2",
+     "zh": "六人与一匹与一个",
+     "ja": "六人と一匹と一つ",
+     "en": "Six and a Dragon",
+     "type": "主线",
+     "area": "地球 - 艾丽斯泉",
+     "note": "与 4-1 一组，顺序任意"
+    },
+    {
+     "code": "DLC-06",
+     "zh": "追踪怪兽使",
+     "ja": "怪獣使いを追え",
+     "en": "Investigating the Kaiju Users",
+     "type": "DLC",
+     "area": "地球 - 圣地亚哥",
+     "note": ""
+    },
+    {
+     "code": "4-3",
+     "zh": "魔女的愿望",
+     "ja": "魔女の願い",
+     "en": "The Witch's Wishes",
+     "type": "主线",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "4-4",
+     "zh": "决死的尽头",
+     "ja": "決死の果てに",
+     "en": "Where Resolve Leads",
+     "type": "主线",
+     "area": "地球 - 菲尼克斯",
+     "note": ""
+    },
+    {
+     "code": "4-5C",
+     "zh": "NINJA的誓言",
+     "ja": "NINJAの誓い",
+     "en": "A NINJA's Oath",
+     "type": "主线",
+     "area": "地球 - 菲尼克斯",
+     "note": "克罗斯专属，与 4-5F 互斥"
+    },
+    {
+     "code": "4-5F",
+     "zh": "反逆的NINJA",
+     "ja": "反逆のNINJA",
+     "en": "A NINJA's Rebellion",
+     "type": "主线",
+     "area": "地球 - 菲尼克斯",
+     "note": "芙尔缇专属，与 4-5C 互斥"
+    }
+   ]
+  },
+  {
+   "title": "第 5 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "DLC-RD-12",
+     "zh": "在一切开始之夜",
+     "ja": "始まりの夜に",
+     "en": "The Night That It All Started",
+     "type": "DLC 第1弹",
+     "area": "地球 - 莫尔兹比港",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-10",
+     "zh": "光与暗与生命",
+     "ja": "光と闇と生命と",
+     "en": "Light, Darkness, and Life",
+     "type": "DLC · 35周年纪念",
+     "area": "极东 - 富士山基地",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-12",
+     "zh": "来自绿色星球的男人",
+     "ja": "緑の星から来た男",
+     "en": "Man from the Green Planet",
+     "type": "DLC · 扩展包",
+     "area": "地球 - 赫尔辛基",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-13",
+     "zh": "汝，有罪",
+     "ja": "YE GUILTY",
+     "en": "Ye Guilty",
+     "type": "DLC 第1弹",
+     "area": "地球 - 珀斯",
+     "note": ""
+    },
+    {
+     "code": "DLC-RD-14",
+     "zh": "在诀别之日",
+     "ja": "訣別の日に",
+     "en": "Time for Farewells",
+     "type": "DLC 第1弹",
+     "area": "地球 - 约翰内斯堡",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-11",
+     "zh": "被撕裂的大地",
+     "ja": "引き裂かれる大地",
+     "en": "The Torn Earth",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 卡萨布兰卡",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-13",
+     "zh": "光之美少年，暗之贵公子",
+     "ja": "光の美少年、闇の貴公子",
+     "en": "Shining Bishonen, Dark Prince",
+     "type": "DLC · 扩展包",
+     "area": "地球 - 旧金山",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-12",
+     "zh": "我们的道路",
+     "ja": "俺達の道",
+     "en": "Our Path",
+     "type": "DLC · 35周年纪念",
+     "area": "地球圈 - Debris Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-14",
+     "zh": "心意相重",
+     "ja": "おもい重ねて",
+     "en": "Joined Hearts",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-15",
+     "zh": "新世界的新娘",
+     "ja": "新世界の花嫁",
+     "en": "Bride of a New World",
+     "type": "DLC · 扩展包",
+     "area": "地球 - 伦敦",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-16",
+     "zh": "伊德的考验",
+     "ja": "イデの試し",
+     "en": "The Ide's Trial",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - Debris Sector",
+     "note": ""
+    },
+    {
+     "code": "5-1",
+     "zh": "红色灾厄",
+     "ja": "紅い災厄",
+     "en": "Disaster in Red",
+     "type": "支线",
+     "area": "地球 - 基督城",
+     "note": ""
+    },
+    {
+     "code": "5-2",
+     "zh": "吹向未来的风",
+     "ja": "未来へと吹く風",
+     "en": "The Wind Blows to the Future",
+     "type": "支线",
+     "area": "地球 - 斯德哥尔摩",
+     "note": ""
+    },
+    {
+     "code": "5-3",
+     "zh": "拜斯顿·威尔的意志",
+     "ja": "バイストンウェルの意思",
+     "en": "The Will of Byston Well",
+     "type": "支线",
+     "area": "地球 - 拉萨",
+     "note": ""
+    },
+    {
+     "code": "5-4",
+     "zh": "前往恐龙帝国的邀请",
+     "ja": "恐竜帝国への招待",
+     "en": "The Dinosaurs' Invitation",
+     "type": "支线",
+     "area": "地球 - 波利尼西亚",
+     "note": ""
+    },
+    {
+     "code": "5-5",
+     "zh": "诺亚·布兰德的觉悟",
+     "ja": "ノア・ブランドの覚悟",
+     "en": "NOAH Brand's Resolve",
+     "type": "支线",
+     "area": "地球 - 夏延",
+     "note": ""
+    },
+    {
+     "code": "5-6",
+     "zh": "圣战士的资格",
+     "ja": "聖戦士の資格",
+     "en": "What Makes a Battler",
+     "type": "支线",
+     "area": "地球 - 埃德蒙顿",
+     "note": ""
+    },
+    {
+     "code": "5-1",
+     "zh": "被铭刻的生命",
+     "ja": "刻まれた生命",
+     "en": "Manufactured Lives",
+     "type": "主线",
+     "area": "地球圈 - 殖民地门德尔",
+     "note": "与 5-2 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "5-2",
+     "zh": "渴望永恒与正义的龙",
+     "ja": "永遠と正義を望む龍",
+     "en": "The Dragon's Eternal Justice",
+     "type": "主线",
+     "area": "地球圈 - 阿拉拉特宙域",
+     "note": "与 5-1 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "DLC-07",
+     "zh": "贴身护卫，瓦尔基里24时",
+     "ja": "密着、ワルキューレ護衛24時",
+     "en": "Mission: Walküre Escort",
+     "type": "DLC",
+     "area": "地球圈 - 奥尔德林宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-08",
+     "zh": "一日NINJA修行",
+     "ja": "一日NINJA修行",
+     "en": "A Day of Ninja Training",
+     "type": "DLC",
+     "area": "地球 - 台北",
+     "note": ""
+    },
+    {
+     "code": "5-3",
+     "zh": "再生·增殖·进化的恶意",
+     "ja": "再生・増殖・進化する悪意",
+     "en": "Three Principles of Darkness",
+     "type": "主线",
+     "area": "地球 - 底特律",
+     "note": "与 5-4 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "5-4",
+     "zh": "超越魔的力量",
+     "ja": "魔を超える力",
+     "en": "Power to Overcome Evil",
+     "type": "主线",
+     "area": "地球 - 雅典",
+     "note": "与 5-3 一组，顺序任意、两关必打"
+    },
+    {
+     "code": "5-7",
+     "zh": "苏醒的远古记忆",
+     "ja": "よみがえる古の記憶",
+     "en": "Ancient Memories Unsealed",
+     "type": "支线",
+     "area": "地球 - 百慕大群岛",
+     "note": ""
+    },
+    {
+     "code": "5-5",
+     "zh": "不断轮转的世界",
+     "ja": "廻り続ける世界",
+     "en": "The World Turning",
+     "type": "主线",
+     "area": "地球 - 布鲁塞尔",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-17",
+     "zh": "人类的去向",
+     "ja": "ヒトの行き先",
+     "en": "Humanity's Path",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 奥米克戎宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-18",
+     "zh": "篡夺者",
+     "ja": "簒奪者",
+     "en": "The Usurper",
+     "type": "DLC · 扩展包",
+     "area": "地球 - 新加坡",
+     "note": ""
+    },
+    {
+     "code": "DLC-09",
+     "zh": "两位上校",
+     "ja": "大佐と大佐",
+     "en": "Two Captains",
+     "type": "DLC",
+     "area": "地球 - 卡奔塔利亚",
+     "note": ""
+    },
+    {
+     "code": "5-6C",
+     "zh": "孤独的月亮照亮的道路",
+     "ja": "孤独な月が照らす道",
+     "en": "A Lonely Moonlit Path",
+     "type": "主线",
+     "area": "地球 - 重庆",
+     "note": "克罗斯专属；本关进行结局路线选择"
+    },
+    {
+     "code": "5-6F",
+     "zh": "在闪耀之夜绽放",
+     "ja": "輝く夜に花咲いて",
+     "en": "Blooms in a Shining Night",
+     "type": "主线",
+     "area": "地球 - 重庆",
+     "note": "芙尔缇专属；本关进行结局路线选择"
+    }
+   ]
+  },
+  {
+   "title": "第 6 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "DLC-10",
+     "zh": "大人的责任",
+     "ja": "オトナの責任",
+     "en": "Adult Responsibilities",
+     "type": "DLC",
+     "area": "地球 - 里约热内卢",
+     "note": ""
+    },
+    {
+     "code": "DLC-11",
+     "zh": "年轻人的主张",
+     "ja": "若者の主張",
+     "en": "Chips on Young Shoulders",
+     "type": "DLC",
+     "area": "地球 - 墨西哥城",
+     "note": ""
+    },
+    {
+     "code": "DLC-RW-01",
+     "zh": "革命战争记录：王之战",
+     "ja": "革命戦争レコード：王の戦い",
+     "en": "Revol. War: The King's War",
+     "type": "DLC · 革命战争记录",
+     "area": "地球 - 所罗门群岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-RW-02",
+     "zh": "革命战争记录：神与恶魔",
+     "ja": "革命戦争レコード：神と悪魔と",
+     "en": "Revol. War: Burning in Darkness",
+     "type": "DLC · 革命战争记录",
+     "area": "地球 - 所罗门群岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-RW-03",
+     "zh": "革命战争记录：彗星的逆袭",
+     "ja": "革命戦争レコード：逆襲の彗星",
+     "en": "Revol. War: Comet's Counterattack",
+     "type": "DLC · 革命战争记录",
+     "area": "地球 - 所罗门群岛",
+     "note": ""
+    },
+    {
+     "code": "6-1",
+     "zh": "诺亚·布兰德的信念",
+     "ja": "ノア・ブランドの信念",
+     "en": "NOAH Brand's Faith",
+     "type": "支线",
+     "area": "地球圈 - 戈弗宙域",
+     "note": ""
+    },
+    {
+     "code": "6-1",
+     "zh": "我的歌，你的歌",
+     "ja": "わたしの歌、あなたの歌",
+     "en": "My Song, Your Song",
+     "type": "主线",
+     "area": "地球圈 - 多达宙域",
+     "note": "与 6-2 一组，顺序任意"
+    },
+    {
+     "code": "6-2",
+     "zh": "前往回忆的彼方",
+     "ja": "思い出の向こうへ",
+     "en": "Beneath Old Memories",
+     "type": "主线",
+     "area": "地球 - 珊瑚海",
+     "note": "与 6-1 一组，顺序任意"
+    },
+    {
+     "code": "6-2",
+     "zh": "魔神滚烫的血",
+     "ja": "熱き魔神の血",
+     "en": "The Mazins' Burning Blood",
+     "type": "支线",
+     "area": "地球 - 巴黎",
+     "note": ""
+    },
+    {
+     "code": "6-3",
+     "zh": "开始蠢动的野心",
+     "ja": "動き出す野望",
+     "en": "Ambitions in Motion",
+     "type": "主线",
+     "area": "地球 - 挪威海",
+     "note": ""
+    },
+    {
+     "code": "6-3",
+     "zh": "诺亚·布兰德的执念",
+     "ja": "ノア・ブランドの執念",
+     "en": "NOAH Brand's Stand",
+     "type": "支线",
+     "area": "地球 - 罗马",
+     "note": ""
+    },
+    {
+     "code": "6-4",
+     "zh": "向未知突入",
+     "ja": "未知への突入",
+     "en": "Charge Into The Unknown",
+     "type": "主线",
+     "area": "地球 - 乞力马扎罗",
+     "note": ""
+    },
+    {
+     "code": "6-5",
+     "zh": "时间尽头的圣战",
+     "ja": "時の彼方の聖戦",
+     "en": "Crusade at the End of Time",
+     "type": "主线",
+     "area": "地球 - 乞力马扎罗",
+     "note": ""
+    },
+    {
+     "code": "DLC-12",
+     "zh": "可疑的对手们",
+     "ja": "あやしいライバルたち",
+     "en": "Rivals Under Suspicion",
+     "type": "DLC",
+     "area": "地球 - 巴塞罗那",
+     "note": ""
+    },
+    {
+     "code": "6-4",
+     "zh": "铁女神的挑战",
+     "ja": "鉄女神の挑戦",
+     "en": "The Iron Goddess' Challenge",
+     "type": "支线",
+     "area": "地球 - 阿斯塔纳",
+     "note": ""
+    },
+    {
+     "code": "6-5",
+     "zh": "魔兽的挑战",
+     "ja": "魔獣の挑戦",
+     "en": "The Devourer's Challenge",
+     "type": "支线",
+     "area": "地球 - 开普敦",
+     "note": ""
+    },
+    {
+     "code": "6-6",
+     "zh": "前英雄的挑战",
+     "ja": "元英雄の挑戦",
+     "en": "The Fallen Hero's Challenge",
+     "type": "支线",
+     "area": "地球圈 - 伊普西龙宙域",
+     "note": ""
+    },
+    {
+     "code": "6-7",
+     "zh": "次元守护者的邀请函",
+     "ja": "次元の番人の招待状",
+     "en": "The Keeper of Dimensions",
+     "type": "支线",
+     "area": "地球 - 尼莫点",
+     "note": ""
+    },
+    {
+     "code": "6-8",
+     "zh": "想了解爱的铁女神",
+     "ja": "愛を知りたい鉄女神",
+     "en": "The Iron Goddess and Love",
+     "type": "支线",
+     "area": "地球 - 阿斯塔纳",
+     "note": ""
+    },
+    {
+     "code": "6-9",
+     "zh": "寻求希望的魔兽",
+     "ja": "希望を求める魔獣",
+     "en": "The Devourer and Hope",
+     "type": "支线",
+     "area": "地球 - 开普敦",
+     "note": ""
+    },
+    {
+     "code": "6-10",
+     "zh": "热爱勇气的前英雄",
+     "ja": "勇気を愛する元英雄",
+     "en": "The Fallen Hero and Bravery",
+     "type": "支线",
+     "area": "地球圈 - 伊普西龙宙域",
+     "note": ""
+    },
+    {
+     "code": "6-6",
+     "zh": "前往无尽的战斗",
+     "ja": "果てしなき戦いへ",
+     "en": "On to a Never-Ending Battle",
+     "type": "主线",
+     "area": "地球 - 波利尼西亚",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-13",
+     "zh": "正义在此",
+     "ja": "ここに正義を",
+     "en": "Justice Is on My Side",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 百慕大群岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-AS-14",
+     "zh": "守护者的使命",
+     "ja": "守護者の使命",
+     "en": "A Guardian's Purpose",
+     "type": "DLC · 35周年纪念",
+     "area": "地球 - 百慕大群岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-NB-01",
+     "zh": "诺亚·布兰德战记：出击",
+     "ja": "ノア・ブランド戦記：出撃",
+     "en": "NOAH Brand's Battles: Sortie",
+     "type": "DLC · 诺亚战记",
+     "area": "地球 - 复活节岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-NB-02",
+     "zh": "诺亚·布兰德战记：追击",
+     "ja": "ノア・ブランド戦記：追跡",
+     "en": "NOAH Brand's Battles: Pursuit",
+     "type": "DLC · 诺亚战记",
+     "area": "地球 - 复活节岛",
+     "note": ""
+    },
+    {
+     "code": "DLC-NB-03",
+     "zh": "诺亚·布兰德战记：散华",
+     "ja": "ノア・ブランド戦記：散華",
+     "en": "NOAH Brand's Battles: Demise",
+     "type": "DLC · 诺亚战记",
+     "area": "地球 - 复活节岛",
+     "note": ""
+    },
+    {
+     "code": "6-7",
+     "zh": "NOAHS激震",
+     "ja": "NOAHS激震",
+     "en": "NOAHS' Upheaval",
+     "type": "主线",
+     "area": "地球 - 重庆",
+     "note": ""
+    },
+    {
+     "code": "6-8",
+     "zh": "过去与现在与未来",
+     "ja": "過去と今と未来と",
+     "en": "Past, Present, and Future",
+     "type": "主线",
+     "area": "地球 - 重庆",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "第 7 章",
+   "intro": "",
+   "rows": [
+    {
+     "code": "DLC-13",
+     "zh": "艾·亚德邦体育祭",
+     "ja": "エーアデント・スポーツの祭典",
+     "en": "The A. Advent Sports Festival",
+     "type": "DLC",
+     "area": "地球 - Minneapolis",
+     "note": ""
+    },
+    {
+     "code": "DLC-14",
+     "zh": "米娜的礼物",
+     "ja": "ミナの贈り物",
+     "en": "Mina's Gift",
+     "type": "DLC",
+     "area": "地球圈 - Udaipu Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-15",
+     "zh": "安妮娜的愤怒",
+     "ja": "怒りのアニーナ",
+     "en": "Annina's Rage",
+     "type": "DLC",
+     "area": "地球圈 - Caboto Sector",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-19",
+     "zh": "坠落之物",
+     "ja": "堕ちてくるもの",
+     "en": "Falling Objects",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-20",
+     "zh": "在因果地平的彼方",
+     "ja": "因果地平の彼方に",
+     "en": "Beyond the Event Horizon",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-ID-21",
+     "zh": "为这个世界献上福音",
+     "ja": "この世界に福音を",
+     "en": "Blessings for the World",
+     "type": "DLC · 扩展包",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "7-1",
+     "zh": "终焉的开幕",
+     "ja": "しゅうえんのまくあけ",
+     "en": "Beginning of the End",
+     "type": "主线",
+     "area": "地球 - 南极点",
+     "note": ""
+    },
+    {
+     "code": "7-2",
+     "zh": "在宇宙绽放的花",
+     "ja": "宇宙に咲く花",
+     "en": "Flowers That Bloom in Space",
+     "type": "主线",
+     "area": "地球圈 - 大门",
+     "note": ""
+    },
+    {
+     "code": "7-3A",
+     "zh": "起始的两人",
+     "ja": "はじまりのふたり",
+     "en": "Together",
+     "type": "主线",
+     "area": "地球 - 南极点",
+     "note": "A 结局路线专属"
+    },
+    {
+     "code": "7-3B",
+     "zh": "两人的起始",
+     "ja": "ふたりのはじまり",
+     "en": "Entwined",
+     "type": "主线",
+     "area": "地球 - 南极点",
+     "note": "B 结局路线专属"
+    },
+    {
+     "code": "7-4",
+     "zh": "被托付之物，究竟是什么？",
+     "ja": "託されたものって、なに？",
+     "en": "What Was I Entrusted With?",
+     "type": "主线",
+     "area": "极东 - 东京",
+     "note": ""
+    },
+    {
+     "code": "7-5",
+     "zh": "在永恒的终结",
+     "ja": "永遠の終わりに",
+     "en": "The End of Eternity",
+     "type": "主线",
+     "area": "地球圈 - Evolver Ruins",
+     "note": ""
+    },
+    {
+     "code": "7-1A",
+     "zh": "天帝的去向",
+     "ja": "天帝の行き先",
+     "en": "The Celestial Emperor's Path",
+     "type": "支线",
+     "area": "地球 - 重庆",
+     "note": "A 结局路线"
+    },
+    {
+     "code": "7-1B",
+     "zh": "超人类与人类",
+     "ja": "超人類と人類",
+     "en": "Humanity and Superhumanity",
+     "type": "支线",
+     "area": "地球 - 重庆",
+     "note": "B 结局路线"
+    },
+    {
+     "code": "7-6A",
+     "zh": "劈开黑暗的光",
+     "ja": "暗黒を裂く光",
+     "en": "Light Cuts Through Darkness",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "A 结局路线"
+    },
+    {
+     "code": "7-6B",
+     "zh": "地球的救世主",
+     "ja": "地球の救世主",
+     "en": "The Savior of Earth",
+     "type": "主线",
+     "area": "地球圈 - Evolver Ruins",
+     "note": "B 结局路线专属追加关"
+    },
+    {
+     "code": "7-7A",
+     "zh": "鸣动的宇宙",
+     "ja": "鳴動する宇宙",
+     "en": "Rumbling Space",
+     "type": "主线",
+     "area": "地球圈 - 残骸带",
+     "note": "A 结局路线"
+    },
+    {
+     "code": "7-7B",
+     "zh": "射入黑暗的光",
+     "ja": "闇にさす光",
+     "en": "Light in the Darkness",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "B 结局路线"
+    },
+    {
+     "code": "7-8A",
+     "zh": "前往新世界",
+     "ja": "新世界へ",
+     "en": "To a New World",
+     "type": "主线",
+     "area": "地球圈 - Evolver Ruins",
+     "note": "A 结局路线"
+    },
+    {
+     "code": "7-8B",
+     "zh": "天帝，最后的赌局",
+     "ja": "天帝、最後の賭け",
+     "en": "The Celestial Emperor's Gambit",
+     "type": "主线",
+     "area": "地球圈 - 残骸带",
+     "note": "B 结局路线"
+    },
+    {
+     "code": "7-9A",
+     "zh": "未来为了谁",
+     "ja": "未来は誰がために",
+     "en": "A Future for Who?",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "A 结局路线最终关"
+    },
+    {
+     "code": "7-9B",
+     "zh": "诀别与相遇",
+     "ja": "決別と出会いと",
+     "en": "Parting and Meeting",
+     "type": "主线",
+     "area": "极东 - 太平洋海域",
+     "note": "B 结局路线最终关"
+    }
+   ]
+  },
+  {
+   "title": "战术研究记录",
+   "intro": "以「S」（宇宙）与「G」（地上）两条链交替推进的特殊支线链，奖励为强力部件；编号沿用其记录名（S01/G01…）。",
+   "rows": [
+    {
+     "code": "TR-S01",
+     "zh": "战术研究记录 S01",
+     "ja": "戦術研究記録：S01",
+     "en": "Tactics Research Notes: S01",
+     "type": "战术研究记录",
+     "area": "地球圈 - 伊奥塔宙域",
+     "note": ""
+    },
+    {
+     "code": "TR-G01",
+     "zh": "战术研究记录 G01",
+     "ja": "戦術研究記録：G01",
+     "en": "Tactics Research Notes: G01",
+     "type": "战术研究记录",
+     "area": "地球 - 贾布罗",
+     "note": ""
+    },
+    {
+     "code": "TR-S02",
+     "zh": "战术研究记录 S02",
+     "ja": "戦術研究記録：S02",
+     "en": "Tactics Research Notes: S02",
+     "type": "战术研究记录",
+     "area": "地球圈 - 伊奥塔宙域",
+     "note": ""
+    },
+    {
+     "code": "TR-G02",
+     "zh": "战术研究记录 G02",
+     "ja": "戦術研究記録：G02",
+     "en": "Tactics Research Notes: G02",
+     "type": "战术研究记录",
+     "area": "地球 - 贾布罗",
+     "note": ""
+    },
+    {
+     "code": "TR-S03",
+     "zh": "战术研究记录 S03",
+     "ja": "戦術研究記録：S03",
+     "en": "Tactics Research Notes: S03",
+     "type": "战术研究记录",
+     "area": "地球圈 - 伊奥塔宙域",
+     "note": ""
+    },
+    {
+     "code": "TR-G03",
+     "zh": "战术研究记录 G03",
+     "ja": "戦術研究記録：G03",
+     "en": "Tactics Research Notes: G03",
+     "type": "战术研究记录",
+     "area": "地球 - 贾布罗",
+     "note": ""
+    },
+    {
+     "code": "TR-S04",
+     "zh": "战术研究记录 S04",
+     "ja": "戦術研究記録：S04",
+     "en": "Tactics Research Notes: S04",
+     "type": "战术研究记录",
+     "area": "地球圈 - 伊奥塔宙域",
+     "note": ""
+    },
+    {
+     "code": "TR-G04",
+     "zh": "战术研究记录 G04",
+     "ja": "戦術研究記録：G04",
+     "en": "Tactics Research Notes: G04",
+     "type": "战术研究记录",
+     "area": "地球 - 贾布罗",
+     "note": ""
+    },
+    {
+     "code": "TR-S05",
+     "zh": "战术研究记录 S05",
+     "ja": "戦術研究記録：S05",
+     "en": "Tactics Research Notes: S05",
+     "type": "战术研究记录",
+     "area": "地球圈 - 伊奥塔宙域",
+     "note": ""
+    },
+    {
+     "code": "TR-G05",
+     "zh": "战术研究记录 G05",
+     "ja": "戦術研究記録：G05",
+     "en": "Tactics Research Notes: G05",
+     "type": "战术研究记录",
+     "area": "地球 - 贾布罗",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "战线任务",
+   "intro": "无剧情的练级/刷取任务组：每组由数个战斗阶段组成、可反复游玩；流程表按组著录开放条件与胜负条件，本站各组建一页。",
+   "rows": [
+    {
+     "code": "Front-1",
+     "zh": "南美战线",
+     "ja": "南米戦線",
+     "en": "The South American Front",
+     "type": "战线任务",
+     "area": "地球 - 库斯科",
+     "note": ""
+    },
+    {
+     "code": "Front-2",
+     "zh": "非洲战线",
+     "ja": "アフリカ戦線",
+     "en": "The African Front",
+     "type": "战线任务",
+     "area": "地球 - 开罗",
+     "note": ""
+    },
+    {
+     "code": "Front-3",
+     "zh": "地球圈外缘战线",
+     "ja": "地球圏外縁戦線",
+     "en": "The Outer Earth Sphere Front",
+     "type": "战线任务",
+     "area": "地球圈 - 科尔特雷亚尔宙域",
+     "note": ""
+    },
+    {
+     "code": "Front-4",
+     "zh": "欧洲战线",
+     "ja": "ヨーロッパ戦線",
+     "en": "The European Front",
+     "type": "战线任务",
+     "area": "地球 - 慕尼黑",
+     "note": ""
+    },
+    {
+     "code": "Front-5",
+     "zh": "大洋洲战线",
+     "ja": "オセアニア戦線",
+     "en": "The Oceanic Front",
+     "type": "战线任务",
+     "area": "地球 - 阿德莱德",
+     "note": ""
+    },
+    {
+     "code": "Front-6",
+     "zh": "北美战线",
+     "ja": "北米戦線",
+     "en": "The North American Front",
+     "type": "战线任务",
+     "area": "地球 - 西雅图",
+     "note": ""
+    },
+    {
+     "code": "Front-7",
+     "zh": "亚洲战线",
+     "ja": "アジア戦線",
+     "en": "The Asian Front",
+     "type": "战线任务",
+     "area": "地球 - 新德里",
+     "note": ""
+    },
+    {
+     "code": "Front-8",
+     "zh": "西日本战线",
+     "ja": "西日本戦線",
+     "en": "The West Japan Front",
+     "type": "战线任务",
+     "area": "地球 - 博多",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "遗产任务",
+   "intro": "高难度挑战任务组：每套 3 关（本篇 10 套 + 黄金 DLC 套 + DLC 套装 3 套），奖励为强力强化部件；推荐等级（Difficulty Lv）标在各关页。",
+   "rows": [
+    {
+     "code": "Relic-Gales-1",
+     "zh": "疾风之遗产",
+     "ja": "疾風の遺産",
+     "en": "Relic of Gales",
+     "type": "遗产任务",
+     "area": "极东 - 鄂霍次克海",
+     "note": ""
+    },
+    {
+     "code": "Relic-Gales-2",
+     "zh": "续·疾风之遗产",
+     "ja": "続・疾風の遺産",
+     "en": "Superior Relic of Gales",
+     "type": "遗产任务",
+     "area": "地球 - 直布罗陀",
+     "note": ""
+    },
+    {
+     "code": "Relic-Gales-3",
+     "zh": "真·疾风之遗产",
+     "ja": "真・疾風の遺産",
+     "en": "Ultimate Relic of Gales",
+     "type": "遗产任务",
+     "area": "地球圈 - 卡布拉尔宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Lightning-1",
+     "zh": "迅雷之遗产",
+     "ja": "迅雷の遺産",
+     "en": "Relic of Lightning",
+     "type": "遗产任务",
+     "area": "地球 - 布里斯班",
+     "note": ""
+    },
+    {
+     "code": "Relic-Lightning-2",
+     "zh": "续·迅雷之遗产",
+     "ja": "続・迅雷の遺産",
+     "en": "Superior Relic of Lightning",
+     "type": "遗产任务",
+     "area": "地球 - 马尼拉",
+     "note": ""
+    },
+    {
+     "code": "Relic-Lightning-3",
+     "zh": "真·迅雷之遗产",
+     "ja": "真・迅雷の遺産",
+     "en": "Ultimate Relic of Lightning",
+     "type": "遗产任务",
+     "area": "地球圈 - 埃格伯特宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Hellfire-1",
+     "zh": "业炎之遗产·序",
+     "ja": "業炎の遺産・序",
+     "en": "Relic of Hellfire: Arrival",
+     "type": "遗产任务",
+     "area": "极东 - 鄂霍次克海",
+     "note": ""
+    },
+    {
+     "code": "Relic-Hellfire-2",
+     "zh": "业炎之遗产·破",
+     "ja": "業炎の遺産・破",
+     "en": "Relic of Hellfire: Breakdown",
+     "type": "遗产任务",
+     "area": "地球 - 马尼拉",
+     "note": ""
+    },
+    {
+     "code": "Relic-Hellfire-3",
+     "zh": "业炎之遗产·急",
+     "ja": "業炎の遺産・急",
+     "en": "Relic of Hellfire: Climax",
+     "type": "遗产任务",
+     "area": "地球 - 巴拿马",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sight-1",
+     "zh": "魔眼之遗产",
+     "ja": "魔眼の遺産",
+     "en": "Relic of Sight",
+     "type": "遗产任务",
+     "area": "地球 - 安第斯山脉",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sight-2",
+     "zh": "续·魔眼之遗产",
+     "ja": "続・魔眼の遺産",
+     "en": "Superior Relic of Sight",
+     "type": "遗产任务",
+     "area": "地球 - 安克雷奇",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sight-3",
+     "zh": "真·魔眼之遗产",
+     "ja": "真・魔眼の遺産",
+     "en": "Ultimate Relic of Sight",
+     "type": "遗产任务",
+     "area": "地球 - 墨尔本",
+     "note": ""
+    },
+    {
+     "code": "Relic-Courage-1",
+     "zh": "豪胆之遗产",
+     "ja": "豪胆の遺産",
+     "en": "Relic of Courage",
+     "type": "遗产任务",
+     "area": "地球圈 - 昌巴宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Courage-2",
+     "zh": "续·豪胆之遗产",
+     "ja": "続・豪胆の遺産",
+     "en": "Superior Relic of Courage",
+     "type": "遗产任务",
+     "area": "地球圈 - 埃利亚宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Courage-3",
+     "zh": "真·豪胆之遗产",
+     "ja": "真・豪胆の遺産",
+     "en": "Ultimate Relic of Courage",
+     "type": "遗产任务",
+     "area": "地球圈 - 拉贾斯宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Healing-1",
+     "zh": "神愈之遗产·序",
+     "ja": "神癒の遺産・序",
+     "en": "Relic of Healing: Arrival",
+     "type": "遗产任务",
+     "area": "地球圈 - 埃利亚宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Healing-2",
+     "zh": "神愈之遗产·破",
+     "ja": "神癒の遺産・破",
+     "en": "Relic of Healing: Breakdown",
+     "type": "遗产任务",
+     "area": "地球 - 安克雷奇",
+     "note": ""
+    },
+    {
+     "code": "Relic-Healing-3",
+     "zh": "神愈之遗产·急",
+     "ja": "神癒の遺産・急",
+     "en": "Relic of Healing: Climax",
+     "type": "遗产任务",
+     "area": "地球圈 - LCROSS宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sacrifice-1",
+     "zh": "献身之遗产",
+     "ja": "献身の遺産",
+     "en": "Relic of Sacrifice",
+     "type": "遗产任务",
+     "area": "地球圈 - 赫斯佩里得斯宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sacrifice-2",
+     "zh": "续·献身之遗产",
+     "ja": "続・献身の遺産",
+     "en": "Superior Relic of Sacrifice",
+     "type": "遗产任务",
+     "area": "地球 - 恩贾梅纳",
+     "note": ""
+    },
+    {
+     "code": "Relic-Sacrifice-3",
+     "zh": "真·献身之遗产",
+     "ja": "真・献身の遺産",
+     "en": "Ultimate Relic of Sacrifice",
+     "type": "遗产任务",
+     "area": "地球 - 亚的斯亚贝巴",
+     "note": ""
+    },
+    {
+     "code": "Relic-Aura-1",
+     "zh": "霸气之遗产",
+     "ja": "覇気の遺産",
+     "en": "Relic of Aura",
+     "type": "遗产任务",
+     "area": "地球圈 - 蒙德宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Aura-2",
+     "zh": "续·霸气之遗产",
+     "ja": "続・覇気の遺産",
+     "en": "Superior Relic of Aura",
+     "type": "遗产任务",
+     "area": "地球 - 喀土穆",
+     "note": ""
+    },
+    {
+     "code": "Relic-Aura-3",
+     "zh": "真·霸气之遗产",
+     "ja": "真・覇気の遺産",
+     "en": "Ultimate Relic of Aura",
+     "type": "遗产任务",
+     "area": "地球 - 仰光",
+     "note": ""
+    },
+    {
+     "code": "Relic-Power-1",
+     "zh": "超力之遗产·序",
+     "ja": "超力の遺産・序",
+     "en": "Relic of Power: Arrival",
+     "type": "遗产任务",
+     "area": "地球 - 恩贾梅纳",
+     "note": ""
+    },
+    {
+     "code": "Relic-Power-2",
+     "zh": "超力之遗产·破",
+     "ja": "超力の遺産・破",
+     "en": "Relic of Power: Breakdown",
+     "type": "遗产任务",
+     "area": "地球圈 - 赫斯佩里得斯宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Power-3",
+     "zh": "超力之遗产·急",
+     "ja": "超力の遺産・急",
+     "en": "Relic of Power: Climax",
+     "type": "遗产任务",
+     "area": "地球 - 印度洋",
+     "note": ""
+    },
+    {
+     "code": "Relic-Gold-1",
+     "zh": "黄金之遗产",
+     "ja": "黄金の遺産",
+     "en": "Relic of Gold",
+     "type": "遗产任务",
+     "area": "地球圈 - 齐乌苏德拉宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Gold-2",
+     "zh": "续·黄金之遗产",
+     "ja": "続・黄金の遺産",
+     "en": "Relic of Gold, Part 2",
+     "type": "遗产任务",
+     "area": "地球圈 - 隆纳克宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Gold-3",
+     "zh": "真·黄金之遗产",
+     "ja": "真・黄金の遺産",
+     "en": "Relic of Gold, Finale",
+     "type": "遗产任务",
+     "area": "地球 - 上海",
+     "note": ""
+    },
+    {
+     "code": "Relic-GoldDLC-1",
+     "zh": "黄金之遗产：天",
+     "ja": "黄金の遺産：天",
+     "en": "Relic of Gold: Heaven",
+     "type": "遗产任务",
+     "area": "地球圈 - 齐乌苏德拉宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-GoldDLC-2",
+     "zh": "黄金之遗产：地",
+     "ja": "黄金の遺産：地",
+     "en": "Relic of Gold: Earth",
+     "type": "遗产任务",
+     "area": "地球圈 - 隆纳克宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-GoldDLC-3",
+     "zh": "黄金之遗产：人",
+     "ja": "黄金の遺産：人",
+     "en": "Relic of Gold: Humanity",
+     "type": "遗产任务",
+     "area": "地球 - 上海",
+     "note": ""
+    },
+    {
+     "code": "Relic-Mastery-1",
+     "zh": "达人之遗产·天",
+     "ja": "達人の遺産・天",
+     "en": "Relic of Mastery: Heaven",
+     "type": "遗产任务",
+     "area": "地球圈 - 埃格伯特宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Mastery-2",
+     "zh": "达人之遗产·地",
+     "ja": "達人の遺産・地",
+     "en": "Relic of Mastery: Earth",
+     "type": "遗产任务",
+     "area": "地球 - 布里斯班",
+     "note": ""
+    },
+    {
+     "code": "Relic-Mastery-3",
+     "zh": "达人之遗产·人",
+     "ja": "達人の遺産・人",
+     "en": "Relic of Mastery: Humanity",
+     "type": "遗产任务",
+     "area": "地球 - 直布罗陀",
+     "note": ""
+    },
+    {
+     "code": "Relic-Prowess-1",
+     "zh": "名手之遗产·天",
+     "ja": "名手の遺産・天",
+     "en": "Relic of Prowess: Heaven",
+     "type": "遗产任务",
+     "area": "地球圈 - 昌巴宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Prowess-2",
+     "zh": "名手之遗产·地",
+     "ja": "名手の遺産・地",
+     "en": "Relic of Prowess: Earth",
+     "type": "遗产任务",
+     "area": "地球 - 墨尔本",
+     "note": ""
+    },
+    {
+     "code": "Relic-Prowess-3",
+     "zh": "名手之遗产·人",
+     "ja": "名手の遺産・人",
+     "en": "Relic of Prowess: Humanity",
+     "type": "遗产任务",
+     "area": "地球 - 安第斯山脉",
+     "note": ""
+    },
+    {
+     "code": "Relic-Harmony-1",
+     "zh": "调和之遗产·天",
+     "ja": "調和の遺産・天",
+     "en": "Relic of Harmony: Heaven",
+     "type": "遗产任务",
+     "area": "地球圈 - 蒙德宙域",
+     "note": ""
+    },
+    {
+     "code": "Relic-Harmony-2",
+     "zh": "调和之遗产·地",
+     "ja": "調和の遺産・地",
+     "en": "Relic of Harmony: Earth",
+     "type": "遗产任务",
+     "area": "地球 - 喀土穆",
+     "note": ""
+    },
+    {
+     "code": "Relic-Harmony-3",
+     "zh": "调和之遗产·人",
+     "ja": "調和の遺産・人",
+     "en": "Relic of Harmony: Humanity",
+     "type": "遗产任务",
+     "area": "地球 - 仰光",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "35 周年纪念战役（DLC-AE）",
+   "intro": "与本篇分开的独立纪念战役（免费 DLC）：共 25 关连续剧情，可用新存档或通关存档开始；流程表中与本篇分开著录。",
+   "rows": [
+    {
+     "code": "DLC-AE-01",
+     "zh": "加速的未来",
+     "ja": "加速する未来",
+     "en": "The Accelerating Future",
+     "type": "纪念战役",
+     "area": "地球 - 南极点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-02",
+     "zh": "希望坠落之日",
+     "ja": "希望の堕ちる日",
+     "en": "The Sinking of Hope",
+     "type": "纪念战役",
+     "area": "地球 - 尼莫点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-03",
+     "zh": "一百万CREDIT的男人",
+     "ja": "100万CREDITの男",
+     "en": "The Million-Credit Man",
+     "type": "纪念战役",
+     "area": "地球 - 尼莫点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-04",
+     "zh": "与其逃走不如前进",
+     "ja": "逃げ出すよりも進むことを",
+     "en": "Keep Marching on Instead of Running Off",
+     "type": "纪念战役",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-05",
+     "zh": "她们的愿望",
+     "ja": "彼女たちのネガイ",
+     "en": "What They Wish For",
+     "type": "纪念战役",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-06",
+     "zh": "在轮回之外",
+     "ja": "リンネの外で",
+     "en": "Beyond the Cycle of Reincarnation",
+     "type": "纪念战役",
+     "area": "地球圈 - Evolver Ruins",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-07",
+     "zh": "回归混沌",
+     "ja": "混沌への回帰",
+     "en": "Return to Chaos",
+     "type": "纪念战役",
+     "area": "地球圈 - Evolver Ruins",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-08",
+     "zh": "摇曳的黑暗",
+     "ja": "ゆらぐ闇",
+     "en": "Darkness in Flux",
+     "type": "纪念战役",
+     "area": "极东 - 伊豆",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-09",
+     "zh": "天帝的决断",
+     "ja": "天帝の決断",
+     "en": "The Celestial Emperor's Decision",
+     "type": "纪念战役",
+     "area": "地球 - 重庆",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-10",
+     "zh": "死斗，暗黑大将军",
+     "ja": "死闘、暗黒大将軍",
+     "en": "Versus the Great General of Darkness",
+     "type": "纪念战役",
+     "area": "地球 - 尼莫点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-11",
+     "zh": "绝叫的进化者",
+     "ja": "絶叫のイヴォルバー",
+     "en": "The Evolvers' Scream",
+     "type": "纪念战役",
+     "area": "地球 - 尼莫点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-12",
+     "zh": "盖塔之敌，人类之敌",
+     "ja": "ゲッターの敵、人類の敵",
+     "en": "Getter's Enemy, Humanity's Enemy",
+     "type": "纪念战役",
+     "area": "极东 - 浅间山",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-13",
+     "zh": "所托付之物，究竟是什么？",
+     "ja": "託したものって、なに？",
+     "en": "What Did You Entrust?",
+     "type": "纪念战役",
+     "area": "极东 - 东京",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-14",
+     "zh": "比翼，直到永远",
+     "ja": "比翼、どこまでも",
+     "en": "Wings Spread into Eternity",
+     "type": "纪念战役",
+     "area": "地球圈 - Colony Raidak",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-15",
+     "zh": "珍贵之物",
+     "ja": "大切なもの",
+     "en": "Precious Things",
+     "type": "纪念战役",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-16",
+     "zh": "摇摆的天秤",
+     "ja": "揺れる天秤",
+     "en": "The Wavering Scales",
+     "type": "纪念战役",
+     "area": "地球 - 埃德蒙顿",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-17",
+     "zh": "怪兽与人类，究竟是什么？",
+     "ja": "怪獣と人間って、なに？",
+     "en": "What Are Kaiju and Humans?",
+     "type": "纪念战役",
+     "area": "极东 - Okinawa",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-18",
+     "zh": "现在，能做到的事",
+     "ja": "今、できることを",
+     "en": "What We Can Do Now",
+     "type": "纪念战役",
+     "area": "地球圈 - 阿斯提卡西亚高等专门学园",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-19",
+     "zh": "在银河绽放的花，响彻的歌",
+     "ja": "銀河に咲く花、響く歌",
+     "en": "Bloom and Echo to the Galaxy",
+     "type": "纪念战役",
+     "area": "地球圈 - 大门",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-20",
+     "zh": "救世主",
+     "ja": "救世主",
+     "en": "Saviors",
+     "type": "纪念战役",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-21",
+     "zh": "比黑暗更暗，比深渊更深",
+     "ja": "闇より暗く、底より深く",
+     "en": "Darker than Darkness, Deeper than the Depths",
+     "type": "纪念战役",
+     "area": "极东 - 太平洋海域",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-22",
+     "zh": "来自虚无的使者",
+     "ja": "虚無からの使者く",
+     "en": "Emissary from the Void",
+     "type": "纪念战役",
+     "area": "地球圈 - 奥米克戎宙域",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-23",
+     "zh": "终结的终结",
+     "ja": "おわりのおわりく",
+     "en": "Finality",
+     "type": "纪念战役",
+     "area": "地球 - 南极点",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-24",
+     "zh": "不可退让的温柔",
+     "ja": "譲れない優しさ",
+     "en": "Unrelenting Tenderness",
+     "type": "纪念战役",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    },
+    {
+     "code": "DLC-AE-25",
+     "zh": "为所有的未来献上祝福",
+     "ja": "すべての未来に祝福を",
+     "en": "Blessings to All Futures",
+     "type": "纪念战役",
+     "area": "地球圈 - 残骸带",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

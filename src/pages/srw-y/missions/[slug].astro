@@ -1,0 +1,93 @@
+---
+import Base from '../../../layouts/Base.astro';
+import StageMap from '../../../components/StageMap.astro';
+import data from '../../../data/srwy-missions.json';
+import { href } from '../../../lib/site';
+
+export function getStaticPaths() {
+  return (data as any).missions.map((m: any) => ({ params: { slug: m.slug }, props: { m } }));
+}
+const { m } = Astro.props as any;
+const crumbs = [
+  { label: '首页', path: '' },
+  { label: '超级机器人大战Y', path: 'srw-y/' },
+  { label: '关卡攻略', path: 'srw-y/missions/' },
+  { label: `${m.code} ${m.zh}` },
+];
+---
+<Base title={`超级机器人大战Y ${m.code} ${m.zh} 攻略 · 胜利条件 / 加入 / 隐藏要素`} description={`超级机器人大战Y（Switch/PS5/Steam）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、我方加入单位与隐藏要素；本作无 SR 点；敌方编成为 gameline 与 A9VG 两处刊载但独立性未证实、暂不刊出（待裁决），坐标为参照框架。`} path={`srw-y/missions/${m.slug}/`} breadcrumbs={crumbs}>
+  <h1>{m.code}《{m.zh}》</h1>
+  <p class="text-base-content/60">{m.ja && <>{m.ja} / </>}{m.en} · {m.route} · {m.area}</p>
+
+  <div class="alert alert-info alert-soft my-4">
+    <span><strong>数据状态：</strong>本关的进入条件、胜利/败北条件、我方加入与通关奖励部件以 Akurasu 的《超级机器人大战Y》<strong>完整流程表（Complete Chart）</strong>为主源、隐藏要素与 Akurasu Secrets 页交叉核对（2026-10 与现行版逐项核对）。<strong>本作没有 SR 点</strong>：继《30》后 SR 点继续废除，难度由玩家自选（休闲 / 普通 / 困难 / 专家，通关后追加超级专家；困难/专家难度下 5 回合内通关有最高 50,000 的 CREDIT 奖励），不存在与熟练度挂钩的关卡条件。敌方<strong>编成</strong>方面，日方 gameline（wikiwiki《戦術指南》）与繁中站点 A9VG 都刊有逐关敌方资料，但两者是否相互独立未经证实（A9VG 可能转录自日方资料），按本站双源规则<strong>暂不刊出（待裁决）</strong>；敌方逐台坐标与逐格地形无任何来源，本页地图为带四边坐标轴的参照框架。本关固定奖励 CREDIT / MxP 数值由 Game8 逐关刊载，本站本轮未转录（待核实，见奖励说明）。中文关名为本站根据日文原名翻译（本作官方中文版的逐关名称未能取得可核对的完整原文）。</span>
+  </div>
+
+  <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+  <table class="table table-zebra">
+    <tbody>
+    <tr><th>进入条件 / 位置</th><td>{m.prerequisite}</td></tr>
+    <tr><th>胜利条件</th><td>{m.victory.length ? m.victory.map((v: string) => <div>{v}</div>) : <div>未查明（见下方注记）</div>}</td></tr>
+    <tr><th>败北条件</th><td>{m.defeat.length ? m.defeat.map((v: string) => <div>{v}</div>) : <div>未查明（见下方注记）</div>}{m.defeatNote && <div class="muted">{m.defeatNote}</div>}</td></tr>
+    {m.difficulty && (
+    <tr><th>推荐等级</th><td>{m.difficulty}（流程表 Difficulty Lv）</td></tr>
+    )}
+    {m.rewards.parts && m.rewards.parts.length > 0 && (
+    <tr><th>完成奖励（部件・程序）</th><td>{m.rewards.parts.map((p: string) => <div>{p}</div>)}</td></tr>
+    )}
+    <tr><th>奖励说明</th><td>{m.rewards.funds}{m.rewards.note && <div>{m.rewards.note}</div>}</td></tr>
+    {m.unlocks && m.unlocks.length > 0 && (
+    <tr><th>通关后开放</th><td>{m.unlocks.map((u: string) => <div>{u}</div>)}</td></tr>
+    )}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>我方参战 / 加入</h2>
+  {m.allies.length ? (
+  <ul>
+    {m.allies.map((a: string) => <li>{a}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无新增加入（编成变化见剧情事件与隐藏要素）。</p>
+  )}
+  {m.alliesNote && <p class="muted">{m.alliesNote}</p>}
+
+  <h2>敌方出场与增援</h2>
+  <div>
+    <div class="alert alert-warning alert-soft my-4">
+      <span><strong>{m.enemies.status}：</strong>本作的敌方逐关编成在 gameline（wikiwiki《戦術指南》）与 A9VG 两处均有刊载，但两者的独立性未经证实，暂按单一来源处理、不予刊出，等待裁决。Akurasu 流程表对本作没有部署表（Deployment Chart）。</span>
+    </div>
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+
+  {m.events.length > 0 && (
+  <>
+  <h2>剧情事件</h2>
+  <ul>
+    {m.events.map((e: string) => <li>{e}</li>)}
+  </ul>
+  </>
+  )}
+
+  <h2>隐藏要素（本关）</h2>
+  {m.secrets.length ? (
+  <ul>
+    {m.secrets.map((s: string) => <li>{s}</li>)}
+  </ul>
+  ) : (
+  <p class="muted">本关无单独隐藏要素（全作隐藏要素总览见本作主页）。</p>
+  )}
+
+  <h2>关卡地图（坐标）</h2>
+  <StageMap mission={m} />
+  {m.note && <p><strong>注：</strong>{m.note}</p>}
+
+  <h2>数据来源</h2>
+  <ul>
+    {m.sources.map((s: any) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}
+  </ul>
+  <p><a href={href('srw-y/missions/')}>← 返回超级机器人大战Y关卡列表</a></p>
+</Base>
