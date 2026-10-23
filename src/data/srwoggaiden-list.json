@@ -1,0 +1,403 @@
+{
+ "groups": [
+  {
+   "title": "共通序盘（第1–9话）",
+   "intro": "以阿尔贝罗三人组的量产型亡灵 Mk-II 开局，虎太与康帕奇布尔凯撒、修罗的预兆、钢号/黑钢号两队主力陆续归队；第9话结束时发生路线分歧。",
+   "rows": [
+    {
+     "code": "第1话",
+     "zh": "冻结的过去",
+     "ja": "凍結した過去",
+     "en": "Frozen Past",
+     "type": "开局关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第2话",
+     "zh": "有舍弃之神",
+     "ja": "捨てる神あれば",
+     "en": "When One Door Closes...",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第3话",
+     "zh": "舞动的摇篮（前篇）",
+     "ja": "踊る揺籃（前編）",
+     "en": "Dancing Cradle (First Part)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第4话",
+     "zh": "舞动的摇篮（后篇）",
+     "ja": "踊る揺籃（後編）",
+     "en": "Dancing Cradle (Last Part)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第5话",
+     "zh": "与狼群的邂逅",
+     "ja": "狼達との邂逅",
+     "en": "Encounter With the Wolves",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第6话",
+     "zh": "复苏之炎",
+     "ja": "甦る炎",
+     "en": "Resurrected Flames",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第7话",
+     "zh": "修罗的预兆",
+     "ja": "修羅の予兆",
+     "en": "Shura's Prelude",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第8话",
+     "zh": "烦恼的守护人",
+     "ja": "悩める守人",
+     "en": "Troubled Defender",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第9话",
+     "zh": "受考验的守护者们",
+     "ja": "試される番人達",
+     "en": "Tested Watchmen",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "路线分歧·地球线（第10–14话）",
+   "intro": "第9话后选择随钢号队行动的路线。凯尔与米隆加的取得链在本线（第12话事件→第13话结算），SRX 在本线第13话合体成形。",
+   "rows": [
+    {
+     "code": "第10话·地球线",
+     "zh": "被献上的活祭品",
+     "ja": "捧げられし生贄",
+     "en": "Offered Living Sacrifice",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·地球线",
+     "zh": "成群的机械",
+     "ja": "群れなす機械",
+     "en": "Swarming Machines",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·地球线",
+     "zh": "受骗的观众",
+     "ja": "欺かれた観客",
+     "en": "Deceived Audience",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·地球线",
+     "zh": "崩坏的理想",
+     "ja": "崩壊する理想",
+     "en": "Crumbling Ideals",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·地球线",
+     "zh": "汹涌而来的恶意",
+     "ja": "押し寄せる悪意",
+     "en": "Advancing Malice",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "路线分歧·宇宙线（第10–14话）",
+   "intro": "第9话后选择随飞龙改队行动的路线。黑钢号队与修罗、督察官余党的战斗为主，斯蕾与卡利昂在本线登场；本线没有米隆加取得链。",
+   "rows": [
+    {
+     "code": "第10话·宇宙线",
+     "zh": "游动的异形",
+     "ja": "遊泳する異形",
+     "en": "Swimming Grotesque",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第11话·宇宙线",
+     "zh": "名为「零件」的人",
+     "ja": "ヒトという部品",
+     "en": "The Accessory Called Man",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第12话·宇宙线",
+     "zh": "不受欢迎的访客",
+     "ja": "望まれぬ訪者",
+     "en": "Undesired Visitor",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第13话·宇宙线",
+     "zh": "迫近的惨事",
+     "ja": "迫り来る惨事",
+     "en": "Approaching Disaster",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第14话·宇宙线",
+     "zh": "加速的危机",
+     "ja": "加速する危機",
+     "en": "Accelerating Crisis",
+     "type": "路线关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "合流后共通（第15–25话）",
+   "intro": "第15话起两线合流。第15–18话主力暂时缺席、以三人组与阿克塞尔等人的小编成作战；第19话主力归队，第25话结算两件等级门槛隐藏。",
+   "rows": [
+    {
+     "code": "第15话",
+     "zh": "迷宫的囚徒",
+     "ja": "迷宮の囚人",
+     "en": "Prisoner of the Labyrinth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第16话",
+     "zh": "争霸之宴（前篇）",
+     "ja": "争覇の宴（前編）",
+     "en": "Banquet of the Struggle for Supremacy (Beginning)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第17话",
+     "zh": "争霸之宴（后篇）",
+     "ja": "争覇の宴（後編）",
+     "en": "Banquet of the Struggle for Supremacy (Conclusion)",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第18话",
+     "zh": "被释放的凶兽",
+     "ja": "放たれた凶獣",
+     "en": "Unleashed Beast",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第19话",
+     "zh": "震动的大地",
+     "ja": "震える大地",
+     "en": "Quaking Earth",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第20话",
+     "zh": "向未知飞翔",
+     "ja": "未知への飛翔",
+     "en": "Flying towards the unknown",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第21话",
+     "zh": "纯洁无垢的刺客",
+     "ja": "無垢なる刺客",
+     "en": "Pure Assassins",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第22话",
+     "zh": "黑色雷翼",
+     "ja": "黒き雷翼",
+     "en": "Black Wings of Thunder",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第23话",
+     "zh": "将心意托付于拳",
+     "ja": "想い、拳に乗せて",
+     "en": "Channeling Thoughts Through Fists",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第24话",
+     "zh": "人偶大师",
+     "ja": "ドール・マスター",
+     "en": "Doll Master",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第25话",
+     "zh": "不屈之心",
+     "ja": "折れない心",
+     "en": "Unbreakable Heart",
+     "type": "共通关",
+     "area": "",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "title": "终盘（第26话–最终话）",
+   "intro": "修罗神决战、暗脑战与最终话《诸神黄昏》。第30话结算两件击坠/等级门槛隐藏，且三人组在本话后永久退场；最终话无熟练度、无门槛。",
+   "rows": [
+    {
+     "code": "第26话",
+     "zh": "机神乱舞",
+     "ja": "機神乱舞",
+     "en": "Romp of the Mechanical Gods",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第27话",
+     "zh": "应归之处（前篇）",
+     "ja": "還るべき処へ（前編）",
+     "en": "To a Place Where We Should Return (First Part)",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第28话",
+     "zh": "应归之处（后篇）",
+     "ja": "還るべき処へ（後編）",
+     "en": "To a Place Where We Should Return (Last Part)",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第29话",
+     "zh": "闪耀之光、燃烧之炎",
+     "ja": "閃く光、燃ゆる炎",
+     "en": "Flashing Light, Burning Flames",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第30话",
+     "zh": "狼群的终焉",
+     "ja": "狼達の終焉",
+     "en": "End of the Wolves",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第31话",
+     "zh": "轰鸣的破霸者",
+     "ja": "轟き、覇壞せし者",
+     "en": "The Thundering Overthrower",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第32话",
+     "zh": "阿修罗的顶点（前篇）",
+     "ja": "阿修羅の頂天（前編）",
+     "en": "First Among the Ashura (First Part)",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第33话",
+     "zh": "阿修罗的顶点（后篇）",
+     "ja": "阿修羅の頂天（後編）",
+     "en": "First Among the Ashura (Last Part)",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第34话",
+     "zh": "新生的过错",
+     "ja": "生まれ落ちた過ち",
+     "en": "Newborn Mistake",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "第35话",
+     "zh": "伟大之战",
+     "ja": "ザ・グレイトバトル",
+     "en": "The Great Battle",
+     "type": "终盘关",
+     "area": "",
+     "note": ""
+    },
+    {
+     "code": "最终话",
+     "zh": "诸神黄昏",
+     "ja": "ラグナロク",
+     "en": "Ragnarok",
+     "type": "最终话",
+     "area": "",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

@@ -30,6 +30,7 @@ import SrwGcMissionList from '../../components/SrwGcMissionList.astro';
 import SrwJMissionList from '../../components/SrwJMissionList.astro';
 import SrwWMissionList from '../../components/SrwWMissionList.astro';
 import SrwOgsMissionList from '../../components/SrwOgsMissionList.astro';
+import SrwOgGaidenMissionList from '../../components/SrwOgGaidenMissionList.astro';
 import { href } from '../../lib/site';
 
 export function getStaticPaths() {
@@ -66,6 +67,7 @@ const isSrwGc = g.slug === 'srw-gc';
 const isSrwJ = g.slug === 'srw-j';
 const isSrwW = g.slug === 'srw-w';
 const isSrwOgs = g.slug === 'srw-ogs';
+const isSrwOgGaiden = g.slug === 'srw-og-gaiden';
 ---
 <Base title={g.zh} description={`${g.zh}（${g.en}）攻略页：${g.year}年发售，首发平台 ${g.platform}，所属${g.series}。本页直接列出全部关卡，逐关攻略含胜利/败北条件、坐标地图与本关隐藏要素，内容持续整理中。`} path={`${g.slug}/`} breadcrumbs={crumbs}>
   <h1>{g.zh}</h1>
@@ -2655,6 +2657,85 @@ const isSrwOgs = g.slug === 'srw-ogs';
     </div>
   )}
 
+  {isSrwOgGaiden && (
+    <div>
+      <h2>剧情概要：OGS 的后日谈——修罗之乱与两位「客串主角」的收束</h2>
+      <p>本作（2007 年 12 月 27 日发售）是《超级机器人大战OGS》（同年 6 月）的<strong>直接续作</strong>，定位相当于《OG2.5》的完全版：承接 OGS 的 OG2.5 篇，主线是拉·基亚斯的<strong>修罗</strong>一族入侵地上（福尔卡与修罗王阿利翁的宿命线），并行收束两条客串线——《The Great Battle》系列的藤原虎太与康帕奇布尔凯撒（对暗脑的决战）与《超级机器人大战R》的拉乌尔/菲奥娜姐弟（艾克瑟伦斯的各新框架与最终进化）。阿克塞尔与阿尔菲米（《A》/OG2 的灵魂之剑与个性）也在本作正式归队。第35话《伟大之战》击破暗脑后，最终话《诸神黄昏》为全作收尾。</p>
+
+      <h2>结构：36 话一周目、41 个不同剧本、一次分歧</h2>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>段落</th><th>结构</th><th>不同剧本</th><th>熟练度</th></tr></thead>
+          <tbody>
+            <tr><td>共通序盘</td><td>第1–9话：三人组开局→主力陆续归队</td><td>9</td><td rowspan="4">第1–35话各 1 点，共 35 点；最终话无</td></tr>
+            <tr><td>路线分歧</td><td>第10–14话：地球线（钢号队）/宇宙线（飞龙改队）两版，第15话合流</td><td>10</td></tr>
+            <tr><td>合流后共通</td><td>第15–25话：第15–18话主力暂时缺席的小编成段、第25话结算两件隐藏</td><td>11</td></tr>
+            <tr><td>终盘</td><td>第26–35话＋最终话：修罗神决战、暗脑战、诸神黄昏</td><td>11</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>话数口径：日文维基作「全 36 话」——那是<strong>一周目实际游玩话数</strong>（编号第1–35话＋最终话）；本站按 Akurasu 流程图逐条清点、计入第10–14话的双路线版本，共 <strong>41 个不同剧本</strong>全部建页。两说不矛盾。与前作的结构差异：第15话起主力一度全员缺席四话（第15–18话以阿尔贝罗三人组与阿克塞尔等人的小编成作战）是流程图明记的特殊段落；阿尔贝罗三人组在第30话归队参战后<strong>永久退场</strong>。</p>
+
+      <h2>熟练度（Battle Mastery）与难度：规则与 OGS 完全相同</h2>
+      <ul>
+        <li><strong>规则</strong>：第1–35话各有 1 个取得条件、只增不减，一周目上限 <strong>35 点</strong>；最终话无熟练度。条件形态以限回合全歼、限时击坠会撤退的王牌、我方零击坠、护送对象无伤等为主，各话条件写在各关攻略页。</li>
+        <li><strong>难度判定</strong>（据 Akurasu Game Mechanics 页）：按「已得熟练度 ÷ 截至当前可得总数」的比例逐关动态判定，比例带与 OGS 相同——<strong>简单 ≤29%</strong>（敌无改造、击坠资金 ×1.5、我方驾驶员开局气力 +5）、<strong>普通 30%–79%</strong>（敌无改造、资金 ×1.2）、<strong>困难 ≥80%</strong>（敌全能力与武器 +3 段改造、部分敌 +5 段，资金为标准值）。</li>
+        <li><strong>没有门槛</strong>：最终话不设熟练度要求——这与 OGS 三篇的做法一致（GBA 原版 OG/OG2 的 ≥32/≥35 门槛在 PS2 世代已全面取消）。熟练度在本作只决定难度档位与个别取得物的难易，不锁任何剧本或结局。</li>
+        <li><strong>难度不改变编成</strong>（Game Mechanics 页明记）：难度只影响敌方强度与资金倍率，<strong>敌方构成与数量在任何难度下都相同</strong>——这使本作与 OGS 在敌方数据刊载上的情形不同（见「敌方数据现状」）。</li>
+        <li><strong>Game Over 重打</strong>：保留经验/等级/击坠/资金，但 PP、部件、特殊弹不保留，且本关熟练度永久不可再得（与 OGS 同规则）。</li>
+      </ul>
+
+      <h2>与 OGS 的存档继承（本作特有，据 Akurasu Clear Bonus 页）</h2>
+      <ul>
+        <li><strong>资金</strong>：以《OGS》任一篇章的通关存档开始本作，开局资金为该通关存档<strong>总资金的 50%</strong>（不限篇章：OG1 篇、OG2 篇、OG2.5 篇的通关档都可以）。没有 OGS 通关存档则按默认资金全新开始（Clear Bonus 页未明记默认金额）。</li>
+        <li><strong>隐藏机体与部件</strong>：以 <strong>OG2 篇或 OG2.5 篇</strong>的通关存档开始时，在该篇中通过隐藏要素取得的机体与部件<strong>一并继承</strong>到本作（即 OGS 中那些「OG2.5 篇继承限定」条目的来源——如亡灵 Mk-II·S、雷文双机、隐形回旋镖、重力加农炮、狮子王之剑等，在本作改为开局即持有；逐项以 OGS 各话页的继承注记为准）。以 OG1 篇通关档开始则只有资金继承。</li>
+        <li>注意这与 OGS 光盘内部的跨篇继承（资金 25%、不带 PP）是<strong>两套规则</strong>，不要混淆：那是 OGS 内部三篇之间的继承，本节是 OGS→本作的跨作继承。</li>
+      </ul>
+
+      <h2>Twin 战斗系统与其他沿袭系统</h2>
+      <ul>
+        <li><strong>Twin 战斗系统</strong>：与 OGS 完全同制——组队条件（双方气力 ≥110、相距 1 格内、本回合均未行动）、集中/个别/ALL/ALLW 攻击、打非对应机伤害 65%（集束攻击可缓和至 85%）、副机驾驶员经验与 PP 为 75%（技能 Learning 可升至 100%）、9 种共享精神与 Twin 专用精神、七种 Twin 特性与关系补正（Twin 中关系补正等级 +1）。参数细节见<a class="link" href={href('srw-ogs/')}>《OGS》主页</a>的 Twin 专节，Akurasu 的本作 Game Mechanics 页未列出与 OGS 的差异。</li>
+        <li><strong>其余沿袭</strong>：特殊弹（容器素材合成、装填实弹系换装武器）、全改造奖励 FUB（四项改满后六选一）、援护攻击/防御分离、驾驶员 PP 养成——规则均与 OGS 相同。其中援护数值在 OGS 期有一处未决分歧（援护防御承受伤害 50% 与 60% 两说），本作来源未复核该数值，本站沿 OGS 页的并记处理。</li>
+        <li><strong>新机体与新形态</strong>（相对 OGS）：康帕奇布尔凯撒与其进化形 G 康帕奇布尔凯撒、战斗用罗亚；艾克瑟伦斯的新框架（闪电/永恒/虚空）；神化亚尔达巴奥特；修罗神阿加雷斯与瓦雷福尔在决战后入队；妖精狮子系与亡灵 Mk-II·S 等以普通加入或继承方式取得（OGS 期的多件隐藏在本作「常规化」，故本作隐藏总数只有 6 项）。</li>
+      </ul>
+
+      <h2>隐藏要素总览（全 6 项）</h2>
+      <p>本作的隐藏如 Akurasu Secrets 页开宗明义所言非常少——前作的大部分隐藏机体在本作改为剧情常规取得。6 项的完整步骤都写在触发/结算话的页面内：</p>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+        <table class="table table-zebra table-sm">
+          <thead><tr><th>对象</th><th>类型</th><th>结算/触发</th><th>要点</th></tr></thead>
+          <tbody>
+            <tr><td>特制 CPU</td><td>强化部件</td><td>第6话关内</td><td>让虎太移动到指定建筑（以东南角为基准西 9 格、北 1 格）；错过不可补</td></tr>
+            <tr><td>米隆加</td><td>机体</td><td>第13话·地球线通关后</td><td>三步连锁：分歧走地球线→第12话凯尔事件→第13话取得熟练度且由琉妮击破凯尔</td></tr>
+            <tr><td>狮子王之剑</td><td>武器</td><td>第25话结束时结算</td><td>布利特＋李修＋曾伽等级合计 ≥95</td></tr>
+            <tr><td>英雄纹章</td><td>强化部件</td><td>第25话结束时结算</td><td>福尔卡＋虎太等级合计 ≥65</td></tr>
+            <tr><td>钢铁之魂</td><td>强化部件</td><td>第30话结束时结算</td><td>哲也＋蕾菲娜等级合计 ≥55 且击坠数合计 ≥55</td></tr>
+            <tr><td>助推锤</td><td>武器</td><td>第30话结束时结算</td><td>舞击坠数 ≥50</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>周回继承与追加模式（据 Akurasu Clear Bonus 页）</h2>
+      <ul>
+        <li><strong>同模式重开</strong>（普通/EX Hard/Special 各自计周数）：继承上一周所获<strong>资金的 50%＋PP 的 50%</strong>；每多完成一周比例 +25%，上限 100%。</li>
+        <li><strong>跨模式开新周</strong>（如普通模式通关档→开 EX Hard）：只继承<strong>资金的 25%、不带 PP</strong>。</li>
+        <li><strong>EX Hard 模式</strong>：通关一次后解锁——难度固定困难、不可改造武器、养成 PP 消耗 2 倍、敌机与武器 +3 段改造（上限 10）、敌驾驶员击坠数 +30。</li>
+        <li><strong>Special 模式</strong>：通关 EX Hard 后解锁——全机改造上限 10 段，第2话后发放全部换装武器与强化部件各 1。<strong>15 段上限的解锁条件跨两作</strong>：须先以 Special 模式通关《OGS》、再以 Special 模式通关本作，之后以 Special 开新周时全机体与全武器改造上限提升至 15 段。</li>
+      </ul>
+
+      <h2>敌方数据现状</h2>
+      <ul>
+        <li><strong>编成只有一份完整来源</strong>：GameFAQs 的 Demitrius 攻略（faqs/55017）逐关刊载全 36 个编号话的敌方构成——机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP、少数含部件）与增援分组；作者自述基于日版实际游玩、成表时与他人的攻略协调过敌方构成。另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关（约至第7话、后续关卡的选择性小节）的同类「敌方机体」表，不构成可交叉核对的第二来源；日文 atwiki 的 OGS 攻略站是否有本作逐话页，本次检索未能打开确认（不断言不存在）；s-rpg-navi 的目录中未见本作逐话敌方表。</li>
+        <li><strong>暂不刊载、待用户裁决</strong>：本站的惯例是双源交叉才刊编成、单源则挂起待裁决。本作的情形比 OGS 简单：构成不随难度变化，不存在选基准的问题——<strong>裁决范围：全 36 个编号话（对应本站 41 个剧本页，路线话共用其编号话的表）的敌方构成、驾驶员、等级、HP、击破奖励与增援，来源为 Demitrius 攻略单一来源</strong>。敌方逐台<strong>坐标</strong>则任何来源都没有，各页地图为带四边坐标轴的参照框架。</li>
+      </ul>
+
+      <h2>版本注记</h2>
+      <p>本作与 OGS 的《OG2.5 篇》是<strong>承接关系而非重制关系</strong>：OG2.5 篇是收录于 OGS 光盘的 12 话先行篇章，本作是其后续的完整新作（新剧情、新机体、话数独立编号）。本站两处页面的话数与条件各自独立，引用时请先确认是哪一作。另外注意：本作的日文标题为《OG外伝》，Akurasu 的条目代号为「OGG」。</p>
+
+      <p class="text-sm text-base-content/60">来源与分歧说明：本站关卡编号与逐话条件以 Akurasu 的 Flow Chart 为主源，与同站 Secrets 页逐条交叉核对；熟练度与难度据同站 Skill Point、Game Mechanics 页；继承与模式据同站 Clear Bonus 页；Twin 系统据同站 Twin Battle System 页（其规则表与 OGS 期页面同源，未见本作专属改动）；话数口径以日文维基对账。已确认的主要分歧与处理：①米隆加的取得——Secrets 页把条件写作「第13话取得熟练度并由琉妮击破凯尔」，流程图则在第12话·地球线另有「将凯尔的米隆加削至 80% HP 以下」的事件段，本站按「第12话为剧情事件段、第13话为正式判定」分开刊在两页并互相指引。②米隆加的归队——流程图第19话的归队名单无条件列出米隆加，与第13话的隐藏取得看似冲突，第19话页已注记（按流程图照录、未取得时的实际编成待实机核对）。③第21话的败北条件——流程图原文并列四条有重叠的条款，应为随剧情段落切换的保护对象，本站全部照录并在该页注记。④第14话两线——胜败与熟练度条件两版完全相同，仅出击名单的视角不同，两页互相注记。⑤流程图的拼写讹误（Foilka＝Folka、Guarlion Custon、Angeleg/Angleg 等异写）本站统一作福尔卡、狮子王狮鹫兽改、安琪洛，并在首次出现处保持可对照。⑥第27话熟练度原文「G 雷门到达后 5 回合内」的起算点以到达回合为准，本站照译。⑦Demitrius 攻略的自述口径（与他人攻略「协调」过构成）只涉及其成表方法，不改变其为单一刊载来源的定性，见「敌方数据现状」。</p>
+    </div>
+  )}
+
   {isSrwOgs && (
     <div>
       <h2>剧情概要：一张光盘装下两场战争与一个尾声</h2>
@@ -2897,6 +2978,11 @@ const isSrwOgs = g.slug === 'srw-ogs';
     <div>
       <p>本作 <strong>70 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 55 话——两部构成、六次路线分歧的全部版本与第12–13、32、55话的周目版本；编号连续、同号异关即路线或周目变体）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、我方加入、本关隐藏要素（击坠数计数、说得连锁与路线/周目条件都写在触发/结算的那一话里；本作没有熟练度系统）与坐标地图（敌方编成：27 个剧本为两份 GameFAQs 攻略双源刊载、40 个剧本为单一来源暂不刊载待裁决、3 个剧本无任何来源；敌方等级不存在于任何来源，坐标与地形待核实，原因见各详情页）。本作同时保留一份<a class="link" href={href('srw-w/missions/')}>关卡总表页</a>，内容与下表相同。</p>
       <SrwWMissionList />
+    </div>
+  ) : isSrwOgGaiden ? (
+    <div>
+      <p>本作 <strong>41 个不同剧本全部建有独立攻略页</strong>（每一话一个详情页：一周目实际游玩 36 话——共通序盘第1–9话、第9话后分歧的地球线/宇宙线第10–14话双版本、合流后第15–35话与最终话）。下表为按流程分组的链接索引：点关卡名或「详情」列的<strong>攻略</strong>进入该话页面，查看该话的胜负条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入、本关隐藏要素（米隆加的路线连锁与第25/30话的结算型门槛都写在触发/结算的那一话里）与坐标地图（敌方编成为单一来源待裁决暂不刊载、坐标与地形无源，原因见各详情页与上文「敌方数据现状」）。本作同时保留一份<a class="link" href={href('srw-og-gaiden/missions/')}>关卡总表页</a>，内容与下表相同。</p>
+      <SrwOgGaidenMissionList />
     </div>
   ) : isSrwOgs ? (
     <div>

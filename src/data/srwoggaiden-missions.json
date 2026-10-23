@@ -1,0 +1,3907 @@
+{
+ "missions": [
+  {
+   "code": "第1话",
+   "slug": "stage-1",
+   "zh": "冻结的过去",
+   "ja": "凍結した過去",
+   "en": "Frozen Past",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "开局关",
+   "prerequisite": "本作开局第1话。以 OGS 通关存档开始时，继承规则（资金 50% 等）见本作主页「与 OGS 的存档继承」一节；无存档则全新开始。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II（阿尔贝罗）",
+    "量产型亡灵 Mk-II（雨果）",
+    "量产型亡灵 Mk-II（弗莉娅）"
+   ],
+   "events": [
+    "本话我方只有三台量产型亡灵 Mk-II，且任一台被击破即败北——开局阶段务必保守推进、用足修理与地形。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第2话《有舍弃之神》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第2话",
+   "slug": "stage-2",
+   "zh": "有舍弃之神",
+   "ja": "捨てる神あれば",
+   "en": "When One Door Closes...",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第1话后进入。",
+   "victory": [
+    "任一我方单位到达指定区域"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II（阿尔贝罗）",
+    "量产型亡灵 Mk-II（雨果）",
+    "量产型亡灵 Mk-II（弗莉娅）"
+   ],
+   "events": [
+    "胜利条件是抵达指定区域而非全歼：熟练度要求 4 回合内抵达，注意移动力与敌方阻拦的取舍。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第3话《舞动的摇篮（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第3话",
+   "slug": "stage-3",
+   "zh": "舞动的摇篮（前篇）",
+   "ja": "踊る揺籃（前編）",
+   "en": "Dancing Cradle (First Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第2话后进入。卡伊队与摇篮相关的战斗前篇。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "卡伊被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II（卡伊）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第4话《舞动的摇篮（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第4话",
+   "slug": "stage-4",
+   "zh": "舞动的摇篮（后篇）",
+   "ja": "踊る揺籃（後編）",
+   "en": "Dancing Cradle (Last Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第3话后进入。",
+   "victory": [
+    "击破温迪戈"
+   ],
+   "defeat": [
+    "我方全灭",
+    "卡伊被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "无我方单位被击破地达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型凶鸟 Mk-II（联邦军士兵）×3",
+    "量产型亡灵 Mk-II（卡伊）追加武装：Jet Magnum S"
+   ],
+   "events": [
+    "本话只需击破温迪戈即可过关（不必全歼）；熟练度要求全程零击坠，与下文第18话的温迪戈再战伏笔相关。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第5话《与狼群的邂逅》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第5话",
+   "slug": "stage-5",
+   "zh": "与狼群的邂逅",
+   "ja": "狼達との邂逅",
+   "en": "Encounter With the Wolves",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第4话后进入。拉米娅与「狼群」（アルベロ三人组所属的部队）登场。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II（卡伊）",
+    "安琪洛（拉米娅）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "量产型亡灵 Mk-II 改（阿尔贝罗）",
+    "量产型亡灵 Mk-II 改（雨果）",
+    "量产型亡灵 Mk-II（弗莉娅）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第6话《复苏之炎》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第6话",
+   "slug": "stage-6",
+   "zh": "复苏之炎",
+   "ja": "甦る炎",
+   "en": "Resurrected Flames",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第5话后进入。藤原虎太与康帕奇布尔凯撒登场的话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内歼灭全部初期敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "战斗用罗亚（虎太）",
+    "康帕奇布尔凯撒（虎太）"
+   ],
+   "events": [],
+   "secrets": [
+    "特制 CPU（强化部件）：本关内让虎太移动到屋顶有特征的建筑处——以地图东南角为基准，向西 9 格、向北 1 格的那栋建筑。错过本关无法补拿（据 Akurasu Secrets 页）。"
+   ],
+   "unlocks": [
+    "第7话《修罗的预兆》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第7话",
+   "slug": "stage-7",
+   "zh": "修罗的预兆",
+   "ja": "修羅の予兆",
+   "en": "Shura's Prelude",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第6话后进入。修罗一方首次现身。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "康帕奇布尔凯撒（虎太）",
+    "亚尔达巴奥特（？？？）",
+    "瓦雷福尔（？？？）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "安琪洛（拉米娅）",
+    "量产型亡灵 Mk-II"
+   ],
+   "events": [
+    "亚尔达巴奥特与瓦雷福尔以「？？？」名义客串参战（修罗的机体首次可操作）——它们是本话限定，正式的修罗线在终盘展开。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第8话《烦恼的守护人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第8话",
+   "slug": "stage-8",
+   "zh": "烦恼的守护人",
+   "ja": "悩める守人",
+   "en": "Troubled Defender",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第7话后进入。钢号队与黑钢号队会合、OG 主力陆续归队的话。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破狮子王狮鹫兽改「无明」"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 5 台敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑钢号（拉策尔）",
+    "大曾伽（曾伽）",
+    "拉兹安格利夫·雷文（佑树）",
+    "兰德格里夫·雷文（卡拉）",
+    "艾克瑟伦斯（突击型/宇宙型/飞行型，拉乌尔）",
+    "阿什塞巴"
+   ],
+   "events": [
+    "流程图的胜利条件并列两项：歼灭全部敌人之外，还须击破村田的狮子王狮鹫兽改「无明」（撤退系目标的处理见第23话的同名熟练度条件）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第9话《受考验的守护者们》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第9话",
+   "slug": "stage-9",
+   "zh": "受考验的守护者们",
+   "ja": "試される番人達",
+   "en": "Tested Watchmen",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第8话后进入。本话结束后发生路线分歧：第10–14话分地球线与宇宙线两版（在整备画面选择随哪一队行动），第15话起合流。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "钢号被击破",
+    "雷迪伯德被击破",
+    "米隆加被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "不让雷迪伯德受到任何伤害"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "钢号（哲也、英太）",
+    "AM 枪手（莉奥）",
+    "古伦加斯特（伊鲁姆）",
+    "量产型凶鸟 Mk-II（舞）",
+    "凶鸟 Mk-III·L（凉斗）",
+    "R-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（彩）",
+    "R-Gun 强化型（薇蕾塔）",
+    "装甲狮",
+    "猛兽",
+    "F-32V 剑型改",
+    "R-Blade",
+    "亡灵 Mk-II·R"
+   ],
+   "events": [
+    "本话有三艘（台）保护对象：钢号、雷迪伯德与米隆加任一被击破即败北；熟练度更是要求雷迪伯德全程无伤——部署时把雷迪伯德放在敌方射程之外。"
+   ],
+   "secrets": [
+    "米隆加（取得链第 1 步）：在本次路线分歧中选择**地球线**。后续步骤在第12话·地球线（凯尔事件）与第13话·地球线（取得熟练度并由琉妮击破凯尔），见那两页；走宇宙线则本轮无法取得米隆加。"
+   ],
+   "unlocks": [
+    "第10话·地球线《被献上的活祭品》或第10话·宇宙线《游动的异形》（路线分歧）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话·地球线",
+   "slug": "stage-10-earth",
+   "zh": "被献上的活祭品",
+   "ja": "捧げられし生贄",
+   "en": "Offered Living Sacrifice",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "地球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第9话后在路线分歧中选择地球线（随钢号队行动）。本线与宇宙线并行发生，另一线的第10话为《游动的异形》。",
+   "victory": [
+    "歼灭全部敌人",
+    "坚持到第 5 回合我方阶段（敌增援到达后改为歼灭全部敌人）"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破 3 台敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "阿斯特利昂 AX（伊比斯）",
+    "G 野牛（楠叶）",
+    "G 猛禽（布利特）",
+    "狮子王狮鹫兽（拉米娅）",
+    "量产型凶鸟 Mk-II（阿拉德）",
+    "量产型凶鸟 Mk-II（赛欧拉）",
+    "野性猛禽（拉托妮）",
+    "古伦加斯特 3 号机（布利特、楠叶）"
+   ],
+   "events": [
+    "胜利条件分两段：先坚持到第 5 回合我方阶段（增援到达），之后歼灭全部敌人。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话·地球线《成群的机械》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第10话·宇宙线",
+   "slug": "stage-10-space",
+   "zh": "游动的异形",
+   "ja": "遊泳する異形",
+   "en": "Swimming Grotesque",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "第9话后在路线分歧中选择宇宙线（随飞龙改队行动）。本线与地球线并行发生，另一线的第10话为《被献上的活祭品》。",
+   "victory": [
+    "歼灭全部敌人",
+    "第 3 回合我方阶段结束前歼灭全部敌方「蝌蚪」"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "未达成胜利条件"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "第 2 回合我方阶段结束前达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜、肖恩）",
+    "巴尔西昂（琉妮）",
+    "量产型亡灵 Mk-II（卡琪娜）",
+    "量产型亡灵 Mk-II（拉塞尔）",
+    "胜利狮（利奥娜）",
+    "巨盾强攻型（塔斯克）"
+   ],
+   "events": [
+    "本话有硬性时限：敌方「蝌蚪」必须在第 3 回合我方阶段结束前全灭，否则直接败北；熟练度更要求第 2 回合我方阶段结束前全清——开局就要全力扑向蝌蚪群。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第11话·宇宙线《名为「零件」的人》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话·地球线",
+   "slug": "stage-11-earth",
+   "zh": "成群的机械",
+   "ja": "群れなす機械",
+   "en": "Swarming Machines",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "地球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第10话·地球线后进入。巴托尔群来袭。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 3 台巴托尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "康帕奇布尔凯撒（虎太）",
+    "古伦加斯特 3 号机（布利特）",
+    "古铁巨人（响介）",
+    "纯白骑士（艾克塞莉娅）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "钢号（哲也、英太）",
+    "AM 枪手（莉奥）",
+    "古伦加斯特（伊鲁姆）",
+    "量产型凶鸟 Mk-II（舞）",
+    "凶鸟 Mk-III·L（凉斗）",
+    "ART-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（彩）",
+    "R-Gun 强化型（薇蕾塔）",
+    "舒兹华尔德（拉妲）",
+    "亡灵·RV型（基利亚姆）",
+    "装甲狮",
+    "猛兽",
+    "F-32V 剑型改",
+    "R-Blade",
+    "亡灵 Mk-II·R",
+    "R-1",
+    "凶鸟 Mk-II",
+    "古伦加斯特 2 号机",
+    "量产型亡灵 Mk-II"
+   ],
+   "events": [
+    "流程图在本话列出的是地球线视角的出击全队名单（含自 OGS 继承/归队的旧机体），并非全部都是本话新加入——新机体的首次取得以其首次出现的话为准。",
+    "巴托尔是本话起反复出现的量产敌人；熟练度只需 2 回合内击破其中 3 台。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第12话·地球线《受骗的观众》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第11话·宇宙线",
+   "slug": "stage-11-space",
+   "zh": "名为「零件」的人",
+   "ja": "ヒトという部品",
+   "en": "The Accessory Called Man",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第10话·宇宙线后进入。巴托尔群来袭（与地球线同题材的平行战斗）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 3 台巴托尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古铁巨人（响介）",
+    "纯白骑士（艾克塞莉娅）",
+    "古伦加斯特 3 号机（布利特）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "钢号（哲也、英太）",
+    "AM 枪手（莉奥）",
+    "古伦加斯特（伊鲁姆）",
+    "量产型凶鸟 Mk-II（舞）",
+    "凶鸟 Mk-III·L（凉斗）",
+    "ART-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（彩）",
+    "R-Gun 强化型（薇蕾塔）",
+    "装甲狮",
+    "猛兽",
+    "F-32V 剑型改",
+    "R-Blade",
+    "亡灵 Mk-II·R",
+    "R-1",
+    "凶鸟 Mk-II",
+    "古伦加斯特 2 号机",
+    "量产型亡灵 Mk-II",
+    "康帕奇布尔凯撒（虎太）"
+   ],
+   "events": [
+    "流程图在本话列出的是宇宙线视角的出击全队名单，并非全部都是本话新加入。",
+    "注意：本话败北条件同样包含「钢号被击破」——钢号虽属另一线，剧情上同场（两线在同话相互支援），保护对象以流程图为准。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第12话·宇宙线《不受欢迎的访客》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·地球线",
+   "slug": "stage-12-earth",
+   "zh": "受骗的观众",
+   "ja": "欺かれた観客",
+   "en": "Deceived Audience",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "地球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第11话·地球线后进入。凯尔与米隆加的事件话。",
+   "victory": [
+    "歼灭全部敌人",
+    "将凯尔的米隆加 HP 削减到 80% 以下",
+    "坚持 11 回合"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内击破狮子王狮鹫兽改「无明」"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "阿斯特利昂 AX（伊比斯、嗣木）",
+    "巴尔西昂（琉妮）",
+    "古伦加斯特 零号机（李修）",
+    "塞巴斯塔（正树）"
+   ],
+   "events": [
+    "流程图的胜利条件为三段并列（全歼／削凯尔的米隆加至 80% 以下／坚持 11 回合）——实为随剧情推进依次切换的目标，以关内提示为准。"
+   ],
+   "secrets": [
+    "米隆加（取得链第 2 步·剧情事件）：本话流程包含「将凯尔的米隆加削到 80% HP 以下」的事件段（与坚持 11 回合的胜利条件并列于流程图）。正式取得判定在下一话：见第13话·地球线页。"
+   ],
+   "unlocks": [
+    "第13话·地球线《崩坏的理想》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第12话·宇宙线",
+   "slug": "stage-12-space",
+   "zh": "不受欢迎的访客",
+   "ja": "望まれぬ訪者",
+   "en": "Undesired Visitor",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第11话·宇宙线后进入。黑钢号队迎击修罗与督察官余党。",
+   "victory": [
+    "歼灭全部敌人",
+    "将埃雷奥斯或特乌加特尔的 HP 削减到 30% 以下"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "黑钢号被击破",
+    "虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑钢号（拉策尔）",
+    "艾克瑟伦斯飞行型（拉乌尔）",
+    "大曾伽（曾伽）",
+    "兰德格里夫·雷文（卡拉）",
+    "拉兹安格利夫·雷文（佑树）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第13话·宇宙线《迫近的惨事》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·地球线",
+   "slug": "stage-13-earth",
+   "zh": "崩坏的理想",
+   "ja": "崩壊する理想",
+   "en": "Crumbling Ideals",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "地球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第12话·地球线后进入。米隆加取得的结算话。",
+   "victory": [
+    "击破凯尔的米隆加",
+    "钢号到达后 3 回合内击破凯尔的米隆加"
+   ],
+   "defeat": [
+    "任一我方单位被击坠",
+    "钢号被击坠",
+    "正树、琉妮、伊比斯或愁被击坠",
+    "未达成胜利条件"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破凯尔的米隆加与狮子王狮鹫兽改「无明」以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古兰森（愁）",
+    "米隆加",
+    "SRX（R-1＋R-2 强化型＋R-3 强化型：隆圣、莱、彩）",
+    "阿斯特利昂 AX 追加武装：机动 GRaMDS"
+   ],
+   "events": [
+    "SRX 在本话合体成形（R-1＋R-2 强化型＋R-3 强化型）；古兰森（愁）也在本话归队。"
+   ],
+   "secrets": [
+    "米隆加（取得链第 3 步·结算）：取得本话的**熟练度**，并且由**琉妮击破凯尔**（驾驶米隆加的凯尔）——两者都达成则通关后取得米隆加（据 Akurasu Secrets 页）。注意熟练度条件本身是「全歼凯尔机与无明之外的敌人」，与击破凯尔并不冲突：先清场、最后由琉妮收尾凯尔即可同话达成。"
+   ],
+   "unlocks": [
+    "第14话·地球线《汹涌而来的恶意》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第13话·宇宙线",
+   "slug": "stage-13-space",
+   "zh": "迫近的惨事",
+   "ja": "迫り来る惨事",
+   "en": "Approaching Disaster",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第12话·宇宙线后进入。斯蕾与卡利昂登场。",
+   "victory": [
+    "歼灭全部敌人",
+    "击破希波克里西斯或亚尔达巴奥特"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "黑钢号被击破",
+    "斯蕾、拉乌尔或虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "卡利昂（斯蕾）",
+    "黑钢号（拉策尔；第15话整备时归队，本话后一话不可用）",
+    "大曾伽（曾伽；第15话整备时归队，下一话不可用）",
+    "艾克瑟伦斯（拉乌尔；第15话整备时归队，下一话不可用）",
+    "兰德格里夫·雷文（卡拉；第15话整备时归队，下一话不可用）",
+    "拉兹安格利夫·雷文（佑树；第15话整备时归队，下一话不可用）",
+    "康帕奇布尔凯撒（虎太；第15话整备时归队，下一话不可用）",
+    "飞龙改（蕾菲娜、肖恩）",
+    "量产型亡灵 Mk-II（卡琪娜）",
+    "量产型亡灵 Mk-II（拉塞尔）",
+    "胜利狮（利奥娜）",
+    "巨盾强攻型（塔斯克）"
+   ],
+   "events": [
+    "黑钢号队主力在本话后暂时离队（流程图注记：第15话的整备画面才归队，紧接着的一话不可用）——第14话·宇宙线的出击编成不含他们，以流程图名单为准。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第14话·宇宙线《加速的危机》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·地球线",
+   "slug": "stage-14-earth",
+   "zh": "汹涌而来的恶意",
+   "ja": "押し寄せる悪意",
+   "en": "Advancing Malice",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "地球线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第13话·地球线后进入。路线分歧的最后一话（地球线视角）：巴托尔化的同伴救援战。",
+   "victory": [
+    "7 回合内让钢号或飞龙改到达指定地点",
+    "将楠叶、阿拉德、赛欧拉、拉托妮的 HP 削减到 10% 以下，并在此期间让钢号或飞龙改到达指定地点（限 7 回合）"
+   ],
+   "defeat": [
+    "钢号或飞龙改被击破",
+    "到达第 8 回合（超时）",
+    "楠叶、阿拉德、赛欧拉或拉托妮被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "达成胜利条件前击破 50 台巴托尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜、肖恩）",
+    "量产型亡灵 Mk-II（卡琪娜）",
+    "量产型亡灵 Mk-II（拉塞尔）",
+    "胜利狮（利奥娜）",
+    "巨盾强攻型（塔斯克）",
+    "野性猎手（阿拉德）",
+    "野性隼（赛欧拉）",
+    "野性猛禽（拉托妮）",
+    "黑钢号（拉策尔）",
+    "大曾伽（曾伽）",
+    "龙卷（拉策尔）",
+    "艾克瑟伦斯（拉乌尔）",
+    "兰德格里夫·雷文（卡拉）",
+    "拉兹安格利夫·雷文（佑树）",
+    "康帕奇布尔凯撒（虎太）",
+    "G 野牛（楠叶；作为古伦加斯特 3 号机的副驾驶员）",
+    "阿什塞巴"
+   ],
+   "events": [
+    "本话不能击坠被操控的楠叶、阿拉德、赛欧拉、拉托妮——只能把四人 HP 削到 10% 以下（击坠任一人即败北），同时母舰要在 7 回合内抵达指定地点；熟练度的 50 台巴托尔要在达成胜利条件**之前**刷满。",
+    "两线在本话条件完全相同（流程图的地球线/宇宙线两版胜败与熟练度一致），仅出击名单的视角不同。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第15话《迷宫的囚徒》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第14话·宇宙线",
+   "slug": "stage-14-space",
+   "zh": "加速的危机",
+   "ja": "加速する危機",
+   "en": "Accelerating Crisis",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "宇宙线",
+   "area": "",
+   "type": "路线关",
+   "prerequisite": "通关第13话·宇宙线后进入。路线分歧的最后一话（宇宙线视角）：巴托尔化的同伴救援战。",
+   "victory": [
+    "7 回合内让钢号或飞龙改到达指定地点",
+    "将楠叶、阿拉德、赛欧拉、拉托妮的 HP 削减到 10% 以下，并在此期间让钢号或飞龙改到达指定地点（限 7 回合）"
+   ],
+   "defeat": [
+    "钢号或飞龙改被击破",
+    "到达第 8 回合（超时）",
+    "楠叶、阿拉德、赛欧拉或拉托妮被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "达成胜利条件前击破 50 台巴托尔"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古铁巨人（响介）",
+    "纯白骑士（艾克塞莉娅）",
+    "古伦加斯特 3 号机（布利特）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "钢号（哲也、英太）",
+    "AM 枪手（莉奥）",
+    "古伦加斯特（伊鲁姆）",
+    "凶鸟 Mk-III·L（凉斗）",
+    "R-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（彩）",
+    "ART-1（舞）",
+    "阿斯特利昂 AX（伊比斯、嗣木）",
+    "巴尔西昂（琉妮）",
+    "古伦加斯特 零号机（李修）",
+    "塞巴斯塔（正树）",
+    "R-Gun 强化型（薇蕾塔）",
+    "亡灵·RV型（基利亚姆）",
+    "舒兹华尔德（拉妲）",
+    "野性猎手（阿拉德）",
+    "野性隼（赛欧拉）",
+    "野性猛禽（拉托妮）",
+    "黑钢号（拉策尔）",
+    "大曾伽（曾伽）",
+    "龙卷（拉策尔）",
+    "艾克瑟伦斯（拉乌尔）",
+    "兰德格里夫·雷文（卡拉）",
+    "拉兹安格利夫·雷文（佑树）",
+    "康帕奇布尔凯撒（虎太）",
+    "G 野牛（楠叶；作为古伦加斯特 3 号机的副驾驶员）",
+    "装甲狮",
+    "猛兽",
+    "阿什塞巴",
+    "F-32V 剑型改",
+    "R-Blade",
+    "亡灵 Mk-II·R",
+    "量产型凶鸟 Mk-II",
+    "量产型亡灵 Mk-II"
+   ],
+   "events": [
+    "本话不能击坠被操控的楠叶、阿拉德、赛欧拉、拉托妮——只能把四人 HP 削到 10% 以下（击坠任一人即败北），同时母舰要在 7 回合内抵达指定地点；熟练度的 50 台巴托尔要在达成胜利条件**之前**刷满。",
+    "流程图在本话列出的是宇宙线视角的出击全队名单（含第13话·宇宙线注记中暂时离队的黑钢号队——他们在第15话整备归队，本话名单以流程图为准）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第15话《迷宫的囚徒》（两线合流）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第15话",
+   "slug": "stage-15",
+   "zh": "迷宫的囚徒",
+   "ja": "迷宮の囚人",
+   "en": "Prisoner of the Labyrinth",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第14话（任一线）后进入，两线合流。剧情转入拉米娅被囚的迷宫设施——本话起至第18话，主力部队暂时缺席（见剧情事件）。",
+   "victory": [
+    "任一我方单位到达指定地点",
+    "由响介亲手击破拉米娅",
+    "击破巴尔辛凯改 CF 型"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "响介被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "8 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "流程图注记：此前取得的全部单位自本话起暂时不可用，直到第19话起才陆续归队——本话至第18话使用的是另一组编成（阿尔贝罗三人组与第18话的增援）。",
+    "胜利条件分段：先抵达指定地点，其后须由响介亲手击破拉米娅、再击破巴尔辛凯改 CF 型。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第16话《争霸之宴（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第16话",
+   "slug": "stage-16",
+   "zh": "争霸之宴（前篇）",
+   "ja": "争覇の宴（前編）",
+   "en": "Banquet of the Struggle for Supremacy (Beginning)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第15话后进入。修罗的「争霸之宴」开幕（阿尔贝罗三人组视角）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II 改（阿尔贝罗）",
+    "量产型亡灵 Mk-II 改（雨果）",
+    "量产型亡灵 Mk-II（弗莉娅）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第17话《争霸之宴（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第17话",
+   "slug": "stage-17",
+   "zh": "争霸之宴（后篇）",
+   "ja": "争覇の宴（後編）",
+   "en": "Banquet of the Struggle for Supremacy (Conclusion)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第16话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "阿尔贝罗、雨果或弗莉娅被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "4 回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "本话败北条件点名三人组任一被击破即败——与第16话的「任一我方单位」相比，本话没有其他我方单位，实质相同，但保护重点明确。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第18话《被释放的凶兽》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第18话",
+   "slug": "stage-18",
+   "zh": "被释放的凶兽",
+   "ja": "放たれた凶獣",
+   "en": "Unleashed Beast",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第17话后进入。阿克塞尔与阿尔菲米以敌方身份参战后归队的话。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破（温迪戈除外）"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "8 回合内击破特乌加特尔（HP 降至 10% 以下时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II 改（阿尔贝罗）",
+    "量产型亡灵 Mk-II 改（雨果）",
+    "量产型亡灵 Mk-II（弗莉娅）",
+    "个性（阿尔菲米）",
+    "灵魂之剑（阿克塞尔）",
+    "古兰森（愁）"
+   ],
+   "events": [
+    "败北条件特别注明温迪戈被击破不算败北（它在本话是不可控的剧情单位）。",
+    "熟练度的特乌加特尔会在 HP<10% 时撤退，要在 8 回合内把它的 HP 打进撤退线。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第19话《震动的大地》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第19话",
+   "slug": "stage-19",
+   "zh": "震动的大地",
+   "ja": "震える大地",
+   "en": "Quaking Earth",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第18话后进入。主力部队自本话起归队（第15话起暂时缺席的单位回归）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "虎太被击破",
+    "黑钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破亚尔达巴奥特（HP 降至 20% 以下时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "战斗用罗亚→康帕奇布尔凯撒（虎太）",
+    "黑钢号（拉策尔）",
+    "塞巴斯塔（正树）",
+    "大曾伽（曾伽）",
+    "艾克瑟伦斯（拉乌尔）",
+    "兰德格里夫·雷文（卡拉）",
+    "拉兹安格利夫·雷文（佑树）",
+    "野性隼（赛欧拉）",
+    "野性猎手（阿拉德）",
+    "野性猛禽（拉托妮）",
+    "龙卷",
+    "阿什塞巴",
+    "米隆加"
+   ],
+   "events": [
+    "米隆加在本话的归队名单中（流程图如此列出）——若第13话·地球线未取得米隆加，此处是否随队以游戏内实际为准，本站按流程图照录并注记。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第20话《向未知飞翔》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": "米隆加在第13话·地球线为隐藏取得（需熟练度＋琉妮击破凯尔），但流程图在第19话的归队名单中无条件列出米隆加。两种可能：流程图默认玩家已取得，或本话剧情上米隆加另行归队。本站照录流程图并在此注明，未取得时的实际编成待实机核对。"
+  },
+  {
+   "code": "第20话",
+   "slug": "stage-20",
+   "zh": "向未知飞翔",
+   "ja": "未知への飛翔",
+   "en": "Flying towards the unknown",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第19话后进入。福尔卡正式归队的话；本话出击编成受限（见剧情事件）。",
+   "victory": [
+    "击破瓦雷福尔"
+   ],
+   "defeat": [
+    "福尔卡被击破",
+    "虎太被击破",
+    "黑钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "达成胜利条件前将阿加雷斯的 HP 削减到 50% 以下"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亚尔达巴奥特（福尔卡）",
+    "亚尔达巴奥特追加武装：机神猛击拳、轰霸机神拳"
+   ],
+   "events": [
+    "本话除康帕奇布尔凯撒与艾克瑟伦斯的特务机框架外，其余单位全部不可出击（流程图注记）——实质是虎太、拉乌尔、福尔卡的小队战。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第21话《纯洁无垢的刺客》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第21话",
+   "slug": "stage-21",
+   "zh": "纯洁无垢的刺客",
+   "ja": "無垢なる刺客",
+   "en": "Pure Assassins",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第20话后进入。钢号队视角的迎击战。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "虎太被击破",
+    "任一我方单位被击破",
+    "虎太或拉乌尔被击破",
+    "钢号被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破特乌加特尔（HP 降至 20% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "战斗用罗亚（虎太）",
+    "钢号（哲也、英太）",
+    "AM 枪手（莉奥）",
+    "量产型亡灵 Mk-II 改（卡伊）",
+    "古伦加斯特（伊鲁姆）",
+    "凶鸟 Mk-III·L（凉斗）",
+    "R-1（隆圣）",
+    "R-2 强化型（莱）",
+    "R-3 强化型（彩）",
+    "R-Gun 强化型（薇蕾塔）",
+    "ART-1（舞）",
+    "舒兹华尔德（拉妲）",
+    "装甲狮",
+    "猛兽",
+    "F-32V 剑型改",
+    "R-Blade",
+    "亡灵 Mk-II·R",
+    "量产型凶鸟 Mk-II",
+    "量产型亡灵 Mk-II"
+   ],
+   "events": [
+    "流程图的败北条件原文并列了多个阶段性条款（虎太被击破／任一单位被击破／虎太或拉乌尔被击破／钢号被击破），应是随剧情段落切换的保护对象——本站全部照录，以关内提示为准。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第22话《黑色雷翼》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第22话",
+   "slug": "stage-22",
+   "zh": "黑色雷翼",
+   "ja": "黒き雷翼",
+   "en": "Black Wings of Thunder",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第21话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "在 G 雷门之前击坠希波克里西斯（HP 降至 20% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [
+    "熟练度条件原文作「在 G 雷门（出现/行动）之前击坠希波克里西斯」——希波克里西斯 HP 降至 20% 即撤退，须抢在其撤退或 G 雷门介入前打到撤退线。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第23话《将心意托付于拳》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第23话",
+   "slug": "stage-23",
+   "zh": "将心意托付于拳",
+   "ja": "想い、拳に乗せて",
+   "en": "Channeling Thoughts Through Fists",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第22话后进入。飞龙改队归队，R-1 与 ART-1 的合体攻击在本话解禁。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破村田的狮子王狮鹫兽改（无明）（HP 降至 20% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "飞龙改（蕾菲娜、肖恩）",
+    "古铁巨人（响介）",
+    "量产型亡灵 Mk-II（卡琪娜）",
+    "量产型亡灵 Mk-II（拉塞尔）",
+    "巨盾强攻型（塔斯克）",
+    "纯白骑士（艾克塞莉娅）",
+    "胜利狮（利奥娜）",
+    "巴尔西昂（琉妮）",
+    "拉策尔转乘龙卷",
+    "R-1 与 ART-1 解禁合体攻击：天上天下念动连击拳"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第24话《人偶大师》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第24话",
+   "slug": "stage-24",
+   "zh": "人偶大师",
+   "ja": "ドール・マスター",
+   "en": "Doll Master",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第23话后进入。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "5 回合内歼灭巴尔辛凯改 CF 型以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "黑钢号"
+   ],
+   "events": [
+    "熟练度把巴尔辛凯改 CF 型排除在 5 回合全歼之外——先清杂鱼、CF 型可以留到最后处理。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第25话《不屈之心》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第25话",
+   "slug": "stage-25",
+   "zh": "不屈之心",
+   "ja": "折れない心",
+   "en": "Unbreakable Heart",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "共通关",
+   "prerequisite": "通关第24话后进入。本话结束时结算两件等级门槛隐藏（见隐藏要素），开打前先确认相关驾驶员的等级进度。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击坠"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破宙金（HP 降至 20% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "虎龙王/龙虎王（布利特、楠叶）",
+    "阿斯特利昂 AX（伊比斯、嗣木）",
+    "古伦加斯特 零号机（李修）",
+    "亡灵·RV型（基利亚姆）",
+    "妖精狮子 G 型（夏茵）",
+    "凶鸟",
+    "凶鸟 Mk-III·R型",
+    "野性猎手 L 型",
+    "亡灵 Mk-II·S型",
+    "古伦加斯特 2 号机",
+    "妖精狮子 S 型",
+    "G 野牛＋G 猛禽＝古伦加斯特 3 号机（合体形态归队）"
+   ],
+   "events": [],
+   "secrets": [
+    "狮子王之剑（武器）：本话结束时，布利特、李修、曾伽三人的**等级合计 ≥95** 即在通关后取得（据 Akurasu Secrets 页）。这是结算型条件——本话出击前就应把三人的等级练到位。",
+    "英雄纹章（强化部件）：本话结束时，福尔卡与虎太的**等级合计 ≥65** 即在通关后取得（据 Akurasu Secrets 页）。同样是开打前就要达标的结算型条件。"
+   ],
+   "unlocks": [
+    "第26话《机神乱舞》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第26话",
+   "slug": "stage-26",
+   "zh": "机神乱舞",
+   "ja": "機神乱舞",
+   "en": "Romp of the Mechanical Gods",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第25话后进入。修罗神决战的开端。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破",
+    "福尔卡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破瓦雷福尔，且不击破安德拉斯（瓦雷福尔 HP 降至 10% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "巴尔西昂（琉妮）",
+    "艾克瑟伦斯（拉乌尔）",
+    "康帕奇布尔凯撒（虎太）",
+    "大曾伽追加：虚空框架（None Frame）"
+   ],
+   "events": [
+    "熟练度是双重要求：把瓦雷福尔打到撤退线（HP<10%），同时**不能**击破安德拉斯——范围攻击与反击时注意不要误杀安德拉斯。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第27话《应归之处（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第27话",
+   "slug": "stage-27",
+   "zh": "应归之处（前篇）",
+   "ja": "還るべき処へ（前編）",
+   "en": "To a Place Where We Should Return (First Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第26话后进入。本话为限定编成（见剧情事件）。",
+   "victory": [
+    "歼灭全部敌人",
+    "将 G 雷门的 HP 削减到 30% 以下"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "G 雷门被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "G 雷门到达后 5 回合内达成胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "巴尔西昂（琉妮）",
+    "艾克瑟伦斯（拉乌尔）",
+    "康帕奇布尔凯撒（虎太）"
+   ],
+   "events": [
+    "本话只有琉妮、拉乌尔、虎太三机可出击，其余单位与驾驶员全部不可用（流程图注记）。",
+    "注意败北条件包含「G 雷门被击破」：目标是削其 HP 到 30% 以下而非击破，收尾火力要控。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第28话《应归之处（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第28话",
+   "slug": "stage-28",
+   "zh": "应归之处（后篇）",
+   "ja": "還るべき処へ（後編）",
+   "en": "To a Place Where We Should Return (Last Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第27话后进入。",
+   "victory": [
+    "歼灭全部敌人",
+    "将巴尔辛凯改 CF 型的 HP 削减到 10% 以下"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "巴尔辛凯改 CF 型被击破",
+    "响介、艾克塞莉娅、阿克塞尔、阿尔菲米、拉乌尔或虎太被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "7 回合内过关"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "灵魂之剑（阿克塞尔）",
+    "个性（阿尔菲米）",
+    "艾克瑟伦斯突击型（菲奥娜；NPC 参战，本话后正式加入）",
+    "安琪洛（拉米娅）",
+    "巴尔萨加"
+   ],
+   "events": [
+    "与第27话同理：巴尔辛凯改 CF 型只能削到 10% 以下，打过头（击破）反而败北。",
+    "菲奥娜在本话以 NPC 身份驾驶艾克瑟伦斯突击型参战，通关后正式加入——第29话起姐弟（兄妹）双机艾克瑟伦斯齐备。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第29话《闪耀之光、燃烧之炎》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第29话",
+   "slug": "stage-29",
+   "zh": "闪耀之光、燃烧之炎",
+   "ja": "閃く光、燃ゆる炎",
+   "en": "Flashing Light, Burning Flames",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第28话后进入。康帕奇布尔凯撒在本话进化为 G 康帕奇布尔凯撒。",
+   "victory": [
+    "3 回合内将全部索迪安短剑的 HP 削减到 20% 以下",
+    "将 G 雷门的 HP 削减到 50% 以下",
+    "歼灭 G 雷门以外的全部敌人",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "索迪安短剑被击破",
+    "未在回合限制内达成胜利条件",
+    "任一我方战舰、福尔卡、虎太、拉乌尔或菲奥娜被击破",
+    "G 雷门被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "击破阿加雷斯（HP 降至 25% 时撤退）"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "拉乌尔的艾克瑟伦斯追加：闪电框架；菲奥娜的艾克瑟伦斯追加：永恒框架",
+    "康帕奇布尔凯撒进化为 G 康帕奇布尔凯撒，翔子成为副驾驶员（虎太、翔子）"
+   ],
+   "events": [
+    "胜利条件为四段式（流程图原文并列）：先在 3 回合内把全部索迪安短剑削到 20% 以下（不能击破，击破即败），再削 G 雷门至 50% 以下、清掉其余敌人、最后全歼——以关内提示的段落为准。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第30话《狼群的终焉》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第30话",
+   "slug": "stage-30",
+   "zh": "狼群的终焉",
+   "ja": "狼達の終焉",
+   "en": "End of the Wolves",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第29话后进入。阿尔贝罗三人组的最后一话（见剧情事件）；本话结束时结算两件击坠/等级门槛隐藏（见隐藏要素）。",
+   "victory": [
+    "阿尔贝罗到达指定地点",
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方单位被击破",
+    "任一我方战舰被击破",
+    "阿克塞尔或阿尔菲米被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内达成初期胜利条件"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "量产型亡灵 Mk-II 改（阿尔贝罗；本话归队，但本话后永久失去）",
+    "量产型亡灵 Mk-II 改（雨果；本话归队，但本话后永久失去）",
+    "量产型亡灵 Mk-II（弗莉娅；本话归队，但本话后永久失去）",
+    "灵魂之剑（阿克塞尔）",
+    "个性（阿尔菲米）"
+   ],
+   "events": [
+    "阿尔贝罗、雨果、弗莉娅在本话归队参战，但流程图明确注记：三人于本话结束后**永久失去**（剧情退场）——不要在本话给三人投入改造与养成资源。",
+    "熟练度的「初期胜利条件」指第一段的阿尔贝罗抵达指定地点，须 3 回合内完成。"
+   ],
+   "secrets": [
+    "钢铁之魂（强化部件）：本话结束时，哲也与蕾菲娜的**等级合计 ≥55 且击坠数合计 ≥55**，通关后取得（据 Akurasu Secrets 页）。",
+    "助推锤（武器）：本话结束时，舞的**击坠数 ≥50**，通关后取得（据 Akurasu Secrets 页）。两件都是开打前就要练达标的结算型条件。"
+   ],
+   "unlocks": [
+    "第31话《轰鸣的破霸者》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第31话",
+   "slug": "stage-31",
+   "zh": "轰鸣的破霸者",
+   "ja": "轟き、覇壞せし者",
+   "en": "The Thundering Overthrower",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第30话后进入。亚尔达巴奥特在本话神化。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "福尔卡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内歼灭全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "亚尔达巴奥特 → 神化亚尔达巴奥特（福尔卡）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第32话《阿修罗的顶点（前篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第32话",
+   "slug": "stage-32",
+   "zh": "阿修罗的顶点（前篇）",
+   "ja": "阿修羅の頂天（前編）",
+   "en": "First Among the Ashura (First Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第31话后进入。修罗王决战前篇。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "福尔卡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "2 回合内击破 12 台敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第33话《阿修罗的顶点（后篇）》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第33话",
+   "slug": "stage-33",
+   "zh": "阿修罗的顶点（后篇）",
+   "ja": "阿修羅の頂天（後編）",
+   "en": "First Among the Ashura (Last Part)",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第32话后进入。修罗王阿利翁的决战。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "福尔卡被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "6 回合内歼灭佩里涅斯以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "阿加雷斯（阿利翁）",
+    "瓦雷福尔（费尔南多）"
+   ],
+   "events": [
+    "通关本话后，阿利翁的阿加雷斯与费尔南多的瓦雷福尔加入（修罗一方的机体正式入队）。",
+    "熟练度故意把佩里涅斯（修罗王的机体）排除在 6 回合全歼之外：先清场、王本身可以慢慢打。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "第34话《新生的过错》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第34话",
+   "slug": "stage-34",
+   "zh": "新生的过错",
+   "ja": "生まれ落ちた過ち",
+   "en": "Newborn Mistake",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第33话后进入。决战前的米隆加（阿尔戈机）战。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破",
+    "拉乌尔或菲奥娜被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "3 回合内击破阿尔戈的米隆加"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "灵魂之剑（阿克塞尔）",
+    "个性（阿尔菲米）",
+    "古兰森（愁）"
+   ],
+   "events": [],
+   "secrets": [],
+   "unlocks": [
+    "第35话《伟大之战》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "第35话",
+   "slug": "stage-35",
+   "zh": "伟大之战",
+   "ja": "ザ・グレイトバトル",
+   "en": "The Great Battle",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "终盘关",
+   "prerequisite": "通关第34话后进入。与《The Great Battle》系列的暗脑决战——本话是最后一个有熟练度的关卡。",
+   "victory": [
+    "击破暗脑"
+   ],
+   "defeat": [
+    "任一我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [
+    "歼灭暗脑以外的全部敌人"
+   ],
+   "srNote": "",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "埃雷奥斯（德斯皮尼斯）",
+    "拉吉与瑞穗成为艾克瑟伦斯闪电型的副驾驶员"
+   ],
+   "events": [
+    "本话只需击破暗脑即可过关；熟练度则要求把暗脑之外的敌人全清——先清场再收尾暗脑。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "最终话《诸神黄昏》"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "code": "最终话",
+   "slug": "stage-final",
+   "zh": "诸神黄昏",
+   "ja": "ラグナロク",
+   "en": "Ragnarok",
+   "part": "ogg",
+   "partZh": "OG外传",
+   "route": "共通",
+   "area": "",
+   "type": "最终话",
+   "prerequisite": "通关第35话后进入。最终话无熟练度，也没有熟练度门槛——无论累计点数多少都能进入（见本作主页「熟练度与难度」一节）。",
+   "victory": [
+    "歼灭全部敌人"
+   ],
+   "defeat": [
+    "任一我方战舰被击破"
+   ],
+   "defeatNote": "",
+   "sr": [],
+   "srNote": "最终话无熟练度。本作熟练度总数 35 点（第1–35话各 1 点），只决定逐关难度档位，不设最终话门槛。",
+   "rewards": {
+    "funds": "Akurasu 的流程图未刊载本话的固定通关资金；本作资金主要靠击破敌机获得（难度会影响击坠资金倍率，继承规则见本作主页）。",
+    "mxp": null,
+    "pp": null,
+    "parts": [],
+    "note": null
+   },
+   "allies": [
+    "古兰森（愁）"
+   ],
+   "events": [
+    "古兰森（愁）在最终话归队参战。",
+    "难度（由进入本话前的累计熟练度比例决定）会影响最终 Boss 的 HP 与改造段数（据 Akurasu Game Mechanics 页：困难档敌方全能力/武器 +3 段、部分 +5 段）。"
+   ],
+   "secrets": [],
+   "unlocks": [
+    "通关（进入周回继承，规则见本作主页）"
+   ],
+   "enemies": {
+    "status": "待核实",
+    "rows": [],
+    "reinforcements": [],
+    "notes": [
+     "Akurasu 的流程图只刊载胜利/败北条件、熟练度条件、隐藏条件与我方加入，不刊载逐关敌方配置；GameCenter GX 不收录本作（仅覆盖初代/第2次/第4次）。",
+     "盘点结论：本作的逐关敌方编成只有一份完整的公开来源——GameFAQs 的 Demitrius 攻略（faqs/55017），全 36 个编号话逐关列出敌方机体、驾驶员、等级、HP、击破奖励（EXP/资金/PP，少数含部件）与增援；另一份 Eddon Wong 攻略（faqs/51799）只有序盘若干关的同类表，不构成第二来源。单一来源按本站惯例暂不刊载，列为待裁决事项（范围：全 36 个编号话的敌方构成/驾驶员/等级/HP/击破奖励/增援；坐标则全源皆无）。",
+     "注记：本作难度由累计熟练度比例逐关决定（简单/普通/困难），但据 Akurasu 的 Game Mechanics 页，难度只改变敌方强度（改造段数、最终 Boss 的 HP）与击坠资金倍率，不改变敌方构成与数量——故上表若获裁决刊载，不存在 OGS 那种「按难度分列」的障碍。"
+    ]
+   },
+   "allyUnits": [],
+   "map": {
+    "frameW": 12,
+    "frameH": 9,
+    "status": "待核实",
+    "note": "Akurasu 等公开来源不提供本作逐关的地图尺寸与地形数据，敌方编成来源也不含逐台坐标；下方为带四边数字坐标轴的参照框架（原点在左上 (1,1)，向右 X 增大、向下 Y 增大），仅供攻略解说时参照坐标方位之用，不代表该关的实际地图尺寸与地形。逐格地形、敌方初期配置坐标、增援出现位置均待核实。",
+    "verifiedPoints": [],
+    "missing": [
+     "逐格地形（类型与地形效果）",
+     "敌方初期配置与坐标",
+     "增援出现条件与坐标",
+     "我方出击位置"
+    ]
+   },
+   "sources": [
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Flow Chart（全关卡胜败条件、熟练度条件与机体加入；本站关卡编号与标题从此表）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Flow_Chart"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Secrets（隐藏要素表，全 6 项，与流程图交叉核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Secrets"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》主条目（发售信息与系统子页索引）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG"
+    },
+    {
+     "name": "Akurasu Wiki《Super Robot Wars OG Gaiden》Skill Point（熟练度总数 35 与逐话条件核对）",
+     "url": "https://akurasu.net/wiki/Super_Robot_Wars/OGG/Skill_Point"
+    },
+    {
+     "name": "日本维基百科 — スーパーロボット大戦OG外伝（一周目全 36 话口径、剧情与新机体的交叉核对）",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6OG%E5%A4%96%E4%BC%9D"
+    }
+   ],
+   "note": ""
+  }
+ ]
+}
