@@ -174,10 +174,20 @@ const summary = [
 ].filter(Boolean).join(' · ');
 const legendTerrain = Object.entries(terrainLegend);
 const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
+// Blank-placeholder guard (2026-10-24, user decision): a mission with no
+// terrain grid AND no plotted unit/point at all must not render a fake-sized
+// empty grid. Show a compact "map unavailable" notice instead. Pages with
+// terrain, or with plotted units/points but no terrain, keep the grid.
+const isBlankMap = !terrainGrid && byTile.size === 0;
+const mapStatus = (m.map as any)?.status as string | undefined;
 ---
 {/* Frame with four-sided numeric axes (shared by both modes). The rulers use
     the same column/row sizing as the grid itself, so numbers align exactly. */}
-{layoutRich ? (
+{isBlankMap ? (
+<div class="map-missing">
+  <p><strong>本关地图暂缺。</strong>敌方逐台坐标与逐格地形无公开来源，故不绘制示意格子{mapStatus ? `（${mapStatus}）` : ''}。本页胜利条件、奖励与隐藏要素不受影响。</p>
+</div>
+) : layoutRich ? (
 <div class={nameChips ? 'map-wrap map-rich map-chips' : 'map-wrap map-rich'}>
   {summary && <p class="text-sm text-base-content/60">本图标注：{summary}。点击任意格子查看该格的单位与地形信息。</p>}
   <div class="map-controls" role="group" aria-label="地图缩放">
@@ -270,6 +280,13 @@ const hasUnknownTiles = !!terrainGrid && terrainGrid.some(r => r.includes('?'));
 )}
 
 <style>
+  .map-missing {
+    border: 1px solid var(--color-base-300);
+    border-radius: var(--radius-box, 0.75rem);
+    background: var(--color-base-200);
+    padding: 0.9rem 1rem; margin: 0.5rem 0;
+  }
+  .map-missing p { margin: 0; line-height: 1.7; color: color-mix(in oklab, var(--color-base-content) 78%, transparent); }
   .map-cell { position: relative; }
   .map-badge {
     display: inline-flex; align-items: center; justify-content: center;
