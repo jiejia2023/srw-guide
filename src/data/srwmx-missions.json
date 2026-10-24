@@ -5234,11 +5234,71 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的敌方编成只有单一来源（Deranged 攻略）刊载，按本站惯例暂不导入、待用户裁决；敌方坐标、等级与逐格地形同样无公开来源。敌方等级在任何已查到的来源中均无记载。"
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/31061）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方等级在任何已查到的来源中均无记载，坐标与逐格地形仍待核实。"
+    ],
+    "composition": {
+     "deranged": [
+      {
+       "part": "Scene 3 Last Moon Route",
+       "enemies": [
+        {
+         "unit": "Medius Locus",
+         "count": 1,
+         "pilot": "Albero",
+         "note": ""
+        },
+        {
+         "unit": "Dyne Maff",
+         "count": 4,
+         "pilot": "Giganos Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Gebai Maff",
+         "count": 4,
+         "pilot": "Giganos Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Drow",
+         "count": 8,
+         "pilot": "Giganos Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [],
+       "drops": [
+        {
+         "item": "Ultra Alloy Z",
+         "count": 1,
+         "from": "Drow"
+        },
+        {
+         "item": "Cartridge",
+         "count": 1,
+         "from": "Gebai Maff"
+        },
+        {
+         "item": "Mega Booster",
+         "count": 1,
+         "from": "Medius Locus"
+        }
+       ],
+       "notes": "Reinforcement Enemy Units: None. Albero retreats (notes; no threshold stated in this section)."
+      }
+     ]
+    },
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/31061）",
+    "compSources": [
+     {
+      "key": "deranged",
+      "name": "Deranged",
+      "faq": "faqs/31061"
+     }
     ]
    },
    "allyUnits": [],

@@ -21,7 +21,7 @@ const compSources = (m.enemies.compSources ?? []) as any[];
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 MX <strong>Complete Chart</strong>，并与同站 Secrets 页交叉核对，系统与话数口径另以日本维基百科互证（分歧见本页备注与本作主页）。本站逐关攻略以 <strong>PS2 原版</strong>为准：Complete Chart 中标为 PSP 版的内容（如第 29 话阿克娅乘龙骑临时出击）不收录。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 主条目对 Complete Chart 的简介文字虽写有「BMs」，但该表本体并无熟练度栏目、日本维基百科的系统解说亦无此系统，本站按无熟练度处理；分歧与隐藏要素全部由<strong>主人公机选择、路线选择与关内条件</strong>决定。本作话数编号为固定编号（第 1 话–第 54 话＋最终话，一周目 55 话），不随路线浮动。{m.enemies.composition ? <span>敌方编成（构成与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>敌方编成未达到本站的双源刊载标准（见下方「敌方出场与增援」的说明）；坐标、等级与逐格地形无公开来源（Akurasu 的 Complete Chart 不刊载逐关敌方配置），故标为待核实、地图为参照框架。</span>}</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 MX <strong>Complete Chart</strong>，并与同站 Secrets 页交叉核对，系统与话数口径另以日本维基百科互证（分歧见本页备注与本作主页）。本站逐关攻略以 <strong>PS2 原版</strong>为准：Complete Chart 中标为 PSP 版的内容（如第 29 话阿克娅乘龙骑临时出击）不收录。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 主条目对 Complete Chart 的简介文字虽写有「BMs」，但该表本体并无熟练度栏目、日本维基百科的系统解说亦无此系统，本站按无熟练度处理；分歧与隐藏要素全部由<strong>主人公机选择、路线选择与关内条件</strong>决定。本作话数编号为固定编号（第 1 话–第 54 话＋最终话，一周目 55 话），不随路线浮动。{m.enemies.singleSource ? <span>敌方编成（构成与增援）来自<strong>单一来源：{m.enemies.singleSource}</strong>，未经第二来源交叉核对（用户已批复按单一来源导入）；该来源不提供单位坐标与等级，敌方等级在任何已查到的来源中均无记载，坐标与逐格地形仍待核实，故地图为参照框架。</span> : m.enemies.composition ? <span>敌方编成（构成与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>敌方编成未达到本站的双源刊载标准（见下方「敌方出场与增援」的说明）；坐标、等级与逐格地形无公开来源（Akurasu 的 Complete Chart 不刊载逐关敌方配置），故标为待核实、地图为参照框架。</span>}</span>
   </div>
 
   <h2>出击条件</h2>
@@ -59,7 +59,7 @@ const compSources = (m.enemies.compSources ?? []) as any[];
   {m.enemies.composition ? (
   <div>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——本站照各自原文刊出（名称为攻略英文原文）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span>
+      {m.enemies.singleSource ? <span>敌方编成数据来源：<strong>单一来源</strong>——下表为 {m.enemies.singleSource} 的编成数据（机体 ×数量与掉落物，攻略英文原文），未经第二来源交叉核对（用户已批复按单一来源导入，F 完结编有同类先例）。该来源不提供坐标与等级：敌方等级在任何已查到的来源中均无记载，坐标与逐格地形仍待核实。</span> : <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——本站照各自原文刊出（名称为攻略英文原文）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span>}
     </div>
     {compSources.map((src: any) => (
     <div>
