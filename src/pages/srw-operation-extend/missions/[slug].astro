@@ -15,14 +15,15 @@ const crumbs = [
   { label: `${m.code} ${m.zh}` },
 ];
 const es = m.enemies.state as string;
+const imported = ((m.enemies.initialEnemies ?? []).length > 0 || (m.enemies.reinforcements ?? []).length > 0);
 const terrainLabel = (m.terrain ?? []).join('／');
 ---
-<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战 Operation Extend（2013 PSP 下载作）${m.code} ${m.zh} 攻略：推荐Lv、地形、过关奖励（资金／EC）、我方加入与初期配置、EC 获得事件与本关要点（本作无熟练度系统；本作无格子地图）；敌方编成只有 wikiwiki 一家刊载、按本站惯例暂不刊载待裁决。`} path={`srw-operation-extend/missions/${m.slug}/`} breadcrumbs={crumbs}>
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战 Operation Extend（2013 PSP 下载作）${m.code} ${m.zh} 攻略：推荐Lv、地形、过关奖励（资金／EC）、我方加入与初期配置、EC 获得事件与本关要点（本作无熟练度系统；本作无格子地图）；敌方编成：章节任务为 wikiwiki 单一来源刊载，模拟战任务无逐关来源。`} path={`srw-operation-extend/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文：{m.en} · 第{m.chapter}章 · 类型：{m.kind} · 推荐Lv：{m.lv ?? '待核实'}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的推荐等级、地形、过关／连续奖励与出击信息来自日文攻略 Wiki <strong>wikiwiki（SRW 系列 Wiki）</strong>的 OE 各章任务表与各任务页，我方加入由同站「参戦タイムテーブル」与任务页的初期配置两表互证；任务骨架（主线／支线／DLC／模拟战的分类与编号）另与 Akurasu 的 OE 流程表交叉核对，隐藏要素（隐藏武器／零件）来自 Akurasu 的 Secrets 页。本作<strong>没有熟练度（SR 点）系统</strong>——这一点三方一致：日文维基百科的系统记述中没有熟练度，两家攻略站的任务表也没有熟练度栏（继承 NEO 系系统的作共同点）。本作是<strong>无格子</strong>的半径移动系统（NEO 引擎改良），不存在格子坐标与逐格地形，地图为参照框架。中文／英文标题无官方译名，为本站译名。{es === 'single' ? <span>本关的<strong>敌方编成</strong>（初期敌方构成・数量与增援批次）只有 wikiwiki 一家刊载，按本站「双源交叉才刊载」的惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）。</span> : <span>本关是模拟战任务：wikiwiki 没有模拟战专页（该站的模拟战页面不存在），逐项数据无来源刊载，见下方说明。</span>}</span>
+    <span><strong>数据状态：</strong>本页的推荐等级、地形、过关／连续奖励与出击信息来自日文攻略 Wiki <strong>wikiwiki（SRW 系列 Wiki）</strong>的 OE 各章任务表与各任务页，我方加入由同站「参戦タイムテーブル」与任务页的初期配置两表互证；任务骨架（主线／支线／DLC／模拟战的分类与编号）另与 Akurasu 的 OE 流程表交叉核对，隐藏要素（隐藏武器／零件）来自 Akurasu 的 Secrets 页。本作<strong>没有熟练度（SR 点）系统</strong>——这一点三方一致：日文维基百科的系统记述中没有熟练度，两家攻略站的任务表也没有熟练度栏（继承 NEO 系系统的作共同点）。本作是<strong>无格子</strong>的半径移动系统（NEO 引擎改良），不存在格子坐标与逐格地形，地图为参照框架。中文／英文标题无官方译名，为本站译名。{es === 'single' ? <span>{imported ? <>本关的<strong>敌方编成</strong>（初期敌方构成・数量与增援批次）经用户 2026-10-24 批复，作为 <strong>wikiwiki 单一来源</strong>导入刊载（见下方「敌方出场与增援」）。</> : <>本关的<strong>敌方编成</strong>（初期敌方构成・数量与增援批次）只有 wikiwiki 一家刊载，按本站「双源交叉才刊载」的惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）。</>}</span> : <span>本关是模拟战任务：wikiwiki 没有模拟战专页（该站的模拟战页面不存在），逐项数据无来源刊载，见下方说明。</span>}</span>
   </div>
 
   <h2>出击条件</h2>
@@ -87,7 +88,46 @@ const terrainLabel = (m.terrain ?? []).join('／');
   )}
 
   <h2>敌方出场与增援</h2>
-  {es === 'single' ? (
+  {imported ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：wikiwiki（单一来源）</strong>——下表为经用户 2026-10-24 批复导入的 wikiwiki OE 各任务页编成表（机体名／驾驶员名为日文原记，原文未改动；机体名中若含「×N」为该站小队记法原样保留，不另换算）：初期敌方构成／数量与增援批次／触发；该站本作编成表不含 Lv／HP／资金数值列，故本节无数值列；本作无格子地图，敌方坐标不存在。</span>
+    </div>
+    {(m.enemies.initialEnemies ?? []).length > 0 && (
+    <div>
+      <h3>初期敌方</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th></tr></thead>
+        <tbody>
+        {(m.enemies.initialEnemies ?? []).map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    )}
+    {(m.enemies.reinforcements ?? []).map((rg: any) => (
+    <div>
+      <h4>增援：{rg.trigger}</h4>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th></tr></thead>
+        <tbody>
+        {rg.enemies.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : es === 'single' ? (
   <div>
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成（初期敌方构成／数量、增援批次与触发）只有 <strong>wikiwiki 攻略 Wiki</strong> 一家刊载——Akurasu 的 OE 流程表不列敌方编成，s-rpg-navi、GameFAQs、atwiki 均无本作的逐关编成表。按本站「双源交叉才刊载」的惯例暂不导入，列为<strong>待用户裁决事项</strong>（范围：全 203 个章节任务；字段：初期敌方机体／驾驶员／数量与增援批次／触发；同类先例：第 3 次α 的 43 个剧本、J 的 14 个剧本、L 的 55 个剧本、UX 的 67 个剧本）。该数据本站已提取保存在工作档案中，裁决后可直接导入。本关的攻略要点（见下节）中涉及的敌方信息均为 wikiwiki 攻略提示的转述。</span>
