@@ -14760,12 +14760,180 @@
     "进入第34话·节子线（边境巡逻）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヒュドュエル",
+           "members": [
+            "ディクリール ×2（Lv37·HP10000·资金3700·PP26）"
+           ],
+           "note": "",
+           "leader_lv": 38,
+           "leader_hp": 19500,
+           "leader_funds": 3800,
+           "leader_pp": 32
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "マグガルド",
+           "members": [
+            "ジュエッタル ×2（Lv37·HP10300·资金3700·PP26）"
+           ],
+           "note": "同编成×2",
+           "leader_lv": 38,
+           "leader_hp": 13500,
+           "leader_funds": 3800,
+           "leader_pp": 32
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ジュエッタル",
+           "members": [],
+           "note": "同编成×4",
+           "leader_lv": 37,
+           "leader_hp": 10300,
+           "leader_funds": 3700,
+           "leader_pp": 26
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ディクリール",
+           "members": [],
+           "note": "同编成×3",
+           "leader_lv": 37,
+           "leader_hp": 10000,
+           "leader_funds": 3600,
+           "leader_pp": 20
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "敵4小隊撃墜or4PP　北",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "クラーゲン",
+             "members": [
+              "クモガニラ ×2（Lv37·HP9550·资金3000·PP16）"
+             ],
+             "note": "",
+             "leader_lv": 37,
+             "leader_hp": 10250,
+             "leader_funds": 3200,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "クラーゲン",
+             "members": [
+              "ドミラ ×2（Lv37·HP5450·资金1200·PP12）"
+             ],
+             "note": "同编成×2",
+             "leader_lv": 37,
+             "leader_hp": 10250,
+             "leader_funds": 3200,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ベガ獣グラグラ",
+             "members": [
+              "ミディフォー ×2（Lv37·HP4100·资金1000·PP10）"
+             ],
+             "note": "",
+             "leader_lv": 37,
+             "leader_hp": 10750,
+             "leader_funds": 4200,
+             "leader_pp": 20
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "円盤獣ゴルゴル",
+             "members": [
+              "ミディフォー ×2（Lv37·HP4100·资金1000·PP10）"
+             ],
+             "note": "同编成×2",
+             "leader_lv": 37,
+             "leader_hp": 6850,
+             "leader_funds": 3000,
+             "leader_pp": 14
+            }
+           ]
+          },
+          {
+           "trigger": "増援後、敵3小隊撃墜or増援の次PP　北",
+           "squads": [
+            {
+             "leader_pilot": "ブッチャー",
+             "leader_unit": "バンドック",
+             "members": [],
+             "note": "",
+             "leader_lv": 41,
+             "leader_hp": 44400,
+             "leader_funds": 36000,
+             "leader_pp": 110
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ダンガルン",
+             "members": [
+              "クモガニラ ×2（Lv37·HP9550·资金3000·PP16）"
+             ],
+             "note": "同编成×2",
+             "leader_lv": 38,
+             "leader_hp": 11450,
+             "leader_funds": 3600,
+             "leader_pp": 18
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ダンガルン",
+             "members": [
+              "ドミラ ×2（Lv37·HP5450·资金1000·PP12）"
+             ],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 11450,
+             "leader_funds": 3600,
+             "leader_pp": 18
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "ナノマシンユニット",
+           "from": "ヒュドュエル(初期)"
+          },
+          {
+           "item": "スーパーリペアキット",
+           "from": "ベガ獣グラグラ"
+          },
+          {
+           "item": "ソーラーパネル",
+           "from": "ブッチャー"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线之一：节子线·边境巡逻，第33话。",
    "sources": [
@@ -14776,6 +14944,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -14836,12 +15008,159 @@
     "进入第34话·兰德线（搜索伦顿）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガラバゴス",
+           "members": [],
+           "note": "",
+           "leader_lv": 36,
+           "leader_hp": 8700,
+           "leader_funds": 2100,
+           "leader_pp": 18
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "プロメウス",
+           "members": [],
+           "note": "",
+           "leader_lv": 36,
+           "leader_hp": 8100,
+           "leader_funds": 1800,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガバメント",
+           "members": [],
+           "note": "",
+           "leader_lv": 35,
+           "leader_hp": 8100,
+           "leader_funds": 2000,
+           "leader_pp": 18
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "カプリコ",
+           "members": [],
+           "note": "同编成×2",
+           "leader_lv": 35,
+           "leader_hp": 6500,
+           "leader_funds": 1700,
+           "leader_pp": 14
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ダッガー",
+           "members": [],
+           "note": "同编成×2",
+           "leader_lv": 35,
+           "leader_hp": 6200,
+           "leader_funds": 1600,
+           "leader_pp": 12
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "トラッド11",
+           "members": [],
+           "note": "同编成×6",
+           "leader_lv": 35,
+           "leader_hp": 4400,
+           "leader_funds": 1400,
+           "leader_pp": 10
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "ガロード出現後に敵2小隊以上撃墜 or 援軍出現の次PP　北",
+           "squads": [
+            {
+             "leader_pilot": "グレタ",
+             "leader_unit": "ドラン",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 12900,
+             "leader_funds": 2500,
+             "leader_pp": 28
+            },
+            {
+             "leader_pilot": "ケジナン",
+             "leader_unit": "ドーベック",
+             "members": [],
+             "note": "",
+             "leader_lv": 37,
+             "leader_hp": 9250,
+             "leader_funds": 1600,
+             "leader_pp": 14
+            },
+            {
+             "leader_pilot": "エンゲ",
+             "leader_unit": "ドーベック",
+             "members": [],
+             "note": "",
+             "leader_lv": 37,
+             "leader_hp": 9250,
+             "leader_funds": 1600,
+             "leader_pp": 14
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ガラバゴス",
+             "members": [],
+             "note": "同编成×2",
+             "leader_lv": 35,
+             "leader_hp": 8700,
+             "leader_funds": 2100,
+             "leader_pp": 18
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ドゴッゾ",
+             "members": [],
+             "note": "同编成×4",
+             "leader_lv": 35,
+             "leader_hp": 6350,
+             "leader_funds": 1300,
+             "leader_pp": 12
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "慣性制御システム",
+           "from": "グレタ"
+          },
+          {
+           "item": "VRメット",
+           "from": "ケジナン"
+          },
+          {
+           "item": "VRメット",
+           "from": "エンゲ"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线之一：兰德线·搜索伦顿，第33话。",
    "sources": [
@@ -14852,6 +15171,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -15487,12 +15810,140 @@
     "进入第35话·节子线（边境巡逻）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "リーツ",
+           "leader_unit": "エルダー戦艦",
+           "members": [],
+           "note": "",
+           "leader_lv": 41,
+           "leader_hp": 24400,
+           "leader_funds": 5800,
+           "leader_pp": 28
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ジェロギラス",
+           "members": [
+            "ハルピー ×2（Lv38·HP5150·资金1200·PP12）"
+           ],
+           "note": "同编成×2",
+           "leader_lv": 38,
+           "leader_hp": 10150,
+           "leader_funds": 3800,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "グラーケン",
+           "members": [
+            "ハルピー ×2（Lv38·HP5150·资金1200·PP12）"
+           ],
+           "note": "同编成×3",
+           "leader_lv": 38,
+           "leader_hp": 8550,
+           "leader_funds": 3600,
+           "leader_pp": 14
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "リーツ撃墜orソレイユ到達　ゴッドシグマ(闘志也)の周囲",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "バリラット",
+             "members": [],
+             "note": "",
+             "leader_lv": 39,
+             "leader_hp": 11450,
+             "leader_funds": "ー",
+             "leader_pp": "ー"
+            }
+           ]
+          },
+          {
+           "trigger": "リーツ撃墜　西",
+           "squads": [
+            {
+             "leader_pilot": "テラル",
+             "leader_unit": "エルダー戦艦",
+             "members": [],
+             "note": "",
+             "leader_lv": 42,
+             "leader_hp": 24400,
+             "leader_funds": 5800,
+             "leader_pp": 28
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ジェロギラス",
+             "members": [
+              "ハルピー ×2（Lv38·HP5150·资金1200·PP14）"
+             ],
+             "note": "同编成×2",
+             "leader_lv": 39,
+             "leader_hp": 10150,
+             "leader_funds": 3800,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "グラーケン",
+             "members": [
+              "ハルピー ×2（Lv38·HP5150·资金1200·PP12）"
+             ],
+             "note": "同编成×3",
+             "leader_lv": 38,
+             "leader_hp": 8550,
+             "leader_funds": 3600,
+             "leader_pp": 14
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ビッグオクト",
+             "members": [
+              "透明円盤 ×2（Lv38·HP3450·资金1000·PP10）"
+             ],
+             "note": "同编成×3",
+             "leader_lv": 38,
+             "leader_hp": 9650,
+             "leader_funds": 4100,
+             "leader_pp": 14
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "スラスターモジュール",
+           "from": "リーツ"
+          },
+          {
+           "item": "ブースター",
+           "from": "テラル"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线：节子线·边境巡逻，第34话。",
    "sources": [
@@ -15503,6 +15954,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -15567,12 +16022,197 @@
     "进入第35话·兰德线（搜索伦顿）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "ロベルト",
+           "leader_unit": "イシュキック・コマンダー",
+           "members": [],
+           "note": "",
+           "leader_lv": 38,
+           "leader_hp": 10550,
+           "leader_funds": 4000,
+           "leader_pp": 20
+          },
+          {
+           "leader_pilot": "ヘンリー",
+           "leader_unit": "イシュキック・コマンダー",
+           "members": [],
+           "note": "",
+           "leader_lv": 38,
+           "leader_hp": 9550,
+           "leader_funds": 4000,
+           "leader_pp": 20
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "イシュキック",
+           "members": [],
+           "note": "同编成×5",
+           "leader_lv": 36,
+           "leader_hp": 5550,
+           "leader_funds": 1600,
+           "leader_pp": 14
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "イシュフォーン",
+           "members": [],
+           "note": "同编成×2",
+           "leader_lv": 36,
+           "leader_hp": 4950,
+           "leader_funds": 1500,
+           "leader_pp": 12
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "ロベルト撃墜　北",
+           "squads": [
+            {
+             "leader_pilot": "ベック",
+             "leader_unit": "ベック・ザ・グレートRX3",
+             "members": [],
+             "note": "",
+             "leader_lv": 39,
+             "leader_hp": 20450,
+             "leader_funds": 4200,
+             "leader_pp": 40
+            },
+            {
+             "leader_pilot": "アスハム",
+             "leader_unit": "ゴレーム",
+             "members": [],
+             "note": "",
+             "leader_lv": 39,
+             "leader_hp": 18350,
+             "leader_funds": 6300,
+             "leader_pp": 29
+            },
+            {
+             "leader_pilot": "ザッキ",
+             "leader_unit": "ゴレーム",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 9150,
+             "leader_funds": 5300,
+             "leader_pp": 22
+            },
+            {
+             "leader_pilot": "ホーラ",
+             "leader_unit": "ガラバゴス",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 15400,
+             "leader_funds": 7200,
+             "leader_pp": 24
+            },
+            {
+             "leader_pilot": "ゲラバ",
+             "leader_unit": "ガラバゴス",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 14900,
+             "leader_funds": 7200,
+             "leader_pp": 24
+            },
+            {
+             "leader_pilot": "グレタ",
+             "leader_unit": "ドラン",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 12900,
+             "leader_funds": 2500,
+             "leader_pp": 28
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "アンダーゴレーム",
+             "members": [],
+             "note": "同编成×4",
+             "leader_lv": 36,
+             "leader_hp": 5950,
+             "leader_funds": 3600,
+             "leader_pp": 18
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ガラバゴス",
+             "members": [],
+             "note": "同编成×2",
+             "leader_lv": 36,
+             "leader_hp": 8700,
+             "leader_funds": 2100,
+             "leader_pp": 18
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "プロメウス",
+             "members": [],
+             "note": "同编成×2",
+             "leader_lv": 36,
+             "leader_hp": 8100,
+             "leader_funds": 1800,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ガバメント",
+             "members": [],
+             "note": "同编成×2",
+             "leader_lv": 36,
+             "leader_hp": 8100,
+             "leader_funds": 2000,
+             "leader_pp": 18
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "ハイブリッドアーマー",
+           "from": "ロベルト"
+          },
+          {
+           "item": "ソーラーパネル、ブリキの金魚",
+           "from": "ベック"
+          },
+          {
+           "item": "アポジモーター",
+           "from": "アスハム"
+          },
+          {
+           "item": "チョバムアーマー",
+           "from": "ホーラ"
+          },
+          {
+           "item": "アポジモーター",
+           "from": "グレタ"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线：兰德线·搜索伦顿，第34话。",
    "sources": [
@@ -15583,6 +16223,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -16230,12 +16874,155 @@
     "第36话合流，进入第36话·节子线"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "フェイ",
+           "leader_unit": "グラントルーパー",
+           "members": [],
+           "note": "",
+           "leader_lv": 42,
+           "leader_hp": 13450,
+           "leader_funds": 5200,
+           "leader_pp": 50
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ザムザザー",
+           "members": [
+            "ウィンダム ×2（Lv39·HP6150·资金1500·PP16）"
+           ],
+           "note": "",
+           "leader_lv": 39,
+           "leader_hp": 10250,
+           "leader_funds": 3800,
+           "leader_pp": 24
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ゲルズゲー",
+           "members": [
+            "ウィンダム ×2（Lv39·HP6150·资金1500·PP16）"
+           ],
+           "note": "同编成×2",
+           "leader_lv": 39,
+           "leader_hp": 9550,
+           "leader_funds": 3000,
+           "leader_pp": 22
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "アッシマー",
+           "members": [
+            "ギャプラン ×2（Lv39·HP7350·资金1800·PP16）"
+           ],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 7550,
+           "leader_funds": 1800,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "マラサイ",
+           "members": [
+            "ハイザック ×2（Lv39·HP4550·资金1000·PP10）"
+           ],
+           "note": "同编成×3",
+           "leader_lv": 39,
+           "leader_hp": 5350,
+           "leader_funds": 1200,
+           "leader_pp": 12
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "敵4小隊以下orフェイ撃墜　南",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ヒュドュエル",
+             "members": [
+              "ディクリール ×2（Lv39·HP10000·资金3600·PP20）"
+             ],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 19500,
+             "leader_funds": 3800,
+             "leader_pp": 32
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "マグガルド",
+             "members": [
+              "ジュエッタル ×2（Lv39·HP10300·资金3700·PP26）"
+             ],
+             "note": "同编成×3",
+             "leader_lv": 40,
+             "leader_hp": 13500,
+             "leader_funds": 3800,
+             "leader_pp": 32
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ディクリール",
+             "members": [],
+             "note": "同编成×3",
+             "leader_lv": 40,
+             "leader_hp": 10000,
+             "leader_funds": 3600,
+             "leader_pp": 20
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ジュエッタル",
+             "members": [],
+             "note": "同编成×4",
+             "leader_lv": 39,
+             "leader_hp": 10300,
+             "leader_funds": 3700,
+             "leader_pp": 26
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "VRメット",
+           "from": "フェイ"
+          },
+          {
+           "item": "プロペラントタンク",
+           "from": "ゲルズゲー"
+          },
+          {
+           "item": "リペアキット",
+           "from": "アッシマー"
+          },
+          {
+           "item": "プロペラントタンクリペアキット",
+           "from": "マラサイ"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线：节子线·边境巡逻，第35话；过关后各线于第36话合流。",
    "sources": [
@@ -16246,6 +17033,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -16309,12 +17100,173 @@
     "第36话合流，进入第36话·兰德线"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "アッシマー",
+           "members": [],
+           "note": "同编成×3",
+           "leader_lv": 37,
+           "leader_hp": 7550,
+           "leader_funds": 1800,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガディール",
+           "members": [],
+           "note": "",
+           "leader_lv": 37,
+           "leader_hp": 7550,
+           "leader_funds": 1800,
+           "leader_pp": 18
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ドートレス・ネオ",
+           "members": [],
+           "note": "同编成×2",
+           "leader_lv": 37,
+           "leader_hp": 5450,
+           "leader_funds": 1600,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "モンスーノ20",
+           "members": [],
+           "note": "",
+           "leader_lv": 37,
+           "leader_hp": 6250,
+           "leader_funds": 2500,
+           "leader_pp": 14
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "モンスーノ10",
+           "members": [],
+           "note": "同编成×2",
+           "leader_lv": 37,
+           "leader_hp": 5250,
+           "leader_funds": 2400,
+           "leader_pp": 12
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "敵全滅 or 4PP　北西・北・北東",
+           "squads": [
+            {
+             "leader_pilot": "チャールズ",
+             "leader_unit": "スピアヘッド(青)",
+             "members": [],
+             "note": "",
+             "leader_lv": 39,
+             "leader_hp": 15850,
+             "leader_funds": 5400,
+             "leader_pp": 30
+            },
+            {
+             "leader_pilot": "レイ",
+             "leader_unit": "スピアヘッド(赤)",
+             "members": [],
+             "note": "",
+             "leader_lv": 39,
+             "leader_hp": 15850,
+             "leader_funds": 5400,
+             "leader_pp": 30
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "塔州連邦軍空中戦艦",
+             "members": [],
+             "note": "",
+             "leader_lv": 38,
+             "leader_hp": 18000,
+             "leader_funds": 6500,
+             "leader_pp": 30
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ザムザザー",
+             "members": [
+              "ウィンダム ×2（Lv37·HP6150·资金1500·PP16）"
+             ],
+             "note": "",
+             "leader_lv": 37,
+             "leader_hp": 10250,
+             "leader_funds": 3800,
+             "leader_pp": 24
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ゲルズゲー",
+             "members": [
+              "ウィンダム ×2（Lv37·HP6150·资金1500·PP16）"
+             ],
+             "note": "同编成×2",
+             "leader_lv": 37,
+             "leader_hp": 9550,
+             "leader_funds": 3600,
+             "leader_pp": 22
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "アッシマー",
+             "members": [
+              "ギャプラン ×2（Lv37·HP7350·资金1800·PP16）"
+             ],
+             "note": "同编成×3",
+             "leader_lv": 37,
+             "leader_hp": 7550,
+             "leader_funds": 1800,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "モンスーノ20",
+             "members": [
+              "モンスーノ10 ×2（Lv37·HP5250·资金2400·PP12）"
+             ],
+             "note": "同编成×4",
+             "leader_lv": 37,
+             "leader_hp": 6250,
+             "leader_funds": 2500,
+             "leader_pp": 14
+            }
+           ]
+          }
+         ],
+         "drops": [
+          {
+           "item": "チョバムアーマー",
+           "from": "チャールズ"
+          },
+          {
+           "item": "チョバムアーマー",
+           "from": "レイ"
+          }
+         ],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "四路分线：兰德线·搜索伦顿，第35话；过关后各线于第36话合流。",
    "sources": [
@@ -16325,6 +17277,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
@@ -31750,12 +32706,88 @@
     "通关（坏结局）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成目前只有 s-rpg-navi 一处来源刊载（该站对本作 107 个剧本有全量逐关表，含等级/HP/资金/PP/掉落，原表以难度 HARD 为基准）；英文 GameFAQs 攻略（CO_Adder，faqs/54485）未完成本关（其更新说明将本路线列为未完成部分）。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；原表以难度 HARD 为基准，不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "エーデル",
+           "leader_unit": "レムレース",
+           "members": [],
+           "note": "",
+           "leader_lv": 64,
+           "leader_hp": 142400,
+           "leader_funds": 20000,
+           "leader_pp": 100
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "レオー",
+           "members": [
+            "レオー ×2"
+           ],
+           "note": "同编成×5",
+           "leader_lv": 62,
+           "leader_hp": 12900,
+           "leader_funds": 5000,
+           "leader_pp": 22
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "アングイス",
+           "members": [
+            "アングイス ×2"
+           ],
+           "note": "同编成×5",
+           "leader_lv": 62,
+           "leader_hp": 11400,
+           "leader_funds": 5000,
+           "leader_pp": 22
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "カペル",
+           "members": [
+            "カペル ×2"
+           ],
+           "note": "同编成×5",
+           "leader_lv": 62,
+           "leader_hp": 10400,
+           "leader_funds": 5000,
+           "leader_pp": 22
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "レクス・コルニクス",
+           "members": [
+            "レクス・コルニクス ×2"
+           ],
+           "note": "同编成×15",
+           "leader_lv": 61,
+           "leader_hp": 8900,
+           "leader_funds": 4000,
+           "leader_pp": 18
+          }
+         ],
+         "reinforcements": [],
+         "drops": [],
+         "notes": ""
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "",
    "sources": [
@@ -31766,6 +32798,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Z》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Z/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《超级机器人大战Z》攻略图表（逐关敌方编成：构成、增援与掉落；原表以难度 HARD 为基准；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw-z/"
     }
    ],
    "map": {
