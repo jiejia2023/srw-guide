@@ -15,13 +15,14 @@ const crumbs = [
   { label: `${m.code} ${m.zh}` },
 ];
 const comp = m.enemies?.composition;
+<!-- batch-import-D: single-source numeric columns -->
 ---
 <Base title={`超级机器人大战V ${m.code} ${m.zh} 攻略 · 胜利条件 / SR点 / 隐藏要素`} description={`超级机器人大战V（PS4/PS Vita）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、SR点（熟练度）取得条件、工厂 TacP 奖励、我方加入单位、本关敌方编成（双源）与隐藏要素。`} path={`srw-v/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.code}《{m.zh}》</h1>
   <p class="text-base-content/60">{m.ja} / {m.en} · {m.route}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、工厂 TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战V》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统与点数制另以日方 srw.wiki 互证；两源表述不一致之处已在页面中逐条注记。SR点说明：本作主线剧本每话 1 个 SR 点条件（秘密/特别剧本与最终话无）；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式的难度二档（NORMAL/HARD，随取得率上升；取得率 80% 以上转 HARD 为 srw.wiki 的系列通论目安，本作专属数值未刊载）与白金纹章（50 点）。敌方<strong>编成</strong>凡有两家独立来源（日文 comp-bible 与 Akurasu 部署表）互证的，并列刊出；只有 comp-bible 一家刊载的关卡，编成暂不刊出（待裁决），且两家的<strong>等级/HP/每台 TacP 数值列只有 comp-bible 单源</strong>，亦暂不转录。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本科地图为带四边坐标轴的参照框架。</span>
+    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、工厂 TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战V》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统与点数制另以日方 srw.wiki 互证；两源表述不一致之处已在页面中逐条注记。SR点说明：本作主线剧本每话 1 个 SR 点条件（秘密/特别剧本与最终话无）；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式的难度二档（NORMAL/HARD，随取得率上升；取得率 80% 以上转 HARD 为 srw.wiki 的系列通论目安，本作专属数值未刊载）与白金纹章（50 点）。敌方<strong>编成</strong>凡有两家独立来源（日文 comp-bible 与 Akurasu 部署表）互证的，并列刊出；只有 comp-bible 一家刊载的关卡，编成暂不刊出（待裁决），comp-bible 的<strong>等级 / HP / 每台 TacP 数值列已按用户批复作为单一来源导入</strong>，见各行数值列。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本科地图为带四边坐标轴的参照框架。</span>
   </div>
 
   <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
@@ -58,7 +59,7 @@ const comp = m.enemies?.composition;
   {comp ? (
   <div>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 comp-bible（コンプバイブル）的 V 逐话编成表（构成/驾驶员/数量/资金/掉落，全剧本覆盖；难度基准未标注）与英文 Akurasu 的 Deployment Chart（构成/数量/资金/掉落/增援触发，<strong>HARD 基准</strong>、原页自标未完）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：comp-bible 为日文原名，Akurasu 为英文名）。两源均<strong>不提供单位坐标与地形</strong>。注意：comp-bible 原表另有<strong>等级 / HP / 每台 TacP 列，仅该站单源刊载</strong>，按本站双源规则未予转录（待裁决）。</span>
+      {comp.sources.length === 1 ? (<span><strong>敌方编成数据来源：单一来源（comp-bible）</strong>——本关敌方编成只有日文 comp-bible（コンプバイブル）一家刊载（Akurasu 的 Deployment Chart 未覆盖本关），已按用户批复作为单一来源导入；该来源不提供单位坐标与地形。</span>) : (<span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 comp-bible（コンプバイブル）的 V 逐话编成表（构成/驾驶员/数量/资金/掉落，全剧本覆盖；难度基准未标注）与英文 Akurasu 的 Deployment Chart（构成/数量/资金/掉落/增援触发，<strong>HARD 基准</strong>、原页自标未完）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：comp-bible 为日文原名，Akurasu 为英文名）。两源均<strong>不提供单位坐标与地形</strong>。comp-bible 原表的<strong>等级 / HP / 每台 TacP 列已按用户批复作为单一来源导入</strong>，见各行数值列。</span>)}
     </div>
     {(comp.sources ?? []).map((src: any) => (
     <div>
@@ -69,10 +70,10 @@ const comp = m.enemies?.composition;
         <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
         <table class="table table-zebra table-sm">
           {src.kind === 'cb' ? (
-          <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th></tr></thead>
+          <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th><th>等级（单源）</th><th>HP（单源）</th><th>TacP（台·单源）</th></tr></thead>
           <tbody>
           {g.rows.map((r: any) => (
-            <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td></tr>
+            <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td><td>{r.lv ?? '—'}</td><td>{r.hp ?? '—'}</td><td>{r.tacp ?? '—'}</td></tr>
           ))}
           </tbody></>
           ) : (
@@ -91,10 +92,10 @@ const comp = m.enemies?.composition;
           <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
           <table class="table table-zebra table-sm">
             {src.kind === 'cb' ? (
-            <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th></tr></thead>
+            <><thead><tr><th>驾驶员</th><th>机体</th><th>数量</th><th>资金（台）</th><th>等级（单源）</th><th>HP（单源）</th><th>TacP（台·单源）</th></tr></thead>
             <tbody>
             {rg.rows.map((r: any) => (
-              <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td></tr>
+              <tr><td>{r.pilot || '—'}</td><td>{r.unit}</td><td>{r.count}</td><td>{r.funds ?? '—'}</td><td>{r.lv ?? '—'}</td><td>{r.hp ?? '—'}</td><td>{r.tacp ?? '—'}</td></tr>
             ))}
             </tbody></>
             ) : (
