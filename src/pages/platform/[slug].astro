@@ -26,7 +26,7 @@ const crumbs = [
   <p>以下为首发平台为 {label} 的作品，共 {list.length} 款，按年代从小到大排列。移植到其他平台的版本会在各游戏页面的“全部平台”里列出。</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
     {list.map(g => (
-      <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/`)}>
+      <a class="card bg-base-100 transition" href={href(`${g.slug}/`)}>
         <figure class="bg-base-200">
           {g.cover
             ? <img class="h-48 w-full object-contain" src={href(g.cover)} alt={`《${g.zh}》${g.platform}版封面`} loading="lazy" />

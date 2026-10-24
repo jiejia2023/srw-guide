@@ -39,7 +39,7 @@ const crumbs = [{ label: '首页', path: '' }, { label: '搜索游戏' }];
   </div>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4" id="results">
     {sorted.map(g => (
-      <a class="card bg-base-100 border border-base-300 shadow-sm hover:shadow-lg hover:border-primary transition" href={href(`${g.slug}/`)}
+      <a class="card bg-base-100 transition" href={href(`${g.slug}/`)}
          data-search={`${g.zh} ${g.en} ${g.ja} ${g.aliases.join(' ')}`.toLowerCase()}
          data-platform={g.platformSlug} data-year={String(g.year)} data-series={g.series}>
         <figure class="bg-base-200">

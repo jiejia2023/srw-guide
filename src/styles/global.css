@@ -1,70 +1,12 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: srw --default, srwdark --prefersdark;
+  themes: retro --default, dim --prefersdark;
   logs: false;
 }
 
-/* Light theme: based on DaisyUI "winter", with the site's deep-blue identity. */
-@plugin "daisyui/theme" {
-  name: "srw";
-  default: true;
-  color-scheme: light;
-  --color-base-100: #ffffff;
-  --color-base-200: #f1f5fa;
-  --color-base-300: #d9e4f0;
-  --color-base-content: #1b2a3c;
-  --color-primary: #16365c;
-  --color-primary-content: #e8f1fa;
-  --color-secondary: #2f6fb2;
-  --color-secondary-content: #ffffff;
-  --color-accent: #2f6fb2;
-  --color-accent-content: #ffffff;
-  --color-neutral: #43536a;
-  --color-neutral-content: #eef3f9;
-  --color-info: #2563eb;
-  --color-info-content: #ffffff;
-  --color-success: #15803d;
-  --color-success-content: #ffffff;
-  --color-warning: #b45309;
-  --color-warning-content: #ffffff;
-  --color-error: #b91c1c;
-  --color-error-content: #ffffff;
-  --radius-selector: 0.5rem;
-  --radius-field: 0.5rem;
-  --radius-box: 0.75rem;
-  --border: 1px;
-}
-
-/* Dark theme: based on DaisyUI "night", same deep-blue family. */
-@plugin "daisyui/theme" {
-  name: "srwdark";
-  color-scheme: dark;
-  --color-base-100: #122334;
-  --color-base-200: #0d1a28;
-  --color-base-300: #27435e;
-  --color-base-content: #d7e5f2;
-  --color-primary: #2f6fb2;
-  --color-primary-content: #ffffff;
-  --color-secondary: #5ea3d8;
-  --color-secondary-content: #0a1826;
-  --color-accent: #5ea3d8;
-  --color-accent-content: #0a1826;
-  --color-neutral: #43536a;
-  --color-neutral-content: #eef3f9;
-  --color-info: #60a5fa;
-  --color-info-content: #0a1826;
-  --color-success: #4ade80;
-  --color-success-content: #0a1826;
-  --color-warning: #fbbf24;
-  --color-warning-content: #0a1826;
-  --color-error: #f87171;
-  --color-error-content: #0a1826;
-  --radius-selector: 0.5rem;
-  --radius-field: 0.5rem;
-  --radius-box: 0.75rem;
-  --border: 1px;
-}
+/* Themes: DaisyUI v5 built-ins, matching the user's podcast site.
+   Light = retro (warm cream), dark = dim. No custom theme variables. */
 
 @plugin "@tailwindcss/typography";
 
@@ -80,7 +22,6 @@
   main ol { list-style: decimal; padding-left: 1.4rem; }
   main li { margin-block: 0.3rem; line-height: 1.7; }
   main p a, main li a, main td a { color: var(--color-primary); }
-  main p a:hover, main li a:hover, main td a:hover { text-decoration: underline; }
   [hidden] { display: none !important; }
 }
 
