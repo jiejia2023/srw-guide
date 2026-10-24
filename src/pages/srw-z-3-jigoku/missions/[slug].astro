@@ -14,13 +14,14 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-z-3-jigoku/missions/' },
   { label: `${m.code} ${m.zh}` },
 ];
+const enemyImported = ((m.enemies.rows ?? []).length > 0 || (m.enemies.reinforcements ?? []).length > 0);
 ---
 <Base title={`${m.zh}（${m.code}）攻略`} description={`第3次超级机器人大战Z 时狱篇（2014 PS3/PS Vita）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（SR点）取得条件、Z芯片奖励条件、我方加入、本关隐藏要素（含 IF 点数与隐藏连锁）。`} path={`srw-z-3-jigoku/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、SR 点取得条件、Z 芯片奖励条件、我方加入与隐藏要素来自 Akurasu Wiki 的《第3次Z 时狱篇》完整表（Complete Chart）、流程图（Flow Chart）、隐藏要素页（Secrets）与 D-Trader 页。本作第 1–60 话每话各有 <strong>1 个 SR 点条件</strong>（一周目共 60 点，尾声无），各路线变体共用其话数的 SR 条件。终盘路线由独立的 <strong>IF 点数（抗争命运点数）</strong>决定：第49话结束前累计 ≥5 点，第49话后才能选择「抗争命运」路线（一周目）；接受命运则无条件可选。Z 芯片奖励条件出自 D-Trader 页的逐关奖励表——与完整表/Secrets 页记载冲突之处已在相关页并记。敌方逐台编成目前仅有日文 gameline.jp 一家成套刊载（单一来源；第1–14话另有 h1g.jp 数值表可交叉核对），按本站规则暂不导入、待用户裁决；逐单位坐标与地形无任何来源，核实范围见下方各节。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、SR 点取得条件、Z 芯片奖励条件、我方加入与隐藏要素来自 Akurasu Wiki 的《第3次Z 时狱篇》完整表（Complete Chart）、流程图（Flow Chart）、隐藏要素页（Secrets）与 D-Trader 页。本作第 1–60 话每话各有 <strong>1 个 SR 点条件</strong>（一周目共 60 点，尾声无），各路线变体共用其话数的 SR 条件。终盘路线由独立的 <strong>IF 点数（抗争命运点数）</strong>决定：第49话结束前累计 ≥5 点，第49话后才能选择「抗争命运」路线（一周目）；接受命运则无条件可选。Z 芯片奖励条件出自 D-Trader 页的逐关奖励表——与完整表/Secrets 页记载冲突之处已在相关页并记。敌方逐台编成目前仅有日文 gameline.jp 一家成套刊载（单一来源；第1–14话另有 h1g.jp 数值表可交叉核对），{enemyImported ? <>已按用户 2026-10-24 的批量裁决导入并标注（见下方「敌方出场与增援」）；</> : <>按本站规则暂不导入、待用户裁决；</>}逐单位坐标与地形无任何来源，核实范围见下方各节。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -59,6 +60,46 @@ const crumbs = [
   )}
 
   <h2>敌方出场与增援</h2>
+  {enemyImported ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：gameline.jp（单一来源）</strong>——下表为经用户 2026-10-24 批复导入的 gameline.jp 时狱篇逐关编成表（机体名／驾驶员名为日文原记，原文未改动；备注含该站小队结构记法）：初期敌方构成／数量与增援批次／触发；该站编成表不含 Lv／HP／资金／PP 数值列，故本节无数值列；逐单位坐标与逐格地形在任何来源中均不存在。第 1–14 话另有 h1g.jp 数值表（仅部分第二源、覆盖不完整），未并入本表，不得视为全关双源。</span>
+    </div>
+    {(m.enemies.rows ?? []).length > 0 && (
+    <div>
+      <h3>初期敌方</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th><th>备注</th></tr></thead>
+        <tbody>
+        {(m.enemies.rows ?? []).map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td><td>{[e.squad, e.note].filter(Boolean).join('；')}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    )}
+    {(m.enemies.reinforcements ?? []).map((rg: any) => (
+    <div>
+      <h4>增援：{rg.trigger}</h4>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th><th>备注</th></tr></thead>
+        <tbody>
+        {rg.rows.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td><td>{[e.squad, e.note].filter(Boolean).join('；')}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
   <div>
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待核实：</strong>{m.enemies.status}</span>
@@ -67,6 +108,7 @@ const crumbs = [
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
+  )}
 
   <h2>剧情事件</h2>
   <ul>
