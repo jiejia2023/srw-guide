@@ -14,13 +14,15 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-l/missions/' },
   { label: `${m.code} ${m.zh}` },
 ];
+const imported = m.enemies.importedSingleSource === true;
+const enemyDesc = imported ? 'A9VG 流程帖单一来源编成已按用户批复导入' : 'A9VG 流程帖单一来源暂不刊载';
 ---
-<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战L（2010 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（路线分歧与跨话连锁；本作无熟练度系统）与敌方编成现状（A9VG 流程帖单一来源暂不刊载）。`} path={`srw-l/missions/${m.slug}/`} breadcrumbs={crumbs}>
+<Base title={`${m.zh}（${m.code}）攻略`} description={`超级机器人大战L（2010 DS）${m.code} ${m.zh} 攻略：胜利/败北条件、我方加入、本关隐藏要素（路线分歧与跨话连锁；本作无熟练度系统）与敌方编成现状（${enemyDesc}）。`} path={`srw-l/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与过关奖励（技能零件＋固定资金）来自 Akurasu Wiki 的 L <strong>Flow Chart</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，话数口径与系统另以日文维基百科与 srw.wiki 互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 流程图没有任何一话列出熟练度条件，日文两侧的系统介绍也只列搭档战斗、攻击连击与机体补正三项——本页出现的时限、到达、削血与保护条件都是<strong>胜败条件本身</strong>，或隐藏要素的达成条件。本作编号为第 1–40 话加最终话（共 41 个编号话），另有 2 话序章与 12 个话的双路线版本，本站共建 55 个剧本页面，一周目实际游玩 43 关。本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载，按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；敌方等级、坐标与逐格地形在任何来源中都不存在，地图为参照框架。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与过关奖励（技能零件＋固定资金）来自 Akurasu Wiki 的 L <strong>Flow Chart</strong>，隐藏要素逐条与同站 Secrets 页交叉核对，话数口径与系统另以日文维基百科与 srw.wiki 互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 流程图没有任何一话列出熟练度条件，日文两侧的系统介绍也只列搭档战斗、攻击连击与机体补正三项——本页出现的时限、到达、削血与保护条件都是<strong>胜败条件本身</strong>，或隐藏要素的达成条件。本作编号为第 1–40 话加最终话（共 41 个编号话），另有 2 话序章与 12 个话的双路线版本，本站共建 55 个剧本页面，一周目实际游玩 43 关。{imported ? <>本关的敌方编成已按用户批复导入，来源为单一来源（见下方「敌方出场与增援」中标注）。</> : <>本关的敌方编成只有 <strong>{m.enemies.singleName}</strong> 一家刊载，按本站双源刊载惯例<strong>暂不导入</strong>，列为待用户裁决事项（见下方「敌方出场与增援」）；</>}敌方等级、坐标与逐格地形在任何来源中都不存在，地图为参照框架。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -55,7 +57,44 @@ const crumbs = [
   )}
 
   <h2>敌方出场与增援</h2>
-  <div>
+  {/* single-source-imported */}
+  {imported ? (
+<div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：单一来源（已按用户批复导入）</strong>——A9VG 论坛《超级机器人大战L攻略（流程完成，分支补完ing）》（作者 xin2，2010 年）。本表未经第二来源交叉核对；机体名为帖子日文原名，暂未译为中文；来源无敌方等级、HP/资金成表与坐标，故本表不含这些列；第三方配置/增援在表中以“第三方”标明（第三方单位会攻击我方）。</span>
+    </div>
+    <h3>初期配置</h3>
+    <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+    <table class="table table-zebra table-sm">
+      <thead><tr><th>机体</th><th>数量</th><th>阵营</th><th>备注</th></tr></thead>
+      <tbody>
+      {(m.enemies.rows ?? []).map((r: any) => (
+        <tr><td>{r.name}</td><td>{r.count === null || r.count === undefined ? '—' : r.count}</td><td>{r.side === 'third' ? '第三方' : '敌方'}</td><td>{r.note || ''}</td></tr>
+      ))}
+      </tbody>
+    </table>
+    </div>
+    {(m.enemies.reinforcements ?? []).map((b: any) => (
+    <div>
+      <h3>{b.side === 'third' ? '第三方增援' : '增援'}：{b.trigger}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>机体</th><th>数量</th><th>阵营</th><th>备注</th></tr></thead>
+        <tbody>
+        {(b.units ?? []).map((r: any) => (
+          <tr><td>{r.name}</td><td>{r.count === null || r.count === undefined ? '—' : r.count}</td><td>{b.side === 'third' ? '第三方' : '敌方'}</td><td>{r.note || ''}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+      {b.note && <p class="text-sm">{b.note}</p>}
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (<div>
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待核实（单一来源暂不刊载）：</strong>本关敌方编成只有 {m.enemies.singleName} 一家刊载——{m.enemies.singleDesc}按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项（同类先例：K 的 23 个剧本、NEO 的 42 个剧本、第3次α 的 43 个剧本）。</span>
     </div>
@@ -63,6 +102,7 @@ const crumbs = [
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
+  )}
 
   <h2>剧情事件</h2>
   {m.events.length ? (

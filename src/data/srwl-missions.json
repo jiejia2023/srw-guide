@@ -42,15 +42,36 @@
     "序章第2话《银河追逐》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(小)",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(大)",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -80,7 +101,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -141,15 +162,100 @@
     "第1话《被钢铁引导的少年们》（正篇开始）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(小)",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(大)",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "初始敌全灭",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(ナイト級)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(小)",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "增援被击坠3机",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(小)",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：总共增援3次（同批重复出现，台数按一批计）"
+     },
+     {
+      "trigger": "与敌舰邻接后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(小)",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -179,7 +285,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -229,15 +335,62 @@
     "第2话《特训，马赫钻头！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "アルマ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "アルトロンガンダム",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "カグツチ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "イダテン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ラインバレル",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -267,7 +420,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -319,15 +472,54 @@
     "第3话《战斗的女人、不想战斗的女人、无法战斗的女人》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "大火焔偶",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "小火焔偶",
+      "count": 18,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "馬頭羅",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "徒鼻羅",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔愚羅",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -357,7 +549,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -409,15 +601,62 @@
     "第4话《现身的火焰巨人》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ディロスθ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ディロスθ (boss机)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "擬態獣13号",
+        "count": 18,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "飛行獣",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "地底獣",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -447,7 +686,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -499,15 +738,54 @@
     "第5话《红之冲击 苍之战栗》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "鉄獣プロテクス",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "鉄獣ガルゴラス",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ビトラ",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ドメガ",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ドルマン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -537,7 +815,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -586,15 +864,54 @@
     "第6话《天空坠落之日》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "アルマ",
+      "count": 32,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "カグツチ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "アルトロンガンダム",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "？？？？？？",
+      "count": 1,
+      "side": "enemy",
+      "note": "原文如此，未标明机体"
+     },
+     {
+      "name": "ラインバレル",
+      "count": 1,
+      "side": "third",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -624,7 +941,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -694,15 +1011,92 @@
     "第7话（救出MS线）《混迷的世界》 或 第7话（遵令离脱线）《吹向骄傲之牙的风》（二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ジンハイマニューバ2型",
+        "count": 3,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲイツR",
+        "count": 7,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "トーラス",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "シグー",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ジン",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ジンハイマニューバ2型(boss机)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第四回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "擬態獣13号",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "飛行獣",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "地底獣",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -732,7 +1126,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -783,15 +1177,66 @@
     "第8话（救出MS线）《正义的代价》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ダガーL",
+      "count": 24,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ウィンダム",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガンダムヘビーアームズ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ムラサメ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ムラサメ(MA)",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "M1アストレイ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -821,7 +1266,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -962,15 +1407,80 @@
     "第9话（救出MS线）《战斗的决心》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ハグレマキナ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "R-ダイガン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ラインバレル",
+      "count": 1,
+      "side": "third",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "アルマ",
+        "count": 24,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ツバキヒメ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "カグツチ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "イダテン",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "アルトロンガンダム",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1000,7 +1510,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1138,15 +1648,117 @@
     "第10话（救出MS线）《契合·高丹纳》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "イクサー2",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ディロスθ",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "大火焔偶",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "小火焔偶",
+      "count": 12,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "馬頭羅",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "徒鼻羅",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔愚羅",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第三回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "イクサーΣ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "小火焔偶",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "馬頭羅",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "徒鼻羅",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔愚羅",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "大火焔偶击坠后",
+      "side": "third",
+      "units": [
+       {
+        "name": "破瑠霸",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1176,7 +1788,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1318,15 +1930,54 @@
     "第11话《战斗的「序」》（两线合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "擬態獣13号",
+      "count": 22,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "地底獣",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "飛行獣",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ブレイドガイナー",
+      "count": 1,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "コスモダイバー",
+      "count": 1,
+      "side": "third",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1356,7 +2007,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1491,15 +2142,74 @@
     "第12话《放学后的来访者》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "第4の使徒",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "大火焔偶",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "大火焔偶(boss)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "小火焔偶",
+        "count": 24,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "馬頭羅",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "徒鼻羅",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔愚羅",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1529,7 +2239,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1580,15 +2290,86 @@
     "第13话《战斗的理由》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "アルマ",
+      "count": 30,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ジャック・スミス",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "タリスマン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "カグツチ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "イダテン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ツバキヒメ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "グラン・ネイドル",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "アルトロンガンダム",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "敌人消灭一定数量",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "アルマ ステルスS",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1618,7 +2399,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1669,15 +2450,87 @@
     "第14话《午夜的死斗》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "第5の使徒",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ウィンダム",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ダガーL",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "トーラス",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ファットボーイ",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ザムザザー",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲルズゲー",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第四回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ストレイバード",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1707,7 +2560,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1758,15 +2611,105 @@
     "第15话（阻止联合军线）《我们的去向》 或 第15话（防卫JUDA线）《背叛的苍蓝》（二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ファットボーイ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣13号",
+      "count": 16,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "飛行獣",
+      "count": 7,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "地底獣",
+      "count": 7,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第三回合or消灭一定数量敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ファットボーイ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "擬態獣13号",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "飛行獣",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "地底獣",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "擬態獣18号改",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第三回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ブレイドガイナー",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "コスモダイバー",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1796,7 +2739,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -1858,15 +2801,60 @@
     "第16话（阻止联合军线）《介入》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ダガーL",
+      "count": 28,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゲルズゲー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "デストロイガンダム",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ウィンダム(boss机)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガンダムヘビーアームズ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1896,7 +2884,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2053,15 +3041,50 @@
     "第17话《被托付的希望》（两线合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ディロスθ",
+      "count": 42,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "イクサー2",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "伊克撒2被击败后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "イクサーΣ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "增援表与正文不一致：表作“无”，正文称击败伊克撒2后召唤伊克撒Σ登场；此处按正文补列并标注分歧，不擅自调和"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2091,7 +3114,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2233,15 +3256,86 @@
     "第18话《夺还之情》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "第6の使徒",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ウィンダム",
+      "count": 8,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "ダガーL",
+      "count": 16,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "トーラス",
+      "count": 4,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "ファットボーイ",
+      "count": 8,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 6,
+      "side": "third",
+      "note": ""
+     },
+     {
+      "name": "ゲルズゲー",
+      "count": 6,
+      "side": "third",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第四回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ダガーL",
+        "count": 16,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ウィンダム",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2271,7 +3365,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2318,15 +3412,74 @@
     "第19话《强袭，阿苏》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "大火焔偶",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "大火焔偶(boss)",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "小火焔偶",
+      "count": 24,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "馬頭羅",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "徒鼻羅",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔愚羅",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "初期敌全灭",
+      "side": "third",
+      "units": [
+       {
+        "name": "破瑠霸",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2356,7 +3509,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2407,15 +3560,154 @@
     "第20话（支援密涅瓦线）《翩然降临的天使们》 或 第20话（追击妃魅祸线）《与未知的接触》（二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "大火焔偶",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "大火焔偶(boss)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "小火焔偶",
+      "count": 12,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "馬頭羅",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "徒鼻羅",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔愚羅",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击倒大火焔偶(boss)",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "小火焔偶",
+        "count": 16,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "徒鼻羅",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击倒大火焔偶(boss)下一回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "大火焔偶",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "大火焔偶(boss)",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "小火焔偶",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "馬頭羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "徒鼻羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔愚羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "增援消灭一定数量后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "小火焔偶",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "馬頭羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "徒鼻羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔愚羅",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2445,7 +3737,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2497,15 +3789,111 @@
     "第21话（支援密涅瓦线）《丹纳基地千钧一发》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ダガーL",
+      "count": 32,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ウィンダム",
+      "count": 16,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゲルズゲー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガンダムヘビーアムーズ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击破ガンダムヘビーアムーズor敌人消灭一定程度后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ダガーL",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ウィンダム",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ザムザザー",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲルズゲー",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "デストロイガンダム",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "デストロイガンダム(boss机)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击破デストロイガンダム(boss机)",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "デストロイガンダム",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2535,7 +3923,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2675,15 +4063,92 @@
     "第22话（支援密涅瓦线）《心碎》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ファットボーイ",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣13号",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "飛行獣",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "地底獣",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣18号改",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "敌方数量减少一定程度后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ダガーL",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ウィンダム",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ザムザザー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲルズゲー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "トロイの木馬",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2713,7 +4178,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -2860,15 +4325,142 @@
     "第23话《战士们的邂逅》（两线合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ファットボーイ",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣13号",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "飛行獣",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "地底獣",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣18号改",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "超擬態獣",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "超拟态兽使用MAP后下一回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "擬態獣13号",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "飛行獣",
+        "count": 10,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "地底獣",
+        "count": 10,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "擬態獣18号改",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击败超拟态兽",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ゴーダンナー",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "正文：好老公转为敌方（与我方增援的ゴーダンナーTDM不同）"
+     },
+     {
+      "trigger": "超拟态兽HP40%以下",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ダガーL",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ウィンダム",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ザムザザー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲルズゲー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "デストロイガンダム",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2898,7 +4490,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3037,15 +4629,50 @@
     "第24话《伟大的力量，撕裂天空之时…》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "第7の使徒",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击坠使徒",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "アトロス",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ディロスθ",
+        "count": 38,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3075,7 +4702,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3128,15 +4755,84 @@
     "第25话《终结悲剧与叹息的神》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "鉄獣プロテクス",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "鉄獣ガルゴラス",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ビトラ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ドメガ",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バレオン",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ドルマン",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゼルガイア",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ハイパー鉄獣グラネプス",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガレアン(boss机)",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ドボルザーク",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -3166,7 +4862,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3215,15 +4911,172 @@
     "第26话《各自的愿望》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "鉄獣プロテクス",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "鉄獣ガルゴラス",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ビトラ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "魔獣ドメガ",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バレオン",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ドルマン",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゼルガイア",
+      "count": 2,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ハイパー鉄獣グラネプス",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガレアン(boss机)",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ファイナルドボルザーク",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击倒任意ガレアン",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "鉄獣プロテクス",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "鉄獣ガルゴラス",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔獣ビトラ",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バレオン",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ドルマン",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌人消灭一定数量后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "鉄獣プロテクス",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "鉄獣ガルゴラス",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "魔獣ビトラ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バレオン",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ドルマン",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：不断增援（重复出现，台数按一批计）"
+     },
+     {
+      "trigger": "击倒ファイナルドボルザーク",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "キングダリウス",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3253,7 +5106,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3304,15 +5157,99 @@
     "第27话《应当战斗的敌人》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ディロスθ",
+      "count": 38,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "アパレシオン",
+      "count": 1,
+      "side": "third",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "アトロス",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "全灭初期敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "アルマ",
+        "count": 20,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "アルマ ステルスS",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "イダテン弐型",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "タリスマン",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "カグツチ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ツバキヒメ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "アルトロンガンダム",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3342,7 +5279,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3394,15 +5331,174 @@
     "第28话《被打破的约定》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ムラサメ",
+      "count": 16,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "M1アストレイ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ウィンダム",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ダガーL",
+      "count": 16,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゲルズゲー",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ガンダムヘビーアムーズ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第四回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ウィンダム",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ダガーL",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ザムザザー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ゲルズゲー",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第五回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ウィンダム",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ダガーL",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "デストロイガンダム",
+        "count": 5,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌方数量减少一定程度",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ORF-59リーヴス",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ストライクヴァレイ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "キャノンヴァレイ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "最后一批敌人增援下一回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ストレイバード",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3432,7 +5528,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3483,15 +5579,56 @@
     "第29话（宇宙警戒线）《三角恋》 或 第29话（地上警戒线）《神兽觉醒》（二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ディロスθ",
+      "count": 32,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "レギュラスα",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "EVA到达指定地点",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ディロスθ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "レギュラスα",
+        "count": 7,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3521,7 +5658,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3574,15 +5711,57 @@
     "第30话（宇宙警戒线）《小女王·小妹妹》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(幼生)",
+      "count": 30,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第二回合",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(幼生)",
+        "count": 30,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "全灭敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(幼生)",
+        "count": 46,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3612,7 +5791,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3749,15 +5928,68 @@
     "第31话（宇宙警戒线）《迈向星际飞行…》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(幼生)",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(小)",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(大)",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击坠一定数量敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(幼生)",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(小)",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：无限次（重复出现，台数按一批计）"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3787,7 +6019,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -3921,15 +6153,74 @@
     "第32话《被奏响的曲子》（两线合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "AIF-7Sゴースト",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "VF171ナイトメアプラスF",
+      "count": 15,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "VF171EXナイトメアプラスF",
+      "count": 15,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "到达指定地点后",
+      "side": "third",
+      "units": [
+       {
+        "name": "ORF-59リーヴス",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ストライクヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "キャノンヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3959,7 +6250,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4115,15 +6406,111 @@
     "第33话《被选中的未来》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ウィンダム",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ダガーL",
+      "count": 20,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ザムザザー",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゲルズゲー",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "デストロイガンダム",
+      "count": 4,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "デストロイガンダム(boss机)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "アガメムノン級",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "初期敌全灭",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ORF-59リーヴス",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ストライクヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "キャノンヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌增援后下一回合",
+      "side": "third",
+      "units": [
+       {
+        "name": "ストレイバード",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4153,7 +6540,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4208,15 +6595,102 @@
     "第34话《伊克塞利奥的光辉》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ザクウォーリア",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ジンハイマニューバ2型",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ゲイツR",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "グフイグナイテッド",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ナスカ級",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ブレイズザクファントム",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "グフイグナイテッド(boss机)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "レジェンドガンダム",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "マキナ量産型",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "マキナ量産型(boss机)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ORF-59リーヴス",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ストライクヴァレイ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "キャノンヴァレイ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -4246,7 +6720,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4298,15 +6772,68 @@
     "第35话《永远的士兵》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ディロスθ",
+      "count": 24,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "レギュラスα",
+      "count": 12,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ネオスゴールド",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击破ネオスゴールド",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ディロスθ",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "レギュラスα",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "スーパーネオス",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4336,7 +6863,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4389,15 +6916,160 @@
     "第36话《为了正义》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "擬態獣13号",
+      "count": 12,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "飛行獣",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "地底獣",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "擬態獣18号改",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ディロスθ",
+      "count": 9,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "レギュラスα",
+      "count": 3,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "イクサー2",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击破イクサー2前全灭其余敌军",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "擬態獣13号",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "飛行獣",
+        "count": 3,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "地底獣",
+        "count": 3,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "擬態獣18号改",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ディロスθ",
+        "count": 9,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "レギュラスα",
+        "count": 3,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "イクサー2",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击破イクサー2",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ディロスθ",
+        "count": 24,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "レギュラスα",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ビッグゴールド",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "オリジナルダンクーガ",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌boss增援2回合后",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ネオスゴールド",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4427,7 +7099,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4476,15 +7148,100 @@
     "第37话《钢铁之花》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ORF-59リーヴス",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ストライクヴァレイ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "キャノンヴァレイ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "量産型マキナ",
+      "count": 24,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "プリタンダー",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "グラン・ネイドル",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "全灭グラン・ネイドル以外敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "量産型マキナ",
+        "count": 36,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "消灭グラン·ネイドル",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ネイキッド",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "全灭ネイキッド以外敌人",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "量産型マキナ",
+        "count": 36,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：无限增援（重复出现，台数按一批计）"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4514,7 +7271,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4568,15 +7325,100 @@
     "第38话《真实的开始》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ORF-59リーヴス",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ストライクヴァレイ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "キャノンヴァレイ",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "量産型マキナ",
+      "count": 54,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "量産型マキナ(boss)",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ネイキッド",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "消灭ネイキッド",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "セントラル",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "消灭セントラル",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "量産型マキナ",
+        "count": 48,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌全灭",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "量産型マキナ",
+        "count": 48,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：4回合内无限增援（重复出现，台数按一批计）"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4606,7 +7448,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4658,15 +7500,143 @@
     "第39话《旅途的终点》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(幼生)",
+      "count": 7,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(小)",
+      "count": 21,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(大)",
+      "count": 14,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(ナイト級)",
+      "count": 7,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ランカ・リー",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "敌人消灭一定程度（说得ランカ前）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バジュラ(幼生)",
+        "count": null,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(小)",
+        "count": null,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": null,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(ナイト級)",
+        "count": null,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：无限增援，未给数量（台数按原文列出的 4 类计，数量显示“—”）"
+     },
+     {
+      "trigger": "アルト说得ランカ",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "VF-27γルシファーF(boss机)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "VF-27βルシファーF(boss机)",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "残忍杀害ランカ・リー",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "バトル・ギャラクシー",
+        "count": 1,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "バトル・ギャラクシー出现后，敌人消灭一定程度",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "AIF-9V",
+        "count": 24,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "VF-27γルシファーF",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "VF-27βルシファーF",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4696,7 +7666,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4743,15 +7713,104 @@
     "第40话《时间之翼》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "バジュラ(幼生)",
+      "count": 20,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(小)",
+      "count": 30,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(大)",
+      "count": 30,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラ(ナイト級)",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "バジュラクィーン",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "消灭敌军一定数量",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "AIF-9V",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "VF-27γルシファーF",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "VF-27βルシファーF",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(幼生)",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(小)",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(大)",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "バジュラ(ナイト級)",
+        "count": 2,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4781,7 +7840,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4823,15 +7882,92 @@
     "最终话《希望之光》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ウィンダム",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ファットボーイ",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "迅雷",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "AIF-7Sゴースト",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "テストロイガンダム",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ORF-59リーヴス",
+      "count": 6,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ストライクヴァレイ",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "キャノンヴァレイ",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "インペリアルヴァレイ",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击破インペリアルヴァレイ",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 12,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4861,7 +7997,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
@@ -4904,15 +8040,179 @@
     "通关（周回继承规则见本作主页）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（A9VG 论坛中文流程帖，xin2）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量与增援）只有 A9VG 论坛的一份中文流程帖（作者 xin2，2010 年）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项。",
-     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。"
+     "敌方等级与逐关 HP/资金数值在任何已查到的来源中都不存在成表数据（A9VG 帖正文仅偶记个别 Boss 的 HP，如最终 Boss 加尔特德乌斯 HP 300000，为散记）；敌方坐标更无任何来源。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（A9VG 论坛 xin2 流程帖），未经第二来源交叉核对；机体名为帖子日文原名，暂未译中文；无等级/HP/资金成表、无坐标。"
     ],
     "state": "single",
     "singleName": "A9VG 论坛的中文流程帖（作者 xin2，2010 年）",
-    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。"
+    "singleDesc": "该帖覆盖序章至最终话的全部 55 个剧本（含四次分歧的全部路线版本），逐话列出敌方配置（机体名×数量）、敌方增援（触发条件/回合与构成）与第三方配置；但全网没有第二家来源可交叉核对，且该帖不提供敌方等级与任何坐标。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
+     "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
+    },
+    "rows": [
+     {
+      "name": "ウィンダム",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ファットボーイ",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "迅雷",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "AIF-7Sゴースト",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "テストロイガンダム",
+      "count": 8,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ORF-59リーヴス",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ストライクヴァレイ",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "キャノンヴァレイ",
+      "count": 10,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "インペリアルヴァレイ",
+      "count": 5,
+      "side": "enemy",
+      "note": ""
+     },
+     {
+      "name": "ガルトデウス",
+      "count": 1,
+      "side": "enemy",
+      "note": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "攻击命中ガルトデウス",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "コアフォートレス",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "全灭コアフォートレス",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "コンクェストボム",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ORF-59リーヴス",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ストライクヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "キャノンヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击落4个コンクェストボム",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "ORF-59リーヴス",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "ストライクヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "キャノンヴァレイ",
+        "count": 8,
+        "side": "enemy",
+        "note": ""
+       },
+       {
+        "name": "インペリアルヴァレイ",
+        "count": 4,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：无限次（重复出现，台数按一批计）"
+     },
+     {
+      "trigger": "全灭コンクェストボム",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "コンクェストボム",
+        "count": 6,
+        "side": "enemy",
+        "note": ""
+       }
+      ],
+      "note": "原文：无限次（重复出现，台数按一批计）"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -4942,7 +8242,7 @@
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6L"
     },
     {
-     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站未导入、待裁决）",
+     "name": "A9VG 论坛 — 超级机器人大战L攻略（流程完成，分支补完ing）（作者 xin2；敌方编成的单一来源，本站已按用户批复导入（单一来源标注））",
      "url": "https://bbs.a9vg.com/forum.php?mod=viewthread&tid=1622529&extra=page%3D1%26filter%3Ddigest%26digest%3D1&page=1"
     }
    ],
