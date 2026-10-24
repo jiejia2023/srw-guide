@@ -15,12 +15,12 @@ const crumbs = [
   { label: `${m.code} ${m.zh}` },
 ];
 ---
-<Base title={`超级机器人大战X ${m.code} ${m.zh} 攻略 · 胜利条件 / SR点 / 隐藏要素`} description={`超级机器人大战X（PS4/PS Vita）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、SR点（熟练度）取得条件、TacP 奖励、我方加入单位与隐藏要素；敌方编成只有 comp-bible 单一来源、暂不刊出（待裁决）。`} path={`srw-x/missions/${m.slug}/`} breadcrumbs={crumbs}>
+<Base title={`超级机器人大战X ${m.code} ${m.zh} 攻略 · 胜利条件 / SR点 / 隐藏要素`} description={`超级机器人大战X（PS4/PS Vita）${m.code}《${m.zh}》（${m.ja}）攻略：胜利/败北条件、SR点（熟练度）取得条件、TacP 奖励、我方加入单位与隐藏要素；敌方编成 comp-bible 单一来源导入并标注。`} path={`srw-x/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.code}《{m.zh}》</h1>
   <p class="text-base-content/60">{m.ja} / {m.en} · {m.route}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战X》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统、点数制与 IF 路线条件另以日方 srw.wiki 互证；来源表述不一致之处已在页面中逐条注记。SR点说明：本作编号话（第1–51话）每话 1 个 SR 点条件，第0话、最终话、秘密剧本与特别剧本无，一周目最多 <strong>51 点</strong>；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式难度与<strong>白金纹章</strong>（50 点）；本作新增 <strong>Expert 模式</strong>（全程 HARD、SR 条件固定为不重试通关）。<strong>IF 路线由独立的 IF 点数（≥5 点）门槛开启，与 SR 点无关</strong>。敌方<strong>编成</strong>方面：Akurasu 对本作<strong>没有部署表（Deployment Chart）</strong>，其 Events Chart 是自标制作中的草表（82 关中仅 11 关有真实数据，且无资金/掉落/TacP 字段），不能作为编成来源；逐话编成只有日文 comp-bible 一家刊载，按本站规则<strong>全部 82 关暂不刊出（待裁决）</strong>，其独有的<strong>等级/HP/每台 TacP 数值列</strong>同为单源、亦暂不转录。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本页地图为带四边坐标轴的参照框架。</span>
+    <span><strong>数据状态：</strong>本关的胜利/败北条件、SR点（熟练度）条件、TacP 奖励、我方加入与隐藏条件以 Akurasu 的《超级机器人大战X》<strong>完整流程表（Complete Chart）</strong>为主源，与同站<strong>流程图（Flow Chart）</strong>、<strong>秘密页（Secrets）</strong>逐条交叉核对，系统、点数制与 IF 路线条件另以日方 srw.wiki 互证；来源表述不一致之处已在页面中逐条注记。SR点说明：本作编号话（第1–51话）每话 1 个 SR 点条件，第0话、最终话、秘密剧本与特别剧本无，一周目最多 <strong>51 点</strong>；SR 点<strong>不</strong>解锁路线，只影响普通（Standard）模式难度与<strong>白金纹章</strong>（50 点）；本作新增 <strong>Expert 模式</strong>（全程 HARD、SR 条件固定为不重试通关）。<strong>IF 路线由独立的 IF 点数（≥5 点）门槛开启，与 SR 点无关</strong>。敌方<strong>编成</strong>方面：Akurasu 对本作<strong>没有部署表（Deployment Chart）</strong>，其 Events Chart 是自标制作中的草表（82 关中仅 11 关有真实数据，且无资金/掉落/TacP 字段），不能作为编成来源；逐话编成只有日文 comp-bible 一家刊载，已按用户 2026-10-24 的批量裁决以<strong>单一来源导入并标注</strong>，其独有的<strong>等级/HP/每台 TacP 数值列</strong>同为单源、一并导入并标注。敌方<strong>逐台坐标与逐格地形</strong>在任何来源中都不存在，本页地图为带四边坐标轴的参照框架。</span>
   </div>
 
   <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
@@ -54,6 +54,52 @@ const crumbs = [
   )}
 
   <h2>敌方出场与增援</h2>
+  {m.enemies.composition ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：单一来源 comp-bible（コンプバイブル）</strong>——按用户 2026-10-24 的批量裁决导入，未经第二来源交叉核对。Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 为制作中草表、无成套编成数据。机体名／驾驶员名为日文原记；等级／HP／每台 TacP 数值列同为 comp-bible 单一来源；该站不提供坐标与地形。</span>
+    </div>
+    {m.enemies.composition.groups.map((g: any) => (
+    <div>
+      <h3>敌方编成{g.part ? `（${g.part}）` : ''}</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th><th>Lv</th><th>HP</th><th>资金</th><th>TacP</th></tr></thead>
+        <tbody>
+        {g.rows.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td><td>{e.singleSource?.level ?? '—'}</td><td>{e.singleSource?.hp ?? '—'}</td><td>{e.funds ?? '—'}</td><td>{e.singleSource?.tacp ?? '—'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    ))}
+    {(m.enemies.composition.reinforcements ?? []).map((rg: any) => (
+    <div>
+      <h4>增援：{rg.trigger}</h4>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>数量</th><th>Lv</th><th>HP</th><th>资金</th><th>TacP</th></tr></thead>
+        <tbody>
+        {rg.rows.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.count ?? '—'}</td><td>{e.singleSource?.level ?? '—'}</td><td>{e.singleSource?.hp ?? '—'}</td><td>{e.funds ?? '—'}</td><td>{e.singleSource?.tacp ?? '—'}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    ))}
+    {(m.enemies.composition.drops ?? []).length > 0 && (
+    <div>
+      <h4>掉落 / 获得物（comp-bible）</h4>
+      <ul>{m.enemies.composition.drops.map((d: any) => <li>{d.item}（{d.from}）</li>)}</ul>
+    </div>
+    )}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
   <div>
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待裁决（单一来源）：</strong>本关敌方编成目前只有日文 comp-bible（コンプバイブル）一家刊载（该站对本作有全 82 剧本逐话编成表，含构成/驾驶员/等级/HP/数量/资金/每台 TacP/掉落与增援触发）。Akurasu 对本作没有部署表（Deployment Chart），其 Events Chart 为制作中草表、无成套编成数据，无法构成第二来源。按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入（本站 F 完结编有单源导入先例）；comp-bible 独有的等级/HP/每台 TacP 数值列同为单一来源，一并待裁决。</span>
@@ -62,6 +108,7 @@ const crumbs = [
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
+  )}
 
   {m.events.length > 0 && (
   <>
