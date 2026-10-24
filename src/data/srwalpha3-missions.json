@@ -39246,12 +39246,649 @@
     "通关（伊甸发动路线结局）"
    ],
    "enemies": {
-    "status": "单一来源",
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关的逐关敌方编成（小队构成、增援、掉落，以及等级/HP/资金/PP）目前只有 s-rpg-navi 一处来源刊载（该站对本作有近全量逐关表），英文 GameFAQs 攻略未覆盖本关；按本站双源规则暂不刊出，等待用户裁决是否按单一来源导入。"
-    ]
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；该站不提供单位坐标，逐格地形仍待核实。"
+    ],
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "ドバ",
+           "leader_unit": "バイラル・ジン",
+           "members": [],
+           "note": "",
+           "leader_lv": 65,
+           "leader_hp": 351500,
+           "leader_funds": 35000,
+           "leader_pp": 24
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ドロワ・ザン",
+           "members": [],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 100500,
+           "leader_funds": 8500,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ドロワ・ザン",
+           "members": [],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 100500,
+           "leader_funds": 8500,
+           "leader_pp": 16
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガブロ・ザン",
+           "members": [
+            "ザンザ・ルブ ×2（Lv63·HP15900·资金4000·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 28500,
+           "leader_funds": 6500,
+           "leader_pp": 8
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガブロ・ザン",
+           "members": [
+            "ザンザ・ルブ ×2（Lv63·HP15900·资金4000·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 28500,
+           "leader_funds": 6500,
+           "leader_pp": 8
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガブロ・ザン",
+           "members": [
+            "ザンザ・ルブ ×2（Lv63·HP15900·资金4000·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 28500,
+           "leader_funds": 6500,
+           "leader_pp": 8
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガタマン・ザン",
+           "members": [
+            "ガンガ・ルブ ×2（Lv62·HP10400·资金3500·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 20500,
+           "leader_funds": 5000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガタマン・ザン",
+           "members": [
+            "ガンガ・ルブ ×2（Lv62·HP10400·资金3500·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 20500,
+           "leader_funds": 5000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガタマン・ザン",
+           "members": [
+            "ガンガ・ルブ ×2（Lv62·HP10400·资金3500·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 20500,
+           "leader_funds": 5000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガタマン・ザン",
+           "members": [
+            "ガンガ・ルブ ×2（Lv62·HP10400·资金3500·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 20500,
+           "leader_funds": 5000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガタマン・ザン",
+           "members": [
+            "ガンガ・ルブ ×2（Lv62·HP10400·资金3500·PP6）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 20500,
+           "leader_funds": 5000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ザンザ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv62·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 15900,
+           "leader_funds": 4000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ザンザ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv62·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 15900,
+           "leader_funds": 4000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ザンザ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv62·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 63,
+           "leader_hp": 15900,
+           "leader_funds": 4000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガンガ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 10400,
+           "leader_funds": 3500,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガンガ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 10400,
+           "leader_funds": 3500,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガンガ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 10400,
+           "leader_funds": 3500,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガンガ・ルブ",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 10400,
+           "leader_funds": 3500,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガルボ・ジック",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 12900,
+           "leader_funds": 3900,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ガルボ・ジック",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 12900,
+           "leader_funds": 3900,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ギド・マック",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 14900,
+           "leader_funds": 4000,
+           "leader_pp": 6
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ギド・マック",
+           "members": [
+            "アディゴ ×2（Lv61·HP5400·资金1400·PP2）"
+           ],
+           "note": "",
+           "leader_lv": 61,
+           "leader_hp": 14900,
+           "leader_funds": 4000,
+           "leader_pp": 6
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "3PPorバイラル・ジンのHP90％以下　南東・北西 ※南東側が高速型×3、上陸艇×2、兵隊×8北西側が合体怪獣×1、混合型×2、上陸艇×2、兵隊×8",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・合体怪獣",
+             "members": [],
+             "note": "",
+             "leader_lv": 65,
+             "leader_hp": 250000,
+             "leader_funds": 9000,
+             "leader_pp": 16
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・混合型",
+             "members": [],
+             "note": "",
+             "leader_lv": 64,
+             "leader_hp": 181050,
+             "leader_funds": 8000,
+             "leader_pp": 14
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・混合型",
+             "members": [],
+             "note": "",
+             "leader_lv": 64,
+             "leader_hp": 181050,
+             "leader_funds": 8000,
+             "leader_pp": 14
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・高速型",
+             "members": [],
+             "note": "",
+             "leader_lv": 63,
+             "leader_hp": 66050,
+             "leader_funds": 6000,
+             "leader_pp": 10
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・高速型",
+             "members": [],
+             "note": "",
+             "leader_lv": 63,
+             "leader_hp": 66050,
+             "leader_funds": 6000,
+             "leader_pp": 10
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・高速型",
+             "members": [],
+             "note": "",
+             "leader_lv": 63,
+             "leader_hp": 66050,
+             "leader_funds": 6000,
+             "leader_pp": 10
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            }
+           ]
+          },
+          {
+           "trigger": "宇宙怪獣が8小隊以下(何度でも)　東",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・高速型",
+             "members": [],
+             "note": "",
+             "leader_lv": 63,
+             "leader_hp": 66050,
+             "leader_funds": 6000,
+             "leader_pp": 10
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・高速型",
+             "members": [],
+             "note": "",
+             "leader_lv": 63,
+             "leader_hp": 66050,
+             "leader_funds": 6000,
+             "leader_pp": 10
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・上陸艇",
+             "members": [],
+             "note": "",
+             "leader_lv": 62,
+             "leader_hp": 41050,
+             "leader_funds": 4000,
+             "leader_pp": 8
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "宇宙怪獣・兵隊",
+             "members": [],
+             "note": "队长机 ×3",
+             "leader_lv": 61,
+             "leader_hp": 5550,
+             "leader_funds": 300,
+             "leader_pp": 2
+            }
+           ]
+          }
+         ],
+         "drops": [],
+         "notes": "原表の先頭列「隊数」は同一編成小隊の出現数として展開済み（隊数NのグループはN小隊として収録）。原表に強化パーツ（獲得部件）欄なし"
+        }
+       ]
+      }
+     ]
+    }
    },
    "note": "注：流程表该块字段排版错位（胜败条件栏互换、标题栏位偏移），本站按流程结构说明校正：胜利条件为击破拜拉尔·吉恩，失败条件为我方战舰被击坠，日文标题为『銀河に君と』。",
    "sources": [
@@ -39262,6 +39899,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Alpha 3》Secrets（隐藏要素分项条件）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_3/Secrets"
+    },
+    {
+     "name": "s-rpg-navi《第3次スーパーロボット大戦α》攻略图表（逐关敌方编成：小队构成、增援与掉落；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw3-alpha/"
     }
    ],
    "map": {
@@ -44417,11 +45058,565 @@
    "en": "Special Stage",
    "enemies": {
     "notes": [
-     "本关敌方编成目前只有 s-rpg-navi 一处来源刊载，按本站双源规则暂不刊出，等待用户裁决。"
+     "本关敌方编成已按用户批复以单一来源导入：下表为 s-rpg-navi 的编成数据（含等级/HP/资金/PP 列，均为该站单源刊载），未经第二来源交叉核对；该站不提供单位坐标，逐格地形仍待核实。"
     ],
     "reinforcements": [],
     "rows": [],
-    "status": "单一来源"
+    "status": "编成已刊出（单一来源：s-rpg-navi）",
+    "composition": {
+     "singleSource": "s-rpg-navi",
+     "sources": [
+      {
+       "name": "s-rpg-navi（单一来源）",
+       "groups": [
+        {
+         "part": "",
+         "squads": [
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ズフィルード・エヴェット",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 75000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "シュムエル・ベン",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 9500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "シュムエル・ベン",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 9500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "シュムエル・ベン",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 9500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ハーガイ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 6500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ハーガイ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 6500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ハーガイ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 6500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ハーガイ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 6500,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "エスリム・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 5600,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "ヨエラ・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3300,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          },
+          {
+           "leader_pilot": "—",
+           "leader_unit": "メギロード・アフ",
+           "members": [],
+           "note": "",
+           "leader_lv": 40,
+           "leader_hp": 3000,
+           "leader_funds": null,
+           "leader_pp": null
+          }
+         ],
+         "reinforcements": [
+          {
+           "trigger": "敵全滅後、選択肢「望むところだぜ!」を選択の度（北に出現）",
+           "squads": [
+            {
+             "leader_pilot": "—",
+             "leader_unit": "シュムエル・ベン",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 9500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "シュムエル・ベン",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 9500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "シュムエル・ベン",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 9500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ハーガイ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 6500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ハーガイ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 6500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ハーガイ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 6500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "ハーガイ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 6500,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            },
+            {
+             "leader_pilot": "—",
+             "leader_unit": "エスリム・アフ",
+             "members": [],
+             "note": "",
+             "leader_lv": 40,
+             "leader_hp": 5600,
+             "leader_funds": null,
+             "leader_pp": null
+            }
+           ]
+          }
+         ],
+         "drops": [],
+         "notes": "naviのサブシナリオページの敵表は「隊数｜名称｜LV｜数｜HP」の5列のみ（パイロット・資金・PP列なし。pilot/funds/ppは空欄・0とした）。隊数＝その編成パターンの小隊数、数＝1小隊内の機数として小隊を展開。増援は選択肢「望むところだぜ!」を選ぶ限り敵全滅の度に無限に繰り返し出現（1波分を収録）。味方初期は選択13小隊。 本ページに獲得部件（強化パーツ）の記載はないためdropsは空。"
+        }
+       ]
+      }
+     ]
+    }
    },
    "events": [
     "本关为全明星阵容的特别关：四位主人公的最终机、班普雷奥斯等集中出场，均为本关临时出场，不影响本篇进度。"
@@ -44456,6 +45651,10 @@
     {
      "name": "Akurasu Wiki《Super Robot Wars Alpha 3》Sub Scenario（支线剧本的解锁方式、胜败条件与关内机体）",
      "url": "https://akurasu.net/wiki/Super_Robot_Wars/Alpha_3/Sub_Scenario"
+    },
+    {
+     "name": "s-rpg-navi《第3次スーパーロボット大戦α》攻略图表（逐关敌方编成：小队构成、增援与掉落；本关唯一刊载来源，单一来源导入）",
+     "url": "https://s-rpg-navi.com/srw3-alpha/"
     }
    ],
    "sr": [],

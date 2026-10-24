@@ -16,6 +16,7 @@ const crumbs = [
   { label: `${m.code} ${m.zh}` },
 ];
 const comp = m.enemies?.composition;
+const hasNumeric = (comp?.sources ?? []).some((src: any) => (src.groups ?? []).some((g: any) => [...g.squads, ...(g.reinforcements ?? []).flatMap((rg: any) => rg.squads)].some((sq: any) => sq.leader_lv != null)));
 ---
 <Base title={`${m.zh}（${m.code}）攻略`} description={`第3次超级机器人大战α（2005 PS2）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度取得条件、我方加入、本关隐藏要素与敌方编成。`} path={`srw-alpha-3/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
@@ -61,7 +62,7 @@ const comp = m.enemies?.composition;
   {comp ? (
   <div>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 s-rpg-navi 的第3次α逐关编成表（小队式，字段最全）与英文 GameFAQs 攻略（Fencedude、Xenon，按各关覆盖范围）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：navi 为日文原名，英文攻略为其罗马字拼写，两源拼写体系不同，如 Ra Cailum / Ra Kalium 为同一战舰）。两源均<strong>不提供单位坐标</strong>，逐格地形亦无任何来源——坐标与地形仍待核实。s-rpg-navi 原表另有<strong>等级 / HP / 资金 / PP 列，仅该站单源刊载</strong>，按本站双源规则未予转录（待裁决）。</span>
+      {comp.singleSource ? <span>敌方编成数据来源：<strong>单一来源</strong>——下表为 s-rpg-navi 的编成数据（小队式，含等级 / HP / 资金 / PP 列，均为该站单源刊载），未经第二来源交叉核对（用户已批复按单一来源导入，F 完结编有同类先例）。该站不提供单位坐标，逐格地形仍待核实；双源已刊关卡的数值列不在本次导入范围内，未作改动。</span> : <span><strong>敌方编成数据来源：双源交叉刊载</strong>——日文 s-rpg-navi 的第3次α逐关编成表（小队式，字段最全）与英文 GameFAQs 攻略（Fencedude、Xenon，按各关覆盖范围）相互独立、内容互证，本站并列刊出两份编成表（名称按各自原文：navi 为日文原名，英文攻略为其罗马字拼写，两源拼写体系不同，如 Ra Cailum / Ra Kalium 为同一战舰）。两源均<strong>不提供单位坐标</strong>，逐格地形亦无任何来源——坐标与地形仍待核实。s-rpg-navi 原表另有<strong>等级 / HP / 资金 / PP 列，仅该站单源刊载</strong>，按本站双源规则未予转录（待裁决）。</span>}
     </div>
     {(comp.sources ?? []).map((src: any) => (
     <div>
@@ -71,10 +72,10 @@ const comp = m.enemies?.composition;
         {g.part && <h4>{g.part}</h4>}
         <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
         <table class="table table-zebra table-sm">
-          <thead><tr><th>小队长（驾驶员）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+          <thead><tr><th>小队长（驾驶员）</th><th>队长机</th>{hasNumeric && <th>Lv</th>}{hasNumeric && <th>HP</th>}{hasNumeric && <th>资金</th>}{hasNumeric && <th>PP</th>}<th>队员</th><th>备注</th></tr></thead>
           <tbody>
           {g.squads.map((sq: any) => (
-            <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+            <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td>{hasNumeric && <td>{sq.leader_lv ?? '—'}</td>}{hasNumeric && <td>{sq.leader_hp ?? '—'}</td>}{hasNumeric && <td>{sq.leader_funds ?? '—'}</td>}{hasNumeric && <td>{sq.leader_pp ?? '—'}</td>}<td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
           ))}
           </tbody>
         </table>
@@ -84,10 +85,10 @@ const comp = m.enemies?.composition;
           <h4>增援：{rg.trigger}</h4>
           <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
           <table class="table table-zebra table-sm">
-            <thead><tr><th>小队长（驾驶员）</th><th>队长机</th><th>队员</th><th>备注</th></tr></thead>
+            <thead><tr><th>小队长（驾驶员）</th><th>队长机</th>{hasNumeric && <th>Lv</th>}{hasNumeric && <th>HP</th>}{hasNumeric && <th>资金</th>}{hasNumeric && <th>PP</th>}<th>队员</th><th>备注</th></tr></thead>
             <tbody>
             {rg.squads.map((sq: any) => (
-              <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td><td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
+              <tr><td>{sq.leader_pilot}</td><td>{sq.leader_unit}</td>{hasNumeric && <td>{sq.leader_lv ?? '—'}</td>}{hasNumeric && <td>{sq.leader_hp ?? '—'}</td>}{hasNumeric && <td>{sq.leader_funds ?? '—'}</td>}{hasNumeric && <td>{sq.leader_pp ?? '—'}</td>}<td>{(sq.members ?? []).join('、') || '—'}</td><td>{sq.note || ''}</td></tr>
             ))}
             </tbody>
           </table>
