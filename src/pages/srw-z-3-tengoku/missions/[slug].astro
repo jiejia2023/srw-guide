@@ -14,13 +14,14 @@ const crumbs = [
   { label: '关卡攻略', path: 'srw-z-3-tengoku/missions/' },
   { label: `${m.code} ${m.zh}` },
 ];
+const enemyImported = ((m.enemies.rows ?? []).length > 0 || (m.enemies.reinforcements ?? []).length > 0);
 ---
 <Base title={`${m.zh}（${m.code}）攻略`} description={`第3次超级机器人大战Z 天狱篇（2015 PS3/PS Vita）${m.code} ${m.zh} 攻略：胜利/败北条件、熟练度（SR点）取得条件、Z芯片奖励条件、我方加入、本关隐藏要素（丘尼／玛莉妲／兰卡等隐藏点数与连锁条件）。`} path={`srw-z-3-tengoku/missions/${m.slug}/`} breadcrumbs={crumbs}>
   <h1>{m.zh}<span class="muted">（{m.code}）</span></h1>
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、SR 点取得条件、Z 芯片奖励条件、我方加入与隐藏要素来自 Akurasu Wiki 的《第3次Z 天狱篇》（Z3.2）完整表（Complete Chart）、流程图（Flow Chart）、隐藏要素页（Secrets）与 D-Trader 页。本作第 1–61 话每话各有 <strong>1 个 SR 点条件</strong>（按逐关统计，一周目上限 61 点；序章 2 关与最终话无 SR 点），各路线变体共用其话数的 SR 条件。本作<strong>没有</strong>时狱篇式的 IF 点数／隐藏路线系统：隐藏点数有三套——<strong>丘尼点数</strong>（丘尼加入）、<strong>玛莉妲存活点数</strong>、<strong>兰卡点数</strong>，逐项刊于触发/决算的关卡页；终盘第57话的希望/绝望分歧是第56话后的直接选择，无点数门槛。Z 芯片奖励条件出自 D-Trader 页的逐关奖励表——与完整表记载冲突之处已在相关页并记。敌方逐台编成目前仅有日文 wikiwiki.jp《天狱篇》攻略 WIKI 一家成套刊载（单一来源），按本站规则暂不导入、待用户裁决；逐单位坐标与地形无任何来源，核实范围见下方各节。</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、SR 点取得条件、Z 芯片奖励条件、我方加入与隐藏要素来自 Akurasu Wiki 的《第3次Z 天狱篇》（Z3.2）完整表（Complete Chart）、流程图（Flow Chart）、隐藏要素页（Secrets）与 D-Trader 页。本作第 1–61 话每话各有 <strong>1 个 SR 点条件</strong>（按逐关统计，一周目上限 61 点；序章 2 关与最终话无 SR 点），各路线变体共用其话数的 SR 条件。本作<strong>没有</strong>时狱篇式的 IF 点数／隐藏路线系统：隐藏点数有三套——<strong>丘尼点数</strong>（丘尼加入）、<strong>玛莉妲存活点数</strong>、<strong>兰卡点数</strong>，逐项刊于触发/决算的关卡页；终盘第57话的希望/绝望分歧是第56话后的直接选择，无点数门槛。Z 芯片奖励条件出自 D-Trader 页的逐关奖励表——与完整表记载冲突之处已在相关页并记。敌方逐台编成目前仅有日文 wikiwiki.jp《天狱篇》攻略 WIKI 一家成套刊载（单一来源），{enemyImported ? <>已按用户 2026-10-24 的批量裁决导入并标注（见下方「敌方出场与增援」）；</> : <>按本站规则暂不导入、待用户裁决；</>}逐单位坐标与地形无任何来源，核实范围见下方各节。</span>
   </div>
 
   <h2>出击条件</h2>
@@ -59,6 +60,46 @@ const crumbs = [
   )}
 
   <h2>敌方出场与增援</h2>
+  {enemyImported ? (
+  <div>
+    <div class="alert alert-info alert-soft my-4">
+      <span><strong>敌方编成数据来源：wikiwiki.jp《天狱篇》攻略 WIKI（单一来源）</strong>——下表为经用户 2026-10-24 批复导入的 wikiwiki 天狱篇逐关编成表（机体名／驾驶员名／小隊名为日文原记，原文未改动；フローチャート阶段决定初期／增援归属，阶段标题原文为增援触发；数量列取数 N:H 中的 N 值，原始 N:H 与主副配对记入备注）：含小队构成与 LV／HP／射程／资金／Z芯片／PP 数值列（该站原记）；逐单位坐标与逐格地形在任何来源中均不存在。gameline.jp 与 h1g.jp 均未设天狱篇条目，Akurasu 完整表与流程图不刊载敌方编成，本表为单一来源。</span>
+    </div>
+    {(m.enemies.rows ?? []).length > 0 && (
+    <div>
+      <h3>初期敌方</h3>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>LV</th><th>HP</th><th>射程</th><th>资金</th><th>Z芯片</th><th>PP</th><th>数量</th><th>备注</th></tr></thead>
+        <tbody>
+        {(m.enemies.rows ?? []).map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.lv ?? '—'}</td><td>{e.hp ?? '—'}</td><td>{e.range ?? '—'}</td><td>{e.funds ?? '—'}</td><td>{e.zchip ?? '—'}</td><td>{e.pp ?? '—'}</td><td>{e.count ?? '—'}</td><td>{[e.squad, e.note].filter(Boolean).join('；')}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    )}
+    {(m.enemies.reinforcements ?? []).map((rg: any) => (
+    <div>
+      <h4>增援：{rg.trigger}</h4>
+      <div class="overflow-x-auto rounded-box border border-base-300 bg-base-100 my-3">
+      <table class="table table-zebra table-sm">
+        <thead><tr><th>单位</th><th>驾驶员</th><th>LV</th><th>HP</th><th>射程</th><th>资金</th><th>Z芯片</th><th>PP</th><th>数量</th><th>备注</th></tr></thead>
+        <tbody>
+        {rg.rows.map((e: any) => (
+          <tr><td>{e.unit}</td><td>{e.pilot || '—'}</td><td>{e.lv ?? '—'}</td><td>{e.hp ?? '—'}</td><td>{e.range ?? '—'}</td><td>{e.funds ?? '—'}</td><td>{e.zchip ?? '—'}</td><td>{e.pp ?? '—'}</td><td>{e.count ?? '—'}</td><td>{[e.squad, e.note].filter(Boolean).join('；')}</td></tr>
+        ))}
+        </tbody>
+      </table>
+      </div>
+    </div>
+    ))}
+    <ul>
+      {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
+    </ul>
+  </div>
+  ) : (
   <div>
     <div class="alert alert-warning alert-soft my-4">
       <span><strong>待核实：</strong>{m.enemies.status}</span>
@@ -67,6 +108,7 @@ const crumbs = [
       {(m.enemies.notes ?? []).map((n: string) => <li>{n}</li>)}
     </ul>
   </div>
+  )}
 
   <h2>剧情事件</h2>
   <ul>
