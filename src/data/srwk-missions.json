@@ -40,15 +40,60 @@
     "第2话《来自异世界的来访者》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Mimetic Beast No.12",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "",
+      "drops": "Servo Motor ~ Propellant Tank；技能部件 Infight Lv+1 ~ Gunfight Lv+1"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 3（攻略阶段划分；原文未给精确触发条件）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Mimetic Beast No.13",
+        "count": 6,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "敌方回合结束时增援（Part 4；原文：When the enemy turn ends, more enemies appear）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Mimetic Beast No.13",
+        "count": 4,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -125,15 +170,60 @@
     "第3话《建造升级！苏醒的传说！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Suspage",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Zelgaia",
+      "drops": "Apogee Motor ~ Super Repair Kit；技能部件 SP Up Lv+1 ~ Focus Power Lv+1"
+     },
+     {
+      "name": "Demon Beast Bitora",
+      "count": 4,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Protex",
+      "count": 4,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Suspage 离场后（Part 3；原文：Once Suspage leaves reinforcements for both sides arrive）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Mimetic Beast No.13",
+        "count": 12,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -206,15 +296,60 @@
     "第4话《重逢的合体攻击》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Haniwa Phantom God Magura",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "",
+      "drops": "Land Module A ~ Aqua Module A；技能部件 Support Attack Lv+1"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击败 Haniwa Phantom God Magura 后（Part 2；原文：enemies will arrive once you defeat the Haniwa Phantom God）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Demon Beast Bitora",
+        "count": 3,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Protex",
+        "count": 3,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Yomi Soldiers",
+        "count": 18,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -287,15 +422,52 @@
     "第5话《超越者之战》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Zelgaia",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Suspage",
+      "drops": "Power Extender ~ Super Repair Kit；技能部件 Focus Power Lv+1"
+     },
+     {
+      "name": "Haniwa Phantom God Mezura",
+      "count": 1,
+      "funds": 2700,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Haniwa Phantom God Magura",
+      "count": 1,
+      "funds": 2200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Yomi Soldiers",
+      "count": 17,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -370,15 +542,88 @@
     "第6话《穿燕尾服的笨蛋家伙》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Rushrod",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "Yassaba",
+      "drops": "Dual Sensor；技能部件 Support Defense Lv+1"
+     },
+     {
+      "name": "underGolem",
+      "count": 3,
+      "funds": 2000,
+      "pilot": "Kejinan-Enge-Jaboli",
+      "drops": "Kejinan：Cartridge；Enge：Propellant Tank；Jaboli：Repair Kit（原文分注）"
+     },
+     {
+      "name": "Dorbeck Adette Custom",
+      "count": 1,
+      "funds": 3000,
+      "pilot": "Adette",
+      "drops": "技能部件 Gunfight Lv+1"
+     },
+     {
+      "name": "Dorbeck(P)",
+      "count": 6,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Dogozzo(P)",
+      "count": 12,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 3 回合开始时（Part 2；原文：at the beginning of turn 3, reinforcements arrive）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Power Golem",
+        "count": 1,
+        "funds": 6000,
+        "pilot": "Asuham",
+        "drops": "Booster；技能部件 SP Up Lv+1"
+       },
+       {
+        "name": "Golem",
+        "count": 1,
+        "funds": 1500,
+        "pilot": "Zakki",
+        "drops": "技能部件 Infight Lv+1"
+       },
+       {
+        "name": "Brunhilde",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "",
+        "drops": "Flight Module A；技能部件 Focus Power Lv+1"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -449,15 +694,52 @@
     "第7话《醉汉英雄·疾风少女》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Zelgaia",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Suspage",
+      "drops": "Learning OS ~ Repair Kit；技能部件 Prevail Lv+1"
+     },
+     {
+      "name": "Demon Beast Bitora",
+      "count": 8,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Protex",
+      "count": 8,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Galgora",
+      "count": 8,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -531,15 +813,123 @@
     "第8话《宿命的终点站》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Rushrod",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "Yassaba",
+      "drops": "Large Generator；技能部件 Gunfight Lv+1"
+     },
+     {
+      "name": "underGolem",
+      "count": 3,
+      "funds": 2000,
+      "pilot": "Kejinan-Enge-Jaboli",
+      "drops": "Cartridge ~ Propellant Tank ~ Repair Kit（原文未逐台分配）"
+     },
+     {
+      "name": "Dorbeck",
+      "count": 6,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Dogozzo",
+      "count": 12,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 3（攻略阶段划分；原文未给精确触发条件）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Volkein",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Ray",
+        "drops": "High Performance Radar；技能部件 Support Attack（原文截断，未注 Lv，照录）"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "第 4 回合开始时（Part 4；原文：At the start of your 4th turn, reinforcements arrive）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Jinba",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Asuham",
+        "drops": "Chobham Armor；技能部件 SP Up Lv+1"
+       },
+       {
+        "name": "Golem",
+        "count": 1,
+        "funds": 1500,
+        "pilot": "Zakki",
+        "drops": ""
+       },
+       {
+        "name": "underGolem",
+        "count": 2,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Dorbeck",
+        "count": 4,
+        "funds": 1100,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Dogozzo",
+        "count": 8,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "击败 Asuham 后（Part 5；原文：When you defeat Asuham, the next reinforcement arrives）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Dominator",
+        "count": 1,
+        "funds": 13000,
+        "pilot": "Cynthia",
+        "drops": "Barrier Generator ~ Super Repair Kit；技能部件 Prevail Lv+1"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -611,15 +1001,116 @@
     "第9话《Zi区域的激战》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Diablo of Monday",
+      "count": 1,
+      "funds": 13000,
+      "pilot": "Ghadved",
+      "drops": "Chobham Armor；技能部件 Infight Lv+1"
+     },
+     {
+      "name": "Dominator",
+      "count": 1,
+      "funds": 13000,
+      "pilot": "Cynthia",
+      "drops": "Servo Motor；技能部件 Focus Power（原文未注 Lv，照录）"
+     },
+     {
+      "name": "Rushrod",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "Yassaba",
+      "drops": "Beam Coat Lv1；技能部件 Support Defense Lv+1"
+     },
+     {
+      "name": "Blackmail",
+      "count": 1,
+      "funds": 4800,
+      "pilot": "Kejinan",
+      "drops": "Cartridge"
+     },
+     {
+      "name": "underGolem",
+      "count": 2,
+      "funds": 1200,
+      "pilot": "Enge-Jaboli",
+      "drops": "Propellant Tank ~ Repair Kit"
+     },
+     {
+      "name": "Dorbeck",
+      "count": 6,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Dogozzo",
+      "count": 12,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击败 Cynthia 后，或敌方第 2 回合结束时（Part 2）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Jinba",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Asuham",
+        "drops": "Thruster Module A；技能部件 Prevail Lv+1"
+       },
+       {
+        "name": "Golem",
+        "count": 1,
+        "funds": 1500,
+        "pilot": "Zakki",
+        "drops": ""
+       },
+       {
+        "name": "underGolem",
+        "count": 2,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Dorbeck",
+        "count": 4,
+        "funds": 1100,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Dogozzo",
+        "count": 8,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -697,15 +1188,102 @@
     "第10话《黑炎将军》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Bio Mega Raptor",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Zairin",
+      "drops": "Dual Sensor；技能部件 Gunfight Lv+1"
+     },
+     {
+      "name": "Bio Raptor (Red)",
+      "count": 4,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Bio Raptor",
+      "count": 20,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 3 回合开始时（若提前击败 Zairin 则立即触发；Part 2）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Bio Raptor",
+        "count": 2,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 3（攻略阶段划分；Liger 小队加入后的阶段）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Zelgaia",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Suspage",
+        "drops": "Hyper Sensor ~ Super Repair Kit；技能部件 Prevail Lv+1"
+       },
+       {
+        "name": "Demon Beast Domega",
+        "count": 1,
+        "funds": 4000,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Demon Beast Bitora",
+        "count": 4,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Protex",
+        "count": 3,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Galgoras",
+        "count": 5,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -778,15 +1356,109 @@
     "第11话前篇《盖金克绝体绝命！！·前篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Dolman",
+      "count": 1,
+      "funds": 10000,
+      "pilot": "Nouza",
+      "drops": "Booster；技能部件 Infight Lv+1"
+     },
+     {
+      "name": "Kein Zerunga",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Kein",
+      "drops": ""
+     },
+     {
+      "name": "Demon Beast Bitora",
+      "count": 4,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Protex",
+      "count": 4,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Galgoras",
+      "count": 4,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Nouza HP 降至 50% 时（Part 2；原文：Once you bring Nouza's HP to -50% they'll appear in the North-East corner）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Zelgaia",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Suspage",
+        "drops": "Flight Module A；技能部件 Gunfight Lv+1"
+       },
+       {
+        "name": "Celius II",
+        "count": 1,
+        "funds": 0,
+        "pilot": "Sheldia",
+        "drops": ""
+       },
+       {
+        "name": "Demon Beast Domega",
+        "count": 2,
+        "funds": 4000,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Demon Beast Bitora",
+        "count": 4,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Protex",
+        "count": 4,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Galgoras",
+        "count": 4,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -860,15 +1532,95 @@
     "第11话后篇《盖金克绝体绝命！！·后篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Zelgaia",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Proist",
+      "drops": "Learning OS；技能部件 Support Attack Lv+1"
+     },
+     {
+      "name": "Demon Beast Domega",
+      "count": 2,
+      "funds": 4000,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Demon Beast Bitora",
+      "count": 4,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Protex",
+      "count": 4,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Galgoras",
+      "count": 4,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 3 回合结束时（Part 2；原文：At the end of the third turn reinforcements arrive）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Hyper Iron Beast Graneps",
+        "count": 1,
+        "funds": 6000,
+        "pilot": "",
+        "drops": "Hybrid Armor ~ Super Repair Kit；Fight +10"
+       },
+       {
+        "name": "Demon Beast Bitora",
+        "count": 4,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Protex",
+        "count": 4,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Iron Beast Galgoras",
+        "count": 2,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -943,15 +1695,95 @@
     "第12话前篇《蠢动的阴影·前篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Baleon",
+      "count": 1,
+      "funds": 12000,
+      "pilot": "Nouza",
+      "drops": ""
+     },
+     {
+      "name": "Kein Zerunga",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Kein",
+      "drops": "Accuracy +10"
+     },
+     {
+      "name": "Zelgaia",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Droid Soldier",
+      "drops": ""
+     },
+     {
+      "name": "Hyper Iron Beast Graneps",
+      "count": 1,
+      "funds": 6000,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Demon Beast Domega",
+      "count": 2,
+      "funds": 4000,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Demon Beast Bitora",
+      "count": 6,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Protex",
+      "count": 6,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Iron Beast Galgoras",
+      "count": 6,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Daiya 获救（Gaiking 恢复可操作）后下一回合（Part 2；原文：Zairin shows up one turn after Daiya is freed）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Bio Mega Raptor",
+        "count": 1,
+        "funds": 9000,
+        "pilot": "Zairin",
+        "drops": "Large Generator；技能部件 SP Up Lv+1 ~ Gunfight Lv+1"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1022,15 +1854,38 @@
     "第12话后篇《蠢动的阴影·后篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Jiguratto",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "",
+      "drops": "High Performance Radar；技能部件 Prevail Lv+1 ~ Focus Power Lv+1"
+     },
+     {
+      "name": "Metora",
+      "count": 24,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1104,15 +1959,95 @@
     "第13话《面目全非的地球》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Fei-Yen w/ Vivid Heart Shadow",
+      "count": 7,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Raiden 512 E1 Shadow",
+      "count": 7,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Raiden 512 E2 Shadow",
+      "count": 7,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Temjin 747 J Shadow",
+      "count": 7,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 2（攻略阶段划分；原文未给精确触发条件）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Myzr Delta IV type R Fair Bianca",
+        "count": 1,
+        "funds": 13000,
+        "pilot": "",
+        "drops": "Thruster Module A；Skill +10"
+       },
+       {
+        "name": "Myzr Delta I Charlotte",
+        "count": 1,
+        "funds": 12000,
+        "pilot": "",
+        "drops": "Land Module A；Fight +10"
+       },
+       {
+        "name": "Myzr Delta I Evelyn",
+        "count": 1,
+        "funds": 12000,
+        "pilot": "",
+        "drops": "Aqua Module A；Shooting +10"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Delta 机离场后 Gil 出现（Part 3；原文：When they leave, Gil shows up.）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Gil Gia",
+        "count": 1,
+        "funds": 13000,
+        "pilot": "Gil Berg",
+        "drops": "Chobham Armor ~ Super Repair Kit；技能部件 Focus Power Lv+1 ~ Infight Lv+1"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1186,15 +2121,87 @@
     "第14话《孤独～战斗》（龙宫岛线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Strike Noir",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Sven",
+      "drops": "Hyper Sensor；Fight +10；技能部件 Counter"
+     },
+     {
+      "name": "Verde Buster",
+      "count": 1,
+      "funds": 7500,
+      "pilot": "Shams",
+      "drops": "Cartridge；Shooting +10；技能部件 Support Attack Lv+1"
+     },
+     {
+      "name": "Blue Duel",
+      "count": 1,
+      "funds": 7000,
+      "pilot": "Mudie",
+      "drops": "Propellant Tank；Evade +10；技能部件 Infight Lv+1"
+     },
+     {
+      "name": "Megathelion Model",
+      "count": 1,
+      "funds": 5800,
+      "pilot": "Michio",
+      "drops": "Beam Coat Lv1；Defense +10；技能部件 Gunfight Lv+1"
+     },
+     {
+      "name": "Babylon Model",
+      "count": 1,
+      "funds": 5800,
+      "pilot": "Kanon",
+      "drops": "Repair Kit；Skill +10；技能部件 Support Defense Lv+1"
+     },
+     {
+      "name": "Slaughter Dagger",
+      "count": 4,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Windam",
+      "count": 8,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Dagger L",
+      "count": 8,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Gnosis Model",
+      "count": 6,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1264,15 +2271,80 @@
     "第14话后篇《离别之光·后篇》（柏林线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Minerva",
+      "count": 1,
+      "funds": 10000,
+      "pilot": "Talia",
+      "drops": "Multi Sensor；Hit & Away"
+     },
+     {
+      "name": "Force Impulse Gundam",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Shin",
+      "drops": "Apogee Motor；Evade +10"
+     },
+     {
+      "name": "Gouf Ignited",
+      "count": 1,
+      "funds": 6500,
+      "pilot": "Heine",
+      "drops": ""
+     },
+     {
+      "name": "Blaze Zaku Phantom",
+      "count": 1,
+      "funds": 5500,
+      "pilot": "Rey",
+      "drops": ""
+     },
+     {
+      "name": "Gunner Zaku Warrior",
+      "count": 1,
+      "funds": 5000,
+      "pilot": "Lunamaria",
+      "drops": ""
+     },
+     {
+      "name": "Babi",
+      "count": 3,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Kerberos Bucue Hound",
+      "count": 3,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Bucue",
+      "count": 12,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1342,15 +2414,116 @@
     "第15话《天使坠落》（柏林线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Windam",
+      "count": 1,
+      "funds": 7000,
+      "pilot": "Neo",
+      "drops": "Beam Coat Lv1；Shooting +10"
+     },
+     {
+      "name": "Destroy Gundam",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Stella",
+      "drops": "Barrier Lv1 Generator；Predict"
+     },
+     {
+      "name": "Destroy Gundam",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Sting",
+      "drops": "Hibrid Armor（原文拼写）；E Save"
+     },
+     {
+      "name": "Windam",
+      "count": 4,
+      "funds": 1100,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Dagger L",
+      "count": 8,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 1 回合结束时（Part 1；原文：At the end of the first turn, enemy reinforcements arrive）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Strike Noir",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Sven",
+        "drops": "Power Extender；B Save"
+       },
+       {
+        "name": "Verde Buster",
+        "count": 1,
+        "funds": 7500,
+        "pilot": "Shams",
+        "drops": "Booster；技能部件 Gunfight Lv+1"
+       },
+       {
+        "name": "Blue Duel",
+        "count": 1,
+        "funds": 7000,
+        "pilot": "Mudie",
+        "drops": "Dual Sensor；技能部件 Infight Lv+1"
+       },
+       {
+        "name": "Slaughter Dagger",
+        "count": 6,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Windam",
+        "count": 6,
+        "funds": 1100,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "满足胜败条件后（除 Stella 外全部离场，中立机 Shin 出现；Part 2）",
+      "side": "neutral",
+      "units": [
+       {
+        "name": "Force Impulse Gundam",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Shin",
+        "drops": "Beam Coat Lv2；Accuracy +10"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1424,15 +2597,109 @@
     "第16话前篇《激战！丹纳基地！！·前篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Babi",
+      "count": 5,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Kerberos Bucue Hound",
+      "count": 5,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Bucue",
+      "count": 20,
+      "funds": 1000,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 1 回合后（西侧出现；原文：After the first turn, enemy reinforcements appear in the West）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Minerva",
+        "count": 1,
+        "funds": 10000,
+        "pilot": "Talia",
+        "drops": "Servo Motor；技能部件 Prevail Lv+1"
+       },
+       {
+        "name": "Force Impulse Gundam",
+        "count": 1,
+        "funds": 8000,
+        "pilot": "Shin",
+        "drops": "Yapan Boook of Secret Ninja Arts（原文拼写）；A Combo Lv+1"
+       },
+       {
+        "name": "Gouf Ignited",
+        "count": 1,
+        "funds": 6500,
+        "pilot": "Heine",
+        "drops": "Propellant Tank"
+       },
+       {
+        "name": "Blaze Zaku Phantom",
+        "count": 1,
+        "funds": 5500,
+        "pilot": "Rey",
+        "drops": "Repair Kit"
+       },
+       {
+        "name": "Gunner Zaku Warrior",
+        "count": 1,
+        "funds": 5000,
+        "pilot": "Lunamaria",
+        "drops": "Cartridge"
+       },
+       {
+        "name": "Babi",
+        "count": 2,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Kerberos Bucue Hound",
+        "count": 2,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Bucue",
+        "count": 8,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1504,15 +2771,60 @@
     "第15话前篇《悲伤的飞翔·前篇》（龙宫岛线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Sphinx Type A",
+      "count": 1,
+      "funds": 1300,
+      "pilot": "",
+      "drops": "Multi Sensor；Hit & Away"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击败 Sphinx Type A 后（Part 2；原文：Defeating the Sphinx triggers enemy reinforcements）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Earth Beast",
+        "count": 6,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Flying Beast",
+        "count": 6,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Mimetic Beast No.13",
+        "count": 16,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1581,15 +2893,53 @@
     "第15话后篇《悲伤的飞翔·后篇》（龙宫岛线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Sphinx Type A",
+      "count": 1,
+      "funds": 1300,
+      "pilot": "",
+      "drops": "Apogee Motor ~ Hybrid Armor；Evade +10 ~ E Save"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "击败 Sphinx Type A 后（Part 2；原文：once you beat the Sphinx, reinforcements will appear）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Sphinx Type D",
+        "count": 8,
+        "funds": 1400,
+        "pilot": "",
+        "drops": "原文以 | 分隔列出 4 组掉落（Dual Sensor - Infight Lv+1 | Servo Motor - Prevail Lv+1 | Yapan Book of Secret Ninja Arts - A Combo Lv+1 | Booster - Gunfight Lv+1），未逐台对应 8 台，照录不分配"
+       },
+       {
+        "name": "Sphinx Type A",
+        "count": 16,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1666,15 +3016,88 @@
     "第16话前篇《激战！丹纳基地！！·前篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Sphinx Type C",
+      "count": 1,
+      "funds": 1600,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "第 3 回合开始时事件后（Part 2；原文：a sad event occurs on the start of your third turn）",
+      "side": "enemy",
+      "units": [
+       {
+        "name": "Alhenteris Type",
+        "count": 4,
+        "funds": 1500,
+        "pilot": "",
+        "drops": "Power Extender - B Save | Cartridge | Beam Coat Lv2 - Accuracy +10 | Repair Kit（原文以 | 分隔，未逐台对应，照录）"
+       },
+       {
+        "name": "Sphinx Type D",
+        "count": 2,
+        "funds": 1400,
+        "pilot": "",
+        "drops": "Barrier Lv1 Generator - Predict | Propellant Tank（原文以 | 分隔，照录）"
+       },
+       {
+        "name": "Sphinx Type A",
+        "count": 4,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Grendel Type",
+        "count": 8,
+        "funds": 1000,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Earth Beast",
+        "count": 4,
+        "funds": 1400,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Flying Beast",
+        "count": 4,
+        "funds": 1300,
+        "pilot": "",
+        "drops": ""
+       },
+       {
+        "name": "Mimetic Beast No.13",
+        "count": 8,
+        "funds": 1200,
+        "pilot": "",
+        "drops": ""
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1744,15 +3167,52 @@
     "第16话后篇《激战！丹纳基地！！·后篇》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Core Gunner",
+      "count": 1,
+      "funds": 8000,
+      "pilot": "Max",
+      "drops": "Flight Module A ~ Super Repair Kit；技能部件 Support Attack Lv+1 ~ Gunfight Lv+1"
+     },
+     {
+      "name": "Earth Beast",
+      "count": 10,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Flying Beast",
+      "count": 10,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Mimetic Beast No.13",
+      "count": 16,
+      "funds": 1200,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
@@ -1831,15 +3291,45 @@
     "第17话《苏醒的大地魔龙》（达里乌斯线）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（slg369，GameFAQs faqs/56053）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（构成、数量、每机击破资金、具名敌的掉落部件/技能部件与增援分组）只有 slg369 的 GameFAQs 攻略（faqs/56053，未完成的攻略）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略在第14–16话的关卡编号标法与本站采用的 Akurasu 口径不同，导入前须先做编号对照。",
-     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。"
+     "敌方等级在本作不存在固定值：敌方等级取我方主力驾驶员前 20 名的平均等级（向下取整），随玩家练度浮动——任何来源都没有、也不可能有逐关等级表（与《超级机器人大战A》同理）；敌方 HP 同样无成表数据，仅个别 Boss 的撤退阈值见于攻略散记，未成表刊载。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（slg369，GameFAQs faqs/56053），未经第二来源交叉核对；机体/驾驶员名为来源英文原名，暂未译中文；无固定等级、无 HP 成表、无坐标。"
     ],
     "state": "single",
     "singleName": "slg369 的 GameFAQs 攻略（faqs/56053）",
-    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，字段含敌方构成、数量、每机击破资金、具名敌掉落物（部件与技能部件）与按事件阶段分组的增援；但它只覆盖到第16话后篇、且全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "slg369 — Super Robot Taisen K Guide and Walkthrough（GameFAQs faqs/56053；敌方编成的单一来源，覆盖第1–16话）",
+     "url": "https://gamefaqs.gamespot.com/ds/955932-super-robot-taisen-k/faqs/56053"
+    },
+    "rows": [
+     {
+      "name": "Mimetic Beast No.18",
+      "count": 8,
+      "funds": 1500,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Earth Beast",
+      "count": 8,
+      "funds": 1400,
+      "pilot": "",
+      "drops": ""
+     },
+     {
+      "name": "Flying Beast",
+      "count": 8,
+      "funds": 1300,
+      "pilot": "",
+      "drops": ""
+     }
+    ],
+    "reinforcements": []
    },
    "allyUnits": [],
    "map": {
