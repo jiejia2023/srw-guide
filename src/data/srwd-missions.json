@@ -6468,14 +6468,133 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "Part 1",
+       "enemies": [
+        {
+         "unit": "Invader",
+         "count": 6,
+         "pilot": "Invader",
+         "note": "Space"
+        },
+        {
+         "unit": "Invader",
+         "count": 4,
+         "pilot": "Invader",
+         "note": "Ground"
+        },
+        {
+         "unit": "Invader",
+         "count": 2,
+         "pilot": "Invader",
+         "note": "Air"
+        }
+       ],
+       "reinforcements": [],
+       "drops": [],
+       "notes": ""
+      },
+      {
+       "part": "Part 2",
+       "enemies": [
+        {
+         "unit": "Invader",
+         "count": 8,
+         "pilot": "Invader",
+         "note": "Space"
+        },
+        {
+         "unit": "Invader",
+         "count": 4,
+         "pilot": "Invader",
+         "note": "Ground"
+        },
+        {
+         "unit": "Invader",
+         "count": 4,
+         "pilot": "Invader",
+         "note": "Air"
+        },
+        {
+         "unit": "Metalbeast Dragon",
+         "count": 1,
+         "pilot": "Invader",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "After all initial enemies are defeated",
+         "enemies": [
+          {
+           "unit": "Invader",
+           "count": 12,
+           "pilot": "Invader",
+           "note": "Space"
+          },
+          {
+           "unit": "Invader",
+           "count": 2,
+           "pilot": "Invader",
+           "note": "Ground"
+          },
+          {
+           "unit": "Invader",
+           "count": 2,
+           "pilot": "Invader",
+           "note": "Air"
+          }
+         ]
+        },
+        {
+         "trigger": "After 5 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Cowen & Stinga",
+           "count": 1,
+           "pilot": "Cowen",
+           "note": ""
+          },
+          {
+           "unit": "Invader",
+           "count": 8,
+           "pilot": "Invader",
+           "note": "Space"
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Propellant Tank",
+         "count": 2,
+         "from": "Metalbeast Dragon, Cowen & Stinga"
+        },
+        {
+         "item": "EN Chip",
+         "count": 1,
+         "from": "Metalbeast Dragon"
+        },
+        {
+         "item": "Large Magazine",
+         "count": 1,
+         "from": "Cowen & Stinga"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "木星线第16/15话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略未走木星线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -11741,14 +11860,225 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Adrastea",
+         "count": 1,
+         "pilot": "Pipiniden",
+         "note": ""
+        },
+        {
+         "unit": "Brukking ER",
+         "count": 1,
+         "pilot": "Rube",
+         "note": ""
+        },
+        {
+         "unit": "Doggorla",
+         "count": 1,
+         "pilot": "Broho",
+         "note": ""
+        },
+        {
+         "unit": "Abigol",
+         "count": 8,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Contio",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Adrastea",
+         "count": 3,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "After 5 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Zanneck",
+           "count": 1,
+           "pilot": "Farah",
+           "note": ""
+          },
+          {
+           "unit": "Abigol",
+           "count": 8,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Contio",
+           "count": 4,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Super Repair Kit",
+         "count": 1,
+         "from": "Brukking ER"
+        },
+        {
+         "item": "Hybrid Armour",
+         "count": 1,
+         "from": "Brukking ER"
+        },
+        {
+         "item": "Ultra Alloy Z",
+         "count": 1,
+         "from": "Zanneck"
+        },
+        {
+         "item": "Linear Seat",
+         "count": 1,
+         "from": "Adrastea"
+        },
+        {
+         "item": "S-Adapter",
+         "count": 1,
+         "from": "Doggorla"
+        },
+        {
+         "item": "Minovsky Drive",
+         "count": 1,
+         "from": "Zanneck"
+        }
+       ],
+       "notes": ""
+      },
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Squid",
+         "count": 1,
+         "pilot": "Tashiro",
+         "note": "runs at 20%"
+        },
+        {
+         "unit": "Zanneck",
+         "count": 1,
+         "pilot": "Farah",
+         "note": ""
+        },
+        {
+         "unit": "Doggorla",
+         "count": 1,
+         "pilot": "Godwald",
+         "note": ""
+        },
+        {
+         "unit": "Abigol",
+         "count": 8,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Brukking ER",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Doggorla",
+         "count": 2,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Adrastea",
+         "count": 2,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "After 5 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Rig Contio",
+           "count": 1,
+           "pilot": "Chronokul",
+           "note": "runs at 20%"
+          },
+          {
+           "unit": "Gotratan",
+           "count": 1,
+           "pilot": "Katejina",
+           "note": "runs at 20%"
+          },
+          {
+           "unit": "Abigol",
+           "count": 4,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Adrastea",
+           "count": 3,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Brukking ER",
+           "count": 2,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Doggorla",
+           "count": 2,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Biosensor",
+         "count": 1,
+         "from": "Squid"
+        },
+        {
+         "item": "Short Circuit",
+         "count": 1,
+         "from": "Gotratan"
+        },
+        {
+         "item": "Ultra Large Magazine",
+         "count": 1,
+         "from": "Rig Contio"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "天使之环线第29/28/27话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了赫利奥斯线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -12420,14 +12750,202 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "Part 1",
+       "enemies": [
+        {
+         "unit": "Gengaozo",
+         "count": 1,
+         "pilot": "Farah",
+         "note": ""
+        },
+        {
+         "unit": "Doggorla",
+         "count": 1,
+         "pilot": "Godwald",
+         "note": ""
+        },
+        {
+         "unit": "Abigol",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Zanneck",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Brukking ER",
+         "count": 2,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Adrastea",
+         "count": 2,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "After Farah has been defeated",
+         "enemies": [
+          {
+           "unit": "Squid",
+           "count": 1,
+           "pilot": "Tashiro",
+           "note": ""
+          },
+          {
+           "unit": "Brukking ER",
+           "count": 4,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Zanneck",
+           "count": 4,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Abigol",
+           "count": 2,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "After all enemies have been defeated",
+         "enemies": [
+          {
+           "unit": "Rig Contio",
+           "count": 1,
+           "pilot": "Chronokul",
+           "note": ""
+          },
+          {
+           "unit": "Gotratan",
+           "count": 1,
+           "pilot": "Katejina",
+           "note": ""
+          },
+          {
+           "unit": "Zanneck",
+           "count": 3,
+           "pilot": "Zanscare Soldier",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Mega Booster",
+         "count": 1,
+         "from": "Squid"
+        },
+        {
+         "item": "Mega Generator",
+         "count": 1,
+         "from": "Doggorla"
+        },
+        {
+         "item": "Ultra Alloy New Z",
+         "count": 1,
+         "from": "Gengaozo"
+        },
+        {
+         "item": "Multi Sensor",
+         "count": 1,
+         "from": "Rig Contio"
+        },
+        {
+         "item": "3-Dimensional Radar",
+         "count": 1,
+         "from": "Gotratan"
+        },
+        {
+         "item": "Haro",
+         "count": 1,
+         "from": "Gengaozo"
+        }
+       ],
+       "notes": ""
+      },
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Doggorla",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Brukking ER",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Zanneck",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Gengaozo",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Adrastea",
+         "count": 4,
+         "pilot": "Zanscare Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "When Usso reaches the designated point",
+         "enemies": [
+          {
+           "unit": "Rig Contio",
+           "count": 1,
+           "pilot": "Chronokul",
+           "note": ""
+          },
+          {
+           "unit": "Gotratan",
+           "count": 1,
+           "pilot": "Katejina",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "天使之环线第30/29/28话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了赫利奥斯线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -13086,14 +13604,150 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "Part 1",
+       "enemies": [
+        {
+         "unit": "FBz-99G Zaubergern",
+         "count": 1,
+         "pilot": "Gabil",
+         "note": ""
+        },
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 12,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 6,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 2,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "When 5 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Gabigra",
+           "count": 1,
+           "pilot": "Gabil",
+           "note": "Retreats below 20%"
+          }
+         ]
+        },
+        {
+         "trigger": "After all enemies are defeated",
+         "enemies": [
+          {
+           "unit": "Valgo",
+           "count": 1,
+           "pilot": "Valgo",
+           "note": ""
+          },
+          {
+           "unit": "Az-130A Panzerzorn",
+           "count": 12,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Fz-109F Ergazorn",
+           "count": 6,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Assault Ship",
+           "count": 2,
+           "pilot": "Barota Soldier",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "I-Field Barrier",
+         "count": 1,
+         "from": "Gabigura"
+        },
+        {
+         "item": "Learning-Type CP++",
+         "count": 1,
+         "from": "Valgo"
+        }
+       ],
+       "notes": ""
+      },
+      {
+       "part": "Part 2",
+       "enemies": [
+        {
+         "unit": "Fleet Flagship Space Carrier",
+         "count": 1,
+         "pilot": "Gepelnich",
+         "note": ""
+        },
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 12,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 6,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 4,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [],
+       "drops": [
+        {
+         "item": "Propellant Tank",
+         "count": 1,
+         "from": "Fleet Flagship Space Carrier"
+        },
+        {
+         "item": "Cartridge",
+         "count": 1,
+         "from": "Fleet Flagship Space Carrier"
+        },
+        {
+         "item": "Large Generaotr",
+         "count": 1,
+         "from": "Fleet Flagship Space Carrier"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "拉克斯线第32/31/30话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了基辛线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -13632,14 +14286,67 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Goram",
+         "count": 1,
+         "pilot": "Goram",
+         "note": ""
+        },
+        {
+         "unit": "Zomud",
+         "count": 1,
+         "pilot": "Zomud",
+         "note": ""
+        },
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 12,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 6,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 2,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [],
+       "drops": [
+        {
+         "item": "Dual Sensor",
+         "count": 1,
+         "from": "Goram"
+        },
+        {
+         "item": "Learning-type CP+",
+         "count": 1,
+         "from": "Zomud"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "拉克斯线第33/32/31话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了基辛线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -14137,14 +14844,197 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "Part 1",
+       "enemies": [
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 10,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 5,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 1,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fleet Flagship Space Carrier",
+         "count": 1,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "When 8 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Az-130A Panzerzorn",
+           "count": 10,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Fz-109F Ergazorn",
+           "count": 5,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Assault Ship",
+           "count": 1,
+           "pilot": "Barota Soldier",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "When 8 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Az-130A Panzerzorn",
+           "count": 10,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Fz-109F Ergazorn",
+           "count": 5,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Assault Ship",
+           "count": 1,
+           "pilot": "Barota Soldier",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "When 8 or less enemies remain",
+         "enemies": [
+          {
+           "unit": "Az-130A Panzerzorn",
+           "count": 10,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Fz-109F Ergazorn",
+           "count": 5,
+           "pilot": "Barota Soldier",
+           "note": ""
+          },
+          {
+           "unit": "Assault Ship",
+           "count": 1,
+           "pilot": "Barota Soldier",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "When the Fleet Flagship Space Carrier is defeated",
+         "enemies": [
+          {
+           "unit": "FBz-99G Zaubergern",
+           "count": 1,
+           "pilot": "Gabil",
+           "note": ""
+          },
+          {
+           "unit": "Grabil",
+           "count": 1,
+           "pilot": "Grabil",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Large Magazine",
+         "count": 1,
+         "from": "Fleet Flagship Space Carrier"
+        },
+        {
+         "item": "Weapon Breaker",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        }
+       ],
+       "notes": ""
+      },
+      {
+       "part": "Part 2",
+       "enemies": [
+        {
+         "unit": "FBz-99G Zaubergern",
+         "count": 1,
+         "pilot": "Gabil",
+         "note": ""
+        },
+        {
+         "unit": "Grabil",
+         "count": 1,
+         "pilot": "Grabil",
+         "note": ""
+        },
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 16,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 8,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 2,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [],
+       "drops": [
+        {
+         "item": "Ultra Alloy Z",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        },
+        {
+         "item": "Sensor Breaker",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "拉克斯线第34/33/32话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了基辛线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {
@@ -14224,14 +15114,115 @@
     "note": null
    },
    "enemies": {
-    "status": "待核实",
+    "status": "编成已刊出（单一来源：Deranged，GameFAQs）",
     "rows": [],
     "reinforcements": [],
-    "composition": null,
+    "composition": {
+     "deranged": [
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Gepelnich",
+         "count": 1,
+         "pilot": "Gepelnich",
+         "note": ""
+        },
+        {
+         "unit": "FBz-99G Zaubergern",
+         "count": 1,
+         "pilot": "Gabil",
+         "note": ""
+        },
+        {
+         "unit": "Grabil",
+         "count": 1,
+         "pilot": "Grabil",
+         "note": ""
+        },
+        {
+         "unit": "Az-130A Panzerzorn",
+         "count": 20,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Fz-109F Ergazorn",
+         "count": 10,
+         "pilot": "Barota Soldier",
+         "note": ""
+        },
+        {
+         "unit": "Assault Ship",
+         "count": 2,
+         "pilot": "Barota Soldier",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "When you defeat Gabil",
+         "enemies": [
+          {
+           "unit": "Gabigra",
+           "count": 1,
+           "pilot": "Gabil",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "Learning-type CP+",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        },
+        {
+         "item": "Psychoframe",
+         "count": 1,
+         "from": "Gabigra"
+        },
+        {
+         "item": "EN Mega Chip",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        },
+        {
+         "item": "Spider Net",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        },
+        {
+         "item": "Energy Taker",
+         "count": 1,
+         "from": "Gabigra"
+        },
+        {
+         "item": "Mind Taker",
+         "count": 1,
+         "from": "Gabibra"
+        },
+        {
+         "item": "Armour Breaker",
+         "count": 1,
+         "from": "Gabigra"
+        },
+        {
+         "item": "ECM Jammer",
+         "count": 1,
+         "from": "FBz-99G Zaubergern"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
     "notes": [
-     "拉克斯线第35/34/33话的敌方编成只有 Deranged 的 GameFAQs 攻略（faqs/25384）一家刊载，gundamtotoro 的攻略走了基辛线、无此关记录——按本站「单一来源不导入」的惯例，本关编成暂不刊载，待用户裁决。",
-     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。"
-    ]
+     "除上述单一来源外，本作逐关敌方配置无其他公开刊载：Akurasu 流程图无敌方配置栏、GameCenter GX 不收录本作。本关的敌方等级、坐标与逐格地形同样待核实。",
+     "本关敌方编成已按用户批复以单一来源导入：下表为 Deranged 的 GameFAQs 攻略（faqs/25384）的编成数据，未经第二来源交叉核对；该来源不提供坐标与等级，敌方坐标、等级与逐格地形仍待核实。"
+    ],
+    "singleSource": "Deranged 的 GameFAQs 攻略（faqs/25384）"
    },
    "allyUnits": [],
    "map": {

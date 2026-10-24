@@ -24,7 +24,7 @@ const compSources = [
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 D <strong>Complete Chart</strong>，并逐条与同站 Secrets 页交叉核对，系统与话数口径另以日本维基百科互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 主条目对该流程图的简介文字虽写有「BMs」，但流程图本体并无熟练度栏目、日本维基百科的系统解说亦无此系统，本站按无熟练度处理；隐藏要素全部由<strong>路线选择、说得连锁与击坠数门槛</strong>决定。本作的话数编号随路线浮动（地球线比宇宙线多 1 关、凯拉斯基利线比木星线多 1 关、拉克斯线比基辛线多 1 关），本站标题采用 Akurasu 的并记编号。{m.enemies.composition ? <span>敌方编成（构成与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>（Deranged、gundamtotoro）交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>本关的敌方编成只有<strong>单一来源</strong>刊载，按本站惯例暂不导入（见下方「敌方出场与增援」的说明）；敌方坐标、等级与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、我方加入与隐藏要素来自 Akurasu Wiki 的 D <strong>Complete Chart</strong>，并逐条与同站 Secrets 页交叉核对，系统与话数口径另以日本维基百科互证（分歧见本页备注与本作主页）。本作<strong>没有熟练度（SR 点／Battle Mastery）系统</strong>：Akurasu 主条目对该流程图的简介文字虽写有「BMs」，但流程图本体并无熟练度栏目、日本维基百科的系统解说亦无此系统，本站按无熟练度处理；隐藏要素全部由<strong>路线选择、说得连锁与击坠数门槛</strong>决定。本作的话数编号随路线浮动（地球线比宇宙线多 1 关、凯拉斯基利线比木星线多 1 关、拉克斯线比基辛线多 1 关），本站标题采用 Akurasu 的并记编号。{m.enemies.singleSource ? <span>敌方编成（构成与增援）来自<strong>单一来源：{m.enemies.singleSource}</strong>，未经第二来源交叉核对（用户已批复按单一来源导入）；该来源不提供单位坐标与等级，坐标与逐格地形仍待核实，故地图为参照框架。</span> : m.enemies.composition ? <span>敌方编成（构成与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>（Deranged、gundamtotoro）交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>本关的敌方编成只有<strong>单一来源</strong>刊载，按本站惯例暂不导入（见下方「敌方出场与增援」的说明）；敌方坐标、等级与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
   </div>
 
   <h2>出击条件</h2>
@@ -62,7 +62,7 @@ const compSources = [
   {m.enemies.composition ? (
   <div>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——Deranged（faqs/25384）以「驾驶员 - 机体」记名，gundamtotoro（faqs/25385）以「机体 ×数量」记名并附掉落物；本站照各自原文刊出（名称为攻略英文原文，两份攻略的罗马字拼写多有出入，如 Gozzola / Godzorla 为同一机体）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span>
+      {m.enemies.singleSource ? <span>敌方编成数据来源：<strong>单一来源</strong>——下表为 {m.enemies.singleSource} 的编成数据（机体 ×数量、增援与掉落物，攻略英文原文），未经第二来源交叉核对（用户已批复按单一来源导入，F 完结编有同类先例）。该来源不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span> : <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——Deranged（faqs/25384）以「驾驶员 - 机体」记名，gundamtotoro（faqs/25385）以「机体 ×数量」记名并附掉落物；本站照各自原文刊出（名称为攻略英文原文，两份攻略的罗马字拼写多有出入，如 Gozzola / Godzorla 为同一机体）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。</span>}
     </div>
     {compSources.map((src: any) => (
     <div>
