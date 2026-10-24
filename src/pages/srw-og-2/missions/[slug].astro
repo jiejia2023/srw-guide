@@ -24,7 +24,7 @@ const compSources = [
   <p class="muted">日文：{m.ja} · 英文：{m.en} · {m.route} · 类型：{m.type}</p>
 
   <div class="alert alert-info alert-soft my-4">
-    <span><strong>数据状态：</strong>本页的胜利/败北条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入与隐藏要素来自 Akurasu Wiki 的 OG2 <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，话数与系统另以日文维基与日文 SRW Wiki 互证（分歧见本页备注与本作主页）。本作<strong>有熟练度系统</strong>：第1–41话各有 1 个取得条件，全程共 41 点——累计 <strong>≥35 点</strong>才能进入最终话；且累计熟练度决定游戏<strong>难度（简单/普通/困难）</strong>，难度会影响敌方数量与强度，并有一条隐藏要素（隐形之翼方法 B）反过来要求难度为简单。本作的路线结构与前作不同：<strong>没有主人公二选一开局</strong>，全员同一条主线，只在第10、20、34话前有三次部队分歧（一周目实际游玩第1–42话＋最终话共 43 话，计入分歧版本共 54 个不同剧本）。隐藏要素多为跨话连锁（立旗→指定话结算击坠数/等级→更后面的话交付），请按各话页面的步骤顺序核对。{m.enemies.composition ? <span>敌方编成（构成、数量与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>（gundamtotoro、CO_Adder）交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>本关的敌方编成未能在两份攻略间完成交叉刊载（覆盖缺口见本作主页），敌方坐标、等级与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
+    <span><strong>数据状态：</strong>本页的胜利/败北条件、<strong>熟练度（Battle Mastery）条件</strong>、我方加入与隐藏要素来自 Akurasu Wiki 的 OG2 <strong>Flow Chart</strong>，并逐条与同站 Secrets 页交叉核对，话数与系统另以日文维基与日文 SRW Wiki 互证（分歧见本页备注与本作主页）。本作<strong>有熟练度系统</strong>：第1–41话各有 1 个取得条件，全程共 41 点——累计 <strong>≥35 点</strong>才能进入最终话；且累计熟练度决定游戏<strong>难度（简单/普通/困难）</strong>，难度会影响敌方数量与强度，并有一条隐藏要素（隐形之翼方法 B）反过来要求难度为简单。本作的路线结构与前作不同：<strong>没有主人公二选一开局</strong>，全员同一条主线，只在第10、20、34话前有三次部队分歧（一周目实际游玩第1–42话＋最终话共 43 话，计入分歧版本共 54 个不同剧本）。隐藏要素多为跨话连锁（立旗→指定话结算击坠数/等级→更后面的话交付），请按各话页面的步骤顺序核对。{m.enemies.singleSource ? <span>敌方编成（构成、数量与增援）来自<strong>单一来源：{m.enemies.singleSource}</strong>，未经第二来源交叉核对（用户已批复按单一来源导入）；该来源不提供逐台等级与坐标，坐标与逐格地形仍待核实，故地图为参照框架。</span> : m.enemies.composition ? <span>敌方编成（构成、数量与增援）来自<strong>两份独立的 GameFAQs 全文攻略</strong>（gundamtotoro、CO_Adder）交叉刊载——两份攻略都只记构成、<strong>不提供单位坐标与等级</strong>。敌方坐标、等级与逐格地形在任何已查到的公开来源中均不存在，故地图为参照框架。</span> : <span>本关的敌方编成未能在两份攻略间完成交叉刊载（覆盖缺口见本作主页），敌方坐标、等级与逐格地形同样无公开来源，地图为参照框架。</span>}</span>
   </div>
 
   <h2>出击条件</h2>
@@ -63,7 +63,7 @@ const compSources = [
   {m.enemies.composition ? (
   <div>
     <div class="alert alert-info alert-soft my-4">
-      <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——gundamtotoro（faqs/35278）以「机体 ×数量」记名并附掉落物，CO_Adder（faqs/48137）以表格记名并附增援触发条件；本站照各自原文分列刊出（名称为攻略英文原文，两份攻略的罗马字拼写多有出入，如 Guarlion / Guarion 为同一机体）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。本作难度随累计熟练度变动并影响敌方数量与强度，两份攻略的编成未按难度分档。</span>
+      {m.enemies.singleSource ? <span>敌方编成数据来源：<strong>单一来源</strong>——下表为 {m.enemies.singleSource} 的编成数据（机体 ×数量、增援与掉落物，攻略英文原文），未经第二来源交叉核对（用户已批复按单一来源导入，F 完结编有同类先例）。该来源不提供逐台等级与坐标：敌方等级、坐标与逐格地形仍待核实。本作难度随累计熟练度变动并影响敌方数量与强度，该来源的编成未按难度分档。</span> : <span><strong>敌方编成数据来源：两份独立的 GameFAQs 全文攻略交叉刊载</strong>——gundamtotoro（faqs/35278）以「机体 ×数量」记名并附掉落物，CO_Adder（faqs/48137）以表格记名并附增援触发条件；本站照各自原文分列刊出（名称为攻略英文原文，两份攻略的罗马字拼写多有出入，如 Guarlion / Guarion 为同一机体）。两份攻略均不提供坐标与等级：敌方坐标、等级与逐格地形仍待核实。本作难度随累计熟练度变动并影响敌方数量与强度，两份攻略的编成未按难度分档。</span>}
     </div>
     {compSources.map((src: any) => (
     <div>

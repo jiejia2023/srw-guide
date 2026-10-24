@@ -8644,13 +8644,79 @@
     "第35话·月球摇篮线《纯粹的存在》"
    ],
    "enemies": {
-    "status": "待核实（编成仅单一来源，待用户裁决）",
+    "status": "编成已刊出（单一来源：gundamtotoro，GameFAQs）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关（月球摇篮线）的敌方编成只有 gundamtotoro 一份 GameFAQs 攻略（faqs/35278）刊载——CO_Adder 的攻略（faqs/48137）未覆盖月球摇篮线第34–36话（其版本史中该路线仍为未完成）。按本站「单一来源不导入」的惯例，本关编成暂不刊出，列为待用户裁决事项；若用户批准，可按 F 完结编的先例以「单一来源」标注导入。",
-     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。"
-    ]
+     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。",
+     "本关（月球摇篮线）敌方编成已按用户批复以单一来源导入：下表为 gundamtotoro 的 GameFAQs 攻略（faqs/35278）的编成数据，未经第二来源交叉核对；该来源不提供逐台等级与坐标，坐标与逐格地形仍待核实。"
+    ],
+    "composition": {
+     "totoro": [
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Einst Kunohen",
+         "count": 10,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Einst Greet",
+         "count": 7,
+         "pilot": "",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "Hiryu Kai moves approximately 18 squares toward exit",
+         "enemies": [
+          {
+           "unit": "Einst Eisen",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Gremut",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "7 Enemies Remain",
+         "enemies": [
+          {
+           "unit": "Einst Greet",
+           "count": 4,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Eisen",
+           "count": 4,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Gremut",
+           "count": 4,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [],
+       "notes": ""
+      }
+     ]
+    },
+    "singleSource": "gundamtotoro 的 GameFAQs 攻略（faqs/35278）"
    },
    "allyUnits": [],
    "map": {
@@ -8682,6 +8748,10 @@
     {
      "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION2（话数口径、系统与剧情梗概的交叉核对）",
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION2"
+    },
+    {
+     "name": "GameFAQs — gundamtotoro《Super Robot Taisen: Original Generation 2》全文攻略（faqs/35278；本关编成的唯一刊载来源，单一来源导入）",
+     "url": "https://gamefaqs.gamespot.com/gba/922162-super-robot-taisen-original-generation-2/faqs/35278"
     }
    ],
    "note": ""
@@ -8950,13 +9020,130 @@
     "第36话·月球摇篮线《收获之月》"
    ],
    "enemies": {
-    "status": "待核实（编成仅单一来源，待用户裁决）",
+    "status": "编成已刊出（单一来源：gundamtotoro，GameFAQs）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关（月球摇篮线）的敌方编成只有 gundamtotoro 一份 GameFAQs 攻略（faqs/35278）刊载——CO_Adder 的攻略（faqs/48137）未覆盖月球摇篮线第34–36话（其版本史中该路线仍为未完成）。按本站「单一来源不导入」的惯例，本关编成暂不刊出，列为待用户裁决事项；若用户批准，可按 F 完结编的先例以「单一来源」标注导入。",
-     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。"
-    ]
+     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。",
+     "本关（月球摇篮线）敌方编成已按用户批复以单一来源导入：下表为 gundamtotoro 的 GameFAQs 攻略（faqs/35278）的编成数据，未经第二来源交叉核对；该来源不提供逐台等级与坐标，坐标与逐格地形仍待核实。"
+    ],
+    "composition": {
+     "totoro": [
+      {
+       "part": "",
+       "enemies": [
+        {
+         "unit": "Einst Greet",
+         "count": 20,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Rein Weiss Ritter",
+         "count": 1,
+         "pilot": "Excellen",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "Kyosuke convinces Excellen",
+         "enemies": [
+          {
+           "unit": "Einst Eisen",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Gremut",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Pelle Zein Reifkeit",
+           "count": 1,
+           "pilot": "Alfimi",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "10 Enemies Remain after Enemy Reinforcements (1) Appear",
+         "enemies": [
+          {
+           "unit": "Einst Kunohen",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Greet",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "10 Enemies Remain after Enemy Reinforcements (2) Appear",
+         "enemies": [
+          {
+           "unit": "Einst Eisen",
+           "count": 10,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "10 Enemies Remain after Enemy Reinforcements (3) Appear",
+         "enemies": [
+          {
+           "unit": "Einst Gremut",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Eisen",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "10 Enemies Remain after Enemy Reinforcements (4) Appear",
+         "enemies": [
+          {
+           "unit": "Einst Kunohen",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          },
+          {
+           "unit": "Einst Greet",
+           "count": 5,
+           "pilot": "",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [
+        {
+         "item": "S Adapter",
+         "count": 1,
+         "from": "Alfimi"
+        }
+       ],
+       "notes": ""
+      }
+     ]
+    },
+    "singleSource": "gundamtotoro 的 GameFAQs 攻略（faqs/35278）"
    },
    "allyUnits": [],
    "map": {
@@ -8988,6 +9175,10 @@
     {
      "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION2（话数口径、系统与剧情梗概的交叉核对）",
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION2"
+    },
+    {
+     "name": "GameFAQs — gundamtotoro《Super Robot Taisen: Original Generation 2》全文攻略（faqs/35278；本关编成的唯一刊载来源，单一来源导入）",
+     "url": "https://gamefaqs.gamespot.com/gba/922162-super-robot-taisen-original-generation-2/faqs/35278"
     }
    ],
    "note": ""
@@ -9328,13 +9519,120 @@
     "第37话《白骑士之心》"
    ],
    "enemies": {
-    "status": "待核实（编成仅单一来源，待用户裁决）",
+    "status": "编成已刊出（单一来源：gundamtotoro，GameFAQs）",
     "rows": [],
     "reinforcements": [],
     "notes": [
-     "本关（月球摇篮线）的敌方编成只有 gundamtotoro 一份 GameFAQs 攻略（faqs/35278）刊载——CO_Adder 的攻略（faqs/48137）未覆盖月球摇篮线第34–36话（其版本史中该路线仍为未完成）。按本站「单一来源不导入」的惯例，本关编成暂不刊出，列为待用户裁决事项；若用户批准，可按 F 完结编的先例以「单一来源」标注导入。",
-     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。"
-    ]
+     "敌方逐台的等级与坐标、逐格地形则与全作其他关卡一样，无任何公开来源，标为待核实。",
+     "本关（月球摇篮线）敌方编成已按用户批复以单一来源导入：下表为 gundamtotoro 的 GameFAQs 攻略（faqs/35278）的编成数据，未经第二来源交叉核对；该来源不提供逐台等级与坐标，坐标与逐格地形仍待核实。"
+    ],
+    "composition": {
+     "totoro": [
+      {
+       "part": "Part 1",
+       "enemies": [
+        {
+         "unit": "Megillot",
+         "count": 5,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Huckebein Mk. II-M",
+         "count": 6,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Barrelion-V",
+         "count": 7,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Albatross",
+         "count": 4,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Gargaw",
+         "count": 1,
+         "pilot": "Wogash",
+         "note": ""
+        }
+       ],
+       "reinforcements": [],
+       "drops": [
+        {
+         "item": "Hybrid Armor",
+         "count": 1,
+         "from": "Albatross"
+        },
+        {
+         "item": "Mega Generator",
+         "count": 1,
+         "from": "Albatross"
+        },
+        {
+         "item": "Solar Panel",
+         "count": 1,
+         "from": "Albatross"
+        },
+        {
+         "item": "Super Repair Kit",
+         "count": 1,
+         "from": ""
+        }
+       ],
+       "notes": ""
+      },
+      {
+       "part": "Part 2",
+       "enemies": [
+        {
+         "unit": "Gunsocket",
+         "count": 4,
+         "pilot": "",
+         "note": ""
+        },
+        {
+         "unit": "Huckebein Mk. II-M",
+         "count": 15,
+         "pilot": "",
+         "note": ""
+        }
+       ],
+       "reinforcements": [
+        {
+         "trigger": "Three Turns Pass",
+         "enemies": [
+          {
+           "unit": "Greaterkin",
+           "count": 1,
+           "pilot": "Mekiboz",
+           "note": ""
+          }
+         ]
+        },
+        {
+         "trigger": "Six Turns Pass",
+         "enemies": [
+          {
+           "unit": "Gargaw",
+           "count": 1,
+           "pilot": "Wogash",
+           "note": ""
+          }
+         ]
+        }
+       ],
+       "drops": [],
+       "notes": ""
+      }
+     ]
+    },
+    "singleSource": "gundamtotoro 的 GameFAQs 攻略（faqs/35278）"
    },
    "allyUnits": [],
    "map": {
@@ -9366,6 +9664,10 @@
     {
      "name": "日本维基百科 — スーパーロボット大戦ORIGINAL GENERATION2（话数口径、系统与剧情梗概的交叉核对）",
      "url": "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6ORIGINAL_GENERATION2"
+    },
+    {
+     "name": "GameFAQs — gundamtotoro《Super Robot Taisen: Original Generation 2》全文攻略（faqs/35278；本关编成的唯一刊载来源，单一来源导入）",
+     "url": "https://gamefaqs.gamespot.com/gba/922162-super-robot-taisen-original-generation-2/faqs/35278"
     }
    ],
    "note": "本话日文标题：Akurasu 流程图的月球线第36话日文题名与月球线第35话同作「純粋なる存在」，但其英文题名不同（第35话 Pure Presence / 本话 Harvest Moon），日文题名疑为 Akurasu 的复制误记。本站中文名从英文题名作《收获之月》，日文名照 Akurasu 原表刊出并在此标注待核实。"
