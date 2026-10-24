@@ -38,15 +38,49 @@
     "第2话《雷神王参上！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dragon Warrior Adoras",
+      "count": 6
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Two enemies shot down",
+      "units": [
+       {
+        "name": "Dragon Warrior Adoras",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down/Turn 4",
+      "units": [
+       {
+        "name": "Dragon Warrior Adoras",
+        "count": 6
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -72,7 +106,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -118,15 +152,49 @@
     "第3话《唰！勇者传说复活！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Egizost",
+      "count": 3
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2 enemies shot down",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 5
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "2 enemies shot down",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 10
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -152,7 +220,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -198,15 +266,59 @@
     "第4话《宿敌，魔龙王多尔加！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Monsquar Medusa",
+      "count": 2
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Three enemies shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3
+       },
+       {
+        "name": "Solid",
+        "count": 3
+       },
+       {
+        "name": "Heavy Solid",
+        "count": 1
+       },
+       {
+        "name": "Shuraj Ragasos Custom (Da Saida)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -232,7 +344,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -280,15 +392,67 @@
     "第5话（青空町线）《发现机器人啦！》或第5话（春风町线）《出现！恐龙机器人！》（关后二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dragon Warrior Adoras",
+      "count": 3
+     },
+     {
+      "name": "Dragon Warrior Metal Knight",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Turn Two",
+      "units": [
+       {
+        "name": "Dragon Warrior Adoras",
+        "count": 6
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Three enemies shot down/Turn 3",
+      "units": [
+       {
+        "name": "Dragon Warrior Metal Knight",
+        "count": 8
+       },
+       {
+        "name": "Dol Sadso",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Turn Four",
+      "units": [
+       {
+        "name": "MaryuOh Dolga (Ryu dolga)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -318,7 +482,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -361,15 +525,77 @@
     "第6话《三兽前行》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dogan",
+      "count": 1
+     },
+     {
+      "name": "Yoroidel",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "One enemy shot down",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 2
+       },
+       {
+        "name": "Yoroidel",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 4
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "One Egizost shot down",
+      "units": [
+       {
+        "name": "Jack Satan (Belzef)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -395,7 +621,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -438,15 +664,51 @@
     "第6话《三兽前行》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo x 5",
+      "count": 1
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 3
+     },
+     {
+      "name": "Sword Bolt Robo",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Six enemies shot down",
+      "units": [
+       {
+        "name": "HyperDeathBolt (Denki Oh)",
+        "count": 1
+       },
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 4
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -472,7 +734,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -515,15 +777,43 @@
     "第7话《晴明的阴谋》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Cloud Oni",
+      "count": 3
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Two Enemies shot down",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 5
+       },
+       {
+        "name": "Metal Knight",
+        "count": 4
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -549,7 +839,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -602,15 +892,108 @@
     "第8话《向剑与魔法的世界》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Cloud Oni",
+      "count": 12,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Dogan",
+      "count": 2,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Yoroidel",
+      "count": 1,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 2：Turn 2",
+      "units": [
+       {
+        "name": "Yoroidel",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Dragon Warrior Adoras",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Metal Knight",
+        "count": 4,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1,
+        "phase": "Part 2"
+       },
+       {
+        "name": "MaryuOh Dolga",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：6 enemies shot down",
+      "units": [
+       {
+        "name": "Merveille (Sharlie)",
+        "count": 1,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Slave Graso",
+        "count": 5,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：5 enemies remain",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 5,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Dogan",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -636,7 +1019,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -684,15 +1067,123 @@
     "第9话《出现！邪恶的骑士 黑暗龙骑士》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Solid",
+      "count": 4,
+      "phase": "Part 1"
+     },
+     {
+      "name": "heavy Solid",
+      "count": 1,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Monsquar Medusa",
+      "count": 2,
+      "phase": "Part 2"
+     },
+     {
+      "name": "MOnsquar Neptune",
+      "count": 2,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Shuraj Ragasos Custom (Da Saida)",
+      "count": 1,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 2：Turn 2",
+      "units": [
+       {
+        "name": "Solid",
+        "count": 6,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Heavy Solid",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Penpader (Zanbar)",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：4 enemies shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Da Saida shot down",
+      "units": [
+       {
+        "name": "Slave Graso",
+        "count": 6,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Slave Guns x 4",
+        "count": 1,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 5,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Brukerima",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Brukerima (Ribaris)",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -718,7 +1209,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -770,15 +1261,97 @@
     "第10话《猛攻！黄金三兄弟！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Solid",
+      "count": 2
+     },
+     {
+      "name": "Heavy Solid",
+      "count": 3
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "All Enemies shot down",
+      "units": [
+       {
+        "name": "Slave Graso",
+        "count": 2
+       },
+       {
+        "name": "Slave Guns",
+        "count": 2
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 2
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 1
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "3 enemies shot down",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 5
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down/Ionia reaches the designated area",
+      "units": [
+       {
+        "name": "Cloud Oni x 8",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "7 enemies remain",
+      "units": [
+       {
+        "name": "Slave Guns x 5",
+        "count": 1
+       },
+       {
+        "name": "Slave Hammer x 3",
+        "count": 1
+       },
+       {
+        "name": "Dark Knight Shidel (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -804,7 +1377,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -850,15 +1423,111 @@
     "第11话《森林的白狼，神城的天马》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Gold Arm",
+      "count": 1
+     },
+     {
+      "name": "Gold Foot",
+      "count": 1
+     },
+     {
+      "name": "Gold Mask",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "One Gold Brother's HP reduced by about... 20%?",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 6
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "1 enemy remains",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 4
+       },
+       {
+        "name": "Gold Arm",
+        "count": 1
+       },
+       {
+        "name": "Gold Foot",
+        "count": 1
+       },
+       {
+        "name": "Gold Mask",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "One turn after Enemy reinforcements 2",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 5
+       },
+       {
+        "name": "Death Birdie",
+        "count": 6
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 2
+       },
+       {
+        "name": "Death Birdie",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Death ARmy Mobile Suit",
+        "count": 2
+       },
+       {
+        "name": "Death Birdie",
+        "count": 3
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -884,7 +1553,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -932,15 +1601,66 @@
     "第12话《暗色的平安京》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Ryu Chief Shine Baram (Gratches)",
+      "count": 1,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Dragon Warrior Adoras",
+      "count": 9,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Metal Knight",
+      "count": 5,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 2：5 enemies remain",
+      "units": [
+       {
+        "name": "dragon warrior Adoras",
+        "count": 5,
+        "phase": "Part 2"
+       },
+       {
+        "name": "metal knight",
+        "count": 6,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Dol Sadso",
+        "count": 1,
+        "phase": "Part 2"
+       },
+       {
+        "name": "MaryuOh Dolga",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -966,7 +1686,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1016,15 +1736,79 @@
     "第13话《恐怖的地牢！被夺走的光辉与苏醒的力量！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Cloud Oni",
+      "count": 5
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Two Enemies shot down",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Three enemies shot down",
+      "units": [
+       {
+        "name": "Dragon Warrio Adoras",
+        "count": 8
+       },
+       {
+        "name": "Metal Knight",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Medusa",
+        "count": 4
+       },
+       {
+        "name": "Shuraj Ragasos Custom (Da Saida)",
+        "count": 1
+       },
+       {
+        "name": "Abe no Seimei",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1050,7 +1834,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1104,15 +1888,187 @@
     "第14话《夺回帕普利西亚城！！轰鸣吧，愤怒的魔法剑！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Solid",
+      "count": 2,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Heavy Solid",
+      "count": 1,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Penpader (Zanbar)",
+      "count": 1,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Monsquar Medusa",
+      "count": 5,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 3,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Monsquar Neptune (Da Saida)",
+      "count": 1,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 2：Five enemies remain",
+      "units": [
+       {
+        "name": "Solid",
+        "count": 5,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Heavy Solid",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Penpader (Zanbar)",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Turn 3",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Turn 4",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Turn 5",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Turn 6",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 2,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Da Saida Shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 7,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 7,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune (Reska)",
+        "count": 1,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Queen Saidarone (Da Saida)",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Queen Saidarone reduced to 50% HP",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 7,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 7,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Queen Saidarone regains 16K HP",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1138,7 +2094,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1186,15 +2142,111 @@
     "第15话《出来吧！利沃尔加！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Solid",
+      "count": 4
+     },
+     {
+      "name": "Heavy Solid",
+      "count": 2
+     },
+     {
+      "name": "Slave Arrow",
+      "count": 2
+     },
+     {
+      "name": "Slave Guns",
+      "count": 2
+     },
+     {
+      "name": "Slave Flyer",
+      "count": 2
+     },
+     {
+      "name": "Shuraj Ragasos Custom (Reska)",
+      "count": 1
+     },
+     {
+      "name": "Queen Saidarone (Da Saida)",
+      "count": 1
+     },
+     {
+      "name": "Merveille (Sharlie)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 3
+       },
+       {
+        "name": "Yoroidel",
+        "count": 5
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Solid",
+        "count": 4
+       },
+       {
+        "name": "Heavy Solid",
+        "count": 6
+       },
+       {
+        "name": "Slave Graso",
+        "count": 2
+       },
+       {
+        "name": "Slave Guns x 4",
+        "count": 1
+       },
+       {
+        "name": "Slave hammer",
+        "count": 4
+       },
+       {
+        "name": "Dark Knight Shidel (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Galden shot down",
+      "units": [
+       {
+        "name": "Dark Knight Shidel Dragon Form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1224,7 +2276,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1269,15 +2321,103 @@
     "第16话《极寒的大决战！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Slave Graso",
+      "count": 7
+     },
+     {
+      "name": "Slave Guns",
+      "count": 3
+     },
+     {
+      "name": "Slave Flyer",
+      "count": 2
+     },
+     {
+      "name": "Slave Hammer",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 5
+       },
+       {
+        "name": "Death Birdy",
+        "count": 3
+       },
+       {
+        "name": "Breukerima",
+        "count": 3
+       },
+       {
+        "name": "Breukerima (Ribaris)",
+        "count": 1
+       },
+       {
+        "name": "Gold Arm",
+        "count": 1
+       },
+       {
+        "name": "Gold Foot",
+        "count": 1
+       },
+       {
+        "name": "Gold Mask",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "7 enemies remain",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 3
+       },
+       {
+        "name": "Yoroidel",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Ribaris's Breukerima shot down",
+      "units": [
+       {
+        "name": "Debajino (Ribaris)",
+        "count": 1
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1303,7 +2443,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1353,15 +2493,111 @@
     "第17话《激战！勇者VS妖神！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Monsquar Medusa",
+      "count": 6
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 4
+     },
+     {
+      "name": "Ice Tower",
+      "count": 2
+     },
+     {
+      "name": "Queen Saidarone (Da Saida)",
+      "count": 1
+     },
+     {
+      "name": "Shuraj Ragasos Custom (Reska)",
+      "count": 1
+     },
+     {
+      "name": "Merveille (Sharlie)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "4 enemies shot down",
+      "units": [
+       {
+        "name": "Metal Knight",
+        "count": 2
+       },
+       {
+        "name": "Metal Knight Gunner",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Ice Crystals destroyed",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 4
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Slave Guns",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "3 enemies remain",
+      "units": [
+       {
+        "name": "Metal Knight",
+        "count": 4
+       },
+       {
+        "name": "Metal Knight Gunner",
+        "count": 6
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 4
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1
+       },
+       {
+        "name": "MaryuOh dolga",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1387,7 +2623,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1437,15 +2673,119 @@
     "第18话《邪龙族降临！可怕的侵略者！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Monsquar Medusa",
+      "count": 5,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 3,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Monsquar Medusa",
+      "count": 4,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 6,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Queen Saidarone (Brainwashed Da Saida)",
+      "count": 1,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 1：All enemies shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 6,
+        "phase": "Part 1"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 6,
+        "phase": "Part 1"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 1：All enemies shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 6,
+        "phase": "Part 1"
+       },
+       {
+        "name": "Monsquar Neptube",
+        "count": 6,
+        "phase": "Part 1"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Da Saida shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Calamity God Gobriki (Don Halmarg)",
+        "count": 1,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Regularly incoming waves as you shoot down enemies",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Monsquar Neptube",
+        "count": 3,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1471,7 +2811,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1515,15 +2855,93 @@
     "第19话《觉醒！新的威胁！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Hell Dragon Trooper",
+      "count": 5
+     },
+     {
+      "name": "Hell Dragon Gunner",
+      "count": 3
+     },
+     {
+      "name": "Hell Dragon Bomber",
+      "count": 4
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Death Army Mobile suit",
+        "count": 2
+       },
+       {
+        "name": "Death Birdy",
+        "count": 4
+       },
+       {
+        "name": "Gold Arm",
+        "count": 1
+       },
+       {
+        "name": "Gold Mask",
+        "count": 1
+       },
+       {
+        "name": "Gold Foot",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Hell Dragon Trooper",
+        "count": 3
+       },
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 5
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 5
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 2
+       },
+       {
+        "name": "Slave Graso",
+        "count": 1
+       },
+       {
+        "name": "Dark Knight Shidel Hell Dragon Form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1549,7 +2967,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1596,15 +3014,125 @@
     "第20话《其名为大帝王》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Cloud Oni",
+      "count": 5
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Hell Dragon Trooper",
+        "count": 4
+       },
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 3
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 4
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Slave Graso",
+        "count": 2
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 2
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Slave Guns",
+        "count": 2
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 1
+       },
+       {
+        "name": "Breukerima",
+        "count": 1
+       },
+       {
+        "name": "Dogan",
+        "count": 2
+       },
+       {
+        "name": "Yoroidel",
+        "count": 1
+       },
+       {
+        "name": "Alsugunos (Ribaris)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 2
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Slave Guns",
+        "count": 2
+       },
+       {
+        "name": "Breukerima",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Ribaris shot down",
+      "units": [
+       {
+        "name": "Hell Dragon Trooper",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1630,7 +3158,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1677,15 +3205,99 @@
     "第21话（青空町线）《绝对无敌的战士，苏醒之时！》与第22话（青空町线），或第21话（钏路线）《含泪向友开火！！》与第22话（钏路线）（关后二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 1
+     },
+     {
+      "name": "Sword Bolt Robo",
+      "count": 1
+     },
+     {
+      "name": "Gandobra",
+      "count": 3
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "3 enemies remain",
+      "units": [
+       {
+        "name": "Hyper Deathbolt (Denki Oh)",
+        "count": 1
+       },
+       {
+        "name": "Dogan",
+        "count": 2
+       },
+       {
+        "name": "Yoroidel",
+        "count": 4
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "1 enemy shot down",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 9
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 2
+       },
+       {
+        "name": "Slave Graso",
+        "count": 1
+       },
+       {
+        "name": "Dark Knight Shidel Hell Dragon Form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "2 enemies remain",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 5
+       },
+       {
+        "name": "Cycler",
+        "count": 5
+       },
+       {
+        "name": "Jack Satan (Belzef)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1711,7 +3323,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1757,15 +3369,75 @@
     "第22话（青空町线）《伏魔小队！愤怒的大反击！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Egizost",
+      "count": 6
+     },
+     {
+      "name": "Cycler",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 2
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 4
+       },
+       {
+        "name": "Cycler",
+        "count": 4
+       },
+       {
+        "name": "Jack Satan (Belzef)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Belzef reduced below 40% HP",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 4
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1791,7 +3463,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1833,15 +3505,91 @@
     "第22话（钏路线）《现在，雷霆莱卡站起来了！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Metal Knight",
+      "count": 6
+     },
+     {
+      "name": "Metal Knight Gunner",
+      "count": 4
+     },
+     {
+      "name": "Metal Knight Barbados",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Metal Knight",
+        "count": 4
+       },
+       {
+        "name": "Metal Knight Gunner",
+        "count": 2
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Metal Knight Gunner",
+        "count": 5
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 1
+       },
+       {
+        "name": "Dol Sadso",
+        "count": 1
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1
+       },
+       {
+        "name": "Powered Drago Knight Adoras",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Powered Drago Knight Adoras shot down",
+      "units": [
+       {
+        "name": "MaRyuOh Dolga (Ryu Dolg)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1867,7 +3615,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1912,15 +3660,83 @@
     "第23话《出现！超越最强的力量！！》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dogan",
+      "count": 5
+     },
+     {
+      "name": "Yoroidel",
+      "count": 10
+     },
+     {
+      "name": "Emeperor Gokaak",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "3 enemies remain",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 1
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Regular intervals",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 1
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Gokaak's HP reduced by 20%",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 1
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2
+       },
+       {
+        "name": "Sousuke temporarily leaves Ganbarugar",
+        "count": 1
+       }
+      ],
+      "note": "Gokaak regenerates 48K HP"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -1946,7 +3762,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -1990,15 +3806,81 @@
     "第23话《出现！超越最强的力量！！》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dragon Knight Adoras",
+      "count": 11
+     },
+     {
+      "name": "Metal Knight",
+      "count": 4
+     },
+     {
+      "name": "Metal Knight Gunner",
+      "count": 3
+     },
+     {
+      "name": "Metal Knight Barbados",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Metal Knight Gunner",
+        "count": 4
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 2
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1
+       },
+       {
+        "name": "Dol Sadso",
+        "count": 1
+       },
+       {
+        "name": "MaRyuOh Dolga (Ryu Dolg)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "7 enemies remain",
+      "units": [
+       {
+        "name": "Metal Knight Gunner",
+        "count": 4
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2024,7 +3906,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2073,15 +3955,117 @@
     "第24话《多尔·盖斯特！卑劣的陷阱！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Egizost",
+      "count": 2
+     },
+     {
+      "name": "Cycler",
+      "count": 2
+     },
+     {
+      "name": "Dogan",
+      "count": 2
+     },
+     {
+      "name": "Yoroidel",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2 enemies remain",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 2
+       },
+       {
+        "name": "Cycler",
+        "count": 2
+       },
+       {
+        "name": "Dogan",
+        "count": 2
+       },
+       {
+        "name": "Yoroidel",
+        "count": 2
+       },
+       {
+        "name": "Jack Satan (Belzef)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 4
+       },
+       {
+        "name": "Gatling bolt robo",
+        "count": 2
+       },
+       {
+        "name": "Sword Bolt robo",
+        "count": 4
+       },
+       {
+        "name": "Gandofara",
+        "count": 4
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Hyper Death Bolt reduced to 50% HP",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Sword Bolt Robo",
+        "count": 4
+       }
+      ],
+      "note": "HyperDeathBolt recovers 40200 HP"
+     },
+     {
+      "trigger": "Hyper Death Bolt shot down",
+      "units": [
+       {
+        "name": "Gandofara",
+        "count": 7
+       },
+       {
+        "name": "Gildabo (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2107,7 +4091,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2153,15 +4137,85 @@
     "第25话《苏醒的咆哮》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Metal Knight",
+      "count": 6
+     },
+     {
+      "name": "Metal Knight Gunner",
+      "count": 6
+     },
+     {
+      "name": "Metal Knight Barbados",
+      "count": 3
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Metal Knight",
+        "count": 4
+       },
+       {
+        "name": "Metal Knight Gunner",
+        "count": 6
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 6
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1
+       }
+      ],
+      "note": "Ryu Dolg retreats"
+     },
+     {
+      "trigger": "（原文未注明触发条件）",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 4
+       },
+       {
+        "name": "Gatling Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Sword Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Gandofara",
+        "count": 2
+       },
+       {
+        "name": "Gildabo (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2187,7 +4241,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2236,15 +4290,92 @@
     "第26话《撼动大地的闪光》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Metal Knight",
+      "count": 4,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Metal Knight Gunner",
+      "count": 5,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Metal Knight Barbados",
+      "count": 5,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Dol Gaisto",
+      "count": 1,
+      "phase": "Part 1"
+     },
+     {
+      "name": "Death Army Mobile Suit",
+      "count": 10,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Death Birdie",
+      "count": 4,
+      "phase": "Part 2"
+     },
+     {
+      "name": "Alsugonos (Amane)",
+      "count": 1,
+      "phase": "Part 2"
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Part 1：All enemies shot down",
+      "units": [
+       {
+        "name": "Cloud Oni",
+        "count": 14,
+        "phase": "Part 1"
+       },
+       {
+        "name": "Abe no Seimei",
+        "count": 1,
+        "phase": "Part 1"
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Part 2：Every enemy phase after turn 2",
+      "units": [
+       {
+        "name": "Death Army Mobile suit",
+        "count": 3,
+        "phase": "Part 2"
+       },
+       {
+        "name": "Death Birdie",
+        "count": 3,
+        "phase": "Part 2"
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2270,7 +4401,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2312,15 +4443,93 @@
     "第27话《看见了！通往圣骑士之路！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Solid",
+      "count": 10
+     },
+     {
+      "name": "Heavy Solid",
+      "count": 10
+     },
+     {
+      "name": "Heavy Solid Leader unit",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "3 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 4
+       },
+       {
+        "name": "Slave Guns",
+        "count": 4
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Medusa",
+        "count": 4
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 4
+       },
+       {
+        "name": "Dark Knight Shidel Hell Dragon form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Slave Guns",
+        "count": 1
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 1
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Medusa",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2346,7 +4555,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2393,15 +4602,153 @@
     "第28话（精灵石线）《被揭开的黑衣骑士的秘密！》或第28话（机械帝国线）《与朋友立誓的体育场！》（关后二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt robo",
+      "count": 3
+     },
+     {
+      "name": "Gatling Bolt robo",
+      "count": 2
+     },
+     {
+      "name": "Sword Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gandofara",
+      "count": 2
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Turn 2",
+      "units": [
+       {
+        "name": "Gatling Bolt robo",
+        "count": 4
+       },
+       {
+        "name": "Sword Bolt Robo",
+        "count": 4
+       },
+       {
+        "name": "Ganddofara",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Slave Guns",
+        "count": 1
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 1
+       },
+       {
+        "name": "Slave Arrow",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Medusa",
+        "count": 2
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Hell Dragon Trooper",
+        "count": 8
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Hell Dragon trooper",
+        "count": 3
+       },
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 3
+       },
+       {
+        "name": "Hell Gragon Bomber",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 5
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 2
+       },
+       {
+        "name": "Dark Knight Shidel Hell Dragon form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "5 enemies remain",
+      "units": [
+       {
+        "name": "Slave Guns",
+        "count": 2
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 2
+       },
+       {
+        "name": "Slave Hammer",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2427,7 +4774,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2472,15 +4819,111 @@
     "第29话《通往破灭的倒计时》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Monsquar Medusa",
+      "count": 3
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 3
+     },
+     {
+      "name": "Slave Arrow",
+      "count": 2
+     },
+     {
+      "name": "Slave Guns",
+      "count": 1
+     },
+     {
+      "name": "Dark Knight Shidel Hell Dragon Form (Galden)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Warship",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Warship (Rigul)",
+        "count": 1
+       },
+       {
+        "name": "Doom (Adoria)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "2 enemies shot down/1 warship shot down",
+      "units": [
+       {
+        "name": "Hell dragon bomber",
+        "count": 3
+       },
+       {
+        "name": "Hell dragon gunner",
+        "count": 1
+       },
+       {
+        "name": "Hell dragon warship (Idoro)",
+        "count": 1
+       }
+      ],
+      "note": "Rigul retreats"
+     },
+     {
+      "trigger": "Idoro shot down",
+      "units": [
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 4
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 1
+       },
+       {
+        "name": "Hell Dragon Warship",
+        "count": 2
+       },
+       {
+        "name": "Doom (Rigul)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2506,7 +4949,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2552,15 +4995,91 @@
     "第29话《通往破灭的倒计时》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Gold Arm",
+      "count": 1
+     },
+     {
+      "name": "Gold Foot",
+      "count": 1
+     },
+     {
+      "name": "Gold Mask",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Gold Brothers shot down",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Gatling Bolt robo",
+        "count": 2
+       },
+       {
+        "name": "Ganddofara",
+        "count": 4
+       },
+       {
+        "name": "Gildabo (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "4 enemies remain",
+      "units": [
+       {
+        "name": "Gatling robo",
+        "count": 2
+       },
+       {
+        "name": "Gandofara",
+        "count": 4
+       },
+       {
+        "name": "Dark King GoSaurer (Magnet King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "3 turns pass",
+      "units": [
+       {
+        "name": "Gatling Bolt Robo",
+        "count": 1
+       },
+       {
+        "name": "Sword Bolt Robo",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2586,7 +5105,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2638,15 +5157,125 @@
     "第30话《决战！飞行要塞乌尔塔利亚》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo",
+      "count": 3
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gandofara",
+      "count": 2
+     },
+     {
+      "name": "Dark Gosaurer (Magnet King)",
+      "count": 1
+     },
+     {
+      "name": "Gildabo (Engine King)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Dark Gosaurer shot down",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Galting Bolt Robo",
+        "count": 1
+       },
+       {
+        "name": "Sword Bolt robo",
+        "count": 1
+       },
+       {
+        "name": "Dark Knight Shidel Hell Dragon Form (Galden)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Every turn until the deadline",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Galting Bolt Robo",
+        "count": 1
+       },
+       {
+        "name": "Sword Bolt robo",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Galden reduced to 30% HP",
+      "units": [
+       {
+        "name": "Hell Dragon gunner",
+        "count": 3
+       },
+       {
+        "name": "Hell Dragon bomber",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Warship",
+        "count": 2
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "3 enemies remain",
+      "units": [
+       {
+        "name": "Hell Dragon Trooper",
+        "count": 3
+       },
+       {
+        "name": "Hell Dragon Gunner",
+        "count": 2
+       },
+       {
+        "name": "Hell Dragon Bomber",
+        "count": 1
+       },
+       {
+        "name": "Doom (Adoria)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2672,7 +5301,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2712,15 +5341,171 @@
     "第31话《复苏的噩梦》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Slave Graso",
+      "count": 3
+     },
+     {
+      "name": "Slave Hammer",
+      "count": 2
+     },
+     {
+      "name": "Slave Arrow",
+      "count": 1
+     },
+     {
+      "name": "Slave Flyer",
+      "count": 2
+     },
+     {
+      "name": "Slave Guns",
+      "count": 4
+     },
+     {
+      "name": "Breukerima",
+      "count": 1
+     },
+     {
+      "name": "Debajino Beta (Ribaris)",
+      "count": 1
+     },
+     {
+      "name": "Wall Cannon",
+      "count": 2
+     },
+     {
+      "name": "Wall Arrow",
+      "count": 2
+     },
+     {
+      "name": "Wallteria Castle (Chaos)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 3
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 6
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 6
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 6
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "6 enemies remain",
+      "units": [
+       {
+        "name": "Slave Hammer",
+        "count": 6
+       },
+       {
+        "name": "Slave Flyer",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Wallteria Castle shot down",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 7
+       },
+       {
+        "name": "Death Birdy",
+        "count": 2
+       },
+       {
+        "name": "Debajino Beta (Ribaris)",
+        "count": 1
+       },
+       {
+        "name": "Signikus (Chaos)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "7 enemies remain, will happen multiple times",
+      "units": [
+       {
+        "name": "Death Army Mobile Suit",
+        "count": 2
+       },
+       {
+        "name": "Death Birdie",
+        "count": 2
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2746,7 +5531,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2792,15 +5577,69 @@
     "第32话《燃烧吧拉姆涅斯！热血力量永恒！！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Death Army Mobile Suit",
+      "count": 1
+     },
+     {
+      "name": "Death Birdy",
+      "count": 1
+     },
+     {
+      "name": "Signikus (Chaos)",
+      "count": 1
+     },
+     {
+      "name": "Gundam Head",
+      "count": 4
+     },
+     {
+      "name": "Devil Wallteria",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "（原文未注明触发条件）",
+      "units": [],
+      "note": "This gets its own little write up. Basically, every turn that one of the initial set of enemies is not present, an enemy reinforcement will replace it. This will not keep up indefinitely, but it will for a long time. Basically, if you take out a Gundam Head, it will simply grow back the next turn."
+     },
+     {
+      "trigger": "Devil Wallteria shot down",
+      "units": [
+       {
+        "name": "Signikus Mass Produced Model",
+        "count": 3
+       },
+       {
+        "name": "Alsugnos (Amane)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "（原文未注明触发条件）",
+      "units": [],
+      "note": "The reinforcements rule is now in effect again, more or less. If a Gundam Head or Signikus is missing, it will be replaced once per turn."
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2826,7 +5665,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2871,15 +5710,83 @@
     "第33话《我们的梦想绝对无敌！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Monsquar Medusa",
+      "count": 10
+     },
+     {
+      "name": "Monsquar Neptune",
+      "count": 8
+     },
+     {
+      "name": "Calamity God Gobriki (Don Harumage)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Turn 4, and every turn thereafter",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Calamity God Gobriki shot down",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 7
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 7
+       },
+       {
+        "name": "Calamity God Gobriki Dragon Form (Don Harumage)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Two turns afterward and every turn after",
+      "units": [
+       {
+        "name": "Monsquar Medusa",
+        "count": 3
+       },
+       {
+        "name": "Monsquar Neptune",
+        "count": 3
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2905,7 +5812,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -2959,15 +5866,109 @@
     "第34话《用心灵的力量迎战！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Egizost",
+      "count": 4
+     },
+     {
+      "name": "Cycler",
+      "count": 4
+     },
+     {
+      "name": "Dogan",
+      "count": 2
+     },
+     {
+      "name": "Yoroidel",
+      "count": 2
+     },
+     {
+      "name": "Giant Arkdama",
+      "count": 3
+     },
+     {
+      "name": "Jack Satan (Belzef)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2 Arkdama's shot down",
+      "units": [
+       {
+        "name": "Cycler",
+        "count": 3
+       },
+       {
+        "name": "Egizost",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All Arkdamas shot down",
+      "units": [
+       {
+        "name": "Cycler",
+        "count": 3
+       },
+       {
+        "name": "Egizost",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 8
+       },
+       {
+        "name": "Cycler",
+        "count": 6
+       },
+       {
+        "name": "Emperor Wallzar",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Emperor Wallzar reduced by ~100K HP",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 8
+       },
+       {
+        "name": "Cycler",
+        "count": 6
+       }
+      ],
+      "note": "Wallzar regenerates 54K HP"
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -2997,7 +5998,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -3037,15 +6038,77 @@
     "第35话《最终之战！机械化城》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo",
+      "count": 3
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gandofara",
+      "count": 6
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "2 enemies remain",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 3
+       },
+       {
+        "name": "Gatling Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Gandfara",
+        "count": 4
+       },
+       {
+        "name": "Dark GoSaurer",
+        "count": 5
+       },
+       {
+        "name": "Dark GoSaurer (Magnet King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Magnet King shot down",
+      "units": [
+       {
+        "name": "Gandfara",
+        "count": 8
+       },
+       {
+        "name": "Gildabo (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3071,7 +6134,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -3121,15 +6184,99 @@
     "第36话《永远热血最强！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo",
+      "count": 3
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gandofara",
+      "count": 2
+     },
+     {
+      "name": "Gildabo (Engine king)",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Engine King shot down",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 3
+       },
+       {
+        "name": "Gatling Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Gandfara",
+        "count": 4
+       },
+       {
+        "name": "Mecha Castle Dragon",
+        "count": 4
+       },
+       {
+        "name": "Mecha Castle (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "1 Dragon shot down",
+      "units": [
+       {
+        "name": "Gandofara",
+        "count": 4
+       }
+      ],
+      "note": "King GoSaurer retreats"
+     },
+     {
+      "trigger": "All enemies except for Mecha Castle shot down",
+      "units": [
+       {
+        "name": "Gandofara",
+        "count": 2
+       },
+       {
+        "name": "Sword Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Dark GoSaurer",
+        "count": 2
+       },
+       {
+        "name": "Gildabo (Engine King)",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3155,7 +6302,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -3194,15 +6341,91 @@
     "第37话（阿斯提亚线）与第38话（阿斯提亚线），或第37话（地球线）《揭露！大魔界的大秘密！》与第38话（地球线）（关后二选一）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Balanced Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gatling Bolt Robo",
+      "count": 2
+     },
+     {
+      "name": "Gandofara",
+      "count": 2
+     },
+     {
+      "name": "Dark GoSaurer",
+      "count": 4
+     },
+     {
+      "name": "Kikaishin",
+      "count": 1
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Kikaishin reduced to ~210K HP",
+      "units": [
+       {
+        "name": "Balanced Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Gatling Bolt Robo",
+        "count": 2
+       },
+       {
+        "name": "Sword Bolt robo",
+        "count": 5
+       },
+       {
+        "name": "Dark GoSaurer",
+        "count": 3
+       }
+      ],
+      "note": "Kikaishin regenerates ~84K HP"
+     },
+     {
+      "trigger": "Kikaishin reduced to ~80K HP",
+      "units": [
+       {
+        "name": "Gandofara",
+        "count": 5
+       },
+       {
+        "name": "Dark GoSaurer",
+        "count": 4
+       }
+      ],
+      "note": "Kikaishin regenerates ~64K HP"
+     },
+     {
+      "trigger": "All enemies except for KikaiShin shot down",
+      "units": [
+       {
+        "name": "Dark GoSaurer",
+        "count": 7
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3228,7 +6451,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -3352,15 +6575,65 @@
     "第38话（地球线）《我们元气爆发！》"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Dogan",
+      "count": 6
+     },
+     {
+      "name": "Yoroidel",
+      "count": 5
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "Six enemies remain",
+      "units": [
+       {
+        "name": "Egizost",
+        "count": 4
+       },
+       {
+        "name": "Cycler",
+        "count": 3
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "All enemy units shot down",
+      "units": [
+       {
+        "name": "Metal Knight Gunner",
+        "count": 6
+       },
+       {
+        "name": "Metal Knight Barbados",
+        "count": 8
+       },
+       {
+        "name": "Dol Gaisto",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3386,7 +6659,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
@@ -3514,15 +6787,87 @@
     "第39话《邪神复活》（合流）"
    ],
    "enemies": {
-    "status": "敌方编成单一来源（CO_Adder，GameFAQs faqs/58348）暂不刊载，待用户裁决",
+    "status": "已导入（单一来源）",
     "verified": false,
     "notes": [
      "敌方编成（初期敌单位名×数量、增援单位与触发条件）只有 CO_Adder 的 GameFAQs 攻略（faqs/58348）一家刊载且覆盖本关，按本站「双源交叉才刊载」的惯例暂不导入，列为待用户裁决事项；该攻略不列敌方等级、HP 与资金（本作敌方详细情报在游戏内本就不可见，也不存在侦察类精神）。",
-     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。"
+     "本作采用无格子 3D 地图（半径移动），不存在格子坐标系——任何来源都不可能给出敌方 (x,y) 坐标，逐格地形这一概念在本作同样不存在（地图要素是障碍物与高低段差）。",
+     "已按用户 2026-10-24 批复导入：单一来源数据（CO_Adder，GameFAQs faqs/58348），未经第二来源交叉核对；机体名为来源英文原名，暂未译中文；无等级/HP/资金列；本作无格子、无坐标，配置仅作参考。"
     ],
     "state": "single",
     "singleName": "CO_Adder 的 GameFAQs 攻略（faqs/58348）",
-    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。"
+    "singleDesc": "该攻略为作者自通关记录，逐关固定列出我方单位、敌方单位（名称×数量）与增援（单位与触发条件，如「击破2机」「第4回合」「某Boss HP 低于阈值」），覆盖第1话至第38话（含第5、21、22、28话的双版本与第37、38话的地球线版本）；但它只此一家、全站没有第二家来源可交叉核对。",
+    "importedSingleSource": true,
+    "singleSource": {
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
+     "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
+    },
+    "rows": [
+     {
+      "name": "Egizost",
+      "count": 10
+     },
+     {
+      "name": "Cycler",
+      "count": 6
+     }
+    ],
+    "reinforcements": [
+     {
+      "trigger": "All enemies shot down",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 4
+       },
+       {
+        "name": "Yoroidel",
+        "count": 6
+       },
+       {
+        "name": "Emperor Saiaak",
+        "count": 1
+       },
+       {
+        "name": "Emperor Rezaak",
+        "count": 1
+       },
+       {
+        "name": "Emperor Gokaak",
+        "count": 1
+       }
+      ],
+      "note": ""
+     },
+     {
+      "trigger": "Any emperor reduced below ~200K HP",
+      "units": [],
+      "note": "Each one regenerates 40K HP"
+     },
+     {
+      "trigger": "Any emperor reduced below ~120K HP",
+      "units": [],
+      "note": "Each one regenerates 40K HP"
+     },
+     {
+      "trigger": "All three emperors shot down",
+      "units": [
+       {
+        "name": "Dogan",
+        "count": 6
+       },
+       {
+        "name": "Yoroidel",
+        "count": 7
+       },
+       {
+        "name": "Emperor Gokaak",
+        "count": 1
+       }
+      ],
+      "note": ""
+     }
+    ]
    },
    "allyUnits": [],
    "map": {
@@ -3548,7 +6893,7 @@
      "url": "https://srw.wiki.cre.jp/wiki/%E5%85%A8%E8%A9%B1%E4%B8%80%E8%A6%A7/NEO"
     },
     {
-     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站未导入、待裁决）",
+     "name": "CO_Adder — Super Robot Taisen Neo Guide and Walkthrough（GameFAQs faqs/58348；敌方编成的单一来源，覆盖至第38话地球线，本站已按用户批复导入（单一来源标注））",
      "url": "https://gamefaqs.gamespot.com/wii/960812-super-robot-taisen-neo/faqs/58348"
     }
    ],
